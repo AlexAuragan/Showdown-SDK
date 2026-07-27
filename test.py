@@ -10,8 +10,9 @@ from python_showdown.classes.combat.random import RandomMoveCombatHandler
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 1000
-FORMAT = "gen1randombattle"
+BATTLE_COUNT = 50
+# FORMAT = "gen1randombattle"
+FORMAT = "gen2randombattle"
 ERROR_LOG = Path("simulation_errors.log")
 
 

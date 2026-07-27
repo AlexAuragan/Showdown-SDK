@@ -233,7 +233,7 @@ class Client:
                         )
                     except Exception as e:
                         self.log_manager.errors.exception(
-                            "Failed to handle protocol line: %r", line,
+                            "Error: Failed to handle protocol line: %r", line,
                             extra={"room_id": self.room_id}
                         )
 

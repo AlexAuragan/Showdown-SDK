@@ -14,6 +14,7 @@ class BattleState:
         self._curr_enemy_pokemon: str = ""
         self._available_moves: list[AvailableMove] = []
         self.force_switch: bool = False
+        self.weather: str | None = None
 
     def get_pokemon(self, pokemon_id: str) -> PartyPokemon:
         for pokemon in self.team:
@@ -79,7 +80,7 @@ class BattleState:
         assert pokemon is not None
         pokemon.witness_move(move)
 
-    def witness_switch_in(self, pokemon_id: str, lvl: int) -> None:
+    def witness_switch_in(self, pokemon_id: str, lvl: int, gender: str | None = None) -> None:
         # The previously-active enemy is no longer on the field.
         for p in self.enemy_team:
             if p.active:
@@ -87,7 +88,7 @@ class BattleState:
 
         pokemon = self.get_enemy_pokemon(pokemon_id=pokemon_id, not_found_ok=True)
         if pokemon is None:
-            pokemon = EnemyPokemon(id=pokemon_id, lvl=lvl, active=True)
+            pokemon = EnemyPokemon(id=pokemon_id, lvl=lvl, active=True, gender=gender)
             idx = None
             for i, p in enumerate(self.enemy_team):
                 if p.id == Unknown.VALUE:
@@ -113,21 +114,7 @@ class BattleState:
         pokemon = self.get_enemy_pokemon(pokemon_id)
         assert pokemon is not None
 
-        index = self.enemy_team.index(pokemon)
+        pokemon.transformed_into = target_id
 
-        _target_slot, target_species = target_id.split(": ", 1)
-        player_slot = pokemon_id.split(": ", 1)[0]
-
-        transformed_id = f"{player_slot}: {target_species}"
-
-        transformed = EnemyPokemon(
-            id=transformed_id,
-            lvl=pokemon.lvl,
-            active=True,
-        )
-
-        transformed.curr_hp_percent = pokemon.curr_hp_percent
-        transformed.status = pokemon.status
-
-        self._enemy_team[index] = transformed
-        self._curr_enemy_pokemon = transformed_id
+        # Ditto keeps its original identity.
+        self._curr_enemy_pokemon = pokemon_id

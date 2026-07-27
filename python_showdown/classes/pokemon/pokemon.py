@@ -26,6 +26,7 @@ class PartyPokemon:
 @dataclass
 class EnemyPokemon:
     active: bool
+    gender: str | None = None
     id: str | Unknown = Unknown.VALUE
     lvl: int | Unknown = Unknown.VALUE
     curr_hp_percent: int = 100
@@ -34,11 +35,13 @@ class EnemyPokemon:
     item: str | Unknown = Unknown.VALUE
     status: Status = field(default_factory=Status)
     learnt_moves: list[str | Unknown] = field(default_factory=lambda: [Unknown.VALUE] * 4)
-    replaced_moves: dict[str | Unknown, str] = field(default_factory=dict)
+    temporary_moves: list[str] = field(default_factory=list)
+    transformed_into: str | None = None
+
 
     @property
     def available_moves(self):
-        return [self.replaced_moves.get(move, move) for move in self.learnt_moves]
+        return self.learnt_moves + self.temporary_moves
 
     def witness_move(self, move: str):
         if move in self.available_moves:
@@ -47,5 +50,13 @@ class EnemyPokemon:
         if Unknown.VALUE not in self.learnt_moves:
             raise ValueError(f"Witnessed move {move} for pokemon {self} but got already all the moves set")
 
+        if self.transformed_into is not None and move not in self.temporary_moves:
+                self.temporary_moves.append(move)
+                return
         self.learnt_moves.remove(Unknown.VALUE)
         self.learnt_moves.append(move)
+
+    def reset_on_switch_in(self):
+        self.status.reset_on_switch()
+        self.transformed_into = None
+        self.temporary_moves = []

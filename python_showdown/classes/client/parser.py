@@ -111,6 +111,10 @@ class LogHandler:
             self._handle_switch_in(client, line)
             return
 
+        if line.startswith("|drag|"):
+            self._handle_drag(client, line)
+            return
+
         if line.startswith("|player|"):
             self._handle_player(client, line)
             return
@@ -172,6 +176,14 @@ class LogHandler:
 
         if line.startswith("|-prepare|"):
             self._handle_prepare(client, line)
+            return
+
+        if line.startswith("|-activate|"):
+            self._handle_activate(client, line)
+            return
+
+        if line.startswith("|-weather|"):
+            self._handle_weather(client, line)
             return
 
         client.log_manager.battle.debug(
@@ -265,7 +277,7 @@ class LogHandler:
                         id=move["id"],
                         curr_pp=move.get("pp", 100),
                         max_pp=move.get("maxpp", 100),
-                        target=move.get("target", "self"),
+                        target=move.get("target", "normal"),
                         disabled=False,
                     )
                 )
@@ -277,7 +289,7 @@ class LogHandler:
                             id=raw_move["id"],
                             curr_pp=raw_move["pp"],
                             max_pp=raw_move["maxpp"],
-                            target=raw_move["target"],
+                            target=raw_move.get("target", "normal"),
                             disabled=raw_move["disabled"],
                         )
                     )
@@ -306,7 +318,7 @@ class LogHandler:
                     id=raw_pkmn["ident"],
                     details=raw_pkmn["details"],
                     lvl=(
-                        int(raw_pkmn["details"].split(", L")[1])
+                        int(raw_pkmn["details"].replace(", M", "").replace(", F", "").split(", L")[1])
                         if ", L" in raw_pkmn["details"]
                         else 100
                     ),  # Can happen for ditto in gen 1
@@ -353,9 +365,18 @@ class LogHandler:
         client.combat_handler.battle_state.witness_move(move)
 
     def _handle_switch_in(self, client: Client, line: str):
-        ident, details, _hp = line.removeprefix("|switch|").split("|")
+        ident, details, _hp, *_ = line.removeprefix("|switch|").split("|")
         player, _species = ident.split(": ")
-        # Ditto doesn't have a level in gen 1 it seems.
+        gender: str | None = None
+        if ", M" in details:
+            gender = "M"
+            details = details.replace(", M", "")
+        elif ", L" in details:
+            gender = "L"
+            details = details.replace(", F", "")
+        else:
+            gender = None
+        # Ditto doesn't have a level in gen 1.
         if ", L" in details:
             lvl = int(details.split(", L")[1])
         else:
@@ -365,12 +386,12 @@ class LogHandler:
             client.battle_player_id
         ):
             battle_state = client.combat_handler.battle_state
-            battle_state.witness_switch_in(ident, lvl)
+            battle_state.witness_switch_in(ident, lvl, gender=gender)
             enemy = battle_state.get_enemy_pokemon(
                 battle_state.curr_enemy_pokemon, not_found_ok=True
             )
             if enemy is not None:
-                enemy.status.reset_on_switch()
+                enemy.reset_on_switch_in()
 
     def _handle_player(self, client: Client, line: str):
         slot, name = line.removeprefix("|player|").split("|", 2)[:2]
@@ -393,9 +414,9 @@ class LogHandler:
 
 
     def _handle_boost(self, client: Client, line: str, unboost: bool) -> None:
-        pokemon_id, stat, n = line.removeprefix(
+        pokemon_id, stat, n, *_ = line.removeprefix(
             "|-" + ("unboost" if unboost else "boost") + "|"
-        ).split("|", 3)
+        ).split("|")
         pokemon = self._resolve_enemy(client, pokemon_id)
         if pokemon is None:
             return
@@ -547,7 +568,7 @@ class LogHandler:
         if effect == "Mimic":
             # |-start|p2a: Vaporeon|Mimic|Earthquake
             move = parts[2]
-            pokemon.replaced_moves["Mimic"] = move
+            pokemon.temporary_moves.append(move)
         elif effect == "confusion":
             pokemon.status.set_conf()
         elif effect == "Substitute":
@@ -584,3 +605,33 @@ class LogHandler:
                 "Unhandled -end effect %r", line,
                 extra={"room_id": client.room_id},
             )
+
+    def _handle_drag(self, client: Client, line: str) -> None:
+        switch_line = "|switch|" + line.removeprefix("|drag|")
+        self._handle_switch_in(client, switch_line)
+
+    def _handle_activate(self, client: Client, line: str) -> None:
+        parts = line.removeprefix("|-activate|").split("|")
+
+        if len(parts) < 2:
+            raise RuntimeError(f"Malformed activate message: {line!r}")
+
+        pokemon_id = parts[0]
+        effect = parts[1]
+
+        pokemon = self._resolve_enemy(client, pokemon_id)
+        if pokemon is None:
+            return
+
+        if effect == "move: Mimic":
+            if len(parts) < 3:
+                raise RuntimeError(f"Malformed Mimic activation: {line!r}")
+
+            copied_move = parts[2]
+            pokemon.temporary_moves.append(copied_move)
+
+
+    def _handle_weather(self, client: Client, line: str) -> None:
+        # |-weather|SunnyDay
+        weather = line.removeprefix("|-weather").removesuffix("|[upkeep]").strip("|")
+        client.combat_handler.battle_state.weather = weather if weather != "none" else None
