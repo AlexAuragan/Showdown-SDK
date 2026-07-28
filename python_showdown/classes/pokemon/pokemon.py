@@ -27,6 +27,7 @@ class PartyPokemon:
 class EnemyPokemon:
     active: bool
     gender: str | None = None
+    shiny: bool = False
     id: str | Unknown = Unknown.VALUE
     lvl: int | Unknown = Unknown.VALUE
     curr_hp_percent: int = 100

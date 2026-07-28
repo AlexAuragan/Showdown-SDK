@@ -81,15 +81,16 @@ class BattleFileHandler(logging.Handler):
 
 
 class LogManager:
-    def __init__(self) -> None:
+    def __init__(self, tag: str | None = None) -> None:
+        suffix = f".{tag}" if tag else ""
         self.protocol = logging.getLogger(
-            "python_showdown.protocol"
+            f"python_showdown.protocol{suffix}"
         )
         self.battle = logging.getLogger(
-            "python_showdown.battle"
+            f"python_showdown.battle{suffix}"
         )
         self.errors = logging.getLogger(
-            "python_showdown.errors"
+            f"python_showdown.errors{suffix}"
         )
 
         self._loggers = (

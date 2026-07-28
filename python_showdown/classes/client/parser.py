@@ -2,7 +2,12 @@ import json
 from typing import TYPE_CHECKING
 
 from python_showdown.classes.pokemon.moves import AvailableMove
-from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon, Stats
+from python_showdown.classes.pokemon.pokemon import (
+    EnemyPokemon,
+    PartyPokemon,
+    Stats,
+    Unknown,
+)
 from python_showdown.classes.pokemon.stats import Status
 
 from .utils import parse_formats
@@ -51,6 +56,40 @@ class LogHandler:
         curr_str, _max_str = head.split("/", 1)
         return int(curr_str), fainted
 
+    def _handle_item_reveal(self, client: Client, line: str) -> None:
+        parts = line.split("|")
+
+        item = next(
+            (
+                part.removeprefix("[from] item: ")
+                for part in parts
+                if part.startswith("[from] item: ")
+            ),
+            None,
+        )
+        if item is None:
+            return
+
+        pokemon_id = next(
+            (
+                part.removeprefix("[of] ")
+                for part in parts
+                if part.startswith("[of] ")
+            ),
+            None,
+        )
+
+        # Most item effects target the Pokémon named immediately after the command.
+        if pokemon_id is None and len(parts) >= 3:
+            pokemon_id = parts[2]
+
+        if pokemon_id is None:
+            return
+
+        pokemon = self._resolve_enemy(client, pokemon_id)
+        if pokemon is not None:
+            pokemon.item = item
+
     async def handle_line(self, client: Client, line: str) -> None:
 
         if line == "|":
@@ -79,6 +118,9 @@ class LogHandler:
         if line.startswith(">"):
             client.room_id = line.removeprefix(">")
             return
+
+        self._handle_item_reveal(client, line) # The item reveal can be in any line, so we catch them here
+        # ex: |-heal|p2a: Snorlax|76/100|[from] item: Leftovers
 
         if line.startswith("|init|battle"):
             client.active_battle_room = client.room_id
@@ -184,6 +226,14 @@ class LogHandler:
 
         if line.startswith("|-weather|"):
             self._handle_weather(client, line)
+            return
+
+        if line.startswith("|-item|"):
+            self._handle_item(client, line)
+            return
+
+        if line.startswith("|-enditem|"):
+            self._handle_end_item(client, line)
             return
 
         client.log_manager.battle.debug(
@@ -368,6 +418,10 @@ class LogHandler:
         ident, details, _hp, *_ = line.removeprefix("|switch|").split("|")
         player, _species = ident.split(": ")
         gender: str | None = None
+        shiny = False
+        if ", shiny" in details:
+            shiny = True
+            details = details.replace(", shiny", "")
         if ", M" in details:
             gender = "M"
             details = details.replace(", M", "")
@@ -386,7 +440,7 @@ class LogHandler:
             client.battle_player_id
         ):
             battle_state = client.combat_handler.battle_state
-            battle_state.witness_switch_in(ident, lvl, gender=gender)
+            battle_state.witness_switch_in(ident, lvl, gender=gender, shiny=shiny)
             enemy = battle_state.get_enemy_pokemon(
                 battle_state.curr_enemy_pokemon, not_found_ok=True
             )
@@ -632,6 +686,37 @@ class LogHandler:
 
 
     def _handle_weather(self, client: Client, line: str) -> None:
-        # |-weather|SunnyDay
-        weather = line.removeprefix("|-weather").removesuffix("|[upkeep]").strip("|")
+        # |-weather|SunnyDay                -> SunnyDay
+        # |-weather|SunnyDay|[upkeep]      -> SunnyDay (upkeep marker, no state change)
+        # |-weather|RainDance|[from] move: Rain Dance -> RainDance
+        # |-weather|none                   -> None (weather cleared)
+        parts = line.removeprefix("|-weather|").split("|", 2)
+        weather = parts[0] if parts else ""
         client.combat_handler.battle_state.weather = weather if weather != "none" else None
+
+    def _handle_item(self, client: Client, line: str) -> None:
+        parts = line.removeprefix("|-item|").split("|")
+        if len(parts) < 2:
+            return
+
+        pokemon_id = parts[0]
+        item = parts[1]
+
+        pokemon = self._resolve_enemy(client, pokemon_id)
+        if pokemon is not None:
+            pokemon.item = item
+
+
+    def _handle_end_item(self, client: Client, line: str) -> None:
+        parts = line.removeprefix("|-enditem|").split("|")
+        if len(parts) < 2:
+            return
+
+        pokemon_id = parts[0]
+        item = parts[1]
+
+        pokemon = self._resolve_enemy(client, pokemon_id)
+        if pokemon is not None:
+            if pokemon.item != item and pokemon.item != Unknown.VALUE:
+                raise RuntimeError(f"The item help by the pokemon in the logs is not the one in the battle state, {pokemon.item=} vs {item=}")
+            pokemon.item = None

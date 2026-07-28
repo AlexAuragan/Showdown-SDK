@@ -10,9 +10,10 @@ from python_showdown.classes.combat.random import RandomMoveCombatHandler
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 50
+BATTLE_COUNT = 1000
 # FORMAT = "gen1randombattle"
-FORMAT = "gen2randombattle"
+# FORMAT = "gen2randombattle"
+FORMAT = "gen3randombattle"
 ERROR_LOG = Path("simulation_errors.log")
 
 
@@ -57,11 +58,12 @@ async def run_battle(
 
 
 async def main() -> None:
-    logs = LogManager()
+    logs_1 = LogManager(tag="BOT1")
+    logs_2 = LogManager(tag="BOT2")
 
     # One file per battle room holding the raw server output (TRACE on
     # the protocol logger) -> logs/battle/raw/<room_id>.txt
-    logs.add_handler(
+    logs_1.add_handler(
         create_battle_file_handler(
             Path("logs/battle/raw"),
             level=TRACE,
@@ -71,22 +73,22 @@ async def main() -> None:
 
     # One file per battle room holding info/debug/error logging for the
     # battle and errors loggers -> logs/battle/info/<room_id>.txt
-    logs.add_handler(
+    logs_1.add_handler(
         create_battle_file_handler(
             Path("logs/battle/info"),
             level=logging.DEBUG,
         ),
-        loggers=(logs.battle, logs.errors),
+        loggers=(logs_1.battle, logs_1.errors),
     )
     client_1 = Client(
         WEBSOCKET_URL,
         combat_handler=RandomMoveCombatHandler(),
-        log_manager=logs
+        log_manager=logs_1
     )
     client_2 = Client(
         WEBSOCKET_URL,
         combat_handler=RandomMoveCombatHandler(),
-        log_manager=logs
+        log_manager=logs_2
     )
 
     results: list[dict[str, object]] = []

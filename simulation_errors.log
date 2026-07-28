@@ -1,0 +1,42 @@
+
+================================================================================
+Battle 3 failed
+Format: gen3randombattle
+Traceback (most recent call last):
+  File "/home/alex/Projects/showdown/test.py", line 113, in main
+    result = await run_battle(
+             ^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/alex/Projects/showdown/test.py", line 53, in run_battle
+    await battle_waiter
+TimeoutError: 'BOT1' did not act within 5.0s on turn 1 in room 'battle-gen3randombattle-7910'. The battle request may not have been parsed.
+
+================================================================================
+Battle 14 failed
+Format: gen3randombattle
+Traceback (most recent call last):
+  File "/home/alex/Projects/showdown/test.py", line 113, in main
+    result = await run_battle(
+             ^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/alex/Projects/showdown/test.py", line 53, in run_battle
+    await battle_waiter
+TimeoutError: 'BOT1' did not act within 5.0s on turn 1 in room 'battle-gen3randombattle-8032'. The battle request may not have been parsed.
+
+================================================================================
+Battle 45 failed
+Format: gen3randombattle
+Traceback (most recent call last):
+  File "/home/alex/Projects/showdown/test.py", line 113, in main
+    result = await run_battle(
+             ^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/alex/Projects/showdown/test.py", line 53, in run_battle
+    await battle_waiter
+TimeoutError: 'BOT1' did not act within 5.0s on turn 1 in room 'battle-gen3randombattle-8163'. The battle request may not have been parsed.

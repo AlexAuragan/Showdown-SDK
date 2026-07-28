@@ -1,5 +1,17 @@
+import json
+from dataclasses import asdict, is_dataclass
+from enum import Enum
+
 from python_showdown.classes.pokemon.moves import AvailableMove
 from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+
+
+def _json_default(obj):
+    if isinstance(obj, Enum):
+        return obj.value
+    if is_dataclass(obj) and not isinstance(obj, type):
+        return asdict(obj)
+    raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
 
 
 class BattleState:
@@ -15,6 +27,22 @@ class BattleState:
         self._available_moves: list[AvailableMove] = []
         self.force_switch: bool = False
         self.weather: str | None = None
+
+    def to_json(self) -> str:
+        return json.dumps(
+            {
+                "team": [asdict(p) for p in self._team],
+                "enemy_team": [asdict(p) for p in self._enemy_team],
+                "curr_pokemon": self._curr_pokemon,
+                "curr_enemy_pokemon": self._curr_enemy_pokemon,
+                "available_moves": [asdict(m) for m in self._available_moves],
+                "force_switch": self.force_switch,
+                "weather": self.weather,
+            },
+            indent=2,
+            sort_keys=True,
+            default=_json_default,
+        )
 
     def get_pokemon(self, pokemon_id: str) -> PartyPokemon:
         for pokemon in self.team:
@@ -80,7 +108,7 @@ class BattleState:
         assert pokemon is not None
         pokemon.witness_move(move)
 
-    def witness_switch_in(self, pokemon_id: str, lvl: int, gender: str | None = None) -> None:
+    def witness_switch_in(self, pokemon_id: str, lvl: int, gender: str | None = None, shiny: bool = False) -> None:
         # The previously-active enemy is no longer on the field.
         for p in self.enemy_team:
             if p.active:
@@ -88,7 +116,7 @@ class BattleState:
 
         pokemon = self.get_enemy_pokemon(pokemon_id=pokemon_id, not_found_ok=True)
         if pokemon is None:
-            pokemon = EnemyPokemon(id=pokemon_id, lvl=lvl, active=True, gender=gender)
+            pokemon = EnemyPokemon(id=pokemon_id, lvl=lvl, active=True, gender=gender, shiny=shiny)
             idx = None
             for i, p in enumerate(self.enemy_team):
                 if p.id == Unknown.VALUE:
