@@ -1,7 +1,10 @@
 import json
 from collections.abc import Callable
+from typing import TYPE_CHECKING
 
-from python_showdown.classes.client.client import Client
+if TYPE_CHECKING:
+    from python_showdown.classes.client.client import Client
+
 from python_showdown.classes.client.utils import (
     parse_formats,
     parse_hp,
