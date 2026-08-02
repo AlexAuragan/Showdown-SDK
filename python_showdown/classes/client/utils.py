@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from itertools import groupby
 from typing import TYPE_CHECKING
 
@@ -9,6 +10,10 @@ if TYPE_CHECKING:
 from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon
 
 from .dt import Format, FormatFlag
+
+# `p1a: Miltank` -> `p1: Miltank`: strip the single slot letter that action
+# lines carry but `|request|` side-level idents do not.
+_SLOT_RE = re.compile(r"^(p\d+)[a-h](: )")
 
 
 def split_protocol(
@@ -182,7 +187,7 @@ def resolve_enemy(client: Client, pokemon_id: str) -> EnemyPokemon | None:
     player, _species = pokemon_id.split(": ", 1)
     if player.startswith(client.battle_player_id):
         return None
-    return client.combat_handler.battle_state.get_enemy_pokemon(
+    return client.battle_state.get_enemy_pokemon(
         pokemon_id, not_found_ok=True
     )
 
@@ -196,8 +201,11 @@ def resolve_self(client: Client, pokemon_id: str) -> PartyPokemon | None:
         return None
     if not player.startswith(client.battle_player_id):
         return None
-    state = client.combat_handler.battle_state
-    return next((p for p in state.team if p.id == pokemon_id), None)
+    # Action lines address our pokemon with a slot letter (`p1a: Miltank`) while
+    # `|request|` reports side-level idents without it (`p1: Miltank`). Strip the
+    # slot letter so the action id lines up with `PartyPokemon.id`.
+    normalized = _SLOT_RE.sub(r"\1\2", pokemon_id)
+    return next((p for p in client.battle_state.team if p.id == normalized), None)
 
 
 def parse_hp(raw: str) -> tuple[int, bool]:

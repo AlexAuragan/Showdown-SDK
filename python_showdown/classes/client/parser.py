@@ -41,7 +41,7 @@ class Parser:
             ("|-formechange|", self._handle_formechange, {}),
             ("|-sidestart|", self._handle_sidestart, {}),
             ("|-sideend|", self._handle_sideend, {}),
-            ("|-start|", self._handle_star, {}),
+            ("|-start|", self._handle_start, {}),
             ("|-end|", self._handle_end, {}),
             ("|-boost|", self._handle_boost, {"unboost": False}),
             ("|-unboost|", self._handle_boost, {"unboost": True}),
