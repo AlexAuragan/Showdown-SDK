@@ -1,6 +1,11 @@
-from itertools import groupby
+from __future__ import annotations
 
-from python_showdown.classes.client.client import Client
+from itertools import groupby
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from python_showdown.classes.client.client import Client
+
 from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon
 
 from .dt import Format, FormatFlag
