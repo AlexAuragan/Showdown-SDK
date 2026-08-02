@@ -1,9 +1,12 @@
-# python_showdown
+# Showdown SDK
 
-A lightweight Python client for [Pokémon Showdown](https://pokemonshowdown.com/),
-built around the websocket protocol the server speaks. `python_showdown` connects
-to a Showdown server, drives one or more battles, and exposes the in-battle state
-that the protocol reveals so you can plug in your own decision logic.
+An SDK for building [Pokémon Showdown](https://pokemonshowdown.com/) bots in
+Python. `showdown-sdk` connects to a Showdown server over the websocket
+protocol the server speaks, drives one or more battles, and exposes the
+in-battle state that the protocol reveals so you can plug in your own decision
+logic. The library handles the plumbing — connection, login, room tracking,
+protocol parsing, action timeouts, and a structured battle-state model — while
+you implement a single `select_action(battle_state)` hook to drive your AI.
 
 The library is split into three layers:
 
