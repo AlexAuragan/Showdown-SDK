@@ -14,6 +14,8 @@ BATTLE_COUNT = 1000
 # FORMAT = "gen1randombattle"
 # FORMAT = "gen2randombattle"
 FORMAT = "gen3randombattle"
+# FORMAT = "gen4randombattle"
+
 ERROR_LOG = Path("simulation_errors.log")
 
 
@@ -38,10 +40,9 @@ async def run_battle(
 
         print(
             f"Battle {battle_number}/{BATTLE_COUNT}: "
-            + f"winner={result.winner}, "
-            + f"turns={result.move_count}, "
-            + f"duration={result.duration_seconds:.4f}s, "
-            + f"average={result.average_seconds_per_move:.6f}s/turn"
+            f"winner={result.winner}, turns={result.move_count}, "
+            f"duration={result.duration_seconds:.4f}s, "
+            f"average={result.average_seconds_per_move:.6f}s/turn"
         )
 
         return asdict(result)
@@ -83,12 +84,12 @@ async def main() -> None:
     client_1 = Client(
         WEBSOCKET_URL,
         combat_handler=RandomMoveCombatHandler(),
-        log_manager=logs_1
+        log_manager=logs_1,
     )
     client_2 = Client(
         WEBSOCKET_URL,
         combat_handler=RandomMoveCombatHandler(),
-        log_manager=logs_2
+        log_manager=logs_2,
     )
 
     results: list[dict[str, object]] = []
@@ -162,7 +163,6 @@ async def main() -> None:
             print(
                 f"Average time per turn: {average_turn_duration:.6f}s"
             )
-
 
     finally:
         await asyncio.gather(

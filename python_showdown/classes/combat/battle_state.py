@@ -2,13 +2,31 @@ import json
 from dataclasses import asdict, is_dataclass
 from enum import Enum
 
+from python_showdown.classes.combat.move_history import MoveEvent
 from python_showdown.classes.pokemon.moves import AvailableMove
 from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+
+
+class SideCondition(str, Enum):
+    """
+    Entry hazards / side-wide effects sent via `|-sidestart|`/`|-sideend|`.
+    """
+
+    SPIKES = "Spikes"
+    TOXIC_SPIKES = "Toxic Spikes"
+    STEALTH_ROCK = "Stealth Rock"
+    REFLECT = "Reflect"
+    SAFEGUARD = "Safeguard"
+    LIGHT_SCREEN = "Light Screen"
 
 
 def _json_default(obj):
     if isinstance(obj, Enum):
         return obj.value
+    if isinstance(obj, (set, frozenset)):
+        # Status.minor is a set[MinorStatus]; sort by the enum's server token
+        # for stable snapshot output.
+        return sorted(o.value if isinstance(o, Enum) else o for o in obj)
     if is_dataclass(obj) and not isinstance(obj, type):
         return asdict(obj)
     raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
@@ -27,6 +45,10 @@ class BattleState:
         self._available_moves: list[AvailableMove] = []
         self.force_switch: bool = False
         self.weather: str | None = None
+        self.side_conditions: dict[str, dict[SideCondition, int]] = {}
+
+        # Append-only record of each resolved move and its coarse outcome.
+        self.move_history: list[MoveEvent] = []
 
     def to_json(self) -> str:
         return json.dumps(
@@ -38,6 +60,8 @@ class BattleState:
                 "available_moves": [asdict(m) for m in self._available_moves],
                 "force_switch": self.force_switch,
                 "weather": self.weather,
+                "side_conditions": self.side_conditions,
+                "move_history": [asdict(m) for m in self.move_history],
             },
             indent=2,
             sort_keys=True,
@@ -60,12 +84,10 @@ class BattleState:
 
     @property
     def team(self) -> list[PartyPokemon]:
-        assert len(self._team) <=6, self._team
         return self._team
 
     @property
     def enemy_team(self) -> list[EnemyPokemon]:
-        assert len(self._enemy_team) <= 6
         return self._enemy_team
 
     @property
@@ -91,6 +113,8 @@ class BattleState:
         self._curr_enemy_pokemon = ""
         self._available_moves = []
         self.force_switch = False
+        self.side_conditions = {}
+        self.move_history = []
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
         self._available_moves = moves
@@ -101,14 +125,20 @@ class BattleState:
     def witness_move(self, move: str) -> None:
         pokemon_name = self._curr_enemy_pokemon
 
-        if move.lower() in ["struggle"]:
+        if move.lower() == "struggle":
             return
 
         pokemon = self.get_enemy_pokemon(pokemon_name)
         assert pokemon is not None
         pokemon.witness_move(move)
 
-    def witness_switch_in(self, pokemon_id: str, lvl: int, gender: str | None = None, shiny: bool = False) -> None:
+    def witness_switch_in(
+        self,
+        pokemon_id: str,
+        lvl: int,
+        gender: str | None = None,
+        shiny: bool = False,
+    ) -> None:
         # The previously-active enemy is no longer on the field.
         for p in self.enemy_team:
             if p.active:
@@ -119,7 +149,7 @@ class BattleState:
             pokemon = EnemyPokemon(id=pokemon_id, lvl=lvl, active=True, gender=gender, shiny=shiny)
             idx = None
             for i, p in enumerate(self.enemy_team):
-                if p.id == Unknown.VALUE:
+                if p.id is Unknown.VALUE:
                     idx = i
                     break
             if idx is None:
@@ -138,11 +168,12 @@ class BattleState:
         self,
         pokemon_id: str,
         target_id: str,
+        copied_moves: list[str] | None = None,
     ) -> None:
         pokemon = self.get_enemy_pokemon(pokemon_id)
         assert pokemon is not None
 
         pokemon.transformed_into = target_id
-
-        # Ditto keeps its original identity.
-        self._curr_enemy_pokemon = pokemon_id
+        # The base moveset is wholly replaced by the copied set.
+        if copied_moves is not None:
+            pokemon.temporary_moves = list(copied_moves)

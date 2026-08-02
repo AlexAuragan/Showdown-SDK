@@ -1,6 +1,23 @@
 from itertools import groupby
 
+from python_showdown.classes.client.client import Client
+from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon
+
 from .dt import Format, FormatFlag
+
+
+def split_protocol(
+    line: str, prefix: str, *, min_parts: int, maxsplit: int = -1
+) -> list[str]:
+    """Split a protocol payload and fail loudly when required fields are missing."""
+    payload = line.removeprefix(prefix)
+    parts = payload.split("|", maxsplit) if maxsplit >= 0 else payload.split("|")
+    if len(parts) < min_parts:
+        raise RuntimeError(
+            f"Malformed {prefix.rstrip('|')} message: expected at least "
+            f"{min_parts} fields, got {len(parts)} in {line!r}"
+        )
+    return parts
 
 
 def parse_format_entry(
@@ -53,7 +70,7 @@ def parse_formats(line: str) -> list[Format]:
             else:
                 # Preserve unknown metadata instead of pretending
                 # it is a format.
-                print(f"Ignoring metadata: {entry!r}")
+                pass
 
         else:
             formats.append(
@@ -153,3 +170,39 @@ def _print_table(
         print(render_row(row))
 
     print(separator)
+
+def resolve_enemy(client: Client, pokemon_id: str) -> EnemyPokemon | None:
+    if not client.battle_player_id:
+        return None
+    player, _species = pokemon_id.split(": ", 1)
+    if player.startswith(client.battle_player_id):
+        return None
+    return client.combat_handler.battle_state.get_enemy_pokemon(
+        pokemon_id, not_found_ok=True
+    )
+
+def resolve_self(client: Client, pokemon_id: str) -> PartyPokemon | None:
+
+    if not client.battle_player_id:
+        return None
+    try:
+        player, _species = pokemon_id.split(": ", 1)
+    except ValueError:
+        return None
+    if not player.startswith(client.battle_player_id):
+        return None
+    state = client.combat_handler.battle_state
+    return next((p for p in state.team if p.id == pokemon_id), None)
+
+
+def parse_hp(raw: str) -> tuple[int, bool]:
+    raw = raw.strip()
+    if raw == "fnt":
+        return 0, True
+    fainted = raw.endswith("fnt")
+    head = raw.split()[0]
+    if "/" not in head:
+        # "0 fnt" with no slash.
+        return 0, True
+    curr_str, _max_str = head.split("/", 1)
+    return int(curr_str), fainted

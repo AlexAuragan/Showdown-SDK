@@ -11,7 +11,8 @@ import asyncio
 import re
 from pathlib import Path
 
-from python_showdown.classes.client.parser import LogHandler
+from python_showdown.classes.client.parser import Parser
+from python_showdown.classes.combat.battle_state import BattleState
 from python_showdown.classes.combat.random import RandomMoveCombatHandler
 from python_showdown.logger import LogManager
 
@@ -33,6 +34,7 @@ def battle_room_from_lines(lines: list[str]) -> str:
 
 class _ReadyStub:
     """Stand-in for asyncio.Event used by |updateuser|/|nametaken|."""
+
     def set(self) -> None: pass
     def clear(self) -> None: pass
     def wait(self): pass
@@ -49,20 +51,30 @@ class FakeClient:
     """
 
     def __init__(self, username: str = "BOT1") -> None:
+        # Mirror the surface that LogHandler touches off the real Client.
+        # The battle-lifecycle fields are grouped the same way as in
+        # Client.__init__ to make the single-battle contract visible here too.
+        # --- session state ---
         self.username = username
         self.combat_handler = RandomMoveCombatHandler()
         self.log_manager = LogManager()
         self.log_manager.disable()
-        self.log_handler = LogHandler()
+        self.log_handler = Parser()
+        self.named = True
+        self.formats = []
+        # --- challenge state ---
+        self.challenge_future = None
+        self.challenged_user = None
+        self.ready = _ReadyStub()
+        # --- battle lifecycle state (ONE BATTLE PER CLIENT AT A TIME) ---
         self.room_id = ""
         self.active_battle_room = ""
         self.battle_player_id = ""
         self.turn_count = 0
-        self.named = True
-        self.formats = []
-        self.challenge_future = None
-        self.challenged_user = None
-        self.ready = _ReadyStub()
+        # battle_state is owned by the client (mutated by the parser, read by
+        # the AI); request_id is the pending-decision plumbing.
+        self.battle_state = BattleState()
+        self.request_id: int | None = None
 
     # Stubs for the Client surface that handle_line touches.
     def start_action_timeout(self) -> None:
@@ -78,13 +90,13 @@ class FakeClient:
 
 def load_log_lines(log_path: Path) -> tuple[list[str], str]:
     raw = Path(log_path).read_text(encoding="utf-8").splitlines()
-    lines = [strip_timestamp(l) for l in raw if l.strip()]
+    lines = [strip_timestamp(line) for line in raw if line.strip()]
 
     room = battle_room_from_lines(lines)
     # Drop the room-management lines whose file ordering isn't the wire order.
     lines = [
-        l for l in lines
-        if not l.startswith(">battle-") and l != "|init|battle"
+        line for line in lines
+        if not line.startswith(">battle-") and line != "|init|battle"
     ]
 
     # Pre-set room state and reset combat exactly as |init|battle would have.
@@ -95,13 +107,16 @@ async def _replay(client: FakeClient, lines: list[str], room: str, stop_at: int 
     client.room_id = room
     client.active_battle_room = room
     client.battle_player_id = ""
-    client.combat_handler.reset()
+    client.battle_state.reset()
+    client.request_id = None
 
     log_handler = client.log_handler
     for i, line in enumerate(lines):
         if stop_at is not None and i >= stop_at:
             break
-        await log_handler.handle_line(client, line)  # type: ignore[arg-type]
+        await log_handler.handle_line(client, line)
+    # Commit any move whose effect cluster was still open at the stop point.
+    log_handler.flush_move_history(client)  # type: ignore[arg-type]
 
 
 def replay_log(log_path: Path, stop_at: int | None = None) -> FakeClient:

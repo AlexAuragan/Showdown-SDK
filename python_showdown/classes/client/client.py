@@ -1,68 +1,63 @@
-
 import asyncio
-from dataclasses import dataclass
 from time import perf_counter
 from typing import Any
 
 from websockets.asyncio.client import ClientConnection, connect
 
+from python_showdown.classes.combat.battle_state import BattleState
 from python_showdown.classes.combat.random import RandomMoveCombatHandler
 from python_showdown.logger import LogManager, log_trace
 
-from .parser import LogHandler
+from .dt import BattleResult
+from .parser import Parser
 from .utils import Format
 
 
-@dataclass(slots=True)
-class BattleResult:
-    room_id: str
-    winner: str | None
-    move_count: int
-    duration_seconds: float
-
-    @property
-    def average_seconds_per_move(self) -> float:
-        if self.move_count == 0:
-            return 0.0
-
-        return self.duration_seconds / self.move_count
-
 class Client:
+    """A single websocket session against a Pokémon Showdown server.
+
+    For now can only handle one combat at the time.
+    """
+
     def __init__(
         self,
         websocket_url: str,
         combat_handler: RandomMoveCombatHandler | None = None,
         log_manager: LogManager | None = None
     ) -> None:
+        # --- session state (lives for the websocket connection) -----------
         self.websocket_url: str = websocket_url
         self.websocket: ClientConnection | None = None
-        self.username: str = None
+        self.username: str | None = None
         self.ready: asyncio.Event = asyncio.Event()
         self.formats: list[Format] = []
         self._receive_task: asyncio.Task[None] | None = None
         self.named: bool = False
-        self.log_handler: LogHandler = LogHandler()
+        self.parser: Parser = Parser()
         self.combat_handler: RandomMoveCombatHandler = combat_handler or RandomMoveCombatHandler()
         self.log_manager: LogManager = log_manager if log_manager is not None else LogManager()
 
-        self.challenges: dict[str, Any] = {}
+        # --- challenge state ------
         self.challenge_future: (
             asyncio.Future[str] | None
         ) = None
         self.challenged_user: str | None = None
-        self.room_id: str = ""
 
-        # The room of the battle we are currently driving.
-        self.active_battle_room: str | None = None
-
+        # --- battle lifecycle state --------------------------------------
+        self.room_id: str = ""                       # latest room redirected into
+        self.active_battle_room: str | None = None   # the battle we are driving
         self.battle_finished: asyncio.Future[BattleResult] | None = None
         self.battle_started_at: float | None = None
         self.turn_count: int = 0
-        self.battle_player_id: str = ""
+        self.battle_player_id: str = ""             # our side id ("p1"/"p2")
 
         self._action_timeout_task: asyncio.Task[None] | None = None
         self.action_timeout_seconds: float = 5.0
 
+        self.battle_state: BattleState = BattleState()
+        # `|request|`'s rqid, set by the parser when a decision is requested and
+        # consumed/cleared by `act()`. None = no pending decision.
+        self.request_id: int | None = None
 
     def start_action_timeout(self) -> None:
         self.cancel_action_timeout()
@@ -77,14 +72,12 @@ class Client:
             )
         )
 
-
     def cancel_action_timeout(self) -> None:
         task = self._action_timeout_task
         self._action_timeout_task = None
 
         if task is not None:
             task.cancel()
-
 
     async def _raise_on_action_timeout(
         self,
@@ -101,15 +94,12 @@ class Client:
             f"in room {room_id!r}. The battle request may not have been parsed."
         )
 
-        # Dump the client's live state so the timeout is self-explanatory in the
-        # logs instead of just surfacing as an opaque `await battle_waiter`.
-        handler = self.combat_handler
-        state = handler.battle_state
+        state = self.battle_state
         self.log_manager.errors.error(
             "Action timeout for %r: room=%r turn=%r request_id=%r "
             "force_switch=%r team_size=%d available_moves=%d",
             self.username, room_id, turn,
-            handler.request_id,
+            self.request_id,
             state.force_switch,
             len(state.team),
             len(state.available_moves),
@@ -121,7 +111,7 @@ class Client:
         if battle_finished is not None and not battle_finished.done():
             battle_finished.set_exception(error)
 
-    async def join_room(self, room_id: str):
+    async def join_room(self, room_id: str) -> None:
         await self.send(f"/join {room_id}")
         self.room_id = room_id
 
@@ -131,17 +121,13 @@ class Client:
 
         self.start_action_timeout()
 
-        if self.battle_started_at is None:
-            self.battle_started_at = perf_counter()
-
-        action_type, action_info = self.combat_handler.select_action()
+        action_type, action_info = self.combat_handler.select_action(self.battle_state)
 
         self.log_manager.battle.info(
-            f"Sending /choose {action_type} {action_info}|{self.combat_handler.request_id} in {self.room_id}",
+            f"Sending /choose {action_type} {action_info}|{self.request_id} in {self.room_id}",
             extra={"room_id": self.room_id}
         )
-        await self.send(f"/choose {action_type} {action_info}|{self.combat_handler.request_id}", room_id=self.room_id)
-
+        await self.send(f"/choose {action_type} {action_info}|{self.request_id}", room_id=self.room_id)
 
     async def connect(self) -> None:
         if self.websocket is not None:
@@ -164,11 +150,11 @@ class Client:
 
         try:
             await asyncio.wait_for(
-              self.ready.wait(),
-              timeout=timeout
-          )
+                self.ready.wait(),
+                timeout=timeout,
+            )
         except TimeoutError as e:
-           raise TimeoutError(f"Timed out while logging as user {username!r}") from e
+            raise TimeoutError(f"Timed out while logging as user {username!r}") from e
 
     async def send(
         self,
@@ -200,7 +186,6 @@ class Client:
             except asyncio.CancelledError:
                 pass
 
-
         if websocket is not None:
             await websocket.close()
 
@@ -227,26 +212,32 @@ class Client:
                     )
 
                     try:
-                        await self.log_handler.handle_line(
+                        await self.parser.handle_line(
                             self,
                             str(line),
                         )
-                    except Exception as e:
+                    except Exception:
                         self.log_manager.errors.exception(
                             "Error: Failed to handle protocol line: %r", line,
                             extra={"room_id": self.room_id}
                         )
 
-                    if self.combat_handler.request_id is not None:
-                        await self.act()
-                        self.combat_handler.request_id = None
+                    if self.request_id is not None:
+                        try:
+                            await self.act()
+                        except Exception:
+                            self.log_manager.errors.exception(
+                                "act() failed for room=%r",
+                                self.room_id,
+                                extra={"room_id": self.room_id},
+                            )
+                        self.request_id = None
 
-
-        except Exception as e:
+        except Exception:
             self.log_manager.errors.exception(
                 "Receive loop failed", extra={"room_id": self.room_id}
             )
-            raise e
+            raise
         finally:
             try:
                 await websocket.close()
@@ -259,6 +250,7 @@ class Client:
 
                 self.named = False
                 self.ready.clear()
+
     async def challenge(
         self,
         user: str,
@@ -297,16 +289,19 @@ class Client:
 
     def finish_battle(
         self,
-        winner: str | None
-    ):
+        winner: str | None,
+    ) -> None:
         self.cancel_action_timeout()
-        # Clear tracked combat state so the same handler is fresh for the next
-        # battle. Both clients reach here (both receive |win|/|tie|).
-        self.combat_handler.reset()
-        self.battle_player_id = ""
-        self.active_battle_room = None
+
+        battle_room = self.active_battle_room
 
         if self.battle_finished is None or self.battle_finished.done():
+            self.battle_state.reset()
+            self.request_id = None
+            self.battle_player_id = ""
+            self.active_battle_room = None
+            if battle_room is not None:
+                self.log_manager.close_room(battle_room)
             return
 
         duration = 0.0
@@ -321,6 +316,13 @@ class Client:
                 duration_seconds=duration
             )
         )
+
+        self.battle_state.reset()
+        self.request_id = None
+        self.battle_player_id = ""
+        self.active_battle_room = None
+        if battle_room is not None:
+            self.log_manager.close_room(battle_room)
 
     async def wait_for_battle_end(
         self,
@@ -342,7 +344,8 @@ class Client:
             )
         finally:
             self.cancel_action_timeout()
-            self.combat_handler.reset()
+            self.battle_state.reset()
+            self.request_id = None
             self.battle_player_id = ""
             self.active_battle_room = None
             self.battle_finished = None

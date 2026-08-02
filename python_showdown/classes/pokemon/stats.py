@@ -1,5 +1,49 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from enum import Enum
 from typing import Literal
+
+
+class MajorStatus(str, Enum):
+    """Non-volatile major status conditions sent via `|-status|`/`|-curestatus|`.
+
+    At most one major status can affect a pokemon at a time. `tox` (Toxic /
+    badly poisoned) is distinct from `psn`: Toxic's end-of-turn damage ramps each
+    turn, so keeping them separate is required for any future damage simulation.
+    """
+
+    SLEEP = "slp"
+    POISON = "psn"
+    TOXIC = "tox"
+    PARALYSIS = "par"
+    BURN = "brn"
+    FREEZE = "frz"
+
+    @classmethod
+    def from_server(cls, token: str) -> MajorStatus:
+        try:
+            return cls(token)
+        except ValueError as e:
+            raise ValueError(f"Unknown major status token: {token!r}") from e
+
+
+class MinorStatus(str, Enum):
+    """Volatile status effects sent via `|-start|`/`|-end|`.
+
+    These clear on switch-out (except where noted) and any number may be active
+    at once. Members without a handler below are known to Showdown but not yet
+    tracked by this bot -- see `README.md`.
+    """
+
+    CONFUSION = "confusion"
+    LEECH_SEED = "Leech Seed"
+    SUBSTITUTE = "Substitute"
+    ENCORE = "Encore"
+    ATTRACT = "Attract"
+    YAWN = "Yawn"
+    TYPECHANGE = "typechange"
+    PERISH_SONG = "perish"        # countdown tracked separately in `perish_count`
+    FLASH_FIRE = "Flash Fire"     # ability-granted immunity flag
+    WRAP = "Wrap"                 # trapping moves (Wrap/Bind/Clamp/...)
 
 
 @dataclass
@@ -14,7 +58,7 @@ class Stats:
 
 @dataclass
 class Status:
-    # stats
+    # Stat boost stages (-6..+6).
     atk_stage: int = 0
     def_stage: int = 0
     spa_stage: int = 0
@@ -23,20 +67,19 @@ class Status:
     eva_stage: int = 0
     acc_stage: int = 0
 
-    # status
-    is_para: bool = False
-    is_psn: bool = False
-    is_burn: bool = False
-    is_frz: bool = False
-    is_slp: bool = False
-    is_conf: bool = False
+    # At most one major status condition at a time (None = healthy).
+    major: MajorStatus | None = None
 
-    # special
-    has_substitute: bool = False
-    is_leech_seeded: bool = False
+    # Volatile status effects applied via |-start|; any subset may be active.
+    minor: set[MinorStatus] = field(default_factory=set)
+
+    # Perish Song countdown (3..0); None = not active. Stored separately from
+    # `minor` because the server sends `perish3`/`perish2`/`perish1`/`perish0`.
+    perish_count: int | None = None
+
+    # Set via |-mustrecharge| and consumed by the next `|cant|recharge`.
     must_recharge: bool = False
 
-    # Stat boost stages range from -6 to +6.
     _MIN_STAGE = -6
     _MAX_STAGE = 6
 
@@ -50,73 +93,69 @@ class Status:
         self.eva_stage = 0
         self.acc_stage = 0
 
-        self.is_conf = False
-        self.has_substitute = False
-        self.is_leech_seeded = False
+        self.minor.clear()
+        self.perish_count = None
         self.must_recharge = False
 
-    def _check_statuses(self):
-        major = int(self.is_burn) + int(self.is_frz) + int(
-            self.is_para
-        ) + int(self.is_psn) + int(self.is_slp)
-        if major > 1:
-            raise ValueError(
-                "Only one major status can be set between is_burn "
-                f"({self.is_burn}), is_frz ({self.is_frz}), is_para "
-                f"({self.is_para}), is_psn ({self.is_psn}), is_slp "
-                f"({self.is_slp})."
-            )
-
     def __post_init__(self):
-        self._check_statuses()
+        # Guard against a stale caller passing a stray bool for `major`.
+        if self.major is not None and not isinstance(self.major, MajorStatus):
+            raise ValueError(f"major must be a MajorStatus or None, got {self.major!r}")
 
-    def set_status(self, status: Literal["par", "psn", "brn", "frz", "slp"]) -> None:
-        """Apply a major status condition using the server's abbreviation.
+    def set_status(self, status: MajorStatus | str) -> None:
+        """Apply a major status condition.
 
-        The server sends `|-status|<id>|par|psn|brn|frz|slp`. Confusion is not
-        a major status and is handled separately via set_conf/clear_conf.
+        Accepts the server's abbreviation (`par`/`psn`/`brn`/`frz`/`slp`/`tox`)
+        either as a `MajorStatus` member or its raw string value. Confusion is
+        NOT a major status; it is handled via `minor`.
         """
-        self.is_burn = False
-        self.is_frz = False
-        self.is_para = False
-        self.is_slp = False
+        self.major = status if isinstance(status, MajorStatus) else MajorStatus.from_server(status)
 
-        match status:
-            case "par":
-                self.is_para = True
-            case "psn":
-                self.is_psn = True
-            case "brn":
-                self.is_burn = True
-            case "frz":
-                self.is_frz = True
-            case "slp":
-                self.is_slp = True
+    def clear_status(self, status: MajorStatus | str) -> None:
+        """Clear a major status condition if it matches the one currently set."""
+        current = self.major
+        if current is None:
+            return
+        token = status if isinstance(status, MajorStatus) else MajorStatus.from_server(status)
+        if current == token:
+            self.major = None
 
-    def clear_status(self, status: Literal["par", "psn", "brn", "frz", "slp"]) -> None:
-        match status:
-            case "par":
-                self.is_para = False
-            case "psn":
-                self.is_psn = False
-            case "brn":
-                self.is_burn = False
-            case "frz":
-                self.is_frz = False
-            case "slp":
-                self.is_slp = False
+    def clear_all_major_status(self) -> None:
+        """Clear the major status condition regardless of which one it is.
 
-    def set_conf(self) -> None:
-        self.is_conf = True
+        Used by Aromatherapy/Heal Bell (`|-cureteam|`). Stages and volatile
+        effects (substitute, leech seed, ...) are NOT touched.
+        """
+        self.major = None
 
-    def clear_conf(self) -> None:
-        self.is_conf = False
+    def add_minor(self, status: MinorStatus) -> None:
+        self.minor.add(status)
+
+    def remove_minor(self, status: MinorStatus) -> None:
+        self.minor.discard(status)
+
+    def has_minor(self, status: MinorStatus) -> bool:
+        return status in self.minor
 
     def boost(self, stat: Literal["atk", "def", "spa", "spd", "spe", "evasion", "accuracy"], n: int) -> None:
         self._adjust_stage(stat, n)
 
     def unboost(self, stat: Literal["atk", "def", "spa", "spd", "spe", "evasion", "accuracy"], n: int) -> None:
         self._adjust_stage(stat, -n)
+
+    def set_stage(self, stat: Literal["atk", "def", "spa", "spd", "spe", "evasion", "accuracy"], n: int) -> None:
+        """Set a stage absolutely (e.g. Belly Drum sets atk to +6)."""
+        setattr(self, self._stage_attr(stat), self._clamp(n))
+
+    def reset_all_stages(self) -> None:
+        """Clear every stat stage to 0 (e.g. |-clearallboost|, Haze)."""
+        self.atk_stage = 0
+        self.def_stage = 0
+        self.spa_stage = 0
+        self.spd_stage = 0
+        self.spe_stage = 0
+        self.eva_stage = 0
+        self.acc_stage = 0
 
     def _adjust_stage(self, stat: str, delta: int) -> None:
         attr = self._stage_attr(stat)

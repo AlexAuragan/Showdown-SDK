@@ -23,6 +23,7 @@ class PartyPokemon:
     pokeball: str
     status: Status
 
+
 @dataclass
 class EnemyPokemon:
     active: bool
@@ -37,27 +38,53 @@ class EnemyPokemon:
     status: Status = field(default_factory=Status)
     learnt_moves: list[str | Unknown] = field(default_factory=lambda: [Unknown.VALUE] * 4)
     temporary_moves: list[str] = field(default_factory=list)
+    disabled_moves: list[str] = field(default_factory=list)
     transformed_into: str | None = None
-
+    # Current species form, relayed by |-formechange|. Only relabels the
+    # species/type; never changes the move set. None = base form.
+    forme: str | None = None
 
     @property
-    def available_moves(self):
-        return self.learnt_moves + self.temporary_moves
+    def available_moves(self) -> list[str]:
+        """The move set the pokemon can currently use.
 
-    def witness_move(self, move: str):
+        While transformed (Ditto), the base set is wholly replaced by the copied
+        moves (`temporary_moves` only). Mimic disables its own slot but keeps the
+        rest of the base set, so the copied move is added on top. Unknown
+        placeholders never count as usable moves.
+        """
+        if self.transformed_into is not None:
+            return self.temporary_moves
+        base = [
+            m for m in self.learnt_moves
+            if m is not Unknown.VALUE and m not in self.disabled_moves
+        ]
+        return base + self.temporary_moves
+
+    def witness_move(self, move: str) -> None:
         if move in self.available_moves:
             return
 
-        if Unknown.VALUE not in self.learnt_moves:
-            raise ValueError(f"Witnessed move {move} for pokemon {self} but got already all the moves set")
-
-        if self.transformed_into is not None and move not in self.temporary_moves:
+        # While transformed, new moves are part of the copied set.
+        if self.transformed_into is not None:
+            if move not in self.temporary_moves:
                 self.temporary_moves.append(move)
-                return
+            return
+
+        if Unknown.VALUE not in self.learnt_moves:
+            raise ValueError(
+                f"Witnessed move {move} for pokemon {self} "
+                "but all move slots are already filled"
+            )
+
         self.learnt_moves.remove(Unknown.VALUE)
         self.learnt_moves.append(move)
 
-    def reset_on_switch_in(self):
+    def reset_on_switch_in(self) -> None:
+        # Volatile transform/mimic/form state clears on switch; the persistent
+        # base moveset knowledge (learnt_moves) is kept.
         self.status.reset_on_switch()
         self.transformed_into = None
         self.temporary_moves = []
+        self.disabled_moves = []
+        self.forme = None

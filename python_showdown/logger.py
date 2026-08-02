@@ -51,6 +51,12 @@ class BattleFileHandler(logging.Handler):
 
         handler.emit(record)
 
+    def close_room(self, room_id: str) -> None:
+        """Close and drop the per-room handler for `room_id`."""
+        handler = self._handlers.pop(room_id, None)
+        if handler is not None:
+            handler.close()
+
     def _create_handler(
         self,
         room_id: str,
@@ -132,7 +138,8 @@ class LogManager:
         for logger in targets:
             logger.removeHandler(handler)
 
-        handler.close()
+        if not any(handler in logger.handlers for logger in self._loggers):
+            handler.close()
 
     def _resolve_loggers(
         self,
@@ -159,6 +166,19 @@ class LogManager:
     def enable(self) -> None:
         for logger in self._loggers:
             logger.disabled = False
+
+    def close_room(self, room_id: str) -> None:
+        """Close the per-room file handler for `room_id` on every
+        `BattleFileHandler` attached to the managed loggers."""
+        seen: set[int] = set()
+        for logger in self._loggers:
+            for handler in logger.handlers:
+                if id(handler) in seen:
+                    continue
+                seen.add(id(handler))
+                if isinstance(handler, BattleFileHandler):
+                    handler.close_room(room_id)
+
 
 def create_console_handler(
     level: int = logging.INFO,
