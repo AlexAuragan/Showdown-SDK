@@ -1,0 +1,911 @@
+2026-07-30 00:37:04,077 |init|battle
+2026-07-30 00:37:04,077 |title|BOT1 vs. BOT2
+2026-07-30 00:37:04,077 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,077 |J|☆BOT2
+2026-07-30 00:37:04,078 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-11425">battle-gen4randombattle-11425</a>&raquo;
+2026-07-30 00:37:04,121 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,121 |t:|1785364624
+2026-07-30 00:37:04,122 |gametype|singles
+2026-07-30 00:37:04,122 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,122 |player|p1|BOT1|101|
+2026-07-30 00:37:04,122 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,122 |player|p2|BOT2|170|
+2026-07-30 00:37:04,122 |gen|4
+2026-07-30 00:37:04,122 |tier|[Gen 4] Random Battle
+2026-07-30 00:37:04,122 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-07-30 00:37:04,122 |rule|HP Percentage Mod: HP is shown in percentages
+2026-07-30 00:37:04,122 |
+2026-07-30 00:37:04,122 |t:|1785364624
+2026-07-30 00:37:04,122 |teamsize|p1|6
+2026-07-30 00:37:04,122 |teamsize|p2|6
+2026-07-30 00:37:04,122 |start
+2026-07-30 00:37:04,122 |switch|p1a: Dusknoir|Dusknoir, L85, F|215/215
+2026-07-30 00:37:04,122 |switch|p2a: Bastiodon|Bastiodon, L97, M|100/100
+2026-07-30 00:37:04,122 |-ability|p1a: Dusknoir|Pressure
+2026-07-30 00:37:04,122 |turn|1
+2026-07-30 00:37:04,122 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,122 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"215/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":2}
+2026-07-30 00:37:04,152 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,152 |
+2026-07-30 00:37:04,152 |t:|1785364624
+2026-07-30 00:37:04,152 |move|p1a: Dusknoir|Pain Split|p2a: Bastiodon
+2026-07-30 00:37:04,152 |-sethp|p2a: Bastiodon|90/100|[from] move: Pain Split|[silent]
+2026-07-30 00:37:04,152 |-sethp|p1a: Dusknoir|215/215|[from] move: Pain Split
+2026-07-30 00:37:04,152 |move|p2a: Bastiodon|Toxic|p1a: Dusknoir|[miss]
+2026-07-30 00:37:04,152 |-miss|p2a: Bastiodon|p1a: Dusknoir
+2026-07-30 00:37:04,152 |
+2026-07-30 00:37:04,152 |-heal|p2a: Bastiodon|96/100|[from] item: Leftovers
+2026-07-30 00:37:04,152 |upkeep
+2026-07-30 00:37:04,152 |turn|2
+2026-07-30 00:37:04,152 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,152 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"215/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":4}
+2026-07-30 00:37:04,197 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,197 |
+2026-07-30 00:37:04,197 |t:|1785364624
+2026-07-30 00:37:04,197 |move|p1a: Dusknoir|Shadow Sneak|p2a: Bastiodon
+2026-07-30 00:37:04,197 |-resisted|p2a: Bastiodon
+2026-07-30 00:37:04,197 |-damage|p2a: Bastiodon|92/100
+2026-07-30 00:37:04,197 |move|p2a: Bastiodon|Earthquake|p1a: Dusknoir
+2026-07-30 00:37:04,197 |-crit|p1a: Dusknoir
+2026-07-30 00:37:04,197 |-damage|p1a: Dusknoir|136/215
+2026-07-30 00:37:04,197 |
+2026-07-30 00:37:04,197 |-heal|p1a: Dusknoir|149/215|[from] item: Leftovers
+2026-07-30 00:37:04,197 |-heal|p2a: Bastiodon|98/100|[from] item: Leftovers
+2026-07-30 00:37:04,197 |upkeep
+2026-07-30 00:37:04,197 |turn|3
+2026-07-30 00:37:04,197 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,197 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":47,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"149/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":6}
+2026-07-30 00:37:04,227 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,227 |
+2026-07-30 00:37:04,227 |t:|1785364624
+2026-07-30 00:37:04,227 |move|p2a: Bastiodon|Protect|p2a: Bastiodon
+2026-07-30 00:37:04,227 |-singleturn|p2a: Bastiodon|Protect
+2026-07-30 00:37:04,227 |move|p1a: Dusknoir|Shadow Sneak|p2a: Bastiodon
+2026-07-30 00:37:04,227 |-activate|p2a: Bastiodon|Protect
+2026-07-30 00:37:04,227 |
+2026-07-30 00:37:04,227 |-heal|p1a: Dusknoir|162/215|[from] item: Leftovers
+2026-07-30 00:37:04,227 |-heal|p2a: Bastiodon|100/100|[from] item: Leftovers
+2026-07-30 00:37:04,227 |upkeep
+2026-07-30 00:37:04,227 |turn|4
+2026-07-30 00:37:04,228 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,229 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":46,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"162/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":8}
+2026-07-30 00:37:04,255 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,255 |
+2026-07-30 00:37:04,255 |t:|1785364624
+2026-07-30 00:37:04,255 |move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+2026-07-30 00:37:04,255 |-start|p1a: Dusknoir|Substitute
+2026-07-30 00:37:04,255 |-damage|p1a: Dusknoir|109/215
+2026-07-30 00:37:04,255 |move|p2a: Bastiodon|Earthquake|p1a: Dusknoir
+2026-07-30 00:37:04,255 |-activate|p1a: Dusknoir|Substitute|[damage]
+2026-07-30 00:37:04,255 |
+2026-07-30 00:37:04,255 |-heal|p1a: Dusknoir|122/215|[from] item: Leftovers
+2026-07-30 00:37:04,255 |upkeep
+2026-07-30 00:37:04,255 |turn|5
+2026-07-30 00:37:04,256 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,256 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":46,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":10}
+2026-07-30 00:37:04,277 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,277 |
+2026-07-30 00:37:04,277 |t:|1785364624
+2026-07-30 00:37:04,277 |move|p1a: Dusknoir|Shadow Sneak|p2a: Bastiodon
+2026-07-30 00:37:04,277 |-resisted|p2a: Bastiodon
+2026-07-30 00:37:04,277 |-damage|p2a: Bastiodon|96/100
+2026-07-30 00:37:04,277 |move|p2a: Bastiodon|Roar|p1a: Dusknoir
+2026-07-30 00:37:04,277 |drag|p1a: Lunatone|Lunatone, L92|278/278
+2026-07-30 00:37:04,277 |
+2026-07-30 00:37:04,277 |-heal|p2a: Bastiodon|100/100|[from] item: Leftovers
+2026-07-30 00:37:04,277 |upkeep
+2026-07-30 00:37:04,277 |turn|6
+2026-07-30 00:37:04,278 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,278 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":12}
+2026-07-30 00:37:04,296 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,296 |
+2026-07-30 00:37:04,296 |t:|1785364624
+2026-07-30 00:37:04,296 |move|p1a: Lunatone|Psychic|p2a: Bastiodon
+2026-07-30 00:37:04,296 |-resisted|p2a: Bastiodon
+2026-07-30 00:37:04,296 |-damage|p2a: Bastiodon|88/100
+2026-07-30 00:37:04,296 |move|p2a: Bastiodon|Earthquake|p1a: Lunatone
+2026-07-30 00:37:04,296 |-immune|p1a: Lunatone|[from] ability: Levitate
+2026-07-30 00:37:04,296 |
+2026-07-30 00:37:04,296 |-heal|p2a: Bastiodon|95/100|[from] item: Leftovers
+2026-07-30 00:37:04,296 |upkeep
+2026-07-30 00:37:04,296 |turn|7
+2026-07-30 00:37:04,296 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,296 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":14}
+2026-07-30 00:37:04,309 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,309 |
+2026-07-30 00:37:04,309 |t:|1785364624
+2026-07-30 00:37:04,309 |move|p1a: Lunatone|Earth Power|p2a: Bastiodon
+2026-07-30 00:37:04,309 |-supereffective|p2a: Bastiodon
+2026-07-30 00:37:04,309 |-damage|p2a: Bastiodon|23/100
+2026-07-30 00:37:04,309 |move|p2a: Bastiodon|Earthquake|p1a: Lunatone
+2026-07-30 00:37:04,309 |-immune|p1a: Lunatone|[from] ability: Levitate
+2026-07-30 00:37:04,309 |
+2026-07-30 00:37:04,309 |-heal|p2a: Bastiodon|29/100|[from] item: Leftovers
+2026-07-30 00:37:04,309 |upkeep
+2026-07-30 00:37:04,309 |turn|8
+2026-07-30 00:37:04,310 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,310 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":16}
+2026-07-30 00:37:04,326 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,326 |
+2026-07-30 00:37:04,326 |t:|1785364624
+2026-07-30 00:37:04,326 |move|p1a: Lunatone|Psychic|p2a: Bastiodon
+2026-07-30 00:37:04,326 |-resisted|p2a: Bastiodon
+2026-07-30 00:37:04,326 |-damage|p2a: Bastiodon|16/100
+2026-07-30 00:37:04,326 |move|p2a: Bastiodon|Roar|p1a: Lunatone
+2026-07-30 00:37:04,326 |drag|p1a: Staraptor|Staraptor, L77, F|257/257
+2026-07-30 00:37:04,326 |-ability|p1a: Staraptor|Intimidate|boost
+2026-07-30 00:37:04,326 |-unboost|p2a: Bastiodon|atk|1
+2026-07-30 00:37:04,326 |
+2026-07-30 00:37:04,326 |-heal|p2a: Bastiodon|22/100|[from] item: Leftovers
+2026-07-30 00:37:04,327 |upkeep
+2026-07-30 00:37:04,327 |turn|9
+2026-07-30 00:37:04,328 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,328 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Pursuit","id":"pursuit","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":18}
+2026-07-30 00:37:04,342 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,342 |
+2026-07-30 00:37:04,342 |t:|1785364624
+2026-07-30 00:37:04,342 |move|p1a: Staraptor|U-turn|p2a: Bastiodon
+2026-07-30 00:37:04,342 |-resisted|p2a: Bastiodon
+2026-07-30 00:37:04,342 |-damage|p2a: Bastiodon|16/100
+2026-07-30 00:37:04,343 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,344 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"337/337","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":20}
+2026-07-30 00:37:04,358 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,358 |
+2026-07-30 00:37:04,358 |t:|1785364624
+2026-07-30 00:37:04,358 |switch|p1a: Dunsparce|Dunsparce, L93, F|337/337|[from] U-turn
+2026-07-30 00:37:04,358 |move|p2a: Bastiodon|Earthquake|p1a: Dunsparce
+2026-07-30 00:37:04,358 |-damage|p1a: Dunsparce|294/337
+2026-07-30 00:37:04,358 |
+2026-07-30 00:37:04,358 |-heal|p1a: Dunsparce|315/337|[from] item: Leftovers
+2026-07-30 00:37:04,358 |-heal|p2a: Bastiodon|22/100|[from] item: Leftovers
+2026-07-30 00:37:04,358 |upkeep
+2026-07-30 00:37:04,358 |turn|10
+2026-07-30 00:37:04,358 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,358 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"315/337","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":22}
+2026-07-30 00:37:04,374 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,374 |
+2026-07-30 00:37:04,374 |t:|1785364624
+2026-07-30 00:37:04,374 |move|p1a: Dunsparce|Headbutt|p2a: Bastiodon
+2026-07-30 00:37:04,374 |-resisted|p2a: Bastiodon
+2026-07-30 00:37:04,374 |-damage|p2a: Bastiodon|18/100
+2026-07-30 00:37:04,374 |cant|p2a: Bastiodon|flinch
+2026-07-30 00:37:04,374 |
+2026-07-30 00:37:04,374 |-heal|p1a: Dunsparce|336/337|[from] item: Leftovers
+2026-07-30 00:37:04,374 |-heal|p2a: Bastiodon|25/100|[from] item: Leftovers
+2026-07-30 00:37:04,374 |upkeep
+2026-07-30 00:37:04,374 |turn|11
+2026-07-30 00:37:04,375 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,375 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"336/337","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":24}
+2026-07-30 00:37:04,389 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,389 |
+2026-07-30 00:37:04,389 |t:|1785364624
+2026-07-30 00:37:04,389 |move|p1a: Dunsparce|Roost|p1a: Dunsparce
+2026-07-30 00:37:04,389 |-heal|p1a: Dunsparce|337/337
+2026-07-30 00:37:04,389 |-singleturn|p1a: Dunsparce|move: Roost
+2026-07-30 00:37:04,389 |move|p2a: Bastiodon|Toxic|p1a: Dunsparce
+2026-07-30 00:37:04,389 |-status|p1a: Dunsparce|tox
+2026-07-30 00:37:04,389 |
+2026-07-30 00:37:04,389 |-damage|p1a: Dunsparce|316/337 tox|[from] psn
+2026-07-30 00:37:04,389 |-heal|p2a: Bastiodon|31/100|[from] item: Leftovers
+2026-07-30 00:37:04,389 |upkeep
+2026-07-30 00:37:04,389 |turn|12
+2026-07-30 00:37:04,390 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,390 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"316/337 tox","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":26}
+2026-07-30 00:37:04,406 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,406 |
+2026-07-30 00:37:04,406 |t:|1785364624
+2026-07-30 00:37:04,406 |move|p2a: Bastiodon|Protect|p2a: Bastiodon
+2026-07-30 00:37:04,406 |-singleturn|p2a: Bastiodon|Protect
+2026-07-30 00:37:04,406 |move|p1a: Dunsparce|Earthquake|p2a: Bastiodon
+2026-07-30 00:37:04,406 |-activate|p2a: Bastiodon|Protect
+2026-07-30 00:37:04,406 |
+2026-07-30 00:37:04,406 |-heal|p1a: Dunsparce|337/337 tox|[from] item: Leftovers
+2026-07-30 00:37:04,406 |-damage|p1a: Dunsparce|295/337 tox|[from] psn
+2026-07-30 00:37:04,406 |-heal|p2a: Bastiodon|37/100|[from] item: Leftovers
+2026-07-30 00:37:04,406 |upkeep
+2026-07-30 00:37:04,406 |turn|13
+2026-07-30 00:37:04,408 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,408 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"295/337 tox","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":28}
+2026-07-30 00:37:04,422 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,422 |
+2026-07-30 00:37:04,422 |t:|1785364624
+2026-07-30 00:37:04,422 |move|p1a: Dunsparce|Earthquake|p2a: Bastiodon
+2026-07-30 00:37:04,422 |-supereffective|p2a: Bastiodon
+2026-07-30 00:37:04,422 |-damage|p2a: Bastiodon|0 fnt
+2026-07-30 00:37:04,422 |faint|p2a: Bastiodon
+2026-07-30 00:37:04,422 |
+2026-07-30 00:37:04,422 |-heal|p1a: Dunsparce|316/337 tox|[from] item: Leftovers
+2026-07-30 00:37:04,422 |-damage|p1a: Dunsparce|253/337 tox|[from] psn
+2026-07-30 00:37:04,422 |upkeep
+2026-07-30 00:37:04,423 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,423 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"253/337 tox","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":30}
+2026-07-30 00:37:04,434 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,434 |
+2026-07-30 00:37:04,434 |t:|1785364624
+2026-07-30 00:37:04,434 |switch|p2a: Meganium|Meganium, L91, F|100/100
+2026-07-30 00:37:04,434 |turn|14
+2026-07-30 00:37:04,434 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,434 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"253/337 tox","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":32}
+2026-07-30 00:37:04,449 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,449 |
+2026-07-30 00:37:04,449 |t:|1785364624
+2026-07-30 00:37:04,449 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,449 |move|p1a: Dunsparce|Roost|p1a: Dunsparce
+2026-07-30 00:37:04,449 |-heal|p1a: Dunsparce|337/337 tox
+2026-07-30 00:37:04,449 |-singleturn|p1a: Dunsparce|move: Roost
+2026-07-30 00:37:04,449 |
+2026-07-30 00:37:04,449 |-damage|p1a: Dunsparce|253/337 tox|[from] psn
+2026-07-30 00:37:04,449 |upkeep
+2026-07-30 00:37:04,449 |turn|15
+2026-07-30 00:37:04,450 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,450 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"253/337 tox","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":34}
+2026-07-30 00:37:04,468 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,468 |
+2026-07-30 00:37:04,468 |t:|1785364624
+2026-07-30 00:37:04,468 |move|p2a: Meganium|Energy Ball|p1a: Dunsparce
+2026-07-30 00:37:04,468 |-damage|p1a: Dunsparce|157/337 tox
+2026-07-30 00:37:04,468 |move|p1a: Dunsparce|Earthquake|p2a: Meganium
+2026-07-30 00:37:04,468 |-resisted|p2a: Meganium
+2026-07-30 00:37:04,468 |-damage|p2a: Meganium|91/100
+2026-07-30 00:37:04,468 |
+2026-07-30 00:37:04,468 |-heal|p2a: Meganium|97/100|[from] item: Leftovers
+2026-07-30 00:37:04,468 |-heal|p1a: Dunsparce|178/337 tox|[from] item: Leftovers
+2026-07-30 00:37:04,468 |-damage|p1a: Dunsparce|73/337 tox|[from] psn
+2026-07-30 00:37:04,468 |upkeep
+2026-07-30 00:37:04,468 |turn|16
+2026-07-30 00:37:04,470 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,470 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Headbutt","id":"headbutt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"73/337 tox","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":36}
+2026-07-30 00:37:04,486 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,486 |
+2026-07-30 00:37:04,486 |t:|1785364624
+2026-07-30 00:37:04,486 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,486 |-heal|p2a: Meganium|100/100
+2026-07-30 00:37:04,486 |move|p1a: Dunsparce|Earthquake|p2a: Meganium
+2026-07-30 00:37:04,486 |-resisted|p2a: Meganium
+2026-07-30 00:37:04,486 |-damage|p2a: Meganium|90/100
+2026-07-30 00:37:04,486 |
+2026-07-30 00:37:04,486 |-heal|p2a: Meganium|96/100|[from] item: Leftovers
+2026-07-30 00:37:04,486 |-heal|p1a: Dunsparce|94/337 tox|[from] item: Leftovers
+2026-07-30 00:37:04,486 |-damage|p1a: Dunsparce|0 fnt|[from] psn
+2026-07-30 00:37:04,486 |faint|p1a: Dunsparce
+2026-07-30 00:37:04,486 |upkeep
+2026-07-30 00:37:04,487 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,487 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":true,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":38}
+2026-07-30 00:37:04,498 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,498 |
+2026-07-30 00:37:04,498 |t:|1785364624
+2026-07-30 00:37:04,498 |switch|p1a: Dusknoir|Dusknoir, L85, F|122/215
+2026-07-30 00:37:04,498 |-ability|p1a: Dusknoir|Pressure
+2026-07-30 00:37:04,498 |turn|17
+2026-07-30 00:37:04,499 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,499 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"122/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":40}
+2026-07-30 00:37:04,519 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,519 |
+2026-07-30 00:37:04,519 |t:|1785364624
+2026-07-30 00:37:04,519 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,519 |move|p2a: Meganium|Aromatherapy|p2a: Meganium
+2026-07-30 00:37:04,519 |-cureteam|p2a: Meganium|[from] move: Aromatherapy
+2026-07-30 00:37:04,519 |move|p1a: Dusknoir|Focus Punch|p2a: Meganium
+2026-07-30 00:37:04,519 |-damage|p2a: Meganium|63/100
+2026-07-30 00:37:04,519 |
+2026-07-30 00:37:04,519 |-heal|p2a: Meganium|69/100|[from] item: Leftovers
+2026-07-30 00:37:04,519 |-heal|p1a: Dusknoir|135/215|[from] item: Leftovers
+2026-07-30 00:37:04,519 |upkeep
+2026-07-30 00:37:04,519 |turn|18
+2026-07-30 00:37:04,519 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,519 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"135/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":42}
+2026-07-30 00:37:04,534 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,534 |
+2026-07-30 00:37:04,534 |t:|1785364624
+2026-07-30 00:37:04,534 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,534 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,534 |-heal|p2a: Meganium|100/100
+2026-07-30 00:37:04,534 |move|p1a: Dusknoir|Focus Punch|p2a: Meganium
+2026-07-30 00:37:04,534 |-damage|p2a: Meganium|69/100
+2026-07-30 00:37:04,534 |
+2026-07-30 00:37:04,534 |-heal|p2a: Meganium|76/100|[from] item: Leftovers
+2026-07-30 00:37:04,534 |-heal|p1a: Dusknoir|148/215|[from] item: Leftovers
+2026-07-30 00:37:04,535 |upkeep
+2026-07-30 00:37:04,535 |turn|19
+2026-07-30 00:37:04,536 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,536 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"148/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":44}
+2026-07-30 00:37:04,553 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,553 |
+2026-07-30 00:37:04,553 |t:|1785364624
+2026-07-30 00:37:04,553 |move|p2a: Meganium|Energy Ball|p1a: Dusknoir
+2026-07-30 00:37:04,553 |-damage|p1a: Dusknoir|85/215
+2026-07-30 00:37:04,553 |move|p1a: Dusknoir|Pain Split|p2a: Meganium
+2026-07-30 00:37:04,553 |-sethp|p2a: Meganium|52/100|[from] move: Pain Split|[silent]
+2026-07-30 00:37:04,553 |-sethp|p1a: Dusknoir|152/215|[from] move: Pain Split
+2026-07-30 00:37:04,553 |
+2026-07-30 00:37:04,553 |-heal|p2a: Meganium|59/100|[from] item: Leftovers
+2026-07-30 00:37:04,553 |-heal|p1a: Dusknoir|165/215|[from] item: Leftovers
+2026-07-30 00:37:04,553 |upkeep
+2026-07-30 00:37:04,553 |turn|20
+2026-07-30 00:37:04,555 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,555 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"165/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":46}
+2026-07-30 00:37:04,571 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,571 |
+2026-07-30 00:37:04,571 |t:|1785364624
+2026-07-30 00:37:04,571 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,571 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,571 |-heal|p2a: Meganium|100/100
+2026-07-30 00:37:04,571 |move|p1a: Dusknoir|Focus Punch|p2a: Meganium
+2026-07-30 00:37:04,571 |-damage|p2a: Meganium|71/100
+2026-07-30 00:37:04,571 |
+2026-07-30 00:37:04,571 |-heal|p2a: Meganium|77/100|[from] item: Leftovers
+2026-07-30 00:37:04,571 |-heal|p1a: Dusknoir|178/215|[from] item: Leftovers
+2026-07-30 00:37:04,571 |upkeep
+2026-07-30 00:37:04,571 |turn|21
+2026-07-30 00:37:04,572 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,572 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"178/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":48}
+2026-07-30 00:37:04,587 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,587 |
+2026-07-30 00:37:04,587 |t:|1785364624
+2026-07-30 00:37:04,587 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,587 |move|p2a: Meganium|Energy Ball|p1a: Dusknoir
+2026-07-30 00:37:04,587 |-damage|p1a: Dusknoir|114/215
+2026-07-30 00:37:04,587 |move|p1a: Dusknoir|Focus Punch||[still]
+2026-07-30 00:37:04,587 |cant|p1a: Dusknoir|Focus Punch|Focus Punch
+2026-07-30 00:37:04,587 |
+2026-07-30 00:37:04,587 |-heal|p2a: Meganium|83/100|[from] item: Leftovers
+2026-07-30 00:37:04,587 |-heal|p1a: Dusknoir|127/215|[from] item: Leftovers
+2026-07-30 00:37:04,587 |upkeep
+2026-07-30 00:37:04,587 |turn|22
+2026-07-30 00:37:04,589 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,589 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"127/215","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":50}
+2026-07-30 00:37:04,605 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,605 |
+2026-07-30 00:37:04,605 |t:|1785364624
+2026-07-30 00:37:04,605 |move|p2a: Meganium|Toxic|p1a: Dusknoir
+2026-07-30 00:37:04,605 |-status|p1a: Dusknoir|tox
+2026-07-30 00:37:04,605 |move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+2026-07-30 00:37:04,605 |-start|p1a: Dusknoir|Substitute
+2026-07-30 00:37:04,605 |-damage|p1a: Dusknoir|74/215 tox
+2026-07-30 00:37:04,605 |
+2026-07-30 00:37:04,605 |-heal|p2a: Meganium|89/100|[from] item: Leftovers
+2026-07-30 00:37:04,605 |-heal|p1a: Dusknoir|87/215 tox|[from] item: Leftovers
+2026-07-30 00:37:04,605 |-damage|p1a: Dusknoir|74/215 tox|[from] psn
+2026-07-30 00:37:04,605 |upkeep
+2026-07-30 00:37:04,605 |turn|23
+2026-07-30 00:37:04,606 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,606 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"74/215 tox","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":52}
+2026-07-30 00:37:04,624 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,624 |
+2026-07-30 00:37:04,624 |t:|1785364624
+2026-07-30 00:37:04,624 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,624 |move|p2a: Meganium|Toxic||[still]
+2026-07-30 00:37:04,624 |-fail|p2a: Meganium
+2026-07-30 00:37:04,624 |move|p1a: Dusknoir|Focus Punch|p2a: Meganium
+2026-07-30 00:37:04,624 |-damage|p2a: Meganium|57/100
+2026-07-30 00:37:04,624 |
+2026-07-30 00:37:04,624 |-heal|p2a: Meganium|63/100|[from] item: Leftovers
+2026-07-30 00:37:04,624 |-heal|p1a: Dusknoir|87/215 tox|[from] item: Leftovers
+2026-07-30 00:37:04,624 |-damage|p1a: Dusknoir|61/215 tox|[from] psn
+2026-07-30 00:37:04,624 |upkeep
+2026-07-30 00:37:04,624 |turn|24
+2026-07-30 00:37:04,626 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,626 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"61/215 tox","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":54}
+2026-07-30 00:37:04,645 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,645 |
+2026-07-30 00:37:04,645 |t:|1785364624
+2026-07-30 00:37:04,645 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,645 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,645 |-heal|p2a: Meganium|100/100
+2026-07-30 00:37:04,645 |move|p1a: Dusknoir|Focus Punch|p2a: Meganium
+2026-07-30 00:37:04,645 |-damage|p2a: Meganium|69/100
+2026-07-30 00:37:04,645 |
+2026-07-30 00:37:04,645 |-heal|p2a: Meganium|75/100|[from] item: Leftovers
+2026-07-30 00:37:04,645 |-heal|p1a: Dusknoir|74/215 tox|[from] item: Leftovers
+2026-07-30 00:37:04,645 |-damage|p1a: Dusknoir|35/215 tox|[from] psn
+2026-07-30 00:37:04,645 |upkeep
+2026-07-30 00:37:04,645 |turn|25
+2026-07-30 00:37:04,646 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,646 |request|{"active":[{"moves":[{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Sneak","id":"shadowsneak","pp":45,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"35/215 tox","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":56}
+2026-07-30 00:37:04,666 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,666 |
+2026-07-30 00:37:04,666 |t:|1785364624
+2026-07-30 00:37:04,666 |-singleturn|p1a: Dusknoir|move: Focus Punch
+2026-07-30 00:37:04,666 |move|p2a: Meganium|Energy Ball|p1a: Dusknoir
+2026-07-30 00:37:04,666 |-end|p1a: Dusknoir|Substitute
+2026-07-30 00:37:04,666 |move|p1a: Dusknoir|Focus Punch|p2a: Meganium
+2026-07-30 00:37:04,666 |-damage|p2a: Meganium|43/100
+2026-07-30 00:37:04,666 |
+2026-07-30 00:37:04,666 |-heal|p2a: Meganium|49/100|[from] item: Leftovers
+2026-07-30 00:37:04,666 |-heal|p1a: Dusknoir|48/215 tox|[from] item: Leftovers
+2026-07-30 00:37:04,666 |-damage|p1a: Dusknoir|0 fnt|[from] psn
+2026-07-30 00:37:04,666 |faint|p1a: Dusknoir
+2026-07-30 00:37:04,666 |upkeep
+2026-07-30 00:37:04,667 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,667 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":true,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":58}
+2026-07-30 00:37:04,676 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,676 |
+2026-07-30 00:37:04,676 |t:|1785364624
+2026-07-30 00:37:04,676 |switch|p1a: Lunatone|Lunatone, L92|278/278
+2026-07-30 00:37:04,676 |turn|26
+2026-07-30 00:37:04,679 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,679 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":60}
+2026-07-30 00:37:04,694 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,694 |
+2026-07-30 00:37:04,694 |t:|1785364624
+2026-07-30 00:37:04,694 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,694 |-heal|p2a: Meganium|99/100
+2026-07-30 00:37:04,694 |move|p1a: Lunatone|Earth Power|p2a: Meganium
+2026-07-30 00:37:04,694 |-resisted|p2a: Meganium
+2026-07-30 00:37:04,694 |-damage|p2a: Meganium|89/100
+2026-07-30 00:37:04,694 |
+2026-07-30 00:37:04,694 |-heal|p2a: Meganium|95/100|[from] item: Leftovers
+2026-07-30 00:37:04,694 |upkeep
+2026-07-30 00:37:04,694 |turn|27
+2026-07-30 00:37:04,695 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,695 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":62}
+2026-07-30 00:37:04,710 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,710 |
+2026-07-30 00:37:04,710 |t:|1785364624
+2026-07-30 00:37:04,710 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,710 |-heal|p2a: Meganium|100/100
+2026-07-30 00:37:04,710 |move|p1a: Lunatone|Toxic|p2a: Meganium
+2026-07-30 00:37:04,710 |-status|p2a: Meganium|tox
+2026-07-30 00:37:04,710 |
+2026-07-30 00:37:04,710 |-damage|p2a: Meganium|94/100 tox|[from] psn
+2026-07-30 00:37:04,710 |upkeep
+2026-07-30 00:37:04,710 |turn|28
+2026-07-30 00:37:04,711 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,711 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":64}
+2026-07-30 00:37:04,725 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,725 |
+2026-07-30 00:37:04,725 |t:|1785364624
+2026-07-30 00:37:04,725 |move|p2a: Meganium|Aromatherapy|p2a: Meganium
+2026-07-30 00:37:04,725 |-cureteam|p2a: Meganium|[from] move: Aromatherapy
+2026-07-30 00:37:04,725 |move|p1a: Lunatone|Psychic|p2a: Meganium
+2026-07-30 00:37:04,725 |-damage|p2a: Meganium|63/100
+2026-07-30 00:37:04,725 |
+2026-07-30 00:37:04,725 |-heal|p2a: Meganium|69/100|[from] item: Leftovers
+2026-07-30 00:37:04,725 |upkeep
+2026-07-30 00:37:04,725 |turn|29
+2026-07-30 00:37:04,727 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,727 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Earth Power","id":"earthpower","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"278/278","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"rqid":66}
+2026-07-30 00:37:04,740 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,740 |
+2026-07-30 00:37:04,740 |t:|1785364624
+2026-07-30 00:37:04,740 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-07-30 00:37:04,740 |-heal|p2a: Meganium|100/100
+2026-07-30 00:37:04,740 |move|p1a: Lunatone|Explosion|p2a: Meganium
+2026-07-30 00:37:04,740 |-damage|p2a: Meganium|24/100
+2026-07-30 00:37:04,740 |faint|p1a: Lunatone
+2026-07-30 00:37:04,740 |
+2026-07-30 00:37:04,740 |-heal|p2a: Meganium|30/100|[from] item: Leftovers
+2026-07-30 00:37:04,740 |upkeep
+2026-07-30 00:37:04,742 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,742 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":true,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":68}
+2026-07-30 00:37:04,751 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,751 |
+2026-07-30 00:37:04,751 |t:|1785364624
+2026-07-30 00:37:04,751 |switch|p1a: Staraptor|Staraptor, L77, F|257/257
+2026-07-30 00:37:04,751 |-ability|p1a: Staraptor|Intimidate|boost
+2026-07-30 00:37:04,751 |-unboost|p2a: Meganium|atk|1
+2026-07-30 00:37:04,751 |turn|30
+2026-07-30 00:37:04,752 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,752 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Pursuit","id":"pursuit","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":70}
+2026-07-30 00:37:04,775 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,775 |
+2026-07-30 00:37:04,775 |t:|1785364624
+2026-07-30 00:37:04,775 |move|p1a: Staraptor|Pursuit|p2a: Meganium
+2026-07-30 00:37:04,775 |-damage|p2a: Meganium|18/100
+2026-07-30 00:37:04,775 |move|p2a: Meganium|Aromatherapy|p2a: Meganium
+2026-07-30 00:37:04,775 |-cureteam|p2a: Meganium|[from] move: Aromatherapy
+2026-07-30 00:37:04,775 |
+2026-07-30 00:37:04,775 |-heal|p2a: Meganium|24/100|[from] item: Leftovers
+2026-07-30 00:37:04,775 |upkeep
+2026-07-30 00:37:04,775 |turn|31
+2026-07-30 00:37:04,776 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,776 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":true},{"move":"Pursuit","id":"pursuit","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"257/257","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":72}
+2026-07-30 00:37:04,798 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,798 |
+2026-07-30 00:37:04,798 |t:|1785364624
+2026-07-30 00:37:04,798 |move|p1a: Staraptor|Pursuit|p2a: Meganium
+2026-07-30 00:37:04,798 |-damage|p2a: Meganium|12/100
+2026-07-30 00:37:04,798 |move|p2a: Meganium|Energy Ball|p1a: Staraptor
+2026-07-30 00:37:04,798 |-resisted|p1a: Staraptor
+2026-07-30 00:37:04,798 |-damage|p1a: Staraptor|155/257
+2026-07-30 00:37:04,798 |
+2026-07-30 00:37:04,798 |-heal|p2a: Meganium|18/100|[from] item: Leftovers
+2026-07-30 00:37:04,798 |upkeep
+2026-07-30 00:37:04,798 |turn|32
+2026-07-30 00:37:04,800 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,800 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":true},{"move":"Pursuit","id":"pursuit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"155/257","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":74}
+2026-07-30 00:37:04,819 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,819 |
+2026-07-30 00:37:04,819 |t:|1785364624
+2026-07-30 00:37:04,819 |move|p1a: Staraptor|Pursuit|p2a: Meganium
+2026-07-30 00:37:04,819 |-damage|p2a: Meganium|6/100
+2026-07-30 00:37:04,819 |move|p2a: Meganium|Toxic|p1a: Staraptor
+2026-07-30 00:37:04,819 |-status|p1a: Staraptor|tox
+2026-07-30 00:37:04,819 |
+2026-07-30 00:37:04,819 |-damage|p1a: Staraptor|139/257 tox|[from] psn
+2026-07-30 00:37:04,819 |-heal|p2a: Meganium|12/100|[from] item: Leftovers
+2026-07-30 00:37:04,819 |upkeep
+2026-07-30 00:37:04,819 |turn|33
+2026-07-30 00:37:04,821 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,821 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":true},{"move":"Pursuit","id":"pursuit","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"139/257 tox","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":76}
+2026-07-30 00:37:04,838 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,838 |
+2026-07-30 00:37:04,838 |t:|1785364624
+2026-07-30 00:37:04,838 |move|p1a: Staraptor|Pursuit|p2a: Meganium
+2026-07-30 00:37:04,838 |-damage|p2a: Meganium|0 fnt
+2026-07-30 00:37:04,838 |faint|p2a: Meganium
+2026-07-30 00:37:04,838 |
+2026-07-30 00:37:04,838 |-damage|p1a: Staraptor|107/257 tox|[from] psn
+2026-07-30 00:37:04,838 |upkeep
+2026-07-30 00:37:04,838 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,838 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":78}
+2026-07-30 00:37:04,848 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,848 |
+2026-07-30 00:37:04,848 |t:|1785364624
+2026-07-30 00:37:04,848 |switch|p2a: Smeargle|Smeargle, L86, M|100/100
+2026-07-30 00:37:04,848 |turn|34
+2026-07-30 00:37:04,848 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,848 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":true},{"move":"Pursuit","id":"pursuit","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":true,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":80}
+2026-07-30 00:37:04,872 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,872 |
+2026-07-30 00:37:04,872 |t:|1785364624
+2026-07-30 00:37:04,872 |move|p1a: Staraptor|Pursuit|p2a: Smeargle
+2026-07-30 00:37:04,872 |-damage|p2a: Smeargle|68/100
+2026-07-30 00:37:04,872 |move|p2a: Smeargle|Whirlwind|p1a: Staraptor
+2026-07-30 00:37:04,872 |drag|p1a: Flareon|Flareon, L92, F|269/269
+2026-07-30 00:37:04,872 |
+2026-07-30 00:37:04,872 |upkeep
+2026-07-30 00:37:04,872 |turn|35
+2026-07-30 00:37:04,872 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,872 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":82}
+2026-07-30 00:37:04,890 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,890 |
+2026-07-30 00:37:04,890 |t:|1785364624
+2026-07-30 00:37:04,890 |move|p2a: Smeargle|Toxic Spikes|p1a: Flareon
+2026-07-30 00:37:04,890 |-sidestart|p1: BOT1|move: Toxic Spikes
+2026-07-30 00:37:04,890 |move|p1a: Flareon|Fire Blast|p2a: Smeargle
+2026-07-30 00:37:04,890 |-damage|p2a: Smeargle|0 fnt
+2026-07-30 00:37:04,890 |faint|p2a: Smeargle
+2026-07-30 00:37:04,890 |
+2026-07-30 00:37:04,890 |upkeep
+2026-07-30 00:37:04,892 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,892 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":84}
+2026-07-30 00:37:04,910 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,910 |
+2026-07-30 00:37:04,910 |t:|1785364624
+2026-07-30 00:37:04,910 |switch|p2a: Moltres|Moltres, L78|100/100
+2026-07-30 00:37:04,910 |-ability|p2a: Moltres|Pressure
+2026-07-30 00:37:04,910 |turn|36
+2026-07-30 00:37:04,912 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,912 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":86}
+2026-07-30 00:37:04,943 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,943 |
+2026-07-30 00:37:04,943 |t:|1785364624
+2026-07-30 00:37:04,943 |move|p2a: Moltres|Air Slash|p1a: Flareon
+2026-07-30 00:37:04,943 |-damage|p1a: Flareon|203/269
+2026-07-30 00:37:04,943 |move|p1a: Flareon|Superpower|p2a: Moltres
+2026-07-30 00:37:04,943 |-resisted|p2a: Moltres
+2026-07-30 00:37:04,943 |-damage|p2a: Moltres|77/100
+2026-07-30 00:37:04,943 |-unboost|p1a: Flareon|atk|1
+2026-07-30 00:37:04,943 |-unboost|p1a: Flareon|def|1
+2026-07-30 00:37:04,943 |
+2026-07-30 00:37:04,943 |-heal|p2a: Moltres|83/100|[from] item: Leftovers
+2026-07-30 00:37:04,943 |-heal|p1a: Flareon|219/269|[from] item: Leftovers
+2026-07-30 00:37:04,943 |upkeep
+2026-07-30 00:37:04,943 |turn|37
+2026-07-30 00:37:04,947 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,947 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"219/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":88}
+2026-07-30 00:37:04,979 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,980 |
+2026-07-30 00:37:04,980 |t:|1785364624
+2026-07-30 00:37:04,980 |move|p1a: Flareon|Protect|p1a: Flareon
+2026-07-30 00:37:04,980 |-singleturn|p1a: Flareon|Protect
+2026-07-30 00:37:04,980 |move|p2a: Moltres|Substitute|p2a: Moltres
+2026-07-30 00:37:04,980 |-start|p2a: Moltres|Substitute
+2026-07-30 00:37:04,980 |-damage|p2a: Moltres|58/100
+2026-07-30 00:37:04,980 |
+2026-07-30 00:37:04,980 |-heal|p2a: Moltres|64/100|[from] item: Leftovers
+2026-07-30 00:37:04,980 |-heal|p1a: Flareon|235/269|[from] item: Leftovers
+2026-07-30 00:37:04,980 |upkeep
+2026-07-30 00:37:04,980 |turn|38
+2026-07-30 00:37:04,982 >battle-gen4randombattle-11425
+2026-07-30 00:37:04,982 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"235/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":90}
+2026-07-30 00:37:05,005 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,005 |
+2026-07-30 00:37:05,005 |t:|1785364624
+2026-07-30 00:37:05,005 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-07-30 00:37:05,005 |-heal|p2a: Moltres|100/100
+2026-07-30 00:37:05,005 |-singleturn|p2a: Moltres|move: Roost
+2026-07-30 00:37:05,005 |move|p1a: Flareon|Superpower|p2a: Moltres
+2026-07-30 00:37:05,005 |-end|p2a: Moltres|Substitute
+2026-07-30 00:37:05,005 |-unboost|p1a: Flareon|atk|1
+2026-07-30 00:37:05,005 |-unboost|p1a: Flareon|def|1
+2026-07-30 00:37:05,005 |
+2026-07-30 00:37:05,005 |-heal|p1a: Flareon|251/269|[from] item: Leftovers
+2026-07-30 00:37:05,005 |upkeep
+2026-07-30 00:37:05,005 |turn|39
+2026-07-30 00:37:05,006 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,006 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"251/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":92}
+2026-07-30 00:37:05,025 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,025 |
+2026-07-30 00:37:05,025 |t:|1785364625
+2026-07-30 00:37:05,025 |move|p2a: Moltres|Roost||[still]
+2026-07-30 00:37:05,025 |-fail|p2a: Moltres|heal
+2026-07-30 00:37:05,025 |move|p1a: Flareon|Superpower|p2a: Moltres
+2026-07-30 00:37:05,025 |-resisted|p2a: Moltres
+2026-07-30 00:37:05,025 |-damage|p2a: Moltres|88/100
+2026-07-30 00:37:05,025 |-unboost|p1a: Flareon|atk|1
+2026-07-30 00:37:05,026 |-unboost|p1a: Flareon|def|1
+2026-07-30 00:37:05,026 |
+2026-07-30 00:37:05,026 |-heal|p2a: Moltres|94/100|[from] item: Leftovers
+2026-07-30 00:37:05,026 |-heal|p1a: Flareon|267/269|[from] item: Leftovers
+2026-07-30 00:37:05,026 |upkeep
+2026-07-30 00:37:05,026 |turn|40
+2026-07-30 00:37:05,027 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,027 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"267/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":94}
+2026-07-30 00:37:05,044 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,044 |
+2026-07-30 00:37:05,044 |t:|1785364625
+2026-07-30 00:37:05,044 |move|p2a: Moltres|Substitute|p2a: Moltres
+2026-07-30 00:37:05,044 |-start|p2a: Moltres|Substitute
+2026-07-30 00:37:05,044 |-damage|p2a: Moltres|69/100
+2026-07-30 00:37:05,044 |move|p1a: Flareon|Wish|p1a: Flareon
+2026-07-30 00:37:05,044 |
+2026-07-30 00:37:05,044 |-heal|p2a: Moltres|75/100|[from] item: Leftovers
+2026-07-30 00:37:05,044 |-heal|p1a: Flareon|269/269|[from] item: Leftovers
+2026-07-30 00:37:05,044 |upkeep
+2026-07-30 00:37:05,044 |turn|41
+2026-07-30 00:37:05,047 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,047 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":96}
+2026-07-30 00:37:05,067 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,067 |
+2026-07-30 00:37:05,067 |t:|1785364625
+2026-07-30 00:37:05,067 |move|p1a: Flareon|Protect|p1a: Flareon
+2026-07-30 00:37:05,067 |-singleturn|p1a: Flareon|Protect
+2026-07-30 00:37:05,068 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-07-30 00:37:05,068 |-heal|p2a: Moltres|100/100
+2026-07-30 00:37:05,068 |-singleturn|p2a: Moltres|move: Roost
+2026-07-30 00:37:05,068 |
+2026-07-30 00:37:05,068 |upkeep
+2026-07-30 00:37:05,068 |turn|42
+2026-07-30 00:37:05,068 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,068 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":98}
+2026-07-30 00:37:05,090 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,090 |
+2026-07-30 00:37:05,090 |t:|1785364625
+2026-07-30 00:37:05,090 |move|p2a: Moltres|Fire Blast|p1a: Flareon
+2026-07-30 00:37:05,090 |-start|p1a: Flareon|ability: Flash Fire
+2026-07-30 00:37:05,090 |move|p1a: Flareon|Fire Blast|p2a: Moltres
+2026-07-30 00:37:05,090 |-resisted|p2a: Moltres
+2026-07-30 00:37:05,090 |-end|p2a: Moltres|Substitute
+2026-07-30 00:37:05,090 |
+2026-07-30 00:37:05,090 |upkeep
+2026-07-30 00:37:05,090 |turn|43
+2026-07-30 00:37:05,090 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,090 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":100}
+2026-07-30 00:37:05,113 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,113 |
+2026-07-30 00:37:05,113 |t:|1785364625
+2026-07-30 00:37:05,113 |move|p2a: Moltres|Air Slash|p1a: Flareon
+2026-07-30 00:37:05,113 |-damage|p1a: Flareon|209/269
+2026-07-30 00:37:05,113 |move|p1a: Flareon|Fire Blast|p2a: Moltres
+2026-07-30 00:37:05,113 |-resisted|p2a: Moltres
+2026-07-30 00:37:05,113 |-crit|p2a: Moltres
+2026-07-30 00:37:05,113 |-damage|p2a: Moltres|4/100
+2026-07-30 00:37:05,113 |
+2026-07-30 00:37:05,113 |-heal|p2a: Moltres|10/100|[from] item: Leftovers
+2026-07-30 00:37:05,113 |-heal|p1a: Flareon|225/269|[from] item: Leftovers
+2026-07-30 00:37:05,113 |upkeep
+2026-07-30 00:37:05,113 |turn|44
+2026-07-30 00:37:05,114 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,114 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"225/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":102}
+2026-07-30 00:37:05,136 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,136 |
+2026-07-30 00:37:05,136 |t:|1785364625
+2026-07-30 00:37:05,136 |move|p2a: Moltres|Fire Blast|p1a: Flareon
+2026-07-30 00:37:05,136 |-immune|p1a: Flareon|[from] ability: Flash Fire
+2026-07-30 00:37:05,136 |move|p1a: Flareon|Superpower|p2a: Moltres
+2026-07-30 00:37:05,136 |-resisted|p2a: Moltres
+2026-07-30 00:37:05,136 |-damage|p2a: Moltres|0 fnt
+2026-07-30 00:37:05,136 |-unboost|p1a: Flareon|atk|1
+2026-07-30 00:37:05,136 |-unboost|p1a: Flareon|def|1
+2026-07-30 00:37:05,136 |faint|p2a: Moltres
+2026-07-30 00:37:05,136 |
+2026-07-30 00:37:05,136 |-heal|p1a: Flareon|241/269|[from] item: Leftovers
+2026-07-30 00:37:05,136 |upkeep
+2026-07-30 00:37:05,136 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,136 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"241/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":104}
+2026-07-30 00:37:05,147 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,147 |
+2026-07-30 00:37:05,147 |t:|1785364625
+2026-07-30 00:37:05,147 |switch|p2a: Grumpig|Grumpig, L88, M|100/100
+2026-07-30 00:37:05,147 |turn|45
+2026-07-30 00:37:05,148 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,148 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":0,"maxpp":8,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"241/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":106}
+2026-07-30 00:37:05,167 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,167 |
+2026-07-30 00:37:05,167 |t:|1785364625
+2026-07-30 00:37:05,167 |move|p1a: Flareon|Protect|p1a: Flareon
+2026-07-30 00:37:05,167 |-singleturn|p1a: Flareon|Protect
+2026-07-30 00:37:05,167 |move|p2a: Grumpig|Psychic|p1a: Flareon
+2026-07-30 00:37:05,167 |-activate|p1a: Flareon|Protect
+2026-07-30 00:37:05,167 |
+2026-07-30 00:37:05,167 |-heal|p1a: Flareon|257/269|[from] item: Leftovers
+2026-07-30 00:37:05,167 |upkeep
+2026-07-30 00:37:05,167 |turn|46
+2026-07-30 00:37:05,168 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,168 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":0,"maxpp":8,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"257/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":108}
+2026-07-30 00:37:05,195 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,195 |
+2026-07-30 00:37:05,195 |t:|1785364625
+2026-07-30 00:37:05,195 |move|p2a: Grumpig|Psychic|p1a: Flareon
+2026-07-30 00:37:05,195 |-damage|p1a: Flareon|184/269
+2026-07-30 00:37:05,195 |-unboost|p1a: Flareon|spd|1
+2026-07-30 00:37:05,195 |move|p1a: Flareon|Wish|p1a: Flareon
+2026-07-30 00:37:05,195 |
+2026-07-30 00:37:05,195 |-heal|p1a: Flareon|200/269|[from] item: Leftovers
+2026-07-30 00:37:05,195 |upkeep
+2026-07-30 00:37:05,195 |turn|47
+2026-07-30 00:37:05,198 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,198 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":0,"maxpp":8,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"200/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":110}
+2026-07-30 00:37:05,230 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,230 |
+2026-07-30 00:37:05,230 |t:|1785364625
+2026-07-30 00:37:05,230 |move|p1a: Flareon|Protect|p1a: Flareon
+2026-07-30 00:37:05,230 |-singleturn|p1a: Flareon|Protect
+2026-07-30 00:37:05,230 |move|p2a: Grumpig|Psychic|p1a: Flareon
+2026-07-30 00:37:05,230 |-activate|p1a: Flareon|Protect
+2026-07-30 00:37:05,230 |
+2026-07-30 00:37:05,230 |-heal|p1a: Flareon|269/269|[from] move: Wish|[wisher] Flareon
+2026-07-30 00:37:05,230 |upkeep
+2026-07-30 00:37:05,230 |turn|48
+2026-07-30 00:37:05,231 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,231 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":0,"maxpp":8,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"269/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":112}
+2026-07-30 00:37:05,255 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,255 |
+2026-07-30 00:37:05,255 |t:|1785364625
+2026-07-30 00:37:05,255 |move|p2a: Grumpig|Psychic|p1a: Flareon
+2026-07-30 00:37:05,255 |-damage|p1a: Flareon|160/269
+2026-07-30 00:37:05,255 |move|p1a: Flareon|Fire Blast|p2a: Grumpig
+2026-07-30 00:37:05,255 |-damage|p2a: Grumpig|72/100
+2026-07-30 00:37:05,255 |-status|p2a: Grumpig|brn
+2026-07-30 00:37:05,255 |
+2026-07-30 00:37:05,255 |-damage|p2a: Grumpig|59/100 brn|[from] brn
+2026-07-30 00:37:05,255 |-heal|p1a: Flareon|176/269|[from] item: Leftovers
+2026-07-30 00:37:05,255 |upkeep
+2026-07-30 00:37:05,255 |turn|49
+2026-07-30 00:37:05,257 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,257 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":0,"maxpp":8,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"176/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":114}
+2026-07-30 00:37:05,278 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,278 |
+2026-07-30 00:37:05,278 |t:|1785364625
+2026-07-30 00:37:05,278 |move|p2a: Grumpig|Psychic|p1a: Flareon
+2026-07-30 00:37:05,278 |-damage|p1a: Flareon|53/269
+2026-07-30 00:37:05,278 |-unboost|p1a: Flareon|spd|1
+2026-07-30 00:37:05,278 |move|p1a: Flareon|Wish|p1a: Flareon
+2026-07-30 00:37:05,278 |
+2026-07-30 00:37:05,278 |-damage|p2a: Grumpig|47/100 brn|[from] brn
+2026-07-30 00:37:05,278 |-heal|p1a: Flareon|69/269|[from] item: Leftovers
+2026-07-30 00:37:05,279 |upkeep
+2026-07-30 00:37:05,279 |turn|50
+2026-07-30 00:37:05,280 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,280 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":0,"maxpp":8,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"69/269","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":116}
+2026-07-30 00:37:05,296 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,296 |
+2026-07-30 00:37:05,296 |t:|1785364625
+2026-07-30 00:37:05,296 |move|p2a: Grumpig|Psychic|p1a: Flareon
+2026-07-30 00:37:05,296 |-damage|p1a: Flareon|0 fnt
+2026-07-30 00:37:05,296 |faint|p1a: Flareon
+2026-07-30 00:37:05,296 |
+2026-07-30 00:37:05,296 |-damage|p2a: Grumpig|35/100 brn|[from] brn
+2026-07-30 00:37:05,296 |upkeep
+2026-07-30 00:37:05,297 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,297 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":true,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":118}
+2026-07-30 00:37:05,310 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,310 |
+2026-07-30 00:37:05,310 |t:|1785364625
+2026-07-30 00:37:05,310 |switch|p1a: Lapras|Lapras, L83, F|351/351
+2026-07-30 00:37:05,310 |-status|p1a: Lapras|psn
+2026-07-30 00:37:05,310 |turn|51
+2026-07-30 00:37:05,313 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,314 |request|{"active":[{"moves":[{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"351/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":120}
+2026-07-30 00:37:05,334 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,334 |
+2026-07-30 00:37:05,334 |t:|1785364625
+2026-07-30 00:37:05,334 |move|p2a: Grumpig|Psychic|p1a: Lapras
+2026-07-30 00:37:05,335 |-damage|p1a: Lapras|261/351 psn
+2026-07-30 00:37:05,335 |move|p1a: Lapras|Ice Beam|p2a: Grumpig
+2026-07-30 00:37:05,335 |-damage|p2a: Grumpig|22/100 brn
+2026-07-30 00:37:05,335 |
+2026-07-30 00:37:05,335 |-damage|p2a: Grumpig|10/100 brn|[from] brn
+2026-07-30 00:37:05,335 |-heal|p1a: Lapras|282/351 psn|[from] item: Leftovers
+2026-07-30 00:37:05,335 |-damage|p1a: Lapras|239/351 psn|[from] psn
+2026-07-30 00:37:05,335 |upkeep
+2026-07-30 00:37:05,335 |turn|52
+2026-07-30 00:37:05,335 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,335 |request|{"active":[{"moves":[{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"239/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":122}
+2026-07-30 00:37:05,352 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,352 |
+2026-07-30 00:37:05,352 |t:|1785364625
+2026-07-30 00:37:05,352 |move|p2a: Grumpig|Psychic|p1a: Lapras
+2026-07-30 00:37:05,352 |-damage|p1a: Lapras|139/351 psn
+2026-07-30 00:37:05,352 |move|p1a: Lapras|Hydro Pump|p2a: Grumpig
+2026-07-30 00:37:05,352 |-damage|p2a: Grumpig|0 fnt
+2026-07-30 00:37:05,352 |faint|p2a: Grumpig
+2026-07-30 00:37:05,352 |
+2026-07-30 00:37:05,352 |-heal|p1a: Lapras|160/351 psn|[from] item: Leftovers
+2026-07-30 00:37:05,352 |-damage|p1a: Lapras|117/351 psn|[from] psn
+2026-07-30 00:37:05,352 |upkeep
+2026-07-30 00:37:05,353 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,353 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"117/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":124}
+2026-07-30 00:37:05,363 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,363 |
+2026-07-30 00:37:05,363 |t:|1785364625
+2026-07-30 00:37:05,363 |switch|p2a: Pelipper|Pelipper, L90, M|100/100
+2026-07-30 00:37:05,363 |turn|53
+2026-07-30 00:37:05,365 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,365 |request|{"active":[{"moves":[{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"117/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":126}
+2026-07-30 00:37:05,382 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,382 |
+2026-07-30 00:37:05,382 |t:|1785364625
+2026-07-30 00:37:05,382 |move|p1a: Lapras|Protect|p1a: Lapras
+2026-07-30 00:37:05,382 |-singleturn|p1a: Lapras|Protect
+2026-07-30 00:37:05,382 |move|p2a: Pelipper|Toxic|p1a: Lapras
+2026-07-30 00:37:05,382 |-activate|p1a: Lapras|Protect
+2026-07-30 00:37:05,382 |
+2026-07-30 00:37:05,382 |-heal|p1a: Lapras|138/351 psn|[from] item: Leftovers
+2026-07-30 00:37:05,382 |-damage|p1a: Lapras|95/351 psn|[from] psn
+2026-07-30 00:37:05,382 |upkeep
+2026-07-30 00:37:05,382 |turn|54
+2026-07-30 00:37:05,384 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,384 |request|{"active":[{"moves":[{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"95/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":128}
+2026-07-30 00:37:05,405 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,405 |
+2026-07-30 00:37:05,405 |t:|1785364625
+2026-07-30 00:37:05,405 |move|p2a: Pelipper|Roost||[still]
+2026-07-30 00:37:05,405 |-fail|p2a: Pelipper|heal
+2026-07-30 00:37:05,405 |move|p1a: Lapras|Hydro Pump|p2a: Pelipper
+2026-07-30 00:37:05,405 |-resisted|p2a: Pelipper
+2026-07-30 00:37:05,405 |-damage|p2a: Pelipper|75/100
+2026-07-30 00:37:05,405 |
+2026-07-30 00:37:05,405 |-heal|p2a: Pelipper|81/100|[from] item: Leftovers
+2026-07-30 00:37:05,405 |-heal|p1a: Lapras|116/351 psn|[from] item: Leftovers
+2026-07-30 00:37:05,405 |-damage|p1a: Lapras|73/351 psn|[from] psn
+2026-07-30 00:37:05,405 |upkeep
+2026-07-30 00:37:05,405 |turn|55
+2026-07-30 00:37:05,406 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,406 |request|{"active":[{"moves":[{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"73/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":130}
+2026-07-30 00:37:05,423 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,423 |
+2026-07-30 00:37:05,423 |t:|1785364625
+2026-07-30 00:37:05,423 |move|p2a: Pelipper|Toxic||[still]
+2026-07-30 00:37:05,423 |-fail|p2a: Pelipper
+2026-07-30 00:37:05,423 |move|p1a: Lapras|Ice Beam|p2a: Pelipper
+2026-07-30 00:37:05,423 |-crit|p2a: Pelipper
+2026-07-30 00:37:05,423 |-damage|p2a: Pelipper|3/100
+2026-07-30 00:37:05,423 |-status|p2a: Pelipper|frz
+2026-07-30 00:37:05,423 |
+2026-07-30 00:37:05,423 |-heal|p2a: Pelipper|9/100 frz|[from] item: Leftovers
+2026-07-30 00:37:05,423 |-heal|p1a: Lapras|94/351 psn|[from] item: Leftovers
+2026-07-30 00:37:05,423 |-damage|p1a: Lapras|51/351 psn|[from] psn
+2026-07-30 00:37:05,423 |upkeep
+2026-07-30 00:37:05,423 |turn|56
+2026-07-30 00:37:05,425 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,425 |request|{"active":[{"moves":[{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Lapras","details":"Lapras, L83, F","condition":"51/351 psn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["hydropump","toxic","icebeam","protect"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dusknoir","details":"Dusknoir, L85, F","condition":"0 fnt","active":false,"stats":{"atk":219,"def":278,"spa":159,"spd":278,"spe":125},"moves":["painsplit","focuspunch","substitute","shadowsneak"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Staraptor","details":"Staraptor, L77, F","condition":"107/257 tox","active":false,"stats":{"atk":229,"def":152,"spa":122,"spd":122,"spe":199},"moves":["uturn","bravebird","pursuit","closecombat"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p1: Flareon","details":"Flareon, L92, F","condition":"0 fnt","active":false,"stats":{"atk":292,"def":163,"spa":227,"spd":255,"spe":172},"moves":["superpower","fireblast","wish","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dunsparce","details":"Dunsparce, L93, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":174,"spd":174,"spe":137},"moves":["roost","headbutt","thunderwave","earthquake"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Lunatone","details":"Lunatone, L92","condition":"0 fnt","active":false,"stats":{"atk":154,"def":172,"spa":227,"spd":209,"spe":181},"moves":["toxic","earthpower","psychic","explosion"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":132}
+2026-07-30 00:37:05,441 >battle-gen4randombattle-11425
+2026-07-30 00:37:05,441 |
+2026-07-30 00:37:05,441 |t:|1785364625
+2026-07-30 00:37:05,441 |cant|p2a: Pelipper|frz
+2026-07-30 00:37:05,441 |move|p1a: Lapras|Ice Beam|p2a: Pelipper
+2026-07-30 00:37:05,441 |-damage|p2a: Pelipper|0 fnt
+2026-07-30 00:37:05,441 |faint|p2a: Pelipper
+2026-07-30 00:37:05,441 |
+2026-07-30 00:37:05,441 |win|BOT1
+2026-07-30 00:37:05,442 |updatesearch|{"searching":[],"games":null}
+2026-07-30 00:37:05,461 |pm| BOT1| BOT2|/challenge gen4randombattle|gen4randombattle|||
+2026-07-30 00:37:05,462 |pm| BOT1| BOT2|/log BOT1 wants to battle!
+2026-07-30 00:37:05,475 |pm| BOT2| BOT1|/challenge
+2026-07-30 00:37:05,475 |updatesearch|{"searching":[],"games":null}
+2026-07-30 00:37:05,475 |updatesearch|{"searching":[],"games":{"battle-gen4randombattle-11426":"[Gen 4] Random Battle"}}
+2026-07-30 00:37:05,475 |updatesearch|{"searching":[],"games":{"battle-gen4randombattle-11426":"[Gen 4] Random Battle"}}
+2026-07-30 00:37:05,477 >battle-gen4randombattle-11426

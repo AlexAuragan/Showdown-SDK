@@ -1,0 +1,560 @@
+2026-07-30 00:34:05,509 |init|battle
+2026-07-30 00:34:05,510 |title|BOT1 vs. BOT2
+2026-07-30 00:34:05,510 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,510 |J|☆BOT2
+2026-07-30 00:34:05,512 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-11239">battle-gen4randombattle-11239</a>&raquo;
+2026-07-30 00:34:05,541 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,541 |t:|1785364445
+2026-07-30 00:34:05,541 |gametype|singles
+2026-07-30 00:34:05,541 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,541 |player|p1|BOT1|101|
+2026-07-30 00:34:05,541 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,541 |player|p2|BOT2|170|
+2026-07-30 00:34:05,541 |gen|4
+2026-07-30 00:34:05,541 |tier|[Gen 4] Random Battle
+2026-07-30 00:34:05,541 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-07-30 00:34:05,541 |rule|HP Percentage Mod: HP is shown in percentages
+2026-07-30 00:34:05,541 |
+2026-07-30 00:34:05,541 |t:|1785364445
+2026-07-30 00:34:05,541 |teamsize|p1|6
+2026-07-30 00:34:05,541 |teamsize|p2|6
+2026-07-30 00:34:05,542 |start
+2026-07-30 00:34:05,542 |switch|p1a: Dodrio|Dodrio, L83, M|235/235
+2026-07-30 00:34:05,542 |switch|p2a: Cradily|Cradily, L87, M|100/100
+2026-07-30 00:34:05,542 |turn|1
+2026-07-30 00:34:05,543 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,543 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"235/235","active":true,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":2}
+2026-07-30 00:34:05,556 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,556 |
+2026-07-30 00:34:05,556 |t:|1785364445
+2026-07-30 00:34:05,556 |move|p1a: Dodrio|Roost||[still]
+2026-07-30 00:34:05,556 |-fail|p1a: Dodrio|heal
+2026-07-30 00:34:05,556 |move|p2a: Cradily|Earthquake|p1a: Dodrio
+2026-07-30 00:34:05,556 |-immune|p1a: Dodrio
+2026-07-30 00:34:05,556 |
+2026-07-30 00:34:05,556 |upkeep
+2026-07-30 00:34:05,556 |turn|2
+2026-07-30 00:34:05,557 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,557 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"235/235","active":true,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":4}
+2026-07-30 00:34:05,572 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,572 |
+2026-07-30 00:34:05,572 |t:|1785364445
+2026-07-30 00:34:05,572 |move|p1a: Dodrio|Roost||[still]
+2026-07-30 00:34:05,572 |-fail|p1a: Dodrio|heal
+2026-07-30 00:34:05,573 |move|p2a: Cradily|Stone Edge|p1a: Dodrio
+2026-07-30 00:34:05,573 |-supereffective|p1a: Dodrio
+2026-07-30 00:34:05,573 |-damage|p1a: Dodrio|17/235
+2026-07-30 00:34:05,573 |
+2026-07-30 00:34:05,573 |upkeep
+2026-07-30 00:34:05,573 |turn|3
+2026-07-30 00:34:05,574 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,574 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"17/235","active":true,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":6}
+2026-07-30 00:34:05,589 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,589 |
+2026-07-30 00:34:05,589 |t:|1785364445
+2026-07-30 00:34:05,589 |move|p1a: Dodrio|Roost|p1a: Dodrio
+2026-07-30 00:34:05,589 |-heal|p1a: Dodrio|134/235
+2026-07-30 00:34:05,589 |-singleturn|p1a: Dodrio|move: Roost
+2026-07-30 00:34:05,589 |move|p2a: Cradily|Earthquake|p1a: Dodrio
+2026-07-30 00:34:05,589 |-damage|p1a: Dodrio|54/235
+2026-07-30 00:34:05,589 |
+2026-07-30 00:34:05,589 |upkeep
+2026-07-30 00:34:05,589 |turn|4
+2026-07-30 00:34:05,592 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,592 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"54/235","active":true,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":8}
+2026-07-30 00:34:05,606 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,606 |
+2026-07-30 00:34:05,606 |t:|1785364445
+2026-07-30 00:34:05,606 |move|p1a: Dodrio|Roost|p1a: Dodrio
+2026-07-30 00:34:05,606 |-heal|p1a: Dodrio|171/235
+2026-07-30 00:34:05,606 |-singleturn|p1a: Dodrio|move: Roost
+2026-07-30 00:34:05,606 |move|p2a: Cradily|Curse|p2a: Cradily
+2026-07-30 00:34:05,606 |-unboost|p2a: Cradily|spe|1
+2026-07-30 00:34:05,606 |-boost|p2a: Cradily|atk|1
+2026-07-30 00:34:05,606 |-boost|p2a: Cradily|def|1
+2026-07-30 00:34:05,606 |
+2026-07-30 00:34:05,606 |upkeep
+2026-07-30 00:34:05,606 |turn|5
+2026-07-30 00:34:05,608 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,608 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"171/235","active":true,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":10}
+2026-07-30 00:34:05,624 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,624 |
+2026-07-30 00:34:05,624 |t:|1785364445
+2026-07-30 00:34:05,624 |move|p1a: Dodrio|Return|p2a: Cradily
+2026-07-30 00:34:05,624 |-resisted|p2a: Cradily
+2026-07-30 00:34:05,624 |-damage|p2a: Cradily|86/100
+2026-07-30 00:34:05,624 |-damage|p1a: Dodrio|148/235|[from] item: Life Orb
+2026-07-30 00:34:05,624 |move|p2a: Cradily|Stone Edge|p1a: Dodrio
+2026-07-30 00:34:05,624 |-supereffective|p1a: Dodrio
+2026-07-30 00:34:05,624 |-damage|p1a: Dodrio|0 fnt
+2026-07-30 00:34:05,624 |faint|p1a: Dodrio
+2026-07-30 00:34:05,624 |
+2026-07-30 00:34:05,624 |-heal|p2a: Cradily|92/100|[from] item: Leftovers
+2026-07-30 00:34:05,624 |upkeep
+2026-07-30 00:34:05,625 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,625 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":true,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":12}
+2026-07-30 00:34:05,635 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,635 |
+2026-07-30 00:34:05,635 |t:|1785364445
+2026-07-30 00:34:05,635 |switch|p1a: Omastar|Omastar, L86, F|261/261
+2026-07-30 00:34:05,635 |turn|6
+2026-07-30 00:34:05,636 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,636 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"261/261","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":14}
+2026-07-30 00:34:05,662 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,662 |
+2026-07-30 00:34:05,662 |t:|1785364445
+2026-07-30 00:34:05,663 |move|p1a: Omastar|Ice Beam|p2a: Cradily
+2026-07-30 00:34:05,663 |-supereffective|p2a: Cradily
+2026-07-30 00:34:05,663 |-damage|p2a: Cradily|49/100
+2026-07-30 00:34:05,663 |move|p2a: Cradily|Earthquake|p1a: Omastar
+2026-07-30 00:34:05,663 |-supereffective|p1a: Omastar
+2026-07-30 00:34:05,663 |-damage|p1a: Omastar|113/261
+2026-07-30 00:34:05,663 |
+2026-07-30 00:34:05,663 |-heal|p1a: Omastar|129/261|[from] item: Leftovers
+2026-07-30 00:34:05,663 |-heal|p2a: Cradily|55/100|[from] item: Leftovers
+2026-07-30 00:34:05,663 |upkeep
+2026-07-30 00:34:05,663 |turn|7
+2026-07-30 00:34:05,664 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,664 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"129/261","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":16}
+2026-07-30 00:34:05,680 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,680 |
+2026-07-30 00:34:05,680 |t:|1785364445
+2026-07-30 00:34:05,680 |move|p1a: Omastar|Toxic Spikes|p2a: Cradily
+2026-07-30 00:34:05,681 |-sidestart|p2: BOT2|move: Toxic Spikes
+2026-07-30 00:34:05,681 |move|p2a: Cradily|Stone Edge|p1a: Omastar
+2026-07-30 00:34:05,681 |-damage|p1a: Omastar|21/261
+2026-07-30 00:34:05,681 |
+2026-07-30 00:34:05,681 |-heal|p1a: Omastar|37/261|[from] item: Leftovers
+2026-07-30 00:34:05,681 |-heal|p2a: Cradily|61/100|[from] item: Leftovers
+2026-07-30 00:34:05,681 |upkeep
+2026-07-30 00:34:05,681 |turn|8
+2026-07-30 00:34:05,682 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,682 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"37/261","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":18}
+2026-07-30 00:34:05,698 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,698 |
+2026-07-30 00:34:05,698 |t:|1785364445
+2026-07-30 00:34:05,698 |move|p1a: Omastar|Surf|p2a: Cradily
+2026-07-30 00:34:05,698 |-damage|p2a: Cradily|28/100
+2026-07-30 00:34:05,698 |move|p2a: Cradily|Curse|p2a: Cradily
+2026-07-30 00:34:05,698 |-unboost|p2a: Cradily|spe|1
+2026-07-30 00:34:05,698 |-boost|p2a: Cradily|atk|1
+2026-07-30 00:34:05,698 |-boost|p2a: Cradily|def|1
+2026-07-30 00:34:05,698 |
+2026-07-30 00:34:05,698 |-heal|p1a: Omastar|53/261|[from] item: Leftovers
+2026-07-30 00:34:05,698 |-heal|p2a: Cradily|35/100|[from] item: Leftovers
+2026-07-30 00:34:05,698 |upkeep
+2026-07-30 00:34:05,698 |turn|9
+2026-07-30 00:34:05,700 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,700 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"53/261","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":20}
+2026-07-30 00:34:05,712 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,712 |
+2026-07-30 00:34:05,712 |t:|1785364445
+2026-07-30 00:34:05,712 |move|p1a: Omastar|Ice Beam|p2a: Cradily
+2026-07-30 00:34:05,712 |-supereffective|p2a: Cradily
+2026-07-30 00:34:05,712 |-crit|p2a: Cradily
+2026-07-30 00:34:05,712 |-damage|p2a: Cradily|0 fnt
+2026-07-30 00:34:05,712 |faint|p2a: Cradily
+2026-07-30 00:34:05,712 |
+2026-07-30 00:34:05,712 |-heal|p1a: Omastar|69/261|[from] item: Leftovers
+2026-07-30 00:34:05,712 |upkeep
+2026-07-30 00:34:05,714 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,714 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"69/261","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":22}
+2026-07-30 00:34:05,724 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,724 |
+2026-07-30 00:34:05,724 |t:|1785364445
+2026-07-30 00:34:05,724 |switch|p2a: Mewtwo|Mewtwo, L70|100/100
+2026-07-30 00:34:05,724 |-status|p2a: Mewtwo|psn
+2026-07-30 00:34:05,724 |-ability|p2a: Mewtwo|Pressure
+2026-07-30 00:34:05,724 |turn|10
+2026-07-30 00:34:05,724 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,724 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"69/261","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":24}
+2026-07-30 00:34:05,743 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,743 |
+2026-07-30 00:34:05,743 |t:|1785364445
+2026-07-30 00:34:05,743 |move|p2a: Mewtwo|Fire Blast|p1a: Omastar
+2026-07-30 00:34:05,743 |-resisted|p1a: Omastar
+2026-07-30 00:34:05,744 |-damage|p1a: Omastar|34/261
+2026-07-30 00:34:05,744 |-status|p1a: Omastar|brn
+2026-07-30 00:34:05,744 |-damage|p2a: Mewtwo|91/100 psn|[from] item: Life Orb
+2026-07-30 00:34:05,744 |move|p1a: Omastar|Surf|p2a: Mewtwo
+2026-07-30 00:34:05,744 |-damage|p2a: Mewtwo|38/100 psn
+2026-07-30 00:34:05,744 |
+2026-07-30 00:34:05,744 |-damage|p2a: Mewtwo|25/100 psn|[from] psn
+2026-07-30 00:34:05,744 |-heal|p1a: Omastar|50/261 brn|[from] item: Leftovers
+2026-07-30 00:34:05,744 |-damage|p1a: Omastar|18/261 brn|[from] brn
+2026-07-30 00:34:05,744 |upkeep
+2026-07-30 00:34:05,744 |turn|11
+2026-07-30 00:34:05,745 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,745 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":21,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"18/261 brn","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":26}
+2026-07-30 00:34:05,759 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,759 |
+2026-07-30 00:34:05,759 |t:|1785364445
+2026-07-30 00:34:05,759 |move|p2a: Mewtwo|Psychic|p1a: Omastar
+2026-07-30 00:34:05,759 |-damage|p1a: Omastar|0 fnt
+2026-07-30 00:34:05,759 |faint|p1a: Omastar
+2026-07-30 00:34:05,759 |-damage|p2a: Mewtwo|16/100 psn|[from] item: Life Orb
+2026-07-30 00:34:05,759 |
+2026-07-30 00:34:05,759 |-damage|p2a: Mewtwo|3/100 psn|[from] psn
+2026-07-30 00:34:05,759 |upkeep
+2026-07-30 00:34:05,761 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,761 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":true,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":28}
+2026-07-30 00:34:05,769 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,769 |
+2026-07-30 00:34:05,769 |t:|1785364445
+2026-07-30 00:34:05,769 |switch|p1a: Primeape|Primeape, L84, M|246/246
+2026-07-30 00:34:05,769 |turn|12
+2026-07-30 00:34:05,772 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,772 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"246/246","active":true,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":30}
+2026-07-30 00:34:05,790 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,790 |
+2026-07-30 00:34:05,790 |t:|1785364445
+2026-07-30 00:34:05,790 |move|p2a: Mewtwo|Fire Blast|p1a: Primeape
+2026-07-30 00:34:05,790 |-damage|p1a: Primeape|100/246
+2026-07-30 00:34:05,790 |-damage|p2a: Mewtwo|0 fnt|[from] item: Life Orb
+2026-07-30 00:34:05,790 |faint|p2a: Mewtwo
+2026-07-30 00:34:05,790 |move|p1a: Primeape|Bulk Up|p1a: Primeape
+2026-07-30 00:34:05,790 |-boost|p1a: Primeape|atk|1
+2026-07-30 00:34:05,790 |-boost|p1a: Primeape|def|1
+2026-07-30 00:34:05,790 |
+2026-07-30 00:34:05,790 |upkeep
+2026-07-30 00:34:05,792 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,792 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"100/246","active":true,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":32}
+2026-07-30 00:34:05,804 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,804 |
+2026-07-30 00:34:05,804 |t:|1785364445
+2026-07-30 00:34:05,804 |switch|p2a: Probopass|Probopass, L88, F|100/100
+2026-07-30 00:34:05,804 |turn|13
+2026-07-30 00:34:05,808 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,808 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"100/246","active":true,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":34}
+2026-07-30 00:34:05,823 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,823 |
+2026-07-30 00:34:05,823 |t:|1785364445
+2026-07-30 00:34:05,823 |move|p1a: Primeape|Stone Edge|p2a: Probopass|[miss]
+2026-07-30 00:34:05,823 |-miss|p1a: Primeape|p2a: Probopass
+2026-07-30 00:34:05,823 |move|p2a: Probopass|Explosion|p1a: Primeape
+2026-07-30 00:34:05,823 |-damage|p1a: Primeape|0 fnt
+2026-07-30 00:34:05,823 |faint|p2a: Probopass
+2026-07-30 00:34:05,823 |faint|p1a: Primeape
+2026-07-30 00:34:05,823 |
+2026-07-30 00:34:05,823 |upkeep
+2026-07-30 00:34:05,824 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,824 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":true,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":36}
+2026-07-30 00:34:05,836 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,836 |
+2026-07-30 00:34:05,836 |t:|1785364445
+2026-07-30 00:34:05,836 |switch|p1a: Wigglytuff|Wigglytuff, L98, F|433/433
+2026-07-30 00:34:05,836 |switch|p2a: Leafeon|Leafeon, L85, F|100/100
+2026-07-30 00:34:05,836 |-status|p2a: Leafeon|psn
+2026-07-30 00:34:05,836 |turn|14
+2026-07-30 00:34:05,836 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,836 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"433/433","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":38}
+2026-07-30 00:34:05,859 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,859 |
+2026-07-30 00:34:05,859 |t:|1785364445
+2026-07-30 00:34:05,859 |move|p2a: Leafeon|Leaf Blade|p1a: Wigglytuff
+2026-07-30 00:34:05,859 |-damage|p1a: Wigglytuff|274/433
+2026-07-30 00:34:05,859 |move|p1a: Wigglytuff|Body Slam|p2a: Leafeon
+2026-07-30 00:34:05,859 |-damage|p2a: Leafeon|72/100 psn
+2026-07-30 00:34:05,859 |
+2026-07-30 00:34:05,859 |-heal|p2a: Leafeon|78/100 psn|[from] item: Leftovers
+2026-07-30 00:34:05,859 |-damage|p2a: Leafeon|66/100 psn|[from] psn
+2026-07-30 00:34:05,859 |-heal|p1a: Wigglytuff|301/433|[from] item: Leftovers
+2026-07-30 00:34:05,859 |upkeep
+2026-07-30 00:34:05,859 |turn|15
+2026-07-30 00:34:05,859 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,859 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"301/433","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":40}
+2026-07-30 00:34:05,877 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,877 |
+2026-07-30 00:34:05,877 |t:|1785364445
+2026-07-30 00:34:05,877 |move|p2a: Leafeon|Double-Edge|p1a: Wigglytuff
+2026-07-30 00:34:05,877 |-damage|p1a: Wigglytuff|161/433
+2026-07-30 00:34:05,877 |-damage|p2a: Leafeon|47/100 psn|[from] Recoil
+2026-07-30 00:34:05,877 |move|p1a: Wigglytuff|Body Slam|p2a: Leafeon
+2026-07-30 00:34:05,877 |-damage|p2a: Leafeon|22/100 psn
+2026-07-30 00:34:05,877 |
+2026-07-30 00:34:05,877 |-heal|p2a: Leafeon|28/100 psn|[from] item: Leftovers
+2026-07-30 00:34:05,877 |-damage|p2a: Leafeon|15/100 psn|[from] psn
+2026-07-30 00:34:05,877 |-heal|p1a: Wigglytuff|188/433|[from] item: Leftovers
+2026-07-30 00:34:05,877 |upkeep
+2026-07-30 00:34:05,877 |turn|16
+2026-07-30 00:34:05,878 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,878 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"188/433","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":42}
+2026-07-30 00:34:05,893 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,893 |
+2026-07-30 00:34:05,893 |t:|1785364445
+2026-07-30 00:34:05,893 |move|p2a: Leafeon|Double-Edge|p1a: Wigglytuff
+2026-07-30 00:34:05,893 |-damage|p1a: Wigglytuff|56/433
+2026-07-30 00:34:05,893 |-damage|p2a: Leafeon|0 fnt|[from] Recoil
+2026-07-30 00:34:05,893 |faint|p2a: Leafeon
+2026-07-30 00:34:05,893 |move|p1a: Wigglytuff|Body Slam|p2: Leafeon|[notarget]
+2026-07-30 00:34:05,893 |-notarget|p1a: Wigglytuff
+2026-07-30 00:34:05,893 |
+2026-07-30 00:34:05,893 |-heal|p1a: Wigglytuff|83/433|[from] item: Leftovers
+2026-07-30 00:34:05,893 |upkeep
+2026-07-30 00:34:05,895 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,895 |request|{"wait":true,"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"83/433","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":44}
+2026-07-30 00:34:05,905 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,905 |
+2026-07-30 00:34:05,905 |t:|1785364445
+2026-07-30 00:34:05,905 |switch|p2a: Blissey|Blissey, L80, F|100/100
+2026-07-30 00:34:05,905 |-status|p2a: Blissey|psn
+2026-07-30 00:34:05,905 |turn|17
+2026-07-30 00:34:05,905 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,905 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"83/433","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":46}
+2026-07-30 00:34:05,921 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,921 |
+2026-07-30 00:34:05,921 |t:|1785364445
+2026-07-30 00:34:05,921 |move|p1a: Wigglytuff|Fire Blast|p2a: Blissey
+2026-07-30 00:34:05,921 |-damage|p2a: Blissey|88/100 psn
+2026-07-30 00:34:05,921 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:05,921 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:05,921 |
+2026-07-30 00:34:05,921 |-heal|p1a: Wigglytuff|110/433|[from] item: Leftovers
+2026-07-30 00:34:05,921 |-heal|p2a: Blissey|94/100|[from] item: Leftovers
+2026-07-30 00:34:05,921 |upkeep
+2026-07-30 00:34:05,921 |turn|18
+2026-07-30 00:34:05,922 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,922 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"110/433","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":48}
+2026-07-30 00:34:05,940 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,940 |
+2026-07-30 00:34:05,940 |t:|1785364445
+2026-07-30 00:34:05,940 |move|p1a: Wigglytuff|Fire Blast|p2a: Blissey
+2026-07-30 00:34:05,940 |-damage|p2a: Blissey|81/100
+2026-07-30 00:34:05,940 |move|p2a: Blissey|Toxic|p1a: Wigglytuff
+2026-07-30 00:34:05,940 |-status|p1a: Wigglytuff|tox
+2026-07-30 00:34:05,940 |
+2026-07-30 00:34:05,940 |-heal|p1a: Wigglytuff|137/433 tox|[from] item: Leftovers
+2026-07-30 00:34:05,940 |-damage|p1a: Wigglytuff|110/433 tox|[from] psn
+2026-07-30 00:34:05,940 |-heal|p2a: Blissey|88/100|[from] item: Leftovers
+2026-07-30 00:34:05,940 |upkeep
+2026-07-30 00:34:05,940 |turn|19
+2026-07-30 00:34:05,942 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,942 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"110/433 tox","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":50}
+2026-07-30 00:34:05,958 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,958 |
+2026-07-30 00:34:05,958 |t:|1785364445
+2026-07-30 00:34:05,958 |move|p1a: Wigglytuff|Fire Blast|p2a: Blissey
+2026-07-30 00:34:05,958 |-damage|p2a: Blissey|74/100
+2026-07-30 00:34:05,958 |-status|p2a: Blissey|brn
+2026-07-30 00:34:05,958 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:05,958 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:05,958 |
+2026-07-30 00:34:05,958 |-heal|p1a: Wigglytuff|137/433 tox|[from] item: Leftovers
+2026-07-30 00:34:05,958 |-damage|p1a: Wigglytuff|83/433 tox|[from] psn
+2026-07-30 00:34:05,958 |-heal|p2a: Blissey|80/100|[from] item: Leftovers
+2026-07-30 00:34:05,958 |upkeep
+2026-07-30 00:34:05,958 |turn|20
+2026-07-30 00:34:05,960 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,960 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"83/433 tox","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":52}
+2026-07-30 00:34:05,975 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,976 |
+2026-07-30 00:34:05,976 |t:|1785364445
+2026-07-30 00:34:05,976 |move|p1a: Wigglytuff|Protect|p1a: Wigglytuff
+2026-07-30 00:34:05,976 |-singleturn|p1a: Wigglytuff|Protect
+2026-07-30 00:34:05,976 |move|p2a: Blissey|Seismic Toss|p1a: Wigglytuff
+2026-07-30 00:34:05,976 |-activate|p1a: Wigglytuff|Protect
+2026-07-30 00:34:05,976 |
+2026-07-30 00:34:05,976 |-heal|p1a: Wigglytuff|110/433 tox|[from] item: Leftovers
+2026-07-30 00:34:05,976 |-damage|p1a: Wigglytuff|29/433 tox|[from] psn
+2026-07-30 00:34:05,976 |-heal|p2a: Blissey|86/100|[from] item: Leftovers
+2026-07-30 00:34:05,976 |upkeep
+2026-07-30 00:34:05,976 |turn|21
+2026-07-30 00:34:05,977 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,978 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"29/433 tox","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":54}
+2026-07-30 00:34:05,994 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,994 |
+2026-07-30 00:34:05,994 |t:|1785364445
+2026-07-30 00:34:05,994 |move|p1a: Wigglytuff|Wish|p1a: Wigglytuff
+2026-07-30 00:34:05,994 |move|p2a: Blissey|Seismic Toss|p1a: Wigglytuff
+2026-07-30 00:34:05,994 |-damage|p1a: Wigglytuff|0 fnt
+2026-07-30 00:34:05,994 |faint|p1a: Wigglytuff
+2026-07-30 00:34:05,994 |
+2026-07-30 00:34:05,994 |-heal|p2a: Blissey|92/100|[from] item: Leftovers
+2026-07-30 00:34:05,994 |upkeep
+2026-07-30 00:34:05,996 >battle-gen4randombattle-11239
+2026-07-30 00:34:05,996 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":true,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":56}
+2026-07-30 00:34:06,005 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,005 |
+2026-07-30 00:34:06,005 |t:|1785364445
+2026-07-30 00:34:06,005 |switch|p1a: Mr. Mime|Mr. Mime, L88, M|214/214
+2026-07-30 00:34:06,005 |turn|22
+2026-07-30 00:34:06,006 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,006 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":58}
+2026-07-30 00:34:06,024 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,024 |
+2026-07-30 00:34:06,024 |t:|1785364446
+2026-07-30 00:34:06,024 |move|p1a: Mr. Mime|Focus Blast|p2a: Blissey
+2026-07-30 00:34:06,024 |-supereffective|p2a: Blissey
+2026-07-30 00:34:06,024 |-damage|p2a: Blissey|61/100
+2026-07-30 00:34:06,024 |-damage|p1a: Mr. Mime|193/214|[from] item: Life Orb
+2026-07-30 00:34:06,024 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:06,024 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:06,024 |
+2026-07-30 00:34:06,024 |-heal|p1a: Mr. Mime|214/214|[from] move: Wish|[wisher] Wigglytuff
+2026-07-30 00:34:06,024 |-heal|p2a: Blissey|67/100|[from] item: Leftovers
+2026-07-30 00:34:06,024 |upkeep
+2026-07-30 00:34:06,024 |turn|23
+2026-07-30 00:34:06,026 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,026 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"214/214","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":60}
+2026-07-30 00:34:06,044 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,044 |
+2026-07-30 00:34:06,044 |t:|1785364446
+2026-07-30 00:34:06,044 |move|p1a: Mr. Mime|Psychic|p2a: Blissey
+2026-07-30 00:34:06,044 |-damage|p2a: Blissey|49/100
+2026-07-30 00:34:06,044 |-damage|p1a: Mr. Mime|193/214|[from] item: Life Orb
+2026-07-30 00:34:06,044 |move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+2026-07-30 00:34:06,044 |-heal|p2a: Blissey|99/100
+2026-07-30 00:34:06,044 |
+2026-07-30 00:34:06,044 |-heal|p2a: Blissey|100/100|[from] item: Leftovers
+2026-07-30 00:34:06,044 |upkeep
+2026-07-30 00:34:06,044 |turn|24
+2026-07-30 00:34:06,046 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,046 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"193/214","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":62}
+2026-07-30 00:34:06,060 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,060 |
+2026-07-30 00:34:06,060 |t:|1785364446
+2026-07-30 00:34:06,060 |move|p1a: Mr. Mime|Focus Blast|p2a: Blissey|[miss]
+2026-07-30 00:34:06,060 |-miss|p1a: Mr. Mime|p2a: Blissey
+2026-07-30 00:34:06,060 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:06,060 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:06,060 |
+2026-07-30 00:34:06,060 |upkeep
+2026-07-30 00:34:06,060 |turn|25
+2026-07-30 00:34:06,061 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,061 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"193/214","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":64}
+2026-07-30 00:34:06,076 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,076 |
+2026-07-30 00:34:06,076 |t:|1785364446
+2026-07-30 00:34:06,076 |move|p1a: Mr. Mime|Nasty Plot|p1a: Mr. Mime
+2026-07-30 00:34:06,076 |-boost|p1a: Mr. Mime|spa|2
+2026-07-30 00:34:06,076 |move|p2a: Blissey|Soft-Boiled||[still]
+2026-07-30 00:34:06,076 |-fail|p2a: Blissey|heal
+2026-07-30 00:34:06,076 |
+2026-07-30 00:34:06,076 |upkeep
+2026-07-30 00:34:06,076 |turn|26
+2026-07-30 00:34:06,077 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,077 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"193/214","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":66}
+2026-07-30 00:34:06,096 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,096 |
+2026-07-30 00:34:06,096 |t:|1785364446
+2026-07-30 00:34:06,096 |move|p1a: Mr. Mime|Focus Blast|p2a: Blissey
+2026-07-30 00:34:06,096 |-supereffective|p2a: Blissey
+2026-07-30 00:34:06,096 |-damage|p2a: Blissey|30/100
+2026-07-30 00:34:06,096 |-damage|p1a: Mr. Mime|172/214|[from] item: Life Orb
+2026-07-30 00:34:06,096 |move|p2a: Blissey|Toxic|p1a: Mr. Mime
+2026-07-30 00:34:06,096 |-status|p1a: Mr. Mime|tox
+2026-07-30 00:34:06,096 |
+2026-07-30 00:34:06,096 |-damage|p1a: Mr. Mime|159/214 tox|[from] psn
+2026-07-30 00:34:06,096 |-heal|p2a: Blissey|36/100|[from] item: Leftovers
+2026-07-30 00:34:06,096 |upkeep
+2026-07-30 00:34:06,096 |turn|27
+2026-07-30 00:34:06,097 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,097 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"159/214 tox","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":68}
+2026-07-30 00:34:06,110 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,110 |
+2026-07-30 00:34:06,110 |t:|1785364446
+2026-07-30 00:34:06,110 |move|p1a: Mr. Mime|Focus Blast|p2a: Blissey|[miss]
+2026-07-30 00:34:06,110 |-miss|p1a: Mr. Mime|p2a: Blissey
+2026-07-30 00:34:06,110 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:06,110 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:06,110 |
+2026-07-30 00:34:06,110 |-damage|p1a: Mr. Mime|133/214 tox|[from] psn
+2026-07-30 00:34:06,110 |-heal|p2a: Blissey|42/100|[from] item: Leftovers
+2026-07-30 00:34:06,110 |upkeep
+2026-07-30 00:34:06,110 |turn|28
+2026-07-30 00:34:06,111 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,111 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"133/214 tox","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":70}
+2026-07-30 00:34:06,126 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,126 |
+2026-07-30 00:34:06,126 |t:|1785364446
+2026-07-30 00:34:06,126 |move|p1a: Mr. Mime|Encore|p2a: Blissey
+2026-07-30 00:34:06,126 |-start|p2a: Blissey|Encore
+2026-07-30 00:34:06,126 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:06,126 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:06,126 |
+2026-07-30 00:34:06,126 |-damage|p1a: Mr. Mime|94/214 tox|[from] psn
+2026-07-30 00:34:06,126 |-heal|p2a: Blissey|48/100|[from] item: Leftovers
+2026-07-30 00:34:06,126 |upkeep
+2026-07-30 00:34:06,126 |turn|29
+2026-07-30 00:34:06,127 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,127 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"94/214 tox","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":72}
+2026-07-30 00:34:06,144 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,144 |
+2026-07-30 00:34:06,144 |t:|1785364446
+2026-07-30 00:34:06,144 |move|p1a: Mr. Mime|Nasty Plot|p1a: Mr. Mime
+2026-07-30 00:34:06,144 |-boost|p1a: Mr. Mime|spa|2
+2026-07-30 00:34:06,144 |move|p2a: Blissey|Aromatherapy|p2a: Blissey
+2026-07-30 00:34:06,144 |-cureteam|p2a: Blissey|[from] move: Aromatherapy
+2026-07-30 00:34:06,144 |
+2026-07-30 00:34:06,144 |-damage|p1a: Mr. Mime|42/214 tox|[from] psn
+2026-07-30 00:34:06,144 |-heal|p2a: Blissey|54/100|[from] item: Leftovers
+2026-07-30 00:34:06,144 |upkeep
+2026-07-30 00:34:06,144 |turn|30
+2026-07-30 00:34:06,146 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,146 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"42/214 tox","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":74}
+2026-07-30 00:34:06,160 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,160 |
+2026-07-30 00:34:06,160 |t:|1785364446
+2026-07-30 00:34:06,160 |move|p1a: Mr. Mime|Psychic|p2a: Blissey
+2026-07-30 00:34:06,160 |-damage|p2a: Blissey|0 fnt
+2026-07-30 00:34:06,160 |faint|p2a: Blissey
+2026-07-30 00:34:06,160 |-damage|p1a: Mr. Mime|21/214 tox|[from] item: Life Orb
+2026-07-30 00:34:06,160 |
+2026-07-30 00:34:06,160 |-damage|p1a: Mr. Mime|0 fnt|[from] psn
+2026-07-30 00:34:06,160 |faint|p1a: Mr. Mime
+2026-07-30 00:34:06,160 |upkeep
+2026-07-30 00:34:06,162 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,162 |request|{"forceSwitch":[true],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"0 fnt","active":true,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":76}
+2026-07-30 00:34:06,172 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,172 |
+2026-07-30 00:34:06,172 |t:|1785364446
+2026-07-30 00:34:06,172 |switch|p1a: Luvdisc|Luvdisc, M|248/248
+2026-07-30 00:34:06,173 |switch|p2a: Dragonite|Dragonite, L73, F|100/100
+2026-07-30 00:34:06,173 |turn|31
+2026-07-30 00:34:06,175 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,175 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"0 fnt","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":78}
+2026-07-30 00:34:06,193 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,193 |
+2026-07-30 00:34:06,193 |t:|1785364446
+2026-07-30 00:34:06,193 |move|p1a: Luvdisc|Protect|p1a: Luvdisc
+2026-07-30 00:34:06,193 |-singleturn|p1a: Luvdisc|Protect
+2026-07-30 00:34:06,193 |move|p2a: Dragonite|Superpower|p1a: Luvdisc
+2026-07-30 00:34:06,193 |-activate|p1a: Luvdisc|Protect
+2026-07-30 00:34:06,193 |
+2026-07-30 00:34:06,193 |upkeep
+2026-07-30 00:34:06,193 |turn|32
+2026-07-30 00:34:06,194 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,194 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"0 fnt","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":80}
+2026-07-30 00:34:06,218 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,218 |
+2026-07-30 00:34:06,218 |t:|1785364446
+2026-07-30 00:34:06,218 |move|p1a: Luvdisc|Ice Beam|p2a: Dragonite
+2026-07-30 00:34:06,218 |-supereffective|p2a: Dragonite
+2026-07-30 00:34:06,218 |-damage|p2a: Dragonite|18/100
+2026-07-30 00:34:06,218 |move|p2a: Dragonite|Superpower|p1a: Luvdisc
+2026-07-30 00:34:06,218 |-damage|p1a: Luvdisc|112/248
+2026-07-30 00:34:06,218 |-unboost|p2a: Dragonite|atk|1
+2026-07-30 00:34:06,218 |-unboost|p2a: Dragonite|def|1
+2026-07-30 00:34:06,218 |
+2026-07-30 00:34:06,218 |-heal|p1a: Luvdisc|127/248|[from] item: Leftovers
+2026-07-30 00:34:06,218 |upkeep
+2026-07-30 00:34:06,218 |turn|33
+2026-07-30 00:34:06,219 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,219 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT1","id":"p1","pokemon":[{"ident":"p1: Luvdisc","details":"Luvdisc, M","condition":"127/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["icebeam","protect","surf","toxic"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Omastar","details":"Omastar, L86, F","condition":"0 fnt","active":false,"stats":{"atk":108,"def":264,"spa":247,"spd":170,"spe":144},"moves":["toxicspikes","icebeam","spikes","surf"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Primeape","details":"Primeape, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":149,"spa":149,"spd":166,"spe":208},"moves":["bulkup","stoneedge","earthquake","closecombat"],"baseAbility":"vitalspirit","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Mr. Mime","details":"Mr. Mime, L88, M","condition":"0 fnt","active":false,"stats":{"atk":84,"def":165,"spa":226,"spd":261,"spe":209},"moves":["nastyplot","encore","focusblast","psychic"],"baseAbility":"filter","item":"lifeorb","pokeball":"pokeball"},{"ident":"p1: Wigglytuff","details":"Wigglytuff, L98, F","condition":"0 fnt","active":false,"stats":{"atk":193,"def":144,"spa":202,"spd":153,"spe":144},"moves":["bodyslam","fireblast","wish","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p1: Dodrio","details":"Dodrio, L83, M","condition":"0 fnt","active":false,"stats":{"atk":230,"def":164,"spa":147,"spd":147,"spe":214},"moves":["quickattack","return102","bravebird","roost"],"baseAbility":"earlybird","item":"lifeorb","pokeball":"pokeball"}]},"rqid":82}
+2026-07-30 00:34:06,233 >battle-gen4randombattle-11239
+2026-07-30 00:34:06,233 |
+2026-07-30 00:34:06,233 |t:|1785364446
+2026-07-30 00:34:06,233 |move|p1a: Luvdisc|Ice Beam|p2a: Dragonite
+2026-07-30 00:34:06,233 |-supereffective|p2a: Dragonite
+2026-07-30 00:34:06,233 |-damage|p2a: Dragonite|0 fnt
+2026-07-30 00:34:06,233 |faint|p2a: Dragonite
+2026-07-30 00:34:06,233 |
+2026-07-30 00:34:06,233 |win|BOT1
+2026-07-30 00:34:06,234 |updatesearch|{"searching":[],"games":null}
+2026-07-30 00:34:06,249 |pm| BOT1| BOT2|/challenge gen4randombattle|gen4randombattle|||
+2026-07-30 00:34:06,249 |pm| BOT1| BOT2|/log BOT1 wants to battle!
+2026-07-30 00:34:06,269 |pm| BOT2| BOT1|/challenge
+2026-07-30 00:34:06,269 |updatesearch|{"searching":[],"games":null}
+2026-07-30 00:34:06,269 |updatesearch|{"searching":[],"games":{"battle-gen4randombattle-11240":"[Gen 4] Random Battle"}}
+2026-07-30 00:34:06,269 |updatesearch|{"searching":[],"games":{"battle-gen4randombattle-11240":"[Gen 4] Random Battle"}}
+2026-07-30 00:34:06,273 >battle-gen4randombattle-11240

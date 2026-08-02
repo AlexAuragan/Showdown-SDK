@@ -1,0 +1,689 @@
+{
+  "available_moves": [
+    {
+      "curr_pp": 23,
+      "disabled": false,
+      "id": "doubleedge",
+      "max_pp": 24,
+      "name": "Double-Edge",
+      "target": "normal"
+    },
+    {
+      "curr_pp": 24,
+      "disabled": false,
+      "id": "surf",
+      "max_pp": 24,
+      "name": "Surf",
+      "target": "allAdjacent"
+    },
+    {
+      "curr_pp": 16,
+      "disabled": false,
+      "id": "icebeam",
+      "max_pp": 16,
+      "name": "Ice Beam",
+      "target": "normal"
+    },
+    {
+      "curr_pp": 7,
+      "disabled": false,
+      "id": "raindance",
+      "max_pp": 8,
+      "name": "Rain Dance",
+      "target": "all"
+    }
+  ],
+  "curr_enemy_pokemon": "p2a: Feraligatr",
+  "curr_pokemon": "p1: Huntail",
+  "enemy_team": [
+    {
+      "active": false,
+      "base_ability": "unknown",
+      "curr_hp_percent": 100,
+      "disabled_moves": [],
+      "fainted": false,
+      "forme": null,
+      "gender": null,
+      "id": "unknown",
+      "item": "unknown",
+      "learnt_moves": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "lvl": "unknown",
+      "shiny": false,
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      },
+      "temporary_moves": [],
+      "transformed_into": null
+    },
+    {
+      "active": false,
+      "base_ability": "unknown",
+      "curr_hp_percent": 100,
+      "disabled_moves": [],
+      "fainted": false,
+      "forme": null,
+      "gender": null,
+      "id": "unknown",
+      "item": "unknown",
+      "learnt_moves": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "lvl": "unknown",
+      "shiny": false,
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      },
+      "temporary_moves": [],
+      "transformed_into": null
+    },
+    {
+      "active": false,
+      "base_ability": "unknown",
+      "curr_hp_percent": 100,
+      "disabled_moves": [],
+      "fainted": false,
+      "forme": null,
+      "gender": null,
+      "id": "unknown",
+      "item": "unknown",
+      "learnt_moves": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "lvl": "unknown",
+      "shiny": false,
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      },
+      "temporary_moves": [],
+      "transformed_into": null
+    },
+    {
+      "active": false,
+      "base_ability": "unknown",
+      "curr_hp_percent": 100,
+      "disabled_moves": [],
+      "fainted": false,
+      "forme": null,
+      "gender": null,
+      "id": "unknown",
+      "item": "unknown",
+      "learnt_moves": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "lvl": "unknown",
+      "shiny": false,
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      },
+      "temporary_moves": [],
+      "transformed_into": null
+    },
+    {
+      "active": false,
+      "base_ability": "Pressure",
+      "curr_hp_percent": 0,
+      "disabled_moves": [],
+      "fainted": true,
+      "forme": null,
+      "gender": null,
+      "id": "p2a: Lugia",
+      "item": "unknown",
+      "learnt_moves": [
+        "Calm Mind",
+        "Roost",
+        "Earth Power",
+        "Aeroblast"
+      ],
+      "lvl": 70,
+      "shiny": false,
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 1,
+        "spd_stage": 1,
+        "spe_stage": 0
+      },
+      "temporary_moves": [],
+      "transformed_into": null
+    },
+    {
+      "active": true,
+      "base_ability": "unknown",
+      "curr_hp_percent": 37,
+      "disabled_moves": [],
+      "fainted": false,
+      "forme": null,
+      "gender": "M",
+      "id": "p2a: Feraligatr",
+      "item": "unknown",
+      "learnt_moves": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "Waterfall"
+      ],
+      "lvl": 82,
+      "shiny": false,
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      },
+      "temporary_moves": [],
+      "transformed_into": null
+    }
+  ],
+  "force_switch": false,
+  "move_history": [
+    {
+      "damage": null,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Calm Mind",
+      "resulting_hp": null,
+      "stat_changes": [
+        {
+          "delta": 1,
+          "stat": "spa",
+          "target": "p2a: Lugia"
+        },
+        {
+          "delta": 1,
+          "stat": "spd",
+          "target": "p2a: Lugia"
+        }
+      ],
+      "statuses_inflicted": [],
+      "target": "p2a: Lugia",
+      "turn": 1,
+      "user": "p2a: Lugia",
+      "user_side": "enemy"
+    },
+    {
+      "damage": null,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Spikes",
+      "resulting_hp": null,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p2a: Lugia",
+      "turn": 1,
+      "user": "p1a: Glalie",
+      "user_side": "self"
+    },
+    {
+      "damage": null,
+      "effectiveness": 1.0,
+      "failed": true,
+      "hit": true,
+      "is_critical": false,
+      "move": "Roost",
+      "resulting_hp": null,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "",
+      "turn": 2,
+      "user": "p2a: Lugia",
+      "user_side": "enemy"
+    },
+    {
+      "damage": null,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Spikes",
+      "resulting_hp": null,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p2a: Lugia",
+      "turn": 2,
+      "user": "p1a: Glalie",
+      "user_side": "self"
+    },
+    {
+      "damage": 68,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Earth Power",
+      "resulting_hp": 210,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p1a: Glalie",
+      "turn": 3,
+      "user": "p2a: Lugia",
+      "user_side": "enemy"
+    },
+    {
+      "damage": null,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Taunt",
+      "resulting_hp": null,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p2a: Lugia",
+      "turn": 3,
+      "user": "p1a: Glalie",
+      "user_side": "self"
+    },
+    {
+      "damage": 108,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Aeroblast",
+      "resulting_hp": 119,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p1a: Glalie",
+      "turn": 4,
+      "user": "p2a: Lugia",
+      "user_side": "enemy"
+    },
+    {
+      "damage": 100,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Explosion",
+      "resulting_hp": 0,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p2a: Lugia",
+      "turn": 4,
+      "user": "p1a: Glalie",
+      "user_side": "self"
+    },
+    {
+      "damage": 49,
+      "effectiveness": 0.5,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Waterfall",
+      "resulting_hp": 199,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p1a: Huntail",
+      "turn": 5,
+      "user": "p2a: Feraligatr",
+      "user_side": "enemy"
+    },
+    {
+      "damage": 47,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Double-Edge",
+      "resulting_hp": 37,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p2a: Feraligatr",
+      "turn": 5,
+      "user": "p1a: Huntail",
+      "user_side": "self"
+    },
+    {
+      "damage": 49,
+      "effectiveness": 0.5,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Waterfall",
+      "resulting_hp": 84,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p1a: Huntail",
+      "turn": 6,
+      "user": "p2a: Feraligatr",
+      "user_side": "enemy"
+    },
+    {
+      "damage": null,
+      "effectiveness": 1.0,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Rain Dance",
+      "resulting_hp": null,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p1a: Huntail",
+      "turn": 6,
+      "user": "p1a: Huntail",
+      "user_side": "self"
+    },
+    {
+      "damage": null,
+      "effectiveness": 0.5,
+      "failed": false,
+      "hit": true,
+      "is_critical": false,
+      "move": "Surf",
+      "resulting_hp": null,
+      "stat_changes": [],
+      "statuses_inflicted": [],
+      "target": "p2a: Feraligatr",
+      "turn": 7,
+      "user": "p1a: Huntail",
+      "user_side": "self"
+    }
+  ],
+  "side_conditions": {
+    "p2": {
+      "Spikes": 2
+    }
+  },
+  "team": [
+    {
+      "active": true,
+      "base_ability": "swiftswim",
+      "curr_hp": 84,
+      "details": "Huntail, L91, F",
+      "id": "p1: Huntail",
+      "item": "lifeorb",
+      "lvl": 91,
+      "max_hp": 248,
+      "moves": [
+        "doubleedge",
+        "surf",
+        "icebeam",
+        "raindance"
+      ],
+      "pokeball": "pokeball",
+      "stats": {
+        "atk": 241,
+        "def_": 243,
+        "max_hp": 248,
+        "spa": 223,
+        "spd": 188,
+        "spe": 146
+      },
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      }
+    },
+    {
+      "active": false,
+      "base_ability": "innerfocus",
+      "curr_hp": 0,
+      "details": "Glalie, L86, M",
+      "id": "p1: Glalie",
+      "item": "leftovers",
+      "lvl": 86,
+      "max_hp": 278,
+      "moves": [
+        "icebeam",
+        "spikes",
+        "taunt",
+        "explosion"
+      ],
+      "pokeball": "pokeball",
+      "stats": {
+        "atk": 187,
+        "def_": 187,
+        "max_hp": 278,
+        "spa": 187,
+        "spd": 187,
+        "spe": 187
+      },
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      }
+    },
+    {
+      "active": false,
+      "base_ability": "compoundeyes",
+      "curr_hp": 257,
+      "details": "Butterfree, L91, M",
+      "id": "p1: Butterfree",
+      "item": "leftovers",
+      "lvl": 91,
+      "max_hp": 257,
+      "moves": [
+        "uturn",
+        "stunspore",
+        "sleeppowder",
+        "bugbuzz"
+      ],
+      "pokeball": "pokeball",
+      "stats": {
+        "atk": 134,
+        "def_": 143,
+        "max_hp": 257,
+        "spa": 197,
+        "spd": 197,
+        "spe": 179
+      },
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      }
+    },
+    {
+      "active": false,
+      "base_ability": "naturalcure",
+      "curr_hp": 266,
+      "details": "Altaria, L85, M",
+      "id": "p1: Altaria",
+      "item": "lumberry",
+      "lvl": 85,
+      "max_hp": 266,
+      "moves": [
+        "dragondance",
+        "roost",
+        "earthquake",
+        "outrage"
+      ],
+      "pokeball": "pokeball",
+      "stats": {
+        "atk": 168,
+        "def_": 202,
+        "max_hp": 266,
+        "spa": 168,
+        "spd": 227,
+        "spe": 185
+      },
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      }
+    },
+    {
+      "active": false,
+      "base_ability": "torrent",
+      "curr_hp": 273,
+      "details": "Blastoise, L85, M",
+      "id": "p1: Blastoise",
+      "item": "leftovers",
+      "lvl": 85,
+      "max_hp": 273,
+      "moves": [
+        "toxic",
+        "protect",
+        "rapidspin",
+        "surf"
+      ],
+      "pokeball": "pokeball",
+      "stats": {
+        "atk": 190,
+        "def_": 219,
+        "max_hp": 273,
+        "spa": 193,
+        "spd": 227,
+        "spe": 181
+      },
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      }
+    },
+    {
+      "active": false,
+      "base_ability": "pressure",
+      "curr_hp": 224,
+      "details": "Spiritomb, L85, M",
+      "id": "p1: Spiritomb",
+      "item": "leftovers",
+      "lvl": 85,
+      "max_hp": 224,
+      "moves": [
+        "suckerpunch",
+        "shadowsneak",
+        "darkpulse",
+        "painsplit"
+      ],
+      "pokeball": "pokeball",
+      "stats": {
+        "atk": 205,
+        "def_": 232,
+        "max_hp": 224,
+        "spa": 205,
+        "spd": 232,
+        "spe": 108
+      },
+      "status": {
+        "acc_stage": 0,
+        "atk_stage": 0,
+        "def_stage": 0,
+        "eva_stage": 0,
+        "major": null,
+        "minor": [],
+        "must_recharge": false,
+        "perish_count": null,
+        "spa_stage": 0,
+        "spd_stage": 0,
+        "spe_stage": 0
+      }
+    }
+  ],
+  "weather": "RainDance"
+}
