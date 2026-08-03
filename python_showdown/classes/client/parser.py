@@ -120,7 +120,7 @@ class Parser:
         if pokemon is not None:
             pokemon.item = item
 
-    async def handle_line(self, client: Client, line: str) -> None:
+    def handle_line(self, client: Client, line: str) -> None:
         self._move_builder.on_line(client, line)
 
         if line == "|":

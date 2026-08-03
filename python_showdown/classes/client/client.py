@@ -1,6 +1,5 @@
 import asyncio
 from time import perf_counter
-from typing import Any
 
 from websockets.asyncio.client import ClientConnection, connect
 
@@ -212,7 +211,7 @@ class Client:
                     )
 
                     try:
-                        await self.parser.handle_line(
+                        self.parser.handle_line(
                             self,
                             str(line),
                         )

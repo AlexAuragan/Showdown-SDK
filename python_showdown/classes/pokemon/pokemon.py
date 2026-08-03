@@ -7,13 +7,15 @@ from .stats import Stats, Status
 class Unknown(Enum):
     VALUE = "unknown"
 
+@dataclass
+class Pokemon:
+    active: bool
+    id: str
+    lvl: int
 
 @dataclass
-class PartyPokemon:
-    id: str
+class PartyPokemon(Pokemon):
     details: str
-    active: bool
-    lvl: int
     curr_hp: int
     max_hp: int
     stats: Stats
@@ -25,12 +27,9 @@ class PartyPokemon:
 
 
 @dataclass
-class EnemyPokemon:
-    active: bool
+class EnemyPokemon(Pokemon):
     gender: str | None = None
     shiny: bool = False
-    id: str | Unknown = Unknown.VALUE
-    lvl: int | Unknown = Unknown.VALUE
     curr_hp_percent: int = 100
     fainted: bool = False
     base_ability: str | Unknown = Unknown.VALUE
