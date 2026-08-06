@@ -46,6 +46,7 @@ class MinorStatus(str, Enum):
     WRAP = "Wrap"                 # trapping moves (Wrap/Bind/Clamp/...)
 
 
+
 @dataclass
 class Stats:
     atk: int

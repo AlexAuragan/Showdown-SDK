@@ -5,11 +5,6 @@ from python_showdown.classes.combat.battle_state import BattleState
 
 class RandomMoveCombatHandler:
     """A stateless AI policy: it never owns battle state, it only decides.
-
-    `battle_state` is owned by the `Client` (single source of truth, mutated by
-    the parser) and passed in to `select_action`. The handler keeps only its
-    own configuration (`switch_chance`). `request_id` is plumbing handled by
-    the `Client`, not the policy.
     """
 
     def __init__(self, switch_chance: float = 0.1) -> None:

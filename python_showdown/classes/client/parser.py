@@ -62,6 +62,7 @@ class Parser:
             ("|-cureteam|", self._handle_cureteam, {}),
             ("|-setboost|", self._handle_setboost, {}),
             ("|-clearallboost", self._handle_clearallboost, {}),
+            ("|error|", self._handle_error, {}),
         ]
 
     def flush_move_history(self, client: Client) -> None:
@@ -832,6 +833,15 @@ class Parser:
             return
         for pokemon in client.battle_state.enemy_team:
             pokemon.status.clear_all_major_status()
+
+    def _handle_error(self, client: Client, line: str) -> None:
+        # Showdown rejects a bad `/choose` with `|error|[Invalid choice] ...`
+        # (e.g. we tried to switch a trapped Pokémon). The request stays open
+        # on the server, so flag the client to re-draw a random move and resend
+        # -- see `Client.retry_action` / the receive loop.
+        body = line.removeprefix("|error|")
+        if body.startswith("[Invalid choice]"):
+            client.pending_choice_retry = True
 
     def _handle_setboost(self, client: Client, line: str) -> None:
         # |-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum

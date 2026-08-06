@@ -57,6 +57,12 @@ class Client:
         # `|request|`'s rqid, set by the parser when a decision is requested and
         # consumed/cleared by `act()`. None = no pending decision.
         self.request_id: int | None = None
+        # rqid of the most recently sent `/choose`; reused by `retry_action`
+        # when the server rejects the choice with `|error|[Invalid choice]`.
+        self._last_request_id: int | None = None
+        # Set by the parser's `|error|` handler when a `/choose` was rejected;
+        # the receive loop re-draws a random move and resends, then clears it.
+        self.pending_choice_retry: bool = False
 
     def start_action_timeout(self) -> None:
         self.cancel_action_timeout()
@@ -121,6 +127,7 @@ class Client:
         self.start_action_timeout()
 
         action_type, action_info = self.combat_handler.select_action(self.battle_state)
+        self._last_request_id = self.request_id
 
         self.log_manager.battle.info(
             f"Sending /choose {action_type} {action_info}|{self.request_id} in {self.room_id}",
@@ -128,11 +135,33 @@ class Client:
         )
         await self.send(f"/choose {action_type} {action_info}|{self.request_id}", room_id=self.room_id)
 
+    async def retry_action(self) -> None:
+        """Re-draw a random move and resend after the server rejected a choice.
+        """
+        if self.websocket is None:
+            raise RuntimeError("Client is not connected")
+
+        self.start_action_timeout()
+
+        action_type, action_info = self.combat_handler.select_action(self.battle_state)
+        rqid = self._last_request_id
+
+        self.log_manager.battle.info(
+            f"Retrying /choose {action_type} {action_info}|{rqid} in {self.room_id} "
+            f"(previous choice was rejected)",
+            extra={"room_id": self.room_id}
+        )
+        await self.send(f"/choose {action_type} {action_info}|{rqid}", room_id=self.room_id)
+
     async def connect(self) -> None:
         if self.websocket is not None:
             raise RuntimeError("The client is already connected")
 
-        self.websocket = await connect(self.websocket_url)
+        self.websocket = await connect(
+            self.websocket_url,
+            ping_interval=20,
+            ping_timeout=120,
+        )
         self._receive_task = asyncio.create_task(self._receive_loop())
 
     async def login(
@@ -232,6 +261,17 @@ class Client:
                             )
                         self.request_id = None
 
+                    if self.pending_choice_retry:
+                        self.pending_choice_retry = False
+                        try:
+                            await self.retry_action()
+                        except Exception:
+                            self.log_manager.errors.exception(
+                                "retry_action() failed for room=%r",
+                                self.room_id,
+                                extra={"room_id": self.room_id},
+                            )
+
         except Exception:
             self.log_manager.errors.exception(
                 "Receive loop failed", extra={"room_id": self.room_id}
@@ -250,12 +290,60 @@ class Client:
                 self.named = False
                 self.ready.clear()
 
+                # If the socket died while a battle was being tracked, fail it
+                # now instead of waiting for the 300s battle timeout.
+                battle_finished = self.battle_finished
+                if (
+                    battle_finished is not None
+                    and not battle_finished.done()
+                ):
+                    battle_finished.set_exception(
+                        ConnectionError(
+                            f"Connection to server lost for {self.username!r}"
+                        )
+                    )
+
+    async def ensure_connected(self) -> None:
+        """
+        Reconnect and re-authenticate after a dropped websocket.
+        """
+        task = self._receive_task
+        disconnected = (
+            self.websocket is None
+            or task is None
+            or task.done()
+        )
+        if not disconnected:
+            return
+
+        # Retrieve the dead task's exception so asyncio does not log an
+        # "exception was never retrieved" warning.
+        if task is not None and task.done() and not task.cancelled():
+            task.exception()
+
+        await self.connect()
+
+        if self.username is not None:
+            # The server may briefly still hold the old name right after the
+            # socket drops, which makes the first login time out; retry a couple
+            # of times while it deregisters the previous session.
+            for attempt in range(3):
+                try:
+                    await self.login(self.username)
+                    return
+                except TimeoutError:
+                    if attempt == 2:
+                        raise
+                await asyncio.sleep(1.0)
+
     async def challenge(
         self,
         user: str,
         format_name: str,
         timeout: float = 10,
     ) -> str:
+        await self.ensure_connected()
+
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
 
@@ -286,6 +374,18 @@ class Client:
             self.challenge_future = None
             self.challenged_user = None
 
+    async def _leave_battle_room(self, room_id: str) -> None:
+        """Tell the server to drop us from a finished battle room.
+        """
+        try:
+            # await self.send(f"/leave {room_id}")
+            await self.send("/leave", room_id=room_id)
+        except Exception:
+            self.log_manager.errors.exception(
+                "Failed to leave battle room %r", room_id,
+                extra={"room_id": room_id},
+            )
+
     def finish_battle(
         self,
         winner: str | None,
@@ -294,9 +394,14 @@ class Client:
 
         battle_room = self.active_battle_room
 
+        if battle_room is not None and battle_room:
+            asyncio.create_task(self._leave_battle_room(battle_room))
+
         if self.battle_finished is None or self.battle_finished.done():
             self.battle_state.reset()
             self.request_id = None
+            self._last_request_id = None
+            self.pending_choice_retry = False
             self.battle_player_id = ""
             self.active_battle_room = None
             if battle_room is not None:
@@ -318,6 +423,8 @@ class Client:
 
         self.battle_state.reset()
         self.request_id = None
+        self._last_request_id = None
+        self.pending_choice_retry = False
         self.battle_player_id = ""
         self.active_battle_room = None
         if battle_room is not None:
@@ -342,9 +449,27 @@ class Client:
                 self.battle_finished, timeout=timeout
             )
         finally:
+            if self.active_battle_room:
+                try:
+                    await asyncio.wait_for(
+                        self._leave_battle_room(self.active_battle_room),
+                        timeout=10
+                    )
+                except TimeoutError:
+                    self.log_manager.errors.error(
+                        "Timed out leaving battle room %r",
+                        self.active_battle_room,
+                        extra={"room_id": self.active_battle_room},
+                    )
+            leftover_room = self.active_battle_room
+            if leftover_room:
+                asyncio.create_task(self._leave_battle_room(leftover_room))
+
             self.cancel_action_timeout()
             self.battle_state.reset()
             self.request_id = None
+            self._last_request_id = None
+            self.pending_choice_retry = False
             self.battle_player_id = ""
             self.active_battle_room = None
             self.battle_finished = None
@@ -352,6 +477,8 @@ class Client:
             self.turn_count = 0
 
     async def accept_challenge(self, challenger: str) -> None:
+        await self.ensure_connected()
+
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
 

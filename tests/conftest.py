@@ -75,6 +75,8 @@ class FakeClient:
         # the AI); request_id is the pending-decision plumbing.
         self.battle_state = BattleState()
         self.request_id: int | None = None
+        self._last_request_id: int | None = None
+        self.pending_choice_retry: bool = False
 
     # Stubs for the Client surface that handle_line touches.
     def start_action_timeout(self) -> None:

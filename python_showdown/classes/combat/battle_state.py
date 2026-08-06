@@ -38,7 +38,7 @@ class BattleState:
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
         self._enemy_team: list[EnemyPokemon] = [
-            EnemyPokemon(active=False) for _ in range(6)
+            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
         ]
         self._curr_pokemon: str = ""
         self._curr_enemy_pokemon: str = ""
@@ -108,7 +108,7 @@ class BattleState:
     def reset(self) -> None:
         """Clear all tracked state so the same handler can drive a new battle."""
         self._team = []
-        self._enemy_team = [EnemyPokemon(active=False) for _ in range(6)]
+        self._enemy_team = [EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)]
         self._curr_pokemon = ""
         self._curr_enemy_pokemon = ""
         self._available_moves = []
