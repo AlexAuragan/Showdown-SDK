@@ -10,7 +10,7 @@ class Unknown(Enum):
 @dataclass
 class Pokemon:
     active: bool
-    id: str
+    id: str | Unknown
     lvl: int
 
 @dataclass
@@ -61,7 +61,7 @@ class EnemyPokemon(Pokemon):
         return base + self.temporary_moves
 
     def witness_move(self, move: str) -> None:
-        if move in self.available_moves:
+        if move in self.learnt_moves or move in self.temporary_moves:
             return
 
         # While transformed, new moves are part of the copied set.

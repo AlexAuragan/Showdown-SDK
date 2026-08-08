@@ -4,6 +4,8 @@ import json
 from collections.abc import Callable
 from typing import TYPE_CHECKING
 
+from python_showdown.classes.parser import WrongRoomException
+
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
 
@@ -148,7 +150,7 @@ class Parser:
             return
 
         if line.startswith(">"):
-            client.room_id = line.removeprefix(">")
+            client.room_id = line.removeprefix(">").strip()
             return
 
         # Item reveals can occur on any protocol line.
@@ -169,6 +171,13 @@ class Parser:
         # `|tie` is the lone EXACT-match battle-end signal (not a prefix), so it
         # stays explicit; `|win|` went through the registry as `_handle_win`.
         if line.strip() == "|tie":
+            client.log_manager.errors.warning(
+                "TIE_LINE username=%r active_room=%r incoming_room=%r",
+                client.username,
+                client.active_battle_room,
+                client.room_id,
+                extra={"room_id": client.room_id},
+            )
             client.finish_battle(None)
             return
 
@@ -191,6 +200,14 @@ class Parser:
         client.start_action_timeout()
 
     def _handle_win(self, client: Client, line: str) -> None:
+        client.log_manager.errors.warning(
+            "WIN_LINE username=%r line%r active_room=%r incoming_room=%r",
+            client.username,
+            line,
+            client.active_battle_room,
+            client.room_id,
+            extra={"room_id": client.room_id},
+        )
         client.finish_battle(line.removeprefix("|win|"))
 
     def _handle_update_user(self, client: Client, line: str) -> None:
@@ -835,10 +852,6 @@ class Parser:
             pokemon.status.clear_all_major_status()
 
     def _handle_error(self, client: Client, line: str) -> None:
-        # Showdown rejects a bad `/choose` with `|error|[Invalid choice] ...`
-        # (e.g. we tried to switch a trapped Pokémon). The request stays open
-        # on the server, so flag the client to re-draw a random move and resend
-        # -- see `Client.retry_action` / the receive loop.
         body = line.removeprefix("|error|")
         if body.startswith("[Invalid choice]"):
             client.pending_choice_retry = True

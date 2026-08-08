@@ -5,12 +5,18 @@ from websockets.asyncio.client import ClientConnection, connect
 
 from python_showdown.classes.combat.battle_state import BattleState
 from python_showdown.classes.combat.random import RandomMoveCombatHandler
+from python_showdown.classes.parser import Parser
+from python_showdown.classes.parser.exceptions import (
+    InvalidActionError,
+    ObsoleteRequestIdError,
+)
 from python_showdown.logger import LogManager, log_trace
 
 from .dt import BattleResult
-from .parser import Parser
 from .utils import Format
 
+STALE_ROOM_GRACE_PERIOD = 2.0  # seconds to let the server push any
+                                    # auto-rejoin room state after login
 
 class Client:
     """A single websocket session against a Pokémon Showdown server.
@@ -32,7 +38,7 @@ class Client:
         self.formats: list[Format] = []
         self._receive_task: asyncio.Task[None] | None = None
         self.named: bool = False
-        self.parser: Parser = Parser()
+        self.parser: Parser = Parser(self)
         self.combat_handler: RandomMoveCombatHandler = combat_handler or RandomMoveCombatHandler()
         self.log_manager: LogManager = log_manager if log_manager is not None else LogManager()
 
@@ -48,32 +54,27 @@ class Client:
         self.battle_finished: asyncio.Future[BattleResult] | None = None
         self.battle_started_at: float | None = None
         self.turn_count: int = 0
-        self.battle_player_id: str = ""             # our side id ("p1"/"p2")
+        self.battle_player_id: str = ""
 
         self._action_timeout_task: asyncio.Task[None] | None = None
         self.action_timeout_seconds: float = 5.0
 
-        self.battle_state: BattleState = BattleState()
+        self.battle_state: BattleState = BattleState(self)
         # `|request|`'s rqid, set by the parser when a decision is requested and
-        # consumed/cleared by `act()`. None = no pending decision.
         self.request_id: int | None = None
-        # rqid of the most recently sent `/choose`; reused by `retry_action`
-        # when the server rejects the choice with `|error|[Invalid choice]`.
         self._last_request_id: int | None = None
-        # Set by the parser's `|error|` handler when a `/choose` was rejected;
-        # the receive loop re-draws a random move and resends, then clears it.
-        self.pending_choice_retry: bool = False
+        self._choice_rejected: bool = False
+
 
     def start_action_timeout(self) -> None:
         self.cancel_action_timeout()
 
         turn = self.turn_count
-        room_id = self.room_id
 
         self._action_timeout_task = asyncio.create_task(
             self._raise_on_action_timeout(
                 turn=turn,
-                room_id=room_id,
+                room_id=self.room_id,
             )
         )
 
@@ -135,24 +136,6 @@ class Client:
         )
         await self.send(f"/choose {action_type} {action_info}|{self.request_id}", room_id=self.room_id)
 
-    async def retry_action(self) -> None:
-        """Re-draw a random move and resend after the server rejected a choice.
-        """
-        if self.websocket is None:
-            raise RuntimeError("Client is not connected")
-
-        self.start_action_timeout()
-
-        action_type, action_info = self.combat_handler.select_action(self.battle_state)
-        rqid = self._last_request_id
-
-        self.log_manager.battle.info(
-            f"Retrying /choose {action_type} {action_info}|{rqid} in {self.room_id} "
-            f"(previous choice was rejected)",
-            extra={"room_id": self.room_id}
-        )
-        await self.send(f"/choose {action_type} {action_info}|{rqid}", room_id=self.room_id)
-
     async def connect(self) -> None:
         if self.websocket is not None:
             raise RuntimeError("The client is already connected")
@@ -183,6 +166,8 @@ class Client:
             )
         except TimeoutError as e:
             raise TimeoutError(f"Timed out while logging as user {username!r}") from e
+
+        await self._leave_stale_rooms()
 
     async def send(
         self,
@@ -228,9 +213,18 @@ class Client:
 
         try:
             async for payload in websocket:
-                for line in payload.splitlines():
-                    if not line:
+                self._choice_rejected = False
+
+                for raw_line in payload.splitlines():
+                    if not raw_line:
                         continue
+
+                    line = (
+                        raw_line.decode()
+                        if isinstance(raw_line, bytes)
+                        else raw_line
+                    )
+
 
                     log_trace(
                         self.log_manager.protocol,
@@ -241,36 +235,32 @@ class Client:
 
                     try:
                         self.parser.handle_line(
-                            self,
-                            str(line),
+                            line,
                         )
+                    except ObsoleteRequestIdError as e:
+                        e.request_id = self.request_id
+                        # raise
+                    except InvalidActionError:
+                        self._choice_rejected = True
                     except Exception:
                         self.log_manager.errors.exception(
                             "Error: Failed to handle protocol line: %r", line,
                             extra={"room_id": self.room_id}
                         )
 
-                    if self.request_id is not None:
-                        try:
-                            await self.act()
-                        except Exception:
-                            self.log_manager.errors.exception(
-                                "act() failed for room=%r",
-                                self.room_id,
-                                extra={"room_id": self.room_id},
-                            )
-                        self.request_id = None
+                if self.request_id is None and self._choice_rejected and self._last_request_id is not None:
+                    self.request_id = self._last_request_id
 
-                    if self.pending_choice_retry:
-                        self.pending_choice_retry = False
-                        try:
-                            await self.retry_action()
-                        except Exception:
-                            self.log_manager.errors.exception(
-                                "retry_action() failed for room=%r",
-                                self.room_id,
-                                extra={"room_id": self.room_id},
-                            )
+                if self.request_id is not None:
+                    try:
+                        await self.act()
+                    except Exception:
+                        self.log_manager.errors.exception(
+                            "act() failed for room=%r",
+                            self.room_id,
+                            extra={"room_id": self.room_id},
+                        )
+                    self.request_id = None
 
         except Exception:
             self.log_manager.errors.exception(
@@ -394,16 +384,13 @@ class Client:
 
         battle_room = self.active_battle_room
 
-        if battle_room is not None and battle_room:
-            asyncio.create_task(self._leave_battle_room(battle_room))
-
         if self.battle_finished is None or self.battle_finished.done():
             self.battle_state.reset()
             self.request_id = None
             self._last_request_id = None
-            self.pending_choice_retry = False
+            self._choice_rejected = False
             self.battle_player_id = ""
-            self.active_battle_room = None
+            self.room_id = ""
             if battle_room is not None:
                 self.log_manager.close_room(battle_room)
             return
@@ -424,9 +411,8 @@ class Client:
         self.battle_state.reset()
         self.request_id = None
         self._last_request_id = None
-        self.pending_choice_retry = False
+        self._choice_rejected = False
         self.battle_player_id = ""
-        self.active_battle_room = None
         if battle_room is not None:
             self.log_manager.close_room(battle_room)
 
@@ -461,20 +447,19 @@ class Client:
                         self.active_battle_room,
                         extra={"room_id": self.active_battle_room},
                     )
-            leftover_room = self.active_battle_room
-            if leftover_room:
-                asyncio.create_task(self._leave_battle_room(leftover_room))
 
             self.cancel_action_timeout()
             self.battle_state.reset()
             self.request_id = None
             self._last_request_id = None
-            self.pending_choice_retry = False
+            self._choice_rejected = False
             self.battle_player_id = ""
-            self.active_battle_room = None
             self.battle_finished = None
             self.battle_started_at = None
             self.turn_count = 0
+
+            if self.active_battle_room:
+                self.log_manager.close_room(self.active_battle_room)
 
     async def accept_challenge(self, challenger: str) -> None:
         await self.ensure_connected()
@@ -484,3 +469,24 @@ class Client:
 
         await self.send("/utm null")
         await self.send(f"/accept {challenger}")
+
+    async def _leave_stale_rooms(self, *, wait_for_autorejoin: bool = False) -> None:
+        """Leave any battle room this Client is currently attached to that
+        it did not itself start via `challenge()`/`accept_challenge()`.
+        """
+        if wait_for_autorejoin:
+            await asyncio.sleep(STALE_ROOM_GRACE_PERIOD)
+
+        stale_room = self.active_battle_room
+        if not stale_room:
+            return
+
+        self.log_manager.battle.info(
+            "Leaving stale battle room %r before starting a new session",
+            stale_room,
+            extra={"room_id": stale_room},
+        )
+        await self._leave_battle_room(stale_room)
+
+        self.active_battle_room = None
+        self.room_id = ""

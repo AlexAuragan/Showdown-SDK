@@ -1,25 +1,14 @@
 import json
 from dataclasses import asdict, is_dataclass
 from enum import Enum
+from typing import TYPE_CHECKING
 
-from python_showdown.classes.combat.move_history import MoveEvent
+from python_showdown.classes.parser import SideCondition
 from python_showdown.classes.pokemon.moves import AvailableMove
 from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
 
-
-class SideCondition(str, Enum):
-    """
-    Entry hazards / side-wide effects sent via `|-sidestart|`/`|-sideend|`.
-    """
-
-    SPIKES = "Spikes"
-    TOXIC_SPIKES = "Toxic Spikes"
-    STEALTH_ROCK = "Stealth Rock"
-    REFLECT = "Reflect"
-    SAFEGUARD = "Safeguard"
-    LIGHT_SCREEN = "Light Screen"
-
-
+if TYPE_CHECKING:
+    from python_showdown.classes.client.client import Client
 def _json_default(obj):
     if isinstance(obj, Enum):
         return obj.value
@@ -33,7 +22,8 @@ def _json_default(obj):
 
 
 class BattleState:
-    def __init__(self):
+    def __init__(self, client: Client):
+        self._client = client
         self._team: list[PartyPokemon] = []
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
@@ -47,8 +37,13 @@ class BattleState:
         self.weather: str | None = None
         self.side_conditions: dict[str, dict[SideCondition, int]] = {}
 
-        # Append-only record of each resolved move and its coarse outcome.
-        self.move_history: list[MoveEvent] = []
+    @property
+    def player_id(self) -> str:
+        return self._client.battle_player_id
+
+    @player_id.setter
+    def player_id(self, value: str) -> None:
+        self._client.battle_player_id = value
 
     def to_json(self) -> str:
         return json.dumps(
@@ -61,7 +56,6 @@ class BattleState:
                 "force_switch": self.force_switch,
                 "weather": self.weather,
                 "side_conditions": self.side_conditions,
-                "move_history": [asdict(m) for m in self.move_history],
             },
             indent=2,
             sort_keys=True,
@@ -107,6 +101,7 @@ class BattleState:
 
     def reset(self) -> None:
         """Clear all tracked state so the same handler can drive a new battle."""
+        self.player_id = ""
         self._team = []
         self._enemy_team = [EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)]
         self._curr_pokemon = ""
@@ -114,7 +109,6 @@ class BattleState:
         self._available_moves = []
         self.force_switch = False
         self.side_conditions = {}
-        self.move_history = []
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
         self._available_moves = moves
@@ -155,7 +149,8 @@ class BattleState:
             if idx is None:
                 raise ValueError(
                     "The enemy party is full of known pokemon but we're trying "
-                    f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?"
+                    f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?",
+                    f"Pekemon: {self.enemy_team}"
                 )
             self._enemy_team.pop(idx)
             self._enemy_team.append(pokemon)

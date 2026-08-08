@@ -10,13 +10,21 @@ from python_showdown.classes.combat.random import RandomMoveCombatHandler
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 10000
-# FORMAT = "gen1randombattle"
-# FORMAT = "gen2randombattle"
-FORMAT = "gen3randombattle"
-# FORMAT = "gen4randombattle"
+BATTLE_COUNT = 100
+# Number of players (must be even). Players are paired up and each pair
+# runs its share of the battles; all pairs run concurrently.
+PLAYER_COUNT = 8
+PAIR_COUNT = PLAYER_COUNT // 2
+BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 
 ERROR_LOG = Path("simulation_errors.log")
+
+FORMATS = [
+    "gen1randombattle",
+    # "gen2randombattle",
+    # "gen3randombattle",
+    # "gen4randombattle",
+]
 
 
 async def run_battle(
@@ -72,127 +80,180 @@ async def run_battle(
         )
 
         raise
-async def main() -> None:
-    for format in [
-        # "gen1randombattle",
-        "gen2randombattle",
-        # "gen3randombattle", "gen4randombattle"
-    ]:
 
-        logs_1 = LogManager(tag="BOT1")
-        logs_2 = LogManager(tag="BOT2")
+
+async def run_pair(
+    client_1: Client,
+    client_2: Client,
+    format: str,
+    pair_index: int,
+    battle_offset: int,
+) -> tuple[list[dict[str, object]], int]:
+    """Run BATTLES_PER_PAIR battles sequentially between two clients.
+
+    `battle_offset` is the global battle number this pair starts at, used
+    only for nicer log messages.
+    """
+    results: list[dict[str, object]] = []
+    failed_battles = 0
+
+    for i in range(BATTLES_PER_PAIR):
+        battle_number = battle_offset + i + 1
+        try:
+            result = await run_battle(
+                client_1,
+                client_2,
+                battle_number=battle_number,
+                format=format,
+            )
+            results.append(result)
+
+        except Exception:
+            failed_battles += 1
+
+            error = (
+                f"\n{'=' * 80}\n"
+                f"Battle {battle_number} failed (pair {pair_index + 1})\n"
+                f"Format: {format}\n"
+                f"{traceback.format_exc()}"
+            )
+
+            print(error)
+
+            with ERROR_LOG.open("a", encoding="utf-8") as file:
+                file.write(error)
+
+    return results, failed_battles
+
+
+async def run_format(format: str) -> tuple[list[dict[str, object]], int]:
+    """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
+    clients: list[Client] = []
+    log_managers: list[LogManager] = []
+
+    for i in range(1, PLAYER_COUNT + 1):
+        tag = f"BOT{i}"
+        logs = LogManager(tag=tag)
 
         # One file per battle room holding the raw server output (TRACE on
-        # the protocol logger) -> logs/battle/raw/<room_id>.txt
-        logs_1.add_handler(
-            create_battle_file_handler(
-                Path(f"logs/{format}/raw"),
-                level=TRACE,
-            ),
-            loggers="protocol",
-        )
+        # the protocol logger) -> logs/<format>/raw/<room_id>.txt
+        if i % 2 == 0:
+            logs.add_handler(
+                create_battle_file_handler(
+                    Path(f"logs/{format}/raw"),
+                    level=TRACE,
+                ),
+                loggers="protocol",
+            )
 
-        # One file per battle room holding info/debug/error logging for the
-        # battle and errors loggers -> logs/battle/info/<room_id>.txt
-        logs_1.add_handler(
-            create_battle_file_handler(
-                Path(f"logs/{format}/info"),
-                level=logging.DEBUG,
-            ),
-            loggers=(logs_1.battle, logs_1.errors),
-        )
-        client_1 = Client(
+            # One file per battle room holding info/debug/error logging for the
+            # battle and errors loggers -> logs/<format>/info/<room_id>.txt
+            logs.add_handler(
+                create_battle_file_handler(
+                    Path(f"logs/{format}/info"),
+                    level=logging.DEBUG,
+                ),
+                loggers=(logs.battle, logs.errors),
+            )
+
+        else:
+            logs.add_handler(
+                create_battle_file_handler(
+                    Path(f"logs_bis/{format}/raw"),
+                    level=TRACE,
+                ),
+                loggers="protocol",
+            )
+
+            # One file per battle room holding info/debug/error logging for the
+            # battle and errors loggers -> logs/<format>/info/<room_id>.txt
+            logs.add_handler(
+                create_battle_file_handler(
+                    Path(f"logs_bis/{format}/info"),
+                    level=logging.DEBUG,
+                ),
+                loggers=(logs.battle, logs.errors),
+            )
+        client = Client(
             WEBSOCKET_URL,
             combat_handler=RandomMoveCombatHandler(),
-            log_manager=logs_1,
+            log_manager=logs,
         )
-        client_2 = Client(
-            WEBSOCKET_URL,
-            combat_handler=RandomMoveCombatHandler(),
-            log_manager=logs_2,
+        clients.append(client)
+        log_managers.append(logs)
+
+    failed_battles = 0
+    results: list[dict[str, object]] = []
+
+    try:
+        await asyncio.gather(*(client.connect() for client in clients))
+
+        await asyncio.gather(
+            *(client.login(f"BOT{i}") for i, client in enumerate(clients, start=1))
+        )
+        for i, client in enumerate(clients, start=1):
+            print(f"client {i} is connected", client.username)
+
+        t0 = perf_counter()
+
+        # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
+        pair_tasks = []
+        for pair_index in range(PAIR_COUNT):
+            client_1 = clients[pair_index * 2]
+            client_2 = clients[pair_index * 2 + 1]
+            battle_offset = pair_index * BATTLES_PER_PAIR
+            pair_tasks.append(
+                run_pair(
+                    client_1,
+                    client_2,
+                    format=format,
+                    pair_index=pair_index,
+                    battle_offset=battle_offset,
+                )
+            )
+
+        pair_results = await asyncio.gather(*pair_tasks)
+
+        for pair_results_list, pair_failed in pair_results:
+            results.extend(pair_results_list)
+            failed_battles += pair_failed
+
+        successful_battles = len(results)
+
+        if successful_battles > 0:
+            total_duration = sum(
+                float(result["duration_seconds"]) for result in results
+            )
+            total_turns = sum(
+                int(result["move_count"]) for result in results
+            )
+
+            average_battle_duration = total_duration / successful_battles
+            average_turn_duration = (
+                total_duration / total_turns if total_turns > 0 else 0.0
+            )
+
+            print(f"\nSimulation for {format} complete in {perf_counter() - t0}s")
+            print(f"Successful battles: {successful_battles}")
+            print(f"Failed battles: {failed_battles}")
+            print(f"Average battle duration: {average_battle_duration:.6f}s")
+            print(f"Average time per turn: {average_turn_duration:.6f}s")
+
+    finally:
+        await asyncio.gather(
+            *(client.close() for client in clients),
+            return_exceptions=True,
         )
 
-        results: list[dict[str, object]] = []
-        failed_battles = 0
-
-        try:
-            await asyncio.gather(
-                client_1.connect(),
-                client_2.connect(),
-            )
-
-            await asyncio.gather(
-                client_1.login("BOT1"),
-                client_2.login("BOT2"),
-            )
-            print("client 1 is connected", client_1.username)
-            print("client 2 is connected", client_2.username)
-
-            t0 = perf_counter()
-            for battle_number in range(1, BATTLE_COUNT + 1):
-                try:
-                    result = await run_battle(
-                        client_1,
-                        client_2,
-                        battle_number=battle_number,
-                        format=format
-                    )
-                    results.append(result)
-
-                except Exception:
-                    failed_battles += 1
-
-                    error = (
-                        f"\n{'=' * 80}\n"
-                        f"Battle {battle_number} failed\n"
-                        f"Format: {format}\n"
-                        f"{traceback.format_exc()}"
-                    )
-
-                    print(error)
-
-                    with ERROR_LOG.open("a", encoding="utf-8") as file:
-                        file.write(error)
+    return results, failed_battles
 
 
-            successful_battles = len(results)
-
-            if successful_battles > 0:
-                total_duration = sum(
-                    float(result["duration_seconds"])
-                    for result in results
-                )
-                total_turns = sum(
-                    int(result["move_count"])
-                    for result in results
-                )
-
-                average_battle_duration = (
-                    total_duration / successful_battles
-                )
-                average_turn_duration = (
-                    total_duration / total_turns
-                    if total_turns > 0
-                    else 0.0
-                )
-
-                print(f"\nSimulation complete in {perf_counter() - t0}s")
-                print(f"Successful battles: {successful_battles}")
-                print(f"Failed battles: {failed_battles}")
-                print(
-                    f"Average battle duration: {average_battle_duration:.6f}s"
-                )
-                print(
-                    f"Average time per turn: {average_turn_duration:.6f}s"
-                )
-
-        finally:
-            await asyncio.gather(
-                client_1.close(),
-                client_2.close(),
-                return_exceptions=True,
-            )
+async def main() -> None:
+    for format in FORMATS:
+        await run_format(format)
 
 
 if __name__ == "__main__":
+    t0 = perf_counter()
     asyncio.run(main())
+    print("Took ", perf_counter() - t0)
