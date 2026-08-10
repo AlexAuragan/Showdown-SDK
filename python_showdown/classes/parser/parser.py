@@ -6,17 +6,18 @@ Instead it routes each incoming :class:`ProtocolMessage` to the scoped
 error/choice-retry manager later) and then applies the resulting events onto
 the client.
 
-Public entry points:
-
-- :meth:`Parser.handle_line` — live websocket mode (routed to a manager).
-- :meth:`Parser.feed_line` / :meth:`Parser.finish` — battle-log replay
-  (battle only; lobby messages never appear in a battle log).
 """
 
 import os
 from collections import Counter
+from pprint import pprint
 from typing import TYPE_CHECKING
 
+from python_showdown.classes.parser import BaseEvent
+from python_showdown.classes.parser.exceptions import (
+    InvalidActionError,
+    ObsoleteRequestIdError,
+)
 from python_showdown.classes.parser.managers.base import MessageManager
 from python_showdown.classes.parser.managers.battle import BattleParser
 from python_showdown.classes.parser.managers.lobby import LobbyParser
@@ -56,7 +57,7 @@ class Parser:
         line: str,
         *,
         has_log_timestamp: bool = False,
-    ) -> list:
+    ) -> list[BaseEvent]:
         """Live entry point: route one raw line to the appropriate manager.
 
         Returns the semantic events produced this tick (possibly empty, e.g.
@@ -109,11 +110,11 @@ class Parser:
 
     @property
     def battle_state(self):
-        return self.battle.battle_state
+        return self.client.battle_state
 
     @property
     def player_id(self) -> str:
-        return self.battle.player_id
+        return self.client.player_id
 
 
 if __name__ == "__main__":
@@ -136,6 +137,8 @@ if __name__ == "__main__":
                             line=line,
                             has_log_timestamp=True,
                         )
+                    except (InvalidActionError, ObsoleteRequestIdError):
+                        pass # The player tried an illegal move, happens
                     except ParserException as exc:
                         print(f"Skipping {filename}: {exc}")
                         skipped = True
@@ -185,6 +188,7 @@ if __name__ == "__main__":
                         f"action_id={event.action_id!r}"
                     )
 
+                pprint(parser.history)
                 raise RuntimeError(
                     f"Found {len(unhandled_events)} unhandled semantic events"
                 )

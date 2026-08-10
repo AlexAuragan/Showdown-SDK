@@ -20,7 +20,6 @@ IGNORED_COMMANDS = {
     "start",
     "updatesearch",
     "upkeep",
-    "-hint",
     "-anim",
     "-message",
     "challstr",
@@ -28,7 +27,6 @@ IGNORED_COMMANDS = {
     "bigerror",
     "expire", # TODO for client
     "deinit", # TODO for client
-    # "error", # TODO for bot
     "popup",
     "sentchoice"
 }

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from enum import Enum
 
-from .stats import Stats, Status
+from .status import Stats, Status
 
 
 class Unknown(Enum):
@@ -60,24 +60,32 @@ class EnemyPokemon(Pokemon):
         ]
         return base + self.temporary_moves
 
-    def witness_move(self, move: str) -> None:
+    def witness_move(self, move: str, gen_1_desync: bool) -> bool:
         if move in self.learnt_moves or move in self.temporary_moves:
-            return
+            return gen_1_desync
 
         # While transformed, new moves are part of the copied set.
         if self.transformed_into is not None:
             if move not in self.temporary_moves:
                 self.temporary_moves.append(move)
-            return
+            return gen_1_desync
 
         if Unknown.VALUE not in self.learnt_moves:
-            raise ValueError(
-                f"Witnessed move {move} for pokemon {self} "
-                "but all move slots are already filled"
-            )
+
+            if not gen_1_desync:
+                raise ValueError(
+                    f"Witnessed move {move} for pokemon {self} "
+                    "but all move slots are already filled"
+                )
+
+            # A Gen 1 desync means our inferred moveset can no longer be trusted.
+            self.learnt_moves = [Unknown.VALUE] * 4
+            gen_1_desync = False
+
 
         self.learnt_moves.remove(Unknown.VALUE)
         self.learnt_moves.append(move)
+        return gen_1_desync
 
     def reset_on_switch_in(self) -> None:
         # Volatile transform/mimic/form state clears on switch; the persistent

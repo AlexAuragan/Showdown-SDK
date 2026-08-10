@@ -39,7 +39,7 @@ class UpdateUserEvent(BaseEvent):
         client.named = self.named
         expected = client.username
         if expected is None:
-            return
+            raise ValueError("No client username set, please set a username with client.username")
         if self.named and self.username.lower() == expected.lower():
             client.username = self.username
             client.ready.set()

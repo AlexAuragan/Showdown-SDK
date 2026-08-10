@@ -1,6 +1,6 @@
 from random import choice, random
 
-from python_showdown.classes.combat.battle_state import BattleState
+from python_showdown.models.sdk.battle_state import BattleState
 
 
 class RandomMoveCombatHandler:

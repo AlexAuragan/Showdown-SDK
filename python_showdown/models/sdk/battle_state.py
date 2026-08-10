@@ -3,12 +3,25 @@ from dataclasses import asdict, is_dataclass
 from enum import Enum
 from typing import TYPE_CHECKING
 
-from python_showdown.classes.parser import SideCondition
-from python_showdown.classes.pokemon.moves import AvailableMove
-from python_showdown.classes.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from python_showdown.models.pokemon.moves import AvailableMove
+from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from python_showdown.models.pokemon.terrain import SideCondition
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
+
+
+class SourceType(str, Enum):
+    MOVE = "move"
+    ITEM = "item"
+    ABILITY = "ability"
+    STATUS = "status"
+    WEATHER = "weather"
+    TERRAIN = "terrain"
+    SIDE_CONDITION = "side_condition"
+    RECOIL = "recoil"
+    UNKNOWN = "unknown"
+
 def _json_default(obj):
     if isinstance(obj, Enum):
         return obj.value
@@ -37,6 +50,8 @@ class BattleState:
         self.weather: str | None = None
         self.side_conditions: dict[str, dict[SideCondition, int]] = {}
 
+        self.gen_1_desync = False # Gen 1 can experience desync by design, this can mess up
+        # the witnessed moves
     @property
     def player_id(self) -> str:
         return self._client.battle_player_id
@@ -124,7 +139,7 @@ class BattleState:
 
         pokemon = self.get_enemy_pokemon(pokemon_name)
         assert pokemon is not None
-        pokemon.witness_move(move)
+        self.gen_1_desync = pokemon.witness_move(move, self.gen_1_desync)
 
     def witness_switch_in(
         self,

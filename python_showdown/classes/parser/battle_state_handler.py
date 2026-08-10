@@ -1,10 +1,10 @@
 from typing import TYPE_CHECKING
 
 from python_showdown.classes.parser.events import BaseEvent
+from python_showdown.models.sdk.battle_state import BattleState
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
-    from python_showdown.classes.combat.battle_state import BattleState
 
 
 class BattleStateHandler:
@@ -23,7 +23,6 @@ class BattleStateHandler:
 
     def apply_events(self, client: Client,  events: list[BaseEvent]) -> BattleState:
         """Build a brand new BattleState with `events` applied in order."""
-        from python_showdown.classes.combat.battle_state import BattleState
 
         battle_state = BattleState(client)
         battle_state.player_id = self.player_id

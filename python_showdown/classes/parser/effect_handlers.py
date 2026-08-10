@@ -8,20 +8,13 @@ from python_showdown.classes.parser.context import (
     EffectRule,
     TargetModifiers,
 )
-from python_showdown.classes.parser.enums import (
-    MajorStatus,
-    MinorStatus,
-    SideCondition,
-    SourceType,
-    Stat,
-    Weather,
-)
 from python_showdown.classes.parser.events import (
     AbilityEvent,
     BaseEvent,
     ClearAllBoostsEvent,
     ClearNegativeBostsEvent,
     DamageEvent,
+    DiscardedEvent,
     FieldActivationEvent,
     FormeChangeEvent,
     HealEvent,
@@ -62,6 +55,9 @@ from python_showdown.classes.parser.protocol import (
     has_annotation,
     require_arguments,
 )
+from python_showdown.models.pokemon.status import MajorStatus, MinorStatus, Stat
+from python_showdown.models.pokemon.terrain import SideCondition, Weather
+from python_showdown.models.sdk.battle_state import SourceType
 
 MINOR_STATUS_BY_NAME = {
     status.value.casefold(): status
@@ -387,7 +383,7 @@ def _parse_field(message: ProtocolMessage, context: EffectParseContext) -> list[
     of_value = annotation_value(message, "of")
     if of_value is not None:
         actor = parse_pokemon_ident(of_value)
-    return [FieldActivationEvent(
+    events: list[BaseEvent] = [FieldActivationEvent(
         source=EffectSource(
             type=effect_type,
             name=effect_name,
@@ -396,6 +392,7 @@ def _parse_field(message: ProtocolMessage, context: EffectParseContext) -> list[
         ),
         active=message.command != "-fieldend",
     )]
+    return events
 
 
 def _parse_single_move(message: ProtocolMessage, context: EffectParseContext) -> list[BaseEvent]:
@@ -492,11 +489,15 @@ def _parse_stat_change(message: ProtocolMessage, context: EffectParseContext) ->
     target = parse_pokemon_ident(message.arguments[0])
     direction = 1 if message.command == "-boost" else -1
     stages = int(message.arguments[2]) * direction
-    return [StatChangeEvent(
-        parse_effect_source(message, context.source, affected=target),
-        target,
-        ((Stat(message.arguments[1]), stages),),
-    )]
+    events: list[BaseEvent] = [
+        StatChangeEvent(
+            parse_effect_source(message, context.source, affected=target),
+            target,
+            [(Stat(message.arguments[1]), stages)]
+        )
+
+    ]
+    return events
 
 
 def _parse_side_condition(message: ProtocolMessage, context: EffectParseContext) -> list[BaseEvent]:
@@ -604,7 +605,7 @@ def _parse_failed_stat_change(message: ProtocolMessage, context: EffectParseCont
             affected=target,
         ),
         target=target,
-        stat_changes=(),
+        stat_changes=[],
         success=False,
         failure_reason=message.arguments[1],
     )]
@@ -751,6 +752,11 @@ def _parse_unknown_start_end(message: ProtocolMessage, context: EffectParseConte
 def _always(message: ProtocolMessage, context: EffectParseContext) -> bool:
     return True
 
+def _parse_hint(message: ProtocolMessage, context: EffectParseContext) -> list[BaseEvent]:
+    # TODO instead of discarding every hint, we maybe should whitelist them one by one
+    # in order to make sure we don't discard important hint messages
+    # I don't think there are so many
+    return [DiscardedEvent(command=message.command, reason="Unhandled hint")]
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-damage": _parse_damage,
@@ -781,6 +787,7 @@ SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-prepare": _parse_prepare,
     "-cureteam": _parse_team_cure,
     "faint": _parse_faint,
+    "-hint": _parse_hint,
 }
 
 SPECIAL_EFFECT_RULES: dict[str, tuple[EffectRule, ...]] = {

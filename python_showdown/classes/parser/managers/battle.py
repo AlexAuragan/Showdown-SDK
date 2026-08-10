@@ -19,6 +19,7 @@ from python_showdown.classes.parser.ability_state import (
 from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
 from python_showdown.classes.parser.command_handlers import (
     COMMAND_HANDLERS,
+    handle_request,
     parse_move_group,
     parse_standalone_effect,
 )
@@ -35,10 +36,10 @@ from python_showdown.classes.parser.protocol import (
     is_move_boundary,
     parse_protocol_message,
 )
+from python_showdown.models.sdk.battle_state import BattleState
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
-    from python_showdown.classes.combat.battle_state import BattleState
 
 
 @dataclass(frozen=True)
@@ -123,10 +124,15 @@ class BattleParser(MessageManager):
         if message.command == "init" and self.history:
             self.reset()
         self.raw_history.append(message)
-        try:
-            return self._parse_available_events(self.player_id)
-        except Exception:
-            raise
+        if message.command == "request":
+            # On request, consume everything, just in case of server error
+            request_events = handle_request(self.player_id, message)
+            self.next_unparsed_message = len(self.raw_history)
+            self.history.extend(request_events)
+            return request_events
+
+        return self._parse_available_events(self.player_id)
+
 
     def reset(self) -> None:
         """Discard all accumulated battle state so the parser can drive a new battle.
@@ -185,7 +191,12 @@ class BattleParser(MessageManager):
     def _parse_available_events(self, player_id: str) -> list[BaseEvent]:
         completed: list[BaseEvent] = []
         while self.next_unparsed_message < len(self.raw_history):
-            result = self.parse_next(player_id)
+            start = self.next_unparsed_message
+            try:
+                result = self.parse_next(player_id)
+            except Exception:
+                self.next_unparsed_message = start + 1
+                raise
             if result is None:
                 break
 

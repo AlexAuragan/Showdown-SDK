@@ -3,14 +3,14 @@ from time import perf_counter
 
 from websockets.asyncio.client import ClientConnection, connect
 
-from python_showdown.classes.combat.battle_state import BattleState
 from python_showdown.classes.combat.random import RandomMoveCombatHandler
-from python_showdown.classes.parser import Parser
+from python_showdown.classes.parser import Parser, TurnEvent
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
 from python_showdown.logger import LogManager, log_trace
+from python_showdown.models.sdk.battle_state import BattleState
 
 from .dt import BattleResult
 from .utils import Format
@@ -64,6 +64,8 @@ class Client:
         self.request_id: int | None = None
         self._last_request_id: int | None = None
         self._choice_rejected: bool = False
+        self._retry_count: int = 0
+        self._retry_rqid: int | None = None
 
 
     def start_action_timeout(self) -> None:
@@ -131,7 +133,9 @@ class Client:
         self._last_request_id = self.request_id
 
         self.log_manager.battle.info(
-            f"Sending /choose {action_type} {action_info}|{self.request_id} in {self.room_id}",
+            f"Sending /choose {action_type} {action_info}|{self.request_id} in {self.room_id} "
+            f"[force_switch={self.battle_state.force_switch} "
+            f"moves={len(self.battle_state.available_moves)}]",
             extra={"room_id": self.room_id}
         )
         await self.send(f"/choose {action_type} {action_info}|{self.request_id}", room_id=self.room_id)
@@ -234,13 +238,22 @@ class Client:
                     )
 
                     try:
-                        self.parser.handle_line(
+                        events = self.parser.handle_line(
                             line,
                         )
+                        for event in events:
+                            if isinstance(event, TurnEvent):
+                                self.start_action_timeout()
                     except ObsoleteRequestIdError as e:
                         e.request_id = self.request_id
-                        # raise
-                    except InvalidActionError:
+                        self._choice_rejected = False
+                    except InvalidActionError as e:
+                        self.log_manager.battle.info(
+                            "InvalidActionError in %s: %s (rqid=%r last=%r)",
+                            self.room_id, e.message,
+                            self.request_id, self._last_request_id,
+                            extra={"room_id": self.room_id},
+                        )
                         self._choice_rejected = True
                     except Exception:
                         self.log_manager.errors.exception(
@@ -248,10 +261,36 @@ class Client:
                             extra={"room_id": self.room_id}
                         )
 
-                if self.request_id is None and self._choice_rejected and self._last_request_id is not None:
+                self.log_manager.battle.debug(
+                    "FRAME %s: rqid=%r last=%r rejected=%r",
+                    self.room_id, self.request_id,
+                    self._last_request_id, self._choice_rejected,
+                    extra={"room_id": self.room_id},
+                )
+
+                if (
+                    self.request_id is None
+                    and self._choice_rejected
+                    and self._last_request_id is not None
+                    and (self._retry_rqid != self._last_request_id
+                         or self._retry_count < 5)
+                ):
+                    if self._retry_rqid != self._last_request_id:
+                        self._retry_rqid = self._last_request_id
+                        self._retry_count = 0
+                    self._retry_count += 1
+                    self.log_manager.battle.info(
+                        "RESTORE rqid=%r (retry %d) in %s",
+                        self._last_request_id, self._retry_count, self.room_id,
+                        extra={"room_id": self.room_id},
+                    )
                     self.request_id = self._last_request_id
 
                 if self.request_id is not None:
+                    self.log_manager.battle.debug(
+                        "ACT on rqid=%r in %s", self.request_id, self.room_id,
+                        extra={"room_id": self.room_id},
+                    )
                     try:
                         await self.act()
                     except Exception:
@@ -261,6 +300,11 @@ class Client:
                             extra={"room_id": self.room_id},
                         )
                     self.request_id = None
+                else:
+                    self.log_manager.battle.debug(
+                        "NO ACT in %s (rqid=None)", self.room_id,
+                        extra={"room_id": self.room_id},
+                    )
 
         except Exception:
             self.log_manager.errors.exception(
@@ -389,6 +433,8 @@ class Client:
             self.request_id = None
             self._last_request_id = None
             self._choice_rejected = False
+            self._retry_rqid = None
+            self._retry_count = 0
             self.battle_player_id = ""
             self.room_id = ""
             if battle_room is not None:
@@ -412,6 +458,8 @@ class Client:
         self.request_id = None
         self._last_request_id = None
         self._choice_rejected = False
+        self._retry_rqid = None
+        self._retry_count = 0
         self.battle_player_id = ""
         if battle_room is not None:
             self.log_manager.close_room(battle_room)
@@ -453,6 +501,8 @@ class Client:
             self.request_id = None
             self._last_request_id = None
             self._choice_rejected = False
+            self._retry_rqid = None
+            self._retry_count = 0
             self.battle_player_id = ""
             self.battle_finished = None
             self.battle_started_at = None

@@ -10,7 +10,7 @@ from python_showdown.classes.combat.random import RandomMoveCombatHandler
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 100
+BATTLE_COUNT = 10000
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 8
@@ -21,9 +21,9 @@ ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
     "gen1randombattle",
-    # "gen2randombattle",
-    # "gen3randombattle",
-    # "gen4randombattle",
+    "gen2randombattle",
+    "gen3randombattle",
+    "gen4randombattle",
 ]
 
 
@@ -140,7 +140,7 @@ async def run_format(format: str) -> tuple[list[dict[str, object]], int]:
         if i % 2 == 0:
             logs.add_handler(
                 create_battle_file_handler(
-                    Path(f"logs/{format}/raw"),
+                    Path(f"logs_/{format}/raw"),
                     level=TRACE,
                 ),
                 loggers="protocol",
@@ -150,7 +150,7 @@ async def run_format(format: str) -> tuple[list[dict[str, object]], int]:
             # battle and errors loggers -> logs/<format>/info/<room_id>.txt
             logs.add_handler(
                 create_battle_file_handler(
-                    Path(f"logs/{format}/info"),
+                    Path(f"logs_/{format}/info"),
                     level=logging.DEBUG,
                 ),
                 loggers=(logs.battle, logs.errors),
@@ -159,7 +159,7 @@ async def run_format(format: str) -> tuple[list[dict[str, object]], int]:
         else:
             logs.add_handler(
                 create_battle_file_handler(
-                    Path(f"logs_bis/{format}/raw"),
+                    Path(f"logs_bis_/{format}/raw"),
                     level=TRACE,
                 ),
                 loggers="protocol",
@@ -169,7 +169,7 @@ async def run_format(format: str) -> tuple[list[dict[str, object]], int]:
             # battle and errors loggers -> logs/<format>/info/<room_id>.txt
             logs.add_handler(
                 create_battle_file_handler(
-                    Path(f"logs_bis/{format}/info"),
+                    Path(f"logs_bis_/{format}/info"),
                     level=logging.DEBUG,
                 ),
                 loggers=(logs.battle, logs.errors),

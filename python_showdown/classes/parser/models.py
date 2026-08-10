@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from python_showdown.classes.parser.enums import SourceType
+from python_showdown.models.sdk.battle_state import SourceType
 
 
 @dataclass(frozen=True)

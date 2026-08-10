@@ -1,28 +1,31 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, Any
 
-from python_showdown.classes.parser.enums import (
-    MajorStatus,
-    MinorStatus,
-    SideCondition,
-    Stat,
-    Weather,
-)
 from python_showdown.classes.parser.models import (
     EffectSource,
     PokemonIdent,
     ProtocolAnnotation,
     ProtocolMessage,
 )
-from python_showdown.classes.pokemon.moves import AvailableMove
-from python_showdown.classes.pokemon.pokemon import PartyPokemon, Unknown
-from python_showdown.classes.pokemon.stats import MinorStatus as PokemonMinorStatus
-from python_showdown.classes.pokemon.stats import Stats, Status
+from python_showdown.models.pokemon.moves import AvailableMove
+from python_showdown.models.pokemon.pokemon import (
+    EnemyPokemon,
+    PartyPokemon,
+    Unknown,
+)
+from python_showdown.models.pokemon.status import (
+    MajorStatus,
+    MinorStatus,
+    Stat,
+    Stats,
+    Status,
+)
+from python_showdown.models.pokemon.terrain import SideCondition, Weather
+from python_showdown.models.sdk.battle_state import BattleState
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
-    from python_showdown.classes.combat.battle_state import BattleState
 
 
 def _ident_raw(ident: PokemonIdent) -> str:
@@ -38,10 +41,12 @@ def _ident_self_key(ident: PokemonIdent) -> str:
 
 
 def _is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
+    if not battle_state.player_id:
+        raise ValueError("Battle State has no player_id, does Client has a player ID ? Is it initalized yet ?")
     return bool(battle_state.player_id) and ident.player == battle_state.player_id
 
 
-def _resolve_enemy(battle_state: BattleState, ident: PokemonIdent | None):
+def _resolve_enemy(battle_state: BattleState, ident: PokemonIdent | None) -> EnemyPokemon | None:
     if ident is None or not battle_state.player_id or ident.player == battle_state.player_id:
         return None
     return battle_state.get_enemy_pokemon(_ident_raw(ident), not_found_ok=True)
@@ -71,20 +76,13 @@ def _parse_details(details: str) -> tuple[str | None, bool]:
     return gender, shiny
 
 
-_POKEMON_MINOR_BY_VALUE = {status.value: status for status in PokemonMinorStatus}
-
-
-def _to_pokemon_minor(status: MinorStatus) -> PokemonMinorStatus | None:
-    """Map a parser MinorStatus to the tracked pokemon MinorStatus, if any."""
-    return _POKEMON_MINOR_BY_VALUE.get(status.value)
 
 
 class BaseEvent(ABC):
     """A complete semantic event derived from one or more protocol messages."""
 
-    # TODO: Make abstract once every event has a reducer implementation.
-    # Every event should be able to edit the battle state, much like Git applies
-    # changes while rebuilding history.
+    # TODO Remove
+    # @abstractmethod
     def update_battle_state(self, battle_state: BattleState) -> None:
         return
 
@@ -93,7 +91,8 @@ class BaseEvent(ABC):
 
 
 def unhandled_event(message: ProtocolMessage, action_id: int | None = None) -> UnhandledEvent:
-    return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)
+    raise ValueError(message)
+    # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)
 
 
 @dataclass(frozen=True)
@@ -179,7 +178,7 @@ class MinorStatusEvent(BaseEvent):
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is None:
             return
-        minor = _to_pokemon_minor(self.effect)
+        minor = self.effect
         if minor is None:
             return
         if self.started:
@@ -263,7 +262,7 @@ class MinorStatusActivationEvent(BaseEvent):
 class StatChangeEvent(BaseEvent):
     source: EffectSource
     target: PokemonIdent
-    stat_changes: tuple[tuple[Stat, int], ...]
+    stat_changes: list[tuple[Stat, int]]
     success: bool = True
     failure_reason: str | None = None
 
@@ -285,7 +284,7 @@ class StatChangeEvent(BaseEvent):
         if enemy is None:
             return
         for stat, delta in self.stat_changes:
-            enemy.status.boost(stat.value, delta)
+            enemy.status.boost(stat, delta)
 
 @dataclass(frozen=True)
 class MovePrepareEvent(BaseEvent):
@@ -480,7 +479,7 @@ class StatSetEvent(BaseEvent):
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is None:
             return
-        enemy.status.set_stage(self.stat.value, self.stage)
+        enemy.status.set_stage(self.stat, self.stage)
 
 
 @dataclass(frozen=True)
@@ -661,7 +660,20 @@ class DecisionRequestEvent(BaseEvent):
         # the legacy parser, which nulled rqid when ``wait`` was set), so the
         # receive loop's ``if request_id is not None: await act()`` won't fire.
         self.update_battle_state(client.battle_state)
-        client.request_id = None if self.wait else self.request_id
+        new_id = None if self.wait else self.request_id
+        client.log_manager.battle.debug(
+            "|request| update_client: setting request_id=%r (was %r, wait=%s, "
+            "force_switch=%s, rqid=%r)",
+            new_id, client.request_id, self.wait,
+            self.force_switch, self.request_id,
+            extra={"room_id": client.room_id},
+        )
+        client.request_id = new_id
+        client._choice_rejected = False
+        client._retry_rqid = None
+        client._retry_count = 0
+        if not self.wait:
+            client._last_request_id = None
 
 @dataclass(frozen=True)
 class PerishCountEvent(BaseEvent):
@@ -674,7 +686,7 @@ class PerishCountEvent(BaseEvent):
         if enemy is None:
             return
         enemy.status.perish_count = self.count
-        enemy.status.add_minor(PokemonMinorStatus.PERISH_SONG)
+        enemy.status.add_minor(MinorStatus.PERISH_SONG)
 
 
 @dataclass(frozen=True)
@@ -682,10 +694,8 @@ class TurnEvent(BaseEvent):
     turn: int
 
     def update_client(self, client: Client) -> None:
-        # Track the turn for move counting and (re)start the action-timeout guard:
-        # if we don't receive a |request| to act on soon, the battle is stuck.
         client.turn_count = self.turn
-        client.start_action_timeout()
+
 
 
 @dataclass(frozen=True)
@@ -764,10 +774,16 @@ class PlayerEvent(BaseEvent):
     name: str
 
     def update_client(self, client: Client) -> None:
-        if client.username and self.name == client.username:
-            client.battle_state.player_id = self.slot
+        # if client.username is None:
+        #     raise ValueError("Client username not set")
 
+        # If the client has no username, it picks the first player of the battle
+        # TODO check if it's true that the first player is the POV player
+        if client.username is None:
+            client.username = self.name
 
+        if self.name == client.username:
+            client.battle_player_id = self.slot
 
 
 @dataclass(frozen=True)
@@ -809,7 +825,7 @@ class TypeChangeEvent(BaseEvent):
     def update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
-            enemy.status.add_minor(PokemonMinorStatus.TYPECHANGE)
+            enemy.status.add_minor(MinorStatus.TYPECHANGE)
 
 
 @dataclass(frozen=True)
@@ -829,3 +845,17 @@ class FormeChangeEvent(BaseEvent):
         enemy = _resolve_enemy(battle_state, self.pokemon)
         if enemy is not None:
             enemy.forme = self.forme
+
+@dataclass(frozen=True)
+class DesyncEvent(BaseEvent):
+    """
+    Records when Gen 1 battle get a desync
+
+    Example:
+         |-hint|Desync Clause Mod activated!
+         |-hint|In Gen 1, if both players would see the same Pokémon
+         using different moves, the Pokemon defaults to the move shown
+         from the perspective of the player controlling that Pokémon.
+    """
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        battle_state.gen_1_desync = True

@@ -11,12 +11,13 @@ from python_showdown.classes.parser.effect_handlers import (
     _is_failed_stat_change,
     parse_effect_message,
 )
-from python_showdown.classes.parser.enums import SourceType
 from python_showdown.classes.parser.events import (
     BaseEvent,
     BattleEndEvent,
     CantEvent,
     DecisionRequestEvent,
+    DesyncEvent,
+    DiscardedEvent,
     MoveEvent,
     PlayerEvent,
     PokemonSwitchEvent,
@@ -40,6 +41,7 @@ from python_showdown.classes.parser.protocol import (
     is_ignored_message,
     require_arguments,
 )
+from python_showdown.models.sdk.battle_state import SourceType
 
 CommandHandler = Callable[[str, ProtocolMessage], list[BaseEvent]]
 
@@ -116,7 +118,6 @@ def handle_error(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
         raise ObsoleteRequestIdError()
     raise InvalidActionError(message=content, category=category)
 
-
 COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "switch": handle_switch,
     "drag": handle_switch,
@@ -127,7 +128,7 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "win": handle_battle_end,
     "tie": handle_battle_end,
     "player": handle_player,
-    "error": handle_error
+    "error": handle_error,
 }
 
 
@@ -186,6 +187,10 @@ def parse_move_group(
 
     for message in messages[1:]:
         if is_ignored_message(message):
+            continue
+
+        if message.command == "-hint": # outside move control since it can create new events
+            effects.extend(handle_hint(message))
             continue
 
         if _handle_move_control_message(message, state, parse_context):
@@ -265,3 +270,10 @@ def _handle_move_control_message(
         return True
 
     return False
+
+def handle_hint(message: ProtocolMessage) -> list[BaseEvent]:
+    require_arguments(message, 1)
+    hint_message = message.arguments[0].strip()
+    if hint_message == "Desync Clause Mod activated!":
+        return [DesyncEvent()]
+    return [DiscardedEvent(command=message.command, reason="Unhandled hint")]

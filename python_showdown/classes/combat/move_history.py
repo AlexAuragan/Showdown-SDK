@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from python_showdown.classes.pokemon.stats import MajorStatus, MinorStatus
+from python_showdown.models.pokemon.status import MajorStatus, MinorStatus
 
 
 @dataclass
@@ -10,7 +10,7 @@ class StatChange:
     stat: str
     delta: int
 
-
+# TODO Move this
 @dataclass
 class MoveEvent:
     """A single resolved move and its coarse outcome, recorded in the battle

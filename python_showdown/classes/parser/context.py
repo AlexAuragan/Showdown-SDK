@@ -1,13 +1,13 @@
 from collections.abc import Callable
 from dataclasses import dataclass, field
 
-from python_showdown.classes.parser.enums import MajorStatus
 from python_showdown.classes.parser.events import BaseEvent
 from python_showdown.classes.parser.models import (
     EffectSource,
     PokemonIdent,
     ProtocolMessage,
 )
+from python_showdown.models.pokemon.status import MajorStatus
 
 
 @dataclass

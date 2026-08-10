@@ -1,11 +1,8 @@
 from python_showdown.classes.parser.context import ParsedCondition
-from python_showdown.classes.parser.enums import (
-    MajorStatus,
-    MinorStatus,
-    SourceType,
-)
 from python_showdown.classes.parser.models import EffectSource, PokemonIdent
 from python_showdown.classes.parser.protocol import LEVEL_PATTERN, annotation_value
+from python_showdown.models.pokemon.status import MajorStatus, MinorStatus
+from python_showdown.models.sdk.battle_state import SourceType
 
 
 def parse_pokemon_ident(value: str) -> PokemonIdent:

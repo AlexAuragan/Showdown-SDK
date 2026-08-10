@@ -1,39 +1,18 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Literal
 
 
 class MajorStatus(str, Enum):
-    """Non-volatile major status conditions sent via `|-status|`/`|-curestatus|`.
-
-    At most one major status can affect a pokemon at a time. `tox` (Toxic /
-    badly poisoned) is distinct from `psn`: Toxic's end-of-turn damage ramps each
-    turn, so keeping them separate is required for any future damage simulation.
-    """
-
     SLEEP = "slp"
     POISON = "psn"
     TOXIC = "tox"
     PARALYSIS = "par"
     BURN = "brn"
     FREEZE = "frz"
-
-    @classmethod
-    def from_server(cls, token: str) -> MajorStatus:
-        try:
-            return cls(token)
-        except ValueError as e:
-            raise ValueError(f"Unknown major status token: {token!r}") from e
+    FAINT = "fnt"
 
 
 class MinorStatus(str, Enum):
-    """Volatile status effects sent via `|-start|`/`|-end|`.
-
-    These clear on switch-out (except where noted) and any number may be active
-    at once. Members without a handler below are known to Showdown but not yet
-    tracked by this bot -- see `README.md`.
-    """
-
     CONFUSION = "confusion"
     LEECH_SEED = "Leech Seed"
     SUBSTITUTE = "Substitute"
@@ -41,20 +20,23 @@ class MinorStatus(str, Enum):
     ATTRACT = "Attract"
     YAWN = "Yawn"
     TYPECHANGE = "typechange"
-    PERISH_SONG = "perish"        # countdown tracked separately in `perish_count`
-    FLASH_FIRE = "Flash Fire"     # ability-granted immunity flag
-    WRAP = "Wrap"                 # trapping moves (Wrap/Bind/Clamp/...)
+    PERISH_SONG = "perish"  # countdown tracked separately in `perish_count`
+    FLASH_FIRE = "Flash Fire"  # ability-granted immunity flag
+    WRAP = "Wrap"  # trapping moves such as Wrap, Bind, Clamp, etc.
+    FLINCH = "Flinch"
+    RECHARGE = "Recharge"
+    FLY = "Fly"
+    DIVE = "Dive"
+    TUNNEL = "Tunnel"
+    PROTECT = "Protect"
+    NIGHTMARE = "Nightmare"
+    ENDURE = "Endure"
+    TRAPPED = "Trapped"
+    WHIRLPOOL = "Whirlpool"
+    ROOST = "Roost"
+    TAUNT = "Taunt"
+    FOCUS_PUNCH = "Focus Punch"
 
-
-
-@dataclass
-class Stats:
-    atk: int
-    def_: int
-    spa: int
-    spd: int
-    spe: int
-    max_hp: int
 
 
 @dataclass
@@ -110,14 +92,14 @@ class Status:
         either as a `MajorStatus` member or its raw string value. Confusion is
         NOT a major status; it is handled via `minor`.
         """
-        self.major = status if isinstance(status, MajorStatus) else MajorStatus.from_server(status)
+        self.major = status if isinstance(status, MajorStatus) else MajorStatus(status)
 
     def clear_status(self, status: MajorStatus | str) -> None:
         """Clear a major status condition if it matches the one currently set."""
         current = self.major
         if current is None:
             return
-        token = status if isinstance(status, MajorStatus) else MajorStatus.from_server(status)
+        token = status if isinstance(status, MajorStatus) else MajorStatus(status)
         if current == token:
             self.major = None
 
@@ -138,13 +120,13 @@ class Status:
     def has_minor(self, status: MinorStatus) -> bool:
         return status in self.minor
 
-    def boost(self, stat: Literal["atk", "def", "spa", "spd", "spe", "evasion", "accuracy"], n: int) -> None:
+    def boost(self, stat: Stat, n: int) -> None:
         self._adjust_stage(stat, n)
 
-    def unboost(self, stat: Literal["atk", "def", "spa", "spd", "spe", "evasion", "accuracy"], n: int) -> None:
+    def unboost(self, stat: Stat, n: int) -> None:
         self._adjust_stage(stat, -n)
 
-    def set_stage(self, stat: Literal["atk", "def", "spa", "spd", "spe", "evasion", "accuracy"], n: int) -> None:
+    def set_stage(self, stat: Stat, n: int) -> None:
         """Set a stage absolutely (e.g. Belly Drum sets atk to +6)."""
         setattr(self, self._stage_attr(stat), self._clamp(n))
 
@@ -158,7 +140,7 @@ class Status:
         self.eva_stage = 0
         self.acc_stage = 0
 
-    def _adjust_stage(self, stat: str, delta: int) -> None:
+    def _adjust_stage(self, stat: Stat, delta: int) -> None:
         attr = self._stage_attr(stat)
         current = getattr(self, attr)
         setattr(self, attr, self._clamp(current + delta))
@@ -168,21 +150,38 @@ class Status:
         return max(Status._MIN_STAGE, min(Status._MAX_STAGE, stage))
 
     @staticmethod
-    def _stage_attr(stat: str) -> str:
+    def _stage_attr(stat: Stat) -> str:
         match stat:
-            case "atk":
+            case stat.ATK:
                 return "atk_stage"
-            case "def":
+            case stat.DEF:
                 return "def_stage"
-            case "spa":
+            case stat.SPA:
                 return "spa_stage"
-            case "spd":
+            case stat.SPD:
                 return "spd_stage"
-            case "spe":
+            case stat.SPE:
                 return "spe_stage"
-            case "evasion":
+            case stat.EVA:
                 return "eva_stage"
-            case "accuracy":
+            case stat.ACC:
                 return "acc_stage"
-            case _:
-                raise ValueError(f"Unknown stat: {stat!r}")
+
+
+class Stat(str, Enum):
+    ATK = "atk"
+    DEF = "def"
+    SPA = "spa"
+    SPD = "spd"
+    SPE = "spe"
+    EVA = "evasion"
+    ACC = "accuracy"
+
+@dataclass
+class Stats:
+    atk: int
+    def_: int
+    spa: int
+    spd: int
+    spe: int
+    max_hp: int
