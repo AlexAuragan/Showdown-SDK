@@ -17,3 +17,4 @@ class SideCondition(str, Enum):
     REFLECT = "Reflect"
     SAFEGUARD = "Safeguard"
     LIGHT_SCREEN = "Light Screen"
+    TRICK_ROOM = "Trick room"

@@ -13,6 +13,7 @@ from collections import Counter
 from pprint import pprint
 from typing import TYPE_CHECKING
 
+from python_showdown.classes.client.battle_manager import BattleManager
 from python_showdown.classes.parser import BaseEvent
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
@@ -43,14 +44,10 @@ class Parser:
     produced events are applied onto the client via ``event.update_client``.
     """
 
-    def __init__(self, client: Client) -> None:
-        self.battle = BattleParser(client)
+    def __init__(self, manager: BattleManager) -> None:
+        self.manager = manager
+        self.battle = BattleParser(manager)
         self.lobby = LobbyParser()
-        self.client = client
-
-    @property
-    def room_id(self) -> str:
-        return self.client.room_id
 
     def handle_line(
         self,
@@ -71,15 +68,15 @@ class Parser:
         if (
             manager is self.battle
             and message.command != "init"
-            and self.client.active_battle_room
-            and self.client.room_id != self.client.active_battle_room
+            and self.manager.room_id
+            and self.manager.room_id != self.last_message_room_id
         ):
                 return []
 
-        events = manager.handle_message(self.client, message)
+        events = manager.handle_message(self.manager, message)
 
         for event in events:
-            event.update_client(self.client)
+            event.update_manager(self.manager)
         return events
 
     def _manager_for(self, message: ProtocolMessage) -> MessageManager:
@@ -115,6 +112,14 @@ class Parser:
     @property
     def player_id(self) -> str:
         return self.client.player_id
+
+    @property
+    def last_message_room_id(self) -> str:
+        return self.battle.last_message_room_id
+
+    @last_message_room_id.setter
+    def last_message_room_id(self, value: str) -> None:
+        self.battle.last_message_room_id = value
 
 
 if __name__ == "__main__":
@@ -165,11 +170,11 @@ if __name__ == "__main__":
                 for event in parser.history
             )
 
-            print(
-                f"Parsed {len(parser.raw_history)} protocol messages "
-                f"into {len(parser.history)} semantic events."
-            )
-            print(f"Pending messages: {len(parser.pending_messages)}")
+            # print(
+            #    f"Parsed {len(parser.raw_history)} protocol messages "
+            #    f"into {len(parser.history)} semantic events."
+            # )
+            # print(f"Pending messages: {len(parser.pending_messages)}")
             from python_showdown.classes.parser.events import UnhandledEvent
             unhandled_events = [
                 event

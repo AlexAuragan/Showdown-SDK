@@ -43,10 +43,10 @@ from python_showdown.classes.parser.protocol import (
 )
 from python_showdown.models.sdk.battle_state import SourceType
 
-CommandHandler = Callable[[str, ProtocolMessage], list[BaseEvent]]
+CommandHandler = Callable[[str, ProtocolMessage, str], list[BaseEvent]]
 
 
-def handle_switch(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_switch(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     if message.command not in {"switch", "drag", "replace"}:
         raise ValueError(f"Expected switch-like command, got {message.command!r}")
     require_arguments(message, 3)
@@ -65,30 +65,34 @@ def handle_switch(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
     )]
 
 
-def handle_turn(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_turn(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     require_arguments(message, 1)
     return [TurnEvent(int(message.arguments[0]))]
 
 
-def handle_request(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_request(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     require_arguments(message, 1)
     payload = json.loads(message.arguments[0])
     if not isinstance(payload, dict):
-        raise ValueError("Request payload must be a JSON object")
+        raise TypeError("Request payload must be a JSON object")
+
     request_id = payload.get("rqid")
     wait = payload.get("wait", False)
     force_switch_raw = payload.get("forceSwitch", [])
+
     if request_id is not None and not isinstance(request_id, int):
-        raise ValueError("rqid must be an integer or None")
+        raise TypeError("rqid must be an integer or None")
     if not isinstance(wait, bool) or not isinstance(force_switch_raw, list):
-        raise ValueError("Malformed request payload")
+        raise TypeError("Malformed request payload")
+
     force_switch = tuple(bool(value) for value in force_switch_raw)
     return [DecisionRequestEvent(player_id, request_id, wait, force_switch, payload)]
 
 
-def handle_cant(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_cant(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     if len(message.arguments) < 2:
         raise ValueError(f"Malformed cant message: {message.raw!r}")
+
     return [CantEvent(
         parse_pokemon_ident(message.arguments[0]),
         message.arguments[1],
@@ -96,22 +100,22 @@ def handle_cant(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
     )]
 
 
-def handle_battle_end(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_battle_end(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     if message.command == "tie":
-        return [BattleEndEvent(None)]
+        return [BattleEndEvent(None, room_id)]
     if message.command == "win":
         require_arguments(message, 1)
-        return [BattleEndEvent(message.arguments[0])]
+        return [BattleEndEvent(message.arguments[0], room_id)]
     raise ValueError(f"Not a battle-end message: {message.raw!r}")
 
 
-def handle_player(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_player(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     require_arguments(message, 2)
     slot = message.arguments[0].strip()
     name = message.arguments[1].strip()
     return [PlayerEvent(slot=slot, name=name)]
 
-def handle_error(player_id: str, message: ProtocolMessage) -> list[BaseEvent]:
+def handle_error(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
     category = message.annotations[0].name
     content = str(message.annotations[0].value)
     if "too late to make a different move" in content:

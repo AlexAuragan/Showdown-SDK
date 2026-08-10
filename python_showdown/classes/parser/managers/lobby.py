@@ -11,6 +11,7 @@ each event overrides ``update_client`` directly and never touches battle state.
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
+from python_showdown.classes.client.battle_manager import BattleManager
 from python_showdown.classes.client.dt import Format
 from python_showdown.classes.client.utils import parse_formats
 from python_showdown.classes.parser.events import BaseEvent, RoomEvent
@@ -18,6 +19,7 @@ from python_showdown.classes.parser.exceptions import WrongRoomException
 from python_showdown.classes.parser.managers.base import MessageManager
 from python_showdown.classes.parser.models import ProtocolMessage
 from python_showdown.classes.parser.protocol import require_arguments
+from python_showdown.models.sdk.battle_state import BattleState
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
@@ -35,6 +37,9 @@ class UpdateUserEvent(BaseEvent):
     username: str
     named: bool
 
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
     def update_client(self, client: Client) -> None:
         client.named = self.named
         expected = client.username
@@ -51,6 +56,9 @@ class NameTakenEvent(BaseEvent):
 
     raw: str
 
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
     def update_client(self, client: Client) -> None:
         client.ready.clear()
         raise RuntimeError(f"Username was rejected by the server: {self.raw}")
@@ -61,6 +69,9 @@ class FormatsEvent(BaseEvent):
     """``|formats|...`` — the server's format list."""
 
     formats: list[Format]
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
 
     def update_client(self, client: Client) -> None:
         client.formats = self.formats
@@ -79,6 +90,9 @@ class PrivateMessageEvent(BaseEvent):
     receiver: str
     message: str
 
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
     def update_client(self, client: Client) -> None:
         future = client.challenge_future
         challenged_user = client.challenged_user
@@ -96,22 +110,16 @@ class PrivateMessageEvent(BaseEvent):
 
 class LobbyParser(MessageManager):
     """Handles non-battle session messages: room routing, login, formats, and challenges.
-
-    Stateless on its own — the state it mutates lives on the ``Client`` via the
-    events it produces. Kept as a distinct manager so the battle parser never
-    has to know about session/lifecycle concerns. ``>roomid`` lines are routed
-    here too: they set ``client.room_id`` (via :class:`RoomEvent`) and are
-    validated against the active room, so they never pollute battle history.
     """
 
     def handle_message(
         self,
-        client: Client,
+        manager: BattleManager,
         message: ProtocolMessage,
     ) -> list[BaseEvent]:
         command = message.command
         if command == "room":
-            return self._handle_room(client, message)
+            return self._handle_room(manager, message)
         if command == "updateuser":
             return self._handle_update_user(message)
         if command == "nametaken":
@@ -123,11 +131,11 @@ class LobbyParser(MessageManager):
         return []
 
     @staticmethod
-    def _handle_room(client: Client, message: ProtocolMessage) -> list[BaseEvent]:
+    def _handle_room(manager: BattleManager, message: ProtocolMessage) -> list[BaseEvent]:
         given_room_id = message.arguments[0].strip() if message.arguments else ""
 
         if not given_room_id:
-            raise WrongRoomException(client.room_id, given_room_id)
+            raise WrongRoomException(manager.last_message_room_id, given_room_id)
 
         return [RoomEvent(room_id=given_room_id)]
 

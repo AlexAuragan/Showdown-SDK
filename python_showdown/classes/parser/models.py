@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
-from python_showdown.models.sdk.battle_state import SourceType
+from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon
+from python_showdown.models.sdk.battle_state import BattleState, SourceType
 
 
 @dataclass(frozen=True)
@@ -28,6 +29,14 @@ class PokemonIdent:
     player: str
     slot: str | None
     name: str
+
+    def get(self, battle_state: BattleState) -> EnemyPokemon | PartyPokemon:
+        print(self.player, battle_state.player_id)
+        if self.player == battle_state.player_id:
+            return battle_state.get_pokemon(self.name)
+        pokemon = battle_state.get_enemy_pokemon(self.name)
+        assert isinstance(pokemon, EnemyPokemon)
+        return pokemon
 
 
 @dataclass(frozen=True)

@@ -15,7 +15,6 @@ from python_showdown.classes.parser.events import (
     ClearNegativeBostsEvent,
     DamageEvent,
     DiscardedEvent,
-    FieldActivationEvent,
     FormeChangeEvent,
     HealEvent,
     ItemEvent,
@@ -371,7 +370,7 @@ def _parse_field(message: ProtocolMessage, context: EffectParseContext) -> list[
     value = message.arguments[0].strip()
     if value.casefold().startswith("move: "):
         effect_type = SourceType.MOVE
-        effect_name = value[6:].strip()
+        effect_name = value.removeprefix("move: ").strip()
     else:
         effect_type = SourceType.UNKNOWN
         effect_name = value
@@ -383,17 +382,29 @@ def _parse_field(message: ProtocolMessage, context: EffectParseContext) -> list[
     of_value = annotation_value(message, "of")
     if of_value is not None:
         actor = parse_pokemon_ident(of_value)
-    events: list[BaseEvent] = [FieldActivationEvent(
-        source=EffectSource(
-            type=effect_type,
-            name=effect_name,
-            actor=actor,
-            action_id=context.source.action_id,
-        ),
-        active=message.command != "-fieldend",
-    )]
-    return events
 
+    if effect_type == SourceType.MOVE and effect_name == "Perish Song":
+        return [] # The perish song "field event" ends up being a per Pokemon minor status
+        # These status are given via the following lines.
+
+    if effect_type == SourceType.MOVE and effect_name == "Trick Room":
+        return [
+           SideConditionEvent(
+               source=EffectSource(
+                   type=effect_type,
+                   name=effect_name,
+                   actor=actor,
+                   action_id=context.source.action_id
+               ),
+               side = None,
+               condition=SideCondition.TRICK_ROOM,
+               started=message == "-fieldstart"
+           )
+        ]
+
+    return [
+        UnhandledEvent.from_message(message, action_id=context.source.action_id)
+    ]
 
 def _parse_single_move(message: ProtocolMessage, context: EffectParseContext) -> list[BaseEvent]:
     require_arguments(message, 2)
@@ -753,9 +764,26 @@ def _always(message: ProtocolMessage, context: EffectParseContext) -> bool:
     return True
 
 def _parse_hint(message: ProtocolMessage, context: EffectParseContext) -> list[BaseEvent]:
-    # TODO instead of discarding every hint, we maybe should whitelist them one by one
-    # in order to make sure we don't discard important hint messages
-    # I don't think there are so many
+    if message.arguments[0] in [
+        (
+            "In Gen 1, if a Pokemon with a Substitute hurts itself due to"
+            + " confusion or Jump Kick/Hi Jump Kick recoil and the target does not have a "
+            + "Substitute there is no damage dealt."
+        ), (
+            "In Gen 2, Toxic's counter is retained through Baton Pass/Heal Bell and applies to PSN/BRN."
+        ), (
+           "If you want to tie earlier, consider using `/offertie`."
+        ), (
+            "In Gen 3, Intimidate does not activate if every target has a Substitute."
+        ), (
+            "In Gen 4, Intimidate does not activate if every target has a Substitute (or the Substitute was just broken by U-turn)."
+        ), (
+            "Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time"
+        )
+    ]:
+        return [DiscardedEvent(command=message.command, reason="Unhandled hint: " + message.arguments[0])]
+    raise ValueError(message.raw)
+    print(message.raw)
     return [DiscardedEvent(command=message.command, reason="Unhandled hint")]
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {

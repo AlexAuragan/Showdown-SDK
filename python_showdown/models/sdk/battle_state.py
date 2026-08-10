@@ -8,8 +8,7 @@ from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, U
 from python_showdown.models.pokemon.terrain import SideCondition
 
 if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
-
+    from python_showdown.classes.client.battle_manager import BattleManager
 
 class SourceType(str, Enum):
     MOVE = "move"
@@ -34,9 +33,10 @@ def _json_default(obj):
     raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
 
 
+
 class BattleState:
-    def __init__(self, client: Client):
-        self._client = client
+    def __init__(self, manager: BattleManager):
+        self._manager = manager
         self._team: list[PartyPokemon] = []
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
@@ -52,13 +52,14 @@ class BattleState:
 
         self.gen_1_desync = False # Gen 1 can experience desync by design, this can mess up
         # the witnessed moves
+
     @property
-    def player_id(self) -> str:
-        return self._client.battle_player_id
+    def player_id(self) -> str | None:
+        return self._manager.player_id
 
     @player_id.setter
     def player_id(self, value: str) -> None:
-        self._client.battle_player_id = value
+        self._manager.player_id = value
 
     def to_json(self) -> str:
         return json.dumps(

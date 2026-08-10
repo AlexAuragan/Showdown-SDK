@@ -41,7 +41,6 @@ from python_showdown.classes.parser.events import (
     DamageEvent,
     DecisionRequestEvent,
     DiscardedEvent,
-    FieldActivationEvent,
     FormeChangeEvent,
     HealEvent,
     ItemEvent,

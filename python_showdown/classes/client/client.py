@@ -3,7 +3,8 @@ from time import perf_counter
 
 from websockets.asyncio.client import ClientConnection, connect
 
-from python_showdown.classes.combat.random import RandomMoveCombatHandler
+from python_showdown.classes.client.battle_manager import BattleManager
+from python_showdown.classes.combat_handler.random import RandomMoveCombatHandler
 from python_showdown.classes.parser import Parser, TurnEvent
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
@@ -33,12 +34,11 @@ class Client:
         # --- session state (lives for the websocket connection) -----------
         self.websocket_url: str = websocket_url
         self.websocket: ClientConnection | None = None
-        self.username: str | None = None
+        self._username: str | None = None
         self.ready: asyncio.Event = asyncio.Event()
         self.formats: list[Format] = []
         self._receive_task: asyncio.Task[None] | None = None
         self.named: bool = False
-        self.parser: Parser = Parser(self)
         self.combat_handler: RandomMoveCombatHandler = combat_handler or RandomMoveCombatHandler()
         self.log_manager: LogManager = log_manager if log_manager is not None else LogManager()
 
@@ -48,84 +48,27 @@ class Client:
         ) = None
         self.challenged_user: str | None = None
 
-        # --- battle lifecycle state --------------------------------------
-        self.room_id: str = ""                       # latest room redirected into
-        self.active_battle_room: str | None = None   # the battle we are driving
-        self.battle_finished: asyncio.Future[BattleResult] | None = None
-        self.battle_started_at: float | None = None
-        self.turn_count: int = 0
-        self.battle_player_id: str = ""
+        self.battle_manager: BattleManager = BattleManager(self.username, self.log_manager)
+        self.battle_state: BattleState = BattleState(self.battle_manager)
+        self.parser: Parser = Parser(self.battle_manager)
 
-        self._action_timeout_task: asyncio.Task[None] | None = None
-        self.action_timeout_seconds: float = 5.0
+    @property
+    def username(self) -> str | None:
+        return self._username
 
-        self.battle_state: BattleState = BattleState(self)
-        # `|request|`'s rqid, set by the parser when a decision is requested and
-        self.request_id: int | None = None
-        self._last_request_id: int | None = None
-        self._choice_rejected: bool = False
-        self._retry_count: int = 0
-        self._retry_rqid: int | None = None
-
-
-    def start_action_timeout(self) -> None:
-        self.cancel_action_timeout()
-
-        turn = self.turn_count
-
-        self._action_timeout_task = asyncio.create_task(
-            self._raise_on_action_timeout(
-                turn=turn,
-                room_id=self.room_id,
-            )
-        )
-
-    def cancel_action_timeout(self) -> None:
-        task = self._action_timeout_task
-        self._action_timeout_task = None
-
-        if task is not None:
-            task.cancel()
-
-    async def _raise_on_action_timeout(
-        self,
-        turn: int,
-        room_id: str,
-    ) -> None:
-        try:
-            await asyncio.sleep(self.action_timeout_seconds)
-        except asyncio.CancelledError:
-            return
-
-        error = TimeoutError(
-            f"{self.username!r} did not act within {self.action_timeout_seconds:.1f}s on turn {turn} " +
-            f"in room {room_id!r}. The battle request may not have been parsed."
-        )
-
-        state = self.battle_state
-        self.log_manager.errors.error(
-            "Action timeout for %r: room=%r turn=%r request_id=%r "
-            "force_switch=%r team_size=%d available_moves=%d",
-            self.username, room_id, turn,
-            self.request_id,
-            state.force_switch,
-            len(state.team),
-            len(state.available_moves),
-            extra={"room_id": room_id},
-        )
-
-        battle_finished = self.battle_finished
-
-        if battle_finished is not None and not battle_finished.done():
-            battle_finished.set_exception(error)
+    @username.setter
+    def username(self, value: str) -> None:
+        self._username = value
+        self.battle_manager.player_username = value
 
     async def join_room(self, room_id: str) -> None:
         await self.send(f"/join {room_id}")
-        self.room_id = room_id
 
     async def act(self) -> None:
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
+        if self.battle_room_id is None:
+            raise RuntimeError("No battle room currently set")
 
         self.start_action_timeout()
 
@@ -133,12 +76,12 @@ class Client:
         self._last_request_id = self.request_id
 
         self.log_manager.battle.info(
-            f"Sending /choose {action_type} {action_info}|{self.request_id} in {self.room_id} "
+            f"Sending /choose {action_type} {action_info}|{self.request_id} in {self.battle_room_id} "
             f"[force_switch={self.battle_state.force_switch} "
             f"moves={len(self.battle_state.available_moves)}]",
-            extra={"room_id": self.room_id}
+            extra={"room_id": self.battle_room_id}
         )
-        await self.send(f"/choose {action_type} {action_info}|{self.request_id}", room_id=self.room_id)
+        await self.send(f"/choose {action_type} {action_info}|{self.request_id}", room_id=self.battle_room_id)
 
     async def connect(self) -> None:
         if self.websocket is not None:
@@ -178,13 +121,16 @@ class Client:
         command: str,
         room_id: str = ""
     ) -> None:
+        room_id = room_id
+
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
+
         self.log_manager.battle.debug(
             "<- %s|%s",
             room_id,
             command,
-            extra={"room_id": room_id or self.room_id},
+            extra={"room_id": room_id or None},
         )
         await self.websocket.send(f"{room_id}|{command}")
 
@@ -230,12 +176,7 @@ class Client:
                     )
 
 
-                    log_trace(
-                        self.log_manager.protocol,
-                        "%s",
-                        line,
-                        extra={"room_id": self.room_id}
-                    )
+
 
                     try:
                         events = self.parser.handle_line(
@@ -250,22 +191,29 @@ class Client:
                     except InvalidActionError as e:
                         self.log_manager.battle.info(
                             "InvalidActionError in %s: %s (rqid=%r last=%r)",
-                            self.room_id, e.message,
+                            self.last_message_room_id, e.message,
                             self.request_id, self._last_request_id,
-                            extra={"room_id": self.room_id},
+                            extra={"room_id": self.last_message_room_id},
                         )
                         self._choice_rejected = True
                     except Exception:
                         self.log_manager.errors.exception(
                             "Error: Failed to handle protocol line: %r", line,
-                            extra={"room_id": self.room_id}
+                            extra={"room_id": self.last_message_room_id}
+                        )
+
+                        log_trace(
+                            self.log_manager.protocol,
+                            "%s",
+                            line,
+                            extra={"room_id": self.last_message_room_id}
                         )
 
                 self.log_manager.battle.debug(
                     "FRAME %s: rqid=%r last=%r rejected=%r",
-                    self.room_id, self.request_id,
+                    self.last_message_room_id, self.request_id,
                     self._last_request_id, self._choice_rejected,
-                    extra={"room_id": self.room_id},
+                    extra={"room_id": self.last_message_room_id},
                 )
 
                 if (
@@ -281,34 +229,34 @@ class Client:
                     self._retry_count += 1
                     self.log_manager.battle.info(
                         "RESTORE rqid=%r (retry %d) in %s",
-                        self._last_request_id, self._retry_count, self.room_id,
-                        extra={"room_id": self.room_id},
+                        self._last_request_id, self._retry_count, self.last_message_room_id,
+                        extra={"room_id": self.last_message_room_id},
                     )
                     self.request_id = self._last_request_id
 
                 if self.request_id is not None:
                     self.log_manager.battle.debug(
-                        "ACT on rqid=%r in %s", self.request_id, self.room_id,
-                        extra={"room_id": self.room_id},
+                        "ACT on rqid=%r in %s", self.request_id, self.last_message_room_id,
+                        extra={"room_id": self.last_message_room_id},
                     )
                     try:
                         await self.act()
                     except Exception:
                         self.log_manager.errors.exception(
                             "act() failed for room=%r",
-                            self.room_id,
-                            extra={"room_id": self.room_id},
+                            self.last_message_room_id,
+                            extra={"room_id": self.last_message_room_id},
                         )
                     self.request_id = None
                 else:
                     self.log_manager.battle.debug(
-                        "NO ACT in %s (rqid=None)", self.room_id,
-                        extra={"room_id": self.room_id},
+                        "NO ACT in %s (rqid=None)", self.last_message_room_id,
+                        extra={"room_id": self.last_message_room_id},
                     )
 
         except Exception:
             self.log_manager.errors.exception(
-                "Receive loop failed", extra={"room_id": self.room_id}
+                "Receive loop failed", extra={"room_id": self.last_message_room_id}
             )
             raise
         finally:
@@ -420,55 +368,12 @@ class Client:
                 extra={"room_id": room_id},
             )
 
-    def finish_battle(
-        self,
-        winner: str | None,
-    ) -> None:
-        self.cancel_action_timeout()
-
-        battle_room = self.active_battle_room
-
-        if self.battle_finished is None or self.battle_finished.done():
-            self.battle_state.reset()
-            self.request_id = None
-            self._last_request_id = None
-            self._choice_rejected = False
-            self._retry_rqid = None
-            self._retry_count = 0
-            self.battle_player_id = ""
-            self.room_id = ""
-            if battle_room is not None:
-                self.log_manager.close_room(battle_room)
-            return
-
-        duration = 0.0
-        if self.battle_started_at is not None:
-            duration = perf_counter() - self.battle_started_at
-
-        self.battle_finished.set_result(
-            BattleResult(
-                room_id=self.room_id,
-                winner=winner,
-                move_count=self.turn_count,
-                duration_seconds=duration
-            )
-        )
-
-        self.battle_state.reset()
-        self.request_id = None
-        self._last_request_id = None
-        self._choice_rejected = False
-        self._retry_rqid = None
-        self._retry_count = 0
-        self.battle_player_id = ""
-        if battle_room is not None:
-            self.log_manager.close_room(battle_room)
-
     async def wait_for_battle_end(
         self,
         timeout: float = 300,
     ) -> BattleResult:
-
+        if self.battle_room_id is None:
+            raise RuntimeError("Battle room not set")
         if self.battle_finished is not None:
             raise RuntimeError("A battle is already being tracked")
 
@@ -483,17 +388,17 @@ class Client:
                 self.battle_finished, timeout=timeout
             )
         finally:
-            if self.active_battle_room:
+            if self.battle_room_id:
                 try:
                     await asyncio.wait_for(
-                        self._leave_battle_room(self.active_battle_room),
+                        self._leave_battle_room(self.battle_room_id),
                         timeout=10
                     )
                 except TimeoutError:
                     self.log_manager.errors.error(
                         "Timed out leaving battle room %r",
-                        self.active_battle_room,
-                        extra={"room_id": self.active_battle_room},
+                        self.battle_room_id,
+                        extra={"room_id": self.battle_room_id},
                     )
 
             self.cancel_action_timeout()
@@ -508,8 +413,8 @@ class Client:
             self.battle_started_at = None
             self.turn_count = 0
 
-            if self.active_battle_room:
-                self.log_manager.close_room(self.active_battle_room)
+            if self.battle_room_id:
+                self.log_manager.close_room(self.battle_room_id)
 
     async def accept_challenge(self, challenger: str) -> None:
         await self.ensure_connected()
@@ -527,7 +432,7 @@ class Client:
         if wait_for_autorejoin:
             await asyncio.sleep(STALE_ROOM_GRACE_PERIOD)
 
-        stale_room = self.active_battle_room
+        stale_room = self.battle_room_id
         if not stale_room:
             return
 
@@ -538,5 +443,4 @@ class Client:
         )
         await self._leave_battle_room(stale_room)
 
-        self.active_battle_room = None
-        self.room_id = ""
+        self.battle_room_id = None

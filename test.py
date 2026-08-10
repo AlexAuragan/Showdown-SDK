@@ -6,7 +6,7 @@ from pathlib import Path
 from time import perf_counter
 
 from python_showdown.classes.client.client import Client
-from python_showdown.classes.combat.random import RandomMoveCombatHandler
+from python_showdown.classes.combat_handler.random import RandomMoveCombatHandler
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"

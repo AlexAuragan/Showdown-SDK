@@ -1,5 +1,6 @@
 from typing import TYPE_CHECKING
 
+from python_showdown.classes.client.battle_manager import BattleManager
 from python_showdown.classes.parser.events import BaseEvent
 from python_showdown.models.sdk.battle_state import BattleState
 
@@ -21,10 +22,10 @@ class BattleStateHandler:
         # PokemonIdent to our team or the enemy team.
         self.player_id = player_id
 
-    def apply_events(self, client: Client,  events: list[BaseEvent]) -> BattleState:
+    def apply_events(self, manager: BattleManager,  events: list[BaseEvent]) -> BattleState:
         """Build a brand new BattleState with `events` applied in order."""
 
-        battle_state = BattleState(client)
+        battle_state = BattleState(manager)
         battle_state.player_id = self.player_id
         for event in events:
             self.apply_event(battle_state, event)

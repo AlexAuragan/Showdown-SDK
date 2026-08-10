@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import TYPE_CHECKING
 
+from python_showdown.classes.client.battle_manager import BattleManager
 from python_showdown.classes.parser.events import BaseEvent
 from python_showdown.classes.parser.models import ProtocolMessage
 
@@ -25,7 +26,7 @@ class MessageManager(ABC):
     @abstractmethod
     def handle_message(
         self,
-        client: Client,
+        manager: BattleManager,
         message: ProtocolMessage,
     ) -> list[BaseEvent]:
         """Consume one protocol message and return the events it produced."""
