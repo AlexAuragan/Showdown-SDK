@@ -11,12 +11,11 @@ each event overrides ``update_client`` directly and never touches battle state.
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from python_showdown.classes.client.battle_manager import BattleManager
 from python_showdown.classes.client.dt import Format
 from python_showdown.classes.client.utils import parse_formats
-from python_showdown.classes.parser.events import BaseEvent, RoomEvent
-from python_showdown.classes.parser.exceptions import WrongRoomException
-from python_showdown.classes.parser.managers.base import MessageManager
+from python_showdown.classes.combat_handler.battle_manager import BattleManager
+from python_showdown.classes.parser.events import BaseEvent, LobbyEvent
+from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.models import ProtocolMessage
 from python_showdown.classes.parser.protocol import require_arguments
 from python_showdown.models.sdk.battle_state import BattleState
@@ -26,7 +25,7 @@ if TYPE_CHECKING:
 
 
 @dataclass(frozen=True)
-class UpdateUserEvent(BaseEvent):
+class UpdateUserEvent(LobbyEvent):
     """``|updateuser|<name>|<named>|...`` — the server confirming our identity.
 
     Sets ``client.named`` and, when the server accepted the chosen name, sets
@@ -42,6 +41,10 @@ class UpdateUserEvent(BaseEvent):
 
     def update_client(self, client: Client) -> None:
         client.named = self.named
+
+        if not self.named:
+            return
+
         expected = client.username
         if expected is None:
             raise ValueError("No client username set, please set a username with client.username")
@@ -51,7 +54,7 @@ class UpdateUserEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class NameTakenEvent(BaseEvent):
+class NameTakenEvent(LobbyEvent):
     """``|nametaken|...`` — the server rejected the requested username."""
 
     raw: str
@@ -65,7 +68,7 @@ class NameTakenEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class FormatsEvent(BaseEvent):
+class FormatsEvent(LobbyEvent):
     """``|formats|...`` — the server's format list."""
 
     formats: list[Format]
@@ -78,7 +81,7 @@ class FormatsEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class PrivateMessageEvent(BaseEvent):
+class PrivateMessageEvent(LobbyEvent):
     """``|pm|<sender>|<receiver>|<message>`` — a private message.
 
     The challenger sees their own ``/challenge`` echoed back as a PM once the
@@ -108,7 +111,7 @@ class PrivateMessageEvent(BaseEvent):
             future.set_result(format_id)
 
 
-class LobbyParser(MessageManager):
+class LobbyParser(MessageParser):
     """Handles non-battle session messages: room routing, login, formats, and challenges.
     """
 
@@ -118,8 +121,7 @@ class LobbyParser(MessageManager):
         message: ProtocolMessage,
     ) -> list[BaseEvent]:
         command = message.command
-        if command == "room":
-            return self._handle_room(manager, message)
+
         if command == "updateuser":
             return self._handle_update_user(message)
         if command == "nametaken":
@@ -128,16 +130,11 @@ class LobbyParser(MessageManager):
             return self._handle_formats(message)
         if command == "pm":
             return self._handle_pm(message)
-        return []
+        if command in ["customgroups", "challstr", "updatesearch"]:
+            return []
 
-    @staticmethod
-    def _handle_room(manager: BattleManager, message: ProtocolMessage) -> list[BaseEvent]:
-        given_room_id = message.arguments[0].strip() if message.arguments else ""
-
-        if not given_room_id:
-            raise WrongRoomException(manager.last_message_room_id, given_room_id)
-
-        return [RoomEvent(room_id=given_room_id)]
+        raise ValueError("Unhandled message", message)
+        return [] # TEMP
 
     @staticmethod
     def _handle_update_user(message: ProtocolMessage) -> list[BaseEvent]:

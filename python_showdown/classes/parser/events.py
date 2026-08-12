@@ -1,8 +1,7 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import TYPE_CHECKING, Any
+from typing import Any, TYPE_CHECKING
 
-from python_showdown.classes.client.battle_manager import BattleManager
 from python_showdown.classes.parser.models import (
     EffectSource,
     PokemonIdent,
@@ -27,7 +26,7 @@ from python_showdown.models.sdk.battle_state import BattleState
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
-
+    from python_showdown.classes.combat_handler.battle_manager import BattleManager
 
 def _ident_raw(ident: PokemonIdent) -> str:
     """Reconstruct the protocol identifier string (`p2a: Magnemite`)."""
@@ -43,8 +42,8 @@ def _ident_self_key(ident: PokemonIdent) -> str:
 
 def _is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
     if not battle_state.player_id:
-        raise ValueError("Battle State has no player_id, does Client has a player ID ? Is it initalized yet ?")
-    return bool(battle_state.player_id) and ident.player == battle_state.player_id
+        raise ValueError("Battle State has no player_id.")
+    return bool(battle_state.player_id) and (ident.player == battle_state.player_id)
 
 
 def _resolve_enemy(battle_state: BattleState, ident: PokemonIdent | None) -> EnemyPokemon | None:
@@ -82,6 +81,7 @@ def _parse_details(details: str) -> tuple[str | None, bool]:
 class BaseEvent(ABC):
     """A complete semantic event derived from one or more protocol messages."""
 
+class BattleEvent(BaseEvent):
     @abstractmethod
     def update_battle_state(self, battle_state: BattleState) -> None:
         return
@@ -89,14 +89,18 @@ class BaseEvent(ABC):
     def update_manager(self, manager: BattleManager) -> None:
         self.update_battle_state(manager.battle_state)
 
+class LobbyEvent(BaseEvent):
+    @abstractmethod
+    def update_client(self, client: Client):
+        pass
 
 def unhandled_event(message: ProtocolMessage, action_id: int | None = None) -> UnhandledEvent:
-    raise ValueError(message)
+    raise ValueError("Unhandled event:", message)
     # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)
 
 
 @dataclass(frozen=True)
-class MoveEvent(BaseEvent):
+class MoveEvent(BattleEvent):
     action_id: int
     move: str
     source: PokemonIdent
@@ -124,7 +128,7 @@ class MoveEvent(BaseEvent):
             battle_state.witness_move(self.move)
 
 @dataclass(frozen=True)
-class DamageEvent(BaseEvent):
+class DamageEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     curr_hp: int
@@ -146,7 +150,7 @@ class DamageEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class HealEvent(BaseEvent):
+class HealEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     curr_hp: int
@@ -166,7 +170,7 @@ class HealEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class MinorStatusEvent(BaseEvent):
+class MinorStatusEvent(BattleEvent):
     source: EffectSource | None
     target: PokemonIdent
     effect: MinorStatus
@@ -188,7 +192,7 @@ class MinorStatusEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class MajorStatusEvent(BaseEvent):
+class MajorStatusEvent(BattleEvent):
     source: EffectSource | None
     target: PokemonIdent
     status: MajorStatus
@@ -213,13 +217,13 @@ class MajorStatusEvent(BaseEvent):
         if enemy is None:
             return
         if self.applied:
-            enemy.status.set_status(self.status.value)
+            enemy.status.set_status(self.status)
         else:
-            enemy.status.clear_status(self.status.value)
+            enemy.status.clear_status(self.status)
 
 
 @dataclass(frozen=True)
-class MoveCopiedEvent(BaseEvent):
+class MoveCopiedEvent(BattleEvent):
     """
     Records a temporary move copy such as Mimic.
 
@@ -243,7 +247,7 @@ class MoveCopiedEvent(BaseEvent):
             enemy.disabled_moves.append("Mimic")
 
 @dataclass(frozen=True)
-class MinorStatusActivationEvent(BaseEvent):
+class MinorStatusActivationEvent(BattleEvent):
     """
     Records that an existing volatile status activated.
 
@@ -261,7 +265,7 @@ class MinorStatusActivationEvent(BaseEvent):
         return # This event is an activation of a status we already know about.
 
 @dataclass(frozen=True)
-class StatChangeEvent(BaseEvent):
+class StatChangeEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     stat_changes: list[tuple[Stat, int]]
@@ -289,7 +293,7 @@ class StatChangeEvent(BaseEvent):
             enemy.status.boost(stat, delta)
 
 @dataclass(frozen=True)
-class MovePrepareEvent(BaseEvent):
+class MovePrepareEvent(BattleEvent):
     """
     Records the preparation turn of a multi-turn move.
 
@@ -306,7 +310,7 @@ class MovePrepareEvent(BaseEvent):
             battle_state.witness_move(self.move)
 
 @dataclass(frozen=True)
-class TeamCureEvent(BaseEvent):
+class TeamCureEvent(BattleEvent):
     """
     Records all major statuses being cured on one side.
 
@@ -327,7 +331,7 @@ class TeamCureEvent(BaseEvent):
             pokemon.status.clear_all_major_status()
 
 @dataclass(frozen=True)
-class ClearAllBoostsEvent(BaseEvent):
+class ClearAllBoostsEvent(BattleEvent):
     """
     Resets all active Pokémon's stat stages to zero.
     """
@@ -341,7 +345,7 @@ class ClearAllBoostsEvent(BaseEvent):
             pokemon.status.reset_all_stages()
 
 @dataclass(frozen=True)
-class ClearNegativeBostsEvent(BaseEvent):
+class ClearNegativeBostsEvent(BattleEvent):
     """
     Resests all active Pokémon's négative stat changes to zéro
     """
@@ -359,7 +363,7 @@ class ClearNegativeBostsEvent(BaseEvent):
                     setattr(pokemon.status, attr, 0)
 
 @dataclass(frozen=True)
-class SetHpEvent(BaseEvent):
+class SetHpEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     curr_hp: int
@@ -378,7 +382,7 @@ class SetHpEvent(BaseEvent):
             own.curr_hp = self.curr_hp
 
 @dataclass(frozen=True)
-class SideConditionEvent(BaseEvent):
+class SideConditionEvent(BattleEvent):
     """
     Records a side-wide condition starting or ending.
 
@@ -414,7 +418,7 @@ class SideConditionEvent(BaseEvent):
                     conds.pop(self.condition)
 
 @dataclass(frozen=True)
-class PokemonSwitchEvent(BaseEvent):
+class PokemonSwitchEvent(BattleEvent):
     pokemon: PokemonIdent
     details: str
     level: int | None
@@ -440,7 +444,7 @@ class PokemonSwitchEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class TransformEvent(BaseEvent):
+class TransformEvent(BattleEvent):
     """
     Records one Pokémon transforming into another.
 
@@ -467,7 +471,7 @@ class TransformEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class AbilityEvent(BaseEvent):
+class AbilityEvent(BattleEvent):
     pokemon: PokemonIdent
     ability: str
     active: bool = True
@@ -481,7 +485,7 @@ class AbilityEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class StatSetEvent(BaseEvent):
+class StatSetEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     stat: Stat
@@ -495,7 +499,7 @@ class StatSetEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class MoveActivationEvent(BaseEvent):
+class MoveActivationEvent(BattleEvent):
     """
     Records a move-related activation that is not itself a normal |move| line.
 
@@ -511,7 +515,7 @@ class MoveActivationEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class ItemEvent(BaseEvent):
+class ItemEvent(BattleEvent):
     """
     Records a Pokémon gaining, revealing, losing, or transferring an item.
 
@@ -552,7 +556,7 @@ class ItemEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class CantEvent(BaseEvent):
+class CantEvent(BattleEvent):
     pokemon: PokemonIdent
     reason: str
     move: str | None = None
@@ -569,7 +573,7 @@ class CantEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class DecisionRequestEvent(BaseEvent):
+class DecisionRequestEvent(BattleEvent):
     player_id: str
     request_id: int | None
     wait: bool
@@ -600,7 +604,8 @@ class DecisionRequestEvent(BaseEvent):
                 ))
             else:
                 for raw_move in active_moves:
-                    if any(key not in ["move", "id", "pp", "maxpp", "target", "disabled"] for key in raw_move.keys()):
+                    if any(key not in ["move", "id", "pp", "maxpp", "target",
+                        "disabled"] for key in raw_move):
                         raise ValueError(f"key not implemented in {raw_move}")
                     available_moves.append(AvailableMove(
                         name=raw_move["move"],
@@ -612,7 +617,8 @@ class DecisionRequestEvent(BaseEvent):
                     ))
 
         for raw_pkmn in data["side"]["pokemon"]:
-            if any(key not in ["condition", "ident", "stats", "details", "active", "moves", "item", "pokeball", "baseAbility"] for key in raw_pkmn.keys()):
+            if any(key not in ["condition", "ident", "stats", "details",
+                "active", "moves", "item", "pokeball", "baseAbility"] for key in raw_pkmn):
                 raise ValueError(f"key not parsed in {raw_pkmn}")
             status = Status()
             cond = raw_pkmn["condition"]
@@ -674,10 +680,7 @@ class DecisionRequestEvent(BaseEvent):
         battle_state.force_switch = force_switch
 
     def update_manager(self, manager: BattleManager) -> None:
-        # Rebuild our side's snapshot on the client's battle state, then arm the
-        # pending decision. ``wait`` requests carry no actionable rqid (mirrors
-        # the legacy parser, which nulled rqid when ``wait`` was set), so the
-        # receive loop's ``if request_id is not None: await act()`` won't fire.
+        # Update the battle state and manage request id and retry mechanic.
         self.update_battle_state(manager.battle_state)
         new_id = None if self.wait else self.request_id
         manager.log_manager.battle.debug(
@@ -695,7 +698,7 @@ class DecisionRequestEvent(BaseEvent):
             manager.last_request_id = None
 
 @dataclass(frozen=True)
-class PerishCountEvent(BaseEvent):
+class PerishCountEvent(BattleEvent):
     source: EffectSource | None
     target: PokemonIdent
     count: int
@@ -709,7 +712,7 @@ class PerishCountEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class TurnEvent(BaseEvent):
+class TurnEvent(BattleEvent):
     turn: int
 
     def update_battle_state(self, battle_state: BattleState) -> None:
@@ -721,7 +724,7 @@ class TurnEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class WeatherEvent(BaseEvent):
+class WeatherEvent(BattleEvent):
     weather: Weather
     started: bool
     upkeep: bool
@@ -737,7 +740,7 @@ class WeatherEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class BattleEndEvent(BaseEvent):
+class BattleEndEvent(BattleEvent):
     winner: str | None
     room_id: str
 
@@ -746,71 +749,55 @@ class BattleEndEvent(BaseEvent):
 
     def update_manager(self, manager: BattleManager) -> None:
         # Only end the battle we're actively driving.
-        if manager.battle_room_id == self.room_id:
+        if manager.room_id == self.room_id:
             manager.finish_battle(self.winner)
 
 
 @dataclass(frozen=True)
-class RoomEvent(BaseEvent):
+class RoomEvent(BattleEvent):
     """``>roomid`` — the following messages belong to this room.
-
-    Sets ``client.battle_room_id`` so subsequent events (notably ``BattleStartEvent``)
-    know which room they apply to. Mirrors the legacy parser, which set the
-    client's room id from the ``>`` line before dispatching any battle/lobby
-    handler.
     """
+    room_id: str | None
 
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
+    def update_manager(self, manager: BattleManager) -> None:
+        if not manager.room_id:
+            manager.room_id = self.room_id
+            manager.room_ready.set()
+
+        if manager.room_id != self.room_id:
+            raise RuntimeError("Room id changed during battle", manager.room_id, self.room_id)
+
+@dataclass(frozen=True)
+class BattleStartEvent(BattleEvent):
+    """``|init|battle`` — the server opening a new battle room.
+    """
     room_id: str
-
     def update_battle_state(self, battle_state: BattleState) -> None:
         return
 
     def update_manager(self, manager: BattleManager) -> None:
         manager.room_id = self.room_id
+        manager.room_ready.set()
 
-
-@dataclass(frozen=True)
-class BattleStartEvent(BaseEvent):
-    """``|init|battle`` — the server opening a new battle room.
-
-    In live mode the parser may serve many battles over one connection, so this
-    event resets the client's per-battle state so the previous battle's residue
-    (active room, request id, side id) cannot leak into the new one. The parser's
-    own accumulated state is reset separately in ``BattleParser``.
-    """
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-    def update_manager(self, manager: BattleManager) -> None:
-        manager.room_id = manager.room_id
         manager.battle_state.reset()
         manager.request_id = None
         manager.player_id = ""
 
 
 @dataclass(frozen=True)
-class PlayerEvent(BaseEvent):
+class PlayerEvent(BattleEvent):
     """``|player|<slot>|<name>|...`` — a side announcement.
-
-    Learns our own side id by matching the announced name against the logged-in
-    ``client.username`` (mirrors the legacy ``_handle_player``). Only the side
-    we are playing is recorded as ``battle_player_id``; the opponent's
-    ``|player|`` line is ignored.
     """
-
     slot: str
     name: str
 
     def update_battle_state(self, battle_state: BattleState) -> None:
         return # This event only update the client, not the battle state
-        # TODO, maybe the player_id should be stored by the battle state instead of the client
-        # this would be cleaner for parallel battle
 
     def update_manager(self, manager: BattleManager) -> None:
-        # if client.username is None:
-        #     raise ValueError("Client username not set")
-
         # If the client has no username, it picks the first player of the battle
         # TODO check if it's true that the first player is the POV player
         if manager.player_username is None:
@@ -821,7 +808,7 @@ class PlayerEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class UnhandledEvent(BaseEvent):
+class UnhandledEvent(BattleEvent):
     """A valid protocol message whose semantic reducer is not implemented yet."""
 
     command: str
@@ -861,11 +848,11 @@ class SingleMoveEvent(BaseEvent):
     move: str
 
     def update_battle_state(self, battle_state: BattleState) -> None:
-        self.pokemon
+        # This is an event, not a discovery
         return
 
 @dataclass(frozen=True)
-class TypeChangeEvent(BaseEvent):
+class TypeChangeEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     types: tuple[str, ...]
@@ -877,7 +864,7 @@ class TypeChangeEvent(BaseEvent):
 
 
 @dataclass(frozen=True)
-class FormeChangeEvent(BaseEvent):
+class FormeChangeEvent(BattleEvent):
     """
     Records a Pokémon changing to a different forme.
 
@@ -895,7 +882,7 @@ class FormeChangeEvent(BaseEvent):
             enemy.forme = self.forme
 
 @dataclass(frozen=True)
-class DesyncEvent(BaseEvent):
+class DesyncEvent(BattleEvent):
     """
     Records when Gen 1 battle get a desync
 

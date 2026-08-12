@@ -5,12 +5,9 @@ from python_showdown.classes.parser.models import ProtocolAnnotation, ProtocolMe
 
 IGNORED_COMMANDS = {
     "",
-    "init",
     "title",
-    "room",
     "J",
     "L",
-    "pm",
     "t:",
     "gametype",
     "gen",

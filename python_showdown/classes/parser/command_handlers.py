@@ -21,6 +21,7 @@ from python_showdown.classes.parser.events import (
     MoveEvent,
     PlayerEvent,
     PokemonSwitchEvent,
+    RoomEvent,
     TurnEvent,
     unhandled_event,
 )
@@ -110,9 +111,19 @@ def handle_battle_end(player_id: str, message: ProtocolMessage, room_id: str) ->
 
 
 def handle_player(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
+    """
+    |player|p2| <- ignore this one
+    |player|p1|BOT5|266|
+    |player|p2|BOT6|102|
+    |player|p1| <- ignore this one
+
+    """
     require_arguments(message, 2)
+
     slot = message.arguments[0].strip()
     name = message.arguments[1].strip()
+    if not name:
+        return [] # ignore messages like '|player|p1|'
     return [PlayerEvent(slot=slot, name=name)]
 
 def handle_error(player_id: str, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
@@ -121,6 +132,12 @@ def handle_error(player_id: str, message: ProtocolMessage, room_id: str) -> list
     if "too late to make a different move" in content:
         raise ObsoleteRequestIdError()
     raise InvalidActionError(message=content, category=category)
+
+def handle_room(player_id: str | None, message: ProtocolMessage, room_id: str) -> list[BaseEvent]:
+    given_room_id = message.arguments[0].strip() if message.arguments else ""
+    if room_id and room_id != given_room_id:
+        raise RuntimeError("Got a message room_id meant from another room", )
+    return [RoomEvent(room_id=given_room_id)]
 
 COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "switch": handle_switch,
@@ -133,6 +150,7 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "tie": handle_battle_end,
     "player": handle_player,
     "error": handle_error,
+    "room": handle_room,
 }
 
 

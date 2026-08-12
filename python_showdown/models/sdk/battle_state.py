@@ -8,7 +8,7 @@ from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, U
 from python_showdown.models.pokemon.terrain import SideCondition
 
 if TYPE_CHECKING:
-    from python_showdown.classes.client.battle_manager import BattleManager
+    from python_showdown.classes.combat_handler.battle_manager import BattleManager
 
 class SourceType(str, Enum):
     MOVE = "move"
@@ -117,7 +117,6 @@ class BattleState:
 
     def reset(self) -> None:
         """Clear all tracked state so the same handler can drive a new battle."""
-        self.player_id = ""
         self._team = []
         self._enemy_team = [EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)]
         self._curr_pokemon = ""
@@ -125,6 +124,7 @@ class BattleState:
         self._available_moves = []
         self.force_switch = False
         self.side_conditions = {}
+        self._manager.clear_player_id()
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
         self._available_moves = moves

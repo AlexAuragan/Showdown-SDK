@@ -9,7 +9,7 @@ manager based on the message's command.
 - :class:`LobbyParser` — session messages (login, formats, challenges).
 """
 
-from python_showdown.classes.parser.managers.base import MessageManager
+from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.managers.battle import BattleParser, ParseResult
 from python_showdown.classes.parser.managers.lobby import (
     FormatsEvent,
@@ -20,7 +20,7 @@ from python_showdown.classes.parser.managers.lobby import (
 )
 
 __all__ = [
-    "MessageManager",
+    "MessageParser",
     "BattleParser",
     "LobbyParser",
     "ParseResult",

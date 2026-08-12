@@ -1,11 +1,6 @@
-from typing import TYPE_CHECKING
-
-from python_showdown.classes.client.battle_manager import BattleManager
+from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import BaseEvent
 from python_showdown.models.sdk.battle_state import BattleState
-
-if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
 
 
 class BattleStateHandler:
@@ -31,6 +26,7 @@ class BattleStateHandler:
             self.apply_event(battle_state, event)
         return battle_state
 
-    def apply_event(self, battle_state: BattleState, event: BaseEvent) -> None:
+    @staticmethod
+    def apply_event(battle_state: BattleState, event: BaseEvent) -> None:
         """Apply a single event onto an existing BattleState."""
         event.update_battle_state(battle_state)

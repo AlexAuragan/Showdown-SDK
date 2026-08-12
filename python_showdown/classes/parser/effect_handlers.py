@@ -782,9 +782,7 @@ def _parse_hint(message: ProtocolMessage, context: EffectParseContext) -> list[B
         )
     ]:
         return [DiscardedEvent(command=message.command, reason="Unhandled hint: " + message.arguments[0])]
-    raise ValueError(message.raw)
-    print(message.raw)
-    return [DiscardedEvent(command=message.command, reason="Unhandled hint")]
+    return [UnhandledEvent.from_message(message)]
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-damage": _parse_damage,

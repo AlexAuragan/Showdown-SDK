@@ -1,15 +1,11 @@
 from abc import ABC, abstractmethod
-from typing import TYPE_CHECKING
 
-from python_showdown.classes.client.battle_manager import BattleManager
+from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import BaseEvent
 from python_showdown.classes.parser.models import ProtocolMessage
 
-if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
 
-
-class MessageManager(ABC):
+class MessageParser(ABC):
     """A scoped handler for a subset of Pokémon Showdown protocol messages.
 
     The top-level :class:`Parser` is an aggregator: it routes each incoming

@@ -6,7 +6,7 @@ from python_showdown.classes.parser.protocol import has_annotation
 
 
 def pokemon_key(pokemon: PokemonIdent) -> tuple[str, str | None]:
-    return (pokemon.player, pokemon.slot)
+    return pokemon.player, pokemon.slot
 
 
 def register_ability_start(

@@ -2,7 +2,7 @@
 
 The parser is an *aggregator*: it does not interpret protocol messages itself.
 Instead it routes each incoming :class:`ProtocolMessage` to the scoped
-:class:`MessageManager` responsible for it (battle vs. lobby, with room for an
+:class:`MessageParser` responsible for it (battle vs. lobby, with room for an
 error/choice-retry manager later) and then applies the resulting events onto
 the client.
 
@@ -13,13 +13,14 @@ from collections import Counter
 from pprint import pprint
 from typing import TYPE_CHECKING
 
-from python_showdown.classes.client.battle_manager import BattleManager
+from python_showdown.classes.combat_handler.battle_manager import BattleManager
+from python_showdown.classes.parser.events import UnhandledEvent, BattleEvent, LobbyEvent
 from python_showdown.classes.parser import BaseEvent
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
-from python_showdown.classes.parser.managers.base import MessageManager
+from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.managers.battle import BattleParser
 from python_showdown.classes.parser.managers.lobby import LobbyParser
 from python_showdown.classes.parser.models import ProtocolMessage
@@ -28,26 +29,31 @@ from python_showdown.classes.parser.protocol import (
     parse_protocol_message,
 )
 
+
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
 
 
-_LOBBY_COMMANDS = frozenset({"updateuser", "nametaken", "formats", "pm", "room"})
+_LOBBY_COMMANDS = frozenset({"updateuser", "nametaken", "formats", "pm", "customgroups", "challstr", "updatesearch"})
 
 
 class Parser:
     """Aggregate raw protocol messages by routing them to scoped managers.
-
-    Holds one :class:`BattleParser` and one :class:`LobbyParser` for the
-    lifetime of the owning client. Each incoming line is normalized to a
-    :class:`ProtocolMessage`, dispatched to the matching manager, and the
-    produced events are applied onto the client via ``event.update_client``.
     """
 
-    def __init__(self, manager: BattleManager) -> None:
+    def __init__(self, manager: BattleManager, client: Client) -> None:
         self.manager = manager
+        self.client = client
         self.battle = BattleParser(manager)
         self.lobby = LobbyParser()
+
+    @property
+    def last_message_room_id(self) -> str:
+        return self.battle.last_message_room_id
+
+    @last_message_room_id.setter
+    def last_message_room_id(self, value: str):
+        self.battle.last_message_room_id = value
 
     def handle_line(
         self,
@@ -63,23 +69,33 @@ class Parser:
         """
         protocol_line = extract_protocol_line(line, has_log_timestamp=has_log_timestamp)
         message = parse_protocol_message(protocol_line)
-        manager = self._manager_for(message)
+        parser = self._manager_for(message)
+
+        if message.command == "room":
+            room_id = message.arguments[0].strip()
+            if not room_id:
+                raise RuntimeError(f"Receive empty room id from protocol line: {line!r}")
+            self.last_message_room_id = room_id
 
         if (
-            manager is self.battle
+            parser is self.battle
             and message.command != "init"
             and self.manager.room_id
             and self.manager.room_id != self.last_message_room_id
         ):
-                return []
+            return []
 
-        events = manager.handle_message(self.manager, message)
+        events = parser.handle_message(self.manager, message)
 
         for event in events:
-            event.update_manager(self.manager)
+            if isinstance(event, BattleEvent):
+                event.update_manager(self.manager)
+            elif isinstance(event, LobbyEvent):
+                event.update_client(self.client)
+
         return events
 
-    def _manager_for(self, message: ProtocolMessage) -> MessageManager:
+    def _manager_for(self, message: ProtocolMessage) -> MessageParser:
         if message.command in _LOBBY_COMMANDS:
             return self.lobby
         return self.battle
@@ -107,19 +123,12 @@ class Parser:
 
     @property
     def battle_state(self):
-        return self.client.battle_state
+        return self.client.battle_manager.battle_state
 
     @property
     def player_id(self) -> str:
-        return self.client.player_id
+        return self.manager.player_id
 
-    @property
-    def last_message_room_id(self) -> str:
-        return self.battle.last_message_room_id
-
-    @last_message_room_id.setter
-    def last_message_room_id(self, value: str) -> None:
-        self.battle.last_message_room_id = value
 
 
 if __name__ == "__main__":
@@ -127,8 +136,8 @@ if __name__ == "__main__":
     from python_showdown.classes.parser.exceptions import ParserException
     for path in ["gen1randombattle", "gen2randombattle", "gen3randombattle", "gen4randombattle"]:
 
-        for filename in os.listdir(f"logs/{path}/raw"):
-            log_path = f"logs/{path}/raw/" + filename
+        for filename in os.listdir(f"logs_odd/{path}/raw"):
+            log_path = f"logs_odd/{path}/raw/" + filename
             room_id = os.path.splitext(filename)[0]
             print(log_path)
             client = Client("ws://192.168.1.154:8000/showdown/websocket")
@@ -170,12 +179,7 @@ if __name__ == "__main__":
                 for event in parser.history
             )
 
-            # print(
-            #    f"Parsed {len(parser.raw_history)} protocol messages "
-            #    f"into {len(parser.history)} semantic events."
-            # )
-            # print(f"Pending messages: {len(parser.pending_messages)}")
-            from python_showdown.classes.parser.events import UnhandledEvent
+
             unhandled_events = [
                 event
                 for event in parser.history

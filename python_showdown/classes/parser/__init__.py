@@ -81,7 +81,7 @@ from python_showdown.classes.parser.fields import (
     parse_pokemon_ident,
     parse_side_ident,
 )
-from python_showdown.classes.parser.managers.base import MessageManager
+from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.managers.battle import BattleParser, ParseResult
 from python_showdown.classes.parser.managers.lobby import (
     FormatsEvent,
@@ -111,23 +111,28 @@ __all__ = [
     # Entry point
     "Parser",
     "ParseResult",
+
     # Managers
-    "MessageManager",
+    "MessageParser",
     "BattleParser",
     "LobbyParser",
+
     # Lobby events
     "UpdateUserEvent",
     "NameTakenEvent",
     "FormatsEvent",
     "PrivateMessageEvent",
+
     # Exceptions
     "ParserException",
     "WrongRoomException",
+
     # Meta models
     "ProtocolAnnotation",
     "ProtocolMessage",
     "PokemonIdent",
     "EffectSource",
+
     # Events
     "BaseEvent",
     "MoveEvent",
@@ -160,11 +165,11 @@ __all__ = [
     "PlayerEvent",
     "UnhandledEvent",
     "DiscardedEvent",
-    "FieldActivationEvent",
     "SingleMoveEvent",
     "TypeChangeEvent",
     "FormeChangeEvent",
     "unhandled_event",
+
     # Context
     "ProtocolContext",
     "ParsedCondition",
@@ -174,6 +179,7 @@ __all__ = [
     "EffectHandler",
     "EffectPredicate",
     "EffectRule",
+
     # Protocol helpers
     "parse_protocol_message",
     "extract_protocol_line",
@@ -182,6 +188,7 @@ __all__ = [
     "is_ignored_message",
     "is_move_boundary",
     "require_arguments",
+
     # Field parsers
     "parse_pokemon_ident",
     "parse_condition",
@@ -191,6 +198,7 @@ __all__ = [
     "parse_side_ident",
     "parse_effect_source",
     "make_move_source",
+
     # Command handlers
     "CommandHandler",
     "COMMAND_HANDLERS",
@@ -201,8 +209,10 @@ __all__ = [
     "handle_battle_end",
     "parse_move_group",
     "parse_standalone_effect",
+
     # Ability state
     "update_protocol_context",
+
     # Battle state
     "BattleStateHandler",
 ]

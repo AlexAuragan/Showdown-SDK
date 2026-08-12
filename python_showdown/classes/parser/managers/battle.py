@@ -10,9 +10,8 @@ This is the battle manager: it only sees messages the aggregator routes to it
 """
 
 from dataclasses import dataclass
-from typing import TYPE_CHECKING
 
-from python_showdown.classes.client.battle_manager import BattleManager
+from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.ability_state import (
     ProtocolContext,
     update_protocol_context,
@@ -21,6 +20,7 @@ from python_showdown.classes.parser.battle_state_handler import BattleStateHandl
 from python_showdown.classes.parser.command_handlers import (
     COMMAND_HANDLERS,
     handle_request,
+    handle_room,
     parse_move_group,
     parse_standalone_effect,
 )
@@ -30,7 +30,7 @@ from python_showdown.classes.parser.events import (
     ProtocolMessage,
     unhandled_event,
 )
-from python_showdown.classes.parser.managers.base import MessageManager
+from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.protocol import (
     extract_protocol_line,
     is_ignored_message,
@@ -38,9 +38,6 @@ from python_showdown.classes.parser.protocol import (
     parse_protocol_message,
 )
 from python_showdown.models.sdk.battle_state import BattleState
-
-if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
 
 
 @dataclass(frozen=True)
@@ -53,7 +50,7 @@ class ParseResult:
             raise ValueError("ParseResult must consume at least one message")
 
 
-class BattleParser(MessageManager):
+class BattleParser(MessageParser):
     """Aggregate raw battle protocol messages into complete semantic events."""
 
     def __init__(self, manager: BattleManager) -> None:
@@ -64,7 +61,6 @@ class BattleParser(MessageManager):
         self.input_finished = False
         self.protocol_context = ProtocolContext()
         self.battle_state_handler = BattleStateHandler()
-        self.battle_state: BattleState = self.battle_state_handler.apply_events(manager, [])
         self._manager = manager
         self._last_message_room_id: str = ""
 
@@ -77,11 +73,15 @@ class BattleParser(MessageManager):
         self._manager.player_id = value
 
     @property
+    def battle_state(self) -> BattleState:
+        return self._manager.battle_state
+
+    @property
     def last_message_room_id(self) -> str:
         return self._last_message_room_id
 
     @last_message_room_id.setter
-    def room_id(self, value: str) -> None:
+    def last_message_room_id(self, value: str) -> None:
         self._last_message_room_id = value
 
     @property
@@ -125,11 +125,14 @@ class BattleParser(MessageManager):
             raise RuntimeError("Cannot feed lines after finish()")
         if message.command == "init" and self.history:
             self.reset()
-        if self.player_id is None:
+        if self.player_id is None and message.command not in {"room", "init"}:
             raise ValueError("player_id not set")
 
         self.raw_history.append(message)
         if message.command == "request":
+            if self.player_id is None:
+                raise RuntimeError("player_id not set")
+
             # On request, consume everything, just in case of server error
             request_events = handle_request(self.player_id, message, self._last_message_room_id)
             self.next_unparsed_message = len(self.raw_history)
@@ -154,8 +157,8 @@ class BattleParser(MessageManager):
         self.input_finished = False
         self.protocol_context = ProtocolContext()
         self.battle_state_handler = BattleStateHandler()
-        self.battle_state = self.battle_state_handler.apply_events(self._client, [])
-        self.player_id = ""
+        self._manager.battle_state.reset()
+        self._manager._player_id = ""
 
     def finish(self, player_id: str) -> list[BaseEvent]:
         if self.input_finished:
@@ -163,20 +166,29 @@ class BattleParser(MessageManager):
         self.input_finished = True
         if player_id:
             self.player_id = player_id
+
+        if self.player_id is None:
+            raise RuntimeError("player_id not set")
+
         events = self._parse_available_events(self.player_id)
         if self.next_unparsed_message != len(self.raw_history):
             pending = "\n".join(message.raw for message in self.pending_messages)
             raise RuntimeError(f"Input ended with an incomplete group:\n{pending}")
         return events
 
-    def parse_next(self, player_id: str) -> ParseResult | None:
+    def parse_next(self, player_id: str | None) -> ParseResult | None:
         start = self.next_unparsed_message
         if start >= len(self.raw_history):
             return None
         message = self.raw_history[start]
 
         if message.command == "init":
-            return ParseResult((BattleStartEvent(),), 1)
+            return ParseResult((BattleStartEvent(self.last_message_room_id),), 1)
+        if message.command == "room":
+            return ParseResult(tuple(handle_room(player_id, message, self._last_message_room_id)), 1)
+
+        if player_id is None:
+            raise RuntimeError("player_id not set")
 
         if is_ignored_message(message):
             return ParseResult((), 1)
@@ -193,7 +205,7 @@ class BattleParser(MessageManager):
         # raise ValueError(message.raw)
         return ParseResult((unhandled_event(message),), 1)
 
-    def _parse_available_events(self, player_id: str) -> list[BaseEvent]:
+    def _parse_available_events(self, player_id: str | None) -> list[BaseEvent]:
         completed: list[BaseEvent] = []
         while self.next_unparsed_message < len(self.raw_history):
             start = self.next_unparsed_message
