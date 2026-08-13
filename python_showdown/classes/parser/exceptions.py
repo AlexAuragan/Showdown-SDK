@@ -1,6 +1,5 @@
 class ParserException(Exception):
     """General Parser excepitons"""
-    pass
 
 class WrongRoomException(ParserException):
     """When the parser got a message meant for another room"""

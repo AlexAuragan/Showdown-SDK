@@ -1,19 +1,14 @@
-from abc import ABC, abstractmethod
-from dataclasses import dataclass
-from typing import Any, TYPE_CHECKING
 
-from python_showdown.classes.parser.models import (
-    EffectSource,
-    PokemonIdent,
-    ProtocolAnnotation,
-    ProtocolMessage,
-)
+
+from abc import abstractmethod
+from dataclasses import dataclass
+from typing import Any
+
+from python_showdown.classes.combat_handler.battle_manager import BattleManager
+from python_showdown.classes.parser.events.base import BaseEvent
+from python_showdown.classes.parser.models import EffectSource, PokemonIdent
 from python_showdown.models.pokemon.moves import AvailableMove
-from python_showdown.models.pokemon.pokemon import (
-    EnemyPokemon,
-    PartyPokemon,
-    Unknown,
-)
+from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
 from python_showdown.models.pokemon.status import (
     MajorStatus,
     MinorStatus,
@@ -24,9 +19,6 @@ from python_showdown.models.pokemon.status import (
 from python_showdown.models.pokemon.terrain import SideCondition, Weather
 from python_showdown.models.sdk.battle_state import BattleState
 
-if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
-    from python_showdown.classes.combat_handler.battle_manager import BattleManager
 
 def _ident_raw(ident: PokemonIdent) -> str:
     """Reconstruct the protocol identifier string (`p2a: Magnemite`)."""
@@ -76,11 +68,6 @@ def _parse_details(details: str) -> tuple[str | None, bool]:
     return gender, shiny
 
 
-
-
-class BaseEvent(ABC):
-    """A complete semantic event derived from one or more protocol messages."""
-
 class BattleEvent(BaseEvent):
     @abstractmethod
     def update_battle_state(self, battle_state: BattleState) -> None:
@@ -88,15 +75,6 @@ class BattleEvent(BaseEvent):
 
     def update_manager(self, manager: BattleManager) -> None:
         self.update_battle_state(manager.battle_state)
-
-class LobbyEvent(BaseEvent):
-    @abstractmethod
-    def update_client(self, client: Client):
-        pass
-
-def unhandled_event(message: ProtocolMessage, action_id: int | None = None) -> UnhandledEvent:
-    raise ValueError("Unhandled event:", message)
-    # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)
 
 
 @dataclass(frozen=True)
@@ -573,6 +551,172 @@ class CantEvent(BattleEvent):
 
 
 @dataclass(frozen=True)
+class PerishCountEvent(BattleEvent):
+    source: EffectSource | None
+    target: PokemonIdent
+    count: int
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        enemy = _resolve_enemy(battle_state, self.target)
+        if enemy is None:
+            return
+        enemy.status.perish_count = self.count
+        enemy.status.add_minor(MinorStatus.PERISH_SONG)
+
+
+@dataclass(frozen=True)
+class TurnEvent(BattleEvent):
+    turn: int
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
+    def update_manager(self, manager: BattleManager) -> None:
+        manager.turn = self.turn
+
+
+
+@dataclass(frozen=True)
+class WeatherEvent(BattleEvent):
+    weather: Weather
+    started: bool
+    upkeep: bool
+    source: EffectSource | None = None
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        # `started` is False for `|-weather|none` (weather cleared). Upkeep is
+        # an ongoing-weather marker and carries no state change of its own.
+        if not self.started:
+            battle_state.weather = None
+        else:
+            battle_state.weather = self.weather.value
+
+
+@dataclass(frozen=True)
+class BattleEndEvent(BattleEvent):
+    winner: str | None
+    room_id: str
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
+    def update_manager(self, manager: BattleManager) -> None:
+        # Only end the battle we're actively driving.
+        if manager.room_id == self.room_id:
+            manager.finish_battle(self.winner)
+
+
+@dataclass(frozen=True)
+class RoomEvent(BattleEvent):
+    """``>roomid`` — the following messages belong to this room.
+    """
+    room_id: str | None
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
+    def update_manager(self, manager: BattleManager) -> None:
+        if not manager.room_id:
+            manager.room_id = self.room_id
+            manager.room_ready.set()
+
+        if manager.room_id != self.room_id:
+            raise RuntimeError("Room id changed during battle", manager.room_id, self.room_id)
+
+@dataclass(frozen=True)
+class BattleStartEvent(BattleEvent):
+    """``|init|battle`` — the server opening a new battle room.
+    """
+    room_id: str
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
+    def update_manager(self, manager: BattleManager) -> None:
+        manager.room_id = self.room_id
+        manager.room_ready.set()
+
+        manager.battle_state.reset()
+        manager.request_id = None
+        manager.player_id = ""
+
+
+@dataclass(frozen=True)
+class PlayerEvent(BattleEvent):
+    """``|player|<slot>|<name>|...`` — a side announcement.
+    """
+    slot: str
+    name: str
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return # This event only update the client, not the battle state
+
+    def update_manager(self, manager: BattleManager) -> None:
+        # If the client has no username, it picks the first player of the battle
+        # TODO check if it's true that the first player is the POV player
+        if manager.player_username is None:
+            manager.player_username = self.name
+
+        if self.name == manager.player_username:
+            manager.player_id = self.slot
+
+@dataclass(frozen=True)
+class SingleMoveEvent(BaseEvent):
+    source: EffectSource | None
+    pokemon: PokemonIdent
+    move: str
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        # This is an event, not a discovery
+        return
+
+@dataclass(frozen=True)
+class TypeChangeEvent(BattleEvent):
+    source: EffectSource
+    target: PokemonIdent
+    types: tuple[str, ...]
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        enemy = _resolve_enemy(battle_state, self.target)
+        if enemy is not None:
+            enemy.status.add_minor(MinorStatus.TYPECHANGE)
+
+
+@dataclass(frozen=True)
+class FormeChangeEvent(BattleEvent):
+    """
+    Records a Pokémon changing to a different forme.
+
+    Example:
+        |-formechange|p1a: Cherrim|Cherrim-Sunshine
+    """
+
+    source: EffectSource
+    pokemon: PokemonIdent
+    forme: str
+
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        enemy = _resolve_enemy(battle_state, self.pokemon)
+        if enemy is not None:
+            enemy.forme = self.forme
+
+@dataclass(frozen=True)
+class DesyncEvent(BattleEvent):
+    """
+    Records when Gen 1 battle get a desync
+
+    Example:
+         |-hint|Desync Clause Mod activated!
+         |-hint|In Gen 1, if both players would see the same Pokémon
+         using different moves, the Pokemon defaults to the move shown
+         from the perspective of the player controlling that Pokémon.
+    """
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        battle_state.gen_1_desync = True
+
+
+
+
+@dataclass(frozen=True)
 class DecisionRequestEvent(BattleEvent):
     player_id: str
     request_id: int | None
@@ -696,201 +840,3 @@ class DecisionRequestEvent(BattleEvent):
         manager.retry_count = 0
         if not self.wait:
             manager.last_request_id = None
-
-@dataclass(frozen=True)
-class PerishCountEvent(BattleEvent):
-    source: EffectSource | None
-    target: PokemonIdent
-    count: int
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
-        enemy.status.perish_count = self.count
-        enemy.status.add_minor(MinorStatus.PERISH_SONG)
-
-
-@dataclass(frozen=True)
-class TurnEvent(BattleEvent):
-    turn: int
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-    def update_manager(self, manager: BattleManager) -> None:
-        manager.turn = self.turn
-
-
-
-@dataclass(frozen=True)
-class WeatherEvent(BattleEvent):
-    weather: Weather
-    started: bool
-    upkeep: bool
-    source: EffectSource | None = None
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        # `started` is False for `|-weather|none` (weather cleared). Upkeep is
-        # an ongoing-weather marker and carries no state change of its own.
-        if not self.started:
-            battle_state.weather = None
-        else:
-            battle_state.weather = self.weather.value
-
-
-@dataclass(frozen=True)
-class BattleEndEvent(BattleEvent):
-    winner: str | None
-    room_id: str
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-    def update_manager(self, manager: BattleManager) -> None:
-        # Only end the battle we're actively driving.
-        if manager.room_id == self.room_id:
-            manager.finish_battle(self.winner)
-
-
-@dataclass(frozen=True)
-class RoomEvent(BattleEvent):
-    """``>roomid`` — the following messages belong to this room.
-    """
-    room_id: str | None
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-    def update_manager(self, manager: BattleManager) -> None:
-        if not manager.room_id:
-            manager.room_id = self.room_id
-            manager.room_ready.set()
-
-        if manager.room_id != self.room_id:
-            raise RuntimeError("Room id changed during battle", manager.room_id, self.room_id)
-
-@dataclass(frozen=True)
-class BattleStartEvent(BattleEvent):
-    """``|init|battle`` — the server opening a new battle room.
-    """
-    room_id: str
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-    def update_manager(self, manager: BattleManager) -> None:
-        manager.room_id = self.room_id
-        manager.room_ready.set()
-
-        manager.battle_state.reset()
-        manager.request_id = None
-        manager.player_id = ""
-
-
-@dataclass(frozen=True)
-class PlayerEvent(BattleEvent):
-    """``|player|<slot>|<name>|...`` — a side announcement.
-    """
-    slot: str
-    name: str
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return # This event only update the client, not the battle state
-
-    def update_manager(self, manager: BattleManager) -> None:
-        # If the client has no username, it picks the first player of the battle
-        # TODO check if it's true that the first player is the POV player
-        if manager.player_username is None:
-            manager.player_username = self.name
-
-        if self.name == manager.player_username:
-            manager.player_id = self.slot
-
-
-@dataclass(frozen=True)
-class UnhandledEvent(BattleEvent):
-    """A valid protocol message whose semantic reducer is not implemented yet."""
-
-    command: str
-    arguments: tuple[str, ...]
-    annotations: tuple[ProtocolAnnotation, ...]
-    raw: str
-    action_id: int | None = None
-
-    @staticmethod
-    def from_message(message: ProtocolMessage, action_id: int | None = None):
-        return UnhandledEvent(
-            command=message.command,
-            arguments=message.arguments,
-            annotations=message.annotations,
-            raw=message.raw,
-            action_id=action_id
-        )
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-
-@dataclass(frozen=True)
-class DiscardedEvent(BaseEvent):
-    """Optional marker for a deliberately ignored protocol message."""
-
-    command: str
-    reason: str | None = None
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        return
-
-@dataclass(frozen=True)
-class SingleMoveEvent(BaseEvent):
-    source: EffectSource | None
-    pokemon: PokemonIdent
-    move: str
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        # This is an event, not a discovery
-        return
-
-@dataclass(frozen=True)
-class TypeChangeEvent(BattleEvent):
-    source: EffectSource
-    target: PokemonIdent
-    types: tuple[str, ...]
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is not None:
-            enemy.status.add_minor(MinorStatus.TYPECHANGE)
-
-
-@dataclass(frozen=True)
-class FormeChangeEvent(BattleEvent):
-    """
-    Records a Pokémon changing to a different forme.
-
-    Example:
-        |-formechange|p1a: Cherrim|Cherrim-Sunshine
-    """
-
-    source: EffectSource
-    pokemon: PokemonIdent
-    forme: str
-
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.pokemon)
-        if enemy is not None:
-            enemy.forme = self.forme
-
-@dataclass(frozen=True)
-class DesyncEvent(BattleEvent):
-    """
-    Records when Gen 1 battle get a desync
-
-    Example:
-         |-hint|Desync Clause Mod activated!
-         |-hint|In Gen 1, if both players would see the same Pokémon
-         using different moves, the Pokemon defaults to the move shown
-         from the perspective of the player controlling that Pokémon.
-    """
-    def update_battle_state(self, battle_state: BattleState) -> None:
-        battle_state.gen_1_desync = True

@@ -1,6 +1,6 @@
+from collections.abc import Sequence
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Sequence
 
 from .status import Stats, Status
 

@@ -6,11 +6,13 @@ from pathlib import Path
 from time import perf_counter
 
 from python_showdown.classes.client.client import Client
-from python_showdown.classes.combat_handler.random_handler import RandomMoveCombatHandler
+from python_showdown.classes.combat_handler.random_handler import (
+    RandomMoveCombatHandler,
+)
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 10
+BATTLE_COUNT = 100
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 8

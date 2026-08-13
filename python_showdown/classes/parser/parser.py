@@ -14,8 +14,12 @@ from pprint import pprint
 from typing import TYPE_CHECKING
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
-from python_showdown.classes.parser.events import UnhandledEvent, BattleEvent, LobbyEvent
 from python_showdown.classes.parser import BaseEvent
+from python_showdown.classes.parser.events import (
+    BattleEvent,
+    LobbyEvent,
+    UnhandledEvent,
+)
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
@@ -28,7 +32,6 @@ from python_showdown.classes.parser.protocol import (
     extract_protocol_line,
     parse_protocol_message,
 )
-
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
@@ -126,7 +129,7 @@ class Parser:
         return self.client.battle_manager.battle_state
 
     @property
-    def player_id(self) -> str:
+    def player_id(self) -> str | None:
         return self.manager.player_id
 
 
@@ -138,8 +141,8 @@ if __name__ == "__main__":
 
         for filename in os.listdir(f"logs_odd/{path}/raw"):
             log_path = f"logs_odd/{path}/raw/" + filename
+            log_path = "logs_odd/gen1randombattle/raw/battle-gen1randombattle-333760.txt"
             room_id = os.path.splitext(filename)[0]
-            print(log_path)
             client = Client("ws://192.168.1.154:8000/showdown/websocket")
             parser = client.parser
 

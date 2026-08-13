@@ -1,7 +1,9 @@
 import asyncio
 
 from python_showdown.classes.client.client import Client
-from python_showdown.classes.combat_handler.random_handler import RandomMoveCombatHandler
+from python_showdown.classes.combat_handler.random_handler import (
+    RandomMoveCombatHandler,
+)
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
 

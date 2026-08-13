@@ -2,11 +2,6 @@ from __future__ import annotations
 
 import re
 from itertools import groupby
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
-
 
 from .dt import Format, FormatFlag
 

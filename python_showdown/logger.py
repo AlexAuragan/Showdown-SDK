@@ -167,9 +167,12 @@ class LogManager:
         for logger in self._loggers:
             logger.disabled = False
 
-    def close_room(self, room_id: str) -> None:
+    def close_room(self, room_id: str | None) -> None:
         """Close the per-room file handler for `room_id` on every
         `BattleFileHandler` attached to the managed loggers."""
+        if room_id is None:
+            raise RuntimeError("Tried to close a None room")
+
         seen: set[int] = set()
         for logger in self._loggers:
             for handler in logger.handlers:

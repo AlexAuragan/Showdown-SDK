@@ -4,14 +4,15 @@ from time import perf_counter
 from websockets.asyncio.client import ClientConnection, connect
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
-from python_showdown.classes.combat_handler.random_handler import RandomMoveCombatHandler
-from python_showdown.classes.parser import Parser, TurnEvent
+from python_showdown.classes.combat_handler.random_handler import (
+    RandomMoveCombatHandler,
+)
+from python_showdown.classes.parser import Parser
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
 from python_showdown.logger import LogManager, log_trace
-from python_showdown.models.sdk.battle_state import BattleState
 
 from .dt import BattleResult
 from .utils import Format
@@ -114,6 +115,7 @@ class Client:
                 timeout=timeout,
             )
         except TimeoutError as e:
+            print(f"{self.username=}, {self.battle_manager.player_id=}, {self.battle_manager.room_id=}, {self.parser.last_message_room_id=}")
             raise TimeoutError(f"Timed out while logging as user {username!r}") from e
         await self._leave_stale_rooms()
 
@@ -122,7 +124,6 @@ class Client:
         command: str,
         room_id: str = ""
     ) -> None:
-        room_id = room_id
 
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
@@ -190,7 +191,6 @@ class Client:
                         else raw_line
                     )
 
-                    #
                     if line.startswith(">"):
                         log_room_id = line[1:].strip()
                     log_trace(
@@ -201,6 +201,9 @@ class Client:
                     )
 
                     try:
+                        from python_showdown.classes.parser.events.battle import (
+                            TurnEvent,
+                        )
                         events = self.parser.handle_line(
                             line,
                         )

@@ -8,13 +8,17 @@ from python_showdown.classes.parser.context import (
     EffectRule,
     TargetModifiers,
 )
-from python_showdown.classes.parser.events import (
-    AbilityEvent,
+from python_showdown.classes.parser.events.base import (
     BaseEvent,
+    DiscardedEvent,
+    UnhandledEvent,
+    unhandled_event,
+)
+from python_showdown.classes.parser.events.battle import (
+    AbilityEvent,
     ClearAllBoostsEvent,
     ClearNegativeBostsEvent,
     DamageEvent,
-    DiscardedEvent,
     FormeChangeEvent,
     HealEvent,
     ItemEvent,
@@ -33,9 +37,7 @@ from python_showdown.classes.parser.events import (
     TeamCureEvent,
     TransformEvent,
     TypeChangeEvent,
-    UnhandledEvent,
     WeatherEvent,
-    unhandled_event,
 )
 from python_showdown.classes.parser.fields import (
     is_percentage_hp,

@@ -20,12 +20,12 @@ from python_showdown.classes.parser.managers.lobby import (
 )
 
 __all__ = [
-    "MessageParser",
     "BattleParser",
-    "LobbyParser",
-    "ParseResult",
-    "UpdateUserEvent",
-    "NameTakenEvent",
     "FormatsEvent",
+    "LobbyParser",
+    "MessageParser",
+    "NameTakenEvent",
+    "ParseResult",
     "PrivateMessageEvent",
+    "UpdateUserEvent",
 ]

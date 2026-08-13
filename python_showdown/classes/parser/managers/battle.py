@@ -26,11 +26,11 @@ from python_showdown.classes.parser.command_handlers import (
 )
 from python_showdown.classes.parser.events import (
     BaseEvent,
-    BattleStartEvent,
-    ProtocolMessage,
     unhandled_event,
 )
+from python_showdown.classes.parser.events.battle import BattleStartEvent
 from python_showdown.classes.parser.managers.base import MessageParser
+from python_showdown.classes.parser.models import ProtocolMessage
 from python_showdown.classes.parser.protocol import (
     extract_protocol_line,
     is_ignored_message,

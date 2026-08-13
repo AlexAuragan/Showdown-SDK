@@ -1,5 +1,5 @@
 from python_showdown.classes.parser.context import ProtocolContext
-from python_showdown.classes.parser.events import AbilityEvent, BaseEvent
+from python_showdown.classes.parser.events.battle import AbilityEvent, BaseEvent
 from python_showdown.classes.parser.fields import parse_pokemon_ident
 from python_showdown.classes.parser.models import PokemonIdent, ProtocolMessage
 from python_showdown.classes.parser.protocol import has_annotation

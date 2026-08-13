@@ -11,19 +11,21 @@ from python_showdown.classes.parser.effect_handlers import (
     _is_failed_stat_change,
     parse_effect_message,
 )
-from python_showdown.classes.parser.events import (
+from python_showdown.classes.parser.events.base import (
     BaseEvent,
+    DiscardedEvent,
+    unhandled_event,
+)
+from python_showdown.classes.parser.events.battle import (
     BattleEndEvent,
     CantEvent,
     DecisionRequestEvent,
     DesyncEvent,
-    DiscardedEvent,
     MoveEvent,
     PlayerEvent,
     PokemonSwitchEvent,
     RoomEvent,
     TurnEvent,
-    unhandled_event,
 )
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,

@@ -9,7 +9,6 @@ from python_showdown.classes.parser.ability_state import (
     ProtocolContext,
     update_protocol_context,
 )
-from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
 from python_showdown.classes.parser.command_handlers import (
     COMMAND_HANDLERS,
     CommandHandler,
@@ -30,9 +29,14 @@ from python_showdown.classes.parser.context import (
     ParsedCondition,
     TargetModifiers,
 )
-from python_showdown.classes.parser.events import (
-    AbilityEvent,
+from python_showdown.classes.parser.events.base import (
     BaseEvent,
+    DiscardedEvent,
+    UnhandledEvent,
+    unhandled_event,
+)
+from python_showdown.classes.parser.events.battle import (
+    AbilityEvent,
     BattleEndEvent,
     BattleStartEvent,
     CantEvent,
@@ -40,7 +44,6 @@ from python_showdown.classes.parser.events import (
     ClearNegativeBostsEvent,
     DamageEvent,
     DecisionRequestEvent,
-    DiscardedEvent,
     FormeChangeEvent,
     HealEvent,
     ItemEvent,
@@ -63,9 +66,7 @@ from python_showdown.classes.parser.events import (
     TransformEvent,
     TurnEvent,
     TypeChangeEvent,
-    UnhandledEvent,
     WeatherEvent,
-    unhandled_event,
 )
 from python_showdown.classes.parser.exceptions import (
     ParserException,

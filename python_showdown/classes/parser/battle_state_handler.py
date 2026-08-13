@@ -1,5 +1,6 @@
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import BaseEvent
+from python_showdown.classes.parser.events.battle import BattleEvent
 from python_showdown.models.sdk.battle_state import BattleState
 
 
@@ -29,4 +30,6 @@ class BattleStateHandler:
     @staticmethod
     def apply_event(battle_state: BattleState, event: BaseEvent) -> None:
         """Apply a single event onto an existing BattleState."""
+        if not isinstance(event, BattleEvent):
+            return
         event.update_battle_state(battle_state)
