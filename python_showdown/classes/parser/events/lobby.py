@@ -1,8 +1,6 @@
-
-
-from abc import abstractmethod
+from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, override
 
 from python_showdown.classes.client.dt import Format
 from python_showdown.classes.parser.events.base import BaseEvent
@@ -10,10 +8,12 @@ from python_showdown.classes.parser.events.base import BaseEvent
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
 
-class LobbyEvent(BaseEvent):
+
+class LobbyEvent(BaseEvent, metaclass=ABCMeta):
     @abstractmethod
     def update_client(self, client: Client):
         pass
+
 
 @dataclass(frozen=True)
 class UpdateUserEvent(LobbyEvent):
@@ -27,6 +27,7 @@ class UpdateUserEvent(LobbyEvent):
     username: str
     named: bool
 
+    @override
     def update_client(self, client: Client) -> None:
         client.named = self.named
 
@@ -35,7 +36,9 @@ class UpdateUserEvent(LobbyEvent):
 
         expected = client.battle_manager.player_username
         if expected is None:
-            raise ValueError("No client username set, please set a username with client.username")
+            raise ValueError(
+                "No client username set, please set a username with client.username"
+            )
         if self.named and self.username == expected:
             client.username = self.username
             client.ready.set()
@@ -47,6 +50,7 @@ class NameTakenEvent(LobbyEvent):
 
     raw: str
 
+    @override
     def update_client(self, client: Client) -> None:
         client.ready.clear()
         raise RuntimeError(f"Username was rejected by the server: {self.raw}")
@@ -58,6 +62,7 @@ class FormatsEvent(LobbyEvent):
 
     formats: list[Format]
 
+    @override
     def update_client(self, client: Client) -> None:
         client.formats = self.formats
 
@@ -75,6 +80,7 @@ class PrivateMessageEvent(LobbyEvent):
     receiver: str
     message: str
 
+    @override
     def update_client(self, client: Client) -> None:
         future = client.challenge_future
         challenged_user = client.challenged_user

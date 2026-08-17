@@ -1,7 +1,8 @@
 import json
+from collections.abc import Set as AbstractSet
 from dataclasses import asdict, is_dataclass
 from enum import Enum
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, cast
 
 from python_showdown.models.pokemon.moves import AvailableMove
 from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
@@ -9,6 +10,7 @@ from python_showdown.models.pokemon.terrain import SideCondition
 
 if TYPE_CHECKING:
     from python_showdown.classes.combat_handler.battle_manager import BattleManager
+
 
 class SourceType(str, Enum):
     MOVE = "move"
@@ -21,22 +23,32 @@ class SourceType(str, Enum):
     RECOIL = "recoil"
     UNKNOWN = "unknown"
 
-def _json_default(obj):
+
+def _json_default(obj: object) -> object:
     if isinstance(obj, Enum):
-        return obj.value
+        return cast(object, obj.value)
+
     if isinstance(obj, (set, frozenset)):
-        # Status.minor is a set[MinorStatus]; sort by the enum's server token
-        # for stable snapshot output.
-        return sorted(o.value if isinstance(o, Enum) else o for o in obj)
+        values = cast(AbstractSet[object], obj)
+
+        normalized: list[object] = []
+        for value in values:
+            if isinstance(value, Enum):
+                normalized.append(cast(object, value.value))
+            else:
+                normalized.append(value)
+
+        return sorted(normalized, key=str)
+
     if is_dataclass(obj) and not isinstance(obj, type):
         return asdict(obj)
-    raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
 
+    raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
 
 
 class BattleState:
     def __init__(self, manager: BattleManager):
-        self._manager = manager
+        self._manager: BattleManager = manager
         self._team: list[PartyPokemon] = []
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
@@ -50,7 +62,9 @@ class BattleState:
         self.weather: str | None = None
         self.side_conditions: dict[str, dict[SideCondition, int]] = {}
 
-        self.gen_1_desync = False # Gen 1 can experience desync by design, this can mess up
+        self.gen_1_desync: bool = (
+            False  # Gen 1 can experience desync by design, this can mess up
+        )
         # the witnessed moves
 
     @property
@@ -84,13 +98,17 @@ class BattleState:
                 return pokemon
         raise ValueError(f"Pokemon with id {pokemon_id} not found in team {self.team}")
 
-    def get_enemy_pokemon(self, pokemon_id: str, not_found_ok: bool = False) -> EnemyPokemon | None:
+    def get_enemy_pokemon(
+        self, pokemon_id: str, not_found_ok: bool = False
+    ) -> EnemyPokemon | None:
         for pokemon in self.enemy_team:
             if pokemon.id == pokemon_id:
                 return pokemon
         if not_found_ok:
             return None
-        raise ValueError(f"Pokemon with id {pokemon_id} not found in enemy team {self.enemy_team}")
+        raise ValueError(
+            f"Pokemon with id {pokemon_id} not found in enemy team {self.enemy_team}"
+        )
 
     @property
     def team(self) -> list[PartyPokemon]:
@@ -118,7 +136,9 @@ class BattleState:
     def reset(self) -> None:
         """Clear all tracked state so the same handler can drive a new battle."""
         self._team = []
-        self._enemy_team = [EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)]
+        self._enemy_team = [
+            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
+        ]
         self._curr_pokemon = ""
         self._curr_enemy_pokemon = ""
         self._available_moves = []
@@ -156,7 +176,9 @@ class BattleState:
 
         pokemon = self.get_enemy_pokemon(pokemon_id=pokemon_id, not_found_ok=True)
         if pokemon is None:
-            pokemon = EnemyPokemon(id=pokemon_id, lvl=lvl, active=True, gender=gender, shiny=shiny)
+            pokemon = EnemyPokemon(
+                id=pokemon_id, lvl=lvl, active=True, gender=gender, shiny=shiny
+            )
             idx = None
             for i, p in enumerate(self.enemy_team):
                 if p.id is Unknown.VALUE:
@@ -165,10 +187,10 @@ class BattleState:
             if idx is None:
                 raise ValueError(
                     "The enemy party is full of known pokemon but we're trying "
-                    f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?",
-                    f"Pekemon: {self.enemy_team}"
+                    + f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?",
+                    f"Pokemon: {self.enemy_team}",
                 )
-            self._enemy_team.pop(idx)
+            _ = self._enemy_team.pop(idx)
             self._enemy_team.append(pokemon)
         else:
             pokemon.active = True

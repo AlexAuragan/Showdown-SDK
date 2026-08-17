@@ -22,6 +22,7 @@ class ProtocolContext:
         set[str],
     ] = field(default_factory=dict)
 
+
 @dataclass(frozen=True)
 class ParsedCondition:
     current_hp: int

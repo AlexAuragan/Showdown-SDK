@@ -7,8 +7,11 @@ from python_showdown.classes.parser.models import ProtocolAnnotation, ProtocolMe
 class BaseEvent(ABC):
     """A complete semantic event derived from one or more protocol messages."""
 
-def unhandled_event(message: ProtocolMessage, action_id: int | None = None) -> UnhandledEvent:
-    raise ValueError("Unhandled event:", message)
+
+def unhandled_event(
+    message: ProtocolMessage, action_id: int | None = None
+) -> UnhandledEvent:
+    raise ValueError("Unhandled event:", message, action_id)
     # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)
 
 
@@ -29,7 +32,7 @@ class UnhandledEvent(BaseEvent):
             arguments=message.arguments,
             annotations=message.annotations,
             raw=message.raw,
-            action_id=action_id
+            action_id=action_id,
         )
 
 

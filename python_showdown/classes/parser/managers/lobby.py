@@ -8,6 +8,7 @@ any ``BattleState``. They are produced as events so they flow through the same
 each event overrides ``update_client`` directly and never touches battle state.
 """
 
+from typing import override
 
 from python_showdown.classes.client.utils import parse_formats
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
@@ -24,9 +25,9 @@ from python_showdown.classes.parser.protocol import require_arguments
 
 
 class LobbyParser(MessageParser):
-    """Handles non-battle session messages: room routing, login, formats, and challenges.
-    """
+    """Handles non-battle session messages: room routing, login, formats, and challenges."""
 
+    @override
     def handle_message(
         self,
         manager: BattleManager,
@@ -46,7 +47,7 @@ class LobbyParser(MessageParser):
             return []
 
         raise ValueError("Unhandled message", message)
-        return [] # TEMP
+        # return [] # TEMP
 
     @staticmethod
     def _handle_update_user(message: ProtocolMessage) -> list[BaseEvent]:

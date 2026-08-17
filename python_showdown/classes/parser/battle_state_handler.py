@@ -16,9 +16,11 @@ class BattleStateHandler:
         # The protocol-side id we are playing from ("p1" / "p2"). Stamped onto
         # any BattleState this handler creates so event reducers can resolve a
         # PokemonIdent to our team or the enemy team.
-        self.player_id = player_id
+        self.player_id: str = player_id
 
-    def apply_events(self, manager: BattleManager,  events: list[BaseEvent]) -> BattleState:
+    def apply_events(
+        self, manager: BattleManager, events: list[BaseEvent]
+    ) -> BattleState:
         """Build a brand new BattleState with `events` applied in order."""
 
         battle_state = BattleState(manager)

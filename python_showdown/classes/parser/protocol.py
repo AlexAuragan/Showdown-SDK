@@ -22,10 +22,10 @@ IGNORED_COMMANDS = {
     "challstr",
     "message",
     "bigerror",
-    "expire", # TODO for client
-    "deinit", # TODO for client
+    "expire",  # TODO for client
+    "deinit",  # TODO for client
     "popup",
-    "sentchoice"
+    "sentchoice",
 }
 
 
@@ -89,10 +89,7 @@ def has_annotation(
     message: ProtocolMessage,
     name: str,
 ) -> bool:
-    return any(
-        annotation.name == name
-        for annotation in message.annotations
-    )
+    return any(annotation.name == name for annotation in message.annotations)
 
 
 def extract_protocol_line(line: str, *, has_log_timestamp: bool) -> str:
@@ -123,5 +120,5 @@ def require_arguments(message: ProtocolMessage, count: int) -> None:
     if len(message.arguments) < count:
         raise ValueError(
             f"Expected {count} arguments for {message.command!r}, "
-            f"got {len(message.arguments)} in {message.raw!r}"
+            + f"got {len(message.arguments)} in {message.raw!r}"
         )

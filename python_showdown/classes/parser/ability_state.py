@@ -1,5 +1,6 @@
 from python_showdown.classes.parser.context import ProtocolContext
-from python_showdown.classes.parser.events.battle import AbilityEvent, BaseEvent
+from python_showdown.classes.parser.events import BaseEvent
+from python_showdown.classes.parser.events.battle import AbilityEvent
 from python_showdown.classes.parser.fields import parse_pokemon_ident
 from python_showdown.classes.parser.models import PokemonIdent, ProtocolMessage
 from python_showdown.classes.parser.protocol import has_annotation
@@ -26,6 +27,7 @@ def register_ability_start(
         set(),
     ).add(ability)
 
+
 def is_duplicate_silent_ability_end(
     context: ProtocolContext,
     message: ProtocolMessage,
@@ -38,9 +40,7 @@ def is_duplicate_silent_ability_end(
     ):
         return False
 
-    pokemon = parse_pokemon_ident(
-        message.arguments[0]
-    )
+    pokemon = parse_pokemon_ident(message.arguments[0])
     ability = message.arguments[1].strip()
     key = pokemon_key(pokemon)
 
@@ -54,6 +54,7 @@ def is_duplicate_silent_ability_end(
     )
 
     return was_seen and not is_still_active
+
 
 def register_ability_end(
     context: ProtocolContext,

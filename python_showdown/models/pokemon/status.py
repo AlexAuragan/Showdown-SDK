@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
+from typing import cast
 
 
 class MajorStatus(str, Enum):
@@ -38,7 +39,6 @@ class MinorStatus(str, Enum):
     FOCUS_PUNCH = "Focus Punch"
 
 
-
 @dataclass
 class Status:
     # Stat boost stages (-6..+6).
@@ -63,8 +63,8 @@ class Status:
     # Set via |-mustrecharge| and consumed by the next `|cant|recharge`.
     must_recharge: bool = False
 
-    _MIN_STAGE = -6
-    _MAX_STAGE = 6
+    _MIN_STAGE: int = -6
+    _MAX_STAGE: int = 6
 
     def reset_on_switch(self):
         # Volatile state clears on switch; major status conditions persist.
@@ -79,11 +79,6 @@ class Status:
         self.minor.clear()
         self.perish_count = None
         self.must_recharge = False
-
-    def __post_init__(self):
-        # Guard against a stale caller passing a stray bool for `major`.
-        if self.major is not None and not isinstance(self.major, MajorStatus):
-            raise ValueError(f"major must be a MajorStatus or None, got {self.major!r}")
 
     def set_status(self, status: MajorStatus | str) -> None:
         """Apply a major status condition.
@@ -142,7 +137,11 @@ class Status:
 
     def _adjust_stage(self, stat: Stat, delta: int) -> None:
         attr = self._stage_attr(stat)
-        current = getattr(self, attr)
+        current = cast(object, getattr(self, attr))
+        if not isinstance(current, int):
+            raise TypeError(
+                f"Attribute {attr} of {self} must be of type int, not {type(current)}"
+            )
         setattr(self, attr, self._clamp(current + delta))
 
     @staticmethod
@@ -176,6 +175,7 @@ class Stat(str, Enum):
     SPE = "spe"
     EVA = "evasion"
     ACC = "accuracy"
+
 
 @dataclass
 class Stats:

@@ -1,19 +1,40 @@
 import logging
 import re
+from collections.abc import Mapping
 from pathlib import Path
-from typing import Any
+from types import TracebackType
+from typing import override
 
 TRACE = 5
 logging.addLevelName(TRACE, "TRACE")
+
+type ExcInfo = (
+    bool
+    | BaseException
+    | tuple[type[BaseException], BaseException, TracebackType | None]
+    | tuple[None, None, None]
+    | None
+)
 
 
 def log_trace(
     logger: logging.Logger,
     message: str,
-    *args: Any,
-    **kwargs: Any,
+    *args: object,
+    exc_info: ExcInfo = None,
+    stack_info: bool = False,
+    stacklevel: int = 1,
+    extra: Mapping[str, object] | None = None,
 ) -> None:
-    logger.log(TRACE, message, *args, **kwargs)
+    logger.log(
+        TRACE,
+        message,
+        *args,
+        exc_info=exc_info,
+        stack_info=stack_info,
+        stacklevel=stacklevel,
+        extra=extra,
+    )
 
 
 class BattleFileHandler(logging.Handler):
@@ -28,12 +49,13 @@ class BattleFileHandler(logging.Handler):
         encoding: str = "utf-8",
     ) -> None:
         super().__init__()
-        self.directory = directory
-        self.encoding = encoding
+        self.directory: Path = directory
+        self.encoding: str = encoding
         self._handlers: dict[str, logging.FileHandler] = {}
 
         self.directory.mkdir(parents=True, exist_ok=True)
 
+    @override
     def emit(self, record: logging.LogRecord) -> None:
         room_id_value = record.__dict__.get("room_id")
 
@@ -78,6 +100,7 @@ class BattleFileHandler(logging.Handler):
 
         return handler
 
+    @override
     def close(self) -> None:
         for handler in self._handlers.values():
             handler.close()
@@ -89,17 +112,17 @@ class BattleFileHandler(logging.Handler):
 class LogManager:
     def __init__(self, tag: str | None = None) -> None:
         suffix = f".{tag}" if tag else ""
-        self.protocol = logging.getLogger(
+        self.protocol: logging.Logger = logging.getLogger(
             f"python_showdown.protocol{suffix}"
         )
-        self.battle = logging.getLogger(
+        self.battle: logging.Logger = logging.getLogger(
             f"python_showdown.battle{suffix}"
         )
-        self.errors = logging.getLogger(
+        self.errors: logging.Logger = logging.getLogger(
             f"python_showdown.errors{suffix}"
         )
 
-        self._loggers = (
+        self._loggers: tuple[logging.Logger, ...] = (
             self.protocol,
             self.battle,
             self.errors,
@@ -188,11 +211,7 @@ def create_console_handler(
 ) -> logging.Handler:
     handler = logging.StreamHandler()
     handler.setLevel(level)
-    handler.setFormatter(
-        logging.Formatter(
-            "%(levelname)s %(message)s"
-        )
-    )
+    handler.setFormatter(logging.Formatter("%(levelname)s %(message)s"))
     return handler
 
 
@@ -208,10 +227,7 @@ def create_file_handler(
     )
     handler.setLevel(level)
     handler.setFormatter(
-        logging.Formatter(
-            "%(asctime)s %(levelname)s %(name)s "
-            "%(message)s"
-        )
+        logging.Formatter("%(asctime)s %(levelname)s %(name)s " + "%(message)s")
     )
     return handler
 
@@ -222,9 +238,5 @@ def create_battle_file_handler(
 ) -> logging.Handler:
     handler = BattleFileHandler(directory)
     handler.setLevel(level)
-    handler.setFormatter(
-        logging.Formatter(
-            "%(asctime)s %(message)s"
-        )
-    )
+    handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
     return handler

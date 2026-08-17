@@ -47,3 +47,36 @@ class EffectSource:
     name: str | None = None
     actor: PokemonIdent | None = None
     action_id: int | None = None
+
+
+@dataclass(frozen=True)
+class RequestMove:
+    name: str
+    id: str
+    curr_pp: int
+    max_pp: int
+    target: str
+    disabled: bool
+
+
+@dataclass(frozen=True)
+class RequestPokemon:
+    ident: str
+    details: str
+    level: int
+    active: bool
+
+    atk: int
+    def_: int
+    spa: int
+    spd: int
+    spe: int
+
+    moves: tuple[str, ...]
+    base_ability: str
+    item: str
+    pokeball: str
+
+    curr_hp: int
+    max_hp: int | None
+    status_token: str | None

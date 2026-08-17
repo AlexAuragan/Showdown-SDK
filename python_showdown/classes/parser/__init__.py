@@ -6,15 +6,14 @@ Public entry point: :class:`Parser`.
 """
 
 from python_showdown.classes.parser.ability_state import (
-    ProtocolContext,
     update_protocol_context,
 )
+from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
 from python_showdown.classes.parser.command_handlers import (
     COMMAND_HANDLERS,
     CommandHandler,
     handle_battle_end,
     handle_cant,
-    handle_request,
     handle_switch,
     handle_turn,
     parse_move_group,
@@ -27,6 +26,7 @@ from python_showdown.classes.parser.context import (
     EffectRule,
     MoveParseState,
     ParsedCondition,
+    ProtocolContext,
     TargetModifiers,
 )
 from python_showdown.classes.parser.events.base import (
@@ -68,6 +68,12 @@ from python_showdown.classes.parser.events.battle import (
     TypeChangeEvent,
     WeatherEvent,
 )
+from python_showdown.classes.parser.events.lobby import (
+    FormatsEvent,
+    NameTakenEvent,
+    PrivateMessageEvent,
+    UpdateUserEvent,
+)
 from python_showdown.classes.parser.exceptions import (
     ParserException,
     WrongRoomException,
@@ -85,11 +91,7 @@ from python_showdown.classes.parser.fields import (
 from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.managers.battle import BattleParser, ParseResult
 from python_showdown.classes.parser.managers.lobby import (
-    FormatsEvent,
     LobbyParser,
-    NameTakenEvent,
-    PrivateMessageEvent,
-    UpdateUserEvent,
 )
 from python_showdown.classes.parser.models import (
     EffectSource,
@@ -108,32 +110,28 @@ from python_showdown.classes.parser.protocol import (
     require_arguments,
 )
 
+# ruff: noqa: RUF022
 __all__ = [
     # Entry point
     "Parser",
     "ParseResult",
-
     # Managers
     "MessageParser",
     "BattleParser",
     "LobbyParser",
-
     # Lobby events
     "UpdateUserEvent",
     "NameTakenEvent",
     "FormatsEvent",
     "PrivateMessageEvent",
-
     # Exceptions
     "ParserException",
     "WrongRoomException",
-
     # Meta models
     "ProtocolAnnotation",
     "ProtocolMessage",
     "PokemonIdent",
     "EffectSource",
-
     # Events
     "BaseEvent",
     "MoveEvent",
@@ -170,7 +168,6 @@ __all__ = [
     "TypeChangeEvent",
     "FormeChangeEvent",
     "unhandled_event",
-
     # Context
     "ProtocolContext",
     "ParsedCondition",
@@ -180,7 +177,6 @@ __all__ = [
     "EffectHandler",
     "EffectPredicate",
     "EffectRule",
-
     # Protocol helpers
     "parse_protocol_message",
     "extract_protocol_line",
@@ -189,7 +185,6 @@ __all__ = [
     "is_ignored_message",
     "is_move_boundary",
     "require_arguments",
-
     # Field parsers
     "parse_pokemon_ident",
     "parse_condition",
@@ -199,21 +194,17 @@ __all__ = [
     "parse_side_ident",
     "parse_effect_source",
     "make_move_source",
-
     # Command handlers
     "CommandHandler",
     "COMMAND_HANDLERS",
     "handle_switch",
     "handle_turn",
-    "handle_request",
     "handle_cant",
     "handle_battle_end",
     "parse_move_group",
     "parse_standalone_effect",
-
     # Ability state
     "update_protocol_context",
-
     # Battle state
     "BattleStateHandler",
 ]

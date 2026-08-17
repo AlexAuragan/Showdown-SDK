@@ -8,11 +8,13 @@ from .status import Stats, Status
 class Unknown(Enum):
     VALUE = "unknown"
 
+
 @dataclass
 class Pokemon:
     active: bool
     id: str | Unknown
     lvl: int
+
 
 @dataclass
 class PartyPokemon(Pokemon):
@@ -36,7 +38,9 @@ class EnemyPokemon(Pokemon):
     base_ability: str | Unknown = Unknown.VALUE
     item: str | Unknown | None = Unknown.VALUE
     status: Status = field(default_factory=Status)
-    learnt_moves: list[str | Unknown] = field(default_factory=lambda: [Unknown.VALUE] * 4)
+    learnt_moves: list[str | Unknown] = field(
+        default_factory=lambda: [Unknown.VALUE] * 4
+    )
     temporary_moves: list[str] = field(default_factory=list)
     disabled_moves: list[str] = field(default_factory=list)
     transformed_into: str | None = None
@@ -56,12 +60,16 @@ class EnemyPokemon(Pokemon):
         if self.transformed_into is not None:
             return self.temporary_moves
         base = [
-            m for m in self.learnt_moves
+            m
+            for m in self.learnt_moves
             if m is not Unknown.VALUE and m not in self.disabled_moves
         ]
         return base + self.temporary_moves
 
     def witness_move(self, move: str, gen_1_desync: bool) -> bool:
+        if move.lower() in ["struggle"]:
+            return gen_1_desync
+
         if move in self.learnt_moves or move in self.temporary_moves:
             return gen_1_desync
 
@@ -72,17 +80,15 @@ class EnemyPokemon(Pokemon):
             return gen_1_desync
 
         if Unknown.VALUE not in self.learnt_moves:
-
             if not gen_1_desync:
                 raise ValueError(
                     f"Witnessed move {move} for pokemon {self} "
-                    "but all move slots are already filled"
+                    + "but all move slots are already filled"
                 )
 
             # A Gen 1 desync means our inferred moveset can no longer be trusted.
             self.learnt_moves = [Unknown.VALUE] * 4
             gen_1_desync = False
-
 
         self.learnt_moves.remove(Unknown.VALUE)
         self.learnt_moves.append(move)

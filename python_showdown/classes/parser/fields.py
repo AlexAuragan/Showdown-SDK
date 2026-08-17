@@ -1,5 +1,9 @@
 from python_showdown.classes.parser.context import ParsedCondition
-from python_showdown.classes.parser.models import EffectSource, PokemonIdent
+from python_showdown.classes.parser.models import (
+    EffectSource,
+    PokemonIdent,
+    ProtocolMessage,
+)
 from python_showdown.classes.parser.protocol import LEVEL_PATTERN, annotation_value
 from python_showdown.models.pokemon.status import MajorStatus, MinorStatus
 from python_showdown.models.sdk.battle_state import SourceType
@@ -56,8 +60,12 @@ def parse_level(details: str) -> int | None:
     return int(match.group("level")) if match is not None else None
 
 
-def is_percentage_hp(player_id: str, pokemon: PokemonIdent, condition: ParsedCondition) -> bool:
-    return pokemon.player != player_id and (condition.max_hp == 100 or condition.max_hp is None)
+def is_percentage_hp(
+    player_id: str, pokemon: PokemonIdent, condition: ParsedCondition
+) -> bool:
+    return pokemon.player != player_id and (
+        condition.max_hp == 100 or condition.max_hp is None
+    )
 
 
 def parse_minor_status(value: str) -> MinorStatus:
@@ -72,9 +80,7 @@ def parse_side_ident(value: str) -> str:
     side = value.split(":", 1)[0].strip()
 
     if side not in {"p1", "p2", "p3", "p4"}:
-        raise ValueError(
-            f"Invalid side identifier: {value!r}"
-        )
+        raise ValueError(f"Invalid side identifier: {value!r}")
 
     return side
 
@@ -84,7 +90,7 @@ def make_move_source(user: PokemonIdent, move: str, action_id: int) -> EffectSou
 
 
 def parse_effect_source(
-    message,
+    message: ProtocolMessage,
     default_source: EffectSource,
     *,
     affected: PokemonIdent | None = None,
@@ -99,13 +105,24 @@ def parse_effect_source(
     lowered = normalized.casefold()
 
     if lowered == "recoil":
-        return EffectSource(SourceType.RECOIL, default_source.name, default_source.actor, default_source.action_id)
+        return EffectSource(
+            SourceType.RECOIL,
+            default_source.name,
+            default_source.actor,
+            default_source.action_id,
+        )
     if lowered.startswith("move: "):
-        return EffectSource(SourceType.MOVE, normalized[6:], actor, default_source.action_id)
+        return EffectSource(
+            SourceType.MOVE, normalized[6:], actor, default_source.action_id
+        )
     if lowered.startswith("item: "):
-        return EffectSource(SourceType.ITEM, normalized[6:], actor, default_source.action_id)
+        return EffectSource(
+            SourceType.ITEM, normalized[6:], actor, default_source.action_id
+        )
     if lowered.startswith("ability: "):
-        return EffectSource(SourceType.ABILITY, normalized[9:], actor, default_source.action_id)
+        return EffectSource(
+            SourceType.ABILITY, normalized[9:], actor, default_source.action_id
+        )
     if lowered in {status.value.casefold() for status in MajorStatus}:
         return EffectSource(SourceType.STATUS, lowered, actor, None)
     if lowered in {"sandstorm", "hail", "snow"}:

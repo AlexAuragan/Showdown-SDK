@@ -1,3 +1,5 @@
+# pyright: reportImportCycles=false
+# The import cycle is for typing only, changing the project architecture would probably add more overhead.
 import asyncio
 from time import perf_counter
 
@@ -37,14 +39,16 @@ class BattleManager:
 
     @property
     def player_id(self) -> str | None:
-        return  self._player_id
+        return self._player_id
 
     @player_id.setter
-    def player_id(self, value: str) -> None:
+    def player_id(self, value: str | None) -> None:
         if value is None:
             raise ValueError("Player id cannot be set to None")
         if self._player_id and value != self._player_id:
-            raise RuntimeError(f"Player id already set, player_id: {self._player_id}, new value {value}", )
+            raise RuntimeError(
+                f"Player id already set, player_id: {self._player_id}, new value {value}",
+            )
         self._player_id = value
 
     def start_action_timeout(self) -> None:
@@ -53,10 +57,7 @@ class BattleManager:
 
         self.cancel_action_timeout()
         self._action_timeout_task = asyncio.create_task(
-            self._raise_on_action_timeout(
-                turn=self.turn,
-                room_id=self.room_id
-            )
+            self._raise_on_action_timeout(turn=self.turn, room_id=self.room_id)
         )
 
     def cancel_action_timeout(self) -> None:
@@ -64,8 +65,7 @@ class BattleManager:
         self._action_timeout_task = None
 
         if task is not None:
-            task.cancel()
-
+            _ = task.cancel()
 
     async def _raise_on_action_timeout(
         self,
@@ -78,17 +78,19 @@ class BattleManager:
             return
 
         error = TimeoutError(
-            f"{self.player_username!r} did not act within {self.action_timeout_seconds:.1f}s on turn {turn} " +
-            f"in room {room_id!r}. The battle request may not have been parsed."
-            f"choice_rejected={self.choice_rejected!r}, "
-            f"retry_count={self.retry_count!r}"
+            f"{self.player_username!r} did not act within {self.action_timeout_seconds:.1f}s on turn {turn} "
+            + f"in room {room_id!r}. The battle request may not have been parsed."
+            + f"choice_rejected={self.choice_rejected!r}, "
+            + f"retry_count={self.retry_count!r}"
         )
 
         state = self.battle_state
         self.log_manager.errors.error(
             "Action timeout for %r: room=%r turn=%r request_id=%r "
-            "force_switch=%r team_size=%d available_moves=%d",
-            self.player_username, room_id, turn,
+            + "force_switch=%r team_size=%d available_moves=%d",
+            self.player_username,
+            room_id,
+            turn,
             self.request_id,
             state.force_switch,
             len(state.team),
@@ -100,7 +102,6 @@ class BattleManager:
 
         if battle_finished is not None and not battle_finished.done():
             battle_finished.set_exception(error)
-
 
     def reset(self):
         self._player_id = None
@@ -136,7 +137,7 @@ class BattleManager:
                 room_id=self.room_id,
                 winner=winner,
                 move_count=self.turn,
-                duration_seconds=duration
+                duration_seconds=duration,
             )
         )
 

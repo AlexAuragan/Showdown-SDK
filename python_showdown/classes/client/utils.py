@@ -19,7 +19,7 @@ def split_protocol(
     if len(parts) < min_parts:
         raise RuntimeError(
             f"Malformed {prefix.rstrip('|')} message: expected at least "
-            f"{min_parts} fields, got {len(parts)} in {line!r}"
+            + f"{min_parts} fields, got {len(parts)} in {line!r}"
         )
     return parts
 
@@ -40,6 +40,7 @@ def parse_format_entry(
         section=section,
         column=column,
     )
+
 
 def parse_formats(line: str) -> list[Format]:
 
@@ -66,9 +67,7 @@ def parse_formats(line: str) -> list[Format]:
 
                 index += 1
                 if index >= len(entries):
-                    raise ValueError(
-                        "Section marker has no section name"
-                    )
+                    raise ValueError("Section marker has no section name")
 
                 section = entries[index]
             else:
@@ -116,17 +115,19 @@ def print_formats(formats: list[Format]) -> None:
         for format_ in section_formats:
             flags = FormatFlag(format_.flags)
 
-            rows.append([
-                format_.name,
-                "Y" if FormatFlag.RANDOM_TEAM in flags else "",
-                "Y" if FormatFlag.SEARCH in flags else "",
-                "Y" if FormatFlag.CHALLENGE in flags else "",
-                "Y" if FormatFlag.TOURNAMENT in flags else "",
-                "Y" if FormatFlag.LEVEL_50 in flags else "",
-                "Y" if FormatFlag.BEST_OF_DEFAULT in flags else "",
-                "Y" if FormatFlag.TERA_PREVIEW_DEFAULT in flags else "",
-                "Y" if FormatFlag.ITEM_CLAUSE_DEFAULT in flags else "",
-            ])
+            rows.append(
+                [
+                    format_.name,
+                    "Y" if FormatFlag.RANDOM_TEAM in flags else "",
+                    "Y" if FormatFlag.SEARCH in flags else "",
+                    "Y" if FormatFlag.CHALLENGE in flags else "",
+                    "Y" if FormatFlag.TOURNAMENT in flags else "",
+                    "Y" if FormatFlag.LEVEL_50 in flags else "",
+                    "Y" if FormatFlag.BEST_OF_DEFAULT in flags else "",
+                    "Y" if FormatFlag.TERA_PREVIEW_DEFAULT in flags else "",
+                    "Y" if FormatFlag.ITEM_CLAUSE_DEFAULT in flags else "",
+                ]
+            )
 
         headers = [
             "Format",
@@ -152,17 +153,10 @@ def _print_table(
         for index in range(len(headers))
     ]
 
-    separator = (
-        "+-"
-        + "-+-".join("-" * width for width in widths)
-        + "-+"
-    )
+    separator = "+-" + "-+-".join("-" * width for width in widths) + "-+"
 
     def render_row(row: list[str]) -> str:
-        values = [
-            value.ljust(widths[index])
-            for index, value in enumerate(row)
-        ]
+        values = [value.ljust(widths[index]) for index, value in enumerate(row)]
 
         return "| " + " | ".join(values) + " |"
 

@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import traceback
+from collections.abc import Awaitable
 from dataclasses import asdict
 from pathlib import Path
 from time import perf_counter
@@ -12,7 +13,7 @@ from python_showdown.classes.combat_handler.random_handler import (
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
 WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 100
+BATTLE_COUNT = 1000
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 8
@@ -35,7 +36,7 @@ async def run_battle(
     fmt: str,
     battle_number: int,
 ) -> dict[str, object]:
-    await asyncio.gather(
+    _ = await asyncio.gather(
         client_1.ensure_connected(),
         client_2.ensure_connected(),
     )
@@ -48,7 +49,7 @@ async def run_battle(
 
     battle_waiter_1, battle_waiter_2 = None, None
     try:
-        await client_1.challenge(
+        _ = await client_1.challenge(
             client_2.username,
             fmt,
             timeout=60,
@@ -57,28 +58,24 @@ async def run_battle(
             client_1.username,
         )
 
-        await asyncio.gather(
+        _ = await asyncio.gather(
             client_1.battle_manager.room_ready.wait(),
             client_2.battle_manager.room_ready.wait(),
         )
 
-        battle_waiter_1 = asyncio.create_task(
-            client_1.wait_for_battle_end(timeout=300)
-        )
-        battle_waiter_2 = asyncio.create_task(
-            client_2.wait_for_battle_end(timeout=300)
-        )
+        battle_waiter_1 = asyncio.create_task(client_1.wait_for_battle_end(timeout=300))
+        battle_waiter_2 = asyncio.create_task(client_2.wait_for_battle_end(timeout=300))
 
-        result_1, result_2 = await asyncio.gather(
+        result_1, _ = await asyncio.gather(
             battle_waiter_1,
             battle_waiter_2,
         )
 
         print(
             f"Battle {battle_number}/{BATTLE_COUNT}: "
-            f"winner={result_1.winner}, turns={result_1.move_count}, "
-            f"duration={result_1.duration_seconds:.4f}s, "
-            f"average={result_1.average_seconds_per_move:.6f}s/turn"
+            + f"winner={result_1.winner}, turns={result_1.move_count}, "
+            + f"duration={result_1.duration_seconds:.4f}s, "
+            + f"average={result_1.average_seconds_per_move:.6f}s/turn"
         )
 
         return asdict(result_1)
@@ -86,16 +83,21 @@ async def run_battle(
     except BaseException:
         if battle_waiter_1 is None or battle_waiter_2 is None:
             raise
-        battle_waiter_1.cancel()
-        battle_waiter_2.cancel()
+        _ = battle_waiter_1.cancel()
+        _ = battle_waiter_2.cancel()
 
-        await asyncio.gather(
+        _ = await asyncio.gather(
             battle_waiter_1,
             battle_waiter_2,
             return_exceptions=True,
         )
 
         raise
+
+
+def write_error(error: str) -> None:
+    with ERROR_LOG.open("a", encoding="utf-8") as file:
+        _ = file.write(error)
 
 
 async def run_pair(
@@ -124,7 +126,7 @@ async def run_pair(
             )
             results.append(result)
 
-        except Exception:
+        except Exception:  # noqa: BLE001 # This is intentional
             failed_battles += 1
 
             error = (
@@ -135,9 +137,7 @@ async def run_pair(
             )
 
             print(error)
-
-            with ERROR_LOG.open("a", encoding="utf-8") as file:
-                file.write(error)
+            await asyncio.to_thread(write_error, error)
 
     return results, failed_battles
 
@@ -202,9 +202,9 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
     results: list[dict[str, object]] = []
 
     try:
-        await asyncio.gather(*(client.connect() for client in clients))
+        _ = await asyncio.gather(*(client.connect() for client in clients))
 
-        await asyncio.gather(
+        _ = await asyncio.gather(
             *(client.login(f"BOT{i}") for i, client in enumerate(clients, start=1))
         )
         for i, client in enumerate(clients, start=1):
@@ -213,7 +213,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         t0 = perf_counter()
 
         # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
-        pair_tasks = []
+        pair_tasks: list[Awaitable[tuple[list[dict[str, object]], int]]] = []
         for pair_index in range(PAIR_COUNT):
             client_1 = clients[pair_index * 2]
             client_2 = clients[pair_index * 2 + 1]
@@ -237,12 +237,25 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         successful_battles = len(results)
 
         if successful_battles > 0:
-            total_duration = sum(
-                float(result["duration_seconds"]) for result in results
-            )
-            total_turns = sum(
-                int(result["move_count"]) for result in results
-            )
+            total_duration = 0.0
+            total_turns = 0
+
+            for result in results:
+                duration = result["duration_seconds"]
+                move_count = result["move_count"]
+
+                if not isinstance(duration, float):
+                    raise TypeError(
+                        f"duration_seconds must be float, got {type(duration).__name__}"
+                    )
+
+                if isinstance(move_count, bool) or not isinstance(move_count, int):
+                    raise TypeError(
+                        f"move_count must be int, got {type(move_count).__name__}"
+                    )
+
+                total_duration += duration
+                total_turns += move_count
 
             average_battle_duration = total_duration / successful_battles
             average_turn_duration = (
@@ -256,7 +269,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
             print(f"Average time per turn: {average_turn_duration:.6f}s")
 
     finally:
-        await asyncio.gather(
+        _ = await asyncio.gather(
             *(client.close() for client in clients),
             return_exceptions=True,
         )
@@ -266,7 +279,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
 
 async def main() -> None:
     for fmt in FORMATS:
-        await run_format(fmt)
+        _ = await run_format(fmt)
 
 
 if __name__ == "__main__":
