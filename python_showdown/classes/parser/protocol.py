@@ -9,9 +9,6 @@ IGNORED_COMMANDS = {
     "J",
     "L",
     "t:",
-    "gametype",
-    "gen",
-    "tier",
     "rule",
     "teamsize",
     "start",
@@ -43,6 +40,7 @@ MOVE_BOUNDARY_COMMANDS = {
     "tie",
     "init",
     "player",
+    "room",
 }
 
 ANNOTATION_PATTERN = re.compile(r"^\[(?P<name>[^\]]+)\](?:\s*(?P<value>.*))?$")

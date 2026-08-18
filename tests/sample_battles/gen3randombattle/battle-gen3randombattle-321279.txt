@@ -1,0 +1,642 @@
+2026-08-12 12:47:14,834 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,834 |init|battle
+2026-08-12 12:47:14,835 |title|BOT3 vs. BOT4
+2026-08-12 12:47:14,835 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-321279">battle-gen3randombattle-321279</a>&raquo;
+2026-08-12 12:47:14,897 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,897 |t:|1786531634
+2026-08-12 12:47:14,897 |gametype|singles
+2026-08-12 12:47:14,899 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,899 |player|p1|BOT3|101|
+2026-08-12 12:47:14,900 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,900 |player|p2|BOT4|266|
+2026-08-12 12:47:14,900 |gen|3
+2026-08-12 12:47:14,900 |tier|[Gen 3] Random Battle
+2026-08-12 12:47:14,900 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:47:14,900 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:47:14,900 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:47:14,900 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:47:14,900 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:47:14,901 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:47:14,901 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:47:14,901 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:47:14,901 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:47:14,901 |
+2026-08-12 12:47:14,901 |t:|1786531634
+2026-08-12 12:47:14,901 |teamsize|p1|6
+2026-08-12 12:47:14,901 |teamsize|p2|6
+2026-08-12 12:47:14,901 |start
+2026-08-12 12:47:14,901 |switch|p1a: Misdreavus|Misdreavus, L85, F|100/100
+2026-08-12 12:47:14,901 |switch|p2a: Kingdra|Kingdra, L81, F|254/254
+2026-08-12 12:47:14,901 |turn|1
+2026-08-12 12:47:14,901 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,901 |request|{"active":[{"moves":[{"move":"Rain Dance","id":"raindance","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"254/254","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:47:14,933 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,933 |
+2026-08-12 12:47:14,933 |t:|1786531634
+2026-08-12 12:47:14,933 |move|p1a: Misdreavus|Mean Look|p2a: Kingdra
+2026-08-12 12:47:14,933 |-activate|p2a: Kingdra|trapped
+2026-08-12 12:47:14,933 |move|p2a: Kingdra|Surf|p1a: Misdreavus
+2026-08-12 12:47:14,933 |-damage|p1a: Misdreavus|58/100
+2026-08-12 12:47:14,933 |
+2026-08-12 12:47:14,933 |-heal|p1a: Misdreavus|64/100|[from] item: Leftovers
+2026-08-12 12:47:14,933 |upkeep
+2026-08-12 12:47:14,933 |turn|2
+2026-08-12 12:47:14,934 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,934 |request|{"active":[{"moves":[{"move":"Rain Dance","id":"raindance","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"254/254","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:47:14,955 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,956 |
+2026-08-12 12:47:14,956 |t:|1786531634
+2026-08-12 12:47:14,956 |move|p1a: Misdreavus|Protect|p1a: Misdreavus
+2026-08-12 12:47:14,956 |-singleturn|p1a: Misdreavus|Protect
+2026-08-12 12:47:14,956 |move|p2a: Kingdra|Ice Beam|p1a: Misdreavus
+2026-08-12 12:47:14,956 |-activate|p1a: Misdreavus|Protect
+2026-08-12 12:47:14,956 |
+2026-08-12 12:47:14,956 |-heal|p1a: Misdreavus|71/100|[from] item: Leftovers
+2026-08-12 12:47:14,956 |upkeep
+2026-08-12 12:47:14,956 |turn|3
+2026-08-12 12:47:14,956 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,956 |request|{"active":[{"moves":[{"move":"Rain Dance","id":"raindance","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"254/254","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:47:14,973 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,973 |
+2026-08-12 12:47:14,973 |t:|1786531634
+2026-08-12 12:47:14,973 |move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+2026-08-12 12:47:14,973 |-start|p1a: Misdreavus|perish3|[silent]
+2026-08-12 12:47:14,973 |-start|p2a: Kingdra|perish3|[silent]
+2026-08-12 12:47:14,973 |-fieldactivate|move: Perish Song
+2026-08-12 12:47:14,973 |move|p2a: Kingdra|Rain Dance|p2a: Kingdra
+2026-08-12 12:47:14,973 |-weather|RainDance
+2026-08-12 12:47:14,973 |
+2026-08-12 12:47:14,973 |-weather|RainDance|[upkeep]
+2026-08-12 12:47:14,973 |-heal|p1a: Misdreavus|77/100|[from] item: Leftovers
+2026-08-12 12:47:14,973 |-start|p2a: Kingdra|perish3
+2026-08-12 12:47:14,973 |-start|p1a: Misdreavus|perish3
+2026-08-12 12:47:14,973 |upkeep
+2026-08-12 12:47:14,973 |turn|4
+2026-08-12 12:47:14,974 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,974 |request|{"active":[{"moves":[{"move":"Rain Dance","id":"raindance","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"254/254","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:47:14,993 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,993 |
+2026-08-12 12:47:14,993 |t:|1786531634
+2026-08-12 12:47:14,993 |move|p2a: Kingdra|Rain Dance||[still]
+2026-08-12 12:47:14,993 |-fail|p2a: Kingdra
+2026-08-12 12:47:14,993 |move|p1a: Misdreavus|Mean Look||[still]
+2026-08-12 12:47:14,993 |-fail|p1a: Misdreavus
+2026-08-12 12:47:14,993 |
+2026-08-12 12:47:14,993 |-weather|RainDance|[upkeep]
+2026-08-12 12:47:14,993 |-heal|p1a: Misdreavus|83/100|[from] item: Leftovers
+2026-08-12 12:47:14,993 |-start|p2a: Kingdra|perish2
+2026-08-12 12:47:14,993 |-start|p1a: Misdreavus|perish2
+2026-08-12 12:47:14,993 |upkeep
+2026-08-12 12:47:14,993 |turn|5
+2026-08-12 12:47:14,995 >battle-gen3randombattle-321279
+2026-08-12 12:47:14,995 |request|{"active":[{"moves":[{"move":"Rain Dance","id":"raindance","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"254/254","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:47:15,056 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,056 |
+2026-08-12 12:47:15,056 |t:|1786531635
+2026-08-12 12:47:15,056 |move|p1a: Misdreavus|Protect|p1a: Misdreavus
+2026-08-12 12:47:15,056 |-singleturn|p1a: Misdreavus|Protect
+2026-08-12 12:47:15,056 |move|p2a: Kingdra|Rain Dance||[still]
+2026-08-12 12:47:15,056 |-fail|p2a: Kingdra
+2026-08-12 12:47:15,056 |
+2026-08-12 12:47:15,056 |-weather|RainDance|[upkeep]
+2026-08-12 12:47:15,056 |-heal|p1a: Misdreavus|89/100|[from] item: Leftovers
+2026-08-12 12:47:15,056 |-start|p2a: Kingdra|perish1
+2026-08-12 12:47:15,056 |-start|p1a: Misdreavus|perish1
+2026-08-12 12:47:15,057 |upkeep
+2026-08-12 12:47:15,057 |turn|6
+2026-08-12 12:47:15,057 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,058 |request|{"active":[{"moves":[{"move":"Rain Dance","id":"raindance","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"254/254","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:47:15,075 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,075 |
+2026-08-12 12:47:15,075 |t:|1786531635
+2026-08-12 12:47:15,075 |move|p1a: Misdreavus|Protect|p1a: Misdreavus
+2026-08-12 12:47:15,075 |-singleturn|p1a: Misdreavus|Protect
+2026-08-12 12:47:15,075 |move|p2a: Kingdra|Surf|p1a: Misdreavus
+2026-08-12 12:47:15,075 |-activate|p1a: Misdreavus|Protect
+2026-08-12 12:47:15,075 |
+2026-08-12 12:47:15,075 |-weather|RainDance|[upkeep]
+2026-08-12 12:47:15,075 |-heal|p1a: Misdreavus|96/100|[from] item: Leftovers
+2026-08-12 12:47:15,075 |-start|p2a: Kingdra|perish0
+2026-08-12 12:47:15,075 |-start|p1a: Misdreavus|perish0
+2026-08-12 12:47:15,075 |faint|p2a: Kingdra
+2026-08-12 12:47:15,076 |faint|p1a: Misdreavus
+2026-08-12 12:47:15,076 |upkeep
+2026-08-12 12:47:15,078 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,078 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":true,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:47:15,092 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,092 |
+2026-08-12 12:47:15,092 |t:|1786531635
+2026-08-12 12:47:15,092 |switch|p1a: Mewtwo|Mewtwo, L66|100/100
+2026-08-12 12:47:15,092 |switch|p2a: Swalot|Swalot, L87, M|316/316
+2026-08-12 12:47:15,092 |turn|7
+2026-08-12 12:47:15,095 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,095 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":true,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:47:15,119 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,119 |
+2026-08-12 12:47:15,119 |t:|1786531635
+2026-08-12 12:47:15,119 |move|p1a: Mewtwo|Psychic|p2a: Swalot
+2026-08-12 12:47:15,119 |-supereffective|p2a: Swalot
+2026-08-12 12:47:15,119 |-damage|p2a: Swalot|142/316
+2026-08-12 12:47:15,119 |-unboost|p2a: Swalot|spd|1
+2026-08-12 12:47:15,119 |move|p2a: Swalot|Yawn|p1a: Mewtwo
+2026-08-12 12:47:15,119 |-start|p1a: Mewtwo|move: Yawn|[of] p2a: Swalot
+2026-08-12 12:47:15,119 |
+2026-08-12 12:47:15,119 |-weather|none
+2026-08-12 12:47:15,119 |-heal|p2a: Swalot|161/316|[from] item: Leftovers
+2026-08-12 12:47:15,119 |upkeep
+2026-08-12 12:47:15,119 |turn|8
+2026-08-12 12:47:15,120 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,120 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"161/316","active":true,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:47:15,134 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,134 |
+2026-08-12 12:47:15,134 |t:|1786531635
+2026-08-12 12:47:15,134 |move|p1a: Mewtwo|Psychic|p2a: Swalot
+2026-08-12 12:47:15,134 |-supereffective|p2a: Swalot
+2026-08-12 12:47:15,134 |-damage|p2a: Swalot|0 fnt
+2026-08-12 12:47:15,134 |faint|p2a: Swalot
+2026-08-12 12:47:15,137 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,137 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":true,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":21}
+2026-08-12 12:47:15,152 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,152 |
+2026-08-12 12:47:15,152 |t:|1786531635
+2026-08-12 12:47:15,152 |switch|p2a: Mewtwo|Mewtwo, L66|250/250
+2026-08-12 12:47:15,152 |-ability|p2a: Mewtwo|Pressure|[silent]
+2026-08-12 12:47:15,152 |
+2026-08-12 12:47:15,152 |-end|p1a: Mewtwo|move: Yawn|[silent]
+2026-08-12 12:47:15,152 |-status|p1a: Mewtwo|slp
+2026-08-12 12:47:15,152 |upkeep
+2026-08-12 12:47:15,152 |turn|9
+2026-08-12 12:47:15,152 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,152 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:47:15,167 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,167 |
+2026-08-12 12:47:15,167 |t:|1786531635
+2026-08-12 12:47:15,167 |move|p2a: Mewtwo|Recover||[still]
+2026-08-12 12:47:15,167 |-fail|p2a: Mewtwo|heal
+2026-08-12 12:47:15,167 |cant|p1a: Mewtwo|slp
+2026-08-12 12:47:15,167 |
+2026-08-12 12:47:15,167 |upkeep
+2026-08-12 12:47:15,167 |turn|10
+2026-08-12 12:47:15,167 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,167 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:47:15,189 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,189 |
+2026-08-12 12:47:15,189 |t:|1786531635
+2026-08-12 12:47:15,189 |-curestatus|p1a: Mewtwo|slp|[msg]
+2026-08-12 12:47:15,189 |move|p1a: Mewtwo|Recover||[still]
+2026-08-12 12:47:15,189 |-fail|p1a: Mewtwo|heal
+2026-08-12 12:47:15,189 |move|p2a: Mewtwo|Psychic|p1a: Mewtwo
+2026-08-12 12:47:15,189 |-resisted|p1a: Mewtwo
+2026-08-12 12:47:15,189 |-damage|p1a: Mewtwo|77/100
+2026-08-12 12:47:15,189 |
+2026-08-12 12:47:15,189 |-heal|p1a: Mewtwo|83/100|[from] item: Leftovers
+2026-08-12 12:47:15,189 |upkeep
+2026-08-12 12:47:15,189 |turn|11
+2026-08-12 12:47:15,194 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,194 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"250/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:47:15,248 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,248 |
+2026-08-12 12:47:15,248 |t:|1786531635
+2026-08-12 12:47:15,248 |move|p1a: Mewtwo|Psychic|p2a: Mewtwo
+2026-08-12 12:47:15,248 |-resisted|p2a: Mewtwo
+2026-08-12 12:47:15,248 |-damage|p2a: Mewtwo|195/250
+2026-08-12 12:47:15,248 |move|p2a: Mewtwo|Flamethrower|p1a: Mewtwo
+2026-08-12 12:47:15,248 |-damage|p1a: Mewtwo|50/100
+2026-08-12 12:47:15,248 |
+2026-08-12 12:47:15,248 |-heal|p1a: Mewtwo|56/100|[from] item: Leftovers
+2026-08-12 12:47:15,248 |-heal|p2a: Mewtwo|210/250|[from] item: Leftovers
+2026-08-12 12:47:15,248 |upkeep
+2026-08-12 12:47:15,248 |turn|12
+2026-08-12 12:47:15,248 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,248 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"210/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:47:15,282 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,282 |
+2026-08-12 12:47:15,282 |t:|1786531635
+2026-08-12 12:47:15,282 |move|p1a: Mewtwo|Psychic|p2a: Mewtwo
+2026-08-12 12:47:15,282 |-resisted|p2a: Mewtwo
+2026-08-12 12:47:15,282 |-damage|p2a: Mewtwo|151/250
+2026-08-12 12:47:15,282 |move|p2a: Mewtwo|Psychic|p1a: Mewtwo
+2026-08-12 12:47:15,282 |-resisted|p1a: Mewtwo
+2026-08-12 12:47:15,282 |-damage|p1a: Mewtwo|36/100
+2026-08-12 12:47:15,282 |
+2026-08-12 12:47:15,282 |-heal|p2a: Mewtwo|166/250|[from] item: Leftovers
+2026-08-12 12:47:15,282 |-heal|p1a: Mewtwo|42/100|[from] item: Leftovers
+2026-08-12 12:47:15,282 |upkeep
+2026-08-12 12:47:15,282 |turn|13
+2026-08-12 12:47:15,283 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,283 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"166/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:47:15,321 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,321 |
+2026-08-12 12:47:15,321 |t:|1786531635
+2026-08-12 12:47:15,321 |move|p1a: Mewtwo|Flamethrower|p2a: Mewtwo
+2026-08-12 12:47:15,321 |-damage|p2a: Mewtwo|84/250
+2026-08-12 12:47:15,321 |move|p2a: Mewtwo|Flamethrower|p1a: Mewtwo
+2026-08-12 12:47:15,321 |-damage|p1a: Mewtwo|8/100
+2026-08-12 12:47:15,321 |
+2026-08-12 12:47:15,321 |-heal|p2a: Mewtwo|99/250|[from] item: Leftovers
+2026-08-12 12:47:15,321 |-heal|p1a: Mewtwo|14/100|[from] item: Leftovers
+2026-08-12 12:47:15,321 |upkeep
+2026-08-12 12:47:15,321 |turn|14
+2026-08-12 12:47:15,327 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,327 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"99/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:47:15,362 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,362 |
+2026-08-12 12:47:15,362 |t:|1786531635
+2026-08-12 12:47:15,362 |switch|p1a: Deoxys|Deoxys, L71|100/100
+2026-08-12 12:47:15,362 |move|p2a: Mewtwo|Psychic|p1a: Deoxys
+2026-08-12 12:47:15,362 |-resisted|p1a: Deoxys
+2026-08-12 12:47:15,362 |-damage|p1a: Deoxys|61/100
+2026-08-12 12:47:15,362 |-unboost|p1a: Deoxys|spd|1
+2026-08-12 12:47:15,362 |-enditem|p1a: Deoxys|White Herb
+2026-08-12 12:47:15,362 |-clearnegativeboost|p1a: Deoxys|[silent]
+2026-08-12 12:47:15,362 |
+2026-08-12 12:47:15,362 |-heal|p2a: Mewtwo|114/250|[from] item: Leftovers
+2026-08-12 12:47:15,362 |upkeep
+2026-08-12 12:47:15,362 |turn|15
+2026-08-12 12:47:15,362 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,362 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"114/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:47:15,396 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,396 |
+2026-08-12 12:47:15,396 |t:|1786531635
+2026-08-12 12:47:15,396 |move|p1a: Deoxys|Superpower|p2a: Mewtwo
+2026-08-12 12:47:15,396 |-resisted|p2a: Mewtwo
+2026-08-12 12:47:15,396 |-damage|p2a: Mewtwo|62/250
+2026-08-12 12:47:15,396 |-unboost|p1a: Deoxys|atk|1
+2026-08-12 12:47:15,396 |-unboost|p1a: Deoxys|def|1
+2026-08-12 12:47:15,396 |move|p2a: Mewtwo|Flamethrower|p1a: Deoxys
+2026-08-12 12:47:15,396 |-damage|p1a: Deoxys|5/100
+2026-08-12 12:47:15,396 |
+2026-08-12 12:47:15,396 |-heal|p2a: Mewtwo|77/250|[from] item: Leftovers
+2026-08-12 12:47:15,396 |upkeep
+2026-08-12 12:47:15,396 |turn|16
+2026-08-12 12:47:15,399 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,399 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"77/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:47:15,428 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,428 |
+2026-08-12 12:47:15,428 |t:|1786531635
+2026-08-12 12:47:15,428 |move|p1a: Deoxys|Extreme Speed|p2a: Mewtwo
+2026-08-12 12:47:15,428 |-damage|p2a: Mewtwo|27/250
+2026-08-12 12:47:15,428 |move|p2a: Mewtwo|Calm Mind|p2a: Mewtwo
+2026-08-12 12:47:15,428 |-boost|p2a: Mewtwo|spa|1
+2026-08-12 12:47:15,428 |-boost|p2a: Mewtwo|spd|1
+2026-08-12 12:47:15,428 |
+2026-08-12 12:47:15,428 |-heal|p2a: Mewtwo|42/250|[from] item: Leftovers
+2026-08-12 12:47:15,428 |upkeep
+2026-08-12 12:47:15,428 |turn|17
+2026-08-12 12:47:15,430 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,430 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"42/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:47:15,462 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,462 |
+2026-08-12 12:47:15,462 |t:|1786531635
+2026-08-12 12:47:15,462 |move|p1a: Deoxys|Psycho Boost|p2a: Mewtwo|[miss]
+2026-08-12 12:47:15,462 |-miss|p1a: Deoxys|p2a: Mewtwo
+2026-08-12 12:47:15,462 |move|p2a: Mewtwo|Recover|p2a: Mewtwo
+2026-08-12 12:47:15,462 |-heal|p2a: Mewtwo|167/250
+2026-08-12 12:47:15,462 |
+2026-08-12 12:47:15,462 |-heal|p2a: Mewtwo|182/250|[from] item: Leftovers
+2026-08-12 12:47:15,462 |upkeep
+2026-08-12 12:47:15,462 |turn|18
+2026-08-12 12:47:15,482 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,482 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"182/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:47:15,512 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,512 |
+2026-08-12 12:47:15,512 |t:|1786531635
+2026-08-12 12:47:15,512 |move|p1a: Deoxys|Psycho Boost|p2a: Mewtwo
+2026-08-12 12:47:15,512 |-resisted|p2a: Mewtwo
+2026-08-12 12:47:15,512 |-damage|p2a: Mewtwo|113/250
+2026-08-12 12:47:15,512 |-unboost|p1a: Deoxys|spa|2
+2026-08-12 12:47:15,512 |move|p2a: Mewtwo|Flamethrower|p1a: Deoxys
+2026-08-12 12:47:15,512 |-damage|p1a: Deoxys|0 fnt
+2026-08-12 12:47:15,512 |faint|p1a: Deoxys
+2026-08-12 12:47:15,513 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,513 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"113/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:47:15,568 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,568 |
+2026-08-12 12:47:15,568 |t:|1786531635
+2026-08-12 12:47:15,568 |switch|p1a: Sunflora|Sunflora, L99, M|100/100
+2026-08-12 12:47:15,568 |
+2026-08-12 12:47:15,568 |-heal|p2a: Mewtwo|128/250|[from] item: Leftovers
+2026-08-12 12:47:15,568 |upkeep
+2026-08-12 12:47:15,568 |turn|19
+2026-08-12 12:47:15,569 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,569 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"128/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 12:47:15,602 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,602 |
+2026-08-12 12:47:15,602 |t:|1786531635
+2026-08-12 12:47:15,602 |move|p2a: Mewtwo|Recover|p2a: Mewtwo
+2026-08-12 12:47:15,602 |-heal|p2a: Mewtwo|250/250
+2026-08-12 12:47:15,602 |move|p1a: Sunflora|Leech Seed|p2a: Mewtwo
+2026-08-12 12:47:15,602 |-start|p2a: Mewtwo|move: Leech Seed
+2026-08-12 12:47:15,602 |
+2026-08-12 12:47:15,602 |-damage|p2a: Mewtwo|219/250|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:15,602 |upkeep
+2026-08-12 12:47:15,603 |turn|20
+2026-08-12 12:47:15,607 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,607 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"219/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:47:15,642 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,642 |
+2026-08-12 12:47:15,642 |t:|1786531635
+2026-08-12 12:47:15,642 |move|p2a: Mewtwo|Psychic|p1a: Sunflora
+2026-08-12 12:47:15,642 |-damage|p1a: Sunflora|63/100
+2026-08-12 12:47:15,642 |move|p1a: Sunflora|Razor Leaf|p2a: Mewtwo
+2026-08-12 12:47:15,642 |-damage|p2a: Mewtwo|152/250
+2026-08-12 12:47:15,642 |
+2026-08-12 12:47:15,642 |-heal|p2a: Mewtwo|167/250|[from] item: Leftovers
+2026-08-12 12:47:15,642 |-damage|p2a: Mewtwo|136/250|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:15,642 |-heal|p1a: Sunflora|74/100|[silent]
+2026-08-12 12:47:15,642 |-heal|p1a: Sunflora|80/100|[from] item: Leftovers
+2026-08-12 12:47:15,642 |upkeep
+2026-08-12 12:47:15,642 |turn|21
+2026-08-12 12:47:15,646 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,646 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"136/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:47:15,671 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,671 |
+2026-08-12 12:47:15,671 |t:|1786531635
+2026-08-12 12:47:15,671 |move|p2a: Mewtwo|Recover|p2a: Mewtwo
+2026-08-12 12:47:15,671 |-heal|p2a: Mewtwo|250/250
+2026-08-12 12:47:15,671 |move|p1a: Sunflora|Hidden Power|p2a: Mewtwo
+2026-08-12 12:47:15,671 |-damage|p2a: Mewtwo|192/250
+2026-08-12 12:47:15,671 |
+2026-08-12 12:47:15,671 |-heal|p2a: Mewtwo|207/250|[from] item: Leftovers
+2026-08-12 12:47:15,671 |-damage|p2a: Mewtwo|176/250|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:15,671 |-heal|p1a: Sunflora|90/100|[silent]
+2026-08-12 12:47:15,671 |-heal|p1a: Sunflora|96/100|[from] item: Leftovers
+2026-08-12 12:47:15,671 |upkeep
+2026-08-12 12:47:15,671 |turn|22
+2026-08-12 12:47:15,671 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,671 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"176/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:47:15,696 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,696 |
+2026-08-12 12:47:15,696 |t:|1786531635
+2026-08-12 12:47:15,696 |switch|p1a: Mewtwo|Mewtwo, L66|14/100
+2026-08-12 12:47:15,696 |move|p2a: Mewtwo|Flamethrower|p1a: Mewtwo
+2026-08-12 12:47:15,696 |-crit|p1a: Mewtwo
+2026-08-12 12:47:15,696 |-damage|p1a: Mewtwo|0 fnt
+2026-08-12 12:47:15,696 |faint|p1a: Mewtwo
+2026-08-12 12:47:15,697 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,697 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"176/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:47:15,712 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,712 |
+2026-08-12 12:47:15,712 |t:|1786531635
+2026-08-12 12:47:15,712 |switch|p1a: Breloom|Breloom, L84, M|100/100
+2026-08-12 12:47:15,712 |
+2026-08-12 12:47:15,712 |-heal|p2a: Mewtwo|191/250|[from] item: Leftovers
+2026-08-12 12:47:15,712 |-damage|p2a: Mewtwo|160/250|[from] Leech Seed|[of] p1a: Breloom
+2026-08-12 12:47:15,712 |upkeep
+2026-08-12 12:47:15,712 |turn|23
+2026-08-12 12:47:15,712 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,712 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":14,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"160/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:47:15,740 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,740 |
+2026-08-12 12:47:15,740 |t:|1786531635
+2026-08-12 12:47:15,740 |move|p1a: Breloom|Mach Punch|p2a: Mewtwo
+2026-08-12 12:47:15,740 |-resisted|p2a: Mewtwo
+2026-08-12 12:47:15,740 |-damage|p2a: Mewtwo|126/250
+2026-08-12 12:47:15,740 |move|p2a: Mewtwo|Flamethrower|p1a: Breloom
+2026-08-12 12:47:15,740 |-supereffective|p1a: Breloom
+2026-08-12 12:47:15,740 |-damage|p1a: Breloom|5/100
+2026-08-12 12:47:15,740 |
+2026-08-12 12:47:15,740 |-heal|p2a: Mewtwo|141/250|[from] item: Leftovers
+2026-08-12 12:47:15,740 |-damage|p2a: Mewtwo|110/250|[from] Leech Seed|[of] p1a: Breloom
+2026-08-12 12:47:15,740 |-heal|p1a: Breloom|18/100|[silent]
+2026-08-12 12:47:15,740 |-heal|p1a: Breloom|24/100|[from] item: Leftovers
+2026-08-12 12:47:15,740 |upkeep
+2026-08-12 12:47:15,740 |turn|24
+2026-08-12 12:47:15,742 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,742 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":13,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"110/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:47:15,764 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,764 |
+2026-08-12 12:47:15,764 |t:|1786531635
+2026-08-12 12:47:15,764 |move|p1a: Breloom|Mach Punch|p2a: Mewtwo
+2026-08-12 12:47:15,764 |-resisted|p2a: Mewtwo
+2026-08-12 12:47:15,764 |-damage|p2a: Mewtwo|78/250
+2026-08-12 12:47:15,764 |move|p2a: Mewtwo|Flamethrower|p1a: Breloom
+2026-08-12 12:47:15,764 |-supereffective|p1a: Breloom
+2026-08-12 12:47:15,765 |-damage|p1a: Breloom|0 fnt
+2026-08-12 12:47:15,765 |faint|p1a: Breloom
+2026-08-12 12:47:15,768 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,768 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"78/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:47:15,784 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,784 |
+2026-08-12 12:47:15,784 |t:|1786531635
+2026-08-12 12:47:15,784 |switch|p1a: Sunflora|Sunflora, L99, M|96/100
+2026-08-12 12:47:15,784 |
+2026-08-12 12:47:15,784 |-heal|p2a: Mewtwo|93/250|[from] item: Leftovers
+2026-08-12 12:47:15,784 |-damage|p2a: Mewtwo|62/250|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:15,784 |-heal|p1a: Sunflora|100/100|[silent]
+2026-08-12 12:47:15,784 |upkeep
+2026-08-12 12:47:15,784 |turn|25
+2026-08-12 12:47:15,784 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,784 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":12,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"62/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:47:15,813 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,813 |
+2026-08-12 12:47:15,813 |t:|1786531635
+2026-08-12 12:47:15,813 |move|p2a: Mewtwo|Psychic|p1a: Sunflora
+2026-08-12 12:47:15,813 |-damage|p1a: Sunflora|63/100
+2026-08-12 12:47:15,813 |move|p1a: Sunflora|Synthesis|p1a: Sunflora
+2026-08-12 12:47:15,813 |-heal|p1a: Sunflora|100/100
+2026-08-12 12:47:15,813 |
+2026-08-12 12:47:15,813 |-heal|p2a: Mewtwo|77/250|[from] item: Leftovers
+2026-08-12 12:47:15,813 |-damage|p2a: Mewtwo|46/250|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:15,813 |upkeep
+2026-08-12 12:47:15,813 |turn|26
+2026-08-12 12:47:15,814 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,814 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":12,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"46/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:47:15,834 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,835 |
+2026-08-12 12:47:15,835 |t:|1786531635
+2026-08-12 12:47:15,835 |switch|p1a: Charizard|Charizard, L79, M|100/100
+2026-08-12 12:47:15,835 |move|p2a: Mewtwo|Calm Mind|p2a: Mewtwo
+2026-08-12 12:47:15,835 |-boost|p2a: Mewtwo|spa|1
+2026-08-12 12:47:15,835 |-boost|p2a: Mewtwo|spd|1
+2026-08-12 12:47:15,835 |
+2026-08-12 12:47:15,835 |-heal|p2a: Mewtwo|61/250|[from] item: Leftovers
+2026-08-12 12:47:15,835 |-damage|p2a: Mewtwo|30/250|[from] Leech Seed|[of] p1a: Charizard
+2026-08-12 12:47:15,835 |upkeep
+2026-08-12 12:47:15,835 |turn|27
+2026-08-12 12:47:15,835 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,835 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":12,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"30/250","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:47:15,866 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,866 |
+2026-08-12 12:47:15,866 |t:|1786531635
+2026-08-12 12:47:15,866 |move|p2a: Mewtwo|Calm Mind|p2a: Mewtwo
+2026-08-12 12:47:15,866 |-boost|p2a: Mewtwo|spa|1
+2026-08-12 12:47:15,866 |-boost|p2a: Mewtwo|spd|1
+2026-08-12 12:47:15,866 |move|p1a: Charizard|Earthquake|p2a: Mewtwo
+2026-08-12 12:47:15,866 |-damage|p2a: Mewtwo|0 fnt
+2026-08-12 12:47:15,866 |faint|p2a: Mewtwo
+2026-08-12 12:47:15,868 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,869 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":true,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":67}
+2026-08-12 12:47:15,888 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,888 |
+2026-08-12 12:47:15,888 |t:|1786531635
+2026-08-12 12:47:15,888 |switch|p2a: Smeargle|Smeargle, L89, M|243/243
+2026-08-12 12:47:15,888 |
+2026-08-12 12:47:15,888 |upkeep
+2026-08-12 12:47:15,888 |turn|28
+2026-08-12 12:47:15,891 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,891 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"243/243","active":true,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:47:15,910 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,910 |
+2026-08-12 12:47:15,910 |t:|1786531635
+2026-08-12 12:47:15,910 |move|p1a: Charizard|Hidden Power|p2a: Smeargle
+2026-08-12 12:47:15,910 |-damage|p2a: Smeargle|148/243
+2026-08-12 12:47:15,910 |move|p2a: Smeargle|Spore|p1a: Charizard
+2026-08-12 12:47:15,910 |-status|p1a: Charizard|slp|[from] move: Spore
+2026-08-12 12:47:15,910 |
+2026-08-12 12:47:15,910 |-heal|p2a: Smeargle|163/243|[from] item: Leftovers
+2026-08-12 12:47:15,910 |upkeep
+2026-08-12 12:47:15,910 |turn|29
+2026-08-12 12:47:15,911 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,911 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spore","id":"spore","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"163/243","active":true,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:47:15,935 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,935 |
+2026-08-12 12:47:15,935 |t:|1786531635
+2026-08-12 12:47:15,935 |cant|p1a: Charizard|slp
+2026-08-12 12:47:15,935 |move|p2a: Smeargle|Encore|p1a: Charizard
+2026-08-12 12:47:15,935 |-start|p1a: Charizard|Encore
+2026-08-12 12:47:15,935 |
+2026-08-12 12:47:15,936 |-heal|p2a: Smeargle|178/243|[from] item: Leftovers
+2026-08-12 12:47:15,936 |upkeep
+2026-08-12 12:47:15,936 |turn|30
+2026-08-12 12:47:15,936 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,936 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spore","id":"spore","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"178/243","active":true,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:47:15,952 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,952 |
+2026-08-12 12:47:15,952 |t:|1786531635
+2026-08-12 12:47:15,952 |cant|p1a: Charizard|slp
+2026-08-12 12:47:15,952 |move|p2a: Smeargle|Explosion|p1a: Charizard
+2026-08-12 12:47:15,952 |-damage|p1a: Charizard|1/100 slp
+2026-08-12 12:47:15,952 |faint|p2a: Smeargle
+2026-08-12 12:47:15,956 >battle-gen3randombattle-321279
+2026-08-12 12:47:15,956 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":true,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":false,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":75}
+2026-08-12 12:47:16,001 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,001 |
+2026-08-12 12:47:16,001 |t:|1786531635
+2026-08-12 12:47:16,001 |switch|p2a: Grumpig|Grumpig, L83, F|268/268
+2026-08-12 12:47:16,001 |
+2026-08-12 12:47:16,001 |-enditem|p1a: Charizard|Salac Berry|[eat]
+2026-08-12 12:47:16,001 |-boost|p1a: Charizard|spe|1|[from] item: Salac Berry
+2026-08-12 12:47:16,001 |upkeep
+2026-08-12 12:47:16,001 |turn|31
+2026-08-12 12:47:16,003 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,003 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:47:16,065 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,065 |
+2026-08-12 12:47:16,065 |t:|1786531636
+2026-08-12 12:47:16,065 |cant|p1a: Charizard|slp
+2026-08-12 12:47:16,065 |move|p2a: Grumpig|Hidden Power|p1a: Charizard
+2026-08-12 12:47:16,065 |-damage|p1a: Charizard|0 fnt
+2026-08-12 12:47:16,065 |faint|p1a: Charizard
+2026-08-12 12:47:16,069 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,069 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:47:16,106 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,106 |
+2026-08-12 12:47:16,106 |t:|1786531636
+2026-08-12 12:47:16,106 |switch|p1a: Sunflora|Sunflora, L99, M|100/100
+2026-08-12 12:47:16,106 |
+2026-08-12 12:47:16,106 |upkeep
+2026-08-12 12:47:16,106 |turn|32
+2026-08-12 12:47:16,106 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,106 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"268/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:47:16,169 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,169 |
+2026-08-12 12:47:16,169 |t:|1786531636
+2026-08-12 12:47:16,169 |move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+2026-08-12 12:47:16,169 |-boost|p2a: Grumpig|spa|1
+2026-08-12 12:47:16,169 |-boost|p2a: Grumpig|spd|1
+2026-08-12 12:47:16,169 |move|p1a: Sunflora|Razor Leaf|p2a: Grumpig
+2026-08-12 12:47:16,169 |-crit|p2a: Grumpig
+2026-08-12 12:47:16,169 |-damage|p2a: Grumpig|116/268
+2026-08-12 12:47:16,169 |
+2026-08-12 12:47:16,169 |-heal|p2a: Grumpig|132/268|[from] item: Leftovers
+2026-08-12 12:47:16,169 |upkeep
+2026-08-12 12:47:16,169 |turn|33
+2026-08-12 12:47:16,172 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,172 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"132/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 12:47:16,210 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,210 |
+2026-08-12 12:47:16,210 |t:|1786531636
+2026-08-12 12:47:16,210 |move|p2a: Grumpig|Psychic|p1a: Sunflora
+2026-08-12 12:47:16,210 |-damage|p1a: Sunflora|63/100
+2026-08-12 12:47:16,210 |move|p1a: Sunflora|Synthesis|p1a: Sunflora
+2026-08-12 12:47:16,210 |-heal|p1a: Sunflora|100/100
+2026-08-12 12:47:16,210 |
+2026-08-12 12:47:16,210 |-heal|p2a: Grumpig|148/268|[from] item: Leftovers
+2026-08-12 12:47:16,210 |upkeep
+2026-08-12 12:47:16,210 |turn|34
+2026-08-12 12:47:16,210 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,210 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"148/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:47:16,247 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,247 |
+2026-08-12 12:47:16,247 |t:|1786531636
+2026-08-12 12:47:16,247 |move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+2026-08-12 12:47:16,247 |-boost|p2a: Grumpig|spa|1
+2026-08-12 12:47:16,247 |-boost|p2a: Grumpig|spd|1
+2026-08-12 12:47:16,247 |move|p1a: Sunflora|Leech Seed|p2a: Grumpig
+2026-08-12 12:47:16,247 |-start|p2a: Grumpig|move: Leech Seed
+2026-08-12 12:47:16,247 |
+2026-08-12 12:47:16,247 |-heal|p2a: Grumpig|164/268|[from] item: Leftovers
+2026-08-12 12:47:16,247 |-damage|p2a: Grumpig|131/268|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:16,247 |upkeep
+2026-08-12 12:47:16,247 |turn|35
+2026-08-12 12:47:16,247 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,247 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"131/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:47:16,321 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,321 |
+2026-08-12 12:47:16,321 |t:|1786531636
+2026-08-12 12:47:16,321 |move|p2a: Grumpig|Hidden Power|p1a: Sunflora
+2026-08-12 12:47:16,321 |-damage|p1a: Sunflora|73/100
+2026-08-12 12:47:16,321 |move|p1a: Sunflora|Hidden Power|p2a: Grumpig
+2026-08-12 12:47:16,321 |-damage|p2a: Grumpig|116/268
+2026-08-12 12:47:16,321 |
+2026-08-12 12:47:16,321 |-heal|p2a: Grumpig|132/268|[from] item: Leftovers
+2026-08-12 12:47:16,321 |-damage|p2a: Grumpig|99/268|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:16,321 |-heal|p1a: Sunflora|83/100|[silent]
+2026-08-12 12:47:16,321 |-heal|p1a: Sunflora|89/100|[from] item: Leftovers
+2026-08-12 12:47:16,321 |upkeep
+2026-08-12 12:47:16,321 |turn|36
+2026-08-12 12:47:16,329 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,329 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"99/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:47:16,390 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,390 |
+2026-08-12 12:47:16,390 |t:|1786531636
+2026-08-12 12:47:16,390 |move|p2a: Grumpig|Fire Punch|p1a: Sunflora
+2026-08-12 12:47:16,390 |-supereffective|p1a: Sunflora
+2026-08-12 12:47:16,390 |-damage|p1a: Sunflora|34/100
+2026-08-12 12:47:16,390 |move|p1a: Sunflora|Synthesis|p1a: Sunflora
+2026-08-12 12:47:16,391 |-heal|p1a: Sunflora|84/100
+2026-08-12 12:47:16,391 |
+2026-08-12 12:47:16,391 |-heal|p2a: Grumpig|115/268|[from] item: Leftovers
+2026-08-12 12:47:16,391 |-damage|p2a: Grumpig|82/268|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:16,391 |-heal|p1a: Sunflora|95/100|[silent]
+2026-08-12 12:47:16,391 |-heal|p1a: Sunflora|100/100|[from] item: Leftovers
+2026-08-12 12:47:16,391 |upkeep
+2026-08-12 12:47:16,391 |turn|37
+2026-08-12 12:47:16,396 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,396 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"82/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 12:47:16,430 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,430 |
+2026-08-12 12:47:16,430 |t:|1786531636
+2026-08-12 12:47:16,430 |move|p2a: Grumpig|Calm Mind|p2a: Grumpig
+2026-08-12 12:47:16,430 |-boost|p2a: Grumpig|spa|1
+2026-08-12 12:47:16,430 |-boost|p2a: Grumpig|spd|1
+2026-08-12 12:47:16,430 |move|p1a: Sunflora|Razor Leaf|p2a: Grumpig
+2026-08-12 12:47:16,430 |-damage|p2a: Grumpig|54/268
+2026-08-12 12:47:16,430 |
+2026-08-12 12:47:16,430 |-heal|p2a: Grumpig|70/268|[from] item: Leftovers
+2026-08-12 12:47:16,430 |-damage|p2a: Grumpig|37/268|[from] Leech Seed|[of] p1a: Sunflora
+2026-08-12 12:47:16,430 |upkeep
+2026-08-12 12:47:16,431 |turn|38
+2026-08-12 12:47:16,437 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,437 |request|{"active":[{"moves":[{"move":"Hidden Power Dark 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Grumpig","details":"Grumpig, L83, F","condition":"37/268","active":true,"stats":{"atk":82,"def":156,"spa":197,"spd":230,"spe":180},"moves":["hiddenpowerdark","psychic","firepunch","calmmind"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["steelwing","silverwind","hiddenpowerground","swordsdance"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Kingdra","details":"Kingdra, L81, F","condition":"0 fnt","active":false,"stats":{"atk":160,"def":201,"spa":200,"spd":201,"spe":184},"moves":["raindance","hiddenpowergrass","surf","icebeam"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":177,"spd":194,"spe":145},"moves":["shadowball","yawn","icebeam","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L89, M","condition":"0 fnt","active":false,"stats":{"atk":86,"def":113,"spa":86,"spd":131,"spe":184},"moves":["spikes","spore","explosion","encore"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L66","condition":"0 fnt","active":false,"stats":{"atk":150,"def":158,"spa":242,"spd":158,"spe":210},"moves":["recover","psychic","flamethrower","calmmind"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:47:16,490 >battle-gen3randombattle-321279
+2026-08-12 12:47:16,490 |
+2026-08-12 12:47:16,490 |t:|1786531636
+2026-08-12 12:47:16,490 |move|p2a: Grumpig|Fire Punch|p1a: Sunflora
+2026-08-12 12:47:16,490 |-supereffective|p1a: Sunflora
+2026-08-12 12:47:16,490 |-crit|p1a: Sunflora
+2026-08-12 12:47:16,490 |-damage|p1a: Sunflora|0 fnt
+2026-08-12 12:47:16,490 |faint|p1a: Sunflora
+2026-08-12 12:47:16,490 |
+2026-08-12 12:47:16,490 |win|BOT4

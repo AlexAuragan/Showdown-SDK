@@ -1,0 +1,972 @@
+2026-08-13 04:53:06,561 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,562 |init|battle
+2026-08-13 04:53:06,562 |title|BOT1 vs. BOT2
+2026-08-13 04:53:06,562 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-337787">battle-gen3randombattle-337787</a>&raquo;
+2026-08-13 04:53:06,608 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,609 |t:|1786589586
+2026-08-13 04:53:06,609 |gametype|singles
+2026-08-13 04:53:06,611 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,612 |player|p1|BOT1|101|
+2026-08-13 04:53:06,612 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,612 |player|p2|BOT2|169|
+2026-08-13 04:53:06,612 |gen|3
+2026-08-13 04:53:06,612 |tier|[Gen 3] Random Battle
+2026-08-13 04:53:06,612 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-13 04:53:06,612 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-13 04:53:06,612 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-13 04:53:06,612 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-13 04:53:06,612 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-13 04:53:06,612 |rule|Species Clause: Limit one of each Pokémon
+2026-08-13 04:53:06,612 |rule|OHKO Clause: OHKO moves are banned
+2026-08-13 04:53:06,612 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-13 04:53:06,612 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-13 04:53:06,612 |
+2026-08-13 04:53:06,612 |t:|1786589586
+2026-08-13 04:53:06,612 |teamsize|p1|6
+2026-08-13 04:53:06,612 |teamsize|p2|6
+2026-08-13 04:53:06,612 |start
+2026-08-13 04:53:06,612 |switch|p1a: Spinda|Spinda, M|100/100
+2026-08-13 04:53:06,612 |switch|p2a: Shedinja|Shedinja|1/1
+2026-08-13 04:53:06,612 |turn|1
+2026-08-13 04:53:06,613 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,613 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":3}
+2026-08-13 04:53:06,657 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,657 |
+2026-08-13 04:53:06,657 |t:|1786589586
+2026-08-13 04:53:06,657 |move|p1a: Spinda|Seismic Toss|p2a: Shedinja
+2026-08-13 04:53:06,658 |-immune|p2a: Shedinja|[from] ability: Wonder Guard
+2026-08-13 04:53:06,658 |move|p2a: Shedinja|Shadow Ball|p1a: Spinda
+2026-08-13 04:53:06,658 |-immune|p1a: Spinda
+2026-08-13 04:53:06,658 |
+2026-08-13 04:53:06,658 |upkeep
+2026-08-13 04:53:06,658 |turn|2
+2026-08-13 04:53:06,660 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,660 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":5}
+2026-08-13 04:53:06,700 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,700 |
+2026-08-13 04:53:06,700 |t:|1786589586
+2026-08-13 04:53:06,700 |move|p1a: Spinda|Protect|p1a: Spinda
+2026-08-13 04:53:06,700 |-singleturn|p1a: Spinda|Protect
+2026-08-13 04:53:06,700 |move|p2a: Shedinja|Shadow Ball|p1a: Spinda
+2026-08-13 04:53:06,700 |-activate|p1a: Spinda|Protect
+2026-08-13 04:53:06,700 |
+2026-08-13 04:53:06,700 |upkeep
+2026-08-13 04:53:06,701 |turn|3
+2026-08-13 04:53:06,704 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,704 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":7}
+2026-08-13 04:53:06,744 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,744 |
+2026-08-13 04:53:06,744 |t:|1786589586
+2026-08-13 04:53:06,744 |move|p1a: Spinda|Toxic|p2a: Shedinja
+2026-08-13 04:53:06,744 |-status|p2a: Shedinja|tox
+2026-08-13 04:53:06,744 |-enditem|p2a: Shedinja|Lum Berry|[eat]
+2026-08-13 04:53:06,744 |-curestatus|p2a: Shedinja|tox|[msg]
+2026-08-13 04:53:06,744 |move|p2a: Shedinja|Hidden Power|p1a: Spinda
+2026-08-13 04:53:06,744 |-supereffective|p1a: Spinda
+2026-08-13 04:53:06,744 |-damage|p1a: Spinda|49/100
+2026-08-13 04:53:06,744 |
+2026-08-13 04:53:06,744 |-heal|p1a: Spinda|55/100|[from] item: Leftovers
+2026-08-13 04:53:06,744 |upkeep
+2026-08-13 04:53:06,744 |turn|4
+2026-08-13 04:53:06,746 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,746 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":9}
+2026-08-13 04:53:06,778 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,778 |
+2026-08-13 04:53:06,778 |t:|1786589586
+2026-08-13 04:53:06,778 |move|p1a: Spinda|Encore|p2a: Shedinja
+2026-08-13 04:53:06,778 |-start|p2a: Shedinja|Encore
+2026-08-13 04:53:06,778 |move|p2a: Shedinja|Hidden Power|p1a: Spinda
+2026-08-13 04:53:06,778 |-supereffective|p1a: Spinda
+2026-08-13 04:53:06,778 |-damage|p1a: Spinda|6/100
+2026-08-13 04:53:06,778 |
+2026-08-13 04:53:06,778 |-heal|p1a: Spinda|12/100|[from] item: Leftovers
+2026-08-13 04:53:06,778 |upkeep
+2026-08-13 04:53:06,778 |turn|5
+2026-08-13 04:53:06,781 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,781 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":11}
+2026-08-13 04:53:06,829 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,829 |
+2026-08-13 04:53:06,829 |t:|1786589586
+2026-08-13 04:53:06,829 |move|p1a: Spinda|Protect|p1a: Spinda
+2026-08-13 04:53:06,829 |-singleturn|p1a: Spinda|Protect
+2026-08-13 04:53:06,829 |move|p2a: Shedinja|Hidden Power|p1a: Spinda
+2026-08-13 04:53:06,829 |-activate|p1a: Spinda|Protect
+2026-08-13 04:53:06,829 |
+2026-08-13 04:53:06,829 |-heal|p1a: Spinda|18/100|[from] item: Leftovers
+2026-08-13 04:53:06,829 |upkeep
+2026-08-13 04:53:06,829 |turn|6
+2026-08-13 04:53:06,833 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,833 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":13}
+2026-08-13 04:53:06,885 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,885 |
+2026-08-13 04:53:06,885 |t:|1786589586
+2026-08-13 04:53:06,885 |move|p1a: Spinda|Toxic|p2a: Shedinja
+2026-08-13 04:53:06,885 |-status|p2a: Shedinja|tox
+2026-08-13 04:53:06,885 |move|p2a: Shedinja|Hidden Power|p1a: Spinda
+2026-08-13 04:53:06,885 |-supereffective|p1a: Spinda
+2026-08-13 04:53:06,885 |-damage|p1a: Spinda|0 fnt
+2026-08-13 04:53:06,885 |faint|p1a: Spinda
+2026-08-13 04:53:06,895 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,895 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"1/1 tox","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"rqid":15}
+2026-08-13 04:53:06,934 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,934 |
+2026-08-13 04:53:06,934 |t:|1786589586
+2026-08-13 04:53:06,934 |switch|p1a: Togetic|Togetic, L97, F|100/100
+2026-08-13 04:53:06,934 |
+2026-08-13 04:53:06,935 |-damage|p2a: Shedinja|0 fnt|[from] psn
+2026-08-13 04:53:06,935 |faint|p2a: Shedinja
+2026-08-13 04:53:06,935 |upkeep
+2026-08-13 04:53:06,938 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,938 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":true,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":17}
+2026-08-13 04:53:06,982 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,982 |
+2026-08-13 04:53:06,982 |t:|1786589586
+2026-08-13 04:53:06,982 |switch|p2a: Nidoking|Nidoking, L82, M|267/267
+2026-08-13 04:53:06,983 |turn|7
+2026-08-13 04:53:06,987 >battle-gen3randombattle-337787
+2026-08-13 04:53:06,987 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":19}
+2026-08-13 04:53:07,057 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,057 |
+2026-08-13 04:53:07,057 |t:|1786589587
+2026-08-13 04:53:07,057 |switch|p2a: Deoxys|Deoxys, L71|188/188
+2026-08-13 04:53:07,057 |-ability|p2a: Deoxys|Pressure|[silent]
+2026-08-13 04:53:07,057 |switch|p1a: Shuckle|Shuckle, L98, M|100/100
+2026-08-13 04:53:07,057 |
+2026-08-13 04:53:07,057 |upkeep
+2026-08-13 04:53:07,057 |turn|8
+2026-08-13 04:53:07,061 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,061 |request|{"active":[{"moves":[{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":21}
+2026-08-13 04:53:07,120 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,120 |
+2026-08-13 04:53:07,121 |t:|1786589587
+2026-08-13 04:53:07,121 |switch|p2a: Tropius|Tropius, L95, M|341/341
+2026-08-13 04:53:07,121 |move|p1a: Shuckle|Encore||[still]
+2026-08-13 04:53:07,121 |-fail|p1a: Shuckle
+2026-08-13 04:53:07,121 |
+2026-08-13 04:53:07,121 |upkeep
+2026-08-13 04:53:07,121 |turn|9
+2026-08-13 04:53:07,126 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,126 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":23}
+2026-08-13 04:53:07,225 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,225 |
+2026-08-13 04:53:07,225 |t:|1786589587
+2026-08-13 04:53:07,225 |move|p2a: Tropius|Hidden Power|p1a: Shuckle
+2026-08-13 04:53:07,225 |-damage|p1a: Shuckle|85/100
+2026-08-13 04:53:07,225 |move|p1a: Shuckle|Rest|p1a: Shuckle
+2026-08-13 04:53:07,225 |-status|p1a: Shuckle|slp|[from] move: Rest
+2026-08-13 04:53:07,225 |-heal|p1a: Shuckle|100/100 slp|[silent]
+2026-08-13 04:53:07,225 |
+2026-08-13 04:53:07,225 |upkeep
+2026-08-13 04:53:07,225 |turn|10
+2026-08-13 04:53:07,228 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,229 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":25}
+2026-08-13 04:53:07,401 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,401 |
+2026-08-13 04:53:07,401 |t:|1786589587
+2026-08-13 04:53:07,401 |move|p2a: Tropius|Hidden Power|p1a: Shuckle
+2026-08-13 04:53:07,401 |-crit|p1a: Shuckle
+2026-08-13 04:53:07,401 |-damage|p1a: Shuckle|69/100 slp
+2026-08-13 04:53:07,401 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:07,401 |
+2026-08-13 04:53:07,401 |-heal|p1a: Shuckle|75/100 slp|[from] item: Leftovers
+2026-08-13 04:53:07,401 |upkeep
+2026-08-13 04:53:07,401 |turn|11
+2026-08-13 04:53:07,412 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,412 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":27}
+2026-08-13 04:53:07,499 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,499 |
+2026-08-13 04:53:07,499 |t:|1786589587
+2026-08-13 04:53:07,499 |move|p2a: Tropius|Synthesis|p2a: Tropius
+2026-08-13 04:53:07,499 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:07,499 |
+2026-08-13 04:53:07,499 |-heal|p1a: Shuckle|81/100 slp|[from] item: Leftovers
+2026-08-13 04:53:07,499 |upkeep
+2026-08-13 04:53:07,499 |turn|12
+2026-08-13 04:53:07,500 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,501 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"341/341","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":29}
+2026-08-13 04:53:07,584 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,584 |
+2026-08-13 04:53:07,584 |t:|1786589587
+2026-08-13 04:53:07,584 |move|p2a: Tropius|Hidden Power|p1a: Shuckle
+2026-08-13 04:53:07,584 |-damage|p1a: Shuckle|66/100 slp
+2026-08-13 04:53:07,584 |-curestatus|p1a: Shuckle|slp|[msg]
+2026-08-13 04:53:07,584 |move|p1a: Shuckle|Toxic|p2a: Tropius
+2026-08-13 04:53:07,584 |-status|p2a: Tropius|tox
+2026-08-13 04:53:07,584 |
+2026-08-13 04:53:07,584 |-damage|p2a: Tropius|320/341 tox|[from] psn
+2026-08-13 04:53:07,584 |-heal|p1a: Shuckle|72/100|[from] item: Leftovers
+2026-08-13 04:53:07,584 |upkeep
+2026-08-13 04:53:07,584 |turn|13
+2026-08-13 04:53:07,588 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,588 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"320/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":31}
+2026-08-13 04:53:07,761 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,761 |
+2026-08-13 04:53:07,761 |t:|1786589587
+2026-08-13 04:53:07,761 |move|p2a: Tropius|Swords Dance|p2a: Tropius
+2026-08-13 04:53:07,761 |-boost|p2a: Tropius|atk|2
+2026-08-13 04:53:07,761 |move|p1a: Shuckle|Rest|p1a: Shuckle
+2026-08-13 04:53:07,761 |-status|p1a: Shuckle|slp|[from] move: Rest
+2026-08-13 04:53:07,761 |-heal|p1a: Shuckle|100/100 slp|[silent]
+2026-08-13 04:53:07,761 |
+2026-08-13 04:53:07,761 |-heal|p2a: Tropius|341/341 tox|[from] item: Leftovers
+2026-08-13 04:53:07,761 |-damage|p2a: Tropius|299/341 tox|[from] psn
+2026-08-13 04:53:07,761 |upkeep
+2026-08-13 04:53:07,761 |turn|14
+2026-08-13 04:53:07,767 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,767 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"299/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":33}
+2026-08-13 04:53:07,833 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,833 |
+2026-08-13 04:53:07,833 |t:|1786589587
+2026-08-13 04:53:07,833 |move|p2a: Tropius|Swords Dance|p2a: Tropius
+2026-08-13 04:53:07,833 |-boost|p2a: Tropius|atk|2
+2026-08-13 04:53:07,833 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:07,833 |
+2026-08-13 04:53:07,833 |-heal|p2a: Tropius|320/341 tox|[from] item: Leftovers
+2026-08-13 04:53:07,833 |-damage|p2a: Tropius|257/341 tox|[from] psn
+2026-08-13 04:53:07,833 |upkeep
+2026-08-13 04:53:07,833 |turn|15
+2026-08-13 04:53:07,844 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,844 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":35}
+2026-08-13 04:53:07,967 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,967 |
+2026-08-13 04:53:07,967 |t:|1786589587
+2026-08-13 04:53:07,967 |switch|p2a: Deoxys|Deoxys, L71|188/188
+2026-08-13 04:53:07,967 |-ability|p2a: Deoxys|Pressure|[silent]
+2026-08-13 04:53:07,967 |switch|p1a: Victreebel|Victreebel, L85, M|100/100
+2026-08-13 04:53:07,967 |
+2026-08-13 04:53:07,967 |upkeep
+2026-08-13 04:53:07,967 |turn|16
+2026-08-13 04:53:07,972 >battle-gen3randombattle-337787
+2026-08-13 04:53:07,972 |request|{"active":[{"moves":[{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":37}
+2026-08-13 04:53:08,137 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,137 |
+2026-08-13 04:53:08,137 |t:|1786589588
+2026-08-13 04:53:08,137 |move|p2a: Deoxys|Superpower|p1a: Victreebel
+2026-08-13 04:53:08,137 |-resisted|p1a: Victreebel
+2026-08-13 04:53:08,137 |-damage|p1a: Victreebel|83/100
+2026-08-13 04:53:08,137 |-unboost|p2a: Deoxys|atk|1
+2026-08-13 04:53:08,137 |-unboost|p2a: Deoxys|def|1
+2026-08-13 04:53:08,137 |-enditem|p2a: Deoxys|White Herb
+2026-08-13 04:53:08,137 |-clearnegativeboost|p2a: Deoxys|[silent]
+2026-08-13 04:53:08,137 |move|p1a: Victreebel|Solar Beam||[still]
+2026-08-13 04:53:08,137 |-prepare|p1a: Victreebel|Solar Beam
+2026-08-13 04:53:08,137 |
+2026-08-13 04:53:08,137 |-heal|p1a: Victreebel|89/100|[from] item: Leftovers
+2026-08-13 04:53:08,137 |upkeep
+2026-08-13 04:53:08,137 |turn|17
+2026-08-13 04:53:08,141 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,142 |request|{"active":[{"moves":[{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"262/262","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":39}
+2026-08-13 04:53:08,204 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,204 |
+2026-08-13 04:53:08,204 |t:|1786589588
+2026-08-13 04:53:08,204 |switch|p2a: Blaziken|Blaziken, L81, M|262/262
+2026-08-13 04:53:08,204 |move|p1a: Victreebel|Solar Beam|p2a: Blaziken|[from] lockedmove
+2026-08-13 04:53:08,204 |-resisted|p2a: Blaziken
+2026-08-13 04:53:08,204 |-damage|p2a: Blaziken|184/262
+2026-08-13 04:53:08,204 |
+2026-08-13 04:53:08,204 |-heal|p1a: Victreebel|95/100|[from] item: Leftovers
+2026-08-13 04:53:08,204 |upkeep
+2026-08-13 04:53:08,204 |turn|18
+2026-08-13 04:53:08,209 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,209 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"184/262","active":true,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":41}
+2026-08-13 04:53:08,253 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,253 |
+2026-08-13 04:53:08,253 |t:|1786589588
+2026-08-13 04:53:08,253 |move|p2a: Blaziken|Fire Blast|p1a: Victreebel|[miss]
+2026-08-13 04:53:08,253 |-miss|p2a: Blaziken|p1a: Victreebel
+2026-08-13 04:53:08,253 |move|p1a: Victreebel|Solar Beam||[still]
+2026-08-13 04:53:08,253 |-prepare|p1a: Victreebel|Solar Beam
+2026-08-13 04:53:08,253 |
+2026-08-13 04:53:08,253 |-heal|p1a: Victreebel|100/100|[from] item: Leftovers
+2026-08-13 04:53:08,253 |upkeep
+2026-08-13 04:53:08,253 |turn|19
+2026-08-13 04:53:08,256 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,256 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"184/262","active":true,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":43}
+2026-08-13 04:53:08,297 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,297 |
+2026-08-13 04:53:08,297 |t:|1786589588
+2026-08-13 04:53:08,297 |move|p2a: Blaziken|Earthquake|p1a: Victreebel
+2026-08-13 04:53:08,297 |-damage|p1a: Victreebel|66/100
+2026-08-13 04:53:08,297 |move|p1a: Victreebel|Solar Beam|p2a: Blaziken|[from] lockedmove
+2026-08-13 04:53:08,297 |-resisted|p2a: Blaziken
+2026-08-13 04:53:08,297 |-damage|p2a: Blaziken|105/262
+2026-08-13 04:53:08,297 |
+2026-08-13 04:53:08,297 |-heal|p1a: Victreebel|72/100|[from] item: Leftovers
+2026-08-13 04:53:08,297 |upkeep
+2026-08-13 04:53:08,297 |turn|20
+2026-08-13 04:53:08,302 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,302 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"105/262","active":true,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":45}
+2026-08-13 04:53:08,348 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,348 |
+2026-08-13 04:53:08,348 |t:|1786589588
+2026-08-13 04:53:08,348 |move|p2a: Blaziken|Earthquake|p1a: Victreebel
+2026-08-13 04:53:08,348 |-damage|p1a: Victreebel|34/100
+2026-08-13 04:53:08,348 |move|p1a: Victreebel|Sludge Bomb|p2a: Blaziken
+2026-08-13 04:53:08,348 |-damage|p2a: Blaziken|0 fnt
+2026-08-13 04:53:08,348 |faint|p2a: Blaziken
+2026-08-13 04:53:08,350 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,350 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":true,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"noCancel":true,"rqid":47}
+2026-08-13 04:53:08,391 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,391 |
+2026-08-13 04:53:08,392 |t:|1786589588
+2026-08-13 04:53:08,392 |switch|p2a: Deoxys|Deoxys, L71|188/188
+2026-08-13 04:53:08,392 |-ability|p2a: Deoxys|Pressure|[silent]
+2026-08-13 04:53:08,392 |
+2026-08-13 04:53:08,392 |-heal|p1a: Victreebel|40/100|[from] item: Leftovers
+2026-08-13 04:53:08,392 |upkeep
+2026-08-13 04:53:08,392 |turn|21
+2026-08-13 04:53:08,401 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,401 |request|{"active":[{"moves":[{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":49}
+2026-08-13 04:53:08,457 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,457 |
+2026-08-13 04:53:08,457 |t:|1786589588
+2026-08-13 04:53:08,458 |move|p2a: Deoxys|Shadow Ball|p1a: Victreebel
+2026-08-13 04:53:08,458 |-damage|p1a: Victreebel|12/100
+2026-08-13 04:53:08,458 |move|p1a: Victreebel|Sludge Bomb|p2a: Deoxys
+2026-08-13 04:53:08,458 |-damage|p2a: Deoxys|18/188
+2026-08-13 04:53:08,458 |-status|p2a: Deoxys|psn
+2026-08-13 04:53:08,458 |
+2026-08-13 04:53:08,458 |-damage|p2a: Deoxys|0 fnt|[from] psn
+2026-08-13 04:53:08,458 |faint|p2a: Deoxys
+2026-08-13 04:53:08,458 |-heal|p1a: Victreebel|18/100|[from] item: Leftovers
+2026-08-13 04:53:08,458 |upkeep
+2026-08-13 04:53:08,465 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,465 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"noCancel":true,"rqid":51}
+2026-08-13 04:53:08,525 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,525 |
+2026-08-13 04:53:08,525 |t:|1786589588
+2026-08-13 04:53:08,525 |switch|p2a: Vigoroth|Vigoroth, L84, M|272/272
+2026-08-13 04:53:08,525 |turn|22
+2026-08-13 04:53:08,525 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,525 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":53}
+2026-08-13 04:53:08,605 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,606 |
+2026-08-13 04:53:08,606 |t:|1786589588
+2026-08-13 04:53:08,606 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-13 04:53:08,606 |-boost|p2a: Vigoroth|atk|1
+2026-08-13 04:53:08,606 |-boost|p2a: Vigoroth|def|1
+2026-08-13 04:53:08,606 |move|p1a: Victreebel|Solar Beam||[still]
+2026-08-13 04:53:08,606 |-prepare|p1a: Victreebel|Solar Beam
+2026-08-13 04:53:08,606 |
+2026-08-13 04:53:08,606 |-heal|p1a: Victreebel|24/100|[from] item: Leftovers
+2026-08-13 04:53:08,606 |upkeep
+2026-08-13 04:53:08,606 |turn|23
+2026-08-13 04:53:08,606 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,606 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":55}
+2026-08-13 04:53:08,748 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,748 |
+2026-08-13 04:53:08,748 |t:|1786589588
+2026-08-13 04:53:08,748 |move|p2a: Vigoroth|Earthquake|p1a: Victreebel
+2026-08-13 04:53:08,748 |-damage|p1a: Victreebel|0 fnt
+2026-08-13 04:53:08,748 |faint|p1a: Victreebel
+2026-08-13 04:53:08,755 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,755 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":57}
+2026-08-13 04:53:08,813 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,813 |
+2026-08-13 04:53:08,813 |t:|1786589588
+2026-08-13 04:53:08,813 |switch|p1a: Shuckle|Shuckle, L98, M|100/100 slp
+2026-08-13 04:53:08,813 |
+2026-08-13 04:53:08,813 |upkeep
+2026-08-13 04:53:08,813 |turn|24
+2026-08-13 04:53:08,815 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,815 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":59}
+2026-08-13 04:53:08,883 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,883 |
+2026-08-13 04:53:08,883 |t:|1786589588
+2026-08-13 04:53:08,883 |move|p2a: Vigoroth|Slack Off||[still]
+2026-08-13 04:53:08,883 |-fail|p2a: Vigoroth|heal
+2026-08-13 04:53:08,883 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:08,883 |
+2026-08-13 04:53:08,883 |upkeep
+2026-08-13 04:53:08,883 |turn|25
+2026-08-13 04:53:08,885 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,885 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":61}
+2026-08-13 04:53:08,965 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,965 |
+2026-08-13 04:53:08,965 |t:|1786589588
+2026-08-13 04:53:08,965 |move|p2a: Vigoroth|Slack Off||[still]
+2026-08-13 04:53:08,965 |-fail|p2a: Vigoroth|heal
+2026-08-13 04:53:08,965 |-curestatus|p1a: Shuckle|slp|[msg]
+2026-08-13 04:53:08,965 |move|p1a: Shuckle|Toxic|p2a: Vigoroth|[miss]
+2026-08-13 04:53:08,965 |-miss|p1a: Shuckle|p2a: Vigoroth
+2026-08-13 04:53:08,965 |
+2026-08-13 04:53:08,965 |upkeep
+2026-08-13 04:53:08,965 |turn|26
+2026-08-13 04:53:08,970 >battle-gen3randombattle-337787
+2026-08-13 04:53:08,970 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":63}
+2026-08-13 04:53:09,055 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,055 |
+2026-08-13 04:53:09,055 |t:|1786589589
+2026-08-13 04:53:09,055 |move|p2a: Vigoroth|Slack Off||[still]
+2026-08-13 04:53:09,055 |-fail|p2a: Vigoroth|heal
+2026-08-13 04:53:09,055 |move|p1a: Shuckle|Toxic|p2a: Vigoroth
+2026-08-13 04:53:09,055 |-status|p2a: Vigoroth|tox
+2026-08-13 04:53:09,055 |
+2026-08-13 04:53:09,056 |-damage|p2a: Vigoroth|255/272 tox|[from] psn
+2026-08-13 04:53:09,056 |upkeep
+2026-08-13 04:53:09,056 |turn|27
+2026-08-13 04:53:09,060 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,060 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"255/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":65}
+2026-08-13 04:53:09,141 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,141 |
+2026-08-13 04:53:09,141 |t:|1786589589
+2026-08-13 04:53:09,141 |move|p2a: Vigoroth|Return|p1a: Shuckle
+2026-08-13 04:53:09,141 |-resisted|p1a: Shuckle
+2026-08-13 04:53:09,141 |-damage|p1a: Shuckle|86/100
+2026-08-13 04:53:09,141 |move|p1a: Shuckle|Encore|p2a: Vigoroth
+2026-08-13 04:53:09,141 |-start|p2a: Vigoroth|Encore
+2026-08-13 04:53:09,141 |
+2026-08-13 04:53:09,141 |-heal|p2a: Vigoroth|272/272 tox|[from] item: Leftovers
+2026-08-13 04:53:09,141 |-damage|p2a: Vigoroth|238/272 tox|[from] psn
+2026-08-13 04:53:09,141 |-heal|p1a: Shuckle|92/100|[from] item: Leftovers
+2026-08-13 04:53:09,141 |upkeep
+2026-08-13 04:53:09,141 |turn|28
+2026-08-13 04:53:09,145 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,145 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":true},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Slack Off","id":"slackoff","pp":13,"maxpp":16,"target":"self","disabled":true},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"238/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":67}
+2026-08-13 04:53:09,207 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,207 |
+2026-08-13 04:53:09,207 |t:|1786589589
+2026-08-13 04:53:09,207 |move|p2a: Vigoroth|Return|p1a: Shuckle
+2026-08-13 04:53:09,207 |-resisted|p1a: Shuckle
+2026-08-13 04:53:09,207 |-damage|p1a: Shuckle|79/100
+2026-08-13 04:53:09,207 |move|p1a: Shuckle|Encore||[still]
+2026-08-13 04:53:09,207 |-fail|p1a: Shuckle
+2026-08-13 04:53:09,207 |
+2026-08-13 04:53:09,207 |-heal|p2a: Vigoroth|255/272 tox|[from] item: Leftovers
+2026-08-13 04:53:09,207 |-damage|p2a: Vigoroth|204/272 tox|[from] psn
+2026-08-13 04:53:09,207 |-heal|p1a: Shuckle|85/100|[from] item: Leftovers
+2026-08-13 04:53:09,207 |upkeep
+2026-08-13 04:53:09,208 |turn|29
+2026-08-13 04:53:09,208 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,208 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":true},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Slack Off","id":"slackoff","pp":13,"maxpp":16,"target":"self","disabled":true},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"204/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":69}
+2026-08-13 04:53:09,244 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,244 |
+2026-08-13 04:53:09,244 |t:|1786589589
+2026-08-13 04:53:09,244 |move|p2a: Vigoroth|Return|p1a: Shuckle
+2026-08-13 04:53:09,244 |-resisted|p1a: Shuckle
+2026-08-13 04:53:09,244 |-damage|p1a: Shuckle|73/100
+2026-08-13 04:53:09,244 |move|p1a: Shuckle|Wrap|p2a: Vigoroth
+2026-08-13 04:53:09,245 |-damage|p2a: Vigoroth|200/272 tox
+2026-08-13 04:53:09,245 |-activate|p2a: Vigoroth|move: Wrap|[of] p1a: Shuckle
+2026-08-13 04:53:09,245 |
+2026-08-13 04:53:09,245 |-heal|p2a: Vigoroth|217/272 tox|[from] item: Leftovers
+2026-08-13 04:53:09,245 |-damage|p2a: Vigoroth|149/272 tox|[from] psn
+2026-08-13 04:53:09,245 |-damage|p2a: Vigoroth|132/272 tox|[from] move: Wrap|[partiallytrapped]
+2026-08-13 04:53:09,245 |-heal|p1a: Shuckle|79/100|[from] item: Leftovers
+2026-08-13 04:53:09,245 |upkeep
+2026-08-13 04:53:09,245 |turn|30
+2026-08-13 04:53:09,245 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,245 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":true},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Slack Off","id":"slackoff","pp":13,"maxpp":16,"target":"self","disabled":true},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"132/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":71}
+2026-08-13 04:53:09,272 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,272 |error|[Invalid choice] Can't switch: The active Pokémon is trapped
+2026-08-13 04:53:09,463 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,463 |
+2026-08-13 04:53:09,463 |t:|1786589589
+2026-08-13 04:53:09,463 |move|p2a: Vigoroth|Return|p1a: Shuckle
+2026-08-13 04:53:09,463 |-resisted|p1a: Shuckle
+2026-08-13 04:53:09,463 |-damage|p1a: Shuckle|64/100
+2026-08-13 04:53:09,463 |move|p1a: Shuckle|Encore||[still]
+2026-08-13 04:53:09,463 |-fail|p1a: Shuckle
+2026-08-13 04:53:09,463 |
+2026-08-13 04:53:09,463 |-heal|p2a: Vigoroth|149/272 tox|[from] item: Leftovers
+2026-08-13 04:53:09,463 |-damage|p2a: Vigoroth|64/272 tox|[from] psn
+2026-08-13 04:53:09,463 |-damage|p2a: Vigoroth|47/272 tox|[from] move: Wrap|[partiallytrapped]
+2026-08-13 04:53:09,463 |-heal|p1a: Shuckle|70/100|[from] item: Leftovers
+2026-08-13 04:53:09,463 |upkeep
+2026-08-13 04:53:09,463 |turn|31
+2026-08-13 04:53:09,470 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,470 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":true},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Slack Off","id":"slackoff","pp":13,"maxpp":16,"target":"self","disabled":true},{"move":"Return 102","id":"return","pp":28,"maxpp":32,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"47/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":73}
+2026-08-13 04:53:09,650 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,651 |
+2026-08-13 04:53:09,651 |t:|1786589589
+2026-08-13 04:53:09,651 |move|p2a: Vigoroth|Return|p1a: Shuckle
+2026-08-13 04:53:09,651 |-resisted|p1a: Shuckle
+2026-08-13 04:53:09,651 |-damage|p1a: Shuckle|56/100
+2026-08-13 04:53:09,651 |move|p1a: Shuckle|Rest|p1a: Shuckle
+2026-08-13 04:53:09,651 |-status|p1a: Shuckle|slp|[from] move: Rest
+2026-08-13 04:53:09,651 |-heal|p1a: Shuckle|100/100 slp|[silent]
+2026-08-13 04:53:09,651 |
+2026-08-13 04:53:09,651 |-heal|p2a: Vigoroth|64/272 tox|[from] item: Leftovers
+2026-08-13 04:53:09,651 |-damage|p2a: Vigoroth|0 fnt|[from] psn
+2026-08-13 04:53:09,651 |faint|p2a: Vigoroth
+2026-08-13 04:53:09,651 |upkeep
+2026-08-13 04:53:09,657 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,657 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"noCancel":true,"rqid":75}
+2026-08-13 04:53:09,784 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,784 |
+2026-08-13 04:53:09,784 |t:|1786589589
+2026-08-13 04:53:09,784 |switch|p2a: Nidoking|Nidoking, L82, M|267/267
+2026-08-13 04:53:09,784 |turn|32
+2026-08-13 04:53:09,789 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,789 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":77}
+2026-08-13 04:53:09,957 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,957 |
+2026-08-13 04:53:09,957 |t:|1786589589
+2026-08-13 04:53:09,957 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:09,957 |-resisted|p1a: Shuckle
+2026-08-13 04:53:09,957 |-damage|p1a: Shuckle|88/100 slp
+2026-08-13 04:53:09,957 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:09,958 |
+2026-08-13 04:53:09,958 |-heal|p1a: Shuckle|94/100 slp|[from] item: Leftovers
+2026-08-13 04:53:09,958 |upkeep
+2026-08-13 04:53:09,958 |turn|33
+2026-08-13 04:53:09,958 >battle-gen3randombattle-337787
+2026-08-13 04:53:09,958 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":79}
+2026-08-13 04:53:10,206 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,206 |
+2026-08-13 04:53:10,206 |t:|1786589590
+2026-08-13 04:53:10,206 |switch|p1a: Togetic|Togetic, L97, F|100/100
+2026-08-13 04:53:10,206 |move|p2a: Nidoking|Sludge Bomb|p1a: Togetic
+2026-08-13 04:53:10,206 |-damage|p1a: Togetic|56/100
+2026-08-13 04:53:10,206 |
+2026-08-13 04:53:10,206 |-heal|p1a: Togetic|62/100|[from] item: Leftovers
+2026-08-13 04:53:10,206 |upkeep
+2026-08-13 04:53:10,206 |turn|34
+2026-08-13 04:53:10,207 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,207 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":81}
+2026-08-13 04:53:10,417 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,417 |
+2026-08-13 04:53:10,417 |t:|1786589590
+2026-08-13 04:53:10,417 |switch|p1a: Shuckle|Shuckle, L98, M|94/100 slp
+2026-08-13 04:53:10,417 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,417 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,417 |-damage|p1a: Shuckle|82/100 slp
+2026-08-13 04:53:10,417 |
+2026-08-13 04:53:10,417 |-heal|p1a: Shuckle|88/100 slp|[from] item: Leftovers
+2026-08-13 04:53:10,417 |upkeep
+2026-08-13 04:53:10,417 |turn|35
+2026-08-13 04:53:10,458 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,458 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":83}
+2026-08-13 04:53:10,576 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,576 |
+2026-08-13 04:53:10,576 |t:|1786589590
+2026-08-13 04:53:10,576 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,576 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,576 |-damage|p1a: Shuckle|77/100 slp
+2026-08-13 04:53:10,576 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:10,577 |
+2026-08-13 04:53:10,577 |-heal|p1a: Shuckle|83/100 slp|[from] item: Leftovers
+2026-08-13 04:53:10,577 |upkeep
+2026-08-13 04:53:10,577 |turn|36
+2026-08-13 04:53:10,578 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,578 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"267/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":85}
+2026-08-13 04:53:10,678 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,678 |
+2026-08-13 04:53:10,678 |t:|1786589590
+2026-08-13 04:53:10,678 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,678 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,678 |-damage|p1a: Shuckle|71/100 slp
+2026-08-13 04:53:10,678 |-curestatus|p1a: Shuckle|slp|[msg]
+2026-08-13 04:53:10,678 |move|p1a: Shuckle|Wrap|p2a: Nidoking
+2026-08-13 04:53:10,678 |-damage|p2a: Nidoking|261/267
+2026-08-13 04:53:10,678 |-activate|p2a: Nidoking|move: Wrap|[of] p1a: Shuckle
+2026-08-13 04:53:10,678 |
+2026-08-13 04:53:10,678 |-damage|p2a: Nidoking|245/267|[from] move: Wrap|[partiallytrapped]
+2026-08-13 04:53:10,678 |-heal|p1a: Shuckle|77/100|[from] item: Leftovers
+2026-08-13 04:53:10,678 |upkeep
+2026-08-13 04:53:10,678 |turn|37
+2026-08-13 04:53:10,681 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,681 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"245/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":87}
+2026-08-13 04:53:10,742 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,742 |
+2026-08-13 04:53:10,742 |t:|1786589590
+2026-08-13 04:53:10,742 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,742 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,742 |-damage|p1a: Shuckle|66/100
+2026-08-13 04:53:10,742 |move|p1a: Shuckle|Rest|p1a: Shuckle
+2026-08-13 04:53:10,742 |-status|p1a: Shuckle|slp|[from] move: Rest
+2026-08-13 04:53:10,742 |-heal|p1a: Shuckle|100/100 slp|[silent]
+2026-08-13 04:53:10,742 |
+2026-08-13 04:53:10,742 |-damage|p2a: Nidoking|229/267|[from] move: Wrap|[partiallytrapped]
+2026-08-13 04:53:10,743 |upkeep
+2026-08-13 04:53:10,743 |turn|38
+2026-08-13 04:53:10,746 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,746 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":89}
+2026-08-13 04:53:10,782 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,783 |
+2026-08-13 04:53:10,783 |t:|1786589590
+2026-08-13 04:53:10,783 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,783 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,783 |-crit|p1a: Shuckle
+2026-08-13 04:53:10,783 |-damage|p1a: Shuckle|73/100 slp
+2026-08-13 04:53:10,783 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:10,783 |
+2026-08-13 04:53:10,783 |-end|p2a: Nidoking|Wrap|[partiallytrapped]
+2026-08-13 04:53:10,783 |-heal|p1a: Shuckle|79/100 slp|[from] item: Leftovers
+2026-08-13 04:53:10,783 |upkeep
+2026-08-13 04:53:10,783 |turn|39
+2026-08-13 04:53:10,785 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,785 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":91}
+2026-08-13 04:53:10,819 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,819 |
+2026-08-13 04:53:10,819 |t:|1786589590
+2026-08-13 04:53:10,819 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,819 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,819 |-damage|p1a: Shuckle|66/100 slp
+2026-08-13 04:53:10,819 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:10,819 |
+2026-08-13 04:53:10,819 |-heal|p1a: Shuckle|72/100 slp|[from] item: Leftovers
+2026-08-13 04:53:10,819 |upkeep
+2026-08-13 04:53:10,819 |turn|40
+2026-08-13 04:53:10,821 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,821 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":93}
+2026-08-13 04:53:10,902 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,903 |
+2026-08-13 04:53:10,903 |t:|1786589590
+2026-08-13 04:53:10,903 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:10,903 |-resisted|p1a: Shuckle
+2026-08-13 04:53:10,903 |-crit|p1a: Shuckle
+2026-08-13 04:53:10,903 |-damage|p1a: Shuckle|46/100 slp
+2026-08-13 04:53:10,903 |-curestatus|p1a: Shuckle|slp|[msg]
+2026-08-13 04:53:10,903 |move|p1a: Shuckle|Toxic|p2a: Nidoking
+2026-08-13 04:53:10,903 |-immune|p2a: Nidoking
+2026-08-13 04:53:10,903 |
+2026-08-13 04:53:10,903 |-heal|p1a: Shuckle|52/100|[from] item: Leftovers
+2026-08-13 04:53:10,903 |upkeep
+2026-08-13 04:53:10,903 |turn|41
+2026-08-13 04:53:10,911 >battle-gen3randombattle-337787
+2026-08-13 04:53:10,911 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":7,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":95}
+2026-08-13 04:53:11,009 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,009 |
+2026-08-13 04:53:11,009 |t:|1786589590
+2026-08-13 04:53:11,009 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:11,009 |-resisted|p1a: Shuckle
+2026-08-13 04:53:11,009 |-damage|p1a: Shuckle|38/100
+2026-08-13 04:53:11,009 |move|p1a: Shuckle|Encore|p2a: Nidoking
+2026-08-13 04:53:11,009 |-start|p2a: Nidoking|Encore
+2026-08-13 04:53:11,009 |
+2026-08-13 04:53:11,009 |-heal|p1a: Shuckle|44/100|[from] item: Leftovers
+2026-08-13 04:53:11,009 |upkeep
+2026-08-13 04:53:11,009 |turn|42
+2026-08-13 04:53:11,010 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,010 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":6,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":97}
+2026-08-13 04:53:11,089 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,089 |
+2026-08-13 04:53:11,089 |t:|1786589591
+2026-08-13 04:53:11,089 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:11,089 |-resisted|p1a: Shuckle
+2026-08-13 04:53:11,089 |-damage|p1a: Shuckle|32/100
+2026-08-13 04:53:11,089 |-status|p1a: Shuckle|psn
+2026-08-13 04:53:11,089 |move|p1a: Shuckle|Rest|p1a: Shuckle
+2026-08-13 04:53:11,089 |-status|p1a: Shuckle|slp|[from] move: Rest
+2026-08-13 04:53:11,089 |-heal|p1a: Shuckle|100/100 slp|[silent]
+2026-08-13 04:53:11,089 |
+2026-08-13 04:53:11,089 |upkeep
+2026-08-13 04:53:11,089 |turn|43
+2026-08-13 04:53:11,090 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,090 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":5,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":99}
+2026-08-13 04:53:11,112 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,112 |
+2026-08-13 04:53:11,112 |t:|1786589591
+2026-08-13 04:53:11,112 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:11,112 |-resisted|p1a: Shuckle
+2026-08-13 04:53:11,112 |-damage|p1a: Shuckle|89/100 slp
+2026-08-13 04:53:11,112 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:11,112 |
+2026-08-13 04:53:11,112 |-heal|p1a: Shuckle|95/100 slp|[from] item: Leftovers
+2026-08-13 04:53:11,112 |upkeep
+2026-08-13 04:53:11,112 |turn|44
+2026-08-13 04:53:11,112 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,112 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":4,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":101}
+2026-08-13 04:53:11,154 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,155 |
+2026-08-13 04:53:11,155 |t:|1786589591
+2026-08-13 04:53:11,155 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:11,155 |-resisted|p1a: Shuckle
+2026-08-13 04:53:11,155 |-damage|p1a: Shuckle|83/100 slp
+2026-08-13 04:53:11,155 |cant|p1a: Shuckle|slp
+2026-08-13 04:53:11,155 |
+2026-08-13 04:53:11,155 |-end|p2a: Nidoking|Encore
+2026-08-13 04:53:11,155 |-heal|p1a: Shuckle|89/100 slp|[from] item: Leftovers
+2026-08-13 04:53:11,155 |upkeep
+2026-08-13 04:53:11,155 |turn|45
+2026-08-13 04:53:11,155 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,155 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":3,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":103}
+2026-08-13 04:53:11,204 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,205 |
+2026-08-13 04:53:11,205 |t:|1786589591
+2026-08-13 04:53:11,205 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:11,205 |-resisted|p1a: Shuckle
+2026-08-13 04:53:11,205 |-crit|p1a: Shuckle
+2026-08-13 04:53:11,205 |-damage|p1a: Shuckle|63/100 slp
+2026-08-13 04:53:11,205 |-curestatus|p1a: Shuckle|slp|[msg]
+2026-08-13 04:53:11,205 |move|p1a: Shuckle|Wrap|p2a: Nidoking|[miss]
+2026-08-13 04:53:11,205 |-miss|p1a: Shuckle|p2a: Nidoking
+2026-08-13 04:53:11,205 |
+2026-08-13 04:53:11,205 |-heal|p1a: Shuckle|69/100|[from] item: Leftovers
+2026-08-13 04:53:11,205 |upkeep
+2026-08-13 04:53:11,205 |turn|46
+2026-08-13 04:53:11,206 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,206 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":2,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"229/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":105}
+2026-08-13 04:53:11,253 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,253 |
+2026-08-13 04:53:11,253 |t:|1786589591
+2026-08-13 04:53:11,253 |move|p2a: Nidoking|Sludge Bomb|p1a: Shuckle
+2026-08-13 04:53:11,253 |-resisted|p1a: Shuckle
+2026-08-13 04:53:11,253 |-damage|p1a: Shuckle|57/100
+2026-08-13 04:53:11,253 |-status|p1a: Shuckle|psn
+2026-08-13 04:53:11,253 |move|p1a: Shuckle|Wrap|p2a: Nidoking
+2026-08-13 04:53:11,253 |-damage|p2a: Nidoking|223/267
+2026-08-13 04:53:11,253 |-activate|p2a: Nidoking|move: Wrap|[of] p1a: Shuckle
+2026-08-13 04:53:11,253 |
+2026-08-13 04:53:11,253 |-damage|p2a: Nidoking|207/267|[from] move: Wrap|[partiallytrapped]
+2026-08-13 04:53:11,253 |-heal|p1a: Shuckle|63/100 psn|[from] item: Leftovers
+2026-08-13 04:53:11,253 |-damage|p1a: Shuckle|51/100 psn|[from] psn
+2026-08-13 04:53:11,254 |upkeep
+2026-08-13 04:53:11,254 |turn|47
+2026-08-13 04:53:11,254 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,254 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":1,"maxpp":16,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":true}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"207/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":107}
+2026-08-13 04:53:11,283 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,283 |
+2026-08-13 04:53:11,283 |t:|1786589591
+2026-08-13 04:53:11,283 |switch|p1a: Togetic|Togetic, L97, F|62/100
+2026-08-13 04:53:11,283 |move|p2a: Nidoking|Sludge Bomb|p1a: Togetic
+2026-08-13 04:53:11,283 |-damage|p1a: Togetic|21/100
+2026-08-13 04:53:11,283 |
+2026-08-13 04:53:11,283 |-end|p2a: Nidoking|Wrap|[partiallytrapped]|[silent]
+2026-08-13 04:53:11,283 |-heal|p1a: Togetic|27/100|[from] item: Leftovers
+2026-08-13 04:53:11,283 |upkeep
+2026-08-13 04:53:11,283 |turn|48
+2026-08-13 04:53:11,283 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,283 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"207/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":109}
+2026-08-13 04:53:11,314 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,315 |-activate|p2a: Nidoking|move: Struggle
+2026-08-13 04:53:11,315 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,315 |
+2026-08-13 04:53:11,315 |t:|1786589591
+2026-08-13 04:53:11,315 |move|p2a: Nidoking|Struggle|p1a: Togetic
+2026-08-13 04:53:11,315 |-damage|p1a: Togetic|9/100
+2026-08-13 04:53:11,315 |-damage|p2a: Nidoking|196/267|[from] Recoil
+2026-08-13 04:53:11,315 |move|p1a: Togetic|Charm|p2a: Nidoking
+2026-08-13 04:53:11,315 |-unboost|p2a: Nidoking|atk|2
+2026-08-13 04:53:11,315 |
+2026-08-13 04:53:11,315 |-heal|p1a: Togetic|15/100|[from] item: Leftovers
+2026-08-13 04:53:11,315 |upkeep
+2026-08-13 04:53:11,315 |turn|49
+2026-08-13 04:53:11,317 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,317 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"196/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":111}
+2026-08-13 04:53:11,343 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,343 |-activate|p2a: Nidoking|move: Struggle
+2026-08-13 04:53:11,343 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,343 |
+2026-08-13 04:53:11,343 |t:|1786589591
+2026-08-13 04:53:11,343 |move|p2a: Nidoking|Struggle|p1a: Togetic
+2026-08-13 04:53:11,343 |-damage|p1a: Togetic|7/100
+2026-08-13 04:53:11,343 |-damage|p2a: Nidoking|191/267|[from] Recoil
+2026-08-13 04:53:11,343 |move|p1a: Togetic|Charm|p2a: Nidoking
+2026-08-13 04:53:11,344 |-unboost|p2a: Nidoking|atk|2
+2026-08-13 04:53:11,344 |
+2026-08-13 04:53:11,344 |-heal|p1a: Togetic|13/100|[from] item: Leftovers
+2026-08-13 04:53:11,344 |upkeep
+2026-08-13 04:53:11,344 |turn|50
+2026-08-13 04:53:11,345 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,345 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"191/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":113}
+2026-08-13 04:53:11,373 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,374 |-activate|p2a: Nidoking|move: Struggle
+2026-08-13 04:53:11,374 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,374 |
+2026-08-13 04:53:11,374 |t:|1786589591
+2026-08-13 04:53:11,374 |move|p2a: Nidoking|Struggle|p1a: Togetic
+2026-08-13 04:53:11,374 |-damage|p1a: Togetic|7/100
+2026-08-13 04:53:11,374 |-damage|p2a: Nidoking|187/267|[from] Recoil
+2026-08-13 04:53:11,374 |move|p1a: Togetic|Charm|p2a: Nidoking
+2026-08-13 04:53:11,374 |-unboost|p2a: Nidoking|atk|2
+2026-08-13 04:53:11,374 |
+2026-08-13 04:53:11,374 |-heal|p1a: Togetic|13/100|[from] item: Leftovers
+2026-08-13 04:53:11,374 |upkeep
+2026-08-13 04:53:11,374 |turn|51
+2026-08-13 04:53:11,375 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,375 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"187/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":115}
+2026-08-13 04:53:11,406 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,406 |-activate|p2a: Nidoking|move: Struggle
+2026-08-13 04:53:11,406 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,406 |
+2026-08-13 04:53:11,406 |t:|1786589591
+2026-08-13 04:53:11,406 |move|p2a: Nidoking|Struggle|p1a: Togetic
+2026-08-13 04:53:11,406 |-damage|p1a: Togetic|9/100
+2026-08-13 04:53:11,406 |-damage|p2a: Nidoking|185/267|[from] Recoil
+2026-08-13 04:53:11,406 |move|p1a: Togetic|Soft-Boiled|p1a: Togetic
+2026-08-13 04:53:11,406 |-heal|p1a: Togetic|59/100
+2026-08-13 04:53:11,406 |
+2026-08-13 04:53:11,406 |-heal|p1a: Togetic|65/100|[from] item: Leftovers
+2026-08-13 04:53:11,406 |upkeep
+2026-08-13 04:53:11,406 |turn|52
+2026-08-13 04:53:11,407 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,407 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":117}
+2026-08-13 04:53:11,428 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,428 |
+2026-08-13 04:53:11,428 |t:|1786589591
+2026-08-13 04:53:11,428 |switch|p2a: Tropius|Tropius, L95, M|257/341 tox
+2026-08-13 04:53:11,428 |move|p1a: Togetic|Charm|p2a: Tropius
+2026-08-13 04:53:11,428 |-unboost|p2a: Tropius|atk|2
+2026-08-13 04:53:11,428 |
+2026-08-13 04:53:11,428 |-heal|p2a: Tropius|278/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,428 |-damage|p2a: Tropius|257/341 tox|[from] psn
+2026-08-13 04:53:11,428 |-heal|p1a: Togetic|71/100|[from] item: Leftovers
+2026-08-13 04:53:11,428 |upkeep
+2026-08-13 04:53:11,428 |turn|53
+2026-08-13 04:53:11,428 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,428 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"257/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":119}
+2026-08-13 04:53:11,457 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,457 |
+2026-08-13 04:53:11,457 |t:|1786589591
+2026-08-13 04:53:11,457 |move|p2a: Tropius|Earthquake|p1a: Togetic
+2026-08-13 04:53:11,457 |-immune|p1a: Togetic
+2026-08-13 04:53:11,457 |move|p1a: Togetic|Toxic|p2a: Tropius
+2026-08-13 04:53:11,457 |-fail|p2a: Tropius|tox
+2026-08-13 04:53:11,457 |
+2026-08-13 04:53:11,457 |-heal|p2a: Tropius|278/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,457 |-damage|p2a: Tropius|236/341 tox|[from] psn
+2026-08-13 04:53:11,457 |-heal|p1a: Togetic|77/100|[from] item: Leftovers
+2026-08-13 04:53:11,457 |upkeep
+2026-08-13 04:53:11,457 |turn|54
+2026-08-13 04:53:11,458 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,458 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"236/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":121}
+2026-08-13 04:53:11,498 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,498 |
+2026-08-13 04:53:11,498 |t:|1786589591
+2026-08-13 04:53:11,499 |move|p2a: Tropius|Swords Dance|p2a: Tropius
+2026-08-13 04:53:11,499 |-boost|p2a: Tropius|atk|2
+2026-08-13 04:53:11,499 |move|p1a: Togetic|Charm|p2a: Tropius
+2026-08-13 04:53:11,499 |-unboost|p2a: Tropius|atk|2
+2026-08-13 04:53:11,499 |
+2026-08-13 04:53:11,499 |-heal|p2a: Tropius|257/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,499 |-damage|p2a: Tropius|194/341 tox|[from] psn
+2026-08-13 04:53:11,499 |-heal|p1a: Togetic|83/100|[from] item: Leftovers
+2026-08-13 04:53:11,499 |upkeep
+2026-08-13 04:53:11,499 |turn|55
+2026-08-13 04:53:11,500 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,500 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":45,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"194/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":123}
+2026-08-13 04:53:11,537 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,537 |
+2026-08-13 04:53:11,537 |t:|1786589591
+2026-08-13 04:53:11,537 |move|p2a: Tropius|Swords Dance|p2a: Tropius
+2026-08-13 04:53:11,537 |-boost|p2a: Tropius|atk|2
+2026-08-13 04:53:11,537 |move|p1a: Togetic|Toxic|p2a: Tropius
+2026-08-13 04:53:11,537 |-fail|p2a: Tropius|tox
+2026-08-13 04:53:11,537 |
+2026-08-13 04:53:11,537 |-heal|p2a: Tropius|215/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,537 |-damage|p2a: Tropius|131/341 tox|[from] psn
+2026-08-13 04:53:11,537 |-heal|p1a: Togetic|89/100|[from] item: Leftovers
+2026-08-13 04:53:11,537 |upkeep
+2026-08-13 04:53:11,537 |turn|56
+2026-08-13 04:53:11,540 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,540 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":44,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"131/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":125}
+2026-08-13 04:53:11,597 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,597 |
+2026-08-13 04:53:11,597 |t:|1786589591
+2026-08-13 04:53:11,597 |move|p2a: Tropius|Hidden Power|p1a: Togetic
+2026-08-13 04:53:11,597 |-damage|p1a: Togetic|65/100
+2026-08-13 04:53:11,597 |move|p1a: Togetic|Toxic|p2a: Tropius
+2026-08-13 04:53:11,597 |-fail|p2a: Tropius|tox
+2026-08-13 04:53:11,597 |
+2026-08-13 04:53:11,597 |-heal|p2a: Tropius|152/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,597 |-damage|p2a: Tropius|47/341 tox|[from] psn
+2026-08-13 04:53:11,598 |-heal|p1a: Togetic|71/100|[from] item: Leftovers
+2026-08-13 04:53:11,598 |upkeep
+2026-08-13 04:53:11,598 |turn|57
+2026-08-13 04:53:11,598 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,598 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":44,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"47/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":127}
+2026-08-13 04:53:11,667 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,667 |
+2026-08-13 04:53:11,667 |t:|1786589591
+2026-08-13 04:53:11,667 |move|p2a: Tropius|Synthesis|p2a: Tropius
+2026-08-13 04:53:11,667 |-heal|p2a: Tropius|217/341 tox
+2026-08-13 04:53:11,667 |move|p1a: Togetic|Toxic|p2a: Tropius
+2026-08-13 04:53:11,667 |-fail|p2a: Tropius|tox
+2026-08-13 04:53:11,667 |
+2026-08-13 04:53:11,667 |-heal|p2a: Tropius|238/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,667 |-damage|p2a: Tropius|112/341 tox|[from] psn
+2026-08-13 04:53:11,667 |-heal|p1a: Togetic|77/100|[from] item: Leftovers
+2026-08-13 04:53:11,667 |upkeep
+2026-08-13 04:53:11,667 |turn|58
+2026-08-13 04:53:11,669 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,669 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":44,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"112/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":129}
+2026-08-13 04:53:11,704 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,704 |
+2026-08-13 04:53:11,704 |t:|1786589591
+2026-08-13 04:53:11,704 |move|p2a: Tropius|Synthesis|p2a: Tropius
+2026-08-13 04:53:11,704 |-heal|p2a: Tropius|282/341 tox
+2026-08-13 04:53:11,704 |move|p1a: Togetic|Seismic Toss|p2a: Tropius
+2026-08-13 04:53:11,704 |-damage|p2a: Tropius|185/341 tox
+2026-08-13 04:53:11,704 |
+2026-08-13 04:53:11,704 |-heal|p2a: Tropius|206/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,704 |-damage|p2a: Tropius|59/341 tox|[from] psn
+2026-08-13 04:53:11,704 |-heal|p1a: Togetic|83/100|[from] item: Leftovers
+2026-08-13 04:53:11,704 |upkeep
+2026-08-13 04:53:11,704 |turn|59
+2026-08-13 04:53:11,711 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,711 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":5,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":44,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"59/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":131}
+2026-08-13 04:53:11,739 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,740 |
+2026-08-13 04:53:11,740 |t:|1786589591
+2026-08-13 04:53:11,740 |move|p2a: Tropius|Synthesis|p2a: Tropius
+2026-08-13 04:53:11,740 |-heal|p2a: Tropius|229/341 tox
+2026-08-13 04:53:11,740 |move|p1a: Togetic|Charm|p2a: Tropius
+2026-08-13 04:53:11,740 |-unboost|p2a: Tropius|atk|2
+2026-08-13 04:53:11,740 |
+2026-08-13 04:53:11,740 |-heal|p2a: Tropius|250/341 tox|[from] item: Leftovers
+2026-08-13 04:53:11,740 |-damage|p2a: Tropius|82/341 tox|[from] psn
+2026-08-13 04:53:11,740 |-heal|p1a: Togetic|89/100|[from] item: Leftovers
+2026-08-13 04:53:11,740 |upkeep
+2026-08-13 04:53:11,740 |turn|60
+2026-08-13 04:53:11,740 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,740 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":44,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"82/341 tox","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":133}
+2026-08-13 04:53:11,772 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,772 |
+2026-08-13 04:53:11,772 |t:|1786589591
+2026-08-13 04:53:11,772 |move|p2a: Tropius|Earthquake|p1a: Togetic
+2026-08-13 04:53:11,772 |-immune|p1a: Togetic
+2026-08-13 04:53:11,772 |move|p1a: Togetic|Seismic Toss|p2a: Tropius
+2026-08-13 04:53:11,772 |-damage|p2a: Tropius|0 fnt
+2026-08-13 04:53:11,772 |faint|p2a: Tropius
+2026-08-13 04:53:11,772 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,772 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"0 fnt","active":true,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":false,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"noCancel":true,"rqid":135}
+2026-08-13 04:53:11,792 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,792 |
+2026-08-13 04:53:11,792 |t:|1786589591
+2026-08-13 04:53:11,792 |switch|p2a: Nidoking|Nidoking, L82, M|185/267
+2026-08-13 04:53:11,792 |
+2026-08-13 04:53:11,792 |-heal|p1a: Togetic|95/100|[from] item: Leftovers
+2026-08-13 04:53:11,792 |upkeep
+2026-08-13 04:53:11,792 |turn|61
+2026-08-13 04:53:11,793 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,793 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":0,"maxpp":16,"target":"normal","disabled":true},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"185/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"0 fnt","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":137}
+2026-08-13 04:53:11,813 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,813 |
+2026-08-13 04:53:11,813 |t:|1786589591
+2026-08-13 04:53:11,813 |move|p2a: Nidoking|Shadow Ball|p1a: Togetic
+2026-08-13 04:53:11,813 |-immune|p1a: Togetic
+2026-08-13 04:53:11,813 |move|p1a: Togetic|Seismic Toss|p2a: Nidoking
+2026-08-13 04:53:11,813 |-damage|p2a: Nidoking|88/267
+2026-08-13 04:53:11,813 |-status|p1a: Togetic|psn|[from] ability: Poison Point|[of] p2a: Nidoking
+2026-08-13 04:53:11,813 |
+2026-08-13 04:53:11,813 |-heal|p1a: Togetic|100/100 psn|[from] item: Leftovers
+2026-08-13 04:53:11,813 |-damage|p1a: Togetic|88/100 psn|[from] psn
+2026-08-13 04:53:11,813 |upkeep
+2026-08-13 04:53:11,814 |turn|62
+2026-08-13 04:53:11,815 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,815 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":0,"maxpp":16,"target":"normal","disabled":true},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"88/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"0 fnt","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":139}
+2026-08-13 04:53:11,843 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,843 |
+2026-08-13 04:53:11,843 |t:|1786589591
+2026-08-13 04:53:11,843 |move|p2a: Nidoking|Shadow Ball|p1a: Togetic
+2026-08-13 04:53:11,843 |-immune|p1a: Togetic
+2026-08-13 04:53:11,843 |move|p1a: Togetic|Soft-Boiled|p1a: Togetic
+2026-08-13 04:53:11,843 |-heal|p1a: Togetic|100/100 psn
+2026-08-13 04:53:11,843 |
+2026-08-13 04:53:11,843 |-damage|p1a: Togetic|88/100 psn|[from] psn
+2026-08-13 04:53:11,843 |upkeep
+2026-08-13 04:53:11,843 |turn|63
+2026-08-13 04:53:11,843 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,843 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Sludge Bomb","id":"sludgebomb","pp":0,"maxpp":16,"target":"normal","disabled":true},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoking","details":"Nidoking, L82, M","condition":"88/267","active":true,"stats":{"atk":198,"def":173,"spa":187,"spd":170,"spe":187},"moves":["earthquake","sludgebomb","megahorn","shadowball"],"baseAbility":"poisonpoint","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Tropius","details":"Tropius, L95, M","condition":"0 fnt","active":false,"stats":{"atk":182,"def":211,"spa":190,"spd":218,"spe":151},"moves":["hiddenpowerflying","synthesis","earthquake","swordsdance"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L81, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":160,"spa":225,"spd":160,"spe":176},"moves":["swordsdance","earthquake","skyuppercut","fireblast"],"baseAbility":"blaze","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["psychoboost","icebeam","shadowball","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","earthquake","slackoff","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shedinja","details":"Shedinja","condition":"0 fnt","active":false,"stats":{"atk":237,"def":146,"spa":116,"spd":116,"spe":136},"moves":["shadowball","silverwind","hiddenpowerfighting","toxic"],"baseAbility":"wonderguard","item":"","pokeball":"pokeball"}]},"rqid":141}
+2026-08-13 04:53:11,869 >battle-gen3randombattle-337787
+2026-08-13 04:53:11,869 |
+2026-08-13 04:53:11,869 |t:|1786589591
+2026-08-13 04:53:11,869 |move|p2a: Nidoking|Shadow Ball|p1a: Togetic
+2026-08-13 04:53:11,869 |-immune|p1a: Togetic
+2026-08-13 04:53:11,869 |move|p1a: Togetic|Seismic Toss|p2a: Nidoking
+2026-08-13 04:53:11,869 |-damage|p2a: Nidoking|0 fnt
+2026-08-13 04:53:11,869 |faint|p2a: Nidoking
+2026-08-13 04:53:11,869 |
+2026-08-13 04:53:11,869 |win|BOT1

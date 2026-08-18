@@ -1,0 +1,1871 @@
+2026-08-13 04:18:59,060 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,060 |init|battle
+2026-08-13 04:18:59,061 |title|BOT1 vs. BOT2
+2026-08-13 04:18:59,061 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen2randombattle-334928">battle-gen2randombattle-334928</a>&raquo;
+2026-08-13 04:18:59,087 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,087 |t:|1786587539
+2026-08-13 04:18:59,087 |gametype|singles
+2026-08-13 04:18:59,087 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,087 |player|p1|BOT1|101|
+2026-08-13 04:18:59,087 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,087 |player|p2|BOT2|169|
+2026-08-13 04:18:59,087 |gen|2
+2026-08-13 04:18:59,087 |tier|[Gen 2] Random Battle
+2026-08-13 04:18:59,087 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-13 04:18:59,087 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-13 04:18:59,087 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-13 04:18:59,087 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-13 04:18:59,087 |rule|Freeze Clause Mod: Limit one foe frozen
+2026-08-13 04:18:59,087 |rule|Species Clause: Limit one of each Pokémon
+2026-08-13 04:18:59,087 |rule|OHKO Clause: OHKO moves are banned
+2026-08-13 04:18:59,087 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-13 04:18:59,087 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-13 04:18:59,087 |
+2026-08-13 04:18:59,087 |t:|1786587539
+2026-08-13 04:18:59,087 |teamsize|p1|6
+2026-08-13 04:18:59,087 |teamsize|p2|6
+2026-08-13 04:18:59,087 |start
+2026-08-13 04:18:59,087 |switch|p1a: Azumarill|Azumarill, L77, M|100/100
+2026-08-13 04:18:59,087 |switch|p2a: Dewgong|Dewgong, L73, M|282/282
+2026-08-13 04:18:59,087 |turn|1
+2026-08-13 04:18:59,088 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,088 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"282/282","active":true,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-13 04:18:59,106 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,106 |
+2026-08-13 04:18:59,106 |t:|1786587539
+2026-08-13 04:18:59,106 |move|p2a: Dewgong|Encore|p1a: Azumarill
+2026-08-13 04:18:59,106 |-fail|p1a: Azumarill
+2026-08-13 04:18:59,106 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:18:59,106 |-start|p1a: Azumarill|perish3|[silent]
+2026-08-13 04:18:59,106 |-start|p2a: Dewgong|perish3|[silent]
+2026-08-13 04:18:59,106 |-fieldactivate|move: Perish Song
+2026-08-13 04:18:59,106 |
+2026-08-13 04:18:59,106 |-start|p2a: Dewgong|perish3
+2026-08-13 04:18:59,106 |-start|p1a: Azumarill|perish3
+2026-08-13 04:18:59,106 |upkeep
+2026-08-13 04:18:59,106 |turn|2
+2026-08-13 04:18:59,107 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,107 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"282/282","active":true,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-13 04:18:59,125 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,125 |
+2026-08-13 04:18:59,125 |t:|1786587539
+2026-08-13 04:18:59,125 |move|p2a: Dewgong|Protect|p2a: Dewgong
+2026-08-13 04:18:59,125 |-singleturn|p2a: Dewgong|Protect
+2026-08-13 04:18:59,125 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:18:59,125 |-fail|p1a: Azumarill
+2026-08-13 04:18:59,125 |
+2026-08-13 04:18:59,125 |-start|p2a: Dewgong|perish2
+2026-08-13 04:18:59,125 |-start|p1a: Azumarill|perish2
+2026-08-13 04:18:59,125 |upkeep
+2026-08-13 04:18:59,125 |turn|3
+2026-08-13 04:18:59,126 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,126 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"282/282","active":true,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-13 04:18:59,151 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,151 |
+2026-08-13 04:18:59,151 |t:|1786587539
+2026-08-13 04:18:59,151 |move|p2a: Dewgong|Toxic|p1a: Azumarill|[miss]
+2026-08-13 04:18:59,151 |-miss|p2a: Dewgong
+2026-08-13 04:18:59,151 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:18:59,151 |-fail|p1a: Azumarill
+2026-08-13 04:18:59,151 |
+2026-08-13 04:18:59,151 |-start|p2a: Dewgong|perish1
+2026-08-13 04:18:59,151 |-start|p1a: Azumarill|perish1
+2026-08-13 04:18:59,151 |upkeep
+2026-08-13 04:18:59,151 |turn|4
+2026-08-13 04:18:59,155 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,155 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"282/282","active":true,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-13 04:18:59,178 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,178 |
+2026-08-13 04:18:59,178 |t:|1786587539
+2026-08-13 04:18:59,178 |move|p2a: Dewgong|Toxic|p1a: Azumarill
+2026-08-13 04:18:59,178 |-status|p1a: Azumarill|tox
+2026-08-13 04:18:59,178 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:18:59,178 |-fail|p1a: Azumarill
+2026-08-13 04:18:59,178 |-damage|p1a: Azumarill|94/100 tox|[from] psn
+2026-08-13 04:18:59,178 |
+2026-08-13 04:18:59,178 |-start|p2a: Dewgong|perish0
+2026-08-13 04:18:59,178 |-start|p1a: Azumarill|perish0
+2026-08-13 04:18:59,178 |faint|p2a: Dewgong
+2026-08-13 04:18:59,178 |faint|p1a: Azumarill
+2026-08-13 04:18:59,178 |upkeep
+2026-08-13 04:18:59,182 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,182 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":true,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-13 04:18:59,194 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,194 |
+2026-08-13 04:18:59,194 |t:|1786587539
+2026-08-13 04:18:59,194 |switch|p2a: Wobbuffet|Wobbuffet, L95, M|554/554
+2026-08-13 04:18:59,194 |switch|p1a: Sudowoodo|Sudowoodo, L73, M|100/100
+2026-08-13 04:18:59,194 |turn|5
+2026-08-13 04:18:59,196 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,196 |request|{"active":[{"moves":[{"move":"Mimic","id":"mimic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":40,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-13 04:18:59,210 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,210 |
+2026-08-13 04:18:59,210 |t:|1786587539
+2026-08-13 04:18:59,210 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:18:59,210 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:18:59,210 |move|p1a: Sudowoodo|Self-Destruct|p2a: Wobbuffet
+2026-08-13 04:18:59,210 |-damage|p2a: Wobbuffet|293/554
+2026-08-13 04:18:59,210 |faint|p1a: Sudowoodo
+2026-08-13 04:18:59,210 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,210 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"293/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-13 04:18:59,222 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,222 |
+2026-08-13 04:18:59,222 |t:|1786587539
+2026-08-13 04:18:59,222 |switch|p1a: Slowking|Slowking, L69, M|100/100
+2026-08-13 04:18:59,222 |
+2026-08-13 04:18:59,222 |-heal|p2a: Wobbuffet|327/554|[from] item: Leftovers
+2026-08-13 04:18:59,222 |upkeep
+2026-08-13 04:18:59,222 |turn|6
+2026-08-13 04:18:59,224 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,224 |request|{"active":[{"moves":[{"move":"Mimic","id":"mimic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":39,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"327/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-13 04:18:59,242 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,242 |
+2026-08-13 04:18:59,242 |t:|1786587539
+2026-08-13 04:18:59,242 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:18:59,242 |-fail|p2a: Wobbuffet
+2026-08-13 04:18:59,242 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:18:59,242 |-fail|p1a: Slowking
+2026-08-13 04:18:59,242 |
+2026-08-13 04:18:59,242 |-heal|p2a: Wobbuffet|361/554|[from] item: Leftovers
+2026-08-13 04:18:59,242 |upkeep
+2026-08-13 04:18:59,242 |turn|7
+2026-08-13 04:18:59,242 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,242 |request|{"active":[{"moves":[{"move":"Mimic","id":"mimic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":38,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"238/238","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-13 04:18:59,259 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,259 |
+2026-08-13 04:18:59,259 |t:|1786587539
+2026-08-13 04:18:59,259 |switch|p2a: Farfetch’d|Farfetch’d, L77, M|238/238
+2026-08-13 04:18:59,259 |move|p1a: Slowking|Psychic|p2a: Farfetch’d
+2026-08-13 04:18:59,259 |-damage|p2a: Farfetch’d|154/238
+2026-08-13 04:18:59,259 |
+2026-08-13 04:18:59,259 |-heal|p2a: Farfetch’d|168/238|[from] item: Leftovers
+2026-08-13 04:18:59,259 |upkeep
+2026-08-13 04:18:59,259 |turn|8
+2026-08-13 04:18:59,261 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,261 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"168/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-13 04:18:59,276 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,276 |
+2026-08-13 04:18:59,276 |t:|1786587539
+2026-08-13 04:18:59,276 |move|p2a: Farfetch’d|Return|p1a: Slowking
+2026-08-13 04:18:59,276 |-damage|p1a: Slowking|68/100
+2026-08-13 04:18:59,276 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:18:59,276 |
+2026-08-13 04:18:59,276 |-heal|p2a: Farfetch’d|182/238|[from] item: Leftovers
+2026-08-13 04:18:59,276 |-heal|p1a: Slowking|74/100|[from] item: Leftovers
+2026-08-13 04:18:59,276 |upkeep
+2026-08-13 04:18:59,276 |turn|9
+2026-08-13 04:18:59,279 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,279 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"182/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-13 04:18:59,298 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,298 |
+2026-08-13 04:18:59,298 |t:|1786587539
+2026-08-13 04:18:59,298 |move|p2a: Farfetch’d|Return|p1a: Slowking
+2026-08-13 04:18:59,298 |-damage|p1a: Slowking|41/100
+2026-08-13 04:18:59,298 |move|p1a: Slowking|Psychic|p2a: Farfetch’d
+2026-08-13 04:18:59,298 |-damage|p2a: Farfetch’d|101/238
+2026-08-13 04:18:59,298 |
+2026-08-13 04:18:59,298 |-heal|p2a: Farfetch’d|115/238|[from] item: Leftovers
+2026-08-13 04:18:59,298 |-heal|p1a: Slowking|48/100|[from] item: Leftovers
+2026-08-13 04:18:59,298 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:18:59,298 |upkeep
+2026-08-13 04:18:59,298 |turn|10
+2026-08-13 04:18:59,304 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,304 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"115/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-13 04:18:59,327 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,327 |
+2026-08-13 04:18:59,327 |t:|1786587539
+2026-08-13 04:18:59,327 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:18:59,327 |move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+2026-08-13 04:18:59,327 |-boost|p2a: Farfetch’d|atk|2
+2026-08-13 04:18:59,327 |
+2026-08-13 04:18:59,327 |-heal|p2a: Farfetch’d|129/238|[from] item: Leftovers
+2026-08-13 04:18:59,327 |upkeep
+2026-08-13 04:18:59,327 |turn|11
+2026-08-13 04:18:59,327 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,328 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"129/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-13 04:18:59,346 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,346 |
+2026-08-13 04:18:59,346 |t:|1786587539
+2026-08-13 04:18:59,346 |switch|p1a: Ariados|Ariados, L81, M|100/100
+2026-08-13 04:18:59,346 |move|p2a: Farfetch’d|Agility|p2a: Farfetch’d
+2026-08-13 04:18:59,346 |-boost|p2a: Farfetch’d|spe|2
+2026-08-13 04:18:59,346 |
+2026-08-13 04:18:59,346 |-heal|p2a: Farfetch’d|143/238|[from] item: Leftovers
+2026-08-13 04:18:59,346 |upkeep
+2026-08-13 04:18:59,346 |turn|12
+2026-08-13 04:18:59,347 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,347 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":47,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"143/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-13 04:18:59,366 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,366 |
+2026-08-13 04:18:59,366 |t:|1786587539
+2026-08-13 04:18:59,366 |move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+2026-08-13 04:18:59,367 |-boost|p2a: Farfetch’d|atk|2
+2026-08-13 04:18:59,367 |move|p1a: Ariados|Sludge Bomb|p2a: Farfetch’d
+2026-08-13 04:18:59,367 |-damage|p2a: Farfetch’d|13/238
+2026-08-13 04:18:59,367 |
+2026-08-13 04:18:59,367 |-heal|p2a: Farfetch’d|27/238|[from] item: Leftovers
+2026-08-13 04:18:59,367 |upkeep
+2026-08-13 04:18:59,367 |turn|13
+2026-08-13 04:18:59,368 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,368 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":47,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"27/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-13 04:18:59,382 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,382 |
+2026-08-13 04:18:59,382 |t:|1786587539
+2026-08-13 04:18:59,382 |move|p2a: Farfetch’d|Return|p1a: Ariados
+2026-08-13 04:18:59,382 |-damage|p1a: Ariados|6/100
+2026-08-13 04:18:59,382 |move|p1a: Ariados|Baton Pass|p1a: Ariados
+2026-08-13 04:18:59,383 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,383 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"27/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-13 04:18:59,396 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,396 |
+2026-08-13 04:18:59,396 |t:|1786587539
+2026-08-13 04:18:59,396 |switch|p1a: Hitmonlee|Hitmonlee, L73, M|100/100|[from] Baton Pass
+2026-08-13 04:18:59,396 |
+2026-08-13 04:18:59,396 |-heal|p2a: Farfetch’d|41/238|[from] item: Leftovers
+2026-08-13 04:18:59,396 |upkeep
+2026-08-13 04:18:59,396 |turn|14
+2026-08-13 04:18:59,396 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,396 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":47,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"41/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-13 04:18:59,414 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,414 |
+2026-08-13 04:18:59,414 |t:|1786587539
+2026-08-13 04:18:59,414 |move|p2a: Farfetch’d|Return|p1a: Hitmonlee
+2026-08-13 04:18:59,414 |-damage|p1a: Hitmonlee|0 fnt
+2026-08-13 04:18:59,414 |faint|p1a: Hitmonlee
+2026-08-13 04:18:59,414 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,414 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"41/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-13 04:18:59,428 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,428 |
+2026-08-13 04:18:59,428 |t:|1786587539
+2026-08-13 04:18:59,428 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:18:59,429 |
+2026-08-13 04:18:59,429 |-heal|p2a: Farfetch’d|55/238|[from] item: Leftovers
+2026-08-13 04:18:59,429 |upkeep
+2026-08-13 04:18:59,429 |turn|15
+2026-08-13 04:18:59,429 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,429 |request|{"active":[{"moves":[{"move":"Baton Pass","id":"batonpass","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Agility","id":"agility","pp":47,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"55/238","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-13 04:18:59,445 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,445 |
+2026-08-13 04:18:59,445 |t:|1786587539
+2026-08-13 04:18:59,445 |move|p2a: Farfetch’d|Agility|p2a: Farfetch’d
+2026-08-13 04:18:59,445 |-boost|p2a: Farfetch’d|spe|2
+2026-08-13 04:18:59,445 |move|p1a: Scizor|Hidden Power|p2a: Farfetch’d
+2026-08-13 04:18:59,445 |-damage|p2a: Farfetch’d|0 fnt
+2026-08-13 04:18:59,445 |faint|p2a: Farfetch’d
+2026-08-13 04:18:59,446 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,446 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":true,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":41}
+2026-08-13 04:18:59,462 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,462 |
+2026-08-13 04:18:59,462 |t:|1786587539
+2026-08-13 04:18:59,462 |switch|p2a: Stantler|Stantler, L71, M|250/250
+2026-08-13 04:18:59,462 |
+2026-08-13 04:18:59,462 |upkeep
+2026-08-13 04:18:59,462 |turn|16
+2026-08-13 04:18:59,462 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,462 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-13 04:18:59,486 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,486 |
+2026-08-13 04:18:59,486 |t:|1786587539
+2026-08-13 04:18:59,486 |move|p2a: Stantler|Curse|p2a: Stantler
+2026-08-13 04:18:59,486 |-unboost|p2a: Stantler|spe|1
+2026-08-13 04:18:59,486 |-boost|p2a: Stantler|atk|1
+2026-08-13 04:18:59,486 |-boost|p2a: Stantler|def|1
+2026-08-13 04:18:59,486 |move|p1a: Scizor|Hidden Power|p2a: Stantler
+2026-08-13 04:18:59,487 |-damage|p2a: Stantler|191/250
+2026-08-13 04:18:59,487 |
+2026-08-13 04:18:59,487 |-heal|p2a: Stantler|206/250|[from] item: Leftovers
+2026-08-13 04:18:59,487 |upkeep
+2026-08-13 04:18:59,487 |turn|17
+2026-08-13 04:18:59,487 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,487 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"206/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-13 04:18:59,505 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,505 |
+2026-08-13 04:18:59,505 |t:|1786587539
+2026-08-13 04:18:59,505 |move|p1a: Scizor|Hidden Power|p2a: Stantler
+2026-08-13 04:18:59,505 |-damage|p2a: Stantler|149/250
+2026-08-13 04:18:59,505 |move|p2a: Stantler|Sleep Talk|p2a: Stantler
+2026-08-13 04:18:59,505 |
+2026-08-13 04:18:59,505 |-heal|p2a: Stantler|164/250|[from] item: Leftovers
+2026-08-13 04:18:59,505 |upkeep
+2026-08-13 04:18:59,505 |turn|18
+2026-08-13 04:18:59,507 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,507 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"164/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-13 04:18:59,524 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,524 |
+2026-08-13 04:18:59,524 |t:|1786587539
+2026-08-13 04:18:59,524 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:18:59,524 |move|p2a: Stantler|Rest|p2a: Stantler
+2026-08-13 04:18:59,524 |-status|p2a: Stantler|slp|[from] move: Rest
+2026-08-13 04:18:59,524 |-heal|p2a: Stantler|250/250 slp|[silent]
+2026-08-13 04:18:59,524 |
+2026-08-13 04:18:59,524 |upkeep
+2026-08-13 04:18:59,524 |turn|19
+2026-08-13 04:18:59,528 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,528 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250 slp","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-13 04:18:59,544 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,544 |
+2026-08-13 04:18:59,544 |t:|1786587539
+2026-08-13 04:18:59,544 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:18:59,544 |-fail|p1a: Scizor
+2026-08-13 04:18:59,544 |cant|p2a: Stantler|slp
+2026-08-13 04:18:59,544 |
+2026-08-13 04:18:59,544 |upkeep
+2026-08-13 04:18:59,544 |turn|20
+2026-08-13 04:18:59,547 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,547 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250 slp","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-13 04:18:59,565 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,565 |
+2026-08-13 04:18:59,565 |t:|1786587539
+2026-08-13 04:18:59,565 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:18:59,565 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:18:59,565 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:18:59,565 |-boost|p1a: Scizor|def|1
+2026-08-13 04:18:59,565 |cant|p2a: Stantler|slp
+2026-08-13 04:18:59,565 |
+2026-08-13 04:18:59,565 |upkeep
+2026-08-13 04:18:59,565 |turn|21
+2026-08-13 04:18:59,565 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,565 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250 slp","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-13 04:18:59,587 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,587 |
+2026-08-13 04:18:59,587 |t:|1786587539
+2026-08-13 04:18:59,587 |-curestatus|p2a: Stantler|slp|[msg]
+2026-08-13 04:18:59,587 |move|p2a: Stantler|Rest|p2a: Stantler
+2026-08-13 04:18:59,587 |-fail|p2a: Stantler
+2026-08-13 04:18:59,587 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:18:59,587 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:18:59,587 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:18:59,587 |-boost|p1a: Scizor|def|1
+2026-08-13 04:18:59,587 |
+2026-08-13 04:18:59,587 |upkeep
+2026-08-13 04:18:59,587 |turn|22
+2026-08-13 04:18:59,589 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,589 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-13 04:18:59,611 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,611 |
+2026-08-13 04:18:59,612 |t:|1786587539
+2026-08-13 04:18:59,612 |move|p2a: Stantler|Return|p1a: Scizor
+2026-08-13 04:18:59,612 |-resisted|p1a: Scizor
+2026-08-13 04:18:59,612 |-damage|p1a: Scizor|86/100
+2026-08-13 04:18:59,612 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:18:59,612 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:18:59,612 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:18:59,612 |-boost|p1a: Scizor|def|1
+2026-08-13 04:18:59,612 |
+2026-08-13 04:18:59,612 |-heal|p1a: Scizor|92/100|[from] item: Leftovers
+2026-08-13 04:18:59,612 |upkeep
+2026-08-13 04:18:59,612 |turn|23
+2026-08-13 04:18:59,612 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,612 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-13 04:18:59,632 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,632 |
+2026-08-13 04:18:59,632 |t:|1786587539
+2026-08-13 04:18:59,632 |move|p2a: Stantler|Return|p1a: Scizor
+2026-08-13 04:18:59,632 |-resisted|p1a: Scizor
+2026-08-13 04:18:59,632 |-damage|p1a: Scizor|80/100
+2026-08-13 04:18:59,632 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:18:59,632 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:18:59,632 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:18:59,632 |-boost|p1a: Scizor|def|1
+2026-08-13 04:18:59,632 |
+2026-08-13 04:18:59,632 |-heal|p1a: Scizor|86/100|[from] item: Leftovers
+2026-08-13 04:18:59,632 |upkeep
+2026-08-13 04:18:59,632 |turn|24
+2026-08-13 04:18:59,634 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,634 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-13 04:18:59,655 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,655 |
+2026-08-13 04:18:59,655 |t:|1786587539
+2026-08-13 04:18:59,655 |move|p2a: Stantler|Curse|p2a: Stantler
+2026-08-13 04:18:59,655 |-unboost|p2a: Stantler|spe|1
+2026-08-13 04:18:59,655 |-boost|p2a: Stantler|atk|1
+2026-08-13 04:18:59,655 |-boost|p2a: Stantler|def|1
+2026-08-13 04:18:59,655 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:18:59,655 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:18:59,655 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:18:59,655 |-boost|p1a: Scizor|def|1
+2026-08-13 04:18:59,655 |
+2026-08-13 04:18:59,655 |-heal|p1a: Scizor|92/100|[from] item: Leftovers
+2026-08-13 04:18:59,655 |upkeep
+2026-08-13 04:18:59,655 |turn|25
+2026-08-13 04:18:59,655 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,655 |request|{"active":[{"moves":[{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":true,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-13 04:18:59,673 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,673 |
+2026-08-13 04:18:59,673 |t:|1786587539
+2026-08-13 04:18:59,673 |switch|p2a: Venusaur|Venusaur, L67, M|230/230
+2026-08-13 04:18:59,673 |switch|p1a: Ariados|Ariados, L81, M|6/100
+2026-08-13 04:18:59,673 |
+2026-08-13 04:18:59,673 |-heal|p1a: Ariados|12/100|[from] item: Leftovers
+2026-08-13 04:18:59,673 |upkeep
+2026-08-13 04:18:59,673 |turn|26
+2026-08-13 04:18:59,676 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,676 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":40,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-13 04:18:59,697 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,697 |
+2026-08-13 04:18:59,697 |t:|1786587539
+2026-08-13 04:18:59,697 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:18:59,697 |move|p1a: Ariados|Sludge Bomb|p2a: Venusaur
+2026-08-13 04:18:59,697 |-damage|p2a: Venusaur|112/230
+2026-08-13 04:18:59,697 |
+2026-08-13 04:18:59,697 |-heal|p2a: Venusaur|126/230|[from] item: Leftovers
+2026-08-13 04:18:59,697 |-heal|p1a: Ariados|18/100|[from] item: Leftovers
+2026-08-13 04:18:59,697 |upkeep
+2026-08-13 04:18:59,697 |turn|27
+2026-08-13 04:18:59,697 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,697 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":40,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"126/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-13 04:18:59,709 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,709 |
+2026-08-13 04:18:59,709 |t:|1786587539
+2026-08-13 04:18:59,709 |move|p2a: Venusaur|Hidden Power|p1a: Ariados
+2026-08-13 04:18:59,709 |-supereffective|p1a: Ariados
+2026-08-13 04:18:59,709 |-damage|p1a: Ariados|0 fnt
+2026-08-13 04:18:59,709 |faint|p1a: Ariados
+2026-08-13 04:18:59,713 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,713 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"126/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-13 04:18:59,726 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,726 |
+2026-08-13 04:18:59,726 |t:|1786587539
+2026-08-13 04:18:59,726 |switch|p1a: Slowking|Slowking, L69, M|48/100
+2026-08-13 04:18:59,726 |
+2026-08-13 04:18:59,726 |-heal|p2a: Venusaur|140/230|[from] item: Leftovers
+2026-08-13 04:18:59,726 |-heal|p1a: Slowking|54/100|[from] item: Leftovers
+2026-08-13 04:18:59,726 |upkeep
+2026-08-13 04:18:59,726 |turn|28
+2026-08-13 04:18:59,729 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,729 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":61,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":40,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"140/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-13 04:18:59,749 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,749 |
+2026-08-13 04:18:59,749 |t:|1786587539
+2026-08-13 04:18:59,749 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:18:59,749 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:18:59,749 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:18:59,749 |
+2026-08-13 04:18:59,749 |-heal|p2a: Venusaur|154/230|[from] item: Leftovers
+2026-08-13 04:18:59,749 |-heal|p1a: Slowking|60/100|[from] item: Leftovers
+2026-08-13 04:18:59,749 |upkeep
+2026-08-13 04:18:59,749 |turn|29
+2026-08-13 04:18:59,749 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,749 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":60,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":40,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"154/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-13 04:18:59,770 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,770 |
+2026-08-13 04:18:59,770 |t:|1786587539
+2026-08-13 04:18:59,770 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:18:59,770 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:18:59,770 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:18:59,770 |-resisted|p2a: Venusaur
+2026-08-13 04:18:59,770 |-damage|p2a: Venusaur|114/230
+2026-08-13 04:18:59,770 |
+2026-08-13 04:18:59,770 |-heal|p2a: Venusaur|128/230|[from] item: Leftovers
+2026-08-13 04:18:59,770 |-heal|p1a: Slowking|66/100|[from] item: Leftovers
+2026-08-13 04:18:59,770 |upkeep
+2026-08-13 04:18:59,770 |turn|30
+2026-08-13 04:18:59,771 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,771 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":59,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":40,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"128/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-13 04:18:59,790 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,790 |
+2026-08-13 04:18:59,790 |t:|1786587539
+2026-08-13 04:18:59,790 |move|p2a: Venusaur|Razor Leaf|p1a: Slowking
+2026-08-13 04:18:59,790 |-supereffective|p1a: Slowking
+2026-08-13 04:18:59,790 |-damage|p1a: Slowking|11/100
+2026-08-13 04:18:59,790 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:18:59,790 |
+2026-08-13 04:18:59,790 |-heal|p2a: Venusaur|142/230|[from] item: Leftovers
+2026-08-13 04:18:59,790 |-heal|p1a: Slowking|18/100|[from] item: Leftovers
+2026-08-13 04:18:59,790 |upkeep
+2026-08-13 04:18:59,790 |turn|31
+2026-08-13 04:18:59,793 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,793 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":59,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":39,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"142/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-13 04:18:59,820 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,820 |
+2026-08-13 04:18:59,820 |t:|1786587539
+2026-08-13 04:18:59,820 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:18:59,820 |-heal|p2a: Venusaur|230/230
+2026-08-13 04:18:59,820 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:18:59,820 |-resisted|p2a: Venusaur
+2026-08-13 04:18:59,820 |-damage|p2a: Venusaur|192/230
+2026-08-13 04:18:59,820 |
+2026-08-13 04:18:59,820 |-heal|p2a: Venusaur|206/230|[from] item: Leftovers
+2026-08-13 04:18:59,820 |-heal|p1a: Slowking|24/100|[from] item: Leftovers
+2026-08-13 04:18:59,820 |upkeep
+2026-08-13 04:18:59,820 |turn|32
+2026-08-13 04:18:59,822 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,822 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":59,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":39,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"206/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-13 04:18:59,841 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,841 |
+2026-08-13 04:18:59,841 |t:|1786587539
+2026-08-13 04:18:59,841 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:18:59,841 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:18:59,841 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:18:59,841 |-resisted|p2a: Venusaur
+2026-08-13 04:18:59,841 |-damage|p2a: Venusaur|168/230
+2026-08-13 04:18:59,841 |
+2026-08-13 04:18:59,841 |-heal|p2a: Venusaur|182/230|[from] item: Leftovers
+2026-08-13 04:18:59,841 |-heal|p1a: Slowking|30/100|[from] item: Leftovers
+2026-08-13 04:18:59,841 |upkeep
+2026-08-13 04:18:59,841 |turn|33
+2026-08-13 04:18:59,842 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,842 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":58,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":39,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"182/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-13 04:18:59,863 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,863 |
+2026-08-13 04:18:59,863 |t:|1786587539
+2026-08-13 04:18:59,863 |switch|p1a: Scizor|Scizor, L67, M|92/100
+2026-08-13 04:18:59,863 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:18:59,863 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:18:59,863 |
+2026-08-13 04:18:59,863 |-heal|p2a: Venusaur|196/230|[from] item: Leftovers
+2026-08-13 04:18:59,863 |-heal|p1a: Scizor|98/100|[from] item: Leftovers
+2026-08-13 04:18:59,863 |upkeep
+2026-08-13 04:18:59,863 |turn|34
+2026-08-13 04:18:59,865 >battle-gen2randombattle-334928
+2026-08-13 04:18:59,865 |request|{"active":[{"moves":[{"move":"Growth","id":"growth","pp":57,"maxpp":61,"target":"self","disabled":false},{"move":"Razor Leaf","id":"razorleaf","pp":39,"maxpp":40,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"196/230","active":true,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"361/554","active":false,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["mimic","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-13 04:21:05,734 >battle-gen2randombattle-334928
+2026-08-13 04:21:05,734 |init|battle
+2026-08-13 04:21:05,735 |title|BOT1 vs. BOT2
+2026-08-13 04:21:05,735 |t:|1786587539
+2026-08-13 04:21:05,735 |gametype|singles
+2026-08-13 04:21:05,735 |player|p1|BOT1|101|
+2026-08-13 04:21:05,735 |player|p2|BOT2|169|
+2026-08-13 04:21:05,735 |gen|2
+2026-08-13 04:21:05,735 |tier|[Gen 2] Random Battle
+2026-08-13 04:21:05,735 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-13 04:21:05,735 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-13 04:21:05,735 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-13 04:21:05,735 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-13 04:21:05,735 |rule|Freeze Clause Mod: Limit one foe frozen
+2026-08-13 04:21:05,735 |rule|Species Clause: Limit one of each Pokémon
+2026-08-13 04:21:05,735 |rule|OHKO Clause: OHKO moves are banned
+2026-08-13 04:21:05,735 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-13 04:21:05,735 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-13 04:21:05,735 |
+2026-08-13 04:21:05,735 |t:|1786587539
+2026-08-13 04:21:05,735 |teamsize|p1|6
+2026-08-13 04:21:05,735 |teamsize|p2|6
+2026-08-13 04:21:05,735 |start
+2026-08-13 04:21:05,735 |switch|p1a: Azumarill|Azumarill, L77, M|100/100
+2026-08-13 04:21:05,735 |switch|p2a: Dewgong|Dewgong, L73, M|282/282
+2026-08-13 04:21:05,735 |turn|1
+2026-08-13 04:21:05,735 |
+2026-08-13 04:21:05,735 |t:|1786587539
+2026-08-13 04:21:05,735 |move|p2a: Dewgong|Encore|p1a: Azumarill
+2026-08-13 04:21:05,735 |-fail|p1a: Azumarill
+2026-08-13 04:21:05,735 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:21:05,735 |-start|p1a: Azumarill|perish3|[silent]
+2026-08-13 04:21:05,735 |-start|p2a: Dewgong|perish3|[silent]
+2026-08-13 04:21:05,735 |-fieldactivate|move: Perish Song
+2026-08-13 04:21:05,735 |
+2026-08-13 04:21:05,735 |-start|p2a: Dewgong|perish3
+2026-08-13 04:21:05,735 |-start|p1a: Azumarill|perish3
+2026-08-13 04:21:05,735 |upkeep
+2026-08-13 04:21:05,735 |turn|2
+2026-08-13 04:21:05,735 |
+2026-08-13 04:21:05,735 |t:|1786587539
+2026-08-13 04:21:05,735 |move|p2a: Dewgong|Protect|p2a: Dewgong
+2026-08-13 04:21:05,735 |-singleturn|p2a: Dewgong|Protect
+2026-08-13 04:21:05,735 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:21:05,735 |-fail|p1a: Azumarill
+2026-08-13 04:21:05,735 |
+2026-08-13 04:21:05,735 |-start|p2a: Dewgong|perish2
+2026-08-13 04:21:05,735 |-start|p1a: Azumarill|perish2
+2026-08-13 04:21:05,735 |upkeep
+2026-08-13 04:21:05,735 |turn|3
+2026-08-13 04:21:05,735 |
+2026-08-13 04:21:05,735 |t:|1786587539
+2026-08-13 04:21:05,735 |move|p2a: Dewgong|Toxic|p1a: Azumarill|[miss]
+2026-08-13 04:21:05,735 |-miss|p2a: Dewgong
+2026-08-13 04:21:05,736 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:21:05,736 |-fail|p1a: Azumarill
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |-start|p2a: Dewgong|perish1
+2026-08-13 04:21:05,736 |-start|p1a: Azumarill|perish1
+2026-08-13 04:21:05,736 |upkeep
+2026-08-13 04:21:05,736 |turn|4
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |t:|1786587539
+2026-08-13 04:21:05,736 |move|p2a: Dewgong|Toxic|p1a: Azumarill
+2026-08-13 04:21:05,736 |-status|p1a: Azumarill|tox
+2026-08-13 04:21:05,736 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:21:05,736 |-fail|p1a: Azumarill
+2026-08-13 04:21:05,736 |-damage|p1a: Azumarill|94/100 tox|[from] psn
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |-start|p2a: Dewgong|perish0
+2026-08-13 04:21:05,736 |-start|p1a: Azumarill|perish0
+2026-08-13 04:21:05,736 |faint|p2a: Dewgong
+2026-08-13 04:21:05,736 |faint|p1a: Azumarill
+2026-08-13 04:21:05,736 |upkeep
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |t:|1786587539
+2026-08-13 04:21:05,736 |switch|p2a: Wobbuffet|Wobbuffet, L95, M|554/554
+2026-08-13 04:21:05,736 |switch|p1a: Sudowoodo|Sudowoodo, L73, M|100/100
+2026-08-13 04:21:05,736 |turn|5
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |t:|1786587539
+2026-08-13 04:21:05,736 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:21:05,736 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:21:05,736 |move|p1a: Sudowoodo|Self-Destruct|p2a: Wobbuffet
+2026-08-13 04:21:05,736 |-damage|p2a: Wobbuffet|293/554
+2026-08-13 04:21:05,736 |faint|p1a: Sudowoodo
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |t:|1786587539
+2026-08-13 04:21:05,736 |switch|p1a: Slowking|Slowking, L69, M|100/100
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |-heal|p2a: Wobbuffet|327/554|[from] item: Leftovers
+2026-08-13 04:21:05,736 |upkeep
+2026-08-13 04:21:05,736 |turn|6
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |t:|1786587539
+2026-08-13 04:21:05,736 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:21:05,736 |-fail|p2a: Wobbuffet
+2026-08-13 04:21:05,736 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:21:05,736 |-fail|p1a: Slowking
+2026-08-13 04:21:05,736 |
+2026-08-13 04:21:05,736 |-heal|p2a: Wobbuffet|361/554|[from] item: Leftovers
+2026-08-13 04:21:05,736 |upkeep
+2026-08-13 04:21:05,736 |turn|7
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |t:|1786587539
+2026-08-13 04:21:05,737 |switch|p2a: Farfetch’d|Farfetch’d, L77, M|238/238
+2026-08-13 04:21:05,737 |move|p1a: Slowking|Psychic|p2a: Farfetch’d
+2026-08-13 04:21:05,737 |-damage|p2a: Farfetch’d|154/238
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |-heal|p2a: Farfetch’d|168/238|[from] item: Leftovers
+2026-08-13 04:21:05,737 |upkeep
+2026-08-13 04:21:05,737 |turn|8
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |t:|1786587539
+2026-08-13 04:21:05,737 |move|p2a: Farfetch’d|Return|p1a: Slowking
+2026-08-13 04:21:05,737 |-damage|p1a: Slowking|68/100
+2026-08-13 04:21:05,737 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |-heal|p2a: Farfetch’d|182/238|[from] item: Leftovers
+2026-08-13 04:21:05,737 |-heal|p1a: Slowking|74/100|[from] item: Leftovers
+2026-08-13 04:21:05,737 |upkeep
+2026-08-13 04:21:05,737 |turn|9
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |t:|1786587539
+2026-08-13 04:21:05,737 |move|p2a: Farfetch’d|Return|p1a: Slowking
+2026-08-13 04:21:05,737 |-damage|p1a: Slowking|41/100
+2026-08-13 04:21:05,737 |move|p1a: Slowking|Psychic|p2a: Farfetch’d
+2026-08-13 04:21:05,737 |-damage|p2a: Farfetch’d|101/238
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |-heal|p2a: Farfetch’d|115/238|[from] item: Leftovers
+2026-08-13 04:21:05,737 |-heal|p1a: Slowking|48/100|[from] item: Leftovers
+2026-08-13 04:21:05,737 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:21:05,737 |upkeep
+2026-08-13 04:21:05,737 |turn|10
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |t:|1786587539
+2026-08-13 04:21:05,737 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:21:05,737 |move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+2026-08-13 04:21:05,737 |-boost|p2a: Farfetch’d|atk|2
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |-heal|p2a: Farfetch’d|129/238|[from] item: Leftovers
+2026-08-13 04:21:05,737 |upkeep
+2026-08-13 04:21:05,737 |turn|11
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |t:|1786587539
+2026-08-13 04:21:05,737 |switch|p1a: Ariados|Ariados, L81, M|100/100
+2026-08-13 04:21:05,737 |move|p2a: Farfetch’d|Agility|p2a: Farfetch’d
+2026-08-13 04:21:05,737 |-boost|p2a: Farfetch’d|spe|2
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,737 |-heal|p2a: Farfetch’d|143/238|[from] item: Leftovers
+2026-08-13 04:21:05,737 |upkeep
+2026-08-13 04:21:05,737 |turn|12
+2026-08-13 04:21:05,737 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+2026-08-13 04:21:05,738 |-boost|p2a: Farfetch’d|atk|2
+2026-08-13 04:21:05,738 |move|p1a: Ariados|Sludge Bomb|p2a: Farfetch’d
+2026-08-13 04:21:05,738 |-damage|p2a: Farfetch’d|13/238
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |-heal|p2a: Farfetch’d|27/238|[from] item: Leftovers
+2026-08-13 04:21:05,738 |upkeep
+2026-08-13 04:21:05,738 |turn|13
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |move|p2a: Farfetch’d|Return|p1a: Ariados
+2026-08-13 04:21:05,738 |-damage|p1a: Ariados|6/100
+2026-08-13 04:21:05,738 |move|p1a: Ariados|Baton Pass|p1a: Ariados
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |switch|p1a: Hitmonlee|Hitmonlee, L73, M|100/100|[from] Baton Pass
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |-heal|p2a: Farfetch’d|41/238|[from] item: Leftovers
+2026-08-13 04:21:05,738 |upkeep
+2026-08-13 04:21:05,738 |turn|14
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |move|p2a: Farfetch’d|Return|p1a: Hitmonlee
+2026-08-13 04:21:05,738 |-damage|p1a: Hitmonlee|0 fnt
+2026-08-13 04:21:05,738 |faint|p1a: Hitmonlee
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |-heal|p2a: Farfetch’d|55/238|[from] item: Leftovers
+2026-08-13 04:21:05,738 |upkeep
+2026-08-13 04:21:05,738 |turn|15
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |move|p2a: Farfetch’d|Agility|p2a: Farfetch’d
+2026-08-13 04:21:05,738 |-boost|p2a: Farfetch’d|spe|2
+2026-08-13 04:21:05,738 |move|p1a: Scizor|Hidden Power|p2a: Farfetch’d
+2026-08-13 04:21:05,738 |-damage|p2a: Farfetch’d|0 fnt
+2026-08-13 04:21:05,738 |faint|p2a: Farfetch’d
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |switch|p2a: Stantler|Stantler, L71, M|250/250
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |upkeep
+2026-08-13 04:21:05,738 |turn|16
+2026-08-13 04:21:05,738 |
+2026-08-13 04:21:05,738 |t:|1786587539
+2026-08-13 04:21:05,738 |move|p2a: Stantler|Curse|p2a: Stantler
+2026-08-13 04:21:05,738 |-unboost|p2a: Stantler|spe|1
+2026-08-13 04:21:05,738 |-boost|p2a: Stantler|atk|1
+2026-08-13 04:21:05,739 |-boost|p2a: Stantler|def|1
+2026-08-13 04:21:05,739 |move|p1a: Scizor|Hidden Power|p2a: Stantler
+2026-08-13 04:21:05,739 |-damage|p2a: Stantler|191/250
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |-heal|p2a: Stantler|206/250|[from] item: Leftovers
+2026-08-13 04:21:05,739 |upkeep
+2026-08-13 04:21:05,739 |turn|17
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |t:|1786587539
+2026-08-13 04:21:05,739 |move|p1a: Scizor|Hidden Power|p2a: Stantler
+2026-08-13 04:21:05,739 |-damage|p2a: Stantler|149/250
+2026-08-13 04:21:05,739 |move|p2a: Stantler|Sleep Talk|p2a: Stantler
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |-heal|p2a: Stantler|164/250|[from] item: Leftovers
+2026-08-13 04:21:05,739 |upkeep
+2026-08-13 04:21:05,739 |turn|18
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |t:|1786587539
+2026-08-13 04:21:05,739 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:21:05,739 |move|p2a: Stantler|Rest|p2a: Stantler
+2026-08-13 04:21:05,739 |-status|p2a: Stantler|slp|[from] move: Rest
+2026-08-13 04:21:05,739 |-heal|p2a: Stantler|250/250 slp|[silent]
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |upkeep
+2026-08-13 04:21:05,739 |turn|19
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |t:|1786587539
+2026-08-13 04:21:05,739 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:21:05,739 |-fail|p1a: Scizor
+2026-08-13 04:21:05,739 |cant|p2a: Stantler|slp
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |upkeep
+2026-08-13 04:21:05,739 |turn|20
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |t:|1786587539
+2026-08-13 04:21:05,739 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:21:05,739 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:21:05,739 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:21:05,739 |-boost|p1a: Scizor|def|1
+2026-08-13 04:21:05,739 |cant|p2a: Stantler|slp
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |upkeep
+2026-08-13 04:21:05,739 |turn|21
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,739 |t:|1786587539
+2026-08-13 04:21:05,739 |-curestatus|p2a: Stantler|slp|[msg]
+2026-08-13 04:21:05,739 |move|p2a: Stantler|Rest|p2a: Stantler
+2026-08-13 04:21:05,739 |-fail|p2a: Stantler
+2026-08-13 04:21:05,739 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:21:05,739 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:21:05,739 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:21:05,739 |-boost|p1a: Scizor|def|1
+2026-08-13 04:21:05,739 |
+2026-08-13 04:21:05,740 |upkeep
+2026-08-13 04:21:05,740 |turn|22
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |t:|1786587539
+2026-08-13 04:21:05,740 |move|p2a: Stantler|Return|p1a: Scizor
+2026-08-13 04:21:05,740 |-resisted|p1a: Scizor
+2026-08-13 04:21:05,740 |-damage|p1a: Scizor|86/100
+2026-08-13 04:21:05,740 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:21:05,740 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:21:05,740 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:21:05,740 |-boost|p1a: Scizor|def|1
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |-heal|p1a: Scizor|92/100|[from] item: Leftovers
+2026-08-13 04:21:05,740 |upkeep
+2026-08-13 04:21:05,740 |turn|23
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |t:|1786587539
+2026-08-13 04:21:05,740 |move|p2a: Stantler|Return|p1a: Scizor
+2026-08-13 04:21:05,740 |-resisted|p1a: Scizor
+2026-08-13 04:21:05,740 |-damage|p1a: Scizor|80/100
+2026-08-13 04:21:05,740 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:21:05,740 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:21:05,740 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:21:05,740 |-boost|p1a: Scizor|def|1
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |-heal|p1a: Scizor|86/100|[from] item: Leftovers
+2026-08-13 04:21:05,740 |upkeep
+2026-08-13 04:21:05,740 |turn|24
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |t:|1786587539
+2026-08-13 04:21:05,740 |move|p2a: Stantler|Curse|p2a: Stantler
+2026-08-13 04:21:05,740 |-unboost|p2a: Stantler|spe|1
+2026-08-13 04:21:05,740 |-boost|p2a: Stantler|atk|1
+2026-08-13 04:21:05,740 |-boost|p2a: Stantler|def|1
+2026-08-13 04:21:05,740 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:21:05,740 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:21:05,740 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:21:05,740 |-boost|p1a: Scizor|def|1
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |-heal|p1a: Scizor|92/100|[from] item: Leftovers
+2026-08-13 04:21:05,740 |upkeep
+2026-08-13 04:21:05,740 |turn|25
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |t:|1786587539
+2026-08-13 04:21:05,740 |switch|p2a: Venusaur|Venusaur, L67, M|230/230
+2026-08-13 04:21:05,740 |switch|p1a: Ariados|Ariados, L81, M|6/100
+2026-08-13 04:21:05,740 |
+2026-08-13 04:21:05,740 |-heal|p1a: Ariados|12/100|[from] item: Leftovers
+2026-08-13 04:21:05,740 |upkeep
+2026-08-13 04:21:05,740 |turn|26
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |t:|1786587539
+2026-08-13 04:21:05,741 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:21:05,741 |move|p1a: Ariados|Sludge Bomb|p2a: Venusaur
+2026-08-13 04:21:05,741 |-damage|p2a: Venusaur|112/230
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |-heal|p2a: Venusaur|126/230|[from] item: Leftovers
+2026-08-13 04:21:05,741 |-heal|p1a: Ariados|18/100|[from] item: Leftovers
+2026-08-13 04:21:05,741 |upkeep
+2026-08-13 04:21:05,741 |turn|27
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |t:|1786587539
+2026-08-13 04:21:05,741 |move|p2a: Venusaur|Hidden Power|p1a: Ariados
+2026-08-13 04:21:05,741 |-supereffective|p1a: Ariados
+2026-08-13 04:21:05,741 |-damage|p1a: Ariados|0 fnt
+2026-08-13 04:21:05,741 |faint|p1a: Ariados
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |t:|1786587539
+2026-08-13 04:21:05,741 |switch|p1a: Slowking|Slowking, L69, M|48/100
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |-heal|p2a: Venusaur|140/230|[from] item: Leftovers
+2026-08-13 04:21:05,741 |-heal|p1a: Slowking|54/100|[from] item: Leftovers
+2026-08-13 04:21:05,741 |upkeep
+2026-08-13 04:21:05,741 |turn|28
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |t:|1786587539
+2026-08-13 04:21:05,741 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:21:05,741 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:21:05,741 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |-heal|p2a: Venusaur|154/230|[from] item: Leftovers
+2026-08-13 04:21:05,741 |-heal|p1a: Slowking|60/100|[from] item: Leftovers
+2026-08-13 04:21:05,741 |upkeep
+2026-08-13 04:21:05,741 |turn|29
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |t:|1786587539
+2026-08-13 04:21:05,741 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:21:05,741 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:21:05,741 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:21:05,741 |-resisted|p2a: Venusaur
+2026-08-13 04:21:05,741 |-damage|p2a: Venusaur|114/230
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |-heal|p2a: Venusaur|128/230|[from] item: Leftovers
+2026-08-13 04:21:05,741 |-heal|p1a: Slowking|66/100|[from] item: Leftovers
+2026-08-13 04:21:05,741 |upkeep
+2026-08-13 04:21:05,741 |turn|30
+2026-08-13 04:21:05,741 |
+2026-08-13 04:21:05,741 |t:|1786587539
+2026-08-13 04:21:05,741 |move|p2a: Venusaur|Razor Leaf|p1a: Slowking
+2026-08-13 04:21:05,741 |-supereffective|p1a: Slowking
+2026-08-13 04:21:05,741 |-damage|p1a: Slowking|11/100
+2026-08-13 04:21:05,741 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |-heal|p2a: Venusaur|142/230|[from] item: Leftovers
+2026-08-13 04:21:05,742 |-heal|p1a: Slowking|18/100|[from] item: Leftovers
+2026-08-13 04:21:05,742 |upkeep
+2026-08-13 04:21:05,742 |turn|31
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |t:|1786587539
+2026-08-13 04:21:05,742 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:21:05,742 |-heal|p2a: Venusaur|230/230
+2026-08-13 04:21:05,742 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:21:05,742 |-resisted|p2a: Venusaur
+2026-08-13 04:21:05,742 |-damage|p2a: Venusaur|192/230
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |-heal|p2a: Venusaur|206/230|[from] item: Leftovers
+2026-08-13 04:21:05,742 |-heal|p1a: Slowking|24/100|[from] item: Leftovers
+2026-08-13 04:21:05,742 |upkeep
+2026-08-13 04:21:05,742 |turn|32
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |t:|1786587539
+2026-08-13 04:21:05,742 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:21:05,742 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:21:05,742 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:21:05,742 |-resisted|p2a: Venusaur
+2026-08-13 04:21:05,742 |-damage|p2a: Venusaur|168/230
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |-heal|p2a: Venusaur|182/230|[from] item: Leftovers
+2026-08-13 04:21:05,742 |-heal|p1a: Slowking|30/100|[from] item: Leftovers
+2026-08-13 04:21:05,742 |upkeep
+2026-08-13 04:21:05,742 |turn|33
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |t:|1786587539
+2026-08-13 04:21:05,742 |switch|p1a: Scizor|Scizor, L67, M|92/100
+2026-08-13 04:21:05,742 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:21:05,742 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |-heal|p2a: Venusaur|196/230|[from] item: Leftovers
+2026-08-13 04:21:05,742 |-heal|p1a: Scizor|98/100|[from] item: Leftovers
+2026-08-13 04:21:05,742 |upkeep
+2026-08-13 04:21:05,742 |turn|34
+2026-08-13 04:21:05,742 |player|p1|
+2026-08-13 04:21:05,742 |player|p2|
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |t:|1786587539
+2026-08-13 04:21:05,742 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:21:05,742 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:21:05,742 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:21:05,742 |
+2026-08-13 04:21:05,742 |-heal|p2a: Venusaur|210/230|[from] item: Leftovers
+2026-08-13 04:21:05,742 |-heal|p1a: Scizor|100/100|[from] item: Leftovers
+2026-08-13 04:21:05,742 |upkeep
+2026-08-13 04:21:05,742 |turn|35
+2026-08-13 04:21:05,742 |player|p1|BOT1|101|
+2026-08-13 04:21:05,743 |player|p1|
+2026-08-13 04:21:05,743 |player|p1|BOT1|101|
+2026-08-13 04:21:05,743 |player|p2|BOT2|169|
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |t:|1786587596
+2026-08-13 04:21:05,743 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:21:05,743 |-heal|p2a: Venusaur|230/230
+2026-08-13 04:21:05,743 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:21:05,743 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:21:05,743 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:21:05,743 |-boost|p1a: Scizor|def|1
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |upkeep
+2026-08-13 04:21:05,743 |turn|36
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |t:|1786587596
+2026-08-13 04:21:05,743 |move|p2a: Venusaur|Razor Leaf|p1a: Scizor
+2026-08-13 04:21:05,743 |-resisted|p1a: Scizor
+2026-08-13 04:21:05,743 |-damage|p1a: Scizor|82/100
+2026-08-13 04:21:05,743 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |-heal|p1a: Scizor|88/100|[from] item: Leftovers
+2026-08-13 04:21:05,743 |upkeep
+2026-08-13 04:21:05,743 |turn|37
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |t:|1786587596
+2026-08-13 04:21:05,743 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:21:05,743 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:21:05,743 |-status|p1a: Scizor|slp|[from] move: Rest
+2026-08-13 04:21:05,743 |-heal|p1a: Scizor|100/100 slp|[silent]
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |upkeep
+2026-08-13 04:21:05,743 |turn|38
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |t:|1786587596
+2026-08-13 04:21:05,743 |switch|p2a: Wobbuffet|Wobbuffet, L95, M|361/554
+2026-08-13 04:21:05,743 |cant|p1a: Scizor|slp
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |-heal|p2a: Wobbuffet|395/554|[from] item: Leftovers
+2026-08-13 04:21:05,743 |upkeep
+2026-08-13 04:21:05,743 |turn|39
+2026-08-13 04:21:05,743 |player|p1|
+2026-08-13 04:21:05,743 |player|p2|
+2026-08-13 04:21:05,743 |player|p1|BOT1|101|
+2026-08-13 04:21:05,743 |player|p2|BOT2|169|
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |t:|1786587631
+2026-08-13 04:21:05,743 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:21:05,743 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:21:05,743 |cant|p1a: Scizor|slp
+2026-08-13 04:21:05,743 |
+2026-08-13 04:21:05,743 |-heal|p2a: Wobbuffet|429/554|[from] item: Leftovers
+2026-08-13 04:21:05,743 |upkeep
+2026-08-13 04:21:05,744 |turn|40
+2026-08-13 04:21:05,744 |
+2026-08-13 04:21:05,744 |t:|1786587631
+2026-08-13 04:21:05,744 |-curestatus|p1a: Scizor|slp|[msg]
+2026-08-13 04:21:05,744 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:21:05,744 |move|p2a: Wobbuffet|Mirror Coat|p1a: Scizor
+2026-08-13 04:21:05,744 |-fail|p1a: Scizor
+2026-08-13 04:21:05,744 |
+2026-08-13 04:21:05,744 |-heal|p2a: Wobbuffet|463/554|[from] item: Leftovers
+2026-08-13 04:21:05,744 |upkeep
+2026-08-13 04:21:05,744 |turn|41
+2026-08-13 04:21:05,744 |
+2026-08-13 04:21:05,744 |t:|1786587631
+2026-08-13 04:21:05,744 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:21:05,744 |-fail|p1a: Scizor
+2026-08-13 04:21:05,744 |move|p2a: Wobbuffet|Counter|p1a: Scizor
+2026-08-13 04:21:05,744 |-fail|p1a: Scizor
+2026-08-13 04:21:05,744 |
+2026-08-13 04:21:05,744 |-heal|p2a: Wobbuffet|497/554|[from] item: Leftovers
+2026-08-13 04:21:05,744 |upkeep
+2026-08-13 04:21:05,744 |turn|42
+2026-08-13 04:21:05,744 |
+2026-08-13 04:21:05,744 |t:|1786587631
+2026-08-13 04:21:05,744 |move|p2a: Wobbuffet|Mimic|p1a: Scizor
+2026-08-13 04:21:05,744 |-activate|p2a: Wobbuffet|move: Mimic|Rest
+2026-08-13 04:21:05,744 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:21:05,744 |
+2026-08-13 04:21:05,744 |-heal|p2a: Wobbuffet|531/554|[from] item: Leftovers
+2026-08-13 04:21:05,744 |upkeep
+2026-08-13 04:21:05,744 |turn|43
+2026-08-13 04:21:05,744 |player|p1|
+2026-08-13 04:21:05,744 |player|p2|
+2026-08-13 04:21:05,744 |player|p1|BOT1|101|
+2026-08-13 04:21:05,744 |player|p2|BOT2|169|
+2026-08-13 04:21:05,928 >battle-gen2randombattle-334928
+2026-08-13 04:21:05,928 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":5,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":31,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":31,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":37,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"531/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-13 04:21:05,930 >battle-gen2randombattle-334928
+2026-08-13 04:21:05,930 |player|p1|
+2026-08-13 04:21:05,930 |player|p2|
+2026-08-13 04:21:05,930 |player|p1|BOT1|101|
+2026-08-13 04:21:05,930 |player|p2|BOT2|169|
+2026-08-13 04:21:05,930 |popup|You tried to send "/choose move 1|49" to the room "battle-gen1randombattle-334188" but it failed because you were not in that room.
+2026-08-13 04:21:06,027 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,027 |
+2026-08-13 04:21:06,027 |t:|1786587665
+2026-08-13 04:21:06,027 |switch|p1a: Slowking|Slowking, L69, M|30/100
+2026-08-13 04:21:06,027 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:21:06,027 |-fail|p1a: Slowking
+2026-08-13 04:21:06,028 |
+2026-08-13 04:21:06,028 |-heal|p2a: Wobbuffet|554/554|[from] item: Leftovers
+2026-08-13 04:21:06,028 |-heal|p1a: Slowking|36/100|[from] item: Leftovers
+2026-08-13 04:21:06,028 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:21:06,028 |upkeep
+2026-08-13 04:21:06,028 |turn|44
+2026-08-13 04:21:06,028 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,028 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":5,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":31,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":30,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":37,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-13 04:21:06,064 |pm| BOT1| BOT2|/challenge gen2randombattle|gen2randombattle|||
+2026-08-13 04:21:06,064 |pm| BOT1| BOT2|/log BOT1 wants to battle!
+2026-08-13 04:21:06,064 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,064 |
+2026-08-13 04:21:06,064 |t:|1786587666
+2026-08-13 04:21:06,064 |move|p2a: Wobbuffet|Rest|p2a: Wobbuffet
+2026-08-13 04:21:06,064 |-fail|p2a: Wobbuffet
+2026-08-13 04:21:06,064 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:21:06,064 |-status|p1a: Slowking|slp|[from] move: Rest
+2026-08-13 04:21:06,064 |-heal|p1a: Slowking|100/100 slp|[silent]
+2026-08-13 04:21:06,064 |
+2026-08-13 04:21:06,064 |upkeep
+2026-08-13 04:21:06,064 |turn|45
+2026-08-13 04:21:06,064 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,064 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":4,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":31,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":30,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":37,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-13 04:21:06,079 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,079 |
+2026-08-13 04:21:06,079 |t:|1786587666
+2026-08-13 04:21:06,079 |cant|p1a: Slowking|slp
+2026-08-13 04:21:06,079 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:21:06,079 |-fail|p1a: Slowking
+2026-08-13 04:21:06,079 |
+2026-08-13 04:21:06,079 |upkeep
+2026-08-13 04:21:06,079 |turn|46
+2026-08-13 04:21:06,081 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,081 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":4,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":31,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":29,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":37,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-13 04:21:06,120 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,120 |
+2026-08-13 04:21:06,120 |t:|1786587666
+2026-08-13 04:21:06,120 |cant|p1a: Slowking|slp
+2026-08-13 04:21:06,120 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:21:06,120 |move|p1a: Slowking|Psychic|p2a: Wobbuffet|[from] Sleep Talk
+2026-08-13 04:21:06,120 |-resisted|p2a: Wobbuffet
+2026-08-13 04:21:06,120 |-damage|p2a: Wobbuffet|515/554
+2026-08-13 04:21:06,120 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:21:06,120 |-fail|p1a: Slowking
+2026-08-13 04:21:06,120 |
+2026-08-13 04:21:06,120 |-heal|p2a: Wobbuffet|549/554|[from] item: Leftovers
+2026-08-13 04:21:06,120 |upkeep
+2026-08-13 04:21:06,120 |turn|47
+2026-08-13 04:21:06,124 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,124 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":4,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":30,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":29,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":37,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"549/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-13 04:21:06,128 |pm| BOT2| BOT1|/challenge
+2026-08-13 04:21:06,128 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334186":"[Gen 1] Random Battle","battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334635":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen1randombattle-334720":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle"}}
+2026-08-13 04:21:06,134 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334186":"[Gen 1] Random Battle","battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334635":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen1randombattle-334720":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle","battle-gen2randombattle-335073":"[Gen 2] Random Battle"}}
+2026-08-13 04:21:06,134 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334186":"[Gen 1] Random Battle","battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334635":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen1randombattle-334720":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle","battle-gen2randombattle-335073":"[Gen 2] Random Battle"}}
+2026-08-13 04:21:06,228 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,228 |
+2026-08-13 04:21:06,228 |t:|1786587666
+2026-08-13 04:21:06,228 |-curestatus|p1a: Slowking|slp|[msg]
+2026-08-13 04:21:06,228 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:21:06,228 |-fail|p1a: Slowking
+2026-08-13 04:21:06,228 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:21:06,228 |-fail|p1a: Slowking
+2026-08-13 04:21:06,228 |
+2026-08-13 04:21:06,228 |-heal|p2a: Wobbuffet|554/554|[from] item: Leftovers
+2026-08-13 04:21:06,228 |upkeep
+2026-08-13 04:21:06,228 |turn|48
+2026-08-13 04:21:06,235 >battle-gen2randombattle-334928
+2026-08-13 04:21:06,235 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":4,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":29,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":29,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":37,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-13 04:36:17,870 >battle-gen2randombattle-334928
+2026-08-13 04:36:17,870 |init|battle
+2026-08-13 04:36:17,870 |title|BOT1 vs. BOT2
+2026-08-13 04:36:17,870 |t:|1786587539
+2026-08-13 04:36:17,870 |gametype|singles
+2026-08-13 04:36:17,870 |player|p1|BOT1|101|
+2026-08-13 04:36:17,870 |player|p2|BOT2|169|
+2026-08-13 04:36:17,870 |gen|2
+2026-08-13 04:36:17,870 |tier|[Gen 2] Random Battle
+2026-08-13 04:36:17,870 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-13 04:36:17,870 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-13 04:36:17,870 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-13 04:36:17,870 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-13 04:36:17,870 |rule|Freeze Clause Mod: Limit one foe frozen
+2026-08-13 04:36:17,870 |rule|Species Clause: Limit one of each Pokémon
+2026-08-13 04:36:17,870 |rule|OHKO Clause: OHKO moves are banned
+2026-08-13 04:36:17,870 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-13 04:36:17,870 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-13 04:36:17,870 |
+2026-08-13 04:36:17,870 |t:|1786587539
+2026-08-13 04:36:17,870 |teamsize|p1|6
+2026-08-13 04:36:17,870 |teamsize|p2|6
+2026-08-13 04:36:17,870 |start
+2026-08-13 04:36:17,870 |switch|p1a: Azumarill|Azumarill, L77, M|100/100
+2026-08-13 04:36:17,870 |switch|p2a: Dewgong|Dewgong, L73, M|282/282
+2026-08-13 04:36:17,870 |turn|1
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |t:|1786587539
+2026-08-13 04:36:17,871 |move|p2a: Dewgong|Encore|p1a: Azumarill
+2026-08-13 04:36:17,871 |-fail|p1a: Azumarill
+2026-08-13 04:36:17,871 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:36:17,871 |-start|p1a: Azumarill|perish3|[silent]
+2026-08-13 04:36:17,871 |-start|p2a: Dewgong|perish3|[silent]
+2026-08-13 04:36:17,871 |-fieldactivate|move: Perish Song
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |-start|p2a: Dewgong|perish3
+2026-08-13 04:36:17,871 |-start|p1a: Azumarill|perish3
+2026-08-13 04:36:17,871 |upkeep
+2026-08-13 04:36:17,871 |turn|2
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |t:|1786587539
+2026-08-13 04:36:17,871 |move|p2a: Dewgong|Protect|p2a: Dewgong
+2026-08-13 04:36:17,871 |-singleturn|p2a: Dewgong|Protect
+2026-08-13 04:36:17,871 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:36:17,871 |-fail|p1a: Azumarill
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |-start|p2a: Dewgong|perish2
+2026-08-13 04:36:17,871 |-start|p1a: Azumarill|perish2
+2026-08-13 04:36:17,871 |upkeep
+2026-08-13 04:36:17,871 |turn|3
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |t:|1786587539
+2026-08-13 04:36:17,871 |move|p2a: Dewgong|Toxic|p1a: Azumarill|[miss]
+2026-08-13 04:36:17,871 |-miss|p2a: Dewgong
+2026-08-13 04:36:17,871 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:36:17,871 |-fail|p1a: Azumarill
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |-start|p2a: Dewgong|perish1
+2026-08-13 04:36:17,871 |-start|p1a: Azumarill|perish1
+2026-08-13 04:36:17,871 |upkeep
+2026-08-13 04:36:17,871 |turn|4
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |t:|1786587539
+2026-08-13 04:36:17,871 |move|p2a: Dewgong|Toxic|p1a: Azumarill
+2026-08-13 04:36:17,871 |-status|p1a: Azumarill|tox
+2026-08-13 04:36:17,871 |move|p1a: Azumarill|Perish Song|p1a: Azumarill
+2026-08-13 04:36:17,871 |-fail|p1a: Azumarill
+2026-08-13 04:36:17,871 |-damage|p1a: Azumarill|94/100 tox|[from] psn
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |-start|p2a: Dewgong|perish0
+2026-08-13 04:36:17,871 |-start|p1a: Azumarill|perish0
+2026-08-13 04:36:17,871 |faint|p2a: Dewgong
+2026-08-13 04:36:17,871 |faint|p1a: Azumarill
+2026-08-13 04:36:17,871 |upkeep
+2026-08-13 04:36:17,871 |
+2026-08-13 04:36:17,871 |t:|1786587539
+2026-08-13 04:36:17,872 |switch|p2a: Wobbuffet|Wobbuffet, L95, M|554/554
+2026-08-13 04:36:17,872 |switch|p1a: Sudowoodo|Sudowoodo, L73, M|100/100
+2026-08-13 04:36:17,872 |turn|5
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |t:|1786587539
+2026-08-13 04:36:17,872 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:36:17,872 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:36:17,872 |move|p1a: Sudowoodo|Self-Destruct|p2a: Wobbuffet
+2026-08-13 04:36:17,872 |-damage|p2a: Wobbuffet|293/554
+2026-08-13 04:36:17,872 |faint|p1a: Sudowoodo
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |t:|1786587539
+2026-08-13 04:36:17,872 |switch|p1a: Slowking|Slowking, L69, M|100/100
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |-heal|p2a: Wobbuffet|327/554|[from] item: Leftovers
+2026-08-13 04:36:17,872 |upkeep
+2026-08-13 04:36:17,872 |turn|6
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |t:|1786587539
+2026-08-13 04:36:17,872 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:36:17,872 |-fail|p2a: Wobbuffet
+2026-08-13 04:36:17,872 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:17,872 |-fail|p1a: Slowking
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |-heal|p2a: Wobbuffet|361/554|[from] item: Leftovers
+2026-08-13 04:36:17,872 |upkeep
+2026-08-13 04:36:17,872 |turn|7
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |t:|1786587539
+2026-08-13 04:36:17,872 |switch|p2a: Farfetch’d|Farfetch’d, L77, M|238/238
+2026-08-13 04:36:17,872 |move|p1a: Slowking|Psychic|p2a: Farfetch’d
+2026-08-13 04:36:17,872 |-damage|p2a: Farfetch’d|154/238
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |-heal|p2a: Farfetch’d|168/238|[from] item: Leftovers
+2026-08-13 04:36:17,872 |upkeep
+2026-08-13 04:36:17,872 |turn|8
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |t:|1786587539
+2026-08-13 04:36:17,872 |move|p2a: Farfetch’d|Return|p1a: Slowking
+2026-08-13 04:36:17,872 |-damage|p1a: Slowking|68/100
+2026-08-13 04:36:17,872 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |-heal|p2a: Farfetch’d|182/238|[from] item: Leftovers
+2026-08-13 04:36:17,872 |-heal|p1a: Slowking|74/100|[from] item: Leftovers
+2026-08-13 04:36:17,872 |upkeep
+2026-08-13 04:36:17,872 |turn|9
+2026-08-13 04:36:17,872 |
+2026-08-13 04:36:17,872 |t:|1786587539
+2026-08-13 04:36:17,872 |move|p2a: Farfetch’d|Return|p1a: Slowking
+2026-08-13 04:36:17,872 |-damage|p1a: Slowking|41/100
+2026-08-13 04:36:17,873 |move|p1a: Slowking|Psychic|p2a: Farfetch’d
+2026-08-13 04:36:17,873 |-damage|p2a: Farfetch’d|101/238
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |-heal|p2a: Farfetch’d|115/238|[from] item: Leftovers
+2026-08-13 04:36:17,873 |-heal|p1a: Slowking|48/100|[from] item: Leftovers
+2026-08-13 04:36:17,873 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:36:17,873 |upkeep
+2026-08-13 04:36:17,873 |turn|10
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |t:|1786587539
+2026-08-13 04:36:17,873 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:36:17,873 |move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+2026-08-13 04:36:17,873 |-boost|p2a: Farfetch’d|atk|2
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |-heal|p2a: Farfetch’d|129/238|[from] item: Leftovers
+2026-08-13 04:36:17,873 |upkeep
+2026-08-13 04:36:17,873 |turn|11
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |t:|1786587539
+2026-08-13 04:36:17,873 |switch|p1a: Ariados|Ariados, L81, M|100/100
+2026-08-13 04:36:17,873 |move|p2a: Farfetch’d|Agility|p2a: Farfetch’d
+2026-08-13 04:36:17,873 |-boost|p2a: Farfetch’d|spe|2
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |-heal|p2a: Farfetch’d|143/238|[from] item: Leftovers
+2026-08-13 04:36:17,873 |upkeep
+2026-08-13 04:36:17,873 |turn|12
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |t:|1786587539
+2026-08-13 04:36:17,873 |move|p2a: Farfetch’d|Swords Dance|p2a: Farfetch’d
+2026-08-13 04:36:17,873 |-boost|p2a: Farfetch’d|atk|2
+2026-08-13 04:36:17,873 |move|p1a: Ariados|Sludge Bomb|p2a: Farfetch’d
+2026-08-13 04:36:17,873 |-damage|p2a: Farfetch’d|13/238
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |-heal|p2a: Farfetch’d|27/238|[from] item: Leftovers
+2026-08-13 04:36:17,873 |upkeep
+2026-08-13 04:36:17,873 |turn|13
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |t:|1786587539
+2026-08-13 04:36:17,873 |move|p2a: Farfetch’d|Return|p1a: Ariados
+2026-08-13 04:36:17,873 |-damage|p1a: Ariados|6/100
+2026-08-13 04:36:17,873 |move|p1a: Ariados|Baton Pass|p1a: Ariados
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |t:|1786587539
+2026-08-13 04:36:17,873 |switch|p1a: Hitmonlee|Hitmonlee, L73, M|100/100|[from] Baton Pass
+2026-08-13 04:36:17,873 |
+2026-08-13 04:36:17,873 |-heal|p2a: Farfetch’d|41/238|[from] item: Leftovers
+2026-08-13 04:36:17,873 |upkeep
+2026-08-13 04:36:17,873 |turn|14
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |move|p2a: Farfetch’d|Return|p1a: Hitmonlee
+2026-08-13 04:36:17,874 |-damage|p1a: Hitmonlee|0 fnt
+2026-08-13 04:36:17,874 |faint|p1a: Hitmonlee
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |-heal|p2a: Farfetch’d|55/238|[from] item: Leftovers
+2026-08-13 04:36:17,874 |upkeep
+2026-08-13 04:36:17,874 |turn|15
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |move|p2a: Farfetch’d|Agility|p2a: Farfetch’d
+2026-08-13 04:36:17,874 |-boost|p2a: Farfetch’d|spe|2
+2026-08-13 04:36:17,874 |move|p1a: Scizor|Hidden Power|p2a: Farfetch’d
+2026-08-13 04:36:17,874 |-damage|p2a: Farfetch’d|0 fnt
+2026-08-13 04:36:17,874 |faint|p2a: Farfetch’d
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |switch|p2a: Stantler|Stantler, L71, M|250/250
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |upkeep
+2026-08-13 04:36:17,874 |turn|16
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |move|p2a: Stantler|Curse|p2a: Stantler
+2026-08-13 04:36:17,874 |-unboost|p2a: Stantler|spe|1
+2026-08-13 04:36:17,874 |-boost|p2a: Stantler|atk|1
+2026-08-13 04:36:17,874 |-boost|p2a: Stantler|def|1
+2026-08-13 04:36:17,874 |move|p1a: Scizor|Hidden Power|p2a: Stantler
+2026-08-13 04:36:17,874 |-damage|p2a: Stantler|191/250
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |-heal|p2a: Stantler|206/250|[from] item: Leftovers
+2026-08-13 04:36:17,874 |upkeep
+2026-08-13 04:36:17,874 |turn|17
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |move|p1a: Scizor|Hidden Power|p2a: Stantler
+2026-08-13 04:36:17,874 |-damage|p2a: Stantler|149/250
+2026-08-13 04:36:17,874 |move|p2a: Stantler|Sleep Talk|p2a: Stantler
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |-heal|p2a: Stantler|164/250|[from] item: Leftovers
+2026-08-13 04:36:17,874 |upkeep
+2026-08-13 04:36:17,874 |turn|18
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |t:|1786587539
+2026-08-13 04:36:17,874 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:36:17,874 |move|p2a: Stantler|Rest|p2a: Stantler
+2026-08-13 04:36:17,874 |-status|p2a: Stantler|slp|[from] move: Rest
+2026-08-13 04:36:17,874 |-heal|p2a: Stantler|250/250 slp|[silent]
+2026-08-13 04:36:17,874 |
+2026-08-13 04:36:17,874 |upkeep
+2026-08-13 04:36:17,875 |turn|19
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |t:|1786587539
+2026-08-13 04:36:17,875 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:36:17,875 |-fail|p1a: Scizor
+2026-08-13 04:36:17,875 |cant|p2a: Stantler|slp
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |upkeep
+2026-08-13 04:36:17,875 |turn|20
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |t:|1786587539
+2026-08-13 04:36:17,875 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:36:17,875 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|def|1
+2026-08-13 04:36:17,875 |cant|p2a: Stantler|slp
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |upkeep
+2026-08-13 04:36:17,875 |turn|21
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |t:|1786587539
+2026-08-13 04:36:17,875 |-curestatus|p2a: Stantler|slp|[msg]
+2026-08-13 04:36:17,875 |move|p2a: Stantler|Rest|p2a: Stantler
+2026-08-13 04:36:17,875 |-fail|p2a: Stantler
+2026-08-13 04:36:17,875 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:36:17,875 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|def|1
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |upkeep
+2026-08-13 04:36:17,875 |turn|22
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |t:|1786587539
+2026-08-13 04:36:17,875 |move|p2a: Stantler|Return|p1a: Scizor
+2026-08-13 04:36:17,875 |-resisted|p1a: Scizor
+2026-08-13 04:36:17,875 |-damage|p1a: Scizor|86/100
+2026-08-13 04:36:17,875 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:36:17,875 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|def|1
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |-heal|p1a: Scizor|92/100|[from] item: Leftovers
+2026-08-13 04:36:17,875 |upkeep
+2026-08-13 04:36:17,875 |turn|23
+2026-08-13 04:36:17,875 |
+2026-08-13 04:36:17,875 |t:|1786587539
+2026-08-13 04:36:17,875 |move|p2a: Stantler|Return|p1a: Scizor
+2026-08-13 04:36:17,875 |-resisted|p1a: Scizor
+2026-08-13 04:36:17,875 |-damage|p1a: Scizor|80/100
+2026-08-13 04:36:17,875 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:36:17,875 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:36:17,875 |-boost|p1a: Scizor|def|1
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |-heal|p1a: Scizor|86/100|[from] item: Leftovers
+2026-08-13 04:36:17,876 |upkeep
+2026-08-13 04:36:17,876 |turn|24
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |t:|1786587539
+2026-08-13 04:36:17,876 |move|p2a: Stantler|Curse|p2a: Stantler
+2026-08-13 04:36:17,876 |-unboost|p2a: Stantler|spe|1
+2026-08-13 04:36:17,876 |-boost|p2a: Stantler|atk|1
+2026-08-13 04:36:17,876 |-boost|p2a: Stantler|def|1
+2026-08-13 04:36:17,876 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:36:17,876 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:36:17,876 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:36:17,876 |-boost|p1a: Scizor|def|1
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |-heal|p1a: Scizor|92/100|[from] item: Leftovers
+2026-08-13 04:36:17,876 |upkeep
+2026-08-13 04:36:17,876 |turn|25
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |t:|1786587539
+2026-08-13 04:36:17,876 |switch|p2a: Venusaur|Venusaur, L67, M|230/230
+2026-08-13 04:36:17,876 |switch|p1a: Ariados|Ariados, L81, M|6/100
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |-heal|p1a: Ariados|12/100|[from] item: Leftovers
+2026-08-13 04:36:17,876 |upkeep
+2026-08-13 04:36:17,876 |turn|26
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |t:|1786587539
+2026-08-13 04:36:17,876 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:36:17,876 |move|p1a: Ariados|Sludge Bomb|p2a: Venusaur
+2026-08-13 04:36:17,876 |-damage|p2a: Venusaur|112/230
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |-heal|p2a: Venusaur|126/230|[from] item: Leftovers
+2026-08-13 04:36:17,876 |-heal|p1a: Ariados|18/100|[from] item: Leftovers
+2026-08-13 04:36:17,876 |upkeep
+2026-08-13 04:36:17,876 |turn|27
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |t:|1786587539
+2026-08-13 04:36:17,876 |move|p2a: Venusaur|Hidden Power|p1a: Ariados
+2026-08-13 04:36:17,876 |-supereffective|p1a: Ariados
+2026-08-13 04:36:17,876 |-damage|p1a: Ariados|0 fnt
+2026-08-13 04:36:17,876 |faint|p1a: Ariados
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |t:|1786587539
+2026-08-13 04:36:17,876 |switch|p1a: Slowking|Slowking, L69, M|48/100
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,876 |-heal|p2a: Venusaur|140/230|[from] item: Leftovers
+2026-08-13 04:36:17,876 |-heal|p1a: Slowking|54/100|[from] item: Leftovers
+2026-08-13 04:36:17,876 |upkeep
+2026-08-13 04:36:17,876 |turn|28
+2026-08-13 04:36:17,876 |
+2026-08-13 04:36:17,877 |t:|1786587539
+2026-08-13 04:36:17,877 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:36:17,877 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:36:17,877 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |-heal|p2a: Venusaur|154/230|[from] item: Leftovers
+2026-08-13 04:36:17,877 |-heal|p1a: Slowking|60/100|[from] item: Leftovers
+2026-08-13 04:36:17,877 |upkeep
+2026-08-13 04:36:17,877 |turn|29
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |t:|1786587539
+2026-08-13 04:36:17,877 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:36:17,877 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:36:17,877 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:36:17,877 |-resisted|p2a: Venusaur
+2026-08-13 04:36:17,877 |-damage|p2a: Venusaur|114/230
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |-heal|p2a: Venusaur|128/230|[from] item: Leftovers
+2026-08-13 04:36:17,877 |-heal|p1a: Slowking|66/100|[from] item: Leftovers
+2026-08-13 04:36:17,877 |upkeep
+2026-08-13 04:36:17,877 |turn|30
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |t:|1786587539
+2026-08-13 04:36:17,877 |move|p2a: Venusaur|Razor Leaf|p1a: Slowking
+2026-08-13 04:36:17,877 |-supereffective|p1a: Slowking
+2026-08-13 04:36:17,877 |-damage|p1a: Slowking|11/100
+2026-08-13 04:36:17,877 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |-heal|p2a: Venusaur|142/230|[from] item: Leftovers
+2026-08-13 04:36:17,877 |-heal|p1a: Slowking|18/100|[from] item: Leftovers
+2026-08-13 04:36:17,877 |upkeep
+2026-08-13 04:36:17,877 |turn|31
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |t:|1786587539
+2026-08-13 04:36:17,877 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:36:17,877 |-heal|p2a: Venusaur|230/230
+2026-08-13 04:36:17,877 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:36:17,877 |-resisted|p2a: Venusaur
+2026-08-13 04:36:17,877 |-damage|p2a: Venusaur|192/230
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |-heal|p2a: Venusaur|206/230|[from] item: Leftovers
+2026-08-13 04:36:17,877 |-heal|p1a: Slowking|24/100|[from] item: Leftovers
+2026-08-13 04:36:17,877 |upkeep
+2026-08-13 04:36:17,877 |turn|32
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |t:|1786587539
+2026-08-13 04:36:17,877 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:36:17,877 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:36:17,877 |move|p1a: Slowking|Surf|p2a: Venusaur
+2026-08-13 04:36:17,877 |-resisted|p2a: Venusaur
+2026-08-13 04:36:17,877 |-damage|p2a: Venusaur|168/230
+2026-08-13 04:36:17,877 |
+2026-08-13 04:36:17,877 |-heal|p2a: Venusaur|182/230|[from] item: Leftovers
+2026-08-13 04:36:17,878 |-heal|p1a: Slowking|30/100|[from] item: Leftovers
+2026-08-13 04:36:17,878 |upkeep
+2026-08-13 04:36:17,878 |turn|33
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |t:|1786587539
+2026-08-13 04:36:17,878 |switch|p1a: Scizor|Scizor, L67, M|92/100
+2026-08-13 04:36:17,878 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:36:17,878 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |-heal|p2a: Venusaur|196/230|[from] item: Leftovers
+2026-08-13 04:36:17,878 |-heal|p1a: Scizor|98/100|[from] item: Leftovers
+2026-08-13 04:36:17,878 |upkeep
+2026-08-13 04:36:17,878 |turn|34
+2026-08-13 04:36:17,878 |player|p1|
+2026-08-13 04:36:17,878 |player|p2|
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |t:|1786587539
+2026-08-13 04:36:17,878 |move|p2a: Venusaur|Growth|p2a: Venusaur
+2026-08-13 04:36:17,878 |-boost|p2a: Venusaur|spa|1
+2026-08-13 04:36:17,878 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |-heal|p2a: Venusaur|210/230|[from] item: Leftovers
+2026-08-13 04:36:17,878 |-heal|p1a: Scizor|100/100|[from] item: Leftovers
+2026-08-13 04:36:17,878 |upkeep
+2026-08-13 04:36:17,878 |turn|35
+2026-08-13 04:36:17,878 |player|p1|BOT1|101|
+2026-08-13 04:36:17,878 |player|p1|
+2026-08-13 04:36:17,878 |player|p1|BOT1|101|
+2026-08-13 04:36:17,878 |player|p2|BOT2|169|
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |t:|1786587596
+2026-08-13 04:36:17,878 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:36:17,878 |-heal|p2a: Venusaur|230/230
+2026-08-13 04:36:17,878 |move|p1a: Scizor|Curse|p1a: Scizor
+2026-08-13 04:36:17,878 |-unboost|p1a: Scizor|spe|1
+2026-08-13 04:36:17,878 |-boost|p1a: Scizor|atk|1
+2026-08-13 04:36:17,878 |-boost|p1a: Scizor|def|1
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |upkeep
+2026-08-13 04:36:17,878 |turn|36
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |t:|1786587596
+2026-08-13 04:36:17,878 |move|p2a: Venusaur|Razor Leaf|p1a: Scizor
+2026-08-13 04:36:17,878 |-resisted|p1a: Scizor
+2026-08-13 04:36:17,878 |-damage|p1a: Scizor|82/100
+2026-08-13 04:36:17,878 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |-heal|p1a: Scizor|88/100|[from] item: Leftovers
+2026-08-13 04:36:17,878 |upkeep
+2026-08-13 04:36:17,878 |turn|37
+2026-08-13 04:36:17,878 |
+2026-08-13 04:36:17,878 |t:|1786587596
+2026-08-13 04:36:17,878 |move|p2a: Venusaur|Synthesis|p2a: Venusaur
+2026-08-13 04:36:17,879 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:36:17,879 |-status|p1a: Scizor|slp|[from] move: Rest
+2026-08-13 04:36:17,879 |-heal|p1a: Scizor|100/100 slp|[silent]
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |upkeep
+2026-08-13 04:36:17,879 |turn|38
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |t:|1786587596
+2026-08-13 04:36:17,879 |switch|p2a: Wobbuffet|Wobbuffet, L95, M|361/554
+2026-08-13 04:36:17,879 |cant|p1a: Scizor|slp
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |-heal|p2a: Wobbuffet|395/554|[from] item: Leftovers
+2026-08-13 04:36:17,879 |upkeep
+2026-08-13 04:36:17,879 |turn|39
+2026-08-13 04:36:17,879 |player|p1|
+2026-08-13 04:36:17,879 |player|p2|
+2026-08-13 04:36:17,879 |player|p1|BOT1|101|
+2026-08-13 04:36:17,879 |player|p2|BOT2|169|
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |t:|1786587631
+2026-08-13 04:36:17,879 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:36:17,879 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:36:17,879 |cant|p1a: Scizor|slp
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |-heal|p2a: Wobbuffet|429/554|[from] item: Leftovers
+2026-08-13 04:36:17,879 |upkeep
+2026-08-13 04:36:17,879 |turn|40
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |t:|1786587631
+2026-08-13 04:36:17,879 |-curestatus|p1a: Scizor|slp|[msg]
+2026-08-13 04:36:17,879 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:36:17,879 |move|p2a: Wobbuffet|Mirror Coat|p1a: Scizor
+2026-08-13 04:36:17,879 |-fail|p1a: Scizor
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |-heal|p2a: Wobbuffet|463/554|[from] item: Leftovers
+2026-08-13 04:36:17,879 |upkeep
+2026-08-13 04:36:17,879 |turn|41
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |t:|1786587631
+2026-08-13 04:36:17,879 |move|p1a: Scizor|Rest|p1a: Scizor
+2026-08-13 04:36:17,879 |-fail|p1a: Scizor
+2026-08-13 04:36:17,879 |move|p2a: Wobbuffet|Counter|p1a: Scizor
+2026-08-13 04:36:17,879 |-fail|p1a: Scizor
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |-heal|p2a: Wobbuffet|497/554|[from] item: Leftovers
+2026-08-13 04:36:17,879 |upkeep
+2026-08-13 04:36:17,879 |turn|42
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,879 |t:|1786587631
+2026-08-13 04:36:17,879 |move|p2a: Wobbuffet|Mimic|p1a: Scizor
+2026-08-13 04:36:17,879 |-activate|p2a: Wobbuffet|move: Mimic|Rest
+2026-08-13 04:36:17,879 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:36:17,879 |
+2026-08-13 04:36:17,880 |-heal|p2a: Wobbuffet|531/554|[from] item: Leftovers
+2026-08-13 04:36:17,880 |upkeep
+2026-08-13 04:36:17,880 |turn|43
+2026-08-13 04:36:17,880 |player|p1|
+2026-08-13 04:36:17,880 |player|p2|
+2026-08-13 04:36:17,880 |player|p1|BOT1|101|
+2026-08-13 04:36:17,880 |player|p2|BOT2|169|
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |t:|1786587665
+2026-08-13 04:36:17,880 |switch|p1a: Slowking|Slowking, L69, M|30/100
+2026-08-13 04:36:17,880 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,880 |-fail|p1a: Slowking
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |-heal|p2a: Wobbuffet|554/554|[from] item: Leftovers
+2026-08-13 04:36:17,880 |-heal|p1a: Slowking|36/100|[from] item: Leftovers
+2026-08-13 04:36:17,880 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:36:17,880 |upkeep
+2026-08-13 04:36:17,880 |turn|44
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |t:|1786587666
+2026-08-13 04:36:17,880 |move|p2a: Wobbuffet|Rest|p2a: Wobbuffet
+2026-08-13 04:36:17,880 |-fail|p2a: Wobbuffet
+2026-08-13 04:36:17,880 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:17,880 |-status|p1a: Slowking|slp|[from] move: Rest
+2026-08-13 04:36:17,880 |-heal|p1a: Slowking|100/100 slp|[silent]
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |upkeep
+2026-08-13 04:36:17,880 |turn|45
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |t:|1786587666
+2026-08-13 04:36:17,880 |cant|p1a: Slowking|slp
+2026-08-13 04:36:17,880 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,880 |-fail|p1a: Slowking
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |upkeep
+2026-08-13 04:36:17,880 |turn|46
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |t:|1786587666
+2026-08-13 04:36:17,880 |cant|p1a: Slowking|slp
+2026-08-13 04:36:17,880 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,880 |move|p1a: Slowking|Psychic|p2a: Wobbuffet|[from] Sleep Talk
+2026-08-13 04:36:17,880 |-resisted|p2a: Wobbuffet
+2026-08-13 04:36:17,880 |-damage|p2a: Wobbuffet|515/554
+2026-08-13 04:36:17,880 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:36:17,880 |-fail|p1a: Slowking
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |-heal|p2a: Wobbuffet|549/554|[from] item: Leftovers
+2026-08-13 04:36:17,880 |upkeep
+2026-08-13 04:36:17,880 |turn|47
+2026-08-13 04:36:17,880 |
+2026-08-13 04:36:17,880 |t:|1786587666
+2026-08-13 04:36:17,880 |-curestatus|p1a: Slowking|slp|[msg]
+2026-08-13 04:36:17,880 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:17,881 |-fail|p1a: Slowking
+2026-08-13 04:36:17,881 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:36:17,881 |-fail|p1a: Slowking
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |-heal|p2a: Wobbuffet|554/554|[from] item: Leftovers
+2026-08-13 04:36:17,881 |upkeep
+2026-08-13 04:36:17,881 |turn|48
+2026-08-13 04:36:17,881 |player|p2|
+2026-08-13 04:36:17,881 |player|p1|
+2026-08-13 04:36:17,881 |player|p1|BOT1|101|
+2026-08-13 04:36:17,881 |player|p2|BOT2|169|
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |t:|1786587753
+2026-08-13 04:36:17,881 |move|p1a: Slowking|Surf|p2a: Wobbuffet
+2026-08-13 04:36:17,881 |-damage|p2a: Wobbuffet|478/554
+2026-08-13 04:36:17,881 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,881 |-fail|p1a: Slowking
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |-heal|p2a: Wobbuffet|512/554|[from] item: Leftovers
+2026-08-13 04:36:17,881 |upkeep
+2026-08-13 04:36:17,881 |turn|49
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |t:|1786587753
+2026-08-13 04:36:17,881 |move|p1a: Slowking|Surf|p2a: Wobbuffet
+2026-08-13 04:36:17,881 |-damage|p2a: Wobbuffet|430/554
+2026-08-13 04:36:17,881 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:36:17,881 |-damage|p1a: Slowking|41/100
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |-heal|p2a: Wobbuffet|464/554|[from] item: Leftovers
+2026-08-13 04:36:17,881 |-heal|p1a: Slowking|47/100|[from] item: Leftovers
+2026-08-13 04:36:17,881 |upkeep
+2026-08-13 04:36:17,881 |turn|50
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |t:|1786587753
+2026-08-13 04:36:17,881 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:36:17,881 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:36:17,881 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:17,881 |-status|p1a: Slowking|slp|[from] move: Rest
+2026-08-13 04:36:17,881 |-heal|p1a: Slowking|100/100 slp|[silent]
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |-heal|p2a: Wobbuffet|498/554|[from] item: Leftovers
+2026-08-13 04:36:17,881 |upkeep
+2026-08-13 04:36:17,881 |turn|51
+2026-08-13 04:36:17,881 |
+2026-08-13 04:36:17,881 |t:|1786587753
+2026-08-13 04:36:17,881 |cant|p1a: Slowking|slp
+2026-08-13 04:36:17,881 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,881 |move|p1a: Slowking|Psychic|p2a: Wobbuffet|[from] Sleep Talk
+2026-08-13 04:36:17,881 |-resisted|p2a: Wobbuffet
+2026-08-13 04:36:17,881 |-damage|p2a: Wobbuffet|463/554
+2026-08-13 04:36:17,881 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:36:17,882 |-fail|p1a: Slowking
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |-heal|p2a: Wobbuffet|497/554|[from] item: Leftovers
+2026-08-13 04:36:17,882 |upkeep
+2026-08-13 04:36:17,882 |turn|52
+2026-08-13 04:36:17,882 |player|p1|
+2026-08-13 04:36:17,882 |player|p2|
+2026-08-13 04:36:17,882 |player|p1|BOT1|101|
+2026-08-13 04:36:17,882 |player|p2|BOT2|169|
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |t:|1786587812
+2026-08-13 04:36:17,882 |cant|p1a: Slowking|slp
+2026-08-13 04:36:17,882 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,882 |-fail|p1a: Slowking
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |-heal|p2a: Wobbuffet|531/554|[from] item: Leftovers
+2026-08-13 04:36:17,882 |upkeep
+2026-08-13 04:36:17,882 |turn|53
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |t:|1786587813
+2026-08-13 04:36:17,882 |-curestatus|p1a: Slowking|slp|[msg]
+2026-08-13 04:36:17,882 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,882 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,882 |-fail|p1a: Slowking
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |-heal|p2a: Wobbuffet|554/554|[from] item: Leftovers
+2026-08-13 04:36:17,882 |upkeep
+2026-08-13 04:36:17,882 |turn|54
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |t:|1786587813
+2026-08-13 04:36:17,882 |switch|p1a: Scizor|Scizor, L67, M|100/100
+2026-08-13 04:36:17,882 |move|p2a: Wobbuffet|Rest|p2a: Wobbuffet
+2026-08-13 04:36:17,882 |-fail|p2a: Wobbuffet
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:36:17,882 |upkeep
+2026-08-13 04:36:17,882 |turn|55
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |t:|1786587813
+2026-08-13 04:36:17,882 |move|p1a: Scizor|Sleep Talk|p1a: Scizor
+2026-08-13 04:36:17,882 |move|p2a: Wobbuffet|Mirror Coat|p1a: Scizor
+2026-08-13 04:36:17,882 |-fail|p1a: Scizor
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,882 |upkeep
+2026-08-13 04:36:17,882 |turn|56
+2026-08-13 04:36:17,882 |
+2026-08-13 04:36:17,883 |t:|1786587813
+2026-08-13 04:36:17,883 |switch|p1a: Slowking|Slowking, L69, M|100/100
+2026-08-13 04:36:17,883 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,883 |-fail|p1a: Slowking
+2026-08-13 04:36:17,883 |
+2026-08-13 04:36:17,883 |upkeep
+2026-08-13 04:36:17,883 |turn|57
+2026-08-13 04:36:17,883 |
+2026-08-13 04:36:17,883 |t:|1786587813
+2026-08-13 04:36:17,883 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:17,883 |move|p2a: Wobbuffet|Mirror Coat|p1a: Slowking
+2026-08-13 04:36:17,883 |-fail|p1a: Slowking
+2026-08-13 04:36:17,883 |
+2026-08-13 04:36:17,883 |upkeep
+2026-08-13 04:36:17,883 |turn|58
+2026-08-13 04:36:17,883 |player|p1|
+2026-08-13 04:36:17,883 |player|p2|
+2026-08-13 04:36:17,883 |player|p1|BOT1|101|
+2026-08-13 04:36:17,883 |player|p2|BOT2|169|
+2026-08-13 04:36:17,883 |
+2026-08-13 04:36:17,883 |t:|1786588240
+2026-08-13 04:36:17,883 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:17,883 |-fail|p1a: Slowking
+2026-08-13 04:36:17,883 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,883 |-fail|p1a: Slowking
+2026-08-13 04:36:17,883 |
+2026-08-13 04:36:17,883 |upkeep
+2026-08-13 04:36:17,883 |turn|59
+2026-08-13 04:36:17,883 |
+2026-08-13 04:36:17,883 |t:|1786588240
+2026-08-13 04:36:17,883 |move|p1a: Slowking|Psychic|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-resisted|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-damage|p2a: Wobbuffet|518/554
+2026-08-13 04:36:17,884 |move|p2a: Wobbuffet|Counter|p1a: Slowking
+2026-08-13 04:36:17,884 |-fail|p1a: Slowking
+2026-08-13 04:36:17,884 |
+2026-08-13 04:36:17,884 |-heal|p2a: Wobbuffet|552/554|[from] item: Leftovers
+2026-08-13 04:36:17,884 |upkeep
+2026-08-13 04:36:17,884 |turn|60
+2026-08-13 04:36:17,884 |
+2026-08-13 04:36:17,884 |t:|1786588240
+2026-08-13 04:36:17,884 |move|p2a: Wobbuffet|Safeguard|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-sidestart|p2: BOT2|Safeguard
+2026-08-13 04:36:17,884 |move|p1a: Slowking|Surf|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-damage|p2a: Wobbuffet|468/554
+2026-08-13 04:36:17,884 |
+2026-08-13 04:36:17,884 |-heal|p2a: Wobbuffet|502/554|[from] item: Leftovers
+2026-08-13 04:36:17,884 |upkeep
+2026-08-13 04:36:17,884 |turn|61
+2026-08-13 04:36:17,884 |
+2026-08-13 04:36:17,884 |t:|1786588240
+2026-08-13 04:36:17,884 |move|p2a: Wobbuffet|Rest|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-status|p2a: Wobbuffet|slp|[from] move: Rest
+2026-08-13 04:36:17,884 |-heal|p2a: Wobbuffet|554/554 slp|[silent]
+2026-08-13 04:36:17,884 |move|p1a: Slowking|Psychic|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-resisted|p2a: Wobbuffet
+2026-08-13 04:36:17,884 |-damage|p2a: Wobbuffet|515/554 slp
+2026-08-13 04:36:17,884 |-unboost|p2a: Wobbuffet|spd|1
+2026-08-13 04:36:17,884 |
+2026-08-13 04:36:17,884 |-heal|p2a: Wobbuffet|549/554 slp|[from] item: Leftovers
+2026-08-13 04:36:17,884 |upkeep
+2026-08-13 04:36:17,884 |turn|62
+2026-08-13 04:36:17,884 |player|p1|
+2026-08-13 04:36:17,884 |player|p2|
+2026-08-13 04:36:17,884 |player|p1|BOT1|101|
+2026-08-13 04:36:17,884 |player|p2|BOT2|169|
+2026-08-13 04:36:17,884 >battle-gen2randombattle-334928
+2026-08-13 04:36:17,884 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":2,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":25,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":23,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":35,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"549/554 slp","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":137}
+2026-08-13 04:36:18,119 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,119 |player|p1|
+2026-08-13 04:36:18,119 |player|p2|
+2026-08-13 04:36:18,119 |player|p1|BOT1|101|
+2026-08-13 04:36:18,119 |player|p2|BOT2|169|
+2026-08-13 04:36:18,121 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen1randombattle-334720":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle"}}
+2026-08-13 04:36:18,122 |popup|You tried to send "/choose move 1|25" to the room "battle-gen3randombattle-334638" but it failed because you were not in that room.
+2026-08-13 04:36:18,122 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,122 |
+2026-08-13 04:36:18,122 |t:|1786588577
+2026-08-13 04:36:18,122 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:18,122 |-fail|p1a: Slowking
+2026-08-13 04:36:18,123 |cant|p2a: Wobbuffet|slp
+2026-08-13 04:36:18,123 |
+2026-08-13 04:36:18,123 |-heal|p2a: Wobbuffet|554/554 slp|[from] item: Leftovers
+2026-08-13 04:36:18,123 |upkeep
+2026-08-13 04:36:18,123 |turn|63
+2026-08-13 04:36:18,123 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle"}}
+2026-08-13 04:36:18,123 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,123 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":2,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":25,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":23,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":35,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554 slp","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":139}
+2026-08-13 04:36:18,397 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,397 |
+2026-08-13 04:36:18,397 |t:|1786588578
+2026-08-13 04:36:18,397 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:18,397 |cant|p2a: Wobbuffet|slp
+2026-08-13 04:36:18,397 |
+2026-08-13 04:36:18,397 |upkeep
+2026-08-13 04:36:18,397 |turn|64
+2026-08-13 04:36:18,397 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,397 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":2,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":25,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":23,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":35,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554 slp","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":141}
+2026-08-13 04:36:18,430 |pm| BOT1| BOT2|/challenge gen2randombattle|gen2randombattle|||
+2026-08-13 04:36:18,430 |pm| BOT1| BOT2|/log BOT1 wants to battle!
+2026-08-13 04:36:18,466 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,466 |
+2026-08-13 04:36:18,466 |t:|1786588578
+2026-08-13 04:36:18,466 |-curestatus|p2a: Wobbuffet|slp|[msg]
+2026-08-13 04:36:18,466 |move|p2a: Wobbuffet|Rest|p2a: Wobbuffet
+2026-08-13 04:36:18,466 |-fail|p2a: Wobbuffet
+2026-08-13 04:36:18,466 |move|p1a: Slowking|Rest|p1a: Slowking
+2026-08-13 04:36:18,466 |-fail|p1a: Slowking
+2026-08-13 04:36:18,466 |
+2026-08-13 04:36:18,466 |-sideend|p2: BOT2|Safeguard
+2026-08-13 04:36:18,466 |upkeep
+2026-08-13 04:36:18,466 |turn|65
+2026-08-13 04:36:18,468 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,468 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":1,"maxpp":16,"disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":25,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":23,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":35,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":143}
+2026-08-13 04:36:18,477 |pm| BOT2| BOT1|/challenge
+2026-08-13 04:36:18,477 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle"}}
+2026-08-13 04:36:18,478 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle","battle-gen2randombattle-336373":"[Gen 2] Random Battle"}}
+2026-08-13 04:36:18,478 |updatesearch|{"searching":[],"games":{"battle-gen1randombattle-334188":"[Gen 1] Random Battle","battle-gen3randombattle-334417":"[Gen 3] Random Battle","battle-gen3randombattle-334637":"[Gen 3] Random Battle","battle-gen3randombattle-334638":"[Gen 3] Random Battle","battle-gen3randombattle-334639":"[Gen 3] Random Battle","battle-gen3randombattle-334640":"[Gen 3] Random Battle","battle-gen3randombattle-334643":"[Gen 3] Random Battle","battle-gen1randombattle-334708":"[Gen 1] Random Battle","battle-gen1randombattle-334716":"[Gen 1] Random Battle","battle-gen2randombattle-334928":"[Gen 2] Random Battle","battle-gen2randombattle-336373":"[Gen 2] Random Battle"}}
+2026-08-13 04:36:18,533 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,533 |
+2026-08-13 04:36:18,533 |t:|1786588578
+2026-08-13 04:36:18,533 |move|p2a: Wobbuffet|Rest|p2a: Wobbuffet
+2026-08-13 04:36:18,533 |-fail|p2a: Wobbuffet
+2026-08-13 04:36:18,533 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-13 04:36:18,533 |
+2026-08-13 04:36:18,533 |upkeep
+2026-08-13 04:36:18,533 |turn|66
+2026-08-13 04:36:18,538 >battle-gen2randombattle-334928
+2026-08-13 04:36:18,538 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":0,"maxpp":16,"disabled":true},{"move":"Mirror Coat","id":"mirrorcoat","pp":25,"maxpp":32,"target":"scripted","disabled":false},{"move":"Counter","id":"counter","pp":23,"maxpp":32,"target":"scripted","disabled":false},{"move":"Safeguard","id":"safeguard","pp":35,"maxpp":40,"target":"allySide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L95, M","condition":"554/554","active":true,"stats":{"atk":156,"def":203,"spa":156,"spd":203,"spe":156},"moves":["rest","mirrorcoat","counter","safeguard"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L71, M","condition":"250/250","active":false,"stats":{"atk":205,"def":159,"spa":191,"spd":163,"spe":191},"moves":["curse","rest","sleeptalk","return102"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dewgong","details":"Dewgong, L73, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":189,"spa":175,"spd":211,"spe":175},"moves":["toxic","encore","icebeam","protect"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Farfetch’d","details":"Farfetch’d, L77, M","condition":"0 fnt","active":false,"stats":{"atk":176,"def":161,"spa":165,"spd":172,"spe":169},"moves":["batonpass","swordsdance","return102","agility"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Venusaur","details":"Venusaur, L67, M","condition":"230/230","active":false,"stats":{"atk":175,"def":174,"spa":201,"spd":201,"spe":174},"moves":["growth","razorleaf","hiddenpowerfire","synthesis"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L69, M","condition":"274/274","active":false,"stats":{"atk":172,"def":179,"spa":207,"spd":220,"spe":110},"moves":["sleeptalk","psychic","surf","rest"],"baseAbility":"noability","item":"leftovers","pokeball":"pokeball"}]},"rqid":145}

@@ -1,0 +1,719 @@
+2026-08-12 12:46:21,812 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,812 |init|battle
+2026-08-12 12:46:21,813 |title|BOT1 vs. BOT2
+2026-08-12 12:46:21,813 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-321184">battle-gen3randombattle-321184</a>&raquo;
+2026-08-12 12:46:21,842 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,842 |t:|1786531581
+2026-08-12 12:46:21,842 |gametype|singles
+2026-08-12 12:46:21,843 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,843 |player|p1|BOT1|170|
+2026-08-12 12:46:21,843 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,843 |player|p2|BOT2|170|
+2026-08-12 12:46:21,843 |gen|3
+2026-08-12 12:46:21,843 |tier|[Gen 3] Random Battle
+2026-08-12 12:46:21,843 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:46:21,843 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:46:21,843 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:46:21,843 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:46:21,843 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:46:21,843 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:46:21,843 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:46:21,843 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:46:21,843 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:46:21,843 |
+2026-08-12 12:46:21,843 |t:|1786531581
+2026-08-12 12:46:21,843 |teamsize|p1|6
+2026-08-12 12:46:21,843 |teamsize|p2|6
+2026-08-12 12:46:21,843 |start
+2026-08-12 12:46:21,843 |switch|p1a: Kingdra|Kingdra, L81, M|100/100
+2026-08-12 12:46:21,844 |switch|p2a: Togetic|Togetic, L97, M|264/264
+2026-08-12 12:46:21,844 |turn|1
+2026-08-12 12:46:21,847 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,847 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:46:21,885 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,885 |
+2026-08-12 12:46:21,885 |t:|1786531581
+2026-08-12 12:46:21,885 |move|p1a: Kingdra|Ice Beam|p2a: Togetic
+2026-08-12 12:46:21,885 |-supereffective|p2a: Togetic
+2026-08-12 12:46:21,885 |-damage|p2a: Togetic|166/264
+2026-08-12 12:46:21,885 |move|p2a: Togetic|Charm|p1a: Kingdra
+2026-08-12 12:46:21,885 |-unboost|p1a: Kingdra|atk|2
+2026-08-12 12:46:21,885 |
+2026-08-12 12:46:21,885 |-heal|p2a: Togetic|182/264|[from] item: Leftovers
+2026-08-12 12:46:21,885 |upkeep
+2026-08-12 12:46:21,885 |turn|2
+2026-08-12 12:46:21,888 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,888 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"182/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:46:21,911 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,911 |
+2026-08-12 12:46:21,911 |t:|1786531581
+2026-08-12 12:46:21,911 |move|p1a: Kingdra|Rain Dance|p1a: Kingdra
+2026-08-12 12:46:21,911 |-weather|RainDance
+2026-08-12 12:46:21,911 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:46:21,911 |-heal|p2a: Togetic|264/264
+2026-08-12 12:46:21,911 |
+2026-08-12 12:46:21,911 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:21,911 |upkeep
+2026-08-12 12:46:21,911 |turn|3
+2026-08-12 12:46:21,912 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,912 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:46:21,940 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,940 |
+2026-08-12 12:46:21,940 |t:|1786531581
+2026-08-12 12:46:21,940 |move|p1a: Kingdra|Hidden Power|p2a: Togetic
+2026-08-12 12:46:21,940 |-supereffective|p2a: Togetic
+2026-08-12 12:46:21,940 |-damage|p2a: Togetic|197/264
+2026-08-12 12:46:21,940 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:46:21,940 |-heal|p2a: Togetic|264/264
+2026-08-12 12:46:21,940 |
+2026-08-12 12:46:21,940 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:21,940 |upkeep
+2026-08-12 12:46:21,940 |turn|4
+2026-08-12 12:46:21,942 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,942 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:46:21,961 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,961 |
+2026-08-12 12:46:21,961 |t:|1786531581
+2026-08-12 12:46:21,961 |move|p1a: Kingdra|Hidden Power|p2a: Togetic
+2026-08-12 12:46:21,961 |-supereffective|p2a: Togetic
+2026-08-12 12:46:21,961 |-damage|p2a: Togetic|192/264
+2026-08-12 12:46:21,961 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:46:21,961 |-heal|p2a: Togetic|264/264
+2026-08-12 12:46:21,961 |
+2026-08-12 12:46:21,961 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:21,961 |upkeep
+2026-08-12 12:46:21,961 |turn|5
+2026-08-12 12:46:21,963 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,963 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:46:21,988 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,988 |
+2026-08-12 12:46:21,988 |t:|1786531581
+2026-08-12 12:46:21,988 |switch|p1a: Delibird|Delibird, L98, M|100/100
+2026-08-12 12:46:21,988 |move|p2a: Togetic|Toxic|p1a: Delibird
+2026-08-12 12:46:21,988 |-status|p1a: Delibird|tox
+2026-08-12 12:46:21,988 |
+2026-08-12 12:46:21,988 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:21,988 |-damage|p1a: Delibird|94/100 tox|[from] psn
+2026-08-12 12:46:21,988 |upkeep
+2026-08-12 12:46:21,988 |turn|6
+2026-08-12 12:46:21,989 >battle-gen3randombattle-321184
+2026-08-12 12:46:21,989 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:46:22,009 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,009 |
+2026-08-12 12:46:22,009 |t:|1786531581
+2026-08-12 12:46:22,009 |switch|p1a: Jynx|Jynx, L80, F|100/100
+2026-08-12 12:46:22,009 |move|p2a: Togetic|Seismic Toss|p1a: Jynx
+2026-08-12 12:46:22,009 |-damage|p1a: Jynx|59/100
+2026-08-12 12:46:22,009 |
+2026-08-12 12:46:22,009 |-weather|none
+2026-08-12 12:46:22,009 |-heal|p1a: Jynx|65/100|[from] item: Leftovers
+2026-08-12 12:46:22,009 |upkeep
+2026-08-12 12:46:22,009 |turn|7
+2026-08-12 12:46:22,010 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,010 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:46:22,041 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,041 |
+2026-08-12 12:46:22,041 |t:|1786531582
+2026-08-12 12:46:22,041 |move|p1a: Jynx|Ice Beam|p2a: Togetic
+2026-08-12 12:46:22,041 |-supereffective|p2a: Togetic
+2026-08-12 12:46:22,041 |-damage|p2a: Togetic|96/264
+2026-08-12 12:46:22,041 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:46:22,041 |-heal|p2a: Togetic|228/264
+2026-08-12 12:46:22,041 |
+2026-08-12 12:46:22,041 |-heal|p1a: Jynx|71/100|[from] item: Leftovers
+2026-08-12 12:46:22,041 |-heal|p2a: Togetic|244/264|[from] item: Leftovers
+2026-08-12 12:46:22,041 |upkeep
+2026-08-12 12:46:22,041 |turn|8
+2026-08-12 12:46:22,041 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,041 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"244/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:46:22,067 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,067 |
+2026-08-12 12:46:22,067 |t:|1786531582
+2026-08-12 12:46:22,067 |move|p1a: Jynx|Psychic|p2a: Togetic
+2026-08-12 12:46:22,067 |-damage|p2a: Togetic|165/264
+2026-08-12 12:46:22,067 |move|p2a: Togetic|Charm|p1a: Jynx
+2026-08-12 12:46:22,067 |-unboost|p1a: Jynx|atk|2
+2026-08-12 12:46:22,067 |
+2026-08-12 12:46:22,067 |-heal|p1a: Jynx|77/100|[from] item: Leftovers
+2026-08-12 12:46:22,067 |-heal|p2a: Togetic|181/264|[from] item: Leftovers
+2026-08-12 12:46:22,067 |upkeep
+2026-08-12 12:46:22,067 |turn|9
+2026-08-12 12:46:22,068 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,068 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"181/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:46:22,090 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,090 |
+2026-08-12 12:46:22,090 |t:|1786531582
+2026-08-12 12:46:22,090 |move|p1a: Jynx|Psychic|p2a: Togetic
+2026-08-12 12:46:22,090 |-damage|p2a: Togetic|102/264
+2026-08-12 12:46:22,090 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:46:22,090 |-heal|p2a: Togetic|234/264
+2026-08-12 12:46:22,090 |
+2026-08-12 12:46:22,090 |-heal|p1a: Jynx|83/100|[from] item: Leftovers
+2026-08-12 12:46:22,090 |-heal|p2a: Togetic|250/264|[from] item: Leftovers
+2026-08-12 12:46:22,090 |upkeep
+2026-08-12 12:46:22,090 |turn|10
+2026-08-12 12:46:22,090 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,090 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"250/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:46:22,113 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,113 |
+2026-08-12 12:46:22,113 |t:|1786531582
+2026-08-12 12:46:22,113 |move|p1a: Jynx|Calm Mind|p1a: Jynx
+2026-08-12 12:46:22,113 |-boost|p1a: Jynx|spa|1
+2026-08-12 12:46:22,113 |-boost|p1a: Jynx|spd|1
+2026-08-12 12:46:22,113 |move|p2a: Togetic|Seismic Toss|p1a: Jynx
+2026-08-12 12:46:22,114 |-damage|p1a: Jynx|42/100
+2026-08-12 12:46:22,114 |
+2026-08-12 12:46:22,114 |-heal|p1a: Jynx|48/100|[from] item: Leftovers
+2026-08-12 12:46:22,114 |-heal|p2a: Togetic|264/264|[from] item: Leftovers
+2026-08-12 12:46:22,114 |upkeep
+2026-08-12 12:46:22,114 |turn|11
+2026-08-12 12:46:22,117 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,117 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:46:22,131 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,131 |
+2026-08-12 12:46:22,131 |t:|1786531582
+2026-08-12 12:46:22,131 |move|p1a: Jynx|Calm Mind|p1a: Jynx
+2026-08-12 12:46:22,131 |-boost|p1a: Jynx|spa|1
+2026-08-12 12:46:22,131 |-boost|p1a: Jynx|spd|1
+2026-08-12 12:46:22,131 |move|p2a: Togetic|Charm|p1a: Jynx
+2026-08-12 12:46:22,131 |-unboost|p1a: Jynx|atk|2
+2026-08-12 12:46:22,131 |
+2026-08-12 12:46:22,131 |-heal|p1a: Jynx|54/100|[from] item: Leftovers
+2026-08-12 12:46:22,131 |upkeep
+2026-08-12 12:46:22,131 |turn|12
+2026-08-12 12:46:22,132 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,132 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:46:22,153 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,153 |
+2026-08-12 12:46:22,153 |t:|1786531582
+2026-08-12 12:46:22,153 |move|p1a: Jynx|Ice Beam|p2a: Togetic
+2026-08-12 12:46:22,153 |-supereffective|p2a: Togetic
+2026-08-12 12:46:22,153 |-damage|p2a: Togetic|0 fnt
+2026-08-12 12:46:22,153 |faint|p2a: Togetic
+2026-08-12 12:46:22,154 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,154 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":27}
+2026-08-12 12:46:22,170 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,170 |
+2026-08-12 12:46:22,170 |t:|1786531582
+2026-08-12 12:46:22,170 |switch|p2a: Omastar|Omastar, L84, M|255/255
+2026-08-12 12:46:22,170 |
+2026-08-12 12:46:22,170 |-heal|p1a: Jynx|60/100|[from] item: Leftovers
+2026-08-12 12:46:22,170 |upkeep
+2026-08-12 12:46:22,170 |turn|13
+2026-08-12 12:46:22,171 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,171 |request|{"active":[{"moves":[{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:46:22,231 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,231 |
+2026-08-12 12:46:22,231 |t:|1786531582
+2026-08-12 12:46:22,231 |move|p1a: Jynx|Substitute|p1a: Jynx
+2026-08-12 12:46:22,231 |-start|p1a: Jynx|Substitute
+2026-08-12 12:46:22,231 |-damage|p1a: Jynx|35/100
+2026-08-12 12:46:22,231 |move|p2a: Omastar|Surf|p1a: Jynx
+2026-08-12 12:46:22,231 |-end|p1a: Jynx|Substitute
+2026-08-12 12:46:22,231 |
+2026-08-12 12:46:22,231 |-heal|p1a: Jynx|41/100|[from] item: Leftovers
+2026-08-12 12:46:22,231 |upkeep
+2026-08-12 12:46:22,231 |turn|14
+2026-08-12 12:46:22,232 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,232 |request|{"active":[{"moves":[{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:46:22,289 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,289 |
+2026-08-12 12:46:22,289 |t:|1786531582
+2026-08-12 12:46:22,289 |move|p1a: Jynx|Psychic|p2a: Omastar
+2026-08-12 12:46:22,289 |-damage|p2a: Omastar|38/255
+2026-08-12 12:46:22,289 |-unboost|p2a: Omastar|spd|1
+2026-08-12 12:46:22,289 |move|p2a: Omastar|Ice Beam|p1a: Jynx
+2026-08-12 12:46:22,289 |-resisted|p1a: Jynx
+2026-08-12 12:46:22,289 |-damage|p1a: Jynx|32/100
+2026-08-12 12:46:22,289 |
+2026-08-12 12:46:22,289 |-heal|p1a: Jynx|38/100|[from] item: Leftovers
+2026-08-12 12:46:22,289 |-heal|p2a: Omastar|53/255|[from] item: Leftovers
+2026-08-12 12:46:22,289 |upkeep
+2026-08-12 12:46:22,289 |turn|15
+2026-08-12 12:46:22,289 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,289 |request|{"active":[{"moves":[{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"53/255","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:46:22,367 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,367 |
+2026-08-12 12:46:22,367 |t:|1786531582
+2026-08-12 12:46:22,367 |move|p1a: Jynx|Ice Beam|p2a: Omastar
+2026-08-12 12:46:22,368 |-resisted|p2a: Omastar
+2026-08-12 12:46:22,368 |-damage|p2a: Omastar|0 fnt
+2026-08-12 12:46:22,368 |faint|p2a: Omastar
+2026-08-12 12:46:22,368 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,368 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":35}
+2026-08-12 12:46:22,433 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,433 |
+2026-08-12 12:46:22,433 |t:|1786531582
+2026-08-12 12:46:22,433 |switch|p2a: Unown|Unown-Exclamation|258/258
+2026-08-12 12:46:22,433 |
+2026-08-12 12:46:22,433 |-heal|p1a: Jynx|44/100|[from] item: Leftovers
+2026-08-12 12:46:22,433 |upkeep
+2026-08-12 12:46:22,433 |turn|16
+2026-08-12 12:46:22,443 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,443 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:46:22,543 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,543 |
+2026-08-12 12:46:22,543 |t:|1786531582
+2026-08-12 12:46:22,543 |move|p1a: Jynx|Substitute|p1a: Jynx
+2026-08-12 12:46:22,543 |-start|p1a: Jynx|Substitute
+2026-08-12 12:46:22,543 |-damage|p1a: Jynx|19/100
+2026-08-12 12:46:22,543 |move|p2a: Unown|Hidden Power|p1a: Jynx
+2026-08-12 12:46:22,543 |-supereffective|p1a: Jynx
+2026-08-12 12:46:22,543 |-end|p1a: Jynx|Substitute
+2026-08-12 12:46:22,543 |
+2026-08-12 12:46:22,543 |-heal|p1a: Jynx|25/100|[from] item: Leftovers
+2026-08-12 12:46:22,543 |upkeep
+2026-08-12 12:46:22,543 |turn|17
+2026-08-12 12:46:22,546 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,546 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:46:22,603 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,603 |
+2026-08-12 12:46:22,603 |t:|1786531582
+2026-08-12 12:46:22,603 |move|p1a: Jynx|Substitute|p1a: Jynx
+2026-08-12 12:46:22,603 |-fail|p1a: Jynx|move: Substitute|[weak]
+2026-08-12 12:46:22,603 |move|p2a: Unown|Hidden Power|p1a: Jynx
+2026-08-12 12:46:22,603 |-supereffective|p1a: Jynx
+2026-08-12 12:46:22,603 |-damage|p1a: Jynx|0 fnt
+2026-08-12 12:46:22,603 |faint|p1a: Jynx
+2026-08-12 12:46:22,612 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,612 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:46:22,667 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,667 |
+2026-08-12 12:46:22,667 |t:|1786531582
+2026-08-12 12:46:22,667 |switch|p1a: Delibird|Delibird, L98, M|94/100 tox
+2026-08-12 12:46:22,667 |
+2026-08-12 12:46:22,667 |-damage|p1a: Delibird|88/100 tox|[from] psn
+2026-08-12 12:46:22,667 |upkeep
+2026-08-12 12:46:22,667 |turn|18
+2026-08-12 12:46:22,667 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,667 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"375/375","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:46:22,740 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,740 |
+2026-08-12 12:46:22,740 |t:|1786531582
+2026-08-12 12:46:22,740 |switch|p2a: Hariyama|Hariyama, L83, F|375/375
+2026-08-12 12:46:22,740 |move|p1a: Delibird|Ice Beam|p2a: Hariyama
+2026-08-12 12:46:22,740 |-damage|p2a: Hariyama|228/375
+2026-08-12 12:46:22,740 |
+2026-08-12 12:46:22,740 |-damage|p1a: Delibird|76/100 tox|[from] psn
+2026-08-12 12:46:22,740 |-heal|p2a: Hariyama|251/375|[from] item: Leftovers
+2026-08-12 12:46:22,740 |upkeep
+2026-08-12 12:46:22,740 |turn|19
+2026-08-12 12:46:22,741 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,741 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Cross Chop","id":"crosschop","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"251/375","active":true,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 12:46:22,806 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,806 |
+2026-08-12 12:46:22,806 |t:|1786531582
+2026-08-12 12:46:22,806 |move|p1a: Delibird|Ice Beam|p2a: Hariyama
+2026-08-12 12:46:22,806 |-damage|p2a: Hariyama|110/375
+2026-08-12 12:46:22,806 |move|p2a: Hariyama|Sleep Talk|p2a: Hariyama
+2026-08-12 12:46:22,806 |
+2026-08-12 12:46:22,806 |-damage|p1a: Delibird|58/100 tox|[from] psn
+2026-08-12 12:46:22,806 |-heal|p2a: Hariyama|133/375|[from] item: Leftovers
+2026-08-12 12:46:22,806 |upkeep
+2026-08-12 12:46:22,806 |turn|20
+2026-08-12 12:46:22,810 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,810 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Cross Chop","id":"crosschop","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"133/375","active":true,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:46:22,837 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,837 |
+2026-08-12 12:46:22,837 |t:|1786531582
+2026-08-12 12:46:22,837 |move|p1a: Delibird|Ice Beam|p2a: Hariyama
+2026-08-12 12:46:22,837 |-damage|p2a: Hariyama|0 fnt
+2026-08-12 12:46:22,837 |faint|p2a: Hariyama
+2026-08-12 12:46:22,841 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,841 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":true,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":49}
+2026-08-12 12:46:22,861 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,861 |
+2026-08-12 12:46:22,861 |t:|1786531582
+2026-08-12 12:46:22,861 |switch|p2a: Unown|Unown-Exclamation|258/258
+2026-08-12 12:46:22,861 |
+2026-08-12 12:46:22,861 |-damage|p1a: Delibird|34/100 tox|[from] psn
+2026-08-12 12:46:22,861 |upkeep
+2026-08-12 12:46:22,861 |turn|21
+2026-08-12 12:46:22,863 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,863 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"258/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:46:22,887 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,887 |
+2026-08-12 12:46:22,887 |t:|1786531582
+2026-08-12 12:46:22,887 |move|p1a: Delibird|Ice Beam|p2a: Unown
+2026-08-12 12:46:22,887 |-damage|p2a: Unown|132/258
+2026-08-12 12:46:22,887 |move|p2a: Unown|Hidden Power|p1a: Delibird
+2026-08-12 12:46:22,887 |-damage|p1a: Delibird|0 fnt
+2026-08-12 12:46:22,887 |faint|p1a: Delibird
+2026-08-12 12:46:22,888 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,888 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"132/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:46:22,912 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,912 |
+2026-08-12 12:46:22,912 |t:|1786531582
+2026-08-12 12:46:22,912 |switch|p1a: Spinda|Spinda, M|100/100
+2026-08-12 12:46:22,912 |
+2026-08-12 12:46:22,912 |upkeep
+2026-08-12 12:46:22,912 |turn|22
+2026-08-12 12:46:22,917 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,917 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"132/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:46:22,941 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,941 |
+2026-08-12 12:46:22,941 |t:|1786531582
+2026-08-12 12:46:22,941 |move|p1a: Spinda|Seismic Toss|p2a: Unown
+2026-08-12 12:46:22,941 |-damage|p2a: Unown|32/258
+2026-08-12 12:46:22,941 |move|p2a: Unown|Hidden Power|p1a: Spinda
+2026-08-12 12:46:22,941 |-immune|p1a: Spinda
+2026-08-12 12:46:22,941 |
+2026-08-12 12:46:22,941 |upkeep
+2026-08-12 12:46:22,941 |turn|23
+2026-08-12 12:46:22,944 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,944 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"32/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:46:22,969 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,969 |
+2026-08-12 12:46:22,969 |t:|1786531582
+2026-08-12 12:46:22,969 |move|p1a: Spinda|Wish|p1a: Spinda
+2026-08-12 12:46:22,969 |move|p2a: Unown|Hidden Power|p1a: Spinda
+2026-08-12 12:46:22,969 |-immune|p1a: Spinda
+2026-08-12 12:46:22,969 |
+2026-08-12 12:46:22,969 |upkeep
+2026-08-12 12:46:22,969 |turn|24
+2026-08-12 12:46:22,972 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,972 |request|{"active":[{"moves":[{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":19,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"32/258","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:46:22,996 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,996 |
+2026-08-12 12:46:22,996 |t:|1786531582
+2026-08-12 12:46:22,996 |move|p1a: Spinda|Seismic Toss|p2a: Unown
+2026-08-12 12:46:22,996 |-damage|p2a: Unown|0 fnt
+2026-08-12 12:46:22,996 |faint|p2a: Unown
+2026-08-12 12:46:22,999 >battle-gen3randombattle-321184
+2026-08-12 12:46:22,999 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":true,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-12 12:46:23,021 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,021 |
+2026-08-12 12:46:23,021 |t:|1786531583
+2026-08-12 12:46:23,021 |switch|p2a: Lickitung|Lickitung, L94, M|322/322
+2026-08-12 12:46:23,021 |
+2026-08-12 12:46:23,021 |upkeep
+2026-08-12 12:46:23,021 |turn|25
+2026-08-12 12:46:23,023 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,023 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:46:23,054 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,054 |
+2026-08-12 12:46:23,054 |t:|1786531583
+2026-08-12 12:46:23,054 |switch|p1a: Kingdra|Kingdra, L81, M|100/100
+2026-08-12 12:46:23,054 |move|p2a: Lickitung|Wish|p2a: Lickitung
+2026-08-12 12:46:23,054 |
+2026-08-12 12:46:23,054 |upkeep
+2026-08-12 12:46:23,054 |turn|26
+2026-08-12 12:46:23,055 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,055 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:46:23,087 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,087 |
+2026-08-12 12:46:23,087 |t:|1786531583
+2026-08-12 12:46:23,087 |switch|p2a: Crobat|Crobat, L78, F|261/261
+2026-08-12 12:46:23,087 |move|p1a: Kingdra|Ice Beam|p2a: Crobat
+2026-08-12 12:46:23,087 |-supereffective|p2a: Crobat
+2026-08-12 12:46:23,087 |-damage|p2a: Crobat|129/261
+2026-08-12 12:46:23,087 |
+2026-08-12 12:46:23,087 |-heal|p2a: Crobat|259/261|[from] move: Wish|[wisher] Lickitung
+2026-08-12 12:46:23,087 |-heal|p2a: Crobat|261/261|[from] item: Leftovers
+2026-08-12 12:46:23,087 |upkeep
+2026-08-12 12:46:23,087 |turn|27
+2026-08-12 12:46:23,088 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,088 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Haze","id":"haze","pp":48,"maxpp":48,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"261/261","active":true,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:46:23,121 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,121 |
+2026-08-12 12:46:23,121 |t:|1786531583
+2026-08-12 12:46:23,121 |move|p2a: Crobat|Haze|p2a: Crobat
+2026-08-12 12:46:23,121 |-clearallboost
+2026-08-12 12:46:23,121 |move|p1a: Kingdra|Ice Beam|p2a: Crobat
+2026-08-12 12:46:23,121 |-supereffective|p2a: Crobat
+2026-08-12 12:46:23,121 |-damage|p2a: Crobat|121/261
+2026-08-12 12:46:23,121 |
+2026-08-12 12:46:23,121 |-heal|p2a: Crobat|137/261|[from] item: Leftovers
+2026-08-12 12:46:23,121 |upkeep
+2026-08-12 12:46:23,121 |turn|28
+2026-08-12 12:46:23,125 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,125 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Haze","id":"haze","pp":47,"maxpp":48,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"137/261","active":true,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:46:23,151 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,151 |
+2026-08-12 12:46:23,151 |t:|1786531583
+2026-08-12 12:46:23,151 |move|p2a: Crobat|Sludge Bomb|p1a: Kingdra
+2026-08-12 12:46:23,151 |-damage|p1a: Kingdra|69/100
+2026-08-12 12:46:23,151 |move|p1a: Kingdra|Ice Beam|p2a: Crobat
+2026-08-12 12:46:23,151 |-supereffective|p2a: Crobat
+2026-08-12 12:46:23,151 |-damage|p2a: Crobat|0 fnt
+2026-08-12 12:46:23,151 |faint|p2a: Crobat
+2026-08-12 12:46:23,153 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,153 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":true,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":false,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":71}
+2026-08-12 12:46:23,173 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,173 |
+2026-08-12 12:46:23,173 |t:|1786531583
+2026-08-12 12:46:23,173 |switch|p2a: Lickitung|Lickitung, L94, M|322/322
+2026-08-12 12:46:23,173 |
+2026-08-12 12:46:23,173 |upkeep
+2026-08-12 12:46:23,173 |turn|29
+2026-08-12 12:46:23,176 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,176 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:46:23,211 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,211 |
+2026-08-12 12:46:23,211 |t:|1786531583
+2026-08-12 12:46:23,211 |move|p1a: Kingdra|Ice Beam|p2a: Lickitung
+2026-08-12 12:46:23,211 |-damage|p2a: Lickitung|259/322
+2026-08-12 12:46:23,211 |move|p2a: Lickitung|Seismic Toss|p1a: Kingdra
+2026-08-12 12:46:23,211 |-damage|p1a: Kingdra|32/100
+2026-08-12 12:46:23,211 |
+2026-08-12 12:46:23,211 |-heal|p2a: Lickitung|279/322|[from] item: Leftovers
+2026-08-12 12:46:23,211 |upkeep
+2026-08-12 12:46:23,211 |turn|30
+2026-08-12 12:46:23,221 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,221 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"279/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:46:23,257 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,257 |
+2026-08-12 12:46:23,257 |t:|1786531583
+2026-08-12 12:46:23,257 |move|p2a: Lickitung|Protect|p2a: Lickitung
+2026-08-12 12:46:23,257 |-singleturn|p2a: Lickitung|Protect
+2026-08-12 12:46:23,257 |move|p1a: Kingdra|Hydro Pump|p2a: Lickitung
+2026-08-12 12:46:23,257 |-activate|p2a: Lickitung|Protect
+2026-08-12 12:46:23,257 |
+2026-08-12 12:46:23,257 |-heal|p2a: Lickitung|299/322|[from] item: Leftovers
+2026-08-12 12:46:23,257 |upkeep
+2026-08-12 12:46:23,257 |turn|31
+2026-08-12 12:46:23,259 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,259 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"299/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:46:23,294 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,294 |
+2026-08-12 12:46:23,294 |t:|1786531583
+2026-08-12 12:46:23,294 |move|p1a: Kingdra|Hydro Pump|p2a: Lickitung
+2026-08-12 12:46:23,294 |-damage|p2a: Lickitung|185/322
+2026-08-12 12:46:23,294 |move|p2a: Lickitung|Knock Off|p1a: Kingdra
+2026-08-12 12:46:23,294 |-damage|p1a: Kingdra|27/100
+2026-08-12 12:46:23,295 |-enditem|p1a: Kingdra|Petaya Berry|[from] move: Knock Off|[of] p2a: Lickitung
+2026-08-12 12:46:23,295 |-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+2026-08-12 12:46:23,295 |
+2026-08-12 12:46:23,295 |-heal|p2a: Lickitung|205/322|[from] item: Leftovers
+2026-08-12 12:46:23,295 |upkeep
+2026-08-12 12:46:23,295 |turn|32
+2026-08-12 12:46:23,298 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,298 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"205/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:46:23,319 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,319 |
+2026-08-12 12:46:23,319 |t:|1786531583
+2026-08-12 12:46:23,319 |move|p2a: Lickitung|Protect|p2a: Lickitung
+2026-08-12 12:46:23,319 |-singleturn|p2a: Lickitung|Protect
+2026-08-12 12:46:23,319 |move|p1a: Kingdra|Hidden Power|p2a: Lickitung
+2026-08-12 12:46:23,319 |-activate|p2a: Lickitung|Protect
+2026-08-12 12:46:23,319 |
+2026-08-12 12:46:23,319 |-heal|p2a: Lickitung|225/322|[from] item: Leftovers
+2026-08-12 12:46:23,319 |upkeep
+2026-08-12 12:46:23,319 |turn|33
+2026-08-12 12:46:23,324 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,324 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"225/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:46:23,351 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,351 |
+2026-08-12 12:46:23,351 |t:|1786531583
+2026-08-12 12:46:23,351 |move|p2a: Lickitung|Protect|p2a: Lickitung
+2026-08-12 12:46:23,351 |-singleturn|p2a: Lickitung|Protect
+2026-08-12 12:46:23,351 |move|p1a: Kingdra|Rain Dance|p1a: Kingdra
+2026-08-12 12:46:23,351 |-weather|RainDance
+2026-08-12 12:46:23,351 |
+2026-08-12 12:46:23,351 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:23,351 |-heal|p2a: Lickitung|245/322|[from] item: Leftovers
+2026-08-12 12:46:23,351 |upkeep
+2026-08-12 12:46:23,351 |turn|34
+2026-08-12 12:46:23,354 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,354 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"245/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 12:46:23,376 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,376 |
+2026-08-12 12:46:23,376 |t:|1786531583
+2026-08-12 12:46:23,376 |move|p1a: Kingdra|Ice Beam|p2a: Lickitung
+2026-08-12 12:46:23,376 |-damage|p2a: Lickitung|177/322
+2026-08-12 12:46:23,376 |move|p2a: Lickitung|Seismic Toss|p1a: Kingdra
+2026-08-12 12:46:23,376 |-damage|p1a: Kingdra|0 fnt
+2026-08-12 12:46:23,376 |faint|p1a: Kingdra
+2026-08-12 12:46:23,377 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,377 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"177/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:46:23,397 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,397 |
+2026-08-12 12:46:23,397 |t:|1786531583
+2026-08-12 12:46:23,397 |switch|p1a: Deoxys|Deoxys-Speed, L76|100/100
+2026-08-12 12:46:23,397 |
+2026-08-12 12:46:23,397 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:23,397 |-heal|p2a: Lickitung|197/322|[from] item: Leftovers
+2026-08-12 12:46:23,397 |upkeep
+2026-08-12 12:46:23,397 |turn|35
+2026-08-12 12:46:23,398 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,398 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"197/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:46:23,421 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,421 |
+2026-08-12 12:46:23,421 |t:|1786531583
+2026-08-12 12:46:23,421 |move|p1a: Deoxys|Spikes|p2a: Lickitung
+2026-08-12 12:46:23,421 |-sidestart|p2: BOT2|Spikes
+2026-08-12 12:46:23,421 |move|p2a: Lickitung|Seismic Toss|p1a: Deoxys
+2026-08-12 12:46:23,421 |-damage|p1a: Deoxys|54/100
+2026-08-12 12:46:23,421 |
+2026-08-12 12:46:23,421 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:23,421 |-heal|p1a: Deoxys|60/100|[from] item: Leftovers
+2026-08-12 12:46:23,421 |-heal|p2a: Lickitung|217/322|[from] item: Leftovers
+2026-08-12 12:46:23,421 |upkeep
+2026-08-12 12:46:23,422 |turn|36
+2026-08-12 12:46:23,424 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,424 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"217/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:46:23,447 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,447 |
+2026-08-12 12:46:23,447 |t:|1786531583
+2026-08-12 12:46:23,447 |move|p2a: Lickitung|Protect|p2a: Lickitung
+2026-08-12 12:46:23,447 |-singleturn|p2a: Lickitung|Protect
+2026-08-12 12:46:23,447 |move|p1a: Deoxys|Psycho Boost|p2a: Lickitung
+2026-08-12 12:46:23,447 |-activate|p2a: Lickitung|Protect
+2026-08-12 12:46:23,447 |
+2026-08-12 12:46:23,448 |-weather|RainDance|[upkeep]
+2026-08-12 12:46:23,448 |-heal|p1a: Deoxys|66/100|[from] item: Leftovers
+2026-08-12 12:46:23,448 |-heal|p2a: Lickitung|237/322|[from] item: Leftovers
+2026-08-12 12:46:23,448 |upkeep
+2026-08-12 12:46:23,448 |turn|37
+2026-08-12 12:46:23,449 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,449 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"237/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 12:46:23,479 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,479 |
+2026-08-12 12:46:23,479 |t:|1786531583
+2026-08-12 12:46:23,479 |move|p1a: Deoxys|Spikes|p2a: Lickitung
+2026-08-12 12:46:23,479 |-sidestart|p2: BOT2|Spikes
+2026-08-12 12:46:23,479 |move|p2a: Lickitung|Knock Off|p1a: Deoxys
+2026-08-12 12:46:23,479 |-supereffective|p1a: Deoxys
+2026-08-12 12:46:23,479 |-crit|p1a: Deoxys
+2026-08-12 12:46:23,479 |-damage|p1a: Deoxys|36/100
+2026-08-12 12:46:23,479 |-enditem|p1a: Deoxys|Leftovers|[from] move: Knock Off|[of] p2a: Lickitung
+2026-08-12 12:46:23,479 |
+2026-08-12 12:46:23,479 |-weather|none
+2026-08-12 12:46:23,479 |-heal|p2a: Lickitung|257/322|[from] item: Leftovers
+2026-08-12 12:46:23,479 |upkeep
+2026-08-12 12:46:23,479 |turn|38
+2026-08-12 12:46:23,479 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,479 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"257/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:46:23,504 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,504 |
+2026-08-12 12:46:23,504 |t:|1786531583
+2026-08-12 12:46:23,504 |move|p1a: Deoxys|Recover|p1a: Deoxys
+2026-08-12 12:46:23,504 |-heal|p1a: Deoxys|86/100
+2026-08-12 12:46:23,504 |move|p2a: Lickitung|Knock Off|p1a: Deoxys
+2026-08-12 12:46:23,504 |-supereffective|p1a: Deoxys
+2026-08-12 12:46:23,504 |-damage|p1a: Deoxys|71/100
+2026-08-12 12:46:23,504 |
+2026-08-12 12:46:23,504 |-heal|p2a: Lickitung|277/322|[from] item: Leftovers
+2026-08-12 12:46:23,504 |upkeep
+2026-08-12 12:46:23,504 |turn|39
+2026-08-12 12:46:23,505 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,505 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"277/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 12:46:23,534 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,534 |
+2026-08-12 12:46:23,534 |t:|1786531583
+2026-08-12 12:46:23,534 |move|p1a: Deoxys|Toxic|p2a: Lickitung|[miss]
+2026-08-12 12:46:23,534 |-miss|p1a: Deoxys|p2a: Lickitung
+2026-08-12 12:46:23,534 |move|p2a: Lickitung|Wish|p2a: Lickitung
+2026-08-12 12:46:23,534 |
+2026-08-12 12:46:23,534 |-heal|p2a: Lickitung|297/322|[from] item: Leftovers
+2026-08-12 12:46:23,534 |upkeep
+2026-08-12 12:46:23,534 |turn|40
+2026-08-12 12:46:23,534 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,534 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"297/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 12:46:23,556 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,556 |
+2026-08-12 12:46:23,556 |t:|1786531583
+2026-08-12 12:46:23,556 |switch|p1a: Spinda|Spinda, M|100/100
+2026-08-12 12:46:23,556 |move|p2a: Lickitung|Seismic Toss|p1a: Spinda
+2026-08-12 12:46:23,556 |-damage|p1a: Spinda|67/100
+2026-08-12 12:46:23,556 |
+2026-08-12 12:46:23,556 |-heal|p2a: Lickitung|322/322|[from] move: Wish|[wisher] Lickitung
+2026-08-12 12:46:23,556 |-heal|p1a: Spinda|73/100|[from] item: Leftovers
+2026-08-12 12:46:23,556 |upkeep
+2026-08-12 12:46:23,556 |turn|41
+2026-08-12 12:46:23,556 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,556 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":27,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 12:46:23,590 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,590 |
+2026-08-12 12:46:23,590 |t:|1786531583
+2026-08-12 12:46:23,590 |move|p2a: Lickitung|Protect|p2a: Lickitung
+2026-08-12 12:46:23,590 |-singleturn|p2a: Lickitung|Protect
+2026-08-12 12:46:23,590 |move|p1a: Spinda|Wish|p1a: Spinda
+2026-08-12 12:46:23,590 |
+2026-08-12 12:46:23,590 |-heal|p1a: Spinda|79/100|[from] item: Leftovers
+2026-08-12 12:46:23,590 |upkeep
+2026-08-12 12:46:23,590 |turn|42
+2026-08-12 12:46:23,590 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,590 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":27,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"322/322","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 12:46:23,612 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,612 |
+2026-08-12 12:46:23,612 |t:|1786531583
+2026-08-12 12:46:23,612 |move|p1a: Spinda|Toxic|p2a: Lickitung
+2026-08-12 12:46:23,612 |-status|p2a: Lickitung|tox
+2026-08-12 12:46:23,612 |move|p2a: Lickitung|Seismic Toss|p1a: Spinda
+2026-08-12 12:46:23,612 |-damage|p1a: Spinda|46/100
+2026-08-12 12:46:23,612 |
+2026-08-12 12:46:23,612 |-heal|p1a: Spinda|96/100|[from] move: Wish|[wisher] Spinda
+2026-08-12 12:46:23,612 |-heal|p1a: Spinda|100/100|[from] item: Leftovers
+2026-08-12 12:46:23,612 |-damage|p2a: Lickitung|302/322 tox|[from] psn
+2026-08-12 12:46:23,612 |upkeep
+2026-08-12 12:46:23,612 |turn|43
+2026-08-12 12:46:23,613 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,613 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"302/322 tox","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 12:46:23,632 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,632 |
+2026-08-12 12:46:23,632 |t:|1786531583
+2026-08-12 12:46:23,632 |move|p2a: Lickitung|Protect|p2a: Lickitung
+2026-08-12 12:46:23,632 |-singleturn|p2a: Lickitung|Protect
+2026-08-12 12:46:23,632 |move|p1a: Spinda|Seismic Toss|p2a: Lickitung
+2026-08-12 12:46:23,632 |-activate|p2a: Lickitung|Protect
+2026-08-12 12:46:23,632 |
+2026-08-12 12:46:23,632 |-heal|p2a: Lickitung|322/322 tox|[from] item: Leftovers
+2026-08-12 12:46:23,632 |-damage|p2a: Lickitung|282/322 tox|[from] psn
+2026-08-12 12:46:23,632 |upkeep
+2026-08-12 12:46:23,632 |turn|44
+2026-08-12 12:46:23,633 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,633 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"282/322 tox","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 12:46:23,666 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,666 |
+2026-08-12 12:46:23,666 |t:|1786531583
+2026-08-12 12:46:23,666 |move|p1a: Spinda|Seismic Toss|p2a: Lickitung
+2026-08-12 12:46:23,666 |-damage|p2a: Lickitung|182/322 tox
+2026-08-12 12:46:23,666 |move|p2a: Lickitung|Wish|p2a: Lickitung
+2026-08-12 12:46:23,666 |
+2026-08-12 12:46:23,666 |-heal|p2a: Lickitung|202/322 tox|[from] item: Leftovers
+2026-08-12 12:46:23,666 |-damage|p2a: Lickitung|142/322 tox|[from] psn
+2026-08-12 12:46:23,666 |upkeep
+2026-08-12 12:46:23,666 |turn|45
+2026-08-12 12:46:23,666 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,666 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"142/322 tox","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 12:46:23,687 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,687 |
+2026-08-12 12:46:23,687 |t:|1786531583
+2026-08-12 12:46:23,687 |move|p1a: Spinda|Seismic Toss|p2a: Lickitung
+2026-08-12 12:46:23,687 |-damage|p2a: Lickitung|42/322 tox
+2026-08-12 12:46:23,687 |move|p2a: Lickitung|Wish||[still]
+2026-08-12 12:46:23,687 |-fail|p2a: Lickitung
+2026-08-12 12:46:23,687 |
+2026-08-12 12:46:23,687 |-heal|p2a: Lickitung|203/322 tox|[from] move: Wish|[wisher] Lickitung
+2026-08-12 12:46:23,687 |-heal|p2a: Lickitung|223/322 tox|[from] item: Leftovers
+2026-08-12 12:46:23,687 |-damage|p2a: Lickitung|143/322 tox|[from] psn
+2026-08-12 12:46:23,687 |upkeep
+2026-08-12 12:46:23,687 |turn|46
+2026-08-12 12:46:23,689 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,689 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"143/322 tox","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 12:46:23,716 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,716 |
+2026-08-12 12:46:23,716 |t:|1786531583
+2026-08-12 12:46:23,716 |move|p1a: Spinda|Protect|p1a: Spinda
+2026-08-12 12:46:23,716 |-singleturn|p1a: Spinda|Protect
+2026-08-12 12:46:23,716 |move|p2a: Lickitung|Protect||[still]
+2026-08-12 12:46:23,716 |-fail|p2a: Lickitung
+2026-08-12 12:46:23,716 |
+2026-08-12 12:46:23,716 |-heal|p2a: Lickitung|163/322 tox|[from] item: Leftovers
+2026-08-12 12:46:23,716 |-damage|p2a: Lickitung|63/322 tox|[from] psn
+2026-08-12 12:46:23,716 |upkeep
+2026-08-12 12:46:23,716 |turn|47
+2026-08-12 12:46:23,716 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,716 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Knock Off","id":"knockoff","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lickitung","details":"Lickitung, L94, M","condition":"63/322 tox","active":true,"stats":{"atk":108,"def":194,"spa":166,"spd":194,"spe":110},"moves":["wish","knockoff","protect","seismictoss"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["toxic","seismictoss","charm","softboiled"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":153,"spd":169,"spe":248},"moves":["sludgebomb","shadowball","hiddenpowerground","haze"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","surf","spikes","icebeam"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L83, F","condition":"0 fnt","active":false,"stats":{"atk":247,"def":147,"spa":114,"spd":147,"spe":131},"moves":["rest","rockslide","sleeptalk","crosschop"],"baseAbility":"guts","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Unown","details":"Unown-Exclamation","condition":"0 fnt","active":false,"stats":{"atk":201,"def":152,"spa":201,"spd":152,"spe":153},"moves":["hiddenpowerghost"],"baseAbility":"levitate","item":"choiceband","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 12:46:23,745 >battle-gen3randombattle-321184
+2026-08-12 12:46:23,745 |
+2026-08-12 12:46:23,745 |t:|1786531583
+2026-08-12 12:46:23,746 |move|p1a: Spinda|Wish|p1a: Spinda
+2026-08-12 12:46:23,746 |move|p2a: Lickitung|Wish|p2a: Lickitung
+2026-08-12 12:46:23,746 |
+2026-08-12 12:46:23,746 |-heal|p2a: Lickitung|83/322 tox|[from] item: Leftovers
+2026-08-12 12:46:23,746 |-damage|p2a: Lickitung|0 fnt|[from] psn
+2026-08-12 12:46:23,746 |faint|p2a: Lickitung
+2026-08-12 12:46:23,746 |
+2026-08-12 12:46:23,746 |win|BOT1

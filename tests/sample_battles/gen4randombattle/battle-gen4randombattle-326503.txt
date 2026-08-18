@@ -1,0 +1,889 @@
+2026-08-12 13:34:34,652 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,652 |init|battle
+2026-08-12 13:34:34,652 |title|BOT5 vs. BOT6
+2026-08-12 13:34:34,653 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-326503">battle-gen4randombattle-326503</a>&raquo;
+2026-08-12 13:34:34,694 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,694 |t:|1786534474
+2026-08-12 13:34:34,694 |gametype|singles
+2026-08-12 13:34:34,694 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,694 |player|p1|BOT5|101|
+2026-08-12 13:34:34,697 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,697 |player|p2|BOT6|101|
+2026-08-12 13:34:34,697 |gen|4
+2026-08-12 13:34:34,697 |tier|[Gen 4] Random Battle
+2026-08-12 13:34:34,697 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:34:34,697 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:34:34,697 |
+2026-08-12 13:34:34,697 |t:|1786534474
+2026-08-12 13:34:34,697 |teamsize|p1|6
+2026-08-12 13:34:34,697 |teamsize|p2|6
+2026-08-12 13:34:34,697 |start
+2026-08-12 13:34:34,697 |switch|p1a: Sunflora|Sunflora, L99, F|100/100
+2026-08-12 13:34:34,697 |switch|p2a: Salamence|Salamence, L72, F|256/256
+2026-08-12 13:34:34,697 |-ability|p2a: Salamence|Intimidate|boost
+2026-08-12 13:34:34,697 |-unboost|p1a: Sunflora|atk|1
+2026-08-12 13:34:34,697 |turn|1
+2026-08-12 13:34:34,697 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,697 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":24,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"256/256","active":true,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:34:34,724 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,724 |
+2026-08-12 13:34:34,724 |t:|1786534474
+2026-08-12 13:34:34,724 |move|p2a: Salamence|Outrage|p1a: Sunflora
+2026-08-12 13:34:34,724 |-damage|p1a: Sunflora|52/100
+2026-08-12 13:34:34,724 |move|p1a: Sunflora|Sludge Bomb|p2a: Salamence
+2026-08-12 13:34:34,724 |-damage|p2a: Salamence|87/256
+2026-08-12 13:34:34,724 |
+2026-08-12 13:34:34,724 |upkeep
+2026-08-12 13:34:34,724 |turn|2
+2026-08-12 13:34:34,724 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,724 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage"}],"trapped":true}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"87/256","active":true,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:34:34,746 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,746 |
+2026-08-12 13:34:34,746 |t:|1786534474
+2026-08-12 13:34:34,746 |move|p2a: Salamence|Outrage|p1a: Sunflora|[from] lockedmove
+2026-08-12 13:34:34,746 |-damage|p1a: Sunflora|1/100
+2026-08-12 13:34:34,746 |move|p1a: Sunflora|Sludge Bomb|p2a: Salamence
+2026-08-12 13:34:34,746 |-damage|p2a: Salamence|0 fnt
+2026-08-12 13:34:34,746 |faint|p2a: Salamence
+2026-08-12 13:34:34,746 |
+2026-08-12 13:34:34,746 |upkeep
+2026-08-12 13:34:34,747 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,747 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":true,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"noCancel":true,"rqid":7}
+2026-08-12 13:34:34,765 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,765 |
+2026-08-12 13:34:34,765 |t:|1786534474
+2026-08-12 13:34:34,765 |switch|p2a: Flareon|Flareon, L92, M|269/269
+2026-08-12 13:34:34,765 |turn|3
+2026-08-12 13:34:34,765 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,765 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:34:34,815 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,815 |
+2026-08-12 13:34:34,815 |t:|1786534474
+2026-08-12 13:34:34,815 |move|p2a: Flareon|Toxic|p1a: Sunflora
+2026-08-12 13:34:34,815 |-status|p1a: Sunflora|tox
+2026-08-12 13:34:34,816 |move|p1a: Sunflora|Sludge Bomb|p2a: Flareon
+2026-08-12 13:34:34,816 |-damage|p2a: Flareon|159/269
+2026-08-12 13:34:34,816 |-status|p2a: Flareon|psn
+2026-08-12 13:34:34,816 |
+2026-08-12 13:34:34,816 |-heal|p2a: Flareon|175/269 psn|[from] item: Leftovers
+2026-08-12 13:34:34,816 |-damage|p2a: Flareon|142/269 psn|[from] psn
+2026-08-12 13:34:34,816 |-damage|p1a: Sunflora|0 fnt|[from] psn
+2026-08-12 13:34:34,816 |faint|p1a: Sunflora
+2026-08-12 13:34:34,816 |upkeep
+2026-08-12 13:34:34,816 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,816 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"142/269 psn","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:34:34,850 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,850 |
+2026-08-12 13:34:34,850 |t:|1786534474
+2026-08-12 13:34:34,850 |switch|p1a: Slowking|Slowking, L87, M|100/100
+2026-08-12 13:34:34,850 |turn|4
+2026-08-12 13:34:34,852 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,852 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"142/269 psn","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:34:34,872 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,872 |
+2026-08-12 13:34:34,872 |t:|1786534474
+2026-08-12 13:34:34,872 |move|p2a: Flareon|Protect|p2a: Flareon
+2026-08-12 13:34:34,872 |-singleturn|p2a: Flareon|Protect
+2026-08-12 13:34:34,872 |move|p1a: Slowking|Trick Room|p1a: Slowking
+2026-08-12 13:34:34,872 |-fieldstart|move: Trick Room|[of] p1a: Slowking
+2026-08-12 13:34:34,872 |
+2026-08-12 13:34:34,872 |-heal|p2a: Flareon|158/269 psn|[from] item: Leftovers
+2026-08-12 13:34:34,872 |-damage|p2a: Flareon|125/269 psn|[from] psn
+2026-08-12 13:34:34,872 |upkeep
+2026-08-12 13:34:34,872 |turn|5
+2026-08-12 13:34:34,874 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,874 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"125/269 psn","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:34:34,897 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,897 |
+2026-08-12 13:34:34,897 |t:|1786534474
+2026-08-12 13:34:34,897 |switch|p1a: Hippowdon|Hippowdon, L79, M|100/100
+2026-08-12 13:34:34,898 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+2026-08-12 13:34:34,898 |move|p2a: Flareon|Protect||[still]
+2026-08-12 13:34:34,898 |-fail|p2a: Flareon
+2026-08-12 13:34:34,898 |
+2026-08-12 13:34:34,898 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:34,898 |-damage|p2a: Flareon|109/269 psn|[from] Sandstorm
+2026-08-12 13:34:34,898 |-heal|p2a: Flareon|125/269 psn|[from] item: Leftovers
+2026-08-12 13:34:34,898 |-damage|p2a: Flareon|92/269 psn|[from] psn
+2026-08-12 13:34:34,898 |upkeep
+2026-08-12 13:34:34,898 |turn|6
+2026-08-12 13:34:34,901 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,901 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"92/269 psn","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:34:34,941 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,941 |
+2026-08-12 13:34:34,941 |t:|1786534474
+2026-08-12 13:34:34,941 |move|p2a: Flareon|Protect|p2a: Flareon
+2026-08-12 13:34:34,941 |-singleturn|p2a: Flareon|Protect
+2026-08-12 13:34:34,941 |move|p1a: Hippowdon|Roar|p2a: Flareon
+2026-08-12 13:34:34,941 |-activate|p2a: Flareon|Protect
+2026-08-12 13:34:34,941 |
+2026-08-12 13:34:34,941 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:34,941 |-damage|p2a: Flareon|76/269 psn|[from] Sandstorm
+2026-08-12 13:34:34,941 |-heal|p2a: Flareon|92/269 psn|[from] item: Leftovers
+2026-08-12 13:34:34,941 |-damage|p2a: Flareon|59/269 psn|[from] psn
+2026-08-12 13:34:34,941 |upkeep
+2026-08-12 13:34:34,941 |turn|7
+2026-08-12 13:34:34,946 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,946 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"59/269 psn","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:34:34,984 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,984 |
+2026-08-12 13:34:34,984 |t:|1786534474
+2026-08-12 13:34:34,984 |move|p1a: Hippowdon|Earthquake|p2a: Flareon
+2026-08-12 13:34:34,984 |-supereffective|p2a: Flareon
+2026-08-12 13:34:34,984 |-damage|p2a: Flareon|0 fnt
+2026-08-12 13:34:34,984 |faint|p2a: Flareon
+2026-08-12 13:34:34,984 |
+2026-08-12 13:34:34,984 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:34,984 |upkeep
+2026-08-12 13:34:34,987 >battle-gen4randombattle-326503
+2026-08-12 13:34:34,987 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":true,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"noCancel":true,"rqid":21}
+2026-08-12 13:34:35,001 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,001 |
+2026-08-12 13:34:35,001 |t:|1786534474
+2026-08-12 13:34:35,001 |switch|p2a: Regirock|Regirock, L84|272/272
+2026-08-12 13:34:35,001 |turn|8
+2026-08-12 13:34:35,003 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,003 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:34:35,046 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,046 |
+2026-08-12 13:34:35,046 |t:|1786534475
+2026-08-12 13:34:35,046 |move|p2a: Regirock|Sleep Talk||[still]
+2026-08-12 13:34:35,046 |-fail|p2a: Regirock
+2026-08-12 13:34:35,046 |move|p1a: Hippowdon|Roar|p2a: Regirock
+2026-08-12 13:34:35,046 |drag|p2a: Dialga|Dialga, L70|256/256
+2026-08-12 13:34:35,046 |-ability|p2a: Dialga|Pressure
+2026-08-12 13:34:35,046 |
+2026-08-12 13:34:35,046 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,047 |-fieldend|move: Trick Room
+2026-08-12 13:34:35,047 |upkeep
+2026-08-12 13:34:35,047 |turn|9
+2026-08-12 13:34:35,047 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,047 |request|{"active":[{"moves":[{"move":"Aura Sphere","id":"aurasphere","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":true,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:34:35,076 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,076 |
+2026-08-12 13:34:35,076 |t:|1786534475
+2026-08-12 13:34:35,076 |move|p2a: Dialga|Draco Meteor|p1a: Hippowdon
+2026-08-12 13:34:35,076 |-damage|p1a: Hippowdon|43/100
+2026-08-12 13:34:35,076 |-unboost|p2a: Dialga|spa|2
+2026-08-12 13:34:35,076 |move|p1a: Hippowdon|Earthquake|p2a: Dialga
+2026-08-12 13:34:35,076 |-supereffective|p2a: Dialga
+2026-08-12 13:34:35,076 |-damage|p2a: Dialga|70/256
+2026-08-12 13:34:35,076 |
+2026-08-12 13:34:35,076 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,076 |-heal|p2a: Dialga|86/256|[from] item: Leftovers
+2026-08-12 13:34:35,076 |-heal|p1a: Hippowdon|49/100|[from] item: Leftovers
+2026-08-12 13:34:35,076 |upkeep
+2026-08-12 13:34:35,076 |turn|10
+2026-08-12 13:34:35,076 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,076 |request|{"active":[{"moves":[{"move":"Aura Sphere","id":"aurasphere","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Dialga","details":"Dialga, L70","condition":"86/256","active":true,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:34:35,142 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,142 |
+2026-08-12 13:34:35,142 |t:|1786534475
+2026-08-12 13:34:35,142 |move|p2a: Dialga|Fire Blast|p1a: Hippowdon|[miss]
+2026-08-12 13:34:35,142 |-miss|p2a: Dialga|p1a: Hippowdon
+2026-08-12 13:34:35,142 |move|p1a: Hippowdon|Earthquake|p2a: Dialga
+2026-08-12 13:34:35,142 |-supereffective|p2a: Dialga
+2026-08-12 13:34:35,142 |-damage|p2a: Dialga|0 fnt
+2026-08-12 13:34:35,142 |faint|p2a: Dialga
+2026-08-12 13:34:35,142 |
+2026-08-12 13:34:35,142 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,142 |-heal|p1a: Hippowdon|55/100|[from] item: Leftovers
+2026-08-12 13:34:35,142 |upkeep
+2026-08-12 13:34:35,142 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,142 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":true,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"}]},"noCancel":true,"rqid":29}
+2026-08-12 13:34:35,161 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,161 |
+2026-08-12 13:34:35,161 |t:|1786534475
+2026-08-12 13:34:35,161 |switch|p2a: Wobbuffet|Wobbuffet, L87, M|472/472
+2026-08-12 13:34:35,161 |turn|11
+2026-08-12 13:34:35,164 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,164 |request|{"active":[{"moves":[{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:34:35,203 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,203 |
+2026-08-12 13:34:35,203 |t:|1786534475
+2026-08-12 13:34:35,203 |move|p2a: Wobbuffet|Destiny Bond|p2a: Wobbuffet
+2026-08-12 13:34:35,203 |-singlemove|p2a: Wobbuffet|Destiny Bond
+2026-08-12 13:34:35,203 |move|p1a: Hippowdon|Roar|p2a: Wobbuffet
+2026-08-12 13:34:35,203 |drag|p2a: Azelf|Azelf, L77|242/242
+2026-08-12 13:34:35,203 |
+2026-08-12 13:34:35,203 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,204 |-damage|p2a: Azelf|227/242|[from] Sandstorm
+2026-08-12 13:34:35,204 |-heal|p1a: Hippowdon|61/100|[from] item: Leftovers
+2026-08-12 13:34:35,204 |upkeep
+2026-08-12 13:34:35,204 |turn|12
+2026-08-12 13:34:35,205 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,205 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:34:35,239 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,239 |
+2026-08-12 13:34:35,239 |t:|1786534475
+2026-08-12 13:34:35,239 |move|p2a: Azelf|U-turn|p1a: Hippowdon
+2026-08-12 13:34:35,239 |-damage|p1a: Hippowdon|46/100
+2026-08-12 13:34:35,240 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,240 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"472/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":35}
+2026-08-12 13:34:35,271 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,271 |
+2026-08-12 13:34:35,271 |t:|1786534475
+2026-08-12 13:34:35,271 |switch|p2a: Wobbuffet|Wobbuffet, L87, M|472/472|[from] U-turn
+2026-08-12 13:34:35,271 |move|p1a: Hippowdon|Stone Edge|p2a: Wobbuffet
+2026-08-12 13:34:35,271 |-damage|p2a: Wobbuffet|386/472
+2026-08-12 13:34:35,271 |
+2026-08-12 13:34:35,271 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,271 |-damage|p2a: Wobbuffet|357/472|[from] Sandstorm
+2026-08-12 13:34:35,271 |-heal|p1a: Hippowdon|52/100|[from] item: Leftovers
+2026-08-12 13:34:35,271 |upkeep
+2026-08-12 13:34:35,272 |turn|13
+2026-08-12 13:34:35,272 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,272 |request|{"active":[{"moves":[{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"357/472","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:34:35,297 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,298 |
+2026-08-12 13:34:35,298 |t:|1786534475
+2026-08-12 13:34:35,298 |move|p1a: Hippowdon|Earthquake|p2a: Wobbuffet
+2026-08-12 13:34:35,298 |-damage|p2a: Wobbuffet|225/472
+2026-08-12 13:34:35,298 |move|p2a: Wobbuffet|Destiny Bond|p2a: Wobbuffet
+2026-08-12 13:34:35,298 |-singlemove|p2a: Wobbuffet|Destiny Bond
+2026-08-12 13:34:35,298 |
+2026-08-12 13:34:35,298 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,298 |-damage|p2a: Wobbuffet|196/472|[from] Sandstorm
+2026-08-12 13:34:35,298 |-heal|p1a: Hippowdon|58/100|[from] item: Leftovers
+2026-08-12 13:34:35,298 |upkeep
+2026-08-12 13:34:35,298 |turn|14
+2026-08-12 13:34:35,301 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,301 |request|{"active":[{"moves":[{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"196/472","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:34:35,343 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,343 |
+2026-08-12 13:34:35,343 |t:|1786534475
+2026-08-12 13:34:35,343 |switch|p2a: Regirock|Regirock, L84|272/272
+2026-08-12 13:34:35,343 |move|p1a: Hippowdon|Stone Edge|p2a: Regirock
+2026-08-12 13:34:35,343 |-damage|p2a: Regirock|236/272
+2026-08-12 13:34:35,343 |
+2026-08-12 13:34:35,343 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,343 |-heal|p2a: Regirock|253/272|[from] item: Leftovers
+2026-08-12 13:34:35,343 |-heal|p1a: Hippowdon|64/100|[from] item: Leftovers
+2026-08-12 13:34:35,343 |upkeep
+2026-08-12 13:34:35,344 |turn|15
+2026-08-12 13:34:35,348 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,348 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"253/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"196/472","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":42}
+2026-08-12 13:34:35,383 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,383 |
+2026-08-12 13:34:35,383 |t:|1786534475
+2026-08-12 13:34:35,383 |move|p2a: Regirock|Sleep Talk||[still]
+2026-08-12 13:34:35,383 |-fail|p2a: Regirock
+2026-08-12 13:34:35,383 |move|p1a: Hippowdon|Roar|p2a: Regirock
+2026-08-12 13:34:35,383 |drag|p2a: Wobbuffet|Wobbuffet, L87, M|196/472
+2026-08-12 13:34:35,383 |
+2026-08-12 13:34:35,384 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,384 |-damage|p2a: Wobbuffet|167/472|[from] Sandstorm
+2026-08-12 13:34:35,384 |-heal|p1a: Hippowdon|70/100|[from] item: Leftovers
+2026-08-12 13:34:35,384 |upkeep
+2026-08-12 13:34:35,384 |turn|16
+2026-08-12 13:34:35,384 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,384 |request|{"active":[{"moves":[{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"167/472","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"253/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":44}
+2026-08-12 13:34:35,407 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,407 |
+2026-08-12 13:34:35,407 |t:|1786534475
+2026-08-12 13:34:35,407 |move|p1a: Hippowdon|Stone Edge|p2a: Wobbuffet
+2026-08-12 13:34:35,407 |-damage|p2a: Wobbuffet|73/472
+2026-08-12 13:34:35,407 |move|p2a: Wobbuffet|Encore|p1a: Hippowdon
+2026-08-12 13:34:35,407 |-start|p1a: Hippowdon|Encore
+2026-08-12 13:34:35,407 |
+2026-08-12 13:34:35,407 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,407 |-damage|p2a: Wobbuffet|44/472|[from] Sandstorm
+2026-08-12 13:34:35,407 |-heal|p1a: Hippowdon|76/100|[from] item: Leftovers
+2026-08-12 13:34:35,407 |upkeep
+2026-08-12 13:34:35,407 |turn|17
+2026-08-12 13:34:35,409 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,409 |request|{"active":[{"moves":[{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":32,"maxpp":32,"target":"scripted","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"44/472","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"custapberry","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"253/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":46}
+2026-08-12 13:34:35,438 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,438 |
+2026-08-12 13:34:35,438 |t:|1786534475
+2026-08-12 13:34:35,438 |move|p1a: Hippowdon|Stone Edge|p2a: Wobbuffet|[miss]
+2026-08-12 13:34:35,439 |-miss|p1a: Hippowdon|p2a: Wobbuffet
+2026-08-12 13:34:35,439 |-enditem|p2a: Wobbuffet|Custap Berry|[eat]
+2026-08-12 13:34:35,439 |-activate|p2a: Wobbuffet|item: Custap Berry|[consumed]
+2026-08-12 13:34:35,439 |move|p2a: Wobbuffet|Mirror Coat||[still]
+2026-08-12 13:34:35,439 |-fail|p2a: Wobbuffet
+2026-08-12 13:34:35,439 |
+2026-08-12 13:34:35,439 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,439 |-damage|p2a: Wobbuffet|15/472|[from] Sandstorm
+2026-08-12 13:34:35,439 |-heal|p1a: Hippowdon|82/100|[from] item: Leftovers
+2026-08-12 13:34:35,439 |upkeep
+2026-08-12 13:34:35,439 |turn|18
+2026-08-12 13:34:35,443 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,443 |request|{"active":[{"moves":[{"move":"Counter","id":"counter","pp":32,"maxpp":32,"target":"scripted","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Mirror Coat","id":"mirrorcoat","pp":31,"maxpp":32,"target":"scripted","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"15/472","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"253/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":48}
+2026-08-12 13:34:35,473 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,473 |
+2026-08-12 13:34:35,473 |t:|1786534475
+2026-08-12 13:34:35,473 |move|p1a: Hippowdon|Stone Edge|p2a: Wobbuffet
+2026-08-12 13:34:35,473 |-damage|p2a: Wobbuffet|0 fnt
+2026-08-12 13:34:35,473 |faint|p2a: Wobbuffet
+2026-08-12 13:34:35,473 |
+2026-08-12 13:34:35,473 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,473 |-heal|p1a: Hippowdon|88/100|[from] item: Leftovers
+2026-08-12 13:34:35,473 |upkeep
+2026-08-12 13:34:35,473 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,473 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":true,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"253/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":50}
+2026-08-12 13:34:35,495 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,495 |
+2026-08-12 13:34:35,495 |t:|1786534475
+2026-08-12 13:34:35,495 |switch|p2a: Regirock|Regirock, L84|253/272
+2026-08-12 13:34:35,496 |turn|19
+2026-08-12 13:34:35,496 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,496 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"253/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":52}
+2026-08-12 13:34:35,523 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,524 |
+2026-08-12 13:34:35,524 |t:|1786534475
+2026-08-12 13:34:35,524 |move|p2a: Regirock|Stone Edge|p1a: Hippowdon
+2026-08-12 13:34:35,524 |-resisted|p1a: Hippowdon
+2026-08-12 13:34:35,524 |-damage|p1a: Hippowdon|74/100
+2026-08-12 13:34:35,524 |move|p1a: Hippowdon|Stone Edge|p2a: Regirock
+2026-08-12 13:34:35,524 |-damage|p2a: Regirock|217/272
+2026-08-12 13:34:35,524 |
+2026-08-12 13:34:35,524 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,524 |-heal|p2a: Regirock|234/272|[from] item: Leftovers
+2026-08-12 13:34:35,524 |-heal|p1a: Hippowdon|80/100|[from] item: Leftovers
+2026-08-12 13:34:35,524 |-end|p1a: Hippowdon|Encore
+2026-08-12 13:34:35,524 |upkeep
+2026-08-12 13:34:35,524 |turn|20
+2026-08-12 13:34:35,526 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,526 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"234/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":54}
+2026-08-12 13:34:35,585 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,585 |
+2026-08-12 13:34:35,585 |t:|1786534475
+2026-08-12 13:34:35,586 |switch|p2a: Azelf|Azelf, L77|227/242
+2026-08-12 13:34:35,586 |move|p1a: Hippowdon|Roar|p2a: Azelf
+2026-08-12 13:34:35,586 |drag|p2a: Regirock|Regirock, L84|234/272
+2026-08-12 13:34:35,586 |
+2026-08-12 13:34:35,586 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,586 |-heal|p2a: Regirock|251/272|[from] item: Leftovers
+2026-08-12 13:34:35,586 |-heal|p1a: Hippowdon|86/100|[from] item: Leftovers
+2026-08-12 13:34:35,586 |upkeep
+2026-08-12 13:34:35,586 |turn|21
+2026-08-12 13:34:35,589 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,589 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"251/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":56}
+2026-08-12 13:34:35,672 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,672 |
+2026-08-12 13:34:35,672 |t:|1786534475
+2026-08-12 13:34:35,672 |move|p2a: Regirock|Earthquake|p1a: Hippowdon
+2026-08-12 13:34:35,672 |-damage|p1a: Hippowdon|67/100
+2026-08-12 13:34:35,672 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:34:35,672 |-heal|p1a: Hippowdon|100/100
+2026-08-12 13:34:35,672 |
+2026-08-12 13:34:35,672 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,672 |-heal|p2a: Regirock|268/272|[from] item: Leftovers
+2026-08-12 13:34:35,672 |upkeep
+2026-08-12 13:34:35,672 |turn|22
+2026-08-12 13:34:35,677 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,677 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"268/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":58}
+2026-08-12 13:34:35,758 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,758 |
+2026-08-12 13:34:35,758 |t:|1786534475
+2026-08-12 13:34:35,758 |move|p2a: Regirock|Stone Edge|p1a: Hippowdon
+2026-08-12 13:34:35,758 |-resisted|p1a: Hippowdon
+2026-08-12 13:34:35,758 |-damage|p1a: Hippowdon|85/100
+2026-08-12 13:34:35,758 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:34:35,758 |-heal|p1a: Hippowdon|100/100
+2026-08-12 13:34:35,758 |
+2026-08-12 13:34:35,758 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,758 |-heal|p2a: Regirock|272/272|[from] item: Leftovers
+2026-08-12 13:34:35,758 |upkeep
+2026-08-12 13:34:35,759 |turn|23
+2026-08-12 13:34:35,759 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,759 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"227/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":60}
+2026-08-12 13:34:35,814 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,814 |
+2026-08-12 13:34:35,814 |t:|1786534475
+2026-08-12 13:34:35,814 |move|p2a: Regirock|Earthquake|p1a: Hippowdon
+2026-08-12 13:34:35,814 |-damage|p1a: Hippowdon|80/100
+2026-08-12 13:34:35,814 |move|p1a: Hippowdon|Roar|p2a: Regirock
+2026-08-12 13:34:35,814 |drag|p2a: Azelf|Azelf, L77|227/242
+2026-08-12 13:34:35,814 |
+2026-08-12 13:34:35,814 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,814 |-damage|p2a: Azelf|212/242|[from] Sandstorm
+2026-08-12 13:34:35,814 |-heal|p1a: Hippowdon|86/100|[from] item: Leftovers
+2026-08-12 13:34:35,814 |upkeep
+2026-08-12 13:34:35,814 |turn|24
+2026-08-12 13:34:35,819 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,819 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"212/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":62}
+2026-08-12 13:34:35,895 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,895 |
+2026-08-12 13:34:35,895 |t:|1786534475
+2026-08-12 13:34:35,895 |move|p2a: Azelf|Signal Beam|p1a: Hippowdon
+2026-08-12 13:34:35,895 |-damage|p1a: Hippowdon|50/100
+2026-08-12 13:34:35,895 |move|p1a: Hippowdon|Stone Edge|p2a: Azelf
+2026-08-12 13:34:35,895 |-damage|p2a: Azelf|128/242
+2026-08-12 13:34:35,895 |
+2026-08-12 13:34:35,895 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,895 |-damage|p2a: Azelf|113/242|[from] Sandstorm
+2026-08-12 13:34:35,895 |-heal|p1a: Hippowdon|56/100|[from] item: Leftovers
+2026-08-12 13:34:35,895 |upkeep
+2026-08-12 13:34:35,895 |turn|25
+2026-08-12 13:34:35,898 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,898 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Signal Beam","id":"signalbeam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"113/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":64}
+2026-08-12 13:34:35,924 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,924 |
+2026-08-12 13:34:35,924 |t:|1786534475
+2026-08-12 13:34:35,924 |move|p2a: Azelf|Signal Beam|p1a: Hippowdon
+2026-08-12 13:34:35,924 |-damage|p1a: Hippowdon|26/100
+2026-08-12 13:34:35,924 |move|p1a: Hippowdon|Roar|p2a: Azelf
+2026-08-12 13:34:35,924 |drag|p2a: Regirock|Regirock, L84|272/272
+2026-08-12 13:34:35,924 |
+2026-08-12 13:34:35,924 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,924 |-heal|p1a: Hippowdon|32/100|[from] item: Leftovers
+2026-08-12 13:34:35,924 |upkeep
+2026-08-12 13:34:35,924 |turn|26
+2026-08-12 13:34:35,925 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,925 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"113/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":66}
+2026-08-12 13:34:35,993 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,993 |
+2026-08-12 13:34:35,993 |t:|1786534475
+2026-08-12 13:34:35,993 |switch|p2a: Azelf|Azelf, L77|113/242
+2026-08-12 13:34:35,993 |move|p1a: Hippowdon|Roar|p2a: Azelf
+2026-08-12 13:34:35,993 |drag|p2a: Regirock|Regirock, L84|272/272
+2026-08-12 13:34:35,993 |
+2026-08-12 13:34:35,993 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:35,993 |-heal|p1a: Hippowdon|38/100|[from] item: Leftovers
+2026-08-12 13:34:35,993 |upkeep
+2026-08-12 13:34:35,993 |turn|27
+2026-08-12 13:34:35,993 >battle-gen4randombattle-326503
+2026-08-12 13:34:35,993 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"113/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":68}
+2026-08-12 13:34:36,030 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,030 |
+2026-08-12 13:34:36,030 |t:|1786534476
+2026-08-12 13:34:36,030 |move|p2a: Regirock|Earthquake|p1a: Hippowdon
+2026-08-12 13:34:36,030 |-damage|p1a: Hippowdon|16/100
+2026-08-12 13:34:36,030 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:34:36,030 |-heal|p1a: Hippowdon|66/100
+2026-08-12 13:34:36,030 |
+2026-08-12 13:34:36,030 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,030 |-heal|p1a: Hippowdon|72/100|[from] item: Leftovers
+2026-08-12 13:34:36,030 |upkeep
+2026-08-12 13:34:36,030 |turn|28
+2026-08-12 13:34:36,030 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,030 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"113/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":70}
+2026-08-12 13:34:36,118 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,118 |
+2026-08-12 13:34:36,118 |t:|1786534476
+2026-08-12 13:34:36,118 |move|p2a: Regirock|Rest|p2a: Regirock
+2026-08-12 13:34:36,119 |-fail|p2a: Regirock|heal
+2026-08-12 13:34:36,119 |move|p1a: Hippowdon|Stone Edge|p2a: Regirock
+2026-08-12 13:34:36,119 |-crit|p2a: Regirock
+2026-08-12 13:34:36,119 |-damage|p2a: Regirock|194/272
+2026-08-12 13:34:36,119 |
+2026-08-12 13:34:36,119 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,119 |-heal|p2a: Regirock|211/272|[from] item: Leftovers
+2026-08-12 13:34:36,119 |-heal|p1a: Hippowdon|78/100|[from] item: Leftovers
+2026-08-12 13:34:36,119 |upkeep
+2026-08-12 13:34:36,119 |turn|29
+2026-08-12 13:34:36,119 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,119 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"211/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"113/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":72}
+2026-08-12 13:34:36,165 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,165 |
+2026-08-12 13:34:36,166 |t:|1786534476
+2026-08-12 13:34:36,166 |move|p2a: Regirock|Rest|p2a: Regirock
+2026-08-12 13:34:36,166 |-status|p2a: Regirock|slp|[from] move: Rest
+2026-08-12 13:34:36,166 |-heal|p2a: Regirock|272/272 slp|[silent]
+2026-08-12 13:34:36,166 |move|p1a: Hippowdon|Roar|p2a: Regirock
+2026-08-12 13:34:36,166 |drag|p2a: Azelf|Azelf, L77|113/242
+2026-08-12 13:34:36,166 |
+2026-08-12 13:34:36,166 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,166 |-damage|p2a: Azelf|98/242|[from] Sandstorm
+2026-08-12 13:34:36,166 |-heal|p1a: Hippowdon|84/100|[from] item: Leftovers
+2026-08-12 13:34:36,166 |upkeep
+2026-08-12 13:34:36,166 |turn|30
+2026-08-12 13:34:36,166 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,166 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"98/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":74}
+2026-08-12 13:34:36,197 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,197 |
+2026-08-12 13:34:36,197 |t:|1786534476
+2026-08-12 13:34:36,197 |move|p2a: Azelf|U-turn|p1a: Hippowdon
+2026-08-12 13:34:36,197 |-damage|p1a: Hippowdon|71/100
+2026-08-12 13:34:36,198 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,198 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"98/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":76}
+2026-08-12 13:34:36,230 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,230 |
+2026-08-12 13:34:36,230 |t:|1786534476
+2026-08-12 13:34:36,230 |switch|p2a: Regirock|Regirock, L84|272/272 slp|[from] U-turn
+2026-08-12 13:34:36,230 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:34:36,231 |-heal|p1a: Hippowdon|100/100
+2026-08-12 13:34:36,231 |
+2026-08-12 13:34:36,231 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,231 |upkeep
+2026-08-12 13:34:36,231 |turn|31
+2026-08-12 13:34:36,231 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,231 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"98/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":78}
+2026-08-12 13:34:36,269 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,269 |
+2026-08-12 13:34:36,269 |t:|1786534476
+2026-08-12 13:34:36,269 |switch|p1a: Slowking|Slowking, L87, M|100/100
+2026-08-12 13:34:36,269 |cant|p2a: Regirock|slp
+2026-08-12 13:34:36,269 |
+2026-08-12 13:34:36,269 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,269 |-damage|p1a: Slowking|94/100|[from] Sandstorm
+2026-08-12 13:34:36,269 |upkeep
+2026-08-12 13:34:36,269 |turn|32
+2026-08-12 13:34:36,276 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,276 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"98/242","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":80}
+2026-08-12 13:34:36,427 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,427 |
+2026-08-12 13:34:36,427 |t:|1786534476
+2026-08-12 13:34:36,427 |switch|p2a: Azelf|Azelf, L77|98/242
+2026-08-12 13:34:36,428 |switch|p1a: Tyranitar|Tyranitar, L75, F|100/100
+2026-08-12 13:34:36,428 |
+2026-08-12 13:34:36,428 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,428 |-damage|p2a: Azelf|83/242|[from] Sandstorm
+2026-08-12 13:34:36,428 |upkeep
+2026-08-12 13:34:36,428 |turn|33
+2026-08-12 13:34:36,428 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,428 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"83/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":82}
+2026-08-12 13:34:36,543 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,543 |
+2026-08-12 13:34:36,543 |t:|1786534476
+2026-08-12 13:34:36,543 |move|p2a: Azelf|Signal Beam|p1a: Tyranitar
+2026-08-12 13:34:36,543 |-supereffective|p1a: Tyranitar
+2026-08-12 13:34:36,543 |-damage|p1a: Tyranitar|57/100
+2026-08-12 13:34:36,543 |move|p1a: Tyranitar|Crunch|p2a: Azelf
+2026-08-12 13:34:36,543 |-supereffective|p2a: Azelf
+2026-08-12 13:34:36,543 |-damage|p2a: Azelf|0 fnt
+2026-08-12 13:34:36,543 |faint|p2a: Azelf
+2026-08-12 13:34:36,543 |
+2026-08-12 13:34:36,543 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,543 |-heal|p1a: Tyranitar|63/100|[from] item: Leftovers
+2026-08-12 13:34:36,543 |upkeep
+2026-08-12 13:34:36,547 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,547 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":false,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":84}
+2026-08-12 13:34:36,584 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,584 |
+2026-08-12 13:34:36,584 |t:|1786534476
+2026-08-12 13:34:36,584 |switch|p2a: Regirock|Regirock, L84|272/272 slp
+2026-08-12 13:34:36,584 |turn|34
+2026-08-12 13:34:36,588 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,588 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":86}
+2026-08-12 13:34:36,645 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,645 |
+2026-08-12 13:34:36,645 |t:|1786534476
+2026-08-12 13:34:36,645 |move|p1a: Tyranitar|Superpower|p2a: Regirock
+2026-08-12 13:34:36,645 |-supereffective|p2a: Regirock
+2026-08-12 13:34:36,645 |-damage|p2a: Regirock|180/272 slp
+2026-08-12 13:34:36,645 |-unboost|p1a: Tyranitar|atk|1
+2026-08-12 13:34:36,645 |-unboost|p1a: Tyranitar|def|1
+2026-08-12 13:34:36,645 |cant|p2a: Regirock|slp
+2026-08-12 13:34:36,645 |move|p2a: Regirock|Sleep Talk|p2a: Regirock
+2026-08-12 13:34:36,645 |move|p2a: Regirock|Rest||[from] move: Sleep Talk|[still]
+2026-08-12 13:34:36,645 |-fail|p2a: Regirock
+2026-08-12 13:34:36,645 |
+2026-08-12 13:34:36,645 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,645 |-heal|p1a: Tyranitar|69/100|[from] item: Leftovers
+2026-08-12 13:34:36,645 |-heal|p2a: Regirock|197/272 slp|[from] item: Leftovers
+2026-08-12 13:34:36,645 |upkeep
+2026-08-12 13:34:36,645 |turn|35
+2026-08-12 13:34:36,646 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,646 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"197/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":88}
+2026-08-12 13:34:36,699 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,699 |
+2026-08-12 13:34:36,699 |t:|1786534476
+2026-08-12 13:34:36,699 |move|p1a: Tyranitar|Stone Edge|p2a: Regirock
+2026-08-12 13:34:36,699 |-damage|p2a: Regirock|157/272 slp
+2026-08-12 13:34:36,699 |-curestatus|p2a: Regirock|slp|[msg]
+2026-08-12 13:34:36,699 |move|p2a: Regirock|Rest|p2a: Regirock
+2026-08-12 13:34:36,699 |-status|p2a: Regirock|slp|[from] move: Rest
+2026-08-12 13:34:36,699 |-heal|p2a: Regirock|272/272 slp|[silent]
+2026-08-12 13:34:36,699 |
+2026-08-12 13:34:36,699 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,699 |-heal|p1a: Tyranitar|75/100|[from] item: Leftovers
+2026-08-12 13:34:36,699 |upkeep
+2026-08-12 13:34:36,699 |turn|36
+2026-08-12 13:34:36,703 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,703 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":90}
+2026-08-12 13:34:36,743 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,743 |
+2026-08-12 13:34:36,743 |t:|1786534476
+2026-08-12 13:34:36,743 |move|p1a: Tyranitar|Toxic||[still]
+2026-08-12 13:34:36,743 |-fail|p1a: Tyranitar
+2026-08-12 13:34:36,743 |cant|p2a: Regirock|slp
+2026-08-12 13:34:36,743 |
+2026-08-12 13:34:36,743 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,743 |-heal|p1a: Tyranitar|82/100|[from] item: Leftovers
+2026-08-12 13:34:36,743 |upkeep
+2026-08-12 13:34:36,743 |turn|37
+2026-08-12 13:34:36,743 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,743 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":92}
+2026-08-12 13:34:36,787 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,787 |
+2026-08-12 13:34:36,787 |t:|1786534476
+2026-08-12 13:34:36,787 |move|p1a: Tyranitar|Stone Edge|p2a: Regirock
+2026-08-12 13:34:36,787 |-damage|p2a: Regirock|230/272 slp
+2026-08-12 13:34:36,787 |cant|p2a: Regirock|slp
+2026-08-12 13:34:36,787 |move|p2a: Regirock|Sleep Talk|p2a: Regirock
+2026-08-12 13:34:36,787 |move|p2a: Regirock|Stone Edge|p1a: Tyranitar|[from] move: Sleep Talk
+2026-08-12 13:34:36,787 |-damage|p1a: Tyranitar|27/100
+2026-08-12 13:34:36,787 |
+2026-08-12 13:34:36,787 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,787 |-heal|p1a: Tyranitar|33/100|[from] item: Leftovers
+2026-08-12 13:34:36,787 |-heal|p2a: Regirock|247/272 slp|[from] item: Leftovers
+2026-08-12 13:34:36,787 |upkeep
+2026-08-12 13:34:36,787 |turn|38
+2026-08-12 13:34:36,789 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,789 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"247/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":94}
+2026-08-12 13:34:36,812 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,812 |
+2026-08-12 13:34:36,812 |t:|1786534476
+2026-08-12 13:34:36,812 |move|p1a: Tyranitar|Superpower|p2a: Regirock
+2026-08-12 13:34:36,812 |-supereffective|p2a: Regirock
+2026-08-12 13:34:36,812 |-damage|p2a: Regirock|179/272 slp
+2026-08-12 13:34:36,812 |-unboost|p1a: Tyranitar|atk|1
+2026-08-12 13:34:36,812 |-unboost|p1a: Tyranitar|def|1
+2026-08-12 13:34:36,812 |-curestatus|p2a: Regirock|slp|[msg]
+2026-08-12 13:34:36,812 |move|p2a: Regirock|Earthquake|p1a: Tyranitar
+2026-08-12 13:34:36,813 |-supereffective|p1a: Tyranitar
+2026-08-12 13:34:36,813 |-damage|p1a: Tyranitar|0 fnt
+2026-08-12 13:34:36,813 |faint|p1a: Tyranitar
+2026-08-12 13:34:36,813 |
+2026-08-12 13:34:36,813 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,813 |-heal|p2a: Regirock|196/272|[from] item: Leftovers
+2026-08-12 13:34:36,813 |upkeep
+2026-08-12 13:34:36,813 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,813 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"196/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":96}
+2026-08-12 13:34:36,838 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,838 |
+2026-08-12 13:34:36,838 |t:|1786534476
+2026-08-12 13:34:36,838 |switch|p1a: Dustox|Dustox, M|100/100
+2026-08-12 13:34:36,838 |turn|39
+2026-08-12 13:34:36,839 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,839 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"196/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":98}
+2026-08-12 13:34:36,889 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,889 |
+2026-08-12 13:34:36,889 |t:|1786534476
+2026-08-12 13:34:36,889 |move|p1a: Dustox|Toxic|p2a: Regirock|[miss]
+2026-08-12 13:34:36,889 |-miss|p1a: Dustox|p2a: Regirock
+2026-08-12 13:34:36,889 |move|p2a: Regirock|Earthquake|p1a: Dustox
+2026-08-12 13:34:36,889 |-damage|p1a: Dustox|73/100
+2026-08-12 13:34:36,889 |
+2026-08-12 13:34:36,889 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,889 |-damage|p1a: Dustox|67/100|[from] Sandstorm
+2026-08-12 13:34:36,889 |-heal|p1a: Dustox|73/100|[from] item: Black Sludge
+2026-08-12 13:34:36,889 |-heal|p2a: Regirock|213/272|[from] item: Leftovers
+2026-08-12 13:34:36,889 |upkeep
+2026-08-12 13:34:36,889 |turn|40
+2026-08-12 13:34:36,892 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,892 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"213/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":100}
+2026-08-12 13:34:36,944 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,944 |
+2026-08-12 13:34:36,944 |t:|1786534476
+2026-08-12 13:34:36,944 |move|p1a: Dustox|Bug Buzz|p2a: Regirock
+2026-08-12 13:34:36,944 |-damage|p2a: Regirock|162/272
+2026-08-12 13:34:36,944 |move|p2a: Regirock|Stone Edge|p1a: Dustox
+2026-08-12 13:34:36,944 |-supereffective|p1a: Dustox
+2026-08-12 13:34:36,944 |-damage|p1a: Dustox|2/100
+2026-08-12 13:34:36,944 |
+2026-08-12 13:34:36,944 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:36,944 |-damage|p1a: Dustox|0 fnt|[from] Sandstorm
+2026-08-12 13:34:36,944 |faint|p1a: Dustox
+2026-08-12 13:34:36,944 |-heal|p2a: Regirock|179/272|[from] item: Leftovers
+2026-08-12 13:34:36,944 |upkeep
+2026-08-12 13:34:36,947 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,947 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"179/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":102}
+2026-08-12 13:34:36,973 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,973 |
+2026-08-12 13:34:36,973 |t:|1786534476
+2026-08-12 13:34:36,973 |switch|p1a: Hippowdon|Hippowdon, L79, M|100/100
+2026-08-12 13:34:36,973 |turn|41
+2026-08-12 13:34:36,974 >battle-gen4randombattle-326503
+2026-08-12 13:34:36,974 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"179/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":104}
+2026-08-12 13:34:37,014 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,014 |
+2026-08-12 13:34:37,014 |t:|1786534476
+2026-08-12 13:34:37,014 |move|p2a: Regirock|Rest|p2a: Regirock
+2026-08-12 13:34:37,014 |-status|p2a: Regirock|slp|[from] move: Rest
+2026-08-12 13:34:37,014 |-heal|p2a: Regirock|272/272 slp|[silent]
+2026-08-12 13:34:37,014 |move|p1a: Hippowdon|Roar||[still]
+2026-08-12 13:34:37,014 |-fail|p1a: Hippowdon
+2026-08-12 13:34:37,014 |
+2026-08-12 13:34:37,014 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,014 |upkeep
+2026-08-12 13:34:37,014 |turn|42
+2026-08-12 13:34:37,015 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,015 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":106}
+2026-08-12 13:34:37,058 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,058 |
+2026-08-12 13:34:37,058 |t:|1786534477
+2026-08-12 13:34:37,058 |switch|p1a: Slowking|Slowking, L87, M|94/100
+2026-08-12 13:34:37,058 |cant|p2a: Regirock|slp
+2026-08-12 13:34:37,058 |
+2026-08-12 13:34:37,058 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,058 |-damage|p1a: Slowking|88/100|[from] Sandstorm
+2026-08-12 13:34:37,058 |upkeep
+2026-08-12 13:34:37,058 |turn|43
+2026-08-12 13:34:37,059 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,059 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":108}
+2026-08-12 13:34:37,092 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,092 |
+2026-08-12 13:34:37,092 |t:|1786534477
+2026-08-12 13:34:37,092 |cant|p2a: Regirock|slp
+2026-08-12 13:34:37,092 |move|p1a: Slowking|Trick Room|p1a: Slowking
+2026-08-12 13:34:37,092 |-fieldstart|move: Trick Room|[of] p1a: Slowking
+2026-08-12 13:34:37,092 |
+2026-08-12 13:34:37,092 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,092 |-damage|p1a: Slowking|82/100|[from] Sandstorm
+2026-08-12 13:34:37,092 |upkeep
+2026-08-12 13:34:37,092 |turn|44
+2026-08-12 13:34:37,092 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,092 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272 slp","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":110}
+2026-08-12 13:34:37,111 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,111 |
+2026-08-12 13:34:37,111 |t:|1786534477
+2026-08-12 13:34:37,111 |-curestatus|p2a: Regirock|slp|[msg]
+2026-08-12 13:34:37,111 |move|p2a: Regirock|Rest|p2a: Regirock
+2026-08-12 13:34:37,111 |-fail|p2a: Regirock|heal
+2026-08-12 13:34:37,111 |move|p1a: Slowking|Trick Room|p1a: Slowking
+2026-08-12 13:34:37,111 |-fieldend|move: Trick Room
+2026-08-12 13:34:37,111 |
+2026-08-12 13:34:37,111 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,111 |-damage|p1a: Slowking|76/100|[from] Sandstorm
+2026-08-12 13:34:37,111 |upkeep
+2026-08-12 13:34:37,111 |turn|45
+2026-08-12 13:34:37,111 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,111 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"272/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":112}
+2026-08-12 13:34:37,140 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,140 |
+2026-08-12 13:34:37,140 |t:|1786534477
+2026-08-12 13:34:37,140 |move|p2a: Regirock|Rest|p2a: Regirock
+2026-08-12 13:34:37,140 |-fail|p2a: Regirock|heal
+2026-08-12 13:34:37,140 |move|p1a: Slowking|Psychic|p2a: Regirock
+2026-08-12 13:34:37,140 |-damage|p2a: Regirock|188/272
+2026-08-12 13:34:37,140 |-damage|p1a: Slowking|66/100|[from] item: Life Orb
+2026-08-12 13:34:37,140 |
+2026-08-12 13:34:37,140 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,140 |-damage|p1a: Slowking|60/100|[from] Sandstorm
+2026-08-12 13:34:37,140 |-heal|p2a: Regirock|205/272|[from] item: Leftovers
+2026-08-12 13:34:37,140 |upkeep
+2026-08-12 13:34:37,141 |turn|46
+2026-08-12 13:34:37,142 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,142 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"205/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":114}
+2026-08-12 13:34:37,171 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,171 |
+2026-08-12 13:34:37,171 |t:|1786534477
+2026-08-12 13:34:37,171 |switch|p1a: Slaking|Slaking, L82, M|100/100
+2026-08-12 13:34:37,171 |move|p2a: Regirock|Earthquake|p1a: Slaking
+2026-08-12 13:34:37,171 |-damage|p1a: Slaking|84/100
+2026-08-12 13:34:37,171 |
+2026-08-12 13:34:37,171 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,171 |-damage|p1a: Slaking|78/100|[from] Sandstorm
+2026-08-12 13:34:37,171 |-heal|p2a: Regirock|222/272|[from] item: Leftovers
+2026-08-12 13:34:37,171 |upkeep
+2026-08-12 13:34:37,171 |turn|47
+2026-08-12 13:34:37,195 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,195 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"222/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":116}
+2026-08-12 13:34:37,224 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,224 |
+2026-08-12 13:34:37,224 |t:|1786534477
+2026-08-12 13:34:37,224 |cant|p1a: Slaking|ability: Truant
+2026-08-12 13:34:37,224 |move|p2a: Regirock|Stone Edge|p1a: Slaking
+2026-08-12 13:34:37,224 |-crit|p1a: Slaking
+2026-08-12 13:34:37,224 |-damage|p1a: Slaking|25/100
+2026-08-12 13:34:37,224 |
+2026-08-12 13:34:37,224 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,224 |-damage|p1a: Slaking|19/100|[from] Sandstorm
+2026-08-12 13:34:37,224 |-heal|p2a: Regirock|239/272|[from] item: Leftovers
+2026-08-12 13:34:37,224 |upkeep
+2026-08-12 13:34:37,224 |turn|48
+2026-08-12 13:34:37,229 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,229 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"239/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":118}
+2026-08-12 13:34:37,302 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,302 |
+2026-08-12 13:34:37,302 |t:|1786534477
+2026-08-12 13:34:37,302 |switch|p1a: Slowking|Slowking, L87, M|60/100
+2026-08-12 13:34:37,302 |move|p2a: Regirock|Sleep Talk||[still]
+2026-08-12 13:34:37,302 |-fail|p2a: Regirock
+2026-08-12 13:34:37,302 |
+2026-08-12 13:34:37,302 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,302 |-damage|p1a: Slowking|54/100|[from] Sandstorm
+2026-08-12 13:34:37,302 |-heal|p2a: Regirock|256/272|[from] item: Leftovers
+2026-08-12 13:34:37,302 |upkeep
+2026-08-12 13:34:37,302 |turn|49
+2026-08-12 13:34:37,308 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,308 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"256/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":120}
+2026-08-12 13:34:37,390 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,390 |
+2026-08-12 13:34:37,390 |t:|1786534477
+2026-08-12 13:34:37,390 |move|p2a: Regirock|Sleep Talk||[still]
+2026-08-12 13:34:37,390 |-fail|p2a: Regirock
+2026-08-12 13:34:37,390 |move|p1a: Slowking|Psychic|p2a: Regirock
+2026-08-12 13:34:37,390 |-damage|p2a: Regirock|168/272
+2026-08-12 13:34:37,390 |-damage|p1a: Slowking|44/100|[from] item: Life Orb
+2026-08-12 13:34:37,390 |
+2026-08-12 13:34:37,390 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,390 |-damage|p1a: Slowking|38/100|[from] Sandstorm
+2026-08-12 13:34:37,390 |-heal|p2a: Regirock|185/272|[from] item: Leftovers
+2026-08-12 13:34:37,390 |upkeep
+2026-08-12 13:34:37,390 |turn|50
+2026-08-12 13:34:37,390 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,390 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"185/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":122}
+2026-08-12 13:34:37,475 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,475 |
+2026-08-12 13:34:37,475 |t:|1786534477
+2026-08-12 13:34:37,475 |move|p2a: Regirock|Earthquake|p1a: Slowking
+2026-08-12 13:34:37,475 |-damage|p1a: Slowking|14/100
+2026-08-12 13:34:37,475 |move|p1a: Slowking|Trick Room|p1a: Slowking
+2026-08-12 13:34:37,475 |-fieldstart|move: Trick Room|[of] p1a: Slowking
+2026-08-12 13:34:37,475 |
+2026-08-12 13:34:37,475 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,475 |-damage|p1a: Slowking|8/100|[from] Sandstorm
+2026-08-12 13:34:37,475 |-heal|p2a: Regirock|202/272|[from] item: Leftovers
+2026-08-12 13:34:37,475 |upkeep
+2026-08-12 13:34:37,475 |turn|51
+2026-08-12 13:34:37,476 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,476 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":9,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"202/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":124}
+2026-08-12 13:34:37,600 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,601 |
+2026-08-12 13:34:37,601 |t:|1786534477
+2026-08-12 13:34:37,601 |move|p1a: Slowking|Psychic|p2a: Regirock
+2026-08-12 13:34:37,601 |-damage|p2a: Regirock|123/272
+2026-08-12 13:34:37,601 |-damage|p1a: Slowking|0 fnt|[from] item: Life Orb
+2026-08-12 13:34:37,601 |faint|p1a: Slowking
+2026-08-12 13:34:37,601 |move|p2a: Regirock|Earthquake|p1: Slowking|[notarget]
+2026-08-12 13:34:37,601 |-notarget|p2a: Regirock
+2026-08-12 13:34:37,601 |
+2026-08-12 13:34:37,601 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,601 |-heal|p2a: Regirock|140/272|[from] item: Leftovers
+2026-08-12 13:34:37,601 |upkeep
+2026-08-12 13:34:37,613 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,613 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"140/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":126}
+2026-08-12 13:34:37,696 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,696 |
+2026-08-12 13:34:37,696 |t:|1786534477
+2026-08-12 13:34:37,696 |switch|p1a: Hippowdon|Hippowdon, L79, M|100/100
+2026-08-12 13:34:37,696 |turn|52
+2026-08-12 13:34:37,704 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,704 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":8,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"140/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":128}
+2026-08-12 13:34:37,757 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,757 |
+2026-08-12 13:34:37,757 |t:|1786534477
+2026-08-12 13:34:37,757 |move|p1a: Hippowdon|Earthquake|p2a: Regirock
+2026-08-12 13:34:37,757 |-supereffective|p2a: Regirock
+2026-08-12 13:34:37,757 |-damage|p2a: Regirock|36/272
+2026-08-12 13:34:37,757 |move|p2a: Regirock|Stone Edge|p1a: Hippowdon
+2026-08-12 13:34:37,757 |-resisted|p1a: Hippowdon
+2026-08-12 13:34:37,757 |-damage|p1a: Hippowdon|86/100
+2026-08-12 13:34:37,757 |
+2026-08-12 13:34:37,757 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:34:37,757 |-heal|p1a: Hippowdon|92/100|[from] item: Leftovers
+2026-08-12 13:34:37,757 |-heal|p2a: Regirock|53/272|[from] item: Leftovers
+2026-08-12 13:34:37,757 |upkeep
+2026-08-12 13:34:37,757 |turn|53
+2026-08-12 13:34:37,758 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,758 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":8,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regirock","details":"Regirock, L84","condition":"53/272","active":true,"stats":{"atk":216,"def":384,"spa":132,"spd":216,"spe":132},"moves":["stoneedge","sleeptalk","rest","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":244,"def":163,"spa":227,"spd":255,"spe":172},"moves":["toxic","wish","lavaplume","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Salamence","details":"Salamence, L72, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":157,"spa":200,"spd":157,"spe":186},"moves":["outrage","dragondance","earthquake","fireblast"],"baseAbility":"intimidate","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Wobbuffet","details":"Wobbuffet, L87, M","condition":"0 fnt","active":false,"stats":{"atk":62,"def":151,"spa":107,"spd":151,"spe":107},"moves":["counter","encore","destinybond","mirrorcoat"],"baseAbility":"shadowtag","item":"","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["uturn","signalbeam","psychic","fireblast"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"0 fnt","active":false,"stats":{"atk":173,"def":209,"spa":251,"spd":181,"spe":167},"moves":["aurasphere","dracometeor","fireblast","thunderwave"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":130}
+2026-08-12 13:34:37,809 >battle-gen4randombattle-326503
+2026-08-12 13:34:37,809 |
+2026-08-12 13:34:37,809 |t:|1786534477
+2026-08-12 13:34:37,809 |move|p1a: Hippowdon|Earthquake|p2a: Regirock
+2026-08-12 13:34:37,809 |-supereffective|p2a: Regirock
+2026-08-12 13:34:37,809 |-damage|p2a: Regirock|0 fnt
+2026-08-12 13:34:37,809 |faint|p2a: Regirock
+2026-08-12 13:34:37,809 |
+2026-08-12 13:34:37,809 |win|BOT5
+2026-08-12 14:14:37,810 >battle-gen4randombattle-326503
+2026-08-12 14:14:37,810 |expire|
+2026-08-12 14:14:37,810 >battle-gen4randombattle-326503
+2026-08-12 14:14:37,810 |L|☆BOT5
+2026-08-12 14:14:37,810 >battle-gen4randombattle-326503
+2026-08-12 14:14:37,810 |deinit

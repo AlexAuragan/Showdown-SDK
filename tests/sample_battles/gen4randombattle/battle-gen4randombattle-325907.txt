@@ -1,0 +1,652 @@
+2026-08-12 13:29:27,795 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,795 |init|battle
+2026-08-12 13:29:27,796 |title|BOT3 vs. BOT4
+2026-08-12 13:29:27,796 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-325907">battle-gen4randombattle-325907</a>&raquo;
+2026-08-12 13:29:27,842 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,842 |t:|1786534167
+2026-08-12 13:29:27,842 |gametype|singles
+2026-08-12 13:29:27,842 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,842 |player|p1|BOT3|101|
+2026-08-12 13:29:27,842 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,842 |player|p2|BOT4|266|
+2026-08-12 13:29:27,842 |gen|4
+2026-08-12 13:29:27,842 |tier|[Gen 4] Random Battle
+2026-08-12 13:29:27,842 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:29:27,842 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:29:27,842 |
+2026-08-12 13:29:27,842 |t:|1786534167
+2026-08-12 13:29:27,842 |teamsize|p1|6
+2026-08-12 13:29:27,842 |teamsize|p2|6
+2026-08-12 13:29:27,842 |start
+2026-08-12 13:29:27,842 |switch|p1a: Carnivine|Carnivine, L97, F|100/100
+2026-08-12 13:29:27,842 |switch|p2a: Suicune|Suicune, L79|288/288
+2026-08-12 13:29:27,842 |-ability|p2a: Suicune|Pressure
+2026-08-12 13:29:27,842 |turn|1
+2026-08-12 13:29:27,847 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,848 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:29:27,901 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,901 |
+2026-08-12 13:29:27,901 |t:|1786534167
+2026-08-12 13:29:27,901 |move|p2a: Suicune|Ice Beam|p1a: Carnivine
+2026-08-12 13:29:27,901 |-supereffective|p1a: Carnivine
+2026-08-12 13:29:27,901 |-damage|p1a: Carnivine|61/100
+2026-08-12 13:29:27,901 |move|p1a: Carnivine|Sleep Powder|p2a: Suicune
+2026-08-12 13:29:27,901 |-status|p2a: Suicune|slp|[from] move: Sleep Powder
+2026-08-12 13:29:27,901 |
+2026-08-12 13:29:27,901 |-heal|p1a: Carnivine|67/100|[from] item: Leftovers
+2026-08-12 13:29:27,901 |upkeep
+2026-08-12 13:29:27,901 |turn|2
+2026-08-12 13:29:27,902 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,902 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288 slp","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:29:27,931 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,931 |
+2026-08-12 13:29:27,931 |t:|1786534167
+2026-08-12 13:29:27,931 |cant|p2a: Suicune|slp
+2026-08-12 13:29:27,931 |move|p1a: Carnivine|Sleep Powder|p2a: Suicune|[miss]
+2026-08-12 13:29:27,931 |-miss|p1a: Carnivine|p2a: Suicune
+2026-08-12 13:29:27,931 |
+2026-08-12 13:29:27,931 |-heal|p1a: Carnivine|73/100|[from] item: Leftovers
+2026-08-12 13:29:27,931 |upkeep
+2026-08-12 13:29:27,931 |turn|3
+2026-08-12 13:29:27,936 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,936 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288 slp","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:29:27,978 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,978 |
+2026-08-12 13:29:27,979 |t:|1786534167
+2026-08-12 13:29:27,979 |-curestatus|p2a: Suicune|slp|[msg]
+2026-08-12 13:29:27,979 |move|p2a: Suicune|Ice Beam|p1a: Carnivine
+2026-08-12 13:29:27,979 |-supereffective|p1a: Carnivine
+2026-08-12 13:29:27,979 |-damage|p1a: Carnivine|33/100
+2026-08-12 13:29:27,979 |move|p1a: Carnivine|Swords Dance|p1a: Carnivine
+2026-08-12 13:29:27,979 |-boost|p1a: Carnivine|atk|2
+2026-08-12 13:29:27,979 |
+2026-08-12 13:29:27,979 |-heal|p1a: Carnivine|39/100|[from] item: Leftovers
+2026-08-12 13:29:27,979 |upkeep
+2026-08-12 13:29:27,979 |turn|4
+2026-08-12 13:29:27,983 >battle-gen4randombattle-325907
+2026-08-12 13:29:27,983 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:29:28,021 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,021 |
+2026-08-12 13:29:28,021 |t:|1786534167
+2026-08-12 13:29:28,021 |move|p2a: Suicune|Surf|p1a: Carnivine
+2026-08-12 13:29:28,021 |-resisted|p1a: Carnivine
+2026-08-12 13:29:28,021 |-damage|p1a: Carnivine|26/100
+2026-08-12 13:29:28,021 |move|p1a: Carnivine|Swords Dance|p1a: Carnivine
+2026-08-12 13:29:28,021 |-boost|p1a: Carnivine|atk|2
+2026-08-12 13:29:28,021 |
+2026-08-12 13:29:28,021 |-heal|p1a: Carnivine|32/100|[from] item: Leftovers
+2026-08-12 13:29:28,021 |upkeep
+2026-08-12 13:29:28,021 |turn|5
+2026-08-12 13:29:28,024 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,024 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:29:28,054 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,054 |
+2026-08-12 13:29:28,054 |t:|1786534168
+2026-08-12 13:29:28,054 |move|p2a: Suicune|Ice Beam|p1a: Carnivine
+2026-08-12 13:29:28,054 |-supereffective|p1a: Carnivine
+2026-08-12 13:29:28,054 |-damage|p1a: Carnivine|0 fnt
+2026-08-12 13:29:28,054 |faint|p1a: Carnivine
+2026-08-12 13:29:28,054 |
+2026-08-12 13:29:28,054 |upkeep
+2026-08-12 13:29:28,058 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,058 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:29:28,070 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,070 |
+2026-08-12 13:29:28,070 |t:|1786534168
+2026-08-12 13:29:28,070 |switch|p1a: Sandslash|Sandslash, L88, M|100/100
+2026-08-12 13:29:28,070 |turn|6
+2026-08-12 13:29:28,071 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,071 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:29:28,116 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,116 |
+2026-08-12 13:29:28,116 |t:|1786534168
+2026-08-12 13:29:28,116 |move|p2a: Suicune|Ice Beam|p1a: Sandslash
+2026-08-12 13:29:28,116 |-supereffective|p1a: Sandslash
+2026-08-12 13:29:28,116 |-damage|p1a: Sandslash|47/100
+2026-08-12 13:29:28,116 |move|p1a: Sandslash|Rapid Spin|p2a: Suicune
+2026-08-12 13:29:28,116 |-damage|p2a: Suicune|275/288
+2026-08-12 13:29:28,116 |
+2026-08-12 13:29:28,116 |-heal|p2a: Suicune|288/288|[from] item: Leftovers
+2026-08-12 13:29:28,116 |-heal|p1a: Sandslash|53/100|[from] item: Leftovers
+2026-08-12 13:29:28,116 |upkeep
+2026-08-12 13:29:28,116 |turn|7
+2026-08-12 13:29:28,116 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,116 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:29:28,164 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,164 |
+2026-08-12 13:29:28,164 |t:|1786534168
+2026-08-12 13:29:28,164 |move|p2a: Suicune|Ice Beam|p1a: Sandslash
+2026-08-12 13:29:28,164 |-supereffective|p1a: Sandslash
+2026-08-12 13:29:28,164 |-damage|p1a: Sandslash|0 fnt
+2026-08-12 13:29:28,164 |faint|p1a: Sandslash
+2026-08-12 13:29:28,164 |
+2026-08-12 13:29:28,164 |upkeep
+2026-08-12 13:29:28,164 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,164 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:29:28,188 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,188 |
+2026-08-12 13:29:28,188 |t:|1786534168
+2026-08-12 13:29:28,188 |switch|p1a: Absol|Absol, L84, M|100/100
+2026-08-12 13:29:28,188 |turn|8
+2026-08-12 13:29:28,191 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,191 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"291/291","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:29:28,236 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,236 |
+2026-08-12 13:29:28,236 |t:|1786534168
+2026-08-12 13:29:28,236 |switch|p2a: Cradily|Cradily, L87, M|291/291
+2026-08-12 13:29:28,236 |move|p1a: Absol|Superpower|p2a: Cradily
+2026-08-12 13:29:28,236 |-supereffective|p2a: Cradily
+2026-08-12 13:29:28,236 |-damage|p2a: Cradily|33/291
+2026-08-12 13:29:28,236 |-unboost|p1a: Absol|atk|1
+2026-08-12 13:29:28,236 |-unboost|p1a: Absol|def|1
+2026-08-12 13:29:28,236 |-damage|p1a: Absol|91/100|[from] item: Life Orb
+2026-08-12 13:29:28,236 |
+2026-08-12 13:29:28,236 |-heal|p2a: Cradily|51/291|[from] item: Leftovers
+2026-08-12 13:29:28,236 |upkeep
+2026-08-12 13:29:28,236 |turn|9
+2026-08-12 13:29:28,236 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,236 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Curse","id":"curse","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Recover","id":"recover","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"51/291","active":true,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:29:28,295 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,295 |
+2026-08-12 13:29:28,295 |t:|1786534168
+2026-08-12 13:29:28,295 |move|p1a: Absol|Night Slash|p2a: Cradily
+2026-08-12 13:29:28,295 |-damage|p2a: Cradily|0 fnt
+2026-08-12 13:29:28,295 |faint|p2a: Cradily
+2026-08-12 13:29:28,295 |-damage|p1a: Absol|81/100|[from] item: Life Orb
+2026-08-12 13:29:28,295 |
+2026-08-12 13:29:28,295 |upkeep
+2026-08-12 13:29:28,295 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,295 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":true,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"noCancel":true,"rqid":25}
+2026-08-12 13:29:28,326 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,326 |
+2026-08-12 13:29:28,326 |t:|1786534168
+2026-08-12 13:29:28,326 |switch|p2a: Pidgeot|Pidgeot, L87, F|286/286
+2026-08-12 13:29:28,326 |turn|10
+2026-08-12 13:29:28,329 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,330 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"286/286","active":true,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:29:28,365 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,365 |
+2026-08-12 13:29:28,365 |t:|1786534168
+2026-08-12 13:29:28,365 |move|p2a: Pidgeot|Return|p1a: Absol
+2026-08-12 13:29:28,365 |-crit|p1a: Absol
+2026-08-12 13:29:28,365 |-damage|p1a: Absol|0 fnt
+2026-08-12 13:29:28,365 |faint|p1a: Absol
+2026-08-12 13:29:28,365 |-damage|p2a: Pidgeot|258/286|[from] item: Life Orb
+2026-08-12 13:29:28,365 |
+2026-08-12 13:29:28,365 |upkeep
+2026-08-12 13:29:28,367 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,367 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"258/286","active":true,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:29:28,382 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,382 |
+2026-08-12 13:29:28,382 |t:|1786534168
+2026-08-12 13:29:28,382 |switch|p1a: Dugtrio|Dugtrio, L82, M|100/100
+2026-08-12 13:29:28,382 |turn|11
+2026-08-12 13:29:28,382 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,382 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"258/286","active":true,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:29:28,411 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,411 |
+2026-08-12 13:29:28,411 |t:|1786534168
+2026-08-12 13:29:28,411 |move|p1a: Dugtrio|Stone Edge|p2a: Pidgeot
+2026-08-12 13:29:28,411 |-supereffective|p2a: Pidgeot
+2026-08-12 13:29:28,411 |-damage|p2a: Pidgeot|66/286
+2026-08-12 13:29:28,411 |move|p2a: Pidgeot|Return|p1a: Dugtrio
+2026-08-12 13:29:28,411 |-damage|p1a: Dugtrio|0 fnt
+2026-08-12 13:29:28,411 |faint|p1a: Dugtrio
+2026-08-12 13:29:28,411 |-damage|p2a: Pidgeot|38/286|[from] item: Life Orb
+2026-08-12 13:29:28,411 |
+2026-08-12 13:29:28,411 |upkeep
+2026-08-12 13:29:28,414 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,415 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"38/286","active":true,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:29:28,430 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,430 |
+2026-08-12 13:29:28,430 |t:|1786534168
+2026-08-12 13:29:28,430 |switch|p1a: Abomasnow|Abomasnow, L81, F|100/100
+2026-08-12 13:29:28,430 |-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+2026-08-12 13:29:28,430 |turn|12
+2026-08-12 13:29:28,431 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,431 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"38/286","active":true,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:29:28,447 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,448 |
+2026-08-12 13:29:28,448 |t:|1786534168
+2026-08-12 13:29:28,448 |switch|p1a: Gyarados|Gyarados, L75, M|100/100
+2026-08-12 13:29:28,448 |-ability|p1a: Gyarados|Intimidate|boost
+2026-08-12 13:29:28,448 |-unboost|p2a: Pidgeot|atk|1
+2026-08-12 13:29:28,448 |move|p2a: Pidgeot|Quick Attack|p1a: Gyarados
+2026-08-12 13:29:28,448 |-damage|p1a: Gyarados|85/100
+2026-08-12 13:29:28,448 |-damage|p2a: Pidgeot|10/286|[from] item: Life Orb
+2026-08-12 13:29:28,448 |
+2026-08-12 13:29:28,448 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,448 |-damage|p2a: Pidgeot|0 fnt|[from] Hail
+2026-08-12 13:29:28,448 |-damage|p1a: Gyarados|79/100|[from] Hail
+2026-08-12 13:29:28,448 |faint|p2a: Pidgeot
+2026-08-12 13:29:28,448 |-heal|p1a: Gyarados|85/100|[from] item: Leftovers
+2026-08-12 13:29:28,448 |upkeep
+2026-08-12 13:29:28,448 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,448 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":true,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"}]},"noCancel":true,"rqid":37}
+2026-08-12 13:29:28,461 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,461 |
+2026-08-12 13:29:28,461 |t:|1786534168
+2026-08-12 13:29:28,461 |switch|p2a: Marowak|Marowak, L88, M|249/249
+2026-08-12 13:29:28,461 |turn|13
+2026-08-12 13:29:28,463 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,463 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"249/249","active":true,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:29:28,475 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,475 |
+2026-08-12 13:29:28,475 |t:|1786534168
+2026-08-12 13:29:28,475 |move|p1a: Gyarados|Sleep Talk||[still]
+2026-08-12 13:29:28,475 |-fail|p1a: Gyarados
+2026-08-12 13:29:28,475 |move|p2a: Marowak|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,475 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,475 |
+2026-08-12 13:29:28,475 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,475 |-damage|p1a: Gyarados|79/100|[from] Hail
+2026-08-12 13:29:28,475 |-damage|p2a: Marowak|234/249|[from] Hail
+2026-08-12 13:29:28,475 |-heal|p1a: Gyarados|85/100|[from] item: Leftovers
+2026-08-12 13:29:28,475 |upkeep
+2026-08-12 13:29:28,475 |turn|14
+2026-08-12 13:29:28,476 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,476 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"234/249","active":true,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:29:28,494 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,494 |
+2026-08-12 13:29:28,494 |t:|1786534168
+2026-08-12 13:29:28,494 |move|p1a: Gyarados|Waterfall|p2a: Marowak
+2026-08-12 13:29:28,494 |-supereffective|p2a: Marowak
+2026-08-12 13:29:28,494 |-damage|p2a: Marowak|90/249
+2026-08-12 13:29:28,494 |move|p2a: Marowak|Stone Edge|p1a: Gyarados|[miss]
+2026-08-12 13:29:28,494 |-miss|p2a: Marowak|p1a: Gyarados
+2026-08-12 13:29:28,494 |
+2026-08-12 13:29:28,494 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,494 |-damage|p1a: Gyarados|79/100|[from] Hail
+2026-08-12 13:29:28,494 |-damage|p2a: Marowak|75/249|[from] Hail
+2026-08-12 13:29:28,494 |-heal|p1a: Gyarados|85/100|[from] item: Leftovers
+2026-08-12 13:29:28,494 |upkeep
+2026-08-12 13:29:28,494 |turn|15
+2026-08-12 13:29:28,495 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,495 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"75/249","active":true,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:29:28,512 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,512 |
+2026-08-12 13:29:28,512 |t:|1786534168
+2026-08-12 13:29:28,512 |move|p1a: Gyarados|Waterfall|p2a: Marowak
+2026-08-12 13:29:28,512 |-supereffective|p2a: Marowak
+2026-08-12 13:29:28,512 |-damage|p2a: Marowak|0 fnt
+2026-08-12 13:29:28,512 |faint|p2a: Marowak
+2026-08-12 13:29:28,512 |
+2026-08-12 13:29:28,512 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,512 |-damage|p1a: Gyarados|79/100|[from] Hail
+2026-08-12 13:29:28,512 |-heal|p1a: Gyarados|85/100|[from] item: Leftovers
+2026-08-12 13:29:28,512 |upkeep
+2026-08-12 13:29:28,512 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,512 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":true,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":45}
+2026-08-12 13:29:28,526 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,526 |
+2026-08-12 13:29:28,526 |t:|1786534168
+2026-08-12 13:29:28,526 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 13:29:28,526 |turn|16
+2026-08-12 13:29:28,526 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,526 |request|{"active":[{"moves":[{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:29:28,538 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,538 |
+2026-08-12 13:29:28,538 |t:|1786534168
+2026-08-12 13:29:28,538 |move|p2a: Jirachi|U-turn|p1a: Gyarados
+2026-08-12 13:29:28,538 |-resisted|p1a: Gyarados
+2026-08-12 13:29:28,538 |-damage|p1a: Gyarados|76/100
+2026-08-12 13:29:28,538 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,538 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"278/278","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":49}
+2026-08-12 13:29:28,556 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,556 |
+2026-08-12 13:29:28,556 |t:|1786534168
+2026-08-12 13:29:28,556 |switch|p2a: Sudowoodo|Sudowoodo, L92, F|278/278|[from] U-turn
+2026-08-12 13:29:28,556 |move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+2026-08-12 13:29:28,556 |-boost|p1a: Gyarados|atk|1
+2026-08-12 13:29:28,556 |-boost|p1a: Gyarados|spe|1
+2026-08-12 13:29:28,556 |
+2026-08-12 13:29:28,556 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,556 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,556 |-damage|p2a: Sudowoodo|261/278|[from] Hail
+2026-08-12 13:29:28,556 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,556 |upkeep
+2026-08-12 13:29:28,556 |turn|17
+2026-08-12 13:29:28,556 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,556 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"261/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:29:28,577 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,577 |
+2026-08-12 13:29:28,577 |t:|1786534168
+2026-08-12 13:29:28,577 |move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+2026-08-12 13:29:28,577 |-boost|p1a: Gyarados|atk|1
+2026-08-12 13:29:28,577 |-boost|p1a: Gyarados|spe|1
+2026-08-12 13:29:28,577 |move|p2a: Sudowoodo|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,577 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,577 |
+2026-08-12 13:29:28,577 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,577 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,577 |-damage|p2a: Sudowoodo|244/278|[from] Hail
+2026-08-12 13:29:28,577 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,577 |upkeep
+2026-08-12 13:29:28,577 |turn|18
+2026-08-12 13:29:28,580 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,580 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"244/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:29:28,597 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,597 |
+2026-08-12 13:29:28,597 |t:|1786534168
+2026-08-12 13:29:28,597 |move|p1a: Gyarados|Sleep Talk||[still]
+2026-08-12 13:29:28,597 |-fail|p1a: Gyarados
+2026-08-12 13:29:28,597 |move|p2a: Sudowoodo|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,598 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,598 |
+2026-08-12 13:29:28,598 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,598 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,598 |-damage|p2a: Sudowoodo|227/278|[from] Hail
+2026-08-12 13:29:28,598 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,598 |upkeep
+2026-08-12 13:29:28,598 |turn|19
+2026-08-12 13:29:28,600 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,600 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"227/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:29:28,625 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,626 |
+2026-08-12 13:29:28,626 |t:|1786534168
+2026-08-12 13:29:28,626 |move|p1a: Gyarados|Sleep Talk||[still]
+2026-08-12 13:29:28,626 |-fail|p1a: Gyarados
+2026-08-12 13:29:28,626 |move|p2a: Sudowoodo|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,626 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,626 |
+2026-08-12 13:29:28,626 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,626 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,626 |-damage|p2a: Sudowoodo|210/278|[from] Hail
+2026-08-12 13:29:28,626 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,626 |upkeep
+2026-08-12 13:29:28,626 |turn|20
+2026-08-12 13:29:28,627 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,627 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"210/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:29:28,641 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,641 |
+2026-08-12 13:29:28,641 |t:|1786534168
+2026-08-12 13:29:28,641 |move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+2026-08-12 13:29:28,641 |-boost|p1a: Gyarados|atk|1
+2026-08-12 13:29:28,641 |-boost|p1a: Gyarados|spe|1
+2026-08-12 13:29:28,641 |move|p2a: Sudowoodo|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,641 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,641 |
+2026-08-12 13:29:28,641 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,641 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,641 |-damage|p2a: Sudowoodo|193/278|[from] Hail
+2026-08-12 13:29:28,641 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,641 |upkeep
+2026-08-12 13:29:28,641 |turn|21
+2026-08-12 13:29:28,645 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,645 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"193/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:29:28,666 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,666 |
+2026-08-12 13:29:28,666 |t:|1786534168
+2026-08-12 13:29:28,666 |move|p1a: Gyarados|Sleep Talk||[still]
+2026-08-12 13:29:28,666 |-fail|p1a: Gyarados
+2026-08-12 13:29:28,666 |move|p2a: Sudowoodo|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,666 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,666 |
+2026-08-12 13:29:28,666 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,666 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,666 |-damage|p2a: Sudowoodo|176/278|[from] Hail
+2026-08-12 13:29:28,666 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,666 |upkeep
+2026-08-12 13:29:28,666 |turn|22
+2026-08-12 13:29:28,667 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,667 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"176/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:29:28,681 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,681 |
+2026-08-12 13:29:28,681 |t:|1786534168
+2026-08-12 13:29:28,681 |move|p1a: Gyarados|Sleep Talk||[still]
+2026-08-12 13:29:28,681 |-fail|p1a: Gyarados
+2026-08-12 13:29:28,681 |move|p2a: Sudowoodo|Earthquake|p1a: Gyarados
+2026-08-12 13:29:28,681 |-immune|p1a: Gyarados
+2026-08-12 13:29:28,681 |
+2026-08-12 13:29:28,681 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,681 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,681 |-damage|p2a: Sudowoodo|159/278|[from] Hail
+2026-08-12 13:29:28,681 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,681 |upkeep
+2026-08-12 13:29:28,681 |turn|23
+2026-08-12 13:29:28,684 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,684 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"159/278","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:29:28,702 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,702 |
+2026-08-12 13:29:28,702 |t:|1786534168
+2026-08-12 13:29:28,702 |move|p1a: Gyarados|Waterfall|p2a: Sudowoodo
+2026-08-12 13:29:28,702 |-supereffective|p2a: Sudowoodo
+2026-08-12 13:29:28,702 |-crit|p2a: Sudowoodo
+2026-08-12 13:29:28,702 |-damage|p2a: Sudowoodo|0 fnt
+2026-08-12 13:29:28,702 |faint|p2a: Sudowoodo
+2026-08-12 13:29:28,702 |
+2026-08-12 13:29:28,702 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,702 |-damage|p1a: Gyarados|70/100|[from] Hail
+2026-08-12 13:29:28,702 |-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+2026-08-12 13:29:28,702 |upkeep
+2026-08-12 13:29:28,703 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,703 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":true,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":65}
+2026-08-12 13:29:28,714 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,714 |
+2026-08-12 13:29:28,714 |t:|1786534168
+2026-08-12 13:29:28,714 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 13:29:28,714 |turn|24
+2026-08-12 13:29:28,714 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,714 |request|{"active":[{"moves":[{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:29:28,735 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,735 |
+2026-08-12 13:29:28,735 |t:|1786534168
+2026-08-12 13:29:28,735 |move|p1a: Gyarados|Rest|p1a: Gyarados
+2026-08-12 13:29:28,735 |-status|p1a: Gyarados|slp|[from] move: Rest
+2026-08-12 13:29:28,735 |-heal|p1a: Gyarados|100/100 slp|[silent]
+2026-08-12 13:29:28,736 |move|p2a: Jirachi|U-turn|p1a: Gyarados
+2026-08-12 13:29:28,736 |-resisted|p1a: Gyarados
+2026-08-12 13:29:28,736 |-crit|p1a: Gyarados
+2026-08-12 13:29:28,736 |-damage|p1a: Gyarados|83/100 slp
+2026-08-12 13:29:28,736 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,736 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":69}
+2026-08-12 13:29:28,748 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,748 |
+2026-08-12 13:29:28,748 |t:|1786534168
+2026-08-12 13:29:28,748 |switch|p2a: Suicune|Suicune, L79|288/288|[from] U-turn
+2026-08-12 13:29:28,748 |-ability|p2a: Suicune|Pressure
+2026-08-12 13:29:28,748 |
+2026-08-12 13:29:28,748 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,748 |-damage|p1a: Gyarados|77/100 slp|[from] Hail
+2026-08-12 13:29:28,748 |-damage|p2a: Suicune|270/288|[from] Hail
+2026-08-12 13:29:28,748 |-heal|p1a: Gyarados|83/100 slp|[from] item: Leftovers
+2026-08-12 13:29:28,748 |-heal|p2a: Suicune|288/288|[from] item: Leftovers
+2026-08-12 13:29:28,748 |upkeep
+2026-08-12 13:29:28,748 |turn|25
+2026-08-12 13:29:28,748 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,748 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:29:28,768 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,768 |
+2026-08-12 13:29:28,768 |t:|1786534168
+2026-08-12 13:29:28,768 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 13:29:28,768 |cant|p1a: Gyarados|slp
+2026-08-12 13:29:28,768 |move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+2026-08-12 13:29:28,768 |move|p1a: Gyarados|Dragon Dance|p1a: Gyarados|[from] move: Sleep Talk
+2026-08-12 13:29:28,768 |-boost|p1a: Gyarados|atk|1
+2026-08-12 13:29:28,768 |-boost|p1a: Gyarados|spe|1
+2026-08-12 13:29:28,768 |
+2026-08-12 13:29:28,768 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,768 |-damage|p1a: Gyarados|77/100 slp|[from] Hail
+2026-08-12 13:29:28,768 |-damage|p2a: Jirachi|254/270|[from] Hail
+2026-08-12 13:29:28,768 |-heal|p1a: Gyarados|83/100 slp|[from] item: Leftovers
+2026-08-12 13:29:28,768 |upkeep
+2026-08-12 13:29:28,768 |turn|26
+2026-08-12 13:29:28,769 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,769 |request|{"active":[{"moves":[{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:29:28,787 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,787 |
+2026-08-12 13:29:28,787 |t:|1786534168
+2026-08-12 13:29:28,787 |switch|p2a: Suicune|Suicune, L79|288/288
+2026-08-12 13:29:28,787 |-ability|p2a: Suicune|Pressure
+2026-08-12 13:29:28,787 |cant|p1a: Gyarados|slp
+2026-08-12 13:29:28,787 |
+2026-08-12 13:29:28,787 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,787 |-damage|p1a: Gyarados|77/100 slp|[from] Hail
+2026-08-12 13:29:28,787 |-damage|p2a: Suicune|270/288|[from] Hail
+2026-08-12 13:29:28,787 |-heal|p1a: Gyarados|83/100 slp|[from] item: Leftovers
+2026-08-12 13:29:28,787 |-heal|p2a: Suicune|288/288|[from] item: Leftovers
+2026-08-12 13:29:28,787 |upkeep
+2026-08-12 13:29:28,787 |turn|27
+2026-08-12 13:29:28,788 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,788 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:29:28,805 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,805 |
+2026-08-12 13:29:28,805 |t:|1786534168
+2026-08-12 13:29:28,805 |-curestatus|p1a: Gyarados|slp|[msg]
+2026-08-12 13:29:28,805 |move|p1a: Gyarados|Rest|p1a: Gyarados
+2026-08-12 13:29:28,805 |-status|p1a: Gyarados|slp|[from] move: Rest
+2026-08-12 13:29:28,805 |-heal|p1a: Gyarados|100/100 slp|[silent]
+2026-08-12 13:29:28,805 |move|p2a: Suicune|Calm Mind|p2a: Suicune
+2026-08-12 13:29:28,805 |-boost|p2a: Suicune|spa|1
+2026-08-12 13:29:28,805 |-boost|p2a: Suicune|spd|1
+2026-08-12 13:29:28,805 |
+2026-08-12 13:29:28,805 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,805 |-damage|p1a: Gyarados|94/100 slp|[from] Hail
+2026-08-12 13:29:28,805 |-damage|p2a: Suicune|270/288|[from] Hail
+2026-08-12 13:29:28,805 |-heal|p1a: Gyarados|100/100 slp|[from] item: Leftovers
+2026-08-12 13:29:28,805 |-heal|p2a: Suicune|288/288|[from] item: Leftovers
+2026-08-12 13:29:28,805 |upkeep
+2026-08-12 13:29:28,806 |turn|28
+2026-08-12 13:29:28,807 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,807 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"288/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:29:28,826 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,826 |
+2026-08-12 13:29:28,826 |t:|1786534168
+2026-08-12 13:29:28,826 |cant|p1a: Gyarados|slp
+2026-08-12 13:29:28,826 |move|p2a: Suicune|Substitute|p2a: Suicune
+2026-08-12 13:29:28,826 |-start|p2a: Suicune|Substitute
+2026-08-12 13:29:28,826 |-damage|p2a: Suicune|216/288
+2026-08-12 13:29:28,826 |
+2026-08-12 13:29:28,826 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,826 |-damage|p1a: Gyarados|94/100 slp|[from] Hail
+2026-08-12 13:29:28,826 |-damage|p2a: Suicune|198/288|[from] Hail
+2026-08-12 13:29:28,826 |-heal|p1a: Gyarados|100/100 slp|[from] item: Leftovers
+2026-08-12 13:29:28,826 |-heal|p2a: Suicune|216/288|[from] item: Leftovers
+2026-08-12 13:29:28,826 |upkeep
+2026-08-12 13:29:28,826 |turn|29
+2026-08-12 13:29:28,828 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,828 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"216/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:29:28,841 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,841 |
+2026-08-12 13:29:28,841 |t:|1786534168
+2026-08-12 13:29:28,841 |cant|p1a: Gyarados|slp
+2026-08-12 13:29:28,841 |move|p2a: Suicune|Substitute|p2a: Suicune
+2026-08-12 13:29:28,841 |-fail|p2a: Suicune|move: Substitute
+2026-08-12 13:29:28,841 |
+2026-08-12 13:29:28,841 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,841 |-damage|p1a: Gyarados|94/100 slp|[from] Hail
+2026-08-12 13:29:28,841 |-damage|p2a: Suicune|198/288|[from] Hail
+2026-08-12 13:29:28,841 |-heal|p1a: Gyarados|100/100 slp|[from] item: Leftovers
+2026-08-12 13:29:28,841 |-heal|p2a: Suicune|216/288|[from] item: Leftovers
+2026-08-12 13:29:28,841 |upkeep
+2026-08-12 13:29:28,841 |turn|30
+2026-08-12 13:29:28,842 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,842 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"216/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:29:28,862 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,862 |
+2026-08-12 13:29:28,862 |t:|1786534168
+2026-08-12 13:29:28,862 |-curestatus|p1a: Gyarados|slp|[msg]
+2026-08-12 13:29:28,862 |move|p1a: Gyarados|Waterfall|p2a: Suicune
+2026-08-12 13:29:28,862 |-resisted|p2a: Suicune
+2026-08-12 13:29:28,862 |-end|p2a: Suicune|Substitute
+2026-08-12 13:29:28,862 |move|p2a: Suicune|Calm Mind|p2a: Suicune
+2026-08-12 13:29:28,862 |-boost|p2a: Suicune|spa|1
+2026-08-12 13:29:28,862 |-boost|p2a: Suicune|spd|1
+2026-08-12 13:29:28,862 |
+2026-08-12 13:29:28,862 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,862 |-damage|p1a: Gyarados|94/100|[from] Hail
+2026-08-12 13:29:28,862 |-damage|p2a: Suicune|198/288|[from] Hail
+2026-08-12 13:29:28,862 |-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+2026-08-12 13:29:28,862 |-heal|p2a: Suicune|216/288|[from] item: Leftovers
+2026-08-12 13:29:28,862 |upkeep
+2026-08-12 13:29:28,862 |turn|31
+2026-08-12 13:29:28,864 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,864 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"216/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:29:28,887 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,887 |
+2026-08-12 13:29:28,887 |t:|1786534168
+2026-08-12 13:29:28,887 |move|p1a: Gyarados|Waterfall|p2a: Suicune
+2026-08-12 13:29:28,887 |-resisted|p2a: Suicune
+2026-08-12 13:29:28,887 |-damage|p2a: Suicune|101/288
+2026-08-12 13:29:28,887 |move|p2a: Suicune|Calm Mind|p2a: Suicune
+2026-08-12 13:29:28,887 |-boost|p2a: Suicune|spa|1
+2026-08-12 13:29:28,887 |-boost|p2a: Suicune|spd|1
+2026-08-12 13:29:28,887 |
+2026-08-12 13:29:28,887 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,887 |-damage|p1a: Gyarados|94/100|[from] Hail
+2026-08-12 13:29:28,887 |-damage|p2a: Suicune|83/288|[from] Hail
+2026-08-12 13:29:28,887 |-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+2026-08-12 13:29:28,887 |-heal|p2a: Suicune|101/288|[from] item: Leftovers
+2026-08-12 13:29:28,887 |upkeep
+2026-08-12 13:29:28,887 |turn|32
+2026-08-12 13:29:28,888 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,888 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"101/288","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:29:28,904 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,904 |
+2026-08-12 13:29:28,904 |t:|1786534168
+2026-08-12 13:29:28,904 |move|p1a: Gyarados|Waterfall|p2a: Suicune
+2026-08-12 13:29:28,904 |-resisted|p2a: Suicune
+2026-08-12 13:29:28,904 |-crit|p2a: Suicune
+2026-08-12 13:29:28,904 |-damage|p2a: Suicune|0 fnt
+2026-08-12 13:29:28,904 |faint|p2a: Suicune
+2026-08-12 13:29:28,904 |
+2026-08-12 13:29:28,904 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,904 |-damage|p1a: Gyarados|94/100|[from] Hail
+2026-08-12 13:29:28,904 |-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+2026-08-12 13:29:28,904 |upkeep
+2026-08-12 13:29:28,905 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,905 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Suicune","details":"Suicune, L79","condition":"0 fnt","active":true,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":87}
+2026-08-12 13:29:28,918 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,918 |
+2026-08-12 13:29:28,918 |t:|1786534168
+2026-08-12 13:29:28,918 |switch|p2a: Jirachi|Jirachi, L74|254/270
+2026-08-12 13:29:28,918 |turn|33
+2026-08-12 13:29:28,922 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,922 |request|{"active":[{"moves":[{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"254/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"0 fnt","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:29:28,940 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,940 |
+2026-08-12 13:29:28,940 |t:|1786534168
+2026-08-12 13:29:28,940 |move|p1a: Gyarados|Rest|p1a: Gyarados
+2026-08-12 13:29:28,940 |-fail|p1a: Gyarados|heal
+2026-08-12 13:29:28,940 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 13:29:28,940 |-fail|p2a: Jirachi
+2026-08-12 13:29:28,940 |
+2026-08-12 13:29:28,940 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,940 |-damage|p1a: Gyarados|94/100|[from] Hail
+2026-08-12 13:29:28,940 |-damage|p2a: Jirachi|238/270|[from] Hail
+2026-08-12 13:29:28,940 |-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+2026-08-12 13:29:28,940 |upkeep
+2026-08-12 13:29:28,940 |turn|34
+2026-08-12 13:29:28,941 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,941 |request|{"active":[{"moves":[{"move":"Healing Wish","id":"healingwish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":true},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"238/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"0 fnt","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:29:28,962 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,962 |
+2026-08-12 13:29:28,962 |t:|1786534168
+2026-08-12 13:29:28,962 |move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+2026-08-12 13:29:28,962 |-boost|p1a: Gyarados|atk|1
+2026-08-12 13:29:28,962 |-boost|p1a: Gyarados|spe|1
+2026-08-12 13:29:28,962 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 13:29:28,963 |-fail|p2a: Jirachi
+2026-08-12 13:29:28,963 |
+2026-08-12 13:29:28,963 |-weather|Hail|[upkeep]
+2026-08-12 13:29:28,963 |-damage|p1a: Gyarados|94/100|[from] Hail
+2026-08-12 13:29:28,963 |-damage|p2a: Jirachi|222/270|[from] Hail
+2026-08-12 13:29:28,963 |-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+2026-08-12 13:29:28,963 |upkeep
+2026-08-12 13:29:28,963 |turn|35
+2026-08-12 13:29:28,965 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,965 |request|{"active":[{"moves":[{"move":"Healing Wish","id":"healingwish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":true},{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"222/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["healingwish","ironhead","uturn","firepunch"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Sudowoodo","details":"Sudowoodo, L92, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":264,"spa":108,"spd":172,"spe":108},"moves":["stoneedge","suckerpunch","explosion","earthquake"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L88, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":244,"spa":138,"spd":191,"spe":129},"moves":["stoneedge","swordsdance","firepunch","earthquake"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Suicune","details":"Suicune, L79","condition":"0 fnt","active":false,"stats":{"atk":123,"def":227,"spa":188,"spd":227,"spe":180},"moves":["substitute","surf","calmmind","icebeam"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cradily","details":"Cradily, L87, M","condition":"0 fnt","active":false,"stats":{"atk":191,"def":219,"spa":191,"spd":236,"spe":125},"moves":["earthquake","curse","recover","stoneedge"],"baseAbility":"suctioncups","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pidgeot","details":"Pidgeot, L87, F","condition":"0 fnt","active":false,"stats":{"atk":189,"def":180,"spa":172,"spd":172,"spe":208},"moves":["quickattack","return102","roost","bravebird"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 13:29:28,979 >battle-gen4randombattle-325907
+2026-08-12 13:29:28,980 |
+2026-08-12 13:29:28,980 |t:|1786534168
+2026-08-12 13:29:28,980 |move|p1a: Gyarados|Waterfall|p2a: Jirachi
+2026-08-12 13:29:28,980 |-damage|p2a: Jirachi|0 fnt
+2026-08-12 13:29:28,980 |faint|p2a: Jirachi
+2026-08-12 13:29:28,980 |
+2026-08-12 13:29:28,980 |win|BOT3
+2026-08-12 14:09:28,980 >battle-gen4randombattle-325907
+2026-08-12 14:09:28,980 |expire|
+2026-08-12 14:09:28,980 >battle-gen4randombattle-325907
+2026-08-12 14:09:28,980 |L|☆BOT3
+2026-08-12 14:09:28,980 >battle-gen4randombattle-325907
+2026-08-12 14:09:28,980 |deinit

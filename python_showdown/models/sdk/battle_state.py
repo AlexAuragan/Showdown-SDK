@@ -10,6 +10,7 @@ from python_showdown.models.pokemon.terrain import SideCondition
 
 if TYPE_CHECKING:
     from python_showdown.classes.combat_handler.battle_manager import BattleManager
+    from python_showdown.classes.parser.events.base import BaseEvent
 
 
 class SourceType(str, Enum):
@@ -22,6 +23,27 @@ class SourceType(str, Enum):
     SIDE_CONDITION = "side_condition"
     RECOIL = "recoil"
     UNKNOWN = "unknown"
+
+
+def _clean_dict(obj: object) -> object:
+    if isinstance(obj, dict):
+        obj = cast(dict[str, object], obj)
+        out: dict[str, object] = {
+            key: _clean_dict(value)
+            for key, value in obj.items()
+            if not str(key).startswith("_")
+        }
+        return out
+
+    if isinstance(obj, list):
+        obj = cast(list[object], obj)
+        return [_clean_dict(value) for value in obj]
+
+    if isinstance(obj, tuple):
+        obj = cast(tuple[object], obj)
+        return [_clean_dict(value) for value in obj]
+
+    return obj
 
 
 def _json_default(obj: object) -> object:
@@ -62,10 +84,14 @@ class BattleState:
         self.weather: str | None = None
         self.side_conditions: dict[str, dict[SideCondition, int]] = {}
 
-        self.gen_1_desync: bool = (
-            False  # Gen 1 can experience desync by design, this can mess up
-        )
-        # the witnessed moves
+        self.gen_1_desync: bool = False  # Gen 1 can experience desync by design, this can mess up  # the witnessed moves
+
+        self.history: list[BaseEvent] = []
+
+        # format data
+        self.gen: int | None = None
+        self.gametype: str | None = None
+        self.tier: str | None = None
 
     @property
     def player_id(self) -> str | None:
@@ -76,21 +102,25 @@ class BattleState:
         self._manager.player_id = value
 
     def to_json(self) -> str:
+        data = {
+            "team": [asdict(p) for p in self._team],
+            "enemy_team": [asdict(p) for p in self._enemy_team],
+            "curr_pokemon": self._curr_pokemon,
+            "curr_enemy_pokemon": self._curr_enemy_pokemon,
+            "available_moves": [asdict(m) for m in self._available_moves],
+            "force_switch": self.force_switch,
+            "weather": self.weather,
+            "side_conditions": self.side_conditions,
+        }
         return json.dumps(
-            {
-                "team": [asdict(p) for p in self._team],
-                "enemy_team": [asdict(p) for p in self._enemy_team],
-                "curr_pokemon": self._curr_pokemon,
-                "curr_enemy_pokemon": self._curr_enemy_pokemon,
-                "available_moves": [asdict(m) for m in self._available_moves],
-                "force_switch": self.force_switch,
-                "weather": self.weather,
-                "side_conditions": self.side_conditions,
-            },
+            _clean_dict(data),
             indent=2,
             sort_keys=True,
             default=_json_default,
         )
+
+    def history_json(self) -> list[dict[str, object]]:
+        return [event.to_dict() for event in self.history]
 
     def get_pokemon(self, pokemon_id: str) -> PartyPokemon:
         for pokemon in self.team:
@@ -133,7 +163,7 @@ class BattleState:
     def set_active_pokemon(self, pokemon_id: str) -> None:
         self._curr_pokemon = pokemon_id
 
-    def reset(self) -> None:
+    def reset(self, keep_player_id: bool = False) -> None:
         """Clear all tracked state so the same handler can drive a new battle."""
         self._team = []
         self._enemy_team = [
@@ -144,7 +174,9 @@ class BattleState:
         self._available_moves = []
         self.force_switch = False
         self.side_conditions = {}
-        self._manager.clear_player_id()
+        self.history = []
+        if not keep_player_id:
+            self._manager.clear_player_id()
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
         self._available_moves = moves

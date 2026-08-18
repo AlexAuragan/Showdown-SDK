@@ -1,0 +1,965 @@
+2026-08-12 12:00:51,550 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,550 |init|battle
+2026-08-12 12:00:51,551 |title|BOT1 vs. BOT2
+2026-08-12 12:00:51,551 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-316387">battle-gen3randombattle-316387</a>&raquo;
+2026-08-12 12:00:51,597 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,597 |t:|1786528851
+2026-08-12 12:00:51,597 |gametype|singles
+2026-08-12 12:00:51,600 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,600 |player|p1|BOT1|170|
+2026-08-12 12:00:51,603 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,603 |player|p2|BOT2|170|
+2026-08-12 12:00:51,603 |gen|3
+2026-08-12 12:00:51,603 |tier|[Gen 3] Random Battle
+2026-08-12 12:00:51,603 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:00:51,603 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:00:51,603 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:00:51,603 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:00:51,603 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:00:51,603 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:00:51,603 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:00:51,603 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:00:51,603 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:00:51,603 |
+2026-08-12 12:00:51,603 |t:|1786528851
+2026-08-12 12:00:51,603 |teamsize|p1|6
+2026-08-12 12:00:51,603 |teamsize|p2|6
+2026-08-12 12:00:51,603 |start
+2026-08-12 12:00:51,603 |switch|p1a: Aggron|Aggron, L85, M|100/100
+2026-08-12 12:00:51,603 |switch|p2a: Mr. Mime|Mr. Mime, L84, M|204/204
+2026-08-12 12:00:51,603 |turn|1
+2026-08-12 12:00:51,604 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,604 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"222/222","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:00:51,674 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,674 |
+2026-08-12 12:00:51,674 |t:|1786528851
+2026-08-12 12:00:51,674 |move|p2a: Mr. Mime|Psychic|p1a: Aggron
+2026-08-12 12:00:51,674 |-resisted|p1a: Aggron
+2026-08-12 12:00:51,674 |-damage|p1a: Aggron|75/100
+2026-08-12 12:00:51,674 |move|p1a: Aggron|Iron Tail|p2a: Mr. Mime|[miss]
+2026-08-12 12:00:51,674 |-miss|p1a: Aggron|p2a: Mr. Mime
+2026-08-12 12:00:51,674 |
+2026-08-12 12:00:51,674 |-heal|p1a: Aggron|81/100|[from] item: Leftovers
+2026-08-12 12:00:51,674 |upkeep
+2026-08-12 12:00:51,674 |turn|2
+2026-08-12 12:00:51,680 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,680 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"222/222","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:00:51,730 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,730 |
+2026-08-12 12:00:51,730 |t:|1786528851
+2026-08-12 12:00:51,730 |switch|p2a: Dodrio|Dodrio, L78, M|222/222
+2026-08-12 12:00:51,730 |move|p1a: Aggron|Earthquake|p2a: Dodrio
+2026-08-12 12:00:51,730 |-immune|p2a: Dodrio
+2026-08-12 12:00:51,730 |
+2026-08-12 12:00:51,730 |-heal|p1a: Aggron|87/100|[from] item: Leftovers
+2026-08-12 12:00:51,730 |upkeep
+2026-08-12 12:00:51,730 |turn|3
+2026-08-12 12:00:51,733 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,734 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Drill Peck","id":"drillpeck","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"222/222","active":true,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:00:51,781 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,781 |
+2026-08-12 12:00:51,781 |t:|1786528851
+2026-08-12 12:00:51,781 |move|p2a: Dodrio|Drill Peck|p1a: Aggron
+2026-08-12 12:00:51,781 |-resisted|p1a: Aggron
+2026-08-12 12:00:51,781 |-damage|p1a: Aggron|82/100
+2026-08-12 12:00:51,781 |move|p1a: Aggron|Rock Slide|p2a: Dodrio
+2026-08-12 12:00:51,781 |-supereffective|p2a: Dodrio
+2026-08-12 12:00:51,782 |-damage|p2a: Dodrio|3/222
+2026-08-12 12:00:51,782 |
+2026-08-12 12:00:51,782 |-heal|p1a: Aggron|88/100|[from] item: Leftovers
+2026-08-12 12:00:51,782 |upkeep
+2026-08-12 12:00:51,782 |turn|4
+2026-08-12 12:00:51,783 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,783 |request|{"active":[{"moves":[{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":true},{"move":"Drill Peck","id":"drillpeck","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"3/222","active":true,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:00:51,813 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,813 |
+2026-08-12 12:00:51,813 |t:|1786528851
+2026-08-12 12:00:51,813 |move|p2a: Dodrio|Drill Peck|p1a: Aggron
+2026-08-12 12:00:51,813 |-resisted|p1a: Aggron
+2026-08-12 12:00:51,813 |-damage|p1a: Aggron|81/100
+2026-08-12 12:00:51,813 |move|p1a: Aggron|Iron Tail|p2a: Dodrio
+2026-08-12 12:00:51,813 |-damage|p2a: Dodrio|0 fnt
+2026-08-12 12:00:51,813 |faint|p2a: Dodrio
+2026-08-12 12:00:51,814 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,814 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":true,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":11}
+2026-08-12 12:00:51,842 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,842 |
+2026-08-12 12:00:51,842 |t:|1786528851
+2026-08-12 12:00:51,842 |switch|p2a: Vigoroth|Vigoroth, L84, M|272/272
+2026-08-12 12:00:51,842 |
+2026-08-12 12:00:51,842 |-heal|p1a: Aggron|87/100|[from] item: Leftovers
+2026-08-12 12:00:51,842 |upkeep
+2026-08-12 12:00:51,842 |turn|5
+2026-08-12 12:00:51,847 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,847 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:00:51,874 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,874 |
+2026-08-12 12:00:51,874 |t:|1786528851
+2026-08-12 12:00:51,874 |switch|p2a: Dusclops|Dusclops, L86, F|209/209
+2026-08-12 12:00:51,874 |-ability|p2a: Dusclops|Pressure|[silent]
+2026-08-12 12:00:51,874 |move|p1a: Aggron|Earthquake|p2a: Dusclops
+2026-08-12 12:00:51,874 |-crit|p2a: Dusclops
+2026-08-12 12:00:51,874 |-damage|p2a: Dusclops|85/209
+2026-08-12 12:00:51,874 |
+2026-08-12 12:00:51,874 |-heal|p1a: Aggron|94/100|[from] item: Leftovers
+2026-08-12 12:00:51,874 |-heal|p2a: Dusclops|98/209|[from] item: Leftovers
+2026-08-12 12:00:51,874 |upkeep
+2026-08-12 12:00:51,874 |turn|6
+2026-08-12 12:00:51,877 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,877 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"98/209","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:00:51,902 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,902 |
+2026-08-12 12:00:51,902 |t:|1786528851
+2026-08-12 12:00:51,902 |move|p1a: Aggron|Iron Tail|p2a: Dusclops|[miss]
+2026-08-12 12:00:51,902 |-miss|p1a: Aggron|p2a: Dusclops
+2026-08-12 12:00:51,902 |move|p2a: Dusclops|Rest|p2a: Dusclops
+2026-08-12 12:00:51,902 |-status|p2a: Dusclops|slp|[from] move: Rest
+2026-08-12 12:00:51,902 |-heal|p2a: Dusclops|209/209 slp|[silent]
+2026-08-12 12:00:51,902 |
+2026-08-12 12:00:51,902 |-heal|p1a: Aggron|99/100|[from] item: Leftovers
+2026-08-12 12:00:51,902 |upkeep
+2026-08-12 12:00:51,902 |turn|7
+2026-08-12 12:00:51,906 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,906 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:00:51,931 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,931 |
+2026-08-12 12:00:51,931 |t:|1786528851
+2026-08-12 12:00:51,931 |move|p1a: Aggron|Iron Tail|p2a: Dusclops
+2026-08-12 12:00:51,931 |-damage|p2a: Dusclops|117/209 slp
+2026-08-12 12:00:51,931 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:51,931 |
+2026-08-12 12:00:51,931 |-heal|p1a: Aggron|100/100|[from] item: Leftovers
+2026-08-12 12:00:51,931 |-heal|p2a: Dusclops|130/209 slp|[from] item: Leftovers
+2026-08-12 12:00:51,931 |upkeep
+2026-08-12 12:00:51,931 |turn|8
+2026-08-12 12:00:51,935 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,935 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"130/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:00:51,984 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,984 |
+2026-08-12 12:00:51,984 |t:|1786528851
+2026-08-12 12:00:51,984 |move|p1a: Aggron|Iron Tail|p2a: Dusclops
+2026-08-12 12:00:51,984 |-damage|p2a: Dusclops|44/209 slp
+2026-08-12 12:00:51,984 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:51,984 |
+2026-08-12 12:00:51,984 |-heal|p2a: Dusclops|57/209 slp|[from] item: Leftovers
+2026-08-12 12:00:51,984 |upkeep
+2026-08-12 12:00:51,984 |turn|9
+2026-08-12 12:00:51,985 >battle-gen3randombattle-316387
+2026-08-12 12:00:51,985 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"57/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:00:52,013 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,013 |
+2026-08-12 12:00:52,013 |t:|1786528852
+2026-08-12 12:00:52,013 |move|p1a: Aggron|Thunder Wave||[still]
+2026-08-12 12:00:52,013 |-fail|p1a: Aggron
+2026-08-12 12:00:52,013 |-curestatus|p2a: Dusclops|slp|[msg]
+2026-08-12 12:00:52,013 |move|p2a: Dusclops|Rest|p2a: Dusclops
+2026-08-12 12:00:52,013 |-status|p2a: Dusclops|slp|[from] move: Rest
+2026-08-12 12:00:52,013 |-heal|p2a: Dusclops|209/209 slp|[silent]
+2026-08-12 12:00:52,013 |
+2026-08-12 12:00:52,013 |upkeep
+2026-08-12 12:00:52,013 |turn|10
+2026-08-12 12:00:52,014 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,014 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:00:52,043 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,043 |
+2026-08-12 12:00:52,043 |t:|1786528852
+2026-08-12 12:00:52,043 |move|p1a: Aggron|Rock Slide|p2a: Dusclops
+2026-08-12 12:00:52,043 |-damage|p2a: Dusclops|143/209 slp
+2026-08-12 12:00:52,043 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:52,043 |move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+2026-08-12 12:00:52,043 |move|p2a: Dusclops|Will-O-Wisp|p1a: Aggron|[from] Sleep Talk
+2026-08-12 12:00:52,043 |-status|p1a: Aggron|brn
+2026-08-12 12:00:52,043 |
+2026-08-12 12:00:52,043 |-damage|p1a: Aggron|88/100 brn|[from] brn
+2026-08-12 12:00:52,043 |-heal|p2a: Dusclops|156/209 slp|[from] item: Leftovers
+2026-08-12 12:00:52,043 |upkeep
+2026-08-12 12:00:52,043 |turn|11
+2026-08-12 12:00:52,045 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,045 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"156/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:00:52,073 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,073 |
+2026-08-12 12:00:52,073 |t:|1786528852
+2026-08-12 12:00:52,073 |move|p1a: Aggron|Rock Slide|p2a: Dusclops
+2026-08-12 12:00:52,073 |-damage|p2a: Dusclops|121/209 slp
+2026-08-12 12:00:52,073 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:52,073 |
+2026-08-12 12:00:52,073 |-heal|p1a: Aggron|94/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,073 |-damage|p1a: Aggron|82/100 brn|[from] brn
+2026-08-12 12:00:52,073 |-heal|p2a: Dusclops|134/209 slp|[from] item: Leftovers
+2026-08-12 12:00:52,073 |upkeep
+2026-08-12 12:00:52,073 |turn|12
+2026-08-12 12:00:52,074 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,074 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"134/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:00:52,104 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,105 |
+2026-08-12 12:00:52,105 |t:|1786528852
+2026-08-12 12:00:52,105 |move|p1a: Aggron|Earthquake|p2a: Dusclops
+2026-08-12 12:00:52,105 |-damage|p2a: Dusclops|106/209 slp
+2026-08-12 12:00:52,105 |-curestatus|p2a: Dusclops|slp|[msg]
+2026-08-12 12:00:52,105 |move|p2a: Dusclops|Rest|p2a: Dusclops
+2026-08-12 12:00:52,105 |-status|p2a: Dusclops|slp|[from] move: Rest
+2026-08-12 12:00:52,105 |-heal|p2a: Dusclops|209/209 slp|[silent]
+2026-08-12 12:00:52,105 |
+2026-08-12 12:00:52,105 |-heal|p1a: Aggron|88/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,105 |-damage|p1a: Aggron|76/100 brn|[from] brn
+2026-08-12 12:00:52,105 |upkeep
+2026-08-12 12:00:52,105 |turn|13
+2026-08-12 12:00:52,106 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,106 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:00:52,136 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,136 |
+2026-08-12 12:00:52,136 |t:|1786528852
+2026-08-12 12:00:52,136 |move|p1a: Aggron|Earthquake|p2a: Dusclops
+2026-08-12 12:00:52,136 |-damage|p2a: Dusclops|177/209 slp
+2026-08-12 12:00:52,136 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:52,136 |
+2026-08-12 12:00:52,136 |-heal|p1a: Aggron|82/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,137 |-damage|p1a: Aggron|69/100 brn|[from] brn
+2026-08-12 12:00:52,137 |-heal|p2a: Dusclops|190/209 slp|[from] item: Leftovers
+2026-08-12 12:00:52,137 |upkeep
+2026-08-12 12:00:52,137 |turn|14
+2026-08-12 12:00:52,139 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,139 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"190/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:00:52,162 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,162 |
+2026-08-12 12:00:52,162 |t:|1786528852
+2026-08-12 12:00:52,162 |move|p1a: Aggron|Iron Tail|p2a: Dusclops|[miss]
+2026-08-12 12:00:52,162 |-miss|p1a: Aggron|p2a: Dusclops
+2026-08-12 12:00:52,162 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:52,162 |
+2026-08-12 12:00:52,162 |-heal|p1a: Aggron|76/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,162 |-damage|p1a: Aggron|63/100 brn|[from] brn
+2026-08-12 12:00:52,163 |-heal|p2a: Dusclops|203/209 slp|[from] item: Leftovers
+2026-08-12 12:00:52,163 |upkeep
+2026-08-12 12:00:52,163 |turn|15
+2026-08-12 12:00:52,164 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,164 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:00:52,210 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,210 |
+2026-08-12 12:00:52,210 |t:|1786528852
+2026-08-12 12:00:52,210 |switch|p2a: Vigoroth|Vigoroth, L84, M|272/272
+2026-08-12 12:00:52,210 |move|p1a: Aggron|Earthquake|p2a: Vigoroth
+2026-08-12 12:00:52,210 |-damage|p2a: Vigoroth|226/272
+2026-08-12 12:00:52,210 |
+2026-08-12 12:00:52,210 |-heal|p2a: Vigoroth|243/272|[from] item: Leftovers
+2026-08-12 12:00:52,210 |-heal|p1a: Aggron|69/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,210 |-damage|p1a: Aggron|57/100 brn|[from] brn
+2026-08-12 12:00:52,210 |upkeep
+2026-08-12 12:00:52,210 |turn|16
+2026-08-12 12:00:52,212 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,212 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"243/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:00:52,284 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,284 |
+2026-08-12 12:00:52,284 |t:|1786528852
+2026-08-12 12:00:52,284 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:00:52,284 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:00:52,284 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:00:52,284 |move|p1a: Aggron|Iron Tail|p2a: Vigoroth
+2026-08-12 12:00:52,284 |-damage|p2a: Vigoroth|202/272
+2026-08-12 12:00:52,285 |
+2026-08-12 12:00:52,285 |-heal|p2a: Vigoroth|219/272|[from] item: Leftovers
+2026-08-12 12:00:52,285 |-heal|p1a: Aggron|63/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,285 |-damage|p1a: Aggron|51/100 brn|[from] brn
+2026-08-12 12:00:52,285 |upkeep
+2026-08-12 12:00:52,285 |turn|17
+2026-08-12 12:00:52,286 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,286 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"219/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:00:52,358 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,358 |
+2026-08-12 12:00:52,358 |t:|1786528852
+2026-08-12 12:00:52,358 |move|p2a: Vigoroth|Shadow Ball|p1a: Aggron
+2026-08-12 12:00:52,358 |-resisted|p1a: Aggron
+2026-08-12 12:00:52,358 |-damage|p1a: Aggron|43/100 brn
+2026-08-12 12:00:52,358 |move|p1a: Aggron|Rock Slide|p2a: Vigoroth
+2026-08-12 12:00:52,359 |-crit|p2a: Vigoroth
+2026-08-12 12:00:52,359 |-damage|p2a: Vigoroth|128/272
+2026-08-12 12:00:52,359 |
+2026-08-12 12:00:52,359 |-heal|p2a: Vigoroth|145/272|[from] item: Leftovers
+2026-08-12 12:00:52,359 |-heal|p1a: Aggron|49/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,359 |-damage|p1a: Aggron|37/100 brn|[from] brn
+2026-08-12 12:00:52,359 |upkeep
+2026-08-12 12:00:52,359 |turn|18
+2026-08-12 12:00:52,359 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,359 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:00:52,429 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,429 |
+2026-08-12 12:00:52,429 |t:|1786528852
+2026-08-12 12:00:52,429 |switch|p2a: Mr. Mime|Mr. Mime, L84, M|204/204
+2026-08-12 12:00:52,429 |move|p1a: Aggron|Rock Slide|p2a: Mr. Mime
+2026-08-12 12:00:52,429 |-crit|p2a: Mr. Mime
+2026-08-12 12:00:52,429 |-damage|p2a: Mr. Mime|82/204
+2026-08-12 12:00:52,429 |
+2026-08-12 12:00:52,429 |-heal|p2a: Mr. Mime|94/204|[from] item: Leftovers
+2026-08-12 12:00:52,429 |-heal|p1a: Aggron|43/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,429 |-damage|p1a: Aggron|31/100 brn|[from] brn
+2026-08-12 12:00:52,429 |upkeep
+2026-08-12 12:00:52,429 |turn|19
+2026-08-12 12:00:52,433 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,433 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"94/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:00:52,520 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,520 |
+2026-08-12 12:00:52,520 |t:|1786528852
+2026-08-12 12:00:52,520 |move|p2a: Mr. Mime|Psychic|p1a: Aggron
+2026-08-12 12:00:52,520 |-resisted|p1a: Aggron
+2026-08-12 12:00:52,520 |-damage|p1a: Aggron|4/100 brn
+2026-08-12 12:00:52,520 |move|p1a: Aggron|Rock Slide|p2a: Mr. Mime
+2026-08-12 12:00:52,520 |-damage|p2a: Mr. Mime|38/204
+2026-08-12 12:00:52,520 |
+2026-08-12 12:00:52,520 |-heal|p2a: Mr. Mime|50/204|[from] item: Leftovers
+2026-08-12 12:00:52,520 |-heal|p1a: Aggron|10/100 brn|[from] item: Leftovers
+2026-08-12 12:00:52,520 |-damage|p1a: Aggron|0 fnt|[from] brn
+2026-08-12 12:00:52,520 |faint|p1a: Aggron
+2026-08-12 12:00:52,520 |upkeep
+2026-08-12 12:00:52,524 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,524 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"50/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:00:52,590 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,590 |
+2026-08-12 12:00:52,590 |t:|1786528852
+2026-08-12 12:00:52,590 |switch|p1a: Masquerain|Masquerain, L96, F|100/100
+2026-08-12 12:00:52,590 |-ability|p1a: Masquerain|Intimidate|boost
+2026-08-12 12:00:52,590 |-unboost|p2a: Mr. Mime|atk|1
+2026-08-12 12:00:52,590 |turn|20
+2026-08-12 12:00:52,593 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,593 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"50/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 12:00:52,747 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,747 |
+2026-08-12 12:00:52,747 |t:|1786528852
+2026-08-12 12:00:52,747 |move|p2a: Mr. Mime|Fire Punch|p1a: Masquerain
+2026-08-12 12:00:52,747 |-supereffective|p1a: Masquerain
+2026-08-12 12:00:52,747 |-crit|p1a: Masquerain
+2026-08-12 12:00:52,747 |-damage|p1a: Masquerain|26/100
+2026-08-12 12:00:52,747 |move|p1a: Masquerain|Ice Beam|p2a: Mr. Mime
+2026-08-12 12:00:52,747 |-damage|p2a: Mr. Mime|0 fnt
+2026-08-12 12:00:52,747 |faint|p2a: Mr. Mime
+2026-08-12 12:00:52,749 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,749 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":47}
+2026-08-12 12:00:52,786 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,786 |
+2026-08-12 12:00:52,786 |t:|1786528852
+2026-08-12 12:00:52,786 |switch|p2a: Mantine|Mantine, L86, F|252/252
+2026-08-12 12:00:52,786 |
+2026-08-12 12:00:52,786 |-heal|p1a: Masquerain|33/100|[from] item: Leftovers
+2026-08-12 12:00:52,786 |upkeep
+2026-08-12 12:00:52,786 |turn|21
+2026-08-12 12:00:52,790 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,790 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:00:52,818 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,818 |
+2026-08-12 12:00:52,818 |t:|1786528852
+2026-08-12 12:00:52,818 |move|p1a: Masquerain|Ice Beam|p2a: Mantine
+2026-08-12 12:00:52,818 |-damage|p2a: Mantine|205/252
+2026-08-12 12:00:52,818 |move|p2a: Mantine|Rest|p2a: Mantine
+2026-08-12 12:00:52,818 |-status|p2a: Mantine|slp|[from] move: Rest
+2026-08-12 12:00:52,818 |-heal|p2a: Mantine|252/252 slp|[silent]
+2026-08-12 12:00:52,818 |
+2026-08-12 12:00:52,818 |-heal|p1a: Masquerain|39/100|[from] item: Leftovers
+2026-08-12 12:00:52,818 |upkeep
+2026-08-12 12:00:52,819 |turn|22
+2026-08-12 12:00:52,821 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,822 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252 slp","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:00:52,838 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,838 |
+2026-08-12 12:00:52,838 |t:|1786528852
+2026-08-12 12:00:52,838 |move|p1a: Masquerain|Substitute|p1a: Masquerain
+2026-08-12 12:00:52,838 |-start|p1a: Masquerain|Substitute
+2026-08-12 12:00:52,838 |-damage|p1a: Masquerain|14/100
+2026-08-12 12:00:52,838 |cant|p2a: Mantine|slp
+2026-08-12 12:00:52,838 |
+2026-08-12 12:00:52,838 |-heal|p1a: Masquerain|20/100|[from] item: Leftovers
+2026-08-12 12:00:52,838 |upkeep
+2026-08-12 12:00:52,838 |turn|23
+2026-08-12 12:00:52,839 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,839 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252 slp","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:00:52,880 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,880 |
+2026-08-12 12:00:52,880 |t:|1786528852
+2026-08-12 12:00:52,880 |cant|p2a: Mantine|slp
+2026-08-12 12:00:52,880 |move|p1a: Masquerain|Toxic||[still]
+2026-08-12 12:00:52,880 |-fail|p1a: Masquerain
+2026-08-12 12:00:52,880 |
+2026-08-12 12:00:52,880 |-heal|p1a: Masquerain|26/100|[from] item: Leftovers
+2026-08-12 12:00:52,880 |upkeep
+2026-08-12 12:00:52,880 |turn|24
+2026-08-12 12:00:52,881 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,881 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"252/252 slp","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:00:52,906 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,906 |
+2026-08-12 12:00:52,906 |t:|1786528852
+2026-08-12 12:00:52,906 |-curestatus|p2a: Mantine|slp|[msg]
+2026-08-12 12:00:52,906 |move|p2a: Mantine|Surf|p1a: Masquerain
+2026-08-12 12:00:52,906 |-end|p1a: Masquerain|Substitute
+2026-08-12 12:00:52,906 |move|p1a: Masquerain|Toxic|p2a: Mantine
+2026-08-12 12:00:52,906 |-status|p2a: Mantine|tox
+2026-08-12 12:00:52,906 |
+2026-08-12 12:00:52,906 |-heal|p1a: Masquerain|33/100|[from] item: Leftovers
+2026-08-12 12:00:52,906 |-damage|p2a: Mantine|237/252 tox|[from] psn
+2026-08-12 12:00:52,906 |upkeep
+2026-08-12 12:00:52,906 |turn|25
+2026-08-12 12:00:52,906 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,906 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"237/252 tox","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:00:52,955 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,955 |
+2026-08-12 12:00:52,955 |t:|1786528852
+2026-08-12 12:00:52,955 |move|p1a: Masquerain|Hydro Pump|p2a: Mantine
+2026-08-12 12:00:52,955 |-heal|p2a: Mantine|252/252 tox|[from] ability: Water Absorb|[of] p1a: Masquerain
+2026-08-12 12:00:52,955 |move|p2a: Mantine|Surf|p1a: Masquerain
+2026-08-12 12:00:52,955 |-damage|p1a: Masquerain|5/100
+2026-08-12 12:00:52,955 |
+2026-08-12 12:00:52,955 |-heal|p1a: Masquerain|12/100|[from] item: Leftovers
+2026-08-12 12:00:52,955 |-damage|p2a: Mantine|222/252 tox|[from] psn
+2026-08-12 12:00:52,955 |upkeep
+2026-08-12 12:00:52,956 |turn|26
+2026-08-12 12:00:52,956 >battle-gen3randombattle-316387
+2026-08-12 12:00:52,956 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"222/252 tox","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:00:53,008 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,008 |
+2026-08-12 12:00:53,008 |t:|1786528852
+2026-08-12 12:00:53,008 |move|p1a: Masquerain|Substitute|p1a: Masquerain
+2026-08-12 12:00:53,008 |-fail|p1a: Masquerain|move: Substitute|[weak]
+2026-08-12 12:00:53,008 |move|p2a: Mantine|Ice Beam|p1a: Masquerain
+2026-08-12 12:00:53,008 |-supereffective|p1a: Masquerain
+2026-08-12 12:00:53,008 |-damage|p1a: Masquerain|0 fnt
+2026-08-12 12:00:53,008 |faint|p1a: Masquerain
+2026-08-12 12:00:53,008 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,008 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"222/252 tox","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:00:53,045 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,045 |
+2026-08-12 12:00:53,045 |t:|1786528853
+2026-08-12 12:00:53,045 |switch|p1a: Swalot|Swalot, L87, M|100/100
+2026-08-12 12:00:53,045 |
+2026-08-12 12:00:53,045 |-heal|p2a: Mantine|237/252 tox|[from] item: Leftovers
+2026-08-12 12:00:53,045 |-damage|p2a: Mantine|192/252 tox|[from] psn
+2026-08-12 12:00:53,045 |upkeep
+2026-08-12 12:00:53,045 |turn|27
+2026-08-12 12:00:53,046 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,046 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"192/252 tox","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:00:53,083 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,083 |
+2026-08-12 12:00:53,083 |t:|1786528853
+2026-08-12 12:00:53,083 |move|p2a: Mantine|Surf|p1a: Swalot
+2026-08-12 12:00:53,083 |-damage|p1a: Swalot|70/100
+2026-08-12 12:00:53,083 |move|p1a: Swalot|Shadow Ball|p2a: Mantine
+2026-08-12 12:00:53,083 |-crit|p2a: Mantine
+2026-08-12 12:00:53,083 |-damage|p2a: Mantine|80/252 tox
+2026-08-12 12:00:53,083 |
+2026-08-12 12:00:53,083 |-heal|p2a: Mantine|95/252 tox|[from] item: Leftovers
+2026-08-12 12:00:53,083 |-damage|p2a: Mantine|35/252 tox|[from] psn
+2026-08-12 12:00:53,084 |-heal|p1a: Swalot|76/100|[from] item: Leftovers
+2026-08-12 12:00:53,084 |upkeep
+2026-08-12 12:00:53,084 |turn|28
+2026-08-12 12:00:53,085 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,085 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":21,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"35/252 tox","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:00:53,127 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,127 |
+2026-08-12 12:00:53,127 |t:|1786528853
+2026-08-12 12:00:53,127 |move|p2a: Mantine|Ice Beam|p1a: Swalot
+2026-08-12 12:00:53,127 |-damage|p1a: Swalot|57/100
+2026-08-12 12:00:53,127 |move|p1a: Swalot|Sludge Bomb|p2a: Mantine
+2026-08-12 12:00:53,127 |-damage|p2a: Mantine|0 fnt
+2026-08-12 12:00:53,127 |faint|p2a: Mantine
+2026-08-12 12:00:53,127 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,127 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":true,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"145/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":67}
+2026-08-12 12:00:53,152 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,152 |
+2026-08-12 12:00:53,152 |t:|1786528853
+2026-08-12 12:00:53,152 |switch|p2a: Vigoroth|Vigoroth, L84, M|145/272
+2026-08-12 12:00:53,152 |
+2026-08-12 12:00:53,152 |-heal|p2a: Vigoroth|162/272|[from] item: Leftovers
+2026-08-12 12:00:53,152 |-heal|p1a: Swalot|63/100|[from] item: Leftovers
+2026-08-12 12:00:53,152 |upkeep
+2026-08-12 12:00:53,152 |turn|29
+2026-08-12 12:00:53,154 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,154 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"162/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:00:53,177 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,177 |
+2026-08-12 12:00:53,177 |t:|1786528853
+2026-08-12 12:00:53,177 |move|p2a: Vigoroth|Slack Off|p2a: Vigoroth
+2026-08-12 12:00:53,177 |-heal|p2a: Vigoroth|272/272
+2026-08-12 12:00:53,177 |move|p1a: Swalot|Yawn|p2a: Vigoroth
+2026-08-12 12:00:53,178 |-immune|p2a: Vigoroth|[from] ability: Vital Spirit
+2026-08-12 12:00:53,178 |
+2026-08-12 12:00:53,178 |-heal|p1a: Swalot|69/100|[from] item: Leftovers
+2026-08-12 12:00:53,178 |upkeep
+2026-08-12 12:00:53,178 |turn|30
+2026-08-12 12:00:53,179 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,179 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:00:53,215 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,215 |
+2026-08-12 12:00:53,215 |t:|1786528853
+2026-08-12 12:00:53,215 |move|p2a: Vigoroth|Return|p1a: Swalot
+2026-08-12 12:00:53,215 |-damage|p1a: Swalot|37/100
+2026-08-12 12:00:53,215 |move|p1a: Swalot|Shadow Ball|p2a: Vigoroth
+2026-08-12 12:00:53,215 |-immune|p2a: Vigoroth
+2026-08-12 12:00:53,215 |
+2026-08-12 12:00:53,215 |-heal|p1a: Swalot|43/100|[from] item: Leftovers
+2026-08-12 12:00:53,215 |upkeep
+2026-08-12 12:00:53,215 |turn|31
+2026-08-12 12:00:53,217 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,217 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:00:53,248 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,248 |
+2026-08-12 12:00:53,248 |t:|1786528853
+2026-08-12 12:00:53,248 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:00:53,248 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:00:53,248 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:00:53,248 |move|p1a: Swalot|Shadow Ball|p2a: Vigoroth
+2026-08-12 12:00:53,248 |-immune|p2a: Vigoroth
+2026-08-12 12:00:53,248 |
+2026-08-12 12:00:53,248 |-heal|p1a: Swalot|49/100|[from] item: Leftovers
+2026-08-12 12:00:53,248 |upkeep
+2026-08-12 12:00:53,248 |turn|32
+2026-08-12 12:00:53,249 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,249 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:00:53,283 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,284 |
+2026-08-12 12:00:53,284 |t:|1786528853
+2026-08-12 12:00:53,284 |move|p2a: Vigoroth|Shadow Ball|p1a: Swalot
+2026-08-12 12:00:53,284 |-crit|p1a: Swalot
+2026-08-12 12:00:53,284 |-damage|p1a: Swalot|1/100
+2026-08-12 12:00:53,284 |move|p1a: Swalot|Ice Beam|p2a: Vigoroth
+2026-08-12 12:00:53,284 |-damage|p2a: Vigoroth|193/272
+2026-08-12 12:00:53,284 |
+2026-08-12 12:00:53,284 |-heal|p2a: Vigoroth|210/272|[from] item: Leftovers
+2026-08-12 12:00:53,284 |-heal|p1a: Swalot|7/100|[from] item: Leftovers
+2026-08-12 12:00:53,284 |upkeep
+2026-08-12 12:00:53,284 |turn|33
+2026-08-12 12:00:53,285 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,285 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"210/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:00:53,314 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,314 |
+2026-08-12 12:00:53,314 |t:|1786528853
+2026-08-12 12:00:53,314 |move|p2a: Vigoroth|Shadow Ball|p1a: Swalot
+2026-08-12 12:00:53,314 |-damage|p1a: Swalot|0 fnt
+2026-08-12 12:00:53,314 |faint|p1a: Swalot
+2026-08-12 12:00:53,319 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,319 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"210/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:00:53,340 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,340 |
+2026-08-12 12:00:53,340 |t:|1786528853
+2026-08-12 12:00:53,340 |switch|p1a: Exeggutor|Exeggutor, L83, M|100/100
+2026-08-12 12:00:53,340 |
+2026-08-12 12:00:53,340 |-heal|p2a: Vigoroth|227/272|[from] item: Leftovers
+2026-08-12 12:00:53,340 |upkeep
+2026-08-12 12:00:53,340 |turn|34
+2026-08-12 12:00:53,342 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,342 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"227/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:00:53,380 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,380 |
+2026-08-12 12:00:53,380 |t:|1786528853
+2026-08-12 12:00:53,380 |switch|p1a: Exploud|Exploud, L86, M|100/100
+2026-08-12 12:00:53,380 |move|p2a: Vigoroth|Slack Off|p2a: Vigoroth
+2026-08-12 12:00:53,380 |-heal|p2a: Vigoroth|272/272
+2026-08-12 12:00:53,380 |
+2026-08-12 12:00:53,380 |upkeep
+2026-08-12 12:00:53,380 |turn|35
+2026-08-12 12:00:53,381 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,381 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 12:00:53,414 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,414 |
+2026-08-12 12:00:53,414 |t:|1786528853
+2026-08-12 12:00:53,414 |move|p2a: Vigoroth|Slack Off||[still]
+2026-08-12 12:00:53,414 |-fail|p2a: Vigoroth|heal
+2026-08-12 12:00:53,414 |move|p1a: Exploud|Return|p2a: Vigoroth
+2026-08-12 12:00:53,414 |-damage|p2a: Vigoroth|199/272
+2026-08-12 12:00:53,414 |
+2026-08-12 12:00:53,414 |-heal|p2a: Vigoroth|216/272|[from] item: Leftovers
+2026-08-12 12:00:53,414 |upkeep
+2026-08-12 12:00:53,414 |turn|36
+2026-08-12 12:00:53,417 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,417 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"216/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:00:53,451 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,451 |
+2026-08-12 12:00:53,451 |t:|1786528853
+2026-08-12 12:00:53,451 |move|p2a: Vigoroth|Slack Off|p2a: Vigoroth
+2026-08-12 12:00:53,451 |-heal|p2a: Vigoroth|272/272
+2026-08-12 12:00:53,451 |move|p1a: Exploud|Earthquake|p2a: Vigoroth
+2026-08-12 12:00:53,451 |-damage|p2a: Vigoroth|218/272
+2026-08-12 12:00:53,451 |
+2026-08-12 12:00:53,451 |-heal|p2a: Vigoroth|235/272|[from] item: Leftovers
+2026-08-12 12:00:53,451 |upkeep
+2026-08-12 12:00:53,451 |turn|37
+2026-08-12 12:00:53,460 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,461 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"235/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:00:53,480 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,480 |
+2026-08-12 12:00:53,480 |t:|1786528853
+2026-08-12 12:00:53,480 |move|p2a: Vigoroth|Return|p1a: Exploud
+2026-08-12 12:00:53,480 |-damage|p1a: Exploud|47/100
+2026-08-12 12:00:53,480 |move|p1a: Exploud|Earthquake|p2a: Vigoroth
+2026-08-12 12:00:53,480 |-damage|p2a: Vigoroth|181/272
+2026-08-12 12:00:53,480 |
+2026-08-12 12:00:53,480 |-heal|p2a: Vigoroth|198/272|[from] item: Leftovers
+2026-08-12 12:00:53,480 |-heal|p1a: Exploud|53/100|[from] item: Leftovers
+2026-08-12 12:00:53,480 |upkeep
+2026-08-12 12:00:53,480 |turn|38
+2026-08-12 12:00:53,481 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,481 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"198/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:00:53,543 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,543 |
+2026-08-12 12:00:53,543 |t:|1786528853
+2026-08-12 12:00:53,543 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:00:53,543 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:00:53,543 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:00:53,543 |move|p1a: Exploud|Flamethrower|p2a: Vigoroth
+2026-08-12 12:00:53,543 |-damage|p2a: Vigoroth|103/272
+2026-08-12 12:00:53,543 |
+2026-08-12 12:00:53,543 |-heal|p2a: Vigoroth|120/272|[from] item: Leftovers
+2026-08-12 12:00:53,543 |-heal|p1a: Exploud|58/100|[from] item: Leftovers
+2026-08-12 12:00:53,543 |upkeep
+2026-08-12 12:00:53,543 |turn|39
+2026-08-12 12:00:53,544 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,544 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"120/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 12:00:53,597 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,597 |
+2026-08-12 12:00:53,597 |t:|1786528853
+2026-08-12 12:00:53,597 |move|p2a: Vigoroth|Shadow Ball|p1a: Exploud
+2026-08-12 12:00:53,597 |-immune|p1a: Exploud
+2026-08-12 12:00:53,598 |move|p1a: Exploud|Flamethrower|p2a: Vigoroth
+2026-08-12 12:00:53,598 |-damage|p2a: Vigoroth|30/272
+2026-08-12 12:00:53,598 |
+2026-08-12 12:00:53,598 |-heal|p2a: Vigoroth|47/272|[from] item: Leftovers
+2026-08-12 12:00:53,598 |-heal|p1a: Exploud|64/100|[from] item: Leftovers
+2026-08-12 12:00:53,598 |upkeep
+2026-08-12 12:00:53,598 |turn|40
+2026-08-12 12:00:53,601 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,601 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"47/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:00:53,641 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,641 |
+2026-08-12 12:00:53,641 |t:|1786528853
+2026-08-12 12:00:53,641 |move|p2a: Vigoroth|Return|p1a: Exploud
+2026-08-12 12:00:53,641 |-crit|p1a: Exploud
+2026-08-12 12:00:53,641 |-damage|p1a: Exploud|0 fnt
+2026-08-12 12:00:53,641 |faint|p1a: Exploud
+2026-08-12 12:00:53,645 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,645 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"47/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 12:00:53,687 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,687 |
+2026-08-12 12:00:53,687 |t:|1786528853
+2026-08-12 12:00:53,687 |switch|p1a: Exeggutor|Exeggutor, L83, M|100/100
+2026-08-12 12:00:53,687 |
+2026-08-12 12:00:53,687 |-heal|p2a: Vigoroth|64/272|[from] item: Leftovers
+2026-08-12 12:00:53,687 |upkeep
+2026-08-12 12:00:53,688 |turn|41
+2026-08-12 12:00:53,689 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,689 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"64/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 12:00:53,740 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,740 |
+2026-08-12 12:00:53,740 |t:|1786528853
+2026-08-12 12:00:53,740 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:00:53,740 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:00:53,740 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:00:53,740 |move|p1a: Exeggutor|Stun Spore|p2a: Vigoroth|[miss]
+2026-08-12 12:00:53,740 |-miss|p1a: Exeggutor|p2a: Vigoroth
+2026-08-12 12:00:53,740 |
+2026-08-12 12:00:53,740 |-heal|p2a: Vigoroth|81/272|[from] item: Leftovers
+2026-08-12 12:00:53,740 |upkeep
+2026-08-12 12:00:53,740 |turn|42
+2026-08-12 12:00:53,742 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,742 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"81/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 12:00:53,777 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,777 |
+2026-08-12 12:00:53,777 |t:|1786528853
+2026-08-12 12:00:53,777 |switch|p1a: Arcanine|Arcanine, L78, F|100/100
+2026-08-12 12:00:53,777 |-ability|p1a: Arcanine|Intimidate|boost
+2026-08-12 12:00:53,777 |-unboost|p2a: Vigoroth|atk|1
+2026-08-12 12:00:53,777 |move|p2a: Vigoroth|Shadow Ball|p1a: Arcanine
+2026-08-12 12:00:53,777 |-damage|p1a: Arcanine|56/100
+2026-08-12 12:00:53,777 |-unboost|p1a: Arcanine|spd|1
+2026-08-12 12:00:53,777 |
+2026-08-12 12:00:53,777 |-heal|p2a: Vigoroth|98/272|[from] item: Leftovers
+2026-08-12 12:00:53,777 |-heal|p1a: Arcanine|62/100|[from] item: Leftovers
+2026-08-12 12:00:53,777 |upkeep
+2026-08-12 12:00:53,777 |turn|43
+2026-08-12 12:00:53,778 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,778 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"98/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 12:00:53,809 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,809 |
+2026-08-12 12:00:53,809 |t:|1786528853
+2026-08-12 12:00:53,809 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:00:53,809 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:00:53,809 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:00:53,809 |move|p1a: Arcanine|Fire Blast|p2a: Vigoroth
+2026-08-12 12:00:53,809 |-damage|p2a: Vigoroth|0 fnt
+2026-08-12 12:00:53,809 |faint|p2a: Vigoroth
+2026-08-12 12:00:53,812 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,812 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":103}
+2026-08-12 12:00:53,847 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,847 |
+2026-08-12 12:00:53,847 |t:|1786528853
+2026-08-12 12:00:53,847 |switch|p2a: Volbeat|Volbeat, L93, M|272/272
+2026-08-12 12:00:53,847 |
+2026-08-12 12:00:53,847 |-heal|p1a: Arcanine|68/100|[from] item: Leftovers
+2026-08-12 12:00:53,848 |upkeep
+2026-08-12 12:00:53,848 |turn|44
+2026-08-12 12:00:53,849 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,849 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 12:00:53,918 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,918 |
+2026-08-12 12:00:53,919 |t:|1786528853
+2026-08-12 12:00:53,919 |move|p2a: Volbeat|Seismic Toss|p1a: Arcanine
+2026-08-12 12:00:53,919 |-damage|p1a: Arcanine|33/100
+2026-08-12 12:00:53,919 |move|p1a: Arcanine|Hidden Power|p2a: Volbeat
+2026-08-12 12:00:53,919 |-resisted|p2a: Volbeat
+2026-08-12 12:00:53,919 |-damage|p2a: Volbeat|248/272
+2026-08-12 12:00:53,919 |
+2026-08-12 12:00:53,919 |-heal|p2a: Volbeat|265/272|[from] item: Leftovers
+2026-08-12 12:00:53,919 |-heal|p1a: Arcanine|39/100|[from] item: Leftovers
+2026-08-12 12:00:53,919 |upkeep
+2026-08-12 12:00:53,919 |turn|45
+2026-08-12 12:00:53,920 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,920 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"265/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 12:00:53,968 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,968 |
+2026-08-12 12:00:53,968 |t:|1786528853
+2026-08-12 12:00:53,968 |move|p2a: Volbeat|Signal Beam|p1a: Arcanine
+2026-08-12 12:00:53,968 |-resisted|p1a: Arcanine
+2026-08-12 12:00:53,968 |-damage|p1a: Arcanine|21/100
+2026-08-12 12:00:53,968 |move|p1a: Arcanine|Toxic|p2a: Volbeat|[miss]
+2026-08-12 12:00:53,968 |-miss|p1a: Arcanine|p2a: Volbeat
+2026-08-12 12:00:53,968 |
+2026-08-12 12:00:53,968 |-heal|p2a: Volbeat|272/272|[from] item: Leftovers
+2026-08-12 12:00:53,968 |-heal|p1a: Arcanine|27/100|[from] item: Leftovers
+2026-08-12 12:00:53,968 |upkeep
+2026-08-12 12:00:53,968 |turn|46
+2026-08-12 12:00:53,969 >battle-gen3randombattle-316387
+2026-08-12 12:00:53,969 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"203/209 slp","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 12:00:54,034 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,034 |
+2026-08-12 12:00:54,034 |t:|1786528854
+2026-08-12 12:00:54,034 |switch|p2a: Dusclops|Dusclops, L86, F|203/209 slp
+2026-08-12 12:00:54,034 |-ability|p2a: Dusclops|Pressure|[silent]
+2026-08-12 12:00:54,034 |move|p1a: Arcanine|Hidden Power|p2a: Dusclops
+2026-08-12 12:00:54,034 |-damage|p2a: Dusclops|170/209 slp
+2026-08-12 12:00:54,034 |
+2026-08-12 12:00:54,034 |-heal|p1a: Arcanine|33/100|[from] item: Leftovers
+2026-08-12 12:00:54,034 |-heal|p2a: Dusclops|183/209 slp|[from] item: Leftovers
+2026-08-12 12:00:54,034 |upkeep
+2026-08-12 12:00:54,034 |turn|47
+2026-08-12 12:00:54,037 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,037 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"183/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 12:00:54,089 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,089 |
+2026-08-12 12:00:54,089 |t:|1786528854
+2026-08-12 12:00:54,089 |move|p1a: Arcanine|Hidden Power|p2a: Dusclops
+2026-08-12 12:00:54,089 |-damage|p2a: Dusclops|151/209 slp
+2026-08-12 12:00:54,089 |-curestatus|p2a: Dusclops|slp|[msg]
+2026-08-12 12:00:54,089 |move|p2a: Dusclops|Rest|p2a: Dusclops
+2026-08-12 12:00:54,089 |-status|p2a: Dusclops|slp|[from] move: Rest
+2026-08-12 12:00:54,089 |-heal|p2a: Dusclops|209/209 slp|[silent]
+2026-08-12 12:00:54,089 |
+2026-08-12 12:00:54,089 |-heal|p1a: Arcanine|39/100|[from] item: Leftovers
+2026-08-12 12:00:54,089 |upkeep
+2026-08-12 12:00:54,089 |turn|48
+2026-08-12 12:00:54,094 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,094 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"209/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 12:00:54,146 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,146 |
+2026-08-12 12:00:54,146 |t:|1786528854
+2026-08-12 12:00:54,146 |move|p1a: Arcanine|Hidden Power|p2a: Dusclops
+2026-08-12 12:00:54,146 |-damage|p2a: Dusclops|179/209 slp
+2026-08-12 12:00:54,146 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:54,146 |
+2026-08-12 12:00:54,146 |-heal|p1a: Arcanine|45/100|[from] item: Leftovers
+2026-08-12 12:00:54,146 |-heal|p2a: Dusclops|192/209 slp|[from] item: Leftovers
+2026-08-12 12:00:54,146 |upkeep
+2026-08-12 12:00:54,146 |turn|49
+2026-08-12 12:00:54,147 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,148 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"192/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 12:00:54,201 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,201 |
+2026-08-12 12:00:54,201 |t:|1786528854
+2026-08-12 12:00:54,201 |move|p1a: Arcanine|Fire Blast|p2a: Dusclops
+2026-08-12 12:00:54,201 |-damage|p2a: Dusclops|111/209 slp
+2026-08-12 12:00:54,201 |cant|p2a: Dusclops|slp
+2026-08-12 12:00:54,201 |
+2026-08-12 12:00:54,201 |-heal|p1a: Arcanine|50/100|[from] item: Leftovers
+2026-08-12 12:00:54,201 |-heal|p2a: Dusclops|124/209 slp|[from] item: Leftovers
+2026-08-12 12:00:54,201 |upkeep
+2026-08-12 12:00:54,201 |turn|50
+2026-08-12 12:00:54,205 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,205 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"124/209 slp","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 12:00:54,259 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,259 |
+2026-08-12 12:00:54,259 |t:|1786528854
+2026-08-12 12:00:54,259 |move|p1a: Arcanine|Extreme Speed|p2a: Dusclops
+2026-08-12 12:00:54,259 |-immune|p2a: Dusclops
+2026-08-12 12:00:54,259 |-curestatus|p2a: Dusclops|slp|[msg]
+2026-08-12 12:00:54,259 |move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+2026-08-12 12:00:54,259 |
+2026-08-12 12:00:54,259 |-heal|p1a: Arcanine|56/100|[from] item: Leftovers
+2026-08-12 12:00:54,259 |-heal|p2a: Dusclops|137/209|[from] item: Leftovers
+2026-08-12 12:00:54,259 |upkeep
+2026-08-12 12:00:54,259 |turn|51
+2026-08-12 12:00:54,260 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,260 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"137/209","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 12:00:54,311 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,311 |
+2026-08-12 12:00:54,311 |t:|1786528854
+2026-08-12 12:00:54,311 |move|p1a: Arcanine|Toxic|p2a: Dusclops
+2026-08-12 12:00:54,311 |-status|p2a: Dusclops|tox
+2026-08-12 12:00:54,311 |move|p2a: Dusclops|Will-O-Wisp|p1a: Arcanine
+2026-08-12 12:00:54,311 |-immune|p1a: Arcanine
+2026-08-12 12:00:54,311 |
+2026-08-12 12:00:54,311 |-heal|p1a: Arcanine|62/100|[from] item: Leftovers
+2026-08-12 12:00:54,311 |-heal|p2a: Dusclops|150/209 tox|[from] item: Leftovers
+2026-08-12 12:00:54,311 |-damage|p2a: Dusclops|137/209 tox|[from] psn
+2026-08-12 12:00:54,311 |upkeep
+2026-08-12 12:00:54,311 |turn|52
+2026-08-12 12:00:54,314 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,314 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"137/209 tox","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 12:00:54,354 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,354 |
+2026-08-12 12:00:54,354 |t:|1786528854
+2026-08-12 12:00:54,354 |move|p1a: Arcanine|Toxic|p2a: Dusclops
+2026-08-12 12:00:54,354 |-fail|p2a: Dusclops|tox
+2026-08-12 12:00:54,354 |move|p2a: Dusclops|Will-O-Wisp|p1a: Arcanine|[miss]
+2026-08-12 12:00:54,354 |-miss|p2a: Dusclops|p1a: Arcanine
+2026-08-12 12:00:54,354 |
+2026-08-12 12:00:54,354 |-heal|p1a: Arcanine|68/100|[from] item: Leftovers
+2026-08-12 12:00:54,354 |-heal|p2a: Dusclops|150/209 tox|[from] item: Leftovers
+2026-08-12 12:00:54,355 |-damage|p2a: Dusclops|124/209 tox|[from] psn
+2026-08-12 12:00:54,355 |upkeep
+2026-08-12 12:00:54,355 |turn|53
+2026-08-12 12:00:54,355 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,355 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"124/209 tox","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 12:00:54,399 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,399 |
+2026-08-12 12:00:54,399 |t:|1786528854
+2026-08-12 12:00:54,399 |move|p1a: Arcanine|Fire Blast|p2a: Dusclops
+2026-08-12 12:00:54,399 |-damage|p2a: Dusclops|45/209 tox
+2026-08-12 12:00:54,399 |move|p2a: Dusclops|Sleep Talk|p2a: Dusclops
+2026-08-12 12:00:54,399 |
+2026-08-12 12:00:54,399 |-heal|p1a: Arcanine|74/100|[from] item: Leftovers
+2026-08-12 12:00:54,399 |-heal|p2a: Dusclops|58/209 tox|[from] item: Leftovers
+2026-08-12 12:00:54,399 |-damage|p2a: Dusclops|19/209 tox|[from] psn
+2026-08-12 12:00:54,399 |upkeep
+2026-08-12 12:00:54,399 |turn|54
+2026-08-12 12:00:54,406 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,406 |request|{"active":[{"moves":[{"move":"Will-O-Wisp","id":"willowisp","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"19/209 tox","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 12:00:54,455 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,455 |
+2026-08-12 12:00:54,455 |t:|1786528854
+2026-08-12 12:00:54,455 |move|p1a: Arcanine|Hidden Power|p2a: Dusclops
+2026-08-12 12:00:54,455 |-damage|p2a: Dusclops|0 fnt
+2026-08-12 12:00:54,455 |faint|p2a: Dusclops
+2026-08-12 12:00:54,467 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,467 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":true,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":127}
+2026-08-12 12:00:54,504 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,504 |
+2026-08-12 12:00:54,504 |t:|1786528854
+2026-08-12 12:00:54,504 |switch|p2a: Volbeat|Volbeat, L93, M|272/272
+2026-08-12 12:00:54,504 |
+2026-08-12 12:00:54,504 |-heal|p1a: Arcanine|80/100|[from] item: Leftovers
+2026-08-12 12:00:54,504 |upkeep
+2026-08-12 12:00:54,504 |turn|55
+2026-08-12 12:00:54,504 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,504 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":129}
+2026-08-12 12:00:54,571 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,571 |
+2026-08-12 12:00:54,571 |t:|1786528854
+2026-08-12 12:00:54,571 |move|p2a: Volbeat|Signal Beam|p1a: Arcanine
+2026-08-12 12:00:54,571 |-resisted|p1a: Arcanine
+2026-08-12 12:00:54,571 |-damage|p1a: Arcanine|64/100
+2026-08-12 12:00:54,571 |move|p1a: Arcanine|Fire Blast|p2a: Volbeat
+2026-08-12 12:00:54,571 |-supereffective|p2a: Volbeat
+2026-08-12 12:00:54,571 |-damage|p2a: Volbeat|28/272
+2026-08-12 12:00:54,571 |
+2026-08-12 12:00:54,571 |-heal|p2a: Volbeat|45/272|[from] item: Leftovers
+2026-08-12 12:00:54,571 |-heal|p1a: Arcanine|70/100|[from] item: Leftovers
+2026-08-12 12:00:54,572 |upkeep
+2026-08-12 12:00:54,572 |turn|56
+2026-08-12 12:00:54,572 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,572 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"45/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 12:00:54,612 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,612 |
+2026-08-12 12:00:54,612 |t:|1786528854
+2026-08-12 12:00:54,612 |switch|p1a: Exeggutor|Exeggutor, L83, M|100/100
+2026-08-12 12:00:54,612 |move|p2a: Volbeat|Toxic|p1a: Exeggutor
+2026-08-12 12:00:54,612 |-status|p1a: Exeggutor|tox
+2026-08-12 12:00:54,613 |
+2026-08-12 12:00:54,613 |-heal|p2a: Volbeat|62/272|[from] item: Leftovers
+2026-08-12 12:00:54,613 |-damage|p1a: Exeggutor|94/100 tox|[from] psn
+2026-08-12 12:00:54,613 |upkeep
+2026-08-12 12:00:54,613 |turn|57
+2026-08-12 12:00:54,614 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,614 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"62/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":133}
+2026-08-12 12:00:54,670 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,670 |
+2026-08-12 12:00:54,670 |t:|1786528854
+2026-08-12 12:00:54,670 |move|p2a: Volbeat|Moonlight|p2a: Volbeat
+2026-08-12 12:00:54,670 |-heal|p2a: Volbeat|198/272
+2026-08-12 12:00:54,670 |move|p1a: Exeggutor|Giga Drain|p2a: Volbeat
+2026-08-12 12:00:54,670 |-resisted|p2a: Volbeat
+2026-08-12 12:00:54,670 |-damage|p2a: Volbeat|159/272
+2026-08-12 12:00:54,670 |-heal|p1a: Exeggutor|100/100 tox|[from] drain|[of] p2a: Volbeat
+2026-08-12 12:00:54,670 |
+2026-08-12 12:00:54,670 |-heal|p2a: Volbeat|176/272|[from] item: Leftovers
+2026-08-12 12:00:54,670 |-damage|p1a: Exeggutor|88/100 tox|[from] psn
+2026-08-12 12:00:54,670 |upkeep
+2026-08-12 12:00:54,670 |turn|58
+2026-08-12 12:00:54,673 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,673 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"176/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":135}
+2026-08-12 12:00:54,729 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,729 |
+2026-08-12 12:00:54,729 |t:|1786528854
+2026-08-12 12:00:54,729 |move|p2a: Volbeat|Moonlight|p2a: Volbeat
+2026-08-12 12:00:54,729 |-heal|p2a: Volbeat|272/272
+2026-08-12 12:00:54,729 |move|p1a: Exeggutor|Synthesis|p1a: Exeggutor
+2026-08-12 12:00:54,729 |-heal|p1a: Exeggutor|100/100 tox
+2026-08-12 12:00:54,729 |
+2026-08-12 12:00:54,729 |-damage|p1a: Exeggutor|82/100 tox|[from] psn
+2026-08-12 12:00:54,729 |upkeep
+2026-08-12 12:00:54,729 |turn|59
+2026-08-12 12:00:54,730 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,730 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":137}
+2026-08-12 12:00:54,779 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,779 |
+2026-08-12 12:00:54,779 |t:|1786528854
+2026-08-12 12:00:54,779 |move|p2a: Volbeat|Signal Beam|p1a: Exeggutor
+2026-08-12 12:00:54,779 |-supereffective|p1a: Exeggutor
+2026-08-12 12:00:54,779 |-damage|p1a: Exeggutor|0 fnt
+2026-08-12 12:00:54,779 |faint|p1a: Exeggutor
+2026-08-12 12:00:54,785 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,785 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":139}
+2026-08-12 12:00:54,821 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,821 |
+2026-08-12 12:00:54,821 |t:|1786528854
+2026-08-12 12:00:54,821 |switch|p1a: Arcanine|Arcanine, L78, F|70/100
+2026-08-12 12:00:54,821 |-ability|p1a: Arcanine|Intimidate|boost
+2026-08-12 12:00:54,821 |-unboost|p2a: Volbeat|atk|1
+2026-08-12 12:00:54,821 |
+2026-08-12 12:00:54,821 |-heal|p1a: Arcanine|76/100|[from] item: Leftovers
+2026-08-12 12:00:54,821 |upkeep
+2026-08-12 12:00:54,821 |turn|60
+2026-08-12 12:00:54,826 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,826 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":141}
+2026-08-12 12:00:54,873 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,873 |
+2026-08-12 12:00:54,873 |t:|1786528854
+2026-08-12 12:00:54,873 |move|p2a: Volbeat|Signal Beam|p1a: Arcanine
+2026-08-12 12:00:54,873 |-resisted|p1a: Arcanine
+2026-08-12 12:00:54,873 |-damage|p1a: Arcanine|64/100
+2026-08-12 12:00:54,873 |move|p1a: Arcanine|Fire Blast|p2a: Volbeat
+2026-08-12 12:00:54,874 |-supereffective|p2a: Volbeat
+2026-08-12 12:00:54,874 |-damage|p2a: Volbeat|33/272
+2026-08-12 12:00:54,874 |
+2026-08-12 12:00:54,874 |-heal|p2a: Volbeat|50/272|[from] item: Leftovers
+2026-08-12 12:00:54,874 |-heal|p1a: Arcanine|70/100|[from] item: Leftovers
+2026-08-12 12:00:54,874 |upkeep
+2026-08-12 12:00:54,874 |turn|61
+2026-08-12 12:00:54,875 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,875 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"50/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["seismictoss","toxic","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["shadowball","slackoff","bulkup","return102"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mantine","details":"Mantine, L86, F","condition":"0 fnt","active":false,"stats":{"atk":73,"def":170,"spa":187,"spd":290,"spe":170},"moves":["icebeam","sleeptalk","surf","rest"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, M","condition":"0 fnt","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","psychic","thunderbolt","calmmind"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dusclops","details":"Dusclops, L86, F","condition":"0 fnt","active":false,"stats":{"atk":125,"def":273,"spa":152,"spd":273,"spe":92},"moves":["willowisp","seismictoss","sleeptalk","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dodrio","details":"Dodrio, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":154,"spa":138,"spd":138,"spe":201},"moves":["quickattack","drillpeck","doubleedge","hiddenpowerground"],"baseAbility":"earlybird","item":"choiceband","pokeball":"pokeball"}]},"rqid":143}
+2026-08-12 12:00:54,958 >battle-gen3randombattle-316387
+2026-08-12 12:00:54,958 |
+2026-08-12 12:00:54,958 |t:|1786528854
+2026-08-12 12:00:54,958 |move|p1a: Arcanine|Extreme Speed|p2a: Volbeat
+2026-08-12 12:00:54,958 |-damage|p2a: Volbeat|0 fnt
+2026-08-12 12:00:54,958 |faint|p2a: Volbeat
+2026-08-12 12:00:54,958 |
+2026-08-12 12:00:54,958 |win|BOT1
+2026-08-12 12:40:54,960 >battle-gen3randombattle-316387
+2026-08-12 12:40:54,960 |expire|
+2026-08-12 12:40:54,960 >battle-gen3randombattle-316387
+2026-08-12 12:40:54,960 |L|☆BOT1
+2026-08-12 12:40:54,960 >battle-gen3randombattle-316387
+2026-08-12 12:40:54,960 |deinit

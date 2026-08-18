@@ -7,7 +7,7 @@ class AvailableMove:
 
     name: str
     id: str
-    curr_pp: int
-    max_pp: int
-    target: str
+    curr_pp: int | None
+    max_pp: int | None
+    target: str | None
     disabled: bool

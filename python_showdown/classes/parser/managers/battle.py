@@ -43,6 +43,7 @@ from python_showdown.classes.parser.protocol import (
     is_move_boundary,
     parse_protocol_message,
 )
+from python_showdown.models.pokemon.status import MajorStatus
 from python_showdown.models.sdk.battle_state import BattleState
 
 type Payload = bool | str | int | dict[str, Payload] | list[Payload]
@@ -186,20 +187,20 @@ class BattleParser(MessageParser):
         if self.input_finished:
             raise RuntimeError("Cannot feed lines after finish()")
         if message.command == "init" and self.history:
-            self.reset()
+            self.reset(keep_player_id=True)
         if self.player_id is None and message.command not in {"room", "init"}:
             raise ValueError("player_id not set")
 
         self.raw_history.append(message)
-        if message.command == "request":
-            request_event = self._parse_request_event(message)
-            self.next_unparsed_message = len(self.raw_history)
-            self.history.append(request_event)
-            return [request_event]
+        # if message.command == "request":
+        #    request_event = self._parse_request_event(message)
+        #    self.next_unparsed_message = len(self.raw_history)
+        #    self.history.append(request_event)
+        #    return [request_event]
 
         return self._parse_available_events(self.player_id)
 
-    def reset(self) -> None:
+    def reset(self, keep_player_id: bool = False) -> None:
         """Discard all accumulated battle state so the parser can drive a new battle.
 
         Called in live mode when a |init|battle arrives after the previous
@@ -214,8 +215,7 @@ class BattleParser(MessageParser):
         self.input_finished = False
         self.protocol_context = ProtocolContext()
         self.battle_state_handler = BattleStateHandler()
-        self._manager.battle_state.reset()
-        self._manager.player_id = ""
+        self._manager.battle_state.reset(keep_player_id)
 
     def finish(self, player_id: str) -> list[BaseEvent]:
         if self.input_finished:
@@ -254,6 +254,8 @@ class BattleParser(MessageParser):
             return ParseResult((), 1)
         if message.command == "move":
             return self._parse_move(player_id, start)
+        if message.command == "request":
+            return ParseResult((self._parse_request_event(message),), 1)
 
         handler = COMMAND_HANDLERS.get(message.command)
         if handler is not None:
@@ -378,12 +380,10 @@ class BattleParser(MessageParser):
 
         side_id = _expect_str(side["id"], "request['side']['id']")
 
-        player_id = self.player_id
-        if not player_id:
-            self.player_id = side_id
-            player_id = side_id
-        elif side_id != player_id:
-            raise ValueError(f"Request player mismatch: {side_id=!r}, {player_id=!r}")
+        if side_id != self.player_id:
+            raise ValueError(
+                f"Request player mismatch: {side_id=!r}, {self.player_id=!r}"
+            )
 
         moves: list[RequestMove] = []
         trapped = False
@@ -459,16 +459,11 @@ class BattleParser(MessageParser):
                     f"move[{i}]['target']",
                 )
 
-                if len(raw_moves) == 1:
-                    curr_pp = _expect_int(
-                        raw_move.get("pp", 100),
-                        f"move[{i}]['pp']",
-                    )
-                    max_pp = _expect_int(
-                        raw_move.get("maxpp", 100),
-                        f"move[{i}]['maxpp']",
-                    )
+                if move_id in {"recharge", "struggle"}:
+                    curr_pp = None
+                    max_pp = None
                     disabled = False
+                    target = None
                 else:
                     missing = {"pp", "maxpp", "disabled"} - set(raw_move)
                     if missing:
@@ -565,18 +560,19 @@ class BattleParser(MessageParser):
             if condition == "0 fnt":
                 curr_hp = 0
                 max_hp = None
-                status_token = None
+                major_status = MajorStatus.FAINT
             else:
                 try:
                     curr_str, rest = condition.split("/", 1)
                     curr_hp = int(curr_str)
 
                     if " " in rest:
-                        max_str, status_token = rest.split(" ", 1)
+                        max_str, major_status_str = rest.split(" ", 1)
                         max_hp = int(max_str)
+                        major_status = MajorStatus(major_status_str)
                     else:
                         max_hp = int(rest)
-                        status_token = None
+                        major_status = None
                 except (ValueError, TypeError) as exc:
                     raise ValueError(
                         f"Invalid Pokémon condition: {condition!r}"
@@ -651,15 +647,18 @@ class BattleParser(MessageParser):
                     pokeball=pokeball,
                     curr_hp=curr_hp,
                     max_hp=max_hp,
-                    status_token=status_token,
+                    major_status=major_status,
                 )
             )
 
         if sum(p.active for p in pokemon) > 1:
             raise ValueError("Request contains more than one active Pokémon")
 
+        if self.player_id is None:
+            raise ValueError("self.player_id must not be None")
+
         return DecisionRequestEvent(
-            player_id=player_id,
+            player_id=self.player_id,
             request_id=request_id,
             wait=wait,
             trapped=trapped,

@@ -1,0 +1,570 @@
+2026-08-13 04:58:54,671 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,671 |init|battle
+2026-08-13 04:58:54,672 |title|BOT1 vs. BOT2
+2026-08-13 04:58:54,672 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-338419">battle-gen4randombattle-338419</a>&raquo;
+2026-08-13 04:58:54,730 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,730 |t:|1786589934
+2026-08-13 04:58:54,730 |gametype|singles
+2026-08-13 04:58:54,730 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,730 |player|p1|BOT1|101|
+2026-08-13 04:58:54,731 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,731 |player|p2|BOT2|169|
+2026-08-13 04:58:54,731 |gen|4
+2026-08-13 04:58:54,731 |tier|[Gen 4] Random Battle
+2026-08-13 04:58:54,731 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-13 04:58:54,731 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-13 04:58:54,731 |
+2026-08-13 04:58:54,731 |t:|1786589934
+2026-08-13 04:58:54,731 |teamsize|p1|6
+2026-08-13 04:58:54,731 |teamsize|p2|6
+2026-08-13 04:58:54,731 |start
+2026-08-13 04:58:54,731 |switch|p1a: Porygon-Z|Porygon-Z, L80|100/100
+2026-08-13 04:58:54,731 |switch|p2a: Swellow|Swellow, L78, F|222/222
+2026-08-13 04:58:54,731 |turn|1
+2026-08-13 04:58:54,733 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,733 |request|{"active":[{"moves":[{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Facade","id":"facade","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"222/222","active":true,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"272/272","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":3}
+2026-08-13 04:58:54,786 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,786 |
+2026-08-13 04:58:54,786 |t:|1786589934
+2026-08-13 04:58:54,786 |move|p2a: Swellow|Brave Bird|p1a: Porygon-Z
+2026-08-13 04:58:54,786 |-damage|p1a: Porygon-Z|57/100
+2026-08-13 04:58:54,786 |-damage|p2a: Swellow|184/222|[from] Recoil
+2026-08-13 04:58:54,786 |move|p1a: Porygon-Z|Tri Attack|p2a: Swellow
+2026-08-13 04:58:54,786 |-damage|p2a: Swellow|0 fnt
+2026-08-13 04:58:54,786 |faint|p2a: Swellow
+2026-08-13 04:58:54,786 |-damage|p1a: Porygon-Z|48/100|[from] item: Life Orb
+2026-08-13 04:58:54,786 |
+2026-08-13 04:58:54,786 |upkeep
+2026-08-13 04:58:54,787 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,787 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":true,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"272/272","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":5}
+2026-08-13 04:58:54,823 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,823 |
+2026-08-13 04:58:54,823 |t:|1786589934
+2026-08-13 04:58:54,823 |switch|p2a: Lugia|Lugia, L70|264/264
+2026-08-13 04:58:54,823 |-ability|p2a: Lugia|Pressure
+2026-08-13 04:58:54,823 |turn|2
+2026-08-13 04:58:54,824 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,824 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":8,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"272/272","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":7}
+2026-08-13 04:58:54,853 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,853 |
+2026-08-13 04:58:54,853 |t:|1786589934
+2026-08-13 04:58:54,853 |move|p2a: Lugia|Roost||[still]
+2026-08-13 04:58:54,853 |-fail|p2a: Lugia|heal
+2026-08-13 04:58:54,853 |move|p1a: Porygon-Z|Hidden Power|p2a: Lugia
+2026-08-13 04:58:54,853 |-resisted|p2a: Lugia
+2026-08-13 04:58:54,854 |-damage|p2a: Lugia|249/264
+2026-08-13 04:58:54,854 |-damage|p1a: Porygon-Z|38/100|[from] item: Life Orb
+2026-08-13 04:58:54,854 |
+2026-08-13 04:58:54,854 |-heal|p2a: Lugia|264/264|[from] item: Leftovers
+2026-08-13 04:58:54,854 |upkeep
+2026-08-13 04:58:54,854 |turn|3
+2026-08-13 04:58:54,854 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,854 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":8,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"272/272","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":9}
+2026-08-13 04:58:54,879 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,879 |
+2026-08-13 04:58:54,879 |t:|1786589934
+2026-08-13 04:58:54,879 |switch|p2a: Camerupt|Camerupt, L90, M|272/272
+2026-08-13 04:58:54,879 |switch|p1a: Wormadam|Wormadam-Trash, L95, F|100/100
+2026-08-13 04:58:54,879 |-ability|p1a: Wormadam|Anticipation
+2026-08-13 04:58:54,879 |
+2026-08-13 04:58:54,879 |upkeep
+2026-08-13 04:58:54,879 |turn|4
+2026-08-13 04:58:54,880 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,880 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"272/272","active":true,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-13 04:58:54,923 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,923 |
+2026-08-13 04:58:54,923 |t:|1786589934
+2026-08-13 04:58:54,923 |move|p2a: Camerupt|Earthquake|p1a: Wormadam
+2026-08-13 04:58:54,923 |-damage|p1a: Wormadam|49/100
+2026-08-13 04:58:54,923 |-damage|p2a: Camerupt|245/272|[from] item: Life Orb
+2026-08-13 04:58:54,923 |move|p1a: Wormadam|Flash Cannon|p2a: Camerupt
+2026-08-13 04:58:54,923 |-resisted|p2a: Camerupt
+2026-08-13 04:58:54,923 |-damage|p2a: Camerupt|198/272
+2026-08-13 04:58:54,923 |
+2026-08-13 04:58:54,923 |-heal|p1a: Wormadam|55/100|[from] item: Leftovers
+2026-08-13 04:58:54,923 |upkeep
+2026-08-13 04:58:54,923 |turn|5
+2026-08-13 04:58:54,926 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,926 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"198/272","active":true,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-13 04:58:54,948 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,948 |
+2026-08-13 04:58:54,948 |t:|1786589934
+2026-08-13 04:58:54,948 |move|p2a: Camerupt|Explosion|p1a: Wormadam
+2026-08-13 04:58:54,948 |-resisted|p1a: Wormadam
+2026-08-13 04:58:54,948 |-damage|p1a: Wormadam|0 fnt
+2026-08-13 04:58:54,948 |faint|p2a: Camerupt
+2026-08-13 04:58:54,948 |faint|p1a: Wormadam
+2026-08-13 04:58:54,948 |
+2026-08-13 04:58:54,948 |upkeep
+2026-08-13 04:58:54,948 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,948 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":true,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-13 04:58:54,971 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,971 |
+2026-08-13 04:58:54,971 |t:|1786589934
+2026-08-13 04:58:54,971 |switch|p2a: Lugia|Lugia, L70|264/264
+2026-08-13 04:58:54,971 |switch|p1a: Cloyster|Cloyster, L86, M|100/100
+2026-08-13 04:58:54,971 |-ability|p2a: Lugia|Pressure
+2026-08-13 04:58:54,971 |turn|6
+2026-08-13 04:58:54,975 >battle-gen4randombattle-338419
+2026-08-13 04:58:54,975 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":8,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":17}
+2026-08-13 04:58:55,005 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,005 |
+2026-08-13 04:58:55,005 |t:|1786589934
+2026-08-13 04:58:55,005 |switch|p1a: Porygon-Z|Porygon-Z, L80|38/100
+2026-08-13 04:58:55,005 |move|p2a: Lugia|Roost||[still]
+2026-08-13 04:58:55,005 |-fail|p2a: Lugia|heal
+2026-08-13 04:58:55,005 |
+2026-08-13 04:58:55,005 |upkeep
+2026-08-13 04:58:55,005 |turn|7
+2026-08-13 04:58:55,006 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,007 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":8,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"264/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":19}
+2026-08-13 04:58:55,043 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,043 |
+2026-08-13 04:58:55,043 |t:|1786589935
+2026-08-13 04:58:55,043 |move|p2a: Lugia|Aeroblast|p1a: Porygon-Z
+2026-08-13 04:58:55,043 |-damage|p1a: Porygon-Z|8/100
+2026-08-13 04:58:55,043 |move|p1a: Porygon-Z|Dark Pulse|p2a: Lugia
+2026-08-13 04:58:55,043 |-supereffective|p2a: Lugia
+2026-08-13 04:58:55,043 |-damage|p2a: Lugia|126/264
+2026-08-13 04:58:55,043 |-damage|p1a: Porygon-Z|0 fnt|[from] item: Life Orb
+2026-08-13 04:58:55,043 |faint|p1a: Porygon-Z
+2026-08-13 04:58:55,043 |
+2026-08-13 04:58:55,043 |-heal|p2a: Lugia|142/264|[from] item: Leftovers
+2026-08-13 04:58:55,043 |upkeep
+2026-08-13 04:58:55,046 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,046 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"142/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":21}
+2026-08-13 04:58:55,058 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,058 |
+2026-08-13 04:58:55,058 |t:|1786589935
+2026-08-13 04:58:55,058 |switch|p1a: Primeape|Primeape, L84, M|100/100
+2026-08-13 04:58:55,058 |turn|8
+2026-08-13 04:58:55,060 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,060 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":7,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"142/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":23}
+2026-08-13 04:58:55,088 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,088 |
+2026-08-13 04:58:55,088 |t:|1786589935
+2026-08-13 04:58:55,088 |move|p1a: Primeape|U-turn|p2a: Lugia
+2026-08-13 04:58:55,088 |-damage|p2a: Lugia|68/264
+2026-08-13 04:58:55,089 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,089 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"68/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":25}
+2026-08-13 04:58:55,117 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,117 |
+2026-08-13 04:58:55,117 |t:|1786589935
+2026-08-13 04:58:55,117 |switch|p1a: Gorebyss|Gorebyss, L88, F|100/100|[from] U-turn
+2026-08-13 04:58:55,117 |move|p2a: Lugia|Aeroblast|p1a: Gorebyss
+2026-08-13 04:58:55,117 |-damage|p1a: Gorebyss|69/100
+2026-08-13 04:58:55,117 |
+2026-08-13 04:58:55,117 |-heal|p2a: Lugia|84/264|[from] item: Leftovers
+2026-08-13 04:58:55,117 |upkeep
+2026-08-13 04:58:55,117 |turn|9
+2026-08-13 04:58:55,122 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,122 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":6,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"84/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":27}
+2026-08-13 04:58:55,157 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,157 |
+2026-08-13 04:58:55,157 |t:|1786589935
+2026-08-13 04:58:55,157 |switch|p1a: Cloyster|Cloyster, L86, M|100/100
+2026-08-13 04:58:55,157 |move|p2a: Lugia|Aeroblast|p1a: Cloyster
+2026-08-13 04:58:55,157 |-damage|p1a: Cloyster|51/100
+2026-08-13 04:58:55,157 |
+2026-08-13 04:58:55,157 |-heal|p2a: Lugia|100/264|[from] item: Leftovers
+2026-08-13 04:58:55,157 |-heal|p1a: Cloyster|57/100|[from] item: Leftovers
+2026-08-13 04:58:55,157 |upkeep
+2026-08-13 04:58:55,157 |turn|10
+2026-08-13 04:58:55,159 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,159 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":5,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"100/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":29}
+2026-08-13 04:58:55,196 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,196 |
+2026-08-13 04:58:55,196 |t:|1786589935
+2026-08-13 04:58:55,196 |move|p2a: Lugia|Substitute|p2a: Lugia
+2026-08-13 04:58:55,196 |-start|p2a: Lugia|Substitute
+2026-08-13 04:58:55,196 |-damage|p2a: Lugia|34/264
+2026-08-13 04:58:55,196 |move|p1a: Cloyster|Rock Blast|p2a: Lugia|[miss]
+2026-08-13 04:58:55,196 |-miss|p1a: Cloyster|p2a: Lugia
+2026-08-13 04:58:55,196 |
+2026-08-13 04:58:55,196 |-heal|p2a: Lugia|50/264|[from] item: Leftovers
+2026-08-13 04:58:55,196 |-heal|p1a: Cloyster|63/100|[from] item: Leftovers
+2026-08-13 04:58:55,196 |upkeep
+2026-08-13 04:58:55,196 |turn|11
+2026-08-13 04:58:55,198 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,198 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":5,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"50/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":31}
+2026-08-13 04:58:55,238 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,238 |
+2026-08-13 04:58:55,238 |t:|1786589935
+2026-08-13 04:58:55,238 |move|p2a: Lugia|Aeroblast|p1a: Cloyster
+2026-08-13 04:58:55,238 |-damage|p1a: Cloyster|13/100
+2026-08-13 04:58:55,238 |move|p1a: Cloyster|Spikes|p2a: Lugia
+2026-08-13 04:58:55,239 |-sidestart|p2: BOT2|Spikes
+2026-08-13 04:58:55,239 |
+2026-08-13 04:58:55,239 |-heal|p2a: Lugia|66/264|[from] item: Leftovers
+2026-08-13 04:58:55,239 |-heal|p1a: Cloyster|19/100|[from] item: Leftovers
+2026-08-13 04:58:55,239 |upkeep
+2026-08-13 04:58:55,239 |turn|12
+2026-08-13 04:58:55,240 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,240 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":4,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"66/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":33}
+2026-08-13 04:58:55,283 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,283 |
+2026-08-13 04:58:55,283 |t:|1786589935
+2026-08-13 04:58:55,283 |move|p2a: Lugia|Roost|p2a: Lugia
+2026-08-13 04:58:55,283 |-heal|p2a: Lugia|198/264
+2026-08-13 04:58:55,283 |-singleturn|p2a: Lugia|move: Roost
+2026-08-13 04:58:55,283 |move|p1a: Cloyster|Rock Blast|p2a: Lugia
+2026-08-13 04:58:55,283 |-activate|p2a: Lugia|Substitute|[damage]
+2026-08-13 04:58:55,283 |-activate|p2a: Lugia|Substitute|[damage]
+2026-08-13 04:58:55,283 |-activate|p2a: Lugia|Substitute|[damage]
+2026-08-13 04:58:55,283 |-end|p2a: Lugia|Substitute
+2026-08-13 04:58:55,283 |-damage|p2a: Lugia|180/264
+2026-08-13 04:58:55,283 |-hitcount|p2a: Lugia|5
+2026-08-13 04:58:55,283 |
+2026-08-13 04:58:55,283 |-heal|p2a: Lugia|196/264|[from] item: Leftovers
+2026-08-13 04:58:55,283 |-heal|p1a: Cloyster|25/100|[from] item: Leftovers
+2026-08-13 04:58:55,283 |upkeep
+2026-08-13 04:58:55,283 |turn|13
+2026-08-13 04:58:55,288 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,288 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":4,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"196/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":35}
+2026-08-13 04:58:55,329 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,329 |
+2026-08-13 04:58:55,329 |t:|1786589935
+2026-08-13 04:58:55,329 |move|p2a: Lugia|Aeroblast|p1a: Cloyster|[miss]
+2026-08-13 04:58:55,329 |-miss|p2a: Lugia|p1a: Cloyster
+2026-08-13 04:58:55,329 |move|p1a: Cloyster|Surf|p2a: Lugia
+2026-08-13 04:58:55,329 |-damage|p2a: Lugia|127/264
+2026-08-13 04:58:55,329 |
+2026-08-13 04:58:55,330 |-heal|p2a: Lugia|143/264|[from] item: Leftovers
+2026-08-13 04:58:55,330 |-heal|p1a: Cloyster|31/100|[from] item: Leftovers
+2026-08-13 04:58:55,330 |upkeep
+2026-08-13 04:58:55,330 |turn|14
+2026-08-13 04:58:55,331 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,331 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":3,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"143/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":37}
+2026-08-13 04:58:55,383 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,383 |
+2026-08-13 04:58:55,383 |t:|1786589935
+2026-08-13 04:58:55,383 |move|p2a: Lugia|Substitute|p2a: Lugia
+2026-08-13 04:58:55,383 |-start|p2a: Lugia|Substitute
+2026-08-13 04:58:55,383 |-damage|p2a: Lugia|77/264
+2026-08-13 04:58:55,383 |move|p1a: Cloyster|Rapid Spin|p2a: Lugia
+2026-08-13 04:58:55,383 |-activate|p2a: Lugia|Substitute|[damage]
+2026-08-13 04:58:55,383 |
+2026-08-13 04:58:55,383 |-heal|p2a: Lugia|93/264|[from] item: Leftovers
+2026-08-13 04:58:55,383 |-heal|p1a: Cloyster|38/100|[from] item: Leftovers
+2026-08-13 04:58:55,383 |upkeep
+2026-08-13 04:58:55,383 |turn|15
+2026-08-13 04:58:55,386 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,386 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":3,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"93/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":39}
+2026-08-13 04:58:55,426 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,426 |
+2026-08-13 04:58:55,426 |t:|1786589935
+2026-08-13 04:58:55,426 |move|p2a: Lugia|Aeroblast|p1a: Cloyster
+2026-08-13 04:58:55,426 |-damage|p1a: Cloyster|0 fnt
+2026-08-13 04:58:55,426 |faint|p1a: Cloyster
+2026-08-13 04:58:55,426 |
+2026-08-13 04:58:55,426 |-heal|p2a: Lugia|109/264|[from] item: Leftovers
+2026-08-13 04:58:55,426 |upkeep
+2026-08-13 04:58:55,428 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,428 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"109/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":41}
+2026-08-13 04:58:55,461 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,461 |
+2026-08-13 04:58:55,461 |t:|1786589935
+2026-08-13 04:58:55,461 |switch|p1a: Primeape|Primeape, L84, M|100/100
+2026-08-13 04:58:55,461 |turn|16
+2026-08-13 04:58:55,463 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,463 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":2,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"109/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":43}
+2026-08-13 04:58:55,489 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,489 |
+2026-08-13 04:58:55,489 |t:|1786589935
+2026-08-13 04:58:55,489 |move|p1a: Primeape|Close Combat|p2a: Lugia
+2026-08-13 04:58:55,489 |-resisted|p2a: Lugia
+2026-08-13 04:58:55,489 |-activate|p2a: Lugia|Substitute|[damage]
+2026-08-13 04:58:55,489 |-unboost|p1a: Primeape|def|1
+2026-08-13 04:58:55,489 |-unboost|p1a: Primeape|spd|1
+2026-08-13 04:58:55,490 |move|p2a: Lugia|Aeroblast|p1a: Primeape
+2026-08-13 04:58:55,490 |-supereffective|p1a: Primeape
+2026-08-13 04:58:55,490 |-crit|p1a: Primeape
+2026-08-13 04:58:55,490 |-damage|p1a: Primeape|0 fnt
+2026-08-13 04:58:55,490 |faint|p1a: Primeape
+2026-08-13 04:58:55,490 |
+2026-08-13 04:58:55,490 |-heal|p2a: Lugia|125/264|[from] item: Leftovers
+2026-08-13 04:58:55,490 |upkeep
+2026-08-13 04:58:55,490 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,490 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"125/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":45}
+2026-08-13 04:58:55,517 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,517 |
+2026-08-13 04:58:55,517 |t:|1786589935
+2026-08-13 04:58:55,517 |switch|p1a: Gorebyss|Gorebyss, L88, F|69/100
+2026-08-13 04:58:55,517 |turn|17
+2026-08-13 04:58:55,521 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,521 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":1,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"125/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":47}
+2026-08-13 04:58:55,561 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,561 |
+2026-08-13 04:58:55,561 |t:|1786589935
+2026-08-13 04:58:55,561 |move|p2a: Lugia|Substitute|p2a: Lugia
+2026-08-13 04:58:55,561 |-fail|p2a: Lugia|move: Substitute
+2026-08-13 04:58:55,561 |move|p1a: Gorebyss|Rain Dance|p1a: Gorebyss
+2026-08-13 04:58:55,561 |-weather|RainDance
+2026-08-13 04:58:55,561 |
+2026-08-13 04:58:55,561 |-weather|RainDance|[upkeep]
+2026-08-13 04:58:55,561 |-heal|p2a: Lugia|141/264|[from] item: Leftovers
+2026-08-13 04:58:55,561 |upkeep
+2026-08-13 04:58:55,561 |turn|18
+2026-08-13 04:58:55,562 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,562 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":1,"maxpp":8,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"141/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":49}
+2026-08-13 04:58:55,607 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,607 |
+2026-08-13 04:58:55,607 |t:|1786589935
+2026-08-13 04:58:55,607 |switch|p1a: Sudowoodo|Sudowoodo, L92, M|100/100
+2026-08-13 04:58:55,607 |move|p2a: Lugia|Aeroblast|p1a: Sudowoodo
+2026-08-13 04:58:55,607 |-resisted|p1a: Sudowoodo
+2026-08-13 04:58:55,607 |-crit|p1a: Sudowoodo
+2026-08-13 04:58:55,607 |-damage|p1a: Sudowoodo|70/100
+2026-08-13 04:58:55,607 |
+2026-08-13 04:58:55,607 |-weather|RainDance|[upkeep]
+2026-08-13 04:58:55,607 |-heal|p2a: Lugia|157/264|[from] item: Leftovers
+2026-08-13 04:58:55,607 |-heal|p1a: Sudowoodo|76/100|[from] item: Leftovers
+2026-08-13 04:58:55,607 |upkeep
+2026-08-13 04:58:55,607 |turn|19
+2026-08-13 04:58:55,607 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,607 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":0,"maxpp":8,"target":"any","disabled":true},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"157/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":51}
+2026-08-13 04:58:55,640 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,640 |
+2026-08-13 04:58:55,640 |t:|1786589935
+2026-08-13 04:58:55,640 |move|p2a: Lugia|Substitute|p2a: Lugia
+2026-08-13 04:58:55,640 |-fail|p2a: Lugia|move: Substitute
+2026-08-13 04:58:55,640 |move|p1a: Sudowoodo|Wood Hammer|p2a: Lugia
+2026-08-13 04:58:55,640 |-resisted|p2a: Lugia
+2026-08-13 04:58:55,640 |-end|p2a: Lugia|Substitute
+2026-08-13 04:58:55,640 |
+2026-08-13 04:58:55,640 |-weather|RainDance|[upkeep]
+2026-08-13 04:58:55,640 |-heal|p2a: Lugia|173/264|[from] item: Leftovers
+2026-08-13 04:58:55,640 |-heal|p1a: Sudowoodo|82/100|[from] item: Leftovers
+2026-08-13 04:58:55,640 |upkeep
+2026-08-13 04:58:55,641 |turn|20
+2026-08-13 04:58:55,642 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,642 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":0,"maxpp":8,"target":"any","disabled":true},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"173/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":53}
+2026-08-13 04:58:55,691 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,691 |
+2026-08-13 04:58:55,691 |t:|1786589935
+2026-08-13 04:58:55,691 |move|p2a: Lugia|Roost|p2a: Lugia
+2026-08-13 04:58:55,691 |-heal|p2a: Lugia|264/264
+2026-08-13 04:58:55,691 |-singleturn|p2a: Lugia|move: Roost
+2026-08-13 04:58:55,691 |move|p1a: Sudowoodo|Stone Edge|p2a: Lugia
+2026-08-13 04:58:55,691 |-crit|p2a: Lugia
+2026-08-13 04:58:55,691 |-damage|p2a: Lugia|21/264
+2026-08-13 04:58:55,691 |
+2026-08-13 04:58:55,691 |-weather|RainDance|[upkeep]
+2026-08-13 04:58:55,691 |-heal|p2a: Lugia|37/264|[from] item: Leftovers
+2026-08-13 04:58:55,691 |-heal|p1a: Sudowoodo|88/100|[from] item: Leftovers
+2026-08-13 04:58:55,691 |upkeep
+2026-08-13 04:58:55,691 |turn|21
+2026-08-13 04:58:55,693 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,693 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":0,"maxpp":8,"target":"any","disabled":true},{"move":"Roost","id":"roost","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"37/264","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":55}
+2026-08-13 04:58:55,741 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,741 |
+2026-08-13 04:58:55,741 |t:|1786589935
+2026-08-13 04:58:55,742 |move|p2a: Lugia|Toxic|p1a: Sudowoodo
+2026-08-13 04:58:55,742 |-status|p1a: Sudowoodo|tox
+2026-08-13 04:58:55,742 |move|p1a: Sudowoodo|Toxic|p2a: Lugia
+2026-08-13 04:58:55,742 |-status|p2a: Lugia|tox
+2026-08-13 04:58:55,742 |
+2026-08-13 04:58:55,742 |-weather|none
+2026-08-13 04:58:55,742 |-heal|p2a: Lugia|53/264 tox|[from] item: Leftovers
+2026-08-13 04:58:55,742 |-damage|p2a: Lugia|37/264 tox|[from] psn
+2026-08-13 04:58:55,742 |-heal|p1a: Sudowoodo|94/100 tox|[from] item: Leftovers
+2026-08-13 04:58:55,742 |-damage|p1a: Sudowoodo|88/100 tox|[from] psn
+2026-08-13 04:58:55,742 |upkeep
+2026-08-13 04:58:55,742 |turn|22
+2026-08-13 04:58:55,744 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,744 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":0,"maxpp":8,"target":"any","disabled":true},{"move":"Roost","id":"roost","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"37/264 tox","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":57}
+2026-08-13 04:58:55,800 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,800 |
+2026-08-13 04:58:55,800 |t:|1786589935
+2026-08-13 04:58:55,800 |move|p2a: Lugia|Roost|p2a: Lugia
+2026-08-13 04:58:55,800 |-heal|p2a: Lugia|169/264 tox
+2026-08-13 04:58:55,800 |-singleturn|p2a: Lugia|move: Roost
+2026-08-13 04:58:55,800 |move|p1a: Sudowoodo|Earthquake|p2a: Lugia
+2026-08-13 04:58:55,800 |-damage|p2a: Lugia|95/264 tox
+2026-08-13 04:58:55,800 |
+2026-08-13 04:58:55,800 |-heal|p2a: Lugia|111/264 tox|[from] item: Leftovers
+2026-08-13 04:58:55,800 |-damage|p2a: Lugia|79/264 tox|[from] psn
+2026-08-13 04:58:55,800 |-heal|p1a: Sudowoodo|94/100 tox|[from] item: Leftovers
+2026-08-13 04:58:55,800 |-damage|p1a: Sudowoodo|82/100 tox|[from] psn
+2026-08-13 04:58:55,800 |upkeep
+2026-08-13 04:58:55,800 |turn|23
+2026-08-13 04:58:55,802 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,802 |request|{"active":[{"moves":[{"move":"Aeroblast","id":"aeroblast","pp":0,"maxpp":8,"target":"any","disabled":true},{"move":"Roost","id":"roost","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"79/264 tox","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-13 04:58:55,839 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,839 |
+2026-08-13 04:58:55,839 |t:|1786589935
+2026-08-13 04:58:55,839 |move|p2a: Lugia|Substitute|p2a: Lugia
+2026-08-13 04:58:55,839 |-start|p2a: Lugia|Substitute
+2026-08-13 04:58:55,839 |-damage|p2a: Lugia|13/264 tox
+2026-08-13 04:58:55,839 |move|p1a: Sudowoodo|Stone Edge|p2a: Lugia
+2026-08-13 04:58:55,839 |-supereffective|p2a: Lugia
+2026-08-13 04:58:55,839 |-end|p2a: Lugia|Substitute
+2026-08-13 04:58:55,839 |
+2026-08-13 04:58:55,839 |-heal|p2a: Lugia|29/264 tox|[from] item: Leftovers
+2026-08-13 04:58:55,839 |-damage|p2a: Lugia|0 fnt|[from] psn
+2026-08-13 04:58:55,839 |faint|p2a: Lugia
+2026-08-13 04:58:55,839 |-heal|p1a: Sudowoodo|88/100 tox|[from] item: Leftovers
+2026-08-13 04:58:55,839 |-damage|p1a: Sudowoodo|70/100 tox|[from] psn
+2026-08-13 04:58:55,839 |upkeep
+2026-08-13 04:58:55,841 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,841 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":true,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-13 04:58:55,866 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,866 |
+2026-08-13 04:58:55,866 |t:|1786589935
+2026-08-13 04:58:55,866 |switch|p2a: Meganium|Meganium, L91, M|293/293
+2026-08-13 04:58:55,866 |-damage|p2a: Meganium|257/293|[from] Spikes
+2026-08-13 04:58:55,866 |turn|24
+2026-08-13 04:58:55,868 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,868 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Aromatherapy","id":"aromatherapy","pp":8,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"257/293","active":true,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":63}
+2026-08-13 04:58:55,901 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,901 |
+2026-08-13 04:58:55,901 |t:|1786589935
+2026-08-13 04:58:55,901 |move|p2a: Meganium|Aromatherapy|p2a: Meganium
+2026-08-13 04:58:55,901 |-cureteam|p2a: Meganium|[from] move: Aromatherapy
+2026-08-13 04:58:55,901 |move|p1a: Sudowoodo|Earthquake|p2a: Meganium
+2026-08-13 04:58:55,901 |-resisted|p2a: Meganium
+2026-08-13 04:58:55,901 |-damage|p2a: Meganium|224/293
+2026-08-13 04:58:55,901 |
+2026-08-13 04:58:55,901 |-heal|p2a: Meganium|242/293|[from] item: Leftovers
+2026-08-13 04:58:55,901 |-heal|p1a: Sudowoodo|76/100 tox|[from] item: Leftovers
+2026-08-13 04:58:55,901 |-damage|p1a: Sudowoodo|51/100 tox|[from] psn
+2026-08-13 04:58:55,901 |upkeep
+2026-08-13 04:58:55,901 |turn|25
+2026-08-13 04:58:55,906 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,906 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"242/293","active":true,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":65}
+2026-08-13 04:58:55,947 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,947 |
+2026-08-13 04:58:55,947 |t:|1786589935
+2026-08-13 04:58:55,947 |move|p2a: Meganium|Toxic|p1a: Sudowoodo
+2026-08-13 04:58:55,947 |-fail|p1a: Sudowoodo|tox
+2026-08-13 04:58:55,947 |move|p1a: Sudowoodo|Stone Edge|p2a: Meganium
+2026-08-13 04:58:55,947 |-damage|p2a: Meganium|131/293
+2026-08-13 04:58:55,947 |
+2026-08-13 04:58:55,947 |-heal|p2a: Meganium|149/293|[from] item: Leftovers
+2026-08-13 04:58:55,947 |-heal|p1a: Sudowoodo|57/100 tox|[from] item: Leftovers
+2026-08-13 04:58:55,947 |-damage|p1a: Sudowoodo|27/100 tox|[from] psn
+2026-08-13 04:58:55,947 |upkeep
+2026-08-13 04:58:55,947 |turn|26
+2026-08-13 04:58:55,954 >battle-gen4randombattle-338419
+2026-08-13 04:58:55,954 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"149/293","active":true,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-13 04:58:56,012 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,012 |
+2026-08-13 04:58:56,012 |t:|1786589935
+2026-08-13 04:58:56,012 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-13 04:58:56,012 |-heal|p2a: Meganium|293/293
+2026-08-13 04:58:56,012 |move|p1a: Sudowoodo|Stone Edge|p2a: Meganium
+2026-08-13 04:58:56,012 |-damage|p2a: Meganium|194/293
+2026-08-13 04:58:56,012 |
+2026-08-13 04:58:56,012 |-heal|p2a: Meganium|212/293|[from] item: Leftovers
+2026-08-13 04:58:56,012 |-heal|p1a: Sudowoodo|33/100 tox|[from] item: Leftovers
+2026-08-13 04:58:56,012 |-damage|p1a: Sudowoodo|0 fnt|[from] psn
+2026-08-13 04:58:56,012 |faint|p1a: Sudowoodo
+2026-08-13 04:58:56,012 |upkeep
+2026-08-13 04:58:56,012 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,012 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"212/293","active":true,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":69}
+2026-08-13 04:58:56,026 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,026 |
+2026-08-13 04:58:56,026 |t:|1786589936
+2026-08-13 04:58:56,026 |switch|p1a: Gorebyss|Gorebyss, L88, F|69/100
+2026-08-13 04:58:56,026 |turn|27
+2026-08-13 04:58:56,029 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,029 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"212/293","active":true,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"380/380","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":71}
+2026-08-13 04:58:56,078 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,078 |
+2026-08-13 04:58:56,078 |t:|1786589936
+2026-08-13 04:58:56,078 |switch|p2a: Slaking|Slaking, L82, M|380/380
+2026-08-13 04:58:56,078 |-damage|p2a: Slaking|333/380|[from] Spikes
+2026-08-13 04:58:56,078 |move|p1a: Gorebyss|Ice Beam|p2a: Slaking
+2026-08-13 04:58:56,078 |-damage|p2a: Slaking|204/380
+2026-08-13 04:58:56,078 |-status|p2a: Slaking|frz
+2026-08-13 04:58:56,078 |-damage|p1a: Gorebyss|59/100|[from] item: Life Orb
+2026-08-13 04:58:56,078 |
+2026-08-13 04:58:56,078 |upkeep
+2026-08-13 04:58:56,078 |turn|28
+2026-08-13 04:58:56,080 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,080 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Giga Impact","id":"gigaimpact","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"204/380 frz","active":true,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"212/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-13 04:58:56,120 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,120 |
+2026-08-13 04:58:56,121 |t:|1786589936
+2026-08-13 04:58:56,121 |cant|p2a: Slaking|frz
+2026-08-13 04:58:56,121 |move|p1a: Gorebyss|Ice Beam|p2a: Slaking
+2026-08-13 04:58:56,121 |-damage|p2a: Slaking|75/380 frz
+2026-08-13 04:58:56,121 |-damage|p1a: Gorebyss|49/100|[from] item: Life Orb
+2026-08-13 04:58:56,121 |
+2026-08-13 04:58:56,121 |upkeep
+2026-08-13 04:58:56,121 |turn|29
+2026-08-13 04:58:56,121 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,121 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Giga Impact","id":"gigaimpact","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"75/380 frz","active":true,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"212/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":75}
+2026-08-13 04:58:56,160 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,160 |
+2026-08-13 04:58:56,160 |t:|1786589936
+2026-08-13 04:58:56,160 |cant|p2a: Slaking|frz
+2026-08-13 04:58:56,160 |move|p1a: Gorebyss|Hidden Power|p2a: Slaking
+2026-08-13 04:58:56,160 |-damage|p2a: Slaking|0 fnt
+2026-08-13 04:58:56,160 |faint|p2a: Slaking
+2026-08-13 04:58:56,160 |-damage|p1a: Gorebyss|39/100|[from] item: Life Orb
+2026-08-13 04:58:56,160 |
+2026-08-13 04:58:56,160 |upkeep
+2026-08-13 04:58:56,163 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,163 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"0 fnt","active":true,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"212/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":77}
+2026-08-13 04:58:56,198 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,198 |
+2026-08-13 04:58:56,198 |t:|1786589936
+2026-08-13 04:58:56,198 |switch|p2a: Meganium|Meganium, L91, M|212/293
+2026-08-13 04:58:56,198 |-damage|p2a: Meganium|176/293|[from] Spikes
+2026-08-13 04:58:56,198 |turn|30
+2026-08-13 04:58:56,198 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,198 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"176/293","active":true,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"240/240","active":false,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"0 fnt","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":79}
+2026-08-13 04:58:56,255 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,255 |
+2026-08-13 04:58:56,255 |t:|1786589936
+2026-08-13 04:58:56,255 |switch|p2a: Lucario|Lucario, L79, M|240/240
+2026-08-13 04:58:56,255 |-damage|p2a: Lucario|210/240|[from] Spikes
+2026-08-13 04:58:56,256 |move|p1a: Gorebyss|Ice Beam|p2a: Lucario
+2026-08-13 04:58:56,256 |-resisted|p2a: Lucario
+2026-08-13 04:58:56,256 |-damage|p2a: Lucario|145/240
+2026-08-13 04:58:56,256 |-status|p2a: Lucario|frz
+2026-08-13 04:58:56,256 |-damage|p1a: Gorebyss|29/100|[from] item: Life Orb
+2026-08-13 04:58:56,256 |
+2026-08-13 04:58:56,256 |upkeep
+2026-08-13 04:58:56,256 |turn|31
+2026-08-13 04:58:56,258 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,259 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Extreme Speed","id":"extremespeed","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"145/240 frz","active":true,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"176/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"0 fnt","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-13 04:58:56,286 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,286 |
+2026-08-13 04:58:56,286 |t:|1786589936
+2026-08-13 04:58:56,286 |cant|p2a: Lucario|frz
+2026-08-13 04:58:56,286 |move|p1a: Gorebyss|Rain Dance|p1a: Gorebyss
+2026-08-13 04:58:56,286 |-weather|RainDance
+2026-08-13 04:58:56,286 |
+2026-08-13 04:58:56,286 |-weather|RainDance|[upkeep]
+2026-08-13 04:58:56,286 |upkeep
+2026-08-13 04:58:56,286 |turn|32
+2026-08-13 04:58:56,288 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,288 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Extreme Speed","id":"extremespeed","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"145/240 frz","active":true,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"176/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"0 fnt","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":83}
+2026-08-13 04:58:56,388 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,388 |
+2026-08-13 04:58:56,388 |t:|1786589936
+2026-08-13 04:58:56,388 |move|p1a: Gorebyss|Rain Dance||[still]
+2026-08-13 04:58:56,388 |-fail|p1a: Gorebyss
+2026-08-13 04:58:56,388 |-curestatus|p2a: Lucario|frz|[msg]
+2026-08-13 04:58:56,388 |move|p2a: Lucario|Crunch|p1a: Gorebyss
+2026-08-13 04:58:56,388 |-damage|p1a: Gorebyss|2/100
+2026-08-13 04:58:56,388 |
+2026-08-13 04:58:56,389 |-weather|RainDance|[upkeep]
+2026-08-13 04:58:56,389 |upkeep
+2026-08-13 04:58:56,389 |turn|33
+2026-08-13 04:58:56,391 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,391 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Extreme Speed","id":"extremespeed","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lucario","details":"Lucario, L79, M","condition":"145/240","active":true,"stats":{"atk":219,"def":156,"spa":227,"spd":156,"spe":188},"moves":["stoneedge","crunch","closecombat","extremespeed"],"baseAbility":"innerfocus","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"176/293","active":false,"stats":{"atk":154,"def":234,"spa":203,"spd":234,"spe":197},"moves":["toxic","synthesis","energyball","aromatherapy"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lugia","details":"Lugia, L70","condition":"0 fnt","active":false,"stats":{"atk":131,"def":223,"spa":167,"spd":257,"spe":195},"moves":["aeroblast","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, F","condition":"0 fnt","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["uturn","bravebird","protect","facade"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Slaking","details":"Slaking, L82, M","condition":"0 fnt","active":false,"stats":{"atk":310,"def":211,"spa":203,"spd":154,"spe":211},"moves":["doubleedge","earthquake","gigaimpact","nightslash"],"baseAbility":"truant","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Camerupt","details":"Camerupt, L90, M","condition":"0 fnt","active":false,"stats":{"atk":231,"def":177,"spa":240,"spd":186,"spe":123},"moves":["explosion","rockpolish","earthquake","fireblast"],"baseAbility":"solidrock","item":"lifeorb","pokeball":"pokeball"}]},"rqid":85}
+2026-08-13 04:58:56,503 >battle-gen4randombattle-338419
+2026-08-13 04:58:56,504 |
+2026-08-13 04:58:56,504 |t:|1786589936
+2026-08-13 04:58:56,504 |switch|p2a: Meganium|Meganium, L91, M|176/293
+2026-08-13 04:58:56,504 |-damage|p2a: Meganium|140/293|[from] Spikes
+2026-08-13 04:58:56,504 |move|p1a: Gorebyss|Hidden Power|p2a: Meganium
+2026-08-13 04:58:56,504 |-resisted|p2a: Meganium
+2026-08-13 04:58:56,504 |-damage|p2a: Meganium|108/293
+2026-08-13 04:58:56,504 |-damage|p1a: Gorebyss|0 fnt|[from] item: Life Orb
+2026-08-13 04:58:56,504 |faint|p1a: Gorebyss
+2026-08-13 04:58:56,504 |
+2026-08-13 04:58:56,504 |win|BOT2

@@ -1,11 +1,17 @@
+# pyright: reportImportCycles=false
+# The import cycle is for typing only, changing the project architecture would probably add more overhead.
 from abc import ABC
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 
 from python_showdown.classes.parser.models import ProtocolAnnotation, ProtocolMessage
 
 
+@dataclass(frozen=True)
 class BaseEvent(ABC):
     """A complete semantic event derived from one or more protocol messages."""
+
+    def to_dict(self) -> dict[str, object]:
+        return {"event_type": self.__class__.__name__, **asdict(self)}
 
 
 def unhandled_event(

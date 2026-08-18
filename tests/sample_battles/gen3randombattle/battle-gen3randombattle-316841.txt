@@ -1,0 +1,533 @@
+2026-08-12 12:05:03,611 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,611 |init|battle
+2026-08-12 12:05:03,612 |title|BOT1 vs. BOT2
+2026-08-12 12:05:03,612 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-316841">battle-gen3randombattle-316841</a>&raquo;
+2026-08-12 12:05:03,655 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,655 |t:|1786529103
+2026-08-12 12:05:03,655 |gametype|singles
+2026-08-12 12:05:03,655 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,655 |player|p1|BOT1|170|
+2026-08-12 12:05:03,655 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,655 |player|p2|BOT2|170|
+2026-08-12 12:05:03,655 |gen|3
+2026-08-12 12:05:03,655 |tier|[Gen 3] Random Battle
+2026-08-12 12:05:03,655 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:05:03,655 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:05:03,655 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:05:03,655 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:05:03,655 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:05:03,655 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:05:03,655 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:05:03,655 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:05:03,655 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:05:03,655 |
+2026-08-12 12:05:03,655 |t:|1786529103
+2026-08-12 12:05:03,655 |teamsize|p1|6
+2026-08-12 12:05:03,655 |teamsize|p2|6
+2026-08-12 12:05:03,655 |start
+2026-08-12 12:05:03,655 |switch|p1a: Misdreavus|Misdreavus, L85, F|100/100
+2026-08-12 12:05:03,655 |switch|p2a: Delcatty|Delcatty, L96, F|290/290
+2026-08-12 12:05:03,655 |turn|1
+2026-08-12 12:05:03,656 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,656 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"290/290","active":true,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:05:03,691 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,691 |
+2026-08-12 12:05:03,691 |t:|1786529103
+2026-08-12 12:05:03,691 |move|p1a: Misdreavus|Mean Look|p2a: Delcatty
+2026-08-12 12:05:03,691 |-activate|p2a: Delcatty|trapped
+2026-08-12 12:05:03,691 |move|p2a: Delcatty|Wish|p2a: Delcatty
+2026-08-12 12:05:03,691 |
+2026-08-12 12:05:03,691 |upkeep
+2026-08-12 12:05:03,691 |turn|2
+2026-08-12 12:05:03,691 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,691 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"290/290","active":true,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:05:03,706 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,706 |error|[Invalid choice] Can't switch: The active Pokémon is trapped
+2026-08-12 12:05:03,735 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,735 |
+2026-08-12 12:05:03,735 |t:|1786529103
+2026-08-12 12:05:03,735 |move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+2026-08-12 12:05:03,735 |-start|p1a: Misdreavus|perish3|[silent]
+2026-08-12 12:05:03,735 |-start|p2a: Delcatty|perish3|[silent]
+2026-08-12 12:05:03,735 |-fieldactivate|move: Perish Song
+2026-08-12 12:05:03,735 |move|p2a: Delcatty|Wish||[still]
+2026-08-12 12:05:03,735 |-fail|p2a: Delcatty
+2026-08-12 12:05:03,735 |
+2026-08-12 12:05:03,735 |-start|p1a: Misdreavus|perish3
+2026-08-12 12:05:03,735 |-start|p2a: Delcatty|perish3
+2026-08-12 12:05:03,735 |upkeep
+2026-08-12 12:05:03,735 |turn|3
+2026-08-12 12:05:03,741 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,741 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"290/290","active":true,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:05:03,767 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,767 |
+2026-08-12 12:05:03,767 |t:|1786529103
+2026-08-12 12:05:03,767 |move|p1a: Misdreavus|Mean Look||[still]
+2026-08-12 12:05:03,767 |-fail|p1a: Misdreavus
+2026-08-12 12:05:03,767 |move|p2a: Delcatty|Heal Bell|p2a: Delcatty
+2026-08-12 12:05:03,767 |-activate|p2a: Delcatty|move: Heal Bell
+2026-08-12 12:05:03,767 |
+2026-08-12 12:05:03,767 |-start|p1a: Misdreavus|perish2
+2026-08-12 12:05:03,767 |-start|p2a: Delcatty|perish2
+2026-08-12 12:05:03,767 |upkeep
+2026-08-12 12:05:03,767 |turn|4
+2026-08-12 12:05:03,767 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,767 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"290/290","active":true,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:05:03,828 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,828 |
+2026-08-12 12:05:03,828 |t:|1786529103
+2026-08-12 12:05:03,828 |move|p1a: Misdreavus|Protect|p1a: Misdreavus
+2026-08-12 12:05:03,828 |-singleturn|p1a: Misdreavus|Protect
+2026-08-12 12:05:03,828 |move|p2a: Delcatty|Body Slam|p1a: Misdreavus
+2026-08-12 12:05:03,828 |-activate|p1a: Misdreavus|Protect
+2026-08-12 12:05:03,828 |
+2026-08-12 12:05:03,829 |-start|p1a: Misdreavus|perish1
+2026-08-12 12:05:03,829 |-start|p2a: Delcatty|perish1
+2026-08-12 12:05:03,829 |upkeep
+2026-08-12 12:05:03,829 |turn|5
+2026-08-12 12:05:03,830 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,830 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"290/290","active":true,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:05:03,869 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,869 |
+2026-08-12 12:05:03,869 |t:|1786529103
+2026-08-12 12:05:03,869 |move|p1a: Misdreavus|Mean Look||[still]
+2026-08-12 12:05:03,869 |-fail|p1a: Misdreavus
+2026-08-12 12:05:03,869 |move|p2a: Delcatty|Wish|p2a: Delcatty
+2026-08-12 12:05:03,869 |
+2026-08-12 12:05:03,869 |-start|p1a: Misdreavus|perish0
+2026-08-12 12:05:03,869 |-start|p2a: Delcatty|perish0
+2026-08-12 12:05:03,869 |upkeep
+2026-08-12 12:05:03,869 |faint|p1a: Misdreavus
+2026-08-12 12:05:03,869 |faint|p2a: Delcatty
+2026-08-12 12:05:03,869 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,869 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":true,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:05:03,890 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,890 |
+2026-08-12 12:05:03,890 |t:|1786529103
+2026-08-12 12:05:03,890 |switch|p1a: Tyranitar|Tyranitar, L74, F|100/100
+2026-08-12 12:05:03,890 |switch|p2a: Heracross|Heracross, L77, M|250/250
+2026-08-12 12:05:03,890 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+2026-08-12 12:05:03,890 |turn|6
+2026-08-12 12:05:03,903 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,903 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:05:03,942 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,942 |
+2026-08-12 12:05:03,942 |t:|1786529103
+2026-08-12 12:05:03,942 |switch|p2a: Luvdisc|Luvdisc, M|248/248
+2026-08-12 12:05:03,942 |switch|p1a: Metagross|Metagross, L73|100/100
+2026-08-12 12:05:03,942 |
+2026-08-12 12:05:03,942 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:03,942 |-damage|p2a: Luvdisc|233/248|[from] Sandstorm
+2026-08-12 12:05:03,942 |-heal|p2a: Luvdisc|248/248|[from] item: Leftovers
+2026-08-12 12:05:03,942 |upkeep
+2026-08-12 12:05:03,942 |turn|7
+2026-08-12 12:05:03,942 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,942 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:05:03,989 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,989 |
+2026-08-12 12:05:03,989 |t:|1786529103
+2026-08-12 12:05:03,989 |switch|p2a: Heracross|Heracross, L77, M|250/250
+2026-08-12 12:05:03,989 |switch|p1a: Tyranitar|Tyranitar, L74, F|100/100
+2026-08-12 12:05:03,989 |
+2026-08-12 12:05:03,989 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:03,990 |-damage|p2a: Heracross|235/250|[from] Sandstorm
+2026-08-12 12:05:03,990 |upkeep
+2026-08-12 12:05:03,990 |turn|8
+2026-08-12 12:05:03,991 >battle-gen3randombattle-316841
+2026-08-12 12:05:03,991 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"235/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:05:04,056 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,056 |
+2026-08-12 12:05:04,056 |t:|1786529104
+2026-08-12 12:05:04,056 |move|p2a: Heracross|Megahorn|p1a: Tyranitar
+2026-08-12 12:05:04,056 |-supereffective|p1a: Tyranitar
+2026-08-12 12:05:04,056 |-damage|p1a: Tyranitar|11/100
+2026-08-12 12:05:04,056 |move|p1a: Tyranitar|Rock Slide|p2a: Heracross
+2026-08-12 12:05:04,056 |-damage|p2a: Heracross|142/250
+2026-08-12 12:05:04,056 |
+2026-08-12 12:05:04,056 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,056 |-damage|p2a: Heracross|127/250|[from] Sandstorm
+2026-08-12 12:05:04,056 |upkeep
+2026-08-12 12:05:04,056 |turn|9
+2026-08-12 12:05:04,057 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,057 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"127/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:05:04,102 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,102 |
+2026-08-12 12:05:04,102 |t:|1786529104
+2026-08-12 12:05:04,102 |switch|p1a: Slowking|Slowking, L82, F|100/100
+2026-08-12 12:05:04,102 |move|p2a: Heracross|Brick Break|p1a: Slowking
+2026-08-12 12:05:04,102 |-resisted|p1a: Slowking
+2026-08-12 12:05:04,102 |-damage|p1a: Slowking|84/100
+2026-08-12 12:05:04,102 |
+2026-08-12 12:05:04,102 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,102 |-damage|p2a: Heracross|112/250|[from] Sandstorm
+2026-08-12 12:05:04,102 |-damage|p1a: Slowking|78/100|[from] Sandstorm
+2026-08-12 12:05:04,102 |-heal|p1a: Slowking|84/100|[from] item: Leftovers
+2026-08-12 12:05:04,102 |upkeep
+2026-08-12 12:05:04,102 |turn|10
+2026-08-12 12:05:04,109 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,109 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"112/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:05:04,131 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,131 |
+2026-08-12 12:05:04,131 |t:|1786529104
+2026-08-12 12:05:04,131 |switch|p1a: Tyranitar|Tyranitar, L74, F|11/100
+2026-08-12 12:05:04,131 |move|p2a: Heracross|Megahorn|p1a: Tyranitar
+2026-08-12 12:05:04,131 |-supereffective|p1a: Tyranitar
+2026-08-12 12:05:04,131 |-crit|p1a: Tyranitar
+2026-08-12 12:05:04,131 |-damage|p1a: Tyranitar|0 fnt
+2026-08-12 12:05:04,131 |faint|p1a: Tyranitar
+2026-08-12 12:05:04,137 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,137 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"112/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:05:04,154 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,154 |
+2026-08-12 12:05:04,154 |t:|1786529104
+2026-08-12 12:05:04,154 |switch|p1a: Jolteon|Jolteon, L77, M|100/100
+2026-08-12 12:05:04,154 |
+2026-08-12 12:05:04,154 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,154 |-damage|p1a: Jolteon|94/100|[from] Sandstorm
+2026-08-12 12:05:04,155 |-damage|p2a: Heracross|97/250|[from] Sandstorm
+2026-08-12 12:05:04,155 |-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,155 |upkeep
+2026-08-12 12:05:04,155 |turn|11
+2026-08-12 12:05:04,158 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,158 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"97/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:05:04,180 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,180 |
+2026-08-12 12:05:04,180 |t:|1786529104
+2026-08-12 12:05:04,180 |move|p1a: Jolteon|Thunderbolt|p2a: Heracross
+2026-08-12 12:05:04,180 |-damage|p2a: Heracross|0 fnt
+2026-08-12 12:05:04,180 |faint|p2a: Heracross
+2026-08-12 12:05:04,180 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,180 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"314/314","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":29}
+2026-08-12 12:05:04,208 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,208 |
+2026-08-12 12:05:04,208 |t:|1786529104
+2026-08-12 12:05:04,208 |switch|p2a: Muk|Muk, L84, M|314/314
+2026-08-12 12:05:04,208 |
+2026-08-12 12:05:04,208 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,208 |-damage|p1a: Jolteon|94/100|[from] Sandstorm
+2026-08-12 12:05:04,208 |-damage|p2a: Muk|295/314|[from] Sandstorm
+2026-08-12 12:05:04,208 |-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,208 |upkeep
+2026-08-12 12:05:04,208 |turn|12
+2026-08-12 12:05:04,208 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,208 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Muk","details":"Muk, L84, M","condition":"295/314","active":true,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:05:04,245 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,245 |
+2026-08-12 12:05:04,245 |t:|1786529104
+2026-08-12 12:05:04,245 |move|p1a: Jolteon|Protect|p1a: Jolteon
+2026-08-12 12:05:04,245 |-singleturn|p1a: Jolteon|Protect
+2026-08-12 12:05:04,245 |move|p2a: Muk|Hidden Power|p1a: Jolteon
+2026-08-12 12:05:04,245 |-activate|p1a: Jolteon|Protect
+2026-08-12 12:05:04,245 |
+2026-08-12 12:05:04,245 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,245 |-damage|p1a: Jolteon|94/100|[from] Sandstorm
+2026-08-12 12:05:04,245 |-damage|p2a: Muk|276/314|[from] Sandstorm
+2026-08-12 12:05:04,245 |-heal|p1a: Jolteon|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,245 |upkeep
+2026-08-12 12:05:04,245 |turn|13
+2026-08-12 12:05:04,249 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,249 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Muk","details":"Muk, L84, M","condition":"276/314","active":true,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:05:04,279 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,279 |
+2026-08-12 12:05:04,279 |t:|1786529104
+2026-08-12 12:05:04,279 |move|p1a: Jolteon|Thunderbolt|p2a: Muk
+2026-08-12 12:05:04,279 |-damage|p2a: Muk|192/314
+2026-08-12 12:05:04,279 |move|p2a: Muk|Hidden Power|p1a: Jolteon
+2026-08-12 12:05:04,279 |-supereffective|p1a: Jolteon
+2026-08-12 12:05:04,279 |-damage|p1a: Jolteon|0 fnt
+2026-08-12 12:05:04,279 |faint|p1a: Jolteon
+2026-08-12 12:05:04,283 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,283 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Muk","details":"Muk, L84, M","condition":"192/314","active":true,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:05:04,306 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,306 |
+2026-08-12 12:05:04,306 |t:|1786529104
+2026-08-12 12:05:04,306 |switch|p1a: Metagross|Metagross, L73|100/100
+2026-08-12 12:05:04,306 |
+2026-08-12 12:05:04,306 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,306 |-damage|p2a: Muk|173/314|[from] Sandstorm
+2026-08-12 12:05:04,306 |upkeep
+2026-08-12 12:05:04,306 |turn|14
+2026-08-12 12:05:04,310 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,310 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Muk","details":"Muk, L84, M","condition":"173/314","active":true,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:05:04,356 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,356 |
+2026-08-12 12:05:04,357 |t:|1786529104
+2026-08-12 12:05:04,357 |move|p1a: Metagross|Meteor Mash|p2a: Muk|[miss]
+2026-08-12 12:05:04,357 |-miss|p1a: Metagross|p2a: Muk
+2026-08-12 12:05:04,357 |move|p2a: Muk|Hidden Power|p1a: Metagross
+2026-08-12 12:05:04,357 |-supereffective|p1a: Metagross
+2026-08-12 12:05:04,357 |-damage|p1a: Metagross|41/100
+2026-08-12 12:05:04,357 |
+2026-08-12 12:05:04,357 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,357 |-damage|p2a: Muk|154/314|[from] Sandstorm
+2026-08-12 12:05:04,357 |upkeep
+2026-08-12 12:05:04,357 |turn|15
+2026-08-12 12:05:04,358 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,359 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":true},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Muk","details":"Muk, L84, M","condition":"154/314","active":true,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:05:04,390 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,390 |
+2026-08-12 12:05:04,390 |t:|1786529104
+2026-08-12 12:05:04,391 |move|p1a: Metagross|Meteor Mash|p2a: Muk
+2026-08-12 12:05:04,391 |-damage|p2a: Muk|0 fnt
+2026-08-12 12:05:04,391 |faint|p2a: Muk
+2026-08-12 12:05:04,392 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,392 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":true,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"noCancel":true,"rqid":41}
+2026-08-12 12:05:04,411 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,411 |
+2026-08-12 12:05:04,411 |t:|1786529104
+2026-08-12 12:05:04,411 |switch|p2a: Luvdisc|Luvdisc, M|248/248
+2026-08-12 12:05:04,411 |
+2026-08-12 12:05:04,411 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,411 |-damage|p2a: Luvdisc|233/248|[from] Sandstorm
+2026-08-12 12:05:04,411 |-heal|p2a: Luvdisc|248/248|[from] item: Leftovers
+2026-08-12 12:05:04,411 |upkeep
+2026-08-12 12:05:04,411 |turn|16
+2026-08-12 12:05:04,412 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,412 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:05:04,452 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,452 |
+2026-08-12 12:05:04,452 |t:|1786529104
+2026-08-12 12:05:04,452 |move|p2a: Luvdisc|Protect|p2a: Luvdisc
+2026-08-12 12:05:04,452 |-singleturn|p2a: Luvdisc|Protect
+2026-08-12 12:05:04,453 |move|p1a: Metagross|Meteor Mash|p2a: Luvdisc
+2026-08-12 12:05:04,453 |-activate|p2a: Luvdisc|Protect
+2026-08-12 12:05:04,453 |
+2026-08-12 12:05:04,453 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,453 |-damage|p2a: Luvdisc|233/248|[from] Sandstorm
+2026-08-12 12:05:04,453 |-heal|p2a: Luvdisc|248/248|[from] item: Leftovers
+2026-08-12 12:05:04,453 |upkeep
+2026-08-12 12:05:04,453 |turn|17
+2026-08-12 12:05:04,454 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,454 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"248/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 12:05:04,503 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,503 |
+2026-08-12 12:05:04,503 |t:|1786529104
+2026-08-12 12:05:04,503 |move|p2a: Luvdisc|Surf|p1a: Metagross
+2026-08-12 12:05:04,503 |-damage|p1a: Metagross|4/100
+2026-08-12 12:05:04,503 |move|p1a: Metagross|Meteor Mash|p2a: Luvdisc
+2026-08-12 12:05:04,503 |-resisted|p2a: Luvdisc
+2026-08-12 12:05:04,503 |-damage|p2a: Luvdisc|150/248
+2026-08-12 12:05:04,503 |-boost|p1a: Metagross|atk|1
+2026-08-12 12:05:04,503 |
+2026-08-12 12:05:04,503 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,503 |-damage|p2a: Luvdisc|135/248|[from] Sandstorm
+2026-08-12 12:05:04,503 |-heal|p2a: Luvdisc|150/248|[from] item: Leftovers
+2026-08-12 12:05:04,503 |upkeep
+2026-08-12 12:05:04,503 |turn|18
+2026-08-12 12:05:04,503 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,503 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"150/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:05:04,521 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,521 |
+2026-08-12 12:05:04,521 |t:|1786529104
+2026-08-12 12:05:04,521 |move|p2a: Luvdisc|Substitute|p2a: Luvdisc
+2026-08-12 12:05:04,521 |-start|p2a: Luvdisc|Substitute
+2026-08-12 12:05:04,521 |-damage|p2a: Luvdisc|88/248
+2026-08-12 12:05:04,521 |move|p1a: Metagross|Meteor Mash|p2a: Luvdisc
+2026-08-12 12:05:04,521 |-resisted|p2a: Luvdisc
+2026-08-12 12:05:04,521 |-end|p2a: Luvdisc|Substitute
+2026-08-12 12:05:04,521 |
+2026-08-12 12:05:04,521 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,521 |-damage|p2a: Luvdisc|73/248|[from] Sandstorm
+2026-08-12 12:05:04,521 |-heal|p2a: Luvdisc|88/248|[from] item: Leftovers
+2026-08-12 12:05:04,521 |upkeep
+2026-08-12 12:05:04,521 |turn|19
+2026-08-12 12:05:04,522 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,522 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"88/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"273/273","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:05:04,541 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,541 |
+2026-08-12 12:05:04,541 |t:|1786529104
+2026-08-12 12:05:04,541 |switch|p2a: Butterfree|Butterfree, L97, M|273/273
+2026-08-12 12:05:04,541 |move|p1a: Metagross|Meteor Mash|p2a: Butterfree
+2026-08-12 12:05:04,541 |-damage|p2a: Butterfree|0 fnt
+2026-08-12 12:05:04,541 |faint|p2a: Butterfree
+2026-08-12 12:05:04,542 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,542 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":true,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"88/248","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"noCancel":true,"rqid":51}
+2026-08-12 12:05:04,557 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,557 |
+2026-08-12 12:05:04,557 |t:|1786529104
+2026-08-12 12:05:04,557 |switch|p2a: Luvdisc|Luvdisc, M|88/248
+2026-08-12 12:05:04,557 |
+2026-08-12 12:05:04,557 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,557 |-damage|p2a: Luvdisc|73/248|[from] Sandstorm
+2026-08-12 12:05:04,557 |-heal|p2a: Luvdisc|88/248|[from] item: Leftovers
+2026-08-12 12:05:04,557 |upkeep
+2026-08-12 12:05:04,557 |turn|20
+2026-08-12 12:05:04,558 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,558 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"88/248","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:05:04,574 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,574 |
+2026-08-12 12:05:04,574 |t:|1786529104
+2026-08-12 12:05:04,574 |move|p2a: Luvdisc|Toxic|p1a: Metagross
+2026-08-12 12:05:04,574 |-immune|p1a: Metagross
+2026-08-12 12:05:04,574 |move|p1a: Metagross|Meteor Mash|p2a: Luvdisc
+2026-08-12 12:05:04,574 |-resisted|p2a: Luvdisc
+2026-08-12 12:05:04,574 |-damage|p2a: Luvdisc|0 fnt
+2026-08-12 12:05:04,574 |faint|p2a: Luvdisc
+2026-08-12 12:05:04,575 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,575 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":true,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":false,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"noCancel":true,"rqid":55}
+2026-08-12 12:05:04,584 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,585 |
+2026-08-12 12:05:04,585 |t:|1786529104
+2026-08-12 12:05:04,585 |switch|p2a: Meganium|Meganium, L85, F|275/275
+2026-08-12 12:05:04,585 |
+2026-08-12 12:05:04,585 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,585 |-damage|p2a: Meganium|258/275|[from] Sandstorm
+2026-08-12 12:05:04,585 |-heal|p2a: Meganium|275/275|[from] item: Leftovers
+2026-08-12 12:05:04,585 |upkeep
+2026-08-12 12:05:04,585 |turn|21
+2026-08-12 12:05:04,586 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,586 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:05:04,601 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,601 |
+2026-08-12 12:05:04,601 |t:|1786529104
+2026-08-12 12:05:04,601 |move|p2a: Meganium|Hidden Power|p1a: Metagross
+2026-08-12 12:05:04,601 |-resisted|p1a: Metagross
+2026-08-12 12:05:04,601 |-damage|p1a: Metagross|0 fnt
+2026-08-12 12:05:04,601 |faint|p1a: Metagross
+2026-08-12 12:05:04,601 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,601 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:05:04,620 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,620 |
+2026-08-12 12:05:04,620 |t:|1786529104
+2026-08-12 12:05:04,620 |switch|p1a: Ledian|Ledian, M|100/100
+2026-08-12 12:05:04,620 |
+2026-08-12 12:05:04,620 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,620 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,620 |-damage|p2a: Meganium|258/275|[from] Sandstorm
+2026-08-12 12:05:04,620 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,620 |-heal|p2a: Meganium|275/275|[from] item: Leftovers
+2026-08-12 12:05:04,620 |upkeep
+2026-08-12 12:05:04,620 |turn|22
+2026-08-12 12:05:04,623 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,623 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"275/275","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:05:04,646 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,646 |
+2026-08-12 12:05:04,646 |t:|1786529104
+2026-08-12 12:05:04,646 |move|p1a: Ledian|Hidden Power|p2a: Meganium
+2026-08-12 12:05:04,646 |-supereffective|p2a: Meganium
+2026-08-12 12:05:04,646 |-damage|p2a: Meganium|195/275
+2026-08-12 12:05:04,646 |move|p2a: Meganium|Swords Dance|p2a: Meganium
+2026-08-12 12:05:04,646 |-boost|p2a: Meganium|atk|2
+2026-08-12 12:05:04,646 |
+2026-08-12 12:05:04,646 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,646 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,646 |-damage|p2a: Meganium|178/275|[from] Sandstorm
+2026-08-12 12:05:04,646 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,646 |-heal|p2a: Meganium|195/275|[from] item: Leftovers
+2026-08-12 12:05:04,646 |upkeep
+2026-08-12 12:05:04,646 |turn|23
+2026-08-12 12:05:04,648 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,648 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"195/275","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:05:04,672 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,672 |
+2026-08-12 12:05:04,672 |t:|1786529104
+2026-08-12 12:05:04,672 |move|p1a: Ledian|Toxic|p2a: Meganium
+2026-08-12 12:05:04,672 |-status|p2a: Meganium|tox
+2026-08-12 12:05:04,672 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 12:05:04,672 |-heal|p2a: Meganium|263/275 tox
+2026-08-12 12:05:04,673 |
+2026-08-12 12:05:04,673 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,673 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,673 |-damage|p2a: Meganium|246/275 tox|[from] Sandstorm
+2026-08-12 12:05:04,673 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,673 |-heal|p2a: Meganium|263/275 tox|[from] item: Leftovers
+2026-08-12 12:05:04,673 |-damage|p2a: Meganium|246/275 tox|[from] psn
+2026-08-12 12:05:04,673 |upkeep
+2026-08-12 12:05:04,673 |turn|24
+2026-08-12 12:05:04,674 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,674 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"246/275 tox","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:05:04,705 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,705 |
+2026-08-12 12:05:04,705 |t:|1786529104
+2026-08-12 12:05:04,705 |move|p1a: Ledian|Toxic|p2a: Meganium
+2026-08-12 12:05:04,705 |-fail|p2a: Meganium|tox
+2026-08-12 12:05:04,705 |move|p2a: Meganium|Swords Dance|p2a: Meganium
+2026-08-12 12:05:04,705 |-boost|p2a: Meganium|atk|2
+2026-08-12 12:05:04,705 |
+2026-08-12 12:05:04,705 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,705 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,705 |-damage|p2a: Meganium|229/275 tox|[from] Sandstorm
+2026-08-12 12:05:04,705 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,705 |-heal|p2a: Meganium|246/275 tox|[from] item: Leftovers
+2026-08-12 12:05:04,705 |-damage|p2a: Meganium|212/275 tox|[from] psn
+2026-08-12 12:05:04,705 |upkeep
+2026-08-12 12:05:04,705 |turn|25
+2026-08-12 12:05:04,706 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,706 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"212/275 tox","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:05:04,723 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,724 |
+2026-08-12 12:05:04,724 |t:|1786529104
+2026-08-12 12:05:04,724 |move|p1a: Ledian|Rest|p1a: Ledian
+2026-08-12 12:05:04,724 |-fail|p1a: Ledian|heal
+2026-08-12 12:05:04,724 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 12:05:04,724 |-heal|p2a: Meganium|275/275 tox
+2026-08-12 12:05:04,724 |
+2026-08-12 12:05:04,724 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,724 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,724 |-damage|p2a: Meganium|258/275 tox|[from] Sandstorm
+2026-08-12 12:05:04,724 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,724 |-heal|p2a: Meganium|275/275 tox|[from] item: Leftovers
+2026-08-12 12:05:04,724 |-damage|p2a: Meganium|224/275 tox|[from] psn
+2026-08-12 12:05:04,724 |upkeep
+2026-08-12 12:05:04,724 |turn|26
+2026-08-12 12:05:04,725 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,725 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"224/275 tox","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:05:04,738 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,738 |
+2026-08-12 12:05:04,738 |t:|1786529104
+2026-08-12 12:05:04,738 |move|p1a: Ledian|Rest|p1a: Ledian
+2026-08-12 12:05:04,738 |-fail|p1a: Ledian|heal
+2026-08-12 12:05:04,738 |move|p2a: Meganium|Swords Dance|p2a: Meganium
+2026-08-12 12:05:04,738 |-boost|p2a: Meganium|atk|2
+2026-08-12 12:05:04,738 |
+2026-08-12 12:05:04,738 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,738 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,738 |-damage|p2a: Meganium|207/275 tox|[from] Sandstorm
+2026-08-12 12:05:04,738 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,738 |-heal|p2a: Meganium|224/275 tox|[from] item: Leftovers
+2026-08-12 12:05:04,738 |-damage|p2a: Meganium|156/275 tox|[from] psn
+2026-08-12 12:05:04,738 |upkeep
+2026-08-12 12:05:04,738 |turn|27
+2026-08-12 12:05:04,739 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,739 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":45,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"156/275 tox","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:05:04,758 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,758 |
+2026-08-12 12:05:04,758 |t:|1786529104
+2026-08-12 12:05:04,758 |move|p1a: Ledian|Psybeam|p2a: Meganium
+2026-08-12 12:05:04,758 |-damage|p2a: Meganium|116/275 tox
+2026-08-12 12:05:04,758 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 12:05:04,758 |-heal|p2a: Meganium|184/275 tox
+2026-08-12 12:05:04,758 |
+2026-08-12 12:05:04,758 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,758 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,758 |-damage|p2a: Meganium|167/275 tox|[from] Sandstorm
+2026-08-12 12:05:04,758 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,758 |-heal|p2a: Meganium|184/275 tox|[from] item: Leftovers
+2026-08-12 12:05:04,758 |-damage|p2a: Meganium|99/275 tox|[from] psn
+2026-08-12 12:05:04,758 |upkeep
+2026-08-12 12:05:04,758 |turn|28
+2026-08-12 12:05:04,759 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,759 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":5,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":45,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L85, F","condition":"99/275 tox","active":true,"stats":{"atk":188,"def":218,"spa":190,"spd":218,"spe":184},"moves":["synthesis","swordsdance","earthquake","hiddenpowerrock"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luvdisc","details":"Luvdisc, M","condition":"0 fnt","active":false,"stats":{"atk":65,"def":167,"spa":137,"spd":187,"spe":251},"moves":["protect","toxic","substitute","surf"],"baseAbility":"swiftswim","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Muk","details":"Muk, L84, M","condition":"0 fnt","active":false,"stats":{"atk":225,"def":174,"spa":157,"spd":215,"spe":132},"moves":["explosion","hiddenpowerground","sludgebomb","fireblast"],"baseAbility":"stickyhold","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Delcatty","details":"Delcatty, L96, F","condition":"0 fnt","active":false,"stats":{"atk":179,"def":179,"spa":160,"spd":160,"spe":189},"moves":["wish","bodyslam","healbell","protect"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Butterfree","details":"Butterfree, L97, M","condition":"0 fnt","active":false,"stats":{"atk":94,"def":152,"spa":209,"spd":210,"spe":190},"moves":["sleeppowder","hiddenpowerfire","toxic","psychic"],"baseAbility":"compoundeyes","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["swordsdance","brickbreak","rockslide","megahorn"],"baseAbility":"guts","item":"salacberry","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:05:04,773 >battle-gen3randombattle-316841
+2026-08-12 12:05:04,773 |
+2026-08-12 12:05:04,773 |t:|1786529104
+2026-08-12 12:05:04,773 |move|p1a: Ledian|Toxic|p2a: Meganium
+2026-08-12 12:05:04,773 |-fail|p2a: Meganium|tox
+2026-08-12 12:05:04,773 |move|p2a: Meganium|Earthquake|p1a: Ledian
+2026-08-12 12:05:04,773 |-immune|p1a: Ledian
+2026-08-12 12:05:04,773 |
+2026-08-12 12:05:04,773 |-weather|Sandstorm|[upkeep]
+2026-08-12 12:05:04,773 |-damage|p1a: Ledian|94/100|[from] Sandstorm
+2026-08-12 12:05:04,773 |-damage|p2a: Meganium|82/275 tox|[from] Sandstorm
+2026-08-12 12:05:04,773 |-heal|p1a: Ledian|100/100|[from] item: Leftovers
+2026-08-12 12:05:04,773 |-heal|p2a: Meganium|99/275 tox|[from] item: Leftovers
+2026-08-12 12:05:04,773 |-damage|p2a: Meganium|0 fnt|[from] psn
+2026-08-12 12:05:04,773 |faint|p2a: Meganium
+2026-08-12 12:05:04,773 |
+2026-08-12 12:05:04,773 |win|BOT1
+2026-08-12 12:45:04,776 >battle-gen3randombattle-316841
+2026-08-12 12:45:04,776 |expire|
+2026-08-12 12:45:04,777 >battle-gen3randombattle-316841
+2026-08-12 12:45:04,777 |L|☆BOT1
+2026-08-12 12:45:04,777 >battle-gen3randombattle-316841
+2026-08-12 12:45:04,777 |deinit

@@ -1,0 +1,600 @@
+2026-08-12 13:16:39,472 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,472 |init|battle
+2026-08-12 13:16:39,473 |title|BOT5 vs. BOT6
+2026-08-12 13:16:39,473 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324391">battle-gen4randombattle-324391</a>&raquo;
+2026-08-12 13:16:39,518 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,518 |t:|1786533399
+2026-08-12 13:16:39,518 |gametype|singles
+2026-08-12 13:16:39,518 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,518 |player|p1|BOT5|101|
+2026-08-12 13:16:39,520 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,520 |player|p2|BOT6|101|
+2026-08-12 13:16:39,520 |gen|4
+2026-08-12 13:16:39,520 |tier|[Gen 4] Random Battle
+2026-08-12 13:16:39,520 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:16:39,520 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:16:39,520 |
+2026-08-12 13:16:39,520 |t:|1786533399
+2026-08-12 13:16:39,520 |teamsize|p1|6
+2026-08-12 13:16:39,520 |teamsize|p2|6
+2026-08-12 13:16:39,520 |start
+2026-08-12 13:16:39,520 |switch|p1a: Registeel|Registeel, L81|100/100
+2026-08-12 13:16:39,520 |switch|p2a: Latias|Latias, L70, F|228/228
+2026-08-12 13:16:39,520 |turn|1
+2026-08-12 13:16:39,521 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,521 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"283/283","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:16:39,550 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,550 |
+2026-08-12 13:16:39,550 |t:|1786533399
+2026-08-12 13:16:39,550 |switch|p2a: Chatot|Chatot, L90, F|283/283
+2026-08-12 13:16:39,550 |move|p1a: Registeel|Iron Head|p2a: Chatot
+2026-08-12 13:16:39,550 |-damage|p2a: Chatot|181/283
+2026-08-12 13:16:39,550 |
+2026-08-12 13:16:39,550 |upkeep
+2026-08-12 13:16:39,550 |turn|2
+2026-08-12 13:16:39,554 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,554 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"181/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:16:39,589 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,589 |
+2026-08-12 13:16:39,589 |t:|1786533399
+2026-08-12 13:16:39,589 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:16:39,589 |-resisted|p1a: Registeel
+2026-08-12 13:16:39,589 |-damage|p1a: Registeel|82/100
+2026-08-12 13:16:39,589 |-damage|p2a: Chatot|153/283|[from] item: Life Orb
+2026-08-12 13:16:39,589 |move|p1a: Registeel|Rest|p1a: Registeel
+2026-08-12 13:16:39,589 |-status|p1a: Registeel|slp|[from] move: Rest
+2026-08-12 13:16:39,589 |-heal|p1a: Registeel|100/100 slp|[silent]
+2026-08-12 13:16:39,589 |
+2026-08-12 13:16:39,589 |upkeep
+2026-08-12 13:16:39,589 |turn|3
+2026-08-12 13:16:39,593 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,593 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"153/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:16:39,630 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,630 |
+2026-08-12 13:16:39,630 |t:|1786533399
+2026-08-12 13:16:39,630 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:16:39,630 |-resisted|p1a: Registeel
+2026-08-12 13:16:39,630 |-damage|p1a: Registeel|83/100 slp
+2026-08-12 13:16:39,630 |-damage|p2a: Chatot|125/283|[from] item: Life Orb
+2026-08-12 13:16:39,630 |cant|p1a: Registeel|slp
+2026-08-12 13:16:39,630 |
+2026-08-12 13:16:39,630 |-heal|p1a: Registeel|89/100 slp|[from] item: Leftovers
+2026-08-12 13:16:39,630 |upkeep
+2026-08-12 13:16:39,630 |turn|4
+2026-08-12 13:16:39,632 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,632 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"125/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:16:39,671 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,671 |
+2026-08-12 13:16:39,671 |t:|1786533399
+2026-08-12 13:16:39,671 |move|p2a: Chatot|Nasty Plot|p2a: Chatot
+2026-08-12 13:16:39,671 |-boost|p2a: Chatot|spa|2
+2026-08-12 13:16:39,671 |cant|p1a: Registeel|slp
+2026-08-12 13:16:39,671 |
+2026-08-12 13:16:39,671 |-heal|p1a: Registeel|95/100 slp|[from] item: Leftovers
+2026-08-12 13:16:39,671 |upkeep
+2026-08-12 13:16:39,671 |turn|5
+2026-08-12 13:16:39,675 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,675 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"125/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:16:39,731 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,731 |
+2026-08-12 13:16:39,731 |t:|1786533399
+2026-08-12 13:16:39,731 |move|p2a: Chatot|Chatter|p1a: Registeel
+2026-08-12 13:16:39,731 |-resisted|p1a: Registeel
+2026-08-12 13:16:39,731 |-damage|p1a: Registeel|70/100 slp
+2026-08-12 13:16:39,731 |-damage|p2a: Chatot|97/283|[from] item: Life Orb
+2026-08-12 13:16:39,731 |-curestatus|p1a: Registeel|slp|[msg]
+2026-08-12 13:16:39,731 |move|p1a: Registeel|Rest|p1a: Registeel
+2026-08-12 13:16:39,731 |-status|p1a: Registeel|slp|[from] move: Rest
+2026-08-12 13:16:39,731 |-heal|p1a: Registeel|100/100 slp|[silent]
+2026-08-12 13:16:39,731 |
+2026-08-12 13:16:39,731 |upkeep
+2026-08-12 13:16:39,731 |turn|6
+2026-08-12 13:16:39,735 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,735 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"97/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:16:39,775 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,775 |
+2026-08-12 13:16:39,775 |t:|1786533399
+2026-08-12 13:16:39,775 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:16:39,775 |-resisted|p1a: Registeel
+2026-08-12 13:16:39,775 |-damage|p1a: Registeel|67/100 slp
+2026-08-12 13:16:39,775 |-damage|p2a: Chatot|69/283|[from] item: Life Orb
+2026-08-12 13:16:39,775 |cant|p1a: Registeel|slp
+2026-08-12 13:16:39,775 |
+2026-08-12 13:16:39,775 |-heal|p1a: Registeel|73/100 slp|[from] item: Leftovers
+2026-08-12 13:16:39,775 |upkeep
+2026-08-12 13:16:39,775 |turn|7
+2026-08-12 13:16:39,779 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,779 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":13,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"69/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:16:39,827 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,827 |
+2026-08-12 13:16:39,827 |t:|1786533399
+2026-08-12 13:16:39,827 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:16:39,827 |-resisted|p1a: Registeel
+2026-08-12 13:16:39,827 |-damage|p1a: Registeel|41/100 slp
+2026-08-12 13:16:39,827 |-damage|p2a: Chatot|41/283|[from] item: Life Orb
+2026-08-12 13:16:39,827 |cant|p1a: Registeel|slp
+2026-08-12 13:16:39,827 |
+2026-08-12 13:16:39,827 |-heal|p1a: Registeel|47/100 slp|[from] item: Leftovers
+2026-08-12 13:16:39,827 |upkeep
+2026-08-12 13:16:39,827 |turn|8
+2026-08-12 13:16:39,829 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,829 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":12,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"41/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:16:39,868 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,868 |
+2026-08-12 13:16:39,868 |t:|1786533399
+2026-08-12 13:16:39,868 |move|p2a: Chatot|Heat Wave|p1a: Registeel
+2026-08-12 13:16:39,868 |-supereffective|p1a: Registeel
+2026-08-12 13:16:39,868 |-damage|p1a: Registeel|0 fnt
+2026-08-12 13:16:39,868 |faint|p1a: Registeel
+2026-08-12 13:16:39,868 |-damage|p2a: Chatot|13/283|[from] item: Life Orb
+2026-08-12 13:16:39,868 |
+2026-08-12 13:16:39,868 |upkeep
+2026-08-12 13:16:39,869 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,869 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"13/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:16:39,901 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,901 |
+2026-08-12 13:16:39,901 |t:|1786533399
+2026-08-12 13:16:39,901 |switch|p1a: Infernape|Infernape, L76, F|100/100
+2026-08-12 13:16:39,901 |turn|9
+2026-08-12 13:16:39,904 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,904 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":12,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"13/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:16:39,946 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,946 |
+2026-08-12 13:16:39,946 |t:|1786533399
+2026-08-12 13:16:39,946 |switch|p1a: Fearow|Fearow, L83, M|100/100
+2026-08-12 13:16:39,946 |move|p2a: Chatot|Nasty Plot|p2a: Chatot
+2026-08-12 13:16:39,946 |-boost|p2a: Chatot|spa|2
+2026-08-12 13:16:39,946 |
+2026-08-12 13:16:39,946 |upkeep
+2026-08-12 13:16:39,946 |turn|10
+2026-08-12 13:16:39,951 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,951 |request|{"active":[{"moves":[{"move":"Chatter","id":"chatter","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":12,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"13/283","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:16:39,983 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,983 |
+2026-08-12 13:16:39,983 |t:|1786533399
+2026-08-12 13:16:39,983 |move|p1a: Fearow|Quick Attack|p2a: Chatot
+2026-08-12 13:16:39,983 |-damage|p2a: Chatot|0 fnt
+2026-08-12 13:16:39,983 |faint|p2a: Chatot
+2026-08-12 13:16:39,983 |
+2026-08-12 13:16:39,983 |upkeep
+2026-08-12 13:16:39,986 >battle-gen4randombattle-324391
+2026-08-12 13:16:39,986 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":true,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"noCancel":true,"rqid":25}
+2026-08-12 13:16:40,010 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,010 |
+2026-08-12 13:16:40,010 |t:|1786533399
+2026-08-12 13:16:40,010 |switch|p2a: Smeargle|Smeargle, L86, F|235/235
+2026-08-12 13:16:40,010 |turn|11
+2026-08-12 13:16:40,015 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,015 |request|{"active":[{"moves":[{"move":"Whirlwind","id":"whirlwind","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":true,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"303/303","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:16:40,051 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,051 |
+2026-08-12 13:16:40,051 |t:|1786533400
+2026-08-12 13:16:40,051 |switch|p2a: Mamoswine|Mamoswine, L79, M|303/303
+2026-08-12 13:16:40,051 |move|p1a: Fearow|Quick Attack|p2a: Mamoswine
+2026-08-12 13:16:40,051 |-damage|p2a: Mamoswine|234/303
+2026-08-12 13:16:40,051 |
+2026-08-12 13:16:40,051 |upkeep
+2026-08-12 13:16:40,051 |turn|12
+2026-08-12 13:16:40,052 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,052 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"234/303","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:16:40,070 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,070 |
+2026-08-12 13:16:40,070 |t:|1786533400
+2026-08-12 13:16:40,070 |move|p1a: Fearow|Quick Attack|p2a: Mamoswine
+2026-08-12 13:16:40,070 |-damage|p2a: Mamoswine|164/303
+2026-08-12 13:16:40,070 |move|p2a: Mamoswine|Earthquake|p1a: Fearow
+2026-08-12 13:16:40,070 |-immune|p1a: Fearow
+2026-08-12 13:16:40,070 |
+2026-08-12 13:16:40,070 |upkeep
+2026-08-12 13:16:40,070 |turn|13
+2026-08-12 13:16:40,070 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,070 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"164/303","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:16:40,116 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,116 |
+2026-08-12 13:16:40,116 |t:|1786533400
+2026-08-12 13:16:40,116 |move|p1a: Fearow|Quick Attack|p2a: Mamoswine
+2026-08-12 13:16:40,116 |-damage|p2a: Mamoswine|100/303
+2026-08-12 13:16:40,116 |move|p2a: Mamoswine|Ice Shard|p1a: Fearow
+2026-08-12 13:16:40,116 |-supereffective|p1a: Fearow
+2026-08-12 13:16:40,116 |-damage|p1a: Fearow|38/100
+2026-08-12 13:16:40,116 |-damage|p2a: Mamoswine|70/303|[from] item: Life Orb
+2026-08-12 13:16:40,116 |
+2026-08-12 13:16:40,116 |upkeep
+2026-08-12 13:16:40,116 |turn|14
+2026-08-12 13:16:40,116 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,116 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":47,"maxpp":48,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"70/303","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:16:40,150 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,150 |
+2026-08-12 13:16:40,150 |t:|1786533400
+2026-08-12 13:16:40,150 |switch|p1a: Vaporeon|Vaporeon, L83, F|100/100
+2026-08-12 13:16:40,150 |move|p2a: Mamoswine|Earthquake|p1a: Vaporeon
+2026-08-12 13:16:40,150 |-damage|p1a: Vaporeon|47/100
+2026-08-12 13:16:40,150 |-damage|p2a: Mamoswine|40/303|[from] item: Life Orb
+2026-08-12 13:16:40,150 |
+2026-08-12 13:16:40,150 |-heal|p1a: Vaporeon|53/100|[from] item: Leftovers
+2026-08-12 13:16:40,150 |upkeep
+2026-08-12 13:16:40,150 |turn|15
+2026-08-12 13:16:40,150 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,150 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":47,"maxpp":48,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"40/303","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:16:40,193 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,193 |
+2026-08-12 13:16:40,193 |t:|1786533400
+2026-08-12 13:16:40,193 |move|p2a: Mamoswine|Earthquake|p1a: Vaporeon
+2026-08-12 13:16:40,193 |-damage|p1a: Vaporeon|0 fnt
+2026-08-12 13:16:40,193 |faint|p1a: Vaporeon
+2026-08-12 13:16:40,193 |-damage|p2a: Mamoswine|10/303|[from] item: Life Orb
+2026-08-12 13:16:40,193 |
+2026-08-12 13:16:40,193 |upkeep
+2026-08-12 13:16:40,195 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,195 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"10/303","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:16:40,240 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,240 |
+2026-08-12 13:16:40,240 |t:|1786533400
+2026-08-12 13:16:40,240 |switch|p1a: Shaymin|Shaymin, L79|100/100
+2026-08-12 13:16:40,240 |turn|16
+2026-08-12 13:16:40,244 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,244 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":47,"maxpp":48,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"10/303","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:16:40,301 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,301 |
+2026-08-12 13:16:40,301 |t:|1786533400
+2026-08-12 13:16:40,301 |move|p2a: Mamoswine|Ice Shard|p1a: Shaymin
+2026-08-12 13:16:40,301 |-supereffective|p1a: Shaymin
+2026-08-12 13:16:40,301 |-damage|p1a: Shaymin|62/100
+2026-08-12 13:16:40,301 |-damage|p2a: Mamoswine|0 fnt|[from] item: Life Orb
+2026-08-12 13:16:40,301 |faint|p2a: Mamoswine
+2026-08-12 13:16:40,301 |move|p1a: Shaymin|Substitute|p1a: Shaymin
+2026-08-12 13:16:40,301 |-start|p1a: Shaymin|Substitute
+2026-08-12 13:16:40,301 |-damage|p1a: Shaymin|37/100
+2026-08-12 13:16:40,301 |
+2026-08-12 13:16:40,301 |-heal|p1a: Shaymin|44/100|[from] item: Leftovers
+2026-08-12 13:16:40,301 |upkeep
+2026-08-12 13:16:40,303 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,303 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":true,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"noCancel":true,"rqid":41}
+2026-08-12 13:16:40,336 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,336 |
+2026-08-12 13:16:40,336 |t:|1786533400
+2026-08-12 13:16:40,337 |switch|p2a: Mewtwo|Mewtwo, L70|264/264
+2026-08-12 13:16:40,337 |-ability|p2a: Mewtwo|Pressure
+2026-08-12 13:16:40,337 |turn|17
+2026-08-12 13:16:40,340 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,340 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Aura Sphere","id":"aurasphere","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"264/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:16:40,369 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,369 |
+2026-08-12 13:16:40,370 |t:|1786533400
+2026-08-12 13:16:40,370 |move|p2a: Mewtwo|Recover||[still]
+2026-08-12 13:16:40,370 |-fail|p2a: Mewtwo|heal
+2026-08-12 13:16:40,370 |move|p1a: Shaymin|Leech Seed|p2a: Mewtwo
+2026-08-12 13:16:40,370 |-start|p2a: Mewtwo|move: Leech Seed
+2026-08-12 13:16:40,370 |
+2026-08-12 13:16:40,370 |-damage|p2a: Mewtwo|231/264|[from] Leech Seed|[of] p1a: Shaymin
+2026-08-12 13:16:40,370 |-heal|p1a: Shaymin|55/100|[silent]
+2026-08-12 13:16:40,370 |-heal|p1a: Shaymin|61/100|[from] item: Leftovers
+2026-08-12 13:16:40,370 |upkeep
+2026-08-12 13:16:40,370 |turn|18
+2026-08-12 13:16:40,373 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,373 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Aura Sphere","id":"aurasphere","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"231/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:16:40,429 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,429 |
+2026-08-12 13:16:40,429 |t:|1786533400
+2026-08-12 13:16:40,429 |move|p2a: Mewtwo|Aura Sphere|p1a: Shaymin
+2026-08-12 13:16:40,429 |-end|p1a: Shaymin|Substitute
+2026-08-12 13:16:40,429 |move|p1a: Shaymin|Air Slash|p2a: Mewtwo
+2026-08-12 13:16:40,429 |-damage|p2a: Mewtwo|173/264
+2026-08-12 13:16:40,429 |
+2026-08-12 13:16:40,429 |-damage|p2a: Mewtwo|140/264|[from] Leech Seed|[of] p1a: Shaymin
+2026-08-12 13:16:40,429 |-heal|p1a: Shaymin|73/100|[silent]
+2026-08-12 13:16:40,429 |-heal|p1a: Shaymin|79/100|[from] item: Leftovers
+2026-08-12 13:16:40,429 |upkeep
+2026-08-12 13:16:40,429 |turn|19
+2026-08-12 13:16:40,433 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,433 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Aura Sphere","id":"aurasphere","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"140/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:16:40,473 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,473 |
+2026-08-12 13:16:40,473 |t:|1786533400
+2026-08-12 13:16:40,473 |switch|p1a: Deoxys|Deoxys-Speed, L80|100/100
+2026-08-12 13:16:40,473 |-ability|p1a: Deoxys|Pressure
+2026-08-12 13:16:40,473 |move|p2a: Mewtwo|Recover|p2a: Mewtwo
+2026-08-12 13:16:40,473 |-heal|p2a: Mewtwo|264/264
+2026-08-12 13:16:40,473 |
+2026-08-12 13:16:40,473 |-damage|p2a: Mewtwo|231/264|[from] Leech Seed|[of] p1a: Deoxys
+2026-08-12 13:16:40,473 |upkeep
+2026-08-12 13:16:40,473 |turn|20
+2026-08-12 13:16:40,473 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,473 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Aura Sphere","id":"aurasphere","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"231/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:16:40,501 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,501 |
+2026-08-12 13:16:40,501 |t:|1786533400
+2026-08-12 13:16:40,501 |move|p1a: Deoxys|Spikes|p2a: Mewtwo
+2026-08-12 13:16:40,501 |-sidestart|p2: BOT6|Spikes
+2026-08-12 13:16:40,501 |move|p2a: Mewtwo|Psychic|p1a: Deoxys
+2026-08-12 13:16:40,501 |-resisted|p1a: Deoxys
+2026-08-12 13:16:40,501 |-damage|p1a: Deoxys|71/100
+2026-08-12 13:16:40,502 |-damage|p2a: Mewtwo|205/264|[from] item: Life Orb
+2026-08-12 13:16:40,502 |
+2026-08-12 13:16:40,502 |-heal|p1a: Deoxys|77/100|[from] item: Leftovers
+2026-08-12 13:16:40,502 |-damage|p2a: Mewtwo|172/264|[from] Leech Seed|[of] p1a: Deoxys
+2026-08-12 13:16:40,502 |-heal|p1a: Deoxys|92/100|[silent]
+2026-08-12 13:16:40,502 |upkeep
+2026-08-12 13:16:40,502 |turn|21
+2026-08-12 13:16:40,502 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,502 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Aura Sphere","id":"aurasphere","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"172/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:16:40,533 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,533 |
+2026-08-12 13:16:40,533 |t:|1786533400
+2026-08-12 13:16:40,533 |move|p1a: Deoxys|Taunt|p2a: Mewtwo
+2026-08-12 13:16:40,533 |-start|p2a: Mewtwo|move: Taunt
+2026-08-12 13:16:40,533 |cant|p2a: Mewtwo|move: Taunt|Recover
+2026-08-12 13:16:40,533 |
+2026-08-12 13:16:40,533 |-heal|p1a: Deoxys|99/100|[from] item: Leftovers
+2026-08-12 13:16:40,533 |-damage|p2a: Mewtwo|139/264|[from] Leech Seed|[of] p1a: Deoxys
+2026-08-12 13:16:40,533 |-heal|p1a: Deoxys|100/100|[silent]
+2026-08-12 13:16:40,533 |upkeep
+2026-08-12 13:16:40,533 |turn|22
+2026-08-12 13:16:40,534 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,534 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":14,"maxpp":16,"target":"self","disabled":true},{"move":"Aura Sphere","id":"aurasphere","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"139/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:16:40,573 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,573 |
+2026-08-12 13:16:40,573 |t:|1786533400
+2026-08-12 13:16:40,573 |move|p1a: Deoxys|Taunt||[still]
+2026-08-12 13:16:40,573 |-fail|p1a: Deoxys
+2026-08-12 13:16:40,573 |move|p2a: Mewtwo|Psychic|p1a: Deoxys
+2026-08-12 13:16:40,573 |-resisted|p1a: Deoxys
+2026-08-12 13:16:40,573 |-damage|p1a: Deoxys|70/100
+2026-08-12 13:16:40,573 |-damage|p2a: Mewtwo|113/264|[from] item: Life Orb
+2026-08-12 13:16:40,573 |
+2026-08-12 13:16:40,573 |-heal|p1a: Deoxys|76/100|[from] item: Leftovers
+2026-08-12 13:16:40,573 |-damage|p2a: Mewtwo|80/264|[from] Leech Seed|[of] p1a: Deoxys
+2026-08-12 13:16:40,573 |-heal|p1a: Deoxys|92/100|[silent]
+2026-08-12 13:16:40,573 |upkeep
+2026-08-12 13:16:40,574 |turn|23
+2026-08-12 13:16:40,574 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,574 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":14,"maxpp":16,"target":"self","disabled":true},{"move":"Aura Sphere","id":"aurasphere","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"80/264","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:16:40,623 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,623 |
+2026-08-12 13:16:40,623 |t:|1786533400
+2026-08-12 13:16:40,623 |move|p1a: Deoxys|Psycho Boost|p2a: Mewtwo
+2026-08-12 13:16:40,623 |-resisted|p2a: Mewtwo
+2026-08-12 13:16:40,623 |-damage|p2a: Mewtwo|5/264
+2026-08-12 13:16:40,623 |-unboost|p1a: Deoxys|spa|2
+2026-08-12 13:16:40,623 |move|p2a: Mewtwo|Aura Sphere|p1a: Deoxys
+2026-08-12 13:16:40,623 |-resisted|p1a: Deoxys
+2026-08-12 13:16:40,623 |-damage|p1a: Deoxys|72/100
+2026-08-12 13:16:40,623 |-damage|p2a: Mewtwo|0 fnt|[from] item: Life Orb
+2026-08-12 13:16:40,623 |faint|p2a: Mewtwo
+2026-08-12 13:16:40,623 |
+2026-08-12 13:16:40,623 |-heal|p1a: Deoxys|78/100|[from] item: Leftovers
+2026-08-12 13:16:40,623 |upkeep
+2026-08-12 13:16:40,623 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,623 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":true,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"}]},"noCancel":true,"rqid":57}
+2026-08-12 13:16:40,649 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,649 |
+2026-08-12 13:16:40,649 |t:|1786533400
+2026-08-12 13:16:40,649 |switch|p2a: Latias|Latias, L70, F|228/228
+2026-08-12 13:16:40,649 |turn|24
+2026-08-12 13:16:40,650 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,650 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"229/229","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:16:40,695 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,695 |
+2026-08-12 13:16:40,695 |t:|1786533400
+2026-08-12 13:16:40,695 |switch|p2a: Weavile|Weavile, L75, M|229/229
+2026-08-12 13:16:40,695 |-damage|p2a: Weavile|201/229|[from] Spikes
+2026-08-12 13:16:40,695 |-ability|p2a: Weavile|Pressure
+2026-08-12 13:16:40,695 |move|p1a: Deoxys|Superpower|p2a: Weavile
+2026-08-12 13:16:40,696 |-supereffective|p2a: Weavile
+2026-08-12 13:16:40,696 |-damage|p2a: Weavile|0 fnt
+2026-08-12 13:16:40,696 |-unboost|p1a: Deoxys|atk|1
+2026-08-12 13:16:40,696 |-unboost|p1a: Deoxys|def|1
+2026-08-12 13:16:40,696 |faint|p2a: Weavile
+2026-08-12 13:16:40,696 |
+2026-08-12 13:16:40,696 |-heal|p1a: Deoxys|84/100|[from] item: Leftovers
+2026-08-12 13:16:40,696 |upkeep
+2026-08-12 13:16:40,696 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,697 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":true,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-12 13:16:40,725 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,725 |
+2026-08-12 13:16:40,725 |t:|1786533400
+2026-08-12 13:16:40,725 |switch|p2a: Latias|Latias, L70, F|228/228
+2026-08-12 13:16:40,725 |turn|25
+2026-08-12 13:16:40,725 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,725 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:16:40,760 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,760 |
+2026-08-12 13:16:40,760 |t:|1786533400
+2026-08-12 13:16:40,760 |move|p1a: Deoxys|Taunt|p2a: Latias
+2026-08-12 13:16:40,760 |-start|p2a: Latias|move: Taunt
+2026-08-12 13:16:40,760 |move|p2a: Latias|Psychic|p1a: Deoxys
+2026-08-12 13:16:40,761 |-resisted|p1a: Deoxys
+2026-08-12 13:16:40,761 |-damage|p1a: Deoxys|57/100
+2026-08-12 13:16:40,761 |
+2026-08-12 13:16:40,761 |-heal|p1a: Deoxys|63/100|[from] item: Leftovers
+2026-08-12 13:16:40,761 |upkeep
+2026-08-12 13:16:40,761 |turn|26
+2026-08-12 13:16:40,761 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,761 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":true},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:16:40,802 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,802 |
+2026-08-12 13:16:40,802 |t:|1786533400
+2026-08-12 13:16:40,802 |move|p1a: Deoxys|Taunt||[still]
+2026-08-12 13:16:40,802 |-fail|p1a: Deoxys
+2026-08-12 13:16:40,802 |move|p2a: Latias|Psychic|p1a: Deoxys
+2026-08-12 13:16:40,802 |-resisted|p1a: Deoxys
+2026-08-12 13:16:40,802 |-damage|p1a: Deoxys|37/100
+2026-08-12 13:16:40,802 |-unboost|p1a: Deoxys|spd|1
+2026-08-12 13:16:40,802 |
+2026-08-12 13:16:40,802 |-heal|p1a: Deoxys|43/100|[from] item: Leftovers
+2026-08-12 13:16:40,802 |upkeep
+2026-08-12 13:16:40,802 |turn|27
+2026-08-12 13:16:40,804 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,804 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":true},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:16:40,849 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,849 |
+2026-08-12 13:16:40,849 |t:|1786533400
+2026-08-12 13:16:40,849 |move|p1a: Deoxys|Superpower|p2a: Latias
+2026-08-12 13:16:40,849 |-resisted|p2a: Latias
+2026-08-12 13:16:40,849 |-damage|p2a: Latias|195/228
+2026-08-12 13:16:40,849 |-unboost|p1a: Deoxys|atk|1
+2026-08-12 13:16:40,849 |-unboost|p1a: Deoxys|def|1
+2026-08-12 13:16:40,849 |move|p2a: Latias|Psychic|p1a: Deoxys
+2026-08-12 13:16:40,849 |-resisted|p1a: Deoxys
+2026-08-12 13:16:40,849 |-damage|p1a: Deoxys|0 fnt
+2026-08-12 13:16:40,849 |faint|p1a: Deoxys
+2026-08-12 13:16:40,849 |
+2026-08-12 13:16:40,849 |upkeep
+2026-08-12 13:16:40,851 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,851 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:16:40,870 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,870 |
+2026-08-12 13:16:40,870 |t:|1786533400
+2026-08-12 13:16:40,870 |switch|p1a: Shaymin|Shaymin, L79|79/100
+2026-08-12 13:16:40,871 |turn|28
+2026-08-12 13:16:40,875 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,875 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":true},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:16:40,919 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,919 |
+2026-08-12 13:16:40,919 |t:|1786533400
+2026-08-12 13:16:40,919 |move|p1a: Shaymin|Seed Flare|p2a: Latias|[miss]
+2026-08-12 13:16:40,919 |-miss|p1a: Shaymin|p2a: Latias
+2026-08-12 13:16:40,919 |move|p2a: Latias|Draco Meteor|p1a: Shaymin
+2026-08-12 13:16:40,919 |-damage|p1a: Shaymin|19/100
+2026-08-12 13:16:40,919 |-unboost|p2a: Latias|spa|2
+2026-08-12 13:16:40,919 |
+2026-08-12 13:16:40,919 |-heal|p1a: Shaymin|25/100|[from] item: Leftovers
+2026-08-12 13:16:40,919 |-end|p2a: Latias|move: Taunt
+2026-08-12 13:16:40,919 |upkeep
+2026-08-12 13:16:40,919 |turn|29
+2026-08-12 13:16:40,920 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,920 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:16:40,963 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,963 |
+2026-08-12 13:16:40,963 |t:|1786533400
+2026-08-12 13:16:40,963 |move|p1a: Shaymin|Leech Seed|p2a: Latias|[miss]
+2026-08-12 13:16:40,963 |-miss|p1a: Shaymin|p2a: Latias
+2026-08-12 13:16:40,963 |move|p2a: Latias|Calm Mind|p2a: Latias
+2026-08-12 13:16:40,963 |-boost|p2a: Latias|spa|1
+2026-08-12 13:16:40,963 |-boost|p2a: Latias|spd|1
+2026-08-12 13:16:40,963 |
+2026-08-12 13:16:40,963 |-heal|p1a: Shaymin|32/100|[from] item: Leftovers
+2026-08-12 13:16:40,963 |upkeep
+2026-08-12 13:16:40,963 |turn|30
+2026-08-12 13:16:40,964 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,964 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:16:40,986 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,986 |
+2026-08-12 13:16:40,986 |t:|1786533400
+2026-08-12 13:16:40,986 |switch|p1a: Infernape|Infernape, L76, F|100/100
+2026-08-12 13:16:40,986 |move|p2a: Latias|Roost|p2a: Latias
+2026-08-12 13:16:40,986 |-heal|p2a: Latias|228/228
+2026-08-12 13:16:40,986 |-singleturn|p2a: Latias|move: Roost
+2026-08-12 13:16:40,986 |
+2026-08-12 13:16:40,986 |upkeep
+2026-08-12 13:16:40,986 |turn|31
+2026-08-12 13:16:40,987 >battle-gen4randombattle-324391
+2026-08-12 13:16:40,987 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"228/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:16:41,029 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,029 |
+2026-08-12 13:16:41,029 |t:|1786533401
+2026-08-12 13:16:41,029 |move|p1a: Infernape|Mach Punch|p2a: Latias
+2026-08-12 13:16:41,029 |-resisted|p2a: Latias
+2026-08-12 13:16:41,029 |-damage|p2a: Latias|195/228
+2026-08-12 13:16:41,029 |move|p2a: Latias|Calm Mind|p2a: Latias
+2026-08-12 13:16:41,029 |-boost|p2a: Latias|spa|1
+2026-08-12 13:16:41,029 |-boost|p2a: Latias|spd|1
+2026-08-12 13:16:41,029 |
+2026-08-12 13:16:41,029 |upkeep
+2026-08-12 13:16:41,029 |turn|32
+2026-08-12 13:16:41,031 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,031 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:16:41,067 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,067 |
+2026-08-12 13:16:41,067 |t:|1786533401
+2026-08-12 13:16:41,067 |switch|p1a: Fearow|Fearow, L83, M|38/100
+2026-08-12 13:16:41,067 |move|p2a: Latias|Calm Mind|p2a: Latias
+2026-08-12 13:16:41,067 |-boost|p2a: Latias|spa|1
+2026-08-12 13:16:41,067 |-boost|p2a: Latias|spd|1
+2026-08-12 13:16:41,067 |
+2026-08-12 13:16:41,067 |upkeep
+2026-08-12 13:16:41,067 |turn|33
+2026-08-12 13:16:41,068 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,068 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"235/235","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:16:41,115 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,115 |
+2026-08-12 13:16:41,115 |t:|1786533401
+2026-08-12 13:16:41,115 |switch|p2a: Smeargle|Smeargle, L86, F|235/235
+2026-08-12 13:16:41,115 |-damage|p2a: Smeargle|206/235|[from] Spikes
+2026-08-12 13:16:41,115 |move|p1a: Fearow|Quick Attack|p2a: Smeargle
+2026-08-12 13:16:41,115 |-damage|p2a: Smeargle|100/235
+2026-08-12 13:16:41,115 |
+2026-08-12 13:16:41,115 |upkeep
+2026-08-12 13:16:41,115 |turn|34
+2026-08-12 13:16:41,116 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,116 |request|{"active":[{"moves":[{"move":"Whirlwind","id":"whirlwind","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"100/235","active":true,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:16:41,147 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,147 |
+2026-08-12 13:16:41,147 |t:|1786533401
+2026-08-12 13:16:41,147 |move|p1a: Fearow|Quick Attack|p2a: Smeargle
+2026-08-12 13:16:41,147 |-damage|p2a: Smeargle|0 fnt
+2026-08-12 13:16:41,147 |faint|p2a: Smeargle
+2026-08-12 13:16:41,147 |
+2026-08-12 13:16:41,147 |upkeep
+2026-08-12 13:16:41,149 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,149 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"0 fnt","active":true,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":false,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":85}
+2026-08-12 13:16:41,187 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,187 |
+2026-08-12 13:16:41,187 |t:|1786533401
+2026-08-12 13:16:41,187 |switch|p2a: Latias|Latias, L70, F|195/228
+2026-08-12 13:16:41,187 |turn|35
+2026-08-12 13:16:41,188 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,189 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"195/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"0 fnt","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:16:41,235 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,235 |
+2026-08-12 13:16:41,235 |t:|1786533401
+2026-08-12 13:16:41,235 |move|p1a: Fearow|Quick Attack|p2a: Latias
+2026-08-12 13:16:41,235 |-damage|p2a: Latias|120/228
+2026-08-12 13:16:41,235 |move|p2a: Latias|Draco Meteor|p1a: Fearow
+2026-08-12 13:16:41,235 |-damage|p1a: Fearow|0 fnt
+2026-08-12 13:16:41,235 |-unboost|p2a: Latias|spa|2
+2026-08-12 13:16:41,235 |faint|p1a: Fearow
+2026-08-12 13:16:41,236 |
+2026-08-12 13:16:41,236 |upkeep
+2026-08-12 13:16:41,236 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,236 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"120/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"0 fnt","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:16:41,269 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,269 |
+2026-08-12 13:16:41,269 |t:|1786533401
+2026-08-12 13:16:41,269 |switch|p1a: Infernape|Infernape, L76, F|100/100
+2026-08-12 13:16:41,269 |turn|36
+2026-08-12 13:16:41,271 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,271 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"120/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"0 fnt","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:16:41,315 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,315 |
+2026-08-12 13:16:41,315 |t:|1786533401
+2026-08-12 13:16:41,315 |move|p1a: Infernape|Close Combat|p2a: Latias
+2026-08-12 13:16:41,315 |-resisted|p2a: Latias
+2026-08-12 13:16:41,315 |-damage|p2a: Latias|21/228
+2026-08-12 13:16:41,315 |-unboost|p1a: Infernape|def|1
+2026-08-12 13:16:41,315 |-unboost|p1a: Infernape|spd|1
+2026-08-12 13:16:41,315 |move|p2a: Latias|Calm Mind|p2a: Latias
+2026-08-12 13:16:41,316 |-boost|p2a: Latias|spa|1
+2026-08-12 13:16:41,316 |-boost|p2a: Latias|spd|1
+2026-08-12 13:16:41,316 |
+2026-08-12 13:16:41,316 |upkeep
+2026-08-12 13:16:41,316 |turn|37
+2026-08-12 13:16:41,318 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,318 |request|{"active":[{"moves":[{"move":"Draco Meteor","id":"dracometeor","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":28,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Latias","details":"Latias, L70, F","condition":"21/228","active":true,"stats":{"atk":117,"def":167,"spa":195,"spd":223,"spe":195},"moves":["dracometeor","psychic","roost","calmmind"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Weavile","details":"Weavile, L75, M","condition":"0 fnt","active":false,"stats":{"atk":224,"def":141,"spa":111,"spd":171,"spe":231},"moves":["lowkick","nightslash","swordsdance","icepunch"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, F","condition":"0 fnt","active":false,"stats":{"atk":122,"def":132,"spa":217,"spd":127,"spe":215},"moves":["chatter","nastyplot","hypervoice","heatwave"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Smeargle","details":"Smeargle, L86, F","condition":"0 fnt","active":false,"stats":{"atk":39,"def":109,"spa":84,"spd":127,"spe":178},"moves":["whirlwind","toxicspikes","spikes","spore"],"baseAbility":"owntempo","item":"focussash","pokeball":"pokeball"},{"ident":"p2: Mamoswine","details":"Mamoswine, L79, M","condition":"0 fnt","active":false,"stats":{"atk":251,"def":172,"spa":156,"spd":140,"spe":172},"moves":["toxic","earthquake","iceshard","superpower"],"baseAbility":"snowcloak","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Mewtwo","details":"Mewtwo, L70","condition":"0 fnt","active":false,"stats":{"atk":159,"def":167,"spa":257,"spd":167,"spe":223},"moves":["psychic","recover","aurasphere","calmmind"],"baseAbility":"pressure","item":"lifeorb","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 13:16:41,363 >battle-gen4randombattle-324391
+2026-08-12 13:16:41,364 |
+2026-08-12 13:16:41,364 |t:|1786533401
+2026-08-12 13:16:41,364 |move|p1a: Infernape|Close Combat|p2a: Latias
+2026-08-12 13:16:41,364 |-resisted|p2a: Latias
+2026-08-12 13:16:41,364 |-damage|p2a: Latias|0 fnt
+2026-08-12 13:16:41,364 |-unboost|p1a: Infernape|def|1
+2026-08-12 13:16:41,364 |-unboost|p1a: Infernape|spd|1
+2026-08-12 13:16:41,364 |faint|p2a: Latias
+2026-08-12 13:16:41,364 |
+2026-08-12 13:16:41,364 |win|BOT5
+2026-08-12 13:56:41,362 >battle-gen4randombattle-324391
+2026-08-12 13:56:41,363 |expire|
+2026-08-12 13:56:41,366 >battle-gen4randombattle-324391
+2026-08-12 13:56:41,366 |L|☆BOT5
+2026-08-12 13:56:41,366 >battle-gen4randombattle-324391
+2026-08-12 13:56:41,366 |deinit

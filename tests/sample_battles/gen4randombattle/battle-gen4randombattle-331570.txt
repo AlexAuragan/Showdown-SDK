@@ -1,0 +1,724 @@
+2026-08-12 14:16:57,752 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,752 |init|battle
+2026-08-12 14:16:57,753 |title|BOT5 vs. BOT6
+2026-08-12 14:16:57,753 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-331570">battle-gen4randombattle-331570</a>&raquo;
+2026-08-12 14:16:57,794 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,794 |t:|1786537017
+2026-08-12 14:16:57,794 |gametype|singles
+2026-08-12 14:16:57,794 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,794 |player|p1|BOT5|101|
+2026-08-12 14:16:57,794 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,794 |player|p2|BOT6|101|
+2026-08-12 14:16:57,794 |gen|4
+2026-08-12 14:16:57,794 |tier|[Gen 4] Random Battle
+2026-08-12 14:16:57,794 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 14:16:57,794 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 14:16:57,794 |
+2026-08-12 14:16:57,794 |t:|1786537017
+2026-08-12 14:16:57,794 |teamsize|p1|6
+2026-08-12 14:16:57,794 |teamsize|p2|6
+2026-08-12 14:16:57,794 |start
+2026-08-12 14:16:57,794 |switch|p1a: Arcanine|Arcanine, L79, F|100/100
+2026-08-12 14:16:57,794 |switch|p2a: Weezing|Weezing, L90, F|263/263
+2026-08-12 14:16:57,794 |-ability|p1a: Arcanine|Intimidate|boost
+2026-08-12 14:16:57,794 |-unboost|p2a: Weezing|atk|1
+2026-08-12 14:16:57,794 |turn|1
+2026-08-12 14:16:57,797 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,797 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 14:16:57,840 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,840 |
+2026-08-12 14:16:57,840 |t:|1786537017
+2026-08-12 14:16:57,840 |move|p1a: Arcanine|Extreme Speed|p2a: Weezing
+2026-08-12 14:16:57,840 |-damage|p2a: Weezing|209/263
+2026-08-12 14:16:57,840 |-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+2026-08-12 14:16:57,840 |move|p2a: Weezing|Sludge Bomb|p1a: Arcanine
+2026-08-12 14:16:57,840 |-damage|p1a: Arcanine|50/100
+2026-08-12 14:16:57,840 |
+2026-08-12 14:16:57,840 |-heal|p2a: Weezing|225/263|[from] item: Black Sludge
+2026-08-12 14:16:57,840 |upkeep
+2026-08-12 14:16:57,840 |turn|2
+2026-08-12 14:16:57,840 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,840 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"225/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 14:16:57,873 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,873 |
+2026-08-12 14:16:57,873 |t:|1786537017
+2026-08-12 14:16:57,873 |move|p1a: Arcanine|Thunder Fang|p2a: Weezing
+2026-08-12 14:16:57,873 |-damage|p2a: Weezing|184/263
+2026-08-12 14:16:57,873 |-damage|p1a: Arcanine|40/100|[from] item: Life Orb
+2026-08-12 14:16:57,873 |move|p2a: Weezing|Sleep Talk||[still]
+2026-08-12 14:16:57,873 |-fail|p2a: Weezing
+2026-08-12 14:16:57,873 |
+2026-08-12 14:16:57,873 |-heal|p2a: Weezing|200/263|[from] item: Black Sludge
+2026-08-12 14:16:57,873 |upkeep
+2026-08-12 14:16:57,873 |turn|3
+2026-08-12 14:16:57,874 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,874 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"200/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 14:16:57,891 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,891 |
+2026-08-12 14:16:57,891 |t:|1786537017
+2026-08-12 14:16:57,891 |move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+2026-08-12 14:16:57,891 |-heal|p1a: Arcanine|90/100
+2026-08-12 14:16:57,891 |move|p2a: Weezing|Sludge Bomb|p1a: Arcanine
+2026-08-12 14:16:57,891 |-damage|p1a: Arcanine|50/100
+2026-08-12 14:16:57,891 |
+2026-08-12 14:16:57,891 |-heal|p2a: Weezing|216/263|[from] item: Black Sludge
+2026-08-12 14:16:57,891 |upkeep
+2026-08-12 14:16:57,891 |turn|4
+2026-08-12 14:16:57,892 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,892 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"216/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 14:16:57,918 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,918 |
+2026-08-12 14:16:57,918 |t:|1786537017
+2026-08-12 14:16:57,918 |move|p1a: Arcanine|Flare Blitz|p2a: Weezing
+2026-08-12 14:16:57,918 |-damage|p2a: Weezing|90/263
+2026-08-12 14:16:57,918 |-damage|p1a: Arcanine|34/100|[from] Recoil
+2026-08-12 14:16:57,918 |-damage|p1a: Arcanine|24/100|[from] item: Life Orb
+2026-08-12 14:16:57,918 |move|p2a: Weezing|Sludge Bomb|p1a: Arcanine
+2026-08-12 14:16:57,918 |-damage|p1a: Arcanine|0 fnt
+2026-08-12 14:16:57,918 |faint|p1a: Arcanine
+2026-08-12 14:16:57,918 |
+2026-08-12 14:16:57,918 |-heal|p2a: Weezing|106/263|[from] item: Black Sludge
+2026-08-12 14:16:57,918 |upkeep
+2026-08-12 14:16:57,919 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,919 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 14:16:57,930 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,930 |
+2026-08-12 14:16:57,930 |t:|1786537017
+2026-08-12 14:16:57,930 |switch|p1a: Blaziken|Blaziken, L84, M|100/100
+2026-08-12 14:16:57,930 |turn|5
+2026-08-12 14:16:57,931 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,931 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 14:16:57,961 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,961 |
+2026-08-12 14:16:57,961 |t:|1786537017
+2026-08-12 14:16:57,961 |switch|p2a: Politoed|Politoed, L88, F|302/302
+2026-08-12 14:16:57,961 |move|p1a: Blaziken|Vacuum Wave|p2a: Politoed
+2026-08-12 14:16:57,961 |-damage|p2a: Politoed|245/302
+2026-08-12 14:16:57,961 |-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+2026-08-12 14:16:57,961 |
+2026-08-12 14:16:57,961 |-heal|p2a: Politoed|263/302|[from] item: Leftovers
+2026-08-12 14:16:57,961 |upkeep
+2026-08-12 14:16:57,961 |turn|6
+2026-08-12 14:16:57,962 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,962 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"263/302","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 14:16:57,995 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,995 |
+2026-08-12 14:16:57,995 |t:|1786537017
+2026-08-12 14:16:57,995 |move|p1a: Blaziken|Vacuum Wave|p2a: Politoed
+2026-08-12 14:16:57,995 |-damage|p2a: Politoed|205/302
+2026-08-12 14:16:57,995 |-damage|p1a: Blaziken|81/100|[from] item: Life Orb
+2026-08-12 14:16:57,995 |move|p2a: Politoed|Toxic|p1a: Blaziken
+2026-08-12 14:16:57,995 |-status|p1a: Blaziken|tox
+2026-08-12 14:16:57,995 |
+2026-08-12 14:16:57,995 |-damage|p1a: Blaziken|74/100 tox|[from] psn
+2026-08-12 14:16:57,995 |-heal|p2a: Politoed|223/302|[from] item: Leftovers
+2026-08-12 14:16:57,995 |upkeep
+2026-08-12 14:16:57,995 |turn|7
+2026-08-12 14:16:57,996 >battle-gen4randombattle-331570
+2026-08-12 14:16:57,996 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"223/302","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 14:16:58,017 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,017 |
+2026-08-12 14:16:58,017 |t:|1786537018
+2026-08-12 14:16:58,017 |switch|p1a: Bastiodon|Bastiodon, L97, M|100/100
+2026-08-12 14:16:58,017 |move|p2a: Politoed|Toxic|p1a: Bastiodon
+2026-08-12 14:16:58,017 |-immune|p1a: Bastiodon
+2026-08-12 14:16:58,017 |
+2026-08-12 14:16:58,017 |-heal|p2a: Politoed|241/302|[from] item: Leftovers
+2026-08-12 14:16:58,017 |upkeep
+2026-08-12 14:16:58,017 |turn|8
+2026-08-12 14:16:58,018 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,018 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"241/302","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 14:16:58,038 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,038 |
+2026-08-12 14:16:58,038 |t:|1786537018
+2026-08-12 14:16:58,038 |move|p2a: Politoed|Encore||[still]
+2026-08-12 14:16:58,038 |-fail|p2a: Politoed
+2026-08-12 14:16:58,039 |move|p1a: Bastiodon|Toxic|p2a: Politoed
+2026-08-12 14:16:58,039 |-status|p2a: Politoed|tox
+2026-08-12 14:16:58,039 |
+2026-08-12 14:16:58,039 |-heal|p2a: Politoed|259/302 tox|[from] item: Leftovers
+2026-08-12 14:16:58,039 |-damage|p2a: Politoed|241/302 tox|[from] psn
+2026-08-12 14:16:58,039 |upkeep
+2026-08-12 14:16:58,039 |turn|9
+2026-08-12 14:16:58,039 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,039 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"241/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 14:16:58,065 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,065 |
+2026-08-12 14:16:58,065 |t:|1786537018
+2026-08-12 14:16:58,065 |move|p2a: Politoed|Toxic|p1a: Bastiodon
+2026-08-12 14:16:58,065 |-immune|p1a: Bastiodon
+2026-08-12 14:16:58,065 |move|p1a: Bastiodon|Toxic|p2a: Politoed
+2026-08-12 14:16:58,065 |-fail|p2a: Politoed|tox
+2026-08-12 14:16:58,065 |
+2026-08-12 14:16:58,065 |-heal|p2a: Politoed|259/302 tox|[from] item: Leftovers
+2026-08-12 14:16:58,065 |-damage|p2a: Politoed|223/302 tox|[from] psn
+2026-08-12 14:16:58,065 |upkeep
+2026-08-12 14:16:58,065 |turn|10
+2026-08-12 14:16:58,066 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,066 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"223/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 14:16:58,097 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,097 |
+2026-08-12 14:16:58,097 |t:|1786537018
+2026-08-12 14:16:58,097 |move|p2a: Politoed|Encore|p1a: Bastiodon
+2026-08-12 14:16:58,097 |-start|p1a: Bastiodon|Encore
+2026-08-12 14:16:58,097 |move|p1a: Bastiodon|Toxic|p2a: Politoed
+2026-08-12 14:16:58,097 |-fail|p2a: Politoed|tox
+2026-08-12 14:16:58,097 |
+2026-08-12 14:16:58,097 |-heal|p2a: Politoed|241/302 tox|[from] item: Leftovers
+2026-08-12 14:16:58,097 |-damage|p2a: Politoed|187/302 tox|[from] psn
+2026-08-12 14:16:58,097 |upkeep
+2026-08-12 14:16:58,097 |turn|11
+2026-08-12 14:16:58,098 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,098 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"187/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 14:16:58,117 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,118 |
+2026-08-12 14:16:58,118 |t:|1786537018
+2026-08-12 14:16:58,118 |move|p2a: Politoed|Toxic|p1a: Bastiodon
+2026-08-12 14:16:58,118 |-immune|p1a: Bastiodon
+2026-08-12 14:16:58,118 |move|p1a: Bastiodon|Toxic|p2a: Politoed
+2026-08-12 14:16:58,118 |-fail|p2a: Politoed|tox
+2026-08-12 14:16:58,118 |
+2026-08-12 14:16:58,118 |-heal|p2a: Politoed|205/302 tox|[from] item: Leftovers
+2026-08-12 14:16:58,118 |-damage|p2a: Politoed|133/302 tox|[from] psn
+2026-08-12 14:16:58,118 |upkeep
+2026-08-12 14:16:58,118 |turn|12
+2026-08-12 14:16:58,120 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,120 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"133/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 14:16:58,144 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,144 |
+2026-08-12 14:16:58,144 |t:|1786537018
+2026-08-12 14:16:58,144 |move|p2a: Politoed|Toxic|p1a: Bastiodon|[miss]
+2026-08-12 14:16:58,144 |-miss|p2a: Politoed|p1a: Bastiodon
+2026-08-12 14:16:58,144 |move|p1a: Bastiodon|Toxic|p2a: Politoed
+2026-08-12 14:16:58,144 |-fail|p2a: Politoed|tox
+2026-08-12 14:16:58,144 |
+2026-08-12 14:16:58,144 |-heal|p2a: Politoed|151/302 tox|[from] item: Leftovers
+2026-08-12 14:16:58,144 |-damage|p2a: Politoed|61/302 tox|[from] psn
+2026-08-12 14:16:58,144 |upkeep
+2026-08-12 14:16:58,144 |turn|13
+2026-08-12 14:16:58,146 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,146 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"318/318","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 14:16:58,172 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,172 |
+2026-08-12 14:16:58,172 |t:|1786537018
+2026-08-12 14:16:58,172 |switch|p2a: Regigigas|Regigigas, L83|318/318
+2026-08-12 14:16:58,172 |-start|p2a: Regigigas|ability: Slow Start
+2026-08-12 14:16:58,172 |move|p1a: Bastiodon|Toxic|p2a: Regigigas
+2026-08-12 14:16:58,172 |-status|p2a: Regigigas|tox
+2026-08-12 14:16:58,172 |
+2026-08-12 14:16:58,172 |-damage|p2a: Regigigas|299/318 tox|[from] psn
+2026-08-12 14:16:58,172 |upkeep
+2026-08-12 14:16:58,172 |turn|14
+2026-08-12 14:16:58,173 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,173 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"299/318 tox","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 14:16:58,199 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,199 |
+2026-08-12 14:16:58,199 |t:|1786537018
+2026-08-12 14:16:58,199 |move|p1a: Bastiodon|Toxic|p2a: Regigigas
+2026-08-12 14:16:58,199 |-fail|p2a: Regigigas|tox
+2026-08-12 14:16:58,199 |move|p2a: Regigigas|Earthquake|p1a: Bastiodon
+2026-08-12 14:16:58,199 |-supereffective|p1a: Bastiodon
+2026-08-12 14:16:58,199 |-damage|p1a: Bastiodon|59/100
+2026-08-12 14:16:58,199 |
+2026-08-12 14:16:58,199 |-heal|p1a: Bastiodon|66/100|[from] item: Leftovers
+2026-08-12 14:16:58,199 |-heal|p2a: Regigigas|318/318 tox|[from] item: Leftovers
+2026-08-12 14:16:58,199 |-damage|p2a: Regigigas|280/318 tox|[from] psn
+2026-08-12 14:16:58,199 |upkeep
+2026-08-12 14:16:58,199 |turn|15
+2026-08-12 14:16:58,202 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,202 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"280/318 tox","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 14:16:58,223 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,223 |
+2026-08-12 14:16:58,223 |t:|1786537018
+2026-08-12 14:16:58,223 |move|p1a: Bastiodon|Toxic|p2a: Regigigas
+2026-08-12 14:16:58,223 |-fail|p2a: Regigigas|tox
+2026-08-12 14:16:58,223 |move|p2a: Regigigas|Earthquake|p1a: Bastiodon
+2026-08-12 14:16:58,223 |-supereffective|p1a: Bastiodon
+2026-08-12 14:16:58,223 |-damage|p1a: Bastiodon|25/100
+2026-08-12 14:16:58,223 |
+2026-08-12 14:16:58,223 |-heal|p1a: Bastiodon|31/100|[from] item: Leftovers
+2026-08-12 14:16:58,223 |-heal|p2a: Regigigas|299/318 tox|[from] item: Leftovers
+2026-08-12 14:16:58,223 |-damage|p2a: Regigigas|242/318 tox|[from] psn
+2026-08-12 14:16:58,223 |upkeep
+2026-08-12 14:16:58,223 |turn|16
+2026-08-12 14:16:58,223 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,223 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"242/318 tox","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 14:16:58,252 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,252 |
+2026-08-12 14:16:58,252 |t:|1786537018
+2026-08-12 14:16:58,253 |move|p1a: Bastiodon|Toxic|p2a: Regigigas
+2026-08-12 14:16:58,253 |-fail|p2a: Regigigas|tox
+2026-08-12 14:16:58,253 |move|p2a: Regigigas|Return|p1a: Bastiodon
+2026-08-12 14:16:58,253 |-resisted|p1a: Bastiodon
+2026-08-12 14:16:58,253 |-crit|p1a: Bastiodon
+2026-08-12 14:16:58,253 |-damage|p1a: Bastiodon|23/100
+2026-08-12 14:16:58,253 |
+2026-08-12 14:16:58,253 |-heal|p1a: Bastiodon|29/100|[from] item: Leftovers
+2026-08-12 14:16:58,253 |-heal|p2a: Regigigas|261/318 tox|[from] item: Leftovers
+2026-08-12 14:16:58,253 |-damage|p2a: Regigigas|185/318 tox|[from] psn
+2026-08-12 14:16:58,253 |upkeep
+2026-08-12 14:16:58,253 |turn|17
+2026-08-12 14:16:58,254 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,254 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"185/318 tox","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 14:16:58,285 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,285 |
+2026-08-12 14:16:58,285 |t:|1786537018
+2026-08-12 14:16:58,285 |move|p1a: Bastiodon|Toxic|p2a: Regigigas
+2026-08-12 14:16:58,285 |-fail|p2a: Regigigas|tox
+2026-08-12 14:16:58,285 |move|p2a: Regigigas|Thunder Wave|p1a: Bastiodon
+2026-08-12 14:16:58,285 |-status|p1a: Bastiodon|par
+2026-08-12 14:16:58,285 |
+2026-08-12 14:16:58,285 |-heal|p2a: Regigigas|204/318 tox|[from] item: Leftovers
+2026-08-12 14:16:58,285 |-damage|p2a: Regigigas|109/318 tox|[from] psn
+2026-08-12 14:16:58,285 |-heal|p1a: Bastiodon|36/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,285 |-end|p1a: Bastiodon|Encore
+2026-08-12 14:16:58,285 |upkeep
+2026-08-12 14:16:58,285 |turn|18
+2026-08-12 14:16:58,287 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,287 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"109/318 tox","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 14:16:58,313 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,313 |
+2026-08-12 14:16:58,313 |t:|1786537018
+2026-08-12 14:16:58,313 |move|p1a: Bastiodon|Protect|p1a: Bastiodon
+2026-08-12 14:16:58,313 |-singleturn|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,313 |move|p2a: Regigigas|Thunder Wave|p1a: Bastiodon
+2026-08-12 14:16:58,313 |-activate|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,313 |
+2026-08-12 14:16:58,313 |-heal|p2a: Regigigas|128/318 tox|[from] item: Leftovers
+2026-08-12 14:16:58,313 |-damage|p2a: Regigigas|14/318 tox|[from] psn
+2026-08-12 14:16:58,313 |-heal|p1a: Bastiodon|42/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,313 |-end|p2a: Regigigas|Slow Start
+2026-08-12 14:16:58,313 |upkeep
+2026-08-12 14:16:58,313 |turn|19
+2026-08-12 14:16:58,313 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,313 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"14/318 tox","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 14:16:58,334 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,334 |
+2026-08-12 14:16:58,334 |t:|1786537018
+2026-08-12 14:16:58,334 |move|p1a: Bastiodon|Protect|p1a: Bastiodon
+2026-08-12 14:16:58,334 |-singleturn|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,334 |move|p2a: Regigigas|Substitute|p2a: Regigigas
+2026-08-12 14:16:58,334 |-fail|p2a: Regigigas|move: Substitute|[weak]
+2026-08-12 14:16:58,334 |
+2026-08-12 14:16:58,334 |-heal|p2a: Regigigas|33/318 tox|[from] item: Leftovers
+2026-08-12 14:16:58,334 |-damage|p2a: Regigigas|0 fnt|[from] psn
+2026-08-12 14:16:58,334 |faint|p2a: Regigigas
+2026-08-12 14:16:58,334 |-end|p2a: Regigigas|Slow Start|[silent]
+2026-08-12 14:16:58,334 |-heal|p1a: Bastiodon|48/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,334 |upkeep
+2026-08-12 14:16:58,334 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,334 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":true,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"noCancel":true,"rqid":43}
+2026-08-12 14:16:58,354 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,354 |
+2026-08-12 14:16:58,354 |t:|1786537018
+2026-08-12 14:16:58,354 |switch|p2a: Articuno|Articuno, L78|268/268
+2026-08-12 14:16:58,354 |-ability|p2a: Articuno|Pressure
+2026-08-12 14:16:58,354 |turn|20
+2026-08-12 14:16:58,355 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,355 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 14:16:58,376 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,376 |
+2026-08-12 14:16:58,376 |t:|1786537018
+2026-08-12 14:16:58,376 |switch|p1a: Blaziken|Blaziken, L84, M|74/100 tox
+2026-08-12 14:16:58,376 |move|p2a: Articuno|Roost||[still]
+2026-08-12 14:16:58,376 |-fail|p2a: Articuno|heal
+2026-08-12 14:16:58,376 |
+2026-08-12 14:16:58,376 |-damage|p1a: Blaziken|68/100 tox|[from] psn
+2026-08-12 14:16:58,376 |upkeep
+2026-08-12 14:16:58,376 |turn|21
+2026-08-12 14:16:58,376 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,376 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"268/268","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 14:16:58,413 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,413 |
+2026-08-12 14:16:58,413 |t:|1786537018
+2026-08-12 14:16:58,413 |move|p1a: Blaziken|Superpower|p2a: Articuno
+2026-08-12 14:16:58,413 |-damage|p2a: Articuno|76/268
+2026-08-12 14:16:58,413 |-unboost|p1a: Blaziken|atk|1
+2026-08-12 14:16:58,413 |-unboost|p1a: Blaziken|def|1
+2026-08-12 14:16:58,413 |-damage|p1a: Blaziken|58/100 tox|[from] item: Life Orb
+2026-08-12 14:16:58,413 |move|p2a: Articuno|Ice Beam|p1a: Blaziken
+2026-08-12 14:16:58,413 |-resisted|p1a: Blaziken
+2026-08-12 14:16:58,413 |-damage|p1a: Blaziken|41/100 tox
+2026-08-12 14:16:58,413 |
+2026-08-12 14:16:58,413 |-damage|p1a: Blaziken|28/100 tox|[from] psn
+2026-08-12 14:16:58,413 |-heal|p2a: Articuno|92/268|[from] item: Leftovers
+2026-08-12 14:16:58,413 |upkeep
+2026-08-12 14:16:58,413 |turn|22
+2026-08-12 14:16:58,431 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,431 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"92/268","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 14:16:58,459 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,459 |
+2026-08-12 14:16:58,459 |t:|1786537018
+2026-08-12 14:16:58,459 |move|p1a: Blaziken|Vacuum Wave|p2a: Articuno
+2026-08-12 14:16:58,459 |-damage|p2a: Articuno|40/268
+2026-08-12 14:16:58,459 |-damage|p1a: Blaziken|19/100 tox|[from] item: Life Orb
+2026-08-12 14:16:58,459 |move|p2a: Articuno|Ice Beam|p1a: Blaziken
+2026-08-12 14:16:58,459 |-resisted|p1a: Blaziken
+2026-08-12 14:16:58,459 |-damage|p1a: Blaziken|0 fnt
+2026-08-12 14:16:58,459 |faint|p1a: Blaziken
+2026-08-12 14:16:58,459 |
+2026-08-12 14:16:58,459 |-heal|p2a: Articuno|56/268|[from] item: Leftovers
+2026-08-12 14:16:58,459 |upkeep
+2026-08-12 14:16:58,461 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,461 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"56/268","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 14:16:58,484 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,484 |
+2026-08-12 14:16:58,484 |t:|1786537018
+2026-08-12 14:16:58,484 |switch|p1a: Bastiodon|Bastiodon, L97, M|48/100 par
+2026-08-12 14:16:58,484 |turn|23
+2026-08-12 14:16:58,485 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,485 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"56/268","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 14:16:58,511 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,512 |
+2026-08-12 14:16:58,512 |t:|1786537018
+2026-08-12 14:16:58,512 |move|p2a: Articuno|Toxic||[still]
+2026-08-12 14:16:58,512 |-fail|p2a: Articuno
+2026-08-12 14:16:58,512 |move|p1a: Bastiodon|Earthquake|p2a: Articuno
+2026-08-12 14:16:58,512 |-immune|p2a: Articuno
+2026-08-12 14:16:58,512 |
+2026-08-12 14:16:58,512 |-heal|p2a: Articuno|72/268|[from] item: Leftovers
+2026-08-12 14:16:58,512 |-heal|p1a: Bastiodon|54/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,512 |upkeep
+2026-08-12 14:16:58,512 |turn|24
+2026-08-12 14:16:58,513 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,513 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"72/268","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 14:16:58,549 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,549 |
+2026-08-12 14:16:58,549 |t:|1786537018
+2026-08-12 14:16:58,549 |move|p2a: Articuno|Toxic|p1a: Bastiodon|[miss]
+2026-08-12 14:16:58,549 |-miss|p2a: Articuno|p1a: Bastiodon
+2026-08-12 14:16:58,549 |move|p1a: Bastiodon|Toxic|p2a: Articuno
+2026-08-12 14:16:58,549 |-status|p2a: Articuno|tox
+2026-08-12 14:16:58,549 |
+2026-08-12 14:16:58,549 |-heal|p2a: Articuno|88/268 tox|[from] item: Leftovers
+2026-08-12 14:16:58,549 |-damage|p2a: Articuno|72/268 tox|[from] psn
+2026-08-12 14:16:58,549 |-heal|p1a: Bastiodon|61/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,549 |upkeep
+2026-08-12 14:16:58,549 |turn|25
+2026-08-12 14:16:58,550 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,550 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"72/268 tox","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 14:16:58,580 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,580 |
+2026-08-12 14:16:58,580 |t:|1786537018
+2026-08-12 14:16:58,580 |move|p2a: Articuno|Substitute|p2a: Articuno
+2026-08-12 14:16:58,580 |-start|p2a: Articuno|Substitute
+2026-08-12 14:16:58,580 |-damage|p2a: Articuno|5/268 tox
+2026-08-12 14:16:58,580 |cant|p1a: Bastiodon|par
+2026-08-12 14:16:58,580 |
+2026-08-12 14:16:58,580 |-heal|p2a: Articuno|21/268 tox|[from] item: Leftovers
+2026-08-12 14:16:58,580 |-damage|p2a: Articuno|0 fnt|[from] psn
+2026-08-12 14:16:58,580 |faint|p2a: Articuno
+2026-08-12 14:16:58,580 |-heal|p1a: Bastiodon|67/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,580 |upkeep
+2026-08-12 14:16:58,580 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,580 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":true,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"noCancel":true,"rqid":59}
+2026-08-12 14:16:58,598 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,598 |
+2026-08-12 14:16:58,598 |t:|1786537018
+2026-08-12 14:16:58,598 |switch|p2a: Rotom|Rotom-Heat, L78|206/206
+2026-08-12 14:16:58,598 |turn|26
+2026-08-12 14:16:58,600 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,600 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 14:16:58,634 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,634 |
+2026-08-12 14:16:58,634 |t:|1786537018
+2026-08-12 14:16:58,634 |move|p1a: Bastiodon|Protect|p1a: Bastiodon
+2026-08-12 14:16:58,634 |-singleturn|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,634 |move|p2a: Rotom|Will-O-Wisp|p1a: Bastiodon
+2026-08-12 14:16:58,634 |-activate|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,634 |
+2026-08-12 14:16:58,634 |-heal|p1a: Bastiodon|73/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,634 |upkeep
+2026-08-12 14:16:58,634 |turn|27
+2026-08-12 14:16:58,634 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,635 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"106/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 14:16:58,663 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,663 |
+2026-08-12 14:16:58,663 |t:|1786537018
+2026-08-12 14:16:58,663 |move|p2a: Rotom|Shadow Ball|p1a: Bastiodon
+2026-08-12 14:16:58,663 |-resisted|p1a: Bastiodon
+2026-08-12 14:16:58,663 |-damage|p1a: Bastiodon|64/100 par
+2026-08-12 14:16:58,663 |-unboost|p1a: Bastiodon|spd|1
+2026-08-12 14:16:58,663 |move|p1a: Bastiodon|Roar|p2a: Rotom
+2026-08-12 14:16:58,663 |drag|p2a: Weezing|Weezing, L90, F|106/263
+2026-08-12 14:16:58,663 |
+2026-08-12 14:16:58,663 |-heal|p2a: Weezing|122/263|[from] item: Black Sludge
+2026-08-12 14:16:58,663 |-heal|p1a: Bastiodon|70/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,663 |upkeep
+2026-08-12 14:16:58,663 |turn|28
+2026-08-12 14:16:58,666 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,666 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"122/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 14:16:58,701 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,701 |
+2026-08-12 14:16:58,701 |t:|1786537018
+2026-08-12 14:16:58,701 |move|p1a: Bastiodon|Protect|p1a: Bastiodon
+2026-08-12 14:16:58,701 |-singleturn|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,701 |move|p2a: Weezing|Fire Blast|p1a: Bastiodon
+2026-08-12 14:16:58,701 |-activate|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,701 |
+2026-08-12 14:16:58,701 |-heal|p2a: Weezing|138/263|[from] item: Black Sludge
+2026-08-12 14:16:58,701 |-heal|p1a: Bastiodon|77/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,701 |upkeep
+2026-08-12 14:16:58,701 |turn|29
+2026-08-12 14:16:58,703 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,703 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"138/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 14:16:58,734 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,734 |
+2026-08-12 14:16:58,734 |t:|1786537018
+2026-08-12 14:16:58,734 |move|p2a: Weezing|Fire Blast|p1a: Bastiodon
+2026-08-12 14:16:58,734 |-damage|p1a: Bastiodon|49/100 par
+2026-08-12 14:16:58,734 |move|p1a: Bastiodon|Toxic|p2a: Weezing
+2026-08-12 14:16:58,734 |-immune|p2a: Weezing
+2026-08-12 14:16:58,734 |
+2026-08-12 14:16:58,734 |-heal|p2a: Weezing|154/263|[from] item: Black Sludge
+2026-08-12 14:16:58,734 |-heal|p1a: Bastiodon|55/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,734 |upkeep
+2026-08-12 14:16:58,734 |turn|30
+2026-08-12 14:16:58,734 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,734 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"154/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 14:16:58,761 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,761 |
+2026-08-12 14:16:58,761 |t:|1786537018
+2026-08-12 14:16:58,761 |move|p2a: Weezing|Rest|p2a: Weezing
+2026-08-12 14:16:58,761 |-status|p2a: Weezing|slp|[from] move: Rest
+2026-08-12 14:16:58,761 |-heal|p2a: Weezing|263/263 slp|[silent]
+2026-08-12 14:16:58,761 |cant|p1a: Bastiodon|par
+2026-08-12 14:16:58,761 |
+2026-08-12 14:16:58,761 |-heal|p1a: Bastiodon|61/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,761 |upkeep
+2026-08-12 14:16:58,761 |turn|31
+2026-08-12 14:16:58,762 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,762 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263 slp","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 14:16:58,783 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,783 |
+2026-08-12 14:16:58,783 |t:|1786537018
+2026-08-12 14:16:58,783 |cant|p2a: Weezing|slp
+2026-08-12 14:16:58,783 |move|p1a: Bastiodon|Earthquake|p2a: Weezing
+2026-08-12 14:16:58,783 |-immune|p2a: Weezing|[from] ability: Levitate
+2026-08-12 14:16:58,783 |
+2026-08-12 14:16:58,783 |-heal|p1a: Bastiodon|68/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,783 |upkeep
+2026-08-12 14:16:58,783 |turn|32
+2026-08-12 14:16:58,784 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,784 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263 slp","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 14:16:58,815 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,815 |
+2026-08-12 14:16:58,815 |t:|1786537018
+2026-08-12 14:16:58,815 |cant|p2a: Weezing|slp
+2026-08-12 14:16:58,815 |move|p1a: Bastiodon|Earthquake|p2a: Weezing
+2026-08-12 14:16:58,815 |-immune|p2a: Weezing|[from] ability: Levitate
+2026-08-12 14:16:58,815 |
+2026-08-12 14:16:58,815 |-heal|p1a: Bastiodon|74/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,815 |upkeep
+2026-08-12 14:16:58,815 |turn|33
+2026-08-12 14:16:58,818 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,818 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263 slp","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 14:16:58,850 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,850 |
+2026-08-12 14:16:58,850 |t:|1786537018
+2026-08-12 14:16:58,850 |move|p1a: Bastiodon|Protect|p1a: Bastiodon
+2026-08-12 14:16:58,850 |-singleturn|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,850 |-curestatus|p2a: Weezing|slp|[msg]
+2026-08-12 14:16:58,850 |move|p2a: Weezing|Sludge Bomb|p1a: Bastiodon
+2026-08-12 14:16:58,850 |-immune|p1a: Bastiodon
+2026-08-12 14:16:58,850 |
+2026-08-12 14:16:58,850 |-heal|p1a: Bastiodon|80/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,850 |upkeep
+2026-08-12 14:16:58,850 |turn|34
+2026-08-12 14:16:58,850 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,850 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 14:16:58,878 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,878 |
+2026-08-12 14:16:58,878 |t:|1786537018
+2026-08-12 14:16:58,878 |move|p1a: Bastiodon|Protect||[still]
+2026-08-12 14:16:58,878 |-fail|p1a: Bastiodon
+2026-08-12 14:16:58,878 |move|p2a: Weezing|Rest|p2a: Weezing
+2026-08-12 14:16:58,878 |-fail|p2a: Weezing|heal
+2026-08-12 14:16:58,878 |
+2026-08-12 14:16:58,878 |-heal|p1a: Bastiodon|86/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,878 |upkeep
+2026-08-12 14:16:58,878 |turn|35
+2026-08-12 14:16:58,881 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,881 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 14:16:58,899 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,899 |
+2026-08-12 14:16:58,899 |t:|1786537018
+2026-08-12 14:16:58,899 |move|p2a: Weezing|Sleep Talk||[still]
+2026-08-12 14:16:58,899 |-fail|p2a: Weezing
+2026-08-12 14:16:58,899 |move|p1a: Bastiodon|Roar|p2a: Weezing
+2026-08-12 14:16:58,899 |drag|p2a: Pikachu|Pikachu, L91, F|212/212
+2026-08-12 14:16:58,899 |
+2026-08-12 14:16:58,899 |-heal|p1a: Bastiodon|92/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,899 |upkeep
+2026-08-12 14:16:58,899 |turn|36
+2026-08-12 14:16:58,902 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,902 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Volt Tackle","id":"volttackle","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 14:16:58,940 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,940 |
+2026-08-12 14:16:58,940 |t:|1786537018
+2026-08-12 14:16:58,940 |move|p1a: Bastiodon|Protect|p1a: Bastiodon
+2026-08-12 14:16:58,940 |-singleturn|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,940 |move|p2a: Pikachu|Surf|p1a: Bastiodon
+2026-08-12 14:16:58,940 |-activate|p1a: Bastiodon|Protect
+2026-08-12 14:16:58,940 |
+2026-08-12 14:16:58,940 |-heal|p1a: Bastiodon|99/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,940 |upkeep
+2026-08-12 14:16:58,940 |turn|37
+2026-08-12 14:16:58,940 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,940 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Volt Tackle","id":"volttackle","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 14:16:58,973 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,973 |
+2026-08-12 14:16:58,973 |t:|1786537018
+2026-08-12 14:16:58,973 |switch|p2a: Rotom|Rotom-Heat, L78|206/206
+2026-08-12 14:16:58,973 |cant|p1a: Bastiodon|par
+2026-08-12 14:16:58,973 |
+2026-08-12 14:16:58,973 |-heal|p1a: Bastiodon|100/100 par|[from] item: Leftovers
+2026-08-12 14:16:58,973 |upkeep
+2026-08-12 14:16:58,973 |turn|38
+2026-08-12 14:16:58,976 >battle-gen4randombattle-331570
+2026-08-12 14:16:58,976 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 14:16:59,006 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,006 |
+2026-08-12 14:16:59,006 |t:|1786537018
+2026-08-12 14:16:59,006 |move|p2a: Rotom|Will-O-Wisp||[still]
+2026-08-12 14:16:59,006 |-fail|p2a: Rotom
+2026-08-12 14:16:59,006 |move|p1a: Bastiodon|Roar|p2a: Rotom
+2026-08-12 14:16:59,006 |drag|p2a: Pikachu|Pikachu, L91, F|212/212
+2026-08-12 14:16:59,006 |
+2026-08-12 14:16:59,006 |upkeep
+2026-08-12 14:16:59,006 |turn|39
+2026-08-12 14:16:59,010 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,010 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Volt Tackle","id":"volttackle","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 14:16:59,043 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,043 |
+2026-08-12 14:16:59,043 |t:|1786537019
+2026-08-12 14:16:59,043 |move|p2a: Pikachu|Surf|p1a: Bastiodon
+2026-08-12 14:16:59,043 |-supereffective|p1a: Bastiodon
+2026-08-12 14:16:59,043 |-damage|p1a: Bastiodon|32/100 par
+2026-08-12 14:16:59,043 |move|p1a: Bastiodon|Roar|p2a: Pikachu
+2026-08-12 14:16:59,043 |drag|p2a: Rotom|Rotom-Heat, L78|206/206
+2026-08-12 14:16:59,043 |
+2026-08-12 14:16:59,043 |-heal|p1a: Bastiodon|39/100 par|[from] item: Leftovers
+2026-08-12 14:16:59,043 |upkeep
+2026-08-12 14:16:59,043 |turn|40
+2026-08-12 14:16:59,045 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,045 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"61/302 tox","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 14:16:59,066 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,066 |
+2026-08-12 14:16:59,066 |t:|1786537019
+2026-08-12 14:16:59,066 |switch|p2a: Politoed|Politoed, L88, F|61/302 tox
+2026-08-12 14:16:59,066 |move|p1a: Bastiodon|Earthquake|p2a: Politoed
+2026-08-12 14:16:59,067 |-damage|p2a: Politoed|1/302 tox
+2026-08-12 14:16:59,067 |
+2026-08-12 14:16:59,067 |-heal|p2a: Politoed|19/302 tox|[from] item: Leftovers
+2026-08-12 14:16:59,067 |-damage|p2a: Politoed|1/302 tox|[from] psn
+2026-08-12 14:16:59,067 |-heal|p1a: Bastiodon|45/100 par|[from] item: Leftovers
+2026-08-12 14:16:59,067 |upkeep
+2026-08-12 14:16:59,067 |turn|41
+2026-08-12 14:16:59,071 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,071 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"1/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 14:16:59,104 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,104 |
+2026-08-12 14:16:59,104 |t:|1786537019
+2026-08-12 14:16:59,104 |move|p2a: Politoed|Encore|p1a: Bastiodon
+2026-08-12 14:16:59,104 |-start|p1a: Bastiodon|Encore
+2026-08-12 14:16:59,104 |move|p1a: Bastiodon|Earthquake|p2a: Politoed
+2026-08-12 14:16:59,104 |-damage|p2a: Politoed|0 fnt
+2026-08-12 14:16:59,104 |faint|p2a: Politoed
+2026-08-12 14:16:59,104 |
+2026-08-12 14:16:59,104 |-heal|p1a: Bastiodon|51/100 par|[from] item: Leftovers
+2026-08-12 14:16:59,104 |upkeep
+2026-08-12 14:16:59,104 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,104 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"}]},"noCancel":true,"rqid":93}
+2026-08-12 14:16:59,125 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,125 |
+2026-08-12 14:16:59,125 |t:|1786537019
+2026-08-12 14:16:59,125 |switch|p2a: Weezing|Weezing, L90, F|263/263
+2026-08-12 14:16:59,125 |turn|42
+2026-08-12 14:16:59,126 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,126 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 14:16:59,156 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,156 |
+2026-08-12 14:16:59,156 |t:|1786537019
+2026-08-12 14:16:59,156 |switch|p1a: Gallade|Gallade, L82, M|100/100
+2026-08-12 14:16:59,157 |move|p2a: Weezing|Sludge Bomb|p1a: Gallade
+2026-08-12 14:16:59,157 |-damage|p1a: Gallade|64/100
+2026-08-12 14:16:59,157 |
+2026-08-12 14:16:59,157 |upkeep
+2026-08-12 14:16:59,157 |turn|43
+2026-08-12 14:16:59,158 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,158 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"263/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 14:16:59,179 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,180 |
+2026-08-12 14:16:59,180 |t:|1786537019
+2026-08-12 14:16:59,180 |move|p1a: Gallade|Zen Headbutt|p2a: Weezing
+2026-08-12 14:16:59,180 |-supereffective|p2a: Weezing
+2026-08-12 14:16:59,180 |-damage|p2a: Weezing|27/263
+2026-08-12 14:16:59,180 |cant|p2a: Weezing|flinch
+2026-08-12 14:16:59,180 |
+2026-08-12 14:16:59,180 |-heal|p2a: Weezing|43/263|[from] item: Black Sludge
+2026-08-12 14:16:59,180 |upkeep
+2026-08-12 14:16:59,180 |turn|44
+2026-08-12 14:16:59,183 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,183 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"43/263","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 14:16:59,214 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,214 |
+2026-08-12 14:16:59,215 |t:|1786537019
+2026-08-12 14:16:59,215 |move|p1a: Gallade|Zen Headbutt|p2a: Weezing
+2026-08-12 14:16:59,215 |-supereffective|p2a: Weezing
+2026-08-12 14:16:59,215 |-damage|p2a: Weezing|0 fnt
+2026-08-12 14:16:59,215 |faint|p2a: Weezing
+2026-08-12 14:16:59,215 |
+2026-08-12 14:16:59,215 |upkeep
+2026-08-12 14:16:59,219 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,219 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"0 fnt","active":true,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":101}
+2026-08-12 14:16:59,236 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,236 |
+2026-08-12 14:16:59,236 |t:|1786537019
+2026-08-12 14:16:59,236 |switch|p2a: Rotom|Rotom-Heat, L78|206/206
+2026-08-12 14:16:59,236 |turn|45
+2026-08-12 14:16:59,240 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,240 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"0 fnt","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 14:16:59,279 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,279 |
+2026-08-12 14:16:59,279 |t:|1786537019
+2026-08-12 14:16:59,279 |move|p2a: Rotom|Shadow Ball|p1a: Gallade
+2026-08-12 14:16:59,280 |-supereffective|p1a: Gallade
+2026-08-12 14:16:59,280 |-damage|p1a: Gallade|7/100
+2026-08-12 14:16:59,280 |move|p1a: Gallade|Zen Headbutt|p2a: Rotom
+2026-08-12 14:16:59,280 |-damage|p2a: Rotom|70/206
+2026-08-12 14:16:59,280 |
+2026-08-12 14:16:59,280 |-heal|p2a: Rotom|82/206|[from] item: Leftovers
+2026-08-12 14:16:59,280 |upkeep
+2026-08-12 14:16:59,280 |turn|46
+2026-08-12 14:16:59,281 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,281 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"82/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"0 fnt","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 14:16:59,305 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,305 |
+2026-08-12 14:16:59,305 |t:|1786537019
+2026-08-12 14:16:59,305 |switch|p2a: Pikachu|Pikachu, L91, F|212/212
+2026-08-12 14:16:59,305 |move|p1a: Gallade|Zen Headbutt|p2a: Pikachu
+2026-08-12 14:16:59,305 |-damage|p2a: Pikachu|0 fnt
+2026-08-12 14:16:59,305 |faint|p2a: Pikachu
+2026-08-12 14:16:59,305 |
+2026-08-12 14:16:59,305 |upkeep
+2026-08-12 14:16:59,305 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,305 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"0 fnt","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"82/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"0 fnt","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":107}
+2026-08-12 14:16:59,316 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,316 |
+2026-08-12 14:16:59,316 |t:|1786537019
+2026-08-12 14:16:59,316 |switch|p2a: Rotom|Rotom-Heat, L78|82/206
+2026-08-12 14:16:59,316 |turn|47
+2026-08-12 14:16:59,321 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,321 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Overheat","id":"overheat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Heat, L78","condition":"82/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["thunderbolt","willowisp","shadowball","overheat"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["surf","hiddenpowerice","fakeout","volttackle"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L78","condition":"0 fnt","active":false,"stats":{"atk":137,"def":201,"spa":193,"spd":240,"spe":178},"moves":["icebeam","roost","substitute","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Weezing","details":"Weezing, L90, F","condition":"0 fnt","active":false,"stats":{"atk":167,"def":267,"spa":204,"spd":177,"spe":159},"moves":["rest","sleeptalk","sludgebomb","fireblast"],"baseAbility":"levitate","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Regigigas","details":"Regigigas, L83","condition":"0 fnt","active":false,"stats":{"atk":313,"def":230,"spa":180,"spd":230,"spe":214},"moves":["substitute","earthquake","return102","thunderwave"],"baseAbility":"slowstart","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["encore","protect","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 14:16:59,346 >battle-gen4randombattle-331570
+2026-08-12 14:16:59,346 |
+2026-08-12 14:16:59,346 |t:|1786537019
+2026-08-12 14:16:59,346 |move|p2a: Rotom|Will-O-Wisp|p1a: Gallade
+2026-08-12 14:16:59,346 |-status|p1a: Gallade|brn
+2026-08-12 14:16:59,346 |move|p1a: Gallade|Zen Headbutt|p2a: Rotom
+2026-08-12 14:16:59,346 |-crit|p2a: Rotom
+2026-08-12 14:16:59,346 |-damage|p2a: Rotom|0 fnt
+2026-08-12 14:16:59,346 |faint|p2a: Rotom
+2026-08-12 14:16:59,346 |
+2026-08-12 14:16:59,346 |win|BOT5

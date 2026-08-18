@@ -1,0 +1,565 @@
+2026-08-12 14:14:32,120 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,120 |init|battle
+2026-08-12 14:14:32,121 |title|BOT7 vs. BOT8
+2026-08-12 14:14:32,121 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-331255">battle-gen4randombattle-331255</a>&raquo;
+2026-08-12 14:14:32,153 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,153 |t:|1786536872
+2026-08-12 14:14:32,153 |gametype|singles
+2026-08-12 14:14:32,153 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,153 |player|p1|BOT7|169|
+2026-08-12 14:14:32,155 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,155 |player|p2|BOT8|102|
+2026-08-12 14:14:32,155 |gen|4
+2026-08-12 14:14:32,155 |tier|[Gen 4] Random Battle
+2026-08-12 14:14:32,155 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 14:14:32,156 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 14:14:32,156 |
+2026-08-12 14:14:32,156 |t:|1786536872
+2026-08-12 14:14:32,156 |teamsize|p1|6
+2026-08-12 14:14:32,156 |teamsize|p2|6
+2026-08-12 14:14:32,156 |start
+2026-08-12 14:14:32,156 |switch|p1a: Bibarel|Bibarel, L92, M|100/100
+2026-08-12 14:14:32,156 |switch|p2a: Shuckle|Shuckle, L98, M|198/198
+2026-08-12 14:14:32,156 |turn|1
+2026-08-12 14:14:32,157 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,157 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"198/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 14:14:32,181 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,181 |
+2026-08-12 14:14:32,181 |t:|1786536872
+2026-08-12 14:14:32,181 |move|p1a: Bibarel|Quick Attack|p2a: Shuckle
+2026-08-12 14:14:32,181 |-resisted|p2a: Shuckle
+2026-08-12 14:14:32,181 |-damage|p2a: Shuckle|189/198
+2026-08-12 14:14:32,181 |move|p2a: Shuckle|Knock Off|p1a: Bibarel
+2026-08-12 14:14:32,181 |-crit|p1a: Bibarel
+2026-08-12 14:14:32,181 |-damage|p1a: Bibarel|95/100
+2026-08-12 14:14:32,181 |-enditem|p1a: Bibarel|Leftovers|[from] move: Knock Off|[of] p2a: Shuckle
+2026-08-12 14:14:32,181 |-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+2026-08-12 14:14:32,181 |
+2026-08-12 14:14:32,181 |-heal|p2a: Shuckle|198/198|[from] item: Leftovers
+2026-08-12 14:14:32,181 |upkeep
+2026-08-12 14:14:32,181 |turn|2
+2026-08-12 14:14:32,185 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,185 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"198/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 14:14:32,212 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,212 |
+2026-08-12 14:14:32,212 |t:|1786536872
+2026-08-12 14:14:32,212 |move|p1a: Bibarel|Waterfall|p2a: Shuckle
+2026-08-12 14:14:32,212 |-supereffective|p2a: Shuckle
+2026-08-12 14:14:32,212 |-damage|p2a: Shuckle|126/198
+2026-08-12 14:14:32,212 |move|p2a: Shuckle|Rest|p2a: Shuckle
+2026-08-12 14:14:32,212 |-status|p2a: Shuckle|slp|[from] move: Rest
+2026-08-12 14:14:32,212 |-heal|p2a: Shuckle|198/198 slp|[silent]
+2026-08-12 14:14:32,212 |
+2026-08-12 14:14:32,212 |upkeep
+2026-08-12 14:14:32,212 |turn|3
+2026-08-12 14:14:32,213 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,213 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 14:14:32,245 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,245 |
+2026-08-12 14:14:32,245 |t:|1786536872
+2026-08-12 14:14:32,245 |move|p1a: Bibarel|Curse|p1a: Bibarel
+2026-08-12 14:14:32,245 |-unboost|p1a: Bibarel|spe|1
+2026-08-12 14:14:32,245 |-boost|p1a: Bibarel|atk|1
+2026-08-12 14:14:32,245 |-boost|p1a: Bibarel|def|1
+2026-08-12 14:14:32,245 |cant|p2a: Shuckle|slp
+2026-08-12 14:14:32,245 |
+2026-08-12 14:14:32,245 |upkeep
+2026-08-12 14:14:32,245 |turn|4
+2026-08-12 14:14:32,246 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,246 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 14:14:32,276 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,276 |
+2026-08-12 14:14:32,276 |t:|1786536872
+2026-08-12 14:14:32,276 |move|p1a: Bibarel|Quick Attack|p2a: Shuckle
+2026-08-12 14:14:32,277 |-resisted|p2a: Shuckle
+2026-08-12 14:14:32,277 |-damage|p2a: Shuckle|181/198 slp
+2026-08-12 14:14:32,277 |cant|p2a: Shuckle|slp
+2026-08-12 14:14:32,277 |
+2026-08-12 14:14:32,277 |-heal|p2a: Shuckle|193/198 slp|[from] item: Leftovers
+2026-08-12 14:14:32,277 |upkeep
+2026-08-12 14:14:32,277 |turn|5
+2026-08-12 14:14:32,278 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,278 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"193/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 14:14:32,299 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,299 |
+2026-08-12 14:14:32,299 |t:|1786536872
+2026-08-12 14:14:32,299 |switch|p1a: Flygon|Flygon, L81, M|100/100
+2026-08-12 14:14:32,299 |-curestatus|p2a: Shuckle|slp|[msg]
+2026-08-12 14:14:32,299 |move|p2a: Shuckle|Rest|p2a: Shuckle
+2026-08-12 14:14:32,299 |-status|p2a: Shuckle|slp|[from] move: Rest
+2026-08-12 14:14:32,299 |-heal|p2a: Shuckle|198/198 slp|[silent]
+2026-08-12 14:14:32,299 |
+2026-08-12 14:14:32,299 |upkeep
+2026-08-12 14:14:32,299 |turn|6
+2026-08-12 14:14:32,302 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,302 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 14:14:32,335 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,335 |
+2026-08-12 14:14:32,335 |t:|1786536872
+2026-08-12 14:14:32,335 |move|p1a: Flygon|Earthquake|p2a: Shuckle
+2026-08-12 14:14:32,336 |-damage|p2a: Shuckle|147/198 slp
+2026-08-12 14:14:32,336 |-damage|p1a: Flygon|91/100|[from] item: Life Orb
+2026-08-12 14:14:32,336 |cant|p2a: Shuckle|slp
+2026-08-12 14:14:32,336 |
+2026-08-12 14:14:32,336 |-heal|p2a: Shuckle|159/198 slp|[from] item: Leftovers
+2026-08-12 14:14:32,336 |upkeep
+2026-08-12 14:14:32,336 |turn|7
+2026-08-12 14:14:32,336 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,336 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"159/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 14:14:32,366 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,366 |
+2026-08-12 14:14:32,366 |t:|1786536872
+2026-08-12 14:14:32,366 |move|p1a: Flygon|Outrage|p2a: Shuckle
+2026-08-12 14:14:32,366 |-damage|p2a: Shuckle|95/198 slp
+2026-08-12 14:14:32,366 |-damage|p1a: Flygon|81/100|[from] item: Life Orb
+2026-08-12 14:14:32,366 |cant|p2a: Shuckle|slp
+2026-08-12 14:14:32,366 |
+2026-08-12 14:14:32,366 |-heal|p2a: Shuckle|107/198 slp|[from] item: Leftovers
+2026-08-12 14:14:32,366 |upkeep
+2026-08-12 14:14:32,366 |turn|8
+2026-08-12 14:14:32,367 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,367 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"107/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 14:14:32,408 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,408 |
+2026-08-12 14:14:32,408 |t:|1786536872
+2026-08-12 14:14:32,408 |move|p1a: Flygon|Outrage|p2a: Shuckle|[from] lockedmove
+2026-08-12 14:14:32,408 |-damage|p2a: Shuckle|43/198 slp
+2026-08-12 14:14:32,408 |-damage|p1a: Flygon|71/100|[from] item: Life Orb
+2026-08-12 14:14:32,408 |-curestatus|p2a: Shuckle|slp|[msg]
+2026-08-12 14:14:32,408 |move|p2a: Shuckle|Encore|p1a: Flygon
+2026-08-12 14:14:32,408 |-start|p1a: Flygon|Encore
+2026-08-12 14:14:32,408 |
+2026-08-12 14:14:32,408 |-heal|p2a: Shuckle|55/198|[from] item: Leftovers
+2026-08-12 14:14:32,408 |-start|p1a: Flygon|confusion|[fatigue]
+2026-08-12 14:14:32,408 |upkeep
+2026-08-12 14:14:32,408 |turn|9
+2026-08-12 14:14:32,408 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,408 |request|{"active":[{"moves":[{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"55/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 14:14:32,443 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,443 |
+2026-08-12 14:14:32,443 |t:|1786536872
+2026-08-12 14:14:32,443 |-activate|p1a: Flygon|confusion
+2026-08-12 14:14:32,443 |move|p1a: Flygon|Outrage|p2a: Shuckle
+2026-08-12 14:14:32,443 |-damage|p2a: Shuckle|0 fnt
+2026-08-12 14:14:32,443 |faint|p2a: Shuckle
+2026-08-12 14:14:32,443 |-damage|p1a: Flygon|61/100|[from] item: Life Orb
+2026-08-12 14:14:32,443 |
+2026-08-12 14:14:32,443 |upkeep
+2026-08-12 14:14:32,443 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,443 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":21}
+2026-08-12 14:14:32,465 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,465 |
+2026-08-12 14:14:32,465 |t:|1786536872
+2026-08-12 14:14:32,465 |switch|p2a: Cloyster|Cloyster, L86, F|226/226
+2026-08-12 14:14:32,465 |turn|10
+2026-08-12 14:14:32,466 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,466 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 14:14:32,522 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,522 |
+2026-08-12 14:14:32,522 |t:|1786536872
+2026-08-12 14:14:32,522 |-activate|p1a: Flygon|confusion
+2026-08-12 14:14:32,522 |-damage|p1a: Flygon|45/100|[from] confusion
+2026-08-12 14:14:32,522 |move|p2a: Cloyster|Spikes|p1a: Flygon
+2026-08-12 14:14:32,522 |-sidestart|p1: BOT7|Spikes
+2026-08-12 14:14:32,522 |
+2026-08-12 14:14:32,522 |upkeep
+2026-08-12 14:14:32,522 |turn|11
+2026-08-12 14:14:32,526 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,526 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 14:14:32,565 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,565 |
+2026-08-12 14:14:32,565 |t:|1786536872
+2026-08-12 14:14:32,565 |switch|p2a: Pachirisu|Pachirisu, L97, M|273/273
+2026-08-12 14:14:32,565 |-end|p1a: Flygon|confusion
+2026-08-12 14:14:32,565 |move|p1a: Flygon|Outrage|p2a: Pachirisu
+2026-08-12 14:14:32,565 |-damage|p2a: Pachirisu|110/273
+2026-08-12 14:14:32,565 |-damage|p1a: Flygon|35/100|[from] item: Life Orb
+2026-08-12 14:14:32,565 |
+2026-08-12 14:14:32,565 |-heal|p2a: Pachirisu|127/273|[from] item: Leftovers
+2026-08-12 14:14:32,565 |-end|p1a: Flygon|Encore
+2026-08-12 14:14:32,565 |upkeep
+2026-08-12 14:14:32,565 |turn|12
+2026-08-12 14:14:32,565 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,566 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"127/273","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 14:14:32,600 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,600 |
+2026-08-12 14:14:32,600 |t:|1786536872
+2026-08-12 14:14:32,600 |move|p2a: Pachirisu|Protect|p2a: Pachirisu
+2026-08-12 14:14:32,600 |-singleturn|p2a: Pachirisu|Protect
+2026-08-12 14:14:32,600 |move|p1a: Flygon|Outrage|p2a: Pachirisu|[from] lockedmove
+2026-08-12 14:14:32,600 |-activate|p2a: Pachirisu|Protect
+2026-08-12 14:14:32,600 |
+2026-08-12 14:14:32,600 |-heal|p2a: Pachirisu|144/273|[from] item: Leftovers
+2026-08-12 14:14:32,600 |upkeep
+2026-08-12 14:14:32,600 |turn|13
+2026-08-12 14:14:32,600 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,600 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 14:14:32,629 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,629 |
+2026-08-12 14:14:32,629 |t:|1786536872
+2026-08-12 14:14:32,629 |move|p2a: Pachirisu|U-turn|p1a: Flygon
+2026-08-12 14:14:32,629 |-damage|p1a: Flygon|20/100
+2026-08-12 14:14:32,630 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,630 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":31}
+2026-08-12 14:14:32,661 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,661 |
+2026-08-12 14:14:32,661 |t:|1786536872
+2026-08-12 14:14:32,661 |switch|p2a: Moltres|Moltres, L78|268/268|[from] U-turn
+2026-08-12 14:14:32,661 |-ability|p2a: Moltres|Pressure
+2026-08-12 14:14:32,661 |move|p1a: Flygon|Outrage|p2a: Moltres|[from] lockedmove
+2026-08-12 14:14:32,661 |-damage|p2a: Moltres|90/268
+2026-08-12 14:14:32,661 |-damage|p1a: Flygon|10/100|[from] item: Life Orb
+2026-08-12 14:14:32,661 |
+2026-08-12 14:14:32,661 |-heal|p2a: Moltres|106/268|[from] item: Leftovers
+2026-08-12 14:14:32,661 |-start|p1a: Flygon|confusion|[fatigue]
+2026-08-12 14:14:32,661 |upkeep
+2026-08-12 14:14:32,661 |turn|14
+2026-08-12 14:14:32,664 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,664 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"106/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 14:14:32,688 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,688 |
+2026-08-12 14:14:32,688 |t:|1786536872
+2026-08-12 14:14:32,688 |-activate|p1a: Flygon|confusion
+2026-08-12 14:14:32,688 |move|p1a: Flygon|Outrage|p2a: Moltres
+2026-08-12 14:14:32,688 |-damage|p2a: Moltres|0 fnt
+2026-08-12 14:14:32,688 |faint|p2a: Moltres
+2026-08-12 14:14:32,688 |-damage|p1a: Flygon|0 fnt|[from] item: Life Orb
+2026-08-12 14:14:32,688 |faint|p1a: Flygon
+2026-08-12 14:14:32,688 |
+2026-08-12 14:14:32,688 |upkeep
+2026-08-12 14:14:32,688 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,688 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 14:14:32,708 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,708 |
+2026-08-12 14:14:32,708 |t:|1786536872
+2026-08-12 14:14:32,708 |switch|p1a: Arbok|Arbok, L92, F|100/100
+2026-08-12 14:14:32,708 |switch|p2a: Metagross|Metagross, L77|250/250
+2026-08-12 14:14:32,708 |-damage|p1a: Arbok|88/100|[from] Spikes
+2026-08-12 14:14:32,708 |-ability|p1a: Arbok|Intimidate|boost
+2026-08-12 14:14:32,708 |-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+2026-08-12 14:14:32,709 |turn|15
+2026-08-12 14:14:32,714 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,714 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Meteor Mash","id":"meteormash","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":true,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 14:14:32,748 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,748 |
+2026-08-12 14:14:32,748 |t:|1786536872
+2026-08-12 14:14:32,748 |move|p1a: Arbok|Seed Bomb|p2a: Metagross
+2026-08-12 14:14:32,748 |-resisted|p2a: Metagross
+2026-08-12 14:14:32,748 |-damage|p2a: Metagross|220/250
+2026-08-12 14:14:32,748 |-damage|p1a: Arbok|78/100|[from] item: Life Orb
+2026-08-12 14:14:32,748 |move|p2a: Metagross|Meteor Mash|p1a: Arbok
+2026-08-12 14:14:32,748 |-damage|p1a: Arbok|32/100
+2026-08-12 14:14:32,748 |
+2026-08-12 14:14:32,748 |-heal|p2a: Metagross|235/250|[from] item: Leftovers
+2026-08-12 14:14:32,749 |upkeep
+2026-08-12 14:14:32,749 |turn|16
+2026-08-12 14:14:32,750 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,750 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Meteor Mash","id":"meteormash","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Metagross","details":"Metagross, L77","condition":"235/250","active":true,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 14:14:32,781 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,781 |
+2026-08-12 14:14:32,781 |t:|1786536872
+2026-08-12 14:14:32,781 |move|p1a: Arbok|Glare|p2a: Metagross
+2026-08-12 14:14:32,781 |-status|p2a: Metagross|par
+2026-08-12 14:14:32,781 |move|p2a: Metagross|Explosion|p1a: Arbok
+2026-08-12 14:14:32,781 |-damage|p1a: Arbok|0 fnt
+2026-08-12 14:14:32,781 |faint|p2a: Metagross
+2026-08-12 14:14:32,781 |faint|p1a: Arbok
+2026-08-12 14:14:32,781 |
+2026-08-12 14:14:32,781 |upkeep
+2026-08-12 14:14:32,781 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,781 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":true,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 14:14:32,804 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,804 |
+2026-08-12 14:14:32,804 |t:|1786536872
+2026-08-12 14:14:32,804 |switch|p1a: Tyranitar|Tyranitar, L75, F|100/100
+2026-08-12 14:14:32,804 |switch|p2a: Hypno|Hypno, L92, M|306/306
+2026-08-12 14:14:32,804 |-damage|p1a: Tyranitar|88/100|[from] Spikes
+2026-08-12 14:14:32,804 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+2026-08-12 14:14:32,804 |turn|17
+2026-08-12 14:14:32,805 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,806 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 14:14:32,839 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,839 |
+2026-08-12 14:14:32,839 |t:|1786536872
+2026-08-12 14:14:32,839 |switch|p1a: Pikachu|Pikachu, L91, M|100/100
+2026-08-12 14:14:32,839 |-damage|p1a: Pikachu|88/100|[from] Spikes
+2026-08-12 14:14:32,839 |move|p2a: Hypno|Focus Blast|p1a: Pikachu
+2026-08-12 14:14:32,839 |-damage|p1a: Pikachu|30/100
+2026-08-12 14:14:32,839 |-unboost|p1a: Pikachu|spd|1
+2026-08-12 14:14:32,839 |
+2026-08-12 14:14:32,839 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:32,839 |-damage|p1a: Pikachu|24/100|[from] Sandstorm
+2026-08-12 14:14:32,839 |-damage|p2a: Hypno|287/306|[from] Sandstorm
+2026-08-12 14:14:32,839 |-heal|p2a: Hypno|306/306|[from] item: Leftovers
+2026-08-12 14:14:32,839 |upkeep
+2026-08-12 14:14:32,839 |turn|18
+2026-08-12 14:14:32,840 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,840 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"306/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 14:14:32,872 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,872 |
+2026-08-12 14:14:32,872 |t:|1786536872
+2026-08-12 14:14:32,872 |move|p1a: Pikachu|Volt Tackle|p2a: Hypno
+2026-08-12 14:14:32,872 |-damage|p2a: Hypno|86/306
+2026-08-12 14:14:32,872 |-damage|p1a: Pikachu|0 fnt|[from] Recoil
+2026-08-12 14:14:32,872 |faint|p1a: Pikachu
+2026-08-12 14:14:32,872 |move|p2a: Hypno|Shadow Ball|p1: Pikachu|[notarget]
+2026-08-12 14:14:32,872 |-notarget|p2a: Hypno
+2026-08-12 14:14:32,872 |
+2026-08-12 14:14:32,872 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:32,872 |-damage|p2a: Hypno|67/306|[from] Sandstorm
+2026-08-12 14:14:32,872 |-heal|p2a: Hypno|86/306|[from] item: Leftovers
+2026-08-12 14:14:32,872 |upkeep
+2026-08-12 14:14:32,872 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,872 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"86/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 14:14:32,915 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,915 |
+2026-08-12 14:14:32,915 |t:|1786536872
+2026-08-12 14:14:32,915 |switch|p1a: Tyranitar|Tyranitar, L75, F|88/100
+2026-08-12 14:14:32,915 |-damage|p1a: Tyranitar|76/100|[from] Spikes
+2026-08-12 14:14:32,915 |turn|19
+2026-08-12 14:14:32,917 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,917 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"86/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 14:14:32,942 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,942 |
+2026-08-12 14:14:32,942 |t:|1786536872
+2026-08-12 14:14:32,942 |switch|p1a: Ambipom|Ambipom, L80, M|100/100
+2026-08-12 14:14:32,942 |-damage|p1a: Ambipom|88/100|[from] Spikes
+2026-08-12 14:14:32,942 |move|p2a: Hypno|Nasty Plot|p2a: Hypno
+2026-08-12 14:14:32,942 |-boost|p2a: Hypno|spa|2
+2026-08-12 14:14:32,942 |
+2026-08-12 14:14:32,942 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:32,942 |-damage|p1a: Ambipom|82/100|[from] Sandstorm
+2026-08-12 14:14:32,942 |-damage|p2a: Hypno|67/306|[from] Sandstorm
+2026-08-12 14:14:32,942 |-heal|p2a: Hypno|86/306|[from] item: Leftovers
+2026-08-12 14:14:32,942 |upkeep
+2026-08-12 14:14:32,942 |turn|20
+2026-08-12 14:14:32,942 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,942 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"86/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 14:14:32,977 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,977 |
+2026-08-12 14:14:32,977 |t:|1786536872
+2026-08-12 14:14:32,977 |move|p1a: Ambipom|Low Kick|p2a: Hypno
+2026-08-12 14:14:32,977 |-resisted|p2a: Hypno
+2026-08-12 14:14:32,977 |-damage|p2a: Hypno|58/306
+2026-08-12 14:14:32,977 |move|p2a: Hypno|Focus Blast|p1a: Ambipom
+2026-08-12 14:14:32,977 |-supereffective|p1a: Ambipom
+2026-08-12 14:14:32,977 |-damage|p1a: Ambipom|0 fnt
+2026-08-12 14:14:32,977 |faint|p1a: Ambipom
+2026-08-12 14:14:32,977 |
+2026-08-12 14:14:32,977 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:32,977 |-damage|p2a: Hypno|39/306|[from] Sandstorm
+2026-08-12 14:14:32,977 |-heal|p2a: Hypno|58/306|[from] item: Leftovers
+2026-08-12 14:14:32,977 |upkeep
+2026-08-12 14:14:32,977 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,977 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"58/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 14:14:32,999 >battle-gen4randombattle-331255
+2026-08-12 14:14:32,999 |
+2026-08-12 14:14:32,999 |t:|1786536872
+2026-08-12 14:14:32,999 |switch|p1a: Tyranitar|Tyranitar, L75, F|76/100
+2026-08-12 14:14:32,999 |-damage|p1a: Tyranitar|63/100|[from] Spikes
+2026-08-12 14:14:32,999 |turn|21
+2026-08-12 14:14:33,001 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,001 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"58/306","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 14:14:33,035 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,035 |
+2026-08-12 14:14:33,035 |t:|1786536873
+2026-08-12 14:14:33,035 |move|p2a: Hypno|Psychic|p1a: Tyranitar
+2026-08-12 14:14:33,035 |-immune|p1a: Tyranitar
+2026-08-12 14:14:33,035 |move|p1a: Tyranitar|Toxic|p2a: Hypno
+2026-08-12 14:14:33,035 |-status|p2a: Hypno|tox
+2026-08-12 14:14:33,035 |
+2026-08-12 14:14:33,035 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,035 |-damage|p2a: Hypno|39/306 tox|[from] Sandstorm
+2026-08-12 14:14:33,035 |-heal|p2a: Hypno|58/306 tox|[from] item: Leftovers
+2026-08-12 14:14:33,035 |-damage|p2a: Hypno|39/306 tox|[from] psn
+2026-08-12 14:14:33,035 |-heal|p1a: Tyranitar|69/100|[from] item: Leftovers
+2026-08-12 14:14:33,035 |upkeep
+2026-08-12 14:14:33,035 |turn|22
+2026-08-12 14:14:33,035 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,035 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"144/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 14:14:33,066 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,066 |
+2026-08-12 14:14:33,066 |t:|1786536873
+2026-08-12 14:14:33,066 |switch|p2a: Pachirisu|Pachirisu, L97, M|144/273
+2026-08-12 14:14:33,066 |move|p1a: Tyranitar|Crunch|p2a: Pachirisu
+2026-08-12 14:14:33,066 |-damage|p2a: Pachirisu|51/273
+2026-08-12 14:14:33,066 |
+2026-08-12 14:14:33,066 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,066 |-damage|p2a: Pachirisu|34/273|[from] Sandstorm
+2026-08-12 14:14:33,066 |-heal|p2a: Pachirisu|51/273|[from] item: Leftovers
+2026-08-12 14:14:33,066 |-heal|p1a: Tyranitar|76/100|[from] item: Leftovers
+2026-08-12 14:14:33,066 |upkeep
+2026-08-12 14:14:33,067 |turn|23
+2026-08-12 14:14:33,068 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,068 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"51/273","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 14:14:33,102 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,102 |
+2026-08-12 14:14:33,102 |t:|1786536873
+2026-08-12 14:14:33,102 |move|p2a: Pachirisu|Thunderbolt|p1a: Tyranitar
+2026-08-12 14:14:33,102 |-damage|p1a: Tyranitar|56/100
+2026-08-12 14:14:33,102 |move|p1a: Tyranitar|Superpower|p2a: Pachirisu
+2026-08-12 14:14:33,102 |-damage|p2a: Pachirisu|0 fnt
+2026-08-12 14:14:33,102 |-unboost|p1a: Tyranitar|atk|1
+2026-08-12 14:14:33,102 |-unboost|p1a: Tyranitar|def|1
+2026-08-12 14:14:33,102 |faint|p2a: Pachirisu
+2026-08-12 14:14:33,102 |
+2026-08-12 14:14:33,102 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,102 |-heal|p1a: Tyranitar|62/100|[from] item: Leftovers
+2026-08-12 14:14:33,102 |upkeep
+2026-08-12 14:14:33,102 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,102 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-12 14:14:33,123 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,123 |
+2026-08-12 14:14:33,123 |t:|1786536873
+2026-08-12 14:14:33,123 |switch|p2a: Cloyster|Cloyster, L86, F|226/226
+2026-08-12 14:14:33,123 |turn|24
+2026-08-12 14:14:33,125 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,125 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 14:14:33,186 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,186 |
+2026-08-12 14:14:33,186 |t:|1786536873
+2026-08-12 14:14:33,186 |move|p2a: Cloyster|Rock Blast|p1a: Tyranitar
+2026-08-12 14:14:33,186 |-damage|p1a: Tyranitar|52/100
+2026-08-12 14:14:33,186 |-damage|p1a: Tyranitar|42/100
+2026-08-12 14:14:33,187 |-damage|p1a: Tyranitar|33/100
+2026-08-12 14:14:33,187 |-damage|p1a: Tyranitar|24/100
+2026-08-12 14:14:33,187 |-crit|p1a: Tyranitar
+2026-08-12 14:14:33,187 |-damage|p1a: Tyranitar|5/100
+2026-08-12 14:14:33,187 |-hitcount|p1a: Tyranitar|5
+2026-08-12 14:14:33,187 |move|p1a: Tyranitar|Superpower|p2a: Cloyster
+2026-08-12 14:14:33,187 |-supereffective|p2a: Cloyster
+2026-08-12 14:14:33,187 |-damage|p2a: Cloyster|158/226
+2026-08-12 14:14:33,187 |-unboost|p1a: Tyranitar|atk|1
+2026-08-12 14:14:33,187 |-unboost|p1a: Tyranitar|def|1
+2026-08-12 14:14:33,187 |
+2026-08-12 14:14:33,187 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,187 |-damage|p2a: Cloyster|144/226|[from] Sandstorm
+2026-08-12 14:14:33,187 |-heal|p2a: Cloyster|158/226|[from] item: Leftovers
+2026-08-12 14:14:33,187 |-heal|p1a: Tyranitar|11/100|[from] item: Leftovers
+2026-08-12 14:14:33,187 |upkeep
+2026-08-12 14:14:33,187 |turn|25
+2026-08-12 14:14:33,188 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,188 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"158/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 14:14:33,220 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,220 |
+2026-08-12 14:14:33,220 |t:|1786536873
+2026-08-12 14:14:33,220 |move|p2a: Cloyster|Spikes|p1a: Tyranitar
+2026-08-12 14:14:33,220 |-sidestart|p1: BOT7|Spikes
+2026-08-12 14:14:33,220 |move|p1a: Tyranitar|Superpower|p2a: Cloyster
+2026-08-12 14:14:33,220 |-supereffective|p2a: Cloyster
+2026-08-12 14:14:33,220 |-damage|p2a: Cloyster|108/226
+2026-08-12 14:14:33,220 |-unboost|p1a: Tyranitar|atk|1
+2026-08-12 14:14:33,220 |-unboost|p1a: Tyranitar|def|1
+2026-08-12 14:14:33,220 |
+2026-08-12 14:14:33,220 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,220 |-damage|p2a: Cloyster|94/226|[from] Sandstorm
+2026-08-12 14:14:33,220 |-heal|p2a: Cloyster|108/226|[from] item: Leftovers
+2026-08-12 14:14:33,220 |-heal|p1a: Tyranitar|18/100|[from] item: Leftovers
+2026-08-12 14:14:33,220 |upkeep
+2026-08-12 14:14:33,220 |turn|26
+2026-08-12 14:14:33,224 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,224 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"108/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 14:14:33,251 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,251 |
+2026-08-12 14:14:33,251 |t:|1786536873
+2026-08-12 14:14:33,251 |move|p2a: Cloyster|Surf|p1a: Tyranitar
+2026-08-12 14:14:33,251 |-supereffective|p1a: Tyranitar
+2026-08-12 14:14:33,251 |-damage|p1a: Tyranitar|0 fnt
+2026-08-12 14:14:33,251 |faint|p1a: Tyranitar
+2026-08-12 14:14:33,251 |
+2026-08-12 14:14:33,252 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,252 |-damage|p2a: Cloyster|94/226|[from] Sandstorm
+2026-08-12 14:14:33,252 |-heal|p2a: Cloyster|108/226|[from] item: Leftovers
+2026-08-12 14:14:33,252 |upkeep
+2026-08-12 14:14:33,257 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,257 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"108/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 14:14:33,282 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,282 |
+2026-08-12 14:14:33,282 |t:|1786536873
+2026-08-12 14:14:33,282 |switch|p1a: Bibarel|Bibarel, L92, M|95/100
+2026-08-12 14:14:33,282 |-damage|p1a: Bibarel|78/100|[from] Spikes
+2026-08-12 14:14:33,282 |turn|27
+2026-08-12 14:14:33,285 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,285 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"108/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 14:14:33,318 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,318 |
+2026-08-12 14:14:33,318 |t:|1786536873
+2026-08-12 14:14:33,318 |move|p1a: Bibarel|Quick Attack|p2a: Cloyster
+2026-08-12 14:14:33,318 |-damage|p2a: Cloyster|81/226
+2026-08-12 14:14:33,318 |move|p2a: Cloyster|Toxic Spikes|p1a: Bibarel
+2026-08-12 14:14:33,318 |-sidestart|p1: BOT7|move: Toxic Spikes
+2026-08-12 14:14:33,318 |
+2026-08-12 14:14:33,318 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,318 |-damage|p1a: Bibarel|72/100|[from] Sandstorm
+2026-08-12 14:14:33,318 |-damage|p2a: Cloyster|67/226|[from] Sandstorm
+2026-08-12 14:14:33,318 |-heal|p2a: Cloyster|81/226|[from] item: Leftovers
+2026-08-12 14:14:33,318 |upkeep
+2026-08-12 14:14:33,318 |turn|28
+2026-08-12 14:14:33,319 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,319 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"81/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 14:14:33,352 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,352 |
+2026-08-12 14:14:33,352 |t:|1786536873
+2026-08-12 14:14:33,352 |move|p1a: Bibarel|Curse|p1a: Bibarel
+2026-08-12 14:14:33,352 |-unboost|p1a: Bibarel|spe|1
+2026-08-12 14:14:33,352 |-boost|p1a: Bibarel|atk|1
+2026-08-12 14:14:33,352 |-boost|p1a: Bibarel|def|1
+2026-08-12 14:14:33,352 |move|p2a: Cloyster|Toxic Spikes|p1a: Bibarel
+2026-08-12 14:14:33,352 |-sidestart|p1: BOT7|move: Toxic Spikes
+2026-08-12 14:14:33,352 |
+2026-08-12 14:14:33,352 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,352 |-damage|p2a: Cloyster|67/226|[from] Sandstorm
+2026-08-12 14:14:33,352 |-damage|p1a: Bibarel|66/100|[from] Sandstorm
+2026-08-12 14:14:33,352 |-heal|p2a: Cloyster|81/226|[from] item: Leftovers
+2026-08-12 14:14:33,352 |upkeep
+2026-08-12 14:14:33,352 |turn|29
+2026-08-12 14:14:33,354 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,354 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"81/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 14:14:33,374 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,374 |
+2026-08-12 14:14:33,374 |t:|1786536873
+2026-08-12 14:14:33,374 |move|p2a: Cloyster|Toxic Spikes||[still]
+2026-08-12 14:14:33,375 |-fail|p2a: Cloyster
+2026-08-12 14:14:33,375 |move|p1a: Bibarel|Curse|p1a: Bibarel
+2026-08-12 14:14:33,375 |-unboost|p1a: Bibarel|spe|1
+2026-08-12 14:14:33,375 |-boost|p1a: Bibarel|atk|1
+2026-08-12 14:14:33,375 |-boost|p1a: Bibarel|def|1
+2026-08-12 14:14:33,375 |
+2026-08-12 14:14:33,375 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,375 |-damage|p2a: Cloyster|67/226|[from] Sandstorm
+2026-08-12 14:14:33,375 |-damage|p1a: Bibarel|60/100|[from] Sandstorm
+2026-08-12 14:14:33,375 |-heal|p2a: Cloyster|81/226|[from] item: Leftovers
+2026-08-12 14:14:33,375 |upkeep
+2026-08-12 14:14:33,375 |turn|30
+2026-08-12 14:14:33,377 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,377 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"81/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"39/306 tox","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 14:14:33,407 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,407 |
+2026-08-12 14:14:33,407 |t:|1786536873
+2026-08-12 14:14:33,407 |switch|p2a: Hypno|Hypno, L92, M|39/306 tox
+2026-08-12 14:14:33,407 |move|p1a: Bibarel|Return|p2a: Hypno
+2026-08-12 14:14:33,407 |-damage|p2a: Hypno|0 fnt
+2026-08-12 14:14:33,407 |faint|p2a: Hypno
+2026-08-12 14:14:33,407 |
+2026-08-12 14:14:33,407 |-weather|Sandstorm|[upkeep]
+2026-08-12 14:14:33,407 |-damage|p1a: Bibarel|54/100|[from] Sandstorm
+2026-08-12 14:14:33,407 |upkeep
+2026-08-12 14:14:33,410 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,411 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"0 fnt","active":true,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"81/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":79}
+2026-08-12 14:14:33,426 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,426 |
+2026-08-12 14:14:33,426 |t:|1786536873
+2026-08-12 14:14:33,426 |switch|p2a: Cloyster|Cloyster, L86, F|81/226
+2026-08-12 14:14:33,426 |turn|31
+2026-08-12 14:14:33,429 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,429 |request|{"active":[{"moves":[{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"81/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["toxicspikes","rockblast","spikes","surf"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hypno","details":"Hypno, L92, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":181,"spa":187,"spd":264,"spe":176},"moves":["shadowball","psychic","nastyplot","focusblast"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, M","condition":"0 fnt","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["knockoff","rest","toxic","encore"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["explosion","meteormash","toxic","earthquake"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["roost","substitute","fireblast","airslash"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["toxic","protect","uturn","thunderbolt"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 14:14:33,463 >battle-gen4randombattle-331255
+2026-08-12 14:14:33,463 |
+2026-08-12 14:14:33,463 |t:|1786536873
+2026-08-12 14:14:33,463 |move|p2a: Cloyster|Rock Blast|p1a: Bibarel|[miss]
+2026-08-12 14:14:33,463 |-miss|p2a: Cloyster|p1a: Bibarel
+2026-08-12 14:14:33,463 |move|p1a: Bibarel|Return|p2a: Cloyster
+2026-08-12 14:14:33,463 |-damage|p2a: Cloyster|0 fnt
+2026-08-12 14:14:33,463 |faint|p2a: Cloyster
+2026-08-12 14:14:33,463 |
+2026-08-12 14:14:33,463 |win|BOT7

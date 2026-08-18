@@ -1,0 +1,541 @@
+2026-08-12 12:24:40,794 >battle-gen3randombattle-318925
+2026-08-12 12:24:40,794 |init|battle
+2026-08-12 12:24:40,794 |title|BOT1 vs. BOT2
+2026-08-12 12:24:40,794 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-318925">battle-gen3randombattle-318925</a>&raquo;
+2026-08-12 12:24:40,898 >battle-gen3randombattle-318925
+2026-08-12 12:24:40,898 |t:|1786530280
+2026-08-12 12:24:40,899 |gametype|singles
+2026-08-12 12:24:40,903 >battle-gen3randombattle-318925
+2026-08-12 12:24:40,903 |player|p1|BOT1|170|
+2026-08-12 12:24:40,905 >battle-gen3randombattle-318925
+2026-08-12 12:24:40,905 |player|p2|BOT2|170|
+2026-08-12 12:24:40,905 |gen|3
+2026-08-12 12:24:40,905 |tier|[Gen 3] Random Battle
+2026-08-12 12:24:40,905 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:24:40,905 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:24:40,905 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:24:40,905 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:24:40,905 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:24:40,905 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:24:40,905 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:24:40,905 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:24:40,905 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:24:40,905 |
+2026-08-12 12:24:40,905 |t:|1786530280
+2026-08-12 12:24:40,905 |teamsize|p1|6
+2026-08-12 12:24:40,905 |teamsize|p2|6
+2026-08-12 12:24:40,905 |start
+2026-08-12 12:24:40,905 |switch|p1a: Alakazam|Alakazam, L76, M|100/100
+2026-08-12 12:24:40,905 |switch|p2a: Starmie|Starmie, L74|211/211
+2026-08-12 12:24:40,905 |turn|1
+2026-08-12 12:24:40,906 >battle-gen3randombattle-318925
+2026-08-12 12:24:40,906 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"211/211","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:24:41,005 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,005 |
+2026-08-12 12:24:41,005 |t:|1786530280
+2026-08-12 12:24:41,005 |move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+2026-08-12 12:24:41,005 |-boost|p1a: Alakazam|spa|1
+2026-08-12 12:24:41,005 |-boost|p1a: Alakazam|spd|1
+2026-08-12 12:24:41,005 |move|p2a: Starmie|Psychic|p1a: Alakazam
+2026-08-12 12:24:41,005 |-resisted|p1a: Alakazam
+2026-08-12 12:24:41,005 |-damage|p1a: Alakazam|87/100
+2026-08-12 12:24:41,005 |
+2026-08-12 12:24:41,005 |-heal|p1a: Alakazam|93/100|[from] item: Leftovers
+2026-08-12 12:24:41,005 |upkeep
+2026-08-12 12:24:41,005 |turn|2
+2026-08-12 12:24:41,008 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,008 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"211/211","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:24:41,116 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,117 |
+2026-08-12 12:24:41,117 |t:|1786530281
+2026-08-12 12:24:41,117 |move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+2026-08-12 12:24:41,117 |-boost|p1a: Alakazam|spa|1
+2026-08-12 12:24:41,117 |-boost|p1a: Alakazam|spd|1
+2026-08-12 12:24:41,117 |move|p2a: Starmie|Surf|p1a: Alakazam
+2026-08-12 12:24:41,117 |-damage|p1a: Alakazam|69/100
+2026-08-12 12:24:41,117 |
+2026-08-12 12:24:41,117 |-heal|p1a: Alakazam|76/100|[from] item: Leftovers
+2026-08-12 12:24:41,117 |upkeep
+2026-08-12 12:24:41,117 |turn|3
+2026-08-12 12:24:41,126 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,126 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"211/211","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:24:41,191 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,191 |
+2026-08-12 12:24:41,191 |t:|1786530281
+2026-08-12 12:24:41,191 |move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+2026-08-12 12:24:41,191 |-boost|p1a: Alakazam|spa|1
+2026-08-12 12:24:41,191 |-boost|p1a: Alakazam|spd|1
+2026-08-12 12:24:41,191 |move|p2a: Starmie|Recover||[still]
+2026-08-12 12:24:41,191 |-fail|p2a: Starmie|heal
+2026-08-12 12:24:41,191 |
+2026-08-12 12:24:41,191 |-heal|p1a: Alakazam|82/100|[from] item: Leftovers
+2026-08-12 12:24:41,191 |upkeep
+2026-08-12 12:24:41,191 |turn|4
+2026-08-12 12:24:41,196 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,196 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"211/211","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:24:41,259 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,259 |
+2026-08-12 12:24:41,259 |t:|1786530281
+2026-08-12 12:24:41,259 |move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+2026-08-12 12:24:41,259 |-boost|p1a: Alakazam|spa|1
+2026-08-12 12:24:41,259 |-boost|p1a: Alakazam|spd|1
+2026-08-12 12:24:41,259 |move|p2a: Starmie|Thunderbolt|p1a: Alakazam
+2026-08-12 12:24:41,259 |-damage|p1a: Alakazam|72/100
+2026-08-12 12:24:41,259 |
+2026-08-12 12:24:41,259 |-heal|p1a: Alakazam|78/100|[from] item: Leftovers
+2026-08-12 12:24:41,259 |upkeep
+2026-08-12 12:24:41,259 |turn|5
+2026-08-12 12:24:41,268 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,268 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"211/211","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:24:41,347 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,347 |
+2026-08-12 12:24:41,348 |t:|1786530281
+2026-08-12 12:24:41,348 |move|p1a: Alakazam|Psychic|p2a: Starmie
+2026-08-12 12:24:41,348 |-resisted|p2a: Starmie
+2026-08-12 12:24:41,348 |-damage|p2a: Starmie|31/211
+2026-08-12 12:24:41,348 |move|p2a: Starmie|Thunderbolt|p1a: Alakazam
+2026-08-12 12:24:41,348 |-damage|p1a: Alakazam|68/100
+2026-08-12 12:24:41,348 |
+2026-08-12 12:24:41,348 |-heal|p1a: Alakazam|75/100|[from] item: Leftovers
+2026-08-12 12:24:41,348 |-heal|p2a: Starmie|44/211|[from] item: Leftovers
+2026-08-12 12:24:41,348 |upkeep
+2026-08-12 12:24:41,348 |turn|6
+2026-08-12 12:24:41,358 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,358 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"44/211","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:24:41,447 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,447 |
+2026-08-12 12:24:41,447 |t:|1786530281
+2026-08-12 12:24:41,447 |move|p1a: Alakazam|Fire Punch|p2a: Starmie
+2026-08-12 12:24:41,448 |-resisted|p2a: Starmie
+2026-08-12 12:24:41,448 |-damage|p2a: Starmie|0 fnt
+2026-08-12 12:24:41,448 |faint|p2a: Starmie
+2026-08-12 12:24:41,454 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,454 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":true,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":15}
+2026-08-12 12:24:41,510 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,510 |
+2026-08-12 12:24:41,510 |t:|1786530281
+2026-08-12 12:24:41,510 |switch|p2a: Swalot|Swalot, L87, M|316/316
+2026-08-12 12:24:41,510 |
+2026-08-12 12:24:41,510 |-heal|p1a: Alakazam|81/100|[from] item: Leftovers
+2026-08-12 12:24:41,510 |upkeep
+2026-08-12 12:24:41,510 |turn|7
+2026-08-12 12:24:41,519 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,519 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:24:41,576 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,576 |
+2026-08-12 12:24:41,576 |t:|1786530281
+2026-08-12 12:24:41,576 |switch|p2a: Misdreavus|Misdreavus, L85, M|241/241
+2026-08-12 12:24:41,576 |move|p1a: Alakazam|Recover|p1a: Alakazam
+2026-08-12 12:24:41,576 |-heal|p1a: Alakazam|100/100
+2026-08-12 12:24:41,576 |
+2026-08-12 12:24:41,576 |upkeep
+2026-08-12 12:24:41,576 |turn|8
+2026-08-12 12:24:41,579 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,579 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"260/260","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:24:41,644 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,644 |
+2026-08-12 12:24:41,644 |t:|1786530281
+2026-08-12 12:24:41,644 |switch|p2a: Kecleon|Kecleon, L92, M|260/260
+2026-08-12 12:24:41,644 |move|p1a: Alakazam|Psychic|p2a: Kecleon
+2026-08-12 12:24:41,644 |-damage|p2a: Kecleon|53/260
+2026-08-12 12:24:41,644 |-start|p2a: Kecleon|typechange|Psychic|[from] ability: Color Change
+2026-08-12 12:24:41,645 |
+2026-08-12 12:24:41,645 |upkeep
+2026-08-12 12:24:41,645 |turn|9
+2026-08-12 12:24:41,646 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,646 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"53/260","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:24:41,713 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,713 |
+2026-08-12 12:24:41,713 |t:|1786530281
+2026-08-12 12:24:41,713 |move|p1a: Alakazam|Calm Mind|p1a: Alakazam
+2026-08-12 12:24:41,713 |-boost|p1a: Alakazam|spa|1
+2026-08-12 12:24:41,713 |-boost|p1a: Alakazam|spd|1
+2026-08-12 12:24:41,713 |move|p2a: Kecleon|Trick|p1a: Alakazam
+2026-08-12 12:24:41,713 |-activate|p2a: Kecleon|move: Trick|[of] p1a: Alakazam
+2026-08-12 12:24:41,713 |-item|p1a: Alakazam|Choice Band|[from] move: Trick
+2026-08-12 12:24:41,713 |-item|p2a: Kecleon|Leftovers|[from] move: Trick
+2026-08-12 12:24:41,713 |
+2026-08-12 12:24:41,713 |-heal|p2a: Kecleon|69/260|[from] item: Leftovers
+2026-08-12 12:24:41,713 |upkeep
+2026-08-12 12:24:41,713 |turn|10
+2026-08-12 12:24:41,721 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,721 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"69/260","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:24:41,782 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,782 |
+2026-08-12 12:24:41,782 |t:|1786530281
+2026-08-12 12:24:41,782 |move|p1a: Alakazam|Recover||[still]
+2026-08-12 12:24:41,782 |-fail|p1a: Alakazam|heal
+2026-08-12 12:24:41,782 |move|p2a: Kecleon|Shadow Ball|p1a: Alakazam
+2026-08-12 12:24:41,782 |-supereffective|p1a: Alakazam
+2026-08-12 12:24:41,782 |-damage|p1a: Alakazam|0 fnt
+2026-08-12 12:24:41,782 |faint|p1a: Alakazam
+2026-08-12 12:24:41,783 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,783 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"69/260","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:24:41,834 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,834 |
+2026-08-12 12:24:41,834 |t:|1786530281
+2026-08-12 12:24:41,834 |switch|p1a: Misdreavus|Misdreavus, L85, F|100/100
+2026-08-12 12:24:41,834 |
+2026-08-12 12:24:41,834 |-heal|p2a: Kecleon|85/260|[from] item: Leftovers
+2026-08-12 12:24:41,834 |upkeep
+2026-08-12 12:24:41,834 |turn|11
+2026-08-12 12:24:41,839 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,839 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"85/260","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:24:41,885 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,885 |
+2026-08-12 12:24:41,885 |t:|1786530281
+2026-08-12 12:24:41,885 |switch|p1a: Sableye|Sableye, L91, M|100/100
+2026-08-12 12:24:41,885 |move|p2a: Kecleon|Return|p1a: Sableye
+2026-08-12 12:24:41,885 |-immune|p1a: Sableye
+2026-08-12 12:24:41,885 |
+2026-08-12 12:24:41,885 |-heal|p2a: Kecleon|101/260|[from] item: Leftovers
+2026-08-12 12:24:41,885 |upkeep
+2026-08-12 12:24:41,885 |turn|12
+2026-08-12 12:24:41,886 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,886 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"101/260","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:24:41,935 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,935 |
+2026-08-12 12:24:41,935 |t:|1786530281
+2026-08-12 12:24:41,935 |switch|p1a: Misdreavus|Misdreavus, L85, F|100/100
+2026-08-12 12:24:41,935 |move|p2a: Kecleon|Brick Break|p1a: Misdreavus
+2026-08-12 12:24:41,935 |-immune|p1a: Misdreavus
+2026-08-12 12:24:41,935 |
+2026-08-12 12:24:41,935 |-heal|p2a: Kecleon|117/260|[from] item: Leftovers
+2026-08-12 12:24:41,935 |upkeep
+2026-08-12 12:24:41,935 |turn|13
+2026-08-12 12:24:41,936 >battle-gen3randombattle-318925
+2026-08-12 12:24:41,936 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"117/260","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:24:42,018 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,018 |
+2026-08-12 12:24:42,018 |t:|1786530281
+2026-08-12 12:24:42,019 |move|p1a: Misdreavus|Shadow Ball|p2a: Kecleon
+2026-08-12 12:24:42,019 |-supereffective|p2a: Kecleon
+2026-08-12 12:24:42,019 |-crit|p2a: Kecleon
+2026-08-12 12:24:42,019 |-damage|p2a: Kecleon|0 fnt
+2026-08-12 12:24:42,019 |faint|p2a: Kecleon
+2026-08-12 12:24:42,019 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,020 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":true,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":33}
+2026-08-12 12:24:42,081 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,081 |
+2026-08-12 12:24:42,081 |t:|1786530282
+2026-08-12 12:24:42,081 |switch|p2a: Swalot|Swalot, L87, M|316/316
+2026-08-12 12:24:42,081 |
+2026-08-12 12:24:42,081 |upkeep
+2026-08-12 12:24:42,081 |turn|14
+2026-08-12 12:24:42,085 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,085 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:24:42,152 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,152 |
+2026-08-12 12:24:42,152 |t:|1786530282
+2026-08-12 12:24:42,152 |move|p1a: Misdreavus|Shadow Ball|p2a: Swalot
+2026-08-12 12:24:42,152 |-damage|p2a: Swalot|247/316
+2026-08-12 12:24:42,152 |move|p2a: Swalot|Yawn|p1a: Misdreavus
+2026-08-12 12:24:42,152 |-start|p1a: Misdreavus|move: Yawn|[of] p2a: Swalot
+2026-08-12 12:24:42,152 |
+2026-08-12 12:24:42,152 |-heal|p2a: Swalot|266/316|[from] item: Leftovers
+2026-08-12 12:24:42,152 |upkeep
+2026-08-12 12:24:42,152 |turn|15
+2026-08-12 12:24:42,155 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,155 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"266/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:24:42,255 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,256 |
+2026-08-12 12:24:42,256 |t:|1786530282
+2026-08-12 12:24:42,256 |move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+2026-08-12 12:24:42,256 |-start|p1a: Misdreavus|perish3|[silent]
+2026-08-12 12:24:42,256 |-start|p2a: Swalot|perish3|[silent]
+2026-08-12 12:24:42,256 |-fieldactivate|move: Perish Song
+2026-08-12 12:24:42,256 |move|p2a: Swalot|Hidden Power|p1a: Misdreavus
+2026-08-12 12:24:42,256 |-immune|p1a: Misdreavus
+2026-08-12 12:24:42,256 |
+2026-08-12 12:24:42,256 |-end|p1a: Misdreavus|move: Yawn|[silent]
+2026-08-12 12:24:42,256 |-status|p1a: Misdreavus|slp
+2026-08-12 12:24:42,256 |-heal|p2a: Swalot|285/316|[from] item: Leftovers
+2026-08-12 12:24:42,256 |-start|p1a: Misdreavus|perish3
+2026-08-12 12:24:42,256 |-start|p2a: Swalot|perish3
+2026-08-12 12:24:42,256 |upkeep
+2026-08-12 12:24:42,256 |turn|16
+2026-08-12 12:24:42,264 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,264 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"285/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:24:42,334 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,334 |
+2026-08-12 12:24:42,334 |t:|1786530282
+2026-08-12 12:24:42,334 |switch|p1a: Sableye|Sableye, L91, M|100/100
+2026-08-12 12:24:42,334 |move|p2a: Swalot|Ice Beam|p1a: Sableye
+2026-08-12 12:24:42,334 |-damage|p1a: Sableye|75/100
+2026-08-12 12:24:42,334 |
+2026-08-12 12:24:42,334 |-heal|p2a: Swalot|304/316|[from] item: Leftovers
+2026-08-12 12:24:42,334 |-heal|p1a: Sableye|80/100|[from] item: Leftovers
+2026-08-12 12:24:42,334 |-start|p2a: Swalot|perish2
+2026-08-12 12:24:42,334 |upkeep
+2026-08-12 12:24:42,334 |turn|17
+2026-08-12 12:24:42,334 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,334 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"304/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:24:42,369 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,369 |
+2026-08-12 12:24:42,369 |t:|1786530282
+2026-08-12 12:24:42,369 |switch|p1a: Furret|Furret, L87, M|100/100
+2026-08-12 12:24:42,369 |move|p2a: Swalot|Ice Beam|p1a: Furret
+2026-08-12 12:24:42,370 |-damage|p1a: Furret|74/100
+2026-08-12 12:24:42,370 |
+2026-08-12 12:24:42,370 |-heal|p2a: Swalot|316/316|[from] item: Leftovers
+2026-08-12 12:24:42,370 |-start|p2a: Swalot|perish1
+2026-08-12 12:24:42,370 |upkeep
+2026-08-12 12:24:42,370 |turn|18
+2026-08-12 12:24:42,370 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,370 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:24:42,455 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,455 |
+2026-08-12 12:24:42,455 |t:|1786530282
+2026-08-12 12:24:42,455 |move|p1a: Furret|Shadow Ball|p2a: Swalot
+2026-08-12 12:24:42,455 |-damage|p2a: Swalot|267/316
+2026-08-12 12:24:42,455 |move|p2a: Swalot|Sludge Bomb|p1a: Furret
+2026-08-12 12:24:42,455 |-damage|p1a: Furret|37/100
+2026-08-12 12:24:42,455 |
+2026-08-12 12:24:42,455 |-heal|p2a: Swalot|286/316|[from] item: Leftovers
+2026-08-12 12:24:42,455 |-start|p2a: Swalot|perish0
+2026-08-12 12:24:42,455 |upkeep
+2026-08-12 12:24:42,455 |faint|p2a: Swalot
+2026-08-12 12:24:42,462 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,462 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":45}
+2026-08-12 12:24:42,514 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,514 |
+2026-08-12 12:24:42,514 |t:|1786530282
+2026-08-12 12:24:42,514 |switch|p2a: Vigoroth|Vigoroth, L84, F|272/272
+2026-08-12 12:24:42,514 |turn|19
+2026-08-12 12:24:42,514 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,514 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:24:42,550 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,550 |
+2026-08-12 12:24:42,550 |t:|1786530282
+2026-08-12 12:24:42,550 |move|p1a: Furret|Reversal|p2a: Vigoroth
+2026-08-12 12:24:42,550 |-supereffective|p2a: Vigoroth
+2026-08-12 12:24:42,550 |-crit|p2a: Vigoroth
+2026-08-12 12:24:42,550 |-damage|p2a: Vigoroth|156/272
+2026-08-12 12:24:42,550 |move|p2a: Vigoroth|Shadow Ball|p1a: Furret
+2026-08-12 12:24:42,550 |-immune|p1a: Furret
+2026-08-12 12:24:42,550 |
+2026-08-12 12:24:42,550 |-heal|p2a: Vigoroth|173/272|[from] item: Leftovers
+2026-08-12 12:24:42,550 |upkeep
+2026-08-12 12:24:42,550 |turn|20
+2026-08-12 12:24:42,556 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,556 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"173/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:24:42,597 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,597 |
+2026-08-12 12:24:42,597 |t:|1786530282
+2026-08-12 12:24:42,597 |move|p1a: Furret|Shadow Ball|p2a: Vigoroth
+2026-08-12 12:24:42,597 |-immune|p2a: Vigoroth
+2026-08-12 12:24:42,597 |move|p2a: Vigoroth|Shadow Ball|p1a: Furret
+2026-08-12 12:24:42,597 |-immune|p1a: Furret
+2026-08-12 12:24:42,597 |
+2026-08-12 12:24:42,597 |-heal|p2a: Vigoroth|190/272|[from] item: Leftovers
+2026-08-12 12:24:42,597 |upkeep
+2026-08-12 12:24:42,597 |turn|21
+2026-08-12 12:24:42,603 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,603 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"190/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:24:42,648 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,648 |
+2026-08-12 12:24:42,648 |t:|1786530282
+2026-08-12 12:24:42,648 |move|p1a: Furret|Reversal|p2a: Vigoroth
+2026-08-12 12:24:42,648 |-supereffective|p2a: Vigoroth
+2026-08-12 12:24:42,648 |-damage|p2a: Vigoroth|133/272
+2026-08-12 12:24:42,648 |move|p2a: Vigoroth|Shadow Ball|p1a: Furret
+2026-08-12 12:24:42,648 |-immune|p1a: Furret
+2026-08-12 12:24:42,648 |
+2026-08-12 12:24:42,648 |-heal|p2a: Vigoroth|150/272|[from] item: Leftovers
+2026-08-12 12:24:42,648 |upkeep
+2026-08-12 12:24:42,648 |turn|22
+2026-08-12 12:24:42,648 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,648 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"150/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:24:42,726 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,726 |
+2026-08-12 12:24:42,726 |t:|1786530282
+2026-08-12 12:24:42,726 |move|p1a: Furret|Return|p2a: Vigoroth
+2026-08-12 12:24:42,726 |-damage|p2a: Vigoroth|49/272
+2026-08-12 12:24:42,726 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:24:42,726 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:24:42,726 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:24:42,726 |
+2026-08-12 12:24:42,726 |-heal|p2a: Vigoroth|66/272|[from] item: Leftovers
+2026-08-12 12:24:42,726 |upkeep
+2026-08-12 12:24:42,726 |turn|23
+2026-08-12 12:24:42,731 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,731 |request|{"active":[{"moves":[{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"66/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:24:42,784 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,784 |
+2026-08-12 12:24:42,784 |t:|1786530282
+2026-08-12 12:24:42,784 |move|p1a: Furret|Return|p2a: Vigoroth
+2026-08-12 12:24:42,784 |-damage|p2a: Vigoroth|0 fnt
+2026-08-12 12:24:42,784 |faint|p2a: Vigoroth
+2026-08-12 12:24:42,785 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,785 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":57}
+2026-08-12 12:24:42,831 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,831 |
+2026-08-12 12:24:42,831 |t:|1786530282
+2026-08-12 12:24:42,831 |switch|p2a: Ninetales|Ninetales, L82, M|254/254
+2026-08-12 12:24:42,831 |
+2026-08-12 12:24:42,831 |upkeep
+2026-08-12 12:24:42,831 |turn|24
+2026-08-12 12:24:42,834 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,834 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"254/254","active":true,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:24:42,908 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,908 |
+2026-08-12 12:24:42,908 |t:|1786530282
+2026-08-12 12:24:42,908 |move|p2a: Ninetales|Toxic|p1a: Furret
+2026-08-12 12:24:42,908 |-status|p1a: Furret|tox
+2026-08-12 12:24:42,908 |move|p1a: Furret|Return|p2a: Ninetales
+2026-08-12 12:24:42,908 |-damage|p2a: Ninetales|151/254
+2026-08-12 12:24:42,908 |
+2026-08-12 12:24:42,908 |-heal|p2a: Ninetales|166/254|[from] item: Leftovers
+2026-08-12 12:24:42,908 |-damage|p1a: Furret|31/100 tox|[from] psn
+2026-08-12 12:24:42,908 |upkeep
+2026-08-12 12:24:42,908 |turn|25
+2026-08-12 12:24:42,912 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,912 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"166/254","active":true,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:24:42,972 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,972 |
+2026-08-12 12:24:42,972 |t:|1786530282
+2026-08-12 12:24:42,972 |switch|p1a: Gligar|Gligar, L83, M|100/100
+2026-08-12 12:24:42,972 |move|p2a: Ninetales|Toxic|p1a: Gligar
+2026-08-12 12:24:42,972 |-status|p1a: Gligar|tox
+2026-08-12 12:24:42,972 |
+2026-08-12 12:24:42,972 |-heal|p2a: Ninetales|181/254|[from] item: Leftovers
+2026-08-12 12:24:42,972 |-damage|p1a: Gligar|94/100 tox|[from] psn
+2026-08-12 12:24:42,972 |upkeep
+2026-08-12 12:24:42,973 |turn|26
+2026-08-12 12:24:42,973 >battle-gen3randombattle-318925
+2026-08-12 12:24:42,973 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"181/254","active":true,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:24:43,022 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,022 |
+2026-08-12 12:24:43,022 |t:|1786530283
+2026-08-12 12:24:43,022 |move|p2a: Ninetales|Toxic|p1a: Gligar
+2026-08-12 12:24:43,022 |-fail|p1a: Gligar|tox
+2026-08-12 12:24:43,022 |move|p1a: Gligar|Earthquake|p2a: Ninetales
+2026-08-12 12:24:43,022 |-supereffective|p2a: Ninetales
+2026-08-12 12:24:43,022 |-damage|p2a: Ninetales|0 fnt
+2026-08-12 12:24:43,022 |faint|p2a: Ninetales
+2026-08-12 12:24:43,026 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,026 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":true,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":65}
+2026-08-12 12:24:43,060 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,060 |
+2026-08-12 12:24:43,060 |t:|1786530283
+2026-08-12 12:24:43,060 |switch|p2a: Misdreavus|Misdreavus, L85, M|241/241
+2026-08-12 12:24:43,060 |
+2026-08-12 12:24:43,060 |-heal|p1a: Gligar|100/100 tox|[from] item: Leftovers
+2026-08-12 12:24:43,060 |-damage|p1a: Gligar|88/100 tox|[from] psn
+2026-08-12 12:24:43,060 |upkeep
+2026-08-12 12:24:43,060 |turn|27
+2026-08-12 12:24:43,060 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,060 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:24:43,133 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,133 |
+2026-08-12 12:24:43,133 |t:|1786530283
+2026-08-12 12:24:43,133 |move|p2a: Misdreavus|Protect|p2a: Misdreavus
+2026-08-12 12:24:43,133 |-singleturn|p2a: Misdreavus|Protect
+2026-08-12 12:24:43,133 |move|p1a: Gligar|Earthquake|p2a: Misdreavus
+2026-08-12 12:24:43,133 |-activate|p2a: Misdreavus|Protect
+2026-08-12 12:24:43,133 |
+2026-08-12 12:24:43,133 |-heal|p1a: Gligar|94/100 tox|[from] item: Leftovers
+2026-08-12 12:24:43,133 |-damage|p1a: Gligar|76/100 tox|[from] psn
+2026-08-12 12:24:43,133 |upkeep
+2026-08-12 12:24:43,133 |turn|28
+2026-08-12 12:24:43,133 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,133 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"241/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:24:43,203 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,203 |
+2026-08-12 12:24:43,203 |t:|1786530283
+2026-08-12 12:24:43,203 |move|p2a: Misdreavus|Mean Look|p1a: Gligar
+2026-08-12 12:24:43,203 |-activate|p1a: Gligar|trapped
+2026-08-12 12:24:43,203 |move|p1a: Gligar|Hidden Power|p2a: Misdreavus
+2026-08-12 12:24:43,203 |-damage|p2a: Misdreavus|159/241
+2026-08-12 12:24:43,203 |
+2026-08-12 12:24:43,203 |-heal|p2a: Misdreavus|174/241|[from] item: Leftovers
+2026-08-12 12:24:43,203 |-heal|p1a: Gligar|82/100 tox|[from] item: Leftovers
+2026-08-12 12:24:43,203 |-damage|p1a: Gligar|57/100 tox|[from] psn
+2026-08-12 12:24:43,203 |upkeep
+2026-08-12 12:24:43,203 |turn|29
+2026-08-12 12:24:43,206 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,206 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"174/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:24:43,306 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,306 |
+2026-08-12 12:24:43,306 |t:|1786530283
+2026-08-12 12:24:43,306 |move|p2a: Misdreavus|Perish Song|p2a: Misdreavus
+2026-08-12 12:24:43,306 |-start|p1a: Gligar|perish3|[silent]
+2026-08-12 12:24:43,306 |-start|p2a: Misdreavus|perish3|[silent]
+2026-08-12 12:24:43,306 |-fieldactivate|move: Perish Song
+2026-08-12 12:24:43,306 |move|p1a: Gligar|Hidden Power|p2a: Misdreavus
+2026-08-12 12:24:43,307 |-damage|p2a: Misdreavus|101/241
+2026-08-12 12:24:43,307 |
+2026-08-12 12:24:43,307 |-heal|p2a: Misdreavus|116/241|[from] item: Leftovers
+2026-08-12 12:24:43,307 |-heal|p1a: Gligar|63/100 tox|[from] item: Leftovers
+2026-08-12 12:24:43,307 |-damage|p1a: Gligar|33/100 tox|[from] psn
+2026-08-12 12:24:43,307 |-start|p2a: Misdreavus|perish3
+2026-08-12 12:24:43,307 |-start|p1a: Gligar|perish3
+2026-08-12 12:24:43,307 |upkeep
+2026-08-12 12:24:43,307 |turn|30
+2026-08-12 12:24:43,311 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,311 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":7,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"116/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:24:43,353 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,353 |
+2026-08-12 12:24:43,353 |t:|1786530283
+2026-08-12 12:24:43,353 |move|p2a: Misdreavus|Mean Look||[still]
+2026-08-12 12:24:43,353 |-fail|p2a: Misdreavus
+2026-08-12 12:24:43,353 |move|p1a: Gligar|Swords Dance|p1a: Gligar
+2026-08-12 12:24:43,353 |-boost|p1a: Gligar|atk|2
+2026-08-12 12:24:43,353 |
+2026-08-12 12:24:43,353 |-heal|p2a: Misdreavus|131/241|[from] item: Leftovers
+2026-08-12 12:24:43,353 |-heal|p1a: Gligar|39/100 tox|[from] item: Leftovers
+2026-08-12 12:24:43,353 |-damage|p1a: Gligar|2/100 tox|[from] psn
+2026-08-12 12:24:43,353 |-start|p2a: Misdreavus|perish2
+2026-08-12 12:24:43,353 |-start|p1a: Gligar|perish2
+2026-08-12 12:24:43,353 |upkeep
+2026-08-12 12:24:43,353 |turn|31
+2026-08-12 12:24:43,360 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,361 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":7,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"131/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:24:43,405 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,405 |
+2026-08-12 12:24:43,405 |t:|1786530283
+2026-08-12 12:24:43,405 |move|p1a: Gligar|Quick Attack|p2a: Misdreavus
+2026-08-12 12:24:43,405 |-immune|p2a: Misdreavus
+2026-08-12 12:24:43,405 |move|p2a: Misdreavus|Mean Look||[still]
+2026-08-12 12:24:43,405 |-fail|p2a: Misdreavus
+2026-08-12 12:24:43,405 |
+2026-08-12 12:24:43,405 |-heal|p2a: Misdreavus|146/241|[from] item: Leftovers
+2026-08-12 12:24:43,405 |-heal|p1a: Gligar|8/100 tox|[from] item: Leftovers
+2026-08-12 12:24:43,405 |-damage|p1a: Gligar|0 fnt|[from] psn
+2026-08-12 12:24:43,405 |faint|p1a: Gligar
+2026-08-12 12:24:43,405 |-start|p2a: Misdreavus|perish1
+2026-08-12 12:24:43,405 |upkeep
+2026-08-12 12:24:43,409 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,409 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"146/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:24:43,446 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,446 |
+2026-08-12 12:24:43,446 |t:|1786530283
+2026-08-12 12:24:43,446 |switch|p1a: Furret|Furret, L87, M|31/100 tox
+2026-08-12 12:24:43,446 |turn|32
+2026-08-12 12:24:43,451 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,451 |request|{"active":[{"moves":[{"move":"Mean Look","id":"meanlook","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Perish Song","id":"perishsong","pp":7,"maxpp":8,"target":"all","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, M","condition":"146/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["meanlook","protect","shadowball","perishsong"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ninetales","details":"Ninetales, L82, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":170,"spa":179,"spd":211,"spe":211},"moves":["flamethrower","toxic","hiddenpowergrass","hypnosis"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["icebeam","hiddenpowerground","yawn","sludgebomb"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Starmie","details":"Starmie, L74","condition":"0 fnt","active":false,"stats":{"atk":116,"def":169,"spa":191,"spd":169,"spe":213},"moves":["thunderbolt","psychic","surf","recover"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kecleon","details":"Kecleon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":218,"def":181,"spa":163,"spd":273,"spe":126},"moves":["return102","shadowball","brickbreak","trick"],"baseAbility":"colorchange","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, F","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bulkup","bodyslam","slackoff","shadowball"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:24:43,510 >battle-gen3randombattle-318925
+2026-08-12 12:24:43,510 |
+2026-08-12 12:24:43,510 |t:|1786530283
+2026-08-12 12:24:43,510 |move|p1a: Furret|Substitute|p1a: Furret
+2026-08-12 12:24:43,510 |-start|p1a: Furret|Substitute
+2026-08-12 12:24:43,510 |-damage|p1a: Furret|6/100 tox
+2026-08-12 12:24:43,510 |move|p2a: Misdreavus|Shadow Ball|p1a: Furret
+2026-08-12 12:24:43,510 |-immune|p1a: Furret
+2026-08-12 12:24:43,510 |
+2026-08-12 12:24:43,510 |-enditem|p1a: Furret|Liechi Berry|[eat]
+2026-08-12 12:24:43,510 |-boost|p1a: Furret|atk|1|[from] item: Liechi Berry
+2026-08-12 12:24:43,510 |-damage|p1a: Furret|0 fnt|[from] psn
+2026-08-12 12:24:43,510 |faint|p1a: Furret
+2026-08-12 12:24:43,510 |-heal|p2a: Misdreavus|161/241|[from] item: Leftovers
+2026-08-12 12:24:43,510 |-start|p2a: Misdreavus|perish0
+2026-08-12 12:24:43,510 |upkeep
+2026-08-12 12:24:43,510 |faint|p2a: Misdreavus
+2026-08-12 12:24:43,510 |
+2026-08-12 12:24:43,510 |win|BOT1
+2026-08-12 13:04:43,515 >battle-gen3randombattle-318925
+2026-08-12 13:04:43,515 |expire|
+2026-08-12 13:04:43,517 >battle-gen3randombattle-318925
+2026-08-12 13:04:43,517 |L|☆BOT1
+2026-08-12 13:04:43,517 >battle-gen3randombattle-318925
+2026-08-12 13:04:43,517 |deinit

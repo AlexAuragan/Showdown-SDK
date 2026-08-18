@@ -1,0 +1,724 @@
+2026-08-12 13:51:49,440 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,441 |init|battle
+2026-08-12 13:51:49,441 |title|BOT1 vs. BOT2
+2026-08-12 13:51:49,441 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-328552">battle-gen4randombattle-328552</a>&raquo;
+2026-08-12 13:51:49,489 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,489 |t:|1786535509
+2026-08-12 13:51:49,489 |gametype|singles
+2026-08-12 13:51:49,489 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,489 |player|p1|BOT1|170|
+2026-08-12 13:51:49,493 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,493 |player|p2|BOT2|170|
+2026-08-12 13:51:49,493 |gen|4
+2026-08-12 13:51:49,493 |tier|[Gen 4] Random Battle
+2026-08-12 13:51:49,493 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:51:49,493 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:51:49,493 |
+2026-08-12 13:51:49,493 |t:|1786535509
+2026-08-12 13:51:49,493 |teamsize|p1|6
+2026-08-12 13:51:49,493 |teamsize|p2|6
+2026-08-12 13:51:49,493 |start
+2026-08-12 13:51:49,493 |switch|p1a: Qwilfish|Qwilfish, L83, M|100/100
+2026-08-12 13:51:49,493 |switch|p2a: Rotom|Rotom-Frost, L78|206/206
+2026-08-12 13:51:49,493 |turn|1
+2026-08-12 13:51:49,493 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,494 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:51:49,547 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,547 |
+2026-08-12 13:51:49,547 |t:|1786535509
+2026-08-12 13:51:49,547 |move|p1a: Qwilfish|Spikes|p2a: Rotom
+2026-08-12 13:51:49,547 |-sidestart|p2: BOT2|Spikes
+2026-08-12 13:51:49,547 |move|p2a: Rotom|Shadow Ball|p1a: Qwilfish
+2026-08-12 13:51:49,547 |-damage|p1a: Qwilfish|56/100
+2026-08-12 13:51:49,547 |-unboost|p1a: Qwilfish|spd|1
+2026-08-12 13:51:49,547 |
+2026-08-12 13:51:49,547 |upkeep
+2026-08-12 13:51:49,547 |turn|2
+2026-08-12 13:51:49,552 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,552 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:51:49,584 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,584 |
+2026-08-12 13:51:49,584 |t:|1786535509
+2026-08-12 13:51:49,584 |move|p1a: Qwilfish|Destiny Bond|p1a: Qwilfish
+2026-08-12 13:51:49,584 |-singlemove|p1a: Qwilfish|Destiny Bond
+2026-08-12 13:51:49,584 |move|p2a: Rotom|Rest|p2a: Rotom
+2026-08-12 13:51:49,584 |-fail|p2a: Rotom|heal
+2026-08-12 13:51:49,584 |
+2026-08-12 13:51:49,584 |upkeep
+2026-08-12 13:51:49,584 |turn|3
+2026-08-12 13:51:49,584 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,584 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:51:49,611 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,611 |
+2026-08-12 13:51:49,611 |t:|1786535509
+2026-08-12 13:51:49,611 |move|p1a: Qwilfish|Spikes|p2a: Rotom
+2026-08-12 13:51:49,611 |-sidestart|p2: BOT2|Spikes
+2026-08-12 13:51:49,611 |move|p2a: Rotom|Shadow Ball|p1a: Qwilfish
+2026-08-12 13:51:49,611 |-damage|p1a: Qwilfish|0 fnt
+2026-08-12 13:51:49,611 |faint|p1a: Qwilfish
+2026-08-12 13:51:49,611 |
+2026-08-12 13:51:49,611 |upkeep
+2026-08-12 13:51:49,611 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,611 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:51:49,642 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,642 |
+2026-08-12 13:51:49,642 |t:|1786535509
+2026-08-12 13:51:49,642 |switch|p1a: Stantler|Stantler, L87, F|100/100
+2026-08-12 13:51:49,642 |-ability|p1a: Stantler|Intimidate|boost
+2026-08-12 13:51:49,642 |-unboost|p2a: Rotom|atk|1
+2026-08-12 13:51:49,642 |turn|4
+2026-08-12 13:51:49,643 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,643 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:51:49,672 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,672 |
+2026-08-12 13:51:49,672 |t:|1786535509
+2026-08-12 13:51:49,672 |move|p1a: Stantler|Thunderbolt|p2a: Rotom
+2026-08-12 13:51:49,672 |-resisted|p2a: Rotom
+2026-08-12 13:51:49,672 |-damage|p2a: Rotom|167/206
+2026-08-12 13:51:49,672 |-damage|p1a: Stantler|91/100|[from] item: Life Orb
+2026-08-12 13:51:49,672 |move|p2a: Rotom|Shadow Ball|p1a: Stantler
+2026-08-12 13:51:49,672 |-immune|p1a: Stantler
+2026-08-12 13:51:49,672 |
+2026-08-12 13:51:49,672 |-heal|p2a: Rotom|179/206|[from] item: Leftovers
+2026-08-12 13:51:49,672 |upkeep
+2026-08-12 13:51:49,672 |turn|5
+2026-08-12 13:51:49,675 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,675 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"179/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:51:49,700 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,700 |
+2026-08-12 13:51:49,700 |t:|1786535509
+2026-08-12 13:51:49,700 |move|p1a: Stantler|Return|p2a: Rotom
+2026-08-12 13:51:49,700 |-immune|p2a: Rotom
+2026-08-12 13:51:49,700 |move|p2a: Rotom|Thunderbolt|p1a: Stantler
+2026-08-12 13:51:49,700 |-damage|p1a: Stantler|48/100
+2026-08-12 13:51:49,700 |-status|p1a: Stantler|par
+2026-08-12 13:51:49,700 |
+2026-08-12 13:51:49,700 |-heal|p2a: Rotom|191/206|[from] item: Leftovers
+2026-08-12 13:51:49,700 |upkeep
+2026-08-12 13:51:49,700 |turn|6
+2026-08-12 13:51:49,700 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,700 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"191/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:51:49,724 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,724 |
+2026-08-12 13:51:49,725 |t:|1786535509
+2026-08-12 13:51:49,725 |move|p2a: Rotom|Rest|p2a: Rotom
+2026-08-12 13:51:49,725 |-status|p2a: Rotom|slp|[from] move: Rest
+2026-08-12 13:51:49,725 |-heal|p2a: Rotom|206/206 slp|[silent]
+2026-08-12 13:51:49,725 |move|p1a: Stantler|Return|p2a: Rotom
+2026-08-12 13:51:49,725 |-immune|p2a: Rotom
+2026-08-12 13:51:49,725 |
+2026-08-12 13:51:49,725 |upkeep
+2026-08-12 13:51:49,725 |turn|7
+2026-08-12 13:51:49,725 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,725 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:51:49,753 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,753 |
+2026-08-12 13:51:49,753 |t:|1786535509
+2026-08-12 13:51:49,753 |cant|p2a: Rotom|slp
+2026-08-12 13:51:49,753 |move|p1a: Stantler|Megahorn|p2a: Rotom
+2026-08-12 13:51:49,753 |-resisted|p2a: Rotom
+2026-08-12 13:51:49,753 |-damage|p2a: Rotom|152/206 slp
+2026-08-12 13:51:49,753 |-damage|p1a: Stantler|39/100 par|[from] item: Life Orb
+2026-08-12 13:51:49,753 |
+2026-08-12 13:51:49,753 |-heal|p2a: Rotom|164/206 slp|[from] item: Leftovers
+2026-08-12 13:51:49,753 |upkeep
+2026-08-12 13:51:49,753 |turn|8
+2026-08-12 13:51:49,754 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,754 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"164/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:51:49,771 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,771 |
+2026-08-12 13:51:49,771 |t:|1786535509
+2026-08-12 13:51:49,771 |cant|p2a: Rotom|slp
+2026-08-12 13:51:49,771 |move|p1a: Stantler|Return|p2a: Rotom
+2026-08-12 13:51:49,771 |-immune|p2a: Rotom
+2026-08-12 13:51:49,771 |
+2026-08-12 13:51:49,771 |-heal|p2a: Rotom|176/206 slp|[from] item: Leftovers
+2026-08-12 13:51:49,771 |upkeep
+2026-08-12 13:51:49,771 |turn|9
+2026-08-12 13:51:49,774 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,774 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"176/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:51:49,801 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,801 |
+2026-08-12 13:51:49,801 |t:|1786535509
+2026-08-12 13:51:49,801 |-curestatus|p2a: Rotom|slp|[msg]
+2026-08-12 13:51:49,801 |move|p2a: Rotom|Shadow Ball|p1a: Stantler
+2026-08-12 13:51:49,801 |-immune|p1a: Stantler
+2026-08-12 13:51:49,801 |move|p1a: Stantler|Earthquake|p2a: Rotom
+2026-08-12 13:51:49,801 |-immune|p2a: Rotom|[from] ability: Levitate
+2026-08-12 13:51:49,801 |
+2026-08-12 13:51:49,801 |-heal|p2a: Rotom|188/206|[from] item: Leftovers
+2026-08-12 13:51:49,801 |upkeep
+2026-08-12 13:51:49,801 |turn|10
+2026-08-12 13:51:49,801 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,801 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"188/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:51:49,834 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,834 |
+2026-08-12 13:51:49,834 |t:|1786535509
+2026-08-12 13:51:49,834 |switch|p1a: Spiritomb|Spiritomb, L85, F|100/100
+2026-08-12 13:51:49,834 |-ability|p1a: Spiritomb|Pressure
+2026-08-12 13:51:49,834 |move|p2a: Rotom|Thunderbolt|p1a: Spiritomb
+2026-08-12 13:51:49,834 |-damage|p1a: Spiritomb|68/100
+2026-08-12 13:51:49,834 |
+2026-08-12 13:51:49,834 |-heal|p2a: Rotom|200/206|[from] item: Leftovers
+2026-08-12 13:51:49,834 |-heal|p1a: Spiritomb|74/100|[from] item: Leftovers
+2026-08-12 13:51:49,834 |upkeep
+2026-08-12 13:51:49,834 |turn|11
+2026-08-12 13:51:49,835 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,835 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"200/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:51:49,861 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,861 |
+2026-08-12 13:51:49,861 |t:|1786535509
+2026-08-12 13:51:49,861 |switch|p1a: Stantler|Stantler, L87, F|39/100 par
+2026-08-12 13:51:49,861 |-ability|p1a: Stantler|Intimidate|boost
+2026-08-12 13:51:49,861 |-unboost|p2a: Rotom|atk|1
+2026-08-12 13:51:49,861 |move|p2a: Rotom|Rest|p2a: Rotom
+2026-08-12 13:51:49,861 |-status|p2a: Rotom|slp|[from] move: Rest
+2026-08-12 13:51:49,861 |-heal|p2a: Rotom|206/206 slp|[silent]
+2026-08-12 13:51:49,861 |
+2026-08-12 13:51:49,861 |upkeep
+2026-08-12 13:51:49,861 |turn|12
+2026-08-12 13:51:49,862 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,862 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"257/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:51:49,878 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,878 |
+2026-08-12 13:51:49,878 |t:|1786535509
+2026-08-12 13:51:49,878 |switch|p2a: Electivire|Electivire, L82, M|257/257
+2026-08-12 13:51:49,878 |-damage|p2a: Electivire|215/257|[from] Spikes
+2026-08-12 13:51:49,878 |cant|p1a: Stantler|par
+2026-08-12 13:51:49,878 |
+2026-08-12 13:51:49,878 |upkeep
+2026-08-12 13:51:49,878 |turn|13
+2026-08-12 13:51:49,879 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,879 |request|{"active":[{"moves":[{"move":"Cross Chop","id":"crosschop","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"215/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:51:49,918 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,918 |
+2026-08-12 13:51:49,918 |t:|1786535509
+2026-08-12 13:51:49,919 |move|p2a: Electivire|Ice Punch|p1a: Stantler
+2026-08-12 13:51:49,919 |-damage|p1a: Stantler|10/100 par
+2026-08-12 13:51:49,919 |move|p1a: Stantler|Megahorn|p2a: Electivire
+2026-08-12 13:51:49,919 |-damage|p2a: Electivire|74/257
+2026-08-12 13:51:49,919 |-damage|p1a: Stantler|0 fnt|[from] item: Life Orb
+2026-08-12 13:51:49,919 |faint|p1a: Stantler
+2026-08-12 13:51:49,919 |
+2026-08-12 13:51:49,919 |upkeep
+2026-08-12 13:51:49,919 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,919 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"74/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:51:49,941 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,941 |
+2026-08-12 13:51:49,941 |t:|1786535509
+2026-08-12 13:51:49,941 |switch|p1a: Ludicolo|Ludicolo, L85, M|100/100
+2026-08-12 13:51:49,941 |turn|14
+2026-08-12 13:51:49,944 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,944 |request|{"active":[{"moves":[{"move":"Cross Chop","id":"crosschop","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"74/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:51:49,975 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,975 |
+2026-08-12 13:51:49,975 |t:|1786535509
+2026-08-12 13:51:49,975 |switch|p1a: Bronzong|Bronzong, L79|100/100
+2026-08-12 13:51:49,975 |move|p2a: Electivire|Flamethrower|p1a: Bronzong
+2026-08-12 13:51:49,975 |-supereffective|p1a: Bronzong
+2026-08-12 13:51:49,975 |-damage|p1a: Bronzong|46/100
+2026-08-12 13:51:49,975 |
+2026-08-12 13:51:49,975 |-heal|p1a: Bronzong|52/100|[from] item: Leftovers
+2026-08-12 13:51:49,975 |upkeep
+2026-08-12 13:51:49,975 |turn|15
+2026-08-12 13:51:49,975 >battle-gen4randombattle-328552
+2026-08-12 13:51:49,975 |request|{"active":[{"moves":[{"move":"Cross Chop","id":"crosschop","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"74/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:51:50,051 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,051 |
+2026-08-12 13:51:50,051 |t:|1786535510
+2026-08-12 13:51:50,051 |move|p2a: Electivire|Cross Chop|p1a: Bronzong
+2026-08-12 13:51:50,051 |-damage|p1a: Bronzong|22/100
+2026-08-12 13:51:50,051 |move|p1a: Bronzong|Payback|p2a: Electivire
+2026-08-12 13:51:50,052 |-damage|p2a: Electivire|4/257
+2026-08-12 13:51:50,052 |
+2026-08-12 13:51:50,052 |-heal|p1a: Bronzong|28/100|[from] item: Leftovers
+2026-08-12 13:51:50,052 |upkeep
+2026-08-12 13:51:50,052 |turn|16
+2026-08-12 13:51:50,053 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,053 |request|{"active":[{"moves":[{"move":"Cross Chop","id":"crosschop","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:51:50,137 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,137 |
+2026-08-12 13:51:50,137 |t:|1786535510
+2026-08-12 13:51:50,137 |move|p2a: Electivire|Cross Chop|p1a: Bronzong
+2026-08-12 13:51:50,137 |-damage|p1a: Bronzong|0 fnt
+2026-08-12 13:51:50,137 |faint|p1a: Bronzong
+2026-08-12 13:51:50,137 |
+2026-08-12 13:51:50,137 |upkeep
+2026-08-12 13:51:50,137 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,137 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:51:50,186 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,186 |
+2026-08-12 13:51:50,186 |t:|1786535510
+2026-08-12 13:51:50,186 |switch|p1a: Ludicolo|Ludicolo, L85, M|100/100
+2026-08-12 13:51:50,186 |turn|17
+2026-08-12 13:51:50,186 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,186 |request|{"active":[{"moves":[{"move":"Cross Chop","id":"crosschop","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:51:50,245 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,246 |
+2026-08-12 13:51:50,246 |t:|1786535510
+2026-08-12 13:51:50,246 |move|p2a: Electivire|Flamethrower|p1a: Ludicolo
+2026-08-12 13:51:50,246 |-damage|p1a: Ludicolo|81/100
+2026-08-12 13:51:50,246 |move|p1a: Ludicolo|Hydro Pump|p2a: Electivire|[miss]
+2026-08-12 13:51:50,246 |-miss|p1a: Ludicolo|p2a: Electivire
+2026-08-12 13:51:50,246 |
+2026-08-12 13:51:50,246 |upkeep
+2026-08-12 13:51:50,246 |turn|18
+2026-08-12 13:51:50,246 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,246 |request|{"active":[{"moves":[{"move":"Cross Chop","id":"crosschop","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"261/261","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:51:50,302 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,302 |
+2026-08-12 13:51:50,302 |t:|1786535510
+2026-08-12 13:51:50,302 |switch|p2a: Crobat|Crobat, L78, M|261/261
+2026-08-12 13:51:50,302 |move|p1a: Ludicolo|Ice Beam|p2a: Crobat
+2026-08-12 13:51:50,302 |-supereffective|p2a: Crobat
+2026-08-12 13:51:50,302 |-damage|p2a: Crobat|55/261
+2026-08-12 13:51:50,302 |-damage|p1a: Ludicolo|71/100|[from] item: Life Orb
+2026-08-12 13:51:50,302 |
+2026-08-12 13:51:50,302 |-heal|p2a: Crobat|71/261|[from] item: Black Sludge
+2026-08-12 13:51:50,302 |upkeep
+2026-08-12 13:51:50,302 |turn|19
+2026-08-12 13:51:50,305 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,305 |request|{"active":[{"moves":[{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"71/261","active":true,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:51:50,358 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,358 |
+2026-08-12 13:51:50,358 |t:|1786535510
+2026-08-12 13:51:50,358 |move|p2a: Crobat|Roost|p2a: Crobat
+2026-08-12 13:51:50,358 |-heal|p2a: Crobat|201/261
+2026-08-12 13:51:50,358 |-singleturn|p2a: Crobat|move: Roost
+2026-08-12 13:51:50,358 |move|p1a: Ludicolo|Hydro Pump|p2a: Crobat
+2026-08-12 13:51:50,358 |-damage|p2a: Crobat|2/261
+2026-08-12 13:51:50,358 |-damage|p1a: Ludicolo|61/100|[from] item: Life Orb
+2026-08-12 13:51:50,358 |
+2026-08-12 13:51:50,358 |-heal|p2a: Crobat|18/261|[from] item: Black Sludge
+2026-08-12 13:51:50,358 |upkeep
+2026-08-12 13:51:50,358 |turn|20
+2026-08-12 13:51:50,358 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,358 |request|{"active":[{"moves":[{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Brave Bird","id":"bravebird","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"18/261","active":true,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:51:50,378 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,379 |
+2026-08-12 13:51:50,379 |t:|1786535510
+2026-08-12 13:51:50,379 |move|p2a: Crobat|Brave Bird|p1a: Ludicolo
+2026-08-12 13:51:50,379 |-supereffective|p1a: Ludicolo
+2026-08-12 13:51:50,379 |-damage|p1a: Ludicolo|0 fnt
+2026-08-12 13:51:50,379 |faint|p1a: Ludicolo
+2026-08-12 13:51:50,379 |-damage|p2a: Crobat|0 fnt|[from] Recoil
+2026-08-12 13:51:50,379 |faint|p2a: Crobat
+2026-08-12 13:51:50,379 |
+2026-08-12 13:51:50,379 |upkeep
+2026-08-12 13:51:50,382 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,382 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":true,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:51:50,419 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,419 |
+2026-08-12 13:51:50,419 |t:|1786535510
+2026-08-12 13:51:50,419 |switch|p2a: Rotom|Rotom-Frost, L78|206/206 slp
+2026-08-12 13:51:50,419 |switch|p1a: Ursaring|Ursaring, L83, F|100/100
+2026-08-12 13:51:50,419 |turn|21
+2026-08-12 13:51:50,419 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,419 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:51:50,477 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,477 |
+2026-08-12 13:51:50,477 |t:|1786535510
+2026-08-12 13:51:50,477 |switch|p2a: Persian|Persian, L89, M|260/260
+2026-08-12 13:51:50,477 |-damage|p2a: Persian|217/260|[from] Spikes
+2026-08-12 13:51:50,477 |move|p1a: Ursaring|Swords Dance|p1a: Ursaring
+2026-08-12 13:51:50,477 |-boost|p1a: Ursaring|atk|2
+2026-08-12 13:51:50,477 |
+2026-08-12 13:51:50,477 |-status|p1a: Ursaring|tox|[from] item: Toxic Orb
+2026-08-12 13:51:50,477 |upkeep
+2026-08-12 13:51:50,477 |turn|22
+2026-08-12 13:51:50,477 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,477 |request|{"active":[{"moves":[{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Bite","id":"bite","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, M","condition":"217/260","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:51:50,524 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,524 |
+2026-08-12 13:51:50,524 |t:|1786535510
+2026-08-12 13:51:50,524 |move|p2a: Persian|Fake Out|p1a: Ursaring
+2026-08-12 13:51:50,524 |-damage|p1a: Ursaring|73/100 tox
+2026-08-12 13:51:50,524 |cant|p1a: Ursaring|flinch
+2026-08-12 13:51:50,524 |
+2026-08-12 13:51:50,524 |-damage|p1a: Ursaring|67/100 tox|[from] psn
+2026-08-12 13:51:50,524 |upkeep
+2026-08-12 13:51:50,524 |turn|23
+2026-08-12 13:51:50,524 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,524 |request|{"active":[{"moves":[{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Bite","id":"bite","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, M","condition":"217/260","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:51:50,583 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,583 |
+2026-08-12 13:51:50,583 |t:|1786535510
+2026-08-12 13:51:50,583 |move|p2a: Persian|Return|p1a: Ursaring
+2026-08-12 13:51:50,583 |-damage|p1a: Ursaring|23/100 tox
+2026-08-12 13:51:50,583 |move|p1a: Ursaring|Crunch|p2a: Persian
+2026-08-12 13:51:50,583 |-damage|p2a: Persian|50/260
+2026-08-12 13:51:50,583 |
+2026-08-12 13:51:50,583 |-damage|p1a: Ursaring|11/100 tox|[from] psn
+2026-08-12 13:51:50,583 |upkeep
+2026-08-12 13:51:50,583 |turn|24
+2026-08-12 13:51:50,587 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,587 |request|{"active":[{"moves":[{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Bite","id":"bite","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, M","condition":"50/260","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:51:50,628 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,628 |
+2026-08-12 13:51:50,628 |t:|1786535510
+2026-08-12 13:51:50,628 |move|p2a: Persian|Fake Out||[still]
+2026-08-12 13:51:50,628 |-hint|Fake Out only works on your first turn out.
+2026-08-12 13:51:50,628 |-fail|p2a: Persian
+2026-08-12 13:51:50,628 |move|p1a: Ursaring|Close Combat|p2a: Persian
+2026-08-12 13:51:50,628 |-supereffective|p2a: Persian
+2026-08-12 13:51:50,628 |-damage|p2a: Persian|0 fnt
+2026-08-12 13:51:50,628 |-unboost|p1a: Ursaring|def|1
+2026-08-12 13:51:50,629 |-unboost|p1a: Ursaring|spd|1
+2026-08-12 13:51:50,629 |faint|p2a: Persian
+2026-08-12 13:51:50,629 |
+2026-08-12 13:51:50,629 |-damage|p1a: Ursaring|0 fnt|[from] psn
+2026-08-12 13:51:50,629 |faint|p1a: Ursaring
+2026-08-12 13:51:50,629 |upkeep
+2026-08-12 13:51:50,629 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,629 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:51:50,647 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,647 |
+2026-08-12 13:51:50,647 |t:|1786535510
+2026-08-12 13:51:50,647 |switch|p2a: Rotom|Rotom-Frost, L78|206/206 slp
+2026-08-12 13:51:50,647 |switch|p1a: Spiritomb|Spiritomb, L85, F|74/100
+2026-08-12 13:51:50,647 |-ability|p1a: Spiritomb|Pressure
+2026-08-12 13:51:50,647 |turn|25
+2026-08-12 13:51:50,648 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,648 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:51:50,669 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,669 |
+2026-08-12 13:51:50,669 |t:|1786535510
+2026-08-12 13:51:50,669 |cant|p2a: Rotom|slp
+2026-08-12 13:51:50,669 |move|p1a: Spiritomb|Sleep Talk||[still]
+2026-08-12 13:51:50,669 |-fail|p1a: Spiritomb
+2026-08-12 13:51:50,669 |
+2026-08-12 13:51:50,669 |-heal|p1a: Spiritomb|80/100|[from] item: Leftovers
+2026-08-12 13:51:50,669 |upkeep
+2026-08-12 13:51:50,669 |turn|26
+2026-08-12 13:51:50,669 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,669 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:51:50,730 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,730 |
+2026-08-12 13:51:50,730 |t:|1786535510
+2026-08-12 13:51:50,730 |cant|p2a: Rotom|slp
+2026-08-12 13:51:50,730 |move|p1a: Spiritomb|Rest|p1a: Spiritomb
+2026-08-12 13:51:50,730 |-status|p1a: Spiritomb|slp|[from] move: Rest
+2026-08-12 13:51:50,730 |-heal|p1a: Spiritomb|100/100 slp|[silent]
+2026-08-12 13:51:50,730 |
+2026-08-12 13:51:50,730 |upkeep
+2026-08-12 13:51:50,730 |turn|27
+2026-08-12 13:51:50,732 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,732 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206 slp","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:51:50,767 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,767 |
+2026-08-12 13:51:50,767 |t:|1786535510
+2026-08-12 13:51:50,767 |-curestatus|p2a: Rotom|slp|[msg]
+2026-08-12 13:51:50,767 |move|p2a: Rotom|Shadow Ball|p1a: Spiritomb
+2026-08-12 13:51:50,767 |-damage|p1a: Spiritomb|72/100 slp
+2026-08-12 13:51:50,767 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:50,767 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:50,767 |move|p1a: Spiritomb|Rest||[from] move: Sleep Talk|[still]
+2026-08-12 13:51:50,767 |-fail|p1a: Spiritomb
+2026-08-12 13:51:50,767 |
+2026-08-12 13:51:50,767 |-heal|p1a: Spiritomb|78/100 slp|[from] item: Leftovers
+2026-08-12 13:51:50,767 |upkeep
+2026-08-12 13:51:50,767 |turn|28
+2026-08-12 13:51:50,767 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,767 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":18,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"206/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:51:50,810 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,810 |
+2026-08-12 13:51:50,810 |t:|1786535510
+2026-08-12 13:51:50,810 |move|p2a: Rotom|Rest|p2a: Rotom
+2026-08-12 13:51:50,810 |-fail|p2a: Rotom|heal
+2026-08-12 13:51:50,810 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:50,810 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:50,810 |move|p1a: Spiritomb|Dark Pulse|p2a: Rotom|[from] move: Sleep Talk
+2026-08-12 13:51:50,810 |-supereffective|p2a: Rotom
+2026-08-12 13:51:50,810 |-damage|p2a: Rotom|60/206
+2026-08-12 13:51:50,810 |
+2026-08-12 13:51:50,810 |-heal|p2a: Rotom|72/206|[from] item: Leftovers
+2026-08-12 13:51:50,811 |-heal|p1a: Spiritomb|84/100 slp|[from] item: Leftovers
+2026-08-12 13:51:50,811 |upkeep
+2026-08-12 13:51:50,811 |turn|29
+2026-08-12 13:51:50,811 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,811 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":18,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"4/257","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:51:50,837 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,838 |
+2026-08-12 13:51:50,838 |t:|1786535510
+2026-08-12 13:51:50,838 |switch|p2a: Electivire|Electivire, L82, M|4/257
+2026-08-12 13:51:50,838 |-damage|p2a: Electivire|0 fnt|[from] Spikes
+2026-08-12 13:51:50,838 |faint|p2a: Electivire
+2026-08-12 13:51:50,838 |-curestatus|p1a: Spiritomb|slp|[msg]
+2026-08-12 13:51:50,838 |move|p1a: Spiritomb|Dark Pulse|p2: Electivire|[notarget]
+2026-08-12 13:51:50,838 |-notarget|p1a: Spiritomb
+2026-08-12 13:51:50,838 |
+2026-08-12 13:51:50,838 |-heal|p1a: Spiritomb|91/100|[from] item: Leftovers
+2026-08-12 13:51:50,838 |upkeep
+2026-08-12 13:51:50,839 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,839 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":true,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":71}
+2026-08-12 13:51:50,866 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,866 |
+2026-08-12 13:51:50,867 |t:|1786535510
+2026-08-12 13:51:50,867 |switch|p2a: Chatot|Chatot, L90, M|283/283
+2026-08-12 13:51:50,867 |turn|30
+2026-08-12 13:51:50,870 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,870 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:51:50,916 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,916 |
+2026-08-12 13:51:50,916 |t:|1786535510
+2026-08-12 13:51:50,916 |move|p2a: Chatot|Hyper Voice|p1a: Spiritomb
+2026-08-12 13:51:50,916 |-immune|p1a: Spiritomb
+2026-08-12 13:51:50,916 |move|p1a: Spiritomb|Dark Pulse|p2a: Chatot
+2026-08-12 13:51:50,916 |-damage|p2a: Chatot|162/283
+2026-08-12 13:51:50,916 |
+2026-08-12 13:51:50,916 |-heal|p1a: Spiritomb|97/100|[from] item: Leftovers
+2026-08-12 13:51:50,916 |upkeep
+2026-08-12 13:51:50,916 |turn|31
+2026-08-12 13:51:50,916 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,916 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"162/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:51:50,958 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,958 |
+2026-08-12 13:51:50,958 |t:|1786535510
+2026-08-12 13:51:50,958 |move|p2a: Chatot|Nasty Plot|p2a: Chatot
+2026-08-12 13:51:50,958 |-boost|p2a: Chatot|spa|2
+2026-08-12 13:51:50,958 |move|p1a: Spiritomb|Dark Pulse|p2a: Chatot
+2026-08-12 13:51:50,958 |-damage|p2a: Chatot|30/283
+2026-08-12 13:51:50,958 |
+2026-08-12 13:51:50,958 |-heal|p1a: Spiritomb|100/100|[from] item: Leftovers
+2026-08-12 13:51:50,958 |upkeep
+2026-08-12 13:51:50,958 |turn|32
+2026-08-12 13:51:50,959 >battle-gen4randombattle-328552
+2026-08-12 13:51:50,959 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"30/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:51:51,005 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,005 |
+2026-08-12 13:51:51,005 |t:|1786535510
+2026-08-12 13:51:51,005 |move|p2a: Chatot|Hidden Power|p1a: Spiritomb
+2026-08-12 13:51:51,005 |-damage|p1a: Spiritomb|44/100
+2026-08-12 13:51:51,005 |-damage|p2a: Chatot|2/283|[from] item: Life Orb
+2026-08-12 13:51:51,005 |move|p1a: Spiritomb|Rest|p1a: Spiritomb
+2026-08-12 13:51:51,005 |-status|p1a: Spiritomb|slp|[from] move: Rest
+2026-08-12 13:51:51,005 |-heal|p1a: Spiritomb|100/100 slp|[silent]
+2026-08-12 13:51:51,005 |
+2026-08-12 13:51:51,005 |upkeep
+2026-08-12 13:51:51,005 |turn|33
+2026-08-12 13:51:51,008 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,008 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:51:51,053 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,053 |
+2026-08-12 13:51:51,053 |t:|1786535511
+2026-08-12 13:51:51,053 |switch|p2a: Cloyster|Cloyster, L86, M|226/226
+2026-08-12 13:51:51,053 |-damage|p2a: Cloyster|189/226|[from] Spikes
+2026-08-12 13:51:51,053 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,053 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:51,053 |move|p1a: Spiritomb|Calm Mind|p1a: Spiritomb|[from] move: Sleep Talk
+2026-08-12 13:51:51,053 |-boost|p1a: Spiritomb|spa|1
+2026-08-12 13:51:51,053 |-boost|p1a: Spiritomb|spd|1
+2026-08-12 13:51:51,053 |
+2026-08-12 13:51:51,053 |-heal|p2a: Cloyster|203/226|[from] item: Leftovers
+2026-08-12 13:51:51,053 |upkeep
+2026-08-12 13:51:51,054 |turn|34
+2026-08-12 13:51:51,057 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,057 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"203/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:51:51,093 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,093 |
+2026-08-12 13:51:51,093 |t:|1786535511
+2026-08-12 13:51:51,093 |move|p2a: Cloyster|Surf|p1a: Spiritomb
+2026-08-12 13:51:51,093 |-damage|p1a: Spiritomb|77/100 slp
+2026-08-12 13:51:51,093 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,093 |
+2026-08-12 13:51:51,093 |-heal|p2a: Cloyster|217/226|[from] item: Leftovers
+2026-08-12 13:51:51,093 |-heal|p1a: Spiritomb|84/100 slp|[from] item: Leftovers
+2026-08-12 13:51:51,093 |upkeep
+2026-08-12 13:51:51,093 |turn|35
+2026-08-12 13:51:51,094 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,094 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"217/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:51:51,137 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,137 |
+2026-08-12 13:51:51,137 |t:|1786535511
+2026-08-12 13:51:51,137 |move|p2a: Cloyster|Ice Shard|p1a: Spiritomb
+2026-08-12 13:51:51,137 |-damage|p1a: Spiritomb|66/100 slp
+2026-08-12 13:51:51,137 |-curestatus|p1a: Spiritomb|slp|[msg]
+2026-08-12 13:51:51,137 |move|p1a: Spiritomb|Rest|p1a: Spiritomb
+2026-08-12 13:51:51,137 |-status|p1a: Spiritomb|slp|[from] move: Rest
+2026-08-12 13:51:51,137 |-heal|p1a: Spiritomb|100/100 slp|[silent]
+2026-08-12 13:51:51,137 |
+2026-08-12 13:51:51,137 |-heal|p2a: Cloyster|226/226|[from] item: Leftovers
+2026-08-12 13:51:51,137 |upkeep
+2026-08-12 13:51:51,137 |turn|36
+2026-08-12 13:51:51,141 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,141 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:51:51,174 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,174 |
+2026-08-12 13:51:51,174 |t:|1786535511
+2026-08-12 13:51:51,174 |move|p2a: Cloyster|Surf|p1a: Spiritomb
+2026-08-12 13:51:51,174 |-damage|p1a: Spiritomb|76/100 slp
+2026-08-12 13:51:51,174 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,174 |
+2026-08-12 13:51:51,174 |-heal|p1a: Spiritomb|83/100 slp|[from] item: Leftovers
+2026-08-12 13:51:51,174 |upkeep
+2026-08-12 13:51:51,174 |turn|37
+2026-08-12 13:51:51,175 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,175 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":20,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"226/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:51:51,217 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,217 |
+2026-08-12 13:51:51,217 |t:|1786535511
+2026-08-12 13:51:51,217 |move|p2a: Cloyster|Rock Blast|p1a: Spiritomb
+2026-08-12 13:51:51,217 |-damage|p1a: Spiritomb|75/100 slp
+2026-08-12 13:51:51,217 |-damage|p1a: Spiritomb|68/100 slp
+2026-08-12 13:51:51,217 |-damage|p1a: Spiritomb|62/100 slp
+2026-08-12 13:51:51,217 |-damage|p1a: Spiritomb|55/100 slp
+2026-08-12 13:51:51,217 |-damage|p1a: Spiritomb|48/100 slp
+2026-08-12 13:51:51,217 |-hitcount|p1a: Spiritomb|5
+2026-08-12 13:51:51,217 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,217 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:51,217 |move|p1a: Spiritomb|Dark Pulse|p2a: Cloyster|[from] move: Sleep Talk
+2026-08-12 13:51:51,217 |-damage|p2a: Cloyster|48/226
+2026-08-12 13:51:51,217 |
+2026-08-12 13:51:51,217 |-heal|p2a: Cloyster|62/226|[from] item: Leftovers
+2026-08-12 13:51:51,217 |-heal|p1a: Spiritomb|55/100 slp|[from] item: Leftovers
+2026-08-12 13:51:51,217 |upkeep
+2026-08-12 13:51:51,217 |turn|38
+2026-08-12 13:51:51,219 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,219 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":20,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"62/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:51:51,256 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,256 |
+2026-08-12 13:51:51,256 |t:|1786535511
+2026-08-12 13:51:51,256 |move|p2a: Cloyster|Toxic Spikes|p1a: Spiritomb
+2026-08-12 13:51:51,256 |-sidestart|p1: BOT1|move: Toxic Spikes
+2026-08-12 13:51:51,256 |-curestatus|p1a: Spiritomb|slp|[msg]
+2026-08-12 13:51:51,256 |move|p1a: Spiritomb|Rest|p1a: Spiritomb
+2026-08-12 13:51:51,256 |-status|p1a: Spiritomb|slp|[from] move: Rest
+2026-08-12 13:51:51,256 |-heal|p1a: Spiritomb|100/100 slp|[silent]
+2026-08-12 13:51:51,256 |
+2026-08-12 13:51:51,256 |-heal|p2a: Cloyster|76/226|[from] item: Leftovers
+2026-08-12 13:51:51,256 |upkeep
+2026-08-12 13:51:51,256 |turn|39
+2026-08-12 13:51:51,260 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,260 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":20,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"76/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:51:51,302 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,302 |
+2026-08-12 13:51:51,302 |t:|1786535511
+2026-08-12 13:51:51,302 |move|p2a: Cloyster|Rock Blast|p1a: Spiritomb
+2026-08-12 13:51:51,302 |-damage|p1a: Spiritomb|93/100 slp
+2026-08-12 13:51:51,302 |-damage|p1a: Spiritomb|87/100 slp
+2026-08-12 13:51:51,302 |-damage|p1a: Spiritomb|79/100 slp
+2026-08-12 13:51:51,302 |-damage|p1a: Spiritomb|71/100 slp
+2026-08-12 13:51:51,302 |-damage|p1a: Spiritomb|64/100 slp
+2026-08-12 13:51:51,302 |-hitcount|p1a: Spiritomb|5
+2026-08-12 13:51:51,302 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,302 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:51,302 |move|p1a: Spiritomb|Rest||[from] move: Sleep Talk|[still]
+2026-08-12 13:51:51,302 |-fail|p1a: Spiritomb
+2026-08-12 13:51:51,302 |
+2026-08-12 13:51:51,302 |-heal|p2a: Cloyster|90/226|[from] item: Leftovers
+2026-08-12 13:51:51,302 |-heal|p1a: Spiritomb|71/100 slp|[from] item: Leftovers
+2026-08-12 13:51:51,302 |upkeep
+2026-08-12 13:51:51,302 |turn|40
+2026-08-12 13:51:51,303 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,303 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":20,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"90/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 13:51:51,343 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,344 |
+2026-08-12 13:51:51,344 |t:|1786535511
+2026-08-12 13:51:51,344 |move|p2a: Cloyster|Rock Blast|p1a: Spiritomb
+2026-08-12 13:51:51,344 |-damage|p1a: Spiritomb|63/100 slp
+2026-08-12 13:51:51,344 |-damage|p1a: Spiritomb|56/100 slp
+2026-08-12 13:51:51,344 |-damage|p1a: Spiritomb|49/100 slp
+2026-08-12 13:51:51,344 |-damage|p1a: Spiritomb|42/100 slp
+2026-08-12 13:51:51,344 |-damage|p1a: Spiritomb|35/100 slp
+2026-08-12 13:51:51,344 |-hitcount|p1a: Spiritomb|5
+2026-08-12 13:51:51,344 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,344 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:51,344 |move|p1a: Spiritomb|Calm Mind|p1a: Spiritomb|[from] move: Sleep Talk
+2026-08-12 13:51:51,344 |-boost|p1a: Spiritomb|spa|1
+2026-08-12 13:51:51,344 |-boost|p1a: Spiritomb|spd|1
+2026-08-12 13:51:51,344 |
+2026-08-12 13:51:51,344 |-heal|p2a: Cloyster|104/226|[from] item: Leftovers
+2026-08-12 13:51:51,344 |-heal|p1a: Spiritomb|42/100 slp|[from] item: Leftovers
+2026-08-12 13:51:51,344 |upkeep
+2026-08-12 13:51:51,344 |turn|41
+2026-08-12 13:51:51,345 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,345 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":20,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rock Blast","id":"rockblast","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"104/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 13:51:51,369 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,369 |
+2026-08-12 13:51:51,370 |t:|1786535511
+2026-08-12 13:51:51,370 |move|p2a: Cloyster|Toxic Spikes|p1a: Spiritomb
+2026-08-12 13:51:51,370 |-sidestart|p1: BOT1|move: Toxic Spikes
+2026-08-12 13:51:51,370 |-curestatus|p1a: Spiritomb|slp|[msg]
+2026-08-12 13:51:51,370 |move|p1a: Spiritomb|Dark Pulse|p2a: Cloyster
+2026-08-12 13:51:51,370 |-damage|p2a: Cloyster|0 fnt
+2026-08-12 13:51:51,370 |faint|p2a: Cloyster
+2026-08-12 13:51:51,370 |
+2026-08-12 13:51:51,370 |-heal|p1a: Spiritomb|48/100|[from] item: Leftovers
+2026-08-12 13:51:51,370 |upkeep
+2026-08-12 13:51:51,371 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,371 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"0 fnt","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":97}
+2026-08-12 13:51:51,395 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,395 |
+2026-08-12 13:51:51,395 |t:|1786535511
+2026-08-12 13:51:51,395 |switch|p2a: Chatot|Chatot, L90, M|2/283
+2026-08-12 13:51:51,395 |turn|42
+2026-08-12 13:51:51,398 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,398 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"2/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 13:51:51,433 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,433 |
+2026-08-12 13:51:51,433 |t:|1786535511
+2026-08-12 13:51:51,433 |move|p2a: Chatot|Hyper Voice|p1a: Spiritomb
+2026-08-12 13:51:51,433 |-immune|p1a: Spiritomb
+2026-08-12 13:51:51,433 |move|p1a: Spiritomb|Dark Pulse|p2a: Chatot
+2026-08-12 13:51:51,433 |-damage|p2a: Chatot|0 fnt
+2026-08-12 13:51:51,433 |faint|p2a: Chatot
+2026-08-12 13:51:51,433 |
+2026-08-12 13:51:51,433 |-heal|p1a: Spiritomb|54/100|[from] item: Leftovers
+2026-08-12 13:51:51,433 |upkeep
+2026-08-12 13:51:51,435 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,435 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":false,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":101}
+2026-08-12 13:51:51,454 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,454 |
+2026-08-12 13:51:51,454 |t:|1786535511
+2026-08-12 13:51:51,454 |switch|p2a: Rotom|Rotom-Frost, L78|72/206
+2026-08-12 13:51:51,454 |turn|43
+2026-08-12 13:51:51,458 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,458 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":18,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"72/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 13:51:51,493 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,493 |
+2026-08-12 13:51:51,493 |t:|1786535511
+2026-08-12 13:51:51,493 |move|p2a: Rotom|Shadow Ball|p1a: Spiritomb
+2026-08-12 13:51:51,493 |-damage|p1a: Spiritomb|38/100
+2026-08-12 13:51:51,493 |move|p1a: Spiritomb|Rest|p1a: Spiritomb
+2026-08-12 13:51:51,493 |-status|p1a: Spiritomb|slp|[from] move: Rest
+2026-08-12 13:51:51,493 |-heal|p1a: Spiritomb|100/100 slp|[silent]
+2026-08-12 13:51:51,493 |
+2026-08-12 13:51:51,493 |-heal|p2a: Rotom|84/206|[from] item: Leftovers
+2026-08-12 13:51:51,493 |upkeep
+2026-08-12 13:51:51,493 |turn|44
+2026-08-12 13:51:51,495 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,495 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":16,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"84/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 13:51:51,529 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,529 |
+2026-08-12 13:51:51,529 |t:|1786535511
+2026-08-12 13:51:51,529 |move|p2a: Rotom|Thunderbolt|p1a: Spiritomb
+2026-08-12 13:51:51,529 |-damage|p1a: Spiritomb|83/100 slp
+2026-08-12 13:51:51,529 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,529 |
+2026-08-12 13:51:51,529 |-heal|p2a: Rotom|96/206|[from] item: Leftovers
+2026-08-12 13:51:51,529 |-heal|p1a: Spiritomb|89/100 slp|[from] item: Leftovers
+2026-08-12 13:51:51,529 |upkeep
+2026-08-12 13:51:51,529 |turn|45
+2026-08-12 13:51:51,530 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,530 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":16,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Rotom","details":"Rotom-Frost, L78","condition":"96/206","active":true,"stats":{"atk":106,"def":212,"spa":209,"spd":212,"spe":179},"moves":["sleeptalk","rest","thunderbolt","shadowball"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Electivire","details":"Electivire, L82, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":157,"spa":203,"spd":187,"spe":203},"moves":["crosschop","thunderbolt","icepunch","flamethrower"],"baseAbility":"motordrive","item":"expertbelt","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, M","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["taunt","bite","fakeout","return102"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Crobat","details":"Crobat, L78, M","condition":"0 fnt","active":false,"stats":{"atk":185,"def":170,"spa":154,"spd":170,"spe":248},"moves":["heatwave","bravebird","roost","toxic"],"baseAbility":"innerfocus","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","rockblast","iceshard","toxicspikes"],"baseAbility":"skilllink","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 13:51:51,570 >battle-gen4randombattle-328552
+2026-08-12 13:51:51,570 |
+2026-08-12 13:51:51,570 |t:|1786535511
+2026-08-12 13:51:51,570 |move|p2a: Rotom|Shadow Ball|p1a: Spiritomb
+2026-08-12 13:51:51,570 |-crit|p1a: Spiritomb
+2026-08-12 13:51:51,570 |-damage|p1a: Spiritomb|31/100 slp
+2026-08-12 13:51:51,570 |-unboost|p1a: Spiritomb|spd|1
+2026-08-12 13:51:51,570 |cant|p1a: Spiritomb|slp
+2026-08-12 13:51:51,570 |move|p1a: Spiritomb|Sleep Talk|p1a: Spiritomb
+2026-08-12 13:51:51,570 |move|p1a: Spiritomb|Dark Pulse|p2a: Rotom|[from] move: Sleep Talk
+2026-08-12 13:51:51,570 |-supereffective|p2a: Rotom
+2026-08-12 13:51:51,570 |-damage|p2a: Rotom|0 fnt
+2026-08-12 13:51:51,570 |faint|p2a: Rotom
+2026-08-12 13:51:51,570 |
+2026-08-12 13:51:51,570 |win|BOT1
+2026-08-12 14:31:51,569 >battle-gen4randombattle-328552
+2026-08-12 14:31:51,569 |expire|
+2026-08-12 14:31:51,571 >battle-gen4randombattle-328552
+2026-08-12 14:31:51,571 |L|☆BOT1
+2026-08-12 14:31:51,575 >battle-gen4randombattle-328552
+2026-08-12 14:31:51,575 |deinit

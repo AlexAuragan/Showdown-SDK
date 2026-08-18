@@ -1,0 +1,646 @@
+2026-08-12 14:28:15,887 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,887 |init|battle
+2026-08-12 14:28:15,888 |title|BOT3 vs. BOT4
+2026-08-12 14:28:15,888 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-332909">battle-gen4randombattle-332909</a>&raquo;
+2026-08-12 14:28:15,960 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,960 |t:|1786537695
+2026-08-12 14:28:15,960 |gametype|singles
+2026-08-12 14:28:15,960 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,960 |player|p1|BOT3|101|
+2026-08-12 14:28:15,960 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,960 |player|p2|BOT4|266|
+2026-08-12 14:28:15,960 |gen|4
+2026-08-12 14:28:15,960 |tier|[Gen 4] Random Battle
+2026-08-12 14:28:15,960 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 14:28:15,960 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 14:28:15,960 |
+2026-08-12 14:28:15,960 |t:|1786537695
+2026-08-12 14:28:15,960 |teamsize|p1|6
+2026-08-12 14:28:15,960 |teamsize|p2|6
+2026-08-12 14:28:15,960 |start
+2026-08-12 14:28:15,960 |switch|p1a: Groudon|Groudon, L72|100/100
+2026-08-12 14:28:15,960 |switch|p2a: Probopass|Probopass, L88, F|249/249
+2026-08-12 14:28:15,960 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+2026-08-12 14:28:15,960 |turn|1
+2026-08-12 14:28:15,961 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,962 |request|{"active":[{"moves":[{"move":"Power Gem","id":"powergem","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earth Power","id":"earthpower","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"249/249","active":true,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"256/256","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 14:28:15,978 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,978 |
+2026-08-12 14:28:15,978 |t:|1786537695
+2026-08-12 14:28:15,978 |move|p1a: Groudon|Rock Polish|p1a: Groudon
+2026-08-12 14:28:15,978 |-boost|p1a: Groudon|spe|2
+2026-08-12 14:28:15,978 |move|p2a: Probopass|Explosion|p1a: Groudon
+2026-08-12 14:28:15,978 |-damage|p1a: Groudon|27/100
+2026-08-12 14:28:15,978 |faint|p2a: Probopass
+2026-08-12 14:28:15,978 |
+2026-08-12 14:28:15,978 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:15,978 |-heal|p1a: Groudon|33/100|[from] item: Leftovers
+2026-08-12 14:28:15,978 |upkeep
+2026-08-12 14:28:15,978 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,978 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":true,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"256/256","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":5}
+2026-08-12 14:28:15,991 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,991 |
+2026-08-12 14:28:15,991 |t:|1786537695
+2026-08-12 14:28:15,991 |switch|p2a: Yanmega|Yanmega, L76, M|256/256
+2026-08-12 14:28:15,991 |turn|2
+2026-08-12 14:28:15,993 >battle-gen4randombattle-332909
+2026-08-12 14:28:15,993 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"256/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 14:28:16,014 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,014 |
+2026-08-12 14:28:16,014 |t:|1786537695
+2026-08-12 14:28:16,014 |move|p1a: Groudon|Swords Dance|p1a: Groudon
+2026-08-12 14:28:16,014 |-boost|p1a: Groudon|atk|2
+2026-08-12 14:28:16,014 |move|p2a: Yanmega|Bug Buzz|p1a: Groudon
+2026-08-12 14:28:16,014 |-damage|p1a: Groudon|0 fnt
+2026-08-12 14:28:16,014 |faint|p1a: Groudon
+2026-08-12 14:28:16,014 |-damage|p2a: Yanmega|231/256|[from] item: Life Orb
+2026-08-12 14:28:16,014 |
+2026-08-12 14:28:16,014 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,014 |-ability|p2a: Yanmega|Speed Boost|boost
+2026-08-12 14:28:16,014 |-boost|p2a: Yanmega|spe|1
+2026-08-12 14:28:16,014 |upkeep
+2026-08-12 14:28:16,015 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,015 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"231/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 14:28:16,024 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,024 |
+2026-08-12 14:28:16,024 |t:|1786537696
+2026-08-12 14:28:16,024 |switch|p1a: Pelipper|Pelipper, L90, M|100/100
+2026-08-12 14:28:16,024 |turn|3
+2026-08-12 14:28:16,026 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,026 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"231/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 14:28:16,050 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,050 |
+2026-08-12 14:28:16,050 |t:|1786537696
+2026-08-12 14:28:16,050 |move|p2a: Yanmega|Bug Buzz|p1a: Pelipper
+2026-08-12 14:28:16,051 |-resisted|p1a: Pelipper
+2026-08-12 14:28:16,051 |-damage|p1a: Pelipper|76/100
+2026-08-12 14:28:16,051 |-damage|p2a: Yanmega|206/256|[from] item: Life Orb
+2026-08-12 14:28:16,051 |move|p1a: Pelipper|Hidden Power|p2a: Yanmega
+2026-08-12 14:28:16,051 |-resisted|p2a: Yanmega
+2026-08-12 14:28:16,051 |-crit|p2a: Yanmega
+2026-08-12 14:28:16,051 |-damage|p2a: Yanmega|167/256
+2026-08-12 14:28:16,051 |
+2026-08-12 14:28:16,051 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,051 |-ability|p2a: Yanmega|Speed Boost|boost
+2026-08-12 14:28:16,051 |-boost|p2a: Yanmega|spe|1
+2026-08-12 14:28:16,051 |-heal|p1a: Pelipper|82/100|[from] item: Leftovers
+2026-08-12 14:28:16,051 |upkeep
+2026-08-12 14:28:16,051 |turn|4
+2026-08-12 14:28:16,051 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,051 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"167/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 14:28:16,070 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,070 |
+2026-08-12 14:28:16,070 |t:|1786537696
+2026-08-12 14:28:16,070 |move|p2a: Yanmega|Protect|p2a: Yanmega
+2026-08-12 14:28:16,070 |-singleturn|p2a: Yanmega|Protect
+2026-08-12 14:28:16,070 |move|p1a: Pelipper|Surf|p2a: Yanmega
+2026-08-12 14:28:16,070 |-activate|p2a: Yanmega|Protect
+2026-08-12 14:28:16,070 |
+2026-08-12 14:28:16,071 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,071 |-ability|p2a: Yanmega|Speed Boost|boost
+2026-08-12 14:28:16,071 |-boost|p2a: Yanmega|spe|1
+2026-08-12 14:28:16,071 |-heal|p1a: Pelipper|88/100|[from] item: Leftovers
+2026-08-12 14:28:16,071 |upkeep
+2026-08-12 14:28:16,071 |turn|5
+2026-08-12 14:28:16,071 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,071 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"167/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 14:28:16,095 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,095 |
+2026-08-12 14:28:16,095 |t:|1786537696
+2026-08-12 14:28:16,095 |switch|p1a: Drapion|Drapion, L83, M|100/100
+2026-08-12 14:28:16,095 |move|p2a: Yanmega|Bug Buzz|p1a: Drapion
+2026-08-12 14:28:16,095 |-damage|p1a: Drapion|47/100
+2026-08-12 14:28:16,095 |-damage|p2a: Yanmega|142/256|[from] item: Life Orb
+2026-08-12 14:28:16,095 |
+2026-08-12 14:28:16,095 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,095 |-ability|p2a: Yanmega|Speed Boost|boost
+2026-08-12 14:28:16,095 |-boost|p2a: Yanmega|spe|1
+2026-08-12 14:28:16,095 |-heal|p1a: Drapion|53/100|[from] item: Black Sludge
+2026-08-12 14:28:16,095 |upkeep
+2026-08-12 14:28:16,095 |turn|6
+2026-08-12 14:28:16,097 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,097 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"142/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 14:28:16,115 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,115 |
+2026-08-12 14:28:16,115 |t:|1786537696
+2026-08-12 14:28:16,115 |move|p2a: Yanmega|Protect|p2a: Yanmega
+2026-08-12 14:28:16,115 |-singleturn|p2a: Yanmega|Protect
+2026-08-12 14:28:16,115 |move|p1a: Drapion|Toxic Spikes|p2a: Yanmega
+2026-08-12 14:28:16,115 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-12 14:28:16,115 |
+2026-08-12 14:28:16,115 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,115 |-ability|p2a: Yanmega|Speed Boost|boost
+2026-08-12 14:28:16,115 |-boost|p2a: Yanmega|spe|1
+2026-08-12 14:28:16,115 |-heal|p1a: Drapion|59/100|[from] item: Black Sludge
+2026-08-12 14:28:16,115 |upkeep
+2026-08-12 14:28:16,116 |turn|7
+2026-08-12 14:28:16,117 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,117 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"142/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 14:28:16,139 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,139 |
+2026-08-12 14:28:16,139 |t:|1786537696
+2026-08-12 14:28:16,139 |move|p2a: Yanmega|Bug Buzz|p1a: Drapion
+2026-08-12 14:28:16,139 |-damage|p1a: Drapion|5/100
+2026-08-12 14:28:16,139 |-damage|p2a: Yanmega|117/256|[from] item: Life Orb
+2026-08-12 14:28:16,139 |move|p1a: Drapion|Toxic Spikes|p2a: Yanmega
+2026-08-12 14:28:16,139 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-12 14:28:16,139 |
+2026-08-12 14:28:16,139 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,139 |-ability|p2a: Yanmega|Speed Boost|boost
+2026-08-12 14:28:16,139 |-boost|p2a: Yanmega|spe|1
+2026-08-12 14:28:16,139 |-heal|p1a: Drapion|11/100|[from] item: Black Sludge
+2026-08-12 14:28:16,139 |upkeep
+2026-08-12 14:28:16,140 |turn|8
+2026-08-12 14:28:16,142 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,142 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"117/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 14:28:16,160 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,160 |
+2026-08-12 14:28:16,160 |t:|1786537696
+2026-08-12 14:28:16,160 |move|p2a: Yanmega|Protect|p2a: Yanmega
+2026-08-12 14:28:16,160 |-singleturn|p2a: Yanmega|Protect
+2026-08-12 14:28:16,160 |move|p1a: Drapion|Toxic Spikes||[still]
+2026-08-12 14:28:16,160 |-fail|p1a: Drapion
+2026-08-12 14:28:16,160 |
+2026-08-12 14:28:16,160 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,160 |-heal|p1a: Drapion|17/100|[from] item: Black Sludge
+2026-08-12 14:28:16,160 |upkeep
+2026-08-12 14:28:16,160 |turn|9
+2026-08-12 14:28:16,162 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,163 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"117/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 14:28:16,187 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,187 |
+2026-08-12 14:28:16,187 |t:|1786537696
+2026-08-12 14:28:16,187 |move|p2a: Yanmega|Air Slash|p1a: Drapion
+2026-08-12 14:28:16,187 |-damage|p1a: Drapion|0 fnt
+2026-08-12 14:28:16,187 |faint|p1a: Drapion
+2026-08-12 14:28:16,187 |-damage|p2a: Yanmega|92/256|[from] item: Life Orb
+2026-08-12 14:28:16,187 |
+2026-08-12 14:28:16,187 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,187 |upkeep
+2026-08-12 14:28:16,189 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,189 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"92/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 14:28:16,201 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,201 |
+2026-08-12 14:28:16,201 |t:|1786537696
+2026-08-12 14:28:16,201 |switch|p1a: Milotic|Milotic, L81, F|100/100
+2026-08-12 14:28:16,201 |turn|10
+2026-08-12 14:28:16,201 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,201 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":31,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"92/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 14:28:16,230 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,230 |
+2026-08-12 14:28:16,230 |t:|1786537696
+2026-08-12 14:28:16,230 |move|p2a: Yanmega|Protect|p2a: Yanmega
+2026-08-12 14:28:16,230 |-singleturn|p2a: Yanmega|Protect
+2026-08-12 14:28:16,230 |move|p1a: Milotic|Surf|p2a: Yanmega
+2026-08-12 14:28:16,230 |-activate|p2a: Yanmega|Protect
+2026-08-12 14:28:16,230 |
+2026-08-12 14:28:16,230 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,230 |upkeep
+2026-08-12 14:28:16,230 |turn|11
+2026-08-12 14:28:16,230 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,230 |request|{"active":[{"moves":[{"move":"Bug Buzz","id":"bugbuzz","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Air Slash","id":"airslash","pp":31,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"92/256","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 14:28:16,262 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,262 |
+2026-08-12 14:28:16,262 |t:|1786537696
+2026-08-12 14:28:16,262 |move|p2a: Yanmega|Hidden Power|p1a: Milotic
+2026-08-12 14:28:16,262 |-crit|p1a: Milotic
+2026-08-12 14:28:16,262 |-damage|p1a: Milotic|67/100
+2026-08-12 14:28:16,262 |-damage|p2a: Yanmega|67/256|[from] item: Life Orb
+2026-08-12 14:28:16,262 |move|p1a: Milotic|Surf|p2a: Yanmega
+2026-08-12 14:28:16,262 |-damage|p2a: Yanmega|0 fnt
+2026-08-12 14:28:16,262 |faint|p2a: Yanmega
+2026-08-12 14:28:16,262 |
+2026-08-12 14:28:16,262 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,262 |-heal|p1a: Milotic|73/100|[from] item: Leftovers
+2026-08-12 14:28:16,262 |upkeep
+2026-08-12 14:28:16,264 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,264 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":true,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":31}
+2026-08-12 14:28:16,273 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,273 |
+2026-08-12 14:28:16,273 |t:|1786537696
+2026-08-12 14:28:16,274 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 14:28:16,274 |turn|12
+2026-08-12 14:28:16,276 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,276 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 14:28:16,303 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,303 |
+2026-08-12 14:28:16,303 |t:|1786537696
+2026-08-12 14:28:16,303 |move|p2a: Jirachi|U-turn|p1a: Milotic
+2026-08-12 14:28:16,303 |-damage|p1a: Milotic|56/100
+2026-08-12 14:28:16,305 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,305 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"384/384","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":35}
+2026-08-12 14:28:16,329 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,329 |
+2026-08-12 14:28:16,329 |t:|1786537696
+2026-08-12 14:28:16,329 |switch|p2a: Hariyama|Hariyama, L85, M|384/384|[from] U-turn
+2026-08-12 14:28:16,329 |-status|p2a: Hariyama|tox
+2026-08-12 14:28:16,329 |move|p1a: Milotic|Haze|p1a: Milotic
+2026-08-12 14:28:16,329 |-clearallboost
+2026-08-12 14:28:16,329 |
+2026-08-12 14:28:16,329 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,329 |-heal|p1a: Milotic|62/100|[from] item: Leftovers
+2026-08-12 14:28:16,329 |-damage|p2a: Hariyama|360/384 tox|[from] psn
+2026-08-12 14:28:16,329 |upkeep
+2026-08-12 14:28:16,329 |turn|13
+2026-08-12 14:28:16,330 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,330 |request|{"active":[{"moves":[{"move":"Bullet Punch","id":"bulletpunch","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Payback","id":"payback","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"360/384 tox","active":true,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 14:28:16,360 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,360 |
+2026-08-12 14:28:16,360 |t:|1786537696
+2026-08-12 14:28:16,360 |move|p1a: Milotic|Recover|p1a: Milotic
+2026-08-12 14:28:16,361 |-heal|p1a: Milotic|100/100
+2026-08-12 14:28:16,361 |move|p2a: Hariyama|Close Combat|p1a: Milotic
+2026-08-12 14:28:16,361 |-damage|p1a: Milotic|7/100
+2026-08-12 14:28:16,361 |-unboost|p2a: Hariyama|def|1
+2026-08-12 14:28:16,361 |-unboost|p2a: Hariyama|spd|1
+2026-08-12 14:28:16,361 |
+2026-08-12 14:28:16,361 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,361 |-heal|p1a: Milotic|13/100|[from] item: Leftovers
+2026-08-12 14:28:16,361 |-damage|p2a: Hariyama|312/384 tox|[from] psn
+2026-08-12 14:28:16,361 |upkeep
+2026-08-12 14:28:16,361 |turn|14
+2026-08-12 14:28:16,361 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,361 |request|{"active":[{"moves":[{"move":"Bullet Punch","id":"bulletpunch","pp":48,"maxpp":48,"target":"normal","disabled":true},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Close Combat","id":"closecombat","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Payback","id":"payback","pp":16,"maxpp":16,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"312/384 tox","active":true,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 14:28:16,406 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,406 |
+2026-08-12 14:28:16,406 |t:|1786537696
+2026-08-12 14:28:16,406 |move|p1a: Milotic|Recover|p1a: Milotic
+2026-08-12 14:28:16,406 |-heal|p1a: Milotic|63/100
+2026-08-12 14:28:16,406 |move|p2a: Hariyama|Close Combat|p1a: Milotic
+2026-08-12 14:28:16,406 |-damage|p1a: Milotic|0 fnt
+2026-08-12 14:28:16,406 |-unboost|p2a: Hariyama|def|1
+2026-08-12 14:28:16,406 |-unboost|p2a: Hariyama|spd|1
+2026-08-12 14:28:16,406 |faint|p1a: Milotic
+2026-08-12 14:28:16,406 |
+2026-08-12 14:28:16,406 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,407 |-damage|p2a: Hariyama|240/384 tox|[from] psn
+2026-08-12 14:28:16,407 |upkeep
+2026-08-12 14:28:16,407 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,407 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"240/384 tox","active":true,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 14:28:16,466 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,466 |
+2026-08-12 14:28:16,466 |t:|1786537696
+2026-08-12 14:28:16,466 |switch|p1a: Pelipper|Pelipper, L90, M|88/100
+2026-08-12 14:28:16,466 |turn|15
+2026-08-12 14:28:16,466 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,466 |request|{"active":[{"moves":[{"move":"Bullet Punch","id":"bulletpunch","pp":48,"maxpp":48,"target":"normal","disabled":true},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Close Combat","id":"closecombat","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Payback","id":"payback","pp":16,"maxpp":16,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"240/384 tox","active":true,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 14:28:16,535 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,535 |
+2026-08-12 14:28:16,535 |t:|1786537696
+2026-08-12 14:28:16,535 |move|p1a: Pelipper|Surf|p2a: Hariyama
+2026-08-12 14:28:16,535 |-damage|p2a: Hariyama|108/384 tox
+2026-08-12 14:28:16,535 |move|p2a: Hariyama|Close Combat|p1a: Pelipper
+2026-08-12 14:28:16,535 |-resisted|p1a: Pelipper
+2026-08-12 14:28:16,535 |-damage|p1a: Pelipper|52/100
+2026-08-12 14:28:16,535 |-unboost|p2a: Hariyama|def|1
+2026-08-12 14:28:16,535 |-unboost|p2a: Hariyama|spd|1
+2026-08-12 14:28:16,535 |
+2026-08-12 14:28:16,535 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,535 |-heal|p1a: Pelipper|58/100|[from] item: Leftovers
+2026-08-12 14:28:16,535 |-damage|p2a: Hariyama|12/384 tox|[from] psn
+2026-08-12 14:28:16,535 |upkeep
+2026-08-12 14:28:16,535 |turn|16
+2026-08-12 14:28:16,536 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,536 |request|{"active":[{"moves":[{"move":"Bullet Punch","id":"bulletpunch","pp":48,"maxpp":48,"target":"normal","disabled":true},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Close Combat","id":"closecombat","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Payback","id":"payback","pp":16,"maxpp":16,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"12/384 tox","active":true,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 14:28:16,562 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,562 |
+2026-08-12 14:28:16,562 |t:|1786537696
+2026-08-12 14:28:16,562 |move|p1a: Pelipper|Hidden Power|p2a: Hariyama
+2026-08-12 14:28:16,562 |-damage|p2a: Hariyama|0 fnt
+2026-08-12 14:28:16,562 |faint|p2a: Hariyama
+2026-08-12 14:28:16,562 |
+2026-08-12 14:28:16,562 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,562 |-heal|p1a: Pelipper|63/100|[from] item: Leftovers
+2026-08-12 14:28:16,562 |upkeep
+2026-08-12 14:28:16,565 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,565 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":true,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":47}
+2026-08-12 14:28:16,577 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,577 |
+2026-08-12 14:28:16,577 |t:|1786537696
+2026-08-12 14:28:16,577 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 14:28:16,577 |turn|17
+2026-08-12 14:28:16,577 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,577 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 14:28:16,625 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,625 |
+2026-08-12 14:28:16,625 |t:|1786537696
+2026-08-12 14:28:16,625 |move|p2a: Jirachi|Fire Punch|p1a: Pelipper
+2026-08-12 14:28:16,626 |-resisted|p1a: Pelipper
+2026-08-12 14:28:16,626 |-damage|p1a: Pelipper|53/100
+2026-08-12 14:28:16,626 |-status|p1a: Pelipper|brn
+2026-08-12 14:28:16,626 |move|p1a: Pelipper|Roost|p1a: Pelipper
+2026-08-12 14:28:16,626 |-heal|p1a: Pelipper|100/100 brn
+2026-08-12 14:28:16,626 |-singleturn|p1a: Pelipper|move: Roost
+2026-08-12 14:28:16,626 |
+2026-08-12 14:28:16,626 |-weather|SunnyDay|[upkeep]
+2026-08-12 14:28:16,626 |-damage|p1a: Pelipper|88/100 brn|[from] brn
+2026-08-12 14:28:16,626 |upkeep
+2026-08-12 14:28:16,626 |turn|18
+2026-08-12 14:28:16,627 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,627 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 14:28:16,666 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,666 |
+2026-08-12 14:28:16,666 |t:|1786537696
+2026-08-12 14:28:16,666 |switch|p2a: Kyogre|Kyogre, L67|245/245
+2026-08-12 14:28:16,666 |-status|p2a: Kyogre|tox
+2026-08-12 14:28:16,666 |-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+2026-08-12 14:28:16,666 |move|p1a: Pelipper|Air Slash|p2a: Kyogre
+2026-08-12 14:28:16,666 |-crit|p2a: Kyogre
+2026-08-12 14:28:16,666 |-damage|p2a: Kyogre|100/245 tox
+2026-08-12 14:28:16,666 |
+2026-08-12 14:28:16,666 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,666 |-heal|p1a: Pelipper|94/100 brn|[from] item: Leftovers
+2026-08-12 14:28:16,666 |-damage|p1a: Pelipper|82/100 brn|[from] brn
+2026-08-12 14:28:16,666 |-heal|p2a: Kyogre|115/245 tox|[from] item: Leftovers
+2026-08-12 14:28:16,666 |-damage|p2a: Kyogre|100/245 tox|[from] psn
+2026-08-12 14:28:16,666 |upkeep
+2026-08-12 14:28:16,666 |turn|19
+2026-08-12 14:28:16,666 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,667 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"100/245 tox","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 14:28:16,690 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,690 |
+2026-08-12 14:28:16,690 |t:|1786537696
+2026-08-12 14:28:16,690 |move|p1a: Pelipper|Air Slash|p2a: Kyogre
+2026-08-12 14:28:16,690 |-damage|p2a: Kyogre|28/245 tox
+2026-08-12 14:28:16,690 |move|p2a: Kyogre|Ice Beam|p1a: Pelipper
+2026-08-12 14:28:16,690 |-damage|p1a: Pelipper|54/100 brn
+2026-08-12 14:28:16,690 |
+2026-08-12 14:28:16,690 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,690 |-heal|p1a: Pelipper|60/100 brn|[from] item: Leftovers
+2026-08-12 14:28:16,690 |-damage|p1a: Pelipper|48/100 brn|[from] brn
+2026-08-12 14:28:16,690 |-heal|p2a: Kyogre|43/245 tox|[from] item: Leftovers
+2026-08-12 14:28:16,690 |-damage|p2a: Kyogre|13/245 tox|[from] psn
+2026-08-12 14:28:16,690 |upkeep
+2026-08-12 14:28:16,690 |turn|20
+2026-08-12 14:28:16,691 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,691 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"13/245 tox","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 14:28:16,722 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,722 |
+2026-08-12 14:28:16,722 |t:|1786537696
+2026-08-12 14:28:16,722 |move|p1a: Pelipper|Hidden Power|p2a: Kyogre
+2026-08-12 14:28:16,722 |-supereffective|p2a: Kyogre
+2026-08-12 14:28:16,722 |-damage|p2a: Kyogre|0 fnt
+2026-08-12 14:28:16,722 |faint|p2a: Kyogre
+2026-08-12 14:28:16,722 |
+2026-08-12 14:28:16,722 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,722 |-heal|p1a: Pelipper|54/100 brn|[from] item: Leftovers
+2026-08-12 14:28:16,722 |-damage|p1a: Pelipper|42/100 brn|[from] brn
+2026-08-12 14:28:16,722 |upkeep
+2026-08-12 14:28:16,723 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,723 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":57}
+2026-08-12 14:28:16,744 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,744 |
+2026-08-12 14:28:16,744 |t:|1786537696
+2026-08-12 14:28:16,744 |switch|p2a: Furret|Furret, L92, F|306/306
+2026-08-12 14:28:16,744 |-status|p2a: Furret|tox
+2026-08-12 14:28:16,744 |turn|21
+2026-08-12 14:28:16,745 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,745 |request|{"active":[{"moves":[{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"306/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 14:28:16,768 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,768 |
+2026-08-12 14:28:16,768 |t:|1786537696
+2026-08-12 14:28:16,768 |move|p2a: Furret|Double-Edge|p1a: Pelipper
+2026-08-12 14:28:16,768 |-damage|p1a: Pelipper|0 fnt
+2026-08-12 14:28:16,769 |faint|p1a: Pelipper
+2026-08-12 14:28:16,769 |-damage|p2a: Furret|271/306 tox|[from] Recoil
+2026-08-12 14:28:16,769 |
+2026-08-12 14:28:16,769 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,769 |-damage|p2a: Furret|252/306 tox|[from] psn
+2026-08-12 14:28:16,769 |upkeep
+2026-08-12 14:28:16,769 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,769 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"252/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 14:28:16,780 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,780 |
+2026-08-12 14:28:16,780 |t:|1786537696
+2026-08-12 14:28:16,780 |switch|p1a: Spiritomb|Spiritomb, L85, M|100/100
+2026-08-12 14:28:16,780 |-ability|p1a: Spiritomb|Pressure
+2026-08-12 14:28:16,780 |turn|22
+2026-08-12 14:28:16,782 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,782 |request|{"active":[{"moves":[{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Double-Edge","id":"doubleedge","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"252/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 14:28:16,812 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,812 |
+2026-08-12 14:28:16,812 |t:|1786537696
+2026-08-12 14:28:16,812 |move|p2a: Furret|Double-Edge|p1a: Spiritomb
+2026-08-12 14:28:16,812 |-immune|p1a: Spiritomb
+2026-08-12 14:28:16,812 |move|p1a: Spiritomb|Will-O-Wisp||[still]
+2026-08-12 14:28:16,812 |-fail|p1a: Spiritomb
+2026-08-12 14:28:16,812 |
+2026-08-12 14:28:16,812 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,812 |-damage|p2a: Furret|214/306 tox|[from] psn
+2026-08-12 14:28:16,812 |upkeep
+2026-08-12 14:28:16,812 |turn|23
+2026-08-12 14:28:16,812 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,812 |request|{"active":[{"moves":[{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Double-Edge","id":"doubleedge","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"214/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 14:28:16,843 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,843 |
+2026-08-12 14:28:16,843 |t:|1786537696
+2026-08-12 14:28:16,843 |move|p2a: Furret|Double-Edge|p1a: Spiritomb
+2026-08-12 14:28:16,843 |-immune|p1a: Spiritomb
+2026-08-12 14:28:16,843 |move|p1a: Spiritomb|Pain Split|p2a: Furret
+2026-08-12 14:28:16,843 |-sethp|p2a: Furret|219/306 tox|[from] move: Pain Split|[silent]
+2026-08-12 14:28:16,843 |-sethp|p1a: Spiritomb|98/100|[from] move: Pain Split
+2026-08-12 14:28:16,843 |
+2026-08-12 14:28:16,843 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,843 |-damage|p2a: Furret|162/306 tox|[from] psn
+2026-08-12 14:28:16,843 |-heal|p1a: Spiritomb|100/100|[from] item: Leftovers
+2026-08-12 14:28:16,843 |upkeep
+2026-08-12 14:28:16,843 |turn|24
+2026-08-12 14:28:16,844 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,844 |request|{"active":[{"moves":[{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Double-Edge","id":"doubleedge","pp":19,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"162/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 14:28:16,878 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,878 |
+2026-08-12 14:28:16,878 |t:|1786537696
+2026-08-12 14:28:16,878 |move|p2a: Furret|Double-Edge|p1a: Spiritomb
+2026-08-12 14:28:16,878 |-immune|p1a: Spiritomb
+2026-08-12 14:28:16,878 |move|p1a: Spiritomb|Will-O-Wisp|p2a: Furret|[miss]
+2026-08-12 14:28:16,878 |-miss|p1a: Spiritomb|p2a: Furret
+2026-08-12 14:28:16,878 |
+2026-08-12 14:28:16,878 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,878 |-damage|p2a: Furret|86/306 tox|[from] psn
+2026-08-12 14:28:16,878 |upkeep
+2026-08-12 14:28:16,879 |turn|25
+2026-08-12 14:28:16,881 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,881 |request|{"active":[{"moves":[{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Double-Edge","id":"doubleedge","pp":17,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"86/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 14:28:16,906 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,906 |
+2026-08-12 14:28:16,906 |t:|1786537696
+2026-08-12 14:28:16,906 |move|p2a: Furret|Double-Edge|p1a: Spiritomb
+2026-08-12 14:28:16,906 |-immune|p1a: Spiritomb
+2026-08-12 14:28:16,906 |move|p1a: Spiritomb|Pain Split|p2a: Furret
+2026-08-12 14:28:16,906 |-sethp|p2a: Furret|155/306 tox|[from] move: Pain Split|[silent]
+2026-08-12 14:28:16,906 |-sethp|p1a: Spiritomb|70/100|[from] move: Pain Split
+2026-08-12 14:28:16,906 |
+2026-08-12 14:28:16,906 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,906 |-damage|p2a: Furret|60/306 tox|[from] psn
+2026-08-12 14:28:16,906 |-heal|p1a: Spiritomb|76/100|[from] item: Leftovers
+2026-08-12 14:28:16,906 |upkeep
+2026-08-12 14:28:16,906 |turn|26
+2026-08-12 14:28:16,908 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,908 |request|{"active":[{"moves":[{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Aqua Tail","id":"aquatail","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Double-Edge","id":"doubleedge","pp":15,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"60/306 tox","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 14:28:16,926 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,926 |
+2026-08-12 14:28:16,926 |t:|1786537696
+2026-08-12 14:28:16,926 |move|p1a: Spiritomb|Sucker Punch|p2a: Furret
+2026-08-12 14:28:16,926 |-damage|p2a: Furret|0 fnt
+2026-08-12 14:28:16,926 |faint|p2a: Furret
+2026-08-12 14:28:16,926 |
+2026-08-12 14:28:16,926 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,926 |-heal|p1a: Spiritomb|82/100|[from] item: Leftovers
+2026-08-12 14:28:16,926 |upkeep
+2026-08-12 14:28:16,927 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,927 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":true,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":73}
+2026-08-12 14:28:16,951 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,951 |
+2026-08-12 14:28:16,951 |t:|1786537696
+2026-08-12 14:28:16,951 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 14:28:16,951 |turn|27
+2026-08-12 14:28:16,952 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,952 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 14:28:16,977 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,977 |
+2026-08-12 14:28:16,977 |t:|1786537696
+2026-08-12 14:28:16,977 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:16,977 |-fail|p2a: Jirachi
+2026-08-12 14:28:16,977 |move|p1a: Spiritomb|Dark Pulse|p2a: Jirachi
+2026-08-12 14:28:16,977 |-damage|p2a: Jirachi|185/270
+2026-08-12 14:28:16,977 |
+2026-08-12 14:28:16,977 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:16,977 |-heal|p1a: Spiritomb|88/100|[from] item: Leftovers
+2026-08-12 14:28:16,977 |upkeep
+2026-08-12 14:28:16,978 |turn|28
+2026-08-12 14:28:16,979 >battle-gen4randombattle-332909
+2026-08-12 14:28:16,979 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"185/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 14:28:17,016 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,016 |
+2026-08-12 14:28:17,016 |t:|1786537697
+2026-08-12 14:28:17,016 |move|p1a: Spiritomb|Sucker Punch|p2a: Jirachi
+2026-08-12 14:28:17,016 |-fail|p1a: Spiritomb
+2026-08-12 14:28:17,016 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,016 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,016 |
+2026-08-12 14:28:17,016 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,016 |-heal|p1a: Spiritomb|95/100|[from] item: Leftovers
+2026-08-12 14:28:17,016 |upkeep
+2026-08-12 14:28:17,016 |turn|29
+2026-08-12 14:28:17,019 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,019 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"185/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 14:28:17,048 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,048 |
+2026-08-12 14:28:17,048 |t:|1786537697
+2026-08-12 14:28:17,048 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,048 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,048 |move|p1a: Spiritomb|Will-O-Wisp|p2a: Jirachi|[miss]
+2026-08-12 14:28:17,048 |-miss|p1a: Spiritomb|p2a: Jirachi
+2026-08-12 14:28:17,048 |
+2026-08-12 14:28:17,048 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,048 |-heal|p1a: Spiritomb|100/100|[from] item: Leftovers
+2026-08-12 14:28:17,048 |upkeep
+2026-08-12 14:28:17,048 |turn|30
+2026-08-12 14:28:17,048 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,048 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"185/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 14:28:17,077 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,077 |
+2026-08-12 14:28:17,077 |t:|1786537697
+2026-08-12 14:28:17,077 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,077 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,077 |move|p1a: Spiritomb|Pain Split|p2a: Jirachi
+2026-08-12 14:28:17,077 |-sethp|p2a: Jirachi|204/270|[from] move: Pain Split|[silent]
+2026-08-12 14:28:17,078 |-sethp|p1a: Spiritomb|92/100|[from] move: Pain Split
+2026-08-12 14:28:17,078 |
+2026-08-12 14:28:17,078 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,078 |-heal|p1a: Spiritomb|98/100|[from] item: Leftovers
+2026-08-12 14:28:17,078 |upkeep
+2026-08-12 14:28:17,078 |turn|31
+2026-08-12 14:28:17,078 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,078 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"204/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 14:28:17,102 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,102 |
+2026-08-12 14:28:17,102 |t:|1786537697
+2026-08-12 14:28:17,102 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,102 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,102 |move|p1a: Spiritomb|Pain Split|p2a: Jirachi
+2026-08-12 14:28:17,102 |-sethp|p2a: Jirachi|211/270|[from] move: Pain Split|[silent]
+2026-08-12 14:28:17,102 |-sethp|p1a: Spiritomb|95/100|[from] move: Pain Split
+2026-08-12 14:28:17,102 |
+2026-08-12 14:28:17,102 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,102 |-heal|p1a: Spiritomb|100/100|[from] item: Leftovers
+2026-08-12 14:28:17,102 |upkeep
+2026-08-12 14:28:17,102 |turn|32
+2026-08-12 14:28:17,103 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,103 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"211/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 14:28:17,118 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,118 |
+2026-08-12 14:28:17,118 |t:|1786537697
+2026-08-12 14:28:17,118 |move|p1a: Spiritomb|Sucker Punch|p2a: Jirachi
+2026-08-12 14:28:17,118 |-fail|p1a: Spiritomb
+2026-08-12 14:28:17,118 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,118 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,118 |
+2026-08-12 14:28:17,118 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,118 |upkeep
+2026-08-12 14:28:17,118 |turn|33
+2026-08-12 14:28:17,120 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,121 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"211/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 14:28:17,150 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,150 |
+2026-08-12 14:28:17,150 |t:|1786537697
+2026-08-12 14:28:17,150 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,150 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,150 |move|p1a: Spiritomb|Dark Pulse|p2a: Jirachi
+2026-08-12 14:28:17,150 |-damage|p2a: Jirachi|118/270
+2026-08-12 14:28:17,150 |
+2026-08-12 14:28:17,150 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,150 |upkeep
+2026-08-12 14:28:17,150 |turn|34
+2026-08-12 14:28:17,151 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,151 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"118/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 14:28:17,173 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,173 |
+2026-08-12 14:28:17,174 |t:|1786537697
+2026-08-12 14:28:17,174 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,174 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,174 |move|p1a: Spiritomb|Dark Pulse|p2a: Jirachi
+2026-08-12 14:28:17,174 |-damage|p2a: Jirachi|30/270
+2026-08-12 14:28:17,174 |
+2026-08-12 14:28:17,174 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,174 |upkeep
+2026-08-12 14:28:17,174 |turn|35
+2026-08-12 14:28:17,174 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,174 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"30/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 14:28:17,194 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,194 |
+2026-08-12 14:28:17,194 |t:|1786537697
+2026-08-12 14:28:17,195 |move|p1a: Spiritomb|Sucker Punch|p2a: Jirachi
+2026-08-12 14:28:17,195 |-fail|p1a: Spiritomb
+2026-08-12 14:28:17,195 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,195 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,195 |
+2026-08-12 14:28:17,195 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,195 |upkeep
+2026-08-12 14:28:17,195 |turn|36
+2026-08-12 14:28:17,198 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,198 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":7,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"30/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 14:28:17,243 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,243 |
+2026-08-12 14:28:17,243 |t:|1786537697
+2026-08-12 14:28:17,243 |switch|p1a: Furret|Furret, L92, M|100/100
+2026-08-12 14:28:17,243 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,243 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,243 |
+2026-08-12 14:28:17,243 |-weather|RainDance|[upkeep]
+2026-08-12 14:28:17,243 |upkeep
+2026-08-12 14:28:17,243 |turn|37
+2026-08-12 14:28:17,243 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,243 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":6,"maxpp":16,"target":"self","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"30/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","uturn","healingwish","ironhead"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Yanmega","details":"Yanmega, L76, M","condition":"0 fnt","active":false,"stats":{"atk":122,"def":175,"spa":220,"spd":128,"spe":188},"moves":["bugbuzz","hiddenpowerground","protect","airslash"],"baseAbility":"speedboost","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Hariyama","details":"Hariyama, L85, M","condition":"0 fnt","active":false,"stats":{"atk":253,"def":151,"spa":117,"spd":151,"spe":134},"moves":["bulletpunch","stoneedge","closecombat","payback"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Furret","details":"Furret, L92, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":170,"spa":135,"spd":154,"spe":218},"moves":["shadowclaw","aquatail","trick","doubleedge"],"baseAbility":"keeneye","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Probopass","details":"Probopass, L88, F","condition":"0 fnt","active":false,"stats":{"atk":147,"def":305,"spa":182,"spd":314,"spe":121},"moves":["powergem","explosion","earthpower","toxic"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"0 fnt","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["surf","icebeam","rest","sleeptalk"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 14:28:17,268 >battle-gen4randombattle-332909
+2026-08-12 14:28:17,268 |
+2026-08-12 14:28:17,268 |t:|1786537697
+2026-08-12 14:28:17,268 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-12 14:28:17,268 |-fail|p2a: Jirachi
+2026-08-12 14:28:17,268 |move|p1a: Furret|Double-Edge|p2a: Jirachi
+2026-08-12 14:28:17,268 |-resisted|p2a: Jirachi
+2026-08-12 14:28:17,268 |-damage|p2a: Jirachi|0 fnt
+2026-08-12 14:28:17,268 |faint|p2a: Jirachi
+2026-08-12 14:28:17,268 |-damage|p1a: Furret|97/100|[from] Recoil
+2026-08-12 14:28:17,268 |
+2026-08-12 14:28:17,268 |win|BOT3

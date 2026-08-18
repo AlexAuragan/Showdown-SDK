@@ -19,6 +19,9 @@ from python_showdown.classes.parser.events.battle import (
     BattleEndEvent,
     CantEvent,
     DesyncEvent,
+    GameGenEvent,
+    GameTierEvent,
+    GameTypeEvent,
     MoveEvent,
     PlayerEvent,
     PokemonSwitchEvent,
@@ -143,6 +146,27 @@ def handle_room(
     return [RoomEvent(room_id=given_room_id)]
 
 
+def handle_gametype(
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
+) -> list[BaseEvent]:
+    return [GameTypeEvent(type=message.arguments[0])]
+
+
+def handle_gen(
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
+) -> list[BaseEvent]:
+    return [GameGenEvent(gen=int(message.arguments[0]))]
+
+
+def handle_tier(
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
+) -> list[BaseEvent]:
+    tier = message.annotations[0].value
+    if tier is None:
+        raise ValueError()
+    return [GameTierEvent(tier=tier)]
+
+
 COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "switch": handle_switch,
     "drag": handle_switch,
@@ -154,6 +178,9 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "player": handle_player,
     "error": handle_error,
     "room": handle_room,
+    "gametype": handle_gametype,
+    "gen": handle_gen,
+    "tier": handle_tier,
 }
 
 

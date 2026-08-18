@@ -36,9 +36,9 @@ class UpdateUserEvent(LobbyEvent):
 
         expected = client.battle_manager.player_username
         if expected is None:
-            raise ValueError(
-                "No client username set, please set a username with client.username"
-            )
+            client.username = self.username
+            client.ready.set()
+            return
         if self.named and self.username == expected:
             client.username = self.username
             client.ready.set()

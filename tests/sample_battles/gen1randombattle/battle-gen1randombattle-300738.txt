@@ -1,0 +1,901 @@
+2026-08-12 09:12:44,977 >battle-gen1randombattle-300738
+2026-08-12 09:12:44,977 |init|battle
+2026-08-12 09:12:44,977 |title|BOT7 vs. BOT8
+2026-08-12 09:12:44,977 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen1randombattle-300738">battle-gen1randombattle-300738</a>&raquo;
+2026-08-12 09:12:44,988 >battle-gen1randombattle-300738
+2026-08-12 09:12:44,988 |t:|1786518764
+2026-08-12 09:12:44,988 |gametype|singles
+2026-08-12 09:12:45,039 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,039 |player|p1|BOT7|169|
+2026-08-12 09:12:45,039 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,039 |player|p2|BOT8|102|
+2026-08-12 09:12:45,039 |gen|1
+2026-08-12 09:12:45,039 |tier|[Gen 1] Random Battle
+2026-08-12 09:12:45,039 |rule|Desync Clause Mod: Desyncs resolve to link battle behavior from the acting player's perspective.
+2026-08-12 09:12:45,039 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 09:12:45,039 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 09:12:45,039 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 09:12:45,039 |rule|Freeze Clause Mod: Limit one foe frozen
+2026-08-12 09:12:45,039 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 09:12:45,039 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 09:12:45,039 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 09:12:45,039 |
+2026-08-12 09:12:45,039 |t:|1786518765
+2026-08-12 09:12:45,039 |teamsize|p1|6
+2026-08-12 09:12:45,039 |teamsize|p2|6
+2026-08-12 09:12:45,039 |start
+2026-08-12 09:12:45,039 |switch|p1a: Seadra|Seadra, L77|100/100
+2026-08-12 09:12:45,039 |switch|p2a: Wartortle|Wartortle, L82|265/265
+2026-08-12 09:12:45,039 |turn|1
+2026-08-12 09:12:45,040 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,040 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"265/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 09:12:45,095 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,095 |
+2026-08-12 09:12:45,095 |t:|1786518765
+2026-08-12 09:12:45,095 |move|p1a: Seadra|Hyper Beam|p2a: Wartortle
+2026-08-12 09:12:45,095 |-damage|p2a: Wartortle|191/265
+2026-08-12 09:12:45,095 |-mustrecharge|p1a: Seadra
+2026-08-12 09:12:45,095 |move|p2a: Wartortle|Body Slam|p1a: Seadra
+2026-08-12 09:12:45,095 |-damage|p1a: Seadra|81/100
+2026-08-12 09:12:45,095 |-status|p1a: Seadra|par
+2026-08-12 09:12:45,095 |
+2026-08-12 09:12:45,095 |upkeep
+2026-08-12 09:12:45,095 |turn|2
+2026-08-12 09:12:45,096 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,097 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"191/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 09:12:45,127 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,127 |
+2026-08-12 09:12:45,127 |t:|1786518765
+2026-08-12 09:12:45,127 |move|p2a: Wartortle|Hydro Pump|p1a: Seadra
+2026-08-12 09:12:45,127 |-crit|p1a: Seadra
+2026-08-12 09:12:45,127 |-resisted|p1a: Seadra
+2026-08-12 09:12:45,127 |-damage|p1a: Seadra|45/100 par
+2026-08-12 09:12:45,127 |cant|p1a: Seadra|recharge
+2026-08-12 09:12:45,128 |
+2026-08-12 09:12:45,128 |upkeep
+2026-08-12 09:12:45,128 |turn|3
+2026-08-12 09:12:45,141 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,141 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"191/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 09:12:45,178 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,178 |
+2026-08-12 09:12:45,178 |t:|1786518765
+2026-08-12 09:12:45,178 |move|p2a: Wartortle|Hydro Pump|p1a: Seadra
+2026-08-12 09:12:45,178 |-resisted|p1a: Seadra
+2026-08-12 09:12:45,178 |-damage|p1a: Seadra|26/100 par
+2026-08-12 09:12:45,178 |move|p1a: Seadra|Hyper Beam|p2a: Wartortle
+2026-08-12 09:12:45,179 |-damage|p2a: Wartortle|117/265
+2026-08-12 09:12:45,179 |-mustrecharge|p1a: Seadra
+2026-08-12 09:12:45,179 |
+2026-08-12 09:12:45,179 |upkeep
+2026-08-12 09:12:45,179 |turn|4
+2026-08-12 09:12:45,183 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,183 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"117/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 09:12:45,216 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,216 |
+2026-08-12 09:12:45,216 |t:|1786518765
+2026-08-12 09:12:45,216 |move|p2a: Wartortle|Body Slam|p1a: Seadra
+2026-08-12 09:12:45,216 |-damage|p1a: Seadra|7/100 par
+2026-08-12 09:12:45,216 |cant|p1a: Seadra|recharge
+2026-08-12 09:12:45,216 |
+2026-08-12 09:12:45,216 |upkeep
+2026-08-12 09:12:45,216 |turn|5
+2026-08-12 09:12:45,225 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,225 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"117/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 09:12:45,265 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,265 |
+2026-08-12 09:12:45,265 |t:|1786518765
+2026-08-12 09:12:45,265 |move|p2a: Wartortle|Rest|p2a: Wartortle
+2026-08-12 09:12:45,265 |-status|p2a: Wartortle|slp|[from] move: Rest
+2026-08-12 09:12:45,265 |-heal|p2a: Wartortle|265/265 slp|[silent]
+2026-08-12 09:12:45,265 |move|p1a: Seadra|Hyper Beam|p2a: Wartortle
+2026-08-12 09:12:45,265 |-damage|p2a: Wartortle|196/265 slp
+2026-08-12 09:12:45,265 |-mustrecharge|p1a: Seadra
+2026-08-12 09:12:45,265 |
+2026-08-12 09:12:45,265 |upkeep
+2026-08-12 09:12:45,265 |turn|6
+2026-08-12 09:12:45,268 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,268 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"196/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 09:12:45,297 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,298 |
+2026-08-12 09:12:45,298 |t:|1786518765
+2026-08-12 09:12:45,298 |cant|p2a: Wartortle|slp
+2026-08-12 09:12:45,298 |cant|p1a: Seadra|recharge
+2026-08-12 09:12:45,298 |
+2026-08-12 09:12:45,298 |upkeep
+2026-08-12 09:12:45,298 |turn|7
+2026-08-12 09:12:45,298 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,298 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"196/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 09:12:45,321 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,321 |
+2026-08-12 09:12:45,321 |t:|1786518765
+2026-08-12 09:12:45,321 |-curestatus|p2a: Wartortle|slp|[msg]
+2026-08-12 09:12:45,321 |move|p1a: Seadra|Blizzard|p2a: Wartortle
+2026-08-12 09:12:45,321 |-resisted|p2a: Wartortle
+2026-08-12 09:12:45,321 |-damage|p2a: Wartortle|157/265
+2026-08-12 09:12:45,321 |
+2026-08-12 09:12:45,321 |upkeep
+2026-08-12 09:12:45,321 |turn|8
+2026-08-12 09:12:45,324 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,324 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"157/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 09:12:45,339 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,339 |
+2026-08-12 09:12:45,339 |t:|1786518765
+2026-08-12 09:12:45,339 |move|p2a: Wartortle|Body Slam|p1a: Seadra
+2026-08-12 09:12:45,339 |-crit|p1a: Seadra
+2026-08-12 09:12:45,339 |-damage|p1a: Seadra|0 fnt
+2026-08-12 09:12:45,339 |faint|p1a: Seadra
+2026-08-12 09:12:45,339 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,339 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"157/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 09:12:45,356 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,356 |
+2026-08-12 09:12:45,356 |t:|1786518765
+2026-08-12 09:12:45,356 |switch|p1a: Omanyte|Omanyte, L87|100/100
+2026-08-12 09:12:45,356 |turn|9
+2026-08-12 09:12:45,361 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,361 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"157/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 09:12:45,385 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,385 |
+2026-08-12 09:12:45,385 |t:|1786518765
+2026-08-12 09:12:45,385 |move|p2a: Wartortle|Body Slam|p1a: Omanyte
+2026-08-12 09:12:45,385 |-resisted|p1a: Omanyte
+2026-08-12 09:12:45,385 |-damage|p1a: Omanyte|92/100
+2026-08-12 09:12:45,385 |-status|p1a: Omanyte|par
+2026-08-12 09:12:45,385 |cant|p1a: Omanyte|par
+2026-08-12 09:12:45,385 |
+2026-08-12 09:12:45,385 |upkeep
+2026-08-12 09:12:45,385 |turn|10
+2026-08-12 09:12:45,388 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,388 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"157/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 09:12:45,407 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,407 |
+2026-08-12 09:12:45,407 |t:|1786518765
+2026-08-12 09:12:45,407 |switch|p1a: Onix|Onix, L80|100/100
+2026-08-12 09:12:45,407 |move|p2a: Wartortle|Blizzard|p1a: Onix
+2026-08-12 09:12:45,407 |-supereffective|p1a: Onix
+2026-08-12 09:12:45,407 |-damage|p1a: Onix|0 fnt
+2026-08-12 09:12:45,407 |faint|p1a: Onix
+2026-08-12 09:12:45,407 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,407 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"157/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 09:12:45,418 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,418 |
+2026-08-12 09:12:45,418 |t:|1786518765
+2026-08-12 09:12:45,418 |switch|p1a: Diglett|Diglett, L86|100/100
+2026-08-12 09:12:45,418 |turn|11
+2026-08-12 09:12:45,418 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,418 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"157/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 09:12:45,437 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,437 |
+2026-08-12 09:12:45,437 |t:|1786518765
+2026-08-12 09:12:45,437 |move|p1a: Diglett|Rock Slide|p2a: Wartortle
+2026-08-12 09:12:45,437 |-damage|p2a: Wartortle|115/265
+2026-08-12 09:12:45,437 |move|p2a: Wartortle|Body Slam|p1a: Diglett
+2026-08-12 09:12:45,437 |-damage|p1a: Diglett|63/100
+2026-08-12 09:12:45,437 |
+2026-08-12 09:12:45,437 |upkeep
+2026-08-12 09:12:45,437 |turn|12
+2026-08-12 09:12:45,438 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,438 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"255/255","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 09:12:45,482 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,482 |
+2026-08-12 09:12:45,482 |t:|1786518765
+2026-08-12 09:12:45,482 |switch|p2a: Magmar|Magmar, L76|255/255
+2026-08-12 09:12:45,482 |move|p1a: Diglett|Rock Slide|p2a: Magmar
+2026-08-12 09:12:45,482 |-supereffective|p2a: Magmar
+2026-08-12 09:12:45,482 |-damage|p2a: Magmar|150/255
+2026-08-12 09:12:45,482 |
+2026-08-12 09:12:45,482 |upkeep
+2026-08-12 09:12:45,482 |turn|13
+2026-08-12 09:12:45,482 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,482 |request|{"active":[{"moves":[{"move":"Hyper Beam","id":"hyperbeam","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Confuse Ray","id":"confuseray","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Magmar","details":"Magmar, L76","condition":"150/255","active":true,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 09:12:45,499 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,499 |
+2026-08-12 09:12:45,499 |t:|1786518765
+2026-08-12 09:12:45,499 |switch|p1a: Jigglypuff|Jigglypuff, L89|100/100
+2026-08-12 09:12:45,499 |move|p2a: Magmar|Hyper Beam|p1a: Jigglypuff|[miss]
+2026-08-12 09:12:45,499 |-miss|p2a: Magmar
+2026-08-12 09:12:45,499 |
+2026-08-12 09:12:45,499 |upkeep
+2026-08-12 09:12:45,499 |turn|14
+2026-08-12 09:12:45,504 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,504 |request|{"active":[{"moves":[{"move":"Hyper Beam","id":"hyperbeam","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Confuse Ray","id":"confuseray","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Magmar","details":"Magmar, L76","condition":"150/255","active":true,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 09:12:45,517 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,517 |
+2026-08-12 09:12:45,517 |t:|1786518765
+2026-08-12 09:12:45,518 |move|p2a: Magmar|Fire Blast|p1a: Jigglypuff|[miss]
+2026-08-12 09:12:45,518 |-miss|p2a: Magmar
+2026-08-12 09:12:45,518 |move|p1a: Jigglypuff|Seismic Toss|p2a: Magmar
+2026-08-12 09:12:45,518 |-damage|p2a: Magmar|61/255
+2026-08-12 09:12:45,518 |
+2026-08-12 09:12:45,518 |upkeep
+2026-08-12 09:12:45,518 |turn|15
+2026-08-12 09:12:45,520 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,520 |request|{"active":[{"moves":[{"move":"Hyper Beam","id":"hyperbeam","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Confuse Ray","id":"confuseray","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Magmar","details":"Magmar, L76","condition":"61/255","active":true,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 09:12:45,549 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,549 |
+2026-08-12 09:12:45,549 |t:|1786518765
+2026-08-12 09:12:45,549 |move|p2a: Magmar|Hyper Beam|p1a: Jigglypuff
+2026-08-12 09:12:45,549 |-damage|p1a: Jigglypuff|59/100
+2026-08-12 09:12:45,549 |-mustrecharge|p2a: Magmar
+2026-08-12 09:12:45,549 |move|p1a: Jigglypuff|Seismic Toss|p2a: Magmar
+2026-08-12 09:12:45,549 |-damage|p2a: Magmar|0 fnt
+2026-08-12 09:12:45,549 |faint|p2a: Magmar
+2026-08-12 09:12:45,550 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,550 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":true,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"noCancel":true,"rqid":37}
+2026-08-12 09:12:45,590 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,590 |
+2026-08-12 09:12:45,590 |t:|1786518765
+2026-08-12 09:12:45,590 |switch|p2a: Ditto|Ditto|299/299
+2026-08-12 09:12:45,590 |turn|16
+2026-08-12 09:12:45,590 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,590 |request|{"active":[{"moves":[{"move":"Transform","id":"transform","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 09:12:45,601 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,601 |
+2026-08-12 09:12:45,601 |t:|1786518765
+2026-08-12 09:12:45,601 |switch|p1a: Omanyte|Omanyte, L87|92/100 par
+2026-08-12 09:12:45,601 |move|p2a: Ditto|Transform|p1a: Omanyte
+2026-08-12 09:12:45,601 |-transform|p2a: Ditto|p1a: Omanyte
+2026-08-12 09:12:45,601 |
+2026-08-12 09:12:45,601 |upkeep
+2026-08-12 09:12:45,602 |turn|17
+2026-08-12 09:12:45,605 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,605 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":5,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":5,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":5,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 09:12:45,658 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,658 |
+2026-08-12 09:12:45,658 |t:|1786518765
+2026-08-12 09:12:45,658 |move|p2a: Ditto|Body Slam|p1a: Omanyte
+2026-08-12 09:12:45,658 |-resisted|p1a: Omanyte
+2026-08-12 09:12:45,658 |-damage|p1a: Omanyte|83/100 par
+2026-08-12 09:12:45,658 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:45,658 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:45,658 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:45,658 |
+2026-08-12 09:12:45,658 |upkeep
+2026-08-12 09:12:45,658 |turn|18
+2026-08-12 09:12:45,659 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,659 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":5,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":4,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":5,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 09:12:45,730 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,730 |
+2026-08-12 09:12:45,730 |t:|1786518765
+2026-08-12 09:12:45,730 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:45,730 |move|p2a: Ditto|Surf|p1a: Omanyte
+2026-08-12 09:12:45,730 |-damage|p1a: Omanyte|57/100 slp
+2026-08-12 09:12:45,730 |
+2026-08-12 09:12:45,730 |upkeep
+2026-08-12 09:12:45,730 |turn|19
+2026-08-12 09:12:45,730 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,730 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":4,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":4,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":5,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 09:12:45,758 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,759 |
+2026-08-12 09:12:45,759 |t:|1786518765
+2026-08-12 09:12:45,759 |move|p2a: Ditto|Surf|p1a: Omanyte
+2026-08-12 09:12:45,759 |-damage|p1a: Omanyte|8/100 slp
+2026-08-12 09:12:45,759 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:45,759 |
+2026-08-12 09:12:45,759 |upkeep
+2026-08-12 09:12:45,759 |turn|20
+2026-08-12 09:12:45,759 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,759 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":3,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":4,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":5,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 09:12:45,781 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,781 |
+2026-08-12 09:12:45,781 |t:|1786518765
+2026-08-12 09:12:45,781 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:45,781 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:45,781 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:45,781 |move|p2a: Ditto|Body Slam|p1a: Omanyte
+2026-08-12 09:12:45,781 |-resisted|p1a: Omanyte
+2026-08-12 09:12:45,781 |-damage|p1a: Omanyte|92/100 slp
+2026-08-12 09:12:45,781 |
+2026-08-12 09:12:45,781 |upkeep
+2026-08-12 09:12:45,781 |turn|21
+2026-08-12 09:12:45,782 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,782 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":3,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":3,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":5,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 09:12:45,800 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,800 |
+2026-08-12 09:12:45,800 |t:|1786518765
+2026-08-12 09:12:45,800 |move|p2a: Ditto|Body Slam|p1a: Omanyte
+2026-08-12 09:12:45,800 |-resisted|p1a: Omanyte
+2026-08-12 09:12:45,800 |-damage|p1a: Omanyte|84/100 slp
+2026-08-12 09:12:45,800 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:45,800 |
+2026-08-12 09:12:45,800 |upkeep
+2026-08-12 09:12:45,800 |turn|22
+2026-08-12 09:12:45,800 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,800 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":3,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":2,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":5,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 09:12:45,824 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,824 |
+2026-08-12 09:12:45,824 |t:|1786518765
+2026-08-12 09:12:45,824 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:45,824 |move|p2a: Ditto|Blizzard|p1a: Omanyte
+2026-08-12 09:12:45,825 |-resisted|p1a: Omanyte
+2026-08-12 09:12:45,825 |-damage|p1a: Omanyte|65/100
+2026-08-12 09:12:45,825 |
+2026-08-12 09:12:45,825 |upkeep
+2026-08-12 09:12:45,825 |turn|23
+2026-08-12 09:12:45,825 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,825 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":3,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":2,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":5,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":4,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 09:12:45,851 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,851 |
+2026-08-12 09:12:45,851 |t:|1786518765
+2026-08-12 09:12:45,851 |move|p1a: Omanyte|Blizzard|p2a: Ditto
+2026-08-12 09:12:45,851 |-resisted|p2a: Ditto
+2026-08-12 09:12:45,851 |-damage|p2a: Ditto|261/299
+2026-08-12 09:12:45,851 |move|p2a: Ditto|Rest|p2a: Ditto
+2026-08-12 09:12:45,851 |-status|p2a: Ditto|slp|[from] move: Rest
+2026-08-12 09:12:45,851 |-heal|p2a: Ditto|299/299 slp|[silent]
+2026-08-12 09:12:45,851 |
+2026-08-12 09:12:45,851 |upkeep
+2026-08-12 09:12:45,851 |turn|24
+2026-08-12 09:12:45,852 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,852 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 slp","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 09:12:45,879 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,879 |
+2026-08-12 09:12:45,879 |t:|1786518765
+2026-08-12 09:12:45,879 |cant|p2a: Ditto|slp
+2026-08-12 09:12:45,880 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:45,880 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:45,880 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:45,880 |
+2026-08-12 09:12:45,880 |upkeep
+2026-08-12 09:12:45,880 |turn|25
+2026-08-12 09:12:45,880 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,880 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 slp","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 09:12:45,897 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,897 |
+2026-08-12 09:12:45,897 |t:|1786518765
+2026-08-12 09:12:45,897 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:45,897 |-curestatus|p2a: Ditto|slp|[msg]
+2026-08-12 09:12:45,897 |
+2026-08-12 09:12:45,897 |upkeep
+2026-08-12 09:12:45,897 |turn|26
+2026-08-12 09:12:45,900 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,900 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":3,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":2,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":4,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 09:12:45,920 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,920 |
+2026-08-12 09:12:45,920 |t:|1786518765
+2026-08-12 09:12:45,920 |switch|p1a: Diglett|Diglett, L86|63/100
+2026-08-12 09:12:45,920 |move|p2a: Ditto|Body Slam|p1a: Diglett
+2026-08-12 09:12:45,920 |-damage|p1a: Diglett|23/100
+2026-08-12 09:12:45,920 |
+2026-08-12 09:12:45,920 |upkeep
+2026-08-12 09:12:45,920 |turn|27
+2026-08-12 09:12:45,920 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,920 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":3,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":1,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":4,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 09:12:45,936 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,936 |
+2026-08-12 09:12:45,936 |t:|1786518765
+2026-08-12 09:12:45,936 |switch|p1a: Mankey|Mankey, L89|100/100
+2026-08-12 09:12:45,936 |move|p2a: Ditto|Surf|p1a: Mankey
+2026-08-12 09:12:45,936 |-damage|p1a: Mankey|25/100
+2026-08-12 09:12:45,936 |
+2026-08-12 09:12:45,936 |upkeep
+2026-08-12 09:12:45,936 |turn|28
+2026-08-12 09:12:45,936 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,936 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":2,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":1,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":4,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 09:12:45,951 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,951 |
+2026-08-12 09:12:45,951 |t:|1786518765
+2026-08-12 09:12:45,951 |move|p2a: Ditto|Blizzard|p1a: Mankey
+2026-08-12 09:12:45,951 |-damage|p1a: Mankey|0 fnt
+2026-08-12 09:12:45,951 |faint|p1a: Mankey
+2026-08-12 09:12:45,956 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,956 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 09:12:45,963 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,963 |
+2026-08-12 09:12:45,963 |t:|1786518765
+2026-08-12 09:12:45,963 |switch|p1a: Diglett|Diglett, L86|23/100
+2026-08-12 09:12:45,963 |turn|29
+2026-08-12 09:12:45,967 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,967 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":2,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":1,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 09:12:45,981 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,981 |
+2026-08-12 09:12:45,981 |t:|1786518765
+2026-08-12 09:12:45,981 |move|p1a: Diglett|Earthquake|p2a: Ditto
+2026-08-12 09:12:45,981 |-supereffective|p2a: Ditto
+2026-08-12 09:12:45,981 |-damage|p2a: Ditto|155/299
+2026-08-12 09:12:45,981 |move|p2a: Ditto|Surf|p1a: Diglett
+2026-08-12 09:12:45,981 |-supereffective|p1a: Diglett
+2026-08-12 09:12:45,981 |-damage|p1a: Diglett|0 fnt
+2026-08-12 09:12:45,981 |faint|p1a: Diglett
+2026-08-12 09:12:45,987 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,987 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"155/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 09:12:45,995 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,995 |
+2026-08-12 09:12:45,995 |t:|1786518765
+2026-08-12 09:12:45,995 |switch|p1a: Jigglypuff|Jigglypuff, L89|59/100
+2026-08-12 09:12:45,995 |turn|30
+2026-08-12 09:12:45,997 >battle-gen1randombattle-300738
+2026-08-12 09:12:45,997 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":1,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":1,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"155/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 09:12:46,017 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,017 |
+2026-08-12 09:12:46,017 |t:|1786518766
+2026-08-12 09:12:46,017 |move|p1a: Jigglypuff|Thunder Wave|p2a: Ditto
+2026-08-12 09:12:46,017 |-status|p2a: Ditto|par
+2026-08-12 09:12:46,017 |cant|p2a: Ditto|par
+2026-08-12 09:12:46,017 |
+2026-08-12 09:12:46,017 |upkeep
+2026-08-12 09:12:46,017 |turn|31
+2026-08-12 09:12:46,024 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,024 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":1,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":1,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"155/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 09:12:46,043 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,043 |
+2026-08-12 09:12:46,043 |t:|1786518766
+2026-08-12 09:12:46,043 |move|p1a: Jigglypuff|Thunder Wave|p2a: Ditto
+2026-08-12 09:12:46,043 |-fail|p2a: Ditto|par
+2026-08-12 09:12:46,043 |cant|p2a: Ditto|par
+2026-08-12 09:12:46,043 |
+2026-08-12 09:12:46,043 |upkeep
+2026-08-12 09:12:46,043 |turn|32
+2026-08-12 09:12:46,046 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,046 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":1,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":1,"maxpp":15,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"155/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 09:12:46,076 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,076 |
+2026-08-12 09:12:46,076 |t:|1786518766
+2026-08-12 09:12:46,076 |move|p1a: Jigglypuff|Body Slam|p2a: Ditto
+2026-08-12 09:12:46,076 |-resisted|p2a: Ditto
+2026-08-12 09:12:46,076 |-damage|p2a: Ditto|125/299 par
+2026-08-12 09:12:46,076 |move|p2a: Ditto|Body Slam|p1a: Jigglypuff
+2026-08-12 09:12:46,076 |-damage|p1a: Jigglypuff|39/100
+2026-08-12 09:12:46,076 |
+2026-08-12 09:12:46,076 |upkeep
+2026-08-12 09:12:46,076 |turn|33
+2026-08-12 09:12:46,076 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,076 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":1,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"125/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 09:12:46,090 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,090 |
+2026-08-12 09:12:46,090 |t:|1786518766
+2026-08-12 09:12:46,090 |move|p1a: Jigglypuff|Thunder Wave|p2a: Ditto
+2026-08-12 09:12:46,090 |-fail|p2a: Ditto|par
+2026-08-12 09:12:46,090 |cant|p2a: Ditto|par
+2026-08-12 09:12:46,090 |
+2026-08-12 09:12:46,090 |upkeep
+2026-08-12 09:12:46,090 |turn|34
+2026-08-12 09:12:46,090 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,090 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":1,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"125/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 09:12:46,109 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,109 |
+2026-08-12 09:12:46,109 |t:|1786518766
+2026-08-12 09:12:46,109 |switch|p1a: Omanyte|Omanyte, L87|100/100 slp
+2026-08-12 09:12:46,109 |move|p2a: Ditto|Surf|p1a: Omanyte
+2026-08-12 09:12:46,109 |-damage|p1a: Omanyte|52/100 slp
+2026-08-12 09:12:46,109 |
+2026-08-12 09:12:46,109 |upkeep
+2026-08-12 09:12:46,109 |turn|35
+2026-08-12 09:12:46,111 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,111 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":3,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"125/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 09:12:46,134 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,134 |
+2026-08-12 09:12:46,134 |t:|1786518766
+2026-08-12 09:12:46,134 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:46,135 |move|p2a: Ditto|Blizzard|p1a: Omanyte
+2026-08-12 09:12:46,135 |-resisted|p1a: Omanyte
+2026-08-12 09:12:46,135 |-damage|p1a: Omanyte|31/100
+2026-08-12 09:12:46,135 |
+2026-08-12 09:12:46,135 |upkeep
+2026-08-12 09:12:46,135 |turn|36
+2026-08-12 09:12:46,137 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,137 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":2,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"125/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 09:12:46,163 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,163 |
+2026-08-12 09:12:46,163 |t:|1786518766
+2026-08-12 09:12:46,163 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:46,163 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:46,163 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:46,163 |move|p2a: Ditto|Blizzard|p1a: Omanyte
+2026-08-12 09:12:46,163 |-resisted|p1a: Omanyte
+2026-08-12 09:12:46,163 |-damage|p1a: Omanyte|81/100 slp
+2026-08-12 09:12:46,163 |
+2026-08-12 09:12:46,163 |upkeep
+2026-08-12 09:12:46,163 |turn|37
+2026-08-12 09:12:46,163 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,163 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":1,"maxpp":5,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"125/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 09:12:46,180 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,180 |
+2026-08-12 09:12:46,180 |t:|1786518766
+2026-08-12 09:12:46,180 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:46,180 |move|p2a: Ditto|Blizzard|p1a: Omanyte
+2026-08-12 09:12:46,180 |-resisted|p1a: Omanyte
+2026-08-12 09:12:46,180 |-damage|p1a: Omanyte|61/100 slp
+2026-08-12 09:12:46,180 |
+2026-08-12 09:12:46,180 |upkeep
+2026-08-12 09:12:46,180 |turn|38
+2026-08-12 09:12:46,181 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,181 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":4,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":0,"maxpp":5,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"125/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 09:12:46,199 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,199 |
+2026-08-12 09:12:46,199 |t:|1786518766
+2026-08-12 09:12:46,199 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:46,199 |move|p2a: Ditto|Rest|p2a: Ditto
+2026-08-12 09:12:46,199 |-status|p2a: Ditto|slp|[from] move: Rest
+2026-08-12 09:12:46,199 |-heal|p2a: Ditto|299/299 slp|[silent]
+2026-08-12 09:12:46,199 |
+2026-08-12 09:12:46,199 |upkeep
+2026-08-12 09:12:46,199 |turn|39
+2026-08-12 09:12:46,200 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,200 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 slp","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 09:12:46,221 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,221 |
+2026-08-12 09:12:46,221 |t:|1786518766
+2026-08-12 09:12:46,221 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:46,221 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:46,221 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:46,221 |cant|p2a: Ditto|slp
+2026-08-12 09:12:46,221 |
+2026-08-12 09:12:46,221 |upkeep
+2026-08-12 09:12:46,221 |turn|40
+2026-08-12 09:12:46,226 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,226 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 slp","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 09:12:46,238 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,238 |
+2026-08-12 09:12:46,238 |t:|1786518766
+2026-08-12 09:12:46,238 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:46,238 |-curestatus|p2a: Ditto|slp|[msg]
+2026-08-12 09:12:46,238 |
+2026-08-12 09:12:46,238 |upkeep
+2026-08-12 09:12:46,239 |turn|41
+2026-08-12 09:12:46,240 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,240 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":3,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":0,"maxpp":5,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 09:12:46,260 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,260 |
+2026-08-12 09:12:46,261 |t:|1786518766
+2026-08-12 09:12:46,261 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:46,261 |move|p2a: Ditto|Rest|p2a: Ditto
+2026-08-12 09:12:46,261 |-fail|p2a: Ditto
+2026-08-12 09:12:46,261 |
+2026-08-12 09:12:46,261 |upkeep
+2026-08-12 09:12:46,261 |turn|42
+2026-08-12 09:12:46,261 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,261 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":2,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":0,"maxpp":5,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 09:12:46,285 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,285 |
+2026-08-12 09:12:46,285 |t:|1786518766
+2026-08-12 09:12:46,285 |move|p1a: Omanyte|Surf|p2a: Ditto
+2026-08-12 09:12:46,285 |-damage|p2a: Ditto|201/299
+2026-08-12 09:12:46,285 |move|p2a: Ditto|Rest|p2a: Ditto
+2026-08-12 09:12:46,285 |-status|p2a: Ditto|slp|[from] move: Rest
+2026-08-12 09:12:46,285 |-heal|p2a: Ditto|299/299 slp|[silent]
+2026-08-12 09:12:46,285 |
+2026-08-12 09:12:46,285 |upkeep
+2026-08-12 09:12:46,285 |turn|43
+2026-08-12 09:12:46,286 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,286 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 slp","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 09:12:46,307 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,307 |
+2026-08-12 09:12:46,307 |t:|1786518766
+2026-08-12 09:12:46,307 |switch|p1a: Jigglypuff|Jigglypuff, L89|39/100
+2026-08-12 09:12:46,307 |cant|p2a: Ditto|slp
+2026-08-12 09:12:46,307 |
+2026-08-12 09:12:46,307 |upkeep
+2026-08-12 09:12:46,307 |turn|44
+2026-08-12 09:12:46,308 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,308 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 slp","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 09:12:46,356 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,356 |
+2026-08-12 09:12:46,356 |t:|1786518766
+2026-08-12 09:12:46,356 |move|p1a: Jigglypuff|Thunder Wave|p2a: Ditto
+2026-08-12 09:12:46,356 |-fail|p2a: Ditto
+2026-08-12 09:12:46,356 |-curestatus|p2a: Ditto|slp|[msg]
+2026-08-12 09:12:46,356 |
+2026-08-12 09:12:46,356 |upkeep
+2026-08-12 09:12:46,356 |turn|45
+2026-08-12 09:12:46,357 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,357 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":0,"maxpp":24,"target":"allAdjacentFoes","disabled":true},{"move":"Body Slam","id":"bodyslam","pp":0,"maxpp":15,"target":"normal","disabled":true},{"move":"Rest","id":"rest","pp":1,"maxpp":10,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":0,"maxpp":5,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 09:12:46,381 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,381 |
+2026-08-12 09:12:46,381 |t:|1786518766
+2026-08-12 09:12:46,381 |move|p1a: Jigglypuff|Thunder Wave|p2a: Ditto
+2026-08-12 09:12:46,381 |-status|p2a: Ditto|par
+2026-08-12 09:12:46,381 |move|p2a: Ditto|Rest|p2a: Ditto
+2026-08-12 09:12:46,381 |-fail|p2a: Ditto
+2026-08-12 09:12:46,382 |
+2026-08-12 09:12:46,382 |upkeep
+2026-08-12 09:12:46,382 |turn|46
+2026-08-12 09:12:46,384 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,384 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"299/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 09:12:46,406 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,406 |-activate|p2a: Ditto|move: Struggle
+2026-08-12 09:12:46,406 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,406 |
+2026-08-12 09:12:46,406 |t:|1786518766
+2026-08-12 09:12:46,406 |move|p1a: Jigglypuff|Sing|p2a: Ditto
+2026-08-12 09:12:46,406 |-fail|p2a: Ditto
+2026-08-12 09:12:46,406 |move|p2a: Ditto|Struggle|p1a: Jigglypuff
+2026-08-12 09:12:46,406 |-crit|p1a: Jigglypuff
+2026-08-12 09:12:46,406 |-damage|p1a: Jigglypuff|7/100
+2026-08-12 09:12:46,406 |-damage|p2a: Ditto|239/299 par|[from] Recoil
+2026-08-12 09:12:46,406 |
+2026-08-12 09:12:46,406 |upkeep
+2026-08-12 09:12:46,406 |turn|47
+2026-08-12 09:12:46,408 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,408 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"239/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 09:12:46,431 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,431 |-activate|p2a: Ditto|move: Struggle
+2026-08-12 09:12:46,432 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,432 |
+2026-08-12 09:12:46,432 |t:|1786518766
+2026-08-12 09:12:46,432 |move|p1a: Jigglypuff|Seismic Toss|p2a: Ditto
+2026-08-12 09:12:46,432 |-damage|p2a: Ditto|150/299 par
+2026-08-12 09:12:46,432 |cant|p2a: Ditto|par
+2026-08-12 09:12:46,433 |
+2026-08-12 09:12:46,433 |upkeep
+2026-08-12 09:12:46,433 |turn|48
+2026-08-12 09:12:46,433 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,433 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"150/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 09:12:46,455 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,455 |-activate|p2a: Ditto|move: Struggle
+2026-08-12 09:12:46,456 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,456 |
+2026-08-12 09:12:46,456 |t:|1786518766
+2026-08-12 09:12:46,456 |move|p1a: Jigglypuff|Thunder Wave|p2a: Ditto
+2026-08-12 09:12:46,456 |-fail|p2a: Ditto|par
+2026-08-12 09:12:46,456 |move|p2a: Ditto|Struggle|p1a: Jigglypuff
+2026-08-12 09:12:46,456 |-damage|p1a: Jigglypuff|0 fnt
+2026-08-12 09:12:46,456 |-damage|p2a: Ditto|137/299 par|[from] Recoil
+2026-08-12 09:12:46,456 |faint|p1a: Jigglypuff
+2026-08-12 09:12:46,459 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,459 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"137/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 09:12:46,477 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,477 |
+2026-08-12 09:12:46,477 |t:|1786518766
+2026-08-12 09:12:46,477 |switch|p1a: Omanyte|Omanyte, L87|100/100
+2026-08-12 09:12:46,477 |turn|49
+2026-08-12 09:12:46,477 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,477 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"137/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 09:12:46,485 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,486 |-activate|p2a: Ditto|move: Struggle
+2026-08-12 09:12:46,499 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,499 |
+2026-08-12 09:12:46,499 |t:|1786518766
+2026-08-12 09:12:46,499 |move|p1a: Omanyte|Body Slam|p2a: Ditto
+2026-08-12 09:12:46,499 |-resisted|p2a: Ditto
+2026-08-12 09:12:46,499 |-damage|p2a: Ditto|120/299 par
+2026-08-12 09:12:46,499 |move|p2a: Ditto|Struggle|p1a: Omanyte
+2026-08-12 09:12:46,499 |-resisted|p1a: Omanyte
+2026-08-12 09:12:46,499 |-damage|p1a: Omanyte|95/100
+2026-08-12 09:12:46,499 |-damage|p2a: Ditto|114/299 par|[from] Recoil
+2026-08-12 09:12:46,499 |
+2026-08-12 09:12:46,500 |upkeep
+2026-08-12 09:12:46,500 |turn|50
+2026-08-12 09:12:46,503 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,503 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"114/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 09:12:46,543 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,543 |-activate|p2a: Ditto|move: Struggle
+2026-08-12 09:12:46,543 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,543 |
+2026-08-12 09:12:46,543 |t:|1786518766
+2026-08-12 09:12:46,543 |move|p1a: Omanyte|Blizzard|p2a: Ditto
+2026-08-12 09:12:46,543 |-resisted|p2a: Ditto
+2026-08-12 09:12:46,543 |-damage|p2a: Ditto|75/299 par
+2026-08-12 09:12:46,543 |move|p2a: Ditto|Struggle|p1a: Omanyte
+2026-08-12 09:12:46,543 |-resisted|p1a: Omanyte
+2026-08-12 09:12:46,543 |-damage|p1a: Omanyte|90/100
+2026-08-12 09:12:46,543 |-damage|p2a: Ditto|69/299 par|[from] Recoil
+2026-08-12 09:12:46,543 |
+2026-08-12 09:12:46,543 |upkeep
+2026-08-12 09:12:46,543 |turn|51
+2026-08-12 09:12:46,545 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,545 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"69/299 par","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["surf","bodyslam","rest","blizzard"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 09:12:46,577 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,578 |-activate|p2a: Ditto|move: Struggle
+2026-08-12 09:12:46,579 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,579 |
+2026-08-12 09:12:46,579 |t:|1786518766
+2026-08-12 09:12:46,579 |move|p1a: Omanyte|Blizzard|p2a: Ditto
+2026-08-12 09:12:46,579 |-crit|p2a: Ditto
+2026-08-12 09:12:46,579 |-resisted|p2a: Ditto
+2026-08-12 09:12:46,579 |-damage|p2a: Ditto|0 fnt
+2026-08-12 09:12:46,579 |faint|p2a: Ditto
+2026-08-12 09:12:46,582 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,583 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":true,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"noCancel":true,"rqid":117}
+2026-08-12 09:12:46,615 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,615 |
+2026-08-12 09:12:46,615 |t:|1786518766
+2026-08-12 09:12:46,615 |switch|p2a: Wartortle|Wartortle, L82|115/265
+2026-08-12 09:12:46,615 |turn|52
+2026-08-12 09:12:46,615 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,615 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"115/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 09:12:46,655 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,655 |
+2026-08-12 09:12:46,655 |t:|1786518766
+2026-08-12 09:12:46,655 |move|p2a: Wartortle|Rest|p2a: Wartortle
+2026-08-12 09:12:46,655 |-status|p2a: Wartortle|slp|[from] move: Rest
+2026-08-12 09:12:46,655 |-heal|p2a: Wartortle|265/265 slp|[silent]
+2026-08-12 09:12:46,655 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:46,655 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:46,655 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:46,656 |
+2026-08-12 09:12:46,656 |upkeep
+2026-08-12 09:12:46,656 |turn|53
+2026-08-12 09:12:46,656 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,657 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"265/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 09:12:46,683 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,683 |
+2026-08-12 09:12:46,683 |t:|1786518766
+2026-08-12 09:12:46,683 |cant|p2a: Wartortle|slp
+2026-08-12 09:12:46,683 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:46,683 |
+2026-08-12 09:12:46,683 |upkeep
+2026-08-12 09:12:46,683 |turn|54
+2026-08-12 09:12:46,685 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,685 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"265/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 09:12:46,731 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,731 |
+2026-08-12 09:12:46,731 |t:|1786518766
+2026-08-12 09:12:46,731 |-curestatus|p2a: Wartortle|slp|[msg]
+2026-08-12 09:12:46,731 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:46,731 |
+2026-08-12 09:12:46,731 |upkeep
+2026-08-12 09:12:46,731 |turn|55
+2026-08-12 09:12:46,734 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,734 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"265/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 09:12:46,778 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,778 |
+2026-08-12 09:12:46,778 |t:|1786518766
+2026-08-12 09:12:46,778 |move|p2a: Wartortle|Hydro Pump|p1a: Omanyte
+2026-08-12 09:12:46,778 |-damage|p1a: Omanyte|64/100
+2026-08-12 09:12:46,778 |move|p1a: Omanyte|Surf|p2a: Wartortle
+2026-08-12 09:12:46,778 |-resisted|p2a: Wartortle
+2026-08-12 09:12:46,778 |-damage|p2a: Wartortle|208/265
+2026-08-12 09:12:46,778 |
+2026-08-12 09:12:46,778 |upkeep
+2026-08-12 09:12:46,778 |turn|56
+2026-08-12 09:12:46,779 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,779 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"208/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":127}
+2026-08-12 09:12:46,818 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,818 |
+2026-08-12 09:12:46,818 |t:|1786518766
+2026-08-12 09:12:46,818 |move|p2a: Wartortle|Rest|p2a: Wartortle
+2026-08-12 09:12:46,818 |-status|p2a: Wartortle|slp|[from] move: Rest
+2026-08-12 09:12:46,818 |-heal|p2a: Wartortle|265/265 slp|[silent]
+2026-08-12 09:12:46,818 |move|p1a: Omanyte|Surf|p2a: Wartortle
+2026-08-12 09:12:46,818 |-resisted|p2a: Wartortle
+2026-08-12 09:12:46,818 |-damage|p2a: Wartortle|201/265 slp
+2026-08-12 09:12:46,818 |
+2026-08-12 09:12:46,818 |upkeep
+2026-08-12 09:12:46,819 |turn|57
+2026-08-12 09:12:46,822 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,822 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":129}
+2026-08-12 09:12:46,844 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,845 |
+2026-08-12 09:12:46,845 |t:|1786518766
+2026-08-12 09:12:46,845 |switch|p2a: Paras|Paras, L90|246/246
+2026-08-12 09:12:46,845 |move|p1a: Omanyte|Surf|p2a: Paras
+2026-08-12 09:12:46,845 |-resisted|p2a: Paras
+2026-08-12 09:12:46,845 |-damage|p2a: Paras|189/246
+2026-08-12 09:12:46,845 |
+2026-08-12 09:12:46,845 |upkeep
+2026-08-12 09:12:46,845 |turn|58
+2026-08-12 09:12:46,848 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,848 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"189/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 09:12:46,875 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,875 |
+2026-08-12 09:12:46,875 |t:|1786518766
+2026-08-12 09:12:46,875 |move|p1a: Omanyte|Surf|p2a: Paras
+2026-08-12 09:12:46,875 |-resisted|p2a: Paras
+2026-08-12 09:12:46,875 |-damage|p2a: Paras|127/246
+2026-08-12 09:12:46,875 |move|p2a: Paras|Mega Drain|p1a: Omanyte
+2026-08-12 09:12:46,875 |-supereffective|p1a: Omanyte
+2026-08-12 09:12:46,875 |-damage|p1a: Omanyte|9/100
+2026-08-12 09:12:46,875 |-heal|p2a: Paras|192/246|[from] drain|[of] p1a: Omanyte
+2026-08-12 09:12:46,875 |
+2026-08-12 09:12:46,875 |upkeep
+2026-08-12 09:12:46,875 |turn|59
+2026-08-12 09:12:46,876 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,876 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":48,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"192/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":133}
+2026-08-12 09:12:46,899 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,899 |
+2026-08-12 09:12:46,899 |t:|1786518766
+2026-08-12 09:12:46,899 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:46,899 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:46,899 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:46,899 |move|p2a: Paras|Stun Spore|p1a: Omanyte|[miss]
+2026-08-12 09:12:46,899 |-miss|p2a: Paras
+2026-08-12 09:12:46,900 |
+2026-08-12 09:12:46,900 |upkeep
+2026-08-12 09:12:46,900 |turn|60
+2026-08-12 09:12:46,901 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,901 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":47,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"192/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":135}
+2026-08-12 09:12:46,922 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,922 |
+2026-08-12 09:12:46,922 |t:|1786518766
+2026-08-12 09:12:46,922 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:46,922 |move|p2a: Paras|Stun Spore|p1a: Omanyte
+2026-08-12 09:12:46,922 |-fail|p1a: Omanyte
+2026-08-12 09:12:46,923 |
+2026-08-12 09:12:46,923 |upkeep
+2026-08-12 09:12:46,923 |turn|61
+2026-08-12 09:12:46,924 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,924 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"192/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":137}
+2026-08-12 09:12:46,949 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,949 |
+2026-08-12 09:12:46,949 |t:|1786518766
+2026-08-12 09:12:46,949 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:46,949 |move|p2a: Paras|Mega Drain|p1a: Omanyte
+2026-08-12 09:12:46,949 |-supereffective|p1a: Omanyte
+2026-08-12 09:12:46,949 |-damage|p1a: Omanyte|40/100
+2026-08-12 09:12:46,949 |-heal|p2a: Paras|246/246|[from] drain|[of] p1a: Omanyte
+2026-08-12 09:12:46,949 |
+2026-08-12 09:12:46,949 |upkeep
+2026-08-12 09:12:46,949 |turn|62
+2026-08-12 09:12:46,951 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,951 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":139}
+2026-08-12 09:12:46,983 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,983 |
+2026-08-12 09:12:46,983 |t:|1786518766
+2026-08-12 09:12:46,983 |move|p1a: Omanyte|Rest|p1a: Omanyte
+2026-08-12 09:12:46,983 |-status|p1a: Omanyte|slp|[from] move: Rest
+2026-08-12 09:12:46,983 |-heal|p1a: Omanyte|100/100 slp|[silent]
+2026-08-12 09:12:46,983 |move|p2a: Paras|Mega Drain|p1a: Omanyte
+2026-08-12 09:12:46,984 |-supereffective|p1a: Omanyte
+2026-08-12 09:12:46,984 |-damage|p1a: Omanyte|45/100 slp
+2026-08-12 09:12:46,984 |
+2026-08-12 09:12:46,984 |upkeep
+2026-08-12 09:12:46,984 |turn|63
+2026-08-12 09:12:46,986 >battle-gen1randombattle-300738
+2026-08-12 09:12:46,986 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":141}
+2026-08-12 09:12:47,011 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,011 |
+2026-08-12 09:12:47,011 |t:|1786518767
+2026-08-12 09:12:47,011 |cant|p1a: Omanyte|slp
+2026-08-12 09:12:47,011 |move|p2a: Paras|Body Slam|p1a: Omanyte
+2026-08-12 09:12:47,011 |-resisted|p1a: Omanyte
+2026-08-12 09:12:47,011 |-damage|p1a: Omanyte|36/100 slp
+2026-08-12 09:12:47,011 |
+2026-08-12 09:12:47,011 |upkeep
+2026-08-12 09:12:47,011 |turn|64
+2026-08-12 09:12:47,016 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,016 |request|{"active":[{"moves":[{"move":"Stun Spore","id":"stunspore","pp":46,"maxpp":48,"target":"normal","disabled":false},{"move":"Mega Drain","id":"megadrain","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Spore","id":"spore","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":true,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":143}
+2026-08-12 09:12:47,033 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,033 |
+2026-08-12 09:12:47,034 |t:|1786518767
+2026-08-12 09:12:47,034 |switch|p2a: Wartortle|Wartortle, L82|201/265 slp
+2026-08-12 09:12:47,034 |-curestatus|p1a: Omanyte|slp|[msg]
+2026-08-12 09:12:47,034 |
+2026-08-12 09:12:47,034 |upkeep
+2026-08-12 09:12:47,034 |turn|65
+2026-08-12 09:12:47,035 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,035 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"201/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":145}
+2026-08-12 09:12:47,051 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,051 |
+2026-08-12 09:12:47,051 |t:|1786518767
+2026-08-12 09:12:47,051 |cant|p2a: Wartortle|slp
+2026-08-12 09:12:47,051 |move|p1a: Omanyte|Surf|p2a: Wartortle
+2026-08-12 09:12:47,051 |-resisted|p2a: Wartortle
+2026-08-12 09:12:47,051 |-damage|p2a: Wartortle|144/265 slp
+2026-08-12 09:12:47,051 |
+2026-08-12 09:12:47,051 |upkeep
+2026-08-12 09:12:47,052 |turn|66
+2026-08-12 09:12:47,053 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,053 |request|{"active":[{"moves":[{"move":"Fight","id":"fight"}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"144/265 slp","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":147}
+2026-08-12 09:12:47,073 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,073 |
+2026-08-12 09:12:47,073 |t:|1786518767
+2026-08-12 09:12:47,073 |-curestatus|p2a: Wartortle|slp|[msg]
+2026-08-12 09:12:47,073 |move|p1a: Omanyte|Surf|p2a: Wartortle
+2026-08-12 09:12:47,073 |-resisted|p2a: Wartortle
+2026-08-12 09:12:47,073 |-damage|p2a: Wartortle|86/265
+2026-08-12 09:12:47,073 |
+2026-08-12 09:12:47,073 |upkeep
+2026-08-12 09:12:47,073 |turn|67
+2026-08-12 09:12:47,077 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,077 |request|{"active":[{"moves":[{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Blizzard","id":"blizzard","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"86/265","active":true,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Krabby","details":"Krabby, L89","condition":"235/235","active":false,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":149}
+2026-08-12 09:12:47,094 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,094 |
+2026-08-12 09:12:47,094 |t:|1786518767
+2026-08-12 09:12:47,094 |switch|p2a: Krabby|Krabby, L89|235/235
+2026-08-12 09:12:47,094 |move|p1a: Omanyte|Surf|p2a: Krabby
+2026-08-12 09:12:47,094 |-resisted|p2a: Krabby
+2026-08-12 09:12:47,094 |-damage|p2a: Krabby|141/235
+2026-08-12 09:12:47,094 |
+2026-08-12 09:12:47,094 |upkeep
+2026-08-12 09:12:47,094 |turn|68
+2026-08-12 09:12:47,094 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,094 |request|{"active":[{"moves":[{"move":"Stomp","id":"stomp","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Crabhammer","id":"crabhammer","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Krabby","details":"Krabby, L89","condition":"141/235","active":true,"stats":{"atk":274,"def":247,"spa":132,"spd":132,"spe":176},"moves":["stomp","crabhammer","swordsdance","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Ditto","details":"Ditto","condition":"0 fnt","active":false,"stats":{"atk":194,"def":194,"spa":194,"spd":194,"spe":194},"moves":["transform"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Wartortle","details":"Wartortle, L82","condition":"86/265","active":false,"stats":{"atk":184,"def":212,"spa":187,"spd":187,"spe":176},"moves":["rest","blizzard","bodyslam","hydropump"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magneton","details":"Magneton, L76","condition":"232/232","active":false,"stats":{"atk":166,"def":220,"spa":258,"spd":258,"spe":182},"moves":["doubleedge","thunderbolt","thunderwave","thunder"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Magmar","details":"Magmar, L76","condition":"0 fnt","active":false,"stats":{"atk":220,"def":162,"spa":204,"spd":204,"spe":217},"moves":["hyperbeam","bodyslam","confuseray","fireblast"],"baseAbility":"noability","item":"","pokeball":"pokeball"},{"ident":"p2: Paras","details":"Paras, L90","condition":"246/246","active":false,"stats":{"atk":214,"def":187,"spa":187,"spd":187,"spe":133},"moves":["stunspore","megadrain","spore","bodyslam"],"baseAbility":"noability","item":"","pokeball":"pokeball"}]},"rqid":151}
+2026-08-12 09:12:47,120 >battle-gen1randombattle-300738
+2026-08-12 09:12:47,120 |
+2026-08-12 09:12:47,120 |t:|1786518767
+2026-08-12 09:12:47,120 |move|p2a: Krabby|Crabhammer|p1a: Omanyte
+2026-08-12 09:12:47,120 |-crit|p1a: Omanyte
+2026-08-12 09:12:47,120 |-damage|p1a: Omanyte|0 fnt
+2026-08-12 09:12:47,120 |faint|p1a: Omanyte
+2026-08-12 09:12:47,121 |
+2026-08-12 09:12:47,121 |win|BOT8

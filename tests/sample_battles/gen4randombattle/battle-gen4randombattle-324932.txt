@@ -1,0 +1,660 @@
+2026-08-12 13:21:19,216 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,217 |init|battle
+2026-08-12 13:21:19,217 |title|BOT5 vs. BOT6
+2026-08-12 13:21:19,217 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324932">battle-gen4randombattle-324932</a>&raquo;
+2026-08-12 13:21:19,269 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,269 |t:|1786533679
+2026-08-12 13:21:19,269 |gametype|singles
+2026-08-12 13:21:19,269 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,269 |player|p1|BOT5|101|
+2026-08-12 13:21:19,271 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,271 |player|p2|BOT6|101|
+2026-08-12 13:21:19,271 |gen|4
+2026-08-12 13:21:19,271 |tier|[Gen 4] Random Battle
+2026-08-12 13:21:19,271 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:21:19,271 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:21:19,271 |
+2026-08-12 13:21:19,271 |t:|1786533679
+2026-08-12 13:21:19,271 |teamsize|p1|6
+2026-08-12 13:21:19,271 |teamsize|p2|6
+2026-08-12 13:21:19,271 |start
+2026-08-12 13:21:19,271 |switch|p1a: Hippowdon|Hippowdon, L79, F|100/100
+2026-08-12 13:21:19,271 |switch|p2a: Chatot|Chatot, L90, M|283/283
+2026-08-12 13:21:19,271 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+2026-08-12 13:21:19,271 |turn|1
+2026-08-12 13:21:19,273 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,274 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"253/253","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:21:19,302 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,302 |
+2026-08-12 13:21:19,302 |t:|1786533679
+2026-08-12 13:21:19,302 |switch|p2a: Garchomp|Garchomp, L74, F|282/282
+2026-08-12 13:21:19,302 |move|p1a: Hippowdon|Slack Off||[still]
+2026-08-12 13:21:19,302 |-fail|p1a: Hippowdon|heal
+2026-08-12 13:21:19,302 |
+2026-08-12 13:21:19,302 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,302 |upkeep
+2026-08-12 13:21:19,302 |turn|2
+2026-08-12 13:21:19,305 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,305 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"253/253","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:21:19,334 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,334 |
+2026-08-12 13:21:19,334 |t:|1786533679
+2026-08-12 13:21:19,334 |move|p2a: Garchomp|Dragon Claw|p1a: Hippowdon
+2026-08-12 13:21:19,334 |-damage|p1a: Hippowdon|76/100
+2026-08-12 13:21:19,334 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:21:19,334 |-heal|p1a: Hippowdon|100/100
+2026-08-12 13:21:19,334 |
+2026-08-12 13:21:19,334 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,334 |upkeep
+2026-08-12 13:21:19,334 |turn|3
+2026-08-12 13:21:19,336 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,336 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"253/253","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:21:19,372 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,372 |
+2026-08-12 13:21:19,372 |t:|1786533679
+2026-08-12 13:21:19,372 |move|p2a: Garchomp|Substitute|p2a: Garchomp
+2026-08-12 13:21:19,372 |-start|p2a: Garchomp|Substitute
+2026-08-12 13:21:19,372 |-damage|p2a: Garchomp|212/282
+2026-08-12 13:21:19,372 |move|p1a: Hippowdon|Earthquake|p2a: Garchomp
+2026-08-12 13:21:19,372 |-end|p2a: Garchomp|Substitute
+2026-08-12 13:21:19,372 |
+2026-08-12 13:21:19,372 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,372 |-heal|p2a: Garchomp|229/282|[from] item: Leftovers
+2026-08-12 13:21:19,372 |upkeep
+2026-08-12 13:21:19,373 |turn|4
+2026-08-12 13:21:19,377 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,377 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"229/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"253/253","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:21:19,417 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,417 |
+2026-08-12 13:21:19,417 |t:|1786533679
+2026-08-12 13:21:19,417 |move|p2a: Garchomp|Dragon Claw|p1a: Hippowdon
+2026-08-12 13:21:19,417 |-crit|p1a: Hippowdon
+2026-08-12 13:21:19,417 |-damage|p1a: Hippowdon|53/100
+2026-08-12 13:21:19,417 |move|p1a: Hippowdon|Toxic|p2a: Garchomp|[miss]
+2026-08-12 13:21:19,417 |-miss|p1a: Hippowdon|p2a: Garchomp
+2026-08-12 13:21:19,417 |
+2026-08-12 13:21:19,417 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,417 |-heal|p2a: Garchomp|246/282|[from] item: Leftovers
+2026-08-12 13:21:19,417 |-heal|p1a: Hippowdon|59/100|[from] item: Leftovers
+2026-08-12 13:21:19,417 |upkeep
+2026-08-12 13:21:19,417 |turn|5
+2026-08-12 13:21:19,420 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,420 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"246/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"253/253","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:21:19,452 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,452 |
+2026-08-12 13:21:19,452 |t:|1786533679
+2026-08-12 13:21:19,452 |move|p2a: Garchomp|Substitute|p2a: Garchomp
+2026-08-12 13:21:19,452 |-start|p2a: Garchomp|Substitute
+2026-08-12 13:21:19,452 |-damage|p2a: Garchomp|176/282
+2026-08-12 13:21:19,452 |move|p1a: Hippowdon|Roar|p2a: Garchomp
+2026-08-12 13:21:19,452 |drag|p2a: Charizard|Charizard, L79, M|253/253
+2026-08-12 13:21:19,452 |
+2026-08-12 13:21:19,452 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,452 |-damage|p2a: Charizard|238/253|[from] Sandstorm
+2026-08-12 13:21:19,452 |-heal|p1a: Hippowdon|65/100|[from] item: Leftovers
+2026-08-12 13:21:19,452 |upkeep
+2026-08-12 13:21:19,452 |turn|6
+2026-08-12 13:21:19,452 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,452 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Dragon Pulse","id":"dragonpulse","pp":16,"maxpp":16,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"238/253","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:21:19,482 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,482 |
+2026-08-12 13:21:19,482 |t:|1786533679
+2026-08-12 13:21:19,482 |move|p2a: Charizard|Dragon Pulse|p1a: Hippowdon
+2026-08-12 13:21:19,482 |-damage|p1a: Hippowdon|26/100
+2026-08-12 13:21:19,482 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:21:19,482 |-heal|p1a: Hippowdon|76/100
+2026-08-12 13:21:19,482 |
+2026-08-12 13:21:19,482 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,482 |-damage|p2a: Charizard|223/253|[from] Sandstorm
+2026-08-12 13:21:19,482 |-heal|p1a: Hippowdon|82/100|[from] item: Leftovers
+2026-08-12 13:21:19,482 |upkeep
+2026-08-12 13:21:19,482 |turn|7
+2026-08-12 13:21:19,483 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,483 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Dragon Pulse","id":"dragonpulse","pp":15,"maxpp":16,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"223/253","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:21:19,519 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,519 |
+2026-08-12 13:21:19,519 |t:|1786533679
+2026-08-12 13:21:19,519 |move|p2a: Charizard|Dragon Pulse|p1a: Hippowdon
+2026-08-12 13:21:19,519 |-damage|p1a: Hippowdon|41/100
+2026-08-12 13:21:19,520 |move|p1a: Hippowdon|Toxic|p2a: Charizard
+2026-08-12 13:21:19,520 |-status|p2a: Charizard|tox
+2026-08-12 13:21:19,520 |
+2026-08-12 13:21:19,520 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,520 |-damage|p2a: Charizard|208/253 tox|[from] Sandstorm
+2026-08-12 13:21:19,520 |-damage|p2a: Charizard|193/253 tox|[from] psn
+2026-08-12 13:21:19,520 |-heal|p1a: Hippowdon|47/100|[from] item: Leftovers
+2026-08-12 13:21:19,520 |upkeep
+2026-08-12 13:21:19,520 |turn|8
+2026-08-12 13:21:19,521 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,521 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Dragon Pulse","id":"dragonpulse","pp":14,"maxpp":16,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"193/253 tox","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:21:19,561 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,561 |
+2026-08-12 13:21:19,561 |t:|1786533679
+2026-08-12 13:21:19,561 |move|p2a: Charizard|Dragon Pulse|p1a: Hippowdon
+2026-08-12 13:21:19,561 |-damage|p1a: Hippowdon|11/100
+2026-08-12 13:21:19,562 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:21:19,562 |-heal|p1a: Hippowdon|61/100
+2026-08-12 13:21:19,562 |
+2026-08-12 13:21:19,562 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,562 |-damage|p2a: Charizard|178/253 tox|[from] Sandstorm
+2026-08-12 13:21:19,562 |-damage|p2a: Charizard|148/253 tox|[from] psn
+2026-08-12 13:21:19,562 |-heal|p1a: Hippowdon|67/100|[from] item: Leftovers
+2026-08-12 13:21:19,562 |upkeep
+2026-08-12 13:21:19,562 |turn|9
+2026-08-12 13:21:19,564 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,564 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Dragon Pulse","id":"dragonpulse","pp":13,"maxpp":16,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"148/253 tox","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:21:19,618 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,618 |
+2026-08-12 13:21:19,618 |t:|1786533679
+2026-08-12 13:21:19,618 |move|p2a: Charizard|Dragon Pulse|p1a: Hippowdon
+2026-08-12 13:21:19,618 |-damage|p1a: Hippowdon|31/100
+2026-08-12 13:21:19,618 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:21:19,618 |-heal|p1a: Hippowdon|81/100
+2026-08-12 13:21:19,618 |
+2026-08-12 13:21:19,618 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,618 |-damage|p2a: Charizard|133/253 tox|[from] Sandstorm
+2026-08-12 13:21:19,618 |-damage|p2a: Charizard|88/253 tox|[from] psn
+2026-08-12 13:21:19,618 |-heal|p1a: Hippowdon|87/100|[from] item: Leftovers
+2026-08-12 13:21:19,618 |upkeep
+2026-08-12 13:21:19,618 |turn|10
+2026-08-12 13:21:19,621 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,621 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Dragon Pulse","id":"dragonpulse","pp":12,"maxpp":16,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"88/253 tox","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:21:19,657 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,657 |
+2026-08-12 13:21:19,657 |t:|1786533679
+2026-08-12 13:21:19,657 |move|p2a: Charizard|Dragon Pulse|p1a: Hippowdon
+2026-08-12 13:21:19,657 |-damage|p1a: Hippowdon|49/100
+2026-08-12 13:21:19,657 |move|p1a: Hippowdon|Earthquake|p2a: Charizard
+2026-08-12 13:21:19,657 |-immune|p2a: Charizard
+2026-08-12 13:21:19,657 |
+2026-08-12 13:21:19,657 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,657 |-damage|p2a: Charizard|73/253 tox|[from] Sandstorm
+2026-08-12 13:21:19,657 |-damage|p2a: Charizard|13/253 tox|[from] psn
+2026-08-12 13:21:19,657 |-heal|p1a: Hippowdon|55/100|[from] item: Leftovers
+2026-08-12 13:21:19,657 |upkeep
+2026-08-12 13:21:19,657 |turn|11
+2026-08-12 13:21:19,658 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,658 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Dragon Pulse","id":"dragonpulse","pp":11,"maxpp":16,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"13/253 tox","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:21:19,703 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,703 |
+2026-08-12 13:21:19,703 |t:|1786533679
+2026-08-12 13:21:19,703 |move|p2a: Charizard|Dragon Pulse|p1a: Hippowdon
+2026-08-12 13:21:19,703 |-damage|p1a: Hippowdon|16/100
+2026-08-12 13:21:19,703 |move|p1a: Hippowdon|Toxic|p2a: Charizard
+2026-08-12 13:21:19,703 |-fail|p2a: Charizard|tox
+2026-08-12 13:21:19,703 |
+2026-08-12 13:21:19,703 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,703 |-damage|p2a: Charizard|0 fnt|[from] Sandstorm
+2026-08-12 13:21:19,703 |faint|p2a: Charizard
+2026-08-12 13:21:19,703 |-heal|p1a: Hippowdon|22/100|[from] item: Leftovers
+2026-08-12 13:21:19,703 |upkeep
+2026-08-12 13:21:19,706 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,706 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":true,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":25}
+2026-08-12 13:21:19,743 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,743 |
+2026-08-12 13:21:19,743 |t:|1786533679
+2026-08-12 13:21:19,743 |switch|p2a: Carnivine|Carnivine, L97, M|301/301
+2026-08-12 13:21:19,743 |turn|12
+2026-08-12 13:21:19,743 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,743 |request|{"active":[{"moves":[{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Power Whip","id":"powerwhip","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":true,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"283/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:21:19,778 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,778 |
+2026-08-12 13:21:19,778 |t:|1786533679
+2026-08-12 13:21:19,778 |move|p2a: Carnivine|Power Whip|p1a: Hippowdon|[miss]
+2026-08-12 13:21:19,778 |-miss|p2a: Carnivine|p1a: Hippowdon
+2026-08-12 13:21:19,778 |move|p1a: Hippowdon|Roar|p2a: Carnivine
+2026-08-12 13:21:19,779 |drag|p2a: Chatot|Chatot, L90, M|283/283
+2026-08-12 13:21:19,779 |
+2026-08-12 13:21:19,779 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,779 |-damage|p2a: Chatot|266/283|[from] Sandstorm
+2026-08-12 13:21:19,779 |-heal|p1a: Hippowdon|28/100|[from] item: Leftovers
+2026-08-12 13:21:19,779 |upkeep
+2026-08-12 13:21:19,779 |turn|13
+2026-08-12 13:21:19,784 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,784 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"266/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:21:19,815 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,815 |
+2026-08-12 13:21:19,815 |t:|1786533679
+2026-08-12 13:21:19,815 |move|p2a: Chatot|Heat Wave|p1a: Hippowdon
+2026-08-12 13:21:19,815 |-damage|p1a: Hippowdon|0 fnt
+2026-08-12 13:21:19,815 |faint|p1a: Hippowdon
+2026-08-12 13:21:19,815 |-damage|p2a: Chatot|238/283|[from] item: Life Orb
+2026-08-12 13:21:19,815 |
+2026-08-12 13:21:19,815 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,815 |-damage|p2a: Chatot|221/283|[from] Sandstorm
+2026-08-12 13:21:19,815 |upkeep
+2026-08-12 13:21:19,816 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,816 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"221/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:21:19,827 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,827 |
+2026-08-12 13:21:19,827 |t:|1786533679
+2026-08-12 13:21:19,827 |switch|p1a: Registeel|Registeel, L81|100/100
+2026-08-12 13:21:19,827 |turn|14
+2026-08-12 13:21:19,827 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,827 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"221/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:21:19,849 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,849 |
+2026-08-12 13:21:19,849 |t:|1786533679
+2026-08-12 13:21:19,849 |move|p2a: Chatot|Heat Wave|p1a: Registeel
+2026-08-12 13:21:19,849 |-supereffective|p1a: Registeel
+2026-08-12 13:21:19,849 |-damage|p1a: Registeel|50/100
+2026-08-12 13:21:19,849 |-damage|p2a: Chatot|193/283|[from] item: Life Orb
+2026-08-12 13:21:19,849 |move|p1a: Registeel|Rest|p1a: Registeel
+2026-08-12 13:21:19,849 |-status|p1a: Registeel|slp|[from] move: Rest
+2026-08-12 13:21:19,849 |-heal|p1a: Registeel|100/100 slp|[silent]
+2026-08-12 13:21:19,849 |
+2026-08-12 13:21:19,849 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,849 |-damage|p2a: Chatot|176/283|[from] Sandstorm
+2026-08-12 13:21:19,849 |upkeep
+2026-08-12 13:21:19,850 |turn|15
+2026-08-12 13:21:19,852 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,852 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"176/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:21:19,887 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,887 |
+2026-08-12 13:21:19,887 |t:|1786533679
+2026-08-12 13:21:19,887 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:21:19,887 |-resisted|p1a: Registeel
+2026-08-12 13:21:19,887 |-damage|p1a: Registeel|83/100 slp
+2026-08-12 13:21:19,887 |-damage|p2a: Chatot|148/283|[from] item: Life Orb
+2026-08-12 13:21:19,887 |cant|p1a: Registeel|slp
+2026-08-12 13:21:19,887 |
+2026-08-12 13:21:19,887 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,887 |-damage|p2a: Chatot|131/283|[from] Sandstorm
+2026-08-12 13:21:19,887 |-heal|p1a: Registeel|89/100 slp|[from] item: Leftovers
+2026-08-12 13:21:19,887 |upkeep
+2026-08-12 13:21:19,887 |turn|16
+2026-08-12 13:21:19,887 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,887 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"131/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:21:19,911 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,911 |
+2026-08-12 13:21:19,911 |t:|1786533679
+2026-08-12 13:21:19,911 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:21:19,911 |-resisted|p1a: Registeel
+2026-08-12 13:21:19,911 |-damage|p1a: Registeel|72/100 slp
+2026-08-12 13:21:19,911 |-damage|p2a: Chatot|103/283|[from] item: Life Orb
+2026-08-12 13:21:19,911 |cant|p1a: Registeel|slp
+2026-08-12 13:21:19,911 |
+2026-08-12 13:21:19,911 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,912 |-damage|p2a: Chatot|86/283|[from] Sandstorm
+2026-08-12 13:21:19,912 |-heal|p1a: Registeel|78/100 slp|[from] item: Leftovers
+2026-08-12 13:21:19,912 |upkeep
+2026-08-12 13:21:19,912 |turn|17
+2026-08-12 13:21:19,912 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,912 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"86/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:21:19,949 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,949 |
+2026-08-12 13:21:19,949 |t:|1786533679
+2026-08-12 13:21:19,949 |move|p2a: Chatot|Hyper Voice|p1a: Registeel
+2026-08-12 13:21:19,949 |-resisted|p1a: Registeel
+2026-08-12 13:21:19,949 |-damage|p1a: Registeel|62/100 slp
+2026-08-12 13:21:19,949 |-damage|p2a: Chatot|58/283|[from] item: Life Orb
+2026-08-12 13:21:19,949 |-curestatus|p1a: Registeel|slp|[msg]
+2026-08-12 13:21:19,949 |move|p1a: Registeel|Rest|p1a: Registeel
+2026-08-12 13:21:19,949 |-status|p1a: Registeel|slp|[from] move: Rest
+2026-08-12 13:21:19,949 |-heal|p1a: Registeel|100/100 slp|[silent]
+2026-08-12 13:21:19,949 |
+2026-08-12 13:21:19,949 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,949 |-damage|p2a: Chatot|41/283|[from] Sandstorm
+2026-08-12 13:21:19,949 |upkeep
+2026-08-12 13:21:19,949 |turn|18
+2026-08-12 13:21:19,949 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,949 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":13,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"176/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:21:19,967 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,967 |
+2026-08-12 13:21:19,967 |t:|1786533679
+2026-08-12 13:21:19,967 |switch|p2a: Garchomp|Garchomp, L74, F|176/282
+2026-08-12 13:21:19,967 |cant|p1a: Registeel|slp
+2026-08-12 13:21:19,967 |
+2026-08-12 13:21:19,967 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,967 |-heal|p2a: Garchomp|193/282|[from] item: Leftovers
+2026-08-12 13:21:19,967 |upkeep
+2026-08-12 13:21:19,967 |turn|19
+2026-08-12 13:21:19,967 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,967 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:21:19,997 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,997 |
+2026-08-12 13:21:19,997 |t:|1786533679
+2026-08-12 13:21:19,997 |switch|p2a: Spinda|Spinda, M|282/282
+2026-08-12 13:21:19,997 |cant|p1a: Registeel|slp
+2026-08-12 13:21:19,997 |
+2026-08-12 13:21:19,997 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:19,997 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:19,997 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:19,997 |upkeep
+2026-08-12 13:21:19,997 |turn|20
+2026-08-12 13:21:19,998 >battle-gen4randombattle-324932
+2026-08-12 13:21:19,998 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:21:20,028 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,028 |
+2026-08-12 13:21:20,028 |t:|1786533680
+2026-08-12 13:21:20,028 |move|p2a: Spinda|Protect|p2a: Spinda
+2026-08-12 13:21:20,028 |-singleturn|p2a: Spinda|Protect
+2026-08-12 13:21:20,028 |-curestatus|p1a: Registeel|slp|[msg]
+2026-08-12 13:21:20,028 |move|p1a: Registeel|Rest|p1a: Registeel
+2026-08-12 13:21:20,028 |-fail|p1a: Registeel|heal
+2026-08-12 13:21:20,028 |
+2026-08-12 13:21:20,028 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,028 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,028 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,028 |upkeep
+2026-08-12 13:21:20,028 |turn|21
+2026-08-12 13:21:20,029 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,029 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:21:20,066 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,066 |
+2026-08-12 13:21:20,066 |t:|1786533680
+2026-08-12 13:21:20,066 |move|p2a: Spinda|Wish|p2a: Spinda
+2026-08-12 13:21:20,066 |move|p1a: Registeel|Rest|p1a: Registeel
+2026-08-12 13:21:20,066 |-fail|p1a: Registeel|heal
+2026-08-12 13:21:20,066 |
+2026-08-12 13:21:20,066 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,066 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,066 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,066 |upkeep
+2026-08-12 13:21:20,066 |turn|22
+2026-08-12 13:21:20,066 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,066 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:21:20,109 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,109 |
+2026-08-12 13:21:20,109 |t:|1786533680
+2026-08-12 13:21:20,109 |move|p2a: Spinda|Toxic|p1a: Registeel
+2026-08-12 13:21:20,109 |-immune|p1a: Registeel
+2026-08-12 13:21:20,109 |move|p1a: Registeel|Iron Head|p2a: Spinda
+2026-08-12 13:21:20,109 |-damage|p2a: Spinda|210/282
+2026-08-12 13:21:20,109 |
+2026-08-12 13:21:20,109 |-heal|p2a: Spinda|282/282|[from] move: Wish|[wisher] Spinda
+2026-08-12 13:21:20,109 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,109 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,109 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,109 |upkeep
+2026-08-12 13:21:20,109 |turn|23
+2026-08-12 13:21:20,109 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,109 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:21:20,141 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,141 |
+2026-08-12 13:21:20,141 |t:|1786533680
+2026-08-12 13:21:20,141 |move|p2a: Spinda|Toxic|p1a: Registeel
+2026-08-12 13:21:20,141 |-immune|p1a: Registeel
+2026-08-12 13:21:20,141 |move|p1a: Registeel|Sleep Talk||[still]
+2026-08-12 13:21:20,141 |-fail|p1a: Registeel
+2026-08-12 13:21:20,141 |
+2026-08-12 13:21:20,141 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,141 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,141 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,141 |upkeep
+2026-08-12 13:21:20,141 |turn|24
+2026-08-12 13:21:20,141 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,141 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:21:20,176 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,176 |
+2026-08-12 13:21:20,176 |t:|1786533680
+2026-08-12 13:21:20,176 |move|p2a: Spinda|Protect|p2a: Spinda
+2026-08-12 13:21:20,176 |-singleturn|p2a: Spinda|Protect
+2026-08-12 13:21:20,176 |move|p1a: Registeel|Curse|p1a: Registeel
+2026-08-12 13:21:20,176 |-unboost|p1a: Registeel|spe|1
+2026-08-12 13:21:20,176 |-boost|p1a: Registeel|atk|1
+2026-08-12 13:21:20,176 |-boost|p1a: Registeel|def|1
+2026-08-12 13:21:20,176 |
+2026-08-12 13:21:20,176 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,176 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,176 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,176 |upkeep
+2026-08-12 13:21:20,176 |turn|25
+2026-08-12 13:21:20,177 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,177 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:21:20,208 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,208 |
+2026-08-12 13:21:20,208 |t:|1786533680
+2026-08-12 13:21:20,208 |switch|p1a: Arceus|Arceus-Flying, L69|100/100
+2026-08-12 13:21:20,208 |move|p2a: Spinda|Protect||[still]
+2026-08-12 13:21:20,208 |-fail|p2a: Spinda
+2026-08-12 13:21:20,208 |
+2026-08-12 13:21:20,208 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,208 |-damage|p1a: Arceus|94/100|[from] Sandstorm
+2026-08-12 13:21:20,208 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,208 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,208 |upkeep
+2026-08-12 13:21:20,208 |turn|26
+2026-08-12 13:21:20,211 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,211 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:21:20,245 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,245 |
+2026-08-12 13:21:20,245 |t:|1786533680
+2026-08-12 13:21:20,245 |move|p2a: Spinda|Protect|p2a: Spinda
+2026-08-12 13:21:20,245 |-singleturn|p2a: Spinda|Protect
+2026-08-12 13:21:20,245 |move|p1a: Arceus|Calm Mind|p1a: Arceus
+2026-08-12 13:21:20,245 |-boost|p1a: Arceus|spa|1
+2026-08-12 13:21:20,245 |-boost|p1a: Arceus|spd|1
+2026-08-12 13:21:20,245 |
+2026-08-12 13:21:20,245 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,245 |-damage|p1a: Arceus|88/100|[from] Sandstorm
+2026-08-12 13:21:20,245 |-damage|p2a: Spinda|265/282|[from] Sandstorm
+2026-08-12 13:21:20,245 |-heal|p2a: Spinda|282/282|[from] item: Leftovers
+2026-08-12 13:21:20,245 |upkeep
+2026-08-12 13:21:20,245 |turn|27
+2026-08-12 13:21:20,246 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,246 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"282/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:21:20,283 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,283 |
+2026-08-12 13:21:20,283 |t:|1786533680
+2026-08-12 13:21:20,283 |move|p1a: Arceus|Earth Power|p2a: Spinda
+2026-08-12 13:21:20,283 |-damage|p2a: Spinda|198/282
+2026-08-12 13:21:20,283 |move|p2a: Spinda|Toxic|p1a: Arceus|[miss]
+2026-08-12 13:21:20,283 |-miss|p2a: Spinda|p1a: Arceus
+2026-08-12 13:21:20,283 |
+2026-08-12 13:21:20,283 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,283 |-damage|p1a: Arceus|82/100|[from] Sandstorm
+2026-08-12 13:21:20,283 |-damage|p2a: Spinda|181/282|[from] Sandstorm
+2026-08-12 13:21:20,283 |-heal|p2a: Spinda|198/282|[from] item: Leftovers
+2026-08-12 13:21:20,283 |upkeep
+2026-08-12 13:21:20,283 |turn|28
+2026-08-12 13:21:20,283 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,283 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"198/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"301/301","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:21:20,308 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,308 |
+2026-08-12 13:21:20,308 |t:|1786533680
+2026-08-12 13:21:20,308 |switch|p2a: Carnivine|Carnivine, L97, M|301/301
+2026-08-12 13:21:20,308 |move|p1a: Arceus|Judgment|p2a: Carnivine
+2026-08-12 13:21:20,308 |-supereffective|p2a: Carnivine
+2026-08-12 13:21:20,308 |-damage|p2a: Carnivine|0 fnt
+2026-08-12 13:21:20,308 |faint|p2a: Carnivine
+2026-08-12 13:21:20,308 |
+2026-08-12 13:21:20,308 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,308 |-damage|p1a: Arceus|76/100|[from] Sandstorm
+2026-08-12 13:21:20,308 |upkeep
+2026-08-12 13:21:20,312 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,312 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":true,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"198/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":63}
+2026-08-12 13:21:20,324 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,324 |
+2026-08-12 13:21:20,324 |t:|1786533680
+2026-08-12 13:21:20,324 |switch|p2a: Spinda|Spinda, M|198/282
+2026-08-12 13:21:20,324 |turn|29
+2026-08-12 13:21:20,325 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,325 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"198/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:21:20,365 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,365 |
+2026-08-12 13:21:20,365 |t:|1786533680
+2026-08-12 13:21:20,365 |move|p1a: Arceus|Recover|p1a: Arceus
+2026-08-12 13:21:20,365 |-heal|p1a: Arceus|100/100
+2026-08-12 13:21:20,365 |move|p2a: Spinda|Seismic Toss|p1a: Arceus
+2026-08-12 13:21:20,365 |-damage|p1a: Arceus|65/100
+2026-08-12 13:21:20,365 |
+2026-08-12 13:21:20,365 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,365 |-damage|p1a: Arceus|59/100|[from] Sandstorm
+2026-08-12 13:21:20,365 |-damage|p2a: Spinda|181/282|[from] Sandstorm
+2026-08-12 13:21:20,365 |-heal|p2a: Spinda|198/282|[from] item: Leftovers
+2026-08-12 13:21:20,365 |upkeep
+2026-08-12 13:21:20,365 |turn|30
+2026-08-12 13:21:20,366 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,366 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"198/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:21:20,390 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,390 |
+2026-08-12 13:21:20,390 |t:|1786533680
+2026-08-12 13:21:20,390 |move|p1a: Arceus|Judgment|p2a: Spinda
+2026-08-12 13:21:20,390 |-damage|p2a: Spinda|24/282
+2026-08-12 13:21:20,390 |move|p2a: Spinda|Toxic|p1a: Arceus
+2026-08-12 13:21:20,390 |-status|p1a: Arceus|tox
+2026-08-12 13:21:20,390 |
+2026-08-12 13:21:20,390 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,390 |-damage|p1a: Arceus|53/100 tox|[from] Sandstorm
+2026-08-12 13:21:20,390 |-damage|p2a: Spinda|7/282|[from] Sandstorm
+2026-08-12 13:21:20,390 |-damage|p1a: Arceus|47/100 tox|[from] psn
+2026-08-12 13:21:20,390 |-heal|p2a: Spinda|24/282|[from] item: Leftovers
+2026-08-12 13:21:20,390 |upkeep
+2026-08-12 13:21:20,390 |turn|31
+2026-08-12 13:21:20,391 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,391 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"193/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:21:20,419 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,419 |
+2026-08-12 13:21:20,419 |t:|1786533680
+2026-08-12 13:21:20,419 |switch|p2a: Garchomp|Garchomp, L74, F|193/282
+2026-08-12 13:21:20,419 |move|p1a: Arceus|Calm Mind|p1a: Arceus
+2026-08-12 13:21:20,419 |-boost|p1a: Arceus|spa|1
+2026-08-12 13:21:20,419 |-boost|p1a: Arceus|spd|1
+2026-08-12 13:21:20,419 |
+2026-08-12 13:21:20,419 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,419 |-damage|p1a: Arceus|40/100 tox|[from] Sandstorm
+2026-08-12 13:21:20,419 |-damage|p1a: Arceus|28/100 tox|[from] psn
+2026-08-12 13:21:20,420 |-heal|p2a: Garchomp|210/282|[from] item: Leftovers
+2026-08-12 13:21:20,420 |upkeep
+2026-08-12 13:21:20,420 |turn|32
+2026-08-12 13:21:20,421 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,421 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"210/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:21:20,465 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,465 |
+2026-08-12 13:21:20,465 |t:|1786533680
+2026-08-12 13:21:20,465 |move|p1a: Arceus|Recover|p1a: Arceus
+2026-08-12 13:21:20,465 |-heal|p1a: Arceus|78/100 tox
+2026-08-12 13:21:20,465 |move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+2026-08-12 13:21:20,465 |-boost|p2a: Garchomp|atk|2
+2026-08-12 13:21:20,465 |
+2026-08-12 13:21:20,465 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,465 |-damage|p1a: Arceus|72/100 tox|[from] Sandstorm
+2026-08-12 13:21:20,465 |-damage|p1a: Arceus|54/100 tox|[from] psn
+2026-08-12 13:21:20,465 |-heal|p2a: Garchomp|227/282|[from] item: Leftovers
+2026-08-12 13:21:20,465 |upkeep
+2026-08-12 13:21:20,465 |turn|33
+2026-08-12 13:21:20,465 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,465 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Dragon Claw","id":"dragonclaw","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"227/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:21:20,506 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,506 |
+2026-08-12 13:21:20,506 |t:|1786533680
+2026-08-12 13:21:20,506 |move|p1a: Arceus|Judgment|p2a: Garchomp
+2026-08-12 13:21:20,506 |-damage|p2a: Garchomp|0 fnt
+2026-08-12 13:21:20,506 |faint|p2a: Garchomp
+2026-08-12 13:21:20,506 |
+2026-08-12 13:21:20,506 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,506 |-damage|p1a: Arceus|48/100 tox|[from] Sandstorm
+2026-08-12 13:21:20,506 |-damage|p1a: Arceus|24/100 tox|[from] psn
+2026-08-12 13:21:20,506 |upkeep
+2026-08-12 13:21:20,506 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,506 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":75}
+2026-08-12 13:21:20,517 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,517 |
+2026-08-12 13:21:20,517 |t:|1786533680
+2026-08-12 13:21:20,517 |switch|p2a: Chatot|Chatot, L90, M|41/283
+2026-08-12 13:21:20,517 |turn|34
+2026-08-12 13:21:20,519 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,519 |request|{"active":[{"moves":[{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Heat Wave","id":"heatwave","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hyper Voice","id":"hypervoice","pp":13,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"41/283","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:21:20,546 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,546 |
+2026-08-12 13:21:20,546 |t:|1786533680
+2026-08-12 13:21:20,546 |move|p2a: Chatot|Heat Wave|p1a: Arceus
+2026-08-12 13:21:20,546 |-damage|p1a: Arceus|8/100 tox
+2026-08-12 13:21:20,546 |-damage|p2a: Chatot|13/283|[from] item: Life Orb
+2026-08-12 13:21:20,546 |move|p1a: Arceus|Earth Power|p2a: Chatot
+2026-08-12 13:21:20,546 |-immune|p2a: Chatot
+2026-08-12 13:21:20,546 |
+2026-08-12 13:21:20,546 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,546 |-damage|p2a: Chatot|0 fnt|[from] Sandstorm
+2026-08-12 13:21:20,546 |-damage|p1a: Arceus|2/100 tox|[from] Sandstorm
+2026-08-12 13:21:20,546 |faint|p2a: Chatot
+2026-08-12 13:21:20,546 |-damage|p1a: Arceus|0 fnt|[from] psn
+2026-08-12 13:21:20,546 |faint|p1a: Arceus
+2026-08-12 13:21:20,546 |upkeep
+2026-08-12 13:21:20,547 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,547 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":true,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:21:20,563 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,563 |
+2026-08-12 13:21:20,563 |t:|1786533680
+2026-08-12 13:21:20,563 |switch|p2a: Blaziken|Blaziken, L84, M|272/272
+2026-08-12 13:21:20,563 |switch|p1a: Swellow|Swellow, L78, F|100/100
+2026-08-12 13:21:20,563 |turn|35
+2026-08-12 13:21:20,566 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,566 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Vacuum Wave","id":"vacuumwave","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"272/272","active":true,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:21:20,597 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,597 |
+2026-08-12 13:21:20,597 |t:|1786533680
+2026-08-12 13:21:20,597 |switch|p1a: Registeel|Registeel, L81|100/100
+2026-08-12 13:21:20,597 |move|p2a: Blaziken|Fire Blast|p1a: Registeel
+2026-08-12 13:21:20,597 |-supereffective|p1a: Registeel
+2026-08-12 13:21:20,597 |-damage|p1a: Registeel|10/100
+2026-08-12 13:21:20,597 |-status|p1a: Registeel|brn
+2026-08-12 13:21:20,597 |-damage|p2a: Blaziken|245/272|[from] item: Life Orb
+2026-08-12 13:21:20,597 |
+2026-08-12 13:21:20,597 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,597 |-damage|p2a: Blaziken|228/272|[from] Sandstorm
+2026-08-12 13:21:20,597 |-heal|p1a: Registeel|17/100 brn|[from] item: Leftovers
+2026-08-12 13:21:20,597 |-damage|p1a: Registeel|4/100 brn|[from] brn
+2026-08-12 13:21:20,597 |upkeep
+2026-08-12 13:21:20,598 |turn|36
+2026-08-12 13:21:20,599 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,599 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Vacuum Wave","id":"vacuumwave","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"228/272","active":true,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:21:20,620 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,620 |
+2026-08-12 13:21:20,620 |t:|1786533680
+2026-08-12 13:21:20,620 |move|p2a: Blaziken|Vacuum Wave|p1a: Registeel
+2026-08-12 13:21:20,620 |-supereffective|p1a: Registeel
+2026-08-12 13:21:20,620 |-damage|p1a: Registeel|0 fnt
+2026-08-12 13:21:20,620 |faint|p1a: Registeel
+2026-08-12 13:21:20,620 |-damage|p2a: Blaziken|201/272|[from] item: Life Orb
+2026-08-12 13:21:20,620 |
+2026-08-12 13:21:20,620 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,620 |-damage|p2a: Blaziken|184/272|[from] Sandstorm
+2026-08-12 13:21:20,620 |upkeep
+2026-08-12 13:21:20,621 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,621 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"184/272","active":true,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:21:20,641 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,641 |
+2026-08-12 13:21:20,641 |t:|1786533680
+2026-08-12 13:21:20,641 |switch|p1a: Swellow|Swellow, L78, F|100/100
+2026-08-12 13:21:20,641 |turn|37
+2026-08-12 13:21:20,643 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,643 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Vacuum Wave","id":"vacuumwave","pp":47,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"184/272","active":true,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:21:20,666 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,666 |
+2026-08-12 13:21:20,666 |t:|1786533680
+2026-08-12 13:21:20,666 |move|p1a: Swellow|Brave Bird|p2a: Blaziken
+2026-08-12 13:21:20,666 |-supereffective|p2a: Blaziken
+2026-08-12 13:21:20,666 |-damage|p2a: Blaziken|0 fnt
+2026-08-12 13:21:20,666 |faint|p2a: Blaziken
+2026-08-12 13:21:20,666 |-damage|p1a: Swellow|73/100|[from] Recoil
+2026-08-12 13:21:20,666 |
+2026-08-12 13:21:20,666 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:21:20,666 |-damage|p1a: Swellow|67/100|[from] Sandstorm
+2026-08-12 13:21:20,666 |-status|p1a: Swellow|tox|[from] item: Toxic Orb
+2026-08-12 13:21:20,666 |upkeep
+2026-08-12 13:21:20,667 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,667 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"0 fnt","active":true,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":false,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":89}
+2026-08-12 13:21:20,681 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,681 |
+2026-08-12 13:21:20,681 |t:|1786533680
+2026-08-12 13:21:20,681 |switch|p2a: Spinda|Spinda, M|24/282
+2026-08-12 13:21:20,681 |turn|38
+2026-08-12 13:21:20,682 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,682 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Spinda","details":"Spinda, M","condition":"24/282","active":true,"stats":{"atk":125,"def":177,"spa":177,"spd":177,"spe":177},"moves":["seismictoss","toxic","wish","protect"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Carnivine","details":"Carnivine, L97, M","condition":"0 fnt","active":false,"stats":{"atk":249,"def":195,"spa":230,"spd":195,"spe":144},"moves":["synthesis","swordsdance","powerwhip","sleeppowder"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blaziken","details":"Blaziken, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":166,"spa":233,"spd":166,"spe":183},"moves":["fireblast","stoneedge","superpower","vacuumwave"],"baseAbility":"blaze","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Charizard","details":"Charizard, L79, M","condition":"0 fnt","active":false,"stats":{"atk":139,"def":169,"spa":217,"spd":180,"spe":204},"moves":["fireblast","dragonpulse","hiddenpowergrass","airslash"],"baseAbility":"blaze","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["earthquake","substitute","swordsdance","dragonclaw"],"baseAbility":"sandveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Chatot","details":"Chatot, L90, M","condition":"0 fnt","active":false,"stats":{"atk":123,"def":132,"spa":216,"spd":127,"spe":215},"moves":["nastyplot","hiddenpowergrass","heatwave","hypervoice"],"baseAbility":"tangledfeet","item":"lifeorb","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:21:20,714 >battle-gen4randombattle-324932
+2026-08-12 13:21:20,714 |
+2026-08-12 13:21:20,714 |t:|1786533680
+2026-08-12 13:21:20,714 |move|p1a: Swellow|Brave Bird|p2a: Spinda
+2026-08-12 13:21:20,714 |-damage|p2a: Spinda|0 fnt
+2026-08-12 13:21:20,714 |faint|p2a: Spinda
+2026-08-12 13:21:20,714 |-damage|p1a: Swellow|64/100 tox|[from] Recoil
+2026-08-12 13:21:20,714 |
+2026-08-12 13:21:20,714 |win|BOT5
+2026-08-12 14:01:20,715 >battle-gen4randombattle-324932
+2026-08-12 14:01:20,715 |expire|
+2026-08-12 14:01:20,721 >battle-gen4randombattle-324932
+2026-08-12 14:01:20,721 |L|☆BOT5
+2026-08-12 14:01:20,721 >battle-gen4randombattle-324932
+2026-08-12 14:01:20,721 |deinit

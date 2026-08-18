@@ -1,0 +1,631 @@
+2026-08-12 13:13:20,045 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,045 |init|battle
+2026-08-12 13:13:20,046 |title|BOT7 vs. BOT8
+2026-08-12 13:13:20,046 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-323989">battle-gen4randombattle-323989</a>&raquo;
+2026-08-12 13:13:20,086 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,086 |t:|1786533200
+2026-08-12 13:13:20,086 |gametype|singles
+2026-08-12 13:13:20,088 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,088 |player|p1|BOT7|169|
+2026-08-12 13:13:20,088 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,088 |player|p2|BOT8|102|
+2026-08-12 13:13:20,088 |gen|4
+2026-08-12 13:13:20,088 |tier|[Gen 4] Random Battle
+2026-08-12 13:13:20,088 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:13:20,088 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:13:20,088 |
+2026-08-12 13:13:20,088 |t:|1786533200
+2026-08-12 13:13:20,088 |teamsize|p1|6
+2026-08-12 13:13:20,088 |teamsize|p2|6
+2026-08-12 13:13:20,088 |start
+2026-08-12 13:13:20,088 |switch|p1a: Weavile|Weavile, L75, F|100/100
+2026-08-12 13:13:20,088 |switch|p2a: Luxray|Luxray, L86, M|278/278
+2026-08-12 13:13:20,088 |-ability|p1a: Weavile|Pressure
+2026-08-12 13:13:20,089 |-ability|p2a: Luxray|Intimidate|boost
+2026-08-12 13:13:20,089 |-unboost|p1a: Weavile|atk|1
+2026-08-12 13:13:20,089 |turn|1
+2026-08-12 13:13:20,089 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,089 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"278/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"258/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:13:20,116 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,116 |
+2026-08-12 13:13:20,116 |t:|1786533200
+2026-08-12 13:13:20,116 |move|p1a: Weavile|Night Slash|p2a: Luxray
+2026-08-12 13:13:20,116 |-damage|p2a: Luxray|206/278
+2026-08-12 13:13:20,116 |-damage|p1a: Weavile|91/100|[from] item: Life Orb
+2026-08-12 13:13:20,116 |move|p2a: Luxray|Thunderbolt|p1a: Weavile
+2026-08-12 13:13:20,116 |-damage|p1a: Weavile|40/100
+2026-08-12 13:13:20,116 |
+2026-08-12 13:13:20,116 |-heal|p2a: Luxray|223/278|[from] item: Leftovers
+2026-08-12 13:13:20,116 |upkeep
+2026-08-12 13:13:20,116 |turn|2
+2026-08-12 13:13:20,118 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,118 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"223/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"258/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:13:20,133 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,133 |
+2026-08-12 13:13:20,133 |t:|1786533200
+2026-08-12 13:13:20,133 |move|p2a: Luxray|Protect|p2a: Luxray
+2026-08-12 13:13:20,133 |-singleturn|p2a: Luxray|Protect
+2026-08-12 13:13:20,133 |move|p1a: Weavile|Ice Shard|p2a: Luxray
+2026-08-12 13:13:20,133 |-activate|p2a: Luxray|Protect
+2026-08-12 13:13:20,133 |
+2026-08-12 13:13:20,133 |-heal|p2a: Luxray|240/278|[from] item: Leftovers
+2026-08-12 13:13:20,133 |upkeep
+2026-08-12 13:13:20,133 |turn|3
+2026-08-12 13:13:20,142 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,142 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"240/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"258/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:13:20,170 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,170 |
+2026-08-12 13:13:20,170 |t:|1786533200
+2026-08-12 13:13:20,170 |move|p1a: Weavile|Ice Punch|p2a: Luxray
+2026-08-12 13:13:20,170 |-damage|p2a: Luxray|170/278
+2026-08-12 13:13:20,170 |-damage|p1a: Weavile|30/100|[from] item: Life Orb
+2026-08-12 13:13:20,170 |move|p2a: Luxray|Toxic|p1a: Weavile
+2026-08-12 13:13:20,170 |-status|p1a: Weavile|tox
+2026-08-12 13:13:20,170 |
+2026-08-12 13:13:20,170 |-damage|p1a: Weavile|24/100 tox|[from] psn
+2026-08-12 13:13:20,170 |-heal|p2a: Luxray|187/278|[from] item: Leftovers
+2026-08-12 13:13:20,170 |upkeep
+2026-08-12 13:13:20,170 |turn|4
+2026-08-12 13:13:20,172 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,172 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"258/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:13:20,204 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,204 |
+2026-08-12 13:13:20,204 |t:|1786533200
+2026-08-12 13:13:20,204 |switch|p2a: Lopunny|Lopunny, L88, M|258/258
+2026-08-12 13:13:20,204 |move|p1a: Weavile|Ice Shard|p2a: Lopunny
+2026-08-12 13:13:20,204 |-damage|p2a: Lopunny|224/258
+2026-08-12 13:13:20,204 |-damage|p1a: Weavile|14/100 tox|[from] item: Life Orb
+2026-08-12 13:13:20,204 |
+2026-08-12 13:13:20,204 |-heal|p2a: Lopunny|240/258|[from] item: Leftovers
+2026-08-12 13:13:20,204 |-damage|p1a: Weavile|2/100 tox|[from] psn
+2026-08-12 13:13:20,204 |upkeep
+2026-08-12 13:13:20,204 |turn|5
+2026-08-12 13:13:20,205 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,205 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"240/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:13:20,225 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,225 |
+2026-08-12 13:13:20,225 |t:|1786533200
+2026-08-12 13:13:20,225 |move|p2a: Lopunny|Encore|p1a: Weavile
+2026-08-12 13:13:20,225 |-start|p1a: Weavile|Encore
+2026-08-12 13:13:20,225 |move|p1a: Weavile|Ice Shard|p2a: Lopunny
+2026-08-12 13:13:20,225 |-damage|p2a: Lopunny|207/258
+2026-08-12 13:13:20,225 |-damage|p1a: Weavile|0 fnt|[from] item: Life Orb
+2026-08-12 13:13:20,225 |faint|p1a: Weavile
+2026-08-12 13:13:20,225 |
+2026-08-12 13:13:20,225 |-heal|p2a: Lopunny|223/258|[from] item: Leftovers
+2026-08-12 13:13:20,225 |upkeep
+2026-08-12 13:13:20,227 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,227 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"223/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:13:20,245 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,245 |
+2026-08-12 13:13:20,245 |t:|1786533200
+2026-08-12 13:13:20,245 |switch|p1a: Kecleon|Kecleon, L93, F|100/100
+2026-08-12 13:13:20,245 |turn|6
+2026-08-12 13:13:20,246 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,246 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"223/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:13:20,277 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,278 |
+2026-08-12 13:13:20,278 |t:|1786533200
+2026-08-12 13:13:20,278 |move|p2a: Lopunny|Sky Uppercut|p1a: Kecleon
+2026-08-12 13:13:20,278 |-supereffective|p1a: Kecleon
+2026-08-12 13:13:20,278 |-damage|p1a: Kecleon|56/100
+2026-08-12 13:13:20,278 |-start|p1a: Kecleon|typechange|Fighting|[from] ability: Color Change
+2026-08-12 13:13:20,278 |move|p1a: Kecleon|Recover|p1a: Kecleon
+2026-08-12 13:13:20,278 |-heal|p1a: Kecleon|100/100
+2026-08-12 13:13:20,278 |
+2026-08-12 13:13:20,278 |-heal|p2a: Lopunny|239/258|[from] item: Leftovers
+2026-08-12 13:13:20,278 |upkeep
+2026-08-12 13:13:20,278 |turn|7
+2026-08-12 13:13:20,278 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,278 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:13:20,296 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,296 |
+2026-08-12 13:13:20,296 |t:|1786533200
+2026-08-12 13:13:20,296 |switch|p2a: Cloyster|Cloyster, L86, F|226/226
+2026-08-12 13:13:20,296 |switch|p1a: Luxray|Luxray, L86, F|100/100
+2026-08-12 13:13:20,296 |-ability|p1a: Luxray|Intimidate|boost
+2026-08-12 13:13:20,296 |-unboost|p2a: Cloyster|atk|1
+2026-08-12 13:13:20,296 |
+2026-08-12 13:13:20,296 |upkeep
+2026-08-12 13:13:20,296 |turn|8
+2026-08-12 13:13:20,296 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,296 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"226/226","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:13:20,318 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,318 |
+2026-08-12 13:13:20,318 |t:|1786533200
+2026-08-12 13:13:20,318 |switch|p1a: Kecleon|Kecleon, L93, F|100/100
+2026-08-12 13:13:20,318 |move|p2a: Cloyster|Explosion|p1a: Kecleon
+2026-08-12 13:13:20,318 |-damage|p1a: Kecleon|4/100
+2026-08-12 13:13:20,318 |faint|p2a: Cloyster
+2026-08-12 13:13:20,318 |
+2026-08-12 13:13:20,318 |-heal|p1a: Kecleon|10/100|[from] item: Leftovers
+2026-08-12 13:13:20,318 |upkeep
+2026-08-12 13:13:20,318 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,318 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":true,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":21}
+2026-08-12 13:13:20,332 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,332 |
+2026-08-12 13:13:20,332 |t:|1786533200
+2026-08-12 13:13:20,332 |switch|p2a: Metagross|Metagross, L77|250/250
+2026-08-12 13:13:20,332 |turn|9
+2026-08-12 13:13:20,332 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,332 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Zen Headbutt","id":"zenheadbutt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Meteor Mash","id":"meteormash","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Metagross","details":"Metagross, L77","condition":"250/250","active":true,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:13:20,348 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,348 |
+2026-08-12 13:13:20,348 |t:|1786533200
+2026-08-12 13:13:20,348 |move|p2a: Metagross|Explosion|p1a: Kecleon
+2026-08-12 13:13:20,348 |-damage|p1a: Kecleon|0 fnt
+2026-08-12 13:13:20,348 |faint|p2a: Metagross
+2026-08-12 13:13:20,348 |faint|p1a: Kecleon
+2026-08-12 13:13:20,348 |
+2026-08-12 13:13:20,348 |upkeep
+2026-08-12 13:13:20,350 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,350 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":true,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:13:20,369 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,369 |
+2026-08-12 13:13:20,369 |t:|1786533200
+2026-08-12 13:13:20,369 |switch|p2a: Tyranitar|Tyranitar, L75, M|274/274
+2026-08-12 13:13:20,370 |switch|p1a: Gliscor|Gliscor, L80, F|100/100
+2026-08-12 13:13:20,370 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+2026-08-12 13:13:20,370 |turn|10
+2026-08-12 13:13:20,370 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,370 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"274/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:13:20,382 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,382 |
+2026-08-12 13:13:20,382 |t:|1786533200
+2026-08-12 13:13:20,382 |move|p1a: Gliscor|U-turn|p2a: Tyranitar
+2026-08-12 13:13:20,382 |-supereffective|p2a: Tyranitar
+2026-08-12 13:13:20,382 |-damage|p2a: Tyranitar|186/274
+2026-08-12 13:13:20,383 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,383 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"186/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:13:20,396 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,396 |
+2026-08-12 13:13:20,396 |t:|1786533200
+2026-08-12 13:13:20,396 |switch|p1a: Chatot|Chatot, L90, F|100/100|[from] U-turn
+2026-08-12 13:13:20,396 |move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+2026-08-12 13:13:20,396 |-boost|p2a: Tyranitar|atk|1
+2026-08-12 13:13:20,396 |-boost|p2a: Tyranitar|spe|1
+2026-08-12 13:13:20,396 |
+2026-08-12 13:13:20,396 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,396 |-damage|p1a: Chatot|94/100|[from] Sandstorm
+2026-08-12 13:13:20,396 |-heal|p2a: Tyranitar|203/274|[from] item: Leftovers
+2026-08-12 13:13:20,396 |upkeep
+2026-08-12 13:13:20,397 |turn|11
+2026-08-12 13:13:20,397 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,397 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:13:20,410 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,410 |
+2026-08-12 13:13:20,410 |t:|1786533200
+2026-08-12 13:13:20,410 |switch|p1a: Gliscor|Gliscor, L80, F|100/100
+2026-08-12 13:13:20,410 |switch|p2a: Lopunny|Lopunny, L88, M|239/258
+2026-08-12 13:13:20,410 |
+2026-08-12 13:13:20,410 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,410 |-damage|p2a: Lopunny|223/258|[from] Sandstorm
+2026-08-12 13:13:20,410 |-heal|p2a: Lopunny|239/258|[from] item: Leftovers
+2026-08-12 13:13:20,410 |upkeep
+2026-08-12 13:13:20,410 |turn|12
+2026-08-12 13:13:20,411 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,411 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"239/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:13:20,430 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,430 |
+2026-08-12 13:13:20,430 |t:|1786533200
+2026-08-12 13:13:20,430 |move|p2a: Lopunny|Sky Uppercut|p1a: Gliscor
+2026-08-12 13:13:20,430 |-resisted|p1a: Gliscor
+2026-08-12 13:13:20,430 |-damage|p1a: Gliscor|91/100
+2026-08-12 13:13:20,430 |move|p1a: Gliscor|U-turn|p2a: Lopunny
+2026-08-12 13:13:20,430 |-damage|p2a: Lopunny|197/258
+2026-08-12 13:13:20,430 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,430 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"197/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:13:20,444 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,444 |
+2026-08-12 13:13:20,444 |t:|1786533200
+2026-08-12 13:13:20,444 |switch|p1a: Chatot|Chatot, L90, F|94/100|[from] U-turn
+2026-08-12 13:13:20,445 |
+2026-08-12 13:13:20,445 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,445 |-damage|p2a: Lopunny|181/258|[from] Sandstorm
+2026-08-12 13:13:20,445 |-damage|p1a: Chatot|88/100|[from] Sandstorm
+2026-08-12 13:13:20,445 |-heal|p2a: Lopunny|197/258|[from] item: Leftovers
+2026-08-12 13:13:20,445 |upkeep
+2026-08-12 13:13:20,445 |turn|13
+2026-08-12 13:13:20,445 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,445 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"197/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:13:20,467 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,467 |
+2026-08-12 13:13:20,467 |t:|1786533200
+2026-08-12 13:13:20,467 |move|p2a: Lopunny|Thunder Wave|p1a: Chatot
+2026-08-12 13:13:20,467 |-status|p1a: Chatot|par
+2026-08-12 13:13:20,467 |cant|p1a: Chatot|par
+2026-08-12 13:13:20,467 |
+2026-08-12 13:13:20,467 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,467 |-damage|p2a: Lopunny|181/258|[from] Sandstorm
+2026-08-12 13:13:20,467 |-damage|p1a: Chatot|82/100 par|[from] Sandstorm
+2026-08-12 13:13:20,467 |-heal|p2a: Lopunny|197/258|[from] item: Leftovers
+2026-08-12 13:13:20,467 |upkeep
+2026-08-12 13:13:20,467 |turn|14
+2026-08-12 13:13:20,467 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,467 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"197/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:13:20,489 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,489 |
+2026-08-12 13:13:20,489 |t:|1786533200
+2026-08-12 13:13:20,489 |move|p2a: Lopunny|Thunder Wave|p1a: Chatot
+2026-08-12 13:13:20,489 |-fail|p1a: Chatot|par
+2026-08-12 13:13:20,489 |move|p1a: Chatot|Hidden Power|p2a: Lopunny
+2026-08-12 13:13:20,489 |-damage|p2a: Lopunny|117/258
+2026-08-12 13:13:20,489 |
+2026-08-12 13:13:20,489 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,489 |-damage|p2a: Lopunny|101/258|[from] Sandstorm
+2026-08-12 13:13:20,489 |-damage|p1a: Chatot|76/100 par|[from] Sandstorm
+2026-08-12 13:13:20,489 |-heal|p2a: Lopunny|117/258|[from] item: Leftovers
+2026-08-12 13:13:20,489 |upkeep
+2026-08-12 13:13:20,489 |turn|15
+2026-08-12 13:13:20,489 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,489 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"117/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:13:20,509 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,509 |
+2026-08-12 13:13:20,509 |t:|1786533200
+2026-08-12 13:13:20,509 |switch|p1a: Luxray|Luxray, L86, F|100/100
+2026-08-12 13:13:20,509 |-ability|p1a: Luxray|Intimidate|boost
+2026-08-12 13:13:20,509 |-unboost|p2a: Lopunny|atk|1
+2026-08-12 13:13:20,509 |move|p2a: Lopunny|Return|p1a: Luxray
+2026-08-12 13:13:20,509 |-damage|p1a: Luxray|76/100
+2026-08-12 13:13:20,509 |
+2026-08-12 13:13:20,509 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,509 |-damage|p2a: Lopunny|101/258|[from] Sandstorm
+2026-08-12 13:13:20,509 |-damage|p1a: Luxray|70/100|[from] Sandstorm
+2026-08-12 13:13:20,509 |-heal|p2a: Lopunny|117/258|[from] item: Leftovers
+2026-08-12 13:13:20,509 |-heal|p1a: Luxray|76/100|[from] item: Leftovers
+2026-08-12 13:13:20,509 |upkeep
+2026-08-12 13:13:20,509 |turn|16
+2026-08-12 13:13:20,510 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,510 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"117/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:13:20,566 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,566 |
+2026-08-12 13:13:20,566 |t:|1786533200
+2026-08-12 13:13:20,566 |move|p2a: Lopunny|Thunder Wave|p1a: Luxray
+2026-08-12 13:13:20,566 |-status|p1a: Luxray|par
+2026-08-12 13:13:20,566 |move|p1a: Luxray|Ice Fang|p2a: Lopunny
+2026-08-12 13:13:20,566 |-damage|p2a: Lopunny|64/258
+2026-08-12 13:13:20,566 |
+2026-08-12 13:13:20,566 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,566 |-damage|p2a: Lopunny|48/258|[from] Sandstorm
+2026-08-12 13:13:20,566 |-damage|p1a: Luxray|70/100 par|[from] Sandstorm
+2026-08-12 13:13:20,566 |-heal|p2a: Lopunny|64/258|[from] item: Leftovers
+2026-08-12 13:13:20,566 |-heal|p1a: Luxray|76/100 par|[from] item: Leftovers
+2026-08-12 13:13:20,566 |upkeep
+2026-08-12 13:13:20,566 |turn|17
+2026-08-12 13:13:20,568 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,568 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"64/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:13:20,591 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,591 |
+2026-08-12 13:13:20,591 |t:|1786533200
+2026-08-12 13:13:20,591 |move|p2a: Lopunny|Thunder Wave|p1a: Luxray
+2026-08-12 13:13:20,591 |-fail|p1a: Luxray|par
+2026-08-12 13:13:20,591 |cant|p1a: Luxray|par
+2026-08-12 13:13:20,591 |
+2026-08-12 13:13:20,591 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,591 |-damage|p2a: Lopunny|48/258|[from] Sandstorm
+2026-08-12 13:13:20,591 |-damage|p1a: Luxray|70/100 par|[from] Sandstorm
+2026-08-12 13:13:20,592 |-heal|p2a: Lopunny|64/258|[from] item: Leftovers
+2026-08-12 13:13:20,592 |-heal|p1a: Luxray|76/100 par|[from] item: Leftovers
+2026-08-12 13:13:20,592 |upkeep
+2026-08-12 13:13:20,592 |turn|18
+2026-08-12 13:13:20,592 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,592 |request|{"active":[{"moves":[{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Sky Uppercut","id":"skyuppercut","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"64/258","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:13:20,630 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,630 |
+2026-08-12 13:13:20,630 |t:|1786533200
+2026-08-12 13:13:20,630 |move|p2a: Lopunny|Return|p1a: Luxray
+2026-08-12 13:13:20,630 |-damage|p1a: Luxray|52/100 par
+2026-08-12 13:13:20,630 |move|p1a: Luxray|Ice Fang|p2a: Lopunny
+2026-08-12 13:13:20,630 |-crit|p2a: Lopunny
+2026-08-12 13:13:20,630 |-damage|p2a: Lopunny|0 fnt
+2026-08-12 13:13:20,630 |faint|p2a: Lopunny
+2026-08-12 13:13:20,630 |
+2026-08-12 13:13:20,630 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,630 |-damage|p1a: Luxray|45/100 par|[from] Sandstorm
+2026-08-12 13:13:20,630 |-heal|p1a: Luxray|52/100 par|[from] item: Leftovers
+2026-08-12 13:13:20,630 |upkeep
+2026-08-12 13:13:20,631 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,631 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":true,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":49}
+2026-08-12 13:13:20,653 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,653 |
+2026-08-12 13:13:20,653 |t:|1786533200
+2026-08-12 13:13:20,653 |switch|p2a: Luxray|Luxray, L86, M|187/278
+2026-08-12 13:13:20,653 |-ability|p2a: Luxray|Intimidate|boost
+2026-08-12 13:13:20,653 |-unboost|p1a: Luxray|atk|1
+2026-08-12 13:13:20,653 |turn|19
+2026-08-12 13:13:20,653 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,653 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"187/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:13:20,677 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,677 |
+2026-08-12 13:13:20,677 |t:|1786533200
+2026-08-12 13:13:20,677 |move|p2a: Luxray|Toxic||[still]
+2026-08-12 13:13:20,677 |-fail|p2a: Luxray
+2026-08-12 13:13:20,677 |move|p1a: Luxray|Superpower|p2a: Luxray
+2026-08-12 13:13:20,677 |-damage|p2a: Luxray|118/278
+2026-08-12 13:13:20,677 |-unboost|p1a: Luxray|atk|1
+2026-08-12 13:13:20,677 |-unboost|p1a: Luxray|def|1
+2026-08-12 13:13:20,677 |
+2026-08-12 13:13:20,677 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,677 |-damage|p2a: Luxray|101/278|[from] Sandstorm
+2026-08-12 13:13:20,677 |-damage|p1a: Luxray|45/100 par|[from] Sandstorm
+2026-08-12 13:13:20,677 |-heal|p2a: Luxray|118/278|[from] item: Leftovers
+2026-08-12 13:13:20,677 |-heal|p1a: Luxray|52/100 par|[from] item: Leftovers
+2026-08-12 13:13:20,677 |upkeep
+2026-08-12 13:13:20,677 |turn|20
+2026-08-12 13:13:20,678 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,678 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"118/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"203/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:13:20,704 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,704 |
+2026-08-12 13:13:20,704 |t:|1786533200
+2026-08-12 13:13:20,704 |switch|p2a: Tyranitar|Tyranitar, L75, M|203/274
+2026-08-12 13:13:20,704 |move|p1a: Luxray|Ice Fang|p2a: Tyranitar
+2026-08-12 13:13:20,704 |-damage|p2a: Tyranitar|176/274
+2026-08-12 13:13:20,704 |
+2026-08-12 13:13:20,704 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,704 |-damage|p1a: Luxray|45/100 par|[from] Sandstorm
+2026-08-12 13:13:20,704 |-heal|p2a: Tyranitar|193/274|[from] item: Leftovers
+2026-08-12 13:13:20,704 |-heal|p1a: Luxray|52/100 par|[from] item: Leftovers
+2026-08-12 13:13:20,704 |upkeep
+2026-08-12 13:13:20,704 |turn|21
+2026-08-12 13:13:20,707 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,707 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"193/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"118/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:13:20,736 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,736 |
+2026-08-12 13:13:20,736 |t:|1786533200
+2026-08-12 13:13:20,736 |move|p2a: Tyranitar|Crunch|p1a: Luxray
+2026-08-12 13:13:20,736 |-damage|p1a: Luxray|3/100 par
+2026-08-12 13:13:20,736 |move|p1a: Luxray|Toxic|p2a: Tyranitar
+2026-08-12 13:13:20,736 |-status|p2a: Tyranitar|tox
+2026-08-12 13:13:20,736 |
+2026-08-12 13:13:20,736 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,736 |-damage|p1a: Luxray|0 fnt|[from] Sandstorm
+2026-08-12 13:13:20,736 |faint|p1a: Luxray
+2026-08-12 13:13:20,736 |-heal|p2a: Tyranitar|210/274 tox|[from] item: Leftovers
+2026-08-12 13:13:20,736 |-damage|p2a: Tyranitar|193/274 tox|[from] psn
+2026-08-12 13:13:20,736 |upkeep
+2026-08-12 13:13:20,737 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,737 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"193/274 tox","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"118/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:13:20,749 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,749 |
+2026-08-12 13:13:20,749 |t:|1786533200
+2026-08-12 13:13:20,749 |switch|p1a: Chatot|Chatot, L90, F|76/100 par
+2026-08-12 13:13:20,749 |turn|22
+2026-08-12 13:13:20,751 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,752 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"193/274 tox","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"118/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:13:20,790 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,790 |
+2026-08-12 13:13:20,790 |t:|1786533200
+2026-08-12 13:13:20,790 |switch|p2a: Uxie|Uxie, L76|239/239
+2026-08-12 13:13:20,790 |move|p1a: Chatot|Chatter|p2a: Uxie
+2026-08-12 13:13:20,790 |-damage|p2a: Uxie|155/239
+2026-08-12 13:13:20,790 |
+2026-08-12 13:13:20,790 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,790 |-damage|p2a: Uxie|141/239|[from] Sandstorm
+2026-08-12 13:13:20,790 |-damage|p1a: Chatot|70/100 par|[from] Sandstorm
+2026-08-12 13:13:20,790 |-heal|p2a: Uxie|155/239|[from] item: Leftovers
+2026-08-12 13:13:20,790 |upkeep
+2026-08-12 13:13:20,790 |turn|23
+2026-08-12 13:13:20,790 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,790 |request|{"active":[{"moves":[{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"155/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"118/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"193/274 tox","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:13:20,819 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,819 |
+2026-08-12 13:13:20,819 |t:|1786533200
+2026-08-12 13:13:20,819 |move|p2a: Uxie|Heal Bell|p2a: Uxie
+2026-08-12 13:13:20,819 |-activate|p2a: Uxie|move: Heal Bell
+2026-08-12 13:13:20,819 |-curestatus|p2: Tyranitar|tox|[silent]
+2026-08-12 13:13:20,819 |move|p1a: Chatot|Chatter|p2a: Uxie
+2026-08-12 13:13:20,819 |-damage|p2a: Uxie|67/239
+2026-08-12 13:13:20,819 |-start|p2a: Uxie|confusion
+2026-08-12 13:13:20,819 |
+2026-08-12 13:13:20,819 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,819 |-damage|p2a: Uxie|53/239|[from] Sandstorm
+2026-08-12 13:13:20,819 |-damage|p1a: Chatot|64/100 par|[from] Sandstorm
+2026-08-12 13:13:20,819 |-heal|p2a: Uxie|67/239|[from] item: Leftovers
+2026-08-12 13:13:20,819 |upkeep
+2026-08-12 13:13:20,820 |turn|24
+2026-08-12 13:13:20,820 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,820 |request|{"active":[{"moves":[{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"118/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"193/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:13:20,849 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,849 |
+2026-08-12 13:13:20,849 |t:|1786533200
+2026-08-12 13:13:20,849 |switch|p2a: Luxray|Luxray, L86, M|118/278
+2026-08-12 13:13:20,849 |-ability|p2a: Luxray|Intimidate|boost
+2026-08-12 13:13:20,849 |-unboost|p1a: Chatot|atk|1
+2026-08-12 13:13:20,849 |move|p1a: Chatot|Chatter|p2a: Luxray
+2026-08-12 13:13:20,849 |-resisted|p2a: Luxray
+2026-08-12 13:13:20,849 |-damage|p2a: Luxray|61/278
+2026-08-12 13:13:20,849 |
+2026-08-12 13:13:20,849 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,849 |-damage|p2a: Luxray|44/278|[from] Sandstorm
+2026-08-12 13:13:20,849 |-damage|p1a: Chatot|58/100 par|[from] Sandstorm
+2026-08-12 13:13:20,849 |-heal|p2a: Luxray|61/278|[from] item: Leftovers
+2026-08-12 13:13:20,849 |upkeep
+2026-08-12 13:13:20,849 |turn|25
+2026-08-12 13:13:20,853 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,853 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":true,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"193/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:13:20,878 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,878 |
+2026-08-12 13:13:20,878 |t:|1786533200
+2026-08-12 13:13:20,878 |switch|p2a: Tyranitar|Tyranitar, L75, M|193/274
+2026-08-12 13:13:20,878 |cant|p1a: Chatot|par
+2026-08-12 13:13:20,878 |
+2026-08-12 13:13:20,878 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,878 |-damage|p1a: Chatot|52/100 par|[from] Sandstorm
+2026-08-12 13:13:20,878 |-heal|p2a: Tyranitar|210/274|[from] item: Leftovers
+2026-08-12 13:13:20,879 |upkeep
+2026-08-12 13:13:20,879 |turn|26
+2026-08-12 13:13:20,879 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,879 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"210/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:13:20,906 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,906 |
+2026-08-12 13:13:20,906 |t:|1786533200
+2026-08-12 13:13:20,906 |move|p2a: Tyranitar|Ice Punch|p1a: Chatot
+2026-08-12 13:13:20,906 |-supereffective|p1a: Chatot
+2026-08-12 13:13:20,906 |-damage|p1a: Chatot|0 fnt
+2026-08-12 13:13:20,906 |faint|p1a: Chatot
+2026-08-12 13:13:20,906 |
+2026-08-12 13:13:20,906 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,906 |-heal|p2a: Tyranitar|227/274|[from] item: Leftovers
+2026-08-12 13:13:20,906 |upkeep
+2026-08-12 13:13:20,908 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,908 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"227/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:13:20,927 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,927 |
+2026-08-12 13:13:20,927 |t:|1786533200
+2026-08-12 13:13:20,927 |switch|p1a: Floatzel|Floatzel, L82, M|100/100
+2026-08-12 13:13:20,927 |turn|27
+2026-08-12 13:13:20,930 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,930 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"227/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:13:20,965 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,965 |
+2026-08-12 13:13:20,965 |t:|1786533200
+2026-08-12 13:13:20,965 |move|p1a: Floatzel|Waterfall|p2a: Tyranitar
+2026-08-12 13:13:20,965 |-supereffective|p2a: Tyranitar
+2026-08-12 13:13:20,965 |-damage|p2a: Tyranitar|59/274
+2026-08-12 13:13:20,965 |move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+2026-08-12 13:13:20,965 |-boost|p2a: Tyranitar|atk|1
+2026-08-12 13:13:20,965 |-boost|p2a: Tyranitar|spe|1
+2026-08-12 13:13:20,965 |
+2026-08-12 13:13:20,965 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,965 |-damage|p1a: Floatzel|94/100|[from] Sandstorm
+2026-08-12 13:13:20,965 |-heal|p1a: Floatzel|100/100|[from] item: Leftovers
+2026-08-12 13:13:20,965 |-heal|p2a: Tyranitar|76/274|[from] item: Leftovers
+2026-08-12 13:13:20,965 |upkeep
+2026-08-12 13:13:20,965 |turn|28
+2026-08-12 13:13:20,966 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,966 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"76/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:13:20,998 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,998 |
+2026-08-12 13:13:20,998 |t:|1786533200
+2026-08-12 13:13:20,998 |move|p1a: Floatzel|Ice Punch|p2a: Tyranitar
+2026-08-12 13:13:20,998 |-damage|p2a: Tyranitar|27/274
+2026-08-12 13:13:20,998 |-status|p2a: Tyranitar|frz
+2026-08-12 13:13:20,998 |cant|p2a: Tyranitar|frz
+2026-08-12 13:13:20,998 |
+2026-08-12 13:13:20,998 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:20,998 |-damage|p1a: Floatzel|94/100|[from] Sandstorm
+2026-08-12 13:13:20,998 |-heal|p1a: Floatzel|100/100|[from] item: Leftovers
+2026-08-12 13:13:20,998 |-heal|p2a: Tyranitar|44/274 frz|[from] item: Leftovers
+2026-08-12 13:13:20,998 |upkeep
+2026-08-12 13:13:20,999 |turn|29
+2026-08-12 13:13:20,999 >battle-gen4randombattle-323989
+2026-08-12 13:13:20,999 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"44/274 frz","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:13:21,023 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,023 |
+2026-08-12 13:13:21,023 |t:|1786533201
+2026-08-12 13:13:21,023 |move|p1a: Floatzel|Bulk Up|p1a: Floatzel
+2026-08-12 13:13:21,023 |-boost|p1a: Floatzel|atk|1
+2026-08-12 13:13:21,023 |-boost|p1a: Floatzel|def|1
+2026-08-12 13:13:21,023 |cant|p2a: Tyranitar|frz
+2026-08-12 13:13:21,023 |
+2026-08-12 13:13:21,023 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:21,023 |-damage|p1a: Floatzel|94/100|[from] Sandstorm
+2026-08-12 13:13:21,023 |-heal|p1a: Floatzel|100/100|[from] item: Leftovers
+2026-08-12 13:13:21,023 |-heal|p2a: Tyranitar|61/274 frz|[from] item: Leftovers
+2026-08-12 13:13:21,023 |upkeep
+2026-08-12 13:13:21,023 |turn|30
+2026-08-12 13:13:21,024 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,024 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"61/274 frz","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:13:21,048 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,048 |
+2026-08-12 13:13:21,048 |t:|1786533201
+2026-08-12 13:13:21,048 |move|p1a: Floatzel|Substitute|p1a: Floatzel
+2026-08-12 13:13:21,048 |-start|p1a: Floatzel|Substitute
+2026-08-12 13:13:21,048 |-damage|p1a: Floatzel|76/100
+2026-08-12 13:13:21,048 |cant|p2a: Tyranitar|frz
+2026-08-12 13:13:21,048 |
+2026-08-12 13:13:21,048 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:21,048 |-damage|p1a: Floatzel|69/100|[from] Sandstorm
+2026-08-12 13:13:21,049 |-heal|p1a: Floatzel|76/100|[from] item: Leftovers
+2026-08-12 13:13:21,049 |-heal|p2a: Tyranitar|78/274 frz|[from] item: Leftovers
+2026-08-12 13:13:21,049 |upkeep
+2026-08-12 13:13:21,049 |turn|31
+2026-08-12 13:13:21,049 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,049 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"78/274 frz","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:13:21,075 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,075 |
+2026-08-12 13:13:21,076 |t:|1786533201
+2026-08-12 13:13:21,076 |move|p1a: Floatzel|Substitute|p1a: Floatzel
+2026-08-12 13:13:21,076 |-fail|p1a: Floatzel|move: Substitute
+2026-08-12 13:13:21,076 |-curestatus|p2a: Tyranitar|frz|[msg]
+2026-08-12 13:13:21,076 |move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+2026-08-12 13:13:21,076 |-boost|p2a: Tyranitar|atk|1
+2026-08-12 13:13:21,076 |-boost|p2a: Tyranitar|spe|1
+2026-08-12 13:13:21,076 |
+2026-08-12 13:13:21,076 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:21,076 |-damage|p1a: Floatzel|69/100|[from] Sandstorm
+2026-08-12 13:13:21,076 |-heal|p2a: Tyranitar|95/274|[from] item: Leftovers
+2026-08-12 13:13:21,076 |-heal|p1a: Floatzel|76/100|[from] item: Leftovers
+2026-08-12 13:13:21,076 |upkeep
+2026-08-12 13:13:21,076 |turn|32
+2026-08-12 13:13:21,076 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,076 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"95/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:13:21,115 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,115 |
+2026-08-12 13:13:21,115 |t:|1786533201
+2026-08-12 13:13:21,115 |move|p2a: Tyranitar|Crunch|p1a: Floatzel
+2026-08-12 13:13:21,115 |-end|p1a: Floatzel|Substitute
+2026-08-12 13:13:21,115 |move|p1a: Floatzel|Ice Punch|p2a: Tyranitar
+2026-08-12 13:13:21,115 |-damage|p2a: Tyranitar|25/274
+2026-08-12 13:13:21,115 |
+2026-08-12 13:13:21,116 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:21,116 |-damage|p1a: Floatzel|69/100|[from] Sandstorm
+2026-08-12 13:13:21,116 |-heal|p2a: Tyranitar|42/274|[from] item: Leftovers
+2026-08-12 13:13:21,116 |-heal|p1a: Floatzel|76/100|[from] item: Leftovers
+2026-08-12 13:13:21,116 |upkeep
+2026-08-12 13:13:21,116 |turn|33
+2026-08-12 13:13:21,116 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,116 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"42/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:13:21,153 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,153 |
+2026-08-12 13:13:21,153 |t:|1786533201
+2026-08-12 13:13:21,153 |move|p2a: Tyranitar|Ice Punch|p1a: Floatzel
+2026-08-12 13:13:21,153 |-resisted|p1a: Floatzel
+2026-08-12 13:13:21,153 |-damage|p1a: Floatzel|55/100
+2026-08-12 13:13:21,153 |move|p1a: Floatzel|Bulk Up|p1a: Floatzel
+2026-08-12 13:13:21,153 |-boost|p1a: Floatzel|atk|1
+2026-08-12 13:13:21,153 |-boost|p1a: Floatzel|def|1
+2026-08-12 13:13:21,153 |
+2026-08-12 13:13:21,153 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:21,153 |-damage|p1a: Floatzel|49/100|[from] Sandstorm
+2026-08-12 13:13:21,153 |-heal|p2a: Tyranitar|59/274|[from] item: Leftovers
+2026-08-12 13:13:21,153 |-heal|p1a: Floatzel|55/100|[from] item: Leftovers
+2026-08-12 13:13:21,153 |upkeep
+2026-08-12 13:13:21,153 |turn|34
+2026-08-12 13:13:21,153 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,153 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"59/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:13:21,223 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,223 |
+2026-08-12 13:13:21,223 |t:|1786533201
+2026-08-12 13:13:21,223 |move|p2a: Tyranitar|Stone Edge|p1a: Floatzel
+2026-08-12 13:13:21,223 |-damage|p1a: Floatzel|0 fnt
+2026-08-12 13:13:21,223 |faint|p1a: Floatzel
+2026-08-12 13:13:21,223 |
+2026-08-12 13:13:21,223 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:13:21,223 |-heal|p2a: Tyranitar|76/274|[from] item: Leftovers
+2026-08-12 13:13:21,223 |upkeep
+2026-08-12 13:13:21,224 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,224 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"76/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:13:21,245 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,245 |
+2026-08-12 13:13:21,245 |t:|1786533201
+2026-08-12 13:13:21,245 |switch|p1a: Gliscor|Gliscor, L80, F|91/100
+2026-08-12 13:13:21,245 |turn|35
+2026-08-12 13:13:21,245 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,245 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, M","condition":"76/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["stoneedge","crunch","dragondance","icepunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"67/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["yawn","psychic","uturn","healbell"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lopunny","details":"Lopunny, L88, M","condition":"0 fnt","active":false,"stats":{"atk":184,"def":198,"spa":145,"spd":219,"spe":235},"moves":["return102","encore","thunderwave","skyuppercut"],"baseAbility":"cutecharm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Luxray","details":"Luxray, L86, M","condition":"61/278","active":false,"stats":{"atk":256,"def":185,"spa":213,"spd":185,"spe":170},"moves":["thunderbolt","protect","toxic","superpower"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Metagross","details":"Metagross, L77","condition":"0 fnt","active":false,"stats":{"atk":252,"def":245,"spa":191,"spd":183,"spe":152},"moves":["earthquake","zenheadbutt","explosion","meteormash"],"baseAbility":"clearbody","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cloyster","details":"Cloyster, L86, F","condition":"0 fnt","active":false,"stats":{"atk":213,"def":359,"spa":195,"spd":127,"spe":170},"moves":["surf","explosion","spikes","rapidspin"],"baseAbility":"shellarmor","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:13:21,275 >battle-gen4randombattle-323989
+2026-08-12 13:13:21,275 |
+2026-08-12 13:13:21,275 |t:|1786533201
+2026-08-12 13:13:21,276 |move|p2a: Tyranitar|Ice Punch|p1a: Gliscor
+2026-08-12 13:13:21,276 |-supereffective|p1a: Gliscor
+2026-08-12 13:13:21,276 |-crit|p1a: Gliscor
+2026-08-12 13:13:21,276 |-damage|p1a: Gliscor|0 fnt
+2026-08-12 13:13:21,276 |faint|p1a: Gliscor
+2026-08-12 13:13:21,276 |
+2026-08-12 13:13:21,276 |win|BOT8
+2026-08-12 13:53:21,278 >battle-gen4randombattle-323989
+2026-08-12 13:53:21,279 |expire|
+2026-08-12 13:53:21,281 >battle-gen4randombattle-323989
+2026-08-12 13:53:21,281 |L|☆BOT7
+2026-08-12 13:53:21,281 >battle-gen4randombattle-323989
+2026-08-12 13:53:21,281 |deinit

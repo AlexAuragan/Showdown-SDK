@@ -1,0 +1,843 @@
+2026-08-12 12:43:51,999 >battle-gen3randombattle-320932
+2026-08-12 12:43:51,999 |init|battle
+2026-08-12 12:43:51,999 |title|BOT3 vs. BOT4
+2026-08-12 12:43:52,000 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-320932">battle-gen3randombattle-320932</a>&raquo;
+2026-08-12 12:43:52,029 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,029 |t:|1786531432
+2026-08-12 12:43:52,030 |gametype|singles
+2026-08-12 12:43:52,030 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,030 |player|p1|BOT3|101|
+2026-08-12 12:43:52,030 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,030 |player|p2|BOT4|266|
+2026-08-12 12:43:52,030 |gen|3
+2026-08-12 12:43:52,030 |tier|[Gen 3] Random Battle
+2026-08-12 12:43:52,030 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:43:52,030 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:43:52,030 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:43:52,030 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:43:52,030 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:43:52,030 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:43:52,030 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:43:52,030 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:43:52,030 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:43:52,030 |
+2026-08-12 12:43:52,030 |t:|1786531432
+2026-08-12 12:43:52,030 |teamsize|p1|6
+2026-08-12 12:43:52,030 |teamsize|p2|6
+2026-08-12 12:43:52,030 |start
+2026-08-12 12:43:52,030 |switch|p1a: Ariados|Ariados, L98, M|100/100
+2026-08-12 12:43:52,030 |switch|p2a: Feraligatr|Feraligatr, L83, F|276/276
+2026-08-12 12:43:52,030 |turn|1
+2026-08-12 12:43:52,031 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,031 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"276/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:43:52,073 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,073 |
+2026-08-12 12:43:52,073 |t:|1786531432
+2026-08-12 12:43:52,073 |move|p2a: Feraligatr|Hydro Pump|p1a: Ariados
+2026-08-12 12:43:52,073 |-damage|p1a: Ariados|57/100
+2026-08-12 12:43:52,073 |move|p1a: Ariados|Signal Beam|p2a: Feraligatr
+2026-08-12 12:43:52,073 |-damage|p2a: Feraligatr|189/276
+2026-08-12 12:43:52,073 |
+2026-08-12 12:43:52,073 |-heal|p1a: Ariados|63/100|[from] item: Leftovers
+2026-08-12 12:43:52,073 |upkeep
+2026-08-12 12:43:52,073 |turn|2
+2026-08-12 12:43:52,075 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,075 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"189/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:43:52,113 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,113 |
+2026-08-12 12:43:52,113 |t:|1786531432
+2026-08-12 12:43:52,113 |move|p2a: Feraligatr|Hydro Pump|p1a: Ariados
+2026-08-12 12:43:52,113 |-damage|p1a: Ariados|22/100
+2026-08-12 12:43:52,113 |move|p1a: Ariados|Spider Web|p2a: Feraligatr
+2026-08-12 12:43:52,113 |-activate|p2a: Feraligatr|trapped
+2026-08-12 12:43:52,113 |
+2026-08-12 12:43:52,113 |-heal|p1a: Ariados|28/100|[from] item: Leftovers
+2026-08-12 12:43:52,113 |upkeep
+2026-08-12 12:43:52,113 |turn|3
+2026-08-12 12:43:52,116 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,116 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"189/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:43:52,149 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,149 |
+2026-08-12 12:43:52,149 |t:|1786531432
+2026-08-12 12:43:52,149 |move|p2a: Feraligatr|Hydro Pump|p1a: Ariados
+2026-08-12 12:43:52,149 |-crit|p1a: Ariados
+2026-08-12 12:43:52,149 |-damage|p1a: Ariados|0 fnt
+2026-08-12 12:43:52,149 |faint|p1a: Ariados
+2026-08-12 12:43:52,151 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,151 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"189/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:43:52,212 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,212 |
+2026-08-12 12:43:52,212 |t:|1786531432
+2026-08-12 12:43:52,212 |switch|p1a: Regice|Regice, L78|100/100
+2026-08-12 12:43:52,212 |
+2026-08-12 12:43:52,212 |upkeep
+2026-08-12 12:43:52,212 |turn|4
+2026-08-12 12:43:52,245 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,245 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"189/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:43:52,311 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,311 |
+2026-08-12 12:43:52,311 |t:|1786531432
+2026-08-12 12:43:52,311 |move|p2a: Feraligatr|Hydro Pump|p1a: Regice
+2026-08-12 12:43:52,311 |-crit|p1a: Regice
+2026-08-12 12:43:52,311 |-damage|p1a: Regice|56/100
+2026-08-12 12:43:52,311 |move|p1a: Regice|Ice Beam|p2a: Feraligatr
+2026-08-12 12:43:52,311 |-resisted|p2a: Feraligatr
+2026-08-12 12:43:52,311 |-damage|p2a: Feraligatr|142/276
+2026-08-12 12:43:52,311 |
+2026-08-12 12:43:52,311 |-heal|p1a: Regice|62/100|[from] item: Leftovers
+2026-08-12 12:43:52,311 |upkeep
+2026-08-12 12:43:52,311 |turn|5
+2026-08-12 12:43:52,317 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,317 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":4,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"142/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:43:52,380 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,380 |
+2026-08-12 12:43:52,380 |t:|1786531432
+2026-08-12 12:43:52,380 |move|p2a: Feraligatr|Hydro Pump|p1a: Regice
+2026-08-12 12:43:52,380 |-damage|p1a: Regice|37/100
+2026-08-12 12:43:52,380 |move|p1a: Regice|Rest|p1a: Regice
+2026-08-12 12:43:52,380 |-status|p1a: Regice|slp|[from] move: Rest
+2026-08-12 12:43:52,380 |-heal|p1a: Regice|100/100 slp|[silent]
+2026-08-12 12:43:52,380 |
+2026-08-12 12:43:52,380 |upkeep
+2026-08-12 12:43:52,380 |turn|6
+2026-08-12 12:43:52,416 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,416 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":3,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"142/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:43:52,443 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,443 |
+2026-08-12 12:43:52,443 |t:|1786531432
+2026-08-12 12:43:52,443 |move|p2a: Feraligatr|Hydro Pump|p1a: Regice
+2026-08-12 12:43:52,443 |-damage|p1a: Regice|78/100 slp
+2026-08-12 12:43:52,443 |cant|p1a: Regice|slp
+2026-08-12 12:43:52,443 |
+2026-08-12 12:43:52,443 |-heal|p1a: Regice|84/100 slp|[from] item: Leftovers
+2026-08-12 12:43:52,443 |upkeep
+2026-08-12 12:43:52,443 |turn|7
+2026-08-12 12:43:52,444 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,444 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":2,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"142/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:43:52,509 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,509 |
+2026-08-12 12:43:52,509 |t:|1786531432
+2026-08-12 12:43:52,509 |move|p2a: Feraligatr|Hydro Pump|p1a: Regice
+2026-08-12 12:43:52,509 |-crit|p1a: Regice
+2026-08-12 12:43:52,509 |-damage|p1a: Regice|35/100 slp
+2026-08-12 12:43:52,509 |cant|p1a: Regice|slp
+2026-08-12 12:43:52,509 |
+2026-08-12 12:43:52,509 |-heal|p1a: Regice|41/100 slp|[from] item: Leftovers
+2026-08-12 12:43:52,510 |upkeep
+2026-08-12 12:43:52,510 |turn|8
+2026-08-12 12:43:52,514 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,514 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":true},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Hydro Pump","id":"hydropump","pp":1,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"142/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:43:52,579 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,579 |
+2026-08-12 12:43:52,580 |t:|1786531432
+2026-08-12 12:43:52,580 |move|p2a: Feraligatr|Hydro Pump|p1a: Regice|[miss]
+2026-08-12 12:43:52,580 |-miss|p2a: Feraligatr|p1a: Regice
+2026-08-12 12:43:52,580 |-curestatus|p1a: Regice|slp|[msg]
+2026-08-12 12:43:52,580 |move|p1a: Regice|Rest|p1a: Regice
+2026-08-12 12:43:52,580 |-status|p1a: Regice|slp|[from] move: Rest
+2026-08-12 12:43:52,580 |-heal|p1a: Regice|100/100 slp|[silent]
+2026-08-12 12:43:52,580 |
+2026-08-12 12:43:52,580 |upkeep
+2026-08-12 12:43:52,580 |turn|9
+2026-08-12 12:43:52,580 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,580 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"142/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:43:52,631 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,631 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,635 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,635 |
+2026-08-12 12:43:52,635 |t:|1786531432
+2026-08-12 12:43:52,635 |move|p2a: Feraligatr|Struggle|p1a: Regice
+2026-08-12 12:43:52,635 |-damage|p1a: Regice|78/100 slp
+2026-08-12 12:43:52,635 |-damage|p2a: Feraligatr|128/276|[from] Recoil
+2026-08-12 12:43:52,635 |cant|p1a: Regice|slp
+2026-08-12 12:43:52,635 |
+2026-08-12 12:43:52,635 |-heal|p1a: Regice|84/100 slp|[from] item: Leftovers
+2026-08-12 12:43:52,635 |upkeep
+2026-08-12 12:43:52,635 |turn|10
+2026-08-12 12:43:52,635 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,635 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"128/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:43:52,690 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,690 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,690 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,690 |
+2026-08-12 12:43:52,690 |t:|1786531432
+2026-08-12 12:43:52,690 |move|p2a: Feraligatr|Struggle|p1a: Regice
+2026-08-12 12:43:52,690 |-damage|p1a: Regice|63/100 slp
+2026-08-12 12:43:52,690 |-damage|p2a: Feraligatr|115/276|[from] Recoil
+2026-08-12 12:43:52,690 |cant|p1a: Regice|slp
+2026-08-12 12:43:52,690 |move|p1a: Regice|Sleep Talk|p1a: Regice
+2026-08-12 12:43:52,690 |move|p1a: Regice|Rest|p1a: Regice|[from] Sleep Talk
+2026-08-12 12:43:52,690 |
+2026-08-12 12:43:52,690 |-heal|p1a: Regice|69/100 slp|[from] item: Leftovers
+2026-08-12 12:43:52,690 |upkeep
+2026-08-12 12:43:52,690 |turn|11
+2026-08-12 12:43:52,691 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,691 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"115/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:43:52,786 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,786 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,791 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,791 |
+2026-08-12 12:43:52,791 |t:|1786531432
+2026-08-12 12:43:52,791 |move|p2a: Feraligatr|Struggle|p1a: Regice
+2026-08-12 12:43:52,791 |-damage|p1a: Regice|46/100 slp
+2026-08-12 12:43:52,791 |-damage|p2a: Feraligatr|101/276|[from] Recoil
+2026-08-12 12:43:52,791 |-curestatus|p1a: Regice|slp|[msg]
+2026-08-12 12:43:52,791 |move|p1a: Regice|Rest|p1a: Regice
+2026-08-12 12:43:52,791 |-status|p1a: Regice|slp|[from] move: Rest
+2026-08-12 12:43:52,791 |-heal|p1a: Regice|100/100 slp|[silent]
+2026-08-12 12:43:52,791 |
+2026-08-12 12:43:52,791 |upkeep
+2026-08-12 12:43:52,791 |turn|12
+2026-08-12 12:43:52,799 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,799 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"101/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:43:52,843 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,843 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,847 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,847 |
+2026-08-12 12:43:52,847 |t:|1786531432
+2026-08-12 12:43:52,847 |move|p2a: Feraligatr|Struggle|p1a: Regice
+2026-08-12 12:43:52,847 |-crit|p1a: Regice
+2026-08-12 12:43:52,847 |-damage|p1a: Regice|55/100 slp
+2026-08-12 12:43:52,847 |-damage|p2a: Feraligatr|73/276|[from] Recoil
+2026-08-12 12:43:52,847 |cant|p1a: Regice|slp
+2026-08-12 12:43:52,847 |
+2026-08-12 12:43:52,847 |-heal|p1a: Regice|61/100 slp|[from] item: Leftovers
+2026-08-12 12:43:52,847 |upkeep
+2026-08-12 12:43:52,847 |turn|13
+2026-08-12 12:43:52,847 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,847 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"73/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:43:52,893 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,893 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,894 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,895 |
+2026-08-12 12:43:52,895 |t:|1786531432
+2026-08-12 12:43:52,895 |switch|p1a: Misdreavus|Misdreavus, L85, M|100/100
+2026-08-12 12:43:52,895 |move|p2a: Feraligatr|Struggle|p1a: Misdreavus
+2026-08-12 12:43:52,895 |-damage|p1a: Misdreavus|68/100
+2026-08-12 12:43:52,895 |-damage|p2a: Feraligatr|54/276|[from] Recoil
+2026-08-12 12:43:52,895 |
+2026-08-12 12:43:52,895 |-heal|p1a: Misdreavus|74/100|[from] item: Leftovers
+2026-08-12 12:43:52,895 |upkeep
+2026-08-12 12:43:52,895 |turn|14
+2026-08-12 12:43:52,898 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,898 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"54/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:43:52,932 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,932 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,932 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,932 |
+2026-08-12 12:43:52,932 |t:|1786531432
+2026-08-12 12:43:52,932 |move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+2026-08-12 12:43:52,932 |-start|p1a: Misdreavus|perish3|[silent]
+2026-08-12 12:43:52,932 |-start|p2a: Feraligatr|perish3|[silent]
+2026-08-12 12:43:52,932 |-fieldactivate|move: Perish Song
+2026-08-12 12:43:52,932 |move|p2a: Feraligatr|Struggle|p1a: Misdreavus
+2026-08-12 12:43:52,932 |-damage|p1a: Misdreavus|43/100
+2026-08-12 12:43:52,932 |-damage|p2a: Feraligatr|36/276|[from] Recoil
+2026-08-12 12:43:52,932 |
+2026-08-12 12:43:52,932 |-heal|p1a: Misdreavus|49/100|[from] item: Leftovers
+2026-08-12 12:43:52,932 |-start|p1a: Misdreavus|perish3
+2026-08-12 12:43:52,932 |-start|p2a: Feraligatr|perish3
+2026-08-12 12:43:52,932 |upkeep
+2026-08-12 12:43:52,932 |turn|15
+2026-08-12 12:43:52,934 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,934 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"36/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:43:52,968 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,968 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:52,968 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,968 |
+2026-08-12 12:43:52,968 |t:|1786531432
+2026-08-12 12:43:52,968 |switch|p1a: Jirachi|Jirachi, L73|100/100
+2026-08-12 12:43:52,968 |move|p2a: Feraligatr|Struggle|p1a: Jirachi
+2026-08-12 12:43:52,968 |-crit|p1a: Jirachi
+2026-08-12 12:43:52,969 |-damage|p1a: Jirachi|55/100
+2026-08-12 12:43:52,969 |-damage|p2a: Feraligatr|6/276|[from] Recoil
+2026-08-12 12:43:52,969 |
+2026-08-12 12:43:52,969 |-heal|p1a: Jirachi|61/100|[from] item: Leftovers
+2026-08-12 12:43:52,969 |-start|p2a: Feraligatr|perish2
+2026-08-12 12:43:52,969 |upkeep
+2026-08-12 12:43:52,969 |turn|16
+2026-08-12 12:43:52,969 >battle-gen3randombattle-320932
+2026-08-12 12:43:52,969 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"6/276","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:43:53,006 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,006 |-activate|p2a: Feraligatr|move: Struggle
+2026-08-12 12:43:53,006 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,006 |
+2026-08-12 12:43:53,006 |t:|1786531432
+2026-08-12 12:43:53,006 |move|p1a: Jirachi|Toxic|p2a: Feraligatr
+2026-08-12 12:43:53,006 |-status|p2a: Feraligatr|tox
+2026-08-12 12:43:53,006 |move|p2a: Feraligatr|Struggle|p1a: Jirachi
+2026-08-12 12:43:53,006 |-damage|p1a: Jirachi|40/100
+2026-08-12 12:43:53,006 |-damage|p2a: Feraligatr|0 fnt|[from] Recoil
+2026-08-12 12:43:53,006 |faint|p2a: Feraligatr
+2026-08-12 12:43:53,007 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,007 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":true,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":37}
+2026-08-12 12:43:53,038 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,038 |
+2026-08-12 12:43:53,038 |t:|1786531433
+2026-08-12 12:43:53,038 |switch|p2a: Heracross|Heracross, L77, F|250/250
+2026-08-12 12:43:53,038 |
+2026-08-12 12:43:53,038 |-heal|p1a: Jirachi|46/100|[from] item: Leftovers
+2026-08-12 12:43:53,038 |upkeep
+2026-08-12 12:43:53,038 |turn|17
+2026-08-12 12:43:53,040 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,040 |request|{"active":[{"moves":[{"move":"Endure","id":"endure","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Reversal","id":"reversal","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:43:53,071 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,071 |
+2026-08-12 12:43:53,071 |t:|1786531433
+2026-08-12 12:43:53,071 |move|p1a: Jirachi|Protect|p1a: Jirachi
+2026-08-12 12:43:53,071 |-singleturn|p1a: Jirachi|Protect
+2026-08-12 12:43:53,071 |move|p2a: Heracross|Reversal|p1a: Jirachi
+2026-08-12 12:43:53,071 |-activate|p1a: Jirachi|Protect
+2026-08-12 12:43:53,071 |
+2026-08-12 12:43:53,071 |-heal|p1a: Jirachi|52/100|[from] item: Leftovers
+2026-08-12 12:43:53,071 |upkeep
+2026-08-12 12:43:53,071 |turn|18
+2026-08-12 12:43:53,073 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,073 |request|{"active":[{"moves":[{"move":"Endure","id":"endure","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Reversal","id":"reversal","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"250/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:43:53,112 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,112 |
+2026-08-12 12:43:53,112 |t:|1786531433
+2026-08-12 12:43:53,112 |move|p2a: Heracross|Endure|p2a: Heracross
+2026-08-12 12:43:53,112 |-singleturn|p2a: Heracross|move: Endure
+2026-08-12 12:43:53,112 |move|p1a: Jirachi|Psychic|p2a: Heracross
+2026-08-12 12:43:53,112 |-supereffective|p2a: Heracross
+2026-08-12 12:43:53,112 |-damage|p2a: Heracross|86/250
+2026-08-12 12:43:53,112 |
+2026-08-12 12:43:53,112 |-heal|p1a: Jirachi|58/100|[from] item: Leftovers
+2026-08-12 12:43:53,112 |upkeep
+2026-08-12 12:43:53,112 |turn|19
+2026-08-12 12:43:53,116 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,116 |request|{"active":[{"moves":[{"move":"Endure","id":"endure","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Reversal","id":"reversal","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"86/250","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:43:53,155 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,155 |
+2026-08-12 12:43:53,155 |t:|1786531433
+2026-08-12 12:43:53,155 |move|p2a: Heracross|Endure||[still]
+2026-08-12 12:43:53,155 |-fail|p2a: Heracross
+2026-08-12 12:43:53,155 |move|p1a: Jirachi|Psychic|p2a: Heracross
+2026-08-12 12:43:53,155 |-supereffective|p2a: Heracross
+2026-08-12 12:43:53,155 |-damage|p2a: Heracross|0 fnt
+2026-08-12 12:43:53,155 |faint|p2a: Heracross
+2026-08-12 12:43:53,158 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,158 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":true,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":45}
+2026-08-12 12:43:53,215 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,215 |
+2026-08-12 12:43:53,215 |t:|1786531433
+2026-08-12 12:43:53,215 |switch|p2a: Illumise|Illumise, L92, F|269/269
+2026-08-12 12:43:53,215 |
+2026-08-12 12:43:53,215 |-heal|p1a: Jirachi|64/100|[from] item: Leftovers
+2026-08-12 12:43:53,215 |upkeep
+2026-08-12 12:43:53,215 |turn|20
+2026-08-12 12:43:53,217 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,217 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"269/269","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:43:53,276 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,276 |
+2026-08-12 12:43:53,276 |t:|1786531433
+2026-08-12 12:43:53,276 |move|p2a: Illumise|Toxic|p1a: Jirachi
+2026-08-12 12:43:53,276 |-immune|p1a: Jirachi
+2026-08-12 12:43:53,276 |move|p1a: Jirachi|Toxic|p2a: Illumise
+2026-08-12 12:43:53,276 |-status|p2a: Illumise|tox
+2026-08-12 12:43:53,276 |
+2026-08-12 12:43:53,276 |-damage|p2a: Illumise|253/269 tox|[from] psn
+2026-08-12 12:43:53,276 |-heal|p1a: Jirachi|70/100|[from] item: Leftovers
+2026-08-12 12:43:53,276 |upkeep
+2026-08-12 12:43:53,276 |turn|21
+2026-08-12 12:43:53,277 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,277 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"253/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:43:53,338 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,338 |
+2026-08-12 12:43:53,338 |t:|1786531433
+2026-08-12 12:43:53,338 |move|p1a: Jirachi|Protect|p1a: Jirachi
+2026-08-12 12:43:53,338 |-singleturn|p1a: Jirachi|Protect
+2026-08-12 12:43:53,338 |move|p2a: Illumise|Seismic Toss|p1a: Jirachi
+2026-08-12 12:43:53,338 |-activate|p1a: Jirachi|Protect
+2026-08-12 12:43:53,338 |
+2026-08-12 12:43:53,338 |-heal|p2a: Illumise|269/269 tox|[from] item: Leftovers
+2026-08-12 12:43:53,338 |-damage|p2a: Illumise|237/269 tox|[from] psn
+2026-08-12 12:43:53,338 |-heal|p1a: Jirachi|76/100|[from] item: Leftovers
+2026-08-12 12:43:53,338 |upkeep
+2026-08-12 12:43:53,338 |turn|22
+2026-08-12 12:43:53,340 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,340 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"237/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:43:53,396 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,396 |
+2026-08-12 12:43:53,396 |t:|1786531433
+2026-08-12 12:43:53,396 |move|p1a: Jirachi|Protect|p1a: Jirachi
+2026-08-12 12:43:53,396 |-singleturn|p1a: Jirachi|Protect
+2026-08-12 12:43:53,396 |move|p2a: Illumise|Toxic|p1a: Jirachi
+2026-08-12 12:43:53,396 |-activate|p1a: Jirachi|Protect
+2026-08-12 12:43:53,396 |
+2026-08-12 12:43:53,396 |-heal|p2a: Illumise|253/269 tox|[from] item: Leftovers
+2026-08-12 12:43:53,396 |-damage|p2a: Illumise|205/269 tox|[from] psn
+2026-08-12 12:43:53,396 |-heal|p1a: Jirachi|82/100|[from] item: Leftovers
+2026-08-12 12:43:53,396 |upkeep
+2026-08-12 12:43:53,396 |turn|23
+2026-08-12 12:43:53,407 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,407 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"205/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:43:53,466 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,466 |
+2026-08-12 12:43:53,466 |t:|1786531433
+2026-08-12 12:43:53,466 |move|p2a: Illumise|Encore|p1a: Jirachi
+2026-08-12 12:43:53,466 |-start|p1a: Jirachi|Encore
+2026-08-12 12:43:53,466 |move|p1a: Jirachi|Protect||[still]
+2026-08-12 12:43:53,466 |-fail|p1a: Jirachi
+2026-08-12 12:43:53,466 |
+2026-08-12 12:43:53,466 |-heal|p2a: Illumise|221/269 tox|[from] item: Leftovers
+2026-08-12 12:43:53,466 |-damage|p2a: Illumise|157/269 tox|[from] psn
+2026-08-12 12:43:53,466 |-heal|p1a: Jirachi|88/100|[from] item: Leftovers
+2026-08-12 12:43:53,466 |upkeep
+2026-08-12 12:43:53,466 |turn|24
+2026-08-12 12:43:53,469 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,469 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"157/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:43:53,509 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,509 |
+2026-08-12 12:43:53,509 |t:|1786531433
+2026-08-12 12:43:53,509 |move|p1a: Jirachi|Protect|p1a: Jirachi
+2026-08-12 12:43:53,509 |-singleturn|p1a: Jirachi|Protect
+2026-08-12 12:43:53,509 |move|p2a: Illumise|Moonlight|p2a: Illumise
+2026-08-12 12:43:53,509 |-heal|p2a: Illumise|269/269 tox
+2026-08-12 12:43:53,509 |
+2026-08-12 12:43:53,509 |-damage|p2a: Illumise|189/269 tox|[from] psn
+2026-08-12 12:43:53,509 |-heal|p1a: Jirachi|94/100|[from] item: Leftovers
+2026-08-12 12:43:53,509 |upkeep
+2026-08-12 12:43:53,509 |turn|25
+2026-08-12 12:43:53,511 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,511 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"189/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:43:53,538 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,538 |
+2026-08-12 12:43:53,538 |t:|1786531433
+2026-08-12 12:43:53,538 |move|p1a: Jirachi|Protect||[still]
+2026-08-12 12:43:53,538 |-fail|p1a: Jirachi
+2026-08-12 12:43:53,538 |move|p2a: Illumise|Toxic|p1a: Jirachi|[miss]
+2026-08-12 12:43:53,538 |-miss|p2a: Illumise|p1a: Jirachi
+2026-08-12 12:43:53,538 |
+2026-08-12 12:43:53,538 |-heal|p2a: Illumise|205/269 tox|[from] item: Leftovers
+2026-08-12 12:43:53,538 |-damage|p2a: Illumise|109/269 tox|[from] psn
+2026-08-12 12:43:53,538 |-heal|p1a: Jirachi|99/100|[from] item: Leftovers
+2026-08-12 12:43:53,538 |-end|p1a: Jirachi|Encore
+2026-08-12 12:43:53,538 |upkeep
+2026-08-12 12:43:53,538 |turn|26
+2026-08-12 12:43:53,540 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,540 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:43:53,584 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,584 |
+2026-08-12 12:43:53,584 |t:|1786531433
+2026-08-12 12:43:53,584 |switch|p2a: Gengar|Gengar, L73, M|208/208
+2026-08-12 12:43:53,584 |move|p1a: Jirachi|Wish|p1a: Jirachi
+2026-08-12 12:43:53,584 |
+2026-08-12 12:43:53,584 |-heal|p1a: Jirachi|100/100|[from] item: Leftovers
+2026-08-12 12:43:53,584 |upkeep
+2026-08-12 12:43:53,584 |turn|27
+2026-08-12 12:43:53,585 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,585 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"272/272","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:43:53,670 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,670 |
+2026-08-12 12:43:53,670 |t:|1786531433
+2026-08-12 12:43:53,670 |switch|p2a: Torkoal|Torkoal, L90, F|272/272
+2026-08-12 12:43:53,670 |move|p1a: Jirachi|Psychic|p2a: Torkoal
+2026-08-12 12:43:53,670 |-damage|p2a: Torkoal|194/272
+2026-08-12 12:43:53,670 |
+2026-08-12 12:43:53,670 |-heal|p2a: Torkoal|211/272|[from] item: Leftovers
+2026-08-12 12:43:53,670 |upkeep
+2026-08-12 12:43:53,670 |turn|28
+2026-08-12 12:43:53,674 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,674 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"211/272","active":true,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:43:53,750 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,750 |
+2026-08-12 12:43:53,750 |t:|1786531433
+2026-08-12 12:43:53,750 |move|p1a: Jirachi|Wish|p1a: Jirachi
+2026-08-12 12:43:53,750 |move|p2a: Torkoal|Fire Blast|p1a: Jirachi
+2026-08-12 12:43:53,750 |-supereffective|p1a: Jirachi
+2026-08-12 12:43:53,751 |-damage|p1a: Jirachi|0 fnt
+2026-08-12 12:43:53,751 |faint|p1a: Jirachi
+2026-08-12 12:43:53,752 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,752 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"211/272","active":true,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:43:53,795 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,795 |
+2026-08-12 12:43:53,795 |t:|1786531433
+2026-08-12 12:43:53,795 |switch|p1a: Slowking|Slowking, L82, F|100/100
+2026-08-12 12:43:53,795 |
+2026-08-12 12:43:53,795 |-heal|p2a: Torkoal|228/272|[from] item: Leftovers
+2026-08-12 12:43:53,795 |upkeep
+2026-08-12 12:43:53,795 |turn|29
+2026-08-12 12:43:53,799 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,799 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"228/272","active":true,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:43:53,865 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,865 |
+2026-08-12 12:43:53,865 |t:|1786531433
+2026-08-12 12:43:53,865 |move|p1a: Slowking|Surf|p2a: Torkoal
+2026-08-12 12:43:53,865 |-supereffective|p2a: Torkoal
+2026-08-12 12:43:53,865 |-crit|p2a: Torkoal
+2026-08-12 12:43:53,865 |-damage|p2a: Torkoal|0 fnt
+2026-08-12 12:43:53,865 |faint|p2a: Torkoal
+2026-08-12 12:43:53,866 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,866 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":true,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":69}
+2026-08-12 12:43:53,938 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,938 |
+2026-08-12 12:43:53,938 |t:|1786531433
+2026-08-12 12:43:53,938 |switch|p2a: Porygon2|Porygon2, L80|267/267
+2026-08-12 12:43:53,938 |-ability|p2a: Porygon2|Own Tempo|Trace|[from] ability: Trace|[of] p1a: Slowking
+2026-08-12 12:43:53,938 |
+2026-08-12 12:43:53,938 |upkeep
+2026-08-12 12:43:53,938 |turn|30
+2026-08-12 12:43:53,940 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,940 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:43:53,985 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,985 |
+2026-08-12 12:43:53,985 |t:|1786531433
+2026-08-12 12:43:53,985 |switch|p1a: Regice|Regice, L78|61/100 slp
+2026-08-12 12:43:53,985 |move|p2a: Porygon2|Return|p1a: Regice
+2026-08-12 12:43:53,985 |-crit|p1a: Regice
+2026-08-12 12:43:53,985 |-damage|p1a: Regice|0 fnt
+2026-08-12 12:43:53,985 |faint|p1a: Regice
+2026-08-12 12:43:53,992 >battle-gen3randombattle-320932
+2026-08-12 12:43:53,992 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:43:54,038 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,038 |
+2026-08-12 12:43:54,038 |t:|1786531434
+2026-08-12 12:43:54,038 |switch|p1a: Relicanth|Relicanth, L88, F|100/100
+2026-08-12 12:43:54,038 |
+2026-08-12 12:43:54,038 |upkeep
+2026-08-12 12:43:54,038 |turn|31
+2026-08-12 12:43:54,039 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,039 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"267/267","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:43:54,109 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,109 |
+2026-08-12 12:43:54,109 |t:|1786531434
+2026-08-12 12:43:54,109 |move|p1a: Relicanth|Toxic|p2a: Porygon2
+2026-08-12 12:43:54,109 |-status|p2a: Porygon2|tox
+2026-08-12 12:43:54,109 |move|p2a: Porygon2|Return|p1a: Relicanth
+2026-08-12 12:43:54,109 |-resisted|p1a: Relicanth
+2026-08-12 12:43:54,109 |-damage|p1a: Relicanth|92/100
+2026-08-12 12:43:54,109 |
+2026-08-12 12:43:54,109 |-heal|p1a: Relicanth|98/100|[from] item: Leftovers
+2026-08-12 12:43:54,109 |-damage|p2a: Porygon2|251/267 tox|[from] psn
+2026-08-12 12:43:54,109 |upkeep
+2026-08-12 12:43:54,109 |turn|32
+2026-08-12 12:43:54,110 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,110 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"251/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:43:54,206 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,206 |
+2026-08-12 12:43:54,206 |t:|1786531434
+2026-08-12 12:43:54,206 |move|p1a: Relicanth|Double-Edge|p2a: Porygon2
+2026-08-12 12:43:54,206 |-damage|p2a: Porygon2|165/267 tox
+2026-08-12 12:43:54,206 |move|p2a: Porygon2|Thunder Wave|p1a: Relicanth
+2026-08-12 12:43:54,206 |-status|p1a: Relicanth|par
+2026-08-12 12:43:54,206 |
+2026-08-12 12:43:54,206 |-heal|p2a: Porygon2|181/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,206 |-damage|p2a: Porygon2|149/267 tox|[from] psn
+2026-08-12 12:43:54,206 |-heal|p1a: Relicanth|100/100 par|[from] item: Leftovers
+2026-08-12 12:43:54,206 |upkeep
+2026-08-12 12:43:54,206 |turn|33
+2026-08-12 12:43:54,210 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,210 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"149/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:43:54,261 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,261 |
+2026-08-12 12:43:54,261 |t:|1786531434
+2026-08-12 12:43:54,261 |move|p2a: Porygon2|Thunder Wave|p1a: Relicanth
+2026-08-12 12:43:54,261 |-fail|p1a: Relicanth|par
+2026-08-12 12:43:54,261 |cant|p1a: Relicanth|par
+2026-08-12 12:43:54,261 |
+2026-08-12 12:43:54,261 |-heal|p2a: Porygon2|165/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,261 |-damage|p2a: Porygon2|117/267 tox|[from] psn
+2026-08-12 12:43:54,261 |upkeep
+2026-08-12 12:43:54,261 |turn|34
+2026-08-12 12:43:54,262 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,262 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"117/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:43:54,300 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,300 |
+2026-08-12 12:43:54,300 |t:|1786531434
+2026-08-12 12:43:54,300 |move|p2a: Porygon2|Recover|p2a: Porygon2
+2026-08-12 12:43:54,300 |-heal|p2a: Porygon2|250/267 tox
+2026-08-12 12:43:54,300 |move|p1a: Relicanth|Earthquake|p2a: Porygon2
+2026-08-12 12:43:54,300 |-damage|p2a: Porygon2|178/267 tox
+2026-08-12 12:43:54,300 |
+2026-08-12 12:43:54,300 |-heal|p2a: Porygon2|194/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,300 |-damage|p2a: Porygon2|130/267 tox|[from] psn
+2026-08-12 12:43:54,300 |upkeep
+2026-08-12 12:43:54,300 |turn|35
+2026-08-12 12:43:54,304 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,304 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"130/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 12:43:54,344 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,344 |
+2026-08-12 12:43:54,344 |t:|1786531434
+2026-08-12 12:43:54,344 |move|p2a: Porygon2|Recover|p2a: Porygon2
+2026-08-12 12:43:54,344 |-heal|p2a: Porygon2|263/267 tox
+2026-08-12 12:43:54,344 |cant|p1a: Relicanth|par
+2026-08-12 12:43:54,344 |
+2026-08-12 12:43:54,344 |-heal|p2a: Porygon2|267/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,344 |-damage|p2a: Porygon2|187/267 tox|[from] psn
+2026-08-12 12:43:54,344 |upkeep
+2026-08-12 12:43:54,344 |turn|36
+2026-08-12 12:43:54,347 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,347 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"187/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:43:54,383 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,383 |
+2026-08-12 12:43:54,383 |t:|1786531434
+2026-08-12 12:43:54,383 |move|p2a: Porygon2|Recover|p2a: Porygon2
+2026-08-12 12:43:54,383 |-heal|p2a: Porygon2|267/267 tox
+2026-08-12 12:43:54,383 |move|p1a: Relicanth|Earthquake|p2a: Porygon2
+2026-08-12 12:43:54,383 |-damage|p2a: Porygon2|193/267 tox
+2026-08-12 12:43:54,383 |
+2026-08-12 12:43:54,383 |-heal|p2a: Porygon2|209/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,383 |-damage|p2a: Porygon2|113/267 tox|[from] psn
+2026-08-12 12:43:54,383 |upkeep
+2026-08-12 12:43:54,384 |turn|37
+2026-08-12 12:43:54,384 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,384 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"113/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:43:54,441 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,441 |
+2026-08-12 12:43:54,441 |t:|1786531434
+2026-08-12 12:43:54,441 |move|p2a: Porygon2|Recover|p2a: Porygon2
+2026-08-12 12:43:54,441 |-heal|p2a: Porygon2|246/267 tox
+2026-08-12 12:43:54,441 |cant|p1a: Relicanth|par
+2026-08-12 12:43:54,441 |
+2026-08-12 12:43:54,441 |-heal|p2a: Porygon2|262/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,441 |-damage|p2a: Porygon2|150/267 tox|[from] psn
+2026-08-12 12:43:54,441 |upkeep
+2026-08-12 12:43:54,441 |turn|38
+2026-08-12 12:43:54,442 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,442 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"150/267 tox","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:43:54,501 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,501 |
+2026-08-12 12:43:54,501 |t:|1786531434
+2026-08-12 12:43:54,501 |move|p2a: Porygon2|Ice Beam|p1a: Relicanth
+2026-08-12 12:43:54,501 |-resisted|p1a: Relicanth
+2026-08-12 12:43:54,501 |-damage|p1a: Relicanth|88/100 par
+2026-08-12 12:43:54,501 |move|p1a: Relicanth|Rock Slide|p2a: Porygon2
+2026-08-12 12:43:54,501 |-damage|p2a: Porygon2|62/267 tox
+2026-08-12 12:43:54,501 |
+2026-08-12 12:43:54,501 |-heal|p2a: Porygon2|78/267 tox|[from] item: Leftovers
+2026-08-12 12:43:54,501 |-damage|p2a: Porygon2|0 fnt|[from] psn
+2026-08-12 12:43:54,501 |faint|p2a: Porygon2
+2026-08-12 12:43:54,501 |-heal|p1a: Relicanth|94/100 par|[from] item: Leftovers
+2026-08-12 12:43:54,501 |upkeep
+2026-08-12 12:43:54,504 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,504 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":true,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":91}
+2026-08-12 12:43:54,529 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,529 |
+2026-08-12 12:43:54,529 |t:|1786531434
+2026-08-12 12:43:54,529 |switch|p2a: Illumise|Illumise, L92, F|109/269 tox
+2026-08-12 12:43:54,529 |turn|39
+2026-08-12 12:43:54,531 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,531 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:43:54,579 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,579 |
+2026-08-12 12:43:54,579 |t:|1786531434
+2026-08-12 12:43:54,579 |switch|p1a: Slowking|Slowking, L82, F|100/100
+2026-08-12 12:43:54,579 |move|p2a: Illumise|Toxic|p1a: Slowking
+2026-08-12 12:43:54,579 |-status|p1a: Slowking|tox
+2026-08-12 12:43:54,579 |
+2026-08-12 12:43:54,579 |-heal|p2a: Illumise|125/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,579 |-damage|p2a: Illumise|109/269 tox|[from] psn
+2026-08-12 12:43:54,579 |-damage|p1a: Slowking|94/100 tox|[from] psn
+2026-08-12 12:43:54,579 |upkeep
+2026-08-12 12:43:54,580 |turn|40
+2026-08-12 12:43:54,582 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,582 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 12:43:54,611 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,611 |
+2026-08-12 12:43:54,611 |t:|1786531434
+2026-08-12 12:43:54,611 |move|p2a: Illumise|Moonlight|p2a: Illumise
+2026-08-12 12:43:54,611 |-heal|p2a: Illumise|243/269 tox
+2026-08-12 12:43:54,611 |move|p1a: Slowking|Psychic|p2a: Illumise
+2026-08-12 12:43:54,611 |-damage|p2a: Illumise|146/269 tox
+2026-08-12 12:43:54,611 |
+2026-08-12 12:43:54,611 |-heal|p2a: Illumise|162/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,611 |-damage|p2a: Illumise|130/269 tox|[from] psn
+2026-08-12 12:43:54,611 |-heal|p1a: Slowking|100/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,611 |-damage|p1a: Slowking|88/100 tox|[from] psn
+2026-08-12 12:43:54,611 |upkeep
+2026-08-12 12:43:54,611 |turn|41
+2026-08-12 12:43:54,613 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,613 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"130/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 12:43:54,643 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,643 |
+2026-08-12 12:43:54,643 |t:|1786531434
+2026-08-12 12:43:54,643 |move|p2a: Illumise|Moonlight|p2a: Illumise
+2026-08-12 12:43:54,643 |-heal|p2a: Illumise|264/269 tox
+2026-08-12 12:43:54,643 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-12 12:43:54,643 |
+2026-08-12 12:43:54,643 |-heal|p2a: Illumise|269/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,643 |-damage|p2a: Illumise|221/269 tox|[from] psn
+2026-08-12 12:43:54,643 |-heal|p1a: Slowking|94/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,643 |-damage|p1a: Slowking|76/100 tox|[from] psn
+2026-08-12 12:43:54,643 |upkeep
+2026-08-12 12:43:54,643 |turn|42
+2026-08-12 12:43:54,645 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,645 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":5,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"221/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 12:43:54,678 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,678 |
+2026-08-12 12:43:54,678 |t:|1786531434
+2026-08-12 12:43:54,678 |move|p2a: Illumise|Encore|p1a: Slowking
+2026-08-12 12:43:54,678 |-start|p1a: Slowking|Encore
+2026-08-12 12:43:54,678 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-12 12:43:54,678 |
+2026-08-12 12:43:54,678 |-heal|p2a: Illumise|237/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,678 |-damage|p2a: Illumise|173/269 tox|[from] psn
+2026-08-12 12:43:54,678 |-heal|p1a: Slowking|82/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,678 |-damage|p1a: Slowking|57/100 tox|[from] psn
+2026-08-12 12:43:54,678 |upkeep
+2026-08-12 12:43:54,678 |turn|43
+2026-08-12 12:43:54,682 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,682 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":5,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"173/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 12:43:54,715 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,715 |
+2026-08-12 12:43:54,715 |t:|1786531434
+2026-08-12 12:43:54,716 |move|p2a: Illumise|Seismic Toss|p1a: Slowking
+2026-08-12 12:43:54,716 |-damage|p1a: Slowking|25/100 tox
+2026-08-12 12:43:54,716 |move|p1a: Slowking|Sleep Talk|p1a: Slowking
+2026-08-12 12:43:54,716 |
+2026-08-12 12:43:54,716 |-heal|p2a: Illumise|189/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,716 |-damage|p2a: Illumise|109/269 tox|[from] psn
+2026-08-12 12:43:54,716 |-heal|p1a: Slowking|32/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,716 |-damage|p1a: Slowking|0 fnt|[from] psn
+2026-08-12 12:43:54,716 |faint|p1a: Slowking
+2026-08-12 12:43:54,716 |upkeep
+2026-08-12 12:43:54,717 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,717 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 12:43:54,741 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,741 |
+2026-08-12 12:43:54,741 |t:|1786531434
+2026-08-12 12:43:54,741 |switch|p1a: Misdreavus|Misdreavus, L85, M|49/100
+2026-08-12 12:43:54,741 |turn|44
+2026-08-12 12:43:54,742 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,742 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":5,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"109/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 12:43:54,775 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,775 |
+2026-08-12 12:43:54,775 |t:|1786531434
+2026-08-12 12:43:54,775 |move|p2a: Illumise|Moonlight|p2a: Illumise
+2026-08-12 12:43:54,775 |-heal|p2a: Illumise|243/269 tox
+2026-08-12 12:43:54,775 |move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+2026-08-12 12:43:54,775 |-start|p1a: Misdreavus|perish3|[silent]
+2026-08-12 12:43:54,775 |-start|p2a: Illumise|perish3|[silent]
+2026-08-12 12:43:54,775 |-fieldactivate|move: Perish Song
+2026-08-12 12:43:54,775 |
+2026-08-12 12:43:54,775 |-heal|p2a: Illumise|259/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,775 |-damage|p2a: Illumise|163/269 tox|[from] psn
+2026-08-12 12:43:54,775 |-heal|p1a: Misdreavus|56/100|[from] item: Leftovers
+2026-08-12 12:43:54,775 |-start|p2a: Illumise|perish3
+2026-08-12 12:43:54,775 |-start|p1a: Misdreavus|perish3
+2026-08-12 12:43:54,775 |upkeep
+2026-08-12 12:43:54,775 |turn|45
+2026-08-12 12:43:54,776 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,776 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":4,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"163/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 12:43:54,807 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,807 |
+2026-08-12 12:43:54,807 |t:|1786531434
+2026-08-12 12:43:54,807 |move|p2a: Illumise|Toxic|p1a: Misdreavus
+2026-08-12 12:43:54,807 |-status|p1a: Misdreavus|tox
+2026-08-12 12:43:54,807 |move|p1a: Misdreavus|Mean Look|p2a: Illumise
+2026-08-12 12:43:54,807 |-activate|p2a: Illumise|trapped
+2026-08-12 12:43:54,807 |
+2026-08-12 12:43:54,807 |-heal|p2a: Illumise|179/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,807 |-damage|p2a: Illumise|67/269 tox|[from] psn
+2026-08-12 12:43:54,807 |-heal|p1a: Misdreavus|62/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,807 |-damage|p1a: Misdreavus|56/100 tox|[from] psn
+2026-08-12 12:43:54,807 |-start|p2a: Illumise|perish2
+2026-08-12 12:43:54,807 |-start|p1a: Misdreavus|perish2
+2026-08-12 12:43:54,807 |upkeep
+2026-08-12 12:43:54,807 |turn|46
+2026-08-12 12:43:54,808 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,808 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":4,"maxpp":8,"target":"self","disabled":false}],"trapped":true}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"67/269 tox","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 12:43:54,844 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,844 |
+2026-08-12 12:43:54,844 |t:|1786531434
+2026-08-12 12:43:54,844 |move|p2a: Illumise|Seismic Toss|p1a: Misdreavus
+2026-08-12 12:43:54,844 |-immune|p1a: Misdreavus
+2026-08-12 12:43:54,844 |move|p1a: Misdreavus|Perish Song||[still]
+2026-08-12 12:43:54,844 |-fail|p1a: Misdreavus
+2026-08-12 12:43:54,844 |
+2026-08-12 12:43:54,844 |-heal|p2a: Illumise|83/269 tox|[from] item: Leftovers
+2026-08-12 12:43:54,844 |-damage|p2a: Illumise|0 fnt|[from] psn
+2026-08-12 12:43:54,844 |faint|p2a: Illumise
+2026-08-12 12:43:54,844 |-heal|p1a: Misdreavus|62/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,844 |-damage|p1a: Misdreavus|49/100 tox|[from] psn
+2026-08-12 12:43:54,844 |-start|p1a: Misdreavus|perish1
+2026-08-12 12:43:54,844 |upkeep
+2026-08-12 12:43:54,845 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,845 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":true,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":false,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":111}
+2026-08-12 12:43:54,879 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,879 |
+2026-08-12 12:43:54,879 |t:|1786531434
+2026-08-12 12:43:54,879 |switch|p2a: Gengar|Gengar, L73, M|208/208
+2026-08-12 12:43:54,879 |turn|47
+2026-08-12 12:43:54,881 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,881 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"208/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 12:43:54,924 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,924 |
+2026-08-12 12:43:54,924 |t:|1786531434
+2026-08-12 12:43:54,924 |move|p2a: Gengar|Thunderbolt|p1a: Misdreavus
+2026-08-12 12:43:54,924 |-damage|p1a: Misdreavus|21/100 tox
+2026-08-12 12:43:54,924 |move|p1a: Misdreavus|Shadow Ball|p2a: Gengar
+2026-08-12 12:43:54,924 |-supereffective|p2a: Gengar
+2026-08-12 12:43:54,924 |-damage|p2a: Gengar|27/208
+2026-08-12 12:43:54,924 |
+2026-08-12 12:43:54,924 |-heal|p2a: Gengar|40/208|[from] item: Leftovers
+2026-08-12 12:43:54,924 |-heal|p1a: Misdreavus|27/100 tox|[from] item: Leftovers
+2026-08-12 12:43:54,924 |-damage|p1a: Misdreavus|8/100 tox|[from] psn
+2026-08-12 12:43:54,924 |-start|p1a: Misdreavus|perish0
+2026-08-12 12:43:54,924 |upkeep
+2026-08-12 12:43:54,924 |faint|p1a: Misdreavus
+2026-08-12 12:43:54,925 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,925 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"40/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 12:43:54,945 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,945 |
+2026-08-12 12:43:54,945 |t:|1786531434
+2026-08-12 12:43:54,945 |switch|p1a: Relicanth|Relicanth, L88, F|94/100 par
+2026-08-12 12:43:54,945 |turn|48
+2026-08-12 12:43:54,945 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,945 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"40/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 12:43:54,980 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,980 |
+2026-08-12 12:43:54,980 |t:|1786531434
+2026-08-12 12:43:54,980 |move|p2a: Gengar|Ice Punch|p1a: Relicanth
+2026-08-12 12:43:54,980 |-resisted|p1a: Relicanth
+2026-08-12 12:43:54,980 |-damage|p1a: Relicanth|84/100 par
+2026-08-12 12:43:54,980 |move|p1a: Relicanth|Double-Edge|p2a: Gengar
+2026-08-12 12:43:54,980 |-immune|p2a: Gengar
+2026-08-12 12:43:54,980 |
+2026-08-12 12:43:54,980 |-heal|p2a: Gengar|53/208|[from] item: Leftovers
+2026-08-12 12:43:54,980 |-heal|p1a: Relicanth|90/100 par|[from] item: Leftovers
+2026-08-12 12:43:54,980 |upkeep
+2026-08-12 12:43:54,980 |turn|49
+2026-08-12 12:43:54,980 >battle-gen3randombattle-320932
+2026-08-12 12:43:54,980 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"53/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 12:43:55,003 >battle-gen3randombattle-320932
+2026-08-12 12:43:55,003 |
+2026-08-12 12:43:55,003 |t:|1786531434
+2026-08-12 12:43:55,003 |move|p2a: Gengar|Ice Punch|p1a: Relicanth
+2026-08-12 12:43:55,003 |-resisted|p1a: Relicanth
+2026-08-12 12:43:55,003 |-damage|p1a: Relicanth|81/100 par
+2026-08-12 12:43:55,003 |move|p1a: Relicanth|Double-Edge|p2a: Gengar
+2026-08-12 12:43:55,003 |-immune|p2a: Gengar
+2026-08-12 12:43:55,003 |
+2026-08-12 12:43:55,003 |-heal|p2a: Gengar|66/208|[from] item: Leftovers
+2026-08-12 12:43:55,003 |-heal|p1a: Relicanth|87/100 par|[from] item: Leftovers
+2026-08-12 12:43:55,003 |upkeep
+2026-08-12 12:43:55,003 |turn|50
+2026-08-12 12:43:55,008 >battle-gen3randombattle-320932
+2026-08-12 12:43:55,008 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"66/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 12:43:55,038 >battle-gen3randombattle-320932
+2026-08-12 12:43:55,038 |
+2026-08-12 12:43:55,038 |t:|1786531435
+2026-08-12 12:43:55,038 |move|p2a: Gengar|Ice Punch|p1a: Relicanth
+2026-08-12 12:43:55,038 |-resisted|p1a: Relicanth
+2026-08-12 12:43:55,038 |-damage|p1a: Relicanth|78/100 par
+2026-08-12 12:43:55,038 |cant|p1a: Relicanth|par
+2026-08-12 12:43:55,038 |
+2026-08-12 12:43:55,038 |-heal|p2a: Gengar|79/208|[from] item: Leftovers
+2026-08-12 12:43:55,038 |-heal|p1a: Relicanth|84/100 par|[from] item: Leftovers
+2026-08-12 12:43:55,038 |upkeep
+2026-08-12 12:43:55,038 |turn|51
+2026-08-12 12:43:55,040 >battle-gen3randombattle-320932
+2026-08-12 12:43:55,040 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Ice Punch","id":"icepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Will-O-Wisp","id":"willowisp","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Gengar","details":"Gengar, L73, M","condition":"79/208","active":true,"stats":{"atk":137,"def":130,"spa":232,"spd":152,"spe":203},"moves":["explosion","icepunch","willowisp","thunderbolt"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Torkoal","details":"Torkoal, L90, F","condition":"0 fnt","active":false,"stats":{"atk":203,"def":303,"spa":203,"spd":177,"spe":87},"moves":["explosion","fireblast","toxic","hiddenpowergrass"],"baseAbility":"whitesmoke","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Illumise","details":"Illumise, L92, F","condition":"0 fnt","active":false,"stats":{"atk":91,"def":154,"spa":187,"spd":190,"spe":209},"moves":["seismictoss","encore","toxic","moonlight"],"baseAbility":"oblivious","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Heracross","details":"Heracross, L77, F","condition":"0 fnt","active":false,"stats":{"atk":237,"def":160,"spa":106,"spd":191,"spe":175},"moves":["endure","reversal","megahorn","rockslide"],"baseAbility":"swarm","item":"salacberry","pokeball":"pokeball"},{"ident":"p2: Feraligatr","details":"Feraligatr, L83, F","condition":"0 fnt","active":false,"stats":{"atk":221,"def":213,"spa":178,"spd":185,"spe":177},"moves":["rockslide","hiddenpowerflying","earthquake","hydropump"],"baseAbility":"torrent","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Porygon2","details":"Porygon2, L80","condition":"0 fnt","active":false,"stats":{"atk":174,"def":190,"spa":214,"spd":198,"spe":142},"moves":["icebeam","thunderwave","recover","return102"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 12:43:55,067 >battle-gen3randombattle-320932
+2026-08-12 12:43:55,067 |
+2026-08-12 12:43:55,067 |t:|1786531435
+2026-08-12 12:43:55,067 |move|p2a: Gengar|Thunderbolt|p1a: Relicanth
+2026-08-12 12:43:55,067 |-supereffective|p1a: Relicanth
+2026-08-12 12:43:55,067 |-crit|p1a: Relicanth
+2026-08-12 12:43:55,067 |-damage|p1a: Relicanth|0 fnt
+2026-08-12 12:43:55,067 |faint|p1a: Relicanth
+2026-08-12 12:43:55,067 |
+2026-08-12 12:43:55,067 |win|BOT4

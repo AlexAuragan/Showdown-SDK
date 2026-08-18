@@ -1,0 +1,993 @@
+2026-08-12 13:20:07,678 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,678 |init|battle
+2026-08-12 13:20:07,678 |title|BOT1 vs. BOT2
+2026-08-12 13:20:07,678 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324791">battle-gen4randombattle-324791</a>&raquo;
+2026-08-12 13:20:07,721 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,721 |t:|1786533607
+2026-08-12 13:20:07,721 |gametype|singles
+2026-08-12 13:20:07,722 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,722 |player|p1|BOT1|170|
+2026-08-12 13:20:07,722 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,722 |player|p2|BOT2|170|
+2026-08-12 13:20:07,722 |gen|4
+2026-08-12 13:20:07,722 |tier|[Gen 4] Random Battle
+2026-08-12 13:20:07,722 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:20:07,722 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:20:07,722 |
+2026-08-12 13:20:07,722 |t:|1786533607
+2026-08-12 13:20:07,722 |teamsize|p1|6
+2026-08-12 13:20:07,722 |teamsize|p2|6
+2026-08-12 13:20:07,722 |start
+2026-08-12 13:20:07,722 |switch|p1a: Entei|Entei, L78|100/100
+2026-08-12 13:20:07,722 |switch|p2a: Lapras|Lapras, L83, F|351/351
+2026-08-12 13:20:07,722 |-ability|p1a: Entei|Pressure
+2026-08-12 13:20:07,722 |turn|1
+2026-08-12 13:20:07,722 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,722 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"351/351","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"208/208","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:20:07,747 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,747 |
+2026-08-12 13:20:07,747 |t:|1786533607
+2026-08-12 13:20:07,747 |move|p1a: Entei|Flare Blitz|p2a: Lapras
+2026-08-12 13:20:07,747 |-damage|p2a: Lapras|153/351
+2026-08-12 13:20:07,747 |-status|p2a: Lapras|brn
+2026-08-12 13:20:07,747 |-damage|p1a: Entei|79/100|[from] Recoil
+2026-08-12 13:20:07,747 |move|p2a: Lapras|Toxic|p1a: Entei
+2026-08-12 13:20:07,747 |-status|p1a: Entei|tox
+2026-08-12 13:20:07,747 |
+2026-08-12 13:20:07,747 |-damage|p1a: Entei|73/100 tox|[from] psn
+2026-08-12 13:20:07,747 |-heal|p2a: Lapras|174/351 brn|[from] item: Leftovers
+2026-08-12 13:20:07,747 |-damage|p2a: Lapras|131/351 brn|[from] brn
+2026-08-12 13:20:07,747 |upkeep
+2026-08-12 13:20:07,747 |turn|2
+2026-08-12 13:20:07,747 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,747 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"131/351 brn","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"208/208","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:20:07,764 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,764 |
+2026-08-12 13:20:07,764 |t:|1786533607
+2026-08-12 13:20:07,764 |move|p1a: Entei|Flare Blitz|p2a: Lapras
+2026-08-12 13:20:07,764 |-damage|p2a: Lapras|0 fnt
+2026-08-12 13:20:07,764 |faint|p2a: Lapras
+2026-08-12 13:20:07,764 |-damage|p1a: Entei|59/100 tox|[from] Recoil
+2026-08-12 13:20:07,764 |
+2026-08-12 13:20:07,764 |-damage|p1a: Entei|46/100 tox|[from] psn
+2026-08-12 13:20:07,764 |upkeep
+2026-08-12 13:20:07,765 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,765 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":true,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"208/208","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":7}
+2026-08-12 13:20:07,789 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,789 |
+2026-08-12 13:20:07,789 |t:|1786533607
+2026-08-12 13:20:07,789 |switch|p2a: Darkrai|Darkrai, L68|208/208
+2026-08-12 13:20:07,789 |turn|3
+2026-08-12 13:20:07,792 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,793 |request|{"active":[{"moves":[{"move":"Dark Pulse","id":"darkpulse","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Dark Void","id":"darkvoid","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"208/208","active":true,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:20:07,837 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,837 |
+2026-08-12 13:20:07,837 |t:|1786533607
+2026-08-12 13:20:07,837 |move|p2a: Darkrai|Substitute|p2a: Darkrai
+2026-08-12 13:20:07,837 |-start|p2a: Darkrai|Substitute
+2026-08-12 13:20:07,837 |-damage|p2a: Darkrai|156/208
+2026-08-12 13:20:07,837 |move|p1a: Entei|Flare Blitz|p2a: Darkrai
+2026-08-12 13:20:07,837 |-end|p2a: Darkrai|Substitute
+2026-08-12 13:20:07,837 |-damage|p1a: Entei|41/100 tox|[from] Recoil
+2026-08-12 13:20:07,837 |
+2026-08-12 13:20:07,837 |-heal|p2a: Darkrai|169/208|[from] item: Leftovers
+2026-08-12 13:20:07,837 |-damage|p1a: Entei|22/100 tox|[from] psn
+2026-08-12 13:20:07,837 |upkeep
+2026-08-12 13:20:07,837 |turn|4
+2026-08-12 13:20:07,838 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,838 |request|{"active":[{"moves":[{"move":"Dark Pulse","id":"darkpulse","pp":24,"maxpp":24,"target":"any","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Nasty Plot","id":"nastyplot","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Dark Void","id":"darkvoid","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"169/208","active":true,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:20:07,867 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,867 |
+2026-08-12 13:20:07,867 |t:|1786533607
+2026-08-12 13:20:07,867 |move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+2026-08-12 13:20:07,867 |-boost|p2a: Darkrai|spa|2
+2026-08-12 13:20:07,867 |move|p1a: Entei|Flare Blitz|p2a: Darkrai
+2026-08-12 13:20:07,867 |-damage|p2a: Darkrai|0 fnt
+2026-08-12 13:20:07,867 |faint|p2a: Darkrai
+2026-08-12 13:20:07,867 |-damage|p1a: Entei|4/100 tox|[from] Recoil
+2026-08-12 13:20:07,867 |
+2026-08-12 13:20:07,867 |-damage|p1a: Entei|0 fnt|[from] psn
+2026-08-12 13:20:07,867 |faint|p1a: Entei
+2026-08-12 13:20:07,867 |upkeep
+2026-08-12 13:20:07,870 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,870 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":true,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:20:07,898 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,898 |
+2026-08-12 13:20:07,898 |t:|1786533607
+2026-08-12 13:20:07,898 |switch|p2a: Pikachu|Pikachu, L91, M|212/212
+2026-08-12 13:20:07,898 |switch|p1a: Luxray|Luxray, L86, M|100/100
+2026-08-12 13:20:07,898 |-ability|p1a: Luxray|Intimidate|boost
+2026-08-12 13:20:07,898 |-unboost|p2a: Pikachu|atk|1
+2026-08-12 13:20:07,898 |turn|5
+2026-08-12 13:20:07,902 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,902 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Volt Tackle","id":"volttackle","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Grass Knot","id":"grassknot","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"212/212","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:20:07,937 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,937 |
+2026-08-12 13:20:07,937 |t:|1786533607
+2026-08-12 13:20:07,937 |move|p2a: Pikachu|Thunderbolt|p1a: Luxray
+2026-08-12 13:20:07,937 |-resisted|p1a: Luxray
+2026-08-12 13:20:07,937 |-damage|p1a: Luxray|75/100
+2026-08-12 13:20:07,938 |move|p1a: Luxray|Ice Fang|p2a: Pikachu
+2026-08-12 13:20:07,938 |-damage|p2a: Pikachu|114/212
+2026-08-12 13:20:07,938 |
+2026-08-12 13:20:07,938 |-heal|p1a: Luxray|81/100|[from] item: Leftovers
+2026-08-12 13:20:07,938 |upkeep
+2026-08-12 13:20:07,938 |turn|6
+2026-08-12 13:20:07,938 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,938 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Volt Tackle","id":"volttackle","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Grass Knot","id":"grassknot","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"114/212","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:20:07,972 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,972 |
+2026-08-12 13:20:07,972 |t:|1786533607
+2026-08-12 13:20:07,972 |move|p2a: Pikachu|Volt Tackle|p1a: Luxray
+2026-08-12 13:20:07,972 |-resisted|p1a: Luxray
+2026-08-12 13:20:07,972 |-damage|p1a: Luxray|56/100
+2026-08-12 13:20:07,972 |-damage|p2a: Pikachu|92/212|[from] Recoil
+2026-08-12 13:20:07,972 |move|p1a: Luxray|Thunderbolt|p2a: Pikachu
+2026-08-12 13:20:07,972 |-resisted|p2a: Pikachu
+2026-08-12 13:20:07,972 |-damage|p2a: Pikachu|13/212
+2026-08-12 13:20:07,972 |
+2026-08-12 13:20:07,972 |-heal|p1a: Luxray|62/100|[from] item: Leftovers
+2026-08-12 13:20:07,972 |upkeep
+2026-08-12 13:20:07,972 |turn|7
+2026-08-12 13:20:07,972 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,972 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Volt Tackle","id":"volttackle","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Grass Knot","id":"grassknot","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"13/212","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:20:07,999 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,999 |
+2026-08-12 13:20:07,999 |t:|1786533607
+2026-08-12 13:20:07,999 |move|p2a: Pikachu|Volt Tackle|p1a: Luxray
+2026-08-12 13:20:07,999 |-resisted|p1a: Luxray
+2026-08-12 13:20:07,999 |-damage|p1a: Luxray|39/100
+2026-08-12 13:20:07,999 |-damage|p2a: Pikachu|0 fnt|[from] Recoil
+2026-08-12 13:20:07,999 |faint|p2a: Pikachu
+2026-08-12 13:20:07,999 |move|p1a: Luxray|Ice Fang|p2: Pikachu|[notarget]
+2026-08-12 13:20:07,999 |-notarget|p1a: Luxray
+2026-08-12 13:20:07,999 |
+2026-08-12 13:20:07,999 |-heal|p1a: Luxray|45/100|[from] item: Leftovers
+2026-08-12 13:20:07,999 |upkeep
+2026-08-12 13:20:07,999 >battle-gen4randombattle-324791
+2026-08-12 13:20:07,999 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":true,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":21}
+2026-08-12 13:20:08,027 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,027 |
+2026-08-12 13:20:08,027 |t:|1786533608
+2026-08-12 13:20:08,027 |switch|p2a: Registeel|Registeel, L81|262/262
+2026-08-12 13:20:08,027 |turn|8
+2026-08-12 13:20:08,027 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,027 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:20:08,053 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,053 |
+2026-08-12 13:20:08,053 |t:|1786533608
+2026-08-12 13:20:08,053 |move|p1a: Luxray|Ice Fang|p2a: Registeel|[miss]
+2026-08-12 13:20:08,053 |-miss|p1a: Luxray|p2a: Registeel
+2026-08-12 13:20:08,053 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:08,053 |-fail|p2a: Registeel
+2026-08-12 13:20:08,053 |
+2026-08-12 13:20:08,054 |-heal|p1a: Luxray|52/100|[from] item: Leftovers
+2026-08-12 13:20:08,054 |upkeep
+2026-08-12 13:20:08,054 |turn|9
+2026-08-12 13:20:08,054 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,054 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:20:08,081 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,081 |
+2026-08-12 13:20:08,081 |t:|1786533608
+2026-08-12 13:20:08,081 |move|p1a: Luxray|Ice Fang|p2a: Registeel
+2026-08-12 13:20:08,081 |-resisted|p2a: Registeel
+2026-08-12 13:20:08,081 |-damage|p2a: Registeel|243/262
+2026-08-12 13:20:08,081 |move|p2a: Registeel|Iron Head|p1a: Luxray
+2026-08-12 13:20:08,081 |-resisted|p1a: Luxray
+2026-08-12 13:20:08,081 |-damage|p1a: Luxray|39/100
+2026-08-12 13:20:08,081 |
+2026-08-12 13:20:08,081 |-heal|p1a: Luxray|45/100|[from] item: Leftovers
+2026-08-12 13:20:08,081 |-heal|p2a: Registeel|259/262|[from] item: Leftovers
+2026-08-12 13:20:08,081 |upkeep
+2026-08-12 13:20:08,082 |turn|10
+2026-08-12 13:20:08,082 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,082 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"273/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:20:08,135 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,136 |
+2026-08-12 13:20:08,136 |t:|1786533608
+2026-08-12 13:20:08,136 |switch|p2a: Pachirisu|Pachirisu, L97, M|273/273
+2026-08-12 13:20:08,136 |move|p1a: Luxray|Ice Fang|p2a: Pachirisu
+2026-08-12 13:20:08,136 |-damage|p2a: Pachirisu|212/273
+2026-08-12 13:20:08,136 |
+2026-08-12 13:20:08,136 |-heal|p2a: Pachirisu|229/273|[from] item: Leftovers
+2026-08-12 13:20:08,136 |-heal|p1a: Luxray|51/100|[from] item: Leftovers
+2026-08-12 13:20:08,136 |upkeep
+2026-08-12 13:20:08,136 |turn|11
+2026-08-12 13:20:08,137 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,137 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:20:08,170 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,170 |
+2026-08-12 13:20:08,170 |t:|1786533608
+2026-08-12 13:20:08,170 |move|p2a: Pachirisu|U-turn|p1a: Luxray
+2026-08-12 13:20:08,170 |-crit|p1a: Luxray
+2026-08-12 13:20:08,170 |-damage|p1a: Luxray|23/100
+2026-08-12 13:20:08,173 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,173 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":31}
+2026-08-12 13:20:08,209 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,209 |
+2026-08-12 13:20:08,209 |t:|1786533608
+2026-08-12 13:20:08,209 |switch|p2a: Deoxys|Deoxys-Speed, L80|211/211|[from] U-turn
+2026-08-12 13:20:08,209 |-ability|p2a: Deoxys|Pressure
+2026-08-12 13:20:08,209 |move|p1a: Luxray|Superpower|p2a: Deoxys
+2026-08-12 13:20:08,209 |-resisted|p2a: Deoxys
+2026-08-12 13:20:08,209 |-damage|p2a: Deoxys|160/211
+2026-08-12 13:20:08,209 |-unboost|p1a: Luxray|atk|1
+2026-08-12 13:20:08,209 |-unboost|p1a: Luxray|def|1
+2026-08-12 13:20:08,209 |
+2026-08-12 13:20:08,209 |-heal|p2a: Deoxys|173/211|[from] item: Leftovers
+2026-08-12 13:20:08,209 |-heal|p1a: Luxray|29/100|[from] item: Leftovers
+2026-08-12 13:20:08,209 |upkeep
+2026-08-12 13:20:08,209 |turn|12
+2026-08-12 13:20:08,212 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,212 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"173/211","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:20:08,252 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,252 |
+2026-08-12 13:20:08,252 |t:|1786533608
+2026-08-12 13:20:08,252 |move|p2a: Deoxys|Spikes|p1a: Luxray
+2026-08-12 13:20:08,252 |-sidestart|p1: BOT1|Spikes
+2026-08-12 13:20:08,252 |move|p1a: Luxray|Toxic|p2a: Deoxys
+2026-08-12 13:20:08,252 |-status|p2a: Deoxys|tox
+2026-08-12 13:20:08,252 |
+2026-08-12 13:20:08,252 |-heal|p2a: Deoxys|186/211 tox|[from] item: Leftovers
+2026-08-12 13:20:08,252 |-damage|p2a: Deoxys|173/211 tox|[from] psn
+2026-08-12 13:20:08,252 |-heal|p1a: Luxray|35/100|[from] item: Leftovers
+2026-08-12 13:20:08,252 |upkeep
+2026-08-12 13:20:08,252 |turn|13
+2026-08-12 13:20:08,254 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,254 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"173/211 tox","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:20:08,315 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,315 |
+2026-08-12 13:20:08,315 |t:|1786533608
+2026-08-12 13:20:08,315 |move|p2a: Deoxys|Superpower|p1a: Luxray
+2026-08-12 13:20:08,315 |-damage|p1a: Luxray|0 fnt
+2026-08-12 13:20:08,315 |-unboost|p2a: Deoxys|atk|1
+2026-08-12 13:20:08,315 |-unboost|p2a: Deoxys|def|1
+2026-08-12 13:20:08,315 |faint|p1a: Luxray
+2026-08-12 13:20:08,315 |
+2026-08-12 13:20:08,315 |-heal|p2a: Deoxys|186/211 tox|[from] item: Leftovers
+2026-08-12 13:20:08,315 |-damage|p2a: Deoxys|160/211 tox|[from] psn
+2026-08-12 13:20:08,315 |upkeep
+2026-08-12 13:20:08,319 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,320 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"160/211 tox","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:20:08,361 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,361 |
+2026-08-12 13:20:08,361 |t:|1786533608
+2026-08-12 13:20:08,361 |switch|p1a: Armaldo|Armaldo, L83, M|100/100
+2026-08-12 13:20:08,361 |-damage|p1a: Armaldo|88/100|[from] Spikes
+2026-08-12 13:20:08,361 |turn|14
+2026-08-12 13:20:08,362 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,362 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"160/211 tox","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:20:08,387 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,387 |
+2026-08-12 13:20:08,387 |t:|1786533608
+2026-08-12 13:20:08,387 |move|p2a: Deoxys|Psycho Boost|p1a: Armaldo
+2026-08-12 13:20:08,387 |-damage|p1a: Armaldo|30/100
+2026-08-12 13:20:08,387 |-unboost|p2a: Deoxys|spa|2
+2026-08-12 13:20:08,387 |move|p1a: Armaldo|Stone Edge|p2a: Deoxys
+2026-08-12 13:20:08,387 |-damage|p2a: Deoxys|0 fnt
+2026-08-12 13:20:08,387 |faint|p2a: Deoxys
+2026-08-12 13:20:08,387 |
+2026-08-12 13:20:08,387 |-heal|p1a: Armaldo|37/100|[from] item: Leftovers
+2026-08-12 13:20:08,387 |upkeep
+2026-08-12 13:20:08,388 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,388 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":41}
+2026-08-12 13:20:08,426 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,426 |
+2026-08-12 13:20:08,426 |t:|1786533608
+2026-08-12 13:20:08,426 |switch|p2a: Registeel|Registeel, L81|259/262
+2026-08-12 13:20:08,426 |turn|15
+2026-08-12 13:20:08,428 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,428 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"259/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:20:08,481 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,481 |
+2026-08-12 13:20:08,481 |t:|1786533608
+2026-08-12 13:20:08,481 |move|p2a: Registeel|Curse|p2a: Registeel
+2026-08-12 13:20:08,481 |-unboost|p2a: Registeel|spe|1
+2026-08-12 13:20:08,481 |-boost|p2a: Registeel|atk|1
+2026-08-12 13:20:08,481 |-boost|p2a: Registeel|def|1
+2026-08-12 13:20:08,481 |move|p1a: Armaldo|X-Scissor|p2a: Registeel
+2026-08-12 13:20:08,481 |-resisted|p2a: Registeel
+2026-08-12 13:20:08,481 |-damage|p2a: Registeel|238/262
+2026-08-12 13:20:08,481 |
+2026-08-12 13:20:08,482 |-heal|p1a: Armaldo|43/100|[from] item: Leftovers
+2026-08-12 13:20:08,482 |-heal|p2a: Registeel|254/262|[from] item: Leftovers
+2026-08-12 13:20:08,482 |upkeep
+2026-08-12 13:20:08,482 |turn|16
+2026-08-12 13:20:08,484 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,484 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"254/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:20:08,535 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,535 |
+2026-08-12 13:20:08,535 |t:|1786533608
+2026-08-12 13:20:08,535 |move|p1a: Armaldo|Earthquake|p2a: Registeel
+2026-08-12 13:20:08,535 |-supereffective|p2a: Registeel
+2026-08-12 13:20:08,535 |-damage|p2a: Registeel|168/262
+2026-08-12 13:20:08,535 |move|p2a: Registeel|Iron Head|p1a: Armaldo
+2026-08-12 13:20:08,535 |-supereffective|p1a: Armaldo
+2026-08-12 13:20:08,535 |-damage|p1a: Armaldo|0 fnt
+2026-08-12 13:20:08,535 |faint|p1a: Armaldo
+2026-08-12 13:20:08,535 |
+2026-08-12 13:20:08,535 |-heal|p2a: Registeel|184/262|[from] item: Leftovers
+2026-08-12 13:20:08,535 |upkeep
+2026-08-12 13:20:08,536 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,536 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"184/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:20:08,552 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,552 |
+2026-08-12 13:20:08,552 |t:|1786533608
+2026-08-12 13:20:08,552 |switch|p1a: Lugia|Lugia, L70|100/100
+2026-08-12 13:20:08,552 |-ability|p1a: Lugia|Pressure
+2026-08-12 13:20:08,552 |turn|17
+2026-08-12 13:20:08,553 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,553 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"184/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:20:08,597 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,597 |
+2026-08-12 13:20:08,597 |t:|1786533608
+2026-08-12 13:20:08,597 |move|p1a: Lugia|Toxic|p2a: Registeel
+2026-08-12 13:20:08,597 |-immune|p2a: Registeel
+2026-08-12 13:20:08,597 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:08,597 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:08,597 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:08,597 |
+2026-08-12 13:20:08,597 |upkeep
+2026-08-12 13:20:08,597 |turn|18
+2026-08-12 13:20:08,601 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,601 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:20:08,648 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,648 |
+2026-08-12 13:20:08,648 |t:|1786533608
+2026-08-12 13:20:08,648 |move|p1a: Lugia|Aeroblast|p2a: Registeel
+2026-08-12 13:20:08,648 |-resisted|p2a: Registeel
+2026-08-12 13:20:08,648 |-damage|p2a: Registeel|238/262 slp
+2026-08-12 13:20:08,648 |cant|p2a: Registeel|slp
+2026-08-12 13:20:08,648 |move|p2a: Registeel|Sleep Talk|p2a: Registeel
+2026-08-12 13:20:08,648 |move|p2a: Registeel|Rest||[from] move: Sleep Talk|[still]
+2026-08-12 13:20:08,648 |-fail|p2a: Registeel
+2026-08-12 13:20:08,648 |
+2026-08-12 13:20:08,648 |-heal|p2a: Registeel|254/262 slp|[from] item: Leftovers
+2026-08-12 13:20:08,648 |upkeep
+2026-08-12 13:20:08,648 |turn|19
+2026-08-12 13:20:08,652 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,652 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"254/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:20:08,674 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,674 |
+2026-08-12 13:20:08,674 |t:|1786533608
+2026-08-12 13:20:08,674 |switch|p2a: Pachirisu|Pachirisu, L97, M|229/273
+2026-08-12 13:20:08,674 |move|p1a: Lugia|Toxic|p2a: Pachirisu
+2026-08-12 13:20:08,675 |-status|p2a: Pachirisu|tox
+2026-08-12 13:20:08,675 |
+2026-08-12 13:20:08,675 |-heal|p2a: Pachirisu|246/273 tox|[from] item: Leftovers
+2026-08-12 13:20:08,675 |-damage|p2a: Pachirisu|229/273 tox|[from] psn
+2026-08-12 13:20:08,675 |upkeep
+2026-08-12 13:20:08,675 |turn|20
+2026-08-12 13:20:08,678 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,678 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"254/262 slp","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:20:08,718 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,718 |
+2026-08-12 13:20:08,718 |t:|1786533608
+2026-08-12 13:20:08,718 |move|p2a: Pachirisu|Super Fang|p1a: Lugia
+2026-08-12 13:20:08,718 |-damage|p1a: Lugia|50/100
+2026-08-12 13:20:08,718 |move|p1a: Lugia|Whirlwind|p2a: Pachirisu
+2026-08-12 13:20:08,718 |drag|p2a: Registeel|Registeel, L81|254/262 slp
+2026-08-12 13:20:08,718 |
+2026-08-12 13:20:08,718 |-heal|p1a: Lugia|57/100|[from] item: Leftovers
+2026-08-12 13:20:08,718 |-heal|p2a: Registeel|262/262 slp|[from] item: Leftovers
+2026-08-12 13:20:08,718 |upkeep
+2026-08-12 13:20:08,718 |turn|21
+2026-08-12 13:20:08,722 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,722 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:20:08,750 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,750 |
+2026-08-12 13:20:08,750 |t:|1786533608
+2026-08-12 13:20:08,750 |move|p1a: Lugia|Toxic||[still]
+2026-08-12 13:20:08,750 |-fail|p1a: Lugia
+2026-08-12 13:20:08,750 |cant|p2a: Registeel|slp
+2026-08-12 13:20:08,750 |
+2026-08-12 13:20:08,750 |-heal|p1a: Lugia|63/100|[from] item: Leftovers
+2026-08-12 13:20:08,750 |upkeep
+2026-08-12 13:20:08,750 |turn|22
+2026-08-12 13:20:08,750 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,750 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:20:08,778 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,778 |
+2026-08-12 13:20:08,778 |t:|1786533608
+2026-08-12 13:20:08,778 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:08,778 |move|p2a: Registeel|Curse|p2a: Registeel
+2026-08-12 13:20:08,778 |-unboost|p2a: Registeel|spe|1
+2026-08-12 13:20:08,778 |-boost|p2a: Registeel|atk|1
+2026-08-12 13:20:08,778 |-boost|p2a: Registeel|def|1
+2026-08-12 13:20:08,778 |move|p1a: Lugia|Whirlwind|p2a: Registeel
+2026-08-12 13:20:08,778 |drag|p2a: Pachirisu|Pachirisu, L97, M|229/273 tox
+2026-08-12 13:20:08,778 |
+2026-08-12 13:20:08,778 |-heal|p2a: Pachirisu|246/273 tox|[from] item: Leftovers
+2026-08-12 13:20:08,778 |-damage|p2a: Pachirisu|229/273 tox|[from] psn
+2026-08-12 13:20:08,778 |-heal|p1a: Lugia|69/100|[from] item: Leftovers
+2026-08-12 13:20:08,778 |upkeep
+2026-08-12 13:20:08,778 |turn|23
+2026-08-12 13:20:08,779 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,779 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"229/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:20:08,811 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,811 |
+2026-08-12 13:20:08,811 |t:|1786533608
+2026-08-12 13:20:08,811 |move|p2a: Pachirisu|Thunderbolt|p1a: Lugia
+2026-08-12 13:20:08,811 |-supereffective|p1a: Lugia
+2026-08-12 13:20:08,811 |-damage|p1a: Lugia|28/100
+2026-08-12 13:20:08,811 |move|p1a: Lugia|Aeroblast|p2a: Pachirisu
+2026-08-12 13:20:08,811 |-resisted|p2a: Pachirisu
+2026-08-12 13:20:08,811 |-damage|p2a: Pachirisu|200/273 tox
+2026-08-12 13:20:08,811 |
+2026-08-12 13:20:08,811 |-heal|p2a: Pachirisu|217/273 tox|[from] item: Leftovers
+2026-08-12 13:20:08,811 |-damage|p2a: Pachirisu|183/273 tox|[from] psn
+2026-08-12 13:20:08,811 |-heal|p1a: Lugia|34/100|[from] item: Leftovers
+2026-08-12 13:20:08,811 |upkeep
+2026-08-12 13:20:08,811 |turn|24
+2026-08-12 13:20:08,811 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,811 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"183/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:20:08,831 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,831 |
+2026-08-12 13:20:08,831 |t:|1786533608
+2026-08-12 13:20:08,831 |switch|p1a: Dusknoir|Dusknoir, L85, M|100/100
+2026-08-12 13:20:08,831 |-damage|p1a: Dusknoir|88/100|[from] Spikes
+2026-08-12 13:20:08,831 |-ability|p1a: Dusknoir|Pressure
+2026-08-12 13:20:08,831 |move|p2a: Pachirisu|Thunder Wave|p1a: Dusknoir
+2026-08-12 13:20:08,831 |-status|p1a: Dusknoir|par
+2026-08-12 13:20:08,831 |
+2026-08-12 13:20:08,831 |-heal|p2a: Pachirisu|200/273 tox|[from] item: Leftovers
+2026-08-12 13:20:08,831 |-damage|p2a: Pachirisu|149/273 tox|[from] psn
+2026-08-12 13:20:08,831 |-heal|p1a: Dusknoir|94/100 par|[from] item: Leftovers
+2026-08-12 13:20:08,831 |upkeep
+2026-08-12 13:20:08,831 |turn|25
+2026-08-12 13:20:08,836 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,836 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:20:08,865 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,865 |
+2026-08-12 13:20:08,865 |t:|1786533608
+2026-08-12 13:20:08,865 |move|p2a: Pachirisu|U-turn|p1a: Dusknoir
+2026-08-12 13:20:08,865 |-resisted|p1a: Dusknoir
+2026-08-12 13:20:08,865 |-damage|p1a: Dusknoir|87/100 par
+2026-08-12 13:20:08,868 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,868 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":67}
+2026-08-12 13:20:08,914 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,914 |
+2026-08-12 13:20:08,914 |t:|1786533608
+2026-08-12 13:20:08,914 |switch|p2a: Registeel|Registeel, L81|262/262|[from] U-turn
+2026-08-12 13:20:08,914 |move|p1a: Dusknoir|Earthquake|p2a: Registeel
+2026-08-12 13:20:08,914 |-supereffective|p2a: Registeel
+2026-08-12 13:20:08,914 |-damage|p2a: Registeel|166/262
+2026-08-12 13:20:08,914 |
+2026-08-12 13:20:08,914 |-heal|p2a: Registeel|182/262|[from] item: Leftovers
+2026-08-12 13:20:08,914 |-heal|p1a: Dusknoir|94/100 par|[from] item: Leftovers
+2026-08-12 13:20:08,914 |upkeep
+2026-08-12 13:20:08,914 |turn|26
+2026-08-12 13:20:08,916 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,916 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"182/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:20:08,965 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,965 |
+2026-08-12 13:20:08,965 |t:|1786533608
+2026-08-12 13:20:08,965 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:08,965 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:08,965 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:08,965 |move|p1a: Dusknoir|Toxic|p2a: Registeel|[miss]
+2026-08-12 13:20:08,965 |-miss|p1a: Dusknoir|p2a: Registeel
+2026-08-12 13:20:08,965 |
+2026-08-12 13:20:08,965 |-heal|p1a: Dusknoir|99/100 par|[from] item: Leftovers
+2026-08-12 13:20:08,965 |upkeep
+2026-08-12 13:20:08,965 |turn|27
+2026-08-12 13:20:08,969 >battle-gen4randombattle-324791
+2026-08-12 13:20:08,969 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:20:09,008 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,009 |
+2026-08-12 13:20:09,009 |t:|1786533608
+2026-08-12 13:20:09,009 |move|p1a: Dusknoir|Shadow Sneak|p2a: Registeel
+2026-08-12 13:20:09,009 |-resisted|p2a: Registeel
+2026-08-12 13:20:09,009 |-damage|p2a: Registeel|247/262 slp
+2026-08-12 13:20:09,009 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,009 |
+2026-08-12 13:20:09,009 |-heal|p2a: Registeel|262/262 slp|[from] item: Leftovers
+2026-08-12 13:20:09,009 |-heal|p1a: Dusknoir|100/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,009 |upkeep
+2026-08-12 13:20:09,009 |turn|28
+2026-08-12 13:20:09,012 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,012 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:20:09,054 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,054 |
+2026-08-12 13:20:09,054 |t:|1786533609
+2026-08-12 13:20:09,054 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,054 |move|p1a: Dusknoir|Earthquake|p2a: Registeel
+2026-08-12 13:20:09,054 |-supereffective|p2a: Registeel
+2026-08-12 13:20:09,054 |-damage|p2a: Registeel|160/262 slp
+2026-08-12 13:20:09,054 |
+2026-08-12 13:20:09,054 |-heal|p2a: Registeel|176/262 slp|[from] item: Leftovers
+2026-08-12 13:20:09,054 |upkeep
+2026-08-12 13:20:09,054 |turn|29
+2026-08-12 13:20:09,054 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,054 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"176/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:20:09,076 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,076 |
+2026-08-12 13:20:09,076 |t:|1786533609
+2026-08-12 13:20:09,076 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:09,076 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:09,076 |-fail|p2a: Registeel
+2026-08-12 13:20:09,076 |move|p1a: Dusknoir|Earthquake|p2a: Registeel
+2026-08-12 13:20:09,076 |-supereffective|p2a: Registeel
+2026-08-12 13:20:09,076 |-damage|p2a: Registeel|80/262
+2026-08-12 13:20:09,076 |
+2026-08-12 13:20:09,076 |-heal|p2a: Registeel|96/262|[from] item: Leftovers
+2026-08-12 13:20:09,076 |upkeep
+2026-08-12 13:20:09,076 |turn|30
+2026-08-12 13:20:09,077 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,077 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"96/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:20:09,107 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,107 |
+2026-08-12 13:20:09,107 |t:|1786533609
+2026-08-12 13:20:09,107 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:09,107 |-fail|p2a: Registeel
+2026-08-12 13:20:09,107 |cant|p1a: Dusknoir|par
+2026-08-12 13:20:09,107 |
+2026-08-12 13:20:09,107 |-heal|p2a: Registeel|112/262|[from] item: Leftovers
+2026-08-12 13:20:09,107 |upkeep
+2026-08-12 13:20:09,107 |turn|31
+2026-08-12 13:20:09,109 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,109 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"112/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:20:09,133 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,133 |
+2026-08-12 13:20:09,134 |t:|1786533609
+2026-08-12 13:20:09,134 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:09,134 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:09,134 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:09,134 |move|p1a: Dusknoir|Toxic||[still]
+2026-08-12 13:20:09,134 |-fail|p1a: Dusknoir
+2026-08-12 13:20:09,134 |
+2026-08-12 13:20:09,134 |upkeep
+2026-08-12 13:20:09,134 |turn|32
+2026-08-12 13:20:09,137 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,137 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:20:09,178 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,178 |
+2026-08-12 13:20:09,178 |t:|1786533609
+2026-08-12 13:20:09,178 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,178 |move|p2a: Registeel|Sleep Talk|p2a: Registeel
+2026-08-12 13:20:09,178 |move|p2a: Registeel|Iron Head|p1a: Dusknoir|[from] move: Sleep Talk
+2026-08-12 13:20:09,178 |-damage|p1a: Dusknoir|78/100 par
+2026-08-12 13:20:09,178 |move|p1a: Dusknoir|Toxic||[still]
+2026-08-12 13:20:09,178 |-fail|p1a: Dusknoir
+2026-08-12 13:20:09,178 |
+2026-08-12 13:20:09,178 |-heal|p1a: Dusknoir|84/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,178 |upkeep
+2026-08-12 13:20:09,178 |turn|33
+2026-08-12 13:20:09,178 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,178 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:20:09,202 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,202 |
+2026-08-12 13:20:09,202 |t:|1786533609
+2026-08-12 13:20:09,202 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,202 |move|p1a: Dusknoir|Earthquake|p2a: Registeel
+2026-08-12 13:20:09,202 |-supereffective|p2a: Registeel
+2026-08-12 13:20:09,202 |-damage|p2a: Registeel|158/262 slp
+2026-08-12 13:20:09,202 |
+2026-08-12 13:20:09,202 |-heal|p2a: Registeel|174/262 slp|[from] item: Leftovers
+2026-08-12 13:20:09,202 |-heal|p1a: Dusknoir|90/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,202 |upkeep
+2026-08-12 13:20:09,202 |turn|34
+2026-08-12 13:20:09,207 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,207 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"174/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:20:09,242 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,242 |
+2026-08-12 13:20:09,242 |t:|1786533609
+2026-08-12 13:20:09,242 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:09,242 |move|p2a: Registeel|Iron Head|p1a: Dusknoir
+2026-08-12 13:20:09,242 |-damage|p1a: Dusknoir|70/100 par
+2026-08-12 13:20:09,242 |move|p1a: Dusknoir|Earthquake|p2a: Registeel
+2026-08-12 13:20:09,242 |-supereffective|p2a: Registeel
+2026-08-12 13:20:09,242 |-damage|p2a: Registeel|66/262
+2026-08-12 13:20:09,242 |
+2026-08-12 13:20:09,242 |-heal|p2a: Registeel|82/262|[from] item: Leftovers
+2026-08-12 13:20:09,242 |-heal|p1a: Dusknoir|76/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,242 |upkeep
+2026-08-12 13:20:09,242 |turn|35
+2026-08-12 13:20:09,242 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,242 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"82/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:20:09,268 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,268 |
+2026-08-12 13:20:09,268 |t:|1786533609
+2026-08-12 13:20:09,268 |move|p1a: Dusknoir|Shadow Sneak|p2a: Registeel
+2026-08-12 13:20:09,268 |-resisted|p2a: Registeel
+2026-08-12 13:20:09,268 |-damage|p2a: Registeel|67/262
+2026-08-12 13:20:09,268 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:09,268 |-fail|p2a: Registeel
+2026-08-12 13:20:09,268 |
+2026-08-12 13:20:09,268 |-heal|p2a: Registeel|83/262|[from] item: Leftovers
+2026-08-12 13:20:09,268 |-heal|p1a: Dusknoir|82/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,268 |upkeep
+2026-08-12 13:20:09,268 |turn|36
+2026-08-12 13:20:09,271 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,271 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"83/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"149/273 tox","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:20:09,298 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,298 |
+2026-08-12 13:20:09,298 |t:|1786533609
+2026-08-12 13:20:09,298 |switch|p2a: Pachirisu|Pachirisu, L97, M|149/273 tox
+2026-08-12 13:20:09,298 |move|p1a: Dusknoir|Ice Punch|p2a: Pachirisu
+2026-08-12 13:20:09,298 |-damage|p2a: Pachirisu|93/273 tox
+2026-08-12 13:20:09,298 |
+2026-08-12 13:20:09,298 |-heal|p2a: Pachirisu|110/273 tox|[from] item: Leftovers
+2026-08-12 13:20:09,298 |-damage|p2a: Pachirisu|93/273 tox|[from] psn
+2026-08-12 13:20:09,298 |-heal|p1a: Dusknoir|88/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,298 |upkeep
+2026-08-12 13:20:09,298 |turn|37
+2026-08-12 13:20:09,300 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,300 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"93/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"83/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:20:09,329 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,329 |
+2026-08-12 13:20:09,329 |t:|1786533609
+2026-08-12 13:20:09,329 |move|p2a: Pachirisu|Super Fang|p1a: Dusknoir
+2026-08-12 13:20:09,329 |-immune|p1a: Dusknoir
+2026-08-12 13:20:09,329 |move|p1a: Dusknoir|Ice Punch|p2a: Pachirisu
+2026-08-12 13:20:09,329 |-damage|p2a: Pachirisu|39/273 tox
+2026-08-12 13:20:09,329 |
+2026-08-12 13:20:09,329 |-heal|p2a: Pachirisu|56/273 tox|[from] item: Leftovers
+2026-08-12 13:20:09,329 |-damage|p2a: Pachirisu|22/273 tox|[from] psn
+2026-08-12 13:20:09,329 |-heal|p1a: Dusknoir|94/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,329 |upkeep
+2026-08-12 13:20:09,329 |turn|38
+2026-08-12 13:20:09,329 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,329 |request|{"active":[{"moves":[{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Thunder Wave","id":"thunderwave","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Super Fang","id":"superfang","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"22/273 tox","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"83/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 13:20:09,353 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,353 |
+2026-08-12 13:20:09,353 |t:|1786533609
+2026-08-12 13:20:09,353 |move|p2a: Pachirisu|Super Fang|p1a: Dusknoir
+2026-08-12 13:20:09,353 |-immune|p1a: Dusknoir
+2026-08-12 13:20:09,353 |move|p1a: Dusknoir|Toxic|p2a: Pachirisu|[miss]
+2026-08-12 13:20:09,353 |-miss|p1a: Dusknoir|p2a: Pachirisu
+2026-08-12 13:20:09,353 |
+2026-08-12 13:20:09,353 |-heal|p2a: Pachirisu|39/273 tox|[from] item: Leftovers
+2026-08-12 13:20:09,353 |-damage|p2a: Pachirisu|0 fnt|[from] psn
+2026-08-12 13:20:09,353 |faint|p2a: Pachirisu
+2026-08-12 13:20:09,353 |-heal|p1a: Dusknoir|99/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,354 |upkeep
+2026-08-12 13:20:09,354 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,354 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":true,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Registeel","details":"Registeel, L81","condition":"83/262","active":false,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":95}
+2026-08-12 13:20:09,373 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,373 |
+2026-08-12 13:20:09,373 |t:|1786533609
+2026-08-12 13:20:09,373 |switch|p2a: Registeel|Registeel, L81|83/262
+2026-08-12 13:20:09,373 |turn|39
+2026-08-12 13:20:09,376 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,376 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"83/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 13:20:09,432 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,433 |
+2026-08-12 13:20:09,433 |t:|1786533609
+2026-08-12 13:20:09,433 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:09,433 |-fail|p2a: Registeel
+2026-08-12 13:20:09,433 |move|p1a: Dusknoir|Ice Punch|p2a: Registeel
+2026-08-12 13:20:09,433 |-resisted|p2a: Registeel
+2026-08-12 13:20:09,433 |-damage|p2a: Registeel|63/262
+2026-08-12 13:20:09,433 |
+2026-08-12 13:20:09,433 |-heal|p2a: Registeel|79/262|[from] item: Leftovers
+2026-08-12 13:20:09,433 |-heal|p1a: Dusknoir|100/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,433 |upkeep
+2026-08-12 13:20:09,433 |turn|40
+2026-08-12 13:20:09,434 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,434 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"79/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 13:20:09,465 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,465 |
+2026-08-12 13:20:09,465 |t:|1786533609
+2026-08-12 13:20:09,465 |move|p2a: Registeel|Curse|p2a: Registeel
+2026-08-12 13:20:09,465 |-unboost|p2a: Registeel|spe|1
+2026-08-12 13:20:09,465 |-boost|p2a: Registeel|atk|1
+2026-08-12 13:20:09,465 |-boost|p2a: Registeel|def|1
+2026-08-12 13:20:09,465 |move|p1a: Dusknoir|Toxic|p2a: Registeel
+2026-08-12 13:20:09,465 |-immune|p2a: Registeel
+2026-08-12 13:20:09,465 |
+2026-08-12 13:20:09,465 |-heal|p2a: Registeel|95/262|[from] item: Leftovers
+2026-08-12 13:20:09,465 |upkeep
+2026-08-12 13:20:09,465 |turn|41
+2026-08-12 13:20:09,465 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,465 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"95/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 13:20:09,499 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,499 |
+2026-08-12 13:20:09,499 |t:|1786533609
+2026-08-12 13:20:09,499 |move|p2a: Registeel|Curse|p2a: Registeel
+2026-08-12 13:20:09,499 |-unboost|p2a: Registeel|spe|1
+2026-08-12 13:20:09,499 |-boost|p2a: Registeel|atk|1
+2026-08-12 13:20:09,499 |-boost|p2a: Registeel|def|1
+2026-08-12 13:20:09,499 |cant|p1a: Dusknoir|par
+2026-08-12 13:20:09,499 |
+2026-08-12 13:20:09,499 |-heal|p2a: Registeel|111/262|[from] item: Leftovers
+2026-08-12 13:20:09,499 |upkeep
+2026-08-12 13:20:09,499 |turn|42
+2026-08-12 13:20:09,499 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,499 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"111/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 13:20:09,540 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,540 |
+2026-08-12 13:20:09,540 |t:|1786533609
+2026-08-12 13:20:09,540 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:09,540 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:09,540 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:09,540 |cant|p1a: Dusknoir|par
+2026-08-12 13:20:09,540 |
+2026-08-12 13:20:09,540 |upkeep
+2026-08-12 13:20:09,540 |turn|43
+2026-08-12 13:20:09,540 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,540 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 13:20:09,575 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,575 |
+2026-08-12 13:20:09,575 |t:|1786533609
+2026-08-12 13:20:09,575 |switch|p1a: Bastiodon|Bastiodon, L97, F|100/100
+2026-08-12 13:20:09,575 |-damage|p1a: Bastiodon|88/100|[from] Spikes
+2026-08-12 13:20:09,575 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,575 |
+2026-08-12 13:20:09,575 |-heal|p1a: Bastiodon|94/100|[from] item: Leftovers
+2026-08-12 13:20:09,575 |upkeep
+2026-08-12 13:20:09,575 |turn|44
+2026-08-12 13:20:09,576 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,576 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 13:20:09,606 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,606 |
+2026-08-12 13:20:09,606 |t:|1786533609
+2026-08-12 13:20:09,606 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,606 |move|p2a: Registeel|Sleep Talk|p2a: Registeel
+2026-08-12 13:20:09,606 |move|p2a: Registeel|Curse|p2a: Registeel|[from] move: Sleep Talk
+2026-08-12 13:20:09,606 |-unboost|p2a: Registeel|spe|1
+2026-08-12 13:20:09,606 |-boost|p2a: Registeel|atk|1
+2026-08-12 13:20:09,606 |-boost|p2a: Registeel|def|1
+2026-08-12 13:20:09,606 |move|p1a: Bastiodon|Roar||[still]
+2026-08-12 13:20:09,607 |-fail|p1a: Bastiodon
+2026-08-12 13:20:09,607 |
+2026-08-12 13:20:09,607 |-heal|p1a: Bastiodon|100/100|[from] item: Leftovers
+2026-08-12 13:20:09,607 |upkeep
+2026-08-12 13:20:09,607 |turn|45
+2026-08-12 13:20:09,607 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,607 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":7,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 13:20:09,641 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,641 |
+2026-08-12 13:20:09,641 |t:|1786533609
+2026-08-12 13:20:09,641 |move|p1a: Bastiodon|Toxic||[still]
+2026-08-12 13:20:09,641 |-fail|p1a: Bastiodon
+2026-08-12 13:20:09,641 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:09,641 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:09,641 |-fail|p2a: Registeel
+2026-08-12 13:20:09,641 |
+2026-08-12 13:20:09,641 |upkeep
+2026-08-12 13:20:09,641 |turn|46
+2026-08-12 13:20:09,649 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,649 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":6,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 13:20:09,684 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,684 |
+2026-08-12 13:20:09,684 |t:|1786533609
+2026-08-12 13:20:09,684 |move|p1a: Bastiodon|Earthquake|p2a: Registeel
+2026-08-12 13:20:09,684 |-supereffective|p2a: Registeel
+2026-08-12 13:20:09,684 |-damage|p2a: Registeel|228/262
+2026-08-12 13:20:09,684 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:09,684 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:09,684 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:09,684 |
+2026-08-12 13:20:09,684 |upkeep
+2026-08-12 13:20:09,684 |turn|47
+2026-08-12 13:20:09,685 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,685 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":6,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 13:20:09,711 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,711 |
+2026-08-12 13:20:09,711 |t:|1786533609
+2026-08-12 13:20:09,711 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,711 |move|p1a: Bastiodon|Roar||[still]
+2026-08-12 13:20:09,711 |-fail|p1a: Bastiodon
+2026-08-12 13:20:09,711 |
+2026-08-12 13:20:09,711 |upkeep
+2026-08-12 13:20:09,711 |turn|48
+2026-08-12 13:20:09,712 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,712 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":6,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 13:20:09,764 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,764 |
+2026-08-12 13:20:09,764 |t:|1786533609
+2026-08-12 13:20:09,764 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,764 |move|p2a: Registeel|Sleep Talk|p2a: Registeel
+2026-08-12 13:20:09,764 |move|p2a: Registeel|Iron Head|p1a: Bastiodon|[from] move: Sleep Talk
+2026-08-12 13:20:09,764 |-damage|p1a: Bastiodon|67/100
+2026-08-12 13:20:09,764 |cant|p1a: Bastiodon|flinch
+2026-08-12 13:20:09,764 |
+2026-08-12 13:20:09,764 |-heal|p1a: Bastiodon|73/100|[from] item: Leftovers
+2026-08-12 13:20:09,764 |upkeep
+2026-08-12 13:20:09,764 |turn|49
+2026-08-12 13:20:09,767 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,767 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":5,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 13:20:09,795 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,795 |
+2026-08-12 13:20:09,795 |t:|1786533609
+2026-08-12 13:20:09,795 |switch|p1a: Lugia|Lugia, L70|34/100
+2026-08-12 13:20:09,795 |-ability|p1a: Lugia|Pressure
+2026-08-12 13:20:09,795 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:09,795 |move|p2a: Registeel|Iron Head|p1a: Lugia
+2026-08-12 13:20:09,795 |-damage|p1a: Lugia|0 fnt
+2026-08-12 13:20:09,795 |faint|p1a: Lugia
+2026-08-12 13:20:09,795 |
+2026-08-12 13:20:09,795 |upkeep
+2026-08-12 13:20:09,796 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,796 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 13:20:09,824 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,824 |
+2026-08-12 13:20:09,824 |t:|1786533609
+2026-08-12 13:20:09,824 |switch|p1a: Dusknoir|Dusknoir, L85, M|100/100 par
+2026-08-12 13:20:09,824 |-damage|p1a: Dusknoir|88/100 par|[from] Spikes
+2026-08-12 13:20:09,824 |-ability|p1a: Dusknoir|Pressure
+2026-08-12 13:20:09,824 |turn|50
+2026-08-12 13:20:09,826 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,826 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":5,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 13:20:09,886 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,886 |
+2026-08-12 13:20:09,886 |t:|1786533609
+2026-08-12 13:20:09,886 |move|p2a: Registeel|Curse|p2a: Registeel
+2026-08-12 13:20:09,886 |-unboost|p2a: Registeel|spe|1
+2026-08-12 13:20:09,886 |-boost|p2a: Registeel|atk|1
+2026-08-12 13:20:09,886 |-boost|p2a: Registeel|def|1
+2026-08-12 13:20:09,886 |move|p1a: Dusknoir|Earthquake|p2a: Registeel
+2026-08-12 13:20:09,886 |-supereffective|p2a: Registeel
+2026-08-12 13:20:09,886 |-damage|p2a: Registeel|228/262
+2026-08-12 13:20:09,886 |
+2026-08-12 13:20:09,886 |-heal|p2a: Registeel|244/262|[from] item: Leftovers
+2026-08-12 13:20:09,886 |-heal|p1a: Dusknoir|94/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,886 |upkeep
+2026-08-12 13:20:09,886 |turn|51
+2026-08-12 13:20:09,888 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,888 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":5,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"244/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 13:20:09,932 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,932 |
+2026-08-12 13:20:09,932 |t:|1786533609
+2026-08-12 13:20:09,932 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:09,932 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:09,932 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:09,932 |move|p1a: Dusknoir|Ice Punch|p2a: Registeel
+2026-08-12 13:20:09,932 |-resisted|p2a: Registeel
+2026-08-12 13:20:09,932 |-damage|p2a: Registeel|256/262 slp
+2026-08-12 13:20:09,932 |
+2026-08-12 13:20:09,932 |-heal|p2a: Registeel|262/262 slp|[from] item: Leftovers
+2026-08-12 13:20:09,932 |-heal|p1a: Dusknoir|100/100 par|[from] item: Leftovers
+2026-08-12 13:20:09,932 |upkeep
+2026-08-12 13:20:09,932 |turn|52
+2026-08-12 13:20:09,933 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,933 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":5,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 13:20:09,962 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,962 |
+2026-08-12 13:20:09,962 |t:|1786533609
+2026-08-12 13:20:09,962 |cant|p2a: Registeel|slp
+2026-08-12 13:20:09,962 |move|p1a: Dusknoir|Ice Punch|p2a: Registeel
+2026-08-12 13:20:09,962 |-resisted|p2a: Registeel
+2026-08-12 13:20:09,962 |-damage|p2a: Registeel|255/262 slp
+2026-08-12 13:20:09,962 |
+2026-08-12 13:20:09,962 |-heal|p2a: Registeel|262/262 slp|[from] item: Leftovers
+2026-08-12 13:20:09,962 |upkeep
+2026-08-12 13:20:09,962 |turn|53
+2026-08-12 13:20:09,965 >battle-gen4randombattle-324791
+2026-08-12 13:20:09,965 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":5,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":127}
+2026-08-12 13:20:10,011 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,011 |
+2026-08-12 13:20:10,011 |t:|1786533609
+2026-08-12 13:20:10,011 |cant|p2a: Registeel|slp
+2026-08-12 13:20:10,011 |move|p2a: Registeel|Sleep Talk|p2a: Registeel
+2026-08-12 13:20:10,011 |move|p2a: Registeel|Iron Head|p1a: Dusknoir|[from] move: Sleep Talk
+2026-08-12 13:20:10,011 |-damage|p1a: Dusknoir|32/100 par
+2026-08-12 13:20:10,011 |cant|p1a: Dusknoir|flinch
+2026-08-12 13:20:10,011 |
+2026-08-12 13:20:10,011 |-heal|p1a: Dusknoir|38/100 par|[from] item: Leftovers
+2026-08-12 13:20:10,011 |upkeep
+2026-08-12 13:20:10,011 |turn|54
+2026-08-12 13:20:10,012 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,012 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":3,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":129}
+2026-08-12 13:20:10,065 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,065 |
+2026-08-12 13:20:10,065 |t:|1786533610
+2026-08-12 13:20:10,065 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:10,065 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:10,065 |-fail|p2a: Registeel
+2026-08-12 13:20:10,065 |cant|p1a: Dusknoir|par
+2026-08-12 13:20:10,065 |
+2026-08-12 13:20:10,065 |-heal|p1a: Dusknoir|44/100 par|[from] item: Leftovers
+2026-08-12 13:20:10,065 |upkeep
+2026-08-12 13:20:10,065 |turn|55
+2026-08-12 13:20:10,066 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,066 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":2,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 13:20:10,090 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,090 |
+2026-08-12 13:20:10,090 |t:|1786533610
+2026-08-12 13:20:10,090 |move|p2a: Registeel|Iron Head|p1a: Dusknoir
+2026-08-12 13:20:10,090 |-damage|p1a: Dusknoir|0 fnt
+2026-08-12 13:20:10,090 |faint|p1a: Dusknoir
+2026-08-12 13:20:10,090 |
+2026-08-12 13:20:10,090 |upkeep
+2026-08-12 13:20:10,093 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,093 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":133}
+2026-08-12 13:20:10,129 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,129 |
+2026-08-12 13:20:10,129 |t:|1786533610
+2026-08-12 13:20:10,129 |switch|p1a: Bastiodon|Bastiodon, L97, F|73/100
+2026-08-12 13:20:10,129 |-damage|p1a: Bastiodon|61/100|[from] Spikes
+2026-08-12 13:20:10,129 |turn|56
+2026-08-12 13:20:10,129 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,129 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":2,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":135}
+2026-08-12 13:20:10,146 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,146 |
+2026-08-12 13:20:10,146 |t:|1786533610
+2026-08-12 13:20:10,146 |move|p1a: Bastiodon|Metal Burst||[still]
+2026-08-12 13:20:10,146 |-fail|p1a: Bastiodon
+2026-08-12 13:20:10,146 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:10,146 |-fail|p2a: Registeel|heal
+2026-08-12 13:20:10,146 |
+2026-08-12 13:20:10,146 |-heal|p1a: Bastiodon|67/100|[from] item: Leftovers
+2026-08-12 13:20:10,146 |upkeep
+2026-08-12 13:20:10,146 |turn|57
+2026-08-12 13:20:10,146 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,146 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":2,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":137}
+2026-08-12 13:20:10,184 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,184 |
+2026-08-12 13:20:10,184 |t:|1786533610
+2026-08-12 13:20:10,184 |move|p1a: Bastiodon|Earthquake|p2a: Registeel
+2026-08-12 13:20:10,184 |-supereffective|p2a: Registeel
+2026-08-12 13:20:10,184 |-damage|p2a: Registeel|232/262
+2026-08-12 13:20:10,184 |move|p2a: Registeel|Sleep Talk||[still]
+2026-08-12 13:20:10,184 |-fail|p2a: Registeel
+2026-08-12 13:20:10,184 |
+2026-08-12 13:20:10,184 |-heal|p1a: Bastiodon|73/100|[from] item: Leftovers
+2026-08-12 13:20:10,184 |-heal|p2a: Registeel|248/262|[from] item: Leftovers
+2026-08-12 13:20:10,184 |upkeep
+2026-08-12 13:20:10,184 |turn|58
+2026-08-12 13:20:10,184 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,184 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":1,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"248/262","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":139}
+2026-08-12 13:20:10,215 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,215 |
+2026-08-12 13:20:10,215 |t:|1786533610
+2026-08-12 13:20:10,215 |move|p2a: Registeel|Rest|p2a: Registeel
+2026-08-12 13:20:10,215 |-status|p2a: Registeel|slp|[from] move: Rest
+2026-08-12 13:20:10,215 |-heal|p2a: Registeel|262/262 slp|[silent]
+2026-08-12 13:20:10,215 |move|p1a: Bastiodon|Roar||[still]
+2026-08-12 13:20:10,215 |-fail|p1a: Bastiodon
+2026-08-12 13:20:10,215 |
+2026-08-12 13:20:10,215 |-heal|p1a: Bastiodon|80/100|[from] item: Leftovers
+2026-08-12 13:20:10,215 |upkeep
+2026-08-12 13:20:10,215 |turn|59
+2026-08-12 13:20:10,215 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,215 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":1,"maxpp":16,"target":"self","disabled":false},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":141}
+2026-08-12 13:20:10,253 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,253 |
+2026-08-12 13:20:10,253 |t:|1786533610
+2026-08-12 13:20:10,253 |move|p1a: Bastiodon|Earthquake|p2a: Registeel
+2026-08-12 13:20:10,253 |-supereffective|p2a: Registeel
+2026-08-12 13:20:10,253 |-damage|p2a: Registeel|232/262 slp
+2026-08-12 13:20:10,253 |cant|p2a: Registeel|slp
+2026-08-12 13:20:10,254 |move|p2a: Registeel|Sleep Talk|p2a: Registeel
+2026-08-12 13:20:10,254 |move|p2a: Registeel|Iron Head|p1a: Bastiodon|[from] move: Sleep Talk
+2026-08-12 13:20:10,254 |-crit|p1a: Bastiodon
+2026-08-12 13:20:10,254 |-damage|p1a: Bastiodon|6/100
+2026-08-12 13:20:10,254 |
+2026-08-12 13:20:10,254 |-heal|p1a: Bastiodon|12/100|[from] item: Leftovers
+2026-08-12 13:20:10,254 |-heal|p2a: Registeel|248/262 slp|[from] item: Leftovers
+2026-08-12 13:20:10,254 |upkeep
+2026-08-12 13:20:10,254 |turn|60
+2026-08-12 13:20:10,254 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,254 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":0,"maxpp":16,"target":"self","disabled":true},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"248/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":143}
+2026-08-12 13:20:10,284 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,284 |
+2026-08-12 13:20:10,284 |t:|1786533610
+2026-08-12 13:20:10,284 |move|p1a: Bastiodon|Metal Burst||[still]
+2026-08-12 13:20:10,284 |-fail|p1a: Bastiodon
+2026-08-12 13:20:10,284 |cant|p2a: Registeel|slp
+2026-08-12 13:20:10,284 |
+2026-08-12 13:20:10,284 |-heal|p1a: Bastiodon|18/100|[from] item: Leftovers
+2026-08-12 13:20:10,284 |-heal|p2a: Registeel|262/262 slp|[from] item: Leftovers
+2026-08-12 13:20:10,284 |upkeep
+2026-08-12 13:20:10,284 |turn|61
+2026-08-12 13:20:10,284 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,284 |request|{"active":[{"moves":[{"move":"Iron Head","id":"ironhead","pp":16,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":0,"maxpp":16,"target":"self","disabled":true},{"move":"Curse","id":"curse","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Registeel","details":"Registeel, L81","condition":"262/262 slp","active":true,"stats":{"atk":168,"def":290,"spa":168,"spd":290,"spe":128},"moves":["ironhead","rest","sleeptalk","curse"],"baseAbility":"clearbody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pikachu","details":"Pikachu, L91, M","condition":"0 fnt","active":false,"stats":{"atk":151,"def":106,"spa":143,"spd":125,"spe":216},"moves":["hiddenpowerice","volttackle","thunderbolt","grassknot"],"baseAbility":"static","item":"lightball","pokeball":"pokeball"},{"ident":"p2: Lapras","details":"Lapras, L83, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":180,"spa":189,"spd":205,"spe":147},"moves":["healbell","icebeam","hydropump","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Pachirisu","details":"Pachirisu, L97, M","condition":"0 fnt","active":false,"stats":{"atk":142,"def":191,"spa":142,"spd":230,"spe":239},"moves":["thunderbolt","uturn","thunderwave","superfang"],"baseAbility":"pickup","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Darkrai","details":"Darkrai, L68","condition":"0 fnt","active":false,"stats":{"atk":127,"def":162,"spa":223,"spd":162,"spe":210},"moves":["darkpulse","substitute","nastyplot","darkvoid"],"baseAbility":"baddreams","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"0 fnt","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["superpower","spikes","taunt","psychoboost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":145}
+2026-08-12 13:20:10,318 >battle-gen4randombattle-324791
+2026-08-12 13:20:10,318 |
+2026-08-12 13:20:10,318 |t:|1786533610
+2026-08-12 13:20:10,318 |move|p1a: Bastiodon|Metal Burst||[still]
+2026-08-12 13:20:10,318 |-fail|p1a: Bastiodon
+2026-08-12 13:20:10,318 |-curestatus|p2a: Registeel|slp|[msg]
+2026-08-12 13:20:10,318 |move|p2a: Registeel|Iron Head|p1a: Bastiodon
+2026-08-12 13:20:10,318 |-damage|p1a: Bastiodon|0 fnt
+2026-08-12 13:20:10,318 |faint|p1a: Bastiodon
+2026-08-12 13:20:10,318 |
+2026-08-12 13:20:10,318 |win|BOT2
+2026-08-12 14:00:10,319 >battle-gen4randombattle-324791
+2026-08-12 14:00:10,319 |expire|
+2026-08-12 14:00:10,320 >battle-gen4randombattle-324791
+2026-08-12 14:00:10,320 |L|☆BOT1
+2026-08-12 14:00:10,321 >battle-gen4randombattle-324791
+2026-08-12 14:00:10,321 |deinit

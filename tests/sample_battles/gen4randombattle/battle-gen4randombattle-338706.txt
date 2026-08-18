@@ -1,0 +1,702 @@
+2026-08-13 05:01:07,761 >battle-gen4randombattle-338706
+2026-08-13 05:01:07,761 |init|battle
+2026-08-13 05:01:07,762 |title|BOT3 vs. BOT4
+2026-08-13 05:01:07,762 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-338706">battle-gen4randombattle-338706</a>&raquo;
+2026-08-13 05:01:07,945 >battle-gen4randombattle-338706
+2026-08-13 05:01:07,945 |t:|1786590067
+2026-08-13 05:01:07,945 |gametype|singles
+2026-08-13 05:01:07,980 >battle-gen4randombattle-338706
+2026-08-13 05:01:07,980 |player|p1|BOT3|102|
+2026-08-13 05:01:07,992 >battle-gen4randombattle-338706
+2026-08-13 05:01:07,992 |player|p2|BOT4|266|
+2026-08-13 05:01:07,992 |gen|4
+2026-08-13 05:01:07,992 |tier|[Gen 4] Random Battle
+2026-08-13 05:01:07,992 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-13 05:01:07,992 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-13 05:01:07,992 |
+2026-08-13 05:01:07,992 |t:|1786590067
+2026-08-13 05:01:07,992 |teamsize|p1|6
+2026-08-13 05:01:07,992 |teamsize|p2|6
+2026-08-13 05:01:07,992 |start
+2026-08-13 05:01:07,992 |switch|p1a: Lucario|Lucario, L79, M|100/100
+2026-08-13 05:01:07,992 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-13 05:01:07,992 |turn|1
+2026-08-13 05:01:07,992 >battle-gen4randombattle-338706
+2026-08-13 05:01:07,992 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":3}
+2026-08-13 05:01:08,100 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,100 |
+2026-08-13 05:01:08,100 |t:|1786590068
+2026-08-13 05:01:08,100 |move|p2a: Jirachi|Fire Punch|p1a: Lucario
+2026-08-13 05:01:08,100 |-supereffective|p1a: Lucario
+2026-08-13 05:01:08,100 |-damage|p1a: Lucario|60/100
+2026-08-13 05:01:08,100 |move|p1a: Lucario|Swords Dance|p1a: Lucario
+2026-08-13 05:01:08,100 |-boost|p1a: Lucario|atk|2
+2026-08-13 05:01:08,100 |
+2026-08-13 05:01:08,100 |upkeep
+2026-08-13 05:01:08,100 |turn|2
+2026-08-13 05:01:08,110 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,110 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":5}
+2026-08-13 05:01:08,159 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,159 |
+2026-08-13 05:01:08,159 |t:|1786590068
+2026-08-13 05:01:08,159 |move|p1a: Lucario|Extreme Speed|p2a: Jirachi
+2026-08-13 05:01:08,159 |-resisted|p2a: Jirachi
+2026-08-13 05:01:08,159 |-damage|p2a: Jirachi|192/270
+2026-08-13 05:01:08,159 |-damage|p1a: Lucario|50/100|[from] item: Life Orb
+2026-08-13 05:01:08,159 |move|p2a: Jirachi|Fire Punch|p1a: Lucario
+2026-08-13 05:01:08,159 |-supereffective|p1a: Lucario
+2026-08-13 05:01:08,159 |-damage|p1a: Lucario|1/100
+2026-08-13 05:01:08,159 |
+2026-08-13 05:01:08,159 |upkeep
+2026-08-13 05:01:08,159 |turn|3
+2026-08-13 05:01:08,163 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,163 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"274/274","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":7}
+2026-08-13 05:01:08,230 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,230 |
+2026-08-13 05:01:08,230 |t:|1786590068
+2026-08-13 05:01:08,230 |switch|p2a: Tyranitar|Tyranitar, L75, F|274/274
+2026-08-13 05:01:08,230 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+2026-08-13 05:01:08,230 |switch|p1a: Pachirisu|Pachirisu, L97, M|100/100
+2026-08-13 05:01:08,231 |
+2026-08-13 05:01:08,231 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,231 |-damage|p1a: Pachirisu|94/100|[from] Sandstorm
+2026-08-13 05:01:08,231 |-heal|p1a: Pachirisu|100/100|[from] item: Leftovers
+2026-08-13 05:01:08,231 |upkeep
+2026-08-13 05:01:08,231 |turn|4
+2026-08-13 05:01:08,236 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,236 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"274/274","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":9}
+2026-08-13 05:01:08,291 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,292 |
+2026-08-13 05:01:08,292 |t:|1786590068
+2026-08-13 05:01:08,292 |move|p1a: Pachirisu|Thunder Wave|p2a: Tyranitar
+2026-08-13 05:01:08,292 |-status|p2a: Tyranitar|par
+2026-08-13 05:01:08,292 |move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+2026-08-13 05:01:08,292 |-boost|p2a: Tyranitar|atk|1
+2026-08-13 05:01:08,292 |-boost|p2a: Tyranitar|spe|1
+2026-08-13 05:01:08,292 |
+2026-08-13 05:01:08,292 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,292 |-damage|p1a: Pachirisu|94/100|[from] Sandstorm
+2026-08-13 05:01:08,292 |-heal|p1a: Pachirisu|100/100|[from] item: Leftovers
+2026-08-13 05:01:08,292 |upkeep
+2026-08-13 05:01:08,292 |turn|5
+2026-08-13 05:01:08,299 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,299 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"274/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":11}
+2026-08-13 05:01:08,345 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,345 |
+2026-08-13 05:01:08,345 |t:|1786590068
+2026-08-13 05:01:08,345 |move|p1a: Pachirisu|U-turn|p2a: Tyranitar
+2026-08-13 05:01:08,345 |-supereffective|p2a: Tyranitar
+2026-08-13 05:01:08,345 |-damage|p2a: Tyranitar|194/274 par
+2026-08-13 05:01:08,352 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,352 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"194/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":13}
+2026-08-13 05:01:08,391 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,391 |
+2026-08-13 05:01:08,391 |t:|1786590068
+2026-08-13 05:01:08,391 |switch|p1a: Absol|Absol, L84, F|100/100|[from] U-turn
+2026-08-13 05:01:08,391 |move|p2a: Tyranitar|Crunch|p1a: Absol
+2026-08-13 05:01:08,391 |-resisted|p1a: Absol
+2026-08-13 05:01:08,391 |-damage|p1a: Absol|67/100
+2026-08-13 05:01:08,391 |
+2026-08-13 05:01:08,391 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,391 |-damage|p1a: Absol|61/100|[from] Sandstorm
+2026-08-13 05:01:08,391 |-heal|p2a: Tyranitar|211/274 par|[from] item: Leftovers
+2026-08-13 05:01:08,391 |upkeep
+2026-08-13 05:01:08,391 |turn|6
+2026-08-13 05:01:08,395 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,395 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"211/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":15}
+2026-08-13 05:01:08,421 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,421 |
+2026-08-13 05:01:08,421 |t:|1786590068
+2026-08-13 05:01:08,421 |switch|p1a: Xatu|Xatu, L87, M|100/100
+2026-08-13 05:01:08,421 |cant|p2a: Tyranitar|par
+2026-08-13 05:01:08,421 |
+2026-08-13 05:01:08,421 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,421 |-damage|p1a: Xatu|95/100|[from] Sandstorm
+2026-08-13 05:01:08,421 |-heal|p2a: Tyranitar|228/274 par|[from] item: Leftovers
+2026-08-13 05:01:08,421 |upkeep
+2026-08-13 05:01:08,421 |turn|7
+2026-08-13 05:01:08,423 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,423 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"228/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":17}
+2026-08-13 05:01:08,444 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,444 |
+2026-08-13 05:01:08,444 |t:|1786590068
+2026-08-13 05:01:08,444 |move|p1a: Xatu|Roost|p1a: Xatu
+2026-08-13 05:01:08,444 |-heal|p1a: Xatu|100/100
+2026-08-13 05:01:08,444 |-singleturn|p1a: Xatu|move: Roost
+2026-08-13 05:01:08,444 |cant|p2a: Tyranitar|par
+2026-08-13 05:01:08,444 |
+2026-08-13 05:01:08,444 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,444 |-damage|p1a: Xatu|95/100|[from] Sandstorm
+2026-08-13 05:01:08,444 |-heal|p2a: Tyranitar|245/274 par|[from] item: Leftovers
+2026-08-13 05:01:08,444 |upkeep
+2026-08-13 05:01:08,444 |turn|8
+2026-08-13 05:01:08,444 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,444 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"245/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":19}
+2026-08-13 05:01:08,468 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,468 |
+2026-08-13 05:01:08,468 |t:|1786590068
+2026-08-13 05:01:08,468 |move|p1a: Xatu|Heat Wave|p2a: Tyranitar
+2026-08-13 05:01:08,468 |-resisted|p2a: Tyranitar
+2026-08-13 05:01:08,468 |-damage|p2a: Tyranitar|215/274 par
+2026-08-13 05:01:08,468 |-damage|p1a: Xatu|85/100|[from] item: Life Orb
+2026-08-13 05:01:08,468 |cant|p2a: Tyranitar|par
+2026-08-13 05:01:08,468 |
+2026-08-13 05:01:08,468 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,469 |-damage|p1a: Xatu|79/100|[from] Sandstorm
+2026-08-13 05:01:08,469 |-heal|p2a: Tyranitar|232/274 par|[from] item: Leftovers
+2026-08-13 05:01:08,469 |upkeep
+2026-08-13 05:01:08,469 |turn|9
+2026-08-13 05:01:08,471 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,471 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"232/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":21}
+2026-08-13 05:01:08,523 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,524 |
+2026-08-13 05:01:08,524 |t:|1786590068
+2026-08-13 05:01:08,524 |move|p1a: Xatu|Roost|p1a: Xatu
+2026-08-13 05:01:08,524 |-heal|p1a: Xatu|100/100
+2026-08-13 05:01:08,524 |-singleturn|p1a: Xatu|move: Roost
+2026-08-13 05:01:08,524 |move|p2a: Tyranitar|Crunch|p1a: Xatu
+2026-08-13 05:01:08,524 |-supereffective|p1a: Xatu
+2026-08-13 05:01:08,524 |-crit|p1a: Xatu
+2026-08-13 05:01:08,524 |-damage|p1a: Xatu|0 fnt
+2026-08-13 05:01:08,524 |faint|p1a: Xatu
+2026-08-13 05:01:08,524 |
+2026-08-13 05:01:08,524 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,524 |-heal|p2a: Tyranitar|249/274 par|[from] item: Leftovers
+2026-08-13 05:01:08,524 |upkeep
+2026-08-13 05:01:08,524 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,524 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"249/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":23}
+2026-08-13 05:01:08,543 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,543 |
+2026-08-13 05:01:08,543 |t:|1786590068
+2026-08-13 05:01:08,543 |switch|p1a: Lucario|Lucario, L79, M|1/100
+2026-08-13 05:01:08,543 |turn|10
+2026-08-13 05:01:08,548 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,548 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"249/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"254/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":25}
+2026-08-13 05:01:08,635 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,635 |
+2026-08-13 05:01:08,635 |t:|1786590068
+2026-08-13 05:01:08,635 |switch|p2a: Magcargo|Magcargo, L97, F|254/254
+2026-08-13 05:01:08,635 |move|p1a: Lucario|Close Combat|p2a: Magcargo
+2026-08-13 05:01:08,635 |-supereffective|p2a: Magcargo
+2026-08-13 05:01:08,635 |-damage|p2a: Magcargo|14/254
+2026-08-13 05:01:08,635 |-unboost|p1a: Lucario|def|1
+2026-08-13 05:01:08,635 |-unboost|p1a: Lucario|spd|1
+2026-08-13 05:01:08,635 |-status|p1a: Lucario|brn|[from] ability: Flame Body|[of] p2a: Magcargo
+2026-08-13 05:01:08,635 |-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+2026-08-13 05:01:08,635 |faint|p1a: Lucario
+2026-08-13 05:01:08,635 |
+2026-08-13 05:01:08,635 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,635 |-heal|p2a: Magcargo|29/254|[from] item: Leftovers
+2026-08-13 05:01:08,635 |upkeep
+2026-08-13 05:01:08,636 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,636 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":true,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"249/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":27}
+2026-08-13 05:01:08,672 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,672 |
+2026-08-13 05:01:08,672 |t:|1786590068
+2026-08-13 05:01:08,672 |switch|p1a: Drapion|Drapion, L83, M|100/100
+2026-08-13 05:01:08,672 |turn|11
+2026-08-13 05:01:08,672 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,672 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":true,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"249/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":29}
+2026-08-13 05:01:08,717 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,717 |
+2026-08-13 05:01:08,717 |t:|1786590068
+2026-08-13 05:01:08,717 |move|p2a: Magcargo|Lava Plume|p1a: Drapion
+2026-08-13 05:01:08,717 |-damage|p1a: Drapion|60/100
+2026-08-13 05:01:08,717 |move|p1a: Drapion|Whirlwind|p2a: Magcargo
+2026-08-13 05:01:08,717 |drag|p2a: Tyranitar|Tyranitar, L75, F|249/274 par
+2026-08-13 05:01:08,717 |
+2026-08-13 05:01:08,717 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,717 |-damage|p1a: Drapion|54/100|[from] Sandstorm
+2026-08-13 05:01:08,717 |-heal|p1a: Drapion|60/100|[from] item: Black Sludge
+2026-08-13 05:01:08,717 |-heal|p2a: Tyranitar|266/274 par|[from] item: Leftovers
+2026-08-13 05:01:08,717 |upkeep
+2026-08-13 05:01:08,717 |turn|12
+2026-08-13 05:01:08,717 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,717 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":31}
+2026-08-13 05:01:08,774 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,774 |
+2026-08-13 05:01:08,774 |t:|1786590068
+2026-08-13 05:01:08,774 |switch|p2a: Manaphy|Manaphy, L76|277/277
+2026-08-13 05:01:08,774 |move|p1a: Drapion|Toxic Spikes|p2a: Manaphy
+2026-08-13 05:01:08,774 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-13 05:01:08,774 |
+2026-08-13 05:01:08,775 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,775 |-damage|p1a: Drapion|54/100|[from] Sandstorm
+2026-08-13 05:01:08,775 |-damage|p2a: Manaphy|260/277|[from] Sandstorm
+2026-08-13 05:01:08,775 |-heal|p1a: Drapion|60/100|[from] item: Black Sludge
+2026-08-13 05:01:08,775 |-heal|p2a: Manaphy|277/277|[from] item: Leftovers
+2026-08-13 05:01:08,775 |upkeep
+2026-08-13 05:01:08,775 |turn|13
+2026-08-13 05:01:08,778 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,778 |request|{"active":[{"moves":[{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Tail Glow","id":"tailglow","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"277/277","active":true,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":33}
+2026-08-13 05:01:08,872 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,872 |
+2026-08-13 05:01:08,872 |t:|1786590068
+2026-08-13 05:01:08,872 |move|p1a: Drapion|Crunch|p2a: Manaphy
+2026-08-13 05:01:08,872 |-damage|p2a: Manaphy|204/277
+2026-08-13 05:01:08,872 |-unboost|p2a: Manaphy|def|1
+2026-08-13 05:01:08,872 |move|p2a: Manaphy|Surf|p1a: Drapion
+2026-08-13 05:01:08,872 |-damage|p1a: Drapion|21/100
+2026-08-13 05:01:08,872 |
+2026-08-13 05:01:08,872 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,872 |-damage|p1a: Drapion|15/100|[from] Sandstorm
+2026-08-13 05:01:08,872 |-damage|p2a: Manaphy|187/277|[from] Sandstorm
+2026-08-13 05:01:08,872 |-heal|p1a: Drapion|21/100|[from] item: Black Sludge
+2026-08-13 05:01:08,872 |-heal|p2a: Manaphy|204/277|[from] item: Leftovers
+2026-08-13 05:01:08,872 |upkeep
+2026-08-13 05:01:08,872 |turn|14
+2026-08-13 05:01:08,875 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,875 |request|{"active":[{"moves":[{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Tail Glow","id":"tailglow","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":true,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"280/280","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"}]},"rqid":35}
+2026-08-13 05:01:08,902 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,902 |
+2026-08-13 05:01:08,902 |t:|1786590068
+2026-08-13 05:01:08,902 |switch|p2a: Arceus|Arceus-Dark, L69|280/280
+2026-08-13 05:01:08,902 |-status|p2a: Arceus|psn
+2026-08-13 05:01:08,902 |move|p1a: Drapion|Toxic Spikes|p2a: Arceus
+2026-08-13 05:01:08,902 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-13 05:01:08,902 |
+2026-08-13 05:01:08,902 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,902 |-damage|p2a: Arceus|263/280 psn|[from] Sandstorm
+2026-08-13 05:01:08,902 |-damage|p1a: Drapion|15/100|[from] Sandstorm
+2026-08-13 05:01:08,902 |-damage|p2a: Arceus|228/280 psn|[from] psn
+2026-08-13 05:01:08,902 |-heal|p1a: Drapion|21/100|[from] item: Black Sludge
+2026-08-13 05:01:08,902 |upkeep
+2026-08-13 05:01:08,903 |turn|15
+2026-08-13 05:01:08,903 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,903 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Judgment","id":"judgment","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Refresh","id":"refresh","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"228/280 psn","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-13 05:01:08,926 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,926 |
+2026-08-13 05:01:08,926 |t:|1786590068
+2026-08-13 05:01:08,926 |move|p2a: Arceus|Recover|p2a: Arceus
+2026-08-13 05:01:08,926 |-heal|p2a: Arceus|280/280 psn
+2026-08-13 05:01:08,926 |move|p1a: Drapion|Crunch|p2a: Arceus
+2026-08-13 05:01:08,926 |-resisted|p2a: Arceus
+2026-08-13 05:01:08,926 |-damage|p2a: Arceus|242/280 psn
+2026-08-13 05:01:08,926 |
+2026-08-13 05:01:08,926 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,926 |-damage|p2a: Arceus|225/280 psn|[from] Sandstorm
+2026-08-13 05:01:08,926 |-damage|p1a: Drapion|15/100|[from] Sandstorm
+2026-08-13 05:01:08,926 |-damage|p2a: Arceus|190/280 psn|[from] psn
+2026-08-13 05:01:08,926 |-heal|p1a: Drapion|21/100|[from] item: Black Sludge
+2026-08-13 05:01:08,926 |upkeep
+2026-08-13 05:01:08,927 |turn|16
+2026-08-13 05:01:08,928 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,928 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Judgment","id":"judgment","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Refresh","id":"refresh","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"190/280 psn","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-13 05:01:08,960 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,960 |
+2026-08-13 05:01:08,960 |t:|1786590068
+2026-08-13 05:01:08,960 |move|p2a: Arceus|Judgment|p1a: Drapion
+2026-08-13 05:01:08,960 |-resisted|p1a: Drapion
+2026-08-13 05:01:08,960 |-damage|p1a: Drapion|0 fnt
+2026-08-13 05:01:08,960 |faint|p1a: Drapion
+2026-08-13 05:01:08,961 |
+2026-08-13 05:01:08,961 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:08,961 |-damage|p2a: Arceus|173/280 psn|[from] Sandstorm
+2026-08-13 05:01:08,961 |-damage|p2a: Arceus|138/280 psn|[from] psn
+2026-08-13 05:01:08,961 |upkeep
+2026-08-13 05:01:08,961 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,961 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"138/280 psn","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-13 05:01:08,982 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,982 |
+2026-08-13 05:01:08,982 |t:|1786590068
+2026-08-13 05:01:08,982 |switch|p1a: Pachirisu|Pachirisu, L97, M|100/100
+2026-08-13 05:01:08,982 |turn|17
+2026-08-13 05:01:08,983 >battle-gen4randombattle-338706
+2026-08-13 05:01:08,983 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Judgment","id":"judgment","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Refresh","id":"refresh","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"138/280 psn","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-13 05:01:09,002 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,002 |
+2026-08-13 05:01:09,002 |t:|1786590068
+2026-08-13 05:01:09,002 |move|p1a: Pachirisu|U-turn|p2a: Arceus
+2026-08-13 05:01:09,002 |-supereffective|p2a: Arceus
+2026-08-13 05:01:09,002 |-damage|p2a: Arceus|68/280 psn
+2026-08-13 05:01:09,002 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,002 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"68/280 psn","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-13 05:01:09,018 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,018 |
+2026-08-13 05:01:09,018 |t:|1786590069
+2026-08-13 05:01:09,018 |switch|p1a: Absol|Absol, L84, F|61/100|[from] U-turn
+2026-08-13 05:01:09,018 |move|p2a: Arceus|Refresh|p2a: Arceus
+2026-08-13 05:01:09,018 |-curestatus|p2a: Arceus|psn|[msg]
+2026-08-13 05:01:09,018 |
+2026-08-13 05:01:09,018 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,018 |-damage|p2a: Arceus|51/280|[from] Sandstorm
+2026-08-13 05:01:09,018 |-damage|p1a: Absol|55/100|[from] Sandstorm
+2026-08-13 05:01:09,018 |upkeep
+2026-08-13 05:01:09,018 |turn|18
+2026-08-13 05:01:09,019 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,019 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Judgment","id":"judgment","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Refresh","id":"refresh","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"51/280","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-13 05:01:09,046 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,046 |
+2026-08-13 05:01:09,046 |t:|1786590069
+2026-08-13 05:01:09,046 |move|p1a: Absol|Sucker Punch|p2a: Arceus
+2026-08-13 05:01:09,046 |-resisted|p2a: Arceus
+2026-08-13 05:01:09,046 |-damage|p2a: Arceus|0 fnt
+2026-08-13 05:01:09,046 |faint|p2a: Arceus
+2026-08-13 05:01:09,046 |
+2026-08-13 05:01:09,046 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,046 |-damage|p1a: Absol|49/100|[from] Sandstorm
+2026-08-13 05:01:09,047 |upkeep
+2026-08-13 05:01:09,047 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,047 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":true,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":49}
+2026-08-13 05:01:09,092 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,092 |
+2026-08-13 05:01:09,092 |t:|1786590069
+2026-08-13 05:01:09,092 |switch|p2a: Whiscash|Whiscash, L87, F|333/333
+2026-08-13 05:01:09,092 |-status|p2a: Whiscash|tox
+2026-08-13 05:01:09,092 |turn|19
+2026-08-13 05:01:09,093 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,093 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Waterfall","id":"waterfall","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"333/333 tox","active":true,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-13 05:01:09,151 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,151 |
+2026-08-13 05:01:09,151 |t:|1786590069
+2026-08-13 05:01:09,151 |switch|p1a: Pachirisu|Pachirisu, L97, M|100/100
+2026-08-13 05:01:09,151 |move|p2a: Whiscash|Stone Edge|p1a: Pachirisu
+2026-08-13 05:01:09,151 |-damage|p1a: Pachirisu|71/100
+2026-08-13 05:01:09,151 |-damage|p2a: Whiscash|300/333 tox|[from] item: Life Orb
+2026-08-13 05:01:09,151 |
+2026-08-13 05:01:09,151 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,151 |-damage|p1a: Pachirisu|65/100|[from] Sandstorm
+2026-08-13 05:01:09,151 |-heal|p1a: Pachirisu|71/100|[from] item: Leftovers
+2026-08-13 05:01:09,151 |-damage|p2a: Whiscash|280/333 tox|[from] psn
+2026-08-13 05:01:09,151 |upkeep
+2026-08-13 05:01:09,151 |turn|20
+2026-08-13 05:01:09,154 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,154 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Waterfall","id":"waterfall","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"280/333 tox","active":true,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-13 05:01:09,188 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,188 |
+2026-08-13 05:01:09,188 |t:|1786590069
+2026-08-13 05:01:09,188 |move|p1a: Pachirisu|U-turn|p2a: Whiscash
+2026-08-13 05:01:09,188 |-damage|p2a: Whiscash|240/333 tox
+2026-08-13 05:01:09,189 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,189 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"240/333 tox","active":true,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-13 05:01:09,212 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,213 |
+2026-08-13 05:01:09,213 |t:|1786590069
+2026-08-13 05:01:09,213 |switch|p1a: Carnivine|Carnivine, L97, M|100/100|[from] U-turn
+2026-08-13 05:01:09,213 |move|p2a: Whiscash|Dragon Dance|p2a: Whiscash
+2026-08-13 05:01:09,213 |-boost|p2a: Whiscash|atk|1
+2026-08-13 05:01:09,213 |-boost|p2a: Whiscash|spe|1
+2026-08-13 05:01:09,213 |
+2026-08-13 05:01:09,213 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,213 |-damage|p1a: Carnivine|95/100|[from] Sandstorm
+2026-08-13 05:01:09,213 |-damage|p2a: Whiscash|200/333 tox|[from] psn
+2026-08-13 05:01:09,213 |-heal|p1a: Carnivine|100/100|[from] item: Leftovers
+2026-08-13 05:01:09,213 |upkeep
+2026-08-13 05:01:09,213 |turn|21
+2026-08-13 05:01:09,213 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,213 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Waterfall","id":"waterfall","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"200/333 tox","active":true,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-13 05:01:09,244 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,244 |
+2026-08-13 05:01:09,244 |t:|1786590069
+2026-08-13 05:01:09,244 |move|p2a: Whiscash|Waterfall|p1a: Carnivine
+2026-08-13 05:01:09,244 |-resisted|p1a: Carnivine
+2026-08-13 05:01:09,244 |-damage|p1a: Carnivine|77/100
+2026-08-13 05:01:09,244 |-damage|p2a: Whiscash|167/333 tox|[from] item: Life Orb
+2026-08-13 05:01:09,244 |cant|p1a: Carnivine|flinch
+2026-08-13 05:01:09,244 |
+2026-08-13 05:01:09,244 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,244 |-damage|p1a: Carnivine|71/100|[from] Sandstorm
+2026-08-13 05:01:09,244 |-damage|p2a: Whiscash|107/333 tox|[from] psn
+2026-08-13 05:01:09,244 |-heal|p1a: Carnivine|77/100|[from] item: Leftovers
+2026-08-13 05:01:09,244 |upkeep
+2026-08-13 05:01:09,244 |turn|22
+2026-08-13 05:01:09,245 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,245 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Waterfall","id":"waterfall","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"107/333 tox","active":true,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-13 05:01:09,314 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,314 |
+2026-08-13 05:01:09,314 |t:|1786590069
+2026-08-13 05:01:09,314 |move|p2a: Whiscash|Waterfall|p1a: Carnivine
+2026-08-13 05:01:09,314 |-resisted|p1a: Carnivine
+2026-08-13 05:01:09,314 |-damage|p1a: Carnivine|54/100
+2026-08-13 05:01:09,314 |-damage|p2a: Whiscash|74/333 tox|[from] item: Life Orb
+2026-08-13 05:01:09,314 |move|p1a: Carnivine|Power Whip|p2a: Whiscash
+2026-08-13 05:01:09,314 |-supereffective|p2a: Whiscash
+2026-08-13 05:01:09,314 |-damage|p2a: Whiscash|0 fnt
+2026-08-13 05:01:09,314 |faint|p2a: Whiscash
+2026-08-13 05:01:09,314 |
+2026-08-13 05:01:09,314 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,314 |-damage|p1a: Carnivine|48/100|[from] Sandstorm
+2026-08-13 05:01:09,315 |-heal|p1a: Carnivine|54/100|[from] item: Leftovers
+2026-08-13 05:01:09,315 |upkeep
+2026-08-13 05:01:09,315 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,315 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":true,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-13 05:01:09,337 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,337 |
+2026-08-13 05:01:09,337 |t:|1786590069
+2026-08-13 05:01:09,337 |switch|p2a: Magcargo|Magcargo, L97, F|29/254
+2026-08-13 05:01:09,337 |-status|p2a: Magcargo|tox
+2026-08-13 05:01:09,337 |turn|23
+2026-08-13 05:01:09,340 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,340 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Rock 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Lava Plume","id":"lavaplume","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"29/254 tox","active":true,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-13 05:01:09,379 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,379 |
+2026-08-13 05:01:09,379 |t:|1786590069
+2026-08-13 05:01:09,379 |move|p1a: Carnivine|Power Whip|p2a: Magcargo
+2026-08-13 05:01:09,379 |-damage|p2a: Magcargo|0 fnt
+2026-08-13 05:01:09,379 |faint|p2a: Magcargo
+2026-08-13 05:01:09,379 |
+2026-08-13 05:01:09,379 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,379 |-damage|p1a: Carnivine|48/100|[from] Sandstorm
+2026-08-13 05:01:09,379 |-heal|p1a: Carnivine|54/100|[from] item: Leftovers
+2026-08-13 05:01:09,379 |upkeep
+2026-08-13 05:01:09,380 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,380 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":true,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":65}
+2026-08-13 05:01:09,420 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,420 |
+2026-08-13 05:01:09,420 |t:|1786590069
+2026-08-13 05:01:09,420 |switch|p2a: Tyranitar|Tyranitar, L75, F|266/274 par
+2026-08-13 05:01:09,420 |turn|24
+2026-08-13 05:01:09,422 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,422 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Dragon Dance","id":"dragondance","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Crunch","id":"crunch","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"266/274 par","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-13 05:01:09,448 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,448 |
+2026-08-13 05:01:09,448 |t:|1786590069
+2026-08-13 05:01:09,448 |move|p1a: Carnivine|Power Whip|p2a: Tyranitar
+2026-08-13 05:01:09,448 |-supereffective|p2a: Tyranitar
+2026-08-13 05:01:09,448 |-damage|p2a: Tyranitar|0 fnt
+2026-08-13 05:01:09,448 |faint|p2a: Tyranitar
+2026-08-13 05:01:09,448 |
+2026-08-13 05:01:09,448 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,448 |-damage|p1a: Carnivine|48/100|[from] Sandstorm
+2026-08-13 05:01:09,448 |-heal|p1a: Carnivine|54/100|[from] item: Leftovers
+2026-08-13 05:01:09,448 |upkeep
+2026-08-13 05:01:09,449 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,449 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":true,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":69}
+2026-08-13 05:01:09,473 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,473 |
+2026-08-13 05:01:09,473 |t:|1786590069
+2026-08-13 05:01:09,473 |switch|p2a: Jirachi|Jirachi, L74|192/270
+2026-08-13 05:01:09,474 |turn|25
+2026-08-13 05:01:09,475 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,475 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Iron Head","id":"ironhead","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-13 05:01:09,510 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,510 |
+2026-08-13 05:01:09,510 |t:|1786590069
+2026-08-13 05:01:09,510 |move|p2a: Jirachi|Iron Head|p1a: Carnivine
+2026-08-13 05:01:09,510 |-damage|p1a: Carnivine|33/100
+2026-08-13 05:01:09,510 |cant|p1a: Carnivine|flinch
+2026-08-13 05:01:09,510 |
+2026-08-13 05:01:09,510 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,510 |-damage|p1a: Carnivine|27/100|[from] Sandstorm
+2026-08-13 05:01:09,510 |-heal|p1a: Carnivine|33/100|[from] item: Leftovers
+2026-08-13 05:01:09,510 |upkeep
+2026-08-13 05:01:09,510 |turn|26
+2026-08-13 05:01:09,511 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,511 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-13 05:01:09,541 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,541 |
+2026-08-13 05:01:09,542 |t:|1786590069
+2026-08-13 05:01:09,542 |move|p2a: Jirachi|Iron Head|p1a: Carnivine
+2026-08-13 05:01:09,542 |-damage|p1a: Carnivine|9/100
+2026-08-13 05:01:09,542 |move|p1a: Carnivine|Sleep Powder|p2a: Jirachi
+2026-08-13 05:01:09,542 |-status|p2a: Jirachi|slp|[from] move: Sleep Powder
+2026-08-13 05:01:09,542 |
+2026-08-13 05:01:09,542 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,542 |-damage|p1a: Carnivine|3/100|[from] Sandstorm
+2026-08-13 05:01:09,542 |-heal|p1a: Carnivine|9/100|[from] item: Leftovers
+2026-08-13 05:01:09,542 |upkeep
+2026-08-13 05:01:09,542 |turn|27
+2026-08-13 05:01:09,548 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,548 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270 slp","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-13 05:01:09,563 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,563 |
+2026-08-13 05:01:09,563 |t:|1786590069
+2026-08-13 05:01:09,563 |cant|p2a: Jirachi|slp
+2026-08-13 05:01:09,563 |move|p1a: Carnivine|Power Whip|p2a: Jirachi|[miss]
+2026-08-13 05:01:09,563 |-miss|p1a: Carnivine|p2a: Jirachi
+2026-08-13 05:01:09,563 |
+2026-08-13 05:01:09,563 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,563 |-damage|p1a: Carnivine|3/100|[from] Sandstorm
+2026-08-13 05:01:09,563 |-heal|p1a: Carnivine|9/100|[from] item: Leftovers
+2026-08-13 05:01:09,563 |upkeep
+2026-08-13 05:01:09,563 |turn|28
+2026-08-13 05:01:09,564 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,564 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270 slp","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-13 05:01:09,594 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,594 |
+2026-08-13 05:01:09,594 |t:|1786590069
+2026-08-13 05:01:09,595 |-curestatus|p2a: Jirachi|slp|[msg]
+2026-08-13 05:01:09,595 |move|p2a: Jirachi|Iron Head|p1a: Carnivine
+2026-08-13 05:01:09,595 |-crit|p1a: Carnivine
+2026-08-13 05:01:09,595 |-damage|p1a: Carnivine|0 fnt
+2026-08-13 05:01:09,595 |faint|p1a: Carnivine
+2026-08-13 05:01:09,595 |
+2026-08-13 05:01:09,595 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,595 |upkeep
+2026-08-13 05:01:09,595 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,595 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-13 05:01:09,616 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,616 |
+2026-08-13 05:01:09,616 |t:|1786590069
+2026-08-13 05:01:09,616 |switch|p1a: Absol|Absol, L84, F|49/100
+2026-08-13 05:01:09,616 |turn|29
+2026-08-13 05:01:09,617 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,617 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-13 05:01:09,661 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,661 |
+2026-08-13 05:01:09,661 |t:|1786590069
+2026-08-13 05:01:09,661 |move|p2a: Jirachi|Iron Head|p1a: Absol
+2026-08-13 05:01:09,661 |-damage|p1a: Absol|14/100
+2026-08-13 05:01:09,661 |cant|p1a: Absol|flinch
+2026-08-13 05:01:09,661 |
+2026-08-13 05:01:09,661 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,661 |-damage|p1a: Absol|8/100|[from] Sandstorm
+2026-08-13 05:01:09,661 |upkeep
+2026-08-13 05:01:09,661 |turn|30
+2026-08-13 05:01:09,661 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,661 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-13 05:01:09,696 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,696 |
+2026-08-13 05:01:09,696 |t:|1786590069
+2026-08-13 05:01:09,696 |move|p2a: Jirachi|Iron Head|p1a: Absol
+2026-08-13 05:01:09,696 |-damage|p1a: Absol|0 fnt
+2026-08-13 05:01:09,696 |faint|p1a: Absol
+2026-08-13 05:01:09,696 |
+2026-08-13 05:01:09,696 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,696 |upkeep
+2026-08-13 05:01:09,699 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,699 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-13 05:01:09,791 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,791 |
+2026-08-13 05:01:09,791 |t:|1786590069
+2026-08-13 05:01:09,791 |switch|p1a: Pachirisu|Pachirisu, L97, M|71/100
+2026-08-13 05:01:09,791 |turn|31
+2026-08-13 05:01:09,792 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,792 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-13 05:01:09,823 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,823 |
+2026-08-13 05:01:09,823 |t:|1786590069
+2026-08-13 05:01:09,823 |move|p2a: Jirachi|Iron Head|p1a: Pachirisu
+2026-08-13 05:01:09,823 |-resisted|p1a: Pachirisu
+2026-08-13 05:01:09,823 |-damage|p1a: Pachirisu|57/100
+2026-08-13 05:01:09,823 |cant|p1a: Pachirisu|flinch
+2026-08-13 05:01:09,823 |
+2026-08-13 05:01:09,823 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,823 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:09,823 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:09,823 |upkeep
+2026-08-13 05:01:09,824 |turn|32
+2026-08-13 05:01:09,824 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,824 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"204/277","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-13 05:01:09,857 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,857 |
+2026-08-13 05:01:09,857 |t:|1786590069
+2026-08-13 05:01:09,857 |switch|p2a: Manaphy|Manaphy, L76|204/277
+2026-08-13 05:01:09,857 |-status|p2a: Manaphy|tox
+2026-08-13 05:01:09,857 |move|p1a: Pachirisu|Super Fang|p2a: Manaphy
+2026-08-13 05:01:09,857 |-damage|p2a: Manaphy|102/277 tox
+2026-08-13 05:01:09,857 |
+2026-08-13 05:01:09,857 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,857 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:09,857 |-damage|p2a: Manaphy|85/277 tox|[from] Sandstorm
+2026-08-13 05:01:09,857 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:09,857 |-heal|p2a: Manaphy|102/277 tox|[from] item: Leftovers
+2026-08-13 05:01:09,857 |-damage|p2a: Manaphy|85/277 tox|[from] psn
+2026-08-13 05:01:09,857 |upkeep
+2026-08-13 05:01:09,857 |turn|33
+2026-08-13 05:01:09,864 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,864 |request|{"active":[{"moves":[{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Tail Glow","id":"tailglow","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"85/277 tox","active":true,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"}]},"rqid":91}
+2026-08-13 05:01:09,898 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,898 |
+2026-08-13 05:01:09,898 |t:|1786590069
+2026-08-13 05:01:09,898 |move|p1a: Pachirisu|Discharge|p2a: Manaphy
+2026-08-13 05:01:09,898 |-supereffective|p2a: Manaphy
+2026-08-13 05:01:09,898 |-damage|p2a: Manaphy|0 fnt
+2026-08-13 05:01:09,898 |faint|p2a: Manaphy
+2026-08-13 05:01:09,898 |
+2026-08-13 05:01:09,898 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,898 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:09,898 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:09,898 |upkeep
+2026-08-13 05:01:09,899 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,899 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":true,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":false,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"}]},"noCancel":true,"rqid":93}
+2026-08-13 05:01:09,915 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,915 |
+2026-08-13 05:01:09,915 |t:|1786590069
+2026-08-13 05:01:09,915 |switch|p2a: Jirachi|Jirachi, L74|192/270
+2026-08-13 05:01:09,915 |turn|34
+2026-08-13 05:01:09,915 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,915 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-13 05:01:09,951 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,951 |
+2026-08-13 05:01:09,951 |t:|1786590069
+2026-08-13 05:01:09,951 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-13 05:01:09,951 |-fail|p2a: Jirachi
+2026-08-13 05:01:09,951 |move|p1a: Pachirisu|Thunder Wave|p2a: Jirachi
+2026-08-13 05:01:09,951 |-status|p2a: Jirachi|par
+2026-08-13 05:01:09,951 |
+2026-08-13 05:01:09,951 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,951 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:09,951 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:09,951 |upkeep
+2026-08-13 05:01:09,951 |turn|35
+2026-08-13 05:01:09,951 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,951 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"192/270 par","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-13 05:01:09,981 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,981 |
+2026-08-13 05:01:09,981 |t:|1786590069
+2026-08-13 05:01:09,981 |move|p1a: Pachirisu|Discharge|p2a: Jirachi
+2026-08-13 05:01:09,981 |-damage|p2a: Jirachi|129/270 par
+2026-08-13 05:01:09,981 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-13 05:01:09,981 |-fail|p2a: Jirachi
+2026-08-13 05:01:09,981 |
+2026-08-13 05:01:09,981 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:09,981 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:09,981 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:09,982 |upkeep
+2026-08-13 05:01:09,982 |turn|36
+2026-08-13 05:01:09,982 >battle-gen4randombattle-338706
+2026-08-13 05:01:09,982 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"129/270 par","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-13 05:01:10,014 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,014 |
+2026-08-13 05:01:10,014 |t:|1786590069
+2026-08-13 05:01:10,014 |move|p1a: Pachirisu|Discharge|p2a: Jirachi
+2026-08-13 05:01:10,014 |-damage|p2a: Jirachi|65/270 par
+2026-08-13 05:01:10,014 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-13 05:01:10,014 |-fail|p2a: Jirachi
+2026-08-13 05:01:10,014 |
+2026-08-13 05:01:10,014 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:10,014 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:10,014 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:10,014 |upkeep
+2026-08-13 05:01:10,014 |turn|37
+2026-08-13 05:01:10,014 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,015 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"65/270 par","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-13 05:01:10,035 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,035 |
+2026-08-13 05:01:10,035 |t:|1786590070
+2026-08-13 05:01:10,035 |move|p1a: Pachirisu|Super Fang|p2a: Jirachi
+2026-08-13 05:01:10,035 |-damage|p2a: Jirachi|33/270 par
+2026-08-13 05:01:10,035 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-13 05:01:10,035 |-fail|p2a: Jirachi
+2026-08-13 05:01:10,035 |
+2026-08-13 05:01:10,035 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:10,035 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:10,035 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:10,035 |upkeep
+2026-08-13 05:01:10,035 |turn|38
+2026-08-13 05:01:10,035 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,035 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"33/270 par","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-13 05:01:10,067 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,067 |
+2026-08-13 05:01:10,067 |t:|1786590070
+2026-08-13 05:01:10,067 |move|p1a: Pachirisu|Super Fang|p2a: Jirachi
+2026-08-13 05:01:10,067 |-damage|p2a: Jirachi|17/270 par
+2026-08-13 05:01:10,067 |move|p2a: Jirachi|Healing Wish||[still]
+2026-08-13 05:01:10,067 |-fail|p2a: Jirachi
+2026-08-13 05:01:10,067 |
+2026-08-13 05:01:10,067 |-weather|Sandstorm|[upkeep]
+2026-08-13 05:01:10,068 |-damage|p1a: Pachirisu|51/100|[from] Sandstorm
+2026-08-13 05:01:10,068 |-heal|p1a: Pachirisu|57/100|[from] item: Leftovers
+2026-08-13 05:01:10,068 |upkeep
+2026-08-13 05:01:10,068 |turn|39
+2026-08-13 05:01:10,069 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,069 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":true},{"move":"Iron Head","id":"ironhead","pp":18,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"17/270 par","active":true,"stats":{"atk":191,"def":191,"spa":191,"spd":191,"spe":191},"moves":["firepunch","ironhead","uturn","healingwish"],"baseAbility":"serenegrace","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Arceus","details":"Arceus-Dark, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":206,"spa":206,"spd":206,"spe":206},"moves":["recover","calmmind","judgment","refresh"],"baseAbility":"multitype","item":"dreadplate","pokeball":"pokeball"},{"ident":"p2: Tyranitar","details":"Tyranitar, L75, F","condition":"0 fnt","active":false,"stats":{"atk":245,"def":209,"spa":186,"spd":194,"spe":135},"moves":["earthquake","dragondance","stoneedge","crunch"],"baseAbility":"sandstream","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Whiscash","details":"Whiscash, L87, F","condition":"0 fnt","active":false,"stats":{"atk":185,"def":177,"spa":182,"spd":173,"spe":154},"moves":["stoneedge","dragondance","earthquake","waterfall"],"baseAbility":"anticipation","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Magcargo","details":"Magcargo, L97, F","condition":"0 fnt","active":false,"stats":{"atk":104,"def":287,"spa":210,"spd":209,"spe":112},"moves":["recover","hiddenpowerrock","lavaplume","toxic"],"baseAbility":"flamebody","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Manaphy","details":"Manaphy, L76","condition":"0 fnt","active":false,"stats":{"atk":157,"def":196,"spa":196,"spd":196,"spe":196},"moves":["energyball","icebeam","surf","tailglow"],"baseAbility":"hydration","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-13 05:01:10,099 >battle-gen4randombattle-338706
+2026-08-13 05:01:10,099 |
+2026-08-13 05:01:10,099 |t:|1786590070
+2026-08-13 05:01:10,099 |move|p1a: Pachirisu|U-turn|p2a: Jirachi
+2026-08-13 05:01:10,099 |-damage|p2a: Jirachi|0 fnt
+2026-08-13 05:01:10,099 |faint|p2a: Jirachi
+2026-08-13 05:01:10,099 |
+2026-08-13 05:01:10,099 |win|BOT3

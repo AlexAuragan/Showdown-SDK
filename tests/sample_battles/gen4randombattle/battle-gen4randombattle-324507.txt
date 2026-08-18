@@ -1,0 +1,519 @@
+2026-08-12 13:17:45,664 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,664 |init|battle
+2026-08-12 13:17:45,665 |title|BOT3 vs. BOT4
+2026-08-12 13:17:45,665 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324507">battle-gen4randombattle-324507</a>&raquo;
+2026-08-12 13:17:45,696 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,696 |t:|1786533465
+2026-08-12 13:17:45,696 |gametype|singles
+2026-08-12 13:17:45,696 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,696 |player|p1|BOT3|101|
+2026-08-12 13:17:45,696 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,696 |player|p2|BOT4|266|
+2026-08-12 13:17:45,696 |gen|4
+2026-08-12 13:17:45,696 |tier|[Gen 4] Random Battle
+2026-08-12 13:17:45,696 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:17:45,696 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:17:45,696 |
+2026-08-12 13:17:45,696 |t:|1786533465
+2026-08-12 13:17:45,696 |teamsize|p1|6
+2026-08-12 13:17:45,696 |teamsize|p2|6
+2026-08-12 13:17:45,696 |start
+2026-08-12 13:17:45,696 |switch|p1a: Cloyster|Cloyster, L86, F|100/100
+2026-08-12 13:17:45,696 |switch|p2a: Cresselia|Cresselia, L79, F|319/319
+2026-08-12 13:17:45,696 |turn|1
+2026-08-12 13:17:45,697 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,697 |request|{"active":[{"moves":[{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"319/319","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"192/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:17:45,716 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,716 |
+2026-08-12 13:17:45,716 |t:|1786533465
+2026-08-12 13:17:45,716 |move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+2026-08-12 13:17:45,716 |-boost|p2a: Cresselia|spa|1
+2026-08-12 13:17:45,716 |-boost|p2a: Cresselia|spd|1
+2026-08-12 13:17:45,716 |move|p1a: Cloyster|Surf|p2a: Cresselia
+2026-08-12 13:17:45,717 |-damage|p2a: Cresselia|267/319
+2026-08-12 13:17:45,717 |
+2026-08-12 13:17:45,717 |-heal|p2a: Cresselia|286/319|[from] item: Leftovers
+2026-08-12 13:17:45,717 |upkeep
+2026-08-12 13:17:45,717 |turn|2
+2026-08-12 13:17:45,718 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,718 |request|{"active":[{"moves":[{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"286/319","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"192/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:17:45,747 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,747 |
+2026-08-12 13:17:45,747 |t:|1786533465
+2026-08-12 13:17:45,747 |move|p2a: Cresselia|Moonlight|p2a: Cresselia
+2026-08-12 13:17:45,747 |-heal|p2a: Cresselia|319/319
+2026-08-12 13:17:45,747 |move|p1a: Cloyster|Rock Blast|p2a: Cresselia
+2026-08-12 13:17:45,747 |-damage|p2a: Cresselia|301/319
+2026-08-12 13:17:45,747 |-damage|p2a: Cresselia|285/319
+2026-08-12 13:17:45,747 |-damage|p2a: Cresselia|270/319
+2026-08-12 13:17:45,747 |-crit|p2a: Cresselia
+2026-08-12 13:17:45,747 |-damage|p2a: Cresselia|238/319
+2026-08-12 13:17:45,747 |-damage|p2a: Cresselia|223/319
+2026-08-12 13:17:45,747 |-hitcount|p2a: Cresselia|5
+2026-08-12 13:17:45,747 |
+2026-08-12 13:17:45,747 |-heal|p2a: Cresselia|242/319|[from] item: Leftovers
+2026-08-12 13:17:45,747 |upkeep
+2026-08-12 13:17:45,747 |turn|3
+2026-08-12 13:17:45,747 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,747 |request|{"active":[{"moves":[{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"192/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:17:45,799 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,800 |
+2026-08-12 13:17:45,800 |t:|1786533465
+2026-08-12 13:17:45,800 |switch|p2a: Dugtrio|Dugtrio, L82, M|192/192
+2026-08-12 13:17:45,800 |move|p1a: Cloyster|Rock Blast|p2a: Dugtrio
+2026-08-12 13:17:45,800 |-resisted|p2a: Dugtrio
+2026-08-12 13:17:45,800 |-damage|p2a: Dugtrio|178/192
+2026-08-12 13:17:45,800 |-resisted|p2a: Dugtrio
+2026-08-12 13:17:45,800 |-damage|p2a: Dugtrio|165/192
+2026-08-12 13:17:45,800 |-resisted|p2a: Dugtrio
+2026-08-12 13:17:45,800 |-damage|p2a: Dugtrio|152/192
+2026-08-12 13:17:45,800 |-resisted|p2a: Dugtrio
+2026-08-12 13:17:45,800 |-damage|p2a: Dugtrio|139/192
+2026-08-12 13:17:45,800 |-resisted|p2a: Dugtrio
+2026-08-12 13:17:45,800 |-damage|p2a: Dugtrio|126/192
+2026-08-12 13:17:45,800 |-hitcount|p2a: Dugtrio|5
+2026-08-12 13:17:45,800 |
+2026-08-12 13:17:45,800 |upkeep
+2026-08-12 13:17:45,800 |turn|4
+2026-08-12 13:17:45,803 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,803 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:17:45,831 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,832 |
+2026-08-12 13:17:45,832 |t:|1786533465
+2026-08-12 13:17:45,832 |move|p2a: Dugtrio|Earthquake|p1a: Cloyster
+2026-08-12 13:17:45,832 |-damage|p1a: Cloyster|71/100
+2026-08-12 13:17:45,832 |move|p1a: Cloyster|Spikes|p2a: Dugtrio
+2026-08-12 13:17:45,832 |-sidestart|p2: BOT4|Spikes
+2026-08-12 13:17:45,832 |
+2026-08-12 13:17:45,832 |-heal|p1a: Cloyster|77/100|[from] item: Leftovers
+2026-08-12 13:17:45,832 |upkeep
+2026-08-12 13:17:45,832 |turn|5
+2026-08-12 13:17:45,834 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,834 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:17:45,906 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,906 |
+2026-08-12 13:17:45,906 |t:|1786533465
+2026-08-12 13:17:45,906 |move|p2a: Dugtrio|Earthquake|p1a: Cloyster
+2026-08-12 13:17:45,906 |-damage|p1a: Cloyster|45/100
+2026-08-12 13:17:45,906 |move|p1a: Cloyster|Toxic Spikes|p2a: Dugtrio
+2026-08-12 13:17:45,906 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-12 13:17:45,906 |
+2026-08-12 13:17:45,906 |-heal|p1a: Cloyster|51/100|[from] item: Leftovers
+2026-08-12 13:17:45,906 |upkeep
+2026-08-12 13:17:45,906 |turn|6
+2026-08-12 13:17:45,908 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,908 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:17:45,935 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,935 |
+2026-08-12 13:17:45,935 |t:|1786533465
+2026-08-12 13:17:45,935 |move|p2a: Dugtrio|Earthquake|p1a: Cloyster
+2026-08-12 13:17:45,935 |-damage|p1a: Cloyster|18/100
+2026-08-12 13:17:45,935 |move|p1a: Cloyster|Spikes|p2a: Dugtrio
+2026-08-12 13:17:45,935 |-sidestart|p2: BOT4|Spikes
+2026-08-12 13:17:45,936 |
+2026-08-12 13:17:45,936 |-heal|p1a: Cloyster|24/100|[from] item: Leftovers
+2026-08-12 13:17:45,936 |upkeep
+2026-08-12 13:17:45,936 |turn|7
+2026-08-12 13:17:45,937 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,937 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"249/249","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:17:45,953 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,953 |
+2026-08-12 13:17:45,953 |t:|1786533465
+2026-08-12 13:17:45,953 |switch|p2a: Leafeon|Leafeon, L85, F|249/249
+2026-08-12 13:17:45,953 |-damage|p2a: Leafeon|208/249|[from] Spikes
+2026-08-12 13:17:45,953 |-status|p2a: Leafeon|psn
+2026-08-12 13:17:45,953 |move|p1a: Cloyster|Spikes|p2a: Leafeon
+2026-08-12 13:17:45,953 |-sidestart|p2: BOT4|Spikes
+2026-08-12 13:17:45,953 |
+2026-08-12 13:17:45,953 |-heal|p2a: Leafeon|223/249 psn|[from] item: Leftovers
+2026-08-12 13:17:45,953 |-damage|p2a: Leafeon|192/249 psn|[from] psn
+2026-08-12 13:17:45,953 |-heal|p1a: Cloyster|30/100|[from] item: Leftovers
+2026-08-12 13:17:45,953 |upkeep
+2026-08-12 13:17:45,953 |turn|8
+2026-08-12 13:17:45,954 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,954 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Leaf Blade","id":"leafblade","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"192/249 psn","active":true,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:17:45,996 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,996 |
+2026-08-12 13:17:45,996 |t:|1786533465
+2026-08-12 13:17:45,996 |move|p2a: Leafeon|Double-Edge|p1a: Cloyster
+2026-08-12 13:17:45,996 |-damage|p1a: Cloyster|5/100
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|174/249 psn|[from] Recoil
+2026-08-12 13:17:45,996 |move|p1a: Cloyster|Rock Blast|p2a: Leafeon
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|159/249 psn
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|144/249 psn
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|131/249 psn
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|117/249 psn
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|102/249 psn
+2026-08-12 13:17:45,996 |-hitcount|p2a: Leafeon|5
+2026-08-12 13:17:45,996 |
+2026-08-12 13:17:45,996 |-heal|p2a: Leafeon|117/249 psn|[from] item: Leftovers
+2026-08-12 13:17:45,996 |-damage|p2a: Leafeon|86/249 psn|[from] psn
+2026-08-12 13:17:45,996 |-heal|p1a: Cloyster|12/100|[from] item: Leftovers
+2026-08-12 13:17:45,996 |upkeep
+2026-08-12 13:17:45,996 |turn|9
+2026-08-12 13:17:45,997 >battle-gen4randombattle-324507
+2026-08-12 13:17:45,997 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Leaf Blade","id":"leafblade","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"86/249 psn","active":true,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:17:46,038 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,038 |
+2026-08-12 13:17:46,038 |t:|1786533466
+2026-08-12 13:17:46,038 |move|p2a: Leafeon|Substitute|p2a: Leafeon
+2026-08-12 13:17:46,038 |-start|p2a: Leafeon|Substitute
+2026-08-12 13:17:46,038 |-damage|p2a: Leafeon|24/249 psn
+2026-08-12 13:17:46,038 |move|p1a: Cloyster|Toxic Spikes|p2a: Leafeon
+2026-08-12 13:17:46,038 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-12 13:17:46,038 |
+2026-08-12 13:17:46,038 |-heal|p2a: Leafeon|39/249 psn|[from] item: Leftovers
+2026-08-12 13:17:46,038 |-damage|p2a: Leafeon|8/249 psn|[from] psn
+2026-08-12 13:17:46,039 |-heal|p1a: Cloyster|18/100|[from] item: Leftovers
+2026-08-12 13:17:46,039 |upkeep
+2026-08-12 13:17:46,039 |turn|10
+2026-08-12 13:17:46,043 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,043 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Leaf Blade","id":"leafblade","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":true,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"244/244","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:17:46,093 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,093 |
+2026-08-12 13:17:46,093 |t:|1786533466
+2026-08-12 13:17:46,093 |switch|p2a: Rapidash|Rapidash, L83, F|244/244
+2026-08-12 13:17:46,093 |-damage|p2a: Rapidash|183/244|[from] Spikes
+2026-08-12 13:17:46,093 |-status|p2a: Rapidash|tox
+2026-08-12 13:17:46,093 |move|p1a: Cloyster|Rock Blast|p2a: Rapidash
+2026-08-12 13:17:46,093 |-supereffective|p2a: Rapidash
+2026-08-12 13:17:46,093 |-damage|p2a: Rapidash|137/244 tox
+2026-08-12 13:17:46,093 |-supereffective|p2a: Rapidash
+2026-08-12 13:17:46,093 |-damage|p2a: Rapidash|93/244 tox
+2026-08-12 13:17:46,093 |-supereffective|p2a: Rapidash
+2026-08-12 13:17:46,093 |-damage|p2a: Rapidash|45/244 tox
+2026-08-12 13:17:46,093 |-supereffective|p2a: Rapidash
+2026-08-12 13:17:46,093 |-damage|p2a: Rapidash|1/244 tox
+2026-08-12 13:17:46,093 |-supereffective|p2a: Rapidash
+2026-08-12 13:17:46,093 |-damage|p2a: Rapidash|0 fnt
+2026-08-12 13:17:46,093 |faint|p2a: Rapidash
+2026-08-12 13:17:46,093 |-hitcount|p2: Rapidash|5
+2026-08-12 13:17:46,093 |
+2026-08-12 13:17:46,093 |-heal|p1a: Cloyster|24/100|[from] item: Leftovers
+2026-08-12 13:17:46,093 |upkeep
+2026-08-12 13:17:46,095 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,095 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":true,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":23}
+2026-08-12 13:17:46,132 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,132 |
+2026-08-12 13:17:46,132 |t:|1786533466
+2026-08-12 13:17:46,132 |switch|p2a: Cresselia|Cresselia, L79, F|242/319
+2026-08-12 13:17:46,132 |turn|11
+2026-08-12 13:17:46,132 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,132 |request|{"active":[{"moves":[{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"242/319","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:17:46,189 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,190 |
+2026-08-12 13:17:46,190 |t:|1786533466
+2026-08-12 13:17:46,190 |switch|p1a: Shiftry|Shiftry, L88, F|100/100
+2026-08-12 13:17:46,190 |move|p2a: Cresselia|Hidden Power|p1a: Shiftry
+2026-08-12 13:17:46,190 |-supereffective|p1a: Shiftry
+2026-08-12 13:17:46,190 |-damage|p1a: Shiftry|71/100
+2026-08-12 13:17:46,190 |
+2026-08-12 13:17:46,190 |-heal|p2a: Cresselia|261/319|[from] item: Leftovers
+2026-08-12 13:17:46,190 |upkeep
+2026-08-12 13:17:46,190 |turn|12
+2026-08-12 13:17:46,196 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,196 |request|{"active":[{"moves":[{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"261/319","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:17:46,263 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,263 |
+2026-08-12 13:17:46,263 |t:|1786533466
+2026-08-12 13:17:46,263 |move|p1a: Shiftry|Dark Pulse|p2a: Cresselia
+2026-08-12 13:17:46,263 |-supereffective|p2a: Cresselia
+2026-08-12 13:17:46,263 |-damage|p2a: Cresselia|75/319
+2026-08-12 13:17:46,263 |-damage|p1a: Shiftry|61/100|[from] item: Life Orb
+2026-08-12 13:17:46,263 |move|p2a: Cresselia|Hidden Power|p1a: Shiftry
+2026-08-12 13:17:46,263 |-supereffective|p1a: Shiftry
+2026-08-12 13:17:46,263 |-damage|p1a: Shiftry|30/100
+2026-08-12 13:17:46,263 |
+2026-08-12 13:17:46,263 |-heal|p2a: Cresselia|94/319|[from] item: Leftovers
+2026-08-12 13:17:46,263 |upkeep
+2026-08-12 13:17:46,263 |turn|13
+2026-08-12 13:17:46,267 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,267 |request|{"active":[{"moves":[{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"94/319","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:17:46,370 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,370 |
+2026-08-12 13:17:46,370 |t:|1786533466
+2026-08-12 13:17:46,370 |move|p1a: Shiftry|Leaf Storm|p2a: Cresselia
+2026-08-12 13:17:46,370 |-crit|p2a: Cresselia
+2026-08-12 13:17:46,370 |-damage|p2a: Cresselia|0 fnt
+2026-08-12 13:17:46,370 |-unboost|p1a: Shiftry|spa|2
+2026-08-12 13:17:46,370 |faint|p2a: Cresselia
+2026-08-12 13:17:46,370 |-damage|p1a: Shiftry|20/100|[from] item: Life Orb
+2026-08-12 13:17:46,370 |
+2026-08-12 13:17:46,370 |upkeep
+2026-08-12 13:17:46,370 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,370 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":true,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"126/192","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":31}
+2026-08-12 13:17:46,454 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,454 |
+2026-08-12 13:17:46,454 |t:|1786533466
+2026-08-12 13:17:46,454 |switch|p2a: Dugtrio|Dugtrio, L82, M|126/192
+2026-08-12 13:17:46,454 |-damage|p2a: Dugtrio|78/192|[from] Spikes
+2026-08-12 13:17:46,454 |-status|p2a: Dugtrio|tox
+2026-08-12 13:17:46,454 |turn|14
+2026-08-12 13:17:46,461 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,461 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"78/192 tox","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:17:46,502 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,502 |
+2026-08-12 13:17:46,502 |t:|1786533466
+2026-08-12 13:17:46,502 |move|p2a: Dugtrio|Stone Edge|p1a: Shiftry
+2026-08-12 13:17:46,502 |-crit|p1a: Shiftry
+2026-08-12 13:17:46,502 |-damage|p1a: Shiftry|0 fnt
+2026-08-12 13:17:46,502 |faint|p1a: Shiftry
+2026-08-12 13:17:46,502 |
+2026-08-12 13:17:46,502 |-damage|p2a: Dugtrio|66/192 tox|[from] psn
+2026-08-12 13:17:46,502 |upkeep
+2026-08-12 13:17:46,502 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,502 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"66/192 tox","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:17:46,566 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,566 |
+2026-08-12 13:17:46,566 |t:|1786533466
+2026-08-12 13:17:46,566 |switch|p1a: Deoxys|Deoxys-Attack, L71|100/100
+2026-08-12 13:17:46,566 |-ability|p1a: Deoxys|Pressure
+2026-08-12 13:17:46,566 |turn|15
+2026-08-12 13:17:46,566 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,566 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":true}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"66/192 tox","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:17:46,605 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,605 |
+2026-08-12 13:17:46,605 |t:|1786533466
+2026-08-12 13:17:46,605 |move|p1a: Deoxys|Superpower|p2a: Dugtrio
+2026-08-12 13:17:46,605 |-damage|p2a: Dugtrio|0 fnt
+2026-08-12 13:17:46,605 |-unboost|p1a: Deoxys|atk|1
+2026-08-12 13:17:46,605 |-unboost|p1a: Deoxys|def|1
+2026-08-12 13:17:46,605 |faint|p2a: Dugtrio
+2026-08-12 13:17:46,605 |-damage|p1a: Deoxys|91/100|[from] item: Life Orb
+2026-08-12 13:17:46,605 |
+2026-08-12 13:17:46,605 |upkeep
+2026-08-12 13:17:46,605 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,605 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":true,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":39}
+2026-08-12 13:17:46,651 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,651 |
+2026-08-12 13:17:46,651 |t:|1786533466
+2026-08-12 13:17:46,651 |switch|p2a: Shuckle|Shuckle, L98, F|198/198
+2026-08-12 13:17:46,651 |-damage|p2a: Shuckle|149/198|[from] Spikes
+2026-08-12 13:17:46,651 |-status|p2a: Shuckle|tox
+2026-08-12 13:17:46,651 |turn|16
+2026-08-12 13:17:46,655 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,655 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"149/198 tox","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:17:46,701 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,701 |
+2026-08-12 13:17:46,701 |t:|1786533466
+2026-08-12 13:17:46,701 |move|p1a: Deoxys|Shadow Ball|p2a: Shuckle
+2026-08-12 13:17:46,702 |-damage|p2a: Shuckle|110/198 tox
+2026-08-12 13:17:46,702 |-damage|p1a: Deoxys|81/100|[from] item: Life Orb
+2026-08-12 13:17:46,702 |move|p2a: Shuckle|Rest|p2a: Shuckle
+2026-08-12 13:17:46,702 |-status|p2a: Shuckle|slp|[from] move: Rest
+2026-08-12 13:17:46,702 |-heal|p2a: Shuckle|198/198 slp|[silent]
+2026-08-12 13:17:46,702 |
+2026-08-12 13:17:46,702 |upkeep
+2026-08-12 13:17:46,702 |turn|17
+2026-08-12 13:17:46,706 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,706 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:17:46,736 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,736 |
+2026-08-12 13:17:46,736 |t:|1786533466
+2026-08-12 13:17:46,736 |move|p1a: Deoxys|Extreme Speed|p2a: Shuckle
+2026-08-12 13:17:46,736 |-resisted|p2a: Shuckle
+2026-08-12 13:17:46,736 |-damage|p2a: Shuckle|187/198 slp
+2026-08-12 13:17:46,736 |-damage|p1a: Deoxys|72/100|[from] item: Life Orb
+2026-08-12 13:17:46,736 |cant|p2a: Shuckle|slp
+2026-08-12 13:17:46,736 |
+2026-08-12 13:17:46,736 |-heal|p2a: Shuckle|198/198 slp|[from] item: Leftovers
+2026-08-12 13:17:46,736 |upkeep
+2026-08-12 13:17:46,736 |turn|18
+2026-08-12 13:17:46,736 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,736 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:17:46,775 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,775 |
+2026-08-12 13:17:46,775 |t:|1786533466
+2026-08-12 13:17:46,775 |move|p1a: Deoxys|Shadow Ball|p2a: Shuckle
+2026-08-12 13:17:46,775 |-damage|p2a: Shuckle|164/198 slp
+2026-08-12 13:17:46,775 |-damage|p1a: Deoxys|62/100|[from] item: Life Orb
+2026-08-12 13:17:46,775 |cant|p2a: Shuckle|slp
+2026-08-12 13:17:46,775 |
+2026-08-12 13:17:46,775 |-heal|p2a: Shuckle|176/198 slp|[from] item: Leftovers
+2026-08-12 13:17:46,775 |upkeep
+2026-08-12 13:17:46,775 |turn|19
+2026-08-12 13:17:46,776 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,776 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"176/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:17:46,794 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,794 |
+2026-08-12 13:17:46,794 |t:|1786533466
+2026-08-12 13:17:46,794 |switch|p1a: Cloyster|Cloyster, L86, F|24/100
+2026-08-12 13:17:46,794 |-curestatus|p2a: Shuckle|slp|[msg]
+2026-08-12 13:17:46,794 |move|p2a: Shuckle|Encore||[still]
+2026-08-12 13:17:46,794 |-fail|p2a: Shuckle
+2026-08-12 13:17:46,794 |
+2026-08-12 13:17:46,794 |-heal|p1a: Cloyster|30/100|[from] item: Leftovers
+2026-08-12 13:17:46,794 |-heal|p2a: Shuckle|188/198|[from] item: Leftovers
+2026-08-12 13:17:46,794 |upkeep
+2026-08-12 13:17:46,794 |turn|20
+2026-08-12 13:17:46,794 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,794 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"188/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:17:46,825 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,825 |
+2026-08-12 13:17:46,825 |t:|1786533466
+2026-08-12 13:17:46,825 |move|p1a: Cloyster|Surf|p2a: Shuckle
+2026-08-12 13:17:46,825 |-supereffective|p2a: Shuckle
+2026-08-12 13:17:46,825 |-crit|p2a: Shuckle
+2026-08-12 13:17:46,825 |-damage|p2a: Shuckle|30/198
+2026-08-12 13:17:46,825 |move|p2a: Shuckle|Toxic|p1a: Cloyster|[miss]
+2026-08-12 13:17:46,825 |-miss|p2a: Shuckle|p1a: Cloyster
+2026-08-12 13:17:46,825 |
+2026-08-12 13:17:46,825 |-heal|p1a: Cloyster|36/100|[from] item: Leftovers
+2026-08-12 13:17:46,825 |-heal|p2a: Shuckle|42/198|[from] item: Leftovers
+2026-08-12 13:17:46,825 |upkeep
+2026-08-12 13:17:46,825 |turn|21
+2026-08-12 13:17:46,825 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,826 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"42/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:17:46,852 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,852 |
+2026-08-12 13:17:46,852 |t:|1786533466
+2026-08-12 13:17:46,852 |move|p1a: Cloyster|Toxic Spikes||[still]
+2026-08-12 13:17:46,852 |-fail|p1a: Cloyster
+2026-08-12 13:17:46,852 |move|p2a: Shuckle|Rest|p2a: Shuckle
+2026-08-12 13:17:46,852 |-status|p2a: Shuckle|slp|[from] move: Rest
+2026-08-12 13:17:46,852 |-heal|p2a: Shuckle|198/198 slp|[silent]
+2026-08-12 13:17:46,852 |
+2026-08-12 13:17:46,852 |-heal|p1a: Cloyster|43/100|[from] item: Leftovers
+2026-08-12 13:17:46,852 |upkeep
+2026-08-12 13:17:46,852 |turn|22
+2026-08-12 13:17:46,853 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,853 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:17:46,879 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,879 |
+2026-08-12 13:17:46,879 |t:|1786533466
+2026-08-12 13:17:46,879 |move|p1a: Cloyster|Spikes||[still]
+2026-08-12 13:17:46,879 |-fail|p1a: Cloyster
+2026-08-12 13:17:46,879 |cant|p2a: Shuckle|slp
+2026-08-12 13:17:46,879 |
+2026-08-12 13:17:46,879 |-heal|p1a: Cloyster|49/100|[from] item: Leftovers
+2026-08-12 13:17:46,879 |upkeep
+2026-08-12 13:17:46,879 |turn|23
+2026-08-12 13:17:46,879 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,879 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:17:46,897 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,897 |
+2026-08-12 13:17:46,897 |t:|1786533466
+2026-08-12 13:17:46,897 |move|p1a: Cloyster|Surf|p2a: Shuckle
+2026-08-12 13:17:46,897 |-supereffective|p2a: Shuckle
+2026-08-12 13:17:46,897 |-damage|p2a: Shuckle|124/198 slp
+2026-08-12 13:17:46,897 |cant|p2a: Shuckle|slp
+2026-08-12 13:17:46,897 |
+2026-08-12 13:17:46,897 |-heal|p1a: Cloyster|55/100|[from] item: Leftovers
+2026-08-12 13:17:46,897 |-heal|p2a: Shuckle|136/198 slp|[from] item: Leftovers
+2026-08-12 13:17:46,897 |upkeep
+2026-08-12 13:17:46,897 |turn|24
+2026-08-12 13:17:46,897 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,897 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"136/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:17:46,920 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,920 |
+2026-08-12 13:17:46,920 |t:|1786533466
+2026-08-12 13:17:46,920 |move|p1a: Cloyster|Toxic Spikes||[still]
+2026-08-12 13:17:46,920 |-fail|p1a: Cloyster
+2026-08-12 13:17:46,920 |-curestatus|p2a: Shuckle|slp|[msg]
+2026-08-12 13:17:46,920 |move|p2a: Shuckle|Toxic|p1a: Cloyster|[miss]
+2026-08-12 13:17:46,920 |-miss|p2a: Shuckle|p1a: Cloyster
+2026-08-12 13:17:46,920 |
+2026-08-12 13:17:46,920 |-heal|p1a: Cloyster|61/100|[from] item: Leftovers
+2026-08-12 13:17:46,920 |-heal|p2a: Shuckle|148/198|[from] item: Leftovers
+2026-08-12 13:17:46,920 |upkeep
+2026-08-12 13:17:46,920 |turn|25
+2026-08-12 13:17:46,921 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,921 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"148/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:17:46,940 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,940 |
+2026-08-12 13:17:46,940 |t:|1786533466
+2026-08-12 13:17:46,940 |move|p1a: Cloyster|Spikes||[still]
+2026-08-12 13:17:46,940 |-fail|p1a: Cloyster
+2026-08-12 13:17:46,940 |move|p2a: Shuckle|Rest|p2a: Shuckle
+2026-08-12 13:17:46,940 |-status|p2a: Shuckle|slp|[from] move: Rest
+2026-08-12 13:17:46,940 |-heal|p2a: Shuckle|198/198 slp|[silent]
+2026-08-12 13:17:46,940 |
+2026-08-12 13:17:46,940 |-heal|p1a: Cloyster|67/100|[from] item: Leftovers
+2026-08-12 13:17:46,940 |upkeep
+2026-08-12 13:17:46,940 |turn|26
+2026-08-12 13:17:46,941 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,941 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"8/249 psn","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:17:46,965 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,965 |
+2026-08-12 13:17:46,965 |t:|1786533466
+2026-08-12 13:17:46,966 |switch|p1a: Palkia|Palkia, L69|100/100
+2026-08-12 13:17:46,966 |-ability|p1a: Palkia|Pressure
+2026-08-12 13:17:46,966 |switch|p2a: Leafeon|Leafeon, L85, F|8/249 psn
+2026-08-12 13:17:46,966 |-damage|p2a: Leafeon|0 fnt|[from] Spikes
+2026-08-12 13:17:46,966 |faint|p2a: Leafeon
+2026-08-12 13:17:46,966 |
+2026-08-12 13:17:46,966 |upkeep
+2026-08-12 13:17:46,966 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,966 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"0 fnt","active":true,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":63}
+2026-08-12 13:17:46,981 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,981 |
+2026-08-12 13:17:46,981 |t:|1786533466
+2026-08-12 13:17:46,981 |switch|p2a: Xatu|Xatu, L87, M|255/255
+2026-08-12 13:17:46,981 |turn|27
+2026-08-12 13:17:46,983 >battle-gen4randombattle-324507
+2026-08-12 13:17:46,983 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"255/255","active":true,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:17:47,022 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,022 |
+2026-08-12 13:17:47,022 |t:|1786533467
+2026-08-12 13:17:47,022 |move|p2a: Xatu|Toxic|p1a: Palkia
+2026-08-12 13:17:47,022 |-status|p1a: Palkia|tox
+2026-08-12 13:17:47,022 |move|p1a: Palkia|Fire Blast|p2a: Xatu
+2026-08-12 13:17:47,022 |-damage|p2a: Xatu|167/255
+2026-08-12 13:17:47,023 |
+2026-08-12 13:17:47,023 |-heal|p2a: Xatu|182/255|[from] item: Leftovers
+2026-08-12 13:17:47,023 |-damage|p1a: Palkia|95/100 tox|[from] psn
+2026-08-12 13:17:47,023 |upkeep
+2026-08-12 13:17:47,023 |turn|28
+2026-08-12 13:17:47,023 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,023 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"182/255","active":true,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:17:47,057 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,057 |
+2026-08-12 13:17:47,057 |t:|1786533467
+2026-08-12 13:17:47,057 |move|p2a: Xatu|Hidden Power|p1a: Palkia
+2026-08-12 13:17:47,057 |-damage|p1a: Palkia|74/100 tox
+2026-08-12 13:17:47,057 |move|p1a: Palkia|Spacial Rend|p2a: Xatu
+2026-08-12 13:17:47,057 |-crit|p2a: Xatu
+2026-08-12 13:17:47,057 |-damage|p2a: Xatu|0 fnt
+2026-08-12 13:17:47,057 |faint|p2a: Xatu
+2026-08-12 13:17:47,057 |
+2026-08-12 13:17:47,057 |-damage|p1a: Palkia|62/100 tox|[from] psn
+2026-08-12 13:17:47,057 |upkeep
+2026-08-12 13:17:47,058 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,058 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"0 fnt","active":true,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198 slp","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":69}
+2026-08-12 13:17:47,073 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,073 |
+2026-08-12 13:17:47,073 |t:|1786533467
+2026-08-12 13:17:47,073 |switch|p2a: Shuckle|Shuckle, L98, F|198/198 slp
+2026-08-12 13:17:47,073 |-damage|p2a: Shuckle|149/198 slp|[from] Spikes
+2026-08-12 13:17:47,073 |turn|29
+2026-08-12 13:17:47,076 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,076 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"149/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"0 fnt","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:17:47,100 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,100 |
+2026-08-12 13:17:47,100 |t:|1786533467
+2026-08-12 13:17:47,100 |move|p1a: Palkia|Fire Blast|p2a: Shuckle
+2026-08-12 13:17:47,100 |-damage|p2a: Shuckle|119/198 slp
+2026-08-12 13:17:47,100 |cant|p2a: Shuckle|slp
+2026-08-12 13:17:47,100 |
+2026-08-12 13:17:47,100 |-damage|p1a: Palkia|44/100 tox|[from] psn
+2026-08-12 13:17:47,100 |-heal|p2a: Shuckle|131/198 slp|[from] item: Leftovers
+2026-08-12 13:17:47,100 |upkeep
+2026-08-12 13:17:47,100 |turn|30
+2026-08-12 13:17:47,100 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,100 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"131/198 slp","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","encore","knockoff","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, M","condition":"0 fnt","active":false,"stats":{"atk":138,"def":171,"spa":214,"spd":171,"spe":214},"moves":["hiddenpowerfighting","psychic","roost","toxic"],"baseAbility":"synchronize","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dugtrio","details":"Dugtrio, L82, M","condition":"0 fnt","active":false,"stats":{"atk":178,"def":129,"spa":129,"spd":162,"spe":244},"moves":["stoneedge","nightslash","suckerpunch","earthquake"],"baseAbility":"arenatrap","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Leafeon","details":"Leafeon, L85, F","condition":"0 fnt","active":false,"stats":{"atk":236,"def":270,"spa":151,"spd":159,"spe":210},"moves":["substitute","doubleedge","leafblade","swordsdance"],"baseAbility":"leafguard","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cresselia","details":"Cresselia, L79, F","condition":"0 fnt","active":false,"stats":{"atk":117,"def":234,"spa":163,"spd":250,"spe":179},"moves":["moonlight","calmmind","psychic","hiddenpowerfighting"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rapidash","details":"Rapidash, L83, F","condition":"0 fnt","active":false,"stats":{"atk":214,"def":164,"spa":180,"spd":180,"spe":222},"moves":["toxic","megahorn","flareblitz","morningsun"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:17:47,131 >battle-gen4randombattle-324507
+2026-08-12 13:17:47,131 |
+2026-08-12 13:17:47,131 |t:|1786533467
+2026-08-12 13:17:47,131 |move|p1a: Palkia|Hydro Pump|p2a: Shuckle
+2026-08-12 13:17:47,131 |-supereffective|p2a: Shuckle
+2026-08-12 13:17:47,131 |-crit|p2a: Shuckle
+2026-08-12 13:17:47,131 |-damage|p2a: Shuckle|0 fnt
+2026-08-12 13:17:47,131 |faint|p2a: Shuckle
+2026-08-12 13:17:47,131 |
+2026-08-12 13:17:47,131 |win|BOT3
+2026-08-12 13:57:47,131 >battle-gen4randombattle-324507
+2026-08-12 13:57:47,132 |expire|
+2026-08-12 13:57:47,132 >battle-gen4randombattle-324507
+2026-08-12 13:57:47,132 |L|☆BOT3
+2026-08-12 13:57:47,132 >battle-gen4randombattle-324507
+2026-08-12 13:57:47,132 |deinit

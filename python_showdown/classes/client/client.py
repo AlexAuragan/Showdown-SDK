@@ -217,6 +217,8 @@ class Client:
                         events = self.parser.handle_line(
                             line,
                         )
+                        self.battle_manager.battle_state.history.extend(events)
+
                         for event in events:
                             if isinstance(event, BattleEvent):
                                 event.update_manager(self.battle_manager)

@@ -1,0 +1,885 @@
+2026-08-12 11:39:51,878 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,878 |init|battle
+2026-08-12 11:39:51,879 |title|BOT1 vs. BOT2
+2026-08-12 11:39:51,879 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-314158">battle-gen3randombattle-314158</a>&raquo;
+2026-08-12 11:39:51,919 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,919 |t:|1786527591
+2026-08-12 11:39:51,919 |gametype|singles
+2026-08-12 11:39:51,919 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,919 |player|p1|BOT1|170|
+2026-08-12 11:39:51,920 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,920 |player|p2|BOT2|170|
+2026-08-12 11:39:51,921 |gen|3
+2026-08-12 11:39:51,921 |tier|[Gen 3] Random Battle
+2026-08-12 11:39:51,921 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 11:39:51,921 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 11:39:51,921 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 11:39:51,921 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 11:39:51,921 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 11:39:51,921 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 11:39:51,921 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 11:39:51,921 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 11:39:51,921 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 11:39:51,921 |
+2026-08-12 11:39:51,921 |t:|1786527591
+2026-08-12 11:39:51,921 |teamsize|p1|6
+2026-08-12 11:39:51,921 |teamsize|p2|6
+2026-08-12 11:39:51,921 |start
+2026-08-12 11:39:51,921 |switch|p1a: Celebi|Celebi, L74|100/100
+2026-08-12 11:39:51,921 |switch|p2a: Marowak|Marowak, L83, M|235/235
+2026-08-12 11:39:51,921 |turn|1
+2026-08-12 11:39:51,921 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,921 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"235/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 11:39:51,940 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,940 |
+2026-08-12 11:39:51,940 |t:|1786527591
+2026-08-12 11:39:51,940 |move|p1a: Celebi|Calm Mind|p1a: Celebi
+2026-08-12 11:39:51,940 |-boost|p1a: Celebi|spa|1
+2026-08-12 11:39:51,940 |-boost|p1a: Celebi|spd|1
+2026-08-12 11:39:51,940 |move|p2a: Marowak|Bonemerang|p1a: Celebi
+2026-08-12 11:39:51,940 |-resisted|p1a: Celebi
+2026-08-12 11:39:51,940 |-damage|p1a: Celebi|84/100
+2026-08-12 11:39:51,940 |-resisted|p1a: Celebi
+2026-08-12 11:39:51,940 |-damage|p1a: Celebi|68/100
+2026-08-12 11:39:51,940 |-hitcount|p1a: Celebi|2
+2026-08-12 11:39:51,940 |
+2026-08-12 11:39:51,940 |-heal|p1a: Celebi|74/100|[from] item: Leftovers
+2026-08-12 11:39:51,940 |upkeep
+2026-08-12 11:39:51,940 |turn|2
+2026-08-12 11:39:51,941 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,941 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"235/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 11:39:51,962 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,962 |
+2026-08-12 11:39:51,962 |t:|1786527591
+2026-08-12 11:39:51,962 |move|p1a: Celebi|Calm Mind|p1a: Celebi
+2026-08-12 11:39:51,962 |-boost|p1a: Celebi|spa|1
+2026-08-12 11:39:51,962 |-boost|p1a: Celebi|spd|1
+2026-08-12 11:39:51,962 |move|p2a: Marowak|Double-Edge|p1a: Celebi
+2026-08-12 11:39:51,962 |-damage|p1a: Celebi|21/100
+2026-08-12 11:39:51,962 |
+2026-08-12 11:39:51,962 |-heal|p1a: Celebi|27/100|[from] item: Leftovers
+2026-08-12 11:39:51,962 |upkeep
+2026-08-12 11:39:51,962 |turn|3
+2026-08-12 11:39:51,962 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,962 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"235/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 11:39:51,976 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,976 |
+2026-08-12 11:39:51,976 |t:|1786527591
+2026-08-12 11:39:51,976 |move|p1a: Celebi|Hidden Power|p2a: Marowak
+2026-08-12 11:39:51,976 |-supereffective|p2a: Marowak
+2026-08-12 11:39:51,976 |-damage|p2a: Marowak|0 fnt
+2026-08-12 11:39:51,976 |faint|p2a: Marowak
+2026-08-12 11:39:51,978 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,978 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":9}
+2026-08-12 11:39:51,993 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,993 |
+2026-08-12 11:39:51,993 |t:|1786527591
+2026-08-12 11:39:51,993 |switch|p2a: Omastar|Omastar, L84, M|255/255
+2026-08-12 11:39:51,993 |
+2026-08-12 11:39:51,993 |-heal|p1a: Celebi|33/100|[from] item: Leftovers
+2026-08-12 11:39:51,993 |upkeep
+2026-08-12 11:39:51,993 |turn|4
+2026-08-12 11:39:51,994 >battle-gen3randombattle-314158
+2026-08-12 11:39:51,994 |request|{"active":[{"moves":[{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"255/255","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 11:39:52,027 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,027 |
+2026-08-12 11:39:52,027 |t:|1786527592
+2026-08-12 11:39:52,027 |move|p1a: Celebi|Psychic|p2a: Omastar
+2026-08-12 11:39:52,027 |-damage|p2a: Omastar|90/255
+2026-08-12 11:39:52,027 |move|p2a: Omastar|Rain Dance|p2a: Omastar
+2026-08-12 11:39:52,027 |-weather|RainDance
+2026-08-12 11:39:52,027 |
+2026-08-12 11:39:52,027 |-weather|RainDance|[upkeep]
+2026-08-12 11:39:52,027 |-heal|p1a: Celebi|39/100|[from] item: Leftovers
+2026-08-12 11:39:52,027 |upkeep
+2026-08-12 11:39:52,027 |turn|5
+2026-08-12 11:39:52,027 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,027 |request|{"active":[{"moves":[{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"90/255","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 11:39:52,051 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,051 |
+2026-08-12 11:39:52,051 |t:|1786527592
+2026-08-12 11:39:52,051 |move|p2a: Omastar|Rain Dance||[still]
+2026-08-12 11:39:52,051 |-fail|p2a: Omastar
+2026-08-12 11:39:52,051 |move|p1a: Celebi|Hidden Power|p2a: Omastar
+2026-08-12 11:39:52,051 |-supereffective|p2a: Omastar
+2026-08-12 11:39:52,051 |-damage|p2a: Omastar|0 fnt
+2026-08-12 11:39:52,051 |faint|p2a: Omastar
+2026-08-12 11:39:52,051 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,051 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":true,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":15}
+2026-08-12 11:39:52,065 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,065 |
+2026-08-12 11:39:52,065 |t:|1786527592
+2026-08-12 11:39:52,065 |switch|p2a: Deoxys|Deoxys, L71|188/188
+2026-08-12 11:39:52,065 |-ability|p2a: Deoxys|Pressure|[silent]
+2026-08-12 11:39:52,065 |
+2026-08-12 11:39:52,065 |-weather|RainDance|[upkeep]
+2026-08-12 11:39:52,065 |-heal|p1a: Celebi|45/100|[from] item: Leftovers
+2026-08-12 11:39:52,065 |upkeep
+2026-08-12 11:39:52,065 |turn|6
+2026-08-12 11:39:52,067 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,067 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 11:39:52,082 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,082 |
+2026-08-12 11:39:52,082 |t:|1786527592
+2026-08-12 11:39:52,082 |move|p2a: Deoxys|Ice Beam|p1a: Celebi
+2026-08-12 11:39:52,082 |-supereffective|p1a: Celebi
+2026-08-12 11:39:52,082 |-damage|p1a: Celebi|19/100
+2026-08-12 11:39:52,082 |move|p1a: Celebi|Calm Mind|p1a: Celebi
+2026-08-12 11:39:52,082 |-boost|p1a: Celebi|spa|1
+2026-08-12 11:39:52,082 |-boost|p1a: Celebi|spd|1
+2026-08-12 11:39:52,082 |
+2026-08-12 11:39:52,082 |-weather|RainDance|[upkeep]
+2026-08-12 11:39:52,082 |-heal|p1a: Celebi|25/100|[from] item: Leftovers
+2026-08-12 11:39:52,082 |upkeep
+2026-08-12 11:39:52,082 |turn|7
+2026-08-12 11:39:52,083 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,083 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 11:39:52,095 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,095 |
+2026-08-12 11:39:52,095 |t:|1786527592
+2026-08-12 11:39:52,095 |move|p2a: Deoxys|Shadow Ball|p1a: Celebi
+2026-08-12 11:39:52,095 |-supereffective|p1a: Celebi
+2026-08-12 11:39:52,095 |-damage|p1a: Celebi|0 fnt
+2026-08-12 11:39:52,095 |faint|p1a: Celebi
+2026-08-12 11:39:52,096 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,096 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 11:39:52,109 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,109 |
+2026-08-12 11:39:52,109 |t:|1786527592
+2026-08-12 11:39:52,109 |switch|p1a: Girafarig|Girafarig, L86, M|100/100
+2026-08-12 11:39:52,109 |
+2026-08-12 11:39:52,109 |-weather|RainDance|[upkeep]
+2026-08-12 11:39:52,109 |upkeep
+2026-08-12 11:39:52,109 |turn|8
+2026-08-12 11:39:52,110 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,110 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"188/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"whiteherb","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 11:39:52,135 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,135 |
+2026-08-12 11:39:52,135 |t:|1786527592
+2026-08-12 11:39:52,135 |move|p2a: Deoxys|Psycho Boost|p1a: Girafarig
+2026-08-12 11:39:52,135 |-resisted|p1a: Girafarig
+2026-08-12 11:39:52,135 |-damage|p1a: Girafarig|66/100
+2026-08-12 11:39:52,135 |-unboost|p2a: Deoxys|spa|2
+2026-08-12 11:39:52,135 |-enditem|p2a: Deoxys|White Herb
+2026-08-12 11:39:52,135 |-clearnegativeboost|p2a: Deoxys|[silent]
+2026-08-12 11:39:52,135 |move|p1a: Girafarig|Psychic|p2a: Deoxys
+2026-08-12 11:39:52,135 |-resisted|p2a: Deoxys
+2026-08-12 11:39:52,135 |-damage|p2a: Deoxys|100/188
+2026-08-12 11:39:52,135 |
+2026-08-12 11:39:52,135 |-weather|none
+2026-08-12 11:39:52,135 |-heal|p1a: Girafarig|72/100|[from] item: Leftovers
+2026-08-12 11:39:52,135 |upkeep
+2026-08-12 11:39:52,136 |turn|9
+2026-08-12 11:39:52,136 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,136 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 11:39:52,155 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,155 |
+2026-08-12 11:39:52,155 |t:|1786527592
+2026-08-12 11:39:52,155 |move|p2a: Deoxys|Shadow Ball|p1a: Girafarig
+2026-08-12 11:39:52,155 |-immune|p1a: Girafarig
+2026-08-12 11:39:52,155 |move|p1a: Girafarig|Rest|p1a: Girafarig
+2026-08-12 11:39:52,155 |-status|p1a: Girafarig|slp|[from] move: Rest
+2026-08-12 11:39:52,155 |-heal|p1a: Girafarig|100/100 slp|[silent]
+2026-08-12 11:39:52,155 |
+2026-08-12 11:39:52,155 |upkeep
+2026-08-12 11:39:52,155 |turn|10
+2026-08-12 11:39:52,155 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,155 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 11:39:52,177 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,177 |
+2026-08-12 11:39:52,177 |t:|1786527592
+2026-08-12 11:39:52,177 |move|p2a: Deoxys|Psycho Boost|p1a: Girafarig
+2026-08-12 11:39:52,177 |-resisted|p1a: Girafarig
+2026-08-12 11:39:52,177 |-damage|p1a: Girafarig|63/100 slp
+2026-08-12 11:39:52,177 |-unboost|p2a: Deoxys|spa|2
+2026-08-12 11:39:52,177 |cant|p1a: Girafarig|slp
+2026-08-12 11:39:52,177 |
+2026-08-12 11:39:52,177 |-heal|p1a: Girafarig|69/100 slp|[from] item: Leftovers
+2026-08-12 11:39:52,177 |upkeep
+2026-08-12 11:39:52,177 |turn|11
+2026-08-12 11:39:52,177 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,177 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 11:39:52,236 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,236 |
+2026-08-12 11:39:52,236 |t:|1786527592
+2026-08-12 11:39:52,236 |move|p2a: Deoxys|Shadow Ball|p1a: Girafarig
+2026-08-12 11:39:52,236 |-immune|p1a: Girafarig
+2026-08-12 11:39:52,236 |-curestatus|p1a: Girafarig|slp|[msg]
+2026-08-12 11:39:52,236 |move|p1a: Girafarig|Calm Mind|p1a: Girafarig
+2026-08-12 11:39:52,236 |-boost|p1a: Girafarig|spa|1
+2026-08-12 11:39:52,236 |-boost|p1a: Girafarig|spd|1
+2026-08-12 11:39:52,236 |
+2026-08-12 11:39:52,236 |-heal|p1a: Girafarig|75/100|[from] item: Leftovers
+2026-08-12 11:39:52,236 |upkeep
+2026-08-12 11:39:52,236 |turn|12
+2026-08-12 11:39:52,252 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,252 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 11:39:52,348 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,348 |
+2026-08-12 11:39:52,348 |t:|1786527592
+2026-08-12 11:39:52,348 |move|p2a: Deoxys|Superpower|p1a: Girafarig
+2026-08-12 11:39:52,348 |-damage|p1a: Girafarig|36/100
+2026-08-12 11:39:52,348 |-unboost|p2a: Deoxys|atk|1
+2026-08-12 11:39:52,348 |-unboost|p2a: Deoxys|def|1
+2026-08-12 11:39:52,348 |move|p1a: Girafarig|Rest|p1a: Girafarig
+2026-08-12 11:39:52,348 |-status|p1a: Girafarig|slp|[from] move: Rest
+2026-08-12 11:39:52,348 |-heal|p1a: Girafarig|100/100 slp|[silent]
+2026-08-12 11:39:52,348 |
+2026-08-12 11:39:52,348 |upkeep
+2026-08-12 11:39:52,348 |turn|13
+2026-08-12 11:39:52,366 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,367 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 11:39:52,430 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,430 |
+2026-08-12 11:39:52,430 |t:|1786527592
+2026-08-12 11:39:52,430 |switch|p2a: Aggron|Aggron, L85, M|258/258
+2026-08-12 11:39:52,430 |cant|p1a: Girafarig|slp
+2026-08-12 11:39:52,430 |
+2026-08-12 11:39:52,430 |upkeep
+2026-08-12 11:39:52,430 |turn|14
+2026-08-12 11:39:52,430 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,430 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Iron Tail","id":"irontail","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"258/258","active":true,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 11:39:52,546 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,546 |
+2026-08-12 11:39:52,546 |t:|1786527592
+2026-08-12 11:39:52,546 |-curestatus|p1a: Girafarig|slp|[msg]
+2026-08-12 11:39:52,546 |move|p1a: Girafarig|Hidden Power|p2a: Aggron
+2026-08-12 11:39:52,546 |-crit|p2a: Aggron
+2026-08-12 11:39:52,546 |-damage|p2a: Aggron|67/258
+2026-08-12 11:39:52,546 |move|p2a: Aggron|Substitute|p2a: Aggron
+2026-08-12 11:39:52,546 |-start|p2a: Aggron|Substitute
+2026-08-12 11:39:52,546 |-damage|p2a: Aggron|3/258
+2026-08-12 11:39:52,546 |
+2026-08-12 11:39:52,546 |-heal|p2a: Aggron|19/258|[from] item: Leftovers
+2026-08-12 11:39:52,546 |upkeep
+2026-08-12 11:39:52,546 |turn|15
+2026-08-12 11:39:52,547 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,547 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Iron Tail","id":"irontail","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"19/258","active":true,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 11:39:52,600 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,601 |
+2026-08-12 11:39:52,601 |t:|1786527592
+2026-08-12 11:39:52,601 |move|p1a: Girafarig|Calm Mind|p1a: Girafarig
+2026-08-12 11:39:52,601 |-boost|p1a: Girafarig|spa|1
+2026-08-12 11:39:52,601 |-boost|p1a: Girafarig|spd|1
+2026-08-12 11:39:52,601 |move|p2a: Aggron|Substitute|p2a: Aggron
+2026-08-12 11:39:52,601 |-fail|p2a: Aggron|move: Substitute
+2026-08-12 11:39:52,601 |
+2026-08-12 11:39:52,601 |-heal|p2a: Aggron|35/258|[from] item: Leftovers
+2026-08-12 11:39:52,601 |upkeep
+2026-08-12 11:39:52,601 |turn|16
+2026-08-12 11:39:52,603 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,603 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Iron Tail","id":"irontail","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"35/258","active":true,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 11:39:52,644 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,644 |
+2026-08-12 11:39:52,644 |t:|1786527592
+2026-08-12 11:39:52,644 |switch|p1a: Groudon|Groudon, L69|100/100
+2026-08-12 11:39:52,644 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+2026-08-12 11:39:52,644 |move|p2a: Aggron|Rock Slide|p1a: Groudon
+2026-08-12 11:39:52,644 |-resisted|p1a: Groudon
+2026-08-12 11:39:52,644 |-damage|p1a: Groudon|86/100
+2026-08-12 11:39:52,644 |
+2026-08-12 11:39:52,644 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,644 |-heal|p1a: Groudon|92/100|[from] item: Leftovers
+2026-08-12 11:39:52,644 |-heal|p2a: Aggron|51/258|[from] item: Leftovers
+2026-08-12 11:39:52,644 |upkeep
+2026-08-12 11:39:52,644 |turn|17
+2026-08-12 11:39:52,644 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,644 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Iron Tail","id":"irontail","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"51/258","active":true,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 11:39:52,682 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,682 |
+2026-08-12 11:39:52,682 |t:|1786527592
+2026-08-12 11:39:52,682 |move|p1a: Groudon|Earthquake|p2a: Aggron
+2026-08-12 11:39:52,682 |-supereffective|p2a: Aggron
+2026-08-12 11:39:52,682 |-end|p2a: Aggron|Substitute
+2026-08-12 11:39:52,682 |move|p2a: Aggron|Substitute|p2a: Aggron
+2026-08-12 11:39:52,683 |-fail|p2a: Aggron|move: Substitute|[weak]
+2026-08-12 11:39:52,683 |
+2026-08-12 11:39:52,683 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,683 |-heal|p1a: Groudon|98/100|[from] item: Leftovers
+2026-08-12 11:39:52,683 |-heal|p2a: Aggron|67/258|[from] item: Leftovers
+2026-08-12 11:39:52,683 |upkeep
+2026-08-12 11:39:52,683 |turn|18
+2026-08-12 11:39:52,686 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,686 |request|{"active":[{"moves":[{"move":"Substitute","id":"substitute","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Iron Tail","id":"irontail","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Focus Punch","id":"focuspunch","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"67/258","active":true,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 11:39:52,710 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,710 |
+2026-08-12 11:39:52,710 |t:|1786527592
+2026-08-12 11:39:52,710 |-singleturn|p2a: Aggron|move: Focus Punch
+2026-08-12 11:39:52,710 |move|p1a: Groudon|Earthquake|p2a: Aggron
+2026-08-12 11:39:52,710 |-supereffective|p2a: Aggron
+2026-08-12 11:39:52,710 |-damage|p2a: Aggron|0 fnt
+2026-08-12 11:39:52,710 |faint|p2a: Aggron
+2026-08-12 11:39:52,712 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,712 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":true,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":45}
+2026-08-12 11:39:52,722 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,722 |
+2026-08-12 11:39:52,722 |t:|1786527592
+2026-08-12 11:39:52,722 |switch|p2a: Noctowl|Noctowl, L93, F|337/337
+2026-08-12 11:39:52,722 |
+2026-08-12 11:39:52,722 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,723 |-heal|p1a: Groudon|100/100|[from] item: Leftovers
+2026-08-12 11:39:52,723 |upkeep
+2026-08-12 11:39:52,723 |turn|19
+2026-08-12 11:39:52,725 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,725 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 11:39:52,742 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,742 |
+2026-08-12 11:39:52,742 |t:|1786527592
+2026-08-12 11:39:52,742 |move|p2a: Noctowl|Toxic|p1a: Groudon
+2026-08-12 11:39:52,742 |-status|p1a: Groudon|tox
+2026-08-12 11:39:52,742 |move|p1a: Groudon|Overheat|p2a: Noctowl
+2026-08-12 11:39:52,742 |-damage|p2a: Noctowl|244/337
+2026-08-12 11:39:52,742 |-unboost|p1a: Groudon|spa|2
+2026-08-12 11:39:52,742 |
+2026-08-12 11:39:52,742 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,742 |-heal|p2a: Noctowl|265/337|[from] item: Leftovers
+2026-08-12 11:39:52,742 |-damage|p1a: Groudon|95/100 tox|[from] psn
+2026-08-12 11:39:52,742 |upkeep
+2026-08-12 11:39:52,742 |turn|20
+2026-08-12 11:39:52,744 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,744 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"265/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 11:39:52,767 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,767 |
+2026-08-12 11:39:52,767 |t:|1786527592
+2026-08-12 11:39:52,767 |move|p1a: Groudon|Earthquake|p2a: Noctowl
+2026-08-12 11:39:52,767 |-immune|p2a: Noctowl
+2026-08-12 11:39:52,767 |move|p2a: Noctowl|Whirlwind|p1a: Groudon
+2026-08-12 11:39:52,767 |drag|p1a: Girafarig|Girafarig, L86, M|100/100
+2026-08-12 11:39:52,767 |
+2026-08-12 11:39:52,767 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,767 |-heal|p2a: Noctowl|286/337|[from] item: Leftovers
+2026-08-12 11:39:52,767 |upkeep
+2026-08-12 11:39:52,767 |turn|21
+2026-08-12 11:39:52,767 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,767 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"286/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 11:39:52,793 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,793 |
+2026-08-12 11:39:52,793 |t:|1786527592
+2026-08-12 11:39:52,793 |move|p1a: Girafarig|Calm Mind|p1a: Girafarig
+2026-08-12 11:39:52,793 |-boost|p1a: Girafarig|spa|1
+2026-08-12 11:39:52,793 |-boost|p1a: Girafarig|spd|1
+2026-08-12 11:39:52,793 |move|p2a: Noctowl|Toxic|p1a: Girafarig|[miss]
+2026-08-12 11:39:52,793 |-miss|p2a: Noctowl|p1a: Girafarig
+2026-08-12 11:39:52,793 |
+2026-08-12 11:39:52,793 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,793 |-heal|p2a: Noctowl|307/337|[from] item: Leftovers
+2026-08-12 11:39:52,793 |upkeep
+2026-08-12 11:39:52,793 |turn|22
+2026-08-12 11:39:52,794 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,794 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"307/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 11:39:52,811 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,811 |
+2026-08-12 11:39:52,811 |t:|1786527592
+2026-08-12 11:39:52,811 |switch|p1a: Ariados|Ariados, L98, M|100/100
+2026-08-12 11:39:52,811 |switch|p2a: Hitmontop|Hitmontop, L86, M|226/226
+2026-08-12 11:39:52,812 |-ability|p2a: Hitmontop|Intimidate|boost
+2026-08-12 11:39:52,812 |-unboost|p1a: Ariados|atk|1
+2026-08-12 11:39:52,812 |
+2026-08-12 11:39:52,812 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,812 |upkeep
+2026-08-12 11:39:52,812 |turn|23
+2026-08-12 11:39:52,812 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,812 |request|{"active":[{"moves":[{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Mach Punch","id":"machpunch","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":true,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"307/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 11:39:52,836 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,836 |
+2026-08-12 11:39:52,836 |t:|1786527592
+2026-08-12 11:39:52,836 |switch|p1a: Dragonite|Dragonite, L75, F|100/100
+2026-08-12 11:39:52,836 |move|p2a: Hitmontop|Brick Break|p1a: Dragonite
+2026-08-12 11:39:52,836 |-resisted|p1a: Dragonite
+2026-08-12 11:39:52,836 |-damage|p1a: Dragonite|75/100
+2026-08-12 11:39:52,836 |
+2026-08-12 11:39:52,836 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,836 |upkeep
+2026-08-12 11:39:52,837 |turn|24
+2026-08-12 11:39:52,839 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,839 |request|{"active":[{"moves":[{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Mach Punch","id":"machpunch","pp":48,"maxpp":48,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":true,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"307/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 11:39:52,863 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,863 |
+2026-08-12 11:39:52,863 |t:|1786527592
+2026-08-12 11:39:52,863 |switch|p2a: Deoxys|Deoxys, L71|100/188
+2026-08-12 11:39:52,863 |-ability|p2a: Deoxys|Pressure|[silent]
+2026-08-12 11:39:52,863 |switch|p1a: Ariados|Ariados, L98, M|100/100
+2026-08-12 11:39:52,863 |
+2026-08-12 11:39:52,863 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,863 |upkeep
+2026-08-12 11:39:52,863 |turn|25
+2026-08-12 11:39:52,863 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,863 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"100/188","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"307/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 11:39:52,880 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,881 |
+2026-08-12 11:39:52,881 |t:|1786527592
+2026-08-12 11:39:52,881 |move|p2a: Deoxys|Superpower|p1a: Ariados
+2026-08-12 11:39:52,881 |-resisted|p1a: Ariados
+2026-08-12 11:39:52,881 |-damage|p1a: Ariados|94/100
+2026-08-12 11:39:52,881 |-unboost|p2a: Deoxys|atk|1
+2026-08-12 11:39:52,881 |-unboost|p2a: Deoxys|def|1
+2026-08-12 11:39:52,881 |move|p1a: Ariados|Signal Beam|p2a: Deoxys
+2026-08-12 11:39:52,881 |-supereffective|p2a: Deoxys
+2026-08-12 11:39:52,881 |-damage|p2a: Deoxys|0 fnt
+2026-08-12 11:39:52,881 |faint|p2a: Deoxys
+2026-08-12 11:39:52,883 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,883 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":true,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"307/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-12 11:39:52,897 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,897 |
+2026-08-12 11:39:52,897 |t:|1786527592
+2026-08-12 11:39:52,897 |switch|p2a: Noctowl|Noctowl, L93, F|307/337
+2026-08-12 11:39:52,897 |
+2026-08-12 11:39:52,897 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,897 |-heal|p2a: Noctowl|328/337|[from] item: Leftovers
+2026-08-12 11:39:52,897 |-heal|p1a: Ariados|99/100|[from] item: Leftovers
+2026-08-12 11:39:52,897 |upkeep
+2026-08-12 11:39:52,897 |turn|26
+2026-08-12 11:39:52,897 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,897 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"328/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"226/226","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 11:39:52,918 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,918 |
+2026-08-12 11:39:52,918 |t:|1786527592
+2026-08-12 11:39:52,918 |switch|p2a: Hitmontop|Hitmontop, L86, M|226/226
+2026-08-12 11:39:52,918 |-ability|p2a: Hitmontop|Intimidate|boost
+2026-08-12 11:39:52,918 |-unboost|p1a: Ariados|atk|1
+2026-08-12 11:39:52,918 |move|p1a: Ariados|Hidden Power|p2a: Hitmontop
+2026-08-12 11:39:52,918 |-damage|p2a: Hitmontop|188/226
+2026-08-12 11:39:52,918 |
+2026-08-12 11:39:52,918 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,918 |-heal|p1a: Ariados|100/100|[from] item: Leftovers
+2026-08-12 11:39:52,918 |upkeep
+2026-08-12 11:39:52,918 |turn|27
+2026-08-12 11:39:52,922 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,922 |request|{"active":[{"moves":[{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Mach Punch","id":"machpunch","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"188/226","active":true,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"328/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 11:39:52,948 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,948 |
+2026-08-12 11:39:52,948 |t:|1786527592
+2026-08-12 11:39:52,948 |move|p2a: Hitmontop|Mach Punch|p1a: Ariados
+2026-08-12 11:39:52,948 |-resisted|p1a: Ariados
+2026-08-12 11:39:52,948 |-damage|p1a: Ariados|95/100
+2026-08-12 11:39:52,948 |move|p1a: Ariados|Sludge Bomb|p2a: Hitmontop
+2026-08-12 11:39:52,948 |-damage|p2a: Hitmontop|106/226
+2026-08-12 11:39:52,948 |
+2026-08-12 11:39:52,948 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,948 |-heal|p1a: Ariados|100/100|[from] item: Leftovers
+2026-08-12 11:39:52,948 |upkeep
+2026-08-12 11:39:52,948 |turn|28
+2026-08-12 11:39:52,950 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,950 |request|{"active":[{"moves":[{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Mach Punch","id":"machpunch","pp":47,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"106/226","active":true,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"328/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 11:39:52,976 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,976 |
+2026-08-12 11:39:52,976 |t:|1786527592
+2026-08-12 11:39:52,976 |move|p2a: Hitmontop|Mach Punch|p1a: Ariados
+2026-08-12 11:39:52,977 |-resisted|p1a: Ariados
+2026-08-12 11:39:52,977 |-damage|p1a: Ariados|95/100
+2026-08-12 11:39:52,977 |move|p1a: Ariados|Sludge Bomb|p2a: Hitmontop
+2026-08-12 11:39:52,977 |-damage|p2a: Hitmontop|29/226
+2026-08-12 11:39:52,977 |-status|p2a: Hitmontop|psn
+2026-08-12 11:39:52,977 |
+2026-08-12 11:39:52,977 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:52,977 |-damage|p2a: Hitmontop|1/226 psn|[from] psn
+2026-08-12 11:39:52,977 |-heal|p1a: Ariados|100/100|[from] item: Leftovers
+2026-08-12 11:39:52,977 |upkeep
+2026-08-12 11:39:52,977 |turn|29
+2026-08-12 11:39:52,977 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,977 |request|{"active":[{"moves":[{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":true},{"move":"Hidden Power Ghost 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Mach Punch","id":"machpunch","pp":46,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"1/226 psn","active":true,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"328/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 11:39:52,996 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,996 |
+2026-08-12 11:39:52,996 |t:|1786527592
+2026-08-12 11:39:52,996 |move|p2a: Hitmontop|Mach Punch|p1a: Ariados
+2026-08-12 11:39:52,996 |-resisted|p1a: Ariados
+2026-08-12 11:39:52,996 |-damage|p1a: Ariados|95/100
+2026-08-12 11:39:52,996 |move|p1a: Ariados|Signal Beam|p2a: Hitmontop
+2026-08-12 11:39:52,996 |-resisted|p2a: Hitmontop
+2026-08-12 11:39:52,996 |-crit|p2a: Hitmontop
+2026-08-12 11:39:52,996 |-damage|p2a: Hitmontop|0 fnt
+2026-08-12 11:39:52,996 |faint|p2a: Hitmontop
+2026-08-12 11:39:52,998 >battle-gen3randombattle-314158
+2026-08-12 11:39:52,998 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":true,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"328/337","active":false,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":71}
+2026-08-12 11:39:53,014 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,014 |
+2026-08-12 11:39:53,014 |t:|1786527593
+2026-08-12 11:39:53,014 |switch|p2a: Noctowl|Noctowl, L93, F|328/337
+2026-08-12 11:39:53,014 |
+2026-08-12 11:39:53,014 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,014 |-heal|p2a: Noctowl|337/337|[from] item: Leftovers
+2026-08-12 11:39:53,014 |-heal|p1a: Ariados|100/100|[from] item: Leftovers
+2026-08-12 11:39:53,014 |upkeep
+2026-08-12 11:39:53,014 |turn|30
+2026-08-12 11:39:53,014 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,014 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"337/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 11:39:53,038 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,038 |
+2026-08-12 11:39:53,038 |t:|1786527593
+2026-08-12 11:39:53,038 |move|p2a: Noctowl|Return|p1a: Ariados
+2026-08-12 11:39:53,038 |-damage|p1a: Ariados|73/100
+2026-08-12 11:39:53,038 |move|p1a: Ariados|Sludge Bomb|p2a: Noctowl
+2026-08-12 11:39:53,038 |-damage|p2a: Noctowl|229/337
+2026-08-12 11:39:53,038 |
+2026-08-12 11:39:53,038 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,038 |-heal|p2a: Noctowl|250/337|[from] item: Leftovers
+2026-08-12 11:39:53,038 |-heal|p1a: Ariados|79/100|[from] item: Leftovers
+2026-08-12 11:39:53,038 |upkeep
+2026-08-12 11:39:53,038 |turn|31
+2026-08-12 11:39:53,038 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,038 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"250/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 11:39:53,056 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,056 |
+2026-08-12 11:39:53,056 |t:|1786527593
+2026-08-12 11:39:53,056 |move|p2a: Noctowl|Return|p1a: Ariados
+2026-08-12 11:39:53,056 |-damage|p1a: Ariados|48/100
+2026-08-12 11:39:53,056 |move|p1a: Ariados|Hidden Power|p2a: Noctowl
+2026-08-12 11:39:53,056 |-immune|p2a: Noctowl
+2026-08-12 11:39:53,056 |
+2026-08-12 11:39:53,056 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,056 |-heal|p2a: Noctowl|271/337|[from] item: Leftovers
+2026-08-12 11:39:53,056 |-heal|p1a: Ariados|55/100|[from] item: Leftovers
+2026-08-12 11:39:53,056 |upkeep
+2026-08-12 11:39:53,056 |turn|32
+2026-08-12 11:39:53,056 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,056 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"271/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 11:39:53,075 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,075 |
+2026-08-12 11:39:53,075 |t:|1786527593
+2026-08-12 11:39:53,075 |move|p2a: Noctowl|Hypnosis|p1a: Ariados
+2026-08-12 11:39:53,075 |-status|p1a: Ariados|slp|[from] move: Hypnosis
+2026-08-12 11:39:53,075 |cant|p1a: Ariados|slp
+2026-08-12 11:39:53,075 |
+2026-08-12 11:39:53,075 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,075 |-heal|p2a: Noctowl|292/337|[from] item: Leftovers
+2026-08-12 11:39:53,075 |-heal|p1a: Ariados|61/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,075 |upkeep
+2026-08-12 11:39:53,075 |turn|33
+2026-08-12 11:39:53,076 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,076 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"292/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 11:39:53,095 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,095 |
+2026-08-12 11:39:53,095 |t:|1786527593
+2026-08-12 11:39:53,095 |move|p2a: Noctowl|Toxic||[still]
+2026-08-12 11:39:53,095 |-fail|p2a: Noctowl
+2026-08-12 11:39:53,095 |cant|p1a: Ariados|slp
+2026-08-12 11:39:53,095 |
+2026-08-12 11:39:53,095 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,095 |-heal|p2a: Noctowl|313/337|[from] item: Leftovers
+2026-08-12 11:39:53,095 |-heal|p1a: Ariados|67/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,095 |upkeep
+2026-08-12 11:39:53,095 |turn|34
+2026-08-12 11:39:53,097 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,097 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"313/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 11:39:53,128 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,128 |
+2026-08-12 11:39:53,128 |t:|1786527593
+2026-08-12 11:39:53,128 |move|p2a: Noctowl|Return|p1a: Ariados
+2026-08-12 11:39:53,128 |-damage|p1a: Ariados|36/100 slp
+2026-08-12 11:39:53,128 |-curestatus|p1a: Ariados|slp|[msg]
+2026-08-12 11:39:53,128 |move|p1a: Ariados|Signal Beam|p2a: Noctowl
+2026-08-12 11:39:53,128 |-resisted|p2a: Noctowl
+2026-08-12 11:39:53,128 |-damage|p2a: Noctowl|268/337
+2026-08-12 11:39:53,128 |
+2026-08-12 11:39:53,128 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,128 |-heal|p2a: Noctowl|289/337|[from] item: Leftovers
+2026-08-12 11:39:53,128 |-heal|p1a: Ariados|42/100|[from] item: Leftovers
+2026-08-12 11:39:53,128 |upkeep
+2026-08-12 11:39:53,128 |turn|35
+2026-08-12 11:39:53,133 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,133 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"289/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 11:39:53,150 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,150 |
+2026-08-12 11:39:53,150 |t:|1786527593
+2026-08-12 11:39:53,150 |move|p2a: Noctowl|Toxic|p1a: Ariados
+2026-08-12 11:39:53,150 |-immune|p1a: Ariados
+2026-08-12 11:39:53,150 |move|p1a: Ariados|Agility|p1a: Ariados
+2026-08-12 11:39:53,150 |-boost|p1a: Ariados|spe|2
+2026-08-12 11:39:53,150 |
+2026-08-12 11:39:53,150 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,150 |-heal|p1a: Ariados|48/100|[from] item: Leftovers
+2026-08-12 11:39:53,150 |-heal|p2a: Noctowl|310/337|[from] item: Leftovers
+2026-08-12 11:39:53,150 |upkeep
+2026-08-12 11:39:53,150 |turn|36
+2026-08-12 11:39:53,150 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,150 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"310/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 11:39:53,176 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,176 |
+2026-08-12 11:39:53,176 |t:|1786527593
+2026-08-12 11:39:53,176 |move|p1a: Ariados|Sludge Bomb|p2a: Noctowl
+2026-08-12 11:39:53,176 |-damage|p2a: Noctowl|196/337
+2026-08-12 11:39:53,176 |move|p2a: Noctowl|Return|p1a: Ariados
+2026-08-12 11:39:53,176 |-damage|p1a: Ariados|20/100
+2026-08-12 11:39:53,176 |
+2026-08-12 11:39:53,176 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,177 |-heal|p1a: Ariados|26/100|[from] item: Leftovers
+2026-08-12 11:39:53,177 |-heal|p2a: Noctowl|217/337|[from] item: Leftovers
+2026-08-12 11:39:53,177 |upkeep
+2026-08-12 11:39:53,177 |turn|37
+2026-08-12 11:39:53,179 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,179 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"217/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 11:39:53,203 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,203 |
+2026-08-12 11:39:53,203 |t:|1786527593
+2026-08-12 11:39:53,203 |move|p1a: Ariados|Hidden Power|p2a: Noctowl
+2026-08-12 11:39:53,203 |-immune|p2a: Noctowl
+2026-08-12 11:39:53,203 |move|p2a: Noctowl|Toxic|p1a: Ariados
+2026-08-12 11:39:53,204 |-immune|p1a: Ariados
+2026-08-12 11:39:53,204 |
+2026-08-12 11:39:53,204 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,204 |-heal|p1a: Ariados|32/100|[from] item: Leftovers
+2026-08-12 11:39:53,204 |-heal|p2a: Noctowl|238/337|[from] item: Leftovers
+2026-08-12 11:39:53,204 |upkeep
+2026-08-12 11:39:53,204 |turn|38
+2026-08-12 11:39:53,204 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,204 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"238/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 11:39:53,218 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,218 |
+2026-08-12 11:39:53,218 |t:|1786527593
+2026-08-12 11:39:53,218 |move|p1a: Ariados|Sludge Bomb|p2a: Noctowl
+2026-08-12 11:39:53,218 |-damage|p2a: Noctowl|132/337
+2026-08-12 11:39:53,218 |move|p2a: Noctowl|Toxic|p1a: Ariados|[miss]
+2026-08-12 11:39:53,219 |-miss|p2a: Noctowl|p1a: Ariados
+2026-08-12 11:39:53,219 |
+2026-08-12 11:39:53,219 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,219 |-heal|p1a: Ariados|38/100|[from] item: Leftovers
+2026-08-12 11:39:53,219 |-heal|p2a: Noctowl|153/337|[from] item: Leftovers
+2026-08-12 11:39:53,219 |upkeep
+2026-08-12 11:39:53,219 |turn|39
+2026-08-12 11:39:53,221 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,221 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"153/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 11:39:53,240 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,240 |
+2026-08-12 11:39:53,240 |t:|1786527593
+2026-08-12 11:39:53,240 |move|p1a: Ariados|Hidden Power|p2a: Noctowl
+2026-08-12 11:39:53,240 |-immune|p2a: Noctowl
+2026-08-12 11:39:53,240 |move|p2a: Noctowl|Hypnosis|p1a: Ariados
+2026-08-12 11:39:53,240 |-status|p1a: Ariados|slp|[from] move: Hypnosis
+2026-08-12 11:39:53,240 |
+2026-08-12 11:39:53,240 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,240 |-heal|p1a: Ariados|44/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,240 |-heal|p2a: Noctowl|174/337|[from] item: Leftovers
+2026-08-12 11:39:53,240 |upkeep
+2026-08-12 11:39:53,240 |turn|40
+2026-08-12 11:39:53,240 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,240 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"174/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 11:39:53,264 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,264 |
+2026-08-12 11:39:53,264 |t:|1786527593
+2026-08-12 11:39:53,264 |cant|p1a: Ariados|slp
+2026-08-12 11:39:53,264 |move|p2a: Noctowl|Return|p1a: Ariados
+2026-08-12 11:39:53,264 |-damage|p1a: Ariados|14/100 slp
+2026-08-12 11:39:53,264 |
+2026-08-12 11:39:53,264 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,264 |-heal|p1a: Ariados|20/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,264 |-heal|p2a: Noctowl|195/337|[from] item: Leftovers
+2026-08-12 11:39:53,264 |upkeep
+2026-08-12 11:39:53,264 |turn|41
+2026-08-12 11:39:53,264 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,264 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"195/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 11:39:53,288 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,288 |
+2026-08-12 11:39:53,288 |t:|1786527593
+2026-08-12 11:39:53,288 |cant|p1a: Ariados|slp
+2026-08-12 11:39:53,288 |move|p2a: Noctowl|Hypnosis|p1a: Ariados
+2026-08-12 11:39:53,288 |-fail|p1a: Ariados|slp
+2026-08-12 11:39:53,288 |
+2026-08-12 11:39:53,288 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,288 |-heal|p1a: Ariados|26/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,288 |-heal|p2a: Noctowl|216/337|[from] item: Leftovers
+2026-08-12 11:39:53,288 |upkeep
+2026-08-12 11:39:53,289 |turn|42
+2026-08-12 11:39:53,289 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,289 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":29,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"216/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 11:39:53,316 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,316 |
+2026-08-12 11:39:53,316 |t:|1786527593
+2026-08-12 11:39:53,316 |-curestatus|p1a: Ariados|slp|[msg]
+2026-08-12 11:39:53,316 |move|p1a: Ariados|Sludge Bomb|p2a: Noctowl
+2026-08-12 11:39:53,316 |-damage|p2a: Noctowl|115/337
+2026-08-12 11:39:53,316 |move|p2a: Noctowl|Hypnosis|p1a: Ariados
+2026-08-12 11:39:53,316 |-status|p1a: Ariados|slp|[from] move: Hypnosis
+2026-08-12 11:39:53,316 |
+2026-08-12 11:39:53,316 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,316 |-heal|p1a: Ariados|32/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,316 |-heal|p2a: Noctowl|136/337|[from] item: Leftovers
+2026-08-12 11:39:53,316 |upkeep
+2026-08-12 11:39:53,316 |turn|43
+2026-08-12 11:39:53,317 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,317 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"136/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 11:39:53,419 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,419 |
+2026-08-12 11:39:53,419 |t:|1786527593
+2026-08-12 11:39:53,419 |cant|p1a: Ariados|slp
+2026-08-12 11:39:53,419 |move|p2a: Noctowl|Hypnosis|p1a: Ariados
+2026-08-12 11:39:53,419 |-fail|p1a: Ariados|slp
+2026-08-12 11:39:53,419 |
+2026-08-12 11:39:53,419 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,419 |-heal|p1a: Ariados|38/100 slp|[from] item: Leftovers
+2026-08-12 11:39:53,419 |-heal|p2a: Noctowl|157/337|[from] item: Leftovers
+2026-08-12 11:39:53,419 |upkeep
+2026-08-12 11:39:53,419 |turn|44
+2026-08-12 11:39:53,419 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,419 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":27,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"157/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 11:39:53,491 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,491 |
+2026-08-12 11:39:53,491 |t:|1786527593
+2026-08-12 11:39:53,491 |-curestatus|p1a: Ariados|slp|[msg]
+2026-08-12 11:39:53,491 |move|p1a: Ariados|Sludge Bomb|p2a: Noctowl
+2026-08-12 11:39:53,491 |-damage|p2a: Noctowl|39/337
+2026-08-12 11:39:53,491 |move|p2a: Noctowl|Return|p1a: Ariados
+2026-08-12 11:39:53,491 |-damage|p1a: Ariados|7/100
+2026-08-12 11:39:53,491 |
+2026-08-12 11:39:53,491 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,491 |-heal|p1a: Ariados|13/100|[from] item: Leftovers
+2026-08-12 11:39:53,491 |-heal|p2a: Noctowl|60/337|[from] item: Leftovers
+2026-08-12 11:39:53,491 |upkeep
+2026-08-12 11:39:53,491 |turn|45
+2026-08-12 11:39:53,491 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,491 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":27,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"60/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 11:39:53,528 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,528 |
+2026-08-12 11:39:53,528 |t:|1786527593
+2026-08-12 11:39:53,528 |move|p1a: Ariados|Agility|p1a: Ariados
+2026-08-12 11:39:53,528 |-boost|p1a: Ariados|spe|2
+2026-08-12 11:39:53,528 |move|p2a: Noctowl|Whirlwind|p1a: Ariados
+2026-08-12 11:39:53,528 |drag|p1a: Groudon|Groudon, L69|95/100 tox
+2026-08-12 11:39:53,528 |
+2026-08-12 11:39:53,528 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,528 |-heal|p2a: Noctowl|81/337|[from] item: Leftovers
+2026-08-12 11:39:53,528 |-heal|p1a: Groudon|100/100 tox|[from] item: Leftovers
+2026-08-12 11:39:53,528 |-damage|p1a: Groudon|95/100 tox|[from] psn
+2026-08-12 11:39:53,528 |upkeep
+2026-08-12 11:39:53,528 |turn|46
+2026-08-12 11:39:53,535 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,535 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":27,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"81/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 11:39:53,567 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,567 |
+2026-08-12 11:39:53,567 |t:|1786527593
+2026-08-12 11:39:53,567 |move|p2a: Noctowl|Hypnosis||[still]
+2026-08-12 11:39:53,567 |-fail|p2a: Noctowl
+2026-08-12 11:39:53,567 |move|p1a: Groudon|Earthquake|p2a: Noctowl
+2026-08-12 11:39:53,567 |-immune|p2a: Noctowl
+2026-08-12 11:39:53,567 |
+2026-08-12 11:39:53,568 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,568 |-heal|p2a: Noctowl|102/337|[from] item: Leftovers
+2026-08-12 11:39:53,568 |-heal|p1a: Groudon|100/100 tox|[from] item: Leftovers
+2026-08-12 11:39:53,568 |-damage|p1a: Groudon|89/100 tox|[from] psn
+2026-08-12 11:39:53,568 |upkeep
+2026-08-12 11:39:53,568 |turn|47
+2026-08-12 11:39:53,569 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,569 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"102/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 11:39:53,604 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,604 |
+2026-08-12 11:39:53,604 |t:|1786527593
+2026-08-12 11:39:53,604 |move|p2a: Noctowl|Toxic|p1a: Groudon
+2026-08-12 11:39:53,604 |-fail|p1a: Groudon|tox
+2026-08-12 11:39:53,604 |move|p1a: Groudon|Overheat|p2a: Noctowl
+2026-08-12 11:39:53,604 |-damage|p2a: Noctowl|14/337
+2026-08-12 11:39:53,604 |-unboost|p1a: Groudon|spa|2
+2026-08-12 11:39:53,604 |
+2026-08-12 11:39:53,604 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,604 |-heal|p2a: Noctowl|35/337|[from] item: Leftovers
+2026-08-12 11:39:53,604 |-heal|p1a: Groudon|95/100 tox|[from] item: Leftovers
+2026-08-12 11:39:53,604 |-damage|p1a: Groudon|77/100 tox|[from] psn
+2026-08-12 11:39:53,604 |upkeep
+2026-08-12 11:39:53,604 |turn|48
+2026-08-12 11:39:53,605 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,605 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"35/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 11:39:53,633 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,633 |
+2026-08-12 11:39:53,633 |t:|1786527593
+2026-08-12 11:39:53,633 |move|p2a: Noctowl|Return|p1a: Groudon
+2026-08-12 11:39:53,633 |-damage|p1a: Groudon|49/100 tox
+2026-08-12 11:39:53,633 |move|p1a: Groudon|Earthquake|p2a: Noctowl
+2026-08-12 11:39:53,633 |-immune|p2a: Noctowl
+2026-08-12 11:39:53,633 |
+2026-08-12 11:39:53,633 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,633 |-heal|p2a: Noctowl|56/337|[from] item: Leftovers
+2026-08-12 11:39:53,633 |-heal|p1a: Groudon|55/100 tox|[from] item: Leftovers
+2026-08-12 11:39:53,633 |-damage|p1a: Groudon|31/100 tox|[from] psn
+2026-08-12 11:39:53,633 |upkeep
+2026-08-12 11:39:53,633 |turn|49
+2026-08-12 11:39:53,633 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,633 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"56/337","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 11:39:53,693 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,693 |
+2026-08-12 11:39:53,693 |t:|1786527593
+2026-08-12 11:39:53,693 |move|p2a: Noctowl|Toxic|p1a: Groudon
+2026-08-12 11:39:53,693 |-fail|p1a: Groudon|tox
+2026-08-12 11:39:53,693 |move|p1a: Groudon|Thunder Wave|p2a: Noctowl
+2026-08-12 11:39:53,693 |-status|p2a: Noctowl|par
+2026-08-12 11:39:53,693 |
+2026-08-12 11:39:53,693 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,693 |-heal|p1a: Groudon|37/100 tox|[from] item: Leftovers
+2026-08-12 11:39:53,693 |-damage|p1a: Groudon|7/100 tox|[from] psn
+2026-08-12 11:39:53,693 |-heal|p2a: Noctowl|77/337 par|[from] item: Leftovers
+2026-08-12 11:39:53,693 |upkeep
+2026-08-12 11:39:53,693 |turn|50
+2026-08-12 11:39:53,696 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,696 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"77/337 par","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 11:39:53,730 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,730 |
+2026-08-12 11:39:53,730 |t:|1786527593
+2026-08-12 11:39:53,730 |move|p1a: Groudon|Earthquake|p2a: Noctowl
+2026-08-12 11:39:53,730 |-immune|p2a: Noctowl
+2026-08-12 11:39:53,730 |cant|p2a: Noctowl|par
+2026-08-12 11:39:53,730 |
+2026-08-12 11:39:53,730 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,730 |-heal|p1a: Groudon|13/100 tox|[from] item: Leftovers
+2026-08-12 11:39:53,730 |-damage|p1a: Groudon|0 fnt|[from] psn
+2026-08-12 11:39:53,730 |faint|p1a: Groudon
+2026-08-12 11:39:53,730 |-heal|p2a: Noctowl|98/337 par|[from] item: Leftovers
+2026-08-12 11:39:53,730 |upkeep
+2026-08-12 11:39:53,730 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,730 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"98/337 par","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 11:39:53,760 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,760 |
+2026-08-12 11:39:53,760 |t:|1786527593
+2026-08-12 11:39:53,760 |switch|p1a: Ariados|Ariados, L98, M|13/100
+2026-08-12 11:39:53,760 |turn|51
+2026-08-12 11:39:53,766 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,766 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":26,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"98/337 par","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 11:39:53,824 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,824 |
+2026-08-12 11:39:53,824 |t:|1786527593
+2026-08-12 11:39:53,824 |switch|p1a: Dragonite|Dragonite, L75, F|75/100
+2026-08-12 11:39:53,824 |move|p2a: Noctowl|Hypnosis|p1a: Dragonite
+2026-08-12 11:39:53,824 |-status|p1a: Dragonite|slp|[from] move: Hypnosis
+2026-08-12 11:39:53,824 |
+2026-08-12 11:39:53,824 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,824 |-heal|p2a: Noctowl|119/337 par|[from] item: Leftovers
+2026-08-12 11:39:53,824 |upkeep
+2026-08-12 11:39:53,824 |turn|52
+2026-08-12 11:39:53,824 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,824 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":25,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"119/337 par","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 11:39:53,878 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,878 |
+2026-08-12 11:39:53,878 |t:|1786527593
+2026-08-12 11:39:53,878 |cant|p1a: Dragonite|slp
+2026-08-12 11:39:53,878 |move|p2a: Noctowl|Hypnosis|p1a: Dragonite
+2026-08-12 11:39:53,878 |-fail|p1a: Dragonite|slp
+2026-08-12 11:39:53,878 |
+2026-08-12 11:39:53,878 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,878 |-heal|p2a: Noctowl|140/337 par|[from] item: Leftovers
+2026-08-12 11:39:53,878 |upkeep
+2026-08-12 11:39:53,878 |turn|53
+2026-08-12 11:39:53,880 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,880 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":24,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"140/337 par","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 11:39:53,931 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,931 |
+2026-08-12 11:39:53,931 |t:|1786527593
+2026-08-12 11:39:53,931 |cant|p1a: Dragonite|slp
+2026-08-12 11:39:53,931 |move|p2a: Noctowl|Whirlwind|p1a: Dragonite
+2026-08-12 11:39:53,931 |drag|p1a: Camerupt|Camerupt, L89, M|100/100
+2026-08-12 11:39:53,931 |
+2026-08-12 11:39:53,931 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:39:53,932 |-heal|p2a: Noctowl|161/337 par|[from] item: Leftovers
+2026-08-12 11:39:53,932 |upkeep
+2026-08-12 11:39:53,932 |turn|54
+2026-08-12 11:39:53,945 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,945 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":8,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Hypnosis","id":"hypnosis","pp":24,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L93, F","condition":"161/337 par","active":true,"stats":{"atk":146,"def":146,"spa":194,"spd":231,"spe":183},"moves":["toxic","return102","whirlwind","hypnosis"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","doubleedge","swordsdance","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L86, M","condition":"0 fnt","active":false,"stats":{"atk":213,"def":212,"spa":109,"spd":238,"spe":170},"moves":["brickbreak","hiddenpowerghost","earthquake","machpunch"],"baseAbility":"intimidate","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Omastar","details":"Omastar, L84, M","condition":"0 fnt","active":false,"stats":{"atk":107,"def":258,"spa":241,"spd":166,"spe":141},"moves":["hiddenpowergrass","raindance","icebeam","surf"],"baseAbility":"swiftswim","item":"petayaberry","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys, L71","condition":"0 fnt","active":false,"stats":{"atk":254,"def":112,"spa":254,"spd":112,"spe":254},"moves":["shadowball","psychoboost","icebeam","superpower"],"baseAbility":"pressure","item":"","pokeball":"pokeball"},{"ident":"p2: Aggron","details":"Aggron, L85, M","condition":"0 fnt","active":false,"stats":{"atk":236,"def":355,"spa":151,"spd":151,"spe":134},"moves":["substitute","rockslide","irontail","focuspunch"],"baseAbility":"rockhead","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 11:39:53,978 >battle-gen3randombattle-314158
+2026-08-12 11:39:53,978 |
+2026-08-12 11:39:53,978 |t:|1786527593
+2026-08-12 11:39:53,978 |move|p1a: Camerupt|Fire Blast|p2a: Noctowl
+2026-08-12 11:39:53,978 |-damage|p2a: Noctowl|0 fnt
+2026-08-12 11:39:53,978 |faint|p2a: Noctowl
+2026-08-12 11:39:53,978 |
+2026-08-12 11:39:53,978 |win|BOT1
+2026-08-12 12:19:54,026 >battle-gen3randombattle-314158
+2026-08-12 12:19:54,026 |expire|
+2026-08-12 12:19:54,026 >battle-gen3randombattle-314158
+2026-08-12 12:19:54,026 |L|☆BOT1
+2026-08-12 12:19:54,026 >battle-gen3randombattle-314158
+2026-08-12 12:19:54,026 |deinit

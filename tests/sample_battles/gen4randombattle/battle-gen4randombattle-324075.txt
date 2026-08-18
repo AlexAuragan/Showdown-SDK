@@ -1,0 +1,391 @@
+2026-08-12 13:14:02,951 >battle-gen4randombattle-324075
+2026-08-12 13:14:02,951 |init|battle
+2026-08-12 13:14:02,952 |title|BOT7 vs. BOT8
+2026-08-12 13:14:02,952 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324075">battle-gen4randombattle-324075</a>&raquo;
+2026-08-12 13:14:02,986 >battle-gen4randombattle-324075
+2026-08-12 13:14:02,986 |t:|1786533242
+2026-08-12 13:14:02,986 |gametype|singles
+2026-08-12 13:14:02,986 >battle-gen4randombattle-324075
+2026-08-12 13:14:02,986 |player|p1|BOT7|169|
+2026-08-12 13:14:02,986 >battle-gen4randombattle-324075
+2026-08-12 13:14:02,986 |player|p2|BOT8|102|
+2026-08-12 13:14:02,986 |gen|4
+2026-08-12 13:14:02,986 |tier|[Gen 4] Random Battle
+2026-08-12 13:14:02,986 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:14:02,986 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:14:02,986 |
+2026-08-12 13:14:02,986 |t:|1786533242
+2026-08-12 13:14:02,986 |teamsize|p1|6
+2026-08-12 13:14:02,986 |teamsize|p2|6
+2026-08-12 13:14:02,986 |start
+2026-08-12 13:14:02,986 |switch|p1a: Shaymin|Shaymin-Sky, L68|100/100
+2026-08-12 13:14:02,986 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 13:14:02,986 |turn|1
+2026-08-12 13:14:02,987 >battle-gen4randombattle-324075
+2026-08-12 13:14:02,987 |request|{"active":[{"moves":[{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"273/273","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:14:03,021 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,021 |
+2026-08-12 13:14:03,021 |t:|1786533243
+2026-08-12 13:14:03,021 |switch|p2a: Blastoise|Blastoise, L85, F|273/273
+2026-08-12 13:14:03,021 |move|p1a: Shaymin|Air Slash|p2a: Blastoise
+2026-08-12 13:14:03,021 |-damage|p2a: Blastoise|218/273
+2026-08-12 13:14:03,021 |
+2026-08-12 13:14:03,021 |-heal|p2a: Blastoise|235/273|[from] item: Leftovers
+2026-08-12 13:14:03,021 |upkeep
+2026-08-12 13:14:03,021 |turn|2
+2026-08-12 13:14:03,023 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,024 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"235/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:14:03,052 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,052 |
+2026-08-12 13:14:03,052 |t:|1786533243
+2026-08-12 13:14:03,052 |switch|p1a: Scyther|Scyther, L78, M|100/100
+2026-08-12 13:14:03,052 |move|p2a: Blastoise|Roar|p1a: Scyther
+2026-08-12 13:14:03,052 |drag|p1a: Probopass|Probopass, L88, F|100/100
+2026-08-12 13:14:03,052 |
+2026-08-12 13:14:03,052 |-heal|p2a: Blastoise|252/273|[from] item: Leftovers
+2026-08-12 13:14:03,052 |upkeep
+2026-08-12 13:14:03,052 |turn|3
+2026-08-12 13:14:03,053 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,053 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"252/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:14:03,097 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,097 |
+2026-08-12 13:14:03,097 |t:|1786533243
+2026-08-12 13:14:03,097 |switch|p1a: Shaymin|Shaymin-Sky, L68|100/100
+2026-08-12 13:14:03,097 |move|p2a: Blastoise|Ice Beam|p1a: Shaymin
+2026-08-12 13:14:03,097 |-supereffective|p1a: Shaymin
+2026-08-12 13:14:03,097 |-damage|p1a: Shaymin|0 fnt
+2026-08-12 13:14:03,097 |faint|p1a: Shaymin
+2026-08-12 13:14:03,097 |
+2026-08-12 13:14:03,097 |-heal|p2a: Blastoise|269/273|[from] item: Leftovers
+2026-08-12 13:14:03,097 |upkeep
+2026-08-12 13:14:03,099 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,099 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"269/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:14:03,114 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,114 |
+2026-08-12 13:14:03,114 |t:|1786533243
+2026-08-12 13:14:03,114 |switch|p1a: Jolteon|Jolteon, L78, M|100/100
+2026-08-12 13:14:03,114 |turn|4
+2026-08-12 13:14:03,115 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,115 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"269/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:14:03,151 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,151 |
+2026-08-12 13:14:03,151 |t:|1786533243
+2026-08-12 13:14:03,151 |move|p1a: Jolteon|Hidden Power|p2a: Blastoise
+2026-08-12 13:14:03,151 |-resisted|p2a: Blastoise
+2026-08-12 13:14:03,151 |-damage|p2a: Blastoise|240/273
+2026-08-12 13:14:03,151 |move|p2a: Blastoise|Ice Beam|p1a: Jolteon
+2026-08-12 13:14:03,151 |-damage|p1a: Jolteon|73/100
+2026-08-12 13:14:03,151 |
+2026-08-12 13:14:03,151 |-heal|p2a: Blastoise|257/273|[from] item: Leftovers
+2026-08-12 13:14:03,151 |upkeep
+2026-08-12 13:14:03,151 |turn|5
+2026-08-12 13:14:03,152 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,152 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"257/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:14:03,190 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,190 |
+2026-08-12 13:14:03,190 |t:|1786533243
+2026-08-12 13:14:03,190 |move|p1a: Jolteon|Hidden Power|p2a: Blastoise
+2026-08-12 13:14:03,190 |-resisted|p2a: Blastoise
+2026-08-12 13:14:03,190 |-damage|p2a: Blastoise|223/273
+2026-08-12 13:14:03,190 |move|p2a: Blastoise|Roar|p1a: Jolteon
+2026-08-12 13:14:03,190 |drag|p1a: Scyther|Scyther, L78, M|100/100
+2026-08-12 13:14:03,190 |
+2026-08-12 13:14:03,190 |-heal|p2a: Blastoise|240/273|[from] item: Leftovers
+2026-08-12 13:14:03,190 |upkeep
+2026-08-12 13:14:03,190 |turn|6
+2026-08-12 13:14:03,190 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,190 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"240/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:14:03,216 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,216 |
+2026-08-12 13:14:03,216 |t:|1786533243
+2026-08-12 13:14:03,216 |move|p1a: Scyther|Bug Bite|p2a: Blastoise
+2026-08-12 13:14:03,216 |-damage|p2a: Blastoise|129/273
+2026-08-12 13:14:03,216 |-damage|p1a: Scyther|91/100|[from] item: Life Orb
+2026-08-12 13:14:03,216 |move|p2a: Blastoise|Roar|p1a: Scyther
+2026-08-12 13:14:03,216 |drag|p1a: Absol|Absol, L84, F|100/100
+2026-08-12 13:14:03,216 |
+2026-08-12 13:14:03,216 |-heal|p2a: Blastoise|146/273|[from] item: Leftovers
+2026-08-12 13:14:03,216 |upkeep
+2026-08-12 13:14:03,216 |turn|7
+2026-08-12 13:14:03,217 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,217 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rapid Spin","id":"rapidspin","pp":64,"maxpp":64,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"146/273","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:14:03,248 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,248 |
+2026-08-12 13:14:03,248 |t:|1786533243
+2026-08-12 13:14:03,248 |move|p1a: Absol|Superpower|p2a: Blastoise
+2026-08-12 13:14:03,248 |-damage|p2a: Blastoise|0 fnt
+2026-08-12 13:14:03,248 |-unboost|p1a: Absol|atk|1
+2026-08-12 13:14:03,248 |-unboost|p1a: Absol|def|1
+2026-08-12 13:14:03,248 |faint|p2a: Blastoise
+2026-08-12 13:14:03,248 |
+2026-08-12 13:14:03,248 |upkeep
+2026-08-12 13:14:03,248 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,248 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":true,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":19}
+2026-08-12 13:14:03,259 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,259 |
+2026-08-12 13:14:03,259 |t:|1786533243
+2026-08-12 13:14:03,259 |switch|p2a: Donphan|Donphan, L84, M|288/288
+2026-08-12 13:14:03,259 |turn|8
+2026-08-12 13:14:03,260 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,260 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:14:03,288 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,288 |
+2026-08-12 13:14:03,288 |t:|1786533243
+2026-08-12 13:14:03,288 |switch|p1a: Jolteon|Jolteon, L78, M|73/100
+2026-08-12 13:14:03,288 |move|p2a: Donphan|Protect||[still]
+2026-08-12 13:14:03,288 |-fail|p2a: Donphan
+2026-08-12 13:14:03,288 |
+2026-08-12 13:14:03,288 |upkeep
+2026-08-12 13:14:03,288 |turn|9
+2026-08-12 13:14:03,289 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,289 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"288/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:14:03,311 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,311 |
+2026-08-12 13:14:03,311 |t:|1786533243
+2026-08-12 13:14:03,311 |move|p1a: Jolteon|Signal Beam|p2a: Donphan
+2026-08-12 13:14:03,311 |-damage|p2a: Donphan|190/288
+2026-08-12 13:14:03,311 |move|p2a: Donphan|Stone Edge|p1a: Jolteon
+2026-08-12 13:14:03,311 |-crit|p1a: Jolteon
+2026-08-12 13:14:03,311 |-damage|p1a: Jolteon|0 fnt
+2026-08-12 13:14:03,311 |faint|p1a: Jolteon
+2026-08-12 13:14:03,311 |
+2026-08-12 13:14:03,312 |-heal|p2a: Donphan|208/288|[from] item: Leftovers
+2026-08-12 13:14:03,312 |upkeep
+2026-08-12 13:14:03,313 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,313 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"208/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:14:03,344 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,344 |
+2026-08-12 13:14:03,344 |t:|1786533243
+2026-08-12 13:14:03,344 |switch|p1a: Miltank|Miltank, L82, F|100/100
+2026-08-12 13:14:03,345 |turn|10
+2026-08-12 13:14:03,345 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,345 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"208/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:14:03,383 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,383 |
+2026-08-12 13:14:03,383 |t:|1786533243
+2026-08-12 13:14:03,383 |switch|p1a: Scyther|Scyther, L78, M|91/100
+2026-08-12 13:14:03,383 |move|p2a: Donphan|Protect||[still]
+2026-08-12 13:14:03,383 |-fail|p2a: Donphan
+2026-08-12 13:14:03,383 |
+2026-08-12 13:14:03,383 |-heal|p2a: Donphan|226/288|[from] item: Leftovers
+2026-08-12 13:14:03,383 |upkeep
+2026-08-12 13:14:03,383 |turn|11
+2026-08-12 13:14:03,384 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,384 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"226/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:14:03,408 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,408 |
+2026-08-12 13:14:03,408 |t:|1786533243
+2026-08-12 13:14:03,408 |move|p1a: Scyther|Roost|p1a: Scyther
+2026-08-12 13:14:03,408 |-heal|p1a: Scyther|100/100
+2026-08-12 13:14:03,408 |-singleturn|p1a: Scyther|move: Roost
+2026-08-12 13:14:03,408 |move|p2a: Donphan|Stone Edge|p1a: Scyther
+2026-08-12 13:14:03,408 |-supereffective|p1a: Scyther
+2026-08-12 13:14:03,408 |-damage|p1a: Scyther|14/100
+2026-08-12 13:14:03,408 |
+2026-08-12 13:14:03,408 |-heal|p2a: Donphan|244/288|[from] item: Leftovers
+2026-08-12 13:14:03,408 |upkeep
+2026-08-12 13:14:03,408 |turn|12
+2026-08-12 13:14:03,412 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,412 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"244/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:14:03,438 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,438 |
+2026-08-12 13:14:03,438 |t:|1786533243
+2026-08-12 13:14:03,438 |switch|p1a: Probopass|Probopass, L88, F|100/100
+2026-08-12 13:14:03,439 |move|p2a: Donphan|Earthquake|p1a: Probopass
+2026-08-12 13:14:03,439 |-supereffective|p1a: Probopass
+2026-08-12 13:14:03,439 |-damage|p1a: Probopass|0 fnt
+2026-08-12 13:14:03,439 |faint|p1a: Probopass
+2026-08-12 13:14:03,439 |
+2026-08-12 13:14:03,439 |-heal|p2a: Donphan|262/288|[from] item: Leftovers
+2026-08-12 13:14:03,439 |upkeep
+2026-08-12 13:14:03,439 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,439 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"262/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:14:03,464 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,464 |
+2026-08-12 13:14:03,464 |t:|1786533243
+2026-08-12 13:14:03,464 |switch|p1a: Miltank|Miltank, L82, F|100/100
+2026-08-12 13:14:03,464 |turn|13
+2026-08-12 13:14:03,466 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,466 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"262/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:14:03,496 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,496 |
+2026-08-12 13:14:03,496 |t:|1786533243
+2026-08-12 13:14:03,496 |move|p1a: Miltank|Heal Bell|p1a: Miltank
+2026-08-12 13:14:03,496 |-activate|p1a: Miltank|move: Heal Bell
+2026-08-12 13:14:03,496 |move|p2a: Donphan|Toxic|p1a: Miltank
+2026-08-12 13:14:03,496 |-status|p1a: Miltank|tox
+2026-08-12 13:14:03,496 |
+2026-08-12 13:14:03,496 |-damage|p1a: Miltank|94/100 tox|[from] psn
+2026-08-12 13:14:03,496 |-heal|p2a: Donphan|280/288|[from] item: Leftovers
+2026-08-12 13:14:03,496 |upkeep
+2026-08-12 13:14:03,496 |turn|14
+2026-08-12 13:14:03,497 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,497 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"280/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:14:03,522 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,522 |
+2026-08-12 13:14:03,522 |t:|1786533243
+2026-08-12 13:14:03,522 |move|p1a: Miltank|Earthquake|p2a: Donphan
+2026-08-12 13:14:03,522 |-damage|p2a: Donphan|232/288
+2026-08-12 13:14:03,522 |move|p2a: Donphan|Stone Edge|p1a: Miltank|[miss]
+2026-08-12 13:14:03,522 |-miss|p2a: Donphan|p1a: Miltank
+2026-08-12 13:14:03,522 |
+2026-08-12 13:14:03,522 |-heal|p1a: Miltank|100/100 tox|[from] item: Leftovers
+2026-08-12 13:14:03,522 |-damage|p1a: Miltank|88/100 tox|[from] psn
+2026-08-12 13:14:03,522 |-heal|p2a: Donphan|250/288|[from] item: Leftovers
+2026-08-12 13:14:03,522 |upkeep
+2026-08-12 13:14:03,522 |turn|15
+2026-08-12 13:14:03,525 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,525 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"250/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:14:03,551 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,551 |
+2026-08-12 13:14:03,551 |t:|1786533243
+2026-08-12 13:14:03,551 |move|p1a: Miltank|Earthquake|p2a: Donphan
+2026-08-12 13:14:03,551 |-damage|p2a: Donphan|207/288
+2026-08-12 13:14:03,552 |move|p2a: Donphan|Earthquake|p1a: Miltank
+2026-08-12 13:14:03,552 |-damage|p1a: Miltank|52/100 tox
+2026-08-12 13:14:03,552 |
+2026-08-12 13:14:03,552 |-heal|p1a: Miltank|58/100 tox|[from] item: Leftovers
+2026-08-12 13:14:03,552 |-damage|p1a: Miltank|39/100 tox|[from] psn
+2026-08-12 13:14:03,552 |-heal|p2a: Donphan|225/288|[from] item: Leftovers
+2026-08-12 13:14:03,552 |upkeep
+2026-08-12 13:14:03,552 |turn|16
+2026-08-12 13:14:03,553 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,553 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"225/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:14:03,572 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,572 |
+2026-08-12 13:14:03,572 |t:|1786533243
+2026-08-12 13:14:03,572 |move|p1a: Miltank|Body Slam|p2a: Donphan
+2026-08-12 13:14:03,572 |-damage|p2a: Donphan|171/288
+2026-08-12 13:14:03,572 |move|p2a: Donphan|Earthquake|p1a: Miltank
+2026-08-12 13:14:03,572 |-damage|p1a: Miltank|0 fnt
+2026-08-12 13:14:03,572 |faint|p1a: Miltank
+2026-08-12 13:14:03,572 |
+2026-08-12 13:14:03,572 |-heal|p2a: Donphan|189/288|[from] item: Leftovers
+2026-08-12 13:14:03,572 |upkeep
+2026-08-12 13:14:03,572 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,572 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"189/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:14:03,591 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,591 |
+2026-08-12 13:14:03,591 |t:|1786533243
+2026-08-12 13:14:03,591 |switch|p1a: Scyther|Scyther, L78, M|14/100
+2026-08-12 13:14:03,591 |turn|17
+2026-08-12 13:14:03,592 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,592 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"189/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:14:03,626 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,626 |
+2026-08-12 13:14:03,626 |t:|1786533243
+2026-08-12 13:14:03,626 |move|p1a: Scyther|Roost|p1a: Scyther
+2026-08-12 13:14:03,626 |-heal|p1a: Scyther|64/100
+2026-08-12 13:14:03,626 |-singleturn|p1a: Scyther|move: Roost
+2026-08-12 13:14:03,626 |move|p2a: Donphan|Earthquake|p1a: Scyther
+2026-08-12 13:14:03,626 |-resisted|p1a: Scyther
+2026-08-12 13:14:03,626 |-damage|p1a: Scyther|36/100
+2026-08-12 13:14:03,626 |
+2026-08-12 13:14:03,626 |-heal|p2a: Donphan|207/288|[from] item: Leftovers
+2026-08-12 13:14:03,626 |upkeep
+2026-08-12 13:14:03,626 |turn|18
+2026-08-12 13:14:03,627 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,627 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"207/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:14:03,654 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,654 |
+2026-08-12 13:14:03,654 |t:|1786533243
+2026-08-12 13:14:03,654 |move|p1a: Scyther|Swords Dance|p1a: Scyther
+2026-08-12 13:14:03,654 |-boost|p1a: Scyther|atk|2
+2026-08-12 13:14:03,654 |move|p2a: Donphan|Earthquake|p1a: Scyther
+2026-08-12 13:14:03,654 |-immune|p1a: Scyther
+2026-08-12 13:14:03,654 |
+2026-08-12 13:14:03,654 |-heal|p2a: Donphan|225/288|[from] item: Leftovers
+2026-08-12 13:14:03,654 |upkeep
+2026-08-12 13:14:03,654 |turn|19
+2026-08-12 13:14:03,657 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,657 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":5,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"225/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:14:03,720 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,720 |
+2026-08-12 13:14:03,720 |t:|1786533243
+2026-08-12 13:14:03,720 |move|p1a: Scyther|Roost|p1a: Scyther
+2026-08-12 13:14:03,720 |-heal|p1a: Scyther|86/100
+2026-08-12 13:14:03,720 |-singleturn|p1a: Scyther|move: Roost
+2026-08-12 13:14:03,720 |move|p2a: Donphan|Stone Edge|p1a: Scyther
+2026-08-12 13:14:03,720 |-supereffective|p1a: Scyther
+2026-08-12 13:14:03,720 |-crit|p1a: Scyther
+2026-08-12 13:14:03,720 |-damage|p1a: Scyther|0 fnt
+2026-08-12 13:14:03,720 |faint|p1a: Scyther
+2026-08-12 13:14:03,720 |
+2026-08-12 13:14:03,720 |-heal|p2a: Donphan|243/288|[from] item: Leftovers
+2026-08-12 13:14:03,720 |upkeep
+2026-08-12 13:14:03,733 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,733 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"243/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:14:03,763 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,763 |
+2026-08-12 13:14:03,763 |t:|1786533243
+2026-08-12 13:14:03,763 |switch|p1a: Absol|Absol, L84, F|100/100
+2026-08-12 13:14:03,763 |turn|20
+2026-08-12 13:14:03,763 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,763 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":4,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"243/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:14:03,815 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,815 |
+2026-08-12 13:14:03,815 |t:|1786533243
+2026-08-12 13:14:03,815 |move|p1a: Absol|Psycho Cut|p2a: Donphan
+2026-08-12 13:14:03,815 |-crit|p2a: Donphan
+2026-08-12 13:14:03,815 |-damage|p2a: Donphan|95/288
+2026-08-12 13:14:03,815 |move|p2a: Donphan|Stone Edge|p1a: Absol|[miss]
+2026-08-12 13:14:03,815 |-miss|p2a: Donphan|p1a: Absol
+2026-08-12 13:14:03,815 |
+2026-08-12 13:14:03,815 |-heal|p2a: Donphan|113/288|[from] item: Leftovers
+2026-08-12 13:14:03,815 |upkeep
+2026-08-12 13:14:03,815 |turn|21
+2026-08-12 13:14:03,815 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,815 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":3,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"113/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:14:03,892 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,892 |
+2026-08-12 13:14:03,892 |t:|1786533243
+2026-08-12 13:14:03,892 |move|p1a: Absol|Psycho Cut|p2a: Donphan
+2026-08-12 13:14:03,892 |-damage|p2a: Donphan|45/288
+2026-08-12 13:14:03,892 |move|p2a: Donphan|Toxic|p1a: Absol
+2026-08-12 13:14:03,892 |-status|p1a: Absol|tox
+2026-08-12 13:14:03,892 |
+2026-08-12 13:14:03,892 |-damage|p1a: Absol|94/100 tox|[from] psn
+2026-08-12 13:14:03,892 |-heal|p2a: Donphan|63/288|[from] item: Leftovers
+2026-08-12 13:14:03,892 |upkeep
+2026-08-12 13:14:03,892 |turn|22
+2026-08-12 13:14:03,893 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,893 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":3,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"63/288","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:14:03,962 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,962 |
+2026-08-12 13:14:03,962 |t:|1786533243
+2026-08-12 13:14:03,962 |move|p1a: Absol|Psycho Cut|p2a: Donphan
+2026-08-12 13:14:03,962 |-damage|p2a: Donphan|0 fnt
+2026-08-12 13:14:03,962 |faint|p2a: Donphan
+2026-08-12 13:14:03,962 |
+2026-08-12 13:14:03,962 |-damage|p1a: Absol|82/100 tox|[from] psn
+2026-08-12 13:14:03,962 |upkeep
+2026-08-12 13:14:03,962 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,962 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"0 fnt","active":true,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":false,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":59}
+2026-08-12 13:14:03,989 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,989 |
+2026-08-12 13:14:03,989 |t:|1786533243
+2026-08-12 13:14:03,989 |switch|p2a: Altaria|Altaria, L85, F|266/266
+2026-08-12 13:14:03,989 |turn|23
+2026-08-12 13:14:03,991 >battle-gen4randombattle-324075
+2026-08-12 13:14:03,991 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Altaria","details":"Altaria, L85, F","condition":"266/266","active":true,"stats":{"atk":124,"def":202,"spa":168,"spd":227,"spe":185},"moves":["roost","fireblast","healbell","dracometeor"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Donphan","details":"Donphan, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":250,"spa":149,"spd":149,"spe":132},"moves":["earthquake","toxic","protect","stoneedge"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Blastoise","details":"Blastoise, L85, F","condition":"0 fnt","active":false,"stats":{"atk":190,"def":219,"spa":193,"spd":227,"spe":181},"moves":["roar","surf","rapidspin","icebeam"],"baseAbility":"torrent","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Xatu","details":"Xatu, L87, F","condition":"255/255","active":false,"stats":{"atk":135,"def":172,"spa":215,"spd":172,"spe":215},"moves":["calmmind","psychic","heatwave","roost"],"baseAbility":"synchronize","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":154,"def":191,"spa":190,"spd":191,"spe":190},"moves":["hiddenpowerfire","calmmind","psychic","thunderbolt"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mightyena","details":"Mightyena, L95, M","condition":"287/287","active":false,"stats":{"atk":225,"def":187,"spa":168,"spd":168,"spe":187},"moves":["toxic","firefang","crunch","superfang"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:14:04,041 >battle-gen4randombattle-324075
+2026-08-12 13:14:04,041 |
+2026-08-12 13:14:04,041 |t:|1786533244
+2026-08-12 13:14:04,041 |move|p2a: Altaria|Draco Meteor|p1a: Absol
+2026-08-12 13:14:04,041 |-damage|p1a: Absol|16/100 tox
+2026-08-12 13:14:04,041 |-unboost|p2a: Altaria|spa|2
+2026-08-12 13:14:04,041 |move|p1a: Absol|Psycho Cut|p2a: Altaria
+2026-08-12 13:14:04,041 |-crit|p2a: Altaria
+2026-08-12 13:14:04,041 |-damage|p2a: Altaria|88/266
+2026-08-12 13:14:04,041 |
+2026-08-12 13:14:04,041 |-heal|p2a: Altaria|104/266|[from] item: Leftovers
+2026-08-12 13:14:04,041 |-damage|p1a: Absol|0 fnt|[from] psn
+2026-08-12 13:14:04,041 |faint|p1a: Absol
+2026-08-12 13:14:04,041 |
+2026-08-12 13:14:04,041 |win|BOT8
+2026-08-12 13:54:04,043 >battle-gen4randombattle-324075
+2026-08-12 13:54:04,043 |expire|
+2026-08-12 13:54:04,043 >battle-gen4randombattle-324075
+2026-08-12 13:54:04,043 |L|☆BOT7
+2026-08-12 13:54:04,043 >battle-gen4randombattle-324075
+2026-08-12 13:54:04,043 |deinit

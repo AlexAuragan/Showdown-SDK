@@ -1,0 +1,947 @@
+2026-08-12 12:35:57,303 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,303 |init|battle
+2026-08-12 12:35:57,303 |title|BOT5 vs. BOT6
+2026-08-12 12:35:57,303 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-320111">battle-gen3randombattle-320111</a>&raquo;
+2026-08-12 12:35:57,353 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,353 |t:|1786530957
+2026-08-12 12:35:57,353 |gametype|singles
+2026-08-12 12:35:57,357 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,357 |player|p1|BOT5|101|
+2026-08-12 12:35:57,359 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,359 |player|p2|BOT6|101|
+2026-08-12 12:35:57,359 |gen|3
+2026-08-12 12:35:57,359 |tier|[Gen 3] Random Battle
+2026-08-12 12:35:57,359 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:35:57,359 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:35:57,359 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:35:57,359 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:35:57,359 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:35:57,359 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:35:57,359 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:35:57,359 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:35:57,359 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:35:57,360 |
+2026-08-12 12:35:57,360 |t:|1786530957
+2026-08-12 12:35:57,360 |teamsize|p1|6
+2026-08-12 12:35:57,360 |teamsize|p2|6
+2026-08-12 12:35:57,360 |start
+2026-08-12 12:35:57,360 |switch|p1a: Zangoose|Zangoose, L79, M|100/100
+2026-08-12 12:35:57,360 |switch|p2a: Arbok|Arbok, L85, M|241/241
+2026-08-12 12:35:57,360 |-ability|p2a: Arbok|Intimidate|boost
+2026-08-12 12:35:57,360 |-unboost|p1a: Zangoose|atk|1
+2026-08-12 12:35:57,360 |turn|1
+2026-08-12 12:35:57,360 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,360 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:35:57,412 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,412 |
+2026-08-12 12:35:57,412 |t:|1786530957
+2026-08-12 12:35:57,412 |move|p1a: Zangoose|Return|p2a: Arbok
+2026-08-12 12:35:57,412 |-damage|p2a: Arbok|149/241
+2026-08-12 12:35:57,412 |move|p2a: Arbok|Rest|p2a: Arbok
+2026-08-12 12:35:57,412 |-status|p2a: Arbok|slp|[from] move: Rest
+2026-08-12 12:35:57,412 |-heal|p2a: Arbok|241/241 slp|[silent]
+2026-08-12 12:35:57,412 |
+2026-08-12 12:35:57,412 |upkeep
+2026-08-12 12:35:57,412 |turn|2
+2026-08-12 12:35:57,413 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,414 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:35:57,436 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,436 |
+2026-08-12 12:35:57,436 |t:|1786530957
+2026-08-12 12:35:57,436 |move|p1a: Zangoose|Shadow Ball|p2a: Arbok
+2026-08-12 12:35:57,436 |-damage|p2a: Arbok|195/241 slp
+2026-08-12 12:35:57,436 |cant|p2a: Arbok|slp
+2026-08-12 12:35:57,436 |
+2026-08-12 12:35:57,436 |-heal|p2a: Arbok|210/241 slp|[from] item: Leftovers
+2026-08-12 12:35:57,437 |upkeep
+2026-08-12 12:35:57,437 |turn|3
+2026-08-12 12:35:57,438 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,438 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"210/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:35:57,464 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,464 |
+2026-08-12 12:35:57,464 |t:|1786530957
+2026-08-12 12:35:57,464 |move|p1a: Zangoose|Brick Break|p2a: Arbok
+2026-08-12 12:35:57,464 |-resisted|p2a: Arbok
+2026-08-12 12:35:57,464 |-damage|p2a: Arbok|189/241 slp
+2026-08-12 12:35:57,464 |cant|p2a: Arbok|slp
+2026-08-12 12:35:57,464 |
+2026-08-12 12:35:57,464 |-heal|p2a: Arbok|204/241 slp|[from] item: Leftovers
+2026-08-12 12:35:57,465 |upkeep
+2026-08-12 12:35:57,465 |turn|4
+2026-08-12 12:35:57,467 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,467 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"204/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:35:57,503 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,503 |
+2026-08-12 12:35:57,503 |t:|1786530957
+2026-08-12 12:35:57,503 |move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+2026-08-12 12:35:57,503 |-boost|p1a: Zangoose|atk|2
+2026-08-12 12:35:57,503 |-curestatus|p2a: Arbok|slp|[msg]
+2026-08-12 12:35:57,503 |move|p2a: Arbok|Earthquake|p1a: Zangoose
+2026-08-12 12:35:57,503 |-damage|p1a: Zangoose|61/100
+2026-08-12 12:35:57,503 |
+2026-08-12 12:35:57,503 |-heal|p2a: Arbok|219/241|[from] item: Leftovers
+2026-08-12 12:35:57,503 |upkeep
+2026-08-12 12:35:57,503 |turn|5
+2026-08-12 12:35:57,503 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,503 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"219/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:35:57,545 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,545 |
+2026-08-12 12:35:57,545 |t:|1786530957
+2026-08-12 12:35:57,545 |move|p1a: Zangoose|Shadow Ball|p2a: Arbok
+2026-08-12 12:35:57,545 |-damage|p2a: Arbok|114/241
+2026-08-12 12:35:57,545 |move|p2a: Arbok|Sludge Bomb|p1a: Zangoose
+2026-08-12 12:35:57,545 |-damage|p1a: Zangoose|13/100
+2026-08-12 12:35:57,545 |
+2026-08-12 12:35:57,545 |-enditem|p1a: Zangoose|Salac Berry|[eat]
+2026-08-12 12:35:57,545 |-boost|p1a: Zangoose|spe|1|[from] item: Salac Berry
+2026-08-12 12:35:57,545 |-heal|p2a: Arbok|129/241|[from] item: Leftovers
+2026-08-12 12:35:57,545 |upkeep
+2026-08-12 12:35:57,545 |turn|6
+2026-08-12 12:35:57,548 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,548 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"129/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:35:57,567 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,567 |
+2026-08-12 12:35:57,567 |t:|1786530957
+2026-08-12 12:35:57,567 |move|p1a: Zangoose|Swords Dance|p1a: Zangoose
+2026-08-12 12:35:57,567 |-boost|p1a: Zangoose|atk|2
+2026-08-12 12:35:57,567 |move|p2a: Arbok|Sludge Bomb|p1a: Zangoose
+2026-08-12 12:35:57,567 |-damage|p1a: Zangoose|0 fnt
+2026-08-12 12:35:57,567 |faint|p1a: Zangoose
+2026-08-12 12:35:57,568 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,568 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"129/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:35:57,585 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,585 |
+2026-08-12 12:35:57,585 |t:|1786530957
+2026-08-12 12:35:57,585 |switch|p1a: Vileplume|Vileplume, L85, F|100/100
+2026-08-12 12:35:57,585 |
+2026-08-12 12:35:57,585 |-heal|p2a: Arbok|144/241|[from] item: Leftovers
+2026-08-12 12:35:57,585 |upkeep
+2026-08-12 12:35:57,585 |turn|7
+2026-08-12 12:35:57,588 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,588 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"144/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:35:57,610 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,610 |
+2026-08-12 12:35:57,610 |t:|1786530957
+2026-08-12 12:35:57,610 |move|p2a: Arbok|Rest|p2a: Arbok
+2026-08-12 12:35:57,610 |-status|p2a: Arbok|slp|[from] move: Rest
+2026-08-12 12:35:57,610 |-heal|p2a: Arbok|241/241 slp|[silent]
+2026-08-12 12:35:57,610 |move|p1a: Vileplume|Synthesis|p1a: Vileplume
+2026-08-12 12:35:57,610 |
+2026-08-12 12:35:57,610 |upkeep
+2026-08-12 12:35:57,610 |turn|8
+2026-08-12 12:35:57,611 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,611 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:35:57,641 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,641 |
+2026-08-12 12:35:57,641 |t:|1786530957
+2026-08-12 12:35:57,641 |cant|p2a: Arbok|slp
+2026-08-12 12:35:57,641 |move|p2a: Arbok|Sleep Talk|p2a: Arbok
+2026-08-12 12:35:57,641 |move|p2a: Arbok|Sludge Bomb|p1a: Vileplume|[from] Sleep Talk
+2026-08-12 12:35:57,641 |-damage|p1a: Vileplume|66/100
+2026-08-12 12:35:57,641 |move|p1a: Vileplume|Sleep Powder|p2a: Arbok
+2026-08-12 12:35:57,641 |-fail|p2a: Arbok|slp
+2026-08-12 12:35:57,641 |
+2026-08-12 12:35:57,641 |-heal|p1a: Vileplume|72/100|[from] item: Leftovers
+2026-08-12 12:35:57,641 |upkeep
+2026-08-12 12:35:57,641 |turn|9
+2026-08-12 12:35:57,642 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,642 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:35:57,660 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,660 |
+2026-08-12 12:35:57,660 |t:|1786530957
+2026-08-12 12:35:57,660 |cant|p2a: Arbok|slp
+2026-08-12 12:35:57,660 |move|p1a: Vileplume|Hidden Power|p2a: Arbok
+2026-08-12 12:35:57,660 |-resisted|p2a: Arbok
+2026-08-12 12:35:57,660 |-damage|p2a: Arbok|195/241 slp
+2026-08-12 12:35:57,660 |
+2026-08-12 12:35:57,660 |-heal|p2a: Arbok|210/241 slp|[from] item: Leftovers
+2026-08-12 12:35:57,660 |-heal|p1a: Vileplume|78/100|[from] item: Leftovers
+2026-08-12 12:35:57,660 |upkeep
+2026-08-12 12:35:57,661 |turn|10
+2026-08-12 12:35:57,661 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,661 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"210/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:35:57,684 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,684 |
+2026-08-12 12:35:57,684 |t:|1786530957
+2026-08-12 12:35:57,684 |switch|p1a: Mew|Mew, L72|100/100
+2026-08-12 12:35:57,684 |-curestatus|p2a: Arbok|slp|[msg]
+2026-08-12 12:35:57,684 |move|p2a: Arbok|Sludge Bomb|p1a: Mew
+2026-08-12 12:35:57,684 |-damage|p1a: Mew|67/100
+2026-08-12 12:35:57,684 |
+2026-08-12 12:35:57,684 |-heal|p1a: Mew|73/100|[from] item: Leftovers
+2026-08-12 12:35:57,684 |-heal|p2a: Arbok|225/241|[from] item: Leftovers
+2026-08-12 12:35:57,684 |upkeep
+2026-08-12 12:35:57,684 |turn|11
+2026-08-12 12:35:57,685 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,685 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"225/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:35:57,710 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,710 |
+2026-08-12 12:35:57,710 |t:|1786530957
+2026-08-12 12:35:57,710 |move|p1a: Mew|Flamethrower|p2a: Arbok
+2026-08-12 12:35:57,710 |-damage|p2a: Arbok|166/241
+2026-08-12 12:35:57,710 |move|p2a: Arbok|Earthquake|p1a: Mew
+2026-08-12 12:35:57,710 |-damage|p1a: Mew|44/100
+2026-08-12 12:35:57,710 |
+2026-08-12 12:35:57,710 |-heal|p1a: Mew|50/100|[from] item: Leftovers
+2026-08-12 12:35:57,710 |-heal|p2a: Arbok|181/241|[from] item: Leftovers
+2026-08-12 12:35:57,710 |upkeep
+2026-08-12 12:35:57,710 |turn|12
+2026-08-12 12:35:57,711 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,711 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:35:57,734 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,734 |
+2026-08-12 12:35:57,734 |t:|1786530957
+2026-08-12 12:35:57,734 |switch|p2a: Tangela|Tangela, L95, F|277/277
+2026-08-12 12:35:57,734 |move|p1a: Mew|Calm Mind|p1a: Mew
+2026-08-12 12:35:57,734 |-boost|p1a: Mew|spa|1
+2026-08-12 12:35:57,734 |-boost|p1a: Mew|spd|1
+2026-08-12 12:35:57,734 |
+2026-08-12 12:35:57,734 |-heal|p1a: Mew|56/100|[from] item: Leftovers
+2026-08-12 12:35:57,734 |upkeep
+2026-08-12 12:35:57,734 |turn|13
+2026-08-12 12:35:57,737 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,737 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:35:57,756 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,757 |
+2026-08-12 12:35:57,757 |t:|1786530957
+2026-08-12 12:35:57,757 |switch|p1a: Pikachu|Pikachu, L87, F|100/100
+2026-08-12 12:35:57,757 |move|p2a: Tangela|Sunny Day|p2a: Tangela
+2026-08-12 12:35:57,757 |-weather|SunnyDay
+2026-08-12 12:35:57,757 |
+2026-08-12 12:35:57,757 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:57,757 |upkeep
+2026-08-12 12:35:57,757 |turn|14
+2026-08-12 12:35:57,758 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,758 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:35:57,783 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,784 |
+2026-08-12 12:35:57,784 |t:|1786530957
+2026-08-12 12:35:57,784 |switch|p1a: Articuno|Articuno, L80|100/100
+2026-08-12 12:35:57,784 |move|p2a: Tangela|Sleep Powder|p1a: Articuno|[miss]
+2026-08-12 12:35:57,784 |-miss|p2a: Tangela|p1a: Articuno
+2026-08-12 12:35:57,784 |
+2026-08-12 12:35:57,784 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:57,784 |upkeep
+2026-08-12 12:35:57,784 |turn|15
+2026-08-12 12:35:57,785 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,785 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"277/277","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:35:57,813 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,813 |
+2026-08-12 12:35:57,813 |t:|1786530957
+2026-08-12 12:35:57,813 |move|p2a: Tangela|Sunny Day||[still]
+2026-08-12 12:35:57,813 |-fail|p2a: Tangela
+2026-08-12 12:35:57,813 |move|p1a: Articuno|Toxic|p2a: Tangela
+2026-08-12 12:35:57,813 |-status|p2a: Tangela|tox
+2026-08-12 12:35:57,813 |
+2026-08-12 12:35:57,813 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:57,813 |-damage|p2a: Tangela|260/277 tox|[from] psn
+2026-08-12 12:35:57,813 |upkeep
+2026-08-12 12:35:57,813 |turn|16
+2026-08-12 12:35:57,814 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,814 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"260/277 tox","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:35:57,842 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,842 |
+2026-08-12 12:35:57,842 |t:|1786530957
+2026-08-12 12:35:57,842 |switch|p1a: Vileplume|Vileplume, L85, F|78/100
+2026-08-12 12:35:57,842 |move|p2a: Tangela|Solar Beam||[still]
+2026-08-12 12:35:57,842 |-prepare|p2a: Tangela|Solar Beam
+2026-08-12 12:35:57,842 |-anim|p2a: Tangela|Solar Beam|p1a: Vileplume
+2026-08-12 12:35:57,842 |-resisted|p1a: Vileplume
+2026-08-12 12:35:57,842 |-damage|p1a: Vileplume|63/100
+2026-08-12 12:35:57,842 |
+2026-08-12 12:35:57,842 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:57,842 |-heal|p2a: Tangela|277/277 tox|[from] item: Leftovers
+2026-08-12 12:35:57,842 |-damage|p2a: Tangela|243/277 tox|[from] psn
+2026-08-12 12:35:57,842 |-heal|p1a: Vileplume|69/100|[from] item: Leftovers
+2026-08-12 12:35:57,842 |upkeep
+2026-08-12 12:35:57,842 |turn|17
+2026-08-12 12:35:57,843 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,843 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"243/277 tox","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:35:57,874 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,874 |
+2026-08-12 12:35:57,874 |t:|1786530957
+2026-08-12 12:35:57,874 |move|p2a: Tangela|Sunny Day||[still]
+2026-08-12 12:35:57,874 |-fail|p2a: Tangela
+2026-08-12 12:35:57,874 |move|p1a: Vileplume|Hidden Power|p2a: Tangela
+2026-08-12 12:35:57,874 |-resisted|p2a: Tangela
+2026-08-12 12:35:57,874 |-damage|p2a: Tangela|180/277 tox
+2026-08-12 12:35:57,874 |
+2026-08-12 12:35:57,874 |-weather|none
+2026-08-12 12:35:57,874 |-heal|p2a: Tangela|197/277 tox|[from] item: Leftovers
+2026-08-12 12:35:57,874 |-damage|p2a: Tangela|146/277 tox|[from] psn
+2026-08-12 12:35:57,874 |-heal|p1a: Vileplume|75/100|[from] item: Leftovers
+2026-08-12 12:35:57,874 |upkeep
+2026-08-12 12:35:57,874 |turn|18
+2026-08-12 12:35:57,875 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,875 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":4,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"146/277 tox","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:35:57,901 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,901 |
+2026-08-12 12:35:57,901 |t:|1786530957
+2026-08-12 12:35:57,901 |move|p2a: Tangela|Hidden Power|p1a: Vileplume
+2026-08-12 12:35:57,901 |-supereffective|p1a: Vileplume
+2026-08-12 12:35:57,901 |-damage|p1a: Vileplume|23/100
+2026-08-12 12:35:57,901 |move|p1a: Vileplume|Sleep Powder|p2a: Tangela|[miss]
+2026-08-12 12:35:57,901 |-miss|p1a: Vileplume|p2a: Tangela
+2026-08-12 12:35:57,901 |
+2026-08-12 12:35:57,901 |-heal|p2a: Tangela|163/277 tox|[from] item: Leftovers
+2026-08-12 12:35:57,901 |-damage|p2a: Tangela|95/277 tox|[from] psn
+2026-08-12 12:35:57,901 |-heal|p1a: Vileplume|29/100|[from] item: Leftovers
+2026-08-12 12:35:57,901 |upkeep
+2026-08-12 12:35:57,901 |turn|19
+2026-08-12 12:35:57,903 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,903 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":4,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"95/277 tox","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:35:57,935 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,935 |
+2026-08-12 12:35:57,935 |t:|1786530957
+2026-08-12 12:35:57,935 |switch|p1a: Mew|Mew, L72|56/100
+2026-08-12 12:35:57,935 |move|p2a: Tangela|Sunny Day|p2a: Tangela
+2026-08-12 12:35:57,935 |-weather|SunnyDay
+2026-08-12 12:35:57,935 |
+2026-08-12 12:35:57,935 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:57,935 |-heal|p2a: Tangela|112/277 tox|[from] item: Leftovers
+2026-08-12 12:35:57,935 |-damage|p2a: Tangela|27/277 tox|[from] psn
+2026-08-12 12:35:57,935 |-heal|p1a: Mew|62/100|[from] item: Leftovers
+2026-08-12 12:35:57,935 |upkeep
+2026-08-12 12:35:57,935 |turn|20
+2026-08-12 12:35:57,942 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,942 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":3,"maxpp":8,"target":"all","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Sleep Powder","id":"sleeppowder","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"27/277 tox","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:35:57,996 >battle-gen3randombattle-320111
+2026-08-12 12:35:57,996 |
+2026-08-12 12:35:57,996 |t:|1786530957
+2026-08-12 12:35:57,996 |switch|p1a: Articuno|Articuno, L80|100/100
+2026-08-12 12:35:57,996 |move|p2a: Tangela|Sleep Powder|p1a: Articuno|[miss]
+2026-08-12 12:35:57,996 |-miss|p2a: Tangela|p1a: Articuno
+2026-08-12 12:35:57,996 |
+2026-08-12 12:35:57,996 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:57,996 |-heal|p2a: Tangela|44/277 tox|[from] item: Leftovers
+2026-08-12 12:35:57,996 |-damage|p2a: Tangela|0 fnt|[from] psn
+2026-08-12 12:35:57,996 |faint|p2a: Tangela
+2026-08-12 12:35:57,996 |upkeep
+2026-08-12 12:35:58,001 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,001 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":true,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":45}
+2026-08-12 12:35:58,077 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,077 |
+2026-08-12 12:35:58,077 |t:|1786530958
+2026-08-12 12:35:58,077 |switch|p2a: Togetic|Togetic, L97, M|264/264
+2026-08-12 12:35:58,077 |turn|21
+2026-08-12 12:35:58,079 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,079 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:35:58,132 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,132 |
+2026-08-12 12:35:58,132 |t:|1786530958
+2026-08-12 12:35:58,132 |move|p1a: Articuno|Ice Beam|p2a: Togetic
+2026-08-12 12:35:58,132 |-supereffective|p2a: Togetic
+2026-08-12 12:35:58,133 |-damage|p2a: Togetic|123/264
+2026-08-12 12:35:58,133 |move|p2a: Togetic|Charm|p1a: Articuno
+2026-08-12 12:35:58,133 |-unboost|p1a: Articuno|atk|2
+2026-08-12 12:35:58,133 |
+2026-08-12 12:35:58,133 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:58,133 |-heal|p2a: Togetic|139/264|[from] item: Leftovers
+2026-08-12 12:35:58,133 |upkeep
+2026-08-12 12:35:58,133 |turn|22
+2026-08-12 12:35:58,134 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,134 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"181/241","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:35:58,155 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,155 |
+2026-08-12 12:35:58,155 |t:|1786530958
+2026-08-12 12:35:58,155 |switch|p2a: Arbok|Arbok, L85, M|181/241
+2026-08-12 12:35:58,155 |-ability|p2a: Arbok|Intimidate|boost
+2026-08-12 12:35:58,155 |-unboost|p1a: Articuno|atk|1
+2026-08-12 12:35:58,155 |move|p1a: Articuno|Rest|p1a: Articuno
+2026-08-12 12:35:58,155 |-fail|p1a: Articuno|heal
+2026-08-12 12:35:58,155 |
+2026-08-12 12:35:58,155 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:58,155 |-heal|p2a: Arbok|196/241|[from] item: Leftovers
+2026-08-12 12:35:58,155 |upkeep
+2026-08-12 12:35:58,155 |turn|23
+2026-08-12 12:35:58,159 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,159 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"196/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:35:58,185 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,185 |
+2026-08-12 12:35:58,185 |t:|1786530958
+2026-08-12 12:35:58,185 |move|p2a: Arbok|Sleep Talk|p2a: Arbok
+2026-08-12 12:35:58,185 |move|p1a: Articuno|Sleep Talk|p1a: Articuno
+2026-08-12 12:35:58,185 |
+2026-08-12 12:35:58,185 |-weather|none
+2026-08-12 12:35:58,185 |-heal|p2a: Arbok|211/241|[from] item: Leftovers
+2026-08-12 12:35:58,185 |upkeep
+2026-08-12 12:35:58,186 |turn|24
+2026-08-12 12:35:58,187 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,187 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"211/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:35:58,221 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,221 |
+2026-08-12 12:35:58,221 |t:|1786530958
+2026-08-12 12:35:58,221 |move|p2a: Arbok|Earthquake|p1a: Articuno
+2026-08-12 12:35:58,221 |-immune|p1a: Articuno
+2026-08-12 12:35:58,221 |move|p1a: Articuno|Ice Beam|p2a: Arbok
+2026-08-12 12:35:58,221 |-damage|p2a: Arbok|107/241
+2026-08-12 12:35:58,221 |
+2026-08-12 12:35:58,221 |-heal|p2a: Arbok|122/241|[from] item: Leftovers
+2026-08-12 12:35:58,221 |upkeep
+2026-08-12 12:35:58,221 |turn|25
+2026-08-12 12:35:58,228 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,228 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"122/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:35:58,262 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,262 |
+2026-08-12 12:35:58,262 |t:|1786530958
+2026-08-12 12:35:58,262 |move|p2a: Arbok|Sludge Bomb|p1a: Articuno
+2026-08-12 12:35:58,262 |-damage|p1a: Articuno|70/100
+2026-08-12 12:35:58,262 |move|p1a: Articuno|Rest|p1a: Articuno
+2026-08-12 12:35:58,262 |-status|p1a: Articuno|slp|[from] move: Rest
+2026-08-12 12:35:58,262 |-heal|p1a: Articuno|100/100 slp|[silent]
+2026-08-12 12:35:58,262 |
+2026-08-12 12:35:58,263 |-heal|p2a: Arbok|137/241|[from] item: Leftovers
+2026-08-12 12:35:58,263 |upkeep
+2026-08-12 12:35:58,263 |turn|26
+2026-08-12 12:35:58,264 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,264 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"137/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:35:58,284 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,284 |
+2026-08-12 12:35:58,284 |t:|1786530958
+2026-08-12 12:35:58,284 |move|p2a: Arbok|Sleep Talk|p2a: Arbok
+2026-08-12 12:35:58,284 |cant|p1a: Articuno|slp
+2026-08-12 12:35:58,284 |
+2026-08-12 12:35:58,284 |-heal|p2a: Arbok|152/241|[from] item: Leftovers
+2026-08-12 12:35:58,284 |upkeep
+2026-08-12 12:35:58,284 |turn|27
+2026-08-12 12:35:58,285 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,285 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"152/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:35:58,337 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,337 |
+2026-08-12 12:35:58,337 |t:|1786530958
+2026-08-12 12:35:58,337 |move|p2a: Arbok|Sleep Talk|p2a: Arbok
+2026-08-12 12:35:58,337 |cant|p1a: Articuno|slp
+2026-08-12 12:35:58,337 |
+2026-08-12 12:35:58,337 |-heal|p2a: Arbok|167/241|[from] item: Leftovers
+2026-08-12 12:35:58,337 |upkeep
+2026-08-12 12:35:58,337 |turn|28
+2026-08-12 12:35:58,341 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,341 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"167/241","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:35:58,374 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,374 |
+2026-08-12 12:35:58,374 |t:|1786530958
+2026-08-12 12:35:58,374 |move|p2a: Arbok|Rest|p2a: Arbok
+2026-08-12 12:35:58,374 |-status|p2a: Arbok|slp|[from] move: Rest
+2026-08-12 12:35:58,374 |-heal|p2a: Arbok|241/241 slp|[silent]
+2026-08-12 12:35:58,374 |-curestatus|p1a: Articuno|slp|[msg]
+2026-08-12 12:35:58,374 |move|p1a: Articuno|Sleep Talk|p1a: Articuno
+2026-08-12 12:35:58,374 |
+2026-08-12 12:35:58,374 |upkeep
+2026-08-12 12:35:58,374 |turn|29
+2026-08-12 12:35:58,375 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,375 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:35:58,397 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,397 |
+2026-08-12 12:35:58,397 |t:|1786530958
+2026-08-12 12:35:58,397 |cant|p2a: Arbok|slp
+2026-08-12 12:35:58,397 |move|p1a: Articuno|Sleep Talk|p1a: Articuno
+2026-08-12 12:35:58,397 |
+2026-08-12 12:35:58,397 |upkeep
+2026-08-12 12:35:58,397 |turn|30
+2026-08-12 12:35:58,398 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,398 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:35:58,424 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,424 |
+2026-08-12 12:35:58,424 |t:|1786530958
+2026-08-12 12:35:58,424 |switch|p2a: Scizor|Scizor, L82, M|249/249
+2026-08-12 12:35:58,424 |move|p1a: Articuno|Rest|p1a: Articuno
+2026-08-12 12:35:58,424 |-fail|p1a: Articuno|heal
+2026-08-12 12:35:58,425 |
+2026-08-12 12:35:58,425 |upkeep
+2026-08-12 12:35:58,425 |turn|31
+2026-08-12 12:35:58,426 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,426 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:35:58,449 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,449 |
+2026-08-12 12:35:58,449 |t:|1786530958
+2026-08-12 12:35:58,449 |move|p1a: Articuno|Toxic|p2a: Scizor
+2026-08-12 12:35:58,449 |-immune|p2a: Scizor
+2026-08-12 12:35:58,449 |move|p2a: Scizor|Swords Dance|p2a: Scizor
+2026-08-12 12:35:58,449 |-boost|p2a: Scizor|atk|2
+2026-08-12 12:35:58,449 |
+2026-08-12 12:35:58,449 |upkeep
+2026-08-12 12:35:58,449 |turn|32
+2026-08-12 12:35:58,449 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,449 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:35:58,505 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,505 |
+2026-08-12 12:35:58,505 |t:|1786530958
+2026-08-12 12:35:58,505 |move|p1a: Articuno|Toxic|p2a: Scizor
+2026-08-12 12:35:58,505 |-immune|p2a: Scizor
+2026-08-12 12:35:58,505 |move|p2a: Scizor|Steel Wing|p1a: Articuno
+2026-08-12 12:35:58,505 |-supereffective|p1a: Articuno
+2026-08-12 12:35:58,505 |-damage|p1a: Articuno|0 fnt
+2026-08-12 12:35:58,505 |-boost|p2a: Scizor|def|1
+2026-08-12 12:35:58,505 |faint|p1a: Articuno
+2026-08-12 12:35:58,505 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,505 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:35:58,533 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,533 |
+2026-08-12 12:35:58,533 |t:|1786530958
+2026-08-12 12:35:58,533 |switch|p1a: Victreebel|Victreebel, L85, M|100/100
+2026-08-12 12:35:58,533 |
+2026-08-12 12:35:58,533 |upkeep
+2026-08-12 12:35:58,533 |turn|33
+2026-08-12 12:35:58,538 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,538 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":38,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:35:58,567 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,567 |
+2026-08-12 12:35:58,567 |t:|1786530958
+2026-08-12 12:35:58,567 |switch|p1a: Mew|Mew, L72|62/100
+2026-08-12 12:35:58,568 |move|p2a: Scizor|Steel Wing|p1a: Mew
+2026-08-12 12:35:58,568 |-damage|p1a: Mew|0 fnt
+2026-08-12 12:35:58,568 |faint|p1a: Mew
+2026-08-12 12:35:58,568 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,568 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:35:58,604 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,604 |
+2026-08-12 12:35:58,604 |t:|1786530958
+2026-08-12 12:35:58,604 |switch|p1a: Pikachu|Pikachu, L87, F|100/100
+2026-08-12 12:35:58,604 |
+2026-08-12 12:35:58,604 |upkeep
+2026-08-12 12:35:58,604 |turn|34
+2026-08-12 12:35:58,606 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,606 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":37,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"139/264","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:35:58,646 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,646 |
+2026-08-12 12:35:58,646 |t:|1786530958
+2026-08-12 12:35:58,646 |switch|p1a: Victreebel|Victreebel, L85, M|100/100
+2026-08-12 12:35:58,646 |switch|p2a: Togetic|Togetic, L97, M|139/264
+2026-08-12 12:35:58,646 |
+2026-08-12 12:35:58,646 |-heal|p2a: Togetic|155/264|[from] item: Leftovers
+2026-08-12 12:35:58,646 |upkeep
+2026-08-12 12:35:58,646 |turn|35
+2026-08-12 12:35:58,648 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,648 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"155/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:35:58,686 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,686 |
+2026-08-12 12:35:58,686 |t:|1786530958
+2026-08-12 12:35:58,686 |move|p1a: Victreebel|Sunny Day|p1a: Victreebel
+2026-08-12 12:35:58,686 |-weather|SunnyDay
+2026-08-12 12:35:58,686 |move|p2a: Togetic|Charm|p1a: Victreebel
+2026-08-12 12:35:58,686 |-unboost|p1a: Victreebel|atk|2
+2026-08-12 12:35:58,686 |
+2026-08-12 12:35:58,686 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:58,686 |-heal|p2a: Togetic|171/264|[from] item: Leftovers
+2026-08-12 12:35:58,686 |upkeep
+2026-08-12 12:35:58,686 |turn|36
+2026-08-12 12:35:58,687 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,687 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"171/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:35:58,716 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,716 |
+2026-08-12 12:35:58,716 |t:|1786530958
+2026-08-12 12:35:58,716 |switch|p1a: Vileplume|Vileplume, L85, F|29/100
+2026-08-12 12:35:58,716 |move|p2a: Togetic|Seismic Toss|p1a: Vileplume
+2026-08-12 12:35:58,716 |-damage|p1a: Vileplume|0 fnt
+2026-08-12 12:35:58,716 |faint|p1a: Vileplume
+2026-08-12 12:35:58,718 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,718 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"171/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 12:35:58,750 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,750 |
+2026-08-12 12:35:58,750 |t:|1786530958
+2026-08-12 12:35:58,750 |switch|p1a: Victreebel|Victreebel, L85, M|100/100
+2026-08-12 12:35:58,751 |
+2026-08-12 12:35:58,751 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:58,751 |-heal|p2a: Togetic|187/264|[from] item: Leftovers
+2026-08-12 12:35:58,751 |upkeep
+2026-08-12 12:35:58,751 |turn|37
+2026-08-12 12:35:58,753 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,753 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"187/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:35:58,783 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,783 |
+2026-08-12 12:35:58,783 |t:|1786530958
+2026-08-12 12:35:58,783 |move|p1a: Victreebel|Solar Beam||[still]
+2026-08-12 12:35:58,783 |-prepare|p1a: Victreebel|Solar Beam
+2026-08-12 12:35:58,783 |-anim|p1a: Victreebel|Solar Beam|p2a: Togetic
+2026-08-12 12:35:58,783 |-resisted|p2a: Togetic
+2026-08-12 12:35:58,783 |-damage|p2a: Togetic|136/264
+2026-08-12 12:35:58,783 |move|p2a: Togetic|Charm|p1a: Victreebel
+2026-08-12 12:35:58,783 |-unboost|p1a: Victreebel|atk|2
+2026-08-12 12:35:58,783 |
+2026-08-12 12:35:58,783 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:58,783 |-heal|p2a: Togetic|152/264|[from] item: Leftovers
+2026-08-12 12:35:58,783 |upkeep
+2026-08-12 12:35:58,783 |turn|38
+2026-08-12 12:35:58,786 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,786 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"152/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:35:58,820 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,820 |
+2026-08-12 12:35:58,820 |t:|1786530958
+2026-08-12 12:35:58,820 |move|p1a: Victreebel|Sunny Day||[still]
+2026-08-12 12:35:58,820 |-fail|p1a: Victreebel
+2026-08-12 12:35:58,820 |move|p2a: Togetic|Seismic Toss|p1a: Victreebel
+2026-08-12 12:35:58,820 |-damage|p1a: Victreebel|65/100
+2026-08-12 12:35:58,820 |
+2026-08-12 12:35:58,820 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:58,820 |-heal|p1a: Victreebel|71/100|[from] item: Leftovers
+2026-08-12 12:35:58,820 |-heal|p2a: Togetic|168/264|[from] item: Leftovers
+2026-08-12 12:35:58,820 |upkeep
+2026-08-12 12:35:58,820 |turn|39
+2026-08-12 12:35:58,821 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,821 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"168/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:35:58,860 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,860 |
+2026-08-12 12:35:58,860 |t:|1786530958
+2026-08-12 12:35:58,860 |move|p1a: Victreebel|Solar Beam||[still]
+2026-08-12 12:35:58,860 |-prepare|p1a: Victreebel|Solar Beam
+2026-08-12 12:35:58,860 |-anim|p1a: Victreebel|Solar Beam|p2a: Togetic
+2026-08-12 12:35:58,860 |-resisted|p2a: Togetic
+2026-08-12 12:35:58,860 |-damage|p2a: Togetic|114/264
+2026-08-12 12:35:58,860 |move|p2a: Togetic|Charm|p1a: Victreebel
+2026-08-12 12:35:58,860 |-unboost|p1a: Victreebel|atk|2
+2026-08-12 12:35:58,860 |
+2026-08-12 12:35:58,860 |-weather|none
+2026-08-12 12:35:58,860 |-heal|p1a: Victreebel|78/100|[from] item: Leftovers
+2026-08-12 12:35:58,860 |-heal|p2a: Togetic|130/264|[from] item: Leftovers
+2026-08-12 12:35:58,861 |upkeep
+2026-08-12 12:35:58,861 |turn|40
+2026-08-12 12:35:58,861 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,861 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"130/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 12:35:58,900 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,900 |
+2026-08-12 12:35:58,900 |t:|1786530958
+2026-08-12 12:35:58,900 |move|p1a: Victreebel|Sludge Bomb|p2a: Togetic
+2026-08-12 12:35:58,900 |-damage|p2a: Togetic|97/264
+2026-08-12 12:35:58,900 |move|p2a: Togetic|Seismic Toss|p1a: Victreebel
+2026-08-12 12:35:58,900 |-damage|p1a: Victreebel|42/100
+2026-08-12 12:35:58,900 |
+2026-08-12 12:35:58,900 |-heal|p1a: Victreebel|48/100|[from] item: Leftovers
+2026-08-12 12:35:58,900 |-heal|p2a: Togetic|113/264|[from] item: Leftovers
+2026-08-12 12:35:58,900 |upkeep
+2026-08-12 12:35:58,900 |turn|41
+2026-08-12 12:35:58,904 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,904 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"113/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:35:58,964 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,964 |
+2026-08-12 12:35:58,964 |t:|1786530958
+2026-08-12 12:35:58,964 |move|p1a: Victreebel|Solar Beam||[still]
+2026-08-12 12:35:58,964 |-prepare|p1a: Victreebel|Solar Beam
+2026-08-12 12:35:58,964 |move|p2a: Togetic|Toxic|p1a: Victreebel
+2026-08-12 12:35:58,964 |-immune|p1a: Victreebel
+2026-08-12 12:35:58,965 |
+2026-08-12 12:35:58,965 |-heal|p1a: Victreebel|55/100|[from] item: Leftovers
+2026-08-12 12:35:58,965 |-heal|p2a: Togetic|129/264|[from] item: Leftovers
+2026-08-12 12:35:58,965 |upkeep
+2026-08-12 12:35:58,965 |turn|42
+2026-08-12 12:35:58,970 >battle-gen3randombattle-320111
+2026-08-12 12:35:58,970 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"129/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 12:35:59,067 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,070 |
+2026-08-12 12:35:59,070 |t:|1786530959
+2026-08-12 12:35:59,070 |move|p1a: Victreebel|Solar Beam|p2a: Togetic|[from] lockedmove
+2026-08-12 12:35:59,070 |-resisted|p2a: Togetic
+2026-08-12 12:35:59,070 |-damage|p2a: Togetic|82/264
+2026-08-12 12:35:59,070 |move|p2a: Togetic|Seismic Toss|p1a: Victreebel
+2026-08-12 12:35:59,070 |-damage|p1a: Victreebel|19/100
+2026-08-12 12:35:59,070 |
+2026-08-12 12:35:59,070 |-heal|p1a: Victreebel|26/100|[from] item: Leftovers
+2026-08-12 12:35:59,070 |-heal|p2a: Togetic|98/264|[from] item: Leftovers
+2026-08-12 12:35:59,070 |upkeep
+2026-08-12 12:35:59,070 |turn|43
+2026-08-12 12:35:59,071 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,071 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"98/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 12:35:59,101 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,101 |
+2026-08-12 12:35:59,101 |t:|1786530959
+2026-08-12 12:35:59,101 |move|p1a: Victreebel|Sludge Bomb|p2a: Togetic
+2026-08-12 12:35:59,101 |-damage|p2a: Togetic|68/264
+2026-08-12 12:35:59,101 |move|p2a: Togetic|Charm|p1a: Victreebel
+2026-08-12 12:35:59,101 |-unboost|p1a: Victreebel|atk|2
+2026-08-12 12:35:59,101 |
+2026-08-12 12:35:59,101 |-heal|p1a: Victreebel|32/100|[from] item: Leftovers
+2026-08-12 12:35:59,101 |-heal|p2a: Togetic|84/264|[from] item: Leftovers
+2026-08-12 12:35:59,101 |upkeep
+2026-08-12 12:35:59,101 |turn|44
+2026-08-12 12:35:59,104 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,104 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"84/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 12:35:59,136 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,136 |
+2026-08-12 12:35:59,136 |t:|1786530959
+2026-08-12 12:35:59,136 |move|p1a: Victreebel|Sunny Day|p1a: Victreebel
+2026-08-12 12:35:59,136 |-weather|SunnyDay
+2026-08-12 12:35:59,136 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:35:59,136 |-heal|p2a: Togetic|216/264
+2026-08-12 12:35:59,136 |
+2026-08-12 12:35:59,136 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:59,136 |-heal|p1a: Victreebel|38/100|[from] item: Leftovers
+2026-08-12 12:35:59,136 |-heal|p2a: Togetic|232/264|[from] item: Leftovers
+2026-08-12 12:35:59,136 |upkeep
+2026-08-12 12:35:59,136 |turn|45
+2026-08-12 12:35:59,138 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,138 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"232/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 12:35:59,187 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,187 |
+2026-08-12 12:35:59,187 |t:|1786530959
+2026-08-12 12:35:59,187 |move|p1a: Victreebel|Sludge Bomb|p2a: Togetic
+2026-08-12 12:35:59,187 |-damage|p2a: Togetic|205/264
+2026-08-12 12:35:59,187 |-status|p2a: Togetic|psn
+2026-08-12 12:35:59,187 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:35:59,187 |-heal|p2a: Togetic|264/264 psn
+2026-08-12 12:35:59,187 |
+2026-08-12 12:35:59,187 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:59,187 |-heal|p1a: Victreebel|44/100|[from] item: Leftovers
+2026-08-12 12:35:59,187 |-damage|p2a: Togetic|231/264 psn|[from] psn
+2026-08-12 12:35:59,187 |upkeep
+2026-08-12 12:35:59,188 |turn|46
+2026-08-12 12:35:59,189 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,189 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"231/264 psn","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 12:35:59,234 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,234 |
+2026-08-12 12:35:59,234 |t:|1786530959
+2026-08-12 12:35:59,234 |move|p1a: Victreebel|Sunny Day||[still]
+2026-08-12 12:35:59,234 |-fail|p1a: Victreebel
+2026-08-12 12:35:59,234 |move|p2a: Togetic|Toxic|p1a: Victreebel
+2026-08-12 12:35:59,234 |-immune|p1a: Victreebel
+2026-08-12 12:35:59,234 |
+2026-08-12 12:35:59,234 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:59,234 |-heal|p1a: Victreebel|50/100|[from] item: Leftovers
+2026-08-12 12:35:59,234 |-heal|p2a: Togetic|247/264 psn|[from] item: Leftovers
+2026-08-12 12:35:59,234 |-damage|p2a: Togetic|214/264 psn|[from] psn
+2026-08-12 12:35:59,234 |upkeep
+2026-08-12 12:35:59,234 |turn|47
+2026-08-12 12:35:59,236 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,236 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"214/264 psn","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 12:35:59,284 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,284 |
+2026-08-12 12:35:59,284 |t:|1786530959
+2026-08-12 12:35:59,284 |move|p1a: Victreebel|Sunny Day||[still]
+2026-08-12 12:35:59,284 |-fail|p1a: Victreebel
+2026-08-12 12:35:59,284 |move|p2a: Togetic|Charm|p1a: Victreebel
+2026-08-12 12:35:59,284 |-unboost|p1a: Victreebel|atk|0
+2026-08-12 12:35:59,284 |
+2026-08-12 12:35:59,284 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:35:59,284 |-heal|p1a: Victreebel|56/100|[from] item: Leftovers
+2026-08-12 12:35:59,284 |-heal|p2a: Togetic|230/264 psn|[from] item: Leftovers
+2026-08-12 12:35:59,284 |-damage|p2a: Togetic|197/264 psn|[from] psn
+2026-08-12 12:35:59,284 |upkeep
+2026-08-12 12:35:59,284 |turn|48
+2026-08-12 12:35:59,286 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,286 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"197/264 psn","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 12:35:59,325 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,325 |
+2026-08-12 12:35:59,325 |t:|1786530959
+2026-08-12 12:35:59,325 |switch|p1a: Pikachu|Pikachu, L87, F|100/100
+2026-08-12 12:35:59,325 |move|p2a: Togetic|Charm|p1a: Pikachu
+2026-08-12 12:35:59,325 |-unboost|p1a: Pikachu|atk|2
+2026-08-12 12:35:59,326 |
+2026-08-12 12:35:59,326 |-weather|none
+2026-08-12 12:35:59,326 |-heal|p2a: Togetic|213/264 psn|[from] item: Leftovers
+2026-08-12 12:35:59,326 |-damage|p2a: Togetic|180/264 psn|[from] psn
+2026-08-12 12:35:59,326 |upkeep
+2026-08-12 12:35:59,326 |turn|49
+2026-08-12 12:35:59,328 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,328 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":24,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"180/264 psn","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 12:35:59,363 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,363 |
+2026-08-12 12:35:59,363 |t:|1786530959
+2026-08-12 12:35:59,363 |move|p1a: Pikachu|Hidden Power|p2a: Togetic
+2026-08-12 12:35:59,363 |-supereffective|p2a: Togetic
+2026-08-12 12:35:59,363 |-damage|p2a: Togetic|87/264 psn
+2026-08-12 12:35:59,363 |move|p2a: Togetic|Charm|p1a: Pikachu
+2026-08-12 12:35:59,363 |-unboost|p1a: Pikachu|atk|2
+2026-08-12 12:35:59,363 |
+2026-08-12 12:35:59,363 |-heal|p2a: Togetic|103/264 psn|[from] item: Leftovers
+2026-08-12 12:35:59,363 |-damage|p2a: Togetic|70/264 psn|[from] psn
+2026-08-12 12:35:59,363 |upkeep
+2026-08-12 12:35:59,363 |turn|50
+2026-08-12 12:35:59,365 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,365 |request|{"active":[{"moves":[{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Charm","id":"charm","pp":23,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"70/264 psn","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 12:35:59,393 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,393 |
+2026-08-12 12:35:59,393 |t:|1786530959
+2026-08-12 12:35:59,393 |move|p1a: Pikachu|Hidden Power|p2a: Togetic
+2026-08-12 12:35:59,393 |-supereffective|p2a: Togetic
+2026-08-12 12:35:59,393 |-damage|p2a: Togetic|0 fnt
+2026-08-12 12:35:59,393 |faint|p2a: Togetic
+2026-08-12 12:35:59,394 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,394 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":113}
+2026-08-12 12:35:59,433 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,433 |
+2026-08-12 12:35:59,433 |t:|1786530959
+2026-08-12 12:35:59,433 |switch|p2a: Kyogre|Kyogre, L67|245/245
+2026-08-12 12:35:59,433 |-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+2026-08-12 12:35:59,433 |
+2026-08-12 12:35:59,433 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,434 |upkeep
+2026-08-12 12:35:59,434 |turn|51
+2026-08-12 12:35:59,434 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,434 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Thunder","id":"thunder","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"241/241 slp","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 12:35:59,473 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,473 |
+2026-08-12 12:35:59,473 |t:|1786530959
+2026-08-12 12:35:59,473 |switch|p2a: Arbok|Arbok, L85, M|241/241 slp
+2026-08-12 12:35:59,473 |-ability|p2a: Arbok|Intimidate|boost
+2026-08-12 12:35:59,473 |-unboost|p1a: Pikachu|atk|1
+2026-08-12 12:35:59,473 |move|p1a: Pikachu|Thunderbolt|p2a: Arbok
+2026-08-12 12:35:59,473 |-damage|p2a: Arbok|95/241 slp
+2026-08-12 12:35:59,473 |
+2026-08-12 12:35:59,473 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,473 |-heal|p2a: Arbok|110/241 slp|[from] item: Leftovers
+2026-08-12 12:35:59,473 |upkeep
+2026-08-12 12:35:59,473 |turn|52
+2026-08-12 12:35:59,475 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,475 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"110/241 slp","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 12:35:59,517 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,517 |
+2026-08-12 12:35:59,517 |t:|1786530959
+2026-08-12 12:35:59,517 |move|p1a: Pikachu|Surf|p2a: Arbok
+2026-08-12 12:35:59,517 |-damage|p2a: Arbok|0 fnt
+2026-08-12 12:35:59,517 |faint|p2a: Arbok
+2026-08-12 12:35:59,518 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,518 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":true,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":119}
+2026-08-12 12:35:59,553 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,553 |
+2026-08-12 12:35:59,553 |t:|1786530959
+2026-08-12 12:35:59,553 |switch|p2a: Scizor|Scizor, L82, M|249/249
+2026-08-12 12:35:59,553 |
+2026-08-12 12:35:59,553 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,553 |upkeep
+2026-08-12 12:35:59,553 |turn|53
+2026-08-12 12:35:59,554 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,554 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":37,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"249/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 12:35:59,594 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,594 |
+2026-08-12 12:35:59,594 |t:|1786530959
+2026-08-12 12:35:59,594 |move|p1a: Pikachu|Hidden Power|p2a: Scizor
+2026-08-12 12:35:59,594 |-resisted|p2a: Scizor
+2026-08-12 12:35:59,594 |-damage|p2a: Scizor|213/249
+2026-08-12 12:35:59,594 |move|p2a: Scizor|Swords Dance|p2a: Scizor
+2026-08-12 12:35:59,594 |-boost|p2a: Scizor|atk|2
+2026-08-12 12:35:59,594 |
+2026-08-12 12:35:59,594 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,594 |-heal|p2a: Scizor|228/249|[from] item: Leftovers
+2026-08-12 12:35:59,594 |upkeep
+2026-08-12 12:35:59,594 |turn|54
+2026-08-12 12:35:59,596 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,596 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":37,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"228/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 12:35:59,635 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,635 |
+2026-08-12 12:35:59,635 |t:|1786530959
+2026-08-12 12:35:59,635 |move|p1a: Pikachu|Volt Tackle|p2a: Scizor
+2026-08-12 12:35:59,635 |-damage|p2a: Scizor|54/249
+2026-08-12 12:35:59,635 |-damage|p1a: Pikachu|72/100|[from] Recoil
+2026-08-12 12:35:59,635 |move|p2a: Scizor|Swords Dance|p2a: Scizor
+2026-08-12 12:35:59,635 |-boost|p2a: Scizor|atk|2
+2026-08-12 12:35:59,635 |
+2026-08-12 12:35:59,635 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,635 |-heal|p2a: Scizor|69/249|[from] item: Leftovers
+2026-08-12 12:35:59,635 |upkeep
+2026-08-12 12:35:59,636 |turn|55
+2026-08-12 12:35:59,637 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,638 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":45,"maxpp":48,"target":"self","disabled":false},{"move":"Morning Sun","id":"morningsun","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Steel Wing","id":"steelwing","pp":37,"maxpp":40,"target":"normal","disabled":false},{"move":"Silver Wind","id":"silverwind","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"69/249","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 12:35:59,680 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,680 |
+2026-08-12 12:35:59,680 |t:|1786530959
+2026-08-12 12:35:59,680 |move|p1a: Pikachu|Thunderbolt|p2a: Scizor
+2026-08-12 12:35:59,680 |-damage|p2a: Scizor|0 fnt
+2026-08-12 12:35:59,680 |faint|p2a: Scizor
+2026-08-12 12:35:59,682 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,682 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":true,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":127}
+2026-08-12 12:35:59,721 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,721 |
+2026-08-12 12:35:59,721 |t:|1786530959
+2026-08-12 12:35:59,721 |switch|p2a: Volbeat|Volbeat, L93, M|272/272
+2026-08-12 12:35:59,721 |
+2026-08-12 12:35:59,721 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,721 |upkeep
+2026-08-12 12:35:59,721 |turn|56
+2026-08-12 12:35:59,722 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,722 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"272/272","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":129}
+2026-08-12 12:35:59,768 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,768 |
+2026-08-12 12:35:59,768 |t:|1786530959
+2026-08-12 12:35:59,768 |move|p2a: Volbeat|Moonlight|p2a: Volbeat
+2026-08-12 12:35:59,768 |move|p1a: Pikachu|Thunderbolt|p2a: Volbeat
+2026-08-12 12:35:59,768 |-crit|p2a: Volbeat
+2026-08-12 12:35:59,768 |-damage|p2a: Volbeat|2/272
+2026-08-12 12:35:59,768 |-status|p2a: Volbeat|par
+2026-08-12 12:35:59,768 |
+2026-08-12 12:35:59,768 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,768 |-heal|p2a: Volbeat|19/272 par|[from] item: Leftovers
+2026-08-12 12:35:59,768 |upkeep
+2026-08-12 12:35:59,768 |turn|57
+2026-08-12 12:35:59,769 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,769 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Signal Beam","id":"signalbeam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"19/272 par","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 12:35:59,801 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,801 |
+2026-08-12 12:35:59,801 |t:|1786530959
+2026-08-12 12:35:59,801 |move|p1a: Pikachu|Hidden Power|p2a: Volbeat
+2026-08-12 12:35:59,801 |-damage|p2a: Volbeat|0 fnt
+2026-08-12 12:35:59,801 |faint|p2a: Volbeat
+2026-08-12 12:35:59,802 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,802 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"0 fnt","active":true,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":false,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":133}
+2026-08-12 12:35:59,836 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,836 |
+2026-08-12 12:35:59,836 |t:|1786530959
+2026-08-12 12:35:59,836 |switch|p2a: Kyogre|Kyogre, L67|245/245
+2026-08-12 12:35:59,836 |
+2026-08-12 12:35:59,836 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,836 |upkeep
+2026-08-12 12:35:59,836 |turn|58
+2026-08-12 12:35:59,837 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,837 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Thunder","id":"thunder","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"245/245","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"0 fnt","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":135}
+2026-08-12 12:35:59,872 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,872 |
+2026-08-12 12:35:59,872 |t:|1786530959
+2026-08-12 12:35:59,872 |move|p1a: Pikachu|Surf|p2a: Kyogre
+2026-08-12 12:35:59,872 |-resisted|p2a: Kyogre
+2026-08-12 12:35:59,872 |-damage|p2a: Kyogre|190/245
+2026-08-12 12:35:59,872 |move|p2a: Kyogre|Calm Mind|p2a: Kyogre
+2026-08-12 12:35:59,872 |-boost|p2a: Kyogre|spa|1
+2026-08-12 12:35:59,872 |-boost|p2a: Kyogre|spd|1
+2026-08-12 12:35:59,872 |
+2026-08-12 12:35:59,872 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,872 |-heal|p2a: Kyogre|205/245|[from] item: Leftovers
+2026-08-12 12:35:59,872 |upkeep
+2026-08-12 12:35:59,872 |turn|59
+2026-08-12 12:35:59,872 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,872 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Thunder","id":"thunder","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"205/245","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"0 fnt","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":137}
+2026-08-12 12:35:59,912 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,912 |
+2026-08-12 12:35:59,912 |t:|1786530959
+2026-08-12 12:35:59,912 |switch|p1a: Victreebel|Victreebel, L85, M|56/100
+2026-08-12 12:35:59,912 |move|p2a: Kyogre|Surf|p1a: Victreebel
+2026-08-12 12:35:59,912 |-resisted|p1a: Victreebel
+2026-08-12 12:35:59,912 |-damage|p1a: Victreebel|10/100
+2026-08-12 12:35:59,912 |
+2026-08-12 12:35:59,912 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,912 |-heal|p1a: Victreebel|16/100|[from] item: Leftovers
+2026-08-12 12:35:59,912 |-heal|p2a: Kyogre|220/245|[from] item: Leftovers
+2026-08-12 12:35:59,912 |upkeep
+2026-08-12 12:35:59,912 |turn|60
+2026-08-12 12:35:59,913 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,913 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Thunder","id":"thunder","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"220/245","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"0 fnt","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":139}
+2026-08-12 12:35:59,954 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,954 |
+2026-08-12 12:35:59,954 |t:|1786530959
+2026-08-12 12:35:59,954 |move|p1a: Victreebel|Sludge Bomb|p2a: Kyogre
+2026-08-12 12:35:59,954 |-damage|p2a: Kyogre|98/245
+2026-08-12 12:35:59,954 |-status|p2a: Kyogre|psn
+2026-08-12 12:35:59,954 |move|p2a: Kyogre|Surf|p1a: Victreebel
+2026-08-12 12:35:59,954 |-resisted|p1a: Victreebel
+2026-08-12 12:35:59,954 |-damage|p1a: Victreebel|0 fnt
+2026-08-12 12:35:59,954 |faint|p1a: Victreebel
+2026-08-12 12:35:59,956 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,956 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"98/245 psn","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"0 fnt","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":141}
+2026-08-12 12:35:59,990 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,990 |
+2026-08-12 12:35:59,990 |t:|1786530959
+2026-08-12 12:35:59,990 |switch|p1a: Pikachu|Pikachu, L87, F|72/100
+2026-08-12 12:35:59,990 |
+2026-08-12 12:35:59,990 |-weather|RainDance|[upkeep]
+2026-08-12 12:35:59,990 |-heal|p2a: Kyogre|113/245 psn|[from] item: Leftovers
+2026-08-12 12:35:59,990 |-damage|p2a: Kyogre|83/245 psn|[from] psn
+2026-08-12 12:35:59,990 |upkeep
+2026-08-12 12:35:59,990 |turn|61
+2026-08-12 12:35:59,991 >battle-gen3randombattle-320111
+2026-08-12 12:35:59,991 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Thunder","id":"thunder","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Kyogre","details":"Kyogre, L67","condition":"83/245 psn","active":true,"stats":{"atk":139,"def":160,"spa":240,"spd":227,"spe":160},"moves":["icebeam","calmmind","surf","thunder"],"baseAbility":"drizzle","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L93, M","condition":"0 fnt","active":false,"stats":{"atk":189,"def":155,"spa":140,"spd":192,"spe":211},"moves":["toxic","seismictoss","signalbeam","moonlight"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["seismictoss","softboiled","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scizor","details":"Scizor, L82, M","condition":"0 fnt","active":false,"stats":{"atk":260,"def":211,"spa":137,"spd":178,"spe":154},"moves":["swordsdance","morningsun","steelwing","silverwind"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arbok","details":"Arbok, L85, M","condition":"0 fnt","active":false,"stats":{"atk":193,"def":166,"spa":159,"spd":183,"spe":185},"moves":["sleeptalk","sludgebomb","rest","earthquake"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Tangela","details":"Tangela, L95, F","condition":"0 fnt","active":false,"stats":{"atk":111,"def":272,"spa":243,"spd":130,"spe":167},"moves":["sunnyday","hiddenpowerfire","solarbeam","sleeppowder"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":143}
+2026-08-12 12:36:00,027 >battle-gen3randombattle-320111
+2026-08-12 12:36:00,027 |
+2026-08-12 12:36:00,027 |t:|1786530960
+2026-08-12 12:36:00,027 |move|p1a: Pikachu|Volt Tackle|p2a: Kyogre
+2026-08-12 12:36:00,027 |-supereffective|p2a: Kyogre
+2026-08-12 12:36:00,027 |-damage|p2a: Kyogre|0 fnt
+2026-08-12 12:36:00,027 |-damage|p1a: Pikachu|59/100|[from] Recoil
+2026-08-12 12:36:00,027 |faint|p2a: Kyogre
+2026-08-12 12:36:00,027 |
+2026-08-12 12:36:00,027 |win|BOT5

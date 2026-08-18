@@ -1,0 +1,606 @@
+2026-08-12 14:15:18,522 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,522 |init|battle
+2026-08-12 14:15:18,522 |title|BOT7 vs. BOT8
+2026-08-12 14:15:18,523 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-331360">battle-gen4randombattle-331360</a>&raquo;
+2026-08-12 14:15:18,562 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,562 |t:|1786536918
+2026-08-12 14:15:18,562 |gametype|singles
+2026-08-12 14:15:18,562 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,562 |player|p1|BOT7|169|
+2026-08-12 14:15:18,562 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,562 |player|p2|BOT8|102|
+2026-08-12 14:15:18,562 |gen|4
+2026-08-12 14:15:18,562 |tier|[Gen 4] Random Battle
+2026-08-12 14:15:18,562 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 14:15:18,562 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 14:15:18,562 |
+2026-08-12 14:15:18,562 |t:|1786536918
+2026-08-12 14:15:18,562 |teamsize|p1|6
+2026-08-12 14:15:18,562 |teamsize|p2|6
+2026-08-12 14:15:18,562 |start
+2026-08-12 14:15:18,562 |switch|p1a: Lopunny|Lopunny, L88, F|100/100
+2026-08-12 14:15:18,562 |switch|p2a: Uxie|Uxie, L76|239/239
+2026-08-12 14:15:18,562 |turn|1
+2026-08-12 14:15:18,565 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,565 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"239/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"275/275","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 14:15:18,607 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,607 |
+2026-08-12 14:15:18,608 |t:|1786536918
+2026-08-12 14:15:18,608 |move|p1a: Lopunny|Sky Uppercut|p2a: Uxie
+2026-08-12 14:15:18,608 |-resisted|p2a: Uxie
+2026-08-12 14:15:18,608 |-damage|p2a: Uxie|218/239
+2026-08-12 14:15:18,608 |move|p2a: Uxie|Yawn|p1a: Lopunny
+2026-08-12 14:15:18,608 |-start|p1a: Lopunny|move: Yawn|[of] p2a: Uxie
+2026-08-12 14:15:18,608 |
+2026-08-12 14:15:18,608 |-heal|p2a: Uxie|232/239|[from] item: Leftovers
+2026-08-12 14:15:18,608 |upkeep
+2026-08-12 14:15:18,608 |turn|2
+2026-08-12 14:15:18,609 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,609 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"232/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"275/275","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 14:15:18,642 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,642 |
+2026-08-12 14:15:18,642 |t:|1786536918
+2026-08-12 14:15:18,642 |move|p1a: Lopunny|Return|p2a: Uxie
+2026-08-12 14:15:18,642 |-damage|p2a: Uxie|157/239
+2026-08-12 14:15:18,642 |move|p2a: Uxie|U-turn|p1a: Lopunny
+2026-08-12 14:15:18,642 |-damage|p1a: Lopunny|87/100
+2026-08-12 14:15:18,642 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,642 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"275/275","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":7}
+2026-08-12 14:15:18,674 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,674 |
+2026-08-12 14:15:18,674 |t:|1786536918
+2026-08-12 14:15:18,674 |switch|p2a: Cacturne|Cacturne, L91, F|275/275|[from] U-turn
+2026-08-12 14:15:18,674 |
+2026-08-12 14:15:18,674 |-heal|p1a: Lopunny|93/100|[from] item: Leftovers
+2026-08-12 14:15:18,674 |-end|p1a: Lopunny|move: Yawn|[silent]
+2026-08-12 14:15:18,674 |-status|p1a: Lopunny|slp
+2026-08-12 14:15:18,674 |upkeep
+2026-08-12 14:15:18,674 |turn|3
+2026-08-12 14:15:18,675 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,675 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Seed Bomb","id":"seedbomb","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"275/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 14:15:18,700 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,700 |
+2026-08-12 14:15:18,700 |t:|1786536918
+2026-08-12 14:15:18,700 |cant|p1a: Lopunny|slp
+2026-08-12 14:15:18,700 |move|p2a: Cacturne|Superpower|p1a: Lopunny
+2026-08-12 14:15:18,700 |-supereffective|p1a: Lopunny
+2026-08-12 14:15:18,700 |-damage|p1a: Lopunny|0 fnt
+2026-08-12 14:15:18,700 |-unboost|p2a: Cacturne|atk|1
+2026-08-12 14:15:18,700 |-unboost|p2a: Cacturne|def|1
+2026-08-12 14:15:18,700 |faint|p1a: Lopunny
+2026-08-12 14:15:18,700 |-damage|p2a: Cacturne|248/275|[from] item: Life Orb
+2026-08-12 14:15:18,700 |
+2026-08-12 14:15:18,700 |upkeep
+2026-08-12 14:15:18,702 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,702 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"248/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 14:15:18,740 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,740 |
+2026-08-12 14:15:18,740 |t:|1786536918
+2026-08-12 14:15:18,740 |switch|p1a: Drifblim|Drifblim, L82, M|100/100
+2026-08-12 14:15:18,740 |turn|4
+2026-08-12 14:15:18,740 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,740 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Seed Bomb","id":"seedbomb","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"248/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 14:15:18,779 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,779 |
+2026-08-12 14:15:18,779 |t:|1786536918
+2026-08-12 14:15:18,779 |move|p2a: Cacturne|Sucker Punch|p1a: Drifblim
+2026-08-12 14:15:18,779 |-supereffective|p1a: Drifblim
+2026-08-12 14:15:18,779 |-damage|p1a: Drifblim|8/100
+2026-08-12 14:15:18,779 |-enditem|p1a: Drifblim|Sitrus Berry|[eat]
+2026-08-12 14:15:18,779 |-heal|p1a: Drifblim|33/100|[from] item: Sitrus Berry
+2026-08-12 14:15:18,779 |-damage|p2a: Cacturne|221/275|[from] item: Life Orb
+2026-08-12 14:15:18,779 |move|p1a: Drifblim|Thunderbolt|p2a: Cacturne
+2026-08-12 14:15:18,779 |-resisted|p2a: Cacturne
+2026-08-12 14:15:18,779 |-crit|p2a: Cacturne
+2026-08-12 14:15:18,779 |-damage|p2a: Cacturne|153/275
+2026-08-12 14:15:18,779 |
+2026-08-12 14:15:18,779 |upkeep
+2026-08-12 14:15:18,779 |turn|5
+2026-08-12 14:15:18,783 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,783 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Seed Bomb","id":"seedbomb","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"153/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 14:15:18,820 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,820 |
+2026-08-12 14:15:18,820 |t:|1786536918
+2026-08-12 14:15:18,820 |switch|p1a: Relicanth|Relicanth, L84, M|100/100
+2026-08-12 14:15:18,820 |move|p2a: Cacturne|Seed Bomb|p1a: Relicanth
+2026-08-12 14:15:18,820 |-supereffective|p1a: Relicanth
+2026-08-12 14:15:18,820 |-damage|p1a: Relicanth|10/100
+2026-08-12 14:15:18,820 |-damage|p2a: Cacturne|126/275|[from] item: Life Orb
+2026-08-12 14:15:18,820 |
+2026-08-12 14:15:18,820 |upkeep
+2026-08-12 14:15:18,820 |turn|6
+2026-08-12 14:15:18,822 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,822 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Seed Bomb","id":"seedbomb","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"126/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 14:15:18,848 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,848 |
+2026-08-12 14:15:18,848 |t:|1786536918
+2026-08-12 14:15:18,848 |move|p2a: Cacturne|Superpower|p1a: Relicanth
+2026-08-12 14:15:18,848 |-supereffective|p1a: Relicanth
+2026-08-12 14:15:18,848 |-damage|p1a: Relicanth|0 fnt
+2026-08-12 14:15:18,848 |-unboost|p2a: Cacturne|atk|1
+2026-08-12 14:15:18,848 |-unboost|p2a: Cacturne|def|1
+2026-08-12 14:15:18,848 |faint|p1a: Relicanth
+2026-08-12 14:15:18,848 |-damage|p2a: Cacturne|99/275|[from] item: Life Orb
+2026-08-12 14:15:18,848 |
+2026-08-12 14:15:18,848 |upkeep
+2026-08-12 14:15:18,850 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,851 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"99/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 14:15:18,866 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,866 |
+2026-08-12 14:15:18,866 |t:|1786536918
+2026-08-12 14:15:18,866 |switch|p1a: Drifblim|Drifblim, L82, M|33/100
+2026-08-12 14:15:18,866 |turn|7
+2026-08-12 14:15:18,868 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,868 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Seed Bomb","id":"seedbomb","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"99/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 14:15:18,925 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,925 |
+2026-08-12 14:15:18,925 |t:|1786536918
+2026-08-12 14:15:18,925 |switch|p1a: Blaziken|Blaziken, L84, M|100/100
+2026-08-12 14:15:18,925 |move|p2a: Cacturne|Seed Bomb|p1a: Blaziken
+2026-08-12 14:15:18,925 |-resisted|p1a: Blaziken
+2026-08-12 14:15:18,925 |-damage|p1a: Blaziken|85/100
+2026-08-12 14:15:18,925 |-damage|p2a: Cacturne|72/275|[from] item: Life Orb
+2026-08-12 14:15:18,925 |
+2026-08-12 14:15:18,925 |upkeep
+2026-08-12 14:15:18,925 |turn|8
+2026-08-12 14:15:18,927 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,927 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Seed Bomb","id":"seedbomb","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"72/275","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 14:15:18,960 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,960 |
+2026-08-12 14:15:18,960 |t:|1786536918
+2026-08-12 14:15:18,960 |move|p2a: Cacturne|Sucker Punch|p1a: Blaziken
+2026-08-12 14:15:18,960 |-resisted|p1a: Blaziken
+2026-08-12 14:15:18,960 |-damage|p1a: Blaziken|71/100
+2026-08-12 14:15:18,960 |-damage|p2a: Cacturne|45/275|[from] item: Life Orb
+2026-08-12 14:15:18,960 |move|p1a: Blaziken|Superpower|p2a: Cacturne
+2026-08-12 14:15:18,960 |-supereffective|p2a: Cacturne
+2026-08-12 14:15:18,960 |-damage|p2a: Cacturne|0 fnt
+2026-08-12 14:15:18,960 |-unboost|p1a: Blaziken|atk|1
+2026-08-12 14:15:18,960 |-unboost|p1a: Blaziken|def|1
+2026-08-12 14:15:18,960 |faint|p2a: Cacturne
+2026-08-12 14:15:18,960 |-damage|p1a: Blaziken|61/100|[from] item: Life Orb
+2026-08-12 14:15:18,960 |
+2026-08-12 14:15:18,960 |upkeep
+2026-08-12 14:15:18,961 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,961 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":true,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":25}
+2026-08-12 14:15:18,997 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,997 |
+2026-08-12 14:15:18,997 |t:|1786536918
+2026-08-12 14:15:18,997 |switch|p2a: Noctowl|Noctowl, L94, M|340/340
+2026-08-12 14:15:18,997 |turn|9
+2026-08-12 14:15:18,998 >battle-gen4randombattle-331360
+2026-08-12 14:15:18,998 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 14:15:19,036 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,036 |
+2026-08-12 14:15:19,036 |t:|1786536919
+2026-08-12 14:15:19,036 |move|p1a: Blaziken|Superpower|p2a: Noctowl
+2026-08-12 14:15:19,036 |-damage|p2a: Noctowl|168/340
+2026-08-12 14:15:19,036 |-unboost|p1a: Blaziken|atk|1
+2026-08-12 14:15:19,036 |-unboost|p1a: Blaziken|def|1
+2026-08-12 14:15:19,036 |-damage|p1a: Blaziken|51/100|[from] item: Life Orb
+2026-08-12 14:15:19,036 |move|p2a: Noctowl|Whirlwind|p1a: Blaziken
+2026-08-12 14:15:19,037 |drag|p1a: Linoone|Linoone, L83, F|100/100
+2026-08-12 14:15:19,037 |
+2026-08-12 14:15:19,037 |-heal|p2a: Noctowl|189/340|[from] item: Leftovers
+2026-08-12 14:15:19,037 |upkeep
+2026-08-12 14:15:19,037 |turn|10
+2026-08-12 14:15:19,038 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,038 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"189/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 14:15:19,070 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,070 |
+2026-08-12 14:15:19,070 |t:|1786536919
+2026-08-12 14:15:19,070 |move|p1a: Linoone|Seed Bomb|p2a: Noctowl
+2026-08-12 14:15:19,070 |-resisted|p2a: Noctowl
+2026-08-12 14:15:19,070 |-damage|p2a: Noctowl|157/340
+2026-08-12 14:15:19,070 |move|p2a: Noctowl|Whirlwind|p1a: Linoone
+2026-08-12 14:15:19,070 |drag|p1a: Drifblim|Drifblim, L82, M|33/100
+2026-08-12 14:15:19,070 |
+2026-08-12 14:15:19,070 |-heal|p2a: Noctowl|178/340|[from] item: Leftovers
+2026-08-12 14:15:19,070 |upkeep
+2026-08-12 14:15:19,070 |turn|11
+2026-08-12 14:15:19,072 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,072 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"178/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 14:15:19,098 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,098 |
+2026-08-12 14:15:19,098 |t:|1786536919
+2026-08-12 14:15:19,098 |move|p2a: Noctowl|Roost|p2a: Noctowl
+2026-08-12 14:15:19,098 |-heal|p2a: Noctowl|340/340
+2026-08-12 14:15:19,098 |-singleturn|p2a: Noctowl|move: Roost
+2026-08-12 14:15:19,098 |move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+2026-08-12 14:15:19,098 |-boost|p1a: Drifblim|spa|1
+2026-08-12 14:15:19,098 |-boost|p1a: Drifblim|spd|1
+2026-08-12 14:15:19,098 |
+2026-08-12 14:15:19,098 |upkeep
+2026-08-12 14:15:19,098 |turn|12
+2026-08-12 14:15:19,100 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,100 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 14:15:19,130 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,130 |
+2026-08-12 14:15:19,130 |t:|1786536919
+2026-08-12 14:15:19,130 |move|p2a: Noctowl|Toxic|p1a: Drifblim
+2026-08-12 14:15:19,130 |-status|p1a: Drifblim|tox
+2026-08-12 14:15:19,130 |move|p1a: Drifblim|Thunderbolt|p2a: Noctowl
+2026-08-12 14:15:19,130 |-supereffective|p2a: Noctowl
+2026-08-12 14:15:19,130 |-damage|p2a: Noctowl|186/340
+2026-08-12 14:15:19,130 |
+2026-08-12 14:15:19,130 |-heal|p2a: Noctowl|207/340|[from] item: Leftovers
+2026-08-12 14:15:19,130 |-damage|p1a: Drifblim|27/100 tox|[from] psn
+2026-08-12 14:15:19,130 |upkeep
+2026-08-12 14:15:19,130 |turn|13
+2026-08-12 14:15:19,130 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,130 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"207/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 14:15:19,150 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,150 |
+2026-08-12 14:15:19,150 |t:|1786536919
+2026-08-12 14:15:19,150 |move|p2a: Noctowl|Toxic|p1a: Drifblim
+2026-08-12 14:15:19,150 |-fail|p1a: Drifblim|tox
+2026-08-12 14:15:19,150 |move|p1a: Drifblim|Shadow Ball|p2a: Noctowl
+2026-08-12 14:15:19,150 |-immune|p2a: Noctowl
+2026-08-12 14:15:19,150 |
+2026-08-12 14:15:19,150 |-heal|p2a: Noctowl|228/340|[from] item: Leftovers
+2026-08-12 14:15:19,150 |-damage|p1a: Drifblim|15/100 tox|[from] psn
+2026-08-12 14:15:19,150 |upkeep
+2026-08-12 14:15:19,150 |turn|14
+2026-08-12 14:15:19,151 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,151 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"228/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 14:15:19,179 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,179 |
+2026-08-12 14:15:19,179 |t:|1786536919
+2026-08-12 14:15:19,179 |move|p1a: Drifblim|Substitute|p1a: Drifblim
+2026-08-12 14:15:19,179 |-fail|p1a: Drifblim|move: Substitute|[weak]
+2026-08-12 14:15:19,179 |move|p2a: Noctowl|Whirlwind|p1a: Drifblim
+2026-08-12 14:15:19,179 |drag|p1a: Jirachi|Jirachi, L74|100/100
+2026-08-12 14:15:19,179 |
+2026-08-12 14:15:19,179 |-heal|p2a: Noctowl|249/340|[from] item: Leftovers
+2026-08-12 14:15:19,179 |upkeep
+2026-08-12 14:15:19,179 |turn|15
+2026-08-12 14:15:19,181 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,181 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"249/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 14:15:19,213 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,213 |
+2026-08-12 14:15:19,213 |t:|1786536919
+2026-08-12 14:15:19,213 |move|p1a: Jirachi|Psychic|p2a: Noctowl
+2026-08-12 14:15:19,213 |-damage|p2a: Noctowl|186/340
+2026-08-12 14:15:19,213 |move|p2a: Noctowl|Roost|p2a: Noctowl
+2026-08-12 14:15:19,213 |-heal|p2a: Noctowl|340/340
+2026-08-12 14:15:19,213 |-singleturn|p2a: Noctowl|move: Roost
+2026-08-12 14:15:19,213 |
+2026-08-12 14:15:19,213 |upkeep
+2026-08-12 14:15:19,213 |turn|16
+2026-08-12 14:15:19,216 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,216 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 14:15:19,250 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,250 |
+2026-08-12 14:15:19,251 |t:|1786536919
+2026-08-12 14:15:19,251 |switch|p2a: Ariados|Ariados, M|302/302
+2026-08-12 14:15:19,251 |move|p1a: Jirachi|Thunderbolt|p2a: Ariados
+2026-08-12 14:15:19,251 |-damage|p2a: Ariados|245/302
+2026-08-12 14:15:19,251 |
+2026-08-12 14:15:19,251 |-heal|p2a: Ariados|263/302|[from] item: Black Sludge
+2026-08-12 14:15:19,251 |upkeep
+2026-08-12 14:15:19,251 |turn|17
+2026-08-12 14:15:19,252 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,252 |request|{"active":[{"moves":[{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"263/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 14:15:19,290 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,290 |
+2026-08-12 14:15:19,290 |t:|1786536919
+2026-08-12 14:15:19,290 |move|p1a: Jirachi|Psychic|p2a: Ariados
+2026-08-12 14:15:19,290 |-supereffective|p2a: Ariados
+2026-08-12 14:15:19,290 |-damage|p2a: Ariados|83/302
+2026-08-12 14:15:19,290 |move|p2a: Ariados|Toxic Spikes|p1a: Jirachi
+2026-08-12 14:15:19,290 |-sidestart|p1: BOT7|move: Toxic Spikes
+2026-08-12 14:15:19,290 |
+2026-08-12 14:15:19,290 |-heal|p2a: Ariados|101/302|[from] item: Black Sludge
+2026-08-12 14:15:19,290 |upkeep
+2026-08-12 14:15:19,290 |turn|18
+2026-08-12 14:15:19,291 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,291 |request|{"active":[{"moves":[{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"101/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 14:15:19,320 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,320 |
+2026-08-12 14:15:19,320 |t:|1786536919
+2026-08-12 14:15:19,320 |move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+2026-08-12 14:15:19,320 |-boost|p1a: Jirachi|spa|1
+2026-08-12 14:15:19,320 |-boost|p1a: Jirachi|spd|1
+2026-08-12 14:15:19,320 |move|p2a: Ariados|Poison Jab|p1a: Jirachi
+2026-08-12 14:15:19,320 |-immune|p1a: Jirachi
+2026-08-12 14:15:19,320 |
+2026-08-12 14:15:19,320 |-heal|p2a: Ariados|119/302|[from] item: Black Sludge
+2026-08-12 14:15:19,320 |upkeep
+2026-08-12 14:15:19,320 |turn|19
+2026-08-12 14:15:19,322 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,322 |request|{"active":[{"moves":[{"move":"Poison Jab","id":"poisonjab","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"119/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 14:15:19,357 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,357 |
+2026-08-12 14:15:19,357 |t:|1786536919
+2026-08-12 14:15:19,357 |move|p1a: Jirachi|Wish|p1a: Jirachi
+2026-08-12 14:15:19,357 |move|p2a: Ariados|Toxic Spikes|p1a: Jirachi
+2026-08-12 14:15:19,357 |-sidestart|p1: BOT7|move: Toxic Spikes
+2026-08-12 14:15:19,357 |
+2026-08-12 14:15:19,357 |-heal|p2a: Ariados|137/302|[from] item: Black Sludge
+2026-08-12 14:15:19,357 |upkeep
+2026-08-12 14:15:19,357 |turn|20
+2026-08-12 14:15:19,358 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,358 |request|{"active":[{"moves":[{"move":"Poison Jab","id":"poisonjab","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"137/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 14:15:19,390 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,390 |
+2026-08-12 14:15:19,390 |t:|1786536919
+2026-08-12 14:15:19,390 |move|p2a: Ariados|Sucker Punch|p1a: Jirachi
+2026-08-12 14:15:19,390 |-damage|p1a: Jirachi|70/100
+2026-08-12 14:15:19,390 |move|p1a: Jirachi|Psychic|p2a: Ariados
+2026-08-12 14:15:19,390 |-supereffective|p2a: Ariados
+2026-08-12 14:15:19,390 |-damage|p2a: Ariados|0 fnt
+2026-08-12 14:15:19,390 |faint|p2a: Ariados
+2026-08-12 14:15:19,390 |
+2026-08-12 14:15:19,390 |-heal|p1a: Jirachi|100/100|[from] move: Wish|[wisher] Jirachi
+2026-08-12 14:15:19,390 |upkeep
+2026-08-12 14:15:19,394 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,394 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":51}
+2026-08-12 14:15:19,406 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,406 |
+2026-08-12 14:15:19,406 |t:|1786536919
+2026-08-12 14:15:19,406 |switch|p2a: Noctowl|Noctowl, L94, M|340/340
+2026-08-12 14:15:19,406 |turn|21
+2026-08-12 14:15:19,406 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,406 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 14:15:19,437 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,437 |
+2026-08-12 14:15:19,437 |t:|1786536919
+2026-08-12 14:15:19,437 |switch|p1a: Linoone|Linoone, L83, F|100/100
+2026-08-12 14:15:19,437 |-status|p1a: Linoone|tox
+2026-08-12 14:15:19,437 |move|p2a: Noctowl|Toxic|p1a: Linoone
+2026-08-12 14:15:19,437 |-fail|p1a: Linoone|tox
+2026-08-12 14:15:19,437 |
+2026-08-12 14:15:19,437 |-damage|p1a: Linoone|94/100 tox|[from] psn
+2026-08-12 14:15:19,437 |upkeep
+2026-08-12 14:15:19,437 |turn|22
+2026-08-12 14:15:19,437 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,437 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 14:15:19,465 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,465 |
+2026-08-12 14:15:19,465 |t:|1786536919
+2026-08-12 14:15:19,465 |move|p1a: Linoone|Extreme Speed|p2a: Noctowl
+2026-08-12 14:15:19,465 |-damage|p2a: Noctowl|255/340
+2026-08-12 14:15:19,465 |move|p2a: Noctowl|Air Slash|p1a: Linoone
+2026-08-12 14:15:19,465 |-damage|p1a: Linoone|57/100 tox
+2026-08-12 14:15:19,465 |
+2026-08-12 14:15:19,465 |-damage|p1a: Linoone|45/100 tox|[from] psn
+2026-08-12 14:15:19,465 |-heal|p2a: Noctowl|276/340|[from] item: Leftovers
+2026-08-12 14:15:19,465 |upkeep
+2026-08-12 14:15:19,465 |-enditem|p1a: Linoone|Sitrus Berry|[eat]
+2026-08-12 14:15:19,465 |-heal|p1a: Linoone|70/100 tox|[from] item: Sitrus Berry
+2026-08-12 14:15:19,465 |turn|23
+2026-08-12 14:15:19,465 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,465 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"276/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 14:15:19,495 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,495 |
+2026-08-12 14:15:19,495 |t:|1786536919
+2026-08-12 14:15:19,495 |move|p1a: Linoone|Seed Bomb|p2a: Noctowl
+2026-08-12 14:15:19,495 |-resisted|p2a: Noctowl
+2026-08-12 14:15:19,495 |-damage|p2a: Noctowl|245/340
+2026-08-12 14:15:19,495 |move|p2a: Noctowl|Roost|p2a: Noctowl
+2026-08-12 14:15:19,495 |-heal|p2a: Noctowl|340/340
+2026-08-12 14:15:19,495 |-singleturn|p2a: Noctowl|move: Roost
+2026-08-12 14:15:19,495 |
+2026-08-12 14:15:19,495 |-damage|p1a: Linoone|52/100 tox|[from] psn
+2026-08-12 14:15:19,495 |upkeep
+2026-08-12 14:15:19,495 |turn|24
+2026-08-12 14:15:19,496 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,496 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 14:15:19,517 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,517 |
+2026-08-12 14:15:19,518 |t:|1786536919
+2026-08-12 14:15:19,518 |switch|p1a: Jirachi|Jirachi, L74|100/100
+2026-08-12 14:15:19,518 |move|p2a: Noctowl|Whirlwind|p1a: Jirachi
+2026-08-12 14:15:19,518 |drag|p1a: Blaziken|Blaziken, L84, M|51/100
+2026-08-12 14:15:19,518 |-status|p1a: Blaziken|tox
+2026-08-12 14:15:19,518 |
+2026-08-12 14:15:19,518 |-damage|p1a: Blaziken|45/100 tox|[from] psn
+2026-08-12 14:15:19,518 |upkeep
+2026-08-12 14:15:19,518 |turn|25
+2026-08-12 14:15:19,521 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,521 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"340/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 14:15:19,570 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,570 |
+2026-08-12 14:15:19,570 |t:|1786536919
+2026-08-12 14:15:19,570 |move|p1a: Blaziken|Fire Blast|p2a: Noctowl
+2026-08-12 14:15:19,570 |-crit|p2a: Noctowl
+2026-08-12 14:15:19,570 |-damage|p2a: Noctowl|30/340
+2026-08-12 14:15:19,570 |-damage|p1a: Blaziken|35/100 tox|[from] item: Life Orb
+2026-08-12 14:15:19,570 |move|p2a: Noctowl|Whirlwind|p1a: Blaziken
+2026-08-12 14:15:19,570 |drag|p1a: Linoone|Linoone, L83, F|52/100 tox
+2026-08-12 14:15:19,570 |
+2026-08-12 14:15:19,570 |-damage|p1a: Linoone|46/100 tox|[from] psn
+2026-08-12 14:15:19,570 |-heal|p2a: Noctowl|51/340|[from] item: Leftovers
+2026-08-12 14:15:19,571 |upkeep
+2026-08-12 14:15:19,571 |turn|26
+2026-08-12 14:15:19,601 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,601 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"51/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 14:15:19,628 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,628 |
+2026-08-12 14:15:19,628 |t:|1786536919
+2026-08-12 14:15:19,628 |move|p1a: Linoone|Seed Bomb|p2a: Noctowl
+2026-08-12 14:15:19,628 |-resisted|p2a: Noctowl
+2026-08-12 14:15:19,628 |-damage|p2a: Noctowl|20/340
+2026-08-12 14:15:19,628 |move|p2a: Noctowl|Air Slash|p1a: Linoone
+2026-08-12 14:15:19,628 |-damage|p1a: Linoone|8/100 tox
+2026-08-12 14:15:19,628 |
+2026-08-12 14:15:19,628 |-damage|p1a: Linoone|0 fnt|[from] psn
+2026-08-12 14:15:19,628 |faint|p1a: Linoone
+2026-08-12 14:15:19,628 |-heal|p2a: Noctowl|41/340|[from] item: Leftovers
+2026-08-12 14:15:19,628 |upkeep
+2026-08-12 14:15:19,631 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,631 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 14:15:19,653 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,653 |
+2026-08-12 14:15:19,653 |t:|1786536919
+2026-08-12 14:15:19,653 |switch|p1a: Drifblim|Drifblim, L82, M|15/100 tox
+2026-08-12 14:15:19,653 |turn|27
+2026-08-12 14:15:19,653 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,653 |request|{"active":[{"moves":[{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Whirlwind","id":"whirlwind","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":true,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"157/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 14:15:19,686 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,686 |
+2026-08-12 14:15:19,686 |t:|1786536919
+2026-08-12 14:15:19,686 |switch|p2a: Uxie|Uxie, L76|157/239
+2026-08-12 14:15:19,686 |move|p1a: Drifblim|Thunderbolt|p2a: Uxie
+2026-08-12 14:15:19,686 |-damage|p2a: Uxie|109/239
+2026-08-12 14:15:19,686 |
+2026-08-12 14:15:19,686 |-heal|p2a: Uxie|123/239|[from] item: Leftovers
+2026-08-12 14:15:19,686 |-damage|p1a: Drifblim|9/100 tox|[from] psn
+2026-08-12 14:15:19,686 |upkeep
+2026-08-12 14:15:19,686 |turn|28
+2026-08-12 14:15:19,687 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,687 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"123/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 14:15:19,717 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,717 |
+2026-08-12 14:15:19,717 |t:|1786536919
+2026-08-12 14:15:19,717 |move|p2a: Uxie|Heal Bell|p2a: Uxie
+2026-08-12 14:15:19,717 |-activate|p2a: Uxie|move: Heal Bell
+2026-08-12 14:15:19,717 |move|p1a: Drifblim|Substitute|p1a: Drifblim
+2026-08-12 14:15:19,717 |-fail|p1a: Drifblim|move: Substitute|[weak]
+2026-08-12 14:15:19,717 |
+2026-08-12 14:15:19,717 |-heal|p2a: Uxie|137/239|[from] item: Leftovers
+2026-08-12 14:15:19,717 |-damage|p1a: Drifblim|0 fnt|[from] psn
+2026-08-12 14:15:19,717 |faint|p1a: Drifblim
+2026-08-12 14:15:19,717 |upkeep
+2026-08-12 14:15:19,720 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,720 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"137/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 14:15:19,735 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,735 |
+2026-08-12 14:15:19,735 |t:|1786536919
+2026-08-12 14:15:19,735 |switch|p1a: Jirachi|Jirachi, L74|100/100
+2026-08-12 14:15:19,735 |turn|29
+2026-08-12 14:15:19,742 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,742 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"U-turn","id":"uturn","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"137/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 14:15:19,761 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,761 |
+2026-08-12 14:15:19,761 |t:|1786536919
+2026-08-12 14:15:19,761 |move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+2026-08-12 14:15:19,761 |-boost|p1a: Jirachi|spa|1
+2026-08-12 14:15:19,761 |-boost|p1a: Jirachi|spd|1
+2026-08-12 14:15:19,761 |move|p2a: Uxie|U-turn|p1a: Jirachi
+2026-08-12 14:15:19,761 |-damage|p1a: Jirachi|87/100
+2026-08-12 14:15:19,766 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,766 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"137/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":75}
+2026-08-12 14:15:19,794 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,794 |
+2026-08-12 14:15:19,794 |t:|1786536919
+2026-08-12 14:15:19,794 |switch|p2a: Abomasnow|Abomasnow, L81, F|278/278|[from] U-turn
+2026-08-12 14:15:19,794 |-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+2026-08-12 14:15:19,794 |
+2026-08-12 14:15:19,794 |-weather|Hail|[upkeep]
+2026-08-12 14:15:19,794 |-damage|p1a: Jirachi|81/100|[from] Hail
+2026-08-12 14:15:19,794 |-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+2026-08-12 14:15:19,795 |upkeep
+2026-08-12 14:15:19,795 |turn|30
+2026-08-12 14:15:19,797 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,797 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Wood Hammer","id":"woodhammer","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":true,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"137/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 14:15:19,825 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,825 |
+2026-08-12 14:15:19,825 |t:|1786536919
+2026-08-12 14:15:19,825 |switch|p2a: Uxie|Uxie, L76|137/239
+2026-08-12 14:15:19,825 |move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+2026-08-12 14:15:19,825 |-boost|p1a: Jirachi|spa|1
+2026-08-12 14:15:19,825 |-boost|p1a: Jirachi|spd|1
+2026-08-12 14:15:19,825 |
+2026-08-12 14:15:19,825 |-weather|Hail|[upkeep]
+2026-08-12 14:15:19,825 |-damage|p1a: Jirachi|81/100|[from] Hail
+2026-08-12 14:15:19,825 |-damage|p2a: Uxie|123/239|[from] Hail
+2026-08-12 14:15:19,825 |-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+2026-08-12 14:15:19,825 |-heal|p2a: Uxie|137/239|[from] item: Leftovers
+2026-08-12 14:15:19,825 |upkeep
+2026-08-12 14:15:19,825 |turn|31
+2026-08-12 14:15:19,826 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,826 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"137/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 14:15:19,853 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,853 |
+2026-08-12 14:15:19,853 |t:|1786536919
+2026-08-12 14:15:19,853 |move|p1a: Jirachi|Thunderbolt|p2a: Uxie
+2026-08-12 14:15:19,853 |-damage|p2a: Uxie|57/239
+2026-08-12 14:15:19,853 |move|p2a: Uxie|Yawn|p1a: Jirachi
+2026-08-12 14:15:19,853 |-start|p1a: Jirachi|move: Yawn|[of] p2a: Uxie
+2026-08-12 14:15:19,853 |
+2026-08-12 14:15:19,853 |-weather|Hail|[upkeep]
+2026-08-12 14:15:19,853 |-damage|p1a: Jirachi|81/100|[from] Hail
+2026-08-12 14:15:19,853 |-damage|p2a: Uxie|43/239|[from] Hail
+2026-08-12 14:15:19,853 |-heal|p1a: Jirachi|87/100|[from] item: Leftovers
+2026-08-12 14:15:19,853 |-heal|p2a: Uxie|57/239|[from] item: Leftovers
+2026-08-12 14:15:19,853 |upkeep
+2026-08-12 14:15:19,853 |turn|32
+2026-08-12 14:15:19,858 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,858 |request|{"active":[{"moves":[{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"U-turn","id":"uturn","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"57/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 14:15:19,889 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,889 |
+2026-08-12 14:15:19,889 |t:|1786536919
+2026-08-12 14:15:19,889 |move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+2026-08-12 14:15:19,889 |-boost|p1a: Jirachi|spa|1
+2026-08-12 14:15:19,889 |-boost|p1a: Jirachi|spd|1
+2026-08-12 14:15:19,889 |move|p2a: Uxie|U-turn|p1a: Jirachi
+2026-08-12 14:15:19,889 |-damage|p1a: Jirachi|73/100
+2026-08-12 14:15:19,892 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,892 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Uxie","details":"Uxie, L76","condition":"57/239","active":true,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":false,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":83}
+2026-08-12 14:15:19,917 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,917 |
+2026-08-12 14:15:19,917 |t:|1786536919
+2026-08-12 14:15:19,917 |switch|p2a: Abomasnow|Abomasnow, L81, F|278/278|[from] U-turn
+2026-08-12 14:15:19,917 |
+2026-08-12 14:15:19,917 |-weather|Hail|[upkeep]
+2026-08-12 14:15:19,917 |-damage|p1a: Jirachi|67/100|[from] Hail
+2026-08-12 14:15:19,918 |-heal|p1a: Jirachi|73/100|[from] item: Leftovers
+2026-08-12 14:15:19,918 |-end|p1a: Jirachi|move: Yawn|[silent]
+2026-08-12 14:15:19,918 |-status|p1a: Jirachi|slp
+2026-08-12 14:15:19,918 |upkeep
+2026-08-12 14:15:19,918 |turn|33
+2026-08-12 14:15:19,918 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,919 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Wood Hammer","id":"woodhammer","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":true,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"57/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 14:15:19,954 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,954 |
+2026-08-12 14:15:19,954 |t:|1786536919
+2026-08-12 14:15:19,954 |cant|p1a: Jirachi|slp
+2026-08-12 14:15:19,954 |move|p2a: Abomasnow|Earthquake|p1a: Jirachi
+2026-08-12 14:15:19,954 |-supereffective|p1a: Jirachi
+2026-08-12 14:15:19,954 |-damage|p1a: Jirachi|29/100 slp
+2026-08-12 14:15:19,954 |
+2026-08-12 14:15:19,954 |-weather|Hail|[upkeep]
+2026-08-12 14:15:19,954 |-damage|p1a: Jirachi|23/100 slp|[from] Hail
+2026-08-12 14:15:19,954 |-heal|p1a: Jirachi|29/100 slp|[from] item: Leftovers
+2026-08-12 14:15:19,954 |upkeep
+2026-08-12 14:15:19,954 |turn|34
+2026-08-12 14:15:19,955 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,956 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Wood Hammer","id":"woodhammer","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":true,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"57/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 14:15:19,987 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,987 |
+2026-08-12 14:15:19,987 |t:|1786536919
+2026-08-12 14:15:19,987 |-curestatus|p1a: Jirachi|slp|[msg]
+2026-08-12 14:15:19,987 |move|p1a: Jirachi|Calm Mind|p1a: Jirachi
+2026-08-12 14:15:19,987 |-boost|p1a: Jirachi|spa|1
+2026-08-12 14:15:19,987 |-boost|p1a: Jirachi|spd|1
+2026-08-12 14:15:19,987 |move|p2a: Abomasnow|Earthquake|p1a: Jirachi
+2026-08-12 14:15:19,987 |-supereffective|p1a: Jirachi
+2026-08-12 14:15:19,987 |-damage|p1a: Jirachi|0 fnt
+2026-08-12 14:15:19,987 |faint|p1a: Jirachi
+2026-08-12 14:15:19,987 |
+2026-08-12 14:15:19,987 |-weather|Hail|[upkeep]
+2026-08-12 14:15:19,987 |upkeep
+2026-08-12 14:15:19,988 >battle-gen4randombattle-331360
+2026-08-12 14:15:19,988 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":true,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"57/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 14:15:20,001 >battle-gen4randombattle-331360
+2026-08-12 14:15:20,001 |
+2026-08-12 14:15:20,001 |t:|1786536919
+2026-08-12 14:15:20,001 |switch|p1a: Blaziken|Blaziken, L84, M|35/100 tox
+2026-08-12 14:15:20,001 |turn|35
+2026-08-12 14:15:20,001 >battle-gen4randombattle-331360
+2026-08-12 14:15:20,001 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Wood Hammer","id":"woodhammer","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Blizzard","id":"blizzard","pp":8,"maxpp":8,"target":"allAdjacentFoes","disabled":false},{"move":"Ice Shard","id":"iceshard","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Abomasnow","details":"Abomasnow, L81, F","condition":"278/278","active":true,"stats":{"atk":196,"def":168,"spa":196,"spd":184,"spe":144},"moves":["earthquake","woodhammer","blizzard","iceshard"],"baseAbility":"snowwarning","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Uxie","details":"Uxie, L76","condition":"57/239","active":false,"stats":{"atk":158,"def":242,"spa":158,"spd":242,"spe":188},"moves":["healbell","uturn","yawn","psychic"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Dialga","details":"Dialga, L70","condition":"256/256","active":false,"stats":{"atk":209,"def":209,"spa":251,"spd":181,"spe":167},"moves":["sleeptalk","bulkup","rest","outrage"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["poisonjab","toxicspikes","bugbite","suckerpunch"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Noctowl","details":"Noctowl, L94, M","condition":"41/340","active":false,"stats":{"atk":99,"def":147,"spa":196,"spd":234,"spe":185},"moves":["roost","whirlwind","airslash","toxic"],"baseAbility":"insomnia","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cacturne","details":"Cacturne, L91, F","condition":"0 fnt","active":false,"stats":{"atk":261,"def":161,"spa":261,"spd":161,"spe":152},"moves":["spikes","suckerpunch","superpower","seedbomb"],"baseAbility":"sandveil","item":"lifeorb","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 14:15:20,035 >battle-gen4randombattle-331360
+2026-08-12 14:15:20,035 |
+2026-08-12 14:15:20,035 |t:|1786536920
+2026-08-12 14:15:20,035 |move|p1a: Blaziken|Vacuum Wave|p2a: Abomasnow
+2026-08-12 14:15:20,035 |-supereffective|p2a: Abomasnow
+2026-08-12 14:15:20,035 |-damage|p2a: Abomasnow|152/278
+2026-08-12 14:15:20,035 |-damage|p1a: Blaziken|25/100 tox|[from] item: Life Orb
+2026-08-12 14:15:20,035 |move|p2a: Abomasnow|Wood Hammer|p1a: Blaziken
+2026-08-12 14:15:20,035 |-resisted|p1a: Blaziken
+2026-08-12 14:15:20,035 |-damage|p1a: Blaziken|0 fnt
+2026-08-12 14:15:20,035 |faint|p1a: Blaziken
+2026-08-12 14:15:20,035 |-damage|p2a: Abomasnow|130/278|[from] Recoil
+2026-08-12 14:15:20,035 |
+2026-08-12 14:15:20,035 |win|BOT8

@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
-from typing import override
+from typing import ClassVar, override
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events.base import BaseEvent
@@ -92,6 +92,8 @@ class BattleEvent(BaseEvent, metaclass=ABCMeta):
 
 @dataclass(frozen=True)
 class MoveEvent(BattleEvent):
+    """Base move event"""
+
     action_id: int
     move: str
     source: PokemonIdent
@@ -699,9 +701,7 @@ class BattleStartEvent(BattleEvent):
         manager.room_id = self.room_id
         manager.room_ready.set()
 
-        manager.battle_state.reset()
-        manager.request_id = None
-        manager.player_id = ""
+        manager.battle_state.reset(keep_player_id=True)
 
 
 @dataclass(frozen=True)
@@ -717,13 +717,15 @@ class PlayerEvent(BattleEvent):
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
+        # We can't use event order to determine which id / username the player is.
+        pass
         # If the client has no username, it picks the first player of the battle
         # TODO check if it's true that the first player is the POV player
-        if manager.player_username is None:
-            manager.player_username = self.name
-
-        if self.name == manager.player_username:
-            manager.player_id = self.slot
+        # if manager.player_username is None:
+        #    manager.player_username = self.name
+        #
+        # if self.name == manager.player_username:
+        #     manager.player_id = self.slot
 
 
 @dataclass(frozen=True)
@@ -834,8 +836,8 @@ class DecisionRequestEvent(BattleEvent):
                 )
 
             status = Status()
-            if pokemon.status_token is not None:
-                status.set_status(pokemon.status_token)
+            if pokemon.major_status is not None:
+                status.set_status(pokemon.major_status)
 
             stats = Stats(
                 atk=pokemon.atk,
@@ -898,3 +900,46 @@ class DecisionRequestEvent(BattleEvent):
 
         if not self.wait:
             manager.last_request_id = None
+
+
+@dataclass(frozen=True)
+class GameTypeEvent(BattleEvent):
+    type: str
+    _IMPLEMENTED_TYPES: ClassVar[tuple[str, ...]] = ("singles",)
+
+    @override
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        if self.type not in self._IMPLEMENTED_TYPES:
+            raise NotImplementedError(
+                f"Gametype not implemented yet: {self.type} not in {self._IMPLEMENTED_TYPES}"
+            )
+        battle_state.gametype = self.type
+
+
+@dataclass(frozen=True)
+class GameGenEvent(BattleEvent):
+    gen: int
+    _LAST_IMPLEMENTED_GEN: ClassVar[int] = 4
+
+    @override
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        if self.gen <= 0:
+            raise ValueError("Pokemon gen must be between 1 and 9")
+        if self.gen > self._LAST_IMPLEMENTED_GEN:
+            raise NotImplementedError(
+                f"Only gen up to {self._LAST_IMPLEMENTED_GEN} was implemented"
+            )
+        battle_state.gen = self.gen
+
+
+@dataclass(frozen=True)
+class GameTierEvent(BattleEvent):
+    tier: str
+    _IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle",)
+
+    @override
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        if self.tier not in self._IMPLEMENTED_TIERS:
+            raise NotImplementedError(
+                f"Game tier not implemented yet: {self.tier} not in {self._IMPLEMENTED_TIERS}"
+            )

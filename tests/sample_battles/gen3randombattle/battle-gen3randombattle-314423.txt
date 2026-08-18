@@ -1,0 +1,997 @@
+2026-08-12 11:42:28,356 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,356 |init|battle
+2026-08-12 11:42:28,357 |title|BOT7 vs. BOT8
+2026-08-12 11:42:28,357 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-314423">battle-gen3randombattle-314423</a>&raquo;
+2026-08-12 11:42:28,397 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,397 |t:|1786527748
+2026-08-12 11:42:28,397 |gametype|singles
+2026-08-12 11:42:28,397 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,397 |player|p1|BOT7|169|
+2026-08-12 11:42:28,397 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,397 |player|p2|BOT8|102|
+2026-08-12 11:42:28,397 |gen|3
+2026-08-12 11:42:28,397 |tier|[Gen 3] Random Battle
+2026-08-12 11:42:28,397 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 11:42:28,397 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 11:42:28,397 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 11:42:28,397 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 11:42:28,397 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 11:42:28,397 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 11:42:28,397 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 11:42:28,397 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 11:42:28,397 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 11:42:28,397 |
+2026-08-12 11:42:28,397 |t:|1786527748
+2026-08-12 11:42:28,397 |teamsize|p1|6
+2026-08-12 11:42:28,397 |teamsize|p2|6
+2026-08-12 11:42:28,397 |start
+2026-08-12 11:42:28,397 |switch|p1a: Raticate|Raticate, L85, F|100/100
+2026-08-12 11:42:28,397 |switch|p2a: Entei|Entei, L78|307/307
+2026-08-12 11:42:28,397 |-ability|p2a: Entei|Pressure|[silent]
+2026-08-12 11:42:28,397 |turn|1
+2026-08-12 11:42:28,400 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,400 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"307/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"269/269","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 11:42:28,436 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,436 |
+2026-08-12 11:42:28,436 |t:|1786527748
+2026-08-12 11:42:28,436 |move|p1a: Raticate|Shadow Ball|p2a: Entei
+2026-08-12 11:42:28,436 |-damage|p2a: Entei|219/307
+2026-08-12 11:42:28,436 |-unboost|p2a: Entei|spd|1
+2026-08-12 11:42:28,436 |move|p2a: Entei|Sleep Talk|p2a: Entei
+2026-08-12 11:42:28,436 |
+2026-08-12 11:42:28,436 |-heal|p2a: Entei|238/307|[from] item: Leftovers
+2026-08-12 11:42:28,436 |upkeep
+2026-08-12 11:42:28,436 |turn|2
+2026-08-12 11:42:28,437 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,437 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"238/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"269/269","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 11:42:28,468 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,468 |
+2026-08-12 11:42:28,468 |t:|1786527748
+2026-08-12 11:42:28,468 |move|p1a: Raticate|Shadow Ball|p2a: Entei
+2026-08-12 11:42:28,468 |-damage|p2a: Entei|160/307
+2026-08-12 11:42:28,468 |move|p2a: Entei|Sleep Talk|p2a: Entei
+2026-08-12 11:42:28,468 |
+2026-08-12 11:42:28,468 |-heal|p2a: Entei|179/307|[from] item: Leftovers
+2026-08-12 11:42:28,468 |upkeep
+2026-08-12 11:42:28,468 |turn|3
+2026-08-12 11:42:28,469 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,469 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"179/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"269/269","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 11:42:28,494 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,494 |
+2026-08-12 11:42:28,495 |t:|1786527748
+2026-08-12 11:42:28,495 |switch|p1a: Magneton|Magneton, L85|100/100
+2026-08-12 11:42:28,495 |move|p2a: Entei|Sleep Talk|p2a: Entei
+2026-08-12 11:42:28,495 |
+2026-08-12 11:42:28,495 |-heal|p2a: Entei|198/307|[from] item: Leftovers
+2026-08-12 11:42:28,495 |upkeep
+2026-08-12 11:42:28,495 |turn|4
+2026-08-12 11:42:28,497 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,497 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"269/269","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 11:42:28,528 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,529 |
+2026-08-12 11:42:28,529 |t:|1786527748
+2026-08-12 11:42:28,529 |switch|p2a: Milotic|Milotic, L76, F|269/269
+2026-08-12 11:42:28,529 |move|p1a: Magneton|Toxic|p2a: Milotic
+2026-08-12 11:42:28,529 |-status|p2a: Milotic|tox
+2026-08-12 11:42:28,529 |
+2026-08-12 11:42:28,529 |-damage|p2a: Milotic|253/269 tox|[from] psn
+2026-08-12 11:42:28,529 |upkeep
+2026-08-12 11:42:28,529 |turn|5
+2026-08-12 11:42:28,530 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,530 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Refresh","id":"refresh","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"253/269 tox","active":true,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 11:42:28,568 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,568 |
+2026-08-12 11:42:28,568 |t:|1786527748
+2026-08-12 11:42:28,568 |move|p1a: Magneton|Thunderbolt|p2a: Milotic
+2026-08-12 11:42:28,568 |-supereffective|p2a: Milotic
+2026-08-12 11:42:28,568 |-damage|p2a: Milotic|50/269 tox
+2026-08-12 11:42:28,568 |move|p2a: Milotic|Surf|p1a: Magneton
+2026-08-12 11:42:28,568 |-damage|p1a: Magneton|55/100
+2026-08-12 11:42:28,569 |
+2026-08-12 11:42:28,569 |-heal|p1a: Magneton|62/100|[from] item: Leftovers
+2026-08-12 11:42:28,569 |-heal|p2a: Milotic|66/269 tox|[from] item: Leftovers
+2026-08-12 11:42:28,569 |-damage|p2a: Milotic|34/269 tox|[from] psn
+2026-08-12 11:42:28,569 |upkeep
+2026-08-12 11:42:28,569 |turn|6
+2026-08-12 11:42:28,569 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,569 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Refresh","id":"refresh","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"34/269 tox","active":true,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 11:42:28,613 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,613 |
+2026-08-12 11:42:28,613 |t:|1786527748
+2026-08-12 11:42:28,613 |move|p1a: Magneton|Toxic|p2a: Milotic
+2026-08-12 11:42:28,613 |-fail|p2a: Milotic|tox
+2026-08-12 11:42:28,613 |move|p2a: Milotic|Surf|p1a: Magneton
+2026-08-12 11:42:28,613 |-damage|p1a: Magneton|16/100
+2026-08-12 11:42:28,613 |
+2026-08-12 11:42:28,613 |-heal|p1a: Magneton|22/100|[from] item: Leftovers
+2026-08-12 11:42:28,613 |-heal|p2a: Milotic|50/269 tox|[from] item: Leftovers
+2026-08-12 11:42:28,613 |-damage|p2a: Milotic|2/269 tox|[from] psn
+2026-08-12 11:42:28,613 |upkeep
+2026-08-12 11:42:28,613 |turn|7
+2026-08-12 11:42:28,617 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,617 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Refresh","id":"refresh","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"2/269 tox","active":true,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 11:42:28,649 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,649 |
+2026-08-12 11:42:28,649 |t:|1786527748
+2026-08-12 11:42:28,649 |move|p1a: Magneton|Hidden Power|p2a: Milotic
+2026-08-12 11:42:28,649 |-resisted|p2a: Milotic
+2026-08-12 11:42:28,649 |-crit|p2a: Milotic
+2026-08-12 11:42:28,649 |-damage|p2a: Milotic|0 fnt
+2026-08-12 11:42:28,649 |faint|p2a: Milotic
+2026-08-12 11:42:28,654 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,654 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":true,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":17}
+2026-08-12 11:42:28,686 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,686 |
+2026-08-12 11:42:28,686 |t:|1786527748
+2026-08-12 11:42:28,686 |switch|p2a: Girafarig|Girafarig, L86, F|261/261
+2026-08-12 11:42:28,686 |
+2026-08-12 11:42:28,686 |-heal|p1a: Magneton|28/100|[from] item: Leftovers
+2026-08-12 11:42:28,686 |upkeep
+2026-08-12 11:42:28,686 |turn|8
+2026-08-12 11:42:28,686 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,686 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"261/261","active":true,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 11:42:28,716 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,716 |
+2026-08-12 11:42:28,716 |t:|1786527748
+2026-08-12 11:42:28,716 |move|p2a: Girafarig|Toxic|p1a: Magneton
+2026-08-12 11:42:28,716 |-immune|p1a: Magneton
+2026-08-12 11:42:28,716 |move|p1a: Magneton|Hidden Power|p2a: Girafarig
+2026-08-12 11:42:28,716 |-damage|p2a: Girafarig|182/261
+2026-08-12 11:42:28,716 |
+2026-08-12 11:42:28,716 |-heal|p2a: Girafarig|198/261|[from] item: Leftovers
+2026-08-12 11:42:28,716 |-heal|p1a: Magneton|34/100|[from] item: Leftovers
+2026-08-12 11:42:28,716 |upkeep
+2026-08-12 11:42:28,716 |turn|9
+2026-08-12 11:42:28,717 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,717 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"198/261","active":true,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 11:42:28,748 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,748 |
+2026-08-12 11:42:28,748 |t:|1786527748
+2026-08-12 11:42:28,748 |move|p2a: Girafarig|Psychic|p1a: Magneton
+2026-08-12 11:42:28,748 |-resisted|p1a: Magneton
+2026-08-12 11:42:28,748 |-damage|p1a: Magneton|8/100
+2026-08-12 11:42:28,748 |move|p1a: Magneton|Hidden Power|p2a: Girafarig
+2026-08-12 11:42:28,748 |-damage|p2a: Girafarig|118/261
+2026-08-12 11:42:28,748 |
+2026-08-12 11:42:28,748 |-heal|p2a: Girafarig|134/261|[from] item: Leftovers
+2026-08-12 11:42:28,748 |-heal|p1a: Magneton|14/100|[from] item: Leftovers
+2026-08-12 11:42:28,748 |upkeep
+2026-08-12 11:42:28,748 |turn|10
+2026-08-12 11:42:28,750 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,750 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"134/261","active":true,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 11:42:28,776 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,776 |
+2026-08-12 11:42:28,776 |t:|1786527748
+2026-08-12 11:42:28,776 |move|p1a: Magneton|Protect|p1a: Magneton
+2026-08-12 11:42:28,776 |-singleturn|p1a: Magneton|Protect
+2026-08-12 11:42:28,776 |move|p2a: Girafarig|Psychic|p1a: Magneton
+2026-08-12 11:42:28,776 |-activate|p1a: Magneton|Protect
+2026-08-12 11:42:28,776 |
+2026-08-12 11:42:28,776 |-heal|p2a: Girafarig|150/261|[from] item: Leftovers
+2026-08-12 11:42:28,776 |-heal|p1a: Magneton|21/100|[from] item: Leftovers
+2026-08-12 11:42:28,776 |upkeep
+2026-08-12 11:42:28,776 |turn|11
+2026-08-12 11:42:28,777 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,777 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"150/261","active":true,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 11:42:28,801 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,801 |
+2026-08-12 11:42:28,801 |t:|1786527748
+2026-08-12 11:42:28,801 |move|p2a: Girafarig|Return|p1a: Magneton
+2026-08-12 11:42:28,801 |-resisted|p1a: Magneton
+2026-08-12 11:42:28,801 |-damage|p1a: Magneton|1/100
+2026-08-12 11:42:28,801 |move|p1a: Magneton|Thunderbolt|p2a: Girafarig
+2026-08-12 11:42:28,801 |-crit|p2a: Girafarig
+2026-08-12 11:42:28,801 |-damage|p2a: Girafarig|0 fnt
+2026-08-12 11:42:28,801 |faint|p2a: Girafarig
+2026-08-12 11:42:28,802 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,802 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":true,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":27}
+2026-08-12 11:42:28,823 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,823 |
+2026-08-12 11:42:28,823 |t:|1786527748
+2026-08-12 11:42:28,823 |switch|p2a: Corsola|Corsola, L98, M|266/266
+2026-08-12 11:42:28,823 |
+2026-08-12 11:42:28,823 |-heal|p1a: Magneton|8/100|[from] item: Leftovers
+2026-08-12 11:42:28,823 |upkeep
+2026-08-12 11:42:28,823 |turn|12
+2026-08-12 11:42:28,824 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,824 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 11:42:28,859 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,859 |
+2026-08-12 11:42:28,859 |t:|1786527748
+2026-08-12 11:42:28,859 |move|p1a: Magneton|Thunderbolt|p2a: Corsola
+2026-08-12 11:42:28,859 |-supereffective|p2a: Corsola
+2026-08-12 11:42:28,859 |-damage|p2a: Corsola|40/266
+2026-08-12 11:42:28,859 |move|p2a: Corsola|Recover|p2a: Corsola
+2026-08-12 11:42:28,859 |-heal|p2a: Corsola|173/266
+2026-08-12 11:42:28,859 |
+2026-08-12 11:42:28,859 |-heal|p1a: Magneton|14/100|[from] item: Leftovers
+2026-08-12 11:42:28,859 |-heal|p2a: Corsola|189/266|[from] item: Leftovers
+2026-08-12 11:42:28,860 |upkeep
+2026-08-12 11:42:28,860 |turn|13
+2026-08-12 11:42:28,860 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,860 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"189/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 11:42:28,907 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,907 |
+2026-08-12 11:42:28,908 |t:|1786527748
+2026-08-12 11:42:28,908 |move|p1a: Magneton|Protect|p1a: Magneton
+2026-08-12 11:42:28,908 |-singleturn|p1a: Magneton|Protect
+2026-08-12 11:42:28,908 |move|p2a: Corsola|Recover|p2a: Corsola
+2026-08-12 11:42:28,908 |-heal|p2a: Corsola|266/266
+2026-08-12 11:42:28,908 |
+2026-08-12 11:42:28,908 |-heal|p1a: Magneton|20/100|[from] item: Leftovers
+2026-08-12 11:42:28,908 |upkeep
+2026-08-12 11:42:28,908 |turn|14
+2026-08-12 11:42:28,908 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,908 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 11:42:28,930 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,931 |
+2026-08-12 11:42:28,931 |t:|1786527748
+2026-08-12 11:42:28,931 |switch|p1a: Sunflora|Sunflora, L99, M|100/100
+2026-08-12 11:42:28,931 |move|p2a: Corsola|Recover||[still]
+2026-08-12 11:42:28,931 |-fail|p2a: Corsola|heal
+2026-08-12 11:42:28,931 |
+2026-08-12 11:42:28,931 |upkeep
+2026-08-12 11:42:28,931 |turn|15
+2026-08-12 11:42:28,932 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,932 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 11:42:28,978 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,978 |
+2026-08-12 11:42:28,978 |t:|1786527748
+2026-08-12 11:42:28,978 |move|p2a: Corsola|Ice Beam|p1a: Sunflora
+2026-08-12 11:42:28,978 |-supereffective|p1a: Sunflora
+2026-08-12 11:42:28,978 |-damage|p1a: Sunflora|62/100
+2026-08-12 11:42:28,978 |move|p1a: Sunflora|Hidden Power|p2a: Corsola
+2026-08-12 11:42:28,978 |-resisted|p2a: Corsola
+2026-08-12 11:42:28,978 |-crit|p2a: Corsola
+2026-08-12 11:42:28,978 |-damage|p2a: Corsola|236/266
+2026-08-12 11:42:28,978 |
+2026-08-12 11:42:28,978 |-heal|p2a: Corsola|252/266|[from] item: Leftovers
+2026-08-12 11:42:28,978 |-heal|p1a: Sunflora|68/100|[from] item: Leftovers
+2026-08-12 11:42:28,978 |upkeep
+2026-08-12 11:42:28,978 |turn|16
+2026-08-12 11:42:28,978 >battle-gen3randombattle-314423
+2026-08-12 11:42:28,978 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"252/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 11:42:29,007 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,007 |
+2026-08-12 11:42:29,007 |t:|1786527748
+2026-08-12 11:42:29,007 |switch|p1a: Shedinja|Shedinja|100/100
+2026-08-12 11:42:29,007 |move|p2a: Corsola|Recover|p2a: Corsola
+2026-08-12 11:42:29,007 |-heal|p2a: Corsola|266/266
+2026-08-12 11:42:29,007 |
+2026-08-12 11:42:29,007 |upkeep
+2026-08-12 11:42:29,008 |turn|17
+2026-08-12 11:42:29,008 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,008 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 11:42:29,040 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,040 |
+2026-08-12 11:42:29,040 |t:|1786527749
+2026-08-12 11:42:29,041 |move|p1a: Shedinja|Agility|p1a: Shedinja
+2026-08-12 11:42:29,041 |-boost|p1a: Shedinja|spe|2
+2026-08-12 11:42:29,041 |move|p2a: Corsola|Surf|p1a: Shedinja
+2026-08-12 11:42:29,041 |-immune|p1a: Shedinja|[from] ability: Wonder Guard
+2026-08-12 11:42:29,041 |
+2026-08-12 11:42:29,041 |upkeep
+2026-08-12 11:42:29,041 |turn|18
+2026-08-12 11:42:29,041 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,041 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"266/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 11:42:29,073 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,073 |
+2026-08-12 11:42:29,073 |t:|1786527749
+2026-08-12 11:42:29,073 |move|p1a: Shedinja|Hidden Power|p2a: Corsola
+2026-08-12 11:42:29,073 |-supereffective|p2a: Corsola
+2026-08-12 11:42:29,073 |-damage|p2a: Corsola|155/266
+2026-08-12 11:42:29,073 |move|p2a: Corsola|Surf|p1a: Shedinja
+2026-08-12 11:42:29,073 |-immune|p1a: Shedinja|[from] ability: Wonder Guard
+2026-08-12 11:42:29,073 |
+2026-08-12 11:42:29,073 |-heal|p2a: Corsola|171/266|[from] item: Leftovers
+2026-08-12 11:42:29,073 |upkeep
+2026-08-12 11:42:29,073 |turn|19
+2026-08-12 11:42:29,074 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,074 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"171/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 11:42:29,096 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,096 |
+2026-08-12 11:42:29,096 |t:|1786527749
+2026-08-12 11:42:29,096 |move|p1a: Shedinja|Shadow Ball|p2a: Corsola
+2026-08-12 11:42:29,096 |-damage|p2a: Corsola|73/266
+2026-08-12 11:42:29,096 |-unboost|p2a: Corsola|spd|1
+2026-08-12 11:42:29,096 |move|p2a: Corsola|Toxic|p1a: Shedinja
+2026-08-12 11:42:29,096 |-status|p1a: Shedinja|tox
+2026-08-12 11:42:29,096 |-enditem|p1a: Shedinja|Lum Berry|[eat]
+2026-08-12 11:42:29,096 |-curestatus|p1a: Shedinja|tox|[msg]
+2026-08-12 11:42:29,096 |
+2026-08-12 11:42:29,096 |-heal|p2a: Corsola|89/266|[from] item: Leftovers
+2026-08-12 11:42:29,096 |upkeep
+2026-08-12 11:42:29,096 |turn|20
+2026-08-12 11:42:29,097 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,097 |request|{"active":[{"moves":[{"move":"Recover","id":"recover","pp":28,"maxpp":32,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacentFoes","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"89/266","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 11:42:29,127 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,127 |
+2026-08-12 11:42:29,127 |t:|1786527749
+2026-08-12 11:42:29,127 |move|p1a: Shedinja|Shadow Ball|p2a: Corsola
+2026-08-12 11:42:29,127 |-damage|p2a: Corsola|0 fnt
+2026-08-12 11:42:29,127 |faint|p2a: Corsola
+2026-08-12 11:42:29,129 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,129 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":true,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":47}
+2026-08-12 11:42:29,153 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,153 |
+2026-08-12 11:42:29,153 |t:|1786527749
+2026-08-12 11:42:29,154 |switch|p2a: Misdreavus|Misdreavus, L85, F|241/241
+2026-08-12 11:42:29,154 |
+2026-08-12 11:42:29,154 |upkeep
+2026-08-12 11:42:29,154 |turn|21
+2026-08-12 11:42:29,155 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,155 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 11:42:29,189 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,189 |
+2026-08-12 11:42:29,189 |t:|1786527749
+2026-08-12 11:42:29,189 |move|p2a: Misdreavus|Protect|p2a: Misdreavus
+2026-08-12 11:42:29,189 |-singleturn|p2a: Misdreavus|Protect
+2026-08-12 11:42:29,189 |move|p1a: Shedinja|Hidden Power|p2a: Misdreavus
+2026-08-12 11:42:29,189 |-activate|p2a: Misdreavus|Protect
+2026-08-12 11:42:29,189 |
+2026-08-12 11:42:29,189 |upkeep
+2026-08-12 11:42:29,189 |turn|22
+2026-08-12 11:42:29,190 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,190 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 11:42:29,224 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,224 |
+2026-08-12 11:42:29,224 |t:|1786527749
+2026-08-12 11:42:29,224 |move|p1a: Shedinja|Agility|p1a: Shedinja
+2026-08-12 11:42:29,224 |-boost|p1a: Shedinja|spe|2
+2026-08-12 11:42:29,224 |move|p2a: Misdreavus|Mean Look|p1a: Shedinja
+2026-08-12 11:42:29,224 |-activate|p1a: Shedinja|trapped
+2026-08-12 11:42:29,224 |
+2026-08-12 11:42:29,224 |upkeep
+2026-08-12 11:42:29,224 |turn|23
+2026-08-12 11:42:29,225 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,225 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"241/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 11:42:29,271 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,271 |
+2026-08-12 11:42:29,271 |t:|1786527749
+2026-08-12 11:42:29,271 |move|p1a: Shedinja|Silver Wind|p2a: Misdreavus
+2026-08-12 11:42:29,271 |-resisted|p2a: Misdreavus
+2026-08-12 11:42:29,271 |-damage|p2a: Misdreavus|189/241
+2026-08-12 11:42:29,271 |move|p2a: Misdreavus|Shadow Ball|p1a: Shedinja
+2026-08-12 11:42:29,271 |-supereffective|p1a: Shedinja
+2026-08-12 11:42:29,271 |-damage|p1a: Shedinja|0 fnt
+2026-08-12 11:42:29,271 |faint|p1a: Shedinja
+2026-08-12 11:42:29,273 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,273 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"189/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 11:42:29,297 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,297 |
+2026-08-12 11:42:29,297 |t:|1786527749
+2026-08-12 11:42:29,297 |switch|p1a: Raticate|Raticate, L85, F|100/100
+2026-08-12 11:42:29,297 |
+2026-08-12 11:42:29,297 |-heal|p2a: Misdreavus|204/241|[from] item: Leftovers
+2026-08-12 11:42:29,297 |upkeep
+2026-08-12 11:42:29,297 |turn|24
+2026-08-12 11:42:29,297 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,298 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"204/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 11:42:29,341 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,341 |
+2026-08-12 11:42:29,341 |t:|1786527749
+2026-08-12 11:42:29,341 |move|p1a: Raticate|Shadow Ball|p2a: Misdreavus
+2026-08-12 11:42:29,341 |-supereffective|p2a: Misdreavus
+2026-08-12 11:42:29,341 |-damage|p2a: Misdreavus|1/241
+2026-08-12 11:42:29,341 |-unboost|p2a: Misdreavus|spd|1
+2026-08-12 11:42:29,341 |move|p2a: Misdreavus|Perish Song|p2a: Misdreavus
+2026-08-12 11:42:29,341 |-start|p1a: Raticate|perish3|[silent]
+2026-08-12 11:42:29,341 |-start|p2a: Misdreavus|perish3|[silent]
+2026-08-12 11:42:29,341 |-fieldactivate|move: Perish Song
+2026-08-12 11:42:29,341 |
+2026-08-12 11:42:29,341 |-heal|p2a: Misdreavus|16/241|[from] item: Leftovers
+2026-08-12 11:42:29,341 |-start|p1a: Raticate|perish3
+2026-08-12 11:42:29,341 |-start|p2a: Misdreavus|perish3
+2026-08-12 11:42:29,341 |upkeep
+2026-08-12 11:42:29,341 |turn|25
+2026-08-12 11:42:29,342 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,342 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"198/307","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 11:42:29,366 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,366 |
+2026-08-12 11:42:29,366 |t:|1786527749
+2026-08-12 11:42:29,366 |switch|p2a: Entei|Entei, L78|198/307
+2026-08-12 11:42:29,366 |-ability|p2a: Entei|Pressure|[silent]
+2026-08-12 11:42:29,366 |move|p1a: Raticate|Shadow Ball|p2a: Entei
+2026-08-12 11:42:29,366 |-damage|p2a: Entei|107/307
+2026-08-12 11:42:29,366 |
+2026-08-12 11:42:29,366 |-heal|p2a: Entei|126/307|[from] item: Leftovers
+2026-08-12 11:42:29,366 |-start|p1a: Raticate|perish2
+2026-08-12 11:42:29,366 |upkeep
+2026-08-12 11:42:29,366 |turn|26
+2026-08-12 11:42:29,366 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,366 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"126/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 11:42:29,396 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,396 |
+2026-08-12 11:42:29,396 |t:|1786527749
+2026-08-12 11:42:29,396 |move|p1a: Raticate|Shadow Ball|p2a: Entei
+2026-08-12 11:42:29,396 |-damage|p2a: Entei|47/307
+2026-08-12 11:42:29,396 |move|p2a: Entei|Rest|p2a: Entei
+2026-08-12 11:42:29,397 |-status|p2a: Entei|slp|[from] move: Rest
+2026-08-12 11:42:29,397 |-heal|p2a: Entei|307/307 slp|[silent]
+2026-08-12 11:42:29,397 |
+2026-08-12 11:42:29,397 |-start|p1a: Raticate|perish1
+2026-08-12 11:42:29,397 |upkeep
+2026-08-12 11:42:29,397 |turn|27
+2026-08-12 11:42:29,397 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,397 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"307/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 11:42:29,433 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,433 |
+2026-08-12 11:42:29,433 |t:|1786527749
+2026-08-12 11:42:29,433 |move|p1a: Raticate|Shadow Ball|p2a: Entei
+2026-08-12 11:42:29,434 |-damage|p2a: Entei|224/307 slp
+2026-08-12 11:42:29,434 |cant|p2a: Entei|slp
+2026-08-12 11:42:29,434 |move|p2a: Entei|Sleep Talk|p2a: Entei
+2026-08-12 11:42:29,434 |move|p2a: Entei|Toxic|p1a: Raticate|[from] Sleep Talk
+2026-08-12 11:42:29,434 |-status|p1a: Raticate|tox
+2026-08-12 11:42:29,434 |
+2026-08-12 11:42:29,434 |-damage|p1a: Raticate|94/100 tox|[from] psn
+2026-08-12 11:42:29,434 |-heal|p2a: Entei|243/307 slp|[from] item: Leftovers
+2026-08-12 11:42:29,434 |-start|p1a: Raticate|perish0
+2026-08-12 11:42:29,434 |upkeep
+2026-08-12 11:42:29,434 |faint|p1a: Raticate
+2026-08-12 11:42:29,434 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,434 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"243/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 11:42:29,457 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,457 |
+2026-08-12 11:42:29,457 |t:|1786527749
+2026-08-12 11:42:29,457 |switch|p1a: Sunflora|Sunflora, L99, M|68/100
+2026-08-12 11:42:29,457 |turn|28
+2026-08-12 11:42:29,458 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,458 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"243/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 11:42:29,488 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,488 |
+2026-08-12 11:42:29,488 |t:|1786527749
+2026-08-12 11:42:29,488 |switch|p1a: Magneton|Magneton, L85|20/100
+2026-08-12 11:42:29,488 |cant|p2a: Entei|slp
+2026-08-12 11:42:29,488 |
+2026-08-12 11:42:29,488 |-heal|p2a: Entei|262/307 slp|[from] item: Leftovers
+2026-08-12 11:42:29,488 |-heal|p1a: Magneton|26/100|[from] item: Leftovers
+2026-08-12 11:42:29,489 |upkeep
+2026-08-12 11:42:29,489 |turn|29
+2026-08-12 11:42:29,489 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,489 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"262/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 11:42:29,525 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,525 |
+2026-08-12 11:42:29,525 |t:|1786527749
+2026-08-12 11:42:29,525 |-curestatus|p2a: Entei|slp|[msg]
+2026-08-12 11:42:29,525 |move|p2a: Entei|Rest|p2a: Entei
+2026-08-12 11:42:29,525 |-status|p2a: Entei|slp|[from] move: Rest
+2026-08-12 11:42:29,525 |-heal|p2a: Entei|307/307 slp|[silent]
+2026-08-12 11:42:29,525 |move|p1a: Magneton|Hidden Power|p2a: Entei
+2026-08-12 11:42:29,525 |-resisted|p2a: Entei
+2026-08-12 11:42:29,525 |-damage|p2a: Entei|272/307 slp
+2026-08-12 11:42:29,525 |
+2026-08-12 11:42:29,525 |-heal|p2a: Entei|291/307 slp|[from] item: Leftovers
+2026-08-12 11:42:29,525 |-heal|p1a: Magneton|33/100|[from] item: Leftovers
+2026-08-12 11:42:29,525 |upkeep
+2026-08-12 11:42:29,525 |turn|30
+2026-08-12 11:42:29,527 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,527 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"291/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 11:42:29,556 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,556 |
+2026-08-12 11:42:29,556 |t:|1786527749
+2026-08-12 11:42:29,556 |cant|p2a: Entei|slp
+2026-08-12 11:42:29,556 |move|p1a: Magneton|Toxic||[still]
+2026-08-12 11:42:29,556 |-fail|p1a: Magneton
+2026-08-12 11:42:29,556 |
+2026-08-12 11:42:29,556 |-heal|p2a: Entei|307/307 slp|[from] item: Leftovers
+2026-08-12 11:42:29,556 |-heal|p1a: Magneton|39/100|[from] item: Leftovers
+2026-08-12 11:42:29,556 |upkeep
+2026-08-12 11:42:29,556 |turn|31
+2026-08-12 11:42:29,556 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,556 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"307/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 11:42:29,580 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,580 |
+2026-08-12 11:42:29,580 |t:|1786527749
+2026-08-12 11:42:29,580 |move|p1a: Magneton|Protect|p1a: Magneton
+2026-08-12 11:42:29,580 |-singleturn|p1a: Magneton|Protect
+2026-08-12 11:42:29,580 |cant|p2a: Entei|slp
+2026-08-12 11:42:29,580 |
+2026-08-12 11:42:29,580 |-heal|p1a: Magneton|45/100|[from] item: Leftovers
+2026-08-12 11:42:29,580 |upkeep
+2026-08-12 11:42:29,580 |turn|32
+2026-08-12 11:42:29,581 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,581 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"307/307 slp","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 11:42:29,603 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,603 |
+2026-08-12 11:42:29,603 |t:|1786527749
+2026-08-12 11:42:29,603 |switch|p1a: Quagsire|Quagsire, L84, F|100/100
+2026-08-12 11:42:29,603 |-curestatus|p2a: Entei|slp|[msg]
+2026-08-12 11:42:29,603 |move|p2a: Entei|Rest|p2a: Entei
+2026-08-12 11:42:29,603 |-fail|p2a: Entei|heal
+2026-08-12 11:42:29,603 |
+2026-08-12 11:42:29,603 |upkeep
+2026-08-12 11:42:29,603 |turn|33
+2026-08-12 11:42:29,604 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,604 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"307/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 11:42:29,626 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,626 |
+2026-08-12 11:42:29,626 |t:|1786527749
+2026-08-12 11:42:29,626 |move|p1a: Quagsire|Protect|p1a: Quagsire
+2026-08-12 11:42:29,626 |-singleturn|p1a: Quagsire|Protect
+2026-08-12 11:42:29,626 |move|p2a: Entei|Toxic|p1a: Quagsire
+2026-08-12 11:42:29,626 |-activate|p1a: Quagsire|Protect
+2026-08-12 11:42:29,626 |
+2026-08-12 11:42:29,626 |upkeep
+2026-08-12 11:42:29,626 |turn|34
+2026-08-12 11:42:29,626 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,627 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"307/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 11:42:29,656 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,656 |
+2026-08-12 11:42:29,656 |t:|1786527749
+2026-08-12 11:42:29,656 |move|p2a: Entei|Flamethrower|p1a: Quagsire
+2026-08-12 11:42:29,656 |-resisted|p1a: Quagsire
+2026-08-12 11:42:29,656 |-damage|p1a: Quagsire|83/100
+2026-08-12 11:42:29,656 |move|p1a: Quagsire|Ice Beam|p2a: Entei
+2026-08-12 11:42:29,656 |-resisted|p2a: Entei
+2026-08-12 11:42:29,656 |-damage|p2a: Entei|279/307
+2026-08-12 11:42:29,656 |
+2026-08-12 11:42:29,656 |-heal|p2a: Entei|298/307|[from] item: Leftovers
+2026-08-12 11:42:29,656 |-heal|p1a: Quagsire|89/100|[from] item: Leftovers
+2026-08-12 11:42:29,656 |upkeep
+2026-08-12 11:42:29,657 |turn|35
+2026-08-12 11:42:29,657 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,657 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"298/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 11:42:29,684 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,684 |
+2026-08-12 11:42:29,684 |t:|1786527749
+2026-08-12 11:42:29,684 |move|p2a: Entei|Sleep Talk|p2a: Entei
+2026-08-12 11:42:29,684 |move|p1a: Quagsire|Ice Beam|p2a: Entei
+2026-08-12 11:42:29,684 |-resisted|p2a: Entei
+2026-08-12 11:42:29,684 |-damage|p2a: Entei|266/307
+2026-08-12 11:42:29,684 |
+2026-08-12 11:42:29,685 |-heal|p2a: Entei|285/307|[from] item: Leftovers
+2026-08-12 11:42:29,685 |-heal|p1a: Quagsire|95/100|[from] item: Leftovers
+2026-08-12 11:42:29,685 |upkeep
+2026-08-12 11:42:29,685 |turn|36
+2026-08-12 11:42:29,685 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,685 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"285/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 11:42:29,715 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,715 |
+2026-08-12 11:42:29,715 |t:|1786527749
+2026-08-12 11:42:29,715 |move|p2a: Entei|Flamethrower|p1a: Quagsire
+2026-08-12 11:42:29,715 |-resisted|p1a: Quagsire
+2026-08-12 11:42:29,715 |-damage|p1a: Quagsire|78/100
+2026-08-12 11:42:29,715 |move|p1a: Quagsire|Earthquake|p2a: Entei
+2026-08-12 11:42:29,715 |-supereffective|p2a: Entei
+2026-08-12 11:42:29,715 |-damage|p2a: Entei|62/307
+2026-08-12 11:42:29,715 |
+2026-08-12 11:42:29,715 |-heal|p2a: Entei|81/307|[from] item: Leftovers
+2026-08-12 11:42:29,715 |-heal|p1a: Quagsire|84/100|[from] item: Leftovers
+2026-08-12 11:42:29,715 |upkeep
+2026-08-12 11:42:29,715 |turn|37
+2026-08-12 11:42:29,715 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,715 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"81/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 11:42:29,748 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,748 |
+2026-08-12 11:42:29,748 |t:|1786527749
+2026-08-12 11:42:29,748 |move|p1a: Quagsire|Protect|p1a: Quagsire
+2026-08-12 11:42:29,748 |-singleturn|p1a: Quagsire|Protect
+2026-08-12 11:42:29,748 |move|p2a: Entei|Flamethrower|p1a: Quagsire
+2026-08-12 11:42:29,748 |-activate|p1a: Quagsire|Protect
+2026-08-12 11:42:29,748 |
+2026-08-12 11:42:29,748 |-heal|p2a: Entei|100/307|[from] item: Leftovers
+2026-08-12 11:42:29,748 |-heal|p1a: Quagsire|90/100|[from] item: Leftovers
+2026-08-12 11:42:29,748 |upkeep
+2026-08-12 11:42:29,748 |turn|38
+2026-08-12 11:42:29,748 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,748 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"100/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 11:42:29,774 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,774 |
+2026-08-12 11:42:29,774 |t:|1786527749
+2026-08-12 11:42:29,774 |move|p1a: Quagsire|Protect|p1a: Quagsire
+2026-08-12 11:42:29,774 |-singleturn|p1a: Quagsire|Protect
+2026-08-12 11:42:29,774 |move|p2a: Entei|Toxic|p1a: Quagsire
+2026-08-12 11:42:29,774 |-activate|p1a: Quagsire|Protect
+2026-08-12 11:42:29,774 |
+2026-08-12 11:42:29,774 |-heal|p2a: Entei|119/307|[from] item: Leftovers
+2026-08-12 11:42:29,774 |-heal|p1a: Quagsire|96/100|[from] item: Leftovers
+2026-08-12 11:42:29,774 |upkeep
+2026-08-12 11:42:29,774 |turn|39
+2026-08-12 11:42:29,774 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,774 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"119/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 11:42:29,810 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,810 |
+2026-08-12 11:42:29,810 |t:|1786527749
+2026-08-12 11:42:29,810 |move|p1a: Quagsire|Protect||[still]
+2026-08-12 11:42:29,810 |-fail|p1a: Quagsire
+2026-08-12 11:42:29,810 |move|p2a: Entei|Flamethrower|p1a: Quagsire
+2026-08-12 11:42:29,810 |-resisted|p1a: Quagsire
+2026-08-12 11:42:29,810 |-damage|p1a: Quagsire|79/100
+2026-08-12 11:42:29,810 |
+2026-08-12 11:42:29,810 |-heal|p2a: Entei|138/307|[from] item: Leftovers
+2026-08-12 11:42:29,810 |-heal|p1a: Quagsire|85/100|[from] item: Leftovers
+2026-08-12 11:42:29,810 |upkeep
+2026-08-12 11:42:29,810 |turn|40
+2026-08-12 11:42:29,811 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,811 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"138/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 11:42:29,844 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,844 |
+2026-08-12 11:42:29,844 |t:|1786527749
+2026-08-12 11:42:29,845 |move|p2a: Entei|Flamethrower|p1a: Quagsire
+2026-08-12 11:42:29,845 |-resisted|p1a: Quagsire
+2026-08-12 11:42:29,845 |-crit|p1a: Quagsire
+2026-08-12 11:42:29,845 |-damage|p1a: Quagsire|49/100
+2026-08-12 11:42:29,845 |move|p1a: Quagsire|Toxic|p2a: Entei|[miss]
+2026-08-12 11:42:29,845 |-miss|p1a: Quagsire|p2a: Entei
+2026-08-12 11:42:29,845 |
+2026-08-12 11:42:29,845 |-heal|p2a: Entei|157/307|[from] item: Leftovers
+2026-08-12 11:42:29,845 |-heal|p1a: Quagsire|55/100|[from] item: Leftovers
+2026-08-12 11:42:29,845 |upkeep
+2026-08-12 11:42:29,845 |turn|41
+2026-08-12 11:42:29,845 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,845 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Flamethrower","id":"flamethrower","pp":19,"maxpp":24,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"157/307","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 11:42:29,872 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,872 |
+2026-08-12 11:42:29,872 |t:|1786527749
+2026-08-12 11:42:29,872 |move|p2a: Entei|Toxic|p1a: Quagsire
+2026-08-12 11:42:29,872 |-status|p1a: Quagsire|tox
+2026-08-12 11:42:29,872 |move|p1a: Quagsire|Earthquake|p2a: Entei
+2026-08-12 11:42:29,872 |-supereffective|p2a: Entei
+2026-08-12 11:42:29,872 |-damage|p2a: Entei|0 fnt
+2026-08-12 11:42:29,872 |faint|p2a: Entei
+2026-08-12 11:42:29,872 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,872 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":true,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"16/241","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":95}
+2026-08-12 11:42:29,887 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,887 |
+2026-08-12 11:42:29,887 |t:|1786527749
+2026-08-12 11:42:29,887 |switch|p2a: Misdreavus|Misdreavus, L85, F|16/241
+2026-08-12 11:42:29,887 |
+2026-08-12 11:42:29,887 |-heal|p2a: Misdreavus|31/241|[from] item: Leftovers
+2026-08-12 11:42:29,887 |-heal|p1a: Quagsire|61/100 tox|[from] item: Leftovers
+2026-08-12 11:42:29,888 |-damage|p1a: Quagsire|55/100 tox|[from] psn
+2026-08-12 11:42:29,888 |upkeep
+2026-08-12 11:42:29,888 |turn|42
+2026-08-12 11:42:29,890 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,890 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"31/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 11:42:29,925 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,925 |
+2026-08-12 11:42:29,925 |t:|1786527749
+2026-08-12 11:42:29,925 |move|p2a: Misdreavus|Protect|p2a: Misdreavus
+2026-08-12 11:42:29,925 |-singleturn|p2a: Misdreavus|Protect
+2026-08-12 11:42:29,925 |move|p1a: Quagsire|Toxic|p2a: Misdreavus|[miss]
+2026-08-12 11:42:29,925 |-miss|p1a: Quagsire|p2a: Misdreavus
+2026-08-12 11:42:29,925 |
+2026-08-12 11:42:29,925 |-heal|p2a: Misdreavus|46/241|[from] item: Leftovers
+2026-08-12 11:42:29,925 |-heal|p1a: Quagsire|61/100 tox|[from] item: Leftovers
+2026-08-12 11:42:29,925 |-damage|p1a: Quagsire|49/100 tox|[from] psn
+2026-08-12 11:42:29,925 |upkeep
+2026-08-12 11:42:29,925 |turn|43
+2026-08-12 11:42:29,926 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,926 |request|{"active":[{"moves":[{"move":"Perish Song","id":"perishsong","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Mean Look","id":"meanlook","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"46/241","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 11:42:29,956 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,956 |
+2026-08-12 11:42:29,957 |t:|1786527749
+2026-08-12 11:42:29,957 |move|p2a: Misdreavus|Perish Song|p2a: Misdreavus
+2026-08-12 11:42:29,957 |-start|p1a: Quagsire|perish3|[silent]
+2026-08-12 11:42:29,957 |-start|p2a: Misdreavus|perish3|[silent]
+2026-08-12 11:42:29,957 |-fieldactivate|move: Perish Song
+2026-08-12 11:42:29,957 |move|p1a: Quagsire|Ice Beam|p2a: Misdreavus
+2026-08-12 11:42:29,957 |-damage|p2a: Misdreavus|0 fnt
+2026-08-12 11:42:29,957 |faint|p2a: Misdreavus
+2026-08-12 11:42:29,957 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,957 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":true,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":false,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":101}
+2026-08-12 11:42:29,985 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,985 |
+2026-08-12 11:42:29,985 |t:|1786527749
+2026-08-12 11:42:29,985 |switch|p2a: Bellossom|Bellossom, L94, M|293/293
+2026-08-12 11:42:29,985 |
+2026-08-12 11:42:29,985 |-heal|p1a: Quagsire|55/100 tox|[from] item: Leftovers
+2026-08-12 11:42:29,985 |-damage|p1a: Quagsire|37/100 tox|[from] psn
+2026-08-12 11:42:29,985 |-start|p1a: Quagsire|perish3
+2026-08-12 11:42:29,985 |upkeep
+2026-08-12 11:42:29,985 |turn|44
+2026-08-12 11:42:29,985 >battle-gen3randombattle-314423
+2026-08-12 11:42:29,985 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 11:42:30,025 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,025 |
+2026-08-12 11:42:30,025 |t:|1786527750
+2026-08-12 11:42:30,025 |move|p2a: Bellossom|Leech Seed|p1a: Quagsire
+2026-08-12 11:42:30,025 |-start|p1a: Quagsire|move: Leech Seed
+2026-08-12 11:42:30,025 |move|p1a: Quagsire|Earthquake|p2a: Bellossom
+2026-08-12 11:42:30,025 |-resisted|p2a: Bellossom
+2026-08-12 11:42:30,025 |-crit|p2a: Bellossom
+2026-08-12 11:42:30,025 |-damage|p2a: Bellossom|212/293
+2026-08-12 11:42:30,025 |
+2026-08-12 11:42:30,025 |-heal|p2a: Bellossom|230/293|[from] item: Leftovers
+2026-08-12 11:42:30,025 |-heal|p1a: Quagsire|43/100 tox|[from] item: Leftovers
+2026-08-12 11:42:30,025 |-damage|p1a: Quagsire|31/100 tox|[from] Leech Seed|[of] p2a: Bellossom
+2026-08-12 11:42:30,025 |-heal|p2a: Bellossom|267/293|[silent]
+2026-08-12 11:42:30,025 |-damage|p1a: Quagsire|7/100 tox|[from] psn
+2026-08-12 11:42:30,025 |-start|p1a: Quagsire|perish2
+2026-08-12 11:42:30,025 |upkeep
+2026-08-12 11:42:30,025 |turn|45
+2026-08-12 11:42:30,026 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,026 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"267/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 11:42:30,056 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,056 |
+2026-08-12 11:42:30,056 |t:|1786527750
+2026-08-12 11:42:30,056 |move|p2a: Bellossom|Magical Leaf|p1a: Quagsire
+2026-08-12 11:42:30,056 |-supereffective|p1a: Quagsire
+2026-08-12 11:42:30,056 |-damage|p1a: Quagsire|0 fnt
+2026-08-12 11:42:30,056 |faint|p1a: Quagsire
+2026-08-12 11:42:30,056 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,056 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"267/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 11:42:30,069 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,069 |
+2026-08-12 11:42:30,069 |t:|1786527750
+2026-08-12 11:42:30,069 |switch|p1a: Sunflora|Sunflora, L99, M|68/100
+2026-08-12 11:42:30,069 |
+2026-08-12 11:42:30,069 |-heal|p2a: Bellossom|285/293|[from] item: Leftovers
+2026-08-12 11:42:30,069 |-heal|p1a: Sunflora|75/100|[from] item: Leftovers
+2026-08-12 11:42:30,069 |upkeep
+2026-08-12 11:42:30,069 |turn|46
+2026-08-12 11:42:30,069 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,069 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"285/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 11:42:30,089 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,089 |
+2026-08-12 11:42:30,089 |t:|1786527750
+2026-08-12 11:42:30,089 |move|p2a: Bellossom|Leech Seed|p1a: Sunflora
+2026-08-12 11:42:30,089 |-immune|p1a: Sunflora
+2026-08-12 11:42:30,089 |move|p1a: Sunflora|Synthesis|p1a: Sunflora
+2026-08-12 11:42:30,089 |-heal|p1a: Sunflora|100/100
+2026-08-12 11:42:30,089 |
+2026-08-12 11:42:30,089 |-heal|p2a: Bellossom|293/293|[from] item: Leftovers
+2026-08-12 11:42:30,089 |upkeep
+2026-08-12 11:42:30,089 |turn|47
+2026-08-12 11:42:30,090 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,090 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 11:42:30,115 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,115 |
+2026-08-12 11:42:30,115 |t:|1786527750
+2026-08-12 11:42:30,115 |move|p2a: Bellossom|Hidden Power|p1a: Sunflora
+2026-08-12 11:42:30,115 |-supereffective|p1a: Sunflora
+2026-08-12 11:42:30,115 |-damage|p1a: Sunflora|65/100
+2026-08-12 11:42:30,115 |move|p1a: Sunflora|Solar Beam||[still]
+2026-08-12 11:42:30,115 |-prepare|p1a: Sunflora|Solar Beam
+2026-08-12 11:42:30,115 |
+2026-08-12 11:42:30,115 |-heal|p1a: Sunflora|72/100|[from] item: Leftovers
+2026-08-12 11:42:30,115 |upkeep
+2026-08-12 11:42:30,115 |turn|48
+2026-08-12 11:42:30,116 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,116 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 11:42:30,200 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,200 |
+2026-08-12 11:42:30,200 |t:|1786527750
+2026-08-12 11:42:30,200 |move|p2a: Bellossom|Magical Leaf|p1a: Sunflora
+2026-08-12 11:42:30,200 |-resisted|p1a: Sunflora
+2026-08-12 11:42:30,200 |-damage|p1a: Sunflora|61/100
+2026-08-12 11:42:30,200 |move|p1a: Sunflora|Solar Beam|p2a: Bellossom|[from] lockedmove
+2026-08-12 11:42:30,200 |-resisted|p2a: Bellossom
+2026-08-12 11:42:30,200 |-damage|p2a: Bellossom|224/293
+2026-08-12 11:42:30,200 |
+2026-08-12 11:42:30,200 |-heal|p2a: Bellossom|242/293|[from] item: Leftovers
+2026-08-12 11:42:30,200 |-heal|p1a: Sunflora|67/100|[from] item: Leftovers
+2026-08-12 11:42:30,200 |upkeep
+2026-08-12 11:42:30,200 |turn|49
+2026-08-12 11:42:30,200 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,200 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"242/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 11:42:30,267 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,267 |
+2026-08-12 11:42:30,267 |t:|1786527750
+2026-08-12 11:42:30,267 |move|p2a: Bellossom|Magical Leaf|p1a: Sunflora
+2026-08-12 11:42:30,267 |-resisted|p1a: Sunflora
+2026-08-12 11:42:30,267 |-damage|p1a: Sunflora|56/100
+2026-08-12 11:42:30,267 |move|p1a: Sunflora|Solar Beam||[still]
+2026-08-12 11:42:30,267 |-prepare|p1a: Sunflora|Solar Beam
+2026-08-12 11:42:30,267 |
+2026-08-12 11:42:30,267 |-heal|p2a: Bellossom|260/293|[from] item: Leftovers
+2026-08-12 11:42:30,267 |-heal|p1a: Sunflora|63/100|[from] item: Leftovers
+2026-08-12 11:42:30,267 |upkeep
+2026-08-12 11:42:30,267 |turn|50
+2026-08-12 11:42:30,268 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,268 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"260/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 11:42:30,320 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,320 |
+2026-08-12 11:42:30,320 |t:|1786527750
+2026-08-12 11:42:30,320 |move|p2a: Bellossom|Hidden Power|p1a: Sunflora
+2026-08-12 11:42:30,320 |-supereffective|p1a: Sunflora
+2026-08-12 11:42:30,320 |-damage|p1a: Sunflora|27/100
+2026-08-12 11:42:30,320 |move|p1a: Sunflora|Solar Beam|p2a: Bellossom|[from] lockedmove
+2026-08-12 11:42:30,320 |-resisted|p2a: Bellossom
+2026-08-12 11:42:30,320 |-damage|p2a: Bellossom|182/293
+2026-08-12 11:42:30,320 |
+2026-08-12 11:42:30,320 |-heal|p2a: Bellossom|200/293|[from] item: Leftovers
+2026-08-12 11:42:30,320 |-heal|p1a: Sunflora|33/100|[from] item: Leftovers
+2026-08-12 11:42:30,320 |upkeep
+2026-08-12 11:42:30,320 |turn|51
+2026-08-12 11:42:30,324 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,324 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"200/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 11:42:30,351 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,351 |
+2026-08-12 11:42:30,351 |t:|1786527750
+2026-08-12 11:42:30,351 |move|p2a: Bellossom|Moonlight|p2a: Bellossom
+2026-08-12 11:42:30,351 |-heal|p2a: Bellossom|293/293
+2026-08-12 11:42:30,351 |move|p1a: Sunflora|Solar Beam||[still]
+2026-08-12 11:42:30,351 |-prepare|p1a: Sunflora|Solar Beam
+2026-08-12 11:42:30,351 |
+2026-08-12 11:42:30,351 |-heal|p1a: Sunflora|39/100|[from] item: Leftovers
+2026-08-12 11:42:30,351 |upkeep
+2026-08-12 11:42:30,351 |turn|52
+2026-08-12 11:42:30,352 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,352 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 11:42:30,405 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,405 |
+2026-08-12 11:42:30,405 |t:|1786527750
+2026-08-12 11:42:30,405 |move|p2a: Bellossom|Moonlight|p2a: Bellossom
+2026-08-12 11:42:30,405 |move|p1a: Sunflora|Solar Beam|p2a: Bellossom|[from] lockedmove
+2026-08-12 11:42:30,406 |-resisted|p2a: Bellossom
+2026-08-12 11:42:30,406 |-damage|p2a: Bellossom|222/293
+2026-08-12 11:42:30,406 |
+2026-08-12 11:42:30,406 |-heal|p2a: Bellossom|240/293|[from] item: Leftovers
+2026-08-12 11:42:30,406 |-heal|p1a: Sunflora|46/100|[from] item: Leftovers
+2026-08-12 11:42:30,406 |upkeep
+2026-08-12 11:42:30,406 |turn|53
+2026-08-12 11:42:30,409 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,409 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"240/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 11:42:30,440 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,440 |
+2026-08-12 11:42:30,440 |t:|1786527750
+2026-08-12 11:42:30,440 |move|p2a: Bellossom|Magical Leaf|p1a: Sunflora
+2026-08-12 11:42:30,440 |-resisted|p1a: Sunflora
+2026-08-12 11:42:30,440 |-damage|p1a: Sunflora|36/100
+2026-08-12 11:42:30,440 |move|p1a: Sunflora|Sunny Day|p1a: Sunflora
+2026-08-12 11:42:30,440 |-weather|SunnyDay
+2026-08-12 11:42:30,440 |
+2026-08-12 11:42:30,440 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:42:30,440 |-heal|p2a: Bellossom|258/293|[from] item: Leftovers
+2026-08-12 11:42:30,440 |-heal|p1a: Sunflora|42/100|[from] item: Leftovers
+2026-08-12 11:42:30,440 |upkeep
+2026-08-12 11:42:30,441 |turn|54
+2026-08-12 11:42:30,442 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,442 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"258/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 11:42:30,468 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,468 |
+2026-08-12 11:42:30,468 |t:|1786527750
+2026-08-12 11:42:30,468 |move|p2a: Bellossom|Hidden Power|p1a: Sunflora
+2026-08-12 11:42:30,468 |-supereffective|p1a: Sunflora
+2026-08-12 11:42:30,468 |-damage|p1a: Sunflora|0 fnt
+2026-08-12 11:42:30,468 |faint|p1a: Sunflora
+2026-08-12 11:42:30,469 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,469 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"258/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":127}
+2026-08-12 11:42:30,493 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,493 |
+2026-08-12 11:42:30,493 |t:|1786527750
+2026-08-12 11:42:30,493 |switch|p1a: Magneton|Magneton, L85|45/100
+2026-08-12 11:42:30,493 |
+2026-08-12 11:42:30,493 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:42:30,493 |-heal|p2a: Bellossom|276/293|[from] item: Leftovers
+2026-08-12 11:42:30,493 |-heal|p1a: Magneton|51/100|[from] item: Leftovers
+2026-08-12 11:42:30,493 |upkeep
+2026-08-12 11:42:30,493 |turn|55
+2026-08-12 11:42:30,497 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,497 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":28,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"276/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":129}
+2026-08-12 11:42:30,529 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,529 |
+2026-08-12 11:42:30,529 |t:|1786527750
+2026-08-12 11:42:30,529 |move|p2a: Bellossom|Magical Leaf|p1a: Magneton
+2026-08-12 11:42:30,529 |-resisted|p1a: Magneton
+2026-08-12 11:42:30,529 |-damage|p1a: Magneton|30/100
+2026-08-12 11:42:30,529 |move|p1a: Magneton|Toxic|p2a: Bellossom|[miss]
+2026-08-12 11:42:30,529 |-miss|p1a: Magneton|p2a: Bellossom
+2026-08-12 11:42:30,529 |
+2026-08-12 11:42:30,529 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:42:30,529 |-heal|p2a: Bellossom|293/293|[from] item: Leftovers
+2026-08-12 11:42:30,529 |-heal|p1a: Magneton|37/100|[from] item: Leftovers
+2026-08-12 11:42:30,529 |upkeep
+2026-08-12 11:42:30,529 |turn|56
+2026-08-12 11:42:30,532 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,532 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 11:42:30,584 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,584 |
+2026-08-12 11:42:30,584 |t:|1786527750
+2026-08-12 11:42:30,584 |move|p1a: Magneton|Protect|p1a: Magneton
+2026-08-12 11:42:30,584 |-singleturn|p1a: Magneton|Protect
+2026-08-12 11:42:30,584 |move|p2a: Bellossom|Hidden Power|p1a: Magneton
+2026-08-12 11:42:30,584 |-activate|p1a: Magneton|Protect
+2026-08-12 11:42:30,584 |
+2026-08-12 11:42:30,584 |-weather|SunnyDay|[upkeep]
+2026-08-12 11:42:30,584 |-heal|p1a: Magneton|43/100|[from] item: Leftovers
+2026-08-12 11:42:30,584 |upkeep
+2026-08-12 11:42:30,584 |turn|57
+2026-08-12 11:42:30,588 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,588 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"293/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":133}
+2026-08-12 11:42:30,638 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,638 |
+2026-08-12 11:42:30,638 |t:|1786527750
+2026-08-12 11:42:30,638 |move|p2a: Bellossom|Leech Seed|p1a: Magneton
+2026-08-12 11:42:30,638 |-start|p1a: Magneton|move: Leech Seed
+2026-08-12 11:42:30,638 |move|p1a: Magneton|Hidden Power|p2a: Bellossom
+2026-08-12 11:42:30,638 |-supereffective|p2a: Bellossom
+2026-08-12 11:42:30,638 |-damage|p2a: Bellossom|200/293
+2026-08-12 11:42:30,638 |
+2026-08-12 11:42:30,638 |-weather|none
+2026-08-12 11:42:30,638 |-heal|p2a: Bellossom|218/293|[from] item: Leftovers
+2026-08-12 11:42:30,638 |-heal|p1a: Magneton|49/100|[from] item: Leftovers
+2026-08-12 11:42:30,638 |-damage|p1a: Magneton|37/100|[from] Leech Seed|[of] p2a: Bellossom
+2026-08-12 11:42:30,638 |-heal|p2a: Bellossom|246/293|[silent]
+2026-08-12 11:42:30,638 |upkeep
+2026-08-12 11:42:30,638 |turn|58
+2026-08-12 11:42:30,639 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,639 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":27,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"246/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":135}
+2026-08-12 11:42:30,676 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,676 |
+2026-08-12 11:42:30,676 |t:|1786527750
+2026-08-12 11:42:30,676 |move|p1a: Magneton|Hidden Power|p2a: Bellossom
+2026-08-12 11:42:30,676 |-supereffective|p2a: Bellossom
+2026-08-12 11:42:30,676 |-damage|p2a: Bellossom|142/293
+2026-08-12 11:42:30,676 |move|p2a: Bellossom|Magical Leaf|p1a: Magneton
+2026-08-12 11:42:30,676 |-resisted|p1a: Magneton
+2026-08-12 11:42:30,676 |-damage|p1a: Magneton|16/100
+2026-08-12 11:42:30,676 |
+2026-08-12 11:42:30,676 |-heal|p1a: Magneton|22/100|[from] item: Leftovers
+2026-08-12 11:42:30,676 |-damage|p1a: Magneton|10/100|[from] Leech Seed|[of] p2a: Bellossom
+2026-08-12 11:42:30,676 |-heal|p2a: Bellossom|170/293|[silent]
+2026-08-12 11:42:30,676 |-heal|p2a: Bellossom|188/293|[from] item: Leftovers
+2026-08-12 11:42:30,676 |upkeep
+2026-08-12 11:42:30,676 |turn|59
+2026-08-12 11:42:30,677 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,677 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"188/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":137}
+2026-08-12 11:42:30,711 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,711 |
+2026-08-12 11:42:30,711 |t:|1786527750
+2026-08-12 11:42:30,711 |move|p1a: Magneton|Hidden Power|p2a: Bellossom
+2026-08-12 11:42:30,711 |-supereffective|p2a: Bellossom
+2026-08-12 11:42:30,711 |-damage|p2a: Bellossom|86/293
+2026-08-12 11:42:30,711 |move|p2a: Bellossom|Moonlight|p2a: Bellossom
+2026-08-12 11:42:30,711 |-heal|p2a: Bellossom|232/293
+2026-08-12 11:42:30,711 |
+2026-08-12 11:42:30,711 |-heal|p1a: Magneton|16/100|[from] item: Leftovers
+2026-08-12 11:42:30,711 |-damage|p1a: Magneton|4/100|[from] Leech Seed|[of] p2a: Bellossom
+2026-08-12 11:42:30,711 |-heal|p2a: Bellossom|260/293|[silent]
+2026-08-12 11:42:30,711 |-heal|p2a: Bellossom|278/293|[from] item: Leftovers
+2026-08-12 11:42:30,711 |upkeep
+2026-08-12 11:42:30,711 |turn|60
+2026-08-12 11:42:30,712 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,712 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":26,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":5,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"278/293","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":139}
+2026-08-12 11:42:30,734 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,734 |
+2026-08-12 11:42:30,734 |t:|1786527750
+2026-08-12 11:42:30,734 |move|p1a: Magneton|Toxic|p2a: Bellossom
+2026-08-12 11:42:30,734 |-status|p2a: Bellossom|tox
+2026-08-12 11:42:30,734 |move|p2a: Bellossom|Magical Leaf|p1a: Magneton
+2026-08-12 11:42:30,734 |-resisted|p1a: Magneton
+2026-08-12 11:42:30,734 |-damage|p1a: Magneton|0 fnt
+2026-08-12 11:42:30,734 |faint|p1a: Magneton
+2026-08-12 11:42:30,736 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,736 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"278/293 tox","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":141}
+2026-08-12 11:42:30,757 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,757 |
+2026-08-12 11:42:30,757 |t:|1786527750
+2026-08-12 11:42:30,757 |switch|p1a: Smeargle|Smeargle, L89, F|100/100
+2026-08-12 11:42:30,757 |
+2026-08-12 11:42:30,757 |-heal|p2a: Bellossom|293/293 tox|[from] item: Leftovers
+2026-08-12 11:42:30,757 |-damage|p2a: Bellossom|275/293 tox|[from] psn
+2026-08-12 11:42:30,757 |upkeep
+2026-08-12 11:42:30,757 |turn|61
+2026-08-12 11:42:30,760 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,760 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Magical Leaf","id":"magicalleaf","pp":25,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":5,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"275/293 tox","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":143}
+2026-08-12 11:42:30,799 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,799 |
+2026-08-12 11:42:30,799 |t:|1786527750
+2026-08-12 11:42:30,799 |move|p1a: Smeargle|Encore|p2a: Bellossom
+2026-08-12 11:42:30,799 |-start|p2a: Bellossom|Encore
+2026-08-12 11:42:30,799 |move|p2a: Bellossom|Magical Leaf|p1a: Smeargle
+2026-08-12 11:42:30,800 |-damage|p1a: Smeargle|52/100
+2026-08-12 11:42:30,800 |
+2026-08-12 11:42:30,800 |-heal|p1a: Smeargle|59/100|[from] item: Leftovers
+2026-08-12 11:42:30,800 |-heal|p2a: Bellossom|293/293 tox|[from] item: Leftovers
+2026-08-12 11:42:30,800 |-damage|p2a: Bellossom|257/293 tox|[from] psn
+2026-08-12 11:42:30,800 |upkeep
+2026-08-12 11:42:30,800 |turn|62
+2026-08-12 11:42:30,801 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,801 |request|{"active":[{"moves":[{"move":"Leech Seed","id":"leechseed","pp":13,"maxpp":16,"target":"normal","disabled":true},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":true},{"move":"Magical Leaf","id":"magicalleaf","pp":24,"maxpp":32,"target":"normal","disabled":false},{"move":"Moonlight","id":"moonlight","pp":5,"maxpp":8,"target":"self","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Bellossom","details":"Bellossom, L94, M","condition":"257/293 tox","active":true,"stats":{"atk":157,"def":213,"spa":222,"spd":241,"spe":146},"moves":["leechseed","hiddenpowerfire","magicalleaf","moonlight"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L86, F","condition":"0 fnt","active":false,"stats":{"atk":187,"def":161,"spa":204,"spd":161,"spe":195},"moves":["toxic","return102","earthquake","psychic"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Corsola","details":"Corsola, L98, M","condition":"0 fnt","active":false,"stats":{"atk":112,"def":222,"spa":183,"spd":222,"spe":124},"moves":["recover","icebeam","surf","toxic"],"baseAbility":"naturalcure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Entei","details":"Entei, L78","condition":"0 fnt","active":false,"stats":{"atk":184,"def":178,"spa":185,"spd":162,"spe":201},"moves":["sleeptalk","flamethrower","toxic","rest"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Milotic","details":"Milotic, L76, F","condition":"0 fnt","active":false,"stats":{"atk":96,"def":164,"spa":196,"spd":234,"spe":167},"moves":["surf","refresh","recover","toxic"],"baseAbility":"marvelscale","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Misdreavus","details":"Misdreavus, L85, F","condition":"0 fnt","active":false,"stats":{"atk":151,"def":151,"spa":193,"spd":193,"spe":193},"moves":["perishsong","shadowball","protect","meanlook"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":145}
+2026-08-12 11:42:30,841 >battle-gen3randombattle-314423
+2026-08-12 11:42:30,841 |
+2026-08-12 11:42:30,841 |t:|1786527750
+2026-08-12 11:42:30,841 |move|p1a: Smeargle|Explosion|p2a: Bellossom
+2026-08-12 11:42:30,841 |-damage|p2a: Bellossom|36/293 tox
+2026-08-12 11:42:30,841 |faint|p1a: Smeargle
+2026-08-12 11:42:30,841 |
+2026-08-12 11:42:30,841 |win|BOT8
+2026-08-12 12:22:30,852 >battle-gen3randombattle-314423
+2026-08-12 12:22:30,852 |expire|
+2026-08-12 12:22:30,852 >battle-gen3randombattle-314423
+2026-08-12 12:22:30,852 |L|☆BOT7
+2026-08-12 12:22:30,852 >battle-gen3randombattle-314423
+2026-08-12 12:22:30,852 |deinit

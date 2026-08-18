@@ -1,0 +1,316 @@
+2026-08-12 13:16:14,685 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,685 |init|battle
+2026-08-12 13:16:14,685 |title|BOT1 vs. BOT2
+2026-08-12 13:16:14,685 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324343">battle-gen4randombattle-324343</a>&raquo;
+2026-08-12 13:16:14,742 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,742 |t:|1786533374
+2026-08-12 13:16:14,742 |gametype|singles
+2026-08-12 13:16:14,742 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,742 |player|p1|BOT1|170|
+2026-08-12 13:16:14,747 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,747 |player|p2|BOT2|170|
+2026-08-12 13:16:14,747 |gen|4
+2026-08-12 13:16:14,747 |tier|[Gen 4] Random Battle
+2026-08-12 13:16:14,747 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:16:14,747 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:16:14,747 |
+2026-08-12 13:16:14,747 |t:|1786533374
+2026-08-12 13:16:14,747 |teamsize|p1|6
+2026-08-12 13:16:14,747 |teamsize|p2|6
+2026-08-12 13:16:14,747 |start
+2026-08-12 13:16:14,747 |switch|p1a: Hippowdon|Hippowdon, L79, M|100/100
+2026-08-12 13:16:14,747 |switch|p2a: Lanturn|Lanturn, L84, F|347/347
+2026-08-12 13:16:14,747 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+2026-08-12 13:16:14,747 |turn|1
+2026-08-12 13:16:14,747 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,747 |request|{"active":[{"moves":[{"move":"Discharge","id":"discharge","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"347/347","active":true,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:16:14,825 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,825 |
+2026-08-12 13:16:14,825 |t:|1786533374
+2026-08-12 13:16:14,825 |move|p2a: Lanturn|Discharge|p1a: Hippowdon
+2026-08-12 13:16:14,825 |-immune|p1a: Hippowdon
+2026-08-12 13:16:14,825 |move|p1a: Hippowdon|Slack Off||[still]
+2026-08-12 13:16:14,825 |-fail|p1a: Hippowdon|heal
+2026-08-12 13:16:14,825 |
+2026-08-12 13:16:14,825 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:14,825 |-damage|p2a: Lanturn|326/347|[from] Sandstorm
+2026-08-12 13:16:14,825 |-heal|p2a: Lanturn|347/347|[from] item: Leftovers
+2026-08-12 13:16:14,825 |upkeep
+2026-08-12 13:16:14,825 |turn|2
+2026-08-12 13:16:14,826 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,826 |request|{"active":[{"moves":[{"move":"Discharge","id":"discharge","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"347/347","active":true,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:16:14,868 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,868 |
+2026-08-12 13:16:14,868 |t:|1786533374
+2026-08-12 13:16:14,868 |move|p2a: Lanturn|Heal Bell|p2a: Lanturn
+2026-08-12 13:16:14,868 |-activate|p2a: Lanturn|move: Heal Bell
+2026-08-12 13:16:14,868 |move|p1a: Hippowdon|Earthquake|p2a: Lanturn
+2026-08-12 13:16:14,868 |-supereffective|p2a: Lanturn
+2026-08-12 13:16:14,868 |-damage|p2a: Lanturn|81/347
+2026-08-12 13:16:14,868 |
+2026-08-12 13:16:14,868 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:14,868 |-damage|p2a: Lanturn|60/347|[from] Sandstorm
+2026-08-12 13:16:14,868 |-heal|p2a: Lanturn|81/347|[from] item: Leftovers
+2026-08-12 13:16:14,868 |upkeep
+2026-08-12 13:16:14,868 |turn|3
+2026-08-12 13:16:14,868 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,868 |request|{"active":[{"moves":[{"move":"Discharge","id":"discharge","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"81/347","active":true,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:16:14,909 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,909 |
+2026-08-12 13:16:14,909 |t:|1786533374
+2026-08-12 13:16:14,909 |move|p2a: Lanturn|Discharge|p1a: Hippowdon
+2026-08-12 13:16:14,909 |-immune|p1a: Hippowdon
+2026-08-12 13:16:14,909 |move|p1a: Hippowdon|Earthquake|p2a: Lanturn
+2026-08-12 13:16:14,909 |-supereffective|p2a: Lanturn
+2026-08-12 13:16:14,909 |-damage|p2a: Lanturn|0 fnt
+2026-08-12 13:16:14,909 |faint|p2a: Lanturn
+2026-08-12 13:16:14,909 |
+2026-08-12 13:16:14,909 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:14,909 |upkeep
+2026-08-12 13:16:14,910 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,910 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":true,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"260/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"}]},"noCancel":true,"rqid":9}
+2026-08-12 13:16:14,919 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,919 |
+2026-08-12 13:16:14,919 |t:|1786533374
+2026-08-12 13:16:14,919 |switch|p2a: Persian|Persian, L89, F|260/260
+2026-08-12 13:16:14,919 |turn|4
+2026-08-12 13:16:14,923 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,923 |request|{"active":[{"moves":[{"move":"Bite","id":"bite","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, F","condition":"260/260","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:16:14,949 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,949 |
+2026-08-12 13:16:14,949 |t:|1786533374
+2026-08-12 13:16:14,949 |move|p2a: Persian|Taunt|p1a: Hippowdon
+2026-08-12 13:16:14,949 |-start|p1a: Hippowdon|move: Taunt
+2026-08-12 13:16:14,949 |move|p1a: Hippowdon|Stone Edge|p2a: Persian
+2026-08-12 13:16:14,949 |-damage|p2a: Persian|168/260
+2026-08-12 13:16:14,949 |
+2026-08-12 13:16:14,949 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:14,949 |-damage|p2a: Persian|152/260|[from] Sandstorm
+2026-08-12 13:16:14,949 |upkeep
+2026-08-12 13:16:14,949 |turn|5
+2026-08-12 13:16:14,951 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,951 |request|{"active":[{"moves":[{"move":"Bite","id":"bite","pp":40,"maxpp":40,"target":"normal","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Fake Out","id":"fakeout","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"302/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:16:14,988 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,988 |
+2026-08-12 13:16:14,988 |t:|1786533374
+2026-08-12 13:16:14,988 |switch|p2a: Ariados|Ariados, M|302/302
+2026-08-12 13:16:14,988 |move|p1a: Hippowdon|Earthquake|p2a: Ariados
+2026-08-12 13:16:14,988 |-damage|p2a: Ariados|202/302
+2026-08-12 13:16:14,988 |
+2026-08-12 13:16:14,988 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:14,988 |-damage|p2a: Ariados|184/302|[from] Sandstorm
+2026-08-12 13:16:14,988 |-heal|p2a: Ariados|202/302|[from] item: Black Sludge
+2026-08-12 13:16:14,988 |upkeep
+2026-08-12 13:16:14,988 |turn|6
+2026-08-12 13:16:14,989 >battle-gen4randombattle-324343
+2026-08-12 13:16:14,989 |request|{"active":[{"moves":[{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"202/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:16:15,033 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,033 |
+2026-08-12 13:16:15,033 |t:|1786533375
+2026-08-12 13:16:15,033 |move|p2a: Ariados|Poison Jab|p1a: Hippowdon
+2026-08-12 13:16:15,033 |-resisted|p1a: Hippowdon
+2026-08-12 13:16:15,033 |-damage|p1a: Hippowdon|83/100
+2026-08-12 13:16:15,033 |-status|p1a: Hippowdon|psn
+2026-08-12 13:16:15,033 |move|p1a: Hippowdon|Earthquake|p2a: Ariados
+2026-08-12 13:16:15,033 |-damage|p2a: Ariados|90/302
+2026-08-12 13:16:15,033 |
+2026-08-12 13:16:15,033 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,033 |-damage|p2a: Ariados|72/302|[from] Sandstorm
+2026-08-12 13:16:15,033 |-heal|p2a: Ariados|90/302|[from] item: Black Sludge
+2026-08-12 13:16:15,033 |-heal|p1a: Hippowdon|89/100 psn|[from] item: Leftovers
+2026-08-12 13:16:15,033 |-damage|p1a: Hippowdon|77/100 psn|[from] psn
+2026-08-12 13:16:15,033 |-end|p1a: Hippowdon|move: Taunt
+2026-08-12 13:16:15,033 |upkeep
+2026-08-12 13:16:15,033 |turn|7
+2026-08-12 13:16:15,035 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,035 |request|{"active":[{"moves":[{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"239/239","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:16:15,067 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,067 |
+2026-08-12 13:16:15,067 |t:|1786533375
+2026-08-12 13:16:15,067 |switch|p2a: Palkia|Palkia, L69|239/239
+2026-08-12 13:16:15,067 |-ability|p2a: Palkia|Pressure
+2026-08-12 13:16:15,067 |move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+2026-08-12 13:16:15,067 |-heal|p1a: Hippowdon|100/100 psn
+2026-08-12 13:16:15,067 |
+2026-08-12 13:16:15,068 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,068 |-damage|p2a: Palkia|225/239|[from] Sandstorm
+2026-08-12 13:16:15,068 |-damage|p1a: Hippowdon|88/100 psn|[from] psn
+2026-08-12 13:16:15,068 |upkeep
+2026-08-12 13:16:15,068 |turn|8
+2026-08-12 13:16:15,069 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,069 |request|{"active":[{"moves":[{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Spacial Rend","id":"spacialrend","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Palkia","details":"Palkia, L69","condition":"225/239","active":true,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:16:15,112 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,112 |
+2026-08-12 13:16:15,112 |t:|1786533375
+2026-08-12 13:16:15,112 |move|p2a: Palkia|Spacial Rend|p1a: Hippowdon
+2026-08-12 13:16:15,112 |-damage|p1a: Hippowdon|37/100 psn
+2026-08-12 13:16:15,112 |move|p1a: Hippowdon|Earthquake|p2a: Palkia
+2026-08-12 13:16:15,112 |-damage|p2a: Palkia|116/239
+2026-08-12 13:16:15,112 |
+2026-08-12 13:16:15,112 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,112 |-damage|p2a: Palkia|102/239|[from] Sandstorm
+2026-08-12 13:16:15,112 |-heal|p1a: Hippowdon|43/100 psn|[from] item: Leftovers
+2026-08-12 13:16:15,112 |-damage|p1a: Hippowdon|30/100 psn|[from] psn
+2026-08-12 13:16:15,112 |upkeep
+2026-08-12 13:16:15,112 |turn|9
+2026-08-12 13:16:15,114 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,114 |request|{"active":[{"moves":[{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Spacial Rend","id":"spacialrend","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Palkia","details":"Palkia, L69","condition":"102/239","active":true,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:16:15,137 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,137 |
+2026-08-12 13:16:15,137 |t:|1786533375
+2026-08-12 13:16:15,137 |move|p2a: Palkia|Spacial Rend|p1a: Hippowdon
+2026-08-12 13:16:15,137 |-damage|p1a: Hippowdon|0 fnt
+2026-08-12 13:16:15,137 |faint|p1a: Hippowdon
+2026-08-12 13:16:15,137 |
+2026-08-12 13:16:15,137 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,137 |-damage|p2a: Palkia|88/239|[from] Sandstorm
+2026-08-12 13:16:15,138 |upkeep
+2026-08-12 13:16:15,138 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,138 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Palkia","details":"Palkia, L69","condition":"88/239","active":true,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:16:15,149 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,149 |
+2026-08-12 13:16:15,149 |t:|1786533375
+2026-08-12 13:16:15,149 |switch|p1a: Machamp|Machamp, L80, F|100/100
+2026-08-12 13:16:15,149 |turn|10
+2026-08-12 13:16:15,149 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,149 |request|{"active":[{"moves":[{"move":"Thunder Wave","id":"thunderwave","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Spacial Rend","id":"spacialrend","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Palkia","details":"Palkia, L69","condition":"88/239","active":true,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:16:15,185 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,185 |
+2026-08-12 13:16:15,185 |t:|1786533375
+2026-08-12 13:16:15,185 |move|p2a: Palkia|Thunder Wave|p1a: Machamp
+2026-08-12 13:16:15,185 |-status|p1a: Machamp|par
+2026-08-12 13:16:15,185 |move|p1a: Machamp|Stone Edge|p2a: Palkia
+2026-08-12 13:16:15,185 |-damage|p2a: Palkia|0 fnt
+2026-08-12 13:16:15,185 |faint|p2a: Palkia
+2026-08-12 13:16:15,185 |
+2026-08-12 13:16:15,185 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,185 |-damage|p1a: Machamp|94/100 par|[from] Sandstorm
+2026-08-12 13:16:15,185 |upkeep
+2026-08-12 13:16:15,186 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,186 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":true,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"noCancel":true,"rqid":27}
+2026-08-12 13:16:15,197 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,197 |
+2026-08-12 13:16:15,197 |t:|1786533375
+2026-08-12 13:16:15,197 |switch|p2a: Ariados|Ariados, M|90/302
+2026-08-12 13:16:15,197 |turn|11
+2026-08-12 13:16:15,198 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,198 |request|{"active":[{"moves":[{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"90/302","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:16:15,234 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,234 |
+2026-08-12 13:16:15,234 |t:|1786533375
+2026-08-12 13:16:15,234 |move|p2a: Ariados|Toxic Spikes|p1a: Machamp
+2026-08-12 13:16:15,234 |-sidestart|p1: BOT1|move: Toxic Spikes
+2026-08-12 13:16:15,234 |move|p1a: Machamp|Stone Edge|p2a: Ariados
+2026-08-12 13:16:15,234 |-supereffective|p2a: Ariados
+2026-08-12 13:16:15,234 |-damage|p2a: Ariados|0 fnt
+2026-08-12 13:16:15,234 |faint|p2a: Ariados
+2026-08-12 13:16:15,234 |
+2026-08-12 13:16:15,234 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,234 |-damage|p1a: Machamp|88/100 par|[from] Sandstorm
+2026-08-12 13:16:15,234 |upkeep
+2026-08-12 13:16:15,234 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,235 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":true,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"noCancel":true,"rqid":31}
+2026-08-12 13:16:15,248 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,248 |
+2026-08-12 13:16:15,248 |t:|1786533375
+2026-08-12 13:16:15,248 |switch|p2a: Jumpluff|Jumpluff, L88, M|274/274
+2026-08-12 13:16:15,248 |turn|12
+2026-08-12 13:16:15,249 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,249 |request|{"active":[{"moves":[{"move":"Sleep Powder","id":"sleeppowder","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"274/274","active":true,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:16:15,283 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,283 |
+2026-08-12 13:16:15,283 |t:|1786533375
+2026-08-12 13:16:15,283 |move|p2a: Jumpluff|Sleep Powder||[still]
+2026-08-12 13:16:15,283 |-fail|p2a: Jumpluff
+2026-08-12 13:16:15,283 |move|p1a: Machamp|Stone Edge|p2a: Jumpluff
+2026-08-12 13:16:15,283 |-supereffective|p2a: Jumpluff
+2026-08-12 13:16:15,283 |-damage|p2a: Jumpluff|0 fnt
+2026-08-12 13:16:15,283 |faint|p2a: Jumpluff
+2026-08-12 13:16:15,283 |
+2026-08-12 13:16:15,283 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,283 |-damage|p1a: Machamp|82/100 par|[from] Sandstorm
+2026-08-12 13:16:15,284 |upkeep
+2026-08-12 13:16:15,286 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,286 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"0 fnt","active":true,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"noCancel":true,"rqid":35}
+2026-08-12 13:16:15,307 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,307 |
+2026-08-12 13:16:15,307 |t:|1786533375
+2026-08-12 13:16:15,307 |switch|p2a: Mesprit|Mesprit, L81|262/262
+2026-08-12 13:16:15,307 |turn|13
+2026-08-12 13:16:15,307 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,307 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":true,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"0 fnt","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"152/260","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:16:15,333 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,333 |
+2026-08-12 13:16:15,333 |t:|1786533375
+2026-08-12 13:16:15,333 |switch|p2a: Persian|Persian, L89, F|152/260
+2026-08-12 13:16:15,333 |move|p1a: Machamp|Stone Edge|p2a: Persian
+2026-08-12 13:16:15,333 |-damage|p2a: Persian|2/260
+2026-08-12 13:16:15,333 |
+2026-08-12 13:16:15,333 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,333 |-damage|p2a: Persian|0 fnt|[from] Sandstorm
+2026-08-12 13:16:15,333 |-damage|p1a: Machamp|76/100 par|[from] Sandstorm
+2026-08-12 13:16:15,333 |faint|p2a: Persian
+2026-08-12 13:16:15,333 |upkeep
+2026-08-12 13:16:15,334 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,334 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Persian","details":"Persian, L89, F","condition":"0 fnt","active":true,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"0 fnt","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"}]},"noCancel":true,"rqid":39}
+2026-08-12 13:16:15,358 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,358 |
+2026-08-12 13:16:15,358 |t:|1786533375
+2026-08-12 13:16:15,358 |switch|p2a: Mesprit|Mesprit, L81|262/262
+2026-08-12 13:16:15,358 |turn|14
+2026-08-12 13:16:15,359 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,359 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Healing Wish","id":"healingwish","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":true,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"0 fnt","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:16:15,396 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,396 |
+2026-08-12 13:16:15,396 |t:|1786533375
+2026-08-12 13:16:15,396 |switch|p1a: Mightyena|Mightyena, L95, M|100/100
+2026-08-12 13:16:15,396 |-status|p1a: Mightyena|psn
+2026-08-12 13:16:15,396 |-ability|p1a: Mightyena|Intimidate|boost
+2026-08-12 13:16:15,396 |-unboost|p2a: Mesprit|atk|1
+2026-08-12 13:16:15,396 |move|p2a: Mesprit|Healing Wish||[still]
+2026-08-12 13:16:15,396 |-fail|p2a: Mesprit
+2026-08-12 13:16:15,396 |
+2026-08-12 13:16:15,396 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,396 |-damage|p2a: Mesprit|246/262|[from] Sandstorm
+2026-08-12 13:16:15,396 |-damage|p1a: Mightyena|95/100 psn|[from] Sandstorm
+2026-08-12 13:16:15,396 |-heal|p1a: Mightyena|100/100 psn|[from] item: Leftovers
+2026-08-12 13:16:15,396 |-damage|p1a: Mightyena|88/100 psn|[from] psn
+2026-08-12 13:16:15,396 |upkeep
+2026-08-12 13:16:15,396 |turn|15
+2026-08-12 13:16:15,397 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,397 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"246/262","active":true,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"0 fnt","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:16:15,460 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,460 |
+2026-08-12 13:16:15,460 |t:|1786533375
+2026-08-12 13:16:15,460 |move|p2a: Mesprit|Healing Wish||[still]
+2026-08-12 13:16:15,460 |-fail|p2a: Mesprit
+2026-08-12 13:16:15,460 |move|p1a: Mightyena|Crunch|p2a: Mesprit
+2026-08-12 13:16:15,460 |-supereffective|p2a: Mesprit
+2026-08-12 13:16:15,460 |-damage|p2a: Mesprit|54/262
+2026-08-12 13:16:15,460 |
+2026-08-12 13:16:15,460 |-weather|Sandstorm|[upkeep]
+2026-08-12 13:16:15,460 |-damage|p2a: Mesprit|38/262|[from] Sandstorm
+2026-08-12 13:16:15,460 |-damage|p1a: Mightyena|82/100 psn|[from] Sandstorm
+2026-08-12 13:16:15,460 |-heal|p1a: Mightyena|88/100 psn|[from] item: Leftovers
+2026-08-12 13:16:15,460 |-damage|p1a: Mightyena|76/100 psn|[from] psn
+2026-08-12 13:16:15,460 |upkeep
+2026-08-12 13:16:15,460 |turn|16
+2026-08-12 13:16:15,464 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,464 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":true},{"move":"Healing Wish","id":"healingwish","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"38/262","active":true,"stats":{"atk":177,"def":216,"spa":216,"spd":216,"spe":175},"moves":["hiddenpowerfighting","thunderbolt","psychic","healingwish"],"baseAbility":"levitate","item":"choicescarf","pokeball":"pokeball"},{"ident":"p2: Ariados","details":"Ariados, M","condition":"0 fnt","active":false,"stats":{"atk":237,"def":197,"spa":177,"spd":177,"spe":137},"moves":["suckerpunch","bugbite","poisonjab","toxicspikes"],"baseAbility":"insomnia","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Lanturn","details":"Lanturn, L84, F","condition":"0 fnt","active":false,"stats":{"atk":102,"def":146,"spa":176,"spd":176,"spe":161},"moves":["discharge","hydropump","healbell","icebeam"],"baseAbility":"voltabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Palkia","details":"Palkia, L69","condition":"0 fnt","active":false,"stats":{"atk":170,"def":178,"spa":247,"spd":206,"spe":178},"moves":["thunderwave","spacialrend","fireblast","hydropump"],"baseAbility":"pressure","item":"lustrousorb","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, M","condition":"0 fnt","active":false,"stats":{"atk":103,"def":173,"spa":146,"spd":199,"spe":244},"moves":["sleeppowder","leechseed","substitute","hiddenpowerflying"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Persian","details":"Persian, L89, F","condition":"0 fnt","active":false,"stats":{"atk":175,"def":158,"spa":166,"spd":166,"spe":255},"moves":["bite","doubleedge","taunt","fakeout"],"baseAbility":"technician","item":"silkscarf","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:16:15,496 >battle-gen4randombattle-324343
+2026-08-12 13:16:15,496 |
+2026-08-12 13:16:15,496 |t:|1786533375
+2026-08-12 13:16:15,496 |move|p2a: Mesprit|Healing Wish||[still]
+2026-08-12 13:16:15,496 |-fail|p2a: Mesprit
+2026-08-12 13:16:15,496 |move|p1a: Mightyena|Crunch|p2a: Mesprit
+2026-08-12 13:16:15,496 |-supereffective|p2a: Mesprit
+2026-08-12 13:16:15,496 |-damage|p2a: Mesprit|0 fnt
+2026-08-12 13:16:15,496 |faint|p2a: Mesprit
+2026-08-12 13:16:15,496 |
+2026-08-12 13:16:15,496 |win|BOT1
+2026-08-12 13:56:15,504 >battle-gen4randombattle-324343
+2026-08-12 13:56:15,504 |expire|
+2026-08-12 13:56:15,504 >battle-gen4randombattle-324343
+2026-08-12 13:56:15,504 |L|☆BOT1
+2026-08-12 13:56:15,504 >battle-gen4randombattle-324343
+2026-08-12 13:56:15,504 |deinit

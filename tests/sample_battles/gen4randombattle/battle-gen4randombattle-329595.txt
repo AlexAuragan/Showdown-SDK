@@ -1,0 +1,1011 @@
+2026-08-12 14:00:30,199 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,199 |init|battle
+2026-08-12 14:00:30,200 |title|BOT1 vs. BOT2
+2026-08-12 14:00:30,200 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-329595">battle-gen4randombattle-329595</a>&raquo;
+2026-08-12 14:00:30,261 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,261 |t:|1786536030
+2026-08-12 14:00:30,261 |gametype|singles
+2026-08-12 14:00:30,261 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,261 |player|p1|BOT1|170|
+2026-08-12 14:00:30,262 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,262 |player|p2|BOT2|170|
+2026-08-12 14:00:30,262 |gen|4
+2026-08-12 14:00:30,262 |tier|[Gen 4] Random Battle
+2026-08-12 14:00:30,262 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 14:00:30,262 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 14:00:30,262 |
+2026-08-12 14:00:30,262 |t:|1786536030
+2026-08-12 14:00:30,262 |teamsize|p1|6
+2026-08-12 14:00:30,262 |teamsize|p2|6
+2026-08-12 14:00:30,262 |start
+2026-08-12 14:00:30,262 |switch|p1a: Abomasnow|Abomasnow, L81, F|100/100
+2026-08-12 14:00:30,262 |switch|p2a: Flareon|Flareon, L92, M|269/269
+2026-08-12 14:00:30,262 |-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+2026-08-12 14:00:30,262 |turn|1
+2026-08-12 14:00:30,263 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,263 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 14:00:30,298 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,298 |
+2026-08-12 14:00:30,298 |t:|1786536030
+2026-08-12 14:00:30,299 |move|p2a: Flareon|Protect|p2a: Flareon
+2026-08-12 14:00:30,299 |-singleturn|p2a: Flareon|Protect
+2026-08-12 14:00:30,299 |move|p1a: Abomasnow|Wood Hammer|p2a: Flareon
+2026-08-12 14:00:30,299 |-activate|p2a: Flareon|Protect
+2026-08-12 14:00:30,299 |
+2026-08-12 14:00:30,299 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,299 |-damage|p2a: Flareon|253/269|[from] Hail
+2026-08-12 14:00:30,299 |-heal|p2a: Flareon|269/269|[from] item: Leftovers
+2026-08-12 14:00:30,299 |upkeep
+2026-08-12 14:00:30,299 |turn|2
+2026-08-12 14:00:30,300 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,300 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 14:00:30,344 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,344 |
+2026-08-12 14:00:30,344 |t:|1786536030
+2026-08-12 14:00:30,344 |move|p2a: Flareon|Wish|p2a: Flareon
+2026-08-12 14:00:30,345 |move|p1a: Abomasnow|Earthquake|p2a: Flareon
+2026-08-12 14:00:30,345 |-supereffective|p2a: Flareon
+2026-08-12 14:00:30,345 |-damage|p2a: Flareon|109/269
+2026-08-12 14:00:30,345 |
+2026-08-12 14:00:30,345 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,345 |-damage|p2a: Flareon|93/269|[from] Hail
+2026-08-12 14:00:30,345 |-heal|p2a: Flareon|109/269|[from] item: Leftovers
+2026-08-12 14:00:30,345 |upkeep
+2026-08-12 14:00:30,345 |turn|3
+2026-08-12 14:00:30,345 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,345 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"109/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 14:00:30,377 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,377 |
+2026-08-12 14:00:30,377 |t:|1786536030
+2026-08-12 14:00:30,377 |move|p1a: Abomasnow|Ice Shard|p2a: Flareon
+2026-08-12 14:00:30,377 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,377 |-crit|p2a: Flareon
+2026-08-12 14:00:30,377 |-damage|p2a: Flareon|64/269
+2026-08-12 14:00:30,377 |move|p2a: Flareon|Wish||[still]
+2026-08-12 14:00:30,377 |-fail|p2a: Flareon
+2026-08-12 14:00:30,377 |
+2026-08-12 14:00:30,377 |-heal|p2a: Flareon|198/269|[from] move: Wish|[wisher] Flareon
+2026-08-12 14:00:30,377 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,377 |-damage|p2a: Flareon|182/269|[from] Hail
+2026-08-12 14:00:30,377 |-heal|p2a: Flareon|198/269|[from] item: Leftovers
+2026-08-12 14:00:30,377 |upkeep
+2026-08-12 14:00:30,377 |turn|4
+2026-08-12 14:00:30,379 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,379 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"198/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 14:00:30,440 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,440 |
+2026-08-12 14:00:30,440 |t:|1786536030
+2026-08-12 14:00:30,440 |move|p2a: Flareon|Hidden Power|p1a: Abomasnow
+2026-08-12 14:00:30,440 |-resisted|p1a: Abomasnow
+2026-08-12 14:00:30,440 |-damage|p1a: Abomasnow|89/100
+2026-08-12 14:00:30,440 |move|p1a: Abomasnow|Wood Hammer|p2a: Flareon
+2026-08-12 14:00:30,440 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,440 |-damage|p2a: Flareon|127/269
+2026-08-12 14:00:30,440 |-damage|p1a: Abomasnow|80/100|[from] Recoil
+2026-08-12 14:00:30,440 |
+2026-08-12 14:00:30,440 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,440 |-damage|p2a: Flareon|111/269|[from] Hail
+2026-08-12 14:00:30,440 |-heal|p2a: Flareon|127/269|[from] item: Leftovers
+2026-08-12 14:00:30,440 |-heal|p1a: Abomasnow|86/100|[from] item: Leftovers
+2026-08-12 14:00:30,440 |upkeep
+2026-08-12 14:00:30,440 |turn|5
+2026-08-12 14:00:30,445 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,445 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"127/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 14:00:30,485 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,485 |
+2026-08-12 14:00:30,485 |t:|1786536030
+2026-08-12 14:00:30,485 |move|p1a: Abomasnow|Ice Shard|p2a: Flareon
+2026-08-12 14:00:30,485 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,485 |-damage|p2a: Flareon|106/269
+2026-08-12 14:00:30,485 |move|p2a: Flareon|Wish|p2a: Flareon
+2026-08-12 14:00:30,485 |
+2026-08-12 14:00:30,485 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,485 |-damage|p2a: Flareon|90/269|[from] Hail
+2026-08-12 14:00:30,485 |-heal|p2a: Flareon|106/269|[from] item: Leftovers
+2026-08-12 14:00:30,485 |-heal|p1a: Abomasnow|93/100|[from] item: Leftovers
+2026-08-12 14:00:30,485 |upkeep
+2026-08-12 14:00:30,485 |turn|6
+2026-08-12 14:00:30,489 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,489 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"106/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 14:00:30,524 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,524 |
+2026-08-12 14:00:30,524 |t:|1786536030
+2026-08-12 14:00:30,524 |move|p2a: Flareon|Hidden Power|p1a: Abomasnow
+2026-08-12 14:00:30,524 |-resisted|p1a: Abomasnow
+2026-08-12 14:00:30,524 |-damage|p1a: Abomasnow|82/100
+2026-08-12 14:00:30,524 |move|p1a: Abomasnow|Blizzard|p2a: Flareon
+2026-08-12 14:00:30,524 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,524 |-damage|p2a: Flareon|64/269
+2026-08-12 14:00:30,524 |
+2026-08-12 14:00:30,524 |-heal|p2a: Flareon|198/269|[from] move: Wish|[wisher] Flareon
+2026-08-12 14:00:30,524 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,524 |-damage|p2a: Flareon|182/269|[from] Hail
+2026-08-12 14:00:30,524 |-heal|p2a: Flareon|198/269|[from] item: Leftovers
+2026-08-12 14:00:30,524 |-heal|p1a: Abomasnow|88/100|[from] item: Leftovers
+2026-08-12 14:00:30,524 |upkeep
+2026-08-12 14:00:30,525 |turn|7
+2026-08-12 14:00:30,526 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,526 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"198/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 14:00:30,561 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,561 |
+2026-08-12 14:00:30,561 |t:|1786536030
+2026-08-12 14:00:30,561 |move|p2a: Flareon|Wish|p2a: Flareon
+2026-08-12 14:00:30,561 |move|p1a: Abomasnow|Blizzard|p2a: Flareon
+2026-08-12 14:00:30,561 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,561 |-damage|p2a: Flareon|158/269
+2026-08-12 14:00:30,561 |
+2026-08-12 14:00:30,561 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,561 |-damage|p2a: Flareon|142/269|[from] Hail
+2026-08-12 14:00:30,561 |-heal|p2a: Flareon|158/269|[from] item: Leftovers
+2026-08-12 14:00:30,561 |-heal|p1a: Abomasnow|94/100|[from] item: Leftovers
+2026-08-12 14:00:30,561 |upkeep
+2026-08-12 14:00:30,561 |turn|8
+2026-08-12 14:00:30,563 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,563 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"158/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 14:00:30,603 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,603 |
+2026-08-12 14:00:30,603 |t:|1786536030
+2026-08-12 14:00:30,603 |move|p2a: Flareon|Protect|p2a: Flareon
+2026-08-12 14:00:30,603 |-singleturn|p2a: Flareon|Protect
+2026-08-12 14:00:30,603 |move|p1a: Abomasnow|Ice Shard|p2a: Flareon
+2026-08-12 14:00:30,603 |-activate|p2a: Flareon|Protect
+2026-08-12 14:00:30,603 |
+2026-08-12 14:00:30,603 |-heal|p2a: Flareon|269/269|[from] move: Wish|[wisher] Flareon
+2026-08-12 14:00:30,603 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,603 |-damage|p2a: Flareon|253/269|[from] Hail
+2026-08-12 14:00:30,603 |-heal|p2a: Flareon|269/269|[from] item: Leftovers
+2026-08-12 14:00:30,603 |-heal|p1a: Abomasnow|99/100|[from] item: Leftovers
+2026-08-12 14:00:30,603 |upkeep
+2026-08-12 14:00:30,603 |turn|9
+2026-08-12 14:00:30,606 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,606 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"269/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 14:00:30,645 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,645 |
+2026-08-12 14:00:30,645 |t:|1786536030
+2026-08-12 14:00:30,645 |move|p2a: Flareon|Hidden Power|p1a: Abomasnow
+2026-08-12 14:00:30,645 |-resisted|p1a: Abomasnow
+2026-08-12 14:00:30,645 |-damage|p1a: Abomasnow|89/100
+2026-08-12 14:00:30,645 |move|p1a: Abomasnow|Blizzard|p2a: Flareon
+2026-08-12 14:00:30,645 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,645 |-damage|p2a: Flareon|227/269
+2026-08-12 14:00:30,645 |
+2026-08-12 14:00:30,645 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,645 |-damage|p2a: Flareon|211/269|[from] Hail
+2026-08-12 14:00:30,645 |-heal|p2a: Flareon|227/269|[from] item: Leftovers
+2026-08-12 14:00:30,645 |-heal|p1a: Abomasnow|95/100|[from] item: Leftovers
+2026-08-12 14:00:30,645 |upkeep
+2026-08-12 14:00:30,645 |turn|10
+2026-08-12 14:00:30,647 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,647 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"227/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 14:00:30,691 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,691 |
+2026-08-12 14:00:30,691 |t:|1786536030
+2026-08-12 14:00:30,691 |move|p2a: Flareon|Protect|p2a: Flareon
+2026-08-12 14:00:30,691 |-singleturn|p2a: Flareon|Protect
+2026-08-12 14:00:30,691 |move|p1a: Abomasnow|Blizzard|p2a: Flareon
+2026-08-12 14:00:30,691 |-activate|p2a: Flareon|Protect
+2026-08-12 14:00:30,691 |
+2026-08-12 14:00:30,691 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,691 |-damage|p2a: Flareon|211/269|[from] Hail
+2026-08-12 14:00:30,691 |-heal|p2a: Flareon|227/269|[from] item: Leftovers
+2026-08-12 14:00:30,691 |-heal|p1a: Abomasnow|100/100|[from] item: Leftovers
+2026-08-12 14:00:30,691 |upkeep
+2026-08-12 14:00:30,691 |turn|11
+2026-08-12 14:00:30,693 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,693 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"227/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 14:00:30,731 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,731 |
+2026-08-12 14:00:30,731 |t:|1786536030
+2026-08-12 14:00:30,731 |move|p1a: Abomasnow|Ice Shard|p2a: Flareon
+2026-08-12 14:00:30,731 |-resisted|p2a: Flareon
+2026-08-12 14:00:30,731 |-damage|p2a: Flareon|205/269
+2026-08-12 14:00:30,731 |move|p2a: Flareon|Hidden Power|p1a: Abomasnow
+2026-08-12 14:00:30,731 |-resisted|p1a: Abomasnow
+2026-08-12 14:00:30,731 |-crit|p1a: Abomasnow
+2026-08-12 14:00:30,731 |-damage|p1a: Abomasnow|76/100
+2026-08-12 14:00:30,731 |
+2026-08-12 14:00:30,731 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,732 |-damage|p2a: Flareon|189/269|[from] Hail
+2026-08-12 14:00:30,732 |-heal|p2a: Flareon|205/269|[from] item: Leftovers
+2026-08-12 14:00:30,732 |-heal|p1a: Abomasnow|83/100|[from] item: Leftovers
+2026-08-12 14:00:30,732 |upkeep
+2026-08-12 14:00:30,732 |turn|12
+2026-08-12 14:00:30,734 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,734 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"205/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 14:00:30,769 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,769 |
+2026-08-12 14:00:30,769 |t:|1786536030
+2026-08-12 14:00:30,769 |switch|p1a: Slowking|Slowking, L87, M|100/100
+2026-08-12 14:00:30,769 |move|p2a: Flareon|Fire Blast|p1a: Slowking|[miss]
+2026-08-12 14:00:30,769 |-miss|p2a: Flareon|p1a: Slowking
+2026-08-12 14:00:30,769 |
+2026-08-12 14:00:30,769 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,769 |-damage|p2a: Flareon|189/269|[from] Hail
+2026-08-12 14:00:30,769 |-damage|p1a: Slowking|94/100|[from] Hail
+2026-08-12 14:00:30,769 |-heal|p2a: Flareon|205/269|[from] item: Leftovers
+2026-08-12 14:00:30,769 |upkeep
+2026-08-12 14:00:30,769 |turn|13
+2026-08-12 14:00:30,771 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,771 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"205/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 14:00:30,822 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,822 |
+2026-08-12 14:00:30,822 |t:|1786536030
+2026-08-12 14:00:30,822 |move|p2a: Flareon|Protect|p2a: Flareon
+2026-08-12 14:00:30,822 |-singleturn|p2a: Flareon|Protect
+2026-08-12 14:00:30,822 |move|p1a: Slowking|Slack Off|p1a: Slowking
+2026-08-12 14:00:30,822 |-heal|p1a: Slowking|100/100
+2026-08-12 14:00:30,822 |
+2026-08-12 14:00:30,822 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,822 |-damage|p2a: Flareon|189/269|[from] Hail
+2026-08-12 14:00:30,822 |-damage|p1a: Slowking|94/100|[from] Hail
+2026-08-12 14:00:30,822 |-heal|p2a: Flareon|205/269|[from] item: Leftovers
+2026-08-12 14:00:30,822 |upkeep
+2026-08-12 14:00:30,822 |turn|14
+2026-08-12 14:00:30,825 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,825 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"205/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 14:00:30,862 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,862 |
+2026-08-12 14:00:30,862 |t:|1786536030
+2026-08-12 14:00:30,862 |move|p2a: Flareon|Protect||[still]
+2026-08-12 14:00:30,862 |-fail|p2a: Flareon
+2026-08-12 14:00:30,862 |move|p1a: Slowking|Trick Room|p1a: Slowking
+2026-08-12 14:00:30,862 |-fieldstart|move: Trick Room|[of] p1a: Slowking
+2026-08-12 14:00:30,862 |
+2026-08-12 14:00:30,862 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,862 |-damage|p1a: Slowking|88/100|[from] Hail
+2026-08-12 14:00:30,862 |-damage|p2a: Flareon|189/269|[from] Hail
+2026-08-12 14:00:30,863 |-heal|p2a: Flareon|205/269|[from] item: Leftovers
+2026-08-12 14:00:30,863 |upkeep
+2026-08-12 14:00:30,863 |turn|15
+2026-08-12 14:00:30,867 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,867 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"205/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 14:00:30,918 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,918 |
+2026-08-12 14:00:30,918 |t:|1786536030
+2026-08-12 14:00:30,918 |move|p1a: Slowking|Psychic|p2a: Flareon
+2026-08-12 14:00:30,918 |-damage|p2a: Flareon|94/269
+2026-08-12 14:00:30,918 |-damage|p1a: Slowking|78/100|[from] item: Life Orb
+2026-08-12 14:00:30,918 |move|p2a: Flareon|Wish|p2a: Flareon
+2026-08-12 14:00:30,918 |
+2026-08-12 14:00:30,918 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,918 |-damage|p1a: Slowking|72/100|[from] Hail
+2026-08-12 14:00:30,918 |-damage|p2a: Flareon|78/269|[from] Hail
+2026-08-12 14:00:30,918 |-heal|p2a: Flareon|94/269|[from] item: Leftovers
+2026-08-12 14:00:30,918 |upkeep
+2026-08-12 14:00:30,918 |turn|16
+2026-08-12 14:00:30,923 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,923 |request|{"active":[{"moves":[{"move":"Wish","id":"wish","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"94/269","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 14:00:30,959 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,959 |
+2026-08-12 14:00:30,959 |t:|1786536030
+2026-08-12 14:00:30,959 |move|p1a: Slowking|Surf|p2a: Flareon
+2026-08-12 14:00:30,959 |-supereffective|p2a: Flareon
+2026-08-12 14:00:30,959 |-damage|p2a: Flareon|0 fnt
+2026-08-12 14:00:30,959 |faint|p2a: Flareon
+2026-08-12 14:00:30,959 |-damage|p1a: Slowking|62/100|[from] item: Life Orb
+2026-08-12 14:00:30,959 |
+2026-08-12 14:00:30,959 |-weather|Hail|[upkeep]
+2026-08-12 14:00:30,960 |-damage|p1a: Slowking|56/100|[from] Hail
+2026-08-12 14:00:30,960 |upkeep
+2026-08-12 14:00:30,960 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,960 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":true,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":35}
+2026-08-12 14:00:30,999 >battle-gen4randombattle-329595
+2026-08-12 14:00:30,999 |
+2026-08-12 14:00:30,999 |t:|1786536030
+2026-08-12 14:00:30,999 |switch|p2a: Mismagius|Mismagius, L81, M|230/230
+2026-08-12 14:00:30,999 |turn|17
+2026-08-12 14:00:31,002 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,002 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"230/230","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 14:00:31,046 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,046 |
+2026-08-12 14:00:31,046 |t:|1786536031
+2026-08-12 14:00:31,046 |move|p1a: Slowking|Psychic|p2a: Mismagius
+2026-08-12 14:00:31,046 |-damage|p2a: Mismagius|107/230
+2026-08-12 14:00:31,046 |-damage|p1a: Slowking|46/100|[from] item: Life Orb
+2026-08-12 14:00:31,046 |move|p2a: Mismagius|Shadow Ball|p1a: Slowking
+2026-08-12 14:00:31,046 |-supereffective|p1a: Slowking
+2026-08-12 14:00:31,046 |-damage|p1a: Slowking|0 fnt
+2026-08-12 14:00:31,046 |faint|p1a: Slowking
+2026-08-12 14:00:31,046 |
+2026-08-12 14:00:31,046 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,046 |-damage|p2a: Mismagius|93/230|[from] Hail
+2026-08-12 14:00:31,046 |-heal|p2a: Mismagius|107/230|[from] item: Leftovers
+2026-08-12 14:00:31,046 |upkeep
+2026-08-12 14:00:31,047 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,047 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"107/230","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 14:00:31,056 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,056 |
+2026-08-12 14:00:31,056 |t:|1786536031
+2026-08-12 14:00:31,056 |switch|p1a: Abomasnow|Abomasnow, L81, F|83/100
+2026-08-12 14:00:31,056 |turn|18
+2026-08-12 14:00:31,057 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,057 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"107/230","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 14:00:31,094 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,094 |
+2026-08-12 14:00:31,094 |t:|1786536031
+2026-08-12 14:00:31,094 |switch|p1a: Vespiquen|Vespiquen, L96, F|100/100
+2026-08-12 14:00:31,094 |-ability|p1a: Vespiquen|Pressure
+2026-08-12 14:00:31,094 |move|p2a: Mismagius|Pain Split|p1a: Vespiquen
+2026-08-12 14:00:31,094 |-sethp|p1a: Vespiquen|69/100|[from] move: Pain Split|[silent]
+2026-08-12 14:00:31,094 |-sethp|p2a: Mismagius|198/230|[from] move: Pain Split
+2026-08-12 14:00:31,094 |
+2026-08-12 14:00:31,094 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,094 |-damage|p1a: Vespiquen|63/100|[from] Hail
+2026-08-12 14:00:31,094 |-damage|p2a: Mismagius|184/230|[from] Hail
+2026-08-12 14:00:31,094 |-heal|p1a: Vespiquen|69/100|[from] item: Leftovers
+2026-08-12 14:00:31,094 |-heal|p2a: Mismagius|198/230|[from] item: Leftovers
+2026-08-12 14:00:31,094 |-fieldend|move: Trick Room
+2026-08-12 14:00:31,094 |upkeep
+2026-08-12 14:00:31,094 |turn|19
+2026-08-12 14:00:31,095 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,095 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"198/230","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 14:00:31,123 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,123 |
+2026-08-12 14:00:31,123 |t:|1786536031
+2026-08-12 14:00:31,123 |move|p2a: Mismagius|Destiny Bond|p2a: Mismagius
+2026-08-12 14:00:31,123 |-singlemove|p2a: Mismagius|Destiny Bond
+2026-08-12 14:00:31,123 |move|p1a: Vespiquen|Roost|p1a: Vespiquen
+2026-08-12 14:00:31,123 |-heal|p1a: Vespiquen|100/100
+2026-08-12 14:00:31,123 |-singleturn|p1a: Vespiquen|move: Roost
+2026-08-12 14:00:31,123 |
+2026-08-12 14:00:31,123 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,123 |-damage|p2a: Mismagius|184/230|[from] Hail
+2026-08-12 14:00:31,123 |-damage|p1a: Vespiquen|94/100|[from] Hail
+2026-08-12 14:00:31,123 |-heal|p2a: Mismagius|198/230|[from] item: Leftovers
+2026-08-12 14:00:31,123 |-heal|p1a: Vespiquen|100/100|[from] item: Leftovers
+2026-08-12 14:00:31,123 |upkeep
+2026-08-12 14:00:31,123 |turn|20
+2026-08-12 14:00:31,124 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,124 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"198/230","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 14:00:31,174 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,174 |
+2026-08-12 14:00:31,174 |t:|1786536031
+2026-08-12 14:00:31,174 |move|p2a: Mismagius|Hidden Power|p1a: Vespiquen
+2026-08-12 14:00:31,174 |-resisted|p1a: Vespiquen
+2026-08-12 14:00:31,174 |-damage|p1a: Vespiquen|97/100
+2026-08-12 14:00:31,174 |move|p1a: Vespiquen|Toxic|p2a: Mismagius
+2026-08-12 14:00:31,174 |-status|p2a: Mismagius|tox
+2026-08-12 14:00:31,174 |
+2026-08-12 14:00:31,174 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,174 |-damage|p2a: Mismagius|184/230 tox|[from] Hail
+2026-08-12 14:00:31,174 |-damage|p1a: Vespiquen|91/100|[from] Hail
+2026-08-12 14:00:31,174 |-heal|p2a: Mismagius|198/230 tox|[from] item: Leftovers
+2026-08-12 14:00:31,174 |-damage|p2a: Mismagius|184/230 tox|[from] psn
+2026-08-12 14:00:31,174 |-heal|p1a: Vespiquen|97/100|[from] item: Leftovers
+2026-08-12 14:00:31,174 |upkeep
+2026-08-12 14:00:31,174 |turn|21
+2026-08-12 14:00:31,176 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,176 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"184/230 tox","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 14:00:31,216 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,216 |
+2026-08-12 14:00:31,216 |t:|1786536031
+2026-08-12 14:00:31,216 |move|p2a: Mismagius|Shadow Ball|p1a: Vespiquen
+2026-08-12 14:00:31,216 |-crit|p1a: Vespiquen
+2026-08-12 14:00:31,216 |-damage|p1a: Vespiquen|49/100
+2026-08-12 14:00:31,216 |move|p1a: Vespiquen|Hidden Power|p2a: Mismagius
+2026-08-12 14:00:31,216 |-damage|p2a: Mismagius|115/230 tox
+2026-08-12 14:00:31,216 |
+2026-08-12 14:00:31,216 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,216 |-damage|p2a: Mismagius|101/230 tox|[from] Hail
+2026-08-12 14:00:31,216 |-damage|p1a: Vespiquen|42/100|[from] Hail
+2026-08-12 14:00:31,216 |-heal|p2a: Mismagius|115/230 tox|[from] item: Leftovers
+2026-08-12 14:00:31,216 |-damage|p2a: Mismagius|87/230 tox|[from] psn
+2026-08-12 14:00:31,216 |-heal|p1a: Vespiquen|49/100|[from] item: Leftovers
+2026-08-12 14:00:31,216 |upkeep
+2026-08-12 14:00:31,217 |turn|22
+2026-08-12 14:00:31,218 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,218 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"87/230 tox","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 14:00:31,259 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,259 |
+2026-08-12 14:00:31,259 |t:|1786536031
+2026-08-12 14:00:31,259 |switch|p1a: Ninetales|Ninetales, L83, M|100/100
+2026-08-12 14:00:31,259 |move|p2a: Mismagius|Hidden Power|p1a: Ninetales
+2026-08-12 14:00:31,259 |-damage|p1a: Ninetales|82/100
+2026-08-12 14:00:31,259 |
+2026-08-12 14:00:31,259 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,259 |-damage|p2a: Mismagius|73/230 tox|[from] Hail
+2026-08-12 14:00:31,259 |-damage|p1a: Ninetales|76/100|[from] Hail
+2026-08-12 14:00:31,259 |-heal|p2a: Mismagius|87/230 tox|[from] item: Leftovers
+2026-08-12 14:00:31,259 |-damage|p2a: Mismagius|45/230 tox|[from] psn
+2026-08-12 14:00:31,259 |upkeep
+2026-08-12 14:00:31,259 |turn|23
+2026-08-12 14:00:31,261 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,261 |request|{"active":[{"moves":[{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Ball","id":"shadowball","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Destiny Bond","id":"destinybond","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"45/230 tox","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 14:00:31,300 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,300 |
+2026-08-12 14:00:31,300 |t:|1786536031
+2026-08-12 14:00:31,300 |move|p2a: Mismagius|Shadow Ball|p1a: Ninetales
+2026-08-12 14:00:31,300 |-damage|p1a: Ninetales|45/100
+2026-08-12 14:00:31,300 |-unboost|p1a: Ninetales|spd|1
+2026-08-12 14:00:31,300 |move|p1a: Ninetales|Fire Blast|p2a: Mismagius
+2026-08-12 14:00:31,300 |-damage|p2a: Mismagius|0 fnt
+2026-08-12 14:00:31,300 |faint|p2a: Mismagius
+2026-08-12 14:00:31,300 |-damage|p1a: Ninetales|36/100|[from] item: Life Orb
+2026-08-12 14:00:31,300 |
+2026-08-12 14:00:31,300 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,300 |-damage|p1a: Ninetales|29/100|[from] Hail
+2026-08-12 14:00:31,300 |upkeep
+2026-08-12 14:00:31,301 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,301 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":true,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":53}
+2026-08-12 14:00:31,338 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,338 |
+2026-08-12 14:00:31,338 |t:|1786536031
+2026-08-12 14:00:31,338 |switch|p2a: Hitmontop|Hitmontop, L85, M|224/224
+2026-08-12 14:00:31,338 |-ability|p2a: Hitmontop|Intimidate|boost
+2026-08-12 14:00:31,338 |-unboost|p1a: Ninetales|atk|1
+2026-08-12 14:00:31,338 |turn|24
+2026-08-12 14:00:31,340 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,340 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"224/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 14:00:31,373 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,373 |
+2026-08-12 14:00:31,373 |t:|1786536031
+2026-08-12 14:00:31,373 |move|p1a: Ninetales|Hidden Power|p2a: Hitmontop
+2026-08-12 14:00:31,373 |-resisted|p2a: Hitmontop
+2026-08-12 14:00:31,373 |-damage|p2a: Hitmontop|200/224
+2026-08-12 14:00:31,373 |-damage|p1a: Ninetales|20/100|[from] item: Life Orb
+2026-08-12 14:00:31,373 |move|p2a: Hitmontop|Stone Edge|p1a: Ninetales
+2026-08-12 14:00:31,373 |-supereffective|p1a: Ninetales
+2026-08-12 14:00:31,373 |-damage|p1a: Ninetales|0 fnt
+2026-08-12 14:00:31,373 |faint|p1a: Ninetales
+2026-08-12 14:00:31,373 |
+2026-08-12 14:00:31,373 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,373 |-damage|p2a: Hitmontop|186/224|[from] Hail
+2026-08-12 14:00:31,373 |-heal|p2a: Hitmontop|200/224|[from] item: Leftovers
+2026-08-12 14:00:31,373 |upkeep
+2026-08-12 14:00:31,374 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,374 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"200/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 14:00:31,400 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,400 |
+2026-08-12 14:00:31,400 |t:|1786536031
+2026-08-12 14:00:31,400 |switch|p1a: Persian|Persian, L89, M|100/100
+2026-08-12 14:00:31,400 |turn|25
+2026-08-12 14:00:31,404 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,404 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"200/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 14:00:31,433 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,433 |
+2026-08-12 14:00:31,433 |t:|1786536031
+2026-08-12 14:00:31,433 |move|p1a: Persian|U-turn|p2a: Hitmontop
+2026-08-12 14:00:31,433 |-resisted|p2a: Hitmontop
+2026-08-12 14:00:31,433 |-damage|p2a: Hitmontop|172/224
+2026-08-12 14:00:31,434 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,434 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"172/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 14:00:31,472 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,472 |
+2026-08-12 14:00:31,472 |t:|1786536031
+2026-08-12 14:00:31,472 |switch|p1a: Darkrai|Darkrai, L68|100/100|[from] U-turn
+2026-08-12 14:00:31,472 |move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+2026-08-12 14:00:31,472 |-boost|p2a: Hitmontop|atk|1
+2026-08-12 14:00:31,472 |-boost|p2a: Hitmontop|def|1
+2026-08-12 14:00:31,472 |
+2026-08-12 14:00:31,472 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,472 |-damage|p1a: Darkrai|94/100|[from] Hail
+2026-08-12 14:00:31,472 |-damage|p2a: Hitmontop|158/224|[from] Hail
+2026-08-12 14:00:31,472 |-heal|p1a: Darkrai|100/100|[from] item: Leftovers
+2026-08-12 14:00:31,472 |-heal|p2a: Hitmontop|172/224|[from] item: Leftovers
+2026-08-12 14:00:31,472 |upkeep
+2026-08-12 14:00:31,472 |turn|26
+2026-08-12 14:00:31,473 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,473 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"172/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 14:00:31,516 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,516 |
+2026-08-12 14:00:31,516 |t:|1786536031
+2026-08-12 14:00:31,516 |move|p1a: Darkrai|Substitute|p1a: Darkrai
+2026-08-12 14:00:31,516 |-start|p1a: Darkrai|Substitute
+2026-08-12 14:00:31,516 |-damage|p1a: Darkrai|75/100
+2026-08-12 14:00:31,516 |move|p2a: Hitmontop|Earthquake|p1a: Darkrai
+2026-08-12 14:00:31,516 |-end|p1a: Darkrai|Substitute
+2026-08-12 14:00:31,516 |
+2026-08-12 14:00:31,516 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,516 |-damage|p1a: Darkrai|69/100|[from] Hail
+2026-08-12 14:00:31,516 |-damage|p2a: Hitmontop|158/224|[from] Hail
+2026-08-12 14:00:31,516 |-heal|p1a: Darkrai|75/100|[from] item: Leftovers
+2026-08-12 14:00:31,516 |-heal|p2a: Hitmontop|172/224|[from] item: Leftovers
+2026-08-12 14:00:31,516 |upkeep
+2026-08-12 14:00:31,516 |turn|27
+2026-08-12 14:00:31,517 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,517 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"172/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 14:00:31,560 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,560 |
+2026-08-12 14:00:31,561 |t:|1786536031
+2026-08-12 14:00:31,561 |move|p1a: Darkrai|Dark Void|p2a: Hitmontop|[miss]
+2026-08-12 14:00:31,561 |-miss|p1a: Darkrai|p2a: Hitmontop
+2026-08-12 14:00:31,561 |move|p2a: Hitmontop|Stone Edge|p1a: Darkrai|[miss]
+2026-08-12 14:00:31,561 |-miss|p2a: Hitmontop|p1a: Darkrai
+2026-08-12 14:00:31,561 |
+2026-08-12 14:00:31,561 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,561 |-damage|p1a: Darkrai|69/100|[from] Hail
+2026-08-12 14:00:31,561 |-damage|p2a: Hitmontop|158/224|[from] Hail
+2026-08-12 14:00:31,561 |-heal|p1a: Darkrai|75/100|[from] item: Leftovers
+2026-08-12 14:00:31,561 |-heal|p2a: Hitmontop|172/224|[from] item: Leftovers
+2026-08-12 14:00:31,561 |upkeep
+2026-08-12 14:00:31,561 |turn|28
+2026-08-12 14:00:31,562 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,562 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"172/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 14:00:31,605 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,605 |
+2026-08-12 14:00:31,605 |t:|1786536031
+2026-08-12 14:00:31,605 |move|p1a: Darkrai|Dark Void|p2a: Hitmontop
+2026-08-12 14:00:31,605 |-status|p2a: Hitmontop|slp|[from] move: Dark Void
+2026-08-12 14:00:31,605 |cant|p2a: Hitmontop|slp
+2026-08-12 14:00:31,605 |
+2026-08-12 14:00:31,605 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,605 |-damage|p1a: Darkrai|69/100|[from] Hail
+2026-08-12 14:00:31,605 |-damage|p2a: Hitmontop|158/224 slp|[from] Hail
+2026-08-12 14:00:31,605 |-heal|p1a: Darkrai|75/100|[from] item: Leftovers
+2026-08-12 14:00:31,605 |-damage|p2a: Hitmontop|130/224 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:31,605 |-heal|p2a: Hitmontop|144/224 slp|[from] item: Leftovers
+2026-08-12 14:00:31,605 |upkeep
+2026-08-12 14:00:31,605 |turn|29
+2026-08-12 14:00:31,605 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,605 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"144/224 slp","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 14:00:31,642 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,642 |
+2026-08-12 14:00:31,642 |t:|1786536031
+2026-08-12 14:00:31,642 |move|p1a: Darkrai|Dark Void|p2a: Hitmontop
+2026-08-12 14:00:31,642 |-fail|p2a: Hitmontop|slp
+2026-08-12 14:00:31,642 |cant|p2a: Hitmontop|slp
+2026-08-12 14:00:31,642 |
+2026-08-12 14:00:31,642 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,642 |-damage|p1a: Darkrai|69/100|[from] Hail
+2026-08-12 14:00:31,642 |-damage|p2a: Hitmontop|130/224 slp|[from] Hail
+2026-08-12 14:00:31,642 |-heal|p1a: Darkrai|75/100|[from] item: Leftovers
+2026-08-12 14:00:31,642 |-damage|p2a: Hitmontop|102/224 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:31,642 |-heal|p2a: Hitmontop|116/224 slp|[from] item: Leftovers
+2026-08-12 14:00:31,642 |upkeep
+2026-08-12 14:00:31,642 |turn|30
+2026-08-12 14:00:31,643 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,643 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"116/224 slp","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 14:00:31,674 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,674 |
+2026-08-12 14:00:31,674 |t:|1786536031
+2026-08-12 14:00:31,674 |move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+2026-08-12 14:00:31,674 |-boost|p1a: Darkrai|spa|2
+2026-08-12 14:00:31,674 |cant|p2a: Hitmontop|slp
+2026-08-12 14:00:31,674 |
+2026-08-12 14:00:31,674 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,674 |-damage|p1a: Darkrai|69/100|[from] Hail
+2026-08-12 14:00:31,674 |-damage|p2a: Hitmontop|102/224 slp|[from] Hail
+2026-08-12 14:00:31,674 |-heal|p1a: Darkrai|75/100|[from] item: Leftovers
+2026-08-12 14:00:31,674 |-damage|p2a: Hitmontop|74/224 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:31,674 |-heal|p2a: Hitmontop|88/224 slp|[from] item: Leftovers
+2026-08-12 14:00:31,674 |upkeep
+2026-08-12 14:00:31,674 |turn|31
+2026-08-12 14:00:31,677 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,677 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"88/224 slp","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 14:00:31,715 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,715 |
+2026-08-12 14:00:31,715 |t:|1786536031
+2026-08-12 14:00:31,715 |move|p1a: Darkrai|Substitute|p1a: Darkrai
+2026-08-12 14:00:31,715 |-start|p1a: Darkrai|Substitute
+2026-08-12 14:00:31,715 |-damage|p1a: Darkrai|50/100
+2026-08-12 14:00:31,715 |cant|p2a: Hitmontop|slp
+2026-08-12 14:00:31,715 |
+2026-08-12 14:00:31,715 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,715 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,715 |-damage|p2a: Hitmontop|74/224 slp|[from] Hail
+2026-08-12 14:00:31,715 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,715 |-damage|p2a: Hitmontop|46/224 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:31,715 |-heal|p2a: Hitmontop|60/224 slp|[from] item: Leftovers
+2026-08-12 14:00:31,715 |upkeep
+2026-08-12 14:00:31,715 |turn|32
+2026-08-12 14:00:31,716 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,716 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"60/224 slp","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 14:00:31,751 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,751 |
+2026-08-12 14:00:31,751 |t:|1786536031
+2026-08-12 14:00:31,751 |move|p1a: Darkrai|Substitute|p1a: Darkrai
+2026-08-12 14:00:31,751 |-fail|p1a: Darkrai|move: Substitute
+2026-08-12 14:00:31,751 |-curestatus|p2a: Hitmontop|slp|[msg]
+2026-08-12 14:00:31,751 |move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+2026-08-12 14:00:31,751 |-boost|p2a: Hitmontop|atk|1
+2026-08-12 14:00:31,751 |-boost|p2a: Hitmontop|def|1
+2026-08-12 14:00:31,751 |
+2026-08-12 14:00:31,751 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,751 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,751 |-damage|p2a: Hitmontop|46/224|[from] Hail
+2026-08-12 14:00:31,751 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,751 |-heal|p2a: Hitmontop|60/224|[from] item: Leftovers
+2026-08-12 14:00:31,751 |upkeep
+2026-08-12 14:00:31,751 |turn|33
+2026-08-12 14:00:31,752 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,752 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"60/224","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 14:00:31,794 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,794 |
+2026-08-12 14:00:31,794 |t:|1786536031
+2026-08-12 14:00:31,794 |move|p1a: Darkrai|Dark Pulse|p2a: Hitmontop
+2026-08-12 14:00:31,794 |-resisted|p2a: Hitmontop
+2026-08-12 14:00:31,794 |-crit|p2a: Hitmontop
+2026-08-12 14:00:31,794 |-damage|p2a: Hitmontop|0 fnt
+2026-08-12 14:00:31,794 |faint|p2a: Hitmontop
+2026-08-12 14:00:31,794 |
+2026-08-12 14:00:31,794 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,794 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,794 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,794 |upkeep
+2026-08-12 14:00:31,795 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,795 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":true,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":79}
+2026-08-12 14:00:31,820 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,820 |
+2026-08-12 14:00:31,820 |t:|1786536031
+2026-08-12 14:00:31,820 |switch|p2a: Moltres|Moltres, L78|268/268
+2026-08-12 14:00:31,820 |-ability|p2a: Moltres|Pressure
+2026-08-12 14:00:31,820 |turn|34
+2026-08-12 14:00:31,821 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,821 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 14:00:31,844 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,844 |
+2026-08-12 14:00:31,844 |t:|1786536031
+2026-08-12 14:00:31,844 |move|p1a: Darkrai|Dark Void|p2a: Moltres
+2026-08-12 14:00:31,844 |-status|p2a: Moltres|slp|[from] move: Dark Void
+2026-08-12 14:00:31,844 |cant|p2a: Moltres|slp
+2026-08-12 14:00:31,845 |
+2026-08-12 14:00:31,845 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,845 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,845 |-damage|p2a: Moltres|252/268 slp|[from] Hail
+2026-08-12 14:00:31,845 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,845 |-damage|p2a: Moltres|219/268 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:31,845 |-heal|p2a: Moltres|235/268 slp|[from] item: Leftovers
+2026-08-12 14:00:31,845 |upkeep
+2026-08-12 14:00:31,845 |turn|35
+2026-08-12 14:00:31,846 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,846 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"235/268 slp","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 14:00:31,883 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,883 |
+2026-08-12 14:00:31,883 |t:|1786536031
+2026-08-12 14:00:31,883 |switch|p2a: Nidoqueen|Nidoqueen, L84, F|288/288
+2026-08-12 14:00:31,883 |move|p1a: Darkrai|Dark Void|p2a: Nidoqueen
+2026-08-12 14:00:31,883 |-message|Sleep Clause Mod activated.
+2026-08-12 14:00:31,883 |-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+2026-08-12 14:00:31,883 |
+2026-08-12 14:00:31,883 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,883 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,883 |-damage|p2a: Nidoqueen|270/288|[from] Hail
+2026-08-12 14:00:31,883 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,883 |-heal|p2a: Nidoqueen|288/288|[from] item: Black Sludge
+2026-08-12 14:00:31,883 |upkeep
+2026-08-12 14:00:31,884 |turn|36
+2026-08-12 14:00:31,884 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,884 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"235/268 slp","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 14:00:31,924 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,924 |
+2026-08-12 14:00:31,924 |t:|1786536031
+2026-08-12 14:00:31,924 |move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+2026-08-12 14:00:31,924 |-boost|p1a: Darkrai|spa|2
+2026-08-12 14:00:31,924 |move|p2a: Nidoqueen|Sludge Bomb|p1a: Darkrai
+2026-08-12 14:00:31,924 |-end|p1a: Darkrai|Substitute
+2026-08-12 14:00:31,924 |
+2026-08-12 14:00:31,924 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,924 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,924 |-damage|p2a: Nidoqueen|270/288|[from] Hail
+2026-08-12 14:00:31,924 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,924 |-heal|p2a: Nidoqueen|288/288|[from] item: Black Sludge
+2026-08-12 14:00:31,924 |upkeep
+2026-08-12 14:00:31,924 |turn|37
+2026-08-12 14:00:31,924 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,924 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"235/268 slp","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 14:00:31,980 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,980 |
+2026-08-12 14:00:31,980 |t:|1786536031
+2026-08-12 14:00:31,980 |move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+2026-08-12 14:00:31,980 |-boost|p1a: Darkrai|spa|2
+2026-08-12 14:00:31,980 |move|p2a: Nidoqueen|Toxic Spikes|p1a: Darkrai
+2026-08-12 14:00:31,980 |-sidestart|p1: BOT1|move: Toxic Spikes
+2026-08-12 14:00:31,980 |
+2026-08-12 14:00:31,980 |-weather|Hail|[upkeep]
+2026-08-12 14:00:31,980 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:31,980 |-damage|p2a: Nidoqueen|270/288|[from] Hail
+2026-08-12 14:00:31,980 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:31,980 |-heal|p2a: Nidoqueen|288/288|[from] item: Black Sludge
+2026-08-12 14:00:31,980 |upkeep
+2026-08-12 14:00:31,981 |turn|38
+2026-08-12 14:00:31,982 >battle-gen4randombattle-329595
+2026-08-12 14:00:31,982 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"235/268 slp","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 14:00:32,033 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,033 |
+2026-08-12 14:00:32,033 |t:|1786536032
+2026-08-12 14:00:32,033 |switch|p2a: Moltres|Moltres, L78|235/268 slp
+2026-08-12 14:00:32,033 |-ability|p2a: Moltres|Pressure
+2026-08-12 14:00:32,033 |move|p1a: Darkrai|Dark Pulse|p2a: Moltres
+2026-08-12 14:00:32,033 |-crit|p2a: Moltres
+2026-08-12 14:00:32,033 |-damage|p2a: Moltres|0 fnt
+2026-08-12 14:00:32,033 |faint|p2a: Moltres
+2026-08-12 14:00:32,033 |
+2026-08-12 14:00:32,033 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,033 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:32,033 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:32,033 |upkeep
+2026-08-12 14:00:32,034 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,034 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":91}
+2026-08-12 14:00:32,064 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,065 |
+2026-08-12 14:00:32,065 |t:|1786536032
+2026-08-12 14:00:32,065 |switch|p2a: Nidoqueen|Nidoqueen, L84, F|288/288
+2026-08-12 14:00:32,065 |turn|39
+2026-08-12 14:00:32,069 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,069 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"288/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 14:00:32,102 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,102 |
+2026-08-12 14:00:32,102 |t:|1786536032
+2026-08-12 14:00:32,102 |move|p1a: Darkrai|Dark Void|p2a: Nidoqueen
+2026-08-12 14:00:32,102 |-status|p2a: Nidoqueen|slp|[from] move: Dark Void
+2026-08-12 14:00:32,102 |cant|p2a: Nidoqueen|slp
+2026-08-12 14:00:32,102 |
+2026-08-12 14:00:32,102 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,102 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:32,102 |-damage|p2a: Nidoqueen|270/288 slp|[from] Hail
+2026-08-12 14:00:32,102 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:32,102 |-damage|p2a: Nidoqueen|234/288 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:32,102 |-heal|p2a: Nidoqueen|252/288 slp|[from] item: Black Sludge
+2026-08-12 14:00:32,102 |upkeep
+2026-08-12 14:00:32,102 |turn|40
+2026-08-12 14:00:32,104 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,104 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"252/288 slp","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 14:00:32,145 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,145 |
+2026-08-12 14:00:32,145 |t:|1786536032
+2026-08-12 14:00:32,145 |move|p1a: Darkrai|Dark Void|p2a: Nidoqueen
+2026-08-12 14:00:32,145 |-fail|p2a: Nidoqueen|slp
+2026-08-12 14:00:32,145 |cant|p2a: Nidoqueen|slp
+2026-08-12 14:00:32,145 |
+2026-08-12 14:00:32,145 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,145 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:32,145 |-damage|p2a: Nidoqueen|234/288 slp|[from] Hail
+2026-08-12 14:00:32,145 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:32,145 |-damage|p2a: Nidoqueen|198/288 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:32,145 |-heal|p2a: Nidoqueen|216/288 slp|[from] item: Black Sludge
+2026-08-12 14:00:32,145 |upkeep
+2026-08-12 14:00:32,145 |turn|41
+2026-08-12 14:00:32,146 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,146 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"216/288 slp","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 14:00:32,179 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,179 |
+2026-08-12 14:00:32,179 |t:|1786536032
+2026-08-12 14:00:32,179 |move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+2026-08-12 14:00:32,179 |-boost|p1a: Darkrai|spa|0
+2026-08-12 14:00:32,179 |cant|p2a: Nidoqueen|slp
+2026-08-12 14:00:32,179 |
+2026-08-12 14:00:32,179 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,179 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:32,179 |-damage|p2a: Nidoqueen|198/288 slp|[from] Hail
+2026-08-12 14:00:32,179 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:32,179 |-damage|p2a: Nidoqueen|162/288 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+2026-08-12 14:00:32,179 |-heal|p2a: Nidoqueen|180/288 slp|[from] item: Black Sludge
+2026-08-12 14:00:32,180 |upkeep
+2026-08-12 14:00:32,180 |turn|42
+2026-08-12 14:00:32,182 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,182 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"180/288 slp","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 14:00:32,214 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,214 |
+2026-08-12 14:00:32,214 |t:|1786536032
+2026-08-12 14:00:32,214 |move|p1a: Darkrai|Dark Void|p2a: Nidoqueen|[miss]
+2026-08-12 14:00:32,214 |-miss|p1a: Darkrai|p2a: Nidoqueen
+2026-08-12 14:00:32,214 |-curestatus|p2a: Nidoqueen|slp|[msg]
+2026-08-12 14:00:32,214 |move|p2a: Nidoqueen|Toxic Spikes|p1a: Darkrai
+2026-08-12 14:00:32,214 |-sidestart|p1: BOT1|move: Toxic Spikes
+2026-08-12 14:00:32,214 |
+2026-08-12 14:00:32,214 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,214 |-damage|p1a: Darkrai|44/100|[from] Hail
+2026-08-12 14:00:32,214 |-damage|p2a: Nidoqueen|162/288|[from] Hail
+2026-08-12 14:00:32,214 |-heal|p1a: Darkrai|50/100|[from] item: Leftovers
+2026-08-12 14:00:32,214 |-heal|p2a: Nidoqueen|180/288|[from] item: Black Sludge
+2026-08-12 14:00:32,214 |upkeep
+2026-08-12 14:00:32,214 |turn|43
+2026-08-12 14:00:32,215 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,215 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"180/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 14:00:32,261 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,261 |
+2026-08-12 14:00:32,261 |t:|1786536032
+2026-08-12 14:00:32,261 |move|p1a: Darkrai|Substitute|p1a: Darkrai
+2026-08-12 14:00:32,261 |-start|p1a: Darkrai|Substitute
+2026-08-12 14:00:32,261 |-damage|p1a: Darkrai|25/100
+2026-08-12 14:00:32,261 |move|p2a: Nidoqueen|Toxic Spikes||[still]
+2026-08-12 14:00:32,261 |-fail|p2a: Nidoqueen
+2026-08-12 14:00:32,261 |
+2026-08-12 14:00:32,261 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,261 |-damage|p1a: Darkrai|19/100|[from] Hail
+2026-08-12 14:00:32,261 |-damage|p2a: Nidoqueen|162/288|[from] Hail
+2026-08-12 14:00:32,261 |-heal|p1a: Darkrai|25/100|[from] item: Leftovers
+2026-08-12 14:00:32,261 |-heal|p2a: Nidoqueen|180/288|[from] item: Black Sludge
+2026-08-12 14:00:32,261 |upkeep
+2026-08-12 14:00:32,261 |turn|44
+2026-08-12 14:00:32,261 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,261 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"180/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 14:00:32,312 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,312 |
+2026-08-12 14:00:32,312 |t:|1786536032
+2026-08-12 14:00:32,312 |move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+2026-08-12 14:00:32,312 |-boost|p1a: Darkrai|spa|0
+2026-08-12 14:00:32,312 |move|p2a: Nidoqueen|Fire Blast|p1a: Darkrai
+2026-08-12 14:00:32,312 |-end|p1a: Darkrai|Substitute
+2026-08-12 14:00:32,312 |
+2026-08-12 14:00:32,312 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,312 |-damage|p1a: Darkrai|19/100|[from] Hail
+2026-08-12 14:00:32,312 |-damage|p2a: Nidoqueen|162/288|[from] Hail
+2026-08-12 14:00:32,312 |-heal|p1a: Darkrai|25/100|[from] item: Leftovers
+2026-08-12 14:00:32,312 |-heal|p2a: Nidoqueen|180/288|[from] item: Black Sludge
+2026-08-12 14:00:32,312 |upkeep
+2026-08-12 14:00:32,312 |turn|45
+2026-08-12 14:00:32,313 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,313 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"180/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 14:00:32,360 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,360 |
+2026-08-12 14:00:32,360 |t:|1786536032
+2026-08-12 14:00:32,360 |move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+2026-08-12 14:00:32,360 |-boost|p1a: Darkrai|spa|0
+2026-08-12 14:00:32,360 |move|p2a: Nidoqueen|Fire Blast|p1a: Darkrai
+2026-08-12 14:00:32,360 |-damage|p1a: Darkrai|0 fnt
+2026-08-12 14:00:32,360 |faint|p1a: Darkrai
+2026-08-12 14:00:32,360 |
+2026-08-12 14:00:32,360 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,360 |-damage|p2a: Nidoqueen|162/288|[from] Hail
+2026-08-12 14:00:32,360 |-heal|p2a: Nidoqueen|180/288|[from] item: Black Sludge
+2026-08-12 14:00:32,360 |upkeep
+2026-08-12 14:00:32,361 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,361 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"180/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 14:00:32,395 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,395 |
+2026-08-12 14:00:32,395 |t:|1786536032
+2026-08-12 14:00:32,395 |switch|p1a: Persian|Persian, L89, M|100/100
+2026-08-12 14:00:32,395 |-status|p1a: Persian|tox
+2026-08-12 14:00:32,395 |turn|46
+2026-08-12 14:00:32,396 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,396 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"180/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 14:00:32,482 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,482 |
+2026-08-12 14:00:32,482 |t:|1786536032
+2026-08-12 14:00:32,483 |move|p1a: Persian|U-turn|p2a: Nidoqueen
+2026-08-12 14:00:32,483 |-resisted|p2a: Nidoqueen
+2026-08-12 14:00:32,483 |-damage|p2a: Nidoqueen|148/288
+2026-08-12 14:00:32,483 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,483 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 14:00:32,604 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,604 |
+2026-08-12 14:00:32,604 |t:|1786536032
+2026-08-12 14:00:32,604 |switch|p1a: Abomasnow|Abomasnow, L81, F|83/100|[from] U-turn
+2026-08-12 14:00:32,604 |-status|p1a: Abomasnow|tox
+2026-08-12 14:00:32,604 |move|p2a: Nidoqueen|Earthquake|p1a: Abomasnow
+2026-08-12 14:00:32,604 |-resisted|p1a: Abomasnow
+2026-08-12 14:00:32,604 |-damage|p1a: Abomasnow|63/100 tox
+2026-08-12 14:00:32,604 |
+2026-08-12 14:00:32,604 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,604 |-damage|p2a: Nidoqueen|130/288|[from] Hail
+2026-08-12 14:00:32,604 |-heal|p2a: Nidoqueen|148/288|[from] item: Black Sludge
+2026-08-12 14:00:32,604 |-heal|p1a: Abomasnow|69/100 tox|[from] item: Leftovers
+2026-08-12 14:00:32,604 |-damage|p1a: Abomasnow|63/100 tox|[from] psn
+2026-08-12 14:00:32,604 |upkeep
+2026-08-12 14:00:32,604 |turn|47
+2026-08-12 14:00:32,616 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,616 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"211/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 14:00:32,765 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,765 |
+2026-08-12 14:00:32,765 |t:|1786536032
+2026-08-12 14:00:32,765 |switch|p2a: Deoxys|Deoxys-Speed, L80|211/211
+2026-08-12 14:00:32,766 |-ability|p2a: Deoxys|Pressure
+2026-08-12 14:00:32,766 |move|p1a: Abomasnow|Earthquake|p2a: Deoxys
+2026-08-12 14:00:32,766 |-damage|p2a: Deoxys|146/211
+2026-08-12 14:00:32,766 |
+2026-08-12 14:00:32,766 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,766 |-damage|p2a: Deoxys|133/211|[from] Hail
+2026-08-12 14:00:32,766 |-heal|p2a: Deoxys|146/211|[from] item: Leftovers
+2026-08-12 14:00:32,766 |-heal|p1a: Abomasnow|69/100 tox|[from] item: Leftovers
+2026-08-12 14:00:32,766 |-damage|p1a: Abomasnow|57/100 tox|[from] psn
+2026-08-12 14:00:32,766 |upkeep
+2026-08-12 14:00:32,766 |turn|48
+2026-08-12 14:00:32,787 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,787 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"146/211","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 14:00:32,933 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,933 |
+2026-08-12 14:00:32,933 |t:|1786536032
+2026-08-12 14:00:32,933 |move|p2a: Deoxys|Psycho Boost|p1a: Abomasnow
+2026-08-12 14:00:32,933 |-damage|p1a: Abomasnow|8/100 tox
+2026-08-12 14:00:32,933 |-unboost|p2a: Deoxys|spa|2
+2026-08-12 14:00:32,933 |move|p1a: Abomasnow|Earthquake|p2a: Deoxys
+2026-08-12 14:00:32,933 |-damage|p2a: Deoxys|82/211
+2026-08-12 14:00:32,933 |
+2026-08-12 14:00:32,933 |-weather|Hail|[upkeep]
+2026-08-12 14:00:32,933 |-damage|p2a: Deoxys|69/211|[from] Hail
+2026-08-12 14:00:32,933 |-heal|p2a: Deoxys|82/211|[from] item: Leftovers
+2026-08-12 14:00:32,933 |-heal|p1a: Abomasnow|15/100 tox|[from] item: Leftovers
+2026-08-12 14:00:32,933 |-damage|p1a: Abomasnow|0 fnt|[from] psn
+2026-08-12 14:00:32,933 |faint|p1a: Abomasnow
+2026-08-12 14:00:32,933 |upkeep
+2026-08-12 14:00:32,941 >battle-gen4randombattle-329595
+2026-08-12 14:00:32,941 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 14:00:33,032 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,032 |
+2026-08-12 14:00:33,032 |t:|1786536032
+2026-08-12 14:00:33,033 |switch|p1a: Vespiquen|Vespiquen, L96, F|49/100
+2026-08-12 14:00:33,033 |-ability|p1a: Vespiquen|Pressure
+2026-08-12 14:00:33,033 |turn|49
+2026-08-12 14:00:33,044 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,045 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 14:00:33,350 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,350 |
+2026-08-12 14:00:33,350 |t:|1786536033
+2026-08-12 14:00:33,350 |switch|p2a: Nidoqueen|Nidoqueen, L84, F|148/288
+2026-08-12 14:00:33,350 |move|p1a: Vespiquen|Toxic|p2a: Nidoqueen
+2026-08-12 14:00:33,350 |-immune|p2a: Nidoqueen
+2026-08-12 14:00:33,350 |
+2026-08-12 14:00:33,350 |-weather|Hail|[upkeep]
+2026-08-12 14:00:33,350 |-damage|p2a: Nidoqueen|130/288|[from] Hail
+2026-08-12 14:00:33,350 |-damage|p1a: Vespiquen|42/100|[from] Hail
+2026-08-12 14:00:33,350 |-heal|p2a: Nidoqueen|148/288|[from] item: Black Sludge
+2026-08-12 14:00:33,350 |-heal|p1a: Vespiquen|49/100|[from] item: Leftovers
+2026-08-12 14:00:33,350 |upkeep
+2026-08-12 14:00:33,350 |turn|50
+2026-08-12 14:00:33,350 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,350 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":29,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 14:00:33,554 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,554 |
+2026-08-12 14:00:33,554 |t:|1786536033
+2026-08-12 14:00:33,554 |move|p2a: Nidoqueen|Toxic Spikes||[still]
+2026-08-12 14:00:33,554 |-fail|p2a: Nidoqueen
+2026-08-12 14:00:33,554 |move|p1a: Vespiquen|Roost|p1a: Vespiquen
+2026-08-12 14:00:33,554 |-heal|p1a: Vespiquen|98/100
+2026-08-12 14:00:33,554 |-singleturn|p1a: Vespiquen|move: Roost
+2026-08-12 14:00:33,554 |
+2026-08-12 14:00:33,554 |-weather|Hail|[upkeep]
+2026-08-12 14:00:33,554 |-damage|p2a: Nidoqueen|130/288|[from] Hail
+2026-08-12 14:00:33,554 |-damage|p1a: Vespiquen|92/100|[from] Hail
+2026-08-12 14:00:33,554 |-heal|p2a: Nidoqueen|148/288|[from] item: Black Sludge
+2026-08-12 14:00:33,554 |-heal|p1a: Vespiquen|98/100|[from] item: Leftovers
+2026-08-12 14:00:33,554 |upkeep
+2026-08-12 14:00:33,554 |turn|51
+2026-08-12 14:00:33,556 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,556 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":27,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"148/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 14:00:33,753 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,753 |
+2026-08-12 14:00:33,753 |t:|1786536033
+2026-08-12 14:00:33,753 |move|p2a: Nidoqueen|Earthquake|p1a: Vespiquen
+2026-08-12 14:00:33,753 |-immune|p1a: Vespiquen
+2026-08-12 14:00:33,753 |move|p1a: Vespiquen|U-turn|p2a: Nidoqueen
+2026-08-12 14:00:33,753 |-resisted|p2a: Nidoqueen
+2026-08-12 14:00:33,753 |-damage|p2a: Nidoqueen|108/288
+2026-08-12 14:00:33,754 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,754 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"108/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 14:00:33,947 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,947 |
+2026-08-12 14:00:33,947 |t:|1786536033
+2026-08-12 14:00:33,947 |switch|p1a: Persian|Persian, L89, M|100/100 tox|[from] U-turn
+2026-08-12 14:00:33,947 |
+2026-08-12 14:00:33,947 |-weather|Hail|[upkeep]
+2026-08-12 14:00:33,947 |-damage|p1a: Persian|94/100 tox|[from] Hail
+2026-08-12 14:00:33,947 |-damage|p2a: Nidoqueen|90/288|[from] Hail
+2026-08-12 14:00:33,947 |-damage|p1a: Persian|88/100 tox|[from] psn
+2026-08-12 14:00:33,947 |-heal|p2a: Nidoqueen|108/288|[from] item: Black Sludge
+2026-08-12 14:00:33,947 |upkeep
+2026-08-12 14:00:33,947 |turn|52
+2026-08-12 14:00:33,976 >battle-gen4randombattle-329595
+2026-08-12 14:00:33,976 |request|{"active":[{"moves":[{"move":"Sludge Bomb","id":"sludgebomb","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":27,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"108/288","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":127}
+2026-08-12 14:00:34,093 >battle-gen4randombattle-329595
+2026-08-12 14:00:34,093 |
+2026-08-12 14:00:34,093 |t:|1786536034
+2026-08-12 14:00:34,093 |move|p1a: Persian|Return|p2a: Nidoqueen
+2026-08-12 14:00:34,093 |-damage|p2a: Nidoqueen|0 fnt
+2026-08-12 14:00:34,093 |faint|p2a: Nidoqueen
+2026-08-12 14:00:34,093 |
+2026-08-12 14:00:34,093 |-weather|Hail|[upkeep]
+2026-08-12 14:00:34,093 |-damage|p1a: Persian|82/100 tox|[from] Hail
+2026-08-12 14:00:34,093 |-damage|p1a: Persian|70/100 tox|[from] psn
+2026-08-12 14:00:34,093 |upkeep
+2026-08-12 14:00:34,095 >battle-gen4randombattle-329595
+2026-08-12 14:00:34,095 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"0 fnt","active":true,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":false,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":129}
+2026-08-12 14:00:34,159 >battle-gen4randombattle-329595
+2026-08-12 14:00:34,159 |
+2026-08-12 14:00:34,159 |t:|1786536034
+2026-08-12 14:00:34,159 |switch|p2a: Deoxys|Deoxys-Speed, L80|82/211
+2026-08-12 14:00:34,159 |-ability|p2a: Deoxys|Pressure
+2026-08-12 14:00:34,159 |turn|53
+2026-08-12 14:00:34,170 >battle-gen4randombattle-329595
+2026-08-12 14:00:34,170 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Boost","id":"psychoboost","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Deoxys","details":"Deoxys-Speed, L80","condition":"82/211","active":true,"stats":{"atk":198,"def":190,"spa":198,"spd":190,"spe":334},"moves":["spikes","superpower","psychoboost","taunt"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Nidoqueen","details":"Nidoqueen, L84, F","condition":"0 fnt","active":false,"stats":{"atk":186,"def":194,"spa":174,"spd":191,"spe":176},"moves":["sludgebomb","toxicspikes","fireblast","earthquake"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Flareon","details":"Flareon, L92, M","condition":"0 fnt","active":false,"stats":{"atk":246,"def":163,"spa":226,"spd":255,"spe":172},"moves":["wish","hiddenpowergrass","fireblast","protect"],"baseAbility":"flashfire","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["fireblast","airslash","toxic","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmontop","details":"Hitmontop, L85, M","condition":"0 fnt","active":false,"stats":{"atk":210,"def":210,"spa":108,"spd":236,"spe":168},"moves":["stoneedge","bulkup","earthquake","closecombat"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mismagius","details":"Mismagius, L81, M","condition":"0 fnt","active":false,"stats":{"atk":104,"def":143,"spa":216,"spd":216,"spe":216},"moves":["hiddenpowerfighting","painsplit","shadowball","destinybond"],"baseAbility":"levitate","item":"leftovers","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 14:00:34,246 >battle-gen4randombattle-329595
+2026-08-12 14:00:34,246 |
+2026-08-12 14:00:34,246 |t:|1786536034
+2026-08-12 14:00:34,246 |move|p2a: Deoxys|Spikes|p1a: Persian
+2026-08-12 14:00:34,246 |-sidestart|p1: BOT1|Spikes
+2026-08-12 14:00:34,246 |move|p1a: Persian|Return|p2a: Deoxys
+2026-08-12 14:00:34,246 |-crit|p2a: Deoxys
+2026-08-12 14:00:34,246 |-damage|p2a: Deoxys|0 fnt
+2026-08-12 14:00:34,246 |faint|p2a: Deoxys
+2026-08-12 14:00:34,246 |
+2026-08-12 14:00:34,246 |win|BOT1

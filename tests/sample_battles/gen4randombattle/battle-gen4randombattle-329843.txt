@@ -1,0 +1,614 @@
+2026-08-12 14:02:46,741 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,741 |init|battle
+2026-08-12 14:02:46,742 |title|BOT5 vs. BOT6
+2026-08-12 14:02:46,742 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-329843">battle-gen4randombattle-329843</a>&raquo;
+2026-08-12 14:02:46,785 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,786 |t:|1786536166
+2026-08-12 14:02:46,786 |gametype|singles
+2026-08-12 14:02:46,786 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,786 |player|p1|BOT5|101|
+2026-08-12 14:02:46,787 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,787 |player|p2|BOT6|101|
+2026-08-12 14:02:46,787 |gen|4
+2026-08-12 14:02:46,787 |tier|[Gen 4] Random Battle
+2026-08-12 14:02:46,787 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 14:02:46,787 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 14:02:46,787 |
+2026-08-12 14:02:46,787 |t:|1786536166
+2026-08-12 14:02:46,787 |teamsize|p1|6
+2026-08-12 14:02:46,787 |teamsize|p2|6
+2026-08-12 14:02:46,787 |start
+2026-08-12 14:02:46,787 |switch|p1a: Miltank|Miltank, L82, F|100/100
+2026-08-12 14:02:46,787 |switch|p2a: Ampharos|Ampharos, L87, F|298/298
+2026-08-12 14:02:46,787 |turn|1
+2026-08-12 14:02:46,787 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,787 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Discharge","id":"discharge","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":true,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"273/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 14:02:46,823 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,823 |
+2026-08-12 14:02:46,823 |t:|1786536166
+2026-08-12 14:02:46,823 |switch|p2a: Bastiodon|Bastiodon, L97, F|273/273
+2026-08-12 14:02:46,823 |move|p1a: Miltank|Earthquake|p2a: Bastiodon
+2026-08-12 14:02:46,823 |-supereffective|p2a: Bastiodon
+2026-08-12 14:02:46,823 |-damage|p2a: Bastiodon|145/273
+2026-08-12 14:02:46,823 |
+2026-08-12 14:02:46,823 |-heal|p2a: Bastiodon|162/273|[from] item: Leftovers
+2026-08-12 14:02:46,824 |upkeep
+2026-08-12 14:02:46,824 |turn|2
+2026-08-12 14:02:46,826 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,826 |request|{"active":[{"moves":[{"move":"Roar","id":"roar","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":true,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 14:02:46,848 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,848 |
+2026-08-12 14:02:46,848 |t:|1786536166
+2026-08-12 14:02:46,848 |switch|p2a: Cherrim|Cherrim, L95, F|287/287
+2026-08-12 14:02:46,848 |move|p1a: Miltank|Milk Drink||[still]
+2026-08-12 14:02:46,848 |-fail|p1a: Miltank|heal
+2026-08-12 14:02:46,848 |
+2026-08-12 14:02:46,848 |upkeep
+2026-08-12 14:02:46,848 |turn|3
+2026-08-12 14:02:46,849 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,849 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 14:02:46,888 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,888 |
+2026-08-12 14:02:46,888 |t:|1786536166
+2026-08-12 14:02:46,888 |move|p2a: Cherrim|Toxic|p1a: Miltank
+2026-08-12 14:02:46,888 |-status|p1a: Miltank|tox
+2026-08-12 14:02:46,888 |move|p1a: Miltank|Body Slam|p2a: Cherrim
+2026-08-12 14:02:46,888 |-damage|p2a: Cherrim|205/287
+2026-08-12 14:02:46,888 |-status|p2a: Cherrim|par
+2026-08-12 14:02:46,888 |
+2026-08-12 14:02:46,888 |-damage|p1a: Miltank|94/100 tox|[from] psn
+2026-08-12 14:02:46,888 |-heal|p2a: Cherrim|222/287 par|[from] item: Leftovers
+2026-08-12 14:02:46,888 |upkeep
+2026-08-12 14:02:46,888 |turn|4
+2026-08-12 14:02:46,888 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,888 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"222/287 par","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 14:02:46,919 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,919 |
+2026-08-12 14:02:46,919 |t:|1786536166
+2026-08-12 14:02:46,919 |move|p1a: Miltank|Body Slam|p2a: Cherrim
+2026-08-12 14:02:46,919 |-damage|p2a: Cherrim|146/287 par
+2026-08-12 14:02:46,919 |move|p2a: Cherrim|Toxic|p1a: Miltank
+2026-08-12 14:02:46,920 |-fail|p1a: Miltank|tox
+2026-08-12 14:02:46,920 |
+2026-08-12 14:02:46,920 |-heal|p1a: Miltank|100/100 tox|[from] item: Leftovers
+2026-08-12 14:02:46,920 |-damage|p1a: Miltank|88/100 tox|[from] psn
+2026-08-12 14:02:46,920 |-heal|p2a: Cherrim|163/287 par|[from] item: Leftovers
+2026-08-12 14:02:46,920 |upkeep
+2026-08-12 14:02:46,920 |turn|5
+2026-08-12 14:02:46,920 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,920 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":8,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"163/287 par","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 14:02:46,940 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,940 |
+2026-08-12 14:02:46,940 |t:|1786536166
+2026-08-12 14:02:46,940 |move|p1a: Miltank|Earthquake|p2a: Cherrim
+2026-08-12 14:02:46,940 |-resisted|p2a: Cherrim
+2026-08-12 14:02:46,940 |-damage|p2a: Cherrim|135/287 par
+2026-08-12 14:02:46,940 |move|p2a: Cherrim|Aromatherapy|p2a: Cherrim
+2026-08-12 14:02:46,940 |-cureteam|p2a: Cherrim|[from] move: Aromatherapy
+2026-08-12 14:02:46,940 |
+2026-08-12 14:02:46,940 |-heal|p2a: Cherrim|152/287|[from] item: Leftovers
+2026-08-12 14:02:46,940 |-heal|p1a: Miltank|94/100 tox|[from] item: Leftovers
+2026-08-12 14:02:46,940 |-damage|p1a: Miltank|76/100 tox|[from] psn
+2026-08-12 14:02:46,940 |upkeep
+2026-08-12 14:02:46,940 |turn|6
+2026-08-12 14:02:46,942 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,942 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"152/287","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 14:02:46,962 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,962 |
+2026-08-12 14:02:46,962 |t:|1786536166
+2026-08-12 14:02:46,962 |move|p2a: Cherrim|Synthesis|p2a: Cherrim
+2026-08-12 14:02:46,962 |-heal|p2a: Cherrim|287/287
+2026-08-12 14:02:46,962 |move|p1a: Miltank|Earthquake|p2a: Cherrim
+2026-08-12 14:02:46,962 |-resisted|p2a: Cherrim
+2026-08-12 14:02:46,962 |-damage|p2a: Cherrim|258/287
+2026-08-12 14:02:46,962 |
+2026-08-12 14:02:46,962 |-heal|p2a: Cherrim|275/287|[from] item: Leftovers
+2026-08-12 14:02:46,962 |-heal|p1a: Miltank|82/100 tox|[from] item: Leftovers
+2026-08-12 14:02:46,962 |-damage|p1a: Miltank|57/100 tox|[from] psn
+2026-08-12 14:02:46,963 |upkeep
+2026-08-12 14:02:46,963 |turn|7
+2026-08-12 14:02:46,963 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,963 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"275/287","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 14:02:46,976 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,976 |
+2026-08-12 14:02:46,976 |t:|1786536166
+2026-08-12 14:02:46,976 |move|p2a: Cherrim|Energy Ball|p1a: Miltank
+2026-08-12 14:02:46,976 |-damage|p1a: Miltank|14/100 tox
+2026-08-12 14:02:46,976 |move|p1a: Miltank|Toxic|p2a: Cherrim
+2026-08-12 14:02:46,976 |-status|p2a: Cherrim|tox
+2026-08-12 14:02:46,976 |
+2026-08-12 14:02:46,976 |-heal|p2a: Cherrim|287/287 tox|[from] item: Leftovers
+2026-08-12 14:02:46,976 |-damage|p2a: Cherrim|270/287 tox|[from] psn
+2026-08-12 14:02:46,976 |-heal|p1a: Miltank|20/100 tox|[from] item: Leftovers
+2026-08-12 14:02:46,976 |-damage|p1a: Miltank|0 fnt|[from] psn
+2026-08-12 14:02:46,976 |faint|p1a: Miltank
+2026-08-12 14:02:46,976 |upkeep
+2026-08-12 14:02:46,976 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,977 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"270/287 tox","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 14:02:46,985 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,985 |
+2026-08-12 14:02:46,985 |t:|1786536166
+2026-08-12 14:02:46,985 |switch|p1a: Gorebyss|Gorebyss, L88, M|100/100
+2026-08-12 14:02:46,985 |turn|8
+2026-08-12 14:02:46,987 >battle-gen4randombattle-329843
+2026-08-12 14:02:46,987 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":7,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"270/287 tox","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 14:02:47,015 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,015 |
+2026-08-12 14:02:47,015 |t:|1786536166
+2026-08-12 14:02:47,015 |move|p2a: Cherrim|Aromatherapy|p2a: Cherrim
+2026-08-12 14:02:47,015 |-cureteam|p2a: Cherrim|[from] move: Aromatherapy
+2026-08-12 14:02:47,015 |move|p1a: Gorebyss|Hidden Power|p2a: Cherrim
+2026-08-12 14:02:47,015 |-resisted|p2a: Cherrim
+2026-08-12 14:02:47,015 |-damage|p2a: Cherrim|228/287
+2026-08-12 14:02:47,015 |-damage|p1a: Gorebyss|90/100|[from] item: Life Orb
+2026-08-12 14:02:47,015 |
+2026-08-12 14:02:47,015 |-heal|p2a: Cherrim|245/287|[from] item: Leftovers
+2026-08-12 14:02:47,015 |upkeep
+2026-08-12 14:02:47,015 |turn|9
+2026-08-12 14:02:47,016 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,016 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"245/287","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 14:02:47,037 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,037 |
+2026-08-12 14:02:47,037 |t:|1786536167
+2026-08-12 14:02:47,037 |move|p2a: Cherrim|Synthesis|p2a: Cherrim
+2026-08-12 14:02:47,037 |-heal|p2a: Cherrim|287/287
+2026-08-12 14:02:47,037 |move|p1a: Gorebyss|Hydro Pump|p2a: Cherrim|[miss]
+2026-08-12 14:02:47,037 |-miss|p1a: Gorebyss|p2a: Cherrim
+2026-08-12 14:02:47,037 |
+2026-08-12 14:02:47,037 |upkeep
+2026-08-12 14:02:47,037 |turn|10
+2026-08-12 14:02:47,038 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,038 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"298/298","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 14:02:47,056 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,056 |
+2026-08-12 14:02:47,056 |t:|1786536167
+2026-08-12 14:02:47,056 |switch|p2a: Ampharos|Ampharos, L87, F|298/298
+2026-08-12 14:02:47,056 |move|p1a: Gorebyss|Ice Beam|p2a: Ampharos
+2026-08-12 14:02:47,056 |-damage|p2a: Ampharos|197/298
+2026-08-12 14:02:47,056 |-damage|p1a: Gorebyss|80/100|[from] item: Life Orb
+2026-08-12 14:02:47,056 |
+2026-08-12 14:02:47,056 |-heal|p2a: Ampharos|215/298|[from] item: Leftovers
+2026-08-12 14:02:47,056 |upkeep
+2026-08-12 14:02:47,056 |turn|11
+2026-08-12 14:02:47,057 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,057 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Discharge","id":"discharge","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"215/298","active":true,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 14:02:47,083 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,083 |
+2026-08-12 14:02:47,083 |t:|1786536167
+2026-08-12 14:02:47,083 |move|p2a: Ampharos|Focus Blast|p1a: Gorebyss
+2026-08-12 14:02:47,083 |-damage|p1a: Gorebyss|32/100
+2026-08-12 14:02:47,083 |-unboost|p1a: Gorebyss|spd|1
+2026-08-12 14:02:47,083 |move|p1a: Gorebyss|Ice Beam|p2a: Ampharos
+2026-08-12 14:02:47,083 |-damage|p2a: Ampharos|114/298
+2026-08-12 14:02:47,083 |-status|p2a: Ampharos|frz
+2026-08-12 14:02:47,083 |-damage|p1a: Gorebyss|22/100|[from] item: Life Orb
+2026-08-12 14:02:47,083 |
+2026-08-12 14:02:47,083 |-heal|p2a: Ampharos|132/298 frz|[from] item: Leftovers
+2026-08-12 14:02:47,083 |upkeep
+2026-08-12 14:02:47,083 |turn|12
+2026-08-12 14:02:47,083 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,083 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Discharge","id":"discharge","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"132/298 frz","active":true,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 14:02:47,101 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,101 |
+2026-08-12 14:02:47,101 |t:|1786536167
+2026-08-12 14:02:47,101 |-curestatus|p2a: Ampharos|frz|[msg]
+2026-08-12 14:02:47,101 |move|p2a: Ampharos|Toxic|p1a: Gorebyss|[miss]
+2026-08-12 14:02:47,101 |-miss|p2a: Ampharos|p1a: Gorebyss
+2026-08-12 14:02:47,101 |move|p1a: Gorebyss|Hidden Power|p2a: Ampharos
+2026-08-12 14:02:47,102 |-damage|p2a: Ampharos|50/298
+2026-08-12 14:02:47,102 |-damage|p1a: Gorebyss|12/100|[from] item: Life Orb
+2026-08-12 14:02:47,102 |
+2026-08-12 14:02:47,102 |-heal|p2a: Ampharos|68/298|[from] item: Leftovers
+2026-08-12 14:02:47,102 |upkeep
+2026-08-12 14:02:47,102 |turn|13
+2026-08-12 14:02:47,103 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,103 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Discharge","id":"discharge","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"68/298","active":true,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 14:02:47,120 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,120 |
+2026-08-12 14:02:47,120 |t:|1786536167
+2026-08-12 14:02:47,120 |move|p2a: Ampharos|Toxic|p1a: Gorebyss
+2026-08-12 14:02:47,120 |-status|p1a: Gorebyss|tox
+2026-08-12 14:02:47,120 |move|p1a: Gorebyss|Rain Dance|p1a: Gorebyss
+2026-08-12 14:02:47,120 |-weather|RainDance
+2026-08-12 14:02:47,120 |
+2026-08-12 14:02:47,120 |-weather|RainDance|[upkeep]
+2026-08-12 14:02:47,120 |-damage|p1a: Gorebyss|6/100 tox|[from] psn
+2026-08-12 14:02:47,120 |-heal|p2a: Ampharos|86/298|[from] item: Leftovers
+2026-08-12 14:02:47,120 |upkeep
+2026-08-12 14:02:47,120 |turn|14
+2026-08-12 14:02:47,120 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,120 |request|{"active":[{"moves":[{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Discharge","id":"discharge","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Focus Blast","id":"focusblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"86/298","active":true,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 14:02:47,132 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,132 |
+2026-08-12 14:02:47,132 |t:|1786536167
+2026-08-12 14:02:47,132 |move|p1a: Gorebyss|Ice Beam|p2a: Ampharos
+2026-08-12 14:02:47,132 |-damage|p2a: Ampharos|0 fnt
+2026-08-12 14:02:47,132 |faint|p2a: Ampharos
+2026-08-12 14:02:47,132 |-damage|p1a: Gorebyss|0 fnt|[from] item: Life Orb
+2026-08-12 14:02:47,132 |faint|p1a: Gorebyss
+2026-08-12 14:02:47,132 |
+2026-08-12 14:02:47,132 |-weather|RainDance|[upkeep]
+2026-08-12 14:02:47,132 |upkeep
+2026-08-12 14:02:47,133 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,133 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":true,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 14:02:47,147 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,147 |
+2026-08-12 14:02:47,147 |t:|1786536167
+2026-08-12 14:02:47,147 |switch|p2a: Girafarig|Girafarig, L92, F|278/278
+2026-08-12 14:02:47,147 |switch|p1a: Swellow|Swellow, L78, M|100/100
+2026-08-12 14:02:47,147 |turn|15
+2026-08-12 14:02:47,151 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,151 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"278/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 14:02:47,172 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,172 |
+2026-08-12 14:02:47,172 |t:|1786536167
+2026-08-12 14:02:47,172 |move|p1a: Swellow|Brave Bird|p2a: Girafarig
+2026-08-12 14:02:47,172 |-damage|p2a: Girafarig|169/278
+2026-08-12 14:02:47,172 |-damage|p1a: Swellow|84/100|[from] Recoil
+2026-08-12 14:02:47,172 |move|p2a: Girafarig|Substitute|p2a: Girafarig
+2026-08-12 14:02:47,172 |-start|p2a: Girafarig|Substitute
+2026-08-12 14:02:47,172 |-damage|p2a: Girafarig|100/278
+2026-08-12 14:02:47,172 |
+2026-08-12 14:02:47,172 |-weather|RainDance|[upkeep]
+2026-08-12 14:02:47,172 |-status|p1a: Swellow|tox|[from] item: Toxic Orb
+2026-08-12 14:02:47,172 |-heal|p2a: Girafarig|117/278|[from] item: Leftovers
+2026-08-12 14:02:47,172 |upkeep
+2026-08-12 14:02:47,172 |turn|16
+2026-08-12 14:02:47,172 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,172 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"117/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 14:02:47,187 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,187 |
+2026-08-12 14:02:47,187 |t:|1786536167
+2026-08-12 14:02:47,187 |move|p1a: Swellow|Facade|p2a: Girafarig
+2026-08-12 14:02:47,187 |-end|p2a: Girafarig|Substitute
+2026-08-12 14:02:47,188 |move|p2a: Girafarig|Thunderbolt|p1a: Swellow
+2026-08-12 14:02:47,188 |-supereffective|p1a: Swellow
+2026-08-12 14:02:47,188 |-damage|p1a: Swellow|0 fnt
+2026-08-12 14:02:47,188 |faint|p1a: Swellow
+2026-08-12 14:02:47,188 |
+2026-08-12 14:02:47,188 |-weather|RainDance|[upkeep]
+2026-08-12 14:02:47,188 |-heal|p2a: Girafarig|134/278|[from] item: Leftovers
+2026-08-12 14:02:47,188 |upkeep
+2026-08-12 14:02:47,188 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,188 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"134/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 14:02:47,197 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,197 |
+2026-08-12 14:02:47,197 |t:|1786536167
+2026-08-12 14:02:47,198 |switch|p1a: Cloyster|Cloyster, L86, M|100/100
+2026-08-12 14:02:47,198 |turn|17
+2026-08-12 14:02:47,198 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,198 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"134/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"442/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 14:02:47,233 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,233 |
+2026-08-12 14:02:47,233 |t:|1786536167
+2026-08-12 14:02:47,233 |switch|p2a: Wailord|Wailord, L88, F|442/442
+2026-08-12 14:02:47,233 |move|p1a: Cloyster|Rock Blast|p2a: Wailord
+2026-08-12 14:02:47,233 |-damage|p2a: Wailord|412/442
+2026-08-12 14:02:47,233 |-damage|p2a: Wailord|384/442
+2026-08-12 14:02:47,233 |-damage|p2a: Wailord|355/442
+2026-08-12 14:02:47,233 |-damage|p2a: Wailord|326/442
+2026-08-12 14:02:47,233 |-damage|p2a: Wailord|300/442
+2026-08-12 14:02:47,233 |-hitcount|p2a: Wailord|5
+2026-08-12 14:02:47,233 |
+2026-08-12 14:02:47,233 |-weather|none
+2026-08-12 14:02:47,233 |-heal|p2a: Wailord|327/442|[from] item: Leftovers
+2026-08-12 14:02:47,233 |upkeep
+2026-08-12 14:02:47,234 |turn|18
+2026-08-12 14:02:47,234 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,234 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Self-Destruct","id":"selfdestruct","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":true,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"134/278","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 14:02:47,254 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,254 |
+2026-08-12 14:02:47,254 |t:|1786536167
+2026-08-12 14:02:47,254 |switch|p2a: Girafarig|Girafarig, L92, F|134/278
+2026-08-12 14:02:47,254 |move|p1a: Cloyster|Ice Shard|p2a: Girafarig
+2026-08-12 14:02:47,254 |-damage|p2a: Girafarig|83/278
+2026-08-12 14:02:47,254 |
+2026-08-12 14:02:47,254 |-heal|p2a: Girafarig|100/278|[from] item: Leftovers
+2026-08-12 14:02:47,254 |upkeep
+2026-08-12 14:02:47,254 |turn|19
+2026-08-12 14:02:47,254 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,254 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"100/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 14:02:47,267 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,267 |
+2026-08-12 14:02:47,267 |t:|1786536167
+2026-08-12 14:02:47,267 |move|p2a: Girafarig|Calm Mind|p2a: Girafarig
+2026-08-12 14:02:47,268 |-boost|p2a: Girafarig|spa|1
+2026-08-12 14:02:47,268 |-boost|p2a: Girafarig|spd|1
+2026-08-12 14:02:47,268 |move|p1a: Cloyster|Toxic Spikes|p2a: Girafarig
+2026-08-12 14:02:47,268 |-sidestart|p2: BOT6|move: Toxic Spikes
+2026-08-12 14:02:47,268 |
+2026-08-12 14:02:47,268 |-heal|p2a: Girafarig|117/278|[from] item: Leftovers
+2026-08-12 14:02:47,268 |upkeep
+2026-08-12 14:02:47,268 |turn|20
+2026-08-12 14:02:47,268 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,268 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"117/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 14:02:47,287 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,287 |
+2026-08-12 14:02:47,287 |t:|1786536167
+2026-08-12 14:02:47,287 |move|p2a: Girafarig|Psychic|p1a: Cloyster
+2026-08-12 14:02:47,287 |-damage|p1a: Cloyster|0 fnt
+2026-08-12 14:02:47,287 |faint|p1a: Cloyster
+2026-08-12 14:02:47,287 |
+2026-08-12 14:02:47,287 |-heal|p2a: Girafarig|134/278|[from] item: Leftovers
+2026-08-12 14:02:47,287 |upkeep
+2026-08-12 14:02:47,287 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,287 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"134/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 14:02:47,295 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,295 |
+2026-08-12 14:02:47,295 |t:|1786536167
+2026-08-12 14:02:47,295 |switch|p1a: Sudowoodo|Sudowoodo, L92, M|100/100
+2026-08-12 14:02:47,295 |turn|21
+2026-08-12 14:02:47,296 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,296 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"134/278","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 14:02:47,317 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,317 |
+2026-08-12 14:02:47,317 |t:|1786536167
+2026-08-12 14:02:47,317 |move|p2a: Girafarig|Calm Mind|p2a: Girafarig
+2026-08-12 14:02:47,317 |-boost|p2a: Girafarig|spa|1
+2026-08-12 14:02:47,317 |-boost|p2a: Girafarig|spd|1
+2026-08-12 14:02:47,317 |move|p1a: Sudowoodo|Toxic|p2a: Girafarig
+2026-08-12 14:02:47,317 |-status|p2a: Girafarig|tox
+2026-08-12 14:02:47,317 |
+2026-08-12 14:02:47,317 |-heal|p2a: Girafarig|151/278 tox|[from] item: Leftovers
+2026-08-12 14:02:47,317 |-damage|p2a: Girafarig|134/278 tox|[from] psn
+2026-08-12 14:02:47,317 |upkeep
+2026-08-12 14:02:47,317 |turn|22
+2026-08-12 14:02:47,317 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,317 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"134/278 tox","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 14:02:47,335 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,335 |
+2026-08-12 14:02:47,336 |t:|1786536167
+2026-08-12 14:02:47,336 |move|p2a: Girafarig|Thunderbolt|p1a: Sudowoodo
+2026-08-12 14:02:47,336 |-damage|p1a: Sudowoodo|43/100
+2026-08-12 14:02:47,336 |move|p1a: Sudowoodo|Toxic|p2a: Girafarig
+2026-08-12 14:02:47,336 |-fail|p2a: Girafarig|tox
+2026-08-12 14:02:47,336 |
+2026-08-12 14:02:47,336 |-heal|p2a: Girafarig|151/278 tox|[from] item: Leftovers
+2026-08-12 14:02:47,336 |-damage|p2a: Girafarig|117/278 tox|[from] psn
+2026-08-12 14:02:47,336 |-heal|p1a: Sudowoodo|49/100|[from] item: Leftovers
+2026-08-12 14:02:47,336 |upkeep
+2026-08-12 14:02:47,336 |turn|23
+2026-08-12 14:02:47,337 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,337 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"117/278 tox","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 14:02:47,359 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,359 |
+2026-08-12 14:02:47,359 |t:|1786536167
+2026-08-12 14:02:47,359 |move|p2a: Girafarig|Thunderbolt|p1a: Sudowoodo
+2026-08-12 14:02:47,359 |-crit|p1a: Sudowoodo
+2026-08-12 14:02:47,359 |-damage|p1a: Sudowoodo|0 fnt
+2026-08-12 14:02:47,359 |faint|p1a: Sudowoodo
+2026-08-12 14:02:47,359 |
+2026-08-12 14:02:47,359 |-heal|p2a: Girafarig|134/278 tox|[from] item: Leftovers
+2026-08-12 14:02:47,359 |-damage|p2a: Girafarig|83/278 tox|[from] psn
+2026-08-12 14:02:47,359 |upkeep
+2026-08-12 14:02:47,362 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,362 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"83/278 tox","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 14:02:47,376 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,376 |
+2026-08-12 14:02:47,376 |t:|1786536167
+2026-08-12 14:02:47,377 |switch|p1a: Leafeon|Leafeon, L85, F|100/100
+2026-08-12 14:02:47,377 |turn|24
+2026-08-12 14:02:47,377 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,377 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"83/278 tox","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 14:02:47,397 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,397 |
+2026-08-12 14:02:47,397 |t:|1786536167
+2026-08-12 14:02:47,397 |move|p1a: Leafeon|Synthesis|p1a: Leafeon
+2026-08-12 14:02:47,397 |move|p2a: Girafarig|Substitute|p2a: Girafarig
+2026-08-12 14:02:47,397 |-start|p2a: Girafarig|Substitute
+2026-08-12 14:02:47,397 |-damage|p2a: Girafarig|14/278 tox
+2026-08-12 14:02:47,397 |
+2026-08-12 14:02:47,397 |-heal|p2a: Girafarig|31/278 tox|[from] item: Leftovers
+2026-08-12 14:02:47,397 |-damage|p2a: Girafarig|0 fnt|[from] psn
+2026-08-12 14:02:47,397 |faint|p2a: Girafarig
+2026-08-12 14:02:47,397 |upkeep
+2026-08-12 14:02:47,397 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,397 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":true,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":61}
+2026-08-12 14:02:47,413 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,413 |
+2026-08-12 14:02:47,413 |t:|1786536167
+2026-08-12 14:02:47,413 |switch|p2a: Cherrim|Cherrim, L95, F|287/287
+2026-08-12 14:02:47,413 |-status|p2a: Cherrim|psn
+2026-08-12 14:02:47,413 |turn|25
+2026-08-12 14:02:47,413 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,413 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"287/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 14:02:47,437 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,437 |
+2026-08-12 14:02:47,437 |t:|1786536167
+2026-08-12 14:02:47,437 |move|p2a: Cherrim|Energy Ball|p1a: Leafeon
+2026-08-12 14:02:47,437 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,437 |-damage|p1a: Leafeon|74/100
+2026-08-12 14:02:47,437 |move|p1a: Leafeon|Synthesis|p1a: Leafeon
+2026-08-12 14:02:47,437 |-heal|p1a: Leafeon|100/100
+2026-08-12 14:02:47,437 |
+2026-08-12 14:02:47,437 |-damage|p2a: Cherrim|252/287 psn|[from] psn
+2026-08-12 14:02:47,437 |upkeep
+2026-08-12 14:02:47,437 |turn|26
+2026-08-12 14:02:47,439 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,439 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"252/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 14:02:47,481 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,481 |
+2026-08-12 14:02:47,481 |t:|1786536167
+2026-08-12 14:02:47,481 |move|p2a: Cherrim|Energy Ball|p1a: Leafeon
+2026-08-12 14:02:47,481 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,481 |-damage|p1a: Leafeon|74/100
+2026-08-12 14:02:47,481 |move|p1a: Leafeon|Leaf Blade|p2a: Cherrim
+2026-08-12 14:02:47,481 |-resisted|p2a: Cherrim
+2026-08-12 14:02:47,481 |-damage|p2a: Cherrim|183/287 psn
+2026-08-12 14:02:47,482 |-damage|p1a: Leafeon|65/100|[from] item: Life Orb
+2026-08-12 14:02:47,482 |
+2026-08-12 14:02:47,482 |-heal|p2a: Cherrim|200/287 psn|[from] item: Leftovers
+2026-08-12 14:02:47,482 |-damage|p2a: Cherrim|165/287 psn|[from] psn
+2026-08-12 14:02:47,482 |upkeep
+2026-08-12 14:02:47,482 |turn|27
+2026-08-12 14:02:47,485 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,485 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"165/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 14:02:47,523 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,523 |
+2026-08-12 14:02:47,523 |t:|1786536167
+2026-08-12 14:02:47,523 |move|p2a: Cherrim|Energy Ball|p1a: Leafeon
+2026-08-12 14:02:47,523 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,523 |-damage|p1a: Leafeon|41/100
+2026-08-12 14:02:47,523 |move|p1a: Leafeon|Leaf Blade|p2a: Cherrim
+2026-08-12 14:02:47,523 |-resisted|p2a: Cherrim
+2026-08-12 14:02:47,523 |-damage|p2a: Cherrim|93/287 psn
+2026-08-12 14:02:47,523 |-damage|p1a: Leafeon|31/100|[from] item: Life Orb
+2026-08-12 14:02:47,523 |
+2026-08-12 14:02:47,523 |-heal|p2a: Cherrim|110/287 psn|[from] item: Leftovers
+2026-08-12 14:02:47,523 |-damage|p2a: Cherrim|75/287 psn|[from] psn
+2026-08-12 14:02:47,523 |upkeep
+2026-08-12 14:02:47,523 |turn|28
+2026-08-12 14:02:47,523 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,523 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"75/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 14:02:47,583 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,583 |
+2026-08-12 14:02:47,583 |t:|1786536167
+2026-08-12 14:02:47,583 |move|p2a: Cherrim|Energy Ball|p1a: Leafeon
+2026-08-12 14:02:47,583 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,583 |-damage|p1a: Leafeon|5/100
+2026-08-12 14:02:47,583 |move|p1a: Leafeon|Synthesis|p1a: Leafeon
+2026-08-12 14:02:47,583 |-heal|p1a: Leafeon|55/100
+2026-08-12 14:02:47,583 |
+2026-08-12 14:02:47,583 |-heal|p2a: Cherrim|92/287 psn|[from] item: Leftovers
+2026-08-12 14:02:47,583 |-damage|p2a: Cherrim|57/287 psn|[from] psn
+2026-08-12 14:02:47,583 |upkeep
+2026-08-12 14:02:47,583 |turn|29
+2026-08-12 14:02:47,586 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,586 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"57/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"327/442","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 14:02:47,618 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,618 |
+2026-08-12 14:02:47,618 |t:|1786536167
+2026-08-12 14:02:47,618 |switch|p2a: Wailord|Wailord, L88, F|327/442
+2026-08-12 14:02:47,618 |-status|p2a: Wailord|psn
+2026-08-12 14:02:47,618 |move|p1a: Leafeon|Synthesis|p1a: Leafeon
+2026-08-12 14:02:47,618 |-heal|p1a: Leafeon|100/100
+2026-08-12 14:02:47,618 |
+2026-08-12 14:02:47,618 |-heal|p2a: Wailord|354/442 psn|[from] item: Leftovers
+2026-08-12 14:02:47,618 |-damage|p2a: Wailord|299/442 psn|[from] psn
+2026-08-12 14:02:47,618 |upkeep
+2026-08-12 14:02:47,618 |turn|30
+2026-08-12 14:02:47,620 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,620 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Self-Destruct","id":"selfdestruct","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"299/442 psn","active":true,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"57/287 psn","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 14:02:47,664 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,664 |
+2026-08-12 14:02:47,664 |t:|1786536167
+2026-08-12 14:02:47,664 |move|p1a: Leafeon|Leaf Blade|p2a: Wailord
+2026-08-12 14:02:47,664 |-supereffective|p2a: Wailord
+2026-08-12 14:02:47,664 |-damage|p2a: Wailord|0 fnt
+2026-08-12 14:02:47,664 |faint|p2a: Wailord
+2026-08-12 14:02:47,664 |-damage|p1a: Leafeon|91/100|[from] item: Life Orb
+2026-08-12 14:02:47,664 |
+2026-08-12 14:02:47,664 |upkeep
+2026-08-12 14:02:47,667 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,667 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":true,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"57/287 psn","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":75}
+2026-08-12 14:02:47,700 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,700 |
+2026-08-12 14:02:47,700 |t:|1786536167
+2026-08-12 14:02:47,700 |switch|p2a: Cherrim|Cherrim, L95, F|57/287 psn
+2026-08-12 14:02:47,700 |turn|31
+2026-08-12 14:02:47,703 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,703 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"57/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 14:02:47,735 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,735 |
+2026-08-12 14:02:47,735 |t:|1786536167
+2026-08-12 14:02:47,735 |move|p2a: Cherrim|Energy Ball|p1a: Leafeon
+2026-08-12 14:02:47,735 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,735 |-damage|p1a: Leafeon|66/100
+2026-08-12 14:02:47,735 |move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+2026-08-12 14:02:47,735 |-boost|p1a: Leafeon|atk|2
+2026-08-12 14:02:47,735 |
+2026-08-12 14:02:47,735 |-heal|p2a: Cherrim|74/287 psn|[from] item: Leftovers
+2026-08-12 14:02:47,735 |-damage|p2a: Cherrim|39/287 psn|[from] psn
+2026-08-12 14:02:47,735 |upkeep
+2026-08-12 14:02:47,735 |turn|32
+2026-08-12 14:02:47,736 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,736 |request|{"active":[{"moves":[{"move":"Aromatherapy","id":"aromatherapy","pp":6,"maxpp":8,"target":"allyTeam","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Energy Ball","id":"energyball","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"39/287 psn","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 14:02:47,772 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,772 |
+2026-08-12 14:02:47,772 |t:|1786536167
+2026-08-12 14:02:47,772 |move|p2a: Cherrim|Toxic|p1a: Leafeon
+2026-08-12 14:02:47,772 |-status|p1a: Leafeon|tox
+2026-08-12 14:02:47,772 |move|p1a: Leafeon|Leaf Blade|p2a: Cherrim
+2026-08-12 14:02:47,772 |-resisted|p2a: Cherrim
+2026-08-12 14:02:47,772 |-damage|p2a: Cherrim|0 fnt
+2026-08-12 14:02:47,772 |faint|p2a: Cherrim
+2026-08-12 14:02:47,772 |-damage|p1a: Leafeon|57/100 tox|[from] item: Life Orb
+2026-08-12 14:02:47,772 |
+2026-08-12 14:02:47,772 |-damage|p1a: Leafeon|51/100 tox|[from] psn
+2026-08-12 14:02:47,772 |upkeep
+2026-08-12 14:02:47,777 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,777 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"0 fnt","active":true,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":false,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":81}
+2026-08-12 14:02:47,820 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,820 |
+2026-08-12 14:02:47,820 |t:|1786536167
+2026-08-12 14:02:47,820 |switch|p2a: Qwilfish|Qwilfish, L83, F|244/244
+2026-08-12 14:02:47,820 |-sideend|p2: BOT6|move: Toxic Spikes|[of] p2a: Qwilfish
+2026-08-12 14:02:47,820 |turn|33
+2026-08-12 14:02:47,824 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,824 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Waterfall","id":"waterfall","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":true,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"0 fnt","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 14:02:47,884 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,884 |
+2026-08-12 14:02:47,884 |t:|1786536167
+2026-08-12 14:02:47,884 |move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+2026-08-12 14:02:47,884 |-boost|p1a: Leafeon|atk|2
+2026-08-12 14:02:47,884 |move|p2a: Qwilfish|Waterfall|p1a: Leafeon
+2026-08-12 14:02:47,884 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,884 |-damage|p1a: Leafeon|38/100 tox
+2026-08-12 14:02:47,884 |
+2026-08-12 14:02:47,884 |-damage|p1a: Leafeon|26/100 tox|[from] psn
+2026-08-12 14:02:47,884 |upkeep
+2026-08-12 14:02:47,884 |turn|34
+2026-08-12 14:02:47,887 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,887 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Waterfall","id":"waterfall","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":true,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"0 fnt","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 14:02:47,921 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,921 |
+2026-08-12 14:02:47,921 |t:|1786536167
+2026-08-12 14:02:47,921 |move|p1a: Leafeon|Swords Dance|p1a: Leafeon
+2026-08-12 14:02:47,921 |-boost|p1a: Leafeon|atk|2
+2026-08-12 14:02:47,921 |move|p2a: Qwilfish|Spikes|p1a: Leafeon
+2026-08-12 14:02:47,921 |-sidestart|p1: BOT5|Spikes
+2026-08-12 14:02:47,921 |
+2026-08-12 14:02:47,921 |-damage|p1a: Leafeon|8/100 tox|[from] psn
+2026-08-12 14:02:47,921 |upkeep
+2026-08-12 14:02:47,921 |turn|35
+2026-08-12 14:02:47,921 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,921 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Waterfall","id":"waterfall","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":true,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"0 fnt","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 14:02:47,953 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,953 |
+2026-08-12 14:02:47,953 |t:|1786536167
+2026-08-12 14:02:47,953 |move|p1a: Leafeon|Synthesis|p1a: Leafeon
+2026-08-12 14:02:47,953 |-heal|p1a: Leafeon|58/100 tox
+2026-08-12 14:02:47,953 |move|p2a: Qwilfish|Waterfall|p1a: Leafeon
+2026-08-12 14:02:47,953 |-resisted|p1a: Leafeon
+2026-08-12 14:02:47,953 |-damage|p1a: Leafeon|45/100 tox
+2026-08-12 14:02:47,953 |
+2026-08-12 14:02:47,953 |-damage|p1a: Leafeon|21/100 tox|[from] psn
+2026-08-12 14:02:47,953 |upkeep
+2026-08-12 14:02:47,954 |turn|36
+2026-08-12 14:02:47,956 >battle-gen4randombattle-329843
+2026-08-12 14:02:47,956 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":31,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Waterfall","id":"waterfall","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":true,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"0 fnt","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 14:02:48,005 >battle-gen4randombattle-329843
+2026-08-12 14:02:48,005 |
+2026-08-12 14:02:48,005 |t:|1786536167
+2026-08-12 14:02:48,005 |move|p1a: Leafeon|Synthesis|p1a: Leafeon
+2026-08-12 14:02:48,005 |-heal|p1a: Leafeon|71/100 tox
+2026-08-12 14:02:48,005 |move|p2a: Qwilfish|Spikes|p1a: Leafeon
+2026-08-12 14:02:48,005 |-sidestart|p1: BOT5|Spikes
+2026-08-12 14:02:48,005 |
+2026-08-12 14:02:48,005 |-damage|p1a: Leafeon|41/100 tox|[from] psn
+2026-08-12 14:02:48,005 |upkeep
+2026-08-12 14:02:48,005 |turn|37
+2026-08-12 14:02:48,011 >battle-gen4randombattle-329843
+2026-08-12 14:02:48,011 |request|{"active":[{"moves":[{"move":"Spikes","id":"spikes","pp":30,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Poison Jab","id":"poisonjab","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic Spikes","id":"toxicspikes","pp":32,"maxpp":32,"target":"foeSide","disabled":false},{"move":"Waterfall","id":"waterfall","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Qwilfish","details":"Qwilfish, L83, F","condition":"244/244","active":true,"stats":{"atk":205,"def":172,"spa":139,"spd":139,"spe":189},"moves":["spikes","poisonjab","toxicspikes","waterfall"],"baseAbility":"poisonpoint","item":"blacksludge","pokeball":"pokeball"},{"ident":"p2: Cherrim","details":"Cherrim, L95, F","condition":"0 fnt","active":false,"stats":{"atk":119,"def":187,"spa":219,"spd":202,"spe":215},"moves":["aromatherapy","toxic","energyball","synthesis"],"baseAbility":"flowergift","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Bastiodon","details":"Bastiodon, L97, F","condition":"162/273","active":false,"stats":{"atk":156,"def":381,"spa":146,"spd":323,"spe":113},"moves":["roar","protect","earthquake","toxic"],"baseAbility":"sturdy","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Girafarig","details":"Girafarig, L92, F","condition":"0 fnt","active":false,"stats":{"atk":152,"def":172,"spa":218,"spd":172,"spe":209},"moves":["psychic","calmmind","thunderbolt","substitute"],"baseAbility":"innerfocus","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ampharos","details":"Ampharos, L87, F","condition":"0 fnt","active":false,"stats":{"atk":137,"def":179,"spa":250,"spd":206,"spe":145},"moves":["hiddenpowerice","discharge","focusblast","toxic"],"baseAbility":"static","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Wailord","details":"Wailord, L88, F","condition":"0 fnt","active":false,"stats":{"atk":209,"def":129,"spa":209,"spd":129,"spe":156},"moves":["icebeam","surf","toxic","selfdestruct"],"baseAbility":"waterveil","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 14:02:48,053 >battle-gen4randombattle-329843
+2026-08-12 14:02:48,053 |
+2026-08-12 14:02:48,053 |t:|1786536168
+2026-08-12 14:02:48,053 |move|p1a: Leafeon|Leaf Blade|p2a: Qwilfish
+2026-08-12 14:02:48,053 |-damage|p2a: Qwilfish|0 fnt
+2026-08-12 14:02:48,053 |faint|p2a: Qwilfish
+2026-08-12 14:02:48,053 |-damage|p1a: Leafeon|31/100 tox|[from] item: Life Orb
+2026-08-12 14:02:48,053 |
+2026-08-12 14:02:48,053 |-damage|p1a: Leafeon|0 fnt|[from] psn
+2026-08-12 14:02:48,053 |faint|p1a: Leafeon
+2026-08-12 14:02:48,053 |
+2026-08-12 14:02:48,053 |win|BOT6

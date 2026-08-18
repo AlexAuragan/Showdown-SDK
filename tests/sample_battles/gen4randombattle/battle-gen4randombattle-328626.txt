@@ -1,0 +1,580 @@
+2026-08-12 13:52:29,101 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,101 |init|battle
+2026-08-12 13:52:29,102 |title|BOT7 vs. BOT8
+2026-08-12 13:52:29,102 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-328626">battle-gen4randombattle-328626</a>&raquo;
+2026-08-12 13:52:29,149 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,149 |t:|1786535549
+2026-08-12 13:52:29,149 |gametype|singles
+2026-08-12 13:52:29,150 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,150 |player|p1|BOT7|169|
+2026-08-12 13:52:29,150 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,150 |player|p2|BOT8|102|
+2026-08-12 13:52:29,150 |gen|4
+2026-08-12 13:52:29,150 |tier|[Gen 4] Random Battle
+2026-08-12 13:52:29,150 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:52:29,150 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:52:29,150 |
+2026-08-12 13:52:29,150 |t:|1786535549
+2026-08-12 13:52:29,150 |teamsize|p1|6
+2026-08-12 13:52:29,150 |teamsize|p2|6
+2026-08-12 13:52:29,150 |start
+2026-08-12 13:52:29,150 |switch|p1a: Corsola|Corsola, L98, F|100/100
+2026-08-12 13:52:29,150 |switch|p2a: Hitmonlee|Hitmonlee, L84, M|221/221
+2026-08-12 13:52:29,150 |turn|1
+2026-08-12 13:52:29,153 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,153 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Mach Punch","id":"machpunch","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":true,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"228/228","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:52:29,181 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,181 |
+2026-08-12 13:52:29,181 |t:|1786535549
+2026-08-12 13:52:29,181 |switch|p2a: Latios|Latios, L70, M|228/228
+2026-08-12 13:52:29,181 |move|p1a: Corsola|Recover||[still]
+2026-08-12 13:52:29,181 |-fail|p1a: Corsola|heal
+2026-08-12 13:52:29,181 |
+2026-08-12 13:52:29,181 |upkeep
+2026-08-12 13:52:29,181 |turn|2
+2026-08-12 13:52:29,185 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,185 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"228/228","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:52:29,210 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,210 |
+2026-08-12 13:52:29,210 |t:|1786535549
+2026-08-12 13:52:29,210 |move|p2a: Latios|Draco Meteor|p1a: Corsola
+2026-08-12 13:52:29,210 |-damage|p1a: Corsola|37/100
+2026-08-12 13:52:29,210 |-unboost|p2a: Latios|spa|2
+2026-08-12 13:52:29,210 |move|p1a: Corsola|Toxic|p2a: Latios
+2026-08-12 13:52:29,210 |-status|p2a: Latios|tox
+2026-08-12 13:52:29,210 |
+2026-08-12 13:52:29,210 |-damage|p2a: Latios|214/228 tox|[from] psn
+2026-08-12 13:52:29,210 |-heal|p1a: Corsola|43/100|[from] item: Leftovers
+2026-08-12 13:52:29,210 |upkeep
+2026-08-12 13:52:29,210 |turn|3
+2026-08-12 13:52:29,212 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,212 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"214/228 tox","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:52:29,241 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,241 |
+2026-08-12 13:52:29,241 |t:|1786535549
+2026-08-12 13:52:29,241 |move|p2a: Latios|Psychic|p1a: Corsola
+2026-08-12 13:52:29,242 |-damage|p1a: Corsola|23/100
+2026-08-12 13:52:29,242 |move|p1a: Corsola|Surf|p2a: Latios
+2026-08-12 13:52:29,242 |-resisted|p2a: Latios
+2026-08-12 13:52:29,242 |-damage|p2a: Latios|181/228 tox
+2026-08-12 13:52:29,242 |
+2026-08-12 13:52:29,242 |-damage|p2a: Latios|153/228 tox|[from] psn
+2026-08-12 13:52:29,242 |-heal|p1a: Corsola|29/100|[from] item: Leftovers
+2026-08-12 13:52:29,242 |upkeep
+2026-08-12 13:52:29,242 |turn|4
+2026-08-12 13:52:29,243 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,243 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"153/228 tox","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:52:29,273 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,273 |
+2026-08-12 13:52:29,273 |t:|1786535549
+2026-08-12 13:52:29,274 |move|p2a: Latios|Psychic|p1a: Corsola
+2026-08-12 13:52:29,274 |-damage|p1a: Corsola|7/100
+2026-08-12 13:52:29,274 |move|p1a: Corsola|Recover|p1a: Corsola
+2026-08-12 13:52:29,274 |-heal|p1a: Corsola|57/100
+2026-08-12 13:52:29,274 |
+2026-08-12 13:52:29,274 |-damage|p2a: Latios|111/228 tox|[from] psn
+2026-08-12 13:52:29,274 |-heal|p1a: Corsola|63/100|[from] item: Leftovers
+2026-08-12 13:52:29,274 |upkeep
+2026-08-12 13:52:29,274 |turn|5
+2026-08-12 13:52:29,275 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,275 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"111/228 tox","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:52:29,302 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,302 |
+2026-08-12 13:52:29,302 |t:|1786535549
+2026-08-12 13:52:29,302 |move|p2a: Latios|Roost|p2a: Latios
+2026-08-12 13:52:29,302 |-heal|p2a: Latios|225/228 tox
+2026-08-12 13:52:29,302 |-singleturn|p2a: Latios|move: Roost
+2026-08-12 13:52:29,302 |move|p1a: Corsola|Recover|p1a: Corsola
+2026-08-12 13:52:29,302 |-heal|p1a: Corsola|100/100
+2026-08-12 13:52:29,302 |
+2026-08-12 13:52:29,302 |-damage|p2a: Latios|169/228 tox|[from] psn
+2026-08-12 13:52:29,302 |upkeep
+2026-08-12 13:52:29,302 |turn|6
+2026-08-12 13:52:29,302 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,302 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"169/228 tox","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:52:29,330 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,330 |
+2026-08-12 13:52:29,330 |t:|1786535549
+2026-08-12 13:52:29,330 |move|p2a: Latios|Psychic|p1a: Corsola
+2026-08-12 13:52:29,330 |-crit|p1a: Corsola
+2026-08-12 13:52:29,330 |-damage|p1a: Corsola|9/100
+2026-08-12 13:52:29,330 |move|p1a: Corsola|Toxic|p2a: Latios
+2026-08-12 13:52:29,330 |-fail|p2a: Latios|tox
+2026-08-12 13:52:29,330 |
+2026-08-12 13:52:29,330 |-damage|p2a: Latios|99/228 tox|[from] psn
+2026-08-12 13:52:29,330 |-heal|p1a: Corsola|15/100|[from] item: Leftovers
+2026-08-12 13:52:29,330 |upkeep
+2026-08-12 13:52:29,331 |turn|7
+2026-08-12 13:52:29,332 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,332 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"99/228 tox","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:52:29,366 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,366 |
+2026-08-12 13:52:29,366 |t:|1786535549
+2026-08-12 13:52:29,366 |move|p2a: Latios|Calm Mind|p2a: Latios
+2026-08-12 13:52:29,366 |-boost|p2a: Latios|spa|1
+2026-08-12 13:52:29,366 |-boost|p2a: Latios|spd|1
+2026-08-12 13:52:29,366 |move|p1a: Corsola|Toxic|p2a: Latios
+2026-08-12 13:52:29,366 |-fail|p2a: Latios|tox
+2026-08-12 13:52:29,366 |
+2026-08-12 13:52:29,366 |-damage|p2a: Latios|15/228 tox|[from] psn
+2026-08-12 13:52:29,366 |-heal|p1a: Corsola|21/100|[from] item: Leftovers
+2026-08-12 13:52:29,366 |upkeep
+2026-08-12 13:52:29,366 |turn|8
+2026-08-12 13:52:29,366 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,366 |request|{"active":[{"moves":[{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Draco Meteor","id":"dracometeor","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"15/228 tox","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:52:29,390 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,390 |
+2026-08-12 13:52:29,390 |t:|1786535549
+2026-08-12 13:52:29,390 |move|p2a: Latios|Draco Meteor|p1a: Corsola
+2026-08-12 13:52:29,390 |-damage|p1a: Corsola|0 fnt
+2026-08-12 13:52:29,390 |-unboost|p2a: Latios|spa|2
+2026-08-12 13:52:29,390 |faint|p1a: Corsola
+2026-08-12 13:52:29,390 |
+2026-08-12 13:52:29,390 |-damage|p2a: Latios|0 fnt|[from] psn
+2026-08-12 13:52:29,390 |faint|p2a: Latios
+2026-08-12 13:52:29,390 |upkeep
+2026-08-12 13:52:29,390 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,390 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":true,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:52:29,411 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,411 |
+2026-08-12 13:52:29,411 |t:|1786535549
+2026-08-12 13:52:29,411 |switch|p2a: Groudon|Groudon, L72|263/263
+2026-08-12 13:52:29,412 |switch|p1a: Latios|Latios, L70, M|100/100
+2026-08-12 13:52:29,412 |-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+2026-08-12 13:52:29,412 |turn|9
+2026-08-12 13:52:29,412 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,412 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:52:29,441 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,442 |
+2026-08-12 13:52:29,442 |t:|1786535549
+2026-08-12 13:52:29,442 |switch|p1a: Rapidash|Rapidash, L83, F|100/100
+2026-08-12 13:52:29,442 |move|p2a: Groudon|Stone Edge|p1a: Rapidash
+2026-08-12 13:52:29,442 |-supereffective|p1a: Rapidash
+2026-08-12 13:52:29,442 |-damage|p1a: Rapidash|29/100
+2026-08-12 13:52:29,442 |
+2026-08-12 13:52:29,442 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,442 |-heal|p1a: Rapidash|35/100|[from] item: Leftovers
+2026-08-12 13:52:29,442 |upkeep
+2026-08-12 13:52:29,442 |turn|10
+2026-08-12 13:52:29,443 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,443 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:52:29,487 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,488 |
+2026-08-12 13:52:29,488 |t:|1786535549
+2026-08-12 13:52:29,488 |move|p1a: Rapidash|Morning Sun|p1a: Rapidash
+2026-08-12 13:52:29,488 |-heal|p1a: Rapidash|100/100
+2026-08-12 13:52:29,488 |move|p2a: Groudon|Earthquake|p1a: Rapidash
+2026-08-12 13:52:29,488 |-supereffective|p1a: Rapidash
+2026-08-12 13:52:29,488 |-damage|p1a: Rapidash|0 fnt
+2026-08-12 13:52:29,488 |faint|p1a: Rapidash
+2026-08-12 13:52:29,488 |
+2026-08-12 13:52:29,488 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,488 |upkeep
+2026-08-12 13:52:29,492 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,492 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:52:29,510 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,510 |
+2026-08-12 13:52:29,510 |t:|1786535549
+2026-08-12 13:52:29,510 |switch|p1a: Porygon2|Porygon2, L86|100/100
+2026-08-12 13:52:29,510 |-ability|p1a: Porygon2|Drought|Trace|[from] ability: Trace|[of] p2a: Groudon
+2026-08-12 13:52:29,510 |turn|11
+2026-08-12 13:52:29,512 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,512 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:52:29,545 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,545 |
+2026-08-12 13:52:29,545 |t:|1786535549
+2026-08-12 13:52:29,545 |move|p2a: Groudon|Earthquake|p1a: Porygon2
+2026-08-12 13:52:29,545 |-damage|p1a: Porygon2|61/100
+2026-08-12 13:52:29,545 |move|p1a: Porygon2|Recover|p1a: Porygon2
+2026-08-12 13:52:29,545 |-heal|p1a: Porygon2|100/100
+2026-08-12 13:52:29,545 |
+2026-08-12 13:52:29,545 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,545 |upkeep
+2026-08-12 13:52:29,545 |turn|12
+2026-08-12 13:52:29,545 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,545 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:52:29,581 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,581 |
+2026-08-12 13:52:29,581 |t:|1786535549
+2026-08-12 13:52:29,581 |switch|p1a: Latios|Latios, L70, M|100/100
+2026-08-12 13:52:29,581 |move|p2a: Groudon|Stone Edge|p1a: Latios
+2026-08-12 13:52:29,581 |-damage|p1a: Latios|61/100
+2026-08-12 13:52:29,581 |
+2026-08-12 13:52:29,581 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,581 |upkeep
+2026-08-12 13:52:29,581 |turn|13
+2026-08-12 13:52:29,583 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,583 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:52:29,612 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,612 |
+2026-08-12 13:52:29,612 |t:|1786535549
+2026-08-12 13:52:29,612 |switch|p2a: Slowbro|Slowbro, L85, M|300/300
+2026-08-12 13:52:29,612 |move|p1a: Latios|Calm Mind|p1a: Latios
+2026-08-12 13:52:29,612 |-boost|p1a: Latios|spa|1
+2026-08-12 13:52:29,612 |-boost|p1a: Latios|spd|1
+2026-08-12 13:52:29,612 |
+2026-08-12 13:52:29,612 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,612 |upkeep
+2026-08-12 13:52:29,612 |turn|14
+2026-08-12 13:52:29,613 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,613 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":true,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:52:29,654 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,654 |
+2026-08-12 13:52:29,654 |t:|1786535549
+2026-08-12 13:52:29,654 |move|p1a: Latios|Roost|p1a: Latios
+2026-08-12 13:52:29,654 |-heal|p1a: Latios|100/100
+2026-08-12 13:52:29,654 |-singleturn|p1a: Latios|move: Roost
+2026-08-12 13:52:29,654 |move|p2a: Slowbro|Surf|p1a: Latios
+2026-08-12 13:52:29,654 |-resisted|p1a: Latios
+2026-08-12 13:52:29,654 |-damage|p1a: Latios|95/100
+2026-08-12 13:52:29,654 |
+2026-08-12 13:52:29,654 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,654 |upkeep
+2026-08-12 13:52:29,654 |turn|15
+2026-08-12 13:52:29,655 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,655 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"300/300","active":true,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:52:29,687 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,687 |
+2026-08-12 13:52:29,687 |t:|1786535549
+2026-08-12 13:52:29,687 |move|p1a: Latios|Draco Meteor|p2a: Slowbro
+2026-08-12 13:52:29,687 |-damage|p2a: Slowbro|0 fnt
+2026-08-12 13:52:29,687 |-unboost|p1a: Latios|spa|2
+2026-08-12 13:52:29,687 |faint|p2a: Slowbro
+2026-08-12 13:52:29,687 |
+2026-08-12 13:52:29,687 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,687 |upkeep
+2026-08-12 13:52:29,689 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,689 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":true,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"}]},"noCancel":true,"rqid":37}
+2026-08-12 13:52:29,709 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,709 |
+2026-08-12 13:52:29,709 |t:|1786535549
+2026-08-12 13:52:29,709 |switch|p2a: Absol|Absol, L84, F|246/246
+2026-08-12 13:52:29,709 |turn|16
+2026-08-12 13:52:29,711 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,711 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:52:29,744 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,744 |
+2026-08-12 13:52:29,744 |t:|1786535549
+2026-08-12 13:52:29,744 |move|p1a: Latios|Roost|p1a: Latios
+2026-08-12 13:52:29,744 |-heal|p1a: Latios|100/100
+2026-08-12 13:52:29,744 |-singleturn|p1a: Latios|move: Roost
+2026-08-12 13:52:29,744 |move|p2a: Absol|Psycho Cut|p1a: Latios
+2026-08-12 13:52:29,744 |-resisted|p1a: Latios
+2026-08-12 13:52:29,744 |-damage|p1a: Latios|76/100
+2026-08-12 13:52:29,744 |
+2026-08-12 13:52:29,744 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,744 |upkeep
+2026-08-12 13:52:29,744 |turn|17
+2026-08-12 13:52:29,747 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,747 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Psycho Cut","id":"psychocut","pp":31,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:52:29,778 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,778 |
+2026-08-12 13:52:29,778 |t:|1786535549
+2026-08-12 13:52:29,778 |move|p1a: Latios|Roost|p1a: Latios
+2026-08-12 13:52:29,778 |-heal|p1a: Latios|100/100
+2026-08-12 13:52:29,778 |-singleturn|p1a: Latios|move: Roost
+2026-08-12 13:52:29,778 |move|p2a: Absol|Psycho Cut|p1a: Latios
+2026-08-12 13:52:29,778 |-resisted|p1a: Latios
+2026-08-12 13:52:29,778 |-damage|p1a: Latios|76/100
+2026-08-12 13:52:29,778 |
+2026-08-12 13:52:29,778 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,778 |upkeep
+2026-08-12 13:52:29,778 |turn|18
+2026-08-12 13:52:29,779 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,779 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"221/221","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:52:29,806 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,806 |
+2026-08-12 13:52:29,806 |t:|1786535549
+2026-08-12 13:52:29,806 |switch|p2a: Hitmonlee|Hitmonlee, L84, M|221/221
+2026-08-12 13:52:29,806 |move|p1a: Latios|Draco Meteor|p2a: Hitmonlee
+2026-08-12 13:52:29,806 |-damage|p2a: Hitmonlee|115/221
+2026-08-12 13:52:29,806 |-unboost|p1a: Latios|spa|2
+2026-08-12 13:52:29,806 |
+2026-08-12 13:52:29,806 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,806 |upkeep
+2026-08-12 13:52:29,806 |turn|19
+2026-08-12 13:52:29,807 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,807 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Mach Punch","id":"machpunch","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"115/221","active":true,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:52:29,838 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,838 |
+2026-08-12 13:52:29,838 |t:|1786535549
+2026-08-12 13:52:29,838 |switch|p1a: Medicham|Medicham, L86, F|100/100
+2026-08-12 13:52:29,838 |move|p2a: Hitmonlee|Mach Punch|p1a: Medicham
+2026-08-12 13:52:29,838 |-resisted|p1a: Medicham
+2026-08-12 13:52:29,838 |-damage|p1a: Medicham|83/100
+2026-08-12 13:52:29,838 |
+2026-08-12 13:52:29,838 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,838 |upkeep
+2026-08-12 13:52:29,838 |turn|20
+2026-08-12 13:52:29,839 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,839 |request|{"active":[{"moves":[{"move":"Stone Edge","id":"stoneedge","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Close Combat","id":"closecombat","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Mach Punch","id":"machpunch","pp":47,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"115/221","active":true,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:52:29,872 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,872 |
+2026-08-12 13:52:29,872 |t:|1786535549
+2026-08-12 13:52:29,872 |move|p2a: Hitmonlee|Mach Punch|p1a: Medicham
+2026-08-12 13:52:29,872 |-resisted|p1a: Medicham
+2026-08-12 13:52:29,872 |-damage|p1a: Medicham|67/100
+2026-08-12 13:52:29,872 |move|p1a: Medicham|Ice Punch|p2a: Hitmonlee
+2026-08-12 13:52:29,872 |-damage|p2a: Hitmonlee|0 fnt
+2026-08-12 13:52:29,872 |faint|p2a: Hitmonlee
+2026-08-12 13:52:29,872 |
+2026-08-12 13:52:29,872 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,872 |upkeep
+2026-08-12 13:52:29,872 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,872 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":true,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":49}
+2026-08-12 13:52:29,897 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,897 |
+2026-08-12 13:52:29,897 |t:|1786535549
+2026-08-12 13:52:29,897 |switch|p2a: Groudon|Groudon, L72|263/263
+2026-08-12 13:52:29,897 |turn|21
+2026-08-12 13:52:29,898 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,898 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"263/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:52:29,936 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,936 |
+2026-08-12 13:52:29,936 |t:|1786535549
+2026-08-12 13:52:29,936 |move|p1a: Medicham|Ice Punch|p2a: Groudon
+2026-08-12 13:52:29,936 |-supereffective|p2a: Groudon
+2026-08-12 13:52:29,936 |-damage|p2a: Groudon|89/263
+2026-08-12 13:52:29,936 |move|p2a: Groudon|Rock Polish|p2a: Groudon
+2026-08-12 13:52:29,936 |-boost|p2a: Groudon|spe|2
+2026-08-12 13:52:29,936 |
+2026-08-12 13:52:29,936 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,937 |-heal|p2a: Groudon|105/263|[from] item: Leftovers
+2026-08-12 13:52:29,937 |upkeep
+2026-08-12 13:52:29,937 |turn|22
+2026-08-12 13:52:29,937 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,937 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Stone Edge","id":"stoneedge","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Rock Polish","id":"rockpolish","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"105/263","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:52:29,971 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,971 |
+2026-08-12 13:52:29,971 |t:|1786535549
+2026-08-12 13:52:29,971 |move|p2a: Groudon|Stone Edge|p1a: Medicham
+2026-08-12 13:52:29,971 |-resisted|p1a: Medicham
+2026-08-12 13:52:29,971 |-damage|p1a: Medicham|51/100
+2026-08-12 13:52:29,971 |move|p1a: Medicham|Ice Punch|p2a: Groudon
+2026-08-12 13:52:29,971 |-supereffective|p2a: Groudon
+2026-08-12 13:52:29,971 |-damage|p2a: Groudon|0 fnt
+2026-08-12 13:52:29,971 |faint|p2a: Groudon
+2026-08-12 13:52:29,971 |
+2026-08-12 13:52:29,971 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:29,971 |upkeep
+2026-08-12 13:52:29,973 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,973 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":true,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":55}
+2026-08-12 13:52:29,992 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,993 |
+2026-08-12 13:52:29,993 |t:|1786535549
+2026-08-12 13:52:29,993 |switch|p2a: Absol|Absol, L84, F|246/246
+2026-08-12 13:52:29,993 |turn|23
+2026-08-12 13:52:29,995 >battle-gen4randombattle-328626
+2026-08-12 13:52:29,995 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:52:30,041 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,041 |
+2026-08-12 13:52:30,041 |t:|1786535550
+2026-08-12 13:52:30,041 |move|p2a: Absol|Sucker Punch|p1a: Medicham
+2026-08-12 13:52:30,041 |-damage|p1a: Medicham|0 fnt
+2026-08-12 13:52:30,041 |faint|p1a: Medicham
+2026-08-12 13:52:30,041 |
+2026-08-12 13:52:30,041 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,041 |upkeep
+2026-08-12 13:52:30,042 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,042 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:52:30,071 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,071 |
+2026-08-12 13:52:30,071 |t:|1786535550
+2026-08-12 13:52:30,071 |switch|p1a: Huntail|Huntail, L91, M|100/100
+2026-08-12 13:52:30,071 |turn|24
+2026-08-12 13:52:30,073 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,073 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:52:30,118 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,118 |
+2026-08-12 13:52:30,118 |t:|1786535550
+2026-08-12 13:52:30,118 |move|p2a: Absol|Sucker Punch|p1a: Huntail
+2026-08-12 13:52:30,118 |-damage|p1a: Huntail|45/100
+2026-08-12 13:52:30,118 |move|p1a: Huntail|Ice Beam|p2a: Absol
+2026-08-12 13:52:30,118 |-damage|p2a: Absol|107/246
+2026-08-12 13:52:30,118 |-damage|p1a: Huntail|35/100|[from] item: Life Orb
+2026-08-12 13:52:30,118 |
+2026-08-12 13:52:30,118 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,118 |upkeep
+2026-08-12 13:52:30,118 |turn|25
+2026-08-12 13:52:30,119 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,119 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"107/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:52:30,152 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,152 |
+2026-08-12 13:52:30,152 |t:|1786535550
+2026-08-12 13:52:30,152 |move|p2a: Absol|Sucker Punch|p1a: Huntail
+2026-08-12 13:52:30,152 |-damage|p1a: Huntail|0 fnt
+2026-08-12 13:52:30,152 |faint|p1a: Huntail
+2026-08-12 13:52:30,152 |
+2026-08-12 13:52:30,152 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,152 |upkeep
+2026-08-12 13:52:30,152 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,152 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"107/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:52:30,181 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,181 |
+2026-08-12 13:52:30,182 |t:|1786535550
+2026-08-12 13:52:30,182 |switch|p1a: Latios|Latios, L70, M|76/100
+2026-08-12 13:52:30,182 |turn|26
+2026-08-12 13:52:30,184 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,184 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":5,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"107/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:52:30,213 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,213 |
+2026-08-12 13:52:30,213 |t:|1786535550
+2026-08-12 13:52:30,213 |move|p2a: Absol|Sucker Punch|p1a: Latios
+2026-08-12 13:52:30,213 |-fail|p2a: Absol
+2026-08-12 13:52:30,213 |move|p1a: Latios|Roost|p1a: Latios
+2026-08-12 13:52:30,213 |-heal|p1a: Latios|100/100
+2026-08-12 13:52:30,213 |-singleturn|p1a: Latios|move: Roost
+2026-08-12 13:52:30,213 |
+2026-08-12 13:52:30,213 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,213 |upkeep
+2026-08-12 13:52:30,213 |turn|27
+2026-08-12 13:52:30,213 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,213 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":4,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"107/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:52:30,239 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,239 |
+2026-08-12 13:52:30,239 |t:|1786535550
+2026-08-12 13:52:30,239 |switch|p1a: Porygon2|Porygon2, L86|100/100
+2026-08-12 13:52:30,239 |-ability|p1a: Porygon2|Super Luck|Trace|[from] ability: Trace|[of] p2a: Absol
+2026-08-12 13:52:30,239 |move|p2a: Absol|Sucker Punch|p1a: Porygon2
+2026-08-12 13:52:30,239 |-fail|p2a: Absol
+2026-08-12 13:52:30,239 |
+2026-08-12 13:52:30,239 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,239 |upkeep
+2026-08-12 13:52:30,239 |turn|28
+2026-08-12 13:52:30,243 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,243 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":3,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"107/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:52:30,287 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,287 |
+2026-08-12 13:52:30,287 |t:|1786535550
+2026-08-12 13:52:30,287 |move|p2a: Absol|Sucker Punch|p1a: Porygon2
+2026-08-12 13:52:30,287 |-fail|p2a: Absol
+2026-08-12 13:52:30,287 |move|p1a: Porygon2|Toxic|p2a: Absol
+2026-08-12 13:52:30,287 |-status|p2a: Absol|tox
+2026-08-12 13:52:30,287 |
+2026-08-12 13:52:30,287 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,287 |-damage|p2a: Absol|92/246 tox|[from] psn
+2026-08-12 13:52:30,287 |upkeep
+2026-08-12 13:52:30,287 |turn|29
+2026-08-12 13:52:30,287 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,287 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":2,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"92/246 tox","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:52:30,324 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,324 |
+2026-08-12 13:52:30,324 |t:|1786535550
+2026-08-12 13:52:30,324 |move|p2a: Absol|Sucker Punch|p1a: Porygon2
+2026-08-12 13:52:30,324 |-fail|p2a: Absol
+2026-08-12 13:52:30,324 |move|p1a: Porygon2|Toxic|p2a: Absol
+2026-08-12 13:52:30,324 |-fail|p2a: Absol|tox
+2026-08-12 13:52:30,324 |
+2026-08-12 13:52:30,324 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,324 |-damage|p2a: Absol|62/246 tox|[from] psn
+2026-08-12 13:52:30,324 |upkeep
+2026-08-12 13:52:30,324 |turn|30
+2026-08-12 13:52:30,327 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,327 |request|{"active":[{"moves":[{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":1,"maxpp":8,"target":"normal","disabled":false},{"move":"Psycho Cut","id":"psychocut","pp":30,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"62/246 tox","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:52:30,355 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,355 |
+2026-08-12 13:52:30,355 |t:|1786535550
+2026-08-12 13:52:30,355 |move|p2a: Absol|Sucker Punch|p1a: Porygon2
+2026-08-12 13:52:30,355 |-fail|p2a: Absol
+2026-08-12 13:52:30,355 |move|p1a: Porygon2|Toxic|p2a: Absol
+2026-08-12 13:52:30,356 |-fail|p2a: Absol|tox
+2026-08-12 13:52:30,356 |
+2026-08-12 13:52:30,356 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,356 |-damage|p2a: Absol|17/246 tox|[from] psn
+2026-08-12 13:52:30,356 |upkeep
+2026-08-12 13:52:30,356 |turn|31
+2026-08-12 13:52:30,356 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,356 |request|{"active":[{"moves":[{"move":"Struggle","id":"struggle","target":"randomNormal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"17/246 tox","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:52:30,374 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,374 |-activate|p2a: Absol|move: Struggle
+2026-08-12 13:52:30,374 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,374 |
+2026-08-12 13:52:30,375 |t:|1786535550
+2026-08-12 13:52:30,375 |move|p2a: Absol|Struggle|p1a: Porygon2
+2026-08-12 13:52:30,375 |-damage|p1a: Porygon2|78/100
+2026-08-12 13:52:30,375 |-damage|p2a: Absol|0 fnt|[from] recoil
+2026-08-12 13:52:30,375 |faint|p2a: Absol
+2026-08-12 13:52:30,375 |move|p1a: Porygon2|Toxic|p2: Absol|[notarget]
+2026-08-12 13:52:30,375 |-notarget|p1a: Porygon2
+2026-08-12 13:52:30,375 |
+2026-08-12 13:52:30,375 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,375 |-heal|p1a: Porygon2|84/100|[from] item: Leftovers
+2026-08-12 13:52:30,375 |upkeep
+2026-08-12 13:52:30,375 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,375 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, F","condition":"0 fnt","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":false,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":79}
+2026-08-12 13:52:30,386 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,386 |
+2026-08-12 13:52:30,386 |t:|1786535550
+2026-08-12 13:52:30,386 |switch|p2a: Ledian|Ledian, F|271/271
+2026-08-12 13:52:30,386 |turn|32
+2026-08-12 13:52:30,389 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,389 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ledian","details":"Ledian, F","condition":"271/271","active":true,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"0 fnt","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:52:30,410 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,410 |
+2026-08-12 13:52:30,410 |t:|1786535550
+2026-08-12 13:52:30,410 |move|p2a: Ledian|Knock Off|p1a: Porygon2
+2026-08-12 13:52:30,410 |-damage|p1a: Porygon2|81/100
+2026-08-12 13:52:30,410 |-enditem|p1a: Porygon2|Leftovers|[from] move: Knock Off|[of] p2a: Ledian
+2026-08-12 13:52:30,410 |-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+2026-08-12 13:52:30,410 |move|p1a: Porygon2|Toxic|p2a: Ledian
+2026-08-12 13:52:30,410 |-status|p2a: Ledian|tox
+2026-08-12 13:52:30,410 |
+2026-08-12 13:52:30,410 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,410 |-damage|p2a: Ledian|255/271 tox|[from] psn
+2026-08-12 13:52:30,411 |upkeep
+2026-08-12 13:52:30,411 |turn|33
+2026-08-12 13:52:30,413 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,413 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ledian","details":"Ledian, F","condition":"255/271 tox","active":true,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"0 fnt","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:52:30,436 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,436 |
+2026-08-12 13:52:30,436 |t:|1786535550
+2026-08-12 13:52:30,436 |move|p2a: Ledian|Roost|p2a: Ledian
+2026-08-12 13:52:30,436 |-heal|p2a: Ledian|271/271 tox
+2026-08-12 13:52:30,436 |-singleturn|p2a: Ledian|move: Roost
+2026-08-12 13:52:30,436 |move|p1a: Porygon2|Discharge|p2a: Ledian
+2026-08-12 13:52:30,436 |-damage|p2a: Ledian|227/271 tox
+2026-08-12 13:52:30,436 |
+2026-08-12 13:52:30,436 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,436 |-heal|p2a: Ledian|243/271 tox|[from] item: Leftovers
+2026-08-12 13:52:30,436 |-damage|p2a: Ledian|211/271 tox|[from] psn
+2026-08-12 13:52:30,436 |upkeep
+2026-08-12 13:52:30,436 |turn|34
+2026-08-12 13:52:30,437 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,437 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ledian","details":"Ledian, F","condition":"211/271 tox","active":true,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"0 fnt","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:52:30,457 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,457 |
+2026-08-12 13:52:30,457 |t:|1786535550
+2026-08-12 13:52:30,457 |move|p2a: Ledian|Hidden Power|p1a: Porygon2
+2026-08-12 13:52:30,457 |-damage|p1a: Porygon2|56/100
+2026-08-12 13:52:30,457 |move|p1a: Porygon2|Recover|p1a: Porygon2
+2026-08-12 13:52:30,457 |-heal|p1a: Porygon2|100/100
+2026-08-12 13:52:30,457 |
+2026-08-12 13:52:30,457 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,457 |-heal|p2a: Ledian|227/271 tox|[from] item: Leftovers
+2026-08-12 13:52:30,457 |-damage|p2a: Ledian|179/271 tox|[from] psn
+2026-08-12 13:52:30,457 |upkeep
+2026-08-12 13:52:30,457 |turn|35
+2026-08-12 13:52:30,458 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,458 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Ledian","details":"Ledian, F","condition":"179/271 tox","active":true,"stats":{"atk":126,"def":156,"spa":166,"spd":276,"spe":227},"moves":["hiddenpowerflying","knockoff","toxic","roost"],"baseAbility":"earlybird","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Groudon","details":"Groudon, L72","condition":"0 fnt","active":false,"stats":{"atk":258,"def":244,"spa":186,"spd":172,"spe":172},"moves":["swordsdance","stoneedge","rockpolish","earthquake"],"baseAbility":"drought","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Hitmonlee","details":"Hitmonlee, L84, M","condition":"0 fnt","active":false,"stats":{"atk":250,"def":137,"spa":107,"spd":233,"spe":194},"moves":["stoneedge","closecombat","earthquake","machpunch"],"baseAbility":"limber","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, F","condition":"0 fnt","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["superpower","nightslash","suckerpunch","psychocut"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Latios","details":"Latios, L70, M","condition":"0 fnt","active":false,"stats":{"atk":131,"def":153,"spa":223,"spd":195,"spe":195},"moves":["calmmind","dracometeor","roost","psychic"],"baseAbility":"levitate","item":"souldew","pokeball":"pokeball"},{"ident":"p2: Slowbro","details":"Slowbro, L85, M","condition":"0 fnt","active":false,"stats":{"atk":132,"def":236,"spa":219,"spd":185,"spe":100},"moves":["psychic","slackoff","fireblast","surf"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:52:30,481 >battle-gen4randombattle-328626
+2026-08-12 13:52:30,481 |
+2026-08-12 13:52:30,481 |t:|1786535550
+2026-08-12 13:52:30,481 |move|p2a: Ledian|Knock Off|p1a: Porygon2
+2026-08-12 13:52:30,481 |-damage|p1a: Porygon2|97/100
+2026-08-12 13:52:30,481 |move|p1a: Porygon2|Discharge|p2a: Ledian
+2026-08-12 13:52:30,481 |-supereffective|p2a: Ledian
+2026-08-12 13:52:30,481 |-crit|p2a: Ledian
+2026-08-12 13:52:30,481 |-damage|p2a: Ledian|7/271 tox
+2026-08-12 13:52:30,481 |
+2026-08-12 13:52:30,482 |-weather|SunnyDay|[upkeep]
+2026-08-12 13:52:30,482 |-heal|p2a: Ledian|23/271 tox|[from] item: Leftovers
+2026-08-12 13:52:30,482 |-damage|p2a: Ledian|0 fnt|[from] psn
+2026-08-12 13:52:30,482 |faint|p2a: Ledian
+2026-08-12 13:52:30,482 |
+2026-08-12 13:52:30,482 |win|BOT7
+2026-08-12 14:32:30,482 >battle-gen4randombattle-328626
+2026-08-12 14:32:30,482 |expire|
+2026-08-12 14:32:30,482 >battle-gen4randombattle-328626
+2026-08-12 14:32:30,482 |L|☆BOT7
+2026-08-12 14:32:30,482 >battle-gen4randombattle-328626
+2026-08-12 14:32:30,482 |deinit

@@ -1,0 +1,897 @@
+2026-08-12 12:52:14,647 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,647 |init|battle
+2026-08-12 12:52:14,647 |title|BOT5 vs. BOT6
+2026-08-12 12:52:14,647 |pm| BOT6| BOT5|/nonotify BOT6 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-321823">battle-gen3randombattle-321823</a>&raquo;
+2026-08-12 12:52:14,699 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,699 |t:|1786531934
+2026-08-12 12:52:14,699 |gametype|singles
+2026-08-12 12:52:14,699 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,699 |player|p1|BOT5|101|
+2026-08-12 12:52:14,699 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,699 |player|p2|BOT6|101|
+2026-08-12 12:52:14,699 |gen|3
+2026-08-12 12:52:14,699 |tier|[Gen 3] Random Battle
+2026-08-12 12:52:14,699 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:52:14,699 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:52:14,699 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:52:14,699 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:52:14,699 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:52:14,699 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:52:14,700 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:52:14,700 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:52:14,700 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:52:14,700 |
+2026-08-12 12:52:14,700 |t:|1786531934
+2026-08-12 12:52:14,700 |teamsize|p1|6
+2026-08-12 12:52:14,700 |teamsize|p2|6
+2026-08-12 12:52:14,700 |start
+2026-08-12 12:52:14,700 |switch|p1a: Murkrow|Murkrow, L90, F|100/100
+2026-08-12 12:52:14,700 |switch|p2a: Togetic|Togetic, L97, M|264/264
+2026-08-12 12:52:14,700 |turn|1
+2026-08-12 12:52:14,700 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,700 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:52:14,740 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,740 |
+2026-08-12 12:52:14,740 |t:|1786531934
+2026-08-12 12:52:14,740 |move|p1a: Murkrow|Thunder Wave|p2a: Togetic
+2026-08-12 12:52:14,740 |-status|p2a: Togetic|par
+2026-08-12 12:52:14,740 |move|p2a: Togetic|Soft-Boiled||[still]
+2026-08-12 12:52:14,740 |-fail|p2a: Togetic|heal
+2026-08-12 12:52:14,740 |
+2026-08-12 12:52:14,740 |upkeep
+2026-08-12 12:52:14,740 |turn|2
+2026-08-12 12:52:14,740 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,740 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:52:14,792 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,792 |
+2026-08-12 12:52:14,792 |t:|1786531934
+2026-08-12 12:52:14,792 |move|p1a: Murkrow|Shadow Ball|p2a: Togetic
+2026-08-12 12:52:14,792 |-immune|p2a: Togetic
+2026-08-12 12:52:14,792 |move|p2a: Togetic|Charm|p1a: Murkrow
+2026-08-12 12:52:14,792 |-unboost|p1a: Murkrow|atk|2
+2026-08-12 12:52:14,792 |
+2026-08-12 12:52:14,792 |upkeep
+2026-08-12 12:52:14,792 |turn|3
+2026-08-12 12:52:14,792 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,792 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:52:14,823 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,823 |
+2026-08-12 12:52:14,823 |t:|1786531934
+2026-08-12 12:52:14,823 |move|p1a: Murkrow|Hidden Power|p2a: Togetic
+2026-08-12 12:52:14,823 |-immune|p2a: Togetic
+2026-08-12 12:52:14,823 |cant|p2a: Togetic|par
+2026-08-12 12:52:14,823 |
+2026-08-12 12:52:14,823 |upkeep
+2026-08-12 12:52:14,823 |turn|4
+2026-08-12 12:52:14,823 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,823 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:52:14,879 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,879 |
+2026-08-12 12:52:14,879 |t:|1786531934
+2026-08-12 12:52:14,879 |move|p1a: Murkrow|Hidden Power|p2a: Togetic
+2026-08-12 12:52:14,879 |-immune|p2a: Togetic
+2026-08-12 12:52:14,879 |move|p2a: Togetic|Toxic|p1a: Murkrow
+2026-08-12 12:52:14,879 |-status|p1a: Murkrow|tox
+2026-08-12 12:52:14,880 |
+2026-08-12 12:52:14,880 |-damage|p1a: Murkrow|95/100 tox|[from] psn
+2026-08-12 12:52:14,880 |upkeep
+2026-08-12 12:52:14,880 |turn|5
+2026-08-12 12:52:14,881 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,881 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:52:14,915 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,915 |
+2026-08-12 12:52:14,915 |t:|1786531934
+2026-08-12 12:52:14,915 |move|p1a: Murkrow|Drill Peck|p2a: Togetic
+2026-08-12 12:52:14,915 |-damage|p2a: Togetic|223/264 par
+2026-08-12 12:52:14,915 |move|p2a: Togetic|Charm|p1a: Murkrow
+2026-08-12 12:52:14,915 |-unboost|p1a: Murkrow|atk|2
+2026-08-12 12:52:14,915 |
+2026-08-12 12:52:14,915 |-heal|p1a: Murkrow|100/100 tox|[from] item: Leftovers
+2026-08-12 12:52:14,915 |-damage|p1a: Murkrow|89/100 tox|[from] psn
+2026-08-12 12:52:14,915 |-heal|p2a: Togetic|239/264 par|[from] item: Leftovers
+2026-08-12 12:52:14,915 |upkeep
+2026-08-12 12:52:14,915 |turn|6
+2026-08-12 12:52:14,915 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,916 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"239/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 12:52:14,943 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,944 |
+2026-08-12 12:52:14,944 |t:|1786531934
+2026-08-12 12:52:14,944 |move|p1a: Murkrow|Shadow Ball|p2a: Togetic
+2026-08-12 12:52:14,944 |-immune|p2a: Togetic
+2026-08-12 12:52:14,944 |move|p2a: Togetic|Toxic|p1a: Murkrow
+2026-08-12 12:52:14,944 |-fail|p1a: Murkrow|tox
+2026-08-12 12:52:14,944 |
+2026-08-12 12:52:14,944 |-heal|p1a: Murkrow|95/100 tox|[from] item: Leftovers
+2026-08-12 12:52:14,944 |-damage|p1a: Murkrow|77/100 tox|[from] psn
+2026-08-12 12:52:14,944 |-heal|p2a: Togetic|255/264 par|[from] item: Leftovers
+2026-08-12 12:52:14,944 |upkeep
+2026-08-12 12:52:14,944 |turn|7
+2026-08-12 12:52:14,944 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,944 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"255/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:52:14,988 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,988 |
+2026-08-12 12:52:14,988 |t:|1786531934
+2026-08-12 12:52:14,988 |move|p1a: Murkrow|Drill Peck|p2a: Togetic
+2026-08-12 12:52:14,988 |-damage|p2a: Togetic|228/264 par
+2026-08-12 12:52:14,989 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:52:14,989 |-heal|p2a: Togetic|264/264 par
+2026-08-12 12:52:14,989 |
+2026-08-12 12:52:14,989 |-heal|p1a: Murkrow|83/100 tox|[from] item: Leftovers
+2026-08-12 12:52:14,989 |-damage|p1a: Murkrow|59/100 tox|[from] psn
+2026-08-12 12:52:14,989 |upkeep
+2026-08-12 12:52:14,989 |turn|8
+2026-08-12 12:52:14,989 >battle-gen3randombattle-321823
+2026-08-12 12:52:14,989 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:52:15,016 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,016 |
+2026-08-12 12:52:15,016 |t:|1786531935
+2026-08-12 12:52:15,016 |move|p1a: Murkrow|Shadow Ball|p2a: Togetic
+2026-08-12 12:52:15,016 |-immune|p2a: Togetic
+2026-08-12 12:52:15,016 |move|p2a: Togetic|Soft-Boiled||[still]
+2026-08-12 12:52:15,016 |-fail|p2a: Togetic|heal
+2026-08-12 12:52:15,016 |
+2026-08-12 12:52:15,016 |-heal|p1a: Murkrow|65/100 tox|[from] item: Leftovers
+2026-08-12 12:52:15,016 |-damage|p1a: Murkrow|36/100 tox|[from] psn
+2026-08-12 12:52:15,016 |upkeep
+2026-08-12 12:52:15,016 |turn|9
+2026-08-12 12:52:15,016 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,016 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:52:15,044 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,044 |
+2026-08-12 12:52:15,044 |t:|1786531935
+2026-08-12 12:52:15,044 |move|p1a: Murkrow|Drill Peck|p2a: Togetic
+2026-08-12 12:52:15,044 |-damage|p2a: Togetic|235/264 par
+2026-08-12 12:52:15,044 |move|p2a: Togetic|Soft-Boiled|p2a: Togetic
+2026-08-12 12:52:15,044 |-heal|p2a: Togetic|264/264 par
+2026-08-12 12:52:15,044 |
+2026-08-12 12:52:15,044 |-heal|p1a: Murkrow|41/100 tox|[from] item: Leftovers
+2026-08-12 12:52:15,044 |-damage|p1a: Murkrow|6/100 tox|[from] psn
+2026-08-12 12:52:15,044 |upkeep
+2026-08-12 12:52:15,044 |turn|10
+2026-08-12 12:52:15,045 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,045 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:52:15,070 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,070 |
+2026-08-12 12:52:15,070 |t:|1786531935
+2026-08-12 12:52:15,070 |move|p1a: Murkrow|Hidden Power|p2a: Togetic
+2026-08-12 12:52:15,070 |-immune|p2a: Togetic
+2026-08-12 12:52:15,070 |cant|p2a: Togetic|par
+2026-08-12 12:52:15,070 |
+2026-08-12 12:52:15,070 |-heal|p1a: Murkrow|12/100 tox|[from] item: Leftovers
+2026-08-12 12:52:15,070 |-damage|p1a: Murkrow|0 fnt|[from] psn
+2026-08-12 12:52:15,070 |faint|p1a: Murkrow
+2026-08-12 12:52:15,070 |upkeep
+2026-08-12 12:52:15,073 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,073 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:52:15,096 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,096 |
+2026-08-12 12:52:15,096 |t:|1786531935
+2026-08-12 12:52:15,096 |switch|p1a: Gligar|Gligar, L83, M|100/100
+2026-08-12 12:52:15,096 |turn|11
+2026-08-12 12:52:15,098 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,098 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"264/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:52:15,165 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,165 |
+2026-08-12 12:52:15,165 |t:|1786531935
+2026-08-12 12:52:15,165 |move|p1a: Gligar|Hidden Power|p2a: Togetic
+2026-08-12 12:52:15,165 |-damage|p2a: Togetic|210/264 par
+2026-08-12 12:52:15,166 |cant|p2a: Togetic|par
+2026-08-12 12:52:15,166 |
+2026-08-12 12:52:15,166 |-heal|p2a: Togetic|226/264 par|[from] item: Leftovers
+2026-08-12 12:52:15,166 |upkeep
+2026-08-12 12:52:15,166 |turn|12
+2026-08-12 12:52:15,166 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,166 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 12:52:15,225 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,225 |
+2026-08-12 12:52:15,225 |t:|1786531935
+2026-08-12 12:52:15,225 |switch|p2a: Rhydon|Rhydon, L83, M|310/310
+2026-08-12 12:52:15,225 |move|p1a: Gligar|Swords Dance|p1a: Gligar
+2026-08-12 12:52:15,225 |-boost|p1a: Gligar|atk|2
+2026-08-12 12:52:15,225 |
+2026-08-12 12:52:15,225 |upkeep
+2026-08-12 12:52:15,225 |turn|13
+2026-08-12 12:52:15,230 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,230 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":true,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:52:15,314 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,314 |
+2026-08-12 12:52:15,314 |t:|1786531935
+2026-08-12 12:52:15,314 |move|p1a: Gligar|Swords Dance|p1a: Gligar
+2026-08-12 12:52:15,314 |-boost|p1a: Gligar|atk|2
+2026-08-12 12:52:15,314 |move|p2a: Rhydon|Rock Slide|p1a: Gligar
+2026-08-12 12:52:15,314 |-damage|p1a: Gligar|48/100
+2026-08-12 12:52:15,314 |
+2026-08-12 12:52:15,314 |-heal|p1a: Gligar|54/100|[from] item: Leftovers
+2026-08-12 12:52:15,314 |upkeep
+2026-08-12 12:52:15,314 |turn|14
+2026-08-12 12:52:15,315 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,315 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":true},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Rock Slide","id":"rockslide","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Megahorn","id":"megahorn","pp":16,"maxpp":16,"target":"normal","disabled":true}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"310/310","active":true,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:52:15,377 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,377 |
+2026-08-12 12:52:15,377 |t:|1786531935
+2026-08-12 12:52:15,377 |move|p1a: Gligar|Earthquake|p2a: Rhydon
+2026-08-12 12:52:15,377 |-supereffective|p2a: Rhydon
+2026-08-12 12:52:15,377 |-damage|p2a: Rhydon|0 fnt
+2026-08-12 12:52:15,377 |faint|p2a: Rhydon
+2026-08-12 12:52:15,380 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,380 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":true,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":33}
+2026-08-12 12:52:15,440 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,441 |
+2026-08-12 12:52:15,441 |t:|1786531935
+2026-08-12 12:52:15,441 |switch|p2a: Swalot|Swalot, L87, M|316/316
+2026-08-12 12:52:15,441 |
+2026-08-12 12:52:15,441 |-heal|p1a: Gligar|61/100|[from] item: Leftovers
+2026-08-12 12:52:15,441 |upkeep
+2026-08-12 12:52:15,441 |turn|15
+2026-08-12 12:52:15,441 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,441 |request|{"active":[{"moves":[{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Sludge Bomb","id":"sludgebomb","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Pain Split","id":"painsplit","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Yawn","id":"yawn","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"316/316","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:52:15,522 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,522 |
+2026-08-12 12:52:15,522 |t:|1786531935
+2026-08-12 12:52:15,522 |move|p1a: Gligar|Earthquake|p2a: Swalot
+2026-08-12 12:52:15,522 |-supereffective|p2a: Swalot
+2026-08-12 12:52:15,522 |-damage|p2a: Swalot|0 fnt
+2026-08-12 12:52:15,522 |faint|p2a: Swalot
+2026-08-12 12:52:15,526 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,526 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":true,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":37}
+2026-08-12 12:52:15,605 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,605 |
+2026-08-12 12:52:15,605 |t:|1786531935
+2026-08-12 12:52:15,605 |switch|p2a: Sunflora|Sunflora, L99, F|308/308
+2026-08-12 12:52:15,605 |
+2026-08-12 12:52:15,605 |-heal|p1a: Gligar|67/100|[from] item: Leftovers
+2026-08-12 12:52:15,605 |upkeep
+2026-08-12 12:52:15,605 |turn|16
+2026-08-12 12:52:15,606 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,606 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:52:15,712 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,712 |
+2026-08-12 12:52:15,712 |t:|1786531935
+2026-08-12 12:52:15,712 |move|p1a: Gligar|Quick Attack|p2a: Sunflora
+2026-08-12 12:52:15,712 |-damage|p2a: Sunflora|224/308
+2026-08-12 12:52:15,712 |move|p2a: Sunflora|Sunny Day|p2a: Sunflora
+2026-08-12 12:52:15,712 |-weather|SunnyDay
+2026-08-12 12:52:15,712 |
+2026-08-12 12:52:15,712 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:15,712 |-heal|p2a: Sunflora|243/308|[from] item: Leftovers
+2026-08-12 12:52:15,712 |-heal|p1a: Gligar|73/100|[from] item: Leftovers
+2026-08-12 12:52:15,712 |upkeep
+2026-08-12 12:52:15,712 |turn|17
+2026-08-12 12:52:15,717 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,717 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"243/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:52:15,748 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,748 |
+2026-08-12 12:52:15,748 |t:|1786531935
+2026-08-12 12:52:15,748 |switch|p1a: Golem|Golem, L84, M|100/100
+2026-08-12 12:52:15,748 |move|p2a: Sunflora|Sunny Day||[still]
+2026-08-12 12:52:15,748 |-fail|p2a: Sunflora
+2026-08-12 12:52:15,748 |
+2026-08-12 12:52:15,748 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:15,748 |-heal|p2a: Sunflora|262/308|[from] item: Leftovers
+2026-08-12 12:52:15,748 |upkeep
+2026-08-12 12:52:15,748 |turn|18
+2026-08-12 12:52:15,753 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,753 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"262/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:52:15,826 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,826 |
+2026-08-12 12:52:15,826 |t:|1786531935
+2026-08-12 12:52:15,826 |move|p2a: Sunflora|Solar Beam||[still]
+2026-08-12 12:52:15,826 |-prepare|p2a: Sunflora|Solar Beam
+2026-08-12 12:52:15,826 |-anim|p2a: Sunflora|Solar Beam|p1a: Golem
+2026-08-12 12:52:15,826 |-supereffective|p1a: Golem
+2026-08-12 12:52:15,826 |-damage|p1a: Golem|0 fnt
+2026-08-12 12:52:15,826 |faint|p1a: Golem
+2026-08-12 12:52:15,828 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,828 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"262/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 12:52:15,852 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,853 |
+2026-08-12 12:52:15,853 |t:|1786531935
+2026-08-12 12:52:15,853 |switch|p1a: Plusle|Plusle, L88, F|100/100
+2026-08-12 12:52:15,853 |
+2026-08-12 12:52:15,853 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:15,853 |-heal|p2a: Sunflora|281/308|[from] item: Leftovers
+2026-08-12 12:52:15,853 |upkeep
+2026-08-12 12:52:15,853 |turn|19
+2026-08-12 12:52:15,855 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,855 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"281/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:52:15,896 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,896 |
+2026-08-12 12:52:15,896 |t:|1786531935
+2026-08-12 12:52:15,896 |move|p2a: Sunflora|Synthesis|p2a: Sunflora
+2026-08-12 12:52:15,896 |-heal|p2a: Sunflora|308/308
+2026-08-12 12:52:15,896 |move|p1a: Plusle|Wish|p1a: Plusle
+2026-08-12 12:52:15,896 |
+2026-08-12 12:52:15,896 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:15,896 |upkeep
+2026-08-12 12:52:15,896 |turn|20
+2026-08-12 12:52:15,898 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,898 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:52:15,927 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,927 |
+2026-08-12 12:52:15,927 |t:|1786531935
+2026-08-12 12:52:15,927 |move|p1a: Plusle|Protect|p1a: Plusle
+2026-08-12 12:52:15,927 |-singleturn|p1a: Plusle|Protect
+2026-08-12 12:52:15,927 |move|p2a: Sunflora|Solar Beam||[still]
+2026-08-12 12:52:15,927 |-prepare|p2a: Sunflora|Solar Beam
+2026-08-12 12:52:15,928 |-anim|p2a: Sunflora|Solar Beam|p1a: Plusle
+2026-08-12 12:52:15,928 |-activate|p1a: Plusle|Protect
+2026-08-12 12:52:15,928 |
+2026-08-12 12:52:15,928 |-weather|none
+2026-08-12 12:52:15,928 |upkeep
+2026-08-12 12:52:15,928 |turn|21
+2026-08-12 12:52:15,929 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,929 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"226/264 par","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:52:15,963 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,963 |
+2026-08-12 12:52:15,963 |t:|1786531935
+2026-08-12 12:52:15,963 |switch|p2a: Togetic|Togetic, L97, M|226/264 par
+2026-08-12 12:52:15,963 |move|p1a: Plusle|Thunderbolt|p2a: Togetic
+2026-08-12 12:52:15,963 |-supereffective|p2a: Togetic
+2026-08-12 12:52:15,964 |-damage|p2a: Togetic|60/264 par
+2026-08-12 12:52:15,964 |
+2026-08-12 12:52:15,964 |-heal|p2a: Togetic|76/264 par|[from] item: Leftovers
+2026-08-12 12:52:15,964 |upkeep
+2026-08-12 12:52:15,964 |turn|22
+2026-08-12 12:52:15,965 >battle-gen3randombattle-321823
+2026-08-12 12:52:15,965 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"76/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:52:16,008 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,008 |
+2026-08-12 12:52:16,008 |t:|1786531935
+2026-08-12 12:52:16,008 |move|p1a: Plusle|Wish|p1a: Plusle
+2026-08-12 12:52:16,008 |move|p2a: Togetic|Charm|p1a: Plusle
+2026-08-12 12:52:16,008 |-unboost|p1a: Plusle|atk|2
+2026-08-12 12:52:16,008 |
+2026-08-12 12:52:16,008 |-heal|p2a: Togetic|92/264 par|[from] item: Leftovers
+2026-08-12 12:52:16,008 |upkeep
+2026-08-12 12:52:16,008 |turn|23
+2026-08-12 12:52:16,011 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,011 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"92/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:52:16,042 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,042 |
+2026-08-12 12:52:16,042 |t:|1786531936
+2026-08-12 12:52:16,042 |move|p1a: Plusle|Hidden Power|p2a: Togetic
+2026-08-12 12:52:16,042 |-supereffective|p2a: Togetic
+2026-08-12 12:52:16,042 |-damage|p2a: Togetic|17/264 par
+2026-08-12 12:52:16,042 |cant|p2a: Togetic|par
+2026-08-12 12:52:16,042 |
+2026-08-12 12:52:16,042 |-heal|p2a: Togetic|33/264 par|[from] item: Leftovers
+2026-08-12 12:52:16,042 |upkeep
+2026-08-12 12:52:16,042 |turn|24
+2026-08-12 12:52:16,046 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,046 |request|{"active":[{"moves":[{"move":"Soft-Boiled","id":"softboiled","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Charm","id":"charm","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"33/264 par","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:52:16,064 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,064 |
+2026-08-12 12:52:16,064 |t:|1786531936
+2026-08-12 12:52:16,064 |move|p1a: Plusle|Hidden Power|p2a: Togetic
+2026-08-12 12:52:16,064 |-supereffective|p2a: Togetic
+2026-08-12 12:52:16,064 |-damage|p2a: Togetic|0 fnt
+2026-08-12 12:52:16,064 |faint|p2a: Togetic
+2026-08-12 12:52:16,068 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,068 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":true,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":59}
+2026-08-12 12:52:16,099 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,099 |
+2026-08-12 12:52:16,099 |t:|1786531936
+2026-08-12 12:52:16,099 |switch|p2a: Mr. Mime|Mr. Mime, L84, F|204/204
+2026-08-12 12:52:16,099 |
+2026-08-12 12:52:16,099 |upkeep
+2026-08-12 12:52:16,099 |turn|25
+2026-08-12 12:52:16,100 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,101 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:52:16,127 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,127 |
+2026-08-12 12:52:16,127 |t:|1786531936
+2026-08-12 12:52:16,127 |move|p1a: Plusle|Wish|p1a: Plusle
+2026-08-12 12:52:16,127 |move|p2a: Mr. Mime|Fire Punch|p1a: Plusle
+2026-08-12 12:52:16,127 |-damage|p1a: Plusle|78/100
+2026-08-12 12:52:16,127 |-status|p1a: Plusle|brn
+2026-08-12 12:52:16,127 |
+2026-08-12 12:52:16,127 |-heal|p1a: Plusle|84/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,127 |-damage|p1a: Plusle|72/100 brn|[from] brn
+2026-08-12 12:52:16,127 |upkeep
+2026-08-12 12:52:16,127 |turn|26
+2026-08-12 12:52:16,129 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,129 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"204/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:52:16,158 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,158 |
+2026-08-12 12:52:16,158 |t:|1786531936
+2026-08-12 12:52:16,158 |move|p1a: Plusle|Thunderbolt|p2a: Mr. Mime
+2026-08-12 12:52:16,158 |-crit|p2a: Mr. Mime
+2026-08-12 12:52:16,158 |-damage|p2a: Mr. Mime|53/204
+2026-08-12 12:52:16,158 |move|p2a: Mr. Mime|Calm Mind|p2a: Mr. Mime
+2026-08-12 12:52:16,158 |-boost|p2a: Mr. Mime|spa|1
+2026-08-12 12:52:16,158 |-boost|p2a: Mr. Mime|spd|1
+2026-08-12 12:52:16,158 |
+2026-08-12 12:52:16,158 |-heal|p1a: Plusle|100/100 brn|[from] move: Wish|[wisher] Plusle
+2026-08-12 12:52:16,158 |-damage|p1a: Plusle|88/100 brn|[from] brn
+2026-08-12 12:52:16,158 |-heal|p2a: Mr. Mime|65/204|[from] item: Leftovers
+2026-08-12 12:52:16,158 |upkeep
+2026-08-12 12:52:16,158 |turn|27
+2026-08-12 12:52:16,159 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,159 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"65/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:52:16,190 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,190 |
+2026-08-12 12:52:16,190 |t:|1786531936
+2026-08-12 12:52:16,190 |move|p1a: Plusle|Wish|p1a: Plusle
+2026-08-12 12:52:16,190 |move|p2a: Mr. Mime|Fire Punch|p1a: Plusle
+2026-08-12 12:52:16,190 |-damage|p1a: Plusle|51/100 brn
+2026-08-12 12:52:16,190 |
+2026-08-12 12:52:16,190 |-heal|p1a: Plusle|57/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,190 |-damage|p1a: Plusle|45/100 brn|[from] brn
+2026-08-12 12:52:16,190 |-heal|p2a: Mr. Mime|77/204|[from] item: Leftovers
+2026-08-12 12:52:16,190 |upkeep
+2026-08-12 12:52:16,190 |turn|28
+2026-08-12 12:52:16,197 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,197 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"77/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:52:16,229 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,229 |
+2026-08-12 12:52:16,229 |t:|1786531936
+2026-08-12 12:52:16,229 |move|p1a: Plusle|Protect|p1a: Plusle
+2026-08-12 12:52:16,229 |-singleturn|p1a: Plusle|Protect
+2026-08-12 12:52:16,229 |move|p2a: Mr. Mime|Psychic|p1a: Plusle
+2026-08-12 12:52:16,229 |-activate|p1a: Plusle|Protect
+2026-08-12 12:52:16,229 |
+2026-08-12 12:52:16,229 |-heal|p1a: Plusle|94/100 brn|[from] move: Wish|[wisher] Plusle
+2026-08-12 12:52:16,230 |-heal|p1a: Plusle|100/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,230 |-damage|p1a: Plusle|88/100 brn|[from] brn
+2026-08-12 12:52:16,230 |-heal|p2a: Mr. Mime|89/204|[from] item: Leftovers
+2026-08-12 12:52:16,230 |upkeep
+2026-08-12 12:52:16,230 |turn|29
+2026-08-12 12:52:16,231 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,231 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:52:16,258 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,258 |
+2026-08-12 12:52:16,258 |t:|1786531936
+2026-08-12 12:52:16,258 |switch|p2a: Sunflora|Sunflora, L99, F|308/308
+2026-08-12 12:52:16,258 |move|p1a: Plusle|Thunderbolt|p2a: Sunflora
+2026-08-12 12:52:16,258 |-resisted|p2a: Sunflora
+2026-08-12 12:52:16,258 |-damage|p2a: Sunflora|262/308
+2026-08-12 12:52:16,258 |
+2026-08-12 12:52:16,258 |-heal|p1a: Plusle|94/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,258 |-damage|p1a: Plusle|82/100 brn|[from] brn
+2026-08-12 12:52:16,259 |-heal|p2a: Sunflora|281/308|[from] item: Leftovers
+2026-08-12 12:52:16,259 |upkeep
+2026-08-12 12:52:16,259 |turn|30
+2026-08-12 12:52:16,259 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,259 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"281/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:52:16,291 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,292 |
+2026-08-12 12:52:16,292 |t:|1786531936
+2026-08-12 12:52:16,292 |move|p1a: Plusle|Wish|p1a: Plusle
+2026-08-12 12:52:16,292 |move|p2a: Sunflora|Solar Beam||[still]
+2026-08-12 12:52:16,292 |-prepare|p2a: Sunflora|Solar Beam
+2026-08-12 12:52:16,292 |
+2026-08-12 12:52:16,292 |-heal|p1a: Plusle|88/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,292 |-damage|p1a: Plusle|75/100 brn|[from] brn
+2026-08-12 12:52:16,292 |-heal|p2a: Sunflora|300/308|[from] item: Leftovers
+2026-08-12 12:52:16,292 |upkeep
+2026-08-12 12:52:16,292 |turn|31
+2026-08-12 12:52:16,294 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,294 |request|{"active":[{"moves":[{"move":"Solar Beam","id":"solarbeam"}],"trapped":true}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"300/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:52:16,424 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,424 |
+2026-08-12 12:52:16,424 |t:|1786531936
+2026-08-12 12:52:16,424 |move|p1a: Plusle|Hidden Power|p2a: Sunflora
+2026-08-12 12:52:16,424 |-supereffective|p2a: Sunflora
+2026-08-12 12:52:16,424 |-damage|p2a: Sunflora|213/308
+2026-08-12 12:52:16,424 |move|p2a: Sunflora|Solar Beam|p1a: Plusle|[from] lockedmove
+2026-08-12 12:52:16,424 |-damage|p1a: Plusle|2/100 brn
+2026-08-12 12:52:16,424 |
+2026-08-12 12:52:16,424 |-heal|p1a: Plusle|52/100 brn|[from] move: Wish|[wisher] Plusle
+2026-08-12 12:52:16,424 |-heal|p1a: Plusle|58/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,424 |-damage|p1a: Plusle|45/100 brn|[from] brn
+2026-08-12 12:52:16,424 |-heal|p2a: Sunflora|232/308|[from] item: Leftovers
+2026-08-12 12:52:16,424 |upkeep
+2026-08-12 12:52:16,424 |turn|32
+2026-08-12 12:52:16,428 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,428 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"232/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:52:16,460 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,460 |
+2026-08-12 12:52:16,460 |t:|1786531936
+2026-08-12 12:52:16,460 |move|p1a: Plusle|Hidden Power|p2a: Sunflora
+2026-08-12 12:52:16,460 |-supereffective|p2a: Sunflora
+2026-08-12 12:52:16,460 |-damage|p2a: Sunflora|149/308
+2026-08-12 12:52:16,460 |move|p2a: Sunflora|Hidden Power|p1a: Plusle
+2026-08-12 12:52:16,460 |-damage|p1a: Plusle|16/100 brn
+2026-08-12 12:52:16,460 |
+2026-08-12 12:52:16,460 |-heal|p1a: Plusle|22/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,460 |-damage|p1a: Plusle|9/100 brn|[from] brn
+2026-08-12 12:52:16,460 |-heal|p2a: Sunflora|168/308|[from] item: Leftovers
+2026-08-12 12:52:16,461 |upkeep
+2026-08-12 12:52:16,461 |turn|33
+2026-08-12 12:52:16,462 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,462 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"168/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:52:16,490 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,490 |
+2026-08-12 12:52:16,490 |t:|1786531936
+2026-08-12 12:52:16,490 |move|p1a: Plusle|Thunderbolt|p2a: Sunflora
+2026-08-12 12:52:16,491 |-resisted|p2a: Sunflora
+2026-08-12 12:52:16,491 |-damage|p2a: Sunflora|126/308
+2026-08-12 12:52:16,491 |move|p2a: Sunflora|Sunny Day|p2a: Sunflora
+2026-08-12 12:52:16,491 |-weather|SunnyDay
+2026-08-12 12:52:16,491 |
+2026-08-12 12:52:16,491 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,491 |-heal|p2a: Sunflora|145/308|[from] item: Leftovers
+2026-08-12 12:52:16,491 |-heal|p1a: Plusle|15/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,491 |-damage|p1a: Plusle|3/100 brn|[from] brn
+2026-08-12 12:52:16,491 |upkeep
+2026-08-12 12:52:16,491 |turn|34
+2026-08-12 12:52:16,492 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,492 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"145/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:52:16,521 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,521 |
+2026-08-12 12:52:16,521 |t:|1786531936
+2026-08-12 12:52:16,521 |move|p2a: Sunflora|Synthesis|p2a: Sunflora
+2026-08-12 12:52:16,522 |-heal|p2a: Sunflora|308/308
+2026-08-12 12:52:16,522 |move|p1a: Plusle|Hidden Power|p2a: Sunflora
+2026-08-12 12:52:16,522 |-supereffective|p2a: Sunflora
+2026-08-12 12:52:16,522 |-damage|p2a: Sunflora|226/308
+2026-08-12 12:52:16,522 |
+2026-08-12 12:52:16,522 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,522 |-heal|p2a: Sunflora|245/308|[from] item: Leftovers
+2026-08-12 12:52:16,522 |-heal|p1a: Plusle|9/100 brn|[from] item: Leftovers
+2026-08-12 12:52:16,522 |-damage|p1a: Plusle|0 fnt|[from] brn
+2026-08-12 12:52:16,522 |faint|p1a: Plusle
+2026-08-12 12:52:16,522 |upkeep
+2026-08-12 12:52:16,524 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,524 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"245/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:52:16,558 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,558 |
+2026-08-12 12:52:16,558 |t:|1786531936
+2026-08-12 12:52:16,558 |switch|p1a: Gligar|Gligar, L83, M|73/100
+2026-08-12 12:52:16,558 |turn|35
+2026-08-12 12:52:16,561 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,561 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"245/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 12:52:16,584 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,584 |
+2026-08-12 12:52:16,584 |t:|1786531936
+2026-08-12 12:52:16,584 |switch|p1a: Volbeat|Volbeat, L93, M|100/100
+2026-08-12 12:52:16,584 |move|p2a: Sunflora|Solar Beam||[still]
+2026-08-12 12:52:16,584 |-prepare|p2a: Sunflora|Solar Beam
+2026-08-12 12:52:16,584 |-anim|p2a: Sunflora|Solar Beam|p1a: Volbeat
+2026-08-12 12:52:16,584 |-resisted|p1a: Volbeat
+2026-08-12 12:52:16,584 |-damage|p1a: Volbeat|66/100
+2026-08-12 12:52:16,584 |
+2026-08-12 12:52:16,584 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,584 |-heal|p2a: Sunflora|264/308|[from] item: Leftovers
+2026-08-12 12:52:16,584 |-heal|p1a: Volbeat|73/100|[from] item: Leftovers
+2026-08-12 12:52:16,584 |upkeep
+2026-08-12 12:52:16,584 |turn|36
+2026-08-12 12:52:16,584 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,584 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"264/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:52:16,631 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,631 |
+2026-08-12 12:52:16,632 |t:|1786531936
+2026-08-12 12:52:16,632 |move|p2a: Sunflora|Synthesis|p2a: Sunflora
+2026-08-12 12:52:16,632 |-heal|p2a: Sunflora|308/308
+2026-08-12 12:52:16,632 |move|p1a: Volbeat|Moonlight|p1a: Volbeat
+2026-08-12 12:52:16,632 |-heal|p1a: Volbeat|100/100
+2026-08-12 12:52:16,632 |
+2026-08-12 12:52:16,632 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,632 |upkeep
+2026-08-12 12:52:16,632 |turn|37
+2026-08-12 12:52:16,636 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,636 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":5,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"308/308","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:52:16,675 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,675 |
+2026-08-12 12:52:16,675 |t:|1786531936
+2026-08-12 12:52:16,675 |move|p2a: Sunflora|Synthesis|p2a: Sunflora
+2026-08-12 12:52:16,675 |move|p1a: Volbeat|Toxic|p2a: Sunflora
+2026-08-12 12:52:16,675 |-status|p2a: Sunflora|tox
+2026-08-12 12:52:16,675 |
+2026-08-12 12:52:16,675 |-weather|none
+2026-08-12 12:52:16,675 |-damage|p2a: Sunflora|289/308 tox|[from] psn
+2026-08-12 12:52:16,675 |upkeep
+2026-08-12 12:52:16,675 |turn|38
+2026-08-12 12:52:16,676 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,676 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":5,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"289/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:52:16,703 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,703 |
+2026-08-12 12:52:16,703 |t:|1786531936
+2026-08-12 12:52:16,703 |move|p1a: Volbeat|Seismic Toss|p2a: Sunflora
+2026-08-12 12:52:16,703 |-damage|p2a: Sunflora|196/308 tox
+2026-08-12 12:52:16,703 |move|p2a: Sunflora|Sunny Day|p2a: Sunflora
+2026-08-12 12:52:16,703 |-weather|SunnyDay
+2026-08-12 12:52:16,703 |
+2026-08-12 12:52:16,703 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,703 |-heal|p2a: Sunflora|215/308 tox|[from] item: Leftovers
+2026-08-12 12:52:16,703 |-damage|p2a: Sunflora|177/308 tox|[from] psn
+2026-08-12 12:52:16,703 |upkeep
+2026-08-12 12:52:16,703 |turn|39
+2026-08-12 12:52:16,705 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,705 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":4,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"177/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 12:52:16,767 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,767 |
+2026-08-12 12:52:16,767 |t:|1786531936
+2026-08-12 12:52:16,768 |switch|p1a: Gligar|Gligar, L83, M|73/100
+2026-08-12 12:52:16,768 |move|p2a: Sunflora|Sunny Day||[still]
+2026-08-12 12:52:16,768 |-fail|p2a: Sunflora
+2026-08-12 12:52:16,768 |
+2026-08-12 12:52:16,768 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,768 |-heal|p2a: Sunflora|196/308 tox|[from] item: Leftovers
+2026-08-12 12:52:16,768 |-damage|p2a: Sunflora|139/308 tox|[from] psn
+2026-08-12 12:52:16,768 |-heal|p1a: Gligar|79/100|[from] item: Leftovers
+2026-08-12 12:52:16,768 |upkeep
+2026-08-12 12:52:16,768 |turn|40
+2026-08-12 12:52:16,768 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,769 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":3,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"139/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:52:16,820 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,820 |
+2026-08-12 12:52:16,820 |t:|1786531936
+2026-08-12 12:52:16,820 |switch|p1a: Volbeat|Volbeat, L93, M|100/100
+2026-08-12 12:52:16,820 |move|p2a: Sunflora|Solar Beam||[still]
+2026-08-12 12:52:16,820 |-prepare|p2a: Sunflora|Solar Beam
+2026-08-12 12:52:16,820 |-anim|p2a: Sunflora|Solar Beam|p1a: Volbeat
+2026-08-12 12:52:16,820 |-resisted|p1a: Volbeat
+2026-08-12 12:52:16,820 |-damage|p1a: Volbeat|66/100
+2026-08-12 12:52:16,820 |
+2026-08-12 12:52:16,820 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,820 |-heal|p2a: Sunflora|158/308 tox|[from] item: Leftovers
+2026-08-12 12:52:16,820 |-damage|p2a: Sunflora|82/308 tox|[from] psn
+2026-08-12 12:52:16,820 |-heal|p1a: Volbeat|72/100|[from] item: Leftovers
+2026-08-12 12:52:16,820 |upkeep
+2026-08-12 12:52:16,820 |turn|41
+2026-08-12 12:52:16,821 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,821 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":3,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"82/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 12:52:16,853 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,853 |
+2026-08-12 12:52:16,853 |t:|1786531936
+2026-08-12 12:52:16,853 |move|p2a: Sunflora|Synthesis|p2a: Sunflora
+2026-08-12 12:52:16,853 |-heal|p2a: Sunflora|287/308 tox
+2026-08-12 12:52:16,853 |move|p1a: Volbeat|Toxic|p2a: Sunflora
+2026-08-12 12:52:16,853 |-fail|p2a: Sunflora|tox
+2026-08-12 12:52:16,853 |
+2026-08-12 12:52:16,853 |-weather|SunnyDay|[upkeep]
+2026-08-12 12:52:16,853 |-heal|p2a: Sunflora|306/308 tox|[from] item: Leftovers
+2026-08-12 12:52:16,853 |-damage|p2a: Sunflora|211/308 tox|[from] psn
+2026-08-12 12:52:16,853 |-heal|p1a: Volbeat|78/100|[from] item: Leftovers
+2026-08-12 12:52:16,853 |upkeep
+2026-08-12 12:52:16,853 |turn|42
+2026-08-12 12:52:16,853 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,853 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":3,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":3,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"211/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 12:52:16,893 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,893 |
+2026-08-12 12:52:16,893 |t:|1786531936
+2026-08-12 12:52:16,893 |move|p2a: Sunflora|Solar Beam||[still]
+2026-08-12 12:52:16,893 |-prepare|p2a: Sunflora|Solar Beam
+2026-08-12 12:52:16,893 |-anim|p2a: Sunflora|Solar Beam|p1a: Volbeat
+2026-08-12 12:52:16,893 |-resisted|p1a: Volbeat
+2026-08-12 12:52:16,893 |-damage|p1a: Volbeat|44/100
+2026-08-12 12:52:16,893 |move|p1a: Volbeat|Toxic|p2a: Sunflora
+2026-08-12 12:52:16,893 |-fail|p2a: Sunflora|tox
+2026-08-12 12:52:16,893 |
+2026-08-12 12:52:16,894 |-weather|none
+2026-08-12 12:52:16,894 |-heal|p2a: Sunflora|230/308 tox|[from] item: Leftovers
+2026-08-12 12:52:16,894 |-damage|p2a: Sunflora|116/308 tox|[from] psn
+2026-08-12 12:52:16,894 |-heal|p1a: Volbeat|50/100|[from] item: Leftovers
+2026-08-12 12:52:16,894 |upkeep
+2026-08-12 12:52:16,894 |turn|43
+2026-08-12 12:52:16,894 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,894 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":3,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":3,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":10,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"116/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 12:52:16,917 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,917 |
+2026-08-12 12:52:16,917 |t:|1786531936
+2026-08-12 12:52:16,917 |move|p1a: Volbeat|Toxic|p2a: Sunflora
+2026-08-12 12:52:16,917 |-fail|p2a: Sunflora|tox
+2026-08-12 12:52:16,917 |move|p2a: Sunflora|Hidden Power|p1a: Volbeat
+2026-08-12 12:52:16,917 |-supereffective|p1a: Volbeat
+2026-08-12 12:52:16,917 |-crit|p1a: Volbeat
+2026-08-12 12:52:16,917 |-damage|p1a: Volbeat|0 fnt
+2026-08-12 12:52:16,917 |faint|p1a: Volbeat
+2026-08-12 12:52:16,917 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,917 |request|{"wait":true,"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"116/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 12:52:16,945 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,945 |
+2026-08-12 12:52:16,945 |t:|1786531936
+2026-08-12 12:52:16,945 |switch|p1a: Hypno|Hypno, L88, M|100/100
+2026-08-12 12:52:16,945 |
+2026-08-12 12:52:16,945 |-heal|p2a: Sunflora|135/308 tox|[from] item: Leftovers
+2026-08-12 12:52:16,945 |-damage|p2a: Sunflora|2/308 tox|[from] psn
+2026-08-12 12:52:16,945 |upkeep
+2026-08-12 12:52:16,945 |turn|44
+2026-08-12 12:52:16,945 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,945 |request|{"active":[{"moves":[{"move":"Sunny Day","id":"sunnyday","pp":3,"maxpp":8,"target":"all","disabled":false},{"move":"Synthesis","id":"synthesis","pp":3,"maxpp":8,"target":"self","disabled":false},{"move":"Hidden Power Fire 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Solar Beam","id":"solarbeam","pp":10,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"2/308 tox","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 12:52:16,987 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,987 |
+2026-08-12 12:52:16,987 |t:|1786531936
+2026-08-12 12:52:16,987 |move|p1a: Hypno|Seismic Toss|p2a: Sunflora
+2026-08-12 12:52:16,987 |-damage|p2a: Sunflora|0 fnt
+2026-08-12 12:52:16,987 |faint|p2a: Sunflora
+2026-08-12 12:52:16,987 >battle-gen3randombattle-321823
+2026-08-12 12:52:16,987 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":true,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"89/204","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":105}
+2026-08-12 12:52:17,048 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,048 |
+2026-08-12 12:52:17,048 |t:|1786531937
+2026-08-12 12:52:17,048 |switch|p2a: Mr. Mime|Mr. Mime, L84, F|89/204
+2026-08-12 12:52:17,048 |
+2026-08-12 12:52:17,048 |-heal|p2a: Mr. Mime|101/204|[from] item: Leftovers
+2026-08-12 12:52:17,048 |upkeep
+2026-08-12 12:52:17,048 |turn|45
+2026-08-12 12:52:17,056 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,056 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"101/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 12:52:17,190 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,190 |
+2026-08-12 12:52:17,190 |t:|1786531937
+2026-08-12 12:52:17,190 |move|p1a: Hypno|Protect|p1a: Hypno
+2026-08-12 12:52:17,190 |-singleturn|p1a: Hypno|Protect
+2026-08-12 12:52:17,190 |move|p2a: Mr. Mime|Fire Punch|p1a: Hypno
+2026-08-12 12:52:17,190 |-activate|p1a: Hypno|Protect
+2026-08-12 12:52:17,191 |
+2026-08-12 12:52:17,191 |-heal|p2a: Mr. Mime|113/204|[from] item: Leftovers
+2026-08-12 12:52:17,191 |upkeep
+2026-08-12 12:52:17,191 |turn|46
+2026-08-12 12:52:17,202 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,202 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"113/204","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 12:52:17,380 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,380 |
+2026-08-12 12:52:17,380 |t:|1786531937
+2026-08-12 12:52:17,380 |move|p2a: Mr. Mime|Thunderbolt|p1a: Hypno
+2026-08-12 12:52:17,380 |-damage|p1a: Hypno|81/100
+2026-08-12 12:52:17,380 |move|p1a: Hypno|Toxic|p2a: Mr. Mime
+2026-08-12 12:52:17,380 |-status|p2a: Mr. Mime|tox
+2026-08-12 12:52:17,380 |
+2026-08-12 12:52:17,380 |-heal|p2a: Mr. Mime|125/204 tox|[from] item: Leftovers
+2026-08-12 12:52:17,380 |-damage|p2a: Mr. Mime|113/204 tox|[from] psn
+2026-08-12 12:52:17,380 |-heal|p1a: Hypno|88/100|[from] item: Leftovers
+2026-08-12 12:52:17,380 |upkeep
+2026-08-12 12:52:17,380 |turn|47
+2026-08-12 12:52:17,393 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,393 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"113/204 tox","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 12:52:17,539 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,539 |
+2026-08-12 12:52:17,539 |t:|1786531937
+2026-08-12 12:52:17,539 |move|p2a: Mr. Mime|Calm Mind|p2a: Mr. Mime
+2026-08-12 12:52:17,539 |-boost|p2a: Mr. Mime|spa|1
+2026-08-12 12:52:17,539 |-boost|p2a: Mr. Mime|spd|1
+2026-08-12 12:52:17,539 |move|p1a: Hypno|Toxic|p2a: Mr. Mime
+2026-08-12 12:52:17,539 |-fail|p2a: Mr. Mime|tox
+2026-08-12 12:52:17,539 |
+2026-08-12 12:52:17,539 |-heal|p2a: Mr. Mime|125/204 tox|[from] item: Leftovers
+2026-08-12 12:52:17,539 |-damage|p2a: Mr. Mime|101/204 tox|[from] psn
+2026-08-12 12:52:17,539 |-heal|p1a: Hypno|94/100|[from] item: Leftovers
+2026-08-12 12:52:17,539 |upkeep
+2026-08-12 12:52:17,540 |turn|48
+2026-08-12 12:52:17,547 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,547 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"101/204 tox","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 12:52:17,629 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,629 |
+2026-08-12 12:52:17,629 |t:|1786531937
+2026-08-12 12:52:17,629 |move|p2a: Mr. Mime|Psychic|p1a: Hypno
+2026-08-12 12:52:17,629 |-resisted|p1a: Hypno
+2026-08-12 12:52:17,629 |-damage|p1a: Hypno|75/100
+2026-08-12 12:52:17,629 |move|p1a: Hypno|Wish|p1a: Hypno
+2026-08-12 12:52:17,630 |
+2026-08-12 12:52:17,630 |-heal|p2a: Mr. Mime|113/204 tox|[from] item: Leftovers
+2026-08-12 12:52:17,630 |-damage|p2a: Mr. Mime|77/204 tox|[from] psn
+2026-08-12 12:52:17,630 |-heal|p1a: Hypno|81/100|[from] item: Leftovers
+2026-08-12 12:52:17,630 |upkeep
+2026-08-12 12:52:17,630 |turn|49
+2026-08-12 12:52:17,636 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,636 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"77/204 tox","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 12:52:17,760 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,760 |
+2026-08-12 12:52:17,760 |t:|1786531937
+2026-08-12 12:52:17,760 |move|p2a: Mr. Mime|Calm Mind|p2a: Mr. Mime
+2026-08-12 12:52:17,760 |-boost|p2a: Mr. Mime|spa|1
+2026-08-12 12:52:17,760 |-boost|p2a: Mr. Mime|spd|1
+2026-08-12 12:52:17,760 |move|p1a: Hypno|Wish||[still]
+2026-08-12 12:52:17,760 |-fail|p1a: Hypno
+2026-08-12 12:52:17,760 |
+2026-08-12 12:52:17,760 |-heal|p1a: Hypno|100/100|[from] move: Wish|[wisher] Hypno
+2026-08-12 12:52:17,760 |-heal|p2a: Mr. Mime|89/204 tox|[from] item: Leftovers
+2026-08-12 12:52:17,760 |-damage|p2a: Mr. Mime|41/204 tox|[from] psn
+2026-08-12 12:52:17,760 |upkeep
+2026-08-12 12:52:17,761 |turn|50
+2026-08-12 12:52:17,768 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,768 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 12:52:17,877 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,877 |
+2026-08-12 12:52:17,877 |t:|1786531937
+2026-08-12 12:52:17,877 |switch|p2a: Linoone|Linoone, L82, F|261/261
+2026-08-12 12:52:17,877 |move|p1a: Hypno|Toxic|p2a: Linoone
+2026-08-12 12:52:17,877 |-status|p2a: Linoone|tox
+2026-08-12 12:52:17,877 |-enditem|p2a: Linoone|Lum Berry|[eat]
+2026-08-12 12:52:17,877 |-curestatus|p2a: Linoone|tox|[msg]
+2026-08-12 12:52:17,877 |
+2026-08-12 12:52:17,877 |upkeep
+2026-08-12 12:52:17,877 |turn|51
+2026-08-12 12:52:17,884 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,884 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Belly Drum","id":"bellydrum","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":true,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 12:52:17,950 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,950 |
+2026-08-12 12:52:17,950 |t:|1786531937
+2026-08-12 12:52:17,950 |move|p2a: Linoone|Hidden Power|p1a: Hypno
+2026-08-12 12:52:17,950 |-crit|p1a: Hypno
+2026-08-12 12:52:17,950 |-damage|p1a: Hypno|71/100
+2026-08-12 12:52:17,950 |move|p1a: Hypno|Wish|p1a: Hypno
+2026-08-12 12:52:17,950 |
+2026-08-12 12:52:17,950 |-heal|p1a: Hypno|78/100|[from] item: Leftovers
+2026-08-12 12:52:17,951 |upkeep
+2026-08-12 12:52:17,951 |turn|52
+2026-08-12 12:52:17,958 >battle-gen3randombattle-321823
+2026-08-12 12:52:17,958 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Belly Drum","id":"bellydrum","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":true,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 12:52:18,023 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,023 |
+2026-08-12 12:52:18,023 |t:|1786531937
+2026-08-12 12:52:18,023 |move|p2a: Linoone|Hidden Power|p1a: Hypno
+2026-08-12 12:52:18,023 |-damage|p1a: Hypno|63/100
+2026-08-12 12:52:18,023 |move|p1a: Hypno|Wish||[still]
+2026-08-12 12:52:18,023 |-fail|p1a: Hypno
+2026-08-12 12:52:18,023 |
+2026-08-12 12:52:18,023 |-heal|p1a: Hypno|100/100|[from] move: Wish|[wisher] Hypno
+2026-08-12 12:52:18,023 |upkeep
+2026-08-12 12:52:18,023 |turn|53
+2026-08-12 12:52:18,035 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,035 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Belly Drum","id":"bellydrum","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"261/261","active":true,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 12:52:18,170 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,170 |
+2026-08-12 12:52:18,170 |t:|1786531938
+2026-08-12 12:52:18,170 |move|p1a: Hypno|Protect|p1a: Hypno
+2026-08-12 12:52:18,170 |-singleturn|p1a: Hypno|Protect
+2026-08-12 12:52:18,170 |move|p2a: Linoone|Belly Drum|p2a: Linoone
+2026-08-12 12:52:18,171 |-damage|p2a: Linoone|131/261
+2026-08-12 12:52:18,171 |-setboost|p2a: Linoone|atk|6|[from] move: Belly Drum
+2026-08-12 12:52:18,171 |
+2026-08-12 12:52:18,171 |upkeep
+2026-08-12 12:52:18,171 |turn|54
+2026-08-12 12:52:18,174 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,174 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Belly Drum","id":"bellydrum","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"131/261","active":true,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 12:52:18,263 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,263 |
+2026-08-12 12:52:18,263 |t:|1786531938
+2026-08-12 12:52:18,263 |move|p2a: Linoone|Belly Drum||[still]
+2026-08-12 12:52:18,263 |-fail|p2a: Linoone
+2026-08-12 12:52:18,263 |move|p1a: Hypno|Toxic|p2a: Linoone
+2026-08-12 12:52:18,263 |-status|p2a: Linoone|tox
+2026-08-12 12:52:18,263 |
+2026-08-12 12:52:18,263 |-damage|p2a: Linoone|115/261 tox|[from] psn
+2026-08-12 12:52:18,263 |upkeep
+2026-08-12 12:52:18,263 |turn|55
+2026-08-12 12:52:18,279 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,279 |request|{"active":[{"moves":[{"move":"Shadow Ball","id":"shadowball","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Belly Drum","id":"bellydrum","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Ground 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"115/261 tox","active":true,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":127}
+2026-08-12 12:52:18,369 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,369 |
+2026-08-12 12:52:18,369 |t:|1786531938
+2026-08-12 12:52:18,369 |move|p2a: Linoone|Hidden Power|p1a: Hypno
+2026-08-12 12:52:18,369 |-damage|p1a: Hypno|44/100
+2026-08-12 12:52:18,369 |move|p1a: Hypno|Seismic Toss|p2a: Linoone
+2026-08-12 12:52:18,369 |-damage|p2a: Linoone|27/261 tox
+2026-08-12 12:52:18,369 |
+2026-08-12 12:52:18,369 |-damage|p2a: Linoone|0 fnt|[from] psn
+2026-08-12 12:52:18,369 |faint|p2a: Linoone
+2026-08-12 12:52:18,369 |-heal|p1a: Hypno|50/100|[from] item: Leftovers
+2026-08-12 12:52:18,369 |upkeep
+2026-08-12 12:52:18,377 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,377 |request|{"forceSwitch":[true],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"0 fnt","active":true,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":false,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":129}
+2026-08-12 12:52:18,452 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,452 |
+2026-08-12 12:52:18,452 |t:|1786531938
+2026-08-12 12:52:18,452 |switch|p2a: Mr. Mime|Mr. Mime, L84, F|41/204 tox
+2026-08-12 12:52:18,452 |turn|56
+2026-08-12 12:52:18,463 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,463 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"0 fnt","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":131}
+2026-08-12 12:52:18,546 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,546 |
+2026-08-12 12:52:18,546 |t:|1786531938
+2026-08-12 12:52:18,546 |move|p1a: Hypno|Protect|p1a: Hypno
+2026-08-12 12:52:18,546 |-singleturn|p1a: Hypno|Protect
+2026-08-12 12:52:18,546 |move|p2a: Mr. Mime|Psychic|p1a: Hypno
+2026-08-12 12:52:18,546 |-activate|p1a: Hypno|Protect
+2026-08-12 12:52:18,546 |
+2026-08-12 12:52:18,546 |-heal|p2a: Mr. Mime|53/204 tox|[from] item: Leftovers
+2026-08-12 12:52:18,546 |-damage|p2a: Mr. Mime|41/204 tox|[from] psn
+2026-08-12 12:52:18,546 |-heal|p1a: Hypno|56/100|[from] item: Leftovers
+2026-08-12 12:52:18,546 |upkeep
+2026-08-12 12:52:18,546 |turn|57
+2026-08-12 12:52:18,554 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,554 |request|{"active":[{"moves":[{"move":"Fire Punch","id":"firepunch","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":29,"maxpp":32,"target":"self","disabled":false},{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT6","id":"p2","pokemon":[{"ident":"p2: Mr. Mime","details":"Mr. Mime, L84, F","condition":"41/204 tox","active":true,"stats":{"atk":80,"def":157,"spa":216,"spd":250,"spe":199},"moves":["firepunch","calmmind","psychic","thunderbolt"],"baseAbility":"soundproof","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Togetic","details":"Togetic, L97, M","condition":"0 fnt","active":false,"stats":{"atk":82,"def":220,"spa":210,"spd":259,"spe":133},"moves":["softboiled","seismictoss","charm","toxic"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Sunflora","details":"Sunflora, L99, F","condition":"0 fnt","active":false,"stats":{"atk":155,"def":165,"spa":263,"spd":224,"spe":114},"moves":["sunnyday","synthesis","hiddenpowerfire","solarbeam"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Linoone","details":"Linoone, L82, F","condition":"0 fnt","active":false,"stats":{"atk":162,"def":147,"spa":128,"spd":146,"spe":211},"moves":["shadowball","bellydrum","hiddenpowerground","return102"],"baseAbility":"pickup","item":"","pokeball":"pokeball"},{"ident":"p2: Rhydon","details":"Rhydon, L83, M","condition":"0 fnt","active":false,"stats":{"atk":263,"def":247,"spa":122,"spd":122,"spe":114},"moves":["earthquake","doubleedge","rockslide","megahorn"],"baseAbility":"rockhead","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swalot","details":"Swalot, L87, M","condition":"0 fnt","active":false,"stats":{"atk":177,"def":194,"spa":176,"spd":193,"spe":145},"moves":["hiddenpowerground","sludgebomb","painsplit","yawn"],"baseAbility":"liquidooze","item":"leftovers","pokeball":"pokeball"}]},"rqid":133}
+2026-08-12 12:52:18,705 >battle-gen3randombattle-321823
+2026-08-12 12:52:18,705 |
+2026-08-12 12:52:18,705 |t:|1786531938
+2026-08-12 12:52:18,705 |move|p2a: Mr. Mime|Thunderbolt|p1a: Hypno
+2026-08-12 12:52:18,705 |-crit|p1a: Hypno
+2026-08-12 12:52:18,705 |-damage|p1a: Hypno|23/100
+2026-08-12 12:52:18,705 |move|p1a: Hypno|Seismic Toss|p2a: Mr. Mime
+2026-08-12 12:52:18,705 |-damage|p2a: Mr. Mime|0 fnt
+2026-08-12 12:52:18,705 |faint|p2a: Mr. Mime
+2026-08-12 12:52:18,705 |
+2026-08-12 12:52:18,705 |win|BOT5

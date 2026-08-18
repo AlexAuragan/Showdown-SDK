@@ -1,0 +1,521 @@
+2026-08-12 13:19:31,992 >battle-gen4randombattle-324723
+2026-08-12 13:19:31,992 |init|battle
+2026-08-12 13:19:31,993 |title|BOT7 vs. BOT8
+2026-08-12 13:19:31,993 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-324723">battle-gen4randombattle-324723</a>&raquo;
+2026-08-12 13:19:32,076 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,076 |t:|1786533572
+2026-08-12 13:19:32,076 |gametype|singles
+2026-08-12 13:19:32,076 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,076 |player|p1|BOT7|169|
+2026-08-12 13:19:32,077 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,077 |player|p2|BOT8|102|
+2026-08-12 13:19:32,077 |gen|4
+2026-08-12 13:19:32,077 |tier|[Gen 4] Random Battle
+2026-08-12 13:19:32,077 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:19:32,077 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:19:32,077 |
+2026-08-12 13:19:32,077 |t:|1786533572
+2026-08-12 13:19:32,077 |teamsize|p1|6
+2026-08-12 13:19:32,077 |teamsize|p2|6
+2026-08-12 13:19:32,077 |start
+2026-08-12 13:19:32,077 |switch|p1a: Tentacruel|Tentacruel, L80, F|100/100
+2026-08-12 13:19:32,077 |switch|p2a: Moltres|Moltres, L78|268/268
+2026-08-12 13:19:32,077 |-ability|p2a: Moltres|Pressure
+2026-08-12 13:19:32,077 |turn|1
+2026-08-12 13:19:32,077 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,077 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"265/265","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:19:32,123 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,123 |
+2026-08-12 13:19:32,123 |t:|1786533572
+2026-08-12 13:19:32,123 |move|p1a: Tentacruel|Toxic Spikes|p2a: Moltres
+2026-08-12 13:19:32,123 |-sidestart|p2: BOT8|move: Toxic Spikes
+2026-08-12 13:19:32,123 |move|p2a: Moltres|Fire Blast|p1a: Tentacruel
+2026-08-12 13:19:32,123 |-resisted|p1a: Tentacruel
+2026-08-12 13:19:32,123 |-damage|p1a: Tentacruel|77/100
+2026-08-12 13:19:32,123 |
+2026-08-12 13:19:32,123 |-heal|p1a: Tentacruel|84/100|[from] item: Black Sludge
+2026-08-12 13:19:32,123 |upkeep
+2026-08-12 13:19:32,123 |turn|2
+2026-08-12 13:19:32,124 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,124 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"265/265","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:19:32,159 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,160 |
+2026-08-12 13:19:32,160 |t:|1786533572
+2026-08-12 13:19:32,160 |move|p1a: Tentacruel|Hydro Pump|p2a: Moltres
+2026-08-12 13:19:32,160 |-supereffective|p2a: Moltres
+2026-08-12 13:19:32,160 |-damage|p2a: Moltres|32/268
+2026-08-12 13:19:32,160 |move|p2a: Moltres|Hidden Power|p1a: Tentacruel
+2026-08-12 13:19:32,160 |-damage|p1a: Tentacruel|68/100
+2026-08-12 13:19:32,160 |
+2026-08-12 13:19:32,160 |-heal|p1a: Tentacruel|74/100|[from] item: Black Sludge
+2026-08-12 13:19:32,160 |-heal|p2a: Moltres|48/268|[from] item: Leftovers
+2026-08-12 13:19:32,160 |upkeep
+2026-08-12 13:19:32,160 |turn|3
+2026-08-12 13:19:32,162 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,162 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"48/268","active":true,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"265/265","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:19:32,203 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,203 |
+2026-08-12 13:19:32,203 |t:|1786533572
+2026-08-12 13:19:32,203 |move|p1a: Tentacruel|Sludge Bomb|p2a: Moltres
+2026-08-12 13:19:32,203 |-damage|p2a: Moltres|0 fnt
+2026-08-12 13:19:32,203 |faint|p2a: Moltres
+2026-08-12 13:19:32,204 |
+2026-08-12 13:19:32,204 |-heal|p1a: Tentacruel|80/100|[from] item: Black Sludge
+2026-08-12 13:19:32,204 |upkeep
+2026-08-12 13:19:32,204 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,204 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":true,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"265/265","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":9}
+2026-08-12 13:19:32,237 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,237 |
+2026-08-12 13:19:32,237 |t:|1786533572
+2026-08-12 13:19:32,237 |switch|p2a: Purugly|Purugly, L87, F|265/265
+2026-08-12 13:19:32,237 |-status|p2a: Purugly|psn
+2026-08-12 13:19:32,237 |turn|4
+2026-08-12 13:19:32,239 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,239 |request|{"active":[{"moves":[{"move":"Iron Tail","id":"irontail","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"265/265 psn","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:19:32,278 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,278 |
+2026-08-12 13:19:32,278 |t:|1786533572
+2026-08-12 13:19:32,278 |move|p2a: Purugly|Iron Tail|p1a: Tentacruel
+2026-08-12 13:19:32,278 |-resisted|p1a: Tentacruel
+2026-08-12 13:19:32,278 |-damage|p1a: Tentacruel|56/100
+2026-08-12 13:19:32,278 |move|p1a: Tentacruel|Toxic Spikes|p2a: Purugly
+2026-08-12 13:19:32,278 |-sidestart|p2: BOT8|move: Toxic Spikes
+2026-08-12 13:19:32,278 |
+2026-08-12 13:19:32,278 |-damage|p2a: Purugly|232/265 psn|[from] psn
+2026-08-12 13:19:32,278 |-heal|p1a: Tentacruel|62/100|[from] item: Black Sludge
+2026-08-12 13:19:32,278 |upkeep
+2026-08-12 13:19:32,278 |turn|5
+2026-08-12 13:19:32,281 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,281 |request|{"active":[{"moves":[{"move":"Iron Tail","id":"irontail","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"232/265 psn","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:19:32,315 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,315 |
+2026-08-12 13:19:32,315 |t:|1786533572
+2026-08-12 13:19:32,315 |move|p2a: Purugly|Iron Tail|p1a: Tentacruel
+2026-08-12 13:19:32,316 |-resisted|p1a: Tentacruel
+2026-08-12 13:19:32,316 |-damage|p1a: Tentacruel|36/100
+2026-08-12 13:19:32,316 |move|p1a: Tentacruel|Toxic Spikes||[still]
+2026-08-12 13:19:32,316 |-fail|p1a: Tentacruel
+2026-08-12 13:19:32,316 |
+2026-08-12 13:19:32,316 |-damage|p2a: Purugly|199/265 psn|[from] psn
+2026-08-12 13:19:32,316 |-heal|p1a: Tentacruel|42/100|[from] item: Black Sludge
+2026-08-12 13:19:32,316 |upkeep
+2026-08-12 13:19:32,316 |turn|6
+2026-08-12 13:19:32,318 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,318 |request|{"active":[{"moves":[{"move":"Iron Tail","id":"irontail","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"199/265 psn","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:19:32,365 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,365 |
+2026-08-12 13:19:32,365 |t:|1786533572
+2026-08-12 13:19:32,365 |move|p2a: Purugly|Iron Tail|p1a: Tentacruel
+2026-08-12 13:19:32,365 |-resisted|p1a: Tentacruel
+2026-08-12 13:19:32,366 |-damage|p1a: Tentacruel|17/100
+2026-08-12 13:19:32,366 |move|p1a: Tentacruel|Hydro Pump|p2a: Purugly
+2026-08-12 13:19:32,366 |-damage|p2a: Purugly|67/265 psn
+2026-08-12 13:19:32,366 |
+2026-08-12 13:19:32,366 |-damage|p2a: Purugly|34/265 psn|[from] psn
+2026-08-12 13:19:32,366 |-heal|p1a: Tentacruel|24/100|[from] item: Black Sludge
+2026-08-12 13:19:32,366 |upkeep
+2026-08-12 13:19:32,366 |turn|7
+2026-08-12 13:19:32,367 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,367 |request|{"active":[{"moves":[{"move":"Iron Tail","id":"irontail","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"34/265 psn","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:19:32,398 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,398 |
+2026-08-12 13:19:32,398 |t:|1786533572
+2026-08-12 13:19:32,398 |move|p2a: Purugly|Iron Tail|p1a: Tentacruel
+2026-08-12 13:19:32,398 |-resisted|p1a: Tentacruel
+2026-08-12 13:19:32,398 |-damage|p1a: Tentacruel|0 fnt
+2026-08-12 13:19:32,398 |faint|p1a: Tentacruel
+2026-08-12 13:19:32,398 |
+2026-08-12 13:19:32,398 |-damage|p2a: Purugly|1/265 psn|[from] psn
+2026-08-12 13:19:32,398 |upkeep
+2026-08-12 13:19:32,401 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,401 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"1/265 psn","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:19:32,434 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,434 |
+2026-08-12 13:19:32,434 |t:|1786533572
+2026-08-12 13:19:32,434 |switch|p1a: Glaceon|Glaceon, L86, F|100/100
+2026-08-12 13:19:32,434 |turn|8
+2026-08-12 13:19:32,435 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,435 |request|{"active":[{"moves":[{"move":"Iron Tail","id":"irontail","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":true},{"move":"Shadow Claw","id":"shadowclaw","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":true}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"1/265 psn","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:19:32,467 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,467 |
+2026-08-12 13:19:32,467 |t:|1786533572
+2026-08-12 13:19:32,467 |move|p2a: Purugly|Iron Tail|p1a: Glaceon
+2026-08-12 13:19:32,467 |-supereffective|p1a: Glaceon
+2026-08-12 13:19:32,467 |-crit|p1a: Glaceon
+2026-08-12 13:19:32,467 |-damage|p1a: Glaceon|0 fnt
+2026-08-12 13:19:32,467 |faint|p1a: Glaceon
+2026-08-12 13:19:32,467 |
+2026-08-12 13:19:32,467 |-damage|p2a: Purugly|0 fnt|[from] psn
+2026-08-12 13:19:32,467 |faint|p2a: Purugly
+2026-08-12 13:19:32,467 |upkeep
+2026-08-12 13:19:32,469 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,469 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":true,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:19:32,508 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,508 |
+2026-08-12 13:19:32,508 |t:|1786533572
+2026-08-12 13:19:32,508 |switch|p2a: Zangoose|Zangoose, L85, M|263/263
+2026-08-12 13:19:32,508 |switch|p1a: Palkia|Palkia, L69|100/100
+2026-08-12 13:19:32,508 |-ability|p1a: Palkia|Pressure
+2026-08-12 13:19:32,508 |turn|9
+2026-08-12 13:19:32,511 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,511 |request|{"active":[{"moves":[{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":true,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"302/302","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:19:32,558 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,558 |
+2026-08-12 13:19:32,558 |t:|1786533572
+2026-08-12 13:19:32,558 |switch|p2a: Politoed|Politoed, L88, M|302/302
+2026-08-12 13:19:32,558 |-status|p2a: Politoed|tox
+2026-08-12 13:19:32,558 |move|p1a: Palkia|Spacial Rend|p2a: Politoed
+2026-08-12 13:19:32,558 |-damage|p2a: Politoed|181/302 tox
+2026-08-12 13:19:32,558 |
+2026-08-12 13:19:32,558 |-heal|p2a: Politoed|199/302 tox|[from] item: Leftovers
+2026-08-12 13:19:32,558 |-damage|p2a: Politoed|181/302 tox|[from] psn
+2026-08-12 13:19:32,558 |upkeep
+2026-08-12 13:19:32,559 |turn|10
+2026-08-12 13:19:32,560 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,560 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"181/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:19:32,587 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,587 |
+2026-08-12 13:19:32,587 |t:|1786533572
+2026-08-12 13:19:32,588 |switch|p1a: Blaziken|Blaziken, L84, M|100/100
+2026-08-12 13:19:32,588 |move|p2a: Politoed|Toxic|p1a: Blaziken|[miss]
+2026-08-12 13:19:32,588 |-miss|p2a: Politoed|p1a: Blaziken
+2026-08-12 13:19:32,588 |
+2026-08-12 13:19:32,588 |-heal|p2a: Politoed|199/302 tox|[from] item: Leftovers
+2026-08-12 13:19:32,588 |-damage|p2a: Politoed|163/302 tox|[from] psn
+2026-08-12 13:19:32,588 |upkeep
+2026-08-12 13:19:32,588 |turn|11
+2026-08-12 13:19:32,590 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,590 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"163/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:19:32,622 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,622 |
+2026-08-12 13:19:32,622 |t:|1786533572
+2026-08-12 13:19:32,622 |move|p1a: Blaziken|Earthquake|p2a: Politoed
+2026-08-12 13:19:32,622 |-damage|p2a: Politoed|43/302 tox
+2026-08-12 13:19:32,622 |-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+2026-08-12 13:19:32,622 |move|p2a: Politoed|Toxic|p1a: Blaziken
+2026-08-12 13:19:32,622 |-status|p1a: Blaziken|tox
+2026-08-12 13:19:32,622 |
+2026-08-12 13:19:32,622 |-damage|p1a: Blaziken|84/100 tox|[from] psn
+2026-08-12 13:19:32,622 |-heal|p2a: Politoed|61/302 tox|[from] item: Leftovers
+2026-08-12 13:19:32,622 |-damage|p2a: Politoed|7/302 tox|[from] psn
+2026-08-12 13:19:32,622 |upkeep
+2026-08-12 13:19:32,622 |turn|12
+2026-08-12 13:19:32,624 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,624 |request|{"active":[{"moves":[{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"7/302 tox","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:19:32,663 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,663 |
+2026-08-12 13:19:32,663 |t:|1786533572
+2026-08-12 13:19:32,663 |move|p1a: Blaziken|Fire Blast|p2a: Politoed
+2026-08-12 13:19:32,663 |-resisted|p2a: Politoed
+2026-08-12 13:19:32,663 |-damage|p2a: Politoed|0 fnt
+2026-08-12 13:19:32,663 |faint|p2a: Politoed
+2026-08-12 13:19:32,663 |-damage|p1a: Blaziken|74/100 tox|[from] item: Life Orb
+2026-08-12 13:19:32,663 |
+2026-08-12 13:19:32,663 |-damage|p1a: Blaziken|62/100 tox|[from] psn
+2026-08-12 13:19:32,663 |upkeep
+2026-08-12 13:19:32,664 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,664 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":true,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":33}
+2026-08-12 13:19:32,694 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,694 |
+2026-08-12 13:19:32,695 |t:|1786533572
+2026-08-12 13:19:32,695 |switch|p2a: Slowking|Slowking, L87, F|307/307
+2026-08-12 13:19:32,695 |-status|p2a: Slowking|tox
+2026-08-12 13:19:32,695 |turn|13
+2026-08-12 13:19:32,696 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,696 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"307/307 tox","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:19:32,738 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,738 |
+2026-08-12 13:19:32,738 |t:|1786533572
+2026-08-12 13:19:32,738 |move|p1a: Blaziken|Vacuum Wave|p2a: Slowking
+2026-08-12 13:19:32,738 |-resisted|p2a: Slowking
+2026-08-12 13:19:32,738 |-damage|p2a: Slowking|281/307 tox
+2026-08-12 13:19:32,738 |-damage|p1a: Blaziken|52/100 tox|[from] item: Life Orb
+2026-08-12 13:19:32,738 |move|p2a: Slowking|Trick|p1a: Blaziken
+2026-08-12 13:19:32,738 |-activate|p2a: Slowking|move: Trick|[of] p1a: Blaziken
+2026-08-12 13:19:32,738 |-item|p1a: Blaziken|Choice Specs|[from] move: Trick
+2026-08-12 13:19:32,738 |-item|p2a: Slowking|Life Orb|[from] move: Trick
+2026-08-12 13:19:32,738 |
+2026-08-12 13:19:32,738 |-damage|p1a: Blaziken|33/100 tox|[from] psn
+2026-08-12 13:19:32,738 |-damage|p2a: Slowking|262/307 tox|[from] psn
+2026-08-12 13:19:32,738 |upkeep
+2026-08-12 13:19:32,738 |turn|14
+2026-08-12 13:19:32,739 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,739 |request|{"active":[{"moves":[{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick","id":"trick","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"262/307 tox","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:19:32,791 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,791 |
+2026-08-12 13:19:32,791 |t:|1786533572
+2026-08-12 13:19:32,791 |move|p1a: Blaziken|Fire Blast|p2a: Slowking
+2026-08-12 13:19:32,791 |-resisted|p2a: Slowking
+2026-08-12 13:19:32,791 |-crit|p2a: Slowking
+2026-08-12 13:19:32,791 |-damage|p2a: Slowking|12/307 tox
+2026-08-12 13:19:32,791 |move|p2a: Slowking|Ice Beam|p1a: Blaziken
+2026-08-12 13:19:32,791 |-resisted|p1a: Blaziken
+2026-08-12 13:19:32,791 |-damage|p1a: Blaziken|14/100 tox
+2026-08-12 13:19:32,791 |-damage|p2a: Slowking|0 fnt|[from] item: Life Orb
+2026-08-12 13:19:32,791 |faint|p2a: Slowking
+2026-08-12 13:19:32,791 |
+2026-08-12 13:19:32,791 |-damage|p1a: Blaziken|0 fnt|[from] psn
+2026-08-12 13:19:32,791 |faint|p1a: Blaziken
+2026-08-12 13:19:32,791 |upkeep
+2026-08-12 13:19:32,793 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,793 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:19:32,835 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,835 |
+2026-08-12 13:19:32,835 |t:|1786533572
+2026-08-12 13:19:32,835 |switch|p1a: Masquerain|Masquerain, L95, M|100/100
+2026-08-12 13:19:32,835 |switch|p2a: Zangoose|Zangoose, L85, M|263/263
+2026-08-12 13:19:32,835 |-ability|p1a: Masquerain|Intimidate|boost
+2026-08-12 13:19:32,835 |-unboost|p2a: Zangoose|atk|1
+2026-08-12 13:19:32,835 |turn|15
+2026-08-12 13:19:32,836 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,836 |request|{"active":[{"moves":[{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":true,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:19:32,882 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,882 |
+2026-08-12 13:19:32,882 |t:|1786533572
+2026-08-12 13:19:32,882 |move|p2a: Zangoose|Swords Dance|p2a: Zangoose
+2026-08-12 13:19:32,882 |-boost|p2a: Zangoose|atk|2
+2026-08-12 13:19:32,882 |move|p1a: Masquerain|Roost||[still]
+2026-08-12 13:19:32,882 |-fail|p1a: Masquerain|heal
+2026-08-12 13:19:32,882 |
+2026-08-12 13:19:32,882 |upkeep
+2026-08-12 13:19:32,882 |turn|16
+2026-08-12 13:19:32,883 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,883 |request|{"active":[{"moves":[{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Quick Attack","id":"quickattack","pp":48,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"263/263","active":true,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:19:32,915 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,915 |
+2026-08-12 13:19:32,915 |t:|1786533572
+2026-08-12 13:19:32,915 |move|p2a: Zangoose|Quick Attack|p1a: Masquerain
+2026-08-12 13:19:32,915 |-damage|p1a: Masquerain|65/100
+2026-08-12 13:19:32,915 |-damage|p2a: Zangoose|237/263|[from] item: Life Orb
+2026-08-12 13:19:32,915 |move|p1a: Masquerain|Bug Buzz|p2a: Zangoose
+2026-08-12 13:19:32,915 |-damage|p2a: Zangoose|90/263
+2026-08-12 13:19:32,915 |
+2026-08-12 13:19:32,915 |-heal|p1a: Masquerain|71/100|[from] item: Leftovers
+2026-08-12 13:19:32,915 |upkeep
+2026-08-12 13:19:32,915 |turn|17
+2026-08-12 13:19:32,917 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,917 |request|{"active":[{"moves":[{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Quick Attack","id":"quickattack","pp":47,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"90/263","active":true,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:19:32,966 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,966 |
+2026-08-12 13:19:32,967 |t:|1786533572
+2026-08-12 13:19:32,967 |switch|p1a: Forretress|Forretress, L79, F|100/100
+2026-08-12 13:19:32,967 |move|p2a: Zangoose|Quick Attack|p1a: Forretress
+2026-08-12 13:19:32,967 |-resisted|p1a: Forretress
+2026-08-12 13:19:32,967 |-damage|p1a: Forretress|85/100
+2026-08-12 13:19:32,967 |-damage|p2a: Zangoose|64/263|[from] item: Life Orb
+2026-08-12 13:19:32,967 |
+2026-08-12 13:19:32,967 |-heal|p1a: Forretress|91/100|[from] item: Leftovers
+2026-08-12 13:19:32,967 |upkeep
+2026-08-12 13:19:32,967 |turn|18
+2026-08-12 13:19:32,968 >battle-gen4randombattle-324723
+2026-08-12 13:19:32,968 |request|{"active":[{"moves":[{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Quick Attack","id":"quickattack","pp":46,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":true,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:19:33,011 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,011 |
+2026-08-12 13:19:33,011 |t:|1786533572
+2026-08-12 13:19:33,011 |switch|p2a: Jirachi|Jirachi, L74|270/270
+2026-08-12 13:19:33,011 |move|p1a: Forretress|Payback|p2a: Jirachi
+2026-08-12 13:19:33,011 |-damage|p2a: Jirachi|214/270
+2026-08-12 13:19:33,011 |
+2026-08-12 13:19:33,011 |-heal|p2a: Jirachi|230/270|[from] item: Leftovers
+2026-08-12 13:19:33,011 |-heal|p1a: Forretress|97/100|[from] item: Leftovers
+2026-08-12 13:19:33,011 |upkeep
+2026-08-12 13:19:33,011 |turn|19
+2026-08-12 13:19:33,014 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,014 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"230/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:19:33,046 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,046 |
+2026-08-12 13:19:33,046 |t:|1786533573
+2026-08-12 13:19:33,046 |move|p2a: Jirachi|Thunderbolt|p1a: Forretress
+2026-08-12 13:19:33,046 |-damage|p1a: Forretress|68/100
+2026-08-12 13:19:33,046 |move|p1a: Forretress|Rapid Spin|p2a: Jirachi
+2026-08-12 13:19:33,046 |-resisted|p2a: Jirachi
+2026-08-12 13:19:33,046 |-damage|p2a: Jirachi|224/270
+2026-08-12 13:19:33,046 |
+2026-08-12 13:19:33,046 |-heal|p2a: Jirachi|240/270|[from] item: Leftovers
+2026-08-12 13:19:33,046 |-heal|p1a: Forretress|74/100|[from] item: Leftovers
+2026-08-12 13:19:33,046 |upkeep
+2026-08-12 13:19:33,046 |turn|20
+2026-08-12 13:19:33,048 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,048 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"240/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:19:33,101 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,101 |
+2026-08-12 13:19:33,101 |t:|1786533573
+2026-08-12 13:19:33,101 |move|p2a: Jirachi|Thunderbolt|p1a: Forretress
+2026-08-12 13:19:33,101 |-damage|p1a: Forretress|45/100
+2026-08-12 13:19:33,101 |move|p1a: Forretress|Spikes|p2a: Jirachi
+2026-08-12 13:19:33,101 |-sidestart|p2: BOT8|Spikes
+2026-08-12 13:19:33,101 |
+2026-08-12 13:19:33,102 |-heal|p2a: Jirachi|256/270|[from] item: Leftovers
+2026-08-12 13:19:33,102 |-heal|p1a: Forretress|51/100|[from] item: Leftovers
+2026-08-12 13:19:33,102 |upkeep
+2026-08-12 13:19:33,102 |turn|21
+2026-08-12 13:19:33,103 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,103 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"256/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:19:33,173 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,173 |
+2026-08-12 13:19:33,173 |t:|1786533573
+2026-08-12 13:19:33,173 |switch|p1a: Palkia|Palkia, L69|100/100
+2026-08-12 13:19:33,173 |-ability|p1a: Palkia|Pressure
+2026-08-12 13:19:33,173 |move|p2a: Jirachi|Thunderbolt|p1a: Palkia
+2026-08-12 13:19:33,173 |-damage|p1a: Palkia|80/100
+2026-08-12 13:19:33,173 |
+2026-08-12 13:19:33,173 |-heal|p2a: Jirachi|270/270|[from] item: Leftovers
+2026-08-12 13:19:33,173 |upkeep
+2026-08-12 13:19:33,173 |turn|22
+2026-08-12 13:19:33,176 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,176 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":20,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"270/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:19:33,243 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,243 |
+2026-08-12 13:19:33,243 |t:|1786533573
+2026-08-12 13:19:33,243 |move|p2a: Jirachi|Thunderbolt|p1a: Palkia
+2026-08-12 13:19:33,243 |-damage|p1a: Palkia|58/100
+2026-08-12 13:19:33,243 |move|p1a: Palkia|Spacial Rend|p2a: Jirachi
+2026-08-12 13:19:33,243 |-resisted|p2a: Jirachi
+2026-08-12 13:19:33,243 |-damage|p2a: Jirachi|185/270
+2026-08-12 13:19:33,243 |
+2026-08-12 13:19:33,243 |-heal|p2a: Jirachi|201/270|[from] item: Leftovers
+2026-08-12 13:19:33,243 |upkeep
+2026-08-12 13:19:33,243 |turn|23
+2026-08-12 13:19:33,261 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,261 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"201/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:19:33,299 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,300 |
+2026-08-12 13:19:33,300 |t:|1786533573
+2026-08-12 13:19:33,300 |move|p2a: Jirachi|Psychic|p1a: Palkia
+2026-08-12 13:19:33,300 |-crit|p1a: Palkia
+2026-08-12 13:19:33,300 |-damage|p1a: Palkia|0 fnt
+2026-08-12 13:19:33,300 |faint|p1a: Palkia
+2026-08-12 13:19:33,300 |
+2026-08-12 13:19:33,300 |-heal|p2a: Jirachi|217/270|[from] item: Leftovers
+2026-08-12 13:19:33,300 |upkeep
+2026-08-12 13:19:33,309 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,309 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"217/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:19:33,340 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,340 |
+2026-08-12 13:19:33,340 |t:|1786533573
+2026-08-12 13:19:33,340 |switch|p1a: Masquerain|Masquerain, L95, M|71/100
+2026-08-12 13:19:33,340 |-ability|p1a: Masquerain|Intimidate|boost
+2026-08-12 13:19:33,340 |-unboost|p2a: Jirachi|atk|1
+2026-08-12 13:19:33,340 |turn|24
+2026-08-12 13:19:33,346 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,346 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"217/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:19:33,436 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,436 |
+2026-08-12 13:19:33,436 |t:|1786533573
+2026-08-12 13:19:33,436 |move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+2026-08-12 13:19:33,436 |-boost|p2a: Jirachi|spa|1
+2026-08-12 13:19:33,436 |-boost|p2a: Jirachi|spd|1
+2026-08-12 13:19:33,436 |move|p1a: Masquerain|Air Slash|p2a: Jirachi
+2026-08-12 13:19:33,436 |-resisted|p2a: Jirachi
+2026-08-12 13:19:33,436 |-damage|p2a: Jirachi|187/270
+2026-08-12 13:19:33,436 |
+2026-08-12 13:19:33,436 |-heal|p2a: Jirachi|203/270|[from] item: Leftovers
+2026-08-12 13:19:33,436 |-heal|p1a: Masquerain|76/100|[from] item: Leftovers
+2026-08-12 13:19:33,436 |upkeep
+2026-08-12 13:19:33,436 |turn|25
+2026-08-12 13:19:33,452 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,452 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":18,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"203/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:19:33,504 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,504 |
+2026-08-12 13:19:33,504 |t:|1786533573
+2026-08-12 13:19:33,504 |move|p2a: Jirachi|Thunderbolt|p1a: Masquerain
+2026-08-12 13:19:33,504 |-supereffective|p1a: Masquerain
+2026-08-12 13:19:33,504 |-damage|p1a: Masquerain|28/100
+2026-08-12 13:19:33,504 |move|p1a: Masquerain|Roost|p1a: Masquerain
+2026-08-12 13:19:33,504 |-heal|p1a: Masquerain|78/100
+2026-08-12 13:19:33,504 |-singleturn|p1a: Masquerain|move: Roost
+2026-08-12 13:19:33,504 |
+2026-08-12 13:19:33,504 |-heal|p2a: Jirachi|219/270|[from] item: Leftovers
+2026-08-12 13:19:33,504 |-heal|p1a: Masquerain|84/100|[from] item: Leftovers
+2026-08-12 13:19:33,504 |upkeep
+2026-08-12 13:19:33,505 |turn|26
+2026-08-12 13:19:33,506 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,506 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":17,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"219/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:19:33,546 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,546 |
+2026-08-12 13:19:33,546 |t:|1786533573
+2026-08-12 13:19:33,546 |move|p2a: Jirachi|Substitute|p2a: Jirachi
+2026-08-12 13:19:33,546 |-start|p2a: Jirachi|Substitute
+2026-08-12 13:19:33,546 |-damage|p2a: Jirachi|152/270
+2026-08-12 13:19:33,546 |move|p1a: Masquerain|Hydro Pump|p2a: Jirachi
+2026-08-12 13:19:33,546 |-crit|p2a: Jirachi
+2026-08-12 13:19:33,546 |-end|p2a: Jirachi|Substitute
+2026-08-12 13:19:33,546 |
+2026-08-12 13:19:33,546 |-heal|p2a: Jirachi|168/270|[from] item: Leftovers
+2026-08-12 13:19:33,546 |-heal|p1a: Masquerain|90/100|[from] item: Leftovers
+2026-08-12 13:19:33,546 |upkeep
+2026-08-12 13:19:33,546 |turn|27
+2026-08-12 13:19:33,547 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,547 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":17,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"168/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:19:33,614 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,614 |
+2026-08-12 13:19:33,614 |t:|1786533573
+2026-08-12 13:19:33,614 |move|p2a: Jirachi|Substitute|p2a: Jirachi
+2026-08-12 13:19:33,614 |-start|p2a: Jirachi|Substitute
+2026-08-12 13:19:33,614 |-damage|p2a: Jirachi|101/270
+2026-08-12 13:19:33,614 |move|p1a: Masquerain|Air Slash|p2a: Jirachi
+2026-08-12 13:19:33,614 |-resisted|p2a: Jirachi
+2026-08-12 13:19:33,614 |-activate|p2a: Jirachi|Substitute|[damage]
+2026-08-12 13:19:33,614 |
+2026-08-12 13:19:33,614 |-heal|p2a: Jirachi|117/270|[from] item: Leftovers
+2026-08-12 13:19:33,614 |-heal|p1a: Masquerain|96/100|[from] item: Leftovers
+2026-08-12 13:19:33,614 |upkeep
+2026-08-12 13:19:33,614 |turn|28
+2026-08-12 13:19:33,617 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,617 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":17,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"117/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"64/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:19:33,670 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,670 |
+2026-08-12 13:19:33,670 |t:|1786533573
+2026-08-12 13:19:33,670 |switch|p2a: Zangoose|Zangoose, L85, M|64/263
+2026-08-12 13:19:33,670 |-damage|p2a: Zangoose|32/263|[from] Spikes
+2026-08-12 13:19:33,670 |move|p1a: Masquerain|Roost|p1a: Masquerain
+2026-08-12 13:19:33,670 |-heal|p1a: Masquerain|100/100
+2026-08-12 13:19:33,670 |-singleturn|p1a: Masquerain|move: Roost
+2026-08-12 13:19:33,670 |
+2026-08-12 13:19:33,670 |upkeep
+2026-08-12 13:19:33,670 |turn|29
+2026-08-12 13:19:33,676 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,676 |request|{"active":[{"moves":[{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Quick Attack","id":"quickattack","pp":46,"maxpp":48,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"32/263","active":true,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"117/270","active":false,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:19:33,713 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,713 |
+2026-08-12 13:19:33,713 |t:|1786533573
+2026-08-12 13:19:33,713 |switch|p2a: Jirachi|Jirachi, L74|117/270
+2026-08-12 13:19:33,713 |-damage|p2a: Jirachi|84/270|[from] Spikes
+2026-08-12 13:19:33,713 |switch|p1a: Forretress|Forretress, L79, F|51/100
+2026-08-12 13:19:33,713 |
+2026-08-12 13:19:33,713 |-heal|p2a: Jirachi|100/270|[from] item: Leftovers
+2026-08-12 13:19:33,713 |-heal|p1a: Forretress|57/100|[from] item: Leftovers
+2026-08-12 13:19:33,713 |upkeep
+2026-08-12 13:19:33,713 |turn|30
+2026-08-12 13:19:33,719 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,719 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":17,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"100/270","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"32/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:19:33,809 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,809 |
+2026-08-12 13:19:33,809 |t:|1786533573
+2026-08-12 13:19:33,809 |move|p2a: Jirachi|Calm Mind|p2a: Jirachi
+2026-08-12 13:19:33,809 |-boost|p2a: Jirachi|spa|1
+2026-08-12 13:19:33,809 |-boost|p2a: Jirachi|spd|1
+2026-08-12 13:19:33,809 |move|p1a: Forretress|Explosion|p2a: Jirachi
+2026-08-12 13:19:33,809 |-resisted|p2a: Jirachi
+2026-08-12 13:19:33,809 |-damage|p2a: Jirachi|0 fnt
+2026-08-12 13:19:33,809 |faint|p1a: Forretress
+2026-08-12 13:19:33,809 |faint|p2a: Jirachi
+2026-08-12 13:19:33,809 |
+2026-08-12 13:19:33,809 |upkeep
+2026-08-12 13:19:33,813 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,813 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Jirachi","details":"Jirachi, L74","condition":"0 fnt","active":true,"stats":{"atk":153,"def":191,"spa":191,"spd":191,"spe":191},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"serenegrace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Purugly","details":"Purugly, L87, F","condition":"0 fnt","active":false,"stats":{"atk":192,"def":161,"spa":161,"spd":152,"spe":245},"moves":["irontail","return102","shadowclaw","uturn"],"baseAbility":"thickfat","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":162,"def":185,"spa":239,"spd":178,"spe":185},"moves":["airslash","hiddenpowergrass","fireblast","roost"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Politoed","details":"Politoed, L88, M","condition":"0 fnt","active":false,"stats":{"atk":137,"def":182,"spa":209,"spd":226,"spe":173},"moves":["protect","encore","surf","toxic"],"baseAbility":"waterabsorb","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, F","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":102},"moves":["surf","psychic","trick","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Zangoose","details":"Zangoose, L85, M","condition":"32/263","active":false,"stats":{"atk":244,"def":151,"spa":151,"spd":151,"spe":202},"moves":["nightslash","return102","swordsdance","quickattack"],"baseAbility":"immunity","item":"lifeorb","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:19:33,864 >battle-gen4randombattle-324723
+2026-08-12 13:19:33,864 |
+2026-08-12 13:19:33,864 |t:|1786533573
+2026-08-12 13:19:33,864 |switch|p2a: Zangoose|Zangoose, L85, M|32/263
+2026-08-12 13:19:33,864 |switch|p1a: Masquerain|Masquerain, L95, M|100/100
+2026-08-12 13:19:33,864 |-damage|p2a: Zangoose|0 fnt|[from] Spikes
+2026-08-12 13:19:33,864 |faint|p2a: Zangoose
+2026-08-12 13:19:33,864 |
+2026-08-12 13:19:33,865 |win|BOT7
+2026-08-12 13:59:33,864 >battle-gen4randombattle-324723
+2026-08-12 13:59:33,864 |expire|
+2026-08-12 13:59:33,864 >battle-gen4randombattle-324723
+2026-08-12 13:59:33,864 |L|☆BOT7
+2026-08-12 13:59:33,864 >battle-gen4randombattle-324723
+2026-08-12 13:59:33,864 |deinit

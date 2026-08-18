@@ -1,0 +1,816 @@
+2026-08-12 13:57:30,497 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,497 |init|battle
+2026-08-12 13:57:30,498 |title|BOT7 vs. BOT8
+2026-08-12 13:57:30,498 |pm| BOT8| BOT7|/nonotify BOT8 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-329241">battle-gen4randombattle-329241</a>&raquo;
+2026-08-12 13:57:30,531 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,531 |t:|1786535850
+2026-08-12 13:57:30,531 |gametype|singles
+2026-08-12 13:57:30,532 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,532 |player|p1|BOT7|169|
+2026-08-12 13:57:30,534 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,534 |player|p2|BOT8|102|
+2026-08-12 13:57:30,534 |gen|4
+2026-08-12 13:57:30,534 |tier|[Gen 4] Random Battle
+2026-08-12 13:57:30,534 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:57:30,534 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:57:30,534 |
+2026-08-12 13:57:30,534 |t:|1786535850
+2026-08-12 13:57:30,534 |teamsize|p1|6
+2026-08-12 13:57:30,534 |teamsize|p2|6
+2026-08-12 13:57:30,534 |start
+2026-08-12 13:57:30,534 |switch|p1a: Electivire|Electivire, L82, F|100/100
+2026-08-12 13:57:30,534 |switch|p2a: Slowking|Slowking, L87, M|307/307
+2026-08-12 13:57:30,534 |turn|1
+2026-08-12 13:57:30,535 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,535 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"307/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:57:30,567 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,567 |
+2026-08-12 13:57:30,567 |t:|1786535850
+2026-08-12 13:57:30,567 |move|p1a: Electivire|Ice Punch|p2a: Slowking
+2026-08-12 13:57:30,567 |-resisted|p2a: Slowking
+2026-08-12 13:57:30,567 |-crit|p2a: Slowking
+2026-08-12 13:57:30,567 |-damage|p2a: Slowking|244/307
+2026-08-12 13:57:30,567 |move|p2a: Slowking|Psychic|p1a: Electivire
+2026-08-12 13:57:30,567 |-damage|p1a: Electivire|43/100
+2026-08-12 13:57:30,567 |-damage|p2a: Slowking|214/307|[from] item: Life Orb
+2026-08-12 13:57:30,567 |
+2026-08-12 13:57:30,567 |upkeep
+2026-08-12 13:57:30,567 |turn|2
+2026-08-12 13:57:30,569 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,569 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"214/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:57:30,594 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,594 |
+2026-08-12 13:57:30,594 |t:|1786535850
+2026-08-12 13:57:30,594 |move|p1a: Electivire|Cross Chop|p2a: Slowking
+2026-08-12 13:57:30,594 |-resisted|p2a: Slowking
+2026-08-12 13:57:30,594 |-damage|p2a: Slowking|173/307
+2026-08-12 13:57:30,594 |move|p2a: Slowking|Psychic|p1a: Electivire
+2026-08-12 13:57:30,594 |-crit|p1a: Electivire
+2026-08-12 13:57:30,594 |-damage|p1a: Electivire|0 fnt
+2026-08-12 13:57:30,594 |faint|p1a: Electivire
+2026-08-12 13:57:30,594 |-damage|p2a: Slowking|143/307|[from] item: Life Orb
+2026-08-12 13:57:30,594 |
+2026-08-12 13:57:30,594 |upkeep
+2026-08-12 13:57:30,598 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,598 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"143/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:57:30,630 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,630 |
+2026-08-12 13:57:30,630 |t:|1786535850
+2026-08-12 13:57:30,630 |switch|p1a: Cherrim|Cherrim, L95, F|100/100
+2026-08-12 13:57:30,630 |turn|3
+2026-08-12 13:57:30,632 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,632 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"143/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:57:30,671 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,671 |
+2026-08-12 13:57:30,671 |t:|1786535850
+2026-08-12 13:57:30,671 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:30,671 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:30,671 |-damage|p1a: Cherrim|76/100
+2026-08-12 13:57:30,671 |move|p2a: Slowking|Psychic|p1a: Cherrim
+2026-08-12 13:57:30,671 |-end|p1a: Cherrim|Substitute
+2026-08-12 13:57:30,671 |
+2026-08-12 13:57:30,671 |-heal|p1a: Cherrim|82/100|[from] item: Leftovers
+2026-08-12 13:57:30,671 |upkeep
+2026-08-12 13:57:30,671 |turn|4
+2026-08-12 13:57:30,674 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,674 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"143/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:57:30,715 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,715 |
+2026-08-12 13:57:30,715 |t:|1786535850
+2026-08-12 13:57:30,715 |move|p1a: Cherrim|Hidden Power|p2a: Slowking
+2026-08-12 13:57:30,715 |-resisted|p2a: Slowking
+2026-08-12 13:57:30,715 |-damage|p2a: Slowking|120/307
+2026-08-12 13:57:30,715 |move|p2a: Slowking|Trick Room|p2a: Slowking
+2026-08-12 13:57:30,715 |-fieldstart|move: Trick Room|[of] p2a: Slowking
+2026-08-12 13:57:30,715 |
+2026-08-12 13:57:30,715 |-heal|p1a: Cherrim|88/100|[from] item: Leftovers
+2026-08-12 13:57:30,715 |upkeep
+2026-08-12 13:57:30,715 |turn|5
+2026-08-12 13:57:30,716 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,716 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"120/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:57:30,754 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,754 |
+2026-08-12 13:57:30,754 |t:|1786535850
+2026-08-12 13:57:30,754 |move|p1a: Cherrim|Leech Seed|p2a: Slowking
+2026-08-12 13:57:30,754 |-start|p2a: Slowking|move: Leech Seed
+2026-08-12 13:57:30,754 |move|p2a: Slowking|Trick Room|p2a: Slowking
+2026-08-12 13:57:30,754 |-fieldend|move: Trick Room
+2026-08-12 13:57:30,754 |
+2026-08-12 13:57:30,754 |-heal|p1a: Cherrim|94/100|[from] item: Leftovers
+2026-08-12 13:57:30,754 |-damage|p2a: Slowking|82/307|[from] Leech Seed|[of] p1a: Cherrim
+2026-08-12 13:57:30,754 |-heal|p1a: Cherrim|100/100|[silent]
+2026-08-12 13:57:30,754 |upkeep
+2026-08-12 13:57:30,754 |turn|6
+2026-08-12 13:57:30,755 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,755 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"82/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:57:30,800 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,800 |
+2026-08-12 13:57:30,800 |t:|1786535850
+2026-08-12 13:57:30,800 |switch|p1a: Delcatty|Delcatty, F|100/100
+2026-08-12 13:57:30,800 |move|p2a: Slowking|Surf|p1a: Delcatty
+2026-08-12 13:57:30,800 |-damage|p1a: Delcatty|43/100
+2026-08-12 13:57:30,800 |-damage|p2a: Slowking|52/307|[from] item: Life Orb
+2026-08-12 13:57:30,800 |
+2026-08-12 13:57:30,800 |-damage|p2a: Slowking|14/307|[from] Leech Seed|[of] p1a: Delcatty
+2026-08-12 13:57:30,800 |-heal|p1a: Delcatty|55/100|[silent]
+2026-08-12 13:57:30,800 |upkeep
+2026-08-12 13:57:30,800 |turn|7
+2026-08-12 13:57:30,803 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,803 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Trick Room","id":"trickroom","pp":6,"maxpp":8,"target":"all","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"14/307","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:57:30,845 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,845 |
+2026-08-12 13:57:30,845 |t:|1786535850
+2026-08-12 13:57:30,845 |move|p1a: Delcatty|Heal Bell|p1a: Delcatty
+2026-08-12 13:57:30,845 |-activate|p1a: Delcatty|move: Heal Bell
+2026-08-12 13:57:30,845 |move|p2a: Slowking|Ice Beam|p1a: Delcatty
+2026-08-12 13:57:30,845 |-damage|p1a: Delcatty|21/100
+2026-08-12 13:57:30,845 |-damage|p2a: Slowking|0 fnt|[from] item: Life Orb
+2026-08-12 13:57:30,845 |faint|p2a: Slowking
+2026-08-12 13:57:30,845 |
+2026-08-12 13:57:30,845 |upkeep
+2026-08-12 13:57:30,846 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,846 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":true,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":19}
+2026-08-12 13:57:30,880 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,880 |
+2026-08-12 13:57:30,880 |t:|1786535850
+2026-08-12 13:57:30,880 |switch|p2a: Garchomp|Garchomp, L74, F|282/282
+2026-08-12 13:57:30,880 |turn|8
+2026-08-12 13:57:30,880 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,880 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":24,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:57:30,911 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,911 |
+2026-08-12 13:57:30,911 |t:|1786535850
+2026-08-12 13:57:30,911 |move|p1a: Delcatty|Heal Bell|p1a: Delcatty
+2026-08-12 13:57:30,912 |-activate|p1a: Delcatty|move: Heal Bell
+2026-08-12 13:57:30,912 |move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+2026-08-12 13:57:30,912 |-boost|p2a: Garchomp|atk|2
+2026-08-12 13:57:30,912 |
+2026-08-12 13:57:30,912 |upkeep
+2026-08-12 13:57:30,912 |turn|9
+2026-08-12 13:57:30,913 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,913 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":24,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"282/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:57:30,951 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,951 |
+2026-08-12 13:57:30,951 |t:|1786535850
+2026-08-12 13:57:30,951 |move|p1a: Delcatty|Double-Edge|p2a: Garchomp
+2026-08-12 13:57:30,951 |-damage|p2a: Garchomp|104/282
+2026-08-12 13:57:30,951 |-damage|p1a: Delcatty|1/100|[from] Recoil
+2026-08-12 13:57:30,951 |move|p2a: Garchomp|Fire Fang|p1a: Delcatty
+2026-08-12 13:57:30,951 |-crit|p1a: Delcatty
+2026-08-12 13:57:30,951 |-damage|p1a: Delcatty|0 fnt
+2026-08-12 13:57:30,951 |faint|p1a: Delcatty
+2026-08-12 13:57:30,951 |
+2026-08-12 13:57:30,951 |upkeep
+2026-08-12 13:57:30,953 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,953 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"104/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:57:30,978 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,978 |
+2026-08-12 13:57:30,978 |t:|1786535850
+2026-08-12 13:57:30,978 |switch|p1a: Luxray|Luxray, L86, F|100/100
+2026-08-12 13:57:30,978 |-ability|p1a: Luxray|Intimidate|boost
+2026-08-12 13:57:30,978 |-unboost|p2a: Garchomp|atk|1
+2026-08-12 13:57:30,978 |turn|10
+2026-08-12 13:57:30,981 >battle-gen4randombattle-329241
+2026-08-12 13:57:30,981 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":24,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"104/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:57:31,027 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,027 |
+2026-08-12 13:57:31,027 |t:|1786535851
+2026-08-12 13:57:31,027 |move|p1a: Luxray|Protect|p1a: Luxray
+2026-08-12 13:57:31,027 |-singleturn|p1a: Luxray|Protect
+2026-08-12 13:57:31,027 |move|p2a: Garchomp|Outrage|p1a: Luxray
+2026-08-12 13:57:31,027 |-activate|p1a: Luxray|Protect
+2026-08-12 13:57:31,027 |
+2026-08-12 13:57:31,027 |upkeep
+2026-08-12 13:57:31,027 |turn|11
+2026-08-12 13:57:31,029 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,029 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":23,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"104/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:57:31,076 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,076 |
+2026-08-12 13:57:31,076 |t:|1786535851
+2026-08-12 13:57:31,076 |move|p1a: Luxray|Protect|p1a: Luxray
+2026-08-12 13:57:31,076 |-singleturn|p1a: Luxray|Protect
+2026-08-12 13:57:31,076 |move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+2026-08-12 13:57:31,076 |-boost|p2a: Garchomp|atk|2
+2026-08-12 13:57:31,076 |
+2026-08-12 13:57:31,076 |upkeep
+2026-08-12 13:57:31,076 |turn|12
+2026-08-12 13:57:31,077 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,077 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":23,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"104/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:57:31,102 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,102 |
+2026-08-12 13:57:31,102 |t:|1786535851
+2026-08-12 13:57:31,102 |move|p2a: Garchomp|Earthquake|p1a: Luxray
+2026-08-12 13:57:31,102 |-supereffective|p1a: Luxray
+2026-08-12 13:57:31,102 |-crit|p1a: Luxray
+2026-08-12 13:57:31,102 |-damage|p1a: Luxray|0 fnt
+2026-08-12 13:57:31,102 |faint|p1a: Luxray
+2026-08-12 13:57:31,102 |
+2026-08-12 13:57:31,102 |upkeep
+2026-08-12 13:57:31,103 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,103 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"104/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:57:31,126 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,126 |
+2026-08-12 13:57:31,126 |t:|1786535851
+2026-08-12 13:57:31,126 |switch|p1a: Lucario|Lucario, L79, F|100/100
+2026-08-12 13:57:31,126 |turn|13
+2026-08-12 13:57:31,126 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,126 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":23,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"104/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:57:31,167 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,167 |
+2026-08-12 13:57:31,167 |t:|1786535851
+2026-08-12 13:57:31,167 |move|p1a: Lucario|Extreme Speed|p2a: Garchomp
+2026-08-12 13:57:31,167 |-damage|p2a: Garchomp|26/282
+2026-08-12 13:57:31,167 |-damage|p1a: Lucario|90/100|[from] item: Life Orb
+2026-08-12 13:57:31,167 |move|p2a: Garchomp|Fire Fang|p1a: Lucario
+2026-08-12 13:57:31,167 |-supereffective|p1a: Lucario
+2026-08-12 13:57:31,167 |-damage|p1a: Lucario|0 fnt
+2026-08-12 13:57:31,167 |faint|p1a: Lucario
+2026-08-12 13:57:31,167 |
+2026-08-12 13:57:31,167 |upkeep
+2026-08-12 13:57:31,168 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,168 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"26/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:57:31,203 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,203 |
+2026-08-12 13:57:31,203 |t:|1786535851
+2026-08-12 13:57:31,203 |switch|p1a: Pidgeot|Pidgeot, L87, F|100/100
+2026-08-12 13:57:31,203 |turn|14
+2026-08-12 13:57:31,207 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,207 |request|{"active":[{"moves":[{"move":"Outrage","id":"outrage","pp":23,"maxpp":24,"target":"randomNormal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":46,"maxpp":48,"target":"self","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Fire Fang","id":"firefang","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"26/282","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:57:31,235 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,235 |
+2026-08-12 13:57:31,235 |t:|1786535851
+2026-08-12 13:57:31,235 |move|p1a: Pidgeot|Return|p2a: Garchomp
+2026-08-12 13:57:31,235 |-damage|p2a: Garchomp|0 fnt
+2026-08-12 13:57:31,235 |faint|p2a: Garchomp
+2026-08-12 13:57:31,235 |-damage|p1a: Pidgeot|91/100|[from] item: Life Orb
+2026-08-12 13:57:31,235 |
+2026-08-12 13:57:31,235 |upkeep
+2026-08-12 13:57:31,238 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,238 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":true,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":41}
+2026-08-12 13:57:31,262 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,262 |
+2026-08-12 13:57:31,262 |t:|1786535851
+2026-08-12 13:57:31,262 |switch|p2a: Huntail|Huntail, L91, M|248/248
+2026-08-12 13:57:31,263 |turn|15
+2026-08-12 13:57:31,263 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,263 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"248/248","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:57:31,288 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,288 |
+2026-08-12 13:57:31,288 |t:|1786535851
+2026-08-12 13:57:31,288 |move|p1a: Pidgeot|Return|p2a: Huntail
+2026-08-12 13:57:31,288 |-damage|p2a: Huntail|134/248
+2026-08-12 13:57:31,288 |-damage|p1a: Pidgeot|81/100|[from] item: Life Orb
+2026-08-12 13:57:31,288 |move|p2a: Huntail|Hydro Pump|p1a: Pidgeot|[miss]
+2026-08-12 13:57:31,288 |-miss|p2a: Huntail|p1a: Pidgeot
+2026-08-12 13:57:31,288 |
+2026-08-12 13:57:31,288 |upkeep
+2026-08-12 13:57:31,288 |turn|16
+2026-08-12 13:57:31,289 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,289 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":8,"maxpp":8,"target":"all","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"134/248","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:57:31,316 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,316 |
+2026-08-12 13:57:31,316 |t:|1786535851
+2026-08-12 13:57:31,316 |move|p1a: Pidgeot|Heat Wave|p2a: Huntail
+2026-08-12 13:57:31,316 |-resisted|p2a: Huntail
+2026-08-12 13:57:31,316 |-damage|p2a: Huntail|96/248
+2026-08-12 13:57:31,316 |-damage|p1a: Pidgeot|71/100|[from] item: Life Orb
+2026-08-12 13:57:31,316 |move|p2a: Huntail|Rain Dance|p2a: Huntail
+2026-08-12 13:57:31,316 |-weather|RainDance
+2026-08-12 13:57:31,316 |
+2026-08-12 13:57:31,316 |-weather|RainDance|[upkeep]
+2026-08-12 13:57:31,316 |upkeep
+2026-08-12 13:57:31,316 |turn|17
+2026-08-12 13:57:31,318 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,318 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:57:31,348 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,348 |
+2026-08-12 13:57:31,348 |t:|1786535851
+2026-08-12 13:57:31,348 |switch|p2a: Scyther|Scyther, L78, M|237/237
+2026-08-12 13:57:31,348 |move|p1a: Pidgeot|Roost|p1a: Pidgeot
+2026-08-12 13:57:31,348 |-heal|p1a: Pidgeot|100/100
+2026-08-12 13:57:31,348 |-singleturn|p1a: Pidgeot|move: Roost
+2026-08-12 13:57:31,348 |
+2026-08-12 13:57:31,348 |-weather|RainDance|[upkeep]
+2026-08-12 13:57:31,348 |upkeep
+2026-08-12 13:57:31,348 |turn|18
+2026-08-12 13:57:31,349 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,349 |request|{"active":[{"moves":[{"move":"Aerial Ace","id":"aerialace","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"237/237","active":true,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:57:31,379 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,379 |
+2026-08-12 13:57:31,379 |t:|1786535851
+2026-08-12 13:57:31,379 |move|p2a: Scyther|Brick Break|p1a: Pidgeot
+2026-08-12 13:57:31,379 |-damage|p1a: Pidgeot|76/100
+2026-08-12 13:57:31,379 |-damage|p2a: Scyther|214/237|[from] item: Life Orb
+2026-08-12 13:57:31,379 |move|p1a: Pidgeot|Return|p2a: Scyther
+2026-08-12 13:57:31,379 |-damage|p2a: Scyther|69/237
+2026-08-12 13:57:31,379 |-damage|p1a: Pidgeot|66/100|[from] item: Life Orb
+2026-08-12 13:57:31,379 |
+2026-08-12 13:57:31,379 |-weather|RainDance|[upkeep]
+2026-08-12 13:57:31,379 |upkeep
+2026-08-12 13:57:31,379 |turn|19
+2026-08-12 13:57:31,380 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,380 |request|{"active":[{"moves":[{"move":"Aerial Ace","id":"aerialace","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"69/237","active":true,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:57:31,404 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,405 |
+2026-08-12 13:57:31,405 |t:|1786535851
+2026-08-12 13:57:31,405 |move|p2a: Scyther|Aerial Ace|p1a: Pidgeot
+2026-08-12 13:57:31,405 |-damage|p1a: Pidgeot|19/100
+2026-08-12 13:57:31,405 |-damage|p2a: Scyther|46/237|[from] item: Life Orb
+2026-08-12 13:57:31,405 |move|p1a: Pidgeot|Roost|p1a: Pidgeot
+2026-08-12 13:57:31,405 |-heal|p1a: Pidgeot|69/100
+2026-08-12 13:57:31,405 |-singleturn|p1a: Pidgeot|move: Roost
+2026-08-12 13:57:31,405 |
+2026-08-12 13:57:31,405 |-weather|RainDance|[upkeep]
+2026-08-12 13:57:31,405 |upkeep
+2026-08-12 13:57:31,405 |turn|20
+2026-08-12 13:57:31,408 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,408 |request|{"active":[{"moves":[{"move":"Aerial Ace","id":"aerialace","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":true,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:57:31,431 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,431 |
+2026-08-12 13:57:31,431 |t:|1786535851
+2026-08-12 13:57:31,431 |switch|p2a: Stantler|Stantler, L87, M|269/269
+2026-08-12 13:57:31,431 |-ability|p2a: Stantler|Intimidate|boost
+2026-08-12 13:57:31,431 |-unboost|p1a: Pidgeot|atk|1
+2026-08-12 13:57:31,431 |move|p1a: Pidgeot|Roost|p1a: Pidgeot
+2026-08-12 13:57:31,431 |-heal|p1a: Pidgeot|100/100
+2026-08-12 13:57:31,431 |-singleturn|p1a: Pidgeot|move: Roost
+2026-08-12 13:57:31,431 |
+2026-08-12 13:57:31,431 |-weather|none
+2026-08-12 13:57:31,431 |upkeep
+2026-08-12 13:57:31,431 |turn|21
+2026-08-12 13:57:31,432 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,432 |request|{"active":[{"moves":[{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"269/269","active":true,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:57:31,468 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,469 |
+2026-08-12 13:57:31,469 |t:|1786535851
+2026-08-12 13:57:31,469 |move|p1a: Pidgeot|Heat Wave|p2a: Stantler|[miss]
+2026-08-12 13:57:31,469 |-miss|p1a: Pidgeot|p2a: Stantler
+2026-08-12 13:57:31,469 |move|p2a: Stantler|Double-Edge|p1a: Pidgeot
+2026-08-12 13:57:31,469 |-damage|p1a: Pidgeot|35/100
+2026-08-12 13:57:31,469 |-damage|p2a: Stantler|207/269|[from] Recoil
+2026-08-12 13:57:31,469 |-damage|p2a: Stantler|181/269|[from] item: Life Orb
+2026-08-12 13:57:31,469 |
+2026-08-12 13:57:31,469 |upkeep
+2026-08-12 13:57:31,469 |turn|22
+2026-08-12 13:57:31,469 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,469 |request|{"active":[{"moves":[{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"181/269","active":true,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:57:31,492 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,492 |
+2026-08-12 13:57:31,492 |t:|1786535851
+2026-08-12 13:57:31,492 |move|p1a: Pidgeot|Return|p2a: Stantler
+2026-08-12 13:57:31,492 |-damage|p2a: Stantler|64/269
+2026-08-12 13:57:31,492 |-damage|p1a: Pidgeot|25/100|[from] item: Life Orb
+2026-08-12 13:57:31,492 |move|p2a: Stantler|Thunderbolt|p1a: Pidgeot
+2026-08-12 13:57:31,492 |-supereffective|p1a: Pidgeot
+2026-08-12 13:57:31,492 |-damage|p1a: Pidgeot|0 fnt
+2026-08-12 13:57:31,492 |faint|p1a: Pidgeot
+2026-08-12 13:57:31,492 |-damage|p2a: Stantler|38/269|[from] item: Life Orb
+2026-08-12 13:57:31,492 |
+2026-08-12 13:57:31,492 |upkeep
+2026-08-12 13:57:31,493 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,493 |request|{"wait":true,"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"38/269","active":true,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:57:31,503 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,503 |
+2026-08-12 13:57:31,503 |t:|1786535851
+2026-08-12 13:57:31,503 |switch|p1a: Cherrim|Cherrim, L95, F|100/100
+2026-08-12 13:57:31,503 |turn|23
+2026-08-12 13:57:31,504 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,504 |request|{"active":[{"moves":[{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"38/269","active":true,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:57:31,521 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,521 |
+2026-08-12 13:57:31,521 |t:|1786535851
+2026-08-12 13:57:31,521 |move|p2a: Stantler|Sucker Punch|p1a: Cherrim
+2026-08-12 13:57:31,521 |-damage|p1a: Cherrim|73/100
+2026-08-12 13:57:31,521 |-damage|p2a: Stantler|12/269|[from] item: Life Orb
+2026-08-12 13:57:31,521 |move|p1a: Cherrim|Energy Ball|p2a: Stantler
+2026-08-12 13:57:31,521 |-crit|p2a: Stantler
+2026-08-12 13:57:31,521 |-damage|p2a: Stantler|0 fnt
+2026-08-12 13:57:31,521 |faint|p2a: Stantler
+2026-08-12 13:57:31,521 |
+2026-08-12 13:57:31,521 |-heal|p1a: Cherrim|79/100|[from] item: Leftovers
+2026-08-12 13:57:31,521 |upkeep
+2026-08-12 13:57:31,521 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,521 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":true,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":63}
+2026-08-12 13:57:31,530 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,530 |
+2026-08-12 13:57:31,530 |t:|1786535851
+2026-08-12 13:57:31,530 |switch|p2a: Meganium|Meganium, L91, M|293/293
+2026-08-12 13:57:31,530 |turn|24
+2026-08-12 13:57:31,531 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,531 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:57:31,552 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,552 |
+2026-08-12 13:57:31,552 |t:|1786535851
+2026-08-12 13:57:31,552 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:31,552 |-resisted|p2a: Meganium
+2026-08-12 13:57:31,552 |-damage|p2a: Meganium|252/293
+2026-08-12 13:57:31,552 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:31,552 |-resisted|p1a: Cherrim
+2026-08-12 13:57:31,552 |-damage|p1a: Cherrim|64/100
+2026-08-12 13:57:31,552 |
+2026-08-12 13:57:31,552 |-heal|p1a: Cherrim|70/100|[from] item: Leftovers
+2026-08-12 13:57:31,552 |-heal|p2a: Meganium|270/293|[from] item: Leftovers
+2026-08-12 13:57:31,552 |upkeep
+2026-08-12 13:57:31,552 |turn|25
+2026-08-12 13:57:31,553 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,553 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"270/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"46/237","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:57:31,570 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,570 |
+2026-08-12 13:57:31,570 |t:|1786535851
+2026-08-12 13:57:31,570 |switch|p2a: Scyther|Scyther, L78, M|46/237
+2026-08-12 13:57:31,570 |move|p1a: Cherrim|Leech Seed|p2a: Scyther
+2026-08-12 13:57:31,570 |-start|p2a: Scyther|move: Leech Seed
+2026-08-12 13:57:31,570 |
+2026-08-12 13:57:31,570 |-heal|p1a: Cherrim|76/100|[from] item: Leftovers
+2026-08-12 13:57:31,570 |-damage|p2a: Scyther|17/237|[from] Leech Seed|[of] p1a: Cherrim
+2026-08-12 13:57:31,570 |-heal|p1a: Cherrim|86/100|[silent]
+2026-08-12 13:57:31,570 |upkeep
+2026-08-12 13:57:31,570 |turn|26
+2026-08-12 13:57:31,570 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,570 |request|{"active":[{"moves":[{"move":"Aerial Ace","id":"aerialace","pp":31,"maxpp":32,"target":"any","disabled":false},{"move":"Bug Bite","id":"bugbite","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Brick Break","id":"brickbreak","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"17/237","active":true,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"270/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:57:31,589 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,589 |
+2026-08-12 13:57:31,589 |t:|1786535851
+2026-08-12 13:57:31,589 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:31,589 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,589 |-damage|p1a: Cherrim|61/100
+2026-08-12 13:57:31,589 |move|p2a: Scyther|Bug Bite|p1a: Cherrim
+2026-08-12 13:57:31,589 |-supereffective|p1a: Cherrim
+2026-08-12 13:57:31,589 |-end|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,589 |
+2026-08-12 13:57:31,589 |-heal|p1a: Cherrim|67/100|[from] item: Leftovers
+2026-08-12 13:57:31,589 |-damage|p2a: Scyther|0 fnt|[from] Leech Seed|[of] p1a: Cherrim
+2026-08-12 13:57:31,589 |-heal|p1a: Cherrim|73/100|[silent]
+2026-08-12 13:57:31,589 |faint|p2a: Scyther
+2026-08-12 13:57:31,589 |upkeep
+2026-08-12 13:57:31,590 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,590 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":true,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"270/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":71}
+2026-08-12 13:57:31,598 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,598 |
+2026-08-12 13:57:31,598 |t:|1786535851
+2026-08-12 13:57:31,598 |switch|p2a: Meganium|Meganium, L91, M|270/293
+2026-08-12 13:57:31,598 |turn|27
+2026-08-12 13:57:31,600 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,600 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"270/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:57:31,617 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,617 |
+2026-08-12 13:57:31,617 |t:|1786535851
+2026-08-12 13:57:31,617 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:31,617 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,617 |-damage|p1a: Cherrim|48/100
+2026-08-12 13:57:31,617 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:31,618 |-resisted|p1a: Cherrim
+2026-08-12 13:57:31,618 |-activate|p1a: Cherrim|Substitute|[damage]
+2026-08-12 13:57:31,618 |
+2026-08-12 13:57:31,618 |-heal|p1a: Cherrim|54/100|[from] item: Leftovers
+2026-08-12 13:57:31,618 |-heal|p2a: Meganium|288/293|[from] item: Leftovers
+2026-08-12 13:57:31,618 |upkeep
+2026-08-12 13:57:31,618 |turn|28
+2026-08-12 13:57:31,619 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,619 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"288/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:57:31,644 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,644 |
+2026-08-12 13:57:31,644 |t:|1786535851
+2026-08-12 13:57:31,644 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:31,644 |-supereffective|p2a: Meganium
+2026-08-12 13:57:31,644 |-damage|p2a: Meganium|184/293
+2026-08-12 13:57:31,644 |move|p2a: Meganium|Toxic||[still]
+2026-08-12 13:57:31,644 |-fail|p2a: Meganium
+2026-08-12 13:57:31,644 |
+2026-08-12 13:57:31,644 |-heal|p1a: Cherrim|60/100|[from] item: Leftovers
+2026-08-12 13:57:31,644 |-heal|p2a: Meganium|202/293|[from] item: Leftovers
+2026-08-12 13:57:31,644 |upkeep
+2026-08-12 13:57:31,644 |turn|29
+2026-08-12 13:57:31,644 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,644 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"202/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:57:31,663 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,663 |
+2026-08-12 13:57:31,663 |t:|1786535851
+2026-08-12 13:57:31,663 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:31,663 |-resisted|p2a: Meganium
+2026-08-12 13:57:31,663 |-damage|p2a: Meganium|157/293
+2026-08-12 13:57:31,663 |move|p2a: Meganium|Toxic||[still]
+2026-08-12 13:57:31,663 |-fail|p2a: Meganium
+2026-08-12 13:57:31,663 |
+2026-08-12 13:57:31,663 |-heal|p1a: Cherrim|66/100|[from] item: Leftovers
+2026-08-12 13:57:31,663 |-heal|p2a: Meganium|175/293|[from] item: Leftovers
+2026-08-12 13:57:31,663 |upkeep
+2026-08-12 13:57:31,663 |turn|30
+2026-08-12 13:57:31,665 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,665 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"175/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:57:31,685 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,685 |
+2026-08-12 13:57:31,685 |t:|1786535851
+2026-08-12 13:57:31,685 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:31,685 |-supereffective|p2a: Meganium
+2026-08-12 13:57:31,685 |-damage|p2a: Meganium|79/293
+2026-08-12 13:57:31,685 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 13:57:31,685 |-heal|p2a: Meganium|225/293
+2026-08-12 13:57:31,685 |
+2026-08-12 13:57:31,685 |-heal|p1a: Cherrim|72/100|[from] item: Leftovers
+2026-08-12 13:57:31,685 |-heal|p2a: Meganium|243/293|[from] item: Leftovers
+2026-08-12 13:57:31,685 |upkeep
+2026-08-12 13:57:31,685 |turn|31
+2026-08-12 13:57:31,687 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,687 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"243/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:57:31,738 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,738 |
+2026-08-12 13:57:31,738 |t:|1786535851
+2026-08-12 13:57:31,738 |switch|p2a: Huntail|Huntail, L91, M|96/248
+2026-08-12 13:57:31,738 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:31,739 |-fail|p1a: Cherrim|move: Substitute
+2026-08-12 13:57:31,739 |
+2026-08-12 13:57:31,739 |-heal|p1a: Cherrim|78/100|[from] item: Leftovers
+2026-08-12 13:57:31,739 |upkeep
+2026-08-12 13:57:31,739 |turn|32
+2026-08-12 13:57:31,739 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,739 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":7,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"96/248","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"243/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:57:31,821 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,821 |
+2026-08-12 13:57:31,821 |t:|1786535851
+2026-08-12 13:57:31,821 |move|p1a: Cherrim|Leech Seed|p2a: Huntail
+2026-08-12 13:57:31,821 |-start|p2a: Huntail|move: Leech Seed
+2026-08-12 13:57:31,821 |move|p2a: Huntail|Hydro Pump|p1a: Cherrim
+2026-08-12 13:57:31,821 |-resisted|p1a: Cherrim
+2026-08-12 13:57:31,821 |-crit|p1a: Cherrim
+2026-08-12 13:57:31,821 |-end|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,821 |
+2026-08-12 13:57:31,821 |-heal|p1a: Cherrim|84/100|[from] item: Leftovers
+2026-08-12 13:57:31,821 |-damage|p2a: Huntail|65/248|[from] Leech Seed|[of] p1a: Cherrim
+2026-08-12 13:57:31,821 |-heal|p1a: Cherrim|95/100|[silent]
+2026-08-12 13:57:31,821 |upkeep
+2026-08-12 13:57:31,821 |turn|33
+2026-08-12 13:57:31,822 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,822 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"65/248","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"243/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:57:31,847 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,847 |
+2026-08-12 13:57:31,847 |t:|1786535851
+2026-08-12 13:57:31,847 |switch|p2a: Meganium|Meganium, L91, M|243/293
+2026-08-12 13:57:31,847 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:31,847 |-supereffective|p2a: Meganium
+2026-08-12 13:57:31,847 |-damage|p2a: Meganium|141/293
+2026-08-12 13:57:31,847 |
+2026-08-12 13:57:31,847 |-heal|p1a: Cherrim|100/100|[from] item: Leftovers
+2026-08-12 13:57:31,847 |-heal|p2a: Meganium|159/293|[from] item: Leftovers
+2026-08-12 13:57:31,847 |upkeep
+2026-08-12 13:57:31,847 |turn|34
+2026-08-12 13:57:31,847 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,847 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":7,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"159/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"65/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:57:31,870 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,870 |
+2026-08-12 13:57:31,870 |t:|1786535851
+2026-08-12 13:57:31,870 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:31,870 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,870 |-damage|p1a: Cherrim|76/100
+2026-08-12 13:57:31,870 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 13:57:31,870 |-heal|p2a: Meganium|293/293
+2026-08-12 13:57:31,870 |
+2026-08-12 13:57:31,870 |-heal|p1a: Cherrim|82/100|[from] item: Leftovers
+2026-08-12 13:57:31,870 |upkeep
+2026-08-12 13:57:31,870 |turn|35
+2026-08-12 13:57:31,871 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,871 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"65/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:57:31,888 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,888 |
+2026-08-12 13:57:31,888 |t:|1786535851
+2026-08-12 13:57:31,888 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:31,888 |-supereffective|p2a: Meganium
+2026-08-12 13:57:31,888 |-damage|p2a: Meganium|201/293
+2026-08-12 13:57:31,888 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:31,888 |-resisted|p1a: Cherrim
+2026-08-12 13:57:31,888 |-crit|p1a: Cherrim
+2026-08-12 13:57:31,888 |-end|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,888 |
+2026-08-12 13:57:31,888 |-heal|p1a: Cherrim|88/100|[from] item: Leftovers
+2026-08-12 13:57:31,888 |-heal|p2a: Meganium|219/293|[from] item: Leftovers
+2026-08-12 13:57:31,888 |upkeep
+2026-08-12 13:57:31,888 |turn|36
+2026-08-12 13:57:31,889 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,889 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"219/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"65/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:57:31,911 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,911 |
+2026-08-12 13:57:31,911 |t:|1786535851
+2026-08-12 13:57:31,911 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:31,911 |-supereffective|p2a: Meganium
+2026-08-12 13:57:31,911 |-damage|p2a: Meganium|117/293
+2026-08-12 13:57:31,911 |move|p2a: Meganium|Energy Ball|p1a: Cherrim
+2026-08-12 13:57:31,911 |-resisted|p1a: Cherrim
+2026-08-12 13:57:31,911 |-damage|p1a: Cherrim|72/100
+2026-08-12 13:57:31,911 |
+2026-08-12 13:57:31,911 |-heal|p1a: Cherrim|78/100|[from] item: Leftovers
+2026-08-12 13:57:31,911 |-heal|p2a: Meganium|135/293|[from] item: Leftovers
+2026-08-12 13:57:31,911 |upkeep
+2026-08-12 13:57:31,911 |turn|37
+2026-08-12 13:57:31,913 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,913 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"135/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"65/248","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 13:57:31,929 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,929 |
+2026-08-12 13:57:31,929 |t:|1786535851
+2026-08-12 13:57:31,929 |switch|p2a: Huntail|Huntail, L91, M|65/248
+2026-08-12 13:57:31,929 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:31,929 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:31,929 |-damage|p1a: Cherrim|53/100
+2026-08-12 13:57:31,929 |
+2026-08-12 13:57:31,929 |-heal|p1a: Cherrim|59/100|[from] item: Leftovers
+2026-08-12 13:57:31,929 |upkeep
+2026-08-12 13:57:31,929 |turn|38
+2026-08-12 13:57:31,930 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,930 |request|{"active":[{"moves":[{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Rain Dance","id":"raindance","pp":7,"maxpp":8,"target":"all","disabled":false},{"move":"Hydro Pump","id":"hydropump","pp":6,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"65/248","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"135/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 13:57:31,943 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,943 |
+2026-08-12 13:57:31,943 |t:|1786535851
+2026-08-12 13:57:31,943 |move|p1a: Cherrim|Energy Ball|p2a: Huntail
+2026-08-12 13:57:31,943 |-supereffective|p2a: Huntail
+2026-08-12 13:57:31,943 |-damage|p2a: Huntail|0 fnt
+2026-08-12 13:57:31,943 |faint|p2a: Huntail
+2026-08-12 13:57:31,943 |
+2026-08-12 13:57:31,943 |-heal|p1a: Cherrim|65/100|[from] item: Leftovers
+2026-08-12 13:57:31,943 |upkeep
+2026-08-12 13:57:31,944 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,944 |request|{"forceSwitch":[true],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":true,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"135/293","active":false,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"noCancel":true,"rqid":97}
+2026-08-12 13:57:31,957 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,957 |
+2026-08-12 13:57:31,957 |t:|1786535851
+2026-08-12 13:57:31,957 |switch|p2a: Meganium|Meganium, L91, M|135/293
+2026-08-12 13:57:31,957 |turn|39
+2026-08-12 13:57:31,959 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,959 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":13,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"135/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 13:57:31,979 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,979 |
+2026-08-12 13:57:31,979 |t:|1786535851
+2026-08-12 13:57:31,979 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:31,979 |-supereffective|p2a: Meganium
+2026-08-12 13:57:31,979 |-damage|p2a: Meganium|33/293
+2026-08-12 13:57:31,979 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:31,979 |-resisted|p1a: Cherrim
+2026-08-12 13:57:31,979 |-activate|p1a: Cherrim|Substitute|[damage]
+2026-08-12 13:57:31,979 |
+2026-08-12 13:57:31,979 |-heal|p1a: Cherrim|71/100|[from] item: Leftovers
+2026-08-12 13:57:31,979 |-heal|p2a: Meganium|51/293|[from] item: Leftovers
+2026-08-12 13:57:31,979 |upkeep
+2026-08-12 13:57:31,979 |turn|40
+2026-08-12 13:57:31,982 >battle-gen4randombattle-329241
+2026-08-12 13:57:31,982 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"51/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 13:57:32,005 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,005 |
+2026-08-12 13:57:32,005 |t:|1786535851
+2026-08-12 13:57:32,005 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:32,005 |-resisted|p2a: Meganium
+2026-08-12 13:57:32,005 |-damage|p2a: Meganium|9/293
+2026-08-12 13:57:32,005 |move|p2a: Meganium|Energy Ball|p1a: Cherrim
+2026-08-12 13:57:32,005 |-resisted|p1a: Cherrim
+2026-08-12 13:57:32,005 |-end|p1a: Cherrim|Substitute
+2026-08-12 13:57:32,005 |
+2026-08-12 13:57:32,005 |-heal|p1a: Cherrim|77/100|[from] item: Leftovers
+2026-08-12 13:57:32,005 |-heal|p2a: Meganium|27/293|[from] item: Leftovers
+2026-08-12 13:57:32,005 |upkeep
+2026-08-12 13:57:32,005 |turn|41
+2026-08-12 13:57:32,005 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,005 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":12,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"27/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 13:57:32,025 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,025 |
+2026-08-12 13:57:32,025 |t:|1786535852
+2026-08-12 13:57:32,025 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:32,025 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:32,025 |-damage|p1a: Cherrim|52/100
+2026-08-12 13:57:32,025 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:32,025 |-resisted|p1a: Cherrim
+2026-08-12 13:57:32,025 |-activate|p1a: Cherrim|Substitute|[damage]
+2026-08-12 13:57:32,025 |
+2026-08-12 13:57:32,025 |-heal|p1a: Cherrim|58/100|[from] item: Leftovers
+2026-08-12 13:57:32,025 |-heal|p2a: Meganium|45/293|[from] item: Leftovers
+2026-08-12 13:57:32,025 |upkeep
+2026-08-12 13:57:32,025 |turn|42
+2026-08-12 13:57:32,025 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,025 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":6,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"45/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 13:57:32,041 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,041 |
+2026-08-12 13:57:32,041 |t:|1786535852
+2026-08-12 13:57:32,041 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:32,041 |-resisted|p2a: Meganium
+2026-08-12 13:57:32,041 |-damage|p2a: Meganium|6/293
+2026-08-12 13:57:32,041 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 13:57:32,041 |-heal|p2a: Meganium|152/293
+2026-08-12 13:57:32,041 |
+2026-08-12 13:57:32,041 |-heal|p1a: Cherrim|64/100|[from] item: Leftovers
+2026-08-12 13:57:32,041 |-heal|p2a: Meganium|170/293|[from] item: Leftovers
+2026-08-12 13:57:32,041 |upkeep
+2026-08-12 13:57:32,041 |turn|43
+2026-08-12 13:57:32,042 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,042 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":5,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"170/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 13:57:32,061 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,061 |
+2026-08-12 13:57:32,061 |t:|1786535852
+2026-08-12 13:57:32,061 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:32,061 |-resisted|p2a: Meganium
+2026-08-12 13:57:32,061 |-damage|p2a: Meganium|127/293
+2026-08-12 13:57:32,061 |-unboost|p2a: Meganium|spd|1
+2026-08-12 13:57:32,061 |move|p2a: Meganium|Synthesis|p2a: Meganium
+2026-08-12 13:57:32,061 |-heal|p2a: Meganium|273/293
+2026-08-12 13:57:32,061 |
+2026-08-12 13:57:32,061 |-heal|p1a: Cherrim|70/100|[from] item: Leftovers
+2026-08-12 13:57:32,061 |-heal|p2a: Meganium|291/293|[from] item: Leftovers
+2026-08-12 13:57:32,061 |upkeep
+2026-08-12 13:57:32,062 |turn|44
+2026-08-12 13:57:32,063 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,063 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"291/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 13:57:32,081 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,081 |
+2026-08-12 13:57:32,081 |t:|1786535852
+2026-08-12 13:57:32,081 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:32,081 |-resisted|p2a: Meganium
+2026-08-12 13:57:32,081 |-damage|p2a: Meganium|226/293
+2026-08-12 13:57:32,081 |move|p2a: Meganium|Toxic|p1a: Cherrim|[miss]
+2026-08-12 13:57:32,081 |-miss|p2a: Meganium|p1a: Cherrim
+2026-08-12 13:57:32,081 |
+2026-08-12 13:57:32,081 |-heal|p1a: Cherrim|76/100|[from] item: Leftovers
+2026-08-12 13:57:32,081 |-heal|p2a: Meganium|244/293|[from] item: Leftovers
+2026-08-12 13:57:32,081 |upkeep
+2026-08-12 13:57:32,081 |turn|45
+2026-08-12 13:57:32,082 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,082 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"244/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 13:57:32,104 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,104 |
+2026-08-12 13:57:32,104 |t:|1786535852
+2026-08-12 13:57:32,104 |move|p1a: Cherrim|Leech Seed|p2a: Meganium
+2026-08-12 13:57:32,104 |-immune|p2a: Meganium
+2026-08-12 13:57:32,104 |move|p2a: Meganium|Toxic||[still]
+2026-08-12 13:57:32,104 |-fail|p2a: Meganium
+2026-08-12 13:57:32,104 |
+2026-08-12 13:57:32,104 |-heal|p1a: Cherrim|82/100|[from] item: Leftovers
+2026-08-12 13:57:32,104 |-heal|p2a: Meganium|262/293|[from] item: Leftovers
+2026-08-12 13:57:32,104 |upkeep
+2026-08-12 13:57:32,104 |turn|46
+2026-08-12 13:57:32,105 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,105 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":11,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"262/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 13:57:32,128 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,128 |
+2026-08-12 13:57:32,128 |t:|1786535852
+2026-08-12 13:57:32,128 |move|p1a: Cherrim|Leech Seed|p2a: Meganium|[miss]
+2026-08-12 13:57:32,128 |-miss|p1a: Cherrim|p2a: Meganium
+2026-08-12 13:57:32,128 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:32,128 |-resisted|p1a: Cherrim
+2026-08-12 13:57:32,128 |-end|p1a: Cherrim|Substitute
+2026-08-12 13:57:32,128 |
+2026-08-12 13:57:32,128 |-heal|p1a: Cherrim|88/100|[from] item: Leftovers
+2026-08-12 13:57:32,128 |-heal|p2a: Meganium|280/293|[from] item: Leftovers
+2026-08-12 13:57:32,128 |upkeep
+2026-08-12 13:57:32,128 |turn|47
+2026-08-12 13:57:32,132 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,132 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"280/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 13:57:32,146 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,146 |
+2026-08-12 13:57:32,146 |t:|1786535852
+2026-08-12 13:57:32,146 |move|p1a: Cherrim|Substitute|p1a: Cherrim
+2026-08-12 13:57:32,146 |-start|p1a: Cherrim|Substitute
+2026-08-12 13:57:32,146 |-damage|p1a: Cherrim|63/100
+2026-08-12 13:57:32,146 |move|p2a: Meganium|Toxic||[still]
+2026-08-12 13:57:32,146 |-fail|p2a: Meganium
+2026-08-12 13:57:32,146 |
+2026-08-12 13:57:32,146 |-heal|p1a: Cherrim|69/100|[from] item: Leftovers
+2026-08-12 13:57:32,146 |-heal|p2a: Meganium|293/293|[from] item: Leftovers
+2026-08-12 13:57:32,146 |upkeep
+2026-08-12 13:57:32,146 |turn|48
+2026-08-12 13:57:32,149 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,149 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"293/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 13:57:32,173 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,173 |
+2026-08-12 13:57:32,173 |t:|1786535852
+2026-08-12 13:57:32,173 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:32,173 |-supereffective|p2a: Meganium
+2026-08-12 13:57:32,173 |-damage|p2a: Meganium|147/293
+2026-08-12 13:57:32,174 |move|p2a: Meganium|Toxic||[still]
+2026-08-12 13:57:32,174 |-fail|p2a: Meganium
+2026-08-12 13:57:32,174 |
+2026-08-12 13:57:32,174 |-heal|p1a: Cherrim|75/100|[from] item: Leftovers
+2026-08-12 13:57:32,174 |-heal|p2a: Meganium|165/293|[from] item: Leftovers
+2026-08-12 13:57:32,174 |upkeep
+2026-08-12 13:57:32,174 |turn|49
+2026-08-12 13:57:32,176 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,176 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":10,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"165/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 13:57:32,205 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,205 |
+2026-08-12 13:57:32,205 |t:|1786535852
+2026-08-12 13:57:32,205 |move|p1a: Cherrim|Energy Ball|p2a: Meganium
+2026-08-12 13:57:32,205 |-resisted|p2a: Meganium
+2026-08-12 13:57:32,205 |-crit|p2a: Meganium
+2026-08-12 13:57:32,205 |-damage|p2a: Meganium|29/293
+2026-08-12 13:57:32,205 |move|p2a: Meganium|Earthquake|p1a: Cherrim
+2026-08-12 13:57:32,205 |-resisted|p1a: Cherrim
+2026-08-12 13:57:32,205 |-activate|p1a: Cherrim|Substitute|[damage]
+2026-08-12 13:57:32,205 |
+2026-08-12 13:57:32,205 |-heal|p1a: Cherrim|81/100|[from] item: Leftovers
+2026-08-12 13:57:32,205 |-heal|p2a: Meganium|47/293|[from] item: Leftovers
+2026-08-12 13:57:32,205 |upkeep
+2026-08-12 13:57:32,205 |turn|50
+2026-08-12 13:57:32,208 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,208 |request|{"active":[{"moves":[{"move":"Earthquake","id":"earthquake","pp":9,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Energy Ball","id":"energyball","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":4,"maxpp":8,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT8","id":"p2","pokemon":[{"ident":"p2: Meganium","details":"Meganium, L91, M","condition":"47/293","active":true,"stats":{"atk":201,"def":234,"spa":203,"spd":234,"spe":197},"moves":["earthquake","energyball","synthesis","toxic"],"baseAbility":"overgrow","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Garchomp","details":"Garchomp, L74, F","condition":"0 fnt","active":false,"stats":{"atk":235,"def":184,"spa":161,"spd":169,"spe":194},"moves":["outrage","swordsdance","earthquake","firefang"],"baseAbility":"sandveil","item":"lumberry","pokeball":"pokeball"},{"ident":"p2: Stantler","details":"Stantler, L87, M","condition":"0 fnt","active":false,"stats":{"atk":215,"def":158,"spa":198,"spd":163,"spe":198},"moves":["suckerpunch","earthquake","doubleedge","thunderbolt"],"baseAbility":"intimidate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Huntail","details":"Huntail, L91, M","condition":"0 fnt","active":false,"stats":{"atk":241,"def":243,"spa":223,"spd":188,"spe":146},"moves":["doubleedge","icebeam","raindance","hydropump"],"baseAbility":"swiftswim","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Slowking","details":"Slowking, L87, M","condition":"0 fnt","active":false,"stats":{"atk":135,"def":189,"spa":224,"spd":241,"spe":57},"moves":["psychic","trickroom","surf","icebeam"],"baseAbility":"owntempo","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Scyther","details":"Scyther, L78, M","condition":"0 fnt","active":false,"stats":{"atk":217,"def":170,"spa":131,"spd":170,"spe":209},"moves":["aerialace","bugbite","swordsdance","brickbreak"],"baseAbility":"technician","item":"lifeorb","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 13:57:32,232 >battle-gen4randombattle-329241
+2026-08-12 13:57:32,232 |
+2026-08-12 13:57:32,232 |t:|1786535852
+2026-08-12 13:57:32,232 |move|p1a: Cherrim|Hidden Power|p2a: Meganium
+2026-08-12 13:57:32,232 |-supereffective|p2a: Meganium
+2026-08-12 13:57:32,232 |-damage|p2a: Meganium|0 fnt
+2026-08-12 13:57:32,232 |faint|p2a: Meganium
+2026-08-12 13:57:32,232 |
+2026-08-12 13:57:32,232 |win|BOT7

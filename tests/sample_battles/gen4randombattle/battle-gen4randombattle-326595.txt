@@ -1,0 +1,666 @@
+2026-08-12 13:35:21,249 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,250 |init|battle
+2026-08-12 13:35:21,250 |title|BOT3 vs. BOT4
+2026-08-12 13:35:21,250 |pm| BOT4| BOT3|/nonotify BOT4 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-326595">battle-gen4randombattle-326595</a>&raquo;
+2026-08-12 13:35:21,286 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,286 |t:|1786534521
+2026-08-12 13:35:21,286 |gametype|singles
+2026-08-12 13:35:21,286 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,286 |player|p1|BOT3|101|
+2026-08-12 13:35:21,290 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,290 |player|p2|BOT4|266|
+2026-08-12 13:35:21,290 |gen|4
+2026-08-12 13:35:21,290 |tier|[Gen 4] Random Battle
+2026-08-12 13:35:21,290 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:35:21,290 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:35:21,290 |
+2026-08-12 13:35:21,290 |t:|1786534521
+2026-08-12 13:35:21,290 |teamsize|p1|6
+2026-08-12 13:35:21,290 |teamsize|p2|6
+2026-08-12 13:35:21,290 |start
+2026-08-12 13:35:21,290 |switch|p1a: Mesprit|Mesprit, L81|100/100
+2026-08-12 13:35:21,290 |switch|p2a: Azelf|Azelf, L77|242/242
+2026-08-12 13:35:21,290 |turn|1
+2026-08-12 13:35:21,290 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,290 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"242/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:35:21,326 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,326 |
+2026-08-12 13:35:21,326 |t:|1786534521
+2026-08-12 13:35:21,326 |move|p1a: Mesprit|Thunderbolt|p2a: Azelf
+2026-08-12 13:35:21,326 |-damage|p2a: Azelf|157/242
+2026-08-12 13:35:21,326 |move|p2a: Azelf|Psychic|p1a: Mesprit
+2026-08-12 13:35:21,326 |-resisted|p1a: Mesprit
+2026-08-12 13:35:21,326 |-damage|p1a: Mesprit|80/100
+2026-08-12 13:35:21,326 |-damage|p2a: Azelf|133/242|[from] item: Life Orb
+2026-08-12 13:35:21,326 |
+2026-08-12 13:35:21,326 |upkeep
+2026-08-12 13:35:21,326 |turn|2
+2026-08-12 13:35:21,327 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,327 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"133/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:35:21,358 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,358 |
+2026-08-12 13:35:21,358 |t:|1786534521
+2026-08-12 13:35:21,358 |move|p1a: Mesprit|Thunderbolt|p2a: Azelf
+2026-08-12 13:35:21,358 |-damage|p2a: Azelf|39/242
+2026-08-12 13:35:21,358 |move|p2a: Azelf|Psychic|p1a: Mesprit
+2026-08-12 13:35:21,358 |-resisted|p1a: Mesprit
+2026-08-12 13:35:21,358 |-damage|p1a: Mesprit|58/100
+2026-08-12 13:35:21,358 |-damage|p2a: Azelf|15/242|[from] item: Life Orb
+2026-08-12 13:35:21,358 |
+2026-08-12 13:35:21,358 |upkeep
+2026-08-12 13:35:21,358 |turn|3
+2026-08-12 13:35:21,358 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,358 |request|{"active":[{"moves":[{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"15/242","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:35:21,391 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,391 |
+2026-08-12 13:35:21,391 |t:|1786534521
+2026-08-12 13:35:21,391 |move|p1a: Mesprit|Thunderbolt|p2a: Azelf
+2026-08-12 13:35:21,391 |-damage|p2a: Azelf|0 fnt
+2026-08-12 13:35:21,391 |faint|p2a: Azelf
+2026-08-12 13:35:21,391 |
+2026-08-12 13:35:21,391 |upkeep
+2026-08-12 13:35:21,394 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,394 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":true,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"noCancel":true,"rqid":9}
+2026-08-12 13:35:21,425 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,425 |
+2026-08-12 13:35:21,425 |t:|1786534521
+2026-08-12 13:35:21,425 |switch|p2a: Volbeat|Volbeat, L97, M|283/283
+2026-08-12 13:35:21,425 |turn|4
+2026-08-12 13:35:21,426 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,426 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:35:21,458 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,458 |
+2026-08-12 13:35:21,458 |t:|1786534521
+2026-08-12 13:35:21,458 |move|p1a: Mesprit|Thunderbolt|p2a: Volbeat
+2026-08-12 13:35:21,458 |-damage|p2a: Volbeat|219/283
+2026-08-12 13:35:21,458 |move|p2a: Volbeat|Toxic|p1a: Mesprit
+2026-08-12 13:35:21,458 |-status|p1a: Mesprit|tox
+2026-08-12 13:35:21,459 |
+2026-08-12 13:35:21,459 |-damage|p1a: Mesprit|52/100 tox|[from] psn
+2026-08-12 13:35:21,459 |-heal|p2a: Volbeat|236/283|[from] item: Leftovers
+2026-08-12 13:35:21,459 |upkeep
+2026-08-12 13:35:21,459 |turn|5
+2026-08-12 13:35:21,459 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,459 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"236/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:35:21,485 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,485 |
+2026-08-12 13:35:21,485 |t:|1786534521
+2026-08-12 13:35:21,485 |move|p1a: Mesprit|Thunderbolt|p2a: Volbeat
+2026-08-12 13:35:21,485 |-damage|p2a: Volbeat|173/283
+2026-08-12 13:35:21,485 |move|p2a: Volbeat|Encore|p1a: Mesprit
+2026-08-12 13:35:21,485 |-start|p1a: Mesprit|Encore
+2026-08-12 13:35:21,486 |
+2026-08-12 13:35:21,486 |-damage|p1a: Mesprit|39/100 tox|[from] psn
+2026-08-12 13:35:21,486 |-heal|p2a: Volbeat|190/283|[from] item: Leftovers
+2026-08-12 13:35:21,486 |upkeep
+2026-08-12 13:35:21,486 |turn|6
+2026-08-12 13:35:21,487 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,487 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"190/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:35:21,528 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,528 |
+2026-08-12 13:35:21,528 |t:|1786534521
+2026-08-12 13:35:21,528 |move|p1a: Mesprit|Thunderbolt|p2a: Volbeat
+2026-08-12 13:35:21,528 |-damage|p2a: Volbeat|129/283
+2026-08-12 13:35:21,528 |move|p2a: Volbeat|Toxic|p1a: Mesprit
+2026-08-12 13:35:21,528 |-fail|p1a: Mesprit|tox
+2026-08-12 13:35:21,528 |
+2026-08-12 13:35:21,528 |-damage|p1a: Mesprit|21/100 tox|[from] psn
+2026-08-12 13:35:21,528 |-heal|p2a: Volbeat|146/283|[from] item: Leftovers
+2026-08-12 13:35:21,528 |upkeep
+2026-08-12 13:35:21,528 |turn|7
+2026-08-12 13:35:21,530 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,530 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"146/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:35:21,568 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,568 |
+2026-08-12 13:35:21,568 |t:|1786534521
+2026-08-12 13:35:21,568 |move|p1a: Mesprit|Thunderbolt|p2a: Volbeat
+2026-08-12 13:35:21,568 |-damage|p2a: Volbeat|77/283
+2026-08-12 13:35:21,568 |move|p2a: Volbeat|Toxic|p1a: Mesprit|[miss]
+2026-08-12 13:35:21,568 |-miss|p2a: Volbeat|p1a: Mesprit
+2026-08-12 13:35:21,568 |
+2026-08-12 13:35:21,568 |-damage|p1a: Mesprit|0 fnt|[from] psn
+2026-08-12 13:35:21,568 |faint|p1a: Mesprit
+2026-08-12 13:35:21,568 |-heal|p2a: Volbeat|94/283|[from] item: Leftovers
+2026-08-12 13:35:21,568 |upkeep
+2026-08-12 13:35:21,568 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,568 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"94/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:35:21,595 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,595 |
+2026-08-12 13:35:21,595 |t:|1786534521
+2026-08-12 13:35:21,595 |switch|p1a: Dialga|Dialga, L70|100/100
+2026-08-12 13:35:21,595 |-ability|p1a: Dialga|Pressure
+2026-08-12 13:35:21,595 |turn|8
+2026-08-12 13:35:21,595 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,595 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"94/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:35:21,624 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,624 |
+2026-08-12 13:35:21,624 |t:|1786534521
+2026-08-12 13:35:21,624 |move|p2a: Volbeat|Seismic Toss|p1a: Dialga
+2026-08-12 13:35:21,624 |-damage|p1a: Dialga|63/100
+2026-08-12 13:35:21,624 |move|p1a: Dialga|Sleep Talk||[still]
+2026-08-12 13:35:21,624 |-fail|p1a: Dialga
+2026-08-12 13:35:21,624 |
+2026-08-12 13:35:21,624 |-heal|p2a: Volbeat|111/283|[from] item: Leftovers
+2026-08-12 13:35:21,624 |-heal|p1a: Dialga|69/100|[from] item: Leftovers
+2026-08-12 13:35:21,624 |upkeep
+2026-08-12 13:35:21,624 |turn|9
+2026-08-12 13:35:21,627 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,627 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"111/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:35:21,659 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,659 |
+2026-08-12 13:35:21,659 |t:|1786534521
+2026-08-12 13:35:21,659 |move|p2a: Volbeat|Roost|p2a: Volbeat
+2026-08-12 13:35:21,659 |-heal|p2a: Volbeat|252/283
+2026-08-12 13:35:21,659 |-singleturn|p2a: Volbeat|move: Roost
+2026-08-12 13:35:21,659 |move|p1a: Dialga|Rest|p1a: Dialga
+2026-08-12 13:35:21,659 |-status|p1a: Dialga|slp|[from] move: Rest
+2026-08-12 13:35:21,659 |-heal|p1a: Dialga|100/100 slp|[silent]
+2026-08-12 13:35:21,659 |
+2026-08-12 13:35:21,659 |-heal|p2a: Volbeat|269/283|[from] item: Leftovers
+2026-08-12 13:35:21,659 |upkeep
+2026-08-12 13:35:21,659 |turn|10
+2026-08-12 13:35:21,662 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,662 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"269/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:35:21,698 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,698 |
+2026-08-12 13:35:21,698 |t:|1786534521
+2026-08-12 13:35:21,698 |move|p2a: Volbeat|Toxic|p1a: Dialga|[miss]
+2026-08-12 13:35:21,698 |-miss|p2a: Volbeat|p1a: Dialga
+2026-08-12 13:35:21,698 |cant|p1a: Dialga|slp
+2026-08-12 13:35:21,698 |
+2026-08-12 13:35:21,698 |-heal|p2a: Volbeat|283/283|[from] item: Leftovers
+2026-08-12 13:35:21,698 |upkeep
+2026-08-12 13:35:21,698 |turn|11
+2026-08-12 13:35:21,698 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,698 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:35:21,724 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,724 |
+2026-08-12 13:35:21,725 |t:|1786534521
+2026-08-12 13:35:21,725 |move|p2a: Volbeat|Roost||[still]
+2026-08-12 13:35:21,725 |-fail|p2a: Volbeat|heal
+2026-08-12 13:35:21,725 |cant|p1a: Dialga|slp
+2026-08-12 13:35:21,725 |
+2026-08-12 13:35:21,725 |upkeep
+2026-08-12 13:35:21,725 |turn|12
+2026-08-12 13:35:21,728 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,728 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:35:21,757 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,757 |
+2026-08-12 13:35:21,757 |t:|1786534521
+2026-08-12 13:35:21,757 |move|p2a: Volbeat|Toxic||[still]
+2026-08-12 13:35:21,757 |-fail|p2a: Volbeat
+2026-08-12 13:35:21,757 |-curestatus|p1a: Dialga|slp|[msg]
+2026-08-12 13:35:21,757 |move|p1a: Dialga|Bulk Up|p1a: Dialga
+2026-08-12 13:35:21,757 |-boost|p1a: Dialga|atk|1
+2026-08-12 13:35:21,757 |-boost|p1a: Dialga|def|1
+2026-08-12 13:35:21,757 |
+2026-08-12 13:35:21,757 |upkeep
+2026-08-12 13:35:21,757 |turn|13
+2026-08-12 13:35:21,757 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,757 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":30,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"283/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:35:21,796 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,796 |
+2026-08-12 13:35:21,796 |t:|1786534521
+2026-08-12 13:35:21,796 |move|p2a: Volbeat|Seismic Toss|p1a: Dialga
+2026-08-12 13:35:21,796 |-damage|p1a: Dialga|63/100
+2026-08-12 13:35:21,796 |move|p1a: Dialga|Outrage|p2a: Volbeat
+2026-08-12 13:35:21,796 |-damage|p2a: Volbeat|102/283
+2026-08-12 13:35:21,796 |
+2026-08-12 13:35:21,796 |-heal|p2a: Volbeat|119/283|[from] item: Leftovers
+2026-08-12 13:35:21,796 |-heal|p1a: Dialga|69/100|[from] item: Leftovers
+2026-08-12 13:35:21,796 |upkeep
+2026-08-12 13:35:21,796 |turn|14
+2026-08-12 13:35:21,798 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,798 |request|{"active":[{"moves":[{"move":"Encore","id":"encore","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false},{"move":"Seismic Toss","id":"seismictoss","pp":28,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"119/283","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:35:21,839 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,839 |
+2026-08-12 13:35:21,839 |t:|1786534521
+2026-08-12 13:35:21,839 |move|p2a: Volbeat|Toxic|p1a: Dialga
+2026-08-12 13:35:21,839 |-immune|p1a: Dialga
+2026-08-12 13:35:21,839 |move|p1a: Dialga|Outrage|p2a: Volbeat|[from] lockedmove
+2026-08-12 13:35:21,839 |-damage|p2a: Volbeat|0 fnt
+2026-08-12 13:35:21,839 |faint|p2a: Volbeat
+2026-08-12 13:35:21,839 |
+2026-08-12 13:35:21,839 |-heal|p1a: Dialga|75/100|[from] item: Leftovers
+2026-08-12 13:35:21,839 |-start|p1a: Dialga|confusion|[fatigue]
+2026-08-12 13:35:21,839 |upkeep
+2026-08-12 13:35:21,839 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,839 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":true,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"noCancel":true,"rqid":35}
+2026-08-12 13:35:21,855 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,855 |
+2026-08-12 13:35:21,855 |t:|1786534521
+2026-08-12 13:35:21,855 |switch|p2a: Magmortar|Magmortar, L81, F|254/254
+2026-08-12 13:35:21,855 |turn|15
+2026-08-12 13:35:21,856 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,856 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"254/254","active":true,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:35:21,898 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,898 |
+2026-08-12 13:35:21,898 |t:|1786534521
+2026-08-12 13:35:21,898 |move|p2a: Magmortar|Thunderbolt|p1a: Dialga
+2026-08-12 13:35:21,898 |-resisted|p1a: Dialga
+2026-08-12 13:35:21,898 |-damage|p1a: Dialga|54/100
+2026-08-12 13:35:21,898 |-damage|p2a: Magmortar|229/254|[from] item: Life Orb
+2026-08-12 13:35:21,898 |-activate|p1a: Dialga|confusion
+2026-08-12 13:35:21,898 |move|p1a: Dialga|Rest|p1a: Dialga
+2026-08-12 13:35:21,898 |-status|p1a: Dialga|slp|[from] move: Rest
+2026-08-12 13:35:21,898 |-heal|p1a: Dialga|100/100 slp|[silent]
+2026-08-12 13:35:21,898 |
+2026-08-12 13:35:21,898 |upkeep
+2026-08-12 13:35:21,898 |turn|16
+2026-08-12 13:35:21,898 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,898 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"229/254","active":true,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:35:21,948 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,948 |
+2026-08-12 13:35:21,948 |t:|1786534521
+2026-08-12 13:35:21,948 |switch|p1a: Grumpig|Grumpig, L88, F|100/100
+2026-08-12 13:35:21,948 |move|p2a: Magmortar|Taunt|p1a: Grumpig
+2026-08-12 13:35:21,948 |-start|p1a: Grumpig|move: Taunt
+2026-08-12 13:35:21,948 |
+2026-08-12 13:35:21,948 |upkeep
+2026-08-12 13:35:21,948 |turn|17
+2026-08-12 13:35:21,949 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,949 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"229/254","active":true,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:35:21,977 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,977 |
+2026-08-12 13:35:21,977 |t:|1786534521
+2026-08-12 13:35:21,977 |move|p1a: Grumpig|Psychic|p2a: Magmortar
+2026-08-12 13:35:21,977 |-damage|p2a: Magmortar|129/254
+2026-08-12 13:35:21,977 |move|p2a: Magmortar|Fire Blast|p1a: Grumpig
+2026-08-12 13:35:21,978 |-damage|p1a: Grumpig|76/100
+2026-08-12 13:35:21,978 |-status|p1a: Grumpig|brn
+2026-08-12 13:35:21,978 |-damage|p2a: Magmortar|104/254|[from] item: Life Orb
+2026-08-12 13:35:21,978 |
+2026-08-12 13:35:21,978 |-heal|p1a: Grumpig|82/100 brn|[from] item: Leftovers
+2026-08-12 13:35:21,978 |-damage|p1a: Grumpig|70/100 brn|[from] brn
+2026-08-12 13:35:21,978 |upkeep
+2026-08-12 13:35:21,978 |turn|18
+2026-08-12 13:35:21,979 >battle-gen4randombattle-326595
+2026-08-12 13:35:21,979 |request|{"active":[{"moves":[{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Taunt","id":"taunt","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"104/254","active":true,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:35:22,007 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,007 |
+2026-08-12 13:35:22,007 |t:|1786534521
+2026-08-12 13:35:22,007 |move|p1a: Grumpig|Focus Blast|p2a: Magmortar
+2026-08-12 13:35:22,007 |-damage|p2a: Magmortar|12/254
+2026-08-12 13:35:22,007 |move|p2a: Magmortar|Thunderbolt|p1a: Grumpig
+2026-08-12 13:35:22,007 |-damage|p1a: Grumpig|40/100 brn
+2026-08-12 13:35:22,007 |-damage|p2a: Magmortar|0 fnt|[from] item: Life Orb
+2026-08-12 13:35:22,007 |faint|p2a: Magmortar
+2026-08-12 13:35:22,007 |
+2026-08-12 13:35:22,007 |-heal|p1a: Grumpig|46/100 brn|[from] item: Leftovers
+2026-08-12 13:35:22,007 |-damage|p1a: Grumpig|34/100 brn|[from] brn
+2026-08-12 13:35:22,007 |-end|p1a: Grumpig|move: Taunt
+2026-08-12 13:35:22,007 |upkeep
+2026-08-12 13:35:22,007 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,007 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":true,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"noCancel":true,"rqid":45}
+2026-08-12 13:35:22,022 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,022 |
+2026-08-12 13:35:22,022 |t:|1786534522
+2026-08-12 13:35:22,022 |switch|p2a: Moltres|Moltres, L78|268/268
+2026-08-12 13:35:22,022 |-ability|p2a: Moltres|Pressure
+2026-08-12 13:35:22,022 |turn|19
+2026-08-12 13:35:22,024 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,024 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:35:22,053 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,053 |
+2026-08-12 13:35:22,053 |t:|1786534522
+2026-08-12 13:35:22,053 |move|p1a: Grumpig|Focus Blast|p2a: Moltres
+2026-08-12 13:35:22,053 |-resisted|p2a: Moltres
+2026-08-12 13:35:22,053 |-damage|p2a: Moltres|223/268
+2026-08-12 13:35:22,053 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-08-12 13:35:22,053 |-heal|p2a: Moltres|268/268
+2026-08-12 13:35:22,053 |-singleturn|p2a: Moltres|move: Roost
+2026-08-12 13:35:22,053 |
+2026-08-12 13:35:22,053 |-heal|p1a: Grumpig|40/100 brn|[from] item: Leftovers
+2026-08-12 13:35:22,053 |-damage|p1a: Grumpig|27/100 brn|[from] brn
+2026-08-12 13:35:22,053 |upkeep
+2026-08-12 13:35:22,053 |turn|20
+2026-08-12 13:35:22,057 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,057 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:35:22,076 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,076 |
+2026-08-12 13:35:22,076 |t:|1786534522
+2026-08-12 13:35:22,076 |move|p1a: Grumpig|Heal Bell|p1a: Grumpig
+2026-08-12 13:35:22,077 |-activate|p1a: Grumpig|move: Heal Bell
+2026-08-12 13:35:22,077 |-curestatus|p1a: Grumpig|brn|[silent]
+2026-08-12 13:35:22,077 |-curestatus|p1: Dialga|slp|[silent]
+2026-08-12 13:35:22,077 |move|p2a: Moltres|Fire Blast|p1a: Grumpig
+2026-08-12 13:35:22,077 |-damage|p1a: Grumpig|7/100
+2026-08-12 13:35:22,077 |
+2026-08-12 13:35:22,077 |-heal|p1a: Grumpig|13/100|[from] item: Leftovers
+2026-08-12 13:35:22,077 |upkeep
+2026-08-12 13:35:22,077 |turn|21
+2026-08-12 13:35:22,078 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,078 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":7,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:35:22,112 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,112 |
+2026-08-12 13:35:22,112 |t:|1786534522
+2026-08-12 13:35:22,112 |move|p1a: Grumpig|Heal Bell|p1a: Grumpig
+2026-08-12 13:35:22,112 |-activate|p1a: Grumpig|move: Heal Bell
+2026-08-12 13:35:22,112 |move|p2a: Moltres|Fire Blast|p1a: Grumpig
+2026-08-12 13:35:22,112 |-damage|p1a: Grumpig|0 fnt
+2026-08-12 13:35:22,112 |faint|p1a: Grumpig
+2026-08-12 13:35:22,112 |
+2026-08-12 13:35:22,112 |upkeep
+2026-08-12 13:35:22,113 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,113 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:35:22,134 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,134 |
+2026-08-12 13:35:22,134 |t:|1786534522
+2026-08-12 13:35:22,134 |switch|p1a: Dodrio|Dodrio, L83, M|100/100
+2026-08-12 13:35:22,134 |turn|22
+2026-08-12 13:35:22,135 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,135 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:35:22,169 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,169 |
+2026-08-12 13:35:22,169 |t:|1786534522
+2026-08-12 13:35:22,169 |move|p1a: Dodrio|Pursuit|p2a: Moltres
+2026-08-12 13:35:22,169 |-damage|p2a: Moltres|228/268
+2026-08-12 13:35:22,169 |-damage|p1a: Dodrio|91/100|[from] item: Life Orb
+2026-08-12 13:35:22,169 |move|p2a: Moltres|Toxic|p1a: Dodrio
+2026-08-12 13:35:22,169 |-status|p1a: Dodrio|tox
+2026-08-12 13:35:22,169 |
+2026-08-12 13:35:22,169 |-damage|p1a: Dodrio|85/100 tox|[from] psn
+2026-08-12 13:35:22,169 |-heal|p2a: Moltres|244/268|[from] item: Leftovers
+2026-08-12 13:35:22,169 |upkeep
+2026-08-12 13:35:22,169 |turn|23
+2026-08-12 13:35:22,170 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,170 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"244/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:35:22,235 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,235 |
+2026-08-12 13:35:22,235 |t:|1786534522
+2026-08-12 13:35:22,235 |move|p1a: Dodrio|Roost|p1a: Dodrio
+2026-08-12 13:35:22,235 |-heal|p1a: Dodrio|100/100 tox
+2026-08-12 13:35:22,235 |-singleturn|p1a: Dodrio|move: Roost
+2026-08-12 13:35:22,235 |move|p2a: Moltres|Toxic|p1a: Dodrio
+2026-08-12 13:35:22,235 |-fail|p1a: Dodrio|tox
+2026-08-12 13:35:22,235 |
+2026-08-12 13:35:22,235 |-damage|p1a: Dodrio|89/100 tox|[from] psn
+2026-08-12 13:35:22,235 |-heal|p2a: Moltres|260/268|[from] item: Leftovers
+2026-08-12 13:35:22,235 |upkeep
+2026-08-12 13:35:22,235 |turn|24
+2026-08-12 13:35:22,239 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,239 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"260/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:35:22,375 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,375 |
+2026-08-12 13:35:22,375 |t:|1786534522
+2026-08-12 13:35:22,375 |move|p1a: Dodrio|Brave Bird|p2a: Moltres
+2026-08-12 13:35:22,375 |-damage|p2a: Moltres|59/268
+2026-08-12 13:35:22,375 |-damage|p1a: Dodrio|60/100 tox|[from] Recoil
+2026-08-12 13:35:22,375 |-damage|p1a: Dodrio|50/100 tox|[from] item: Life Orb
+2026-08-12 13:35:22,375 |move|p2a: Moltres|Toxic|p1a: Dodrio
+2026-08-12 13:35:22,375 |-fail|p1a: Dodrio|tox
+2026-08-12 13:35:22,375 |
+2026-08-12 13:35:22,375 |-damage|p1a: Dodrio|32/100 tox|[from] psn
+2026-08-12 13:35:22,375 |-heal|p2a: Moltres|75/268|[from] item: Leftovers
+2026-08-12 13:35:22,375 |upkeep
+2026-08-12 13:35:22,376 |turn|25
+2026-08-12 13:35:22,390 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,390 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"75/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:35:22,432 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,432 |
+2026-08-12 13:35:22,432 |t:|1786534522
+2026-08-12 13:35:22,432 |switch|p1a: Dialga|Dialga, L70|100/100
+2026-08-12 13:35:22,432 |-ability|p1a: Dialga|Pressure
+2026-08-12 13:35:22,432 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-08-12 13:35:22,432 |-heal|p2a: Moltres|209/268
+2026-08-12 13:35:22,432 |-singleturn|p2a: Moltres|move: Roost
+2026-08-12 13:35:22,432 |
+2026-08-12 13:35:22,432 |-heal|p2a: Moltres|225/268|[from] item: Leftovers
+2026-08-12 13:35:22,432 |upkeep
+2026-08-12 13:35:22,433 |turn|26
+2026-08-12 13:35:22,433 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,433 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"225/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:35:22,493 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,493 |
+2026-08-12 13:35:22,493 |t:|1786534522
+2026-08-12 13:35:22,493 |move|p2a: Moltres|Toxic|p1a: Dialga
+2026-08-12 13:35:22,493 |-immune|p1a: Dialga
+2026-08-12 13:35:22,493 |move|p1a: Dialga|Rest|p1a: Dialga
+2026-08-12 13:35:22,493 |-fail|p1a: Dialga|heal
+2026-08-12 13:35:22,493 |
+2026-08-12 13:35:22,493 |-heal|p2a: Moltres|241/268|[from] item: Leftovers
+2026-08-12 13:35:22,493 |upkeep
+2026-08-12 13:35:22,493 |turn|27
+2026-08-12 13:35:22,493 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,493 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"241/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:35:22,592 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,592 |
+2026-08-12 13:35:22,592 |t:|1786534522
+2026-08-12 13:35:22,592 |move|p2a: Moltres|Toxic|p1a: Dialga|[miss]
+2026-08-12 13:35:22,592 |-miss|p2a: Moltres|p1a: Dialga
+2026-08-12 13:35:22,592 |move|p1a: Dialga|Bulk Up|p1a: Dialga
+2026-08-12 13:35:22,592 |-boost|p1a: Dialga|atk|1
+2026-08-12 13:35:22,592 |-boost|p1a: Dialga|def|1
+2026-08-12 13:35:22,592 |
+2026-08-12 13:35:22,592 |-heal|p2a: Moltres|257/268|[from] item: Leftovers
+2026-08-12 13:35:22,593 |upkeep
+2026-08-12 13:35:22,593 |turn|28
+2026-08-12 13:35:22,593 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,593 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":32,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"257/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:35:22,638 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,638 |
+2026-08-12 13:35:22,638 |t:|1786534522
+2026-08-12 13:35:22,638 |move|p2a: Moltres|Air Slash|p1a: Dialga
+2026-08-12 13:35:22,638 |-resisted|p1a: Dialga
+2026-08-12 13:35:22,638 |-damage|p1a: Dialga|83/100
+2026-08-12 13:35:22,638 |move|p1a: Dialga|Outrage|p2a: Moltres
+2026-08-12 13:35:22,638 |-damage|p2a: Moltres|80/268
+2026-08-12 13:35:22,638 |
+2026-08-12 13:35:22,638 |-heal|p2a: Moltres|96/268|[from] item: Leftovers
+2026-08-12 13:35:22,638 |-heal|p1a: Dialga|89/100|[from] item: Leftovers
+2026-08-12 13:35:22,638 |upkeep
+2026-08-12 13:35:22,638 |turn|29
+2026-08-12 13:35:22,639 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,639 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"96/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:35:22,712 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,712 |
+2026-08-12 13:35:22,712 |t:|1786534522
+2026-08-12 13:35:22,712 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-08-12 13:35:22,712 |-heal|p2a: Moltres|230/268
+2026-08-12 13:35:22,712 |-singleturn|p2a: Moltres|move: Roost
+2026-08-12 13:35:22,712 |move|p1a: Dialga|Outrage|p2a: Moltres|[from] lockedmove
+2026-08-12 13:35:22,712 |-damage|p2a: Moltres|52/268
+2026-08-12 13:35:22,712 |
+2026-08-12 13:35:22,712 |-heal|p2a: Moltres|68/268|[from] item: Leftovers
+2026-08-12 13:35:22,712 |-heal|p1a: Dialga|95/100|[from] item: Leftovers
+2026-08-12 13:35:22,712 |-start|p1a: Dialga|confusion|[fatigue]
+2026-08-12 13:35:22,712 |upkeep
+2026-08-12 13:35:22,712 |turn|30
+2026-08-12 13:35:22,714 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,714 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"68/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:35:22,742 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,742 |
+2026-08-12 13:35:22,742 |t:|1786534522
+2026-08-12 13:35:22,742 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-08-12 13:35:22,742 |-heal|p2a: Moltres|202/268
+2026-08-12 13:35:22,742 |-singleturn|p2a: Moltres|move: Roost
+2026-08-12 13:35:22,742 |-activate|p1a: Dialga|confusion
+2026-08-12 13:35:22,742 |-damage|p1a: Dialga|86/100|[from] confusion
+2026-08-12 13:35:22,742 |
+2026-08-12 13:35:22,743 |-heal|p2a: Moltres|218/268|[from] item: Leftovers
+2026-08-12 13:35:22,743 |-heal|p1a: Dialga|92/100|[from] item: Leftovers
+2026-08-12 13:35:22,743 |upkeep
+2026-08-12 13:35:22,743 |turn|31
+2026-08-12 13:35:22,744 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,744 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"218/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:35:22,768 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,768 |
+2026-08-12 13:35:22,768 |t:|1786534522
+2026-08-12 13:35:22,768 |move|p2a: Moltres|Roost|p2a: Moltres
+2026-08-12 13:35:22,768 |-heal|p2a: Moltres|268/268
+2026-08-12 13:35:22,768 |-singleturn|p2a: Moltres|move: Roost
+2026-08-12 13:35:22,768 |-activate|p1a: Dialga|confusion
+2026-08-12 13:35:22,768 |-damage|p1a: Dialga|83/100|[from] confusion
+2026-08-12 13:35:22,768 |
+2026-08-12 13:35:22,768 |-heal|p1a: Dialga|89/100|[from] item: Leftovers
+2026-08-12 13:35:22,768 |upkeep
+2026-08-12 13:35:22,768 |turn|32
+2026-08-12 13:35:22,768 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,768 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:35:22,806 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,806 |
+2026-08-12 13:35:22,806 |t:|1786534522
+2026-08-12 13:35:22,806 |move|p2a: Moltres|Roost||[still]
+2026-08-12 13:35:22,806 |-fail|p2a: Moltres|heal
+2026-08-12 13:35:22,806 |-activate|p1a: Dialga|confusion
+2026-08-12 13:35:22,806 |-damage|p1a: Dialga|80/100|[from] confusion
+2026-08-12 13:35:22,806 |
+2026-08-12 13:35:22,806 |-heal|p1a: Dialga|86/100|[from] item: Leftovers
+2026-08-12 13:35:22,806 |upkeep
+2026-08-12 13:35:22,806 |turn|33
+2026-08-12 13:35:22,806 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,806 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:35:22,828 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,828 |
+2026-08-12 13:35:22,828 |t:|1786534522
+2026-08-12 13:35:22,828 |switch|p1a: Cloyster|Cloyster, L86, F|100/100
+2026-08-12 13:35:22,828 |move|p2a: Moltres|Roost||[still]
+2026-08-12 13:35:22,828 |-fail|p2a: Moltres|heal
+2026-08-12 13:35:22,828 |
+2026-08-12 13:35:22,828 |upkeep
+2026-08-12 13:35:22,828 |turn|34
+2026-08-12 13:35:22,829 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,829 |request|{"active":[{"moves":[{"move":"Air Slash","id":"airslash","pp":30,"maxpp":32,"target":"any","disabled":false},{"move":"Roost","id":"roost","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Fire Blast","id":"fireblast","pp":6,"maxpp":8,"target":"normal","disabled":false},{"move":"Toxic","id":"toxic","pp":9,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"268/268","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:35:22,856 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,856 |
+2026-08-12 13:35:22,856 |t:|1786534522
+2026-08-12 13:35:22,856 |move|p2a: Moltres|Toxic|p1a: Cloyster
+2026-08-12 13:35:22,856 |-status|p1a: Cloyster|tox
+2026-08-12 13:35:22,856 |move|p1a: Cloyster|Rock Blast|p2a: Moltres
+2026-08-12 13:35:22,856 |-supereffective|p2a: Moltres
+2026-08-12 13:35:22,856 |-damage|p2a: Moltres|192/268
+2026-08-12 13:35:22,856 |-supereffective|p2a: Moltres
+2026-08-12 13:35:22,856 |-damage|p2a: Moltres|120/268
+2026-08-12 13:35:22,856 |-supereffective|p2a: Moltres
+2026-08-12 13:35:22,856 |-damage|p2a: Moltres|48/268
+2026-08-12 13:35:22,856 |-supereffective|p2a: Moltres
+2026-08-12 13:35:22,856 |-damage|p2a: Moltres|0 fnt
+2026-08-12 13:35:22,856 |faint|p2a: Moltres
+2026-08-12 13:35:22,856 |-hitcount|p2: Moltres|4
+2026-08-12 13:35:22,856 |
+2026-08-12 13:35:22,856 |-damage|p1a: Cloyster|94/100 tox|[from] psn
+2026-08-12 13:35:22,856 |upkeep
+2026-08-12 13:35:22,859 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,859 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":true,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"noCancel":true,"rqid":81}
+2026-08-12 13:35:22,879 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,879 |
+2026-08-12 13:35:22,879 |t:|1786534522
+2026-08-12 13:35:22,879 |switch|p2a: Lickilicky|Lickilicky, L86, F|329/329
+2026-08-12 13:35:22,879 |turn|35
+2026-08-12 13:35:22,880 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,880 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"329/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":83}
+2026-08-12 13:35:22,946 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,946 |
+2026-08-12 13:35:22,946 |t:|1786534522
+2026-08-12 13:35:22,946 |move|p1a: Cloyster|Rock Blast|p2a: Lickilicky
+2026-08-12 13:35:22,946 |-damage|p2a: Lickilicky|310/329
+2026-08-12 13:35:22,946 |-damage|p2a: Lickilicky|291/329
+2026-08-12 13:35:22,946 |-damage|p2a: Lickilicky|273/329
+2026-08-12 13:35:22,946 |-damage|p2a: Lickilicky|256/329
+2026-08-12 13:35:22,946 |-damage|p2a: Lickilicky|236/329
+2026-08-12 13:35:22,946 |-hitcount|p2a: Lickilicky|5
+2026-08-12 13:35:22,946 |move|p2a: Lickilicky|Return|p1a: Cloyster
+2026-08-12 13:35:22,946 |-damage|p1a: Cloyster|70/100 tox
+2026-08-12 13:35:22,946 |
+2026-08-12 13:35:22,946 |-heal|p1a: Cloyster|77/100 tox|[from] item: Leftovers
+2026-08-12 13:35:22,946 |-damage|p1a: Cloyster|64/100 tox|[from] psn
+2026-08-12 13:35:22,946 |-heal|p2a: Lickilicky|256/329|[from] item: Leftovers
+2026-08-12 13:35:22,946 |upkeep
+2026-08-12 13:35:22,946 |turn|36
+2026-08-12 13:35:22,946 >battle-gen4randombattle-326595
+2026-08-12 13:35:22,947 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"256/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:35:23,007 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,007 |
+2026-08-12 13:35:23,007 |t:|1786534522
+2026-08-12 13:35:23,007 |move|p1a: Cloyster|Rapid Spin|p2a: Lickilicky
+2026-08-12 13:35:23,007 |-damage|p2a: Lickilicky|243/329
+2026-08-12 13:35:23,007 |move|p2a: Lickilicky|Return|p1a: Cloyster
+2026-08-12 13:35:23,007 |-damage|p1a: Cloyster|41/100 tox
+2026-08-12 13:35:23,007 |
+2026-08-12 13:35:23,007 |-heal|p1a: Cloyster|47/100 tox|[from] item: Leftovers
+2026-08-12 13:35:23,007 |-damage|p1a: Cloyster|29/100 tox|[from] psn
+2026-08-12 13:35:23,007 |-heal|p2a: Lickilicky|263/329|[from] item: Leftovers
+2026-08-12 13:35:23,007 |upkeep
+2026-08-12 13:35:23,007 |turn|37
+2026-08-12 13:35:23,009 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,009 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"263/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 13:35:23,050 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,050 |
+2026-08-12 13:35:23,050 |t:|1786534523
+2026-08-12 13:35:23,050 |move|p1a: Cloyster|Surf|p2a: Lickilicky
+2026-08-12 13:35:23,050 |-damage|p2a: Lickilicky|167/329
+2026-08-12 13:35:23,050 |move|p2a: Lickilicky|Swords Dance|p2a: Lickilicky
+2026-08-12 13:35:23,050 |-boost|p2a: Lickilicky|atk|2
+2026-08-12 13:35:23,050 |
+2026-08-12 13:35:23,050 |-heal|p1a: Cloyster|35/100 tox|[from] item: Leftovers
+2026-08-12 13:35:23,050 |-damage|p1a: Cloyster|10/100 tox|[from] psn
+2026-08-12 13:35:23,050 |-heal|p2a: Lickilicky|187/329|[from] item: Leftovers
+2026-08-12 13:35:23,050 |upkeep
+2026-08-12 13:35:23,050 |turn|38
+2026-08-12 13:35:23,050 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,050 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":30,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"187/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 13:35:23,088 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,089 |
+2026-08-12 13:35:23,089 |t:|1786534523
+2026-08-12 13:35:23,089 |move|p1a: Cloyster|Toxic Spikes|p2a: Lickilicky
+2026-08-12 13:35:23,089 |-sidestart|p2: BOT4|move: Toxic Spikes
+2026-08-12 13:35:23,089 |move|p2a: Lickilicky|Return|p1a: Cloyster
+2026-08-12 13:35:23,089 |-damage|p1a: Cloyster|0 fnt
+2026-08-12 13:35:23,089 |faint|p1a: Cloyster
+2026-08-12 13:35:23,089 |
+2026-08-12 13:35:23,089 |-heal|p2a: Lickilicky|207/329|[from] item: Leftovers
+2026-08-12 13:35:23,089 |upkeep
+2026-08-12 13:35:23,089 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,089 |request|{"wait":true,"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"207/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 13:35:23,109 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,109 |
+2026-08-12 13:35:23,109 |t:|1786534523
+2026-08-12 13:35:23,109 |switch|p1a: Yanmega|Yanmega, L76, F|100/100
+2026-08-12 13:35:23,109 |turn|39
+2026-08-12 13:35:23,109 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,109 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"207/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 13:35:23,165 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,165 |
+2026-08-12 13:35:23,165 |t:|1786534523
+2026-08-12 13:35:23,165 |move|p1a: Yanmega|Bug Buzz|p2a: Lickilicky
+2026-08-12 13:35:23,165 |-damage|p2a: Lickilicky|84/329
+2026-08-12 13:35:23,165 |move|p2a: Lickilicky|Earthquake|p1a: Yanmega
+2026-08-12 13:35:23,165 |-immune|p1a: Yanmega
+2026-08-12 13:35:23,165 |
+2026-08-12 13:35:23,165 |-heal|p2a: Lickilicky|104/329|[from] item: Leftovers
+2026-08-12 13:35:23,165 |upkeep
+2026-08-12 13:35:23,166 |turn|40
+2026-08-12 13:35:23,169 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,169 |request|{"active":[{"moves":[{"move":"Swords Dance","id":"swordsdance","pp":47,"maxpp":48,"target":"self","disabled":false},{"move":"Return 102","id":"return","pp":29,"maxpp":32,"target":"normal","disabled":false},{"move":"Explosion","id":"explosion","pp":8,"maxpp":8,"target":"allAdjacent","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"104/329","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 13:35:23,210 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,210 |
+2026-08-12 13:35:23,210 |t:|1786534523
+2026-08-12 13:35:23,210 |move|p1a: Yanmega|Bug Buzz|p2a: Lickilicky
+2026-08-12 13:35:23,210 |-damage|p2a: Lickilicky|0 fnt
+2026-08-12 13:35:23,210 |faint|p2a: Lickilicky
+2026-08-12 13:35:23,210 |
+2026-08-12 13:35:23,210 |upkeep
+2026-08-12 13:35:23,211 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,211 |request|{"forceSwitch":[true],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"0 fnt","active":true,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":false,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"}]},"noCancel":true,"rqid":97}
+2026-08-12 13:35:23,233 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,233 |
+2026-08-12 13:35:23,233 |t:|1786534523
+2026-08-12 13:35:23,233 |switch|p2a: Mesprit|Mesprit, L81|262/262
+2026-08-12 13:35:23,233 |turn|41
+2026-08-12 13:35:23,233 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,233 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Hidden Power Fighting 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"U-turn","id":"uturn","pp":32,"maxpp":32,"target":"normal","disabled":false}]}],"side":{"name":"BOT4","id":"p2","pokemon":[{"ident":"p2: Mesprit","details":"Mesprit, L81","condition":"262/262","active":true,"stats":{"atk":217,"def":216,"spa":216,"spd":216,"spe":175},"moves":["psychic","icebeam","hiddenpowerfighting","uturn"],"baseAbility":"levitate","item":"choicespecs","pokeball":"pokeball"},{"ident":"p2: Magmortar","details":"Magmortar, L81, F","condition":"0 fnt","active":false,"stats":{"atk":201,"def":155,"spa":249,"spd":201,"spe":181},"moves":["fireblast","thunderbolt","taunt","earthquake"],"baseAbility":"flamebody","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Volbeat","details":"Volbeat, L97, M","condition":"0 fnt","active":false,"stats":{"atk":146,"def":162,"spa":146,"spd":200,"spe":220},"moves":["encore","roost","toxic","seismictoss"],"baseAbility":"swarm","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Azelf","details":"Azelf, L77","condition":"0 fnt","active":false,"stats":{"atk":237,"def":152,"spa":237,"spd":152,"spe":222},"moves":["explosion","uturn","psychic","fireblast"],"baseAbility":"levitate","item":"lifeorb","pokeball":"pokeball"},{"ident":"p2: Moltres","details":"Moltres, L78","condition":"0 fnt","active":false,"stats":{"atk":161,"def":185,"spa":240,"spd":178,"spe":185},"moves":["airslash","roost","fireblast","toxic"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Lickilicky","details":"Lickilicky, L86, F","condition":"0 fnt","active":false,"stats":{"atk":195,"def":213,"spa":187,"spd":213,"spe":135},"moves":["swordsdance","return102","explosion","earthquake"],"baseAbility":"owntempo","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 13:35:23,275 >battle-gen4randombattle-326595
+2026-08-12 13:35:23,275 |
+2026-08-12 13:35:23,275 |t:|1786534523
+2026-08-12 13:35:23,275 |move|p1a: Yanmega|Bug Buzz|p2a: Mesprit
+2026-08-12 13:35:23,275 |-supereffective|p2a: Mesprit
+2026-08-12 13:35:23,275 |-damage|p2a: Mesprit|0 fnt
+2026-08-12 13:35:23,275 |faint|p2a: Mesprit
+2026-08-12 13:35:23,275 |
+2026-08-12 13:35:23,275 |win|BOT3
+2026-08-12 14:15:23,275 >battle-gen4randombattle-326595
+2026-08-12 14:15:23,275 |expire|
+2026-08-12 14:15:23,279 >battle-gen4randombattle-326595
+2026-08-12 14:15:23,279 |L|☆BOT3
+2026-08-12 14:15:23,279 >battle-gen4randombattle-326595
+2026-08-12 14:15:23,279 |deinit

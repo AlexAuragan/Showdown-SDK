@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon
+from python_showdown.models.pokemon.status import MajorStatus
 from python_showdown.models.sdk.battle_state import BattleState, SourceType
 
 
@@ -53,9 +54,9 @@ class EffectSource:
 class RequestMove:
     name: str
     id: str
-    curr_pp: int
-    max_pp: int
-    target: str
+    curr_pp: int | None  # No PP for Recharge or Struggle
+    max_pp: int | None
+    target: str | None
     disabled: bool
 
 
@@ -79,4 +80,4 @@ class RequestPokemon:
 
     curr_hp: int
     max_hp: int | None
-    status_token: str | None
+    major_status: MajorStatus | None

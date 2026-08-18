@@ -1,0 +1,567 @@
+2026-08-12 13:26:01,913 >battle-gen4randombattle-325496
+2026-08-12 13:26:01,913 |init|battle
+2026-08-12 13:26:01,914 |title|BOT1 vs. BOT2
+2026-08-12 13:26:01,914 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen4randombattle-325496">battle-gen4randombattle-325496</a>&raquo;
+2026-08-12 13:26:01,973 >battle-gen4randombattle-325496
+2026-08-12 13:26:01,973 |t:|1786533961
+2026-08-12 13:26:01,973 |gametype|singles
+2026-08-12 13:26:01,973 >battle-gen4randombattle-325496
+2026-08-12 13:26:01,973 |player|p1|BOT1|170|
+2026-08-12 13:26:01,975 >battle-gen4randombattle-325496
+2026-08-12 13:26:01,975 |player|p2|BOT2|170|
+2026-08-12 13:26:01,975 |gen|4
+2026-08-12 13:26:01,975 |tier|[Gen 4] Random Battle
+2026-08-12 13:26:01,975 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 13:26:01,975 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 13:26:01,975 |
+2026-08-12 13:26:01,975 |t:|1786533961
+2026-08-12 13:26:01,975 |teamsize|p1|6
+2026-08-12 13:26:01,975 |teamsize|p2|6
+2026-08-12 13:26:01,975 |start
+2026-08-12 13:26:01,975 |switch|p1a: Mightyena|Mightyena, L95, M|100/100
+2026-08-12 13:26:01,975 |switch|p2a: Walrein|Walrein, L84, M|322/322
+2026-08-12 13:26:01,975 |-ability|p1a: Mightyena|Intimidate|boost
+2026-08-12 13:26:01,975 |-unboost|p2a: Walrein|atk|1
+2026-08-12 13:26:01,975 |turn|1
+2026-08-12 13:26:01,978 >battle-gen4randombattle-325496
+2026-08-12 13:26:01,978 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"322/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 13:26:02,004 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,004 |
+2026-08-12 13:26:02,004 |t:|1786533961
+2026-08-12 13:26:02,005 |move|p1a: Mightyena|Sucker Punch|p2a: Walrein
+2026-08-12 13:26:02,005 |-fail|p1a: Mightyena
+2026-08-12 13:26:02,005 |move|p2a: Walrein|Rest|p2a: Walrein
+2026-08-12 13:26:02,005 |-fail|p2a: Walrein|heal
+2026-08-12 13:26:02,005 |
+2026-08-12 13:26:02,005 |upkeep
+2026-08-12 13:26:02,005 |turn|2
+2026-08-12 13:26:02,007 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,007 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"322/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 13:26:02,042 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,042 |
+2026-08-12 13:26:02,042 |t:|1786533962
+2026-08-12 13:26:02,042 |move|p1a: Mightyena|Fire Fang|p2a: Walrein
+2026-08-12 13:26:02,042 |-damage|p2a: Walrein|293/322
+2026-08-12 13:26:02,042 |move|p2a: Walrein|Rest|p2a: Walrein
+2026-08-12 13:26:02,042 |-status|p2a: Walrein|slp|[from] move: Rest
+2026-08-12 13:26:02,042 |-heal|p2a: Walrein|322/322 slp|[silent]
+2026-08-12 13:26:02,042 |
+2026-08-12 13:26:02,042 |upkeep
+2026-08-12 13:26:02,042 |turn|3
+2026-08-12 13:26:02,048 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,048 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"322/322 slp","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 13:26:02,064 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,064 |
+2026-08-12 13:26:02,064 |t:|1786533962
+2026-08-12 13:26:02,064 |move|p1a: Mightyena|Super Fang|p2a: Walrein
+2026-08-12 13:26:02,064 |-damage|p2a: Walrein|161/322 slp
+2026-08-12 13:26:02,064 |cant|p2a: Walrein|slp
+2026-08-12 13:26:02,064 |
+2026-08-12 13:26:02,064 |-heal|p2a: Walrein|181/322 slp|[from] item: Leftovers
+2026-08-12 13:26:02,064 |upkeep
+2026-08-12 13:26:02,064 |turn|4
+2026-08-12 13:26:02,064 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,064 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"181/322 slp","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 13:26:02,100 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,100 |
+2026-08-12 13:26:02,100 |t:|1786533962
+2026-08-12 13:26:02,100 |move|p1a: Mightyena|Fire Fang|p2a: Walrein
+2026-08-12 13:26:02,100 |-damage|p2a: Walrein|156/322 slp
+2026-08-12 13:26:02,100 |cant|p2a: Walrein|slp
+2026-08-12 13:26:02,100 |
+2026-08-12 13:26:02,100 |-heal|p2a: Walrein|176/322 slp|[from] item: Leftovers
+2026-08-12 13:26:02,100 |upkeep
+2026-08-12 13:26:02,100 |turn|5
+2026-08-12 13:26:02,102 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,102 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"176/322 slp","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 13:26:02,140 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,140 |
+2026-08-12 13:26:02,140 |t:|1786533962
+2026-08-12 13:26:02,140 |move|p1a: Mightyena|Super Fang|p2a: Walrein|[miss]
+2026-08-12 13:26:02,140 |-miss|p1a: Mightyena|p2a: Walrein
+2026-08-12 13:26:02,140 |-curestatus|p2a: Walrein|slp|[msg]
+2026-08-12 13:26:02,140 |move|p2a: Walrein|Ice Beam|p1a: Mightyena
+2026-08-12 13:26:02,140 |-damage|p1a: Mightyena|57/100
+2026-08-12 13:26:02,140 |
+2026-08-12 13:26:02,140 |-heal|p1a: Mightyena|63/100|[from] item: Leftovers
+2026-08-12 13:26:02,140 |-heal|p2a: Walrein|196/322|[from] item: Leftovers
+2026-08-12 13:26:02,140 |upkeep
+2026-08-12 13:26:02,141 |turn|6
+2026-08-12 13:26:02,141 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,141 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":24,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"196/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":13}
+2026-08-12 13:26:02,165 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,165 |
+2026-08-12 13:26:02,165 |t:|1786533962
+2026-08-12 13:26:02,165 |move|p1a: Mightyena|Sucker Punch|p2a: Walrein
+2026-08-12 13:26:02,165 |-damage|p2a: Walrein|100/322
+2026-08-12 13:26:02,166 |move|p2a: Walrein|Surf|p1a: Mightyena
+2026-08-12 13:26:02,166 |-damage|p1a: Mightyena|26/100
+2026-08-12 13:26:02,166 |
+2026-08-12 13:26:02,166 |-heal|p1a: Mightyena|32/100|[from] item: Leftovers
+2026-08-12 13:26:02,166 |-heal|p2a: Walrein|120/322|[from] item: Leftovers
+2026-08-12 13:26:02,166 |upkeep
+2026-08-12 13:26:02,166 |turn|7
+2026-08-12 13:26:02,166 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,166 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":23,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"120/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 13:26:02,219 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,219 |
+2026-08-12 13:26:02,219 |t:|1786533962
+2026-08-12 13:26:02,219 |move|p1a: Mightyena|Sucker Punch|p2a: Walrein
+2026-08-12 13:26:02,219 |-damage|p2a: Walrein|21/322
+2026-08-12 13:26:02,219 |move|p2a: Walrein|Surf|p1a: Mightyena
+2026-08-12 13:26:02,219 |-damage|p1a: Mightyena|0 fnt
+2026-08-12 13:26:02,219 |faint|p1a: Mightyena
+2026-08-12 13:26:02,219 |
+2026-08-12 13:26:02,219 |-heal|p2a: Walrein|41/322|[from] item: Leftovers
+2026-08-12 13:26:02,219 |upkeep
+2026-08-12 13:26:02,223 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,223 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 13:26:02,235 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,235 |
+2026-08-12 13:26:02,236 |t:|1786533962
+2026-08-12 13:26:02,236 |switch|p1a: Chimecho|Chimecho, L94, F|100/100
+2026-08-12 13:26:02,236 |turn|8
+2026-08-12 13:26:02,236 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,236 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 13:26:02,277 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,277 |
+2026-08-12 13:26:02,277 |t:|1786533962
+2026-08-12 13:26:02,277 |move|p1a: Chimecho|Recover||[still]
+2026-08-12 13:26:02,277 |-fail|p1a: Chimecho|heal
+2026-08-12 13:26:02,277 |move|p2a: Walrein|Ice Beam|p1a: Chimecho
+2026-08-12 13:26:02,277 |-damage|p1a: Chimecho|64/100
+2026-08-12 13:26:02,277 |
+2026-08-12 13:26:02,277 |-heal|p1a: Chimecho|71/100|[from] item: Leftovers
+2026-08-12 13:26:02,277 |-heal|p2a: Walrein|61/322|[from] item: Leftovers
+2026-08-12 13:26:02,277 |upkeep
+2026-08-12 13:26:02,278 |turn|9
+2026-08-12 13:26:02,278 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,278 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"61/322","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 13:26:02,312 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,312 |
+2026-08-12 13:26:02,312 |t:|1786533962
+2026-08-12 13:26:02,312 |move|p1a: Chimecho|Toxic|p2a: Walrein
+2026-08-12 13:26:02,312 |-status|p2a: Walrein|tox
+2026-08-12 13:26:02,312 |move|p2a: Walrein|Sleep Talk||[still]
+2026-08-12 13:26:02,312 |-fail|p2a: Walrein
+2026-08-12 13:26:02,312 |
+2026-08-12 13:26:02,312 |-heal|p1a: Chimecho|77/100|[from] item: Leftovers
+2026-08-12 13:26:02,312 |-heal|p2a: Walrein|81/322 tox|[from] item: Leftovers
+2026-08-12 13:26:02,312 |-damage|p2a: Walrein|61/322 tox|[from] psn
+2026-08-12 13:26:02,312 |upkeep
+2026-08-12 13:26:02,312 |turn|10
+2026-08-12 13:26:02,313 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,313 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":22,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"61/322 tox","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 13:26:02,343 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,343 |
+2026-08-12 13:26:02,343 |t:|1786533962
+2026-08-12 13:26:02,343 |move|p1a: Chimecho|Recover|p1a: Chimecho
+2026-08-12 13:26:02,343 |-heal|p1a: Chimecho|100/100
+2026-08-12 13:26:02,343 |move|p2a: Walrein|Surf|p1a: Chimecho
+2026-08-12 13:26:02,343 |-damage|p1a: Chimecho|67/100
+2026-08-12 13:26:02,343 |
+2026-08-12 13:26:02,343 |-heal|p1a: Chimecho|73/100|[from] item: Leftovers
+2026-08-12 13:26:02,343 |-heal|p2a: Walrein|81/322 tox|[from] item: Leftovers
+2026-08-12 13:26:02,343 |-damage|p2a: Walrein|41/322 tox|[from] psn
+2026-08-12 13:26:02,343 |upkeep
+2026-08-12 13:26:02,343 |turn|11
+2026-08-12 13:26:02,346 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,346 |request|{"active":[{"moves":[{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Surf","id":"surf","pp":21,"maxpp":24,"target":"allAdjacent","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":true,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"198/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 13:26:02,387 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,387 |
+2026-08-12 13:26:02,387 |t:|1786533962
+2026-08-12 13:26:02,387 |switch|p2a: Shuckle|Shuckle, L98, F|198/198
+2026-08-12 13:26:02,387 |move|p1a: Chimecho|Psychic|p2a: Shuckle
+2026-08-12 13:26:02,387 |-damage|p2a: Shuckle|149/198
+2026-08-12 13:26:02,387 |
+2026-08-12 13:26:02,387 |-heal|p1a: Chimecho|79/100|[from] item: Leftovers
+2026-08-12 13:26:02,387 |-heal|p2a: Shuckle|161/198|[from] item: Leftovers
+2026-08-12 13:26:02,387 |upkeep
+2026-08-12 13:26:02,387 |turn|12
+2026-08-12 13:26:02,390 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,390 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"161/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":27}
+2026-08-12 13:26:02,422 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,422 |
+2026-08-12 13:26:02,422 |t:|1786533962
+2026-08-12 13:26:02,422 |move|p1a: Chimecho|Psychic|p2a: Shuckle
+2026-08-12 13:26:02,422 |-crit|p2a: Shuckle
+2026-08-12 13:26:02,422 |-damage|p2a: Shuckle|61/198
+2026-08-12 13:26:02,422 |-unboost|p2a: Shuckle|spd|1
+2026-08-12 13:26:02,422 |move|p2a: Shuckle|Knock Off|p1a: Chimecho
+2026-08-12 13:26:02,422 |-supereffective|p1a: Chimecho
+2026-08-12 13:26:02,422 |-damage|p1a: Chimecho|75/100
+2026-08-12 13:26:02,422 |-enditem|p1a: Chimecho|Leftovers|[from] move: Knock Off|[of] p2a: Shuckle
+2026-08-12 13:26:02,422 |-hint|In Gens 3-4, Knock Off only makes the target's item unusable; it cannot obtain a new item.
+2026-08-12 13:26:02,422 |
+2026-08-12 13:26:02,422 |-heal|p2a: Shuckle|73/198|[from] item: Leftovers
+2026-08-12 13:26:02,422 |upkeep
+2026-08-12 13:26:02,422 |turn|13
+2026-08-12 13:26:02,426 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,426 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Knock Off","id":"knockoff","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Encore","id":"encore","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":true,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 13:26:02,446 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,446 |
+2026-08-12 13:26:02,446 |t:|1786533962
+2026-08-12 13:26:02,446 |switch|p2a: Absol|Absol, L84, M|246/246
+2026-08-12 13:26:02,446 |move|p1a: Chimecho|Psychic|p2a: Absol
+2026-08-12 13:26:02,446 |-immune|p2a: Absol
+2026-08-12 13:26:02,446 |
+2026-08-12 13:26:02,446 |upkeep
+2026-08-12 13:26:02,447 |turn|14
+2026-08-12 13:26:02,447 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,447 |request|{"active":[{"moves":[{"move":"Psycho Cut","id":"psychocut","pp":32,"maxpp":32,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":false},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 13:26:02,470 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,470 |
+2026-08-12 13:26:02,470 |t:|1786533962
+2026-08-12 13:26:02,470 |move|p1a: Chimecho|Psychic|p2a: Absol
+2026-08-12 13:26:02,470 |-immune|p2a: Absol
+2026-08-12 13:26:02,470 |move|p2a: Absol|Psycho Cut|p1a: Chimecho
+2026-08-12 13:26:02,470 |-resisted|p1a: Chimecho
+2026-08-12 13:26:02,470 |-damage|p1a: Chimecho|56/100
+2026-08-12 13:26:02,470 |
+2026-08-12 13:26:02,470 |upkeep
+2026-08-12 13:26:02,470 |turn|15
+2026-08-12 13:26:02,472 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,472 |request|{"active":[{"moves":[{"move":"Psycho Cut","id":"psychocut","pp":31,"maxpp":32,"target":"normal","disabled":false},{"move":"Night Slash","id":"nightslash","pp":24,"maxpp":24,"target":"normal","disabled":true},{"move":"Superpower","id":"superpower","pp":8,"maxpp":8,"target":"normal","disabled":true},{"move":"Sucker Punch","id":"suckerpunch","pp":8,"maxpp":8,"target":"normal","disabled":true}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":true,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 13:26:02,500 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,500 |
+2026-08-12 13:26:02,500 |t:|1786533962
+2026-08-12 13:26:02,500 |switch|p2a: Magnezone|Magnezone, L81|246/246
+2026-08-12 13:26:02,500 |move|p1a: Chimecho|Heal Bell|p1a: Chimecho
+2026-08-12 13:26:02,500 |-activate|p1a: Chimecho|move: Heal Bell
+2026-08-12 13:26:02,500 |
+2026-08-12 13:26:02,500 |upkeep
+2026-08-12 13:26:02,500 |turn|16
+2026-08-12 13:26:02,503 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,503 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 13:26:02,535 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,535 |
+2026-08-12 13:26:02,535 |t:|1786533962
+2026-08-12 13:26:02,535 |move|p1a: Chimecho|Heal Bell|p1a: Chimecho
+2026-08-12 13:26:02,535 |-activate|p1a: Chimecho|move: Heal Bell
+2026-08-12 13:26:02,535 |move|p2a: Magnezone|Hidden Power|p1a: Chimecho
+2026-08-12 13:26:02,535 |-damage|p1a: Chimecho|37/100
+2026-08-12 13:26:02,535 |
+2026-08-12 13:26:02,535 |upkeep
+2026-08-12 13:26:02,535 |turn|17
+2026-08-12 13:26:02,538 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,538 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 13:26:02,564 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,564 |
+2026-08-12 13:26:02,564 |t:|1786533962
+2026-08-12 13:26:02,564 |switch|p1a: Leafeon|Leafeon, L85, F|100/100
+2026-08-12 13:26:02,564 |move|p2a: Magnezone|Protect||[still]
+2026-08-12 13:26:02,564 |-fail|p2a: Magnezone
+2026-08-12 13:26:02,564 |
+2026-08-12 13:26:02,564 |upkeep
+2026-08-12 13:26:02,564 |turn|18
+2026-08-12 13:26:02,566 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,566 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"246/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 13:26:02,605 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,605 |
+2026-08-12 13:26:02,605 |t:|1786533962
+2026-08-12 13:26:02,605 |move|p1a: Leafeon|Leaf Blade|p2a: Magnezone
+2026-08-12 13:26:02,605 |-resisted|p2a: Magnezone
+2026-08-12 13:26:02,605 |-damage|p2a: Magnezone|188/246
+2026-08-12 13:26:02,605 |-damage|p1a: Leafeon|91/100|[from] item: Life Orb
+2026-08-12 13:26:02,605 |move|p2a: Magnezone|Toxic|p1a: Leafeon
+2026-08-12 13:26:02,605 |-status|p1a: Leafeon|tox
+2026-08-12 13:26:02,605 |
+2026-08-12 13:26:02,605 |-damage|p1a: Leafeon|85/100 tox|[from] psn
+2026-08-12 13:26:02,605 |-heal|p2a: Magnezone|203/246|[from] item: Leftovers
+2026-08-12 13:26:02,605 |upkeep
+2026-08-12 13:26:02,605 |turn|19
+2026-08-12 13:26:02,606 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,606 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"203/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 13:26:02,633 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,633 |
+2026-08-12 13:26:02,633 |t:|1786533962
+2026-08-12 13:26:02,633 |move|p1a: Leafeon|Leaf Blade|p2a: Magnezone
+2026-08-12 13:26:02,633 |-resisted|p2a: Magnezone
+2026-08-12 13:26:02,633 |-damage|p2a: Magnezone|141/246
+2026-08-12 13:26:02,633 |-damage|p1a: Leafeon|75/100 tox|[from] item: Life Orb
+2026-08-12 13:26:02,633 |move|p2a: Magnezone|Hidden Power|p1a: Leafeon
+2026-08-12 13:26:02,633 |-supereffective|p1a: Leafeon
+2026-08-12 13:26:02,633 |-crit|p1a: Leafeon
+2026-08-12 13:26:02,633 |-damage|p1a: Leafeon|0 fnt
+2026-08-12 13:26:02,633 |faint|p1a: Leafeon
+2026-08-12 13:26:02,633 |
+2026-08-12 13:26:02,633 |-heal|p2a: Magnezone|156/246|[from] item: Leftovers
+2026-08-12 13:26:02,633 |upkeep
+2026-08-12 13:26:02,634 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,634 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"156/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 13:26:02,654 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,654 |
+2026-08-12 13:26:02,654 |t:|1786533962
+2026-08-12 13:26:02,654 |switch|p1a: Chimecho|Chimecho, L94, F|37/100
+2026-08-12 13:26:02,654 |turn|20
+2026-08-12 13:26:02,659 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,659 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"156/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 13:26:02,693 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,693 |
+2026-08-12 13:26:02,693 |t:|1786533962
+2026-08-12 13:26:02,693 |move|p1a: Chimecho|Psychic|p2a: Magnezone
+2026-08-12 13:26:02,693 |-resisted|p2a: Magnezone
+2026-08-12 13:26:02,693 |-damage|p2a: Magnezone|96/246
+2026-08-12 13:26:02,693 |move|p2a: Magnezone|Thunderbolt|p1a: Chimecho
+2026-08-12 13:26:02,693 |-damage|p1a: Chimecho|0 fnt
+2026-08-12 13:26:02,693 |faint|p1a: Chimecho
+2026-08-12 13:26:02,693 |
+2026-08-12 13:26:02,693 |-heal|p2a: Magnezone|111/246|[from] item: Leftovers
+2026-08-12 13:26:02,693 |upkeep
+2026-08-12 13:26:02,693 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,693 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"111/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 13:26:02,725 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,725 |
+2026-08-12 13:26:02,725 |t:|1786533962
+2026-08-12 13:26:02,725 |switch|p1a: Pidgeot|Pidgeot, L87, F|100/100
+2026-08-12 13:26:02,725 |turn|21
+2026-08-12 13:26:02,725 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,725 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"111/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 13:26:02,757 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,757 |
+2026-08-12 13:26:02,757 |t:|1786533962
+2026-08-12 13:26:02,757 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:02,757 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:02,757 |move|p1a: Pidgeot|Double-Edge|p2a: Magnezone
+2026-08-12 13:26:02,757 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:02,758 |
+2026-08-12 13:26:02,758 |-heal|p2a: Magnezone|126/246|[from] item: Leftovers
+2026-08-12 13:26:02,758 |upkeep
+2026-08-12 13:26:02,758 |turn|22
+2026-08-12 13:26:02,761 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,761 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"126/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 13:26:02,790 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,790 |
+2026-08-12 13:26:02,790 |t:|1786533962
+2026-08-12 13:26:02,790 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:02,790 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:02,790 |move|p1a: Pidgeot|Double-Edge|p2a: Magnezone
+2026-08-12 13:26:02,790 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:02,790 |
+2026-08-12 13:26:02,790 |-heal|p2a: Magnezone|141/246|[from] item: Leftovers
+2026-08-12 13:26:02,790 |upkeep
+2026-08-12 13:26:02,791 |turn|23
+2026-08-12 13:26:02,792 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,792 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"141/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 13:26:02,839 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,839 |
+2026-08-12 13:26:02,839 |t:|1786533962
+2026-08-12 13:26:02,839 |move|p1a: Pidgeot|Brave Bird|p2a: Magnezone
+2026-08-12 13:26:02,839 |-resisted|p2a: Magnezone
+2026-08-12 13:26:02,839 |-damage|p2a: Magnezone|111/246
+2026-08-12 13:26:02,839 |-damage|p1a: Pidgeot|97/100|[from] Recoil
+2026-08-12 13:26:02,839 |-damage|p1a: Pidgeot|87/100|[from] item: Life Orb
+2026-08-12 13:26:02,839 |move|p2a: Magnezone|Thunderbolt|p1a: Pidgeot
+2026-08-12 13:26:02,839 |-supereffective|p1a: Pidgeot
+2026-08-12 13:26:02,839 |-damage|p1a: Pidgeot|0 fnt
+2026-08-12 13:26:02,839 |faint|p1a: Pidgeot
+2026-08-12 13:26:02,839 |
+2026-08-12 13:26:02,839 |-heal|p2a: Magnezone|126/246|[from] item: Leftovers
+2026-08-12 13:26:02,839 |upkeep
+2026-08-12 13:26:02,839 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,839 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"126/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 13:26:02,884 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,884 |
+2026-08-12 13:26:02,884 |t:|1786533962
+2026-08-12 13:26:02,884 |switch|p1a: Azumarill|Azumarill, L83, M|100/100
+2026-08-12 13:26:02,884 |turn|24
+2026-08-12 13:26:02,885 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,885 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":13,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"126/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 13:26:02,919 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,919 |
+2026-08-12 13:26:02,919 |t:|1786533962
+2026-08-12 13:26:02,919 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:02,919 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:02,919 |move|p1a: Azumarill|Ice Punch|p2a: Magnezone
+2026-08-12 13:26:02,919 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:02,919 |
+2026-08-12 13:26:02,919 |-heal|p2a: Magnezone|141/246|[from] item: Leftovers
+2026-08-12 13:26:02,919 |upkeep
+2026-08-12 13:26:02,919 |turn|25
+2026-08-12 13:26:02,919 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,919 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"141/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 13:26:02,951 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,951 |
+2026-08-12 13:26:02,951 |t:|1786533962
+2026-08-12 13:26:02,951 |move|p2a: Magnezone|Hidden Power|p1a: Azumarill
+2026-08-12 13:26:02,951 |-resisted|p1a: Azumarill
+2026-08-12 13:26:02,951 |-damage|p1a: Azumarill|91/100
+2026-08-12 13:26:02,951 |move|p1a: Azumarill|Ice Punch|p2a: Magnezone
+2026-08-12 13:26:02,951 |-resisted|p2a: Magnezone
+2026-08-12 13:26:02,951 |-damage|p2a: Magnezone|101/246
+2026-08-12 13:26:02,951 |
+2026-08-12 13:26:02,951 |-heal|p2a: Magnezone|116/246|[from] item: Leftovers
+2026-08-12 13:26:02,951 |upkeep
+2026-08-12 13:26:02,951 |turn|26
+2026-08-12 13:26:02,953 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,953 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"116/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 13:26:02,995 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,995 |
+2026-08-12 13:26:02,995 |t:|1786533962
+2026-08-12 13:26:02,995 |move|p2a: Magnezone|Hidden Power|p1a: Azumarill
+2026-08-12 13:26:02,995 |-resisted|p1a: Azumarill
+2026-08-12 13:26:02,995 |-damage|p1a: Azumarill|80/100
+2026-08-12 13:26:02,995 |move|p1a: Azumarill|Ice Punch|p2a: Magnezone
+2026-08-12 13:26:02,995 |-resisted|p2a: Magnezone
+2026-08-12 13:26:02,995 |-damage|p2a: Magnezone|71/246
+2026-08-12 13:26:02,995 |
+2026-08-12 13:26:02,995 |-heal|p2a: Magnezone|86/246|[from] item: Leftovers
+2026-08-12 13:26:02,995 |upkeep
+2026-08-12 13:26:02,995 |turn|27
+2026-08-12 13:26:02,996 >battle-gen4randombattle-325496
+2026-08-12 13:26:02,996 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"86/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 13:26:03,022 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,022 |
+2026-08-12 13:26:03,022 |t:|1786533963
+2026-08-12 13:26:03,022 |move|p2a: Magnezone|Toxic|p1a: Azumarill
+2026-08-12 13:26:03,022 |-status|p1a: Azumarill|tox
+2026-08-12 13:26:03,022 |move|p1a: Azumarill|Ice Punch|p2a: Magnezone
+2026-08-12 13:26:03,022 |-resisted|p2a: Magnezone
+2026-08-12 13:26:03,022 |-damage|p2a: Magnezone|45/246
+2026-08-12 13:26:03,022 |
+2026-08-12 13:26:03,022 |-heal|p2a: Magnezone|60/246|[from] item: Leftovers
+2026-08-12 13:26:03,022 |-damage|p1a: Azumarill|74/100 tox|[from] psn
+2026-08-12 13:26:03,022 |upkeep
+2026-08-12 13:26:03,022 |turn|28
+2026-08-12 13:26:03,025 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,025 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"60/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 13:26:03,056 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,057 |
+2026-08-12 13:26:03,057 |t:|1786533963
+2026-08-12 13:26:03,057 |switch|p1a: Machamp|Machamp, L80, F|100/100
+2026-08-12 13:26:03,057 |move|p2a: Magnezone|Thunderbolt|p1a: Machamp
+2026-08-12 13:26:03,057 |-damage|p1a: Machamp|52/100
+2026-08-12 13:26:03,057 |
+2026-08-12 13:26:03,057 |-heal|p2a: Magnezone|75/246|[from] item: Leftovers
+2026-08-12 13:26:03,057 |-heal|p1a: Machamp|58/100|[from] item: Leftovers
+2026-08-12 13:26:03,057 |upkeep
+2026-08-12 13:26:03,057 |turn|29
+2026-08-12 13:26:03,060 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,060 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":12,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"75/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 13:26:03,127 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,127 |
+2026-08-12 13:26:03,127 |t:|1786533963
+2026-08-12 13:26:03,127 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:03,127 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:03,127 |move|p1a: Machamp|Payback|p2a: Magnezone
+2026-08-12 13:26:03,127 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:03,127 |
+2026-08-12 13:26:03,127 |-heal|p2a: Magnezone|90/246|[from] item: Leftovers
+2026-08-12 13:26:03,127 |-heal|p1a: Machamp|64/100|[from] item: Leftovers
+2026-08-12 13:26:03,127 |upkeep
+2026-08-12 13:26:03,127 |turn|30
+2026-08-12 13:26:03,127 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,127 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"90/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 13:26:03,158 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,158 |
+2026-08-12 13:26:03,158 |t:|1786533963
+2026-08-12 13:26:03,158 |switch|p1a: Azumarill|Azumarill, L83, M|74/100 tox
+2026-08-12 13:26:03,158 |move|p2a: Magnezone|Toxic|p1a: Azumarill
+2026-08-12 13:26:03,158 |-fail|p1a: Azumarill|tox
+2026-08-12 13:26:03,158 |
+2026-08-12 13:26:03,158 |-heal|p2a: Magnezone|105/246|[from] item: Leftovers
+2026-08-12 13:26:03,158 |-damage|p1a: Azumarill|68/100 tox|[from] psn
+2026-08-12 13:26:03,158 |upkeep
+2026-08-12 13:26:03,158 |turn|31
+2026-08-12 13:26:03,158 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,158 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":20,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"105/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 13:26:03,206 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,206 |
+2026-08-12 13:26:03,206 |t:|1786533963
+2026-08-12 13:26:03,206 |move|p1a: Azumarill|Aqua Jet|p2a: Magnezone
+2026-08-12 13:26:03,206 |-damage|p2a: Magnezone|35/246
+2026-08-12 13:26:03,206 |move|p2a: Magnezone|Hidden Power|p1a: Azumarill
+2026-08-12 13:26:03,206 |-resisted|p1a: Azumarill
+2026-08-12 13:26:03,206 |-damage|p1a: Azumarill|57/100 tox
+2026-08-12 13:26:03,206 |
+2026-08-12 13:26:03,206 |-heal|p2a: Magnezone|50/246|[from] item: Leftovers
+2026-08-12 13:26:03,206 |-damage|p1a: Azumarill|46/100 tox|[from] psn
+2026-08-12 13:26:03,206 |upkeep
+2026-08-12 13:26:03,206 |turn|32
+2026-08-12 13:26:03,207 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,207 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":11,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":19,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"50/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 13:26:03,230 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,230 |
+2026-08-12 13:26:03,230 |t:|1786533963
+2026-08-12 13:26:03,230 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:03,230 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:03,231 |move|p1a: Azumarill|Aqua Jet|p2a: Magnezone
+2026-08-12 13:26:03,231 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:03,231 |
+2026-08-12 13:26:03,231 |-heal|p2a: Magnezone|65/246|[from] item: Leftovers
+2026-08-12 13:26:03,231 |-damage|p1a: Azumarill|28/100 tox|[from] psn
+2026-08-12 13:26:03,231 |upkeep
+2026-08-12 13:26:03,231 |turn|33
+2026-08-12 13:26:03,233 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,233 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":10,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":19,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"65/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 13:26:03,263 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,263 |
+2026-08-12 13:26:03,263 |t:|1786533963
+2026-08-12 13:26:03,263 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:03,263 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:03,263 |move|p1a: Azumarill|Aqua Jet|p2a: Magnezone
+2026-08-12 13:26:03,264 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:03,264 |
+2026-08-12 13:26:03,264 |-heal|p2a: Magnezone|80/246|[from] item: Leftovers
+2026-08-12 13:26:03,264 |-damage|p1a: Azumarill|4/100 tox|[from] psn
+2026-08-12 13:26:03,264 |upkeep
+2026-08-12 13:26:03,264 |turn|34
+2026-08-12 13:26:03,264 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,264 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":9,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":19,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"80/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 13:26:03,286 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,286 |
+2026-08-12 13:26:03,286 |t:|1786533963
+2026-08-12 13:26:03,286 |move|p2a: Magnezone|Protect|p2a: Magnezone
+2026-08-12 13:26:03,286 |-singleturn|p2a: Magnezone|Protect
+2026-08-12 13:26:03,286 |move|p1a: Azumarill|Aqua Jet|p2a: Magnezone
+2026-08-12 13:26:03,286 |-activate|p2a: Magnezone|Protect
+2026-08-12 13:26:03,286 |
+2026-08-12 13:26:03,286 |-heal|p2a: Magnezone|95/246|[from] item: Leftovers
+2026-08-12 13:26:03,286 |-damage|p1a: Azumarill|0 fnt|[from] psn
+2026-08-12 13:26:03,286 |faint|p1a: Azumarill
+2026-08-12 13:26:03,286 |upkeep
+2026-08-12 13:26:03,286 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,286 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"95/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 13:26:03,315 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,315 |
+2026-08-12 13:26:03,315 |t:|1786533963
+2026-08-12 13:26:03,315 |switch|p1a: Machamp|Machamp, L80, F|64/100
+2026-08-12 13:26:03,315 |turn|35
+2026-08-12 13:26:03,318 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,318 |request|{"active":[{"moves":[{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":8,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":21,"maxpp":24,"target":"normal","disabled":false},{"move":"Hidden Power Ice 70","id":"hiddenpower","pp":19,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"95/246","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 13:26:03,357 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,357 |
+2026-08-12 13:26:03,357 |t:|1786533963
+2026-08-12 13:26:03,357 |move|p2a: Magnezone|Hidden Power|p1a: Machamp
+2026-08-12 13:26:03,357 |-damage|p1a: Machamp|43/100
+2026-08-12 13:26:03,357 |move|p1a: Machamp|Earthquake|p2a: Magnezone
+2026-08-12 13:26:03,357 |-supereffective|p2a: Magnezone
+2026-08-12 13:26:03,357 |-damage|p2a: Magnezone|0 fnt
+2026-08-12 13:26:03,357 |faint|p2a: Magnezone
+2026-08-12 13:26:03,357 |
+2026-08-12 13:26:03,357 |-heal|p1a: Machamp|49/100|[from] item: Leftovers
+2026-08-12 13:26:03,357 |upkeep
+2026-08-12 13:26:03,358 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,358 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"0 fnt","active":true,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":false,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":83}
+2026-08-12 13:26:03,388 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,388 |
+2026-08-12 13:26:03,388 |t:|1786533963
+2026-08-12 13:26:03,388 |switch|p2a: Exeggutor|Exeggutor, L88, M|310/310
+2026-08-12 13:26:03,388 |turn|36
+2026-08-12 13:26:03,389 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,389 |request|{"active":[{"moves":[{"move":"Sleep Powder","id":"sleeppowder","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Synthesis","id":"synthesis","pp":8,"maxpp":8,"target":"self","disabled":false},{"move":"Leaf Storm","id":"leafstorm","pp":8,"maxpp":8,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Exeggutor","details":"Exeggutor, L88, M","condition":"310/310","active":true,"stats":{"atk":172,"def":200,"spa":270,"spd":165,"spe":147},"moves":["sleeppowder","psychic","synthesis","leafstorm"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Walrein","details":"Walrein, L84, M","condition":"41/322 tox","active":false,"stats":{"atk":139,"def":199,"spa":208,"spd":199,"spe":157},"moves":["sleeptalk","surf","rest","icebeam"],"baseAbility":"thickfat","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Shuckle","details":"Shuckle, L98, F","condition":"73/198","active":false,"stats":{"atk":75,"def":506,"spa":75,"spd":506,"spe":65},"moves":["toxic","knockoff","encore","rest"],"baseAbility":"gluttony","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Absol","details":"Absol, L84, M","condition":"246/246","active":false,"stats":{"atk":267,"def":149,"spa":174,"spd":149,"spe":174},"moves":["psychocut","nightslash","superpower","suckerpunch"],"baseAbility":"superluck","item":"choiceband","pokeball":"pokeball"},{"ident":"p2: Swellow","details":"Swellow, L78, M","condition":"222/222","active":false,"stats":{"atk":178,"def":139,"spa":123,"spd":123,"spe":240},"moves":["quickattack","uturn","facade","bravebird"],"baseAbility":"guts","item":"toxicorb","pokeball":"pokeball"},{"ident":"p2: Magnezone","details":"Magnezone, L81","condition":"0 fnt","active":false,"stats":{"atk":120,"def":232,"spa":257,"spd":192,"spe":144},"moves":["toxic","protect","thunderbolt","hiddenpowerice"],"baseAbility":"magnetpull","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 13:26:03,419 >battle-gen4randombattle-325496
+2026-08-12 13:26:03,419 |
+2026-08-12 13:26:03,419 |t:|1786533963
+2026-08-12 13:26:03,419 |move|p2a: Exeggutor|Psychic|p1a: Machamp
+2026-08-12 13:26:03,419 |-supereffective|p1a: Machamp
+2026-08-12 13:26:03,419 |-damage|p1a: Machamp|0 fnt
+2026-08-12 13:26:03,419 |faint|p1a: Machamp
+2026-08-12 13:26:03,419 |
+2026-08-12 13:26:03,419 |win|BOT2
+2026-08-12 14:06:03,423 >battle-gen4randombattle-325496
+2026-08-12 14:06:03,423 |expire|
+2026-08-12 14:06:03,423 >battle-gen4randombattle-325496
+2026-08-12 14:06:03,423 |L|☆BOT1
+2026-08-12 14:06:03,424 >battle-gen4randombattle-325496
+2026-08-12 14:06:03,424 |deinit

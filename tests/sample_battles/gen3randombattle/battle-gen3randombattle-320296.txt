@@ -1,0 +1,868 @@
+2026-08-12 12:37:44,747 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,747 |init|battle
+2026-08-12 12:37:44,748 |title|BOT1 vs. BOT2
+2026-08-12 12:37:44,748 |pm| BOT2| BOT1|/nonotify BOT2 accepted the challenge, starting &laquo;<a href="/battle-gen3randombattle-320296">battle-gen3randombattle-320296</a>&raquo;
+2026-08-12 12:37:44,792 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,792 |t:|1786531064
+2026-08-12 12:37:44,792 |gametype|singles
+2026-08-12 12:37:44,793 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,793 |player|p1|BOT1|170|
+2026-08-12 12:37:44,795 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,795 |player|p2|BOT2|170|
+2026-08-12 12:37:44,795 |gen|3
+2026-08-12 12:37:44,795 |tier|[Gen 3] Random Battle
+2026-08-12 12:37:44,795 |rule|HP Percentage Mod: HP is shown in percentages
+2026-08-12 12:37:44,795 |rule|Beat Up Nicknames Mod: Beat Up will not reveal any party members
+2026-08-12 12:37:44,795 |rule|Endless Battle Clause: Forcing endless battles is banned
+2026-08-12 12:37:44,795 |rule|Sleep Clause Mod: Limit one foe put to sleep
+2026-08-12 12:37:44,795 |rule|Switch Priority Clause Mod: Faster Pokémon switch first
+2026-08-12 12:37:44,795 |rule|Species Clause: Limit one of each Pokémon
+2026-08-12 12:37:44,795 |rule|OHKO Clause: OHKO moves are banned
+2026-08-12 12:37:44,795 |rule|Evasion Items Clause: Evasion items are banned
+2026-08-12 12:37:44,795 |rule|Evasion Moves Clause: Evasion moves are banned
+2026-08-12 12:37:44,795 |
+2026-08-12 12:37:44,795 |t:|1786531064
+2026-08-12 12:37:44,795 |teamsize|p1|6
+2026-08-12 12:37:44,795 |teamsize|p2|6
+2026-08-12 12:37:44,795 |start
+2026-08-12 12:37:44,795 |switch|p1a: Vileplume|Vileplume, L85, M|100/100
+2026-08-12 12:37:44,795 |switch|p2a: Marowak|Marowak, L83, M|235/235
+2026-08-12 12:37:44,795 |turn|1
+2026-08-12 12:37:44,795 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,795 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":16,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"235/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":3}
+2026-08-12 12:37:44,829 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,829 |
+2026-08-12 12:37:44,829 |t:|1786531064
+2026-08-12 12:37:44,829 |move|p1a: Vileplume|Hidden Power|p2a: Marowak
+2026-08-12 12:37:44,829 |-supereffective|p2a: Marowak
+2026-08-12 12:37:44,829 |-damage|p2a: Marowak|51/235
+2026-08-12 12:37:44,829 |move|p2a: Marowak|Bonemerang|p1a: Vileplume
+2026-08-12 12:37:44,829 |-damage|p1a: Vileplume|67/100
+2026-08-12 12:37:44,829 |-damage|p1a: Vileplume|32/100
+2026-08-12 12:37:44,829 |-hitcount|p1a: Vileplume|2
+2026-08-12 12:37:44,829 |
+2026-08-12 12:37:44,829 |-heal|p1a: Vileplume|38/100|[from] item: Leftovers
+2026-08-12 12:37:44,829 |upkeep
+2026-08-12 12:37:44,829 |turn|2
+2026-08-12 12:37:44,830 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,830 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":16,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"51/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":5}
+2026-08-12 12:37:44,861 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,861 |
+2026-08-12 12:37:44,861 |t:|1786531064
+2026-08-12 12:37:44,861 |move|p1a: Vileplume|Aromatherapy|p1a: Vileplume
+2026-08-12 12:37:44,861 |-cureteam|p1a: Vileplume|[from] move: Aromatherapy
+2026-08-12 12:37:44,861 |move|p2a: Marowak|Rock Slide|p1a: Vileplume
+2026-08-12 12:37:44,861 |-damage|p1a: Vileplume|4/100
+2026-08-12 12:37:44,861 |
+2026-08-12 12:37:44,861 |-heal|p1a: Vileplume|10/100|[from] item: Leftovers
+2026-08-12 12:37:44,861 |upkeep
+2026-08-12 12:37:44,861 |turn|3
+2026-08-12 12:37:44,863 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,864 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":15,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"51/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":7}
+2026-08-12 12:37:44,920 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,920 |
+2026-08-12 12:37:44,920 |t:|1786531064
+2026-08-12 12:37:44,920 |move|p1a: Vileplume|Aromatherapy|p1a: Vileplume
+2026-08-12 12:37:44,920 |-cureteam|p1a: Vileplume|[from] move: Aromatherapy
+2026-08-12 12:37:44,920 |move|p2a: Marowak|Rock Slide|p1a: Vileplume
+2026-08-12 12:37:44,920 |-damage|p1a: Vileplume|0 fnt
+2026-08-12 12:37:44,920 |faint|p1a: Vileplume
+2026-08-12 12:37:44,922 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,922 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"51/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":9}
+2026-08-12 12:37:44,959 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,959 |
+2026-08-12 12:37:44,959 |t:|1786531064
+2026-08-12 12:37:44,959 |switch|p1a: Celebi|Celebi, L74|100/100
+2026-08-12 12:37:44,959 |
+2026-08-12 12:37:44,959 |upkeep
+2026-08-12 12:37:44,959 |turn|4
+2026-08-12 12:37:44,960 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,960 |request|{"active":[{"moves":[{"move":"Rock Slide","id":"rockslide","pp":14,"maxpp":16,"target":"allAdjacentFoes","disabled":false},{"move":"Swords Dance","id":"swordsdance","pp":48,"maxpp":48,"target":"self","disabled":false},{"move":"Double-Edge","id":"doubleedge","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Bonemerang","id":"bonemerang","pp":15,"maxpp":16,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"51/235","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":11}
+2026-08-12 12:37:44,998 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,998 |
+2026-08-12 12:37:44,998 |t:|1786531064
+2026-08-12 12:37:44,998 |move|p1a: Celebi|Psychic|p2a: Marowak
+2026-08-12 12:37:44,998 |-damage|p2a: Marowak|0 fnt
+2026-08-12 12:37:44,998 |faint|p2a: Marowak
+2026-08-12 12:37:44,998 >battle-gen3randombattle-320296
+2026-08-12 12:37:44,998 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":true,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":13}
+2026-08-12 12:37:45,033 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,033 |
+2026-08-12 12:37:45,033 |t:|1786531065
+2026-08-12 12:37:45,033 |switch|p2a: Vigoroth|Vigoroth, L84, M|272/272
+2026-08-12 12:37:45,033 |
+2026-08-12 12:37:45,033 |upkeep
+2026-08-12 12:37:45,033 |turn|5
+2026-08-12 12:37:45,035 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,035 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":16,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"272/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":15}
+2026-08-12 12:37:45,076 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,076 |
+2026-08-12 12:37:45,076 |t:|1786531065
+2026-08-12 12:37:45,076 |move|p2a: Vigoroth|Earthquake|p1a: Celebi
+2026-08-12 12:37:45,076 |-resisted|p1a: Celebi
+2026-08-12 12:37:45,076 |-damage|p1a: Celebi|89/100
+2026-08-12 12:37:45,076 |move|p1a: Celebi|Hidden Power|p2a: Vigoroth
+2026-08-12 12:37:45,076 |-damage|p2a: Vigoroth|213/272
+2026-08-12 12:37:45,076 |
+2026-08-12 12:37:45,076 |-heal|p2a: Vigoroth|230/272|[from] item: Leftovers
+2026-08-12 12:37:45,076 |-heal|p1a: Celebi|95/100|[from] item: Leftovers
+2026-08-12 12:37:45,076 |upkeep
+2026-08-12 12:37:45,077 |turn|6
+2026-08-12 12:37:45,078 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,078 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"230/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":17}
+2026-08-12 12:37:45,115 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,115 |
+2026-08-12 12:37:45,115 |t:|1786531065
+2026-08-12 12:37:45,115 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:37:45,115 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:37:45,115 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:37:45,115 |move|p1a: Celebi|Recover|p1a: Celebi
+2026-08-12 12:37:45,116 |-heal|p1a: Celebi|100/100
+2026-08-12 12:37:45,116 |
+2026-08-12 12:37:45,116 |-heal|p2a: Vigoroth|247/272|[from] item: Leftovers
+2026-08-12 12:37:45,116 |upkeep
+2026-08-12 12:37:45,116 |turn|7
+2026-08-12 12:37:45,117 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,117 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"247/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":19}
+2026-08-12 12:37:45,154 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,154 |
+2026-08-12 12:37:45,154 |t:|1786531065
+2026-08-12 12:37:45,154 |move|p2a: Vigoroth|Body Slam|p1a: Celebi
+2026-08-12 12:37:45,154 |-crit|p1a: Celebi
+2026-08-12 12:37:45,154 |-damage|p1a: Celebi|16/100
+2026-08-12 12:37:45,154 |-status|p1a: Celebi|par
+2026-08-12 12:37:45,154 |move|p1a: Celebi|Recover|p1a: Celebi
+2026-08-12 12:37:45,155 |-heal|p1a: Celebi|66/100 par
+2026-08-12 12:37:45,155 |
+2026-08-12 12:37:45,155 |-heal|p2a: Vigoroth|264/272|[from] item: Leftovers
+2026-08-12 12:37:45,155 |-heal|p1a: Celebi|72/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,155 |upkeep
+2026-08-12 12:37:45,155 |turn|8
+2026-08-12 12:37:45,155 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,155 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"264/272","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":21}
+2026-08-12 12:37:45,190 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,190 |
+2026-08-12 12:37:45,190 |t:|1786531065
+2026-08-12 12:37:45,190 |move|p2a: Vigoroth|Slack Off|p2a: Vigoroth
+2026-08-12 12:37:45,190 |-heal|p2a: Vigoroth|272/272
+2026-08-12 12:37:45,190 |move|p1a: Celebi|Toxic|p2a: Vigoroth
+2026-08-12 12:37:45,190 |-status|p2a: Vigoroth|tox
+2026-08-12 12:37:45,190 |
+2026-08-12 12:37:45,190 |-damage|p2a: Vigoroth|255/272 tox|[from] psn
+2026-08-12 12:37:45,190 |-heal|p1a: Celebi|78/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,190 |upkeep
+2026-08-12 12:37:45,190 |turn|9
+2026-08-12 12:37:45,191 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,191 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":15,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"255/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":23}
+2026-08-12 12:37:45,228 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,228 |
+2026-08-12 12:37:45,228 |t:|1786531065
+2026-08-12 12:37:45,228 |move|p2a: Vigoroth|Earthquake|p1a: Celebi
+2026-08-12 12:37:45,228 |-resisted|p1a: Celebi
+2026-08-12 12:37:45,228 |-damage|p1a: Celebi|60/100 par
+2026-08-12 12:37:45,228 |move|p1a: Celebi|Psychic|p2a: Vigoroth
+2026-08-12 12:37:45,228 |-damage|p2a: Vigoroth|155/272 tox
+2026-08-12 12:37:45,228 |
+2026-08-12 12:37:45,228 |-heal|p2a: Vigoroth|172/272 tox|[from] item: Leftovers
+2026-08-12 12:37:45,228 |-damage|p2a: Vigoroth|138/272 tox|[from] psn
+2026-08-12 12:37:45,228 |-heal|p1a: Celebi|66/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,228 |upkeep
+2026-08-12 12:37:45,228 |turn|10
+2026-08-12 12:37:45,230 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,230 |request|{"active":[{"moves":[{"move":"Body Slam","id":"bodyslam","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Earthquake","id":"earthquake","pp":14,"maxpp":16,"target":"allAdjacent","disabled":false},{"move":"Slack Off","id":"slackoff","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Bulk Up","id":"bulkup","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"138/272 tox","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":25}
+2026-08-12 12:37:45,261 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,261 |
+2026-08-12 12:37:45,261 |t:|1786531065
+2026-08-12 12:37:45,261 |move|p2a: Vigoroth|Bulk Up|p2a: Vigoroth
+2026-08-12 12:37:45,261 |-boost|p2a: Vigoroth|atk|1
+2026-08-12 12:37:45,261 |-boost|p2a: Vigoroth|def|1
+2026-08-12 12:37:45,261 |move|p1a: Celebi|Psychic|p2a: Vigoroth
+2026-08-12 12:37:45,261 |-damage|p2a: Vigoroth|33/272 tox
+2026-08-12 12:37:45,261 |
+2026-08-12 12:37:45,261 |-heal|p2a: Vigoroth|50/272 tox|[from] item: Leftovers
+2026-08-12 12:37:45,261 |-damage|p2a: Vigoroth|0 fnt|[from] psn
+2026-08-12 12:37:45,261 |faint|p2a: Vigoroth
+2026-08-12 12:37:45,261 |-heal|p1a: Celebi|72/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,261 |upkeep
+2026-08-12 12:37:45,264 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,264 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":true,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":27}
+2026-08-12 12:37:45,289 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,289 |
+2026-08-12 12:37:45,289 |t:|1786531065
+2026-08-12 12:37:45,289 |switch|p2a: Jumpluff|Jumpluff, L88, F|274/274
+2026-08-12 12:37:45,289 |turn|11
+2026-08-12 12:37:45,289 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,289 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":29}
+2026-08-12 12:37:45,321 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,321 |
+2026-08-12 12:37:45,321 |t:|1786531065
+2026-08-12 12:37:45,321 |move|p2a: Jumpluff|Hidden Power|p1a: Celebi
+2026-08-12 12:37:45,321 |-supereffective|p1a: Celebi
+2026-08-12 12:37:45,321 |-damage|p1a: Celebi|30/100 par
+2026-08-12 12:37:45,321 |cant|p1a: Celebi|par
+2026-08-12 12:37:45,321 |
+2026-08-12 12:37:45,321 |-heal|p1a: Celebi|36/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,321 |upkeep
+2026-08-12 12:37:45,321 |turn|12
+2026-08-12 12:37:45,322 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,322 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"274/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":31}
+2026-08-12 12:37:45,361 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,361 |
+2026-08-12 12:37:45,361 |t:|1786531065
+2026-08-12 12:37:45,361 |move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+2026-08-12 12:37:45,361 |-start|p2a: Jumpluff|Substitute
+2026-08-12 12:37:45,361 |-damage|p2a: Jumpluff|206/274
+2026-08-12 12:37:45,361 |move|p1a: Celebi|Psychic|p2a: Jumpluff
+2026-08-12 12:37:45,361 |-end|p2a: Jumpluff|Substitute
+2026-08-12 12:37:45,361 |
+2026-08-12 12:37:45,361 |-heal|p2a: Jumpluff|223/274|[from] item: Leftovers
+2026-08-12 12:37:45,361 |-heal|p1a: Celebi|42/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,361 |upkeep
+2026-08-12 12:37:45,361 |turn|13
+2026-08-12 12:37:45,364 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,364 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"223/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":33}
+2026-08-12 12:37:45,395 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,395 |
+2026-08-12 12:37:45,395 |t:|1786531065
+2026-08-12 12:37:45,395 |move|p2a: Jumpluff|Protect|p2a: Jumpluff
+2026-08-12 12:37:45,395 |-singleturn|p2a: Jumpluff|Protect
+2026-08-12 12:37:45,395 |move|p1a: Celebi|Hidden Power|p2a: Jumpluff
+2026-08-12 12:37:45,395 |-activate|p2a: Jumpluff|Protect
+2026-08-12 12:37:45,395 |
+2026-08-12 12:37:45,395 |-heal|p2a: Jumpluff|240/274|[from] item: Leftovers
+2026-08-12 12:37:45,395 |-heal|p1a: Celebi|48/100 par|[from] item: Leftovers
+2026-08-12 12:37:45,395 |upkeep
+2026-08-12 12:37:45,395 |turn|14
+2026-08-12 12:37:45,396 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,396 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"240/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":35}
+2026-08-12 12:37:45,437 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,437 |
+2026-08-12 12:37:45,437 |t:|1786531065
+2026-08-12 12:37:45,437 |-curestatus|p1a: Celebi|par|[from] ability: Natural Cure|[silent]
+2026-08-12 12:37:45,437 |switch|p1a: Crobat|Crobat, L78, M|100/100
+2026-08-12 12:37:45,437 |move|p2a: Jumpluff|Hidden Power|p1a: Crobat
+2026-08-12 12:37:45,437 |-damage|p1a: Crobat|75/100
+2026-08-12 12:37:45,437 |
+2026-08-12 12:37:45,437 |-heal|p1a: Crobat|81/100|[from] item: Leftovers
+2026-08-12 12:37:45,437 |-heal|p2a: Jumpluff|257/274|[from] item: Leftovers
+2026-08-12 12:37:45,437 |upkeep
+2026-08-12 12:37:45,437 |turn|15
+2026-08-12 12:37:45,438 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,438 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"257/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":37}
+2026-08-12 12:37:45,474 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,474 |
+2026-08-12 12:37:45,474 |t:|1786531065
+2026-08-12 12:37:45,474 |move|p1a: Crobat|Hidden Power|p2a: Jumpluff
+2026-08-12 12:37:45,474 |-immune|p2a: Jumpluff
+2026-08-12 12:37:45,474 |move|p2a: Jumpluff|Substitute|p2a: Jumpluff
+2026-08-12 12:37:45,474 |-start|p2a: Jumpluff|Substitute
+2026-08-12 12:37:45,474 |-damage|p2a: Jumpluff|189/274
+2026-08-12 12:37:45,474 |
+2026-08-12 12:37:45,474 |-heal|p1a: Crobat|87/100|[from] item: Leftovers
+2026-08-12 12:37:45,474 |-heal|p2a: Jumpluff|206/274|[from] item: Leftovers
+2026-08-12 12:37:45,474 |upkeep
+2026-08-12 12:37:45,474 |turn|16
+2026-08-12 12:37:45,475 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,475 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":39}
+2026-08-12 12:37:45,503 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,503 |
+2026-08-12 12:37:45,503 |t:|1786531065
+2026-08-12 12:37:45,503 |switch|p2a: Articuno|Articuno, L80|275/275
+2026-08-12 12:37:45,503 |-ability|p2a: Articuno|Pressure|[silent]
+2026-08-12 12:37:45,503 |move|p1a: Crobat|Hidden Power|p2a: Articuno
+2026-08-12 12:37:45,503 |-immune|p2a: Articuno
+2026-08-12 12:37:45,503 |
+2026-08-12 12:37:45,503 |-heal|p1a: Crobat|93/100|[from] item: Leftovers
+2026-08-12 12:37:45,503 |upkeep
+2026-08-12 12:37:45,503 |turn|17
+2026-08-12 12:37:45,504 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,504 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":8,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":41}
+2026-08-12 12:37:45,536 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,536 |
+2026-08-12 12:37:45,536 |t:|1786531065
+2026-08-12 12:37:45,536 |move|p1a: Crobat|Shadow Ball|p2a: Articuno
+2026-08-12 12:37:45,536 |-damage|p2a: Articuno|227/275
+2026-08-12 12:37:45,536 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:45,536 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:45,536 |
+2026-08-12 12:37:45,536 |-heal|p1a: Crobat|99/100|[from] item: Leftovers
+2026-08-12 12:37:45,536 |-heal|p2a: Articuno|244/275|[from] item: Leftovers
+2026-08-12 12:37:45,536 |upkeep
+2026-08-12 12:37:45,536 |turn|18
+2026-08-12 12:37:45,537 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,537 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":7,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"244/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":43}
+2026-08-12 12:37:45,580 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,580 |
+2026-08-12 12:37:45,580 |t:|1786531065
+2026-08-12 12:37:45,580 |move|p1a: Crobat|Hidden Power|p2a: Articuno
+2026-08-12 12:37:45,580 |-immune|p2a: Articuno
+2026-08-12 12:37:45,580 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:45,580 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:45,580 |
+2026-08-12 12:37:45,580 |-heal|p1a: Crobat|100/100|[from] item: Leftovers
+2026-08-12 12:37:45,580 |-heal|p2a: Articuno|261/275|[from] item: Leftovers
+2026-08-12 12:37:45,580 |upkeep
+2026-08-12 12:37:45,580 |turn|19
+2026-08-12 12:37:45,581 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,581 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":6,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"261/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":45}
+2026-08-12 12:37:45,618 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,618 |
+2026-08-12 12:37:45,618 |t:|1786531065
+2026-08-12 12:37:45,618 |move|p1a: Crobat|Toxic|p2a: Articuno
+2026-08-12 12:37:45,618 |-status|p2a: Articuno|tox
+2026-08-12 12:37:45,618 |move|p2a: Articuno|Ice Beam|p1a: Crobat
+2026-08-12 12:37:45,619 |-supereffective|p1a: Crobat
+2026-08-12 12:37:45,619 |-damage|p1a: Crobat|25/100
+2026-08-12 12:37:45,619 |
+2026-08-12 12:37:45,619 |-heal|p1a: Crobat|31/100|[from] item: Leftovers
+2026-08-12 12:37:45,619 |-heal|p2a: Articuno|275/275 tox|[from] item: Leftovers
+2026-08-12 12:37:45,619 |-damage|p2a: Articuno|258/275 tox|[from] psn
+2026-08-12 12:37:45,619 |upkeep
+2026-08-12 12:37:45,619 |turn|20
+2026-08-12 12:37:45,620 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,620 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":6,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"258/275 tox","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":47}
+2026-08-12 12:37:45,660 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,660 |
+2026-08-12 12:37:45,660 |t:|1786531065
+2026-08-12 12:37:45,660 |move|p1a: Crobat|Hidden Power|p2a: Articuno
+2026-08-12 12:37:45,660 |-immune|p2a: Articuno
+2026-08-12 12:37:45,660 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:45,660 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:45,661 |-curestatus|p2a: Articuno|tox|[silent]
+2026-08-12 12:37:45,661 |
+2026-08-12 12:37:45,661 |-heal|p1a: Crobat|37/100|[from] item: Leftovers
+2026-08-12 12:37:45,661 |-heal|p2a: Articuno|275/275|[from] item: Leftovers
+2026-08-12 12:37:45,661 |upkeep
+2026-08-12 12:37:45,661 |turn|21
+2026-08-12 12:37:45,663 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,663 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":5,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"275/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":49}
+2026-08-12 12:37:45,698 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,698 |
+2026-08-12 12:37:45,698 |t:|1786531065
+2026-08-12 12:37:45,698 |move|p1a: Crobat|Toxic|p2a: Articuno
+2026-08-12 12:37:45,698 |-status|p2a: Articuno|tox
+2026-08-12 12:37:45,698 |move|p2a: Articuno|Toxic|p1a: Crobat
+2026-08-12 12:37:45,698 |-immune|p1a: Crobat
+2026-08-12 12:37:45,698 |
+2026-08-12 12:37:45,698 |-heal|p1a: Crobat|43/100|[from] item: Leftovers
+2026-08-12 12:37:45,698 |-damage|p2a: Articuno|258/275 tox|[from] psn
+2026-08-12 12:37:45,698 |upkeep
+2026-08-12 12:37:45,698 |turn|22
+2026-08-12 12:37:45,699 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,699 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":5,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"258/275 tox","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":51}
+2026-08-12 12:37:45,733 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,733 |
+2026-08-12 12:37:45,733 |t:|1786531065
+2026-08-12 12:37:45,733 |move|p1a: Crobat|Toxic|p2a: Articuno
+2026-08-12 12:37:45,733 |-fail|p2a: Articuno|tox
+2026-08-12 12:37:45,734 |move|p2a: Articuno|Toxic|p1a: Crobat|[miss]
+2026-08-12 12:37:45,734 |-miss|p2a: Articuno|p1a: Crobat
+2026-08-12 12:37:45,734 |
+2026-08-12 12:37:45,734 |-heal|p1a: Crobat|50/100|[from] item: Leftovers
+2026-08-12 12:37:45,734 |-heal|p2a: Articuno|275/275 tox|[from] item: Leftovers
+2026-08-12 12:37:45,734 |-damage|p2a: Articuno|241/275 tox|[from] psn
+2026-08-12 12:37:45,734 |upkeep
+2026-08-12 12:37:45,734 |turn|23
+2026-08-12 12:37:45,735 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,735 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":5,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"241/275 tox","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":53}
+2026-08-12 12:37:45,771 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,771 |
+2026-08-12 12:37:45,771 |t:|1786531065
+2026-08-12 12:37:45,771 |move|p1a: Crobat|Sludge Bomb|p2a: Articuno
+2026-08-12 12:37:45,771 |-damage|p2a: Articuno|166/275 tox
+2026-08-12 12:37:45,771 |move|p2a: Articuno|Toxic|p1a: Crobat
+2026-08-12 12:37:45,771 |-immune|p1a: Crobat
+2026-08-12 12:37:45,771 |
+2026-08-12 12:37:45,771 |-heal|p1a: Crobat|56/100|[from] item: Leftovers
+2026-08-12 12:37:45,771 |-heal|p2a: Articuno|183/275 tox|[from] item: Leftovers
+2026-08-12 12:37:45,771 |-damage|p2a: Articuno|132/275 tox|[from] psn
+2026-08-12 12:37:45,771 |upkeep
+2026-08-12 12:37:45,771 |turn|24
+2026-08-12 12:37:45,772 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,772 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":5,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"132/275 tox","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":55}
+2026-08-12 12:37:45,801 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,801 |
+2026-08-12 12:37:45,801 |t:|1786531065
+2026-08-12 12:37:45,801 |move|p1a: Crobat|Shadow Ball|p2a: Articuno
+2026-08-12 12:37:45,801 |-damage|p2a: Articuno|85/275 tox
+2026-08-12 12:37:45,801 |-unboost|p2a: Articuno|spd|1
+2026-08-12 12:37:45,801 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:45,802 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:45,802 |-curestatus|p2a: Articuno|tox|[silent]
+2026-08-12 12:37:45,802 |
+2026-08-12 12:37:45,802 |-heal|p1a: Crobat|62/100|[from] item: Leftovers
+2026-08-12 12:37:45,802 |-heal|p2a: Articuno|102/275|[from] item: Leftovers
+2026-08-12 12:37:45,802 |upkeep
+2026-08-12 12:37:45,802 |turn|25
+2026-08-12 12:37:45,802 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,802 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":4,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"102/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":57}
+2026-08-12 12:37:45,842 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,842 |
+2026-08-12 12:37:45,842 |t:|1786531065
+2026-08-12 12:37:45,842 |move|p1a: Crobat|Shadow Ball|p2a: Articuno
+2026-08-12 12:37:45,842 |-damage|p2a: Articuno|55/275
+2026-08-12 12:37:45,842 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:45,842 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:45,842 |
+2026-08-12 12:37:45,842 |-heal|p1a: Crobat|68/100|[from] item: Leftovers
+2026-08-12 12:37:45,842 |-heal|p2a: Articuno|72/275|[from] item: Leftovers
+2026-08-12 12:37:45,842 |upkeep
+2026-08-12 12:37:45,842 |turn|26
+2026-08-12 12:37:45,854 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,854 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":3,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"72/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":59}
+2026-08-12 12:37:45,897 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,897 |
+2026-08-12 12:37:45,897 |t:|1786531065
+2026-08-12 12:37:45,897 |move|p1a: Crobat|Hidden Power|p2a: Articuno
+2026-08-12 12:37:45,897 |-immune|p2a: Articuno
+2026-08-12 12:37:45,897 |move|p2a: Articuno|Toxic|p1a: Crobat
+2026-08-12 12:37:45,897 |-immune|p1a: Crobat
+2026-08-12 12:37:45,897 |
+2026-08-12 12:37:45,897 |-heal|p1a: Crobat|74/100|[from] item: Leftovers
+2026-08-12 12:37:45,897 |-heal|p2a: Articuno|89/275|[from] item: Leftovers
+2026-08-12 12:37:45,897 |upkeep
+2026-08-12 12:37:45,897 |turn|27
+2026-08-12 12:37:45,900 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,900 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":15,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":3,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"89/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":61}
+2026-08-12 12:37:45,936 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,936 |
+2026-08-12 12:37:45,936 |t:|1786531065
+2026-08-12 12:37:45,936 |move|p1a: Crobat|Toxic|p2a: Articuno|[miss]
+2026-08-12 12:37:45,936 |-miss|p1a: Crobat|p2a: Articuno
+2026-08-12 12:37:45,936 |move|p2a: Articuno|Ice Beam|p1a: Crobat
+2026-08-12 12:37:45,936 |-supereffective|p1a: Crobat
+2026-08-12 12:37:45,936 |-damage|p1a: Crobat|0 fnt
+2026-08-12 12:37:45,936 |faint|p1a: Crobat
+2026-08-12 12:37:45,937 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,937 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"89/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":63}
+2026-08-12 12:37:45,979 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,979 |
+2026-08-12 12:37:45,979 |t:|1786531065
+2026-08-12 12:37:45,979 |switch|p1a: Magcargo|Magcargo, F|100/100
+2026-08-12 12:37:45,979 |
+2026-08-12 12:37:45,979 |-heal|p2a: Articuno|106/275|[from] item: Leftovers
+2026-08-12 12:37:45,979 |upkeep
+2026-08-12 12:37:45,979 |turn|28
+2026-08-12 12:37:45,985 >battle-gen3randombattle-320296
+2026-08-12 12:37:45,985 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":12,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":3,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"106/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":65}
+2026-08-12 12:37:46,028 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,028 |
+2026-08-12 12:37:46,028 |t:|1786531066
+2026-08-12 12:37:46,028 |move|p1a: Magcargo|Protect|p1a: Magcargo
+2026-08-12 12:37:46,028 |-singleturn|p1a: Magcargo|Protect
+2026-08-12 12:37:46,028 |move|p2a: Articuno|Toxic|p1a: Magcargo
+2026-08-12 12:37:46,028 |-activate|p1a: Magcargo|Protect
+2026-08-12 12:37:46,028 |
+2026-08-12 12:37:46,028 |-heal|p2a: Articuno|123/275|[from] item: Leftovers
+2026-08-12 12:37:46,028 |upkeep
+2026-08-12 12:37:46,028 |turn|29
+2026-08-12 12:37:46,032 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,032 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":3,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"123/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":67}
+2026-08-12 12:37:46,073 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,073 |
+2026-08-12 12:37:46,073 |t:|1786531066
+2026-08-12 12:37:46,073 |switch|p1a: Misdreavus|Misdreavus, L85, M|100/100
+2026-08-12 12:37:46,073 |move|p2a: Articuno|Protect||[still]
+2026-08-12 12:37:46,073 |-fail|p2a: Articuno
+2026-08-12 12:37:46,073 |
+2026-08-12 12:37:46,073 |-heal|p2a: Articuno|140/275|[from] item: Leftovers
+2026-08-12 12:37:46,073 |upkeep
+2026-08-12 12:37:46,073 |turn|30
+2026-08-12 12:37:46,075 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,075 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":11,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":3,"maxpp":8,"target":"allyTeam","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"140/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":69}
+2026-08-12 12:37:46,122 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,122 |
+2026-08-12 12:37:46,122 |t:|1786531066
+2026-08-12 12:37:46,122 |move|p1a: Misdreavus|Mean Look|p2a: Articuno
+2026-08-12 12:37:46,122 |-activate|p2a: Articuno|trapped
+2026-08-12 12:37:46,122 |move|p2a: Articuno|Toxic|p1a: Misdreavus
+2026-08-12 12:37:46,122 |-status|p1a: Misdreavus|tox
+2026-08-12 12:37:46,122 |
+2026-08-12 12:37:46,122 |-damage|p1a: Misdreavus|94/100 tox|[from] psn
+2026-08-12 12:37:46,122 |-heal|p2a: Articuno|157/275|[from] item: Leftovers
+2026-08-12 12:37:46,122 |upkeep
+2026-08-12 12:37:46,122 |turn|31
+2026-08-12 12:37:46,124 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,124 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":3,"maxpp":8,"target":"allyTeam","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"157/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":71}
+2026-08-12 12:37:46,178 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,178 |
+2026-08-12 12:37:46,178 |t:|1786531066
+2026-08-12 12:37:46,178 |move|p1a: Misdreavus|Perish Song|p1a: Misdreavus
+2026-08-12 12:37:46,178 |-start|p1a: Misdreavus|perish3|[silent]
+2026-08-12 12:37:46,178 |-start|p2a: Articuno|perish3|[silent]
+2026-08-12 12:37:46,178 |-fieldactivate|move: Perish Song
+2026-08-12 12:37:46,178 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:46,178 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:46,178 |
+2026-08-12 12:37:46,178 |-heal|p1a: Misdreavus|100/100 tox|[from] item: Leftovers
+2026-08-12 12:37:46,178 |-damage|p1a: Misdreavus|88/100 tox|[from] psn
+2026-08-12 12:37:46,178 |-heal|p2a: Articuno|174/275|[from] item: Leftovers
+2026-08-12 12:37:46,178 |-start|p1a: Misdreavus|perish3
+2026-08-12 12:37:46,178 |-start|p2a: Articuno|perish3
+2026-08-12 12:37:46,178 |upkeep
+2026-08-12 12:37:46,178 |turn|32
+2026-08-12 12:37:46,178 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,178 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":2,"maxpp":8,"target":"allyTeam","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"174/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":73}
+2026-08-12 12:37:46,239 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,239 |
+2026-08-12 12:37:46,239 |t:|1786531066
+2026-08-12 12:37:46,239 |move|p1a: Misdreavus|Protect|p1a: Misdreavus
+2026-08-12 12:37:46,239 |-singleturn|p1a: Misdreavus|Protect
+2026-08-12 12:37:46,239 |move|p2a: Articuno|Protect||[still]
+2026-08-12 12:37:46,239 |-fail|p2a: Articuno
+2026-08-12 12:37:46,239 |
+2026-08-12 12:37:46,239 |-heal|p1a: Misdreavus|94/100 tox|[from] item: Leftovers
+2026-08-12 12:37:46,239 |-damage|p1a: Misdreavus|76/100 tox|[from] psn
+2026-08-12 12:37:46,239 |-heal|p2a: Articuno|191/275|[from] item: Leftovers
+2026-08-12 12:37:46,239 |-start|p1a: Misdreavus|perish2
+2026-08-12 12:37:46,239 |-start|p2a: Articuno|perish2
+2026-08-12 12:37:46,239 |upkeep
+2026-08-12 12:37:46,239 |turn|33
+2026-08-12 12:37:46,240 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,240 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":14,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":2,"maxpp":8,"target":"allyTeam","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"191/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":75}
+2026-08-12 12:37:46,295 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,295 |
+2026-08-12 12:37:46,295 |t:|1786531066
+2026-08-12 12:37:46,295 |move|p1a: Misdreavus|Shadow Ball|p2a: Articuno
+2026-08-12 12:37:46,295 |-damage|p2a: Articuno|126/275
+2026-08-12 12:37:46,295 |-unboost|p2a: Articuno|spd|1
+2026-08-12 12:37:46,295 |move|p2a: Articuno|Ice Beam|p1a: Misdreavus
+2026-08-12 12:37:46,295 |-damage|p1a: Misdreavus|39/100 tox
+2026-08-12 12:37:46,295 |
+2026-08-12 12:37:46,295 |-heal|p1a: Misdreavus|45/100 tox|[from] item: Leftovers
+2026-08-12 12:37:46,295 |-damage|p1a: Misdreavus|20/100 tox|[from] psn
+2026-08-12 12:37:46,295 |-heal|p2a: Articuno|143/275|[from] item: Leftovers
+2026-08-12 12:37:46,295 |-start|p1a: Misdreavus|perish1
+2026-08-12 12:37:46,295 |-start|p2a: Articuno|perish1
+2026-08-12 12:37:46,295 |upkeep
+2026-08-12 12:37:46,295 |turn|34
+2026-08-12 12:37:46,296 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,296 |request|{"active":[{"moves":[{"move":"Ice Beam","id":"icebeam","pp":13,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Toxic","id":"toxic","pp":10,"maxpp":16,"target":"normal","disabled":false},{"move":"Heal Bell","id":"healbell","pp":2,"maxpp":8,"target":"allyTeam","disabled":false}],"trapped":true}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"143/275","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":77}
+2026-08-12 12:37:46,341 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,341 |
+2026-08-12 12:37:46,341 |t:|1786531066
+2026-08-12 12:37:46,341 |move|p1a: Misdreavus|Perish Song||[still]
+2026-08-12 12:37:46,341 |-fail|p1a: Misdreavus
+2026-08-12 12:37:46,341 |move|p2a: Articuno|Heal Bell|p2a: Articuno
+2026-08-12 12:37:46,342 |-activate|p2a: Articuno|move: Heal Bell
+2026-08-12 12:37:46,342 |
+2026-08-12 12:37:46,342 |-heal|p1a: Misdreavus|27/100 tox|[from] item: Leftovers
+2026-08-12 12:37:46,342 |-damage|p1a: Misdreavus|0 fnt|[from] psn
+2026-08-12 12:37:46,342 |faint|p1a: Misdreavus
+2026-08-12 12:37:46,342 |-heal|p2a: Articuno|160/275|[from] item: Leftovers
+2026-08-12 12:37:46,342 |-start|p2a: Articuno|perish0
+2026-08-12 12:37:46,342 |upkeep
+2026-08-12 12:37:46,342 |faint|p2a: Articuno
+2026-08-12 12:37:46,343 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,343 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":true,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"}]},"rqid":79}
+2026-08-12 12:37:46,382 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,382 |
+2026-08-12 12:37:46,382 |t:|1786531066
+2026-08-12 12:37:46,382 |switch|p1a: Lunatone|Lunatone, L84|100/100
+2026-08-12 12:37:46,382 |switch|p2a: Jumpluff|Jumpluff, L88, F|206/274
+2026-08-12 12:37:46,382 |turn|35
+2026-08-12 12:37:46,391 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,391 |request|{"active":[{"moves":[{"move":"Hidden Power Flying 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Leech Seed","id":"leechseed","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Protect","id":"protect","pp":15,"maxpp":16,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"206/274","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":81}
+2026-08-12 12:37:46,458 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,458 |
+2026-08-12 12:37:46,458 |t:|1786531066
+2026-08-12 12:37:46,458 |move|p2a: Jumpluff|Leech Seed|p1a: Lunatone
+2026-08-12 12:37:46,458 |-start|p1a: Lunatone|move: Leech Seed
+2026-08-12 12:37:46,458 |move|p1a: Lunatone|Ice Beam|p2a: Jumpluff
+2026-08-12 12:37:46,458 |-supereffective|p2a: Jumpluff
+2026-08-12 12:37:46,458 |-damage|p2a: Jumpluff|0 fnt
+2026-08-12 12:37:46,458 |faint|p2a: Jumpluff
+2026-08-12 12:37:46,461 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,461 |request|{"forceSwitch":[true],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":true,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"noCancel":true,"rqid":83}
+2026-08-12 12:37:46,511 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,511 |
+2026-08-12 12:37:46,511 |t:|1786531066
+2026-08-12 12:37:46,511 |switch|p2a: Arcanine|Arcanine, L78, F|268/268
+2026-08-12 12:37:46,511 |-ability|p2a: Arcanine|Intimidate|boost
+2026-08-12 12:37:46,511 |-unboost|p1a: Lunatone|atk|1
+2026-08-12 12:37:46,511 |
+2026-08-12 12:37:46,511 |-damage|p1a: Lunatone|88/100|[from] Leech Seed|[of] p2a: Arcanine
+2026-08-12 12:37:46,511 |upkeep
+2026-08-12 12:37:46,511 |turn|36
+2026-08-12 12:37:46,518 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,518 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":24,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":85}
+2026-08-12 12:37:46,578 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,578 |
+2026-08-12 12:37:46,578 |t:|1786531066
+2026-08-12 12:37:46,578 |move|p2a: Arcanine|Hidden Power|p1a: Lunatone
+2026-08-12 12:37:46,578 |-supereffective|p1a: Lunatone
+2026-08-12 12:37:46,578 |-damage|p1a: Lunatone|50/100
+2026-08-12 12:37:46,578 |move|p1a: Lunatone|Psychic|p2a: Arcanine
+2026-08-12 12:37:46,578 |-damage|p2a: Arcanine|169/268
+2026-08-12 12:37:46,578 |
+2026-08-12 12:37:46,578 |-heal|p2a: Arcanine|185/268|[from] item: Leftovers
+2026-08-12 12:37:46,578 |-heal|p1a: Lunatone|56/100|[from] item: Leftovers
+2026-08-12 12:37:46,578 |-damage|p1a: Lunatone|44/100|[from] Leech Seed|[of] p2a: Arcanine
+2026-08-12 12:37:46,578 |-heal|p2a: Arcanine|216/268|[silent]
+2026-08-12 12:37:46,578 |upkeep
+2026-08-12 12:37:46,578 |turn|37
+2026-08-12 12:37:46,582 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,582 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"216/268","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":87}
+2026-08-12 12:37:46,636 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,636 |
+2026-08-12 12:37:46,636 |t:|1786531066
+2026-08-12 12:37:46,636 |move|p2a: Arcanine|Rest|p2a: Arcanine
+2026-08-12 12:37:46,636 |-status|p2a: Arcanine|slp|[from] move: Rest
+2026-08-12 12:37:46,636 |-heal|p2a: Arcanine|268/268 slp|[silent]
+2026-08-12 12:37:46,636 |move|p1a: Lunatone|Explosion|p2a: Arcanine
+2026-08-12 12:37:46,636 |-damage|p2a: Arcanine|91/268 slp
+2026-08-12 12:37:46,636 |faint|p1a: Lunatone
+2026-08-12 12:37:46,644 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,644 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"91/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":89}
+2026-08-12 12:37:46,692 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,692 |
+2026-08-12 12:37:46,692 |t:|1786531066
+2026-08-12 12:37:46,692 |switch|p1a: Magcargo|Magcargo, F|100/100
+2026-08-12 12:37:46,692 |
+2026-08-12 12:37:46,692 |-heal|p2a: Arcanine|107/268 slp|[from] item: Leftovers
+2026-08-12 12:37:46,692 |upkeep
+2026-08-12 12:37:46,693 |turn|38
+2026-08-12 12:37:46,693 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,693 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"107/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":91}
+2026-08-12 12:37:46,730 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,730 |
+2026-08-12 12:37:46,730 |t:|1786531066
+2026-08-12 12:37:46,730 |cant|p2a: Arcanine|slp
+2026-08-12 12:37:46,730 |move|p1a: Magcargo|Fire Blast|p2a: Arcanine|[miss]
+2026-08-12 12:37:46,730 |-miss|p1a: Magcargo|p2a: Arcanine
+2026-08-12 12:37:46,730 |
+2026-08-12 12:37:46,730 |-heal|p2a: Arcanine|123/268 slp|[from] item: Leftovers
+2026-08-12 12:37:46,730 |upkeep
+2026-08-12 12:37:46,730 |turn|39
+2026-08-12 12:37:46,731 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,731 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"123/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":93}
+2026-08-12 12:37:46,772 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,772 |
+2026-08-12 12:37:46,772 |t:|1786531066
+2026-08-12 12:37:46,772 |cant|p2a: Arcanine|slp
+2026-08-12 12:37:46,772 |move|p1a: Magcargo|Fire Blast|p2a: Arcanine|[miss]
+2026-08-12 12:37:46,772 |-miss|p1a: Magcargo|p2a: Arcanine
+2026-08-12 12:37:46,772 |
+2026-08-12 12:37:46,772 |-heal|p2a: Arcanine|139/268 slp|[from] item: Leftovers
+2026-08-12 12:37:46,772 |upkeep
+2026-08-12 12:37:46,772 |turn|40
+2026-08-12 12:37:46,775 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,775 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"139/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":95}
+2026-08-12 12:37:46,826 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,826 |
+2026-08-12 12:37:46,826 |t:|1786531066
+2026-08-12 12:37:46,826 |-curestatus|p2a: Arcanine|slp|[msg]
+2026-08-12 12:37:46,826 |move|p2a: Arcanine|Rest|p2a: Arcanine
+2026-08-12 12:37:46,826 |-status|p2a: Arcanine|slp|[from] move: Rest
+2026-08-12 12:37:46,826 |-heal|p2a: Arcanine|268/268 slp|[silent]
+2026-08-12 12:37:46,826 |move|p1a: Magcargo|Toxic||[still]
+2026-08-12 12:37:46,826 |-fail|p1a: Magcargo
+2026-08-12 12:37:46,826 |
+2026-08-12 12:37:46,826 |upkeep
+2026-08-12 12:37:46,826 |turn|41
+2026-08-12 12:37:46,827 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,827 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"268/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":97}
+2026-08-12 12:37:46,871 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,871 |
+2026-08-12 12:37:46,871 |t:|1786531066
+2026-08-12 12:37:46,871 |cant|p2a: Arcanine|slp
+2026-08-12 12:37:46,871 |move|p1a: Magcargo|Hidden Power|p2a: Arcanine
+2026-08-12 12:37:46,871 |-resisted|p2a: Arcanine
+2026-08-12 12:37:46,871 |-damage|p2a: Arcanine|235/268 slp
+2026-08-12 12:37:46,872 |
+2026-08-12 12:37:46,872 |-heal|p2a: Arcanine|251/268 slp|[from] item: Leftovers
+2026-08-12 12:37:46,872 |upkeep
+2026-08-12 12:37:46,872 |turn|42
+2026-08-12 12:37:46,874 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,874 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"251/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":99}
+2026-08-12 12:37:46,911 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,911 |
+2026-08-12 12:37:46,911 |t:|1786531066
+2026-08-12 12:37:46,911 |cant|p2a: Arcanine|slp
+2026-08-12 12:37:46,911 |move|p1a: Magcargo|Hidden Power|p2a: Arcanine
+2026-08-12 12:37:46,911 |-resisted|p2a: Arcanine
+2026-08-12 12:37:46,911 |-damage|p2a: Arcanine|217/268 slp
+2026-08-12 12:37:46,911 |
+2026-08-12 12:37:46,911 |-heal|p2a: Arcanine|233/268 slp|[from] item: Leftovers
+2026-08-12 12:37:46,911 |upkeep
+2026-08-12 12:37:46,911 |turn|43
+2026-08-12 12:37:46,912 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,912 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"233/268 slp","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":101}
+2026-08-12 12:37:46,942 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,942 |
+2026-08-12 12:37:46,942 |t:|1786531066
+2026-08-12 12:37:46,942 |-curestatus|p2a: Arcanine|slp|[msg]
+2026-08-12 12:37:46,942 |move|p2a: Arcanine|Flamethrower|p1a: Magcargo
+2026-08-12 12:37:46,942 |-resisted|p1a: Magcargo
+2026-08-12 12:37:46,942 |-damage|p1a: Magcargo|92/100
+2026-08-12 12:37:46,942 |move|p1a: Magcargo|Hidden Power|p2a: Arcanine
+2026-08-12 12:37:46,942 |-resisted|p2a: Arcanine
+2026-08-12 12:37:46,942 |-damage|p2a: Arcanine|201/268
+2026-08-12 12:37:46,942 |
+2026-08-12 12:37:46,942 |-heal|p2a: Arcanine|217/268|[from] item: Leftovers
+2026-08-12 12:37:46,942 |-heal|p1a: Magcargo|98/100|[from] item: Leftovers
+2026-08-12 12:37:46,942 |upkeep
+2026-08-12 12:37:46,942 |turn|44
+2026-08-12 12:37:46,944 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,944 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"217/268","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":103}
+2026-08-12 12:37:46,987 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,987 |
+2026-08-12 12:37:46,987 |t:|1786531066
+2026-08-12 12:37:46,987 |move|p2a: Arcanine|Sleep Talk|p2a: Arcanine
+2026-08-12 12:37:46,987 |move|p1a: Magcargo|Toxic|p2a: Arcanine
+2026-08-12 12:37:46,987 |-status|p2a: Arcanine|tox
+2026-08-12 12:37:46,987 |
+2026-08-12 12:37:46,987 |-heal|p2a: Arcanine|233/268 tox|[from] item: Leftovers
+2026-08-12 12:37:46,987 |-damage|p2a: Arcanine|217/268 tox|[from] psn
+2026-08-12 12:37:46,987 |-heal|p1a: Magcargo|100/100|[from] item: Leftovers
+2026-08-12 12:37:46,987 |upkeep
+2026-08-12 12:37:46,987 |turn|45
+2026-08-12 12:37:46,991 >battle-gen3randombattle-320296
+2026-08-12 12:37:46,991 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":23,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"217/268 tox","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":105}
+2026-08-12 12:37:47,028 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,028 |
+2026-08-12 12:37:47,028 |t:|1786531067
+2026-08-12 12:37:47,028 |switch|p1a: Celebi|Celebi, L74|48/100
+2026-08-12 12:37:47,028 |move|p2a: Arcanine|Hidden Power|p1a: Celebi
+2026-08-12 12:37:47,028 |-resisted|p1a: Celebi
+2026-08-12 12:37:47,028 |-damage|p1a: Celebi|39/100
+2026-08-12 12:37:47,028 |
+2026-08-12 12:37:47,029 |-heal|p2a: Arcanine|233/268 tox|[from] item: Leftovers
+2026-08-12 12:37:47,029 |-damage|p2a: Arcanine|201/268 tox|[from] psn
+2026-08-12 12:37:47,029 |-heal|p1a: Celebi|45/100|[from] item: Leftovers
+2026-08-12 12:37:47,029 |upkeep
+2026-08-12 12:37:47,029 |turn|46
+2026-08-12 12:37:47,035 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,035 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"201/268 tox","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":107}
+2026-08-12 12:37:47,080 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,080 |
+2026-08-12 12:37:47,080 |t:|1786531067
+2026-08-12 12:37:47,080 |move|p2a: Arcanine|Flamethrower|p1a: Celebi
+2026-08-12 12:37:47,080 |-supereffective|p1a: Celebi
+2026-08-12 12:37:47,080 |-damage|p1a: Celebi|0 fnt
+2026-08-12 12:37:47,080 |faint|p1a: Celebi
+2026-08-12 12:37:47,080 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,080 |request|{"wait":true,"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"201/268 tox","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":109}
+2026-08-12 12:37:47,112 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,112 |
+2026-08-12 12:37:47,112 |t:|1786531067
+2026-08-12 12:37:47,112 |switch|p1a: Magcargo|Magcargo, F|100/100
+2026-08-12 12:37:47,112 |
+2026-08-12 12:37:47,112 |-heal|p2a: Arcanine|217/268 tox|[from] item: Leftovers
+2026-08-12 12:37:47,112 |-damage|p2a: Arcanine|169/268 tox|[from] psn
+2026-08-12 12:37:47,112 |upkeep
+2026-08-12 12:37:47,112 |turn|47
+2026-08-12 12:37:47,113 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,113 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":22,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"169/268 tox","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":111}
+2026-08-12 12:37:47,144 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,144 |
+2026-08-12 12:37:47,145 |t:|1786531067
+2026-08-12 12:37:47,145 |move|p2a: Arcanine|Hidden Power|p1a: Magcargo
+2026-08-12 12:37:47,145 |-damage|p1a: Magcargo|84/100
+2026-08-12 12:37:47,145 |move|p1a: Magcargo|Toxic|p2a: Arcanine|[miss]
+2026-08-12 12:37:47,145 |-miss|p1a: Magcargo|p2a: Arcanine
+2026-08-12 12:37:47,145 |
+2026-08-12 12:37:47,145 |-heal|p2a: Arcanine|185/268 tox|[from] item: Leftovers
+2026-08-12 12:37:47,145 |-damage|p2a: Arcanine|121/268 tox|[from] psn
+2026-08-12 12:37:47,145 |-heal|p1a: Magcargo|90/100|[from] item: Leftovers
+2026-08-12 12:37:47,145 |upkeep
+2026-08-12 12:37:47,145 |turn|48
+2026-08-12 12:37:47,146 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,146 |request|{"active":[{"moves":[{"move":"Flamethrower","id":"flamethrower","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Rest","id":"rest","pp":14,"maxpp":16,"target":"self","disabled":false},{"move":"Sleep Talk","id":"sleeptalk","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Hidden Power Grass 70","id":"hiddenpower","pp":21,"maxpp":24,"target":"normal","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":true,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"237/237","active":false,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":113}
+2026-08-12 12:37:47,180 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,180 |
+2026-08-12 12:37:47,180 |t:|1786531067
+2026-08-12 12:37:47,180 |switch|p2a: Gardevoir|Gardevoir, L79, F|237/237
+2026-08-12 12:37:47,180 |-ability|p2a: Gardevoir|Flame Body|Trace|[from] ability: Trace|[of] p1a: Magcargo
+2026-08-12 12:37:47,180 |move|p1a: Magcargo|Fire Blast|p2a: Gardevoir
+2026-08-12 12:37:47,180 |-damage|p2a: Gardevoir|95/237
+2026-08-12 12:37:47,180 |
+2026-08-12 12:37:47,180 |-heal|p2a: Gardevoir|109/237|[from] item: Leftovers
+2026-08-12 12:37:47,180 |-heal|p1a: Magcargo|96/100|[from] item: Leftovers
+2026-08-12 12:37:47,180 |upkeep
+2026-08-12 12:37:47,180 |turn|49
+2026-08-12 12:37:47,181 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,181 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":32,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"109/237","active":true,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":115}
+2026-08-12 12:37:47,208 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,208 |
+2026-08-12 12:37:47,208 |t:|1786531067
+2026-08-12 12:37:47,208 |move|p1a: Magcargo|Protect|p1a: Magcargo
+2026-08-12 12:37:47,208 |-singleturn|p1a: Magcargo|Protect
+2026-08-12 12:37:47,208 |move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+2026-08-12 12:37:47,208 |-boost|p2a: Gardevoir|spa|1
+2026-08-12 12:37:47,208 |-boost|p2a: Gardevoir|spd|1
+2026-08-12 12:37:47,208 |
+2026-08-12 12:37:47,208 |-heal|p2a: Gardevoir|123/237|[from] item: Leftovers
+2026-08-12 12:37:47,208 |-heal|p1a: Magcargo|100/100|[from] item: Leftovers
+2026-08-12 12:37:47,208 |upkeep
+2026-08-12 12:37:47,208 |turn|50
+2026-08-12 12:37:47,212 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,212 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":24,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"123/237","active":true,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":117}
+2026-08-12 12:37:47,252 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,252 |
+2026-08-12 12:37:47,252 |t:|1786531067
+2026-08-12 12:37:47,253 |move|p2a: Gardevoir|Thunderbolt|p1a: Magcargo
+2026-08-12 12:37:47,253 |-damage|p1a: Magcargo|60/100
+2026-08-12 12:37:47,253 |move|p1a: Magcargo|Hidden Power|p2a: Gardevoir
+2026-08-12 12:37:47,253 |-damage|p2a: Gardevoir|87/237
+2026-08-12 12:37:47,253 |
+2026-08-12 12:37:47,253 |-heal|p2a: Gardevoir|101/237|[from] item: Leftovers
+2026-08-12 12:37:47,253 |-heal|p1a: Magcargo|66/100|[from] item: Leftovers
+2026-08-12 12:37:47,253 |upkeep
+2026-08-12 12:37:47,253 |turn|51
+2026-08-12 12:37:47,256 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,256 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":23,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"101/237","active":true,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":119}
+2026-08-12 12:37:47,290 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,290 |
+2026-08-12 12:37:47,290 |t:|1786531067
+2026-08-12 12:37:47,290 |move|p1a: Magcargo|Protect|p1a: Magcargo
+2026-08-12 12:37:47,290 |-singleturn|p1a: Magcargo|Protect
+2026-08-12 12:37:47,290 |move|p2a: Gardevoir|Thunderbolt|p1a: Magcargo
+2026-08-12 12:37:47,290 |-activate|p1a: Magcargo|Protect
+2026-08-12 12:37:47,290 |
+2026-08-12 12:37:47,290 |-heal|p2a: Gardevoir|115/237|[from] item: Leftovers
+2026-08-12 12:37:47,290 |-heal|p1a: Magcargo|72/100|[from] item: Leftovers
+2026-08-12 12:37:47,290 |upkeep
+2026-08-12 12:37:47,290 |turn|52
+2026-08-12 12:37:47,290 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,290 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":16,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"115/237","active":true,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":121}
+2026-08-12 12:37:47,333 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,333 |
+2026-08-12 12:37:47,333 |t:|1786531067
+2026-08-12 12:37:47,333 |move|p2a: Gardevoir|Substitute|p2a: Gardevoir
+2026-08-12 12:37:47,333 |-start|p2a: Gardevoir|Substitute
+2026-08-12 12:37:47,333 |-damage|p2a: Gardevoir|56/237
+2026-08-12 12:37:47,333 |move|p1a: Magcargo|Fire Blast|p2a: Gardevoir
+2026-08-12 12:37:47,333 |-crit|p2a: Gardevoir
+2026-08-12 12:37:47,333 |-end|p2a: Gardevoir|Substitute
+2026-08-12 12:37:47,333 |
+2026-08-12 12:37:47,333 |-heal|p2a: Gardevoir|70/237|[from] item: Leftovers
+2026-08-12 12:37:47,333 |-heal|p1a: Magcargo|78/100|[from] item: Leftovers
+2026-08-12 12:37:47,333 |upkeep
+2026-08-12 12:37:47,333 |turn|53
+2026-08-12 12:37:47,333 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,333 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":31,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"70/237","active":true,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":123}
+2026-08-12 12:37:47,362 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,362 |
+2026-08-12 12:37:47,362 |t:|1786531067
+2026-08-12 12:37:47,362 |move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+2026-08-12 12:37:47,362 |-boost|p2a: Gardevoir|spa|1
+2026-08-12 12:37:47,362 |-boost|p2a: Gardevoir|spd|1
+2026-08-12 12:37:47,362 |move|p1a: Magcargo|Hidden Power|p2a: Gardevoir
+2026-08-12 12:37:47,362 |-damage|p2a: Gardevoir|42/237
+2026-08-12 12:37:47,362 |
+2026-08-12 12:37:47,362 |-heal|p2a: Gardevoir|56/237|[from] item: Leftovers
+2026-08-12 12:37:47,362 |-heal|p1a: Magcargo|84/100|[from] item: Leftovers
+2026-08-12 12:37:47,362 |upkeep
+2026-08-12 12:37:47,362 |turn|54
+2026-08-12 12:37:47,364 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,364 |request|{"active":[{"moves":[{"move":"Psychic","id":"psychic","pp":16,"maxpp":16,"target":"normal","disabled":false},{"move":"Substitute","id":"substitute","pp":15,"maxpp":16,"target":"self","disabled":false},{"move":"Thunderbolt","id":"thunderbolt","pp":22,"maxpp":24,"target":"normal","disabled":false},{"move":"Calm Mind","id":"calmmind","pp":30,"maxpp":32,"target":"self","disabled":false}]}],"side":{"name":"BOT2","id":"p2","pokemon":[{"ident":"p2: Gardevoir","details":"Gardevoir, L79, F","condition":"56/237","active":true,"stats":{"atk":107,"def":148,"spa":243,"spd":227,"spe":172},"moves":["psychic","substitute","thunderbolt","calmmind"],"baseAbility":"trace","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Jumpluff","details":"Jumpluff, L88, F","condition":"0 fnt","active":false,"stats":{"atk":146,"def":173,"spa":146,"spd":199,"spe":244},"moves":["hiddenpowerflying","substitute","leechseed","protect"],"baseAbility":"chlorophyll","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Vigoroth","details":"Vigoroth, L84, M","condition":"0 fnt","active":false,"stats":{"atk":183,"def":183,"spa":141,"spd":141,"spe":199},"moves":["bodyslam","earthquake","slackoff","bulkup"],"baseAbility":"vitalspirit","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Marowak","details":"Marowak, L83, M","condition":"0 fnt","active":false,"stats":{"atk":180,"def":230,"spa":131,"spd":180,"spe":122},"moves":["rockslide","swordsdance","doubleedge","bonemerang"],"baseAbility":"rockhead","item":"thickclub","pokeball":"pokeball"},{"ident":"p2: Arcanine","details":"Arcanine, L78, F","condition":"121/268 tox","active":false,"stats":{"atk":178,"def":170,"spa":200,"spd":170,"spe":193},"moves":["flamethrower","rest","sleeptalk","hiddenpowergrass"],"baseAbility":"intimidate","item":"leftovers","pokeball":"pokeball"},{"ident":"p2: Articuno","details":"Articuno, L80","condition":"0 fnt","active":false,"stats":{"atk":141,"def":206,"spa":198,"spd":246,"spe":182},"moves":["icebeam","protect","toxic","healbell"],"baseAbility":"pressure","item":"leftovers","pokeball":"pokeball"}]},"rqid":125}
+2026-08-12 12:37:47,387 >battle-gen3randombattle-320296
+2026-08-12 12:37:47,387 |
+2026-08-12 12:37:47,387 |t:|1786531067
+2026-08-12 12:37:47,387 |move|p2a: Gardevoir|Psychic|p1a: Magcargo
+2026-08-12 12:37:47,387 |-crit|p1a: Magcargo
+2026-08-12 12:37:47,387 |-damage|p1a: Magcargo|0 fnt
+2026-08-12 12:37:47,387 |faint|p1a: Magcargo
+2026-08-12 12:37:47,387 |
+2026-08-12 12:37:47,387 |win|BOT2
