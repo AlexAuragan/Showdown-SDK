@@ -5,6 +5,9 @@ from collections.abc import Awaitable
 from dataclasses import asdict
 from pathlib import Path
 from time import perf_counter
+from typing import NoReturn
+
+from tqdm import tqdm
 
 from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.random_handler import (
@@ -12,18 +15,18 @@ from python_showdown.classes.combat_handler.random_handler import (
 )
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
 
-WEBSOCKET_URL = "ws://192.168.1.154:8000/showdown/websocket"
-BATTLE_COUNT = 1000
+WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
+BATTLE_COUNT = 10000
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
-PLAYER_COUNT = 8
+PLAYER_COUNT = 32
 PAIR_COUNT = PLAYER_COUNT // 2
 BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    "gen1randombattle",
+    # "gen1randombattle",
     "gen2randombattle",
     "gen3randombattle",
     "gen4randombattle",
@@ -34,9 +37,8 @@ async def run_battle(
     client_1: Client,
     client_2: Client,
     fmt: str,
-    battle_number: int,
 ) -> dict[str, object]:
-    _ = await asyncio.gather(
+    await asyncio.gather(
         client_1.ensure_connected(),
         client_2.ensure_connected(),
     )
@@ -49,7 +51,7 @@ async def run_battle(
 
     battle_waiter_1, battle_waiter_2 = None, None
     try:
-        _ = await client_1.challenge(
+        await client_1.challenge(
             client_2.username,
             fmt,
             timeout=60,
@@ -58,7 +60,7 @@ async def run_battle(
             client_1.username,
         )
 
-        _ = await asyncio.gather(
+        await asyncio.gather(
             client_1.battle_manager.room_ready.wait(),
             client_2.battle_manager.room_ready.wait(),
         )
@@ -71,22 +73,22 @@ async def run_battle(
             battle_waiter_2,
         )
 
-        print(
-            f"Battle {battle_number}/{BATTLE_COUNT}: "
-            + f"winner={result_1.winner}, turns={result_1.move_count}, "
-            + f"duration={result_1.duration_seconds:.4f}s, "
-            + f"average={result_1.average_seconds_per_move:.6f}s/turn"
-        )
+        # print(
+        #     f"Battle {battle_number}/{BATTLE_COUNT}: "
+        #     + f"winner={result_1.winner}, turns={result_1.move_count}, "
+        #     + f"duration={result_1.duration_seconds:.4f}s, "
+        #     + f"average={result_1.average_seconds_per_move:.6f}s/turn"
+        # )
 
         return asdict(result_1)
 
     except BaseException:
         if battle_waiter_1 is None or battle_waiter_2 is None:
             raise
-        _ = battle_waiter_1.cancel()
-        _ = battle_waiter_2.cancel()
+        battle_waiter_1.cancel()
+        battle_waiter_2.cancel()
 
-        _ = await asyncio.gather(
+        await asyncio.gather(
             battle_waiter_1,
             battle_waiter_2,
             return_exceptions=True,
@@ -97,50 +99,55 @@ async def run_battle(
 
 def write_error(error: str) -> None:
     with ERROR_LOG.open("a", encoding="utf-8") as file:
-        _ = file.write(error)
+        file.write(error)
 
 
 async def run_pair(
     client_1: Client,
     client_2: Client,
+    logs: LogManager,
     fmt: str,
     pair_index: int,
     battle_offset: int,
+    progress: tqdm[NoReturn],
 ) -> tuple[list[dict[str, object]], int]:
-    """Run BATTLES_PER_PAIR battles sequentially between two clients.
-
-    `battle_offset` is the global battle number this pair starts at, used
-    only for nicer log messages.
-    """
     results: list[dict[str, object]] = []
     failed_battles = 0
 
     for i in range(BATTLES_PER_PAIR):
         battle_number = battle_offset + i + 1
+        logs.clear_latest_raw_log_path()
+
         try:
             result = await run_battle(
                 client_1,
                 client_2,
-                battle_number=battle_number,
                 fmt=fmt,
             )
             results.append(result)
 
-        except Exception:  # noqa: BLE001 # This is intentional
+        except Exception:  # noqa: BLE001
             failed_battles += 1
+            raw_log_path = logs.latest_raw_log_path()
 
             error = (
                 f"\n{'=' * 80}\n"
                 f"Battle {battle_number} failed (pair {pair_index + 1})\n"
                 f"Format: {fmt}\n"
+                f"Client 1 raw log: "
+                f"{raw_log_path if raw_log_path is not None else 'not available'}\n"
                 f"{traceback.format_exc()}"
             )
 
+            print() # print file here
             print(error)
+
             await asyncio.to_thread(write_error, error)
 
-    return results, failed_battles
+        finally:
+            progress.update(1)
 
+    return results, failed_battles
 
 async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
     """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
@@ -202,9 +209,9 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
     results: list[dict[str, object]] = []
 
     try:
-        _ = await asyncio.gather(*(client.connect() for client in clients))
+        await asyncio.gather(*(client.connect() for client in clients))
 
-        _ = await asyncio.gather(
+        await asyncio.gather(
             *(client.login(f"BOT{i}") for i, client in enumerate(clients, start=1))
         )
         for i, client in enumerate(clients, start=1):
@@ -212,23 +219,38 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
 
         t0 = perf_counter()
 
+
+        progress = tqdm(
+            total=BATTLES_PER_PAIR * PAIR_COUNT,
+            desc=fmt,
+            unit="battle",
+            dynamic_ncols=True,
+        )
+
         # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
         pair_tasks: list[Awaitable[tuple[list[dict[str, object]], int]]] = []
+
         for pair_index in range(PAIR_COUNT):
             client_1 = clients[pair_index * 2]
             client_2 = clients[pair_index * 2 + 1]
             battle_offset = pair_index * BATTLES_PER_PAIR
+
             pair_tasks.append(
                 run_pair(
                     client_1,
                     client_2,
                     fmt=fmt,
+                    logs=log_managers[pair_index * 2],
                     pair_index=pair_index,
                     battle_offset=battle_offset,
+                    progress=progress,
                 )
             )
 
-        pair_results = await asyncio.gather(*pair_tasks)
+        try:
+            pair_results = await asyncio.gather(*pair_tasks)
+        finally:
+            progress.close()
 
         for pair_results_list, pair_failed in pair_results:
             results.extend(pair_results_list)
@@ -269,7 +291,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
             print(f"Average time per turn: {average_turn_duration:.6f}s")
 
     finally:
-        _ = await asyncio.gather(
+        await asyncio.gather(
             *(client.close() for client in clients),
             return_exceptions=True,
         )
@@ -279,7 +301,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
 
 async def main() -> None:
     for fmt in FORMATS:
-        _ = await run_format(fmt)
+        await run_format(fmt)
 
 
 if __name__ == "__main__":

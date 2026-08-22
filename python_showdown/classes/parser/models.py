@@ -58,6 +58,7 @@ class RequestMove:
     max_pp: int | None
     target: str | None
     disabled: bool
+    disabled_source: str | None  # Why the move was disabled
 
 
 @dataclass(frozen=True)

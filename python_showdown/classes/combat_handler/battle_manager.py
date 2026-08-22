@@ -65,7 +65,7 @@ class BattleManager:
         self._action_timeout_task = None
 
         if task is not None:
-            _ = task.cancel()
+            task.cancel()
 
     async def _raise_on_action_timeout(
         self,

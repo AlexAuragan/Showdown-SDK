@@ -188,8 +188,6 @@ class BattleParser(MessageParser):
             raise RuntimeError("Cannot feed lines after finish()")
         if message.command == "init" and self.history:
             self.reset(keep_player_id=True)
-        if self.player_id is None and message.command not in {"room", "init"}:
-            raise ValueError("player_id not set")
 
         self.raw_history.append(message)
         # if message.command == "request":
@@ -246,10 +244,6 @@ class BattleParser(MessageParser):
             return ParseResult(
                 tuple(handle_room(player_id, message, self._last_message_room_id)), 1
             )
-
-        if player_id is None:
-            raise RuntimeError("player_id not set")
-
         if is_ignored_message(message):
             return ParseResult((), 1)
         if message.command == "move":
@@ -299,7 +293,7 @@ class BattleParser(MessageParser):
 
         return completed
 
-    def _parse_move(self, player_id: str, start: int) -> ParseResult | None:
+    def _parse_move(self, player_id: str | None, start: int) -> ParseResult | None:
         end = self._find_move_end(start)
         if end is None:
             return None
@@ -431,6 +425,7 @@ class BattleParser(MessageParser):
                 "maxpp",
                 "target",
                 "disabled",
+                "disabledSource",
             }
 
             for i, raw_move_value in enumerate(raw_moves):
@@ -459,16 +454,39 @@ class BattleParser(MessageParser):
                     f"move[{i}]['target']",
                 )
 
-                if move_id in {"recharge", "struggle"}:
-                    curr_pp = None
-                    max_pp = None
-                    disabled = False
-                    target = None
+                _disabled_source = raw_move.get("disabledSource", "")
+                disabled_source: str | None = (
+                    _expect_str(_disabled_source, "move['disabledSource']") or None
+                )
+
+                # Mostly phase 2 of two turn moves, recharge and struggle
+                if move_id in {
+                    "recharge",
+                    "struggle",
+                    "fight",
+                    "skyattack",
+                    "solarbeam",
+                    "rollout",
+                    "outrage",
+                }:
+                    curr_pp = raw_move.get("pp", None)
+                    max_pp = raw_move.get("maxpp", None)
+                    disabled = raw_move.get("disabled", False)
+
+                    if curr_pp is not None:
+                        curr_pp = _expect_int(curr_pp, "move['pp']")
+                    if max_pp is not None:
+                        max_pp = _expect_int(max_pp, "move['maxpp']")
+                    disabled = _expect_bool(disabled, "move['disabled']")
+
+                    if move_id in {"recharge", "struggle"}:
+                        target = None
+
                 else:
                     missing = {"pp", "maxpp", "disabled"} - set(raw_move)
                     if missing:
                         raise ValueError(
-                            f"Move is missing required keys: {sorted(missing)}"
+                            f"Move is missing required keys: {sorted(missing)}, move: {raw_move}"
                         )
 
                     curr_pp = _expect_int(
@@ -492,6 +510,7 @@ class BattleParser(MessageParser):
                         max_pp=max_pp,
                         target=target,
                         disabled=disabled,
+                        disabled_source=disabled_source,
                     )
                 )
 

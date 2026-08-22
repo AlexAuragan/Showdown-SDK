@@ -515,7 +515,6 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "aiohttp" },
-    { name = "pytest" },
     { name = "requests" },
     { name = "websockets" },
 ]
@@ -532,7 +531,6 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.14.1" },
-    { name = "pytest", specifier = ">=9.1.1" },
     { name = "requests", specifier = ">=2.34.2" },
     { name = "websockets", specifier = ">=16.1" },
 ]

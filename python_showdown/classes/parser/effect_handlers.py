@@ -243,6 +243,8 @@ def parse_effect_message(
     ``None`` means the command does not belong to the shared effect layer.
     An empty list means it was recognized and deliberately emitted no event.
     """
+    if context.player_id is None:
+        raise ValueError("Player id not set")
 
     for rule in SPECIAL_EFFECT_RULES.get(message.command, ()):
         if rule.predicate(message, context):
@@ -257,6 +259,8 @@ def parse_effect_message(
 def _parse_damage(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
+    if context.player_id is None:
+        raise ValueError("Player id not set")
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
     condition = parse_condition(message.arguments[1])
@@ -280,6 +284,8 @@ def _parse_damage(
 def _parse_heal(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
+    if context.player_id is None:
+        raise ValueError("Player id not set")
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
     condition = parse_condition(message.arguments[1])
@@ -410,6 +416,8 @@ def _parse_explicit_ability(
 def _parse_set_hp(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
+    if context.player_id is None:
+        raise ValueError("Player id not set")
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
     condition = parse_condition(message.arguments[1])
@@ -827,6 +835,11 @@ def _parse_hint(
             + "Substitute there is no damage dealt."
         ),
         (
+            "In Gen 1, if a Pokemon with a Substitute hurts itself due to "
+            + "confusion or Jump Kick/Hi Jump Kick recoil and the target has a "
+            + "Substitute, the target's Substitute takes the damage."
+        ),
+        (
             "In Gen 2, Toxic's counter is retained through Baton Pass/Heal Bell and applies to PSN/BRN."
         ),
         ("If you want to tie earlier, consider using `/offertie`."),
@@ -844,7 +857,8 @@ def _parse_hint(
                 reason="Unhandled hint: " + message.arguments[0],
             )
         ]
-    return [UnhandledEvent.from_message(message)]
+    raise NotImplementedError(message.arguments[0])
+    # return [UnhandledEvent.from_message(message)]
 
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {

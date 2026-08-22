@@ -47,12 +47,14 @@ from python_showdown.classes.parser.protocol import (
 )
 from python_showdown.models.sdk.battle_state import SourceType
 
-CommandHandler = Callable[[str, ProtocolMessage, str], list[BaseEvent]]
+CommandHandler = Callable[[str | None, ProtocolMessage, str], list[BaseEvent]]
 
 
 def handle_switch(
-    player_id: str, message: ProtocolMessage, _room_id: str
+    player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
+    if player_id is None:
+        raise ValueError("Player id not set")
     if message.command not in {"switch", "drag", "replace"}:
         raise ValueError(f"Expected switch-like command, got {message.command!r}")
     require_arguments(message, 3)
@@ -74,14 +76,14 @@ def handle_switch(
 
 
 def handle_turn(
-    _player_id: str, message: ProtocolMessage, _room_id: str
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
     return [TurnEvent(int(message.arguments[0]))]
 
 
 def handle_cant(
-    _player_id: str, message: ProtocolMessage, _room_id: str
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     if len(message.arguments) < 2:
         raise ValueError(f"Malformed cant message: {message.raw!r}")
@@ -96,7 +98,7 @@ def handle_cant(
 
 
 def handle_battle_end(
-    _player_id: str, message: ProtocolMessage, room_id: str
+    _player_id: str | None, message: ProtocolMessage, room_id: str
 ) -> list[BaseEvent]:
     if message.command == "tie":
         return [BattleEndEvent(None, room_id)]
@@ -107,7 +109,7 @@ def handle_battle_end(
 
 
 def handle_player(
-    _player_id: str, message: ProtocolMessage, _room_id: str
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     """
     |player|p2| <- ignore this one
@@ -126,7 +128,7 @@ def handle_player(
 
 
 def handle_error(
-    _player_id: str, message: ProtocolMessage, _room_id: str
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     category = message.annotations[0].name
     content = str(message.annotations[0].value)
@@ -185,7 +187,7 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
 
 
 def parse_standalone_effect(
-    player_id: str,
+    player_id: str | None,
     message: ProtocolMessage,
     context: ProtocolContext,
 ) -> list[BaseEvent]:
@@ -206,7 +208,7 @@ def parse_standalone_effect(
 
 
 def parse_move_group(
-    player_id: str,
+    player_id: str | None,
     action_id: int,
     messages: tuple[ProtocolMessage, ...],
     context: ProtocolContext,

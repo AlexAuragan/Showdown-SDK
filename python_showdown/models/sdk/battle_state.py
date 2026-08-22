@@ -222,7 +222,7 @@ class BattleState:
                     + f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?",
                     f"Pokemon: {self.enemy_team}",
                 )
-            _ = self._enemy_team.pop(idx)
+            self._enemy_team.pop(idx)
             self._enemy_team.append(pokemon)
         else:
             pokemon.active = True

@@ -54,6 +54,7 @@ class BattleFileHandler(logging.Handler):
         self._handlers: dict[str, logging.FileHandler] = {}
 
         self.directory.mkdir(parents=True, exist_ok=True)
+        self.last_path: Path | None = None
 
     @override
     def emit(self, record: logging.LogRecord) -> None:
@@ -71,6 +72,8 @@ class BattleFileHandler(logging.Handler):
             handler = self._create_handler(room_id_value)
             self._handlers[room_id_value] = handler
 
+        self.last_path = Path(handler.baseFilename)
+
         handler.emit(record)
 
     def close_room(self, room_id: str) -> None:
@@ -78,6 +81,9 @@ class BattleFileHandler(logging.Handler):
         handler = self._handlers.pop(room_id, None)
         if handler is not None:
             handler.close()
+
+    def clear_last_path(self) -> None:
+        self.last_path = None
 
     def _create_handler(
         self,
@@ -204,6 +210,18 @@ class LogManager:
                 seen.add(id(handler))
                 if isinstance(handler, BattleFileHandler):
                     handler.close_room(room_id)
+
+    def latest_raw_log_path(self) -> Path | None:
+        for handler in self.protocol.handlers:
+            if isinstance(handler, BattleFileHandler):
+                return handler.last_path
+
+        return None
+
+    def clear_latest_raw_log_path(self) -> None:
+        for handler in self.protocol.handlers:
+            if isinstance(handler, BattleFileHandler):
+                handler.clear_last_path()
 
 
 def create_console_handler(

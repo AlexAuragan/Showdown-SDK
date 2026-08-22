@@ -40,7 +40,7 @@ class TargetModifiers:
 
 @dataclass
 class EffectParseContext:
-    player_id: str
+    player_id: str | None
     source: EffectSource
     protocol_context: ProtocolContext
     action_id: int | None = None

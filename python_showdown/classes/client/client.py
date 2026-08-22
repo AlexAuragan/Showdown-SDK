@@ -9,6 +9,7 @@ from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
+from python_showdown.classes.parser.events.base import DiscardedEvent, UnhandledEvent
 from python_showdown.classes.parser.events.battle import BattleEvent
 from python_showdown.classes.parser.events.lobby import LobbyEvent
 from python_showdown.classes.parser.exceptions import (
@@ -123,7 +124,7 @@ class Client:
         await self.websocket.send(f"|/trn {username}")
 
         try:
-            _ = await asyncio.wait_for(
+            await asyncio.wait_for(
                 self.ready.wait(),
                 timeout=timeout,
             )
@@ -156,7 +157,7 @@ class Client:
         self.ready.clear()
 
         if receive_task is not None and receive_task is not asyncio.current_task():
-            _ = receive_task.cancel()
+            receive_task.cancel()
             try:
                 await receive_task
             except asyncio.CancelledError:
@@ -224,6 +225,13 @@ class Client:
                                 event.update_manager(self.battle_manager)
                             elif isinstance(event, LobbyEvent):
                                 event.update_client(self)
+                            elif isinstance(event, DiscardedEvent):
+                                pass
+                            elif isinstance(event, UnhandledEvent):
+                                print(event.raw)
+                                print(type(event))
+                                print(event)
+                                raise NotImplementedError(event.raw)
                             else:
                                 raise NotImplementedError(type(event))
 
@@ -347,28 +355,36 @@ class Client:
         """
         task = self._receive_task
         disconnected = self.websocket is None or task is None or task.done()
+
         if not disconnected:
             return
 
-        # Retrieve the dead task's exception so asyncio does not log an
-        # "exception was never retrieved" warning.
         if task is not None and task.done() and not task.cancelled():
-            _ = task.exception()
+            task.exception()
 
-        await self.connect()
+        username = self.username
 
-        if self.username is not None:
-            # The server may briefly still hold the old name right after the
-            # socket drops, which makes the first login time out; retry a couple
-            # of times while it deregisters the previous session.
-            for attempt in range(3):
-                try:
-                    await self.login(self.username)
+        for attempt in range(3):
+            await self.connect()
+
+            try:
+                if username is not None:
+                    await self.login(username)
+
+                task = self._receive_task
+                if self.websocket is not None and task is not None and not task.done():
                     return
-                except TimeoutError:
-                    if attempt == 2:
-                        raise
+
+            except TimeoutError:
+                if attempt == 2:
+                    raise
+
+            await self.close()
+
+            if attempt < 2:
                 await asyncio.sleep(1.0)
+
+        raise ConnectionError(f"Failed to reconnect client {username!r}")
 
     async def challenge(
         self,
@@ -435,7 +451,7 @@ class Client:
         manager.battle_started_at = perf_counter()
         manager.turn = 0
 
-        _ = await asyncio.wait_for(
+        await asyncio.wait_for(
             manager.room_ready.wait(),
             timeout=timeout,
         )
@@ -536,7 +552,7 @@ class Client:
             manager.room_ready.clear()
 
             if room_id:
-                self.log_manager.close_room(manager.room_id)
+                self.log_manager.close_room(room_id)
 
     async def accept_challenge(self, challenger: str) -> None:
         await self.ensure_connected()

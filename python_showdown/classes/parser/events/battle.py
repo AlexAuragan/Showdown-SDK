@@ -429,7 +429,7 @@ class SideConditionEvent(BattleEvent):
             else:
                 slot = side_conds.get(self.side)
                 if slot is not None:
-                    _ = slot.pop(self.condition, None)
+                    slot.pop(self.condition, None)
             return
 
         # if side is set to None, apply the condition event on all sides
@@ -438,7 +438,7 @@ class SideConditionEvent(BattleEvent):
                 conds[self.condition] = conds.get(self.condition, 0) + 1
             else:
                 if self.condition in conds:
-                    _ = conds.pop(self.condition)
+                    conds.pop(self.condition)
 
 
 @dataclass(frozen=True)
@@ -717,15 +717,8 @@ class PlayerEvent(BattleEvent):
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
-        # We can't use event order to determine which id / username the player is.
-        pass
-        # If the client has no username, it picks the first player of the battle
-        # TODO check if it's true that the first player is the POV player
-        # if manager.player_username is None:
-        #    manager.player_username = self.name
-        #
-        # if self.name == manager.player_username:
-        #     manager.player_id = self.slot
+        if self.name == manager.player_username:
+            manager.player_id = self.slot
 
 
 @dataclass(frozen=True)

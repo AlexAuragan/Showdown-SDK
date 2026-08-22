@@ -159,7 +159,7 @@ if __name__ == "__main__":
             with open(log_path, "r", encoding="utf-8") as f:
                 for line_number, line in enumerate(f.readlines(), start=1):
                     try:
-                        _ = parser.handle_line(
+                        parser.handle_line(
                             line=line,
                             has_log_timestamp=True,
                         )
@@ -175,7 +175,7 @@ if __name__ == "__main__":
             if skipped:
                 continue
 
-            _ = parser.finish(player_id="p1")
+            parser.finish(player_id="p1")
 
             raw_counts = Counter(message.command for message in parser.raw_history)
             event_counts = Counter(type(event).__name__ for event in parser.history)
