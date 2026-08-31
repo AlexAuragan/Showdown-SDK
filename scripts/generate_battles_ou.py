@@ -13,7 +13,7 @@ from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
-from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
+from python_showdown.logger import TRACE, LogManager, create_battle_file_handler, start_file_io_worker, stop_file_io_worker
 from python_showdown.models.sdk.sample_team_generator import SampleTeamGenerator
 from scripts.utils import write_battle_outputs
 
@@ -280,6 +280,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
             print(f"Average time per turn: {average_turn_duration:.6f}s")
 
     finally:
+        stop_file_io_worker()
         await asyncio.gather(
             *(client.close() for client in clients),
             return_exceptions=True,
@@ -295,5 +296,6 @@ async def main() -> None:
 
 if __name__ == "__main__":
     t0 = perf_counter()
+    start_file_io_worker()
     asyncio.run(main())
     print("Took ", perf_counter() - t0)
