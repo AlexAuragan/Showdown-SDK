@@ -234,6 +234,7 @@ def parse_move_group(
         source=source,
         protocol_context=context,
         action_id=action_id,
+
     )
     effects: list[BaseEvent] = []
 
@@ -256,17 +257,35 @@ def parse_move_group(
         else:
             effects.extend(parsed_events)
 
+    from_ = annotation_value(move_message, "from")
+
+    if from_ is None:
+        source = None
+    elif ": " not in from_:
+        if from_ == "Mirror Move":
+            source = EffectSource(type=SourceType.MOVE, name=from_)
+        else:
+            source = EffectSource(type=SourceType.UNKNOWN, name=from_)
+    else:
+        source_type, effect_name = from_.strip().split(": ")
+        match source_type:
+            case "ability":
+                source = EffectSource(type=SourceType.ABILITY, name=effect_name)
+            case "move":
+                source = EffectSource(type=SourceType.MOVE, name=effect_name)
+            case _:
+                raise ValueError(f"Unkown source from: {from_}")
     return [
         MoveEvent(
             action_id=action_id,
             move=move,
-            source=user,
-            target=target,
+            source_pokemon=user,
+            target_pokemon=target,
             success=state.success,
             does_hit=state.does_hit,
             failure_reason=state.failure_reason,
             hit_count=state.hit_count,
-            from_move=annotation_value(move_message, "from"),
+            source=source,
         ),
         *effects,
     ]

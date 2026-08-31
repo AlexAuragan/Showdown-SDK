@@ -30,6 +30,7 @@ from python_showdown.classes.parser.events import (
 from python_showdown.classes.parser.events.battle import (
     BattleStartEvent,
     DecisionRequestEvent,
+    TeamPreviewRequestEvent,
 )
 from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.models import (
@@ -47,6 +48,19 @@ from python_showdown.models.pokemon.status import MajorStatus
 from python_showdown.models.sdk.battle_state import BattleState
 
 type Payload = bool | str | int | dict[str, Payload] | list[Payload]
+
+MULTI_TURN_MOVES = {
+    "fight",
+    "skyattack",
+    "solarbeam",
+    "rollout",
+    "outrage",
+    "clamp",
+    "firespin",
+    "bind",
+    "wrap",
+    "dig",
+}
 
 
 def _expect_object(value: object, name: str) -> dict[str, object]:
@@ -132,6 +146,13 @@ class BattleParser(MessageParser):
         self._last_message_room_id: str = ""
 
     @property
+    def gen(self) -> int:
+        gen = self.protocol_context.gen
+        if gen is None:
+            raise ValueError("gen was accessed before getting initialized")
+        return gen
+
+    @property
     def player_id(self) -> str | None:
         return self._manager.player_id
 
@@ -187,7 +208,7 @@ class BattleParser(MessageParser):
         if self.input_finished:
             raise RuntimeError("Cannot feed lines after finish()")
         if message.command == "init" and self.history:
-            self.reset(keep_player_id=True)
+            self.reset()
 
         self.raw_history.append(message)
         # if message.command == "request":
@@ -198,7 +219,7 @@ class BattleParser(MessageParser):
 
         return self._parse_available_events(self.player_id)
 
-    def reset(self, keep_player_id: bool = False) -> None:
+    def reset(self) -> None:
         """Discard all accumulated battle state so the parser can drive a new battle.
 
         Called in live mode when a |init|battle arrives after the previous
@@ -213,7 +234,7 @@ class BattleParser(MessageParser):
         self.input_finished = False
         self.protocol_context = ProtocolContext()
         self.battle_state_handler = BattleStateHandler()
-        self._manager.battle_state.reset(keep_player_id)
+        self._last_message_room_id = ""
 
     def finish(self, player_id: str) -> list[BaseEvent]:
         if self.input_finished:
@@ -313,55 +334,10 @@ class BattleParser(MessageParser):
                 return index
         return len(self.raw_history) if self.input_finished else None
 
-    def _parse_request_event(
+    def _parse_request_pokemon(
         self,
-        message: ProtocolMessage,
-    ) -> DecisionRequestEvent:
-        if message.command != "request":
-            raise ValueError(f"Expected request message, got {message.command!r}")
-
-        if not message.arguments:
-            raise ValueError("Request message has no JSON payload")
-
-        raw_payload = "|".join(message.arguments)
-
-        try:
-            decoded = cast(object, json.loads(raw_payload))
-        except json.JSONDecodeError as exc:
-            raise ValueError(f"Invalid JSON request payload: {raw_payload!r}") from exc
-
-        data = _expect_object(decoded, "request")
-
-        request_keys = {
-            "active",
-            "forceSwitch",
-            "rqid",
-            "side",
-            "wait",
-            "noCancel",
-            "update",
-        }
-        _validate_keys(
-            data,
-            allowed=request_keys,
-            required={"side"},
-            name="request",
-        )
-
-        update = _expect_bool(data.get("update", False), "request['update']")
-        no_cancel = _expect_bool(data.get("noCancel", False), "request['noCancel']")
-        request_id = _expect_int(data.get("rqid", 0), "request['rqid']")
-        wait = _expect_bool(data.get("wait", False), "request['wait']")
-
-        raw_force_switch = _expect_array(
-            data.get("forceSwitch", []),
-            "request['forceSwitch']",
-        )
-        force_switch = tuple(
-            _expect_bool(value, f"request['forceSwitch'][{i}]")
-            for i, value in enumerate(raw_force_switch)
-        )
-
+        data: dict[str, object],
+    ) -> tuple[RequestPokemon, ...]:
         side = _expect_object(data["side"], "request['side']")
 
         side_keys = {"id", "name", "pokemon"}
@@ -378,141 +354,6 @@ class BattleParser(MessageParser):
             raise ValueError(
                 f"Request player mismatch: {side_id=!r}, {self.player_id=!r}"
             )
-
-        moves: list[RequestMove] = []
-        trapped = False
-        maybe_trapped = False
-
-        if "active" in data:
-            active = _expect_array(data["active"], "request['active']")
-
-            if len(active) != 1:
-                raise ValueError(
-                    f"Expected exactly one active Pokémon, got {len(active)}"
-                )
-
-            active_request = _expect_object(
-                active[0],
-                "request['active'][0]",
-            )
-
-            active_keys = {"moves", "trapped", "maybeTrapped"}
-            _validate_keys(
-                active_request,
-                allowed=active_keys,
-                required={"moves"},
-                name="active request",
-            )
-
-            trapped = _expect_bool(
-                active_request.get("trapped", False),
-                "request['active'][0]['trapped']",
-            )
-            maybe_trapped = _expect_bool(
-                active_request.get("maybeTrapped", False),
-                "request['active'][0]['maybeTrapped']",
-            )
-
-            raw_moves = _expect_array(
-                active_request["moves"],
-                "request['active'][0]['moves']",
-            )
-
-            move_keys = {
-                "move",
-                "id",
-                "pp",
-                "maxpp",
-                "target",
-                "disabled",
-                "disabledSource",
-            }
-
-            for i, raw_move_value in enumerate(raw_moves):
-                raw_move = _expect_object(
-                    raw_move_value,
-                    f"request['active'][0]['moves'][{i}]",
-                )
-
-                _validate_keys(
-                    raw_move,
-                    allowed=move_keys,
-                    required={"move", "id"},
-                    name="move",
-                )
-
-                name = _expect_str(
-                    raw_move["move"],
-                    f"move[{i}]['move']",
-                )
-                move_id = _expect_str(
-                    raw_move["id"],
-                    f"move[{i}]['id']",
-                )
-                target = _expect_str(
-                    raw_move.get("target", "normal"),
-                    f"move[{i}]['target']",
-                )
-
-                _disabled_source = raw_move.get("disabledSource", "")
-                disabled_source: str | None = (
-                    _expect_str(_disabled_source, "move['disabledSource']") or None
-                )
-
-                # Mostly phase 2 of two turn moves, recharge and struggle
-                if move_id in {
-                    "recharge",
-                    "struggle",
-                    "fight",
-                    "skyattack",
-                    "solarbeam",
-                    "rollout",
-                    "outrage",
-                }:
-                    curr_pp = raw_move.get("pp", None)
-                    max_pp = raw_move.get("maxpp", None)
-                    disabled = raw_move.get("disabled", False)
-
-                    if curr_pp is not None:
-                        curr_pp = _expect_int(curr_pp, "move['pp']")
-                    if max_pp is not None:
-                        max_pp = _expect_int(max_pp, "move['maxpp']")
-                    disabled = _expect_bool(disabled, "move['disabled']")
-
-                    if move_id in {"recharge", "struggle"}:
-                        target = None
-
-                else:
-                    missing = {"pp", "maxpp", "disabled"} - set(raw_move)
-                    if missing:
-                        raise ValueError(
-                            f"Move is missing required keys: {sorted(missing)}, move: {raw_move}"
-                        )
-
-                    curr_pp = _expect_int(
-                        raw_move["pp"],
-                        f"move[{i}]['pp']",
-                    )
-                    max_pp = _expect_int(
-                        raw_move["maxpp"],
-                        f"move[{i}]['maxpp']",
-                    )
-                    disabled = _expect_bool(
-                        raw_move["disabled"],
-                        f"move[{i}]['disabled']",
-                    )
-
-                moves.append(
-                    RequestMove(
-                        name=name,
-                        id=move_id,
-                        curr_pp=curr_pp,
-                        max_pp=max_pp,
-                        target=target,
-                        disabled=disabled,
-                        disabled_source=disabled_source,
-                    )
-                )
 
         raw_pokemon = _expect_array(
             side["pokemon"],
@@ -603,7 +444,10 @@ class BattleParser(MessageParser):
             )
 
             clean_details = (
-                details.replace(", shiny", "").replace(", M", "").replace(", F", "")
+                details
+                .replace(", shiny", "")
+                .replace(", M", "")
+                .replace(", F", "")
             )
 
             if ", L" in clean_details:
@@ -620,6 +464,7 @@ class BattleParser(MessageParser):
                 raw["moves"],
                 f"request['side']['pokemon'][{i}]['moves']",
             )
+
             pokemon_moves = tuple(
                 _expect_str(
                     move,
@@ -632,18 +477,22 @@ class BattleParser(MessageParser):
                 raw["ident"],
                 f"request['side']['pokemon'][{i}]['ident']",
             )
+
             active = _expect_bool(
                 raw["active"],
                 f"request['side']['pokemon'][{i}]['active']",
             )
+
             base_ability = _expect_str(
                 raw["baseAbility"],
                 f"request['side']['pokemon'][{i}]['baseAbility']",
             )
+
             item = _expect_str(
                 raw["item"],
                 f"request['side']['pokemon'][{i}]['item']",
             )
+
             pokeball = _expect_str(
                 raw["pokeball"],
                 f"request['side']['pokemon'][{i}]['pokeball']",
@@ -673,6 +522,346 @@ class BattleParser(MessageParser):
         if sum(p.active for p in pokemon) > 1:
             raise ValueError("Request contains more than one active Pokémon")
 
+        return tuple(pokemon)
+
+    def _parse_request_team_preview_event(
+        self,
+        data: dict[str, object],
+    ) -> TeamPreviewRequestEvent:
+        request_keys = {
+            "teamPreview",
+            "maxChosenTeamSize",
+            "rqid",
+            "side",
+            "noCancel",
+        }
+
+        _validate_keys(
+            data,
+            allowed=request_keys,
+            required={"teamPreview", "side"},
+            name="team preview request",
+        )
+
+        team_preview = _expect_bool(
+            data["teamPreview"],
+            "request['teamPreview']",
+        )
+
+        if not team_preview:
+            raise ValueError(
+                "Team preview request has teamPreview=false"
+            )
+
+        raw_request_id = data.get("rqid")
+        request_id = (
+            None
+            if raw_request_id is None
+            else _expect_int(raw_request_id, "request['rqid']")
+        )
+
+        raw_max_chosen_team_size = data.get("maxChosenTeamSize")
+        max_chosen_team_size = (
+            None
+            if raw_max_chosen_team_size is None
+            else _expect_int(
+                raw_max_chosen_team_size,
+                "request['maxChosenTeamSize']",
+            )
+        )
+
+        no_cancel = _expect_bool(
+            data.get("noCancel", False),
+            "request['noCancel']",
+        )
+
+        pokemon = self._parse_request_pokemon(data)
+
+        if self.player_id is None:
+            raise ValueError("self.player_id must not be None")
+
+        if (
+            max_chosen_team_size is not None
+            and max_chosen_team_size > len(pokemon)
+        ):
+            raise ValueError(
+                "maxChosenTeamSize cannot exceed the number of Pokémon: "
+                + f"{max_chosen_team_size=} {len(pokemon)=}"
+            )
+
+        return TeamPreviewRequestEvent(
+            player_id=self.player_id,
+            request_id=request_id,
+            pokemon=pokemon,
+            max_chosen_team_size=max_chosen_team_size,
+            no_cancel=no_cancel,
+        )
+
+    def _parse_request_event(
+        self,
+        message: ProtocolMessage,
+    ) -> DecisionRequestEvent | TeamPreviewRequestEvent:
+        if message.command != "request":
+            raise ValueError(f"Expected request message, got {message.command!r}")
+
+        if not message.arguments:
+            raise ValueError("Request message has no JSON payload")
+
+        raw_payload = "|".join(message.arguments)
+
+        try:
+            decoded = cast(object, json.loads(raw_payload))
+        except json.JSONDecodeError as exc:
+            raise ValueError(
+                f"Invalid JSON request payload: {raw_payload!r}"
+            ) from exc
+
+        data = _expect_object(decoded, "request")
+
+        # Team Preview is a different kind of decision request.
+        if "teamPreview" in data:
+            return self._parse_request_team_preview_event(data)
+
+        request_keys = {
+            "active",
+            "forceSwitch",
+            "rqid",
+            "side",
+            "wait",
+            "noCancel",
+            "update",
+        }
+
+        _validate_keys(
+            data,
+            allowed=request_keys,
+            required={"side"},
+            name="request",
+        )
+
+        update = _expect_bool(
+            data.get("update", False),
+            "request['update']",
+        )
+        no_cancel = _expect_bool(
+            data.get("noCancel", False),
+            "request['noCancel']",
+        )
+        request_id = _expect_int(
+            data.get("rqid", 0),
+            "request['rqid']",
+        )
+        wait = _expect_bool(
+            data.get("wait", False),
+            "request['wait']",
+        )
+
+        raw_force_switch = _expect_array(
+            data.get("forceSwitch", []),
+            "request['forceSwitch']",
+        )
+
+        force_switch = tuple(
+            _expect_bool(
+                value,
+                f"request['forceSwitch'][{i}]",
+            )
+            for i, value in enumerate(raw_force_switch)
+        )
+
+        moves: list[RequestMove] = []
+
+        trapped = False
+        maybe_trapped = False
+        maybe_locked = False
+        maybe_disabled = False
+
+        if "active" in data:
+            active = _expect_array(
+                data["active"],
+                "request['active']",
+            )
+
+            if len(active) != 1:
+                raise ValueError(
+                    f"Expected exactly one active Pokémon, got {len(active)}"
+                )
+
+            active_request = _expect_object(
+                active[0],
+                "request['active'][0]",
+            )
+
+            active_keys = {
+                "moves",
+                "trapped",
+                "maybeTrapped",
+                "maybeLocked",
+                "maybeDisabled",
+            }
+
+            _validate_keys(
+                active_request,
+                allowed=active_keys,
+                required={"moves"},
+                name="active request",
+            )
+
+            trapped = _expect_bool(
+                active_request.get("trapped", False),
+                "request['active'][0]['trapped']",
+            )
+
+            maybe_trapped = _expect_bool(
+                active_request.get("maybeTrapped", False),
+                "request['active'][0]['maybeTrapped']",
+            )
+
+            maybe_disabled = _expect_bool(
+                active_request.get("maybeDisabled", False),
+                "request['active'][0]['maybeDisabled']",
+            )
+
+            maybe_locked = _expect_bool(
+                active_request.get("maybeLocked", False),
+                "request['active'][0]['maybeLocked']",
+            )
+
+            raw_moves = _expect_array(
+                active_request["moves"],
+                "request['active'][0]['moves']",
+            )
+
+            move_keys = {
+                "move",
+                "id",
+                "pp",
+                "maxpp",
+                "target",
+                "disabled",
+                "disabledSource",
+            }
+
+            for i, raw_move_value in enumerate(raw_moves):
+                raw_move = _expect_object(
+                    raw_move_value,
+                    f"request['active'][0]['moves'][{i}]",
+                )
+
+                _validate_keys(
+                    raw_move,
+                    allowed=move_keys,
+                    required={"move", "id"},
+                    name="move",
+                )
+
+                name = _expect_str(
+                    raw_move["move"],
+                    f"move[{i}]['move']",
+                )
+
+                move_id = _expect_str(
+                    raw_move["id"],
+                    f"move[{i}]['id']",
+                )
+
+                target = _expect_str(
+                    raw_move.get("target", "normal"),
+                    f"move[{i}]['target']",
+                )
+
+                raw_disabled_source = raw_move.get(
+                    "disabledSource",
+                    "",
+                )
+                disabled_source = (
+                    _expect_str(
+                        raw_disabled_source,
+                        f"move[{i}]['disabledSource']",
+                    )
+                    or None
+                )
+
+                # Mostly phase 2 of two-turn moves, recharge,
+                # Struggle, and other multi-turn moves.
+                whitelist_no_pp = {
+                    "recharge",
+                    "struggle",
+                }.union(MULTI_TURN_MOVES)
+
+                if move_id in whitelist_no_pp:
+                    curr_pp_value = raw_move.get("pp")
+                    max_pp_value = raw_move.get("maxpp")
+                    disabled_value = raw_move.get("disabled", False)
+
+                    curr_pp = (
+                        None
+                        if curr_pp_value is None
+                        else _expect_int(
+                            curr_pp_value,
+                            f"move[{i}]['pp']",
+                        )
+                    )
+
+                    max_pp = (
+                        None
+                        if max_pp_value is None
+                        else _expect_int(
+                            max_pp_value,
+                            f"move[{i}]['maxpp']",
+                        )
+                    )
+
+                    disabled = _expect_bool(
+                        disabled_value,
+                        f"move[{i}]['disabled']",
+                    )
+
+                    if move_id in {"recharge", "struggle"}:
+                        target = None
+
+                else:
+                    missing = {
+                        "pp",
+                        "maxpp",
+                        "disabled",
+                    } - set(raw_move)
+
+                    if missing:
+                        raise ValueError(
+                            "Move is missing required keys: "
+                            + f"{sorted(missing)}, move: {raw_move}"
+                        )
+
+                    curr_pp = _expect_int(
+                        raw_move["pp"],
+                        f"move[{i}]['pp']",
+                    )
+
+                    max_pp = _expect_int(
+                        raw_move["maxpp"],
+                        f"move[{i}]['maxpp']",
+                    )
+
+                    disabled = _expect_bool(
+                        raw_move["disabled"],
+                        f"move[{i}]['disabled']",
+                    )
+
+                moves.append(
+                    RequestMove(
+                        name=name,
+                        id=move_id,
+                        curr_pp=curr_pp,
+                        max_pp=max_pp,
+                        target=target,
+                        disabled=disabled,
+                        disabled_source=disabled_source,
+                    )
+                )
+
+        pokemon = self._parse_request_pokemon(data)
+
         if self.player_id is None:
             raise ValueError("self.player_id must not be None")
 
@@ -682,9 +871,11 @@ class BattleParser(MessageParser):
             wait=wait,
             trapped=trapped,
             maybe_trapped=maybe_trapped,
+            maybe_locked=maybe_locked,
+            maybe_disabled=maybe_disabled,
             force_switch=force_switch,
             update=update,
             moves=tuple(moves),
-            pokemon=tuple(pokemon),
+            pokemon=pokemon,
             no_cancel=no_cancel,
         )

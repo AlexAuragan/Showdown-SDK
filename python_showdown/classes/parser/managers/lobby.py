@@ -17,7 +17,10 @@ from python_showdown.classes.parser.events.lobby import (
     FormatsEvent,
     NameTakenEvent,
     PrivateMessageEvent,
+    TeamRejectedEvent,
+    TeamValidEvent,
     UpdateUserEvent,
+    UserNotFoundEvent,
 )
 from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.models import ProtocolMessage
@@ -43,11 +46,32 @@ class LobbyParser(MessageParser):
             return self._handle_formats(message)
         if command == "pm":
             return self._handle_pm(message)
-        if command in ["customgroups", "challstr", "updatesearch"]:
+        if command in ["customgroups", "challstr", "updatesearch", "clearpoke", "poke", "teampreview"]:
             return []
+        if command == "popup":
+            return self._handle_popup(message)
 
         raise ValueError("Unhandled message", message)
         # return [] # TEMP
+
+    def _handle_popup(self, message: ProtocolMessage) -> list[BaseEvent]:
+        if "- This format requires you to use your own team." in message.arguments:
+            raise ValueError("No team provided but a team is required", message)
+        if "Your selected format is invalid:" in message.arguments:
+            raise ValueError("Invalid battle format", message.arguments)
+        if "Your team was rejected for the following reasons:" in message.arguments:
+            return [
+                TeamRejectedEvent(
+                    reasons=[arg for arg in message.arguments if arg.startswith("- ")]
+                )
+            ]
+        if any("Your team is valid for" in arg for arg in message.arguments):
+            return [TeamValidEvent()]
+        for arg in message.arguments:
+            if "The user" in arg and "was not found." in arg:
+                user = arg.split("'")[1]
+                return [UserNotFoundEvent(user)]
+        raise NotImplementedError(message)
 
     @staticmethod
     def _handle_update_user(message: ProtocolMessage) -> list[BaseEvent]:

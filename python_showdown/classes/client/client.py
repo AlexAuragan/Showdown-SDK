@@ -9,6 +9,7 @@ from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
+from python_showdown.classes.parser import DecisionRequestEvent
 from python_showdown.classes.parser.events.base import DiscardedEvent, UnhandledEvent
 from python_showdown.classes.parser.events.battle import BattleEvent
 from python_showdown.classes.parser.events.lobby import LobbyEvent
@@ -18,6 +19,7 @@ from python_showdown.classes.parser.exceptions import (
 )
 from python_showdown.classes.parser.parser import Parser
 from python_showdown.logger import LogManager, log_trace
+from python_showdown.models.sdk.pokemon_set import TeamSet
 
 from .dt import BattleResult, Format
 
@@ -60,6 +62,7 @@ class Client:
             self.username, self.log_manager
         )
         self.parser: Parser = Parser(self.battle_manager, self)
+        self.team_validation_future: asyncio.Future[None] | None = None
 
     @property
     def username(self) -> str | None:
@@ -72,6 +75,38 @@ class Client:
 
     async def join_room(self, room_id: str) -> None:
         await self.send(f"/join {room_id}")
+
+    async def upload_team(self, team: TeamSet | None = None) -> None:
+        packed_team = "null" if team is None else team.to_packed()
+        await self.send(f"/utm {packed_team}")
+
+    async def validate_team(
+        self,
+        format_name: str,
+        team: TeamSet,
+        timeout: float = 10,
+    ) -> None:
+        await self.ensure_connected()
+
+        if self.websocket is None:
+            raise RuntimeError("Client is not connected")
+
+        if self.team_validation_future is not None:
+            raise RuntimeError("A team validation is already pending")
+
+        loop = asyncio.get_running_loop()
+        self.team_validation_future = loop.create_future()
+
+        try:
+            await self.send(f"/utm {team.to_packed()}")
+            await self.send(f"/vtm {format_name}")
+
+            await asyncio.wait_for(
+                self.team_validation_future,
+                timeout=timeout,
+            )
+        finally:
+            self.team_validation_future = None
 
     async def act(self) -> None:
         if self.websocket is None:
@@ -133,7 +168,7 @@ class Client:
                 f"{self.username=}, {self.battle_manager.player_id=}, {self.battle_manager.room_id=}, {self.parser.last_message_room_id=}"
             )
             raise TimeoutError(f"Timed out while logging as user {username!r}") from e
-        await self._leave_stale_rooms()
+        await self._leave_stale_rooms(wait_for_autorejoin=True)
 
     async def send(self, command: str, room_id: str = "") -> None:
 
@@ -186,7 +221,7 @@ class Client:
                     + f"turn={manager.turn}"
                 )
 
-            await self.act()
+            # await self.act()
 
         try:
             async for payload in websocket:
@@ -235,6 +270,9 @@ class Client:
                             else:
                                 raise NotImplementedError(type(event))
 
+                            if isinstance(event, DecisionRequestEvent):
+                                manager.record_turn_start_state(event.request_id)
+
                             if isinstance(event, TurnEvent):
                                 manager.start_action_timeout()
                     except ObsoleteRequestIdError as e:
@@ -251,6 +289,7 @@ class Client:
                         )
                         manager.choice_rejected = True
                     except Exception:
+                        print(self.log_manager.latest_raw_log_path())
                         self.log_manager.errors.exception(
                             "Error: Failed to handle protocol line: %r",
                             line,
@@ -264,7 +303,6 @@ class Client:
                             extra={"room_id": self.parser.last_message_room_id},
                         )
                         raise  # TEMP
-                        # return
 
                 self.log_manager.battle.debug(
                     "FRAME %s: rqid=%r last=%r rejected=%r",
@@ -297,7 +335,13 @@ class Client:
                     )
                     manager.request_id = manager.last_request_id
 
-                if manager.request_id is not None:
+                if manager.requires_team_preview:
+                    if manager.room_id is None:
+                        raise ValueError("room_id is None")
+                    team_order: list[str] = [str(idx) for idx in self.combat_handler.select_team_order()]
+                    await self.send("/choose team " + ",".join(team_order), room_id=manager.room_id)
+                    manager.requires_team_preview = False
+                elif manager.request_id is not None:
                     self.log_manager.battle.debug(
                         "ACT on rqid=%r in %s",
                         manager.request_id,
@@ -313,6 +357,7 @@ class Client:
                             extra={"room_id": self.parser.last_message_room_id},
                         )
                     manager.request_id = None
+
                 else:
                     self.log_manager.battle.debug(
                         "NO ACT in %s (rqid=None)",
@@ -390,6 +435,7 @@ class Client:
         self,
         user: str,
         format_name: str,
+        team: TeamSet | None = None,
         timeout: float = 10,
     ) -> str:
         await self.ensure_connected()
@@ -400,6 +446,7 @@ class Client:
         if self.challenge_future is not None:
             raise RuntimeError("A challenge is already pending")
 
+        await self.upload_team(team)
         loop = asyncio.get_running_loop()
 
         self.challenge_future = loop.create_future()
@@ -535,32 +582,22 @@ class Client:
                         extra={"room_id": room_id},
                     )
 
-            manager.cancel_action_timeout()
-            manager.battle_state.reset()
-            manager.request_id = None
-            manager.last_request_id = None
-            manager.choice_rejected = False
-            manager.retry_rqid = None
-            manager.retry_count = 0
-            manager.player_id = ""
-            manager.battle_finished = None
-            manager.battle_started_at = None
-            manager.turn = 0
-            manager.room_ready.clear()
-
-            manager.room_id = None
-            manager.room_ready.clear()
+            self.parser.battle.reset()
+            manager.clear_battle()
+            manager.clear_battle_tracking()
 
             if room_id:
                 self.log_manager.close_room(room_id)
 
-    async def accept_challenge(self, challenger: str) -> None:
+    async def accept_challenge(
+        self, challenger: str, team: TeamSet | None = None
+    ) -> None:
         await self.ensure_connected()
 
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
 
-        await self.send("/utm null")
+        await self.upload_team(team)
         await self.send(f"/accept {challenger}")
 
     async def _leave_stale_rooms(self, *, wait_for_autorejoin: bool = False) -> None:
@@ -581,5 +618,5 @@ class Client:
         )
         await self._leave_battle_room(stale_room)
 
-        self.battle_manager.room_id = None
+        self.battle_manager.abandon_battle()
         self.battle_manager.room_ready.clear()

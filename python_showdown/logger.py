@@ -46,10 +46,12 @@ class BattleFileHandler(logging.Handler):
         self,
         directory: Path,
         *,
+        filename: str | None = None,
         encoding: str = "utf-8",
     ) -> None:
         super().__init__()
         self.directory: Path = directory
+        self.filename: str | None = filename
         self.encoding: str = encoding
         self._handlers: dict[str, logging.FileHandler] = {}
 
@@ -95,7 +97,15 @@ class BattleFileHandler(logging.Handler):
             room_id,
         )
 
-        path = self.directory / f"{safe_room_id}.txt"
+        if self.filename is None:
+            # Preserve the old behaviour for callers that don't opt into
+            # battle directories.
+            path = self.directory / f"{safe_room_id}.txt"
+        else:
+            battle_number = safe_room_id.rsplit("-", 1)[-1]
+            battle_directory = self.directory / f"battle_{battle_number}"
+            battle_directory.mkdir(parents=True, exist_ok=True)
+            path = battle_directory / self.filename
 
         handler = logging.FileHandler(
             path,
@@ -253,8 +263,13 @@ def create_file_handler(
 def create_battle_file_handler(
     directory: Path,
     level: int = logging.INFO,
+    *,
+    filename: str | None = None,
 ) -> logging.Handler:
-    handler = BattleFileHandler(directory)
+    handler = BattleFileHandler(
+        directory,
+        filename=filename,
+    )
     handler.setLevel(level)
     handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
     return handler

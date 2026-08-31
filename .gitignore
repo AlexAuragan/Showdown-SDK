@@ -8,6 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+.ruff_cache/
 
 # logs
 logs*/
@@ -16,3 +17,6 @@ simulation_errors.log
 # Editor
 .zed/
 .idea/
+
+# Node, for dex downloading:
+.node/

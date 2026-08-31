@@ -1,6 +1,5 @@
 import json
-from collections.abc import Set as AbstractSet
-from dataclasses import asdict, is_dataclass
+from dataclasses import fields, is_dataclass
 from enum import Enum
 from typing import TYPE_CHECKING, cast
 
@@ -25,48 +24,43 @@ class SourceType(str, Enum):
     UNKNOWN = "unknown"
 
 
-def _clean_dict(obj: object) -> object:
-    if isinstance(obj, dict):
-        obj = cast(dict[str, object], obj)
-        out: dict[str, object] = {
-            key: _clean_dict(value)
-            for key, value in obj.items()
-            if not str(key).startswith("_")
-        }
-        return out
 
-    if isinstance(obj, list):
-        obj = cast(list[object], obj)
-        return [_clean_dict(value) for value in obj]
-
-    if isinstance(obj, tuple):
-        obj = cast(tuple[object], obj)
-        return [_clean_dict(value) for value in obj]
-
-    return obj
-
-
-def _json_default(obj: object) -> object:
+def _to_jsonable(obj: object) -> object:
     if isinstance(obj, Enum):
-        return cast(object, obj.value)
-
-    if isinstance(obj, (set, frozenset)):
-        values = cast(AbstractSet[object], obj)
-
-        normalized: list[object] = []
-        for value in values:
-            if isinstance(value, Enum):
-                normalized.append(cast(object, value.value))
-            else:
-                normalized.append(value)
-
-        return sorted(normalized, key=str)
+        return obj.value
 
     if is_dataclass(obj) and not isinstance(obj, type):
-        return asdict(obj)
+        return {
+            field.name: _to_jsonable(getattr(obj, field.name))
+            for field in fields(obj)
+            if not field.name.startswith("_")
+        }
 
-    raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
+    if isinstance(obj, dict):
+        obj = cast(dict[str, object], obj)
+        out: dict[object, object] = {}
 
+        for key, value in obj.items():
+            if str(key).startswith("_"):
+                continue
+
+            if isinstance(key, Enum):
+                normalized_key = key.value
+            else:
+                normalized_key = key
+
+            out[normalized_key] = _to_jsonable(value)
+
+        return out
+
+    if isinstance(obj, (list, tuple)):
+        return [_to_jsonable(value) for value in obj]
+
+    if isinstance(obj, (set, frozenset)):
+        values = [_to_jsonable(value) for value in obj]
+        return sorted(values, key=str)
+
+    return obj
 
 class BattleState:
     def __init__(self, manager: BattleManager):
@@ -101,22 +95,31 @@ class BattleState:
     def player_id(self, value: str) -> None:
         self._manager.player_id = value
 
-    def to_json(self) -> str:
+    def to_dict(self) -> dict[str, object]:
         data = {
-            "team": [asdict(p) for p in self._team],
-            "enemy_team": [asdict(p) for p in self._enemy_team],
+            "team": self._team,
+            "enemy_team": self._enemy_team,
             "curr_pokemon": self._curr_pokemon,
             "curr_enemy_pokemon": self._curr_enemy_pokemon,
-            "available_moves": [asdict(m) for m in self._available_moves],
+            "available_moves": self._available_moves,
             "force_switch": self.force_switch,
             "weather": self.weather,
             "side_conditions": self.side_conditions,
         }
+
+        result = _to_jsonable(data)
+
+        if not isinstance(result, dict):
+            raise TypeError("BattleState serialization must produce a dict")
+        result = cast(dict[str, object], result)
+        return result
+
+
+    def to_json(self) -> str:
         return json.dumps(
-            _clean_dict(data),
+            self.to_dict(),
             indent=2,
             sort_keys=True,
-            default=_json_default,
         )
 
     def history_json(self) -> list[dict[str, object]]:
@@ -163,20 +166,29 @@ class BattleState:
     def set_active_pokemon(self, pokemon_id: str) -> None:
         self._curr_pokemon = pokemon_id
 
-    def reset(self, keep_player_id: bool = False) -> None:
-        """Clear all tracked state so the same handler can drive a new battle."""
+    def clear_battle(self) -> None:
+        """Discard all state learned during the current battle."""
+
         self._team = []
         self._enemy_team = [
-            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
+            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100)
+            for _ in range(6)
         ]
+
         self._curr_pokemon = ""
         self._curr_enemy_pokemon = ""
         self._available_moves = []
+
         self.force_switch = False
+        self.weather = None
         self.side_conditions = {}
+
+        self.gen_1_desync = False
         self.history = []
-        if not keep_player_id:
-            self._manager.clear_player_id()
+
+        self.gen = None
+        self.gametype = None
+        self.tier = None
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
         self._available_moves = moves

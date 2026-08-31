@@ -1,0 +1,2034 @@
+{
+  "aguavberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Dragon"
+    },
+    "shortDesc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -SpD Nature. Single use.",
+    "name": "Aguav Berry",
+    "isBerry": true,
+    "num": 162,
+    "gen": 3,
+    "id": "aguavberry",
+    "fullname": "item: Aguav Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -SpD Nature. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "apicotberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Ground"
+    },
+    "name": "Apicot Berry",
+    "isBerry": true,
+    "num": 205,
+    "gen": 3,
+    "shortDesc": "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use.",
+    "id": "apicotberry",
+    "fullname": "item: Apicot Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Raises holder's Sp. Def by 1 stage when at 1/4 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "blackbelt": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Fighting-type attacks have 1.1x power.",
+    "name": "Black Belt",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 241,
+    "gen": 2,
+    "id": "blackbelt",
+    "fullname": "item: Black Belt",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Fighting-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "blackglasses": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Dark-type attacks have 1.1x power.",
+    "name": "Black Glasses",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 240,
+    "gen": 2,
+    "id": "blackglasses",
+    "fullname": "item: Black Glasses",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Dark-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "charcoal": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Fire-type attacks have 1.1x power.",
+    "name": "Charcoal",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 249,
+    "gen": 2,
+    "id": "charcoal",
+    "fullname": "item: Charcoal",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Fire-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "dragonfang": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Dragon-type attacks have 1.1x power.",
+    "name": "Dragon Fang",
+    "fling": {
+      "basePower": 70
+    },
+    "onBasePowerPriority": 15,
+    "num": 250,
+    "gen": 2,
+    "id": "dragonfang",
+    "fullname": "item: Dragon Fang",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Dragon-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "figyberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Bug"
+    },
+    "shortDesc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -Atk Nature. Single use.",
+    "name": "Figy Berry",
+    "isBerry": true,
+    "num": 159,
+    "gen": 3,
+    "id": "figyberry",
+    "fullname": "item: Figy Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -Atk Nature. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "ganlonberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Ice"
+    },
+    "name": "Ganlon Berry",
+    "isBerry": true,
+    "num": 202,
+    "gen": 3,
+    "shortDesc": "Raises holder's Defense by 1 stage when at 1/4 max HP or less. Single use.",
+    "id": "ganlonberry",
+    "fullname": "item: Ganlon Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Raises holder's Defense by 1 stage when at 1/4 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "hardstone": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Rock-type attacks have 1.1x power.",
+    "name": "Hard Stone",
+    "fling": {
+      "basePower": 100
+    },
+    "onBasePowerPriority": 15,
+    "num": 238,
+    "gen": 2,
+    "id": "hardstone",
+    "fullname": "item: Hard Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Rock-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "iapapaberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Dark"
+    },
+    "shortDesc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -Def Nature. Single use.",
+    "name": "Iapapa Berry",
+    "isBerry": true,
+    "num": 163,
+    "gen": 3,
+    "id": "iapapaberry",
+    "fullname": "item: Iapapa Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -Def Nature. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "kingsrock": {
+    "exists": true,
+    "name": "King's Rock",
+    "fling": {
+      "basePower": 30,
+      "volatileStatus": "flinch"
+    },
+    "onModifyMovePriority": -1,
+    "num": 221,
+    "gen": 2,
+    "desc": "Holder's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch. Evolves Poliwhirl into Politoed and Slowpoke into Slowking when traded.",
+    "shortDesc": "Holder's attacks without a chance to flinch gain a 10% chance to flinch.",
+    "id": "kingsrock",
+    "fullname": "item: King's Rock",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "lansatberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Flying"
+    },
+    "name": "Lansat Berry",
+    "isBerry": true,
+    "num": 206,
+    "gen": 3,
+    "shortDesc": "Holder gains the Focus Energy effect when at 1/4 max HP or less. Single use.",
+    "id": "lansatberry",
+    "fullname": "item: Lansat Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder gains the Focus Energy effect when at 1/4 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "laxincense": {
+    "exists": true,
+    "shortDesc": "The accuracy of attacks against the holder is 0.95x.",
+    "onModifyAccuracyPriority": 5,
+    "isNonstandard": null,
+    "name": "Lax Incense",
+    "fling": {
+      "basePower": 10
+    },
+    "num": 255,
+    "gen": 3,
+    "id": "laxincense",
+    "fullname": "item: Lax Incense",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "The accuracy of attacks against the holder is 0.95x."
+  },
+  "liechiberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Grass"
+    },
+    "name": "Liechi Berry",
+    "isBerry": true,
+    "num": 201,
+    "gen": 3,
+    "shortDesc": "Raises holder's Attack by 1 stage when at 1/4 max HP or less. Single use.",
+    "id": "liechiberry",
+    "fullname": "item: Liechi Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Raises holder's Attack by 1 stage when at 1/4 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "lightball": {
+    "exists": true,
+    "shortDesc": "If held by a Pikachu, its Special Attack is doubled.",
+    "name": "Light Ball",
+    "fling": {
+      "basePower": 30,
+      "status": "par"
+    },
+    "onModifyAtkPriority": 1,
+    "onModifySpAPriority": 1,
+    "itemUser": [
+      "Pikachu",
+      "Pikachu-Cosplay",
+      "Pikachu-Rock-Star",
+      "Pikachu-Belle",
+      "Pikachu-Pop-Star",
+      "Pikachu-PhD",
+      "Pikachu-Libre",
+      "Pikachu-Original",
+      "Pikachu-Hoenn",
+      "Pikachu-Sinnoh",
+      "Pikachu-Unova",
+      "Pikachu-Kalos",
+      "Pikachu-Alola",
+      "Pikachu-Partner",
+      "Pikachu-Starter",
+      "Pikachu-World"
+    ],
+    "num": 236,
+    "gen": 2,
+    "id": "lightball",
+    "fullname": "item: Light Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "If held by a Pikachu, its Special Attack is doubled.",
+    "isNonstandard": null
+  },
+  "magnet": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Electric-type attacks have 1.1x power.",
+    "name": "Magnet",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 242,
+    "gen": 2,
+    "id": "magnet",
+    "fullname": "item: Magnet",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Electric-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "magoberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ghost"
+    },
+    "shortDesc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -Spe Nature. Single use.",
+    "name": "Mago Berry",
+    "isBerry": true,
+    "num": 161,
+    "gen": 3,
+    "id": "magoberry",
+    "fullname": "item: Mago Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -Spe Nature. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "metalcoat": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "desc": "Holder's Steel-type attacks have 1.1x power. Evolves Onix into Steelix and Scyther into Scizor when traded.",
+    "shortDesc": "Holder's Steel-type attacks have 1.1x power.",
+    "name": "Metal Coat",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 233,
+    "gen": 2,
+    "id": "metalcoat",
+    "fullname": "item: Metal Coat",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "miracleseed": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Grass-type attacks have 1.1x power.",
+    "name": "Miracle Seed",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 239,
+    "gen": 2,
+    "id": "miracleseed",
+    "fullname": "item: Miracle Seed",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Grass-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "mysticwater": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Water-type attacks have 1.1x power.",
+    "name": "Mystic Water",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 243,
+    "gen": 2,
+    "id": "mysticwater",
+    "fullname": "item: Mystic Water",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Water-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "nevermeltice": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Ice-type attacks have 1.1x power.",
+    "name": "Never-Melt Ice",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 246,
+    "gen": 2,
+    "id": "nevermeltice",
+    "fullname": "item: Never-Melt Ice",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Ice-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "oranberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Poison"
+    },
+    "name": "Oran Berry",
+    "isBerry": true,
+    "num": 155,
+    "gen": 3,
+    "shortDesc": "Restores 10 HP when at 1/2 max HP or less. Single use.",
+    "id": "oranberry",
+    "fullname": "item: Oran Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 10 HP when at 1/2 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "petayaberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Poison"
+    },
+    "name": "Petaya Berry",
+    "isBerry": true,
+    "num": 204,
+    "gen": 3,
+    "shortDesc": "Raises holder's Sp. Atk by 1 stage when at 1/4 max HP or less. Single use.",
+    "id": "petayaberry",
+    "fullname": "item: Petaya Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Raises holder's Sp. Atk by 1 stage when at 1/4 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "poisonbarb": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Poison-type attacks have 1.1x power.",
+    "name": "Poison Barb",
+    "fling": {
+      "basePower": 70,
+      "status": "psn"
+    },
+    "onBasePowerPriority": 15,
+    "num": 245,
+    "gen": 2,
+    "id": "poisonbarb",
+    "fullname": "item: Poison Barb",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Poison-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "quickclaw": {
+    "exists": true,
+    "onFractionalPriorityPriority": -2,
+    "name": "Quick Claw",
+    "fling": {
+      "basePower": 80
+    },
+    "num": 217,
+    "gen": 2,
+    "shortDesc": "Each turn, holder has a 20% chance to move first in its priority bracket.",
+    "id": "quickclaw",
+    "fullname": "item: Quick Claw",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Each turn, holder has a 20% chance to move first in its priority bracket.",
+    "isNonstandard": null
+  },
+  "salacberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Fighting"
+    },
+    "name": "Salac Berry",
+    "isBerry": true,
+    "num": 203,
+    "gen": 3,
+    "shortDesc": "Raises holder's Speed by 1 stage when at 1/4 max HP or less. Single use.",
+    "id": "salacberry",
+    "fullname": "item: Salac Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Raises holder's Speed by 1 stage when at 1/4 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "seaincense": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Water-type attacks have 1.05x power.",
+    "isNonstandard": null,
+    "name": "Sea Incense",
+    "fling": {
+      "basePower": 10
+    },
+    "onBasePowerPriority": 15,
+    "num": 254,
+    "gen": 3,
+    "id": "seaincense",
+    "fullname": "item: Sea Incense",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Water-type attacks have 1.05x power."
+  },
+  "sharpbeak": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Flying-type attacks have 1.1x power.",
+    "name": "Sharp Beak",
+    "fling": {
+      "basePower": 50
+    },
+    "onBasePowerPriority": 15,
+    "num": 244,
+    "gen": 2,
+    "id": "sharpbeak",
+    "fullname": "item: Sharp Beak",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Flying-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "silkscarf": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Normal-type attacks have 1.1x power.",
+    "name": "Silk Scarf",
+    "fling": {
+      "basePower": 10
+    },
+    "onBasePowerPriority": 15,
+    "num": 251,
+    "gen": 3,
+    "id": "silkscarf",
+    "fullname": "item: Silk Scarf",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Normal-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "silverpowder": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Bug-type attacks have 1.1x power.",
+    "name": "Silver Powder",
+    "fling": {
+      "basePower": 10
+    },
+    "onBasePowerPriority": 15,
+    "num": 222,
+    "gen": 2,
+    "id": "silverpowder",
+    "fullname": "item: Silver Powder",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Bug-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "sitrusberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "shortDesc": "Restores 30 HP when at 1/2 max HP or less. Single use.",
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Psychic"
+    },
+    "name": "Sitrus Berry",
+    "isBerry": true,
+    "num": 158,
+    "gen": 3,
+    "id": "sitrusberry",
+    "fullname": "item: Sitrus Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 30 HP when at 1/2 max HP or less. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "softsand": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Ground-type attacks have 1.1x power.",
+    "name": "Soft Sand",
+    "fling": {
+      "basePower": 10
+    },
+    "onBasePowerPriority": 15,
+    "num": 237,
+    "gen": 2,
+    "id": "softsand",
+    "fullname": "item: Soft Sand",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Ground-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "spelltag": {
+    "exists": true,
+    "onModifyAtkPriority": 1,
+    "shortDesc": "Holder's Ghost-type attacks have 1.1x power.",
+    "name": "Spell Tag",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 247,
+    "gen": 2,
+    "id": "spelltag",
+    "fullname": "item: Spell Tag",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Ghost-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "starfberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Psychic"
+    },
+    "name": "Starf Berry",
+    "isBerry": true,
+    "num": 207,
+    "gen": 3,
+    "shortDesc": "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use.",
+    "id": "starfberry",
+    "fullname": "item: Starf Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "twistedspoon": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "shortDesc": "Holder's Psychic-type attacks have 1.1x power.",
+    "name": "Twisted Spoon",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "num": 248,
+    "gen": 2,
+    "id": "twistedspoon",
+    "fullname": "item: Twisted Spoon",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Psychic-type attacks have 1.1x power.",
+    "isNonstandard": null
+  },
+  "wikiberry": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Rock"
+    },
+    "shortDesc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -SpA Nature. Single use.",
+    "isNonstandard": null,
+    "name": "Wiki Berry",
+    "isBerry": true,
+    "num": 160,
+    "gen": 3,
+    "id": "wikiberry",
+    "fullname": "item: Wiki Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 1/8 max HP at 1/2 max HP or less; confuses if -SpA Nature. Single use.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "brightpowder": {
+    "exists": true,
+    "onModifyAccuracyPriority": 5,
+    "name": "Bright Powder",
+    "fling": {
+      "basePower": 10
+    },
+    "num": 213,
+    "gen": 2,
+    "shortDesc": "The accuracy of attacks against the holder is 0.9x.",
+    "id": "brightpowder",
+    "fullname": "item: Bright Powder",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "The accuracy of attacks against the holder is 0.9x.",
+    "isNonstandard": null
+  },
+  "choiceband": {
+    "exists": true,
+    "name": "Choice Band",
+    "fling": {
+      "basePower": 10
+    },
+    "onModifyAtkPriority": 1,
+    "isChoice": true,
+    "num": 220,
+    "gen": 3,
+    "shortDesc": "Holder's Attack is 1.5x, but it can only select the first move it executes.",
+    "id": "choiceband",
+    "fullname": "item: Choice Band",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Attack is 1.5x, but it can only select the first move it executes.",
+    "isNonstandard": null
+  },
+  "deepseascale": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Deep Sea Scale",
+    "fling": {
+      "basePower": 30
+    },
+    "onModifySpDPriority": 2,
+    "itemUser": [
+      "Clamperl"
+    ],
+    "num": 227,
+    "gen": 3,
+    "desc": "If held by a Clamperl, its Sp. Def is doubled. Evolves Clamperl into Gorebyss when traded.",
+    "shortDesc": "If held by a Clamperl, its Sp. Def is doubled.",
+    "id": "deepseascale",
+    "fullname": "item: Deep Sea Scale",
+    "effectType": "Item",
+    "kind": "Item"
+  },
+  "deepseatooth": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Deep Sea Tooth",
+    "fling": {
+      "basePower": 90
+    },
+    "onModifySpAPriority": 1,
+    "itemUser": [
+      "Clamperl"
+    ],
+    "num": 226,
+    "gen": 3,
+    "desc": "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
+    "shortDesc": "If held by a Clamperl, its Sp. Atk is doubled.",
+    "id": "deepseatooth",
+    "fullname": "item: Deep Sea Tooth",
+    "effectType": "Item",
+    "kind": "Item"
+  },
+  "leftovers": {
+    "exists": true,
+    "onResidualOrder": 10,
+    "onResidualSubOrder": 4,
+    "name": "Leftovers",
+    "fling": {
+      "basePower": 10
+    },
+    "num": 234,
+    "gen": 2,
+    "shortDesc": "At the end of every turn, holder restores 1/16 of its max HP.",
+    "id": "leftovers",
+    "fullname": "item: Leftovers",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "At the end of every turn, holder restores 1/16 of its max HP.",
+    "isNonstandard": null
+  },
+  "luckypunch": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Lucky Punch",
+    "fling": {
+      "basePower": 40
+    },
+    "itemUser": [
+      "Chansey"
+    ],
+    "num": 256,
+    "gen": 2,
+    "shortDesc": "If held by a Chansey, its critical hit ratio is raised by 2 stages.",
+    "id": "luckypunch",
+    "fullname": "item: Lucky Punch",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "If held by a Chansey, its critical hit ratio is raised by 2 stages."
+  },
+  "mentalherb": {
+    "exists": true,
+    "fling": {
+      "basePower": 10
+    },
+    "shortDesc": "Holder is cured if it is infatuated. Single use.",
+    "name": "Mental Herb",
+    "num": 219,
+    "gen": 3,
+    "id": "mentalherb",
+    "fullname": "item: Mental Herb",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder is cured if it is infatuated. Single use.",
+    "isNonstandard": null
+  },
+  "stick": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Stick",
+    "fling": {
+      "basePower": 60
+    },
+    "itemUser": [
+      "Farfetch’d"
+    ],
+    "num": 259,
+    "gen": 2,
+    "shortDesc": "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages.",
+    "id": "stick",
+    "fullname": "item: Stick",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "If held by a Farfetch’d, its critical hit ratio is raised by 2 stages."
+  },
+  "thickclub": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Thick Club",
+    "fling": {
+      "basePower": 90
+    },
+    "onModifyAtkPriority": 1,
+    "itemUser": [
+      "Marowak",
+      "Marowak-Alola",
+      "Marowak-Alola-Totem",
+      "Cubone"
+    ],
+    "num": 258,
+    "gen": 2,
+    "shortDesc": "If held by a Cubone or a Marowak, its Attack is doubled.",
+    "id": "thickclub",
+    "fullname": "item: Thick Club",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "If held by a Cubone or a Marowak, its Attack is doubled."
+  },
+  "aspearberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ice"
+    },
+    "name": "Aspear Berry",
+    "isBerry": true,
+    "num": 153,
+    "gen": 3,
+    "shortDesc": "Holder is cured if it is frozen. Single use.",
+    "id": "aspearberry",
+    "fullname": "item: Aspear Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder is cured if it is frozen. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "belueberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Electric"
+    },
+    "isNonstandard": null,
+    "name": "Belue Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 183,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "belueberry",
+    "fullname": "item: Belue Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "blukberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Fire"
+    },
+    "isNonstandard": null,
+    "name": "Bluk Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 165,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "blukberry",
+    "fullname": "item: Bluk Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "cheriberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fire"
+    },
+    "name": "Cheri Berry",
+    "isBerry": true,
+    "num": 149,
+    "gen": 3,
+    "shortDesc": "Holder cures itself if it is paralyzed. Single use.",
+    "id": "cheriberry",
+    "fullname": "item: Cheri Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder cures itself if it is paralyzed. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "chestoberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Water"
+    },
+    "name": "Chesto Berry",
+    "isBerry": true,
+    "num": 150,
+    "gen": 3,
+    "shortDesc": "Holder wakes up if it is asleep. Single use.",
+    "id": "chestoberry",
+    "fullname": "item: Chesto Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder wakes up if it is asleep. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "cornnberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Bug"
+    },
+    "isNonstandard": null,
+    "name": "Cornn Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 175,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "cornnberry",
+    "fullname": "item: Cornn Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "durinberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Water"
+    },
+    "isNonstandard": null,
+    "name": "Durin Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 182,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "durinberry",
+    "fullname": "item: Durin Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "grepaberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Flying"
+    },
+    "name": "Grepa Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 173,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "grepaberry",
+    "fullname": "item: Grepa Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "hondewberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Ground"
+    },
+    "name": "Hondew Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 172,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "hondewberry",
+    "fullname": "item: Hondew Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "kelpsyberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Fighting"
+    },
+    "name": "Kelpsy Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 170,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "kelpsyberry",
+    "fullname": "item: Kelpsy Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "leppaberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Fighting"
+    },
+    "name": "Leppa Berry",
+    "isBerry": true,
+    "num": 154,
+    "gen": 3,
+    "shortDesc": "Restores 10 PP to the first of the holder's moves to reach 0 PP. Single use.",
+    "id": "leppaberry",
+    "fullname": "item: Leppa Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores 10 PP to the first of the holder's moves to reach 0 PP. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "lumberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Flying"
+    },
+    "name": "Lum Berry",
+    "isBerry": true,
+    "onAfterSetStatusPriority": -1,
+    "num": 157,
+    "gen": 3,
+    "shortDesc": "Holder cures itself if it has a non-volatile status or is confused. Single use.",
+    "id": "lumberry",
+    "fullname": "item: Lum Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder cures itself if it has a non-volatile status or is confused. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "mail": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Mail",
+    "num": 137,
+    "gen": 2,
+    "shortDesc": "Cannot be given to or taken from a Pokemon, except by Covet/Knock Off/Thief.",
+    "id": "mail",
+    "fullname": "item: Mail",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be given to or taken from a Pokemon, except by Covet/Knock Off/Thief."
+  },
+  "magostberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Rock"
+    },
+    "isNonstandard": null,
+    "name": "Magost Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 176,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "magostberry",
+    "fullname": "item: Magost Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "nanabberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Water"
+    },
+    "isNonstandard": null,
+    "name": "Nanab Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 166,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "nanabberry",
+    "fullname": "item: Nanab Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "nomelberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Dragon"
+    },
+    "isNonstandard": null,
+    "name": "Nomel Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 178,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "nomelberry",
+    "fullname": "item: Nomel Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "pamtreberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Steel"
+    },
+    "isNonstandard": null,
+    "name": "Pamtre Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 180,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "pamtreberry",
+    "fullname": "item: Pamtre Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "pechaberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Electric"
+    },
+    "name": "Pecha Berry",
+    "isBerry": true,
+    "num": 151,
+    "gen": 3,
+    "shortDesc": "Holder is cured if it is poisoned. Single use.",
+    "id": "pechaberry",
+    "fullname": "item: Pecha Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder is cured if it is poisoned. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "persimberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Ground"
+    },
+    "name": "Persim Berry",
+    "isBerry": true,
+    "num": 156,
+    "gen": 3,
+    "shortDesc": "Holder is cured if it is confused. Single use.",
+    "id": "persimberry",
+    "fullname": "item: Persim Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder is cured if it is confused. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "pinapberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Grass"
+    },
+    "isNonstandard": null,
+    "name": "Pinap Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 168,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "pinapberry",
+    "fullname": "item: Pinap Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "pomegberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Ice"
+    },
+    "name": "Pomeg Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 169,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "pomegberry",
+    "fullname": "item: Pomeg Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "qualotberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Poison"
+    },
+    "name": "Qualot Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 171,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "qualotberry",
+    "fullname": "item: Qualot Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "rabutaberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Ghost"
+    },
+    "isNonstandard": null,
+    "name": "Rabuta Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 177,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "rabutaberry",
+    "fullname": "item: Rabuta Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "rawstberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Grass"
+    },
+    "name": "Rawst Berry",
+    "isBerry": true,
+    "num": 152,
+    "gen": 3,
+    "shortDesc": "Holder is cured if it is burned. Single use.",
+    "id": "rawstberry",
+    "fullname": "item: Rawst Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder is cured if it is burned. Single use.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "razzberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 60,
+      "type": "Steel"
+    },
+    "isNonstandard": null,
+    "name": "Razz Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 164,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "razzberry",
+    "fullname": "item: Razz Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "spelonberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Dark"
+    },
+    "isNonstandard": null,
+    "name": "Spelon Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 179,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "spelonberry",
+    "fullname": "item: Spelon Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "tamatoberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Psychic"
+    },
+    "name": "Tamato Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 174,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "tamatoberry",
+    "fullname": "item: Tamato Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "isNonstandard": null,
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "watmelberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 80,
+      "type": "Fire"
+    },
+    "isNonstandard": null,
+    "name": "Watmel Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 181,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "watmelberry",
+    "fullname": "item: Watmel Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "wepearberry": {
+    "exists": true,
+    "naturalGift": {
+      "basePower": 70,
+      "type": "Electric"
+    },
+    "isNonstandard": null,
+    "name": "Wepear Berry",
+    "isBerry": true,
+    "onEat": false,
+    "num": 167,
+    "gen": 3,
+    "shortDesc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "id": "wepearberry",
+    "fullname": "item: Wepear Berry",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+    "fling": {
+      "basePower": 10
+    }
+  },
+  "machobrace": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Macho Brace",
+    "ignoreKlutz": true,
+    "fling": {
+      "basePower": 60
+    },
+    "num": 215,
+    "gen": 3,
+    "shortDesc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",
+    "id": "machobrace",
+    "fullname": "item: Macho Brace",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's Speed is halved. The Klutz Ability does not ignore this effect."
+  },
+  "oldamber": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Old Amber",
+    "fling": {
+      "basePower": 100
+    },
+    "num": 103,
+    "gen": 3,
+    "shortDesc": "Can be revived into Aerodactyl.",
+    "id": "oldamber",
+    "fullname": "item: Old Amber",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Can be revived into Aerodactyl."
+  },
+  "souldew": {
+    "exists": true,
+    "onModifySpAPriority": 1,
+    "onModifySpDPriority": 2,
+    "shortDesc": "If held by a Latias or a Latios, its Sp. Atk and Sp. Def are 1.5x.",
+    "name": "Soul Dew",
+    "fling": {
+      "basePower": 30
+    },
+    "onBasePowerPriority": 15,
+    "itemUser": [
+      "Latios",
+      "Latias"
+    ],
+    "num": 225,
+    "gen": 3,
+    "id": "souldew",
+    "fullname": "item: Soul Dew",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "If held by a Latias or a Latios, its Sp. Atk and Sp. Def are 1.5x.",
+    "isNonstandard": null
+  },
+  "clawfossil": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Claw Fossil",
+    "fling": {
+      "basePower": 100
+    },
+    "num": 100,
+    "gen": 3,
+    "shortDesc": "Can be revived into Anorith.",
+    "id": "clawfossil",
+    "fullname": "item: Claw Fossil",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Can be revived into Anorith."
+  },
+  "domefossil": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Dome Fossil",
+    "fling": {
+      "basePower": 100
+    },
+    "num": 102,
+    "gen": 3,
+    "shortDesc": "Can be revived into Kabuto.",
+    "id": "domefossil",
+    "fullname": "item: Dome Fossil",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Can be revived into Kabuto."
+  },
+  "helixfossil": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Helix Fossil",
+    "fling": {
+      "basePower": 100
+    },
+    "num": 101,
+    "gen": 3,
+    "shortDesc": "Can be revived into Omanyte.",
+    "id": "helixfossil",
+    "fullname": "item: Helix Fossil",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Can be revived into Omanyte."
+  },
+  "rootfossil": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Root Fossil",
+    "fling": {
+      "basePower": 100
+    },
+    "num": 99,
+    "gen": 3,
+    "shortDesc": "Can be revived into Lileep.",
+    "id": "rootfossil",
+    "fullname": "item: Root Fossil",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Can be revived into Lileep."
+  },
+  "leafstone": {
+    "exists": true,
+    "desc": "Evolves Gloom into Vileplume, Weepinbell into Victreebel, Exeggcute into Exeggutor or Alolan Exeggutor, Nuzleaf into Shiftry, and Pansage into Simisage when used.",
+    "name": "Leaf Stone",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 85,
+    "gen": 1,
+    "shortDesc": "Evolves certain species of Pokemon when used.",
+    "id": "leafstone",
+    "fullname": "item: Leaf Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "thunderstone": {
+    "exists": true,
+    "desc": "Evolves Pikachu into Raichu or Alolan Raichu, Eevee into Jolteon, and Eelektrik into Eelektross when used.",
+    "name": "Thunder Stone",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 83,
+    "gen": 1,
+    "shortDesc": "Evolves certain species of Pokemon when used.",
+    "id": "thunderstone",
+    "fullname": "item: Thunder Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "dragonscale": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Dragon Scale",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 235,
+    "gen": 2,
+    "shortDesc": "Evolves Seadra into Kingdra when traded.",
+    "id": "dragonscale",
+    "fullname": "item: Dragon Scale",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Evolves Seadra into Kingdra when traded."
+  },
+  "metalpowder": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Metal Powder",
+    "fling": {
+      "basePower": 10
+    },
+    "onModifyDefPriority": 2,
+    "itemUser": [
+      "Ditto"
+    ],
+    "num": 257,
+    "gen": 2,
+    "shortDesc": "If held by a Ditto that hasn't Transformed, its Defense is doubled.",
+    "id": "metalpowder",
+    "fullname": "item: Metal Powder",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "If held by a Ditto that hasn't Transformed, its Defense is doubled."
+  },
+  "upgrade": {
+    "exists": true,
+    "isNonstandard": null,
+    "name": "Up-Grade",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 252,
+    "gen": 2,
+    "shortDesc": "Evolves Porygon into Porygon2 when traded.",
+    "id": "upgrade",
+    "fullname": "item: Up-Grade",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Evolves Porygon into Porygon2 when traded."
+  },
+  "diveball": {
+    "exists": true,
+    "name": "Dive Ball",
+    "num": 7,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A Poke Ball that works especially well on Pokemon that live underwater.",
+    "id": "diveball",
+    "fullname": "item: Dive Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A Poke Ball that works especially well on Pokemon that live underwater.",
+    "isNonstandard": null
+  },
+  "firestone": {
+    "exists": true,
+    "name": "Fire Stone",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 82,
+    "gen": 1,
+    "desc": "Evolves Vulpix into Ninetales, Growlithe into Arcanine, Eevee into Flareon, and Pansear into Simisear when used.",
+    "shortDesc": "Evolves certain species of Pokemon when used.",
+    "id": "firestone",
+    "fullname": "item: Fire Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "focusband": {
+    "exists": true,
+    "name": "Focus Band",
+    "fling": {
+      "basePower": 10
+    },
+    "onDamagePriority": -40,
+    "num": 230,
+    "gen": 2,
+    "shortDesc": "Holder has a 10% chance to survive an attack that would KO it with 1 HP.",
+    "id": "focusband",
+    "fullname": "item: Focus Band",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder has a 10% chance to survive an attack that would KO it with 1 HP.",
+    "isNonstandard": null
+  },
+  "friendball": {
+    "exists": true,
+    "name": "Friend Ball",
+    "num": 497,
+    "gen": 2,
+    "isPokeball": true,
+    "shortDesc": "A Poke Ball that makes caught Pokemon more friendly.",
+    "id": "friendball",
+    "fullname": "item: Friend Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A Poke Ball that makes caught Pokemon more friendly.",
+    "isNonstandard": null
+  },
+  "greatball": {
+    "exists": true,
+    "name": "Great Ball",
+    "num": 3,
+    "gen": 1,
+    "isPokeball": true,
+    "shortDesc": "A high-performance Ball that provides a higher catch rate than a Poke Ball.",
+    "id": "greatball",
+    "fullname": "item: Great Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A high-performance Ball that provides a higher catch rate than a Poke Ball.",
+    "isNonstandard": null
+  },
+  "luxuryball": {
+    "exists": true,
+    "name": "Luxury Ball",
+    "num": 11,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A comfortable Poke Ball that makes a caught wild Pokemon quickly grow friendly.",
+    "id": "luxuryball",
+    "fullname": "item: Luxury Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A comfortable Poke Ball that makes a caught wild Pokemon quickly grow friendly.",
+    "isNonstandard": null
+  },
+  "masterball": {
+    "exists": true,
+    "name": "Master Ball",
+    "num": 1,
+    "gen": 1,
+    "isPokeball": true,
+    "shortDesc": "The best Ball with the ultimate performance. It will catch any wild Pokemon.",
+    "id": "masterball",
+    "fullname": "item: Master Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "The best Ball with the ultimate performance. It will catch any wild Pokemon.",
+    "isNonstandard": null
+  },
+  "moonstone": {
+    "exists": true,
+    "name": "Moon Stone",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 81,
+    "gen": 1,
+    "desc": "Evolves Nidorina into Nidoqueen, Nidorino into Nidoking, Clefairy into Clefable, Jigglypuff into Wigglytuff, Skitty into Delcatty, and Munna into Musharna when used.",
+    "shortDesc": "Evolves certain species of Pokemon when used.",
+    "id": "moonstone",
+    "fullname": "item: Moon Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "nestball": {
+    "exists": true,
+    "name": "Nest Ball",
+    "num": 8,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A Poke Ball that works especially well on weaker Pokemon in the wild.",
+    "id": "nestball",
+    "fullname": "item: Nest Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A Poke Ball that works especially well on weaker Pokemon in the wild.",
+    "isNonstandard": null
+  },
+  "netball": {
+    "exists": true,
+    "name": "Net Ball",
+    "num": 6,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A Poke Ball that works especially well on Water- and Bug-type Pokemon.",
+    "id": "netball",
+    "fullname": "item: Net Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A Poke Ball that works especially well on Water- and Bug-type Pokemon.",
+    "isNonstandard": null
+  },
+  "pokeball": {
+    "exists": true,
+    "name": "Poke Ball",
+    "num": 4,
+    "gen": 1,
+    "isPokeball": true,
+    "shortDesc": "A device for catching wild Pokemon. It is designed as a capsule system.",
+    "id": "pokeball",
+    "fullname": "item: Poke Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A device for catching wild Pokemon. It is designed as a capsule system.",
+    "isNonstandard": null
+  },
+  "premierball": {
+    "exists": true,
+    "name": "Premier Ball",
+    "num": 12,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A rare Poke Ball that has been crafted to commemorate an event.",
+    "id": "premierball",
+    "fullname": "item: Premier Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A rare Poke Ball that has been crafted to commemorate an event.",
+    "isNonstandard": null
+  },
+  "repeatball": {
+    "exists": true,
+    "name": "Repeat Ball",
+    "num": 9,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A Poke Ball that works well on Pokemon species that were previously caught.",
+    "id": "repeatball",
+    "fullname": "item: Repeat Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A Poke Ball that works well on Pokemon species that were previously caught.",
+    "isNonstandard": null
+  },
+  "scopelens": {
+    "exists": true,
+    "name": "Scope Lens",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 232,
+    "gen": 2,
+    "shortDesc": "Holder's critical hit ratio is raised by 1 stage.",
+    "id": "scopelens",
+    "fullname": "item: Scope Lens",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Holder's critical hit ratio is raised by 1 stage.",
+    "isNonstandard": null
+  },
+  "shellbell": {
+    "exists": true,
+    "name": "Shell Bell",
+    "fling": {
+      "basePower": 30
+    },
+    "onAfterMoveSecondarySelfPriority": -1,
+    "num": 253,
+    "gen": 3,
+    "shortDesc": "After an attack, holder gains 1/8 of the damage in HP dealt to other Pokemon.",
+    "id": "shellbell",
+    "fullname": "item: Shell Bell",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "After an attack, holder gains 1/8 of the damage in HP dealt to other Pokemon.",
+    "isNonstandard": null
+  },
+  "sunstone": {
+    "exists": true,
+    "name": "Sun Stone",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 80,
+    "gen": 2,
+    "desc": "Evolves Gloom into Bellossom, Sunkern into Sunflora, Cottonee into Whimsicott, Petilil into Lilligant, and Helioptile into Heliolisk when used.",
+    "shortDesc": "Evolves certain species of Pokemon when used.",
+    "id": "sunstone",
+    "fullname": "item: Sun Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "timerball": {
+    "exists": true,
+    "name": "Timer Ball",
+    "num": 10,
+    "gen": 3,
+    "isPokeball": true,
+    "shortDesc": "A Poke Ball that becomes better the more turns there are in a battle.",
+    "id": "timerball",
+    "fullname": "item: Timer Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "A Poke Ball that becomes better the more turns there are in a battle.",
+    "isNonstandard": null
+  },
+  "ultraball": {
+    "exists": true,
+    "name": "Ultra Ball",
+    "num": 2,
+    "gen": 1,
+    "isPokeball": true,
+    "shortDesc": "An ultra-performance Ball that provides a higher catch rate than a Great Ball.",
+    "id": "ultraball",
+    "fullname": "item: Ultra Ball",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "An ultra-performance Ball that provides a higher catch rate than a Great Ball.",
+    "isNonstandard": null
+  },
+  "waterstone": {
+    "exists": true,
+    "name": "Water Stone",
+    "fling": {
+      "basePower": 30
+    },
+    "num": 84,
+    "gen": 1,
+    "desc": "Evolves Poliwhirl into Poliwrath, Shellder into Cloyster, Staryu into Starmie, Eevee into Vaporeon, Lombre into Ludicolo, and Panpour into Simipour when used.",
+    "shortDesc": "Evolves certain species of Pokemon when used.",
+    "id": "waterstone",
+    "fullname": "item: Water Stone",
+    "effectType": "Item",
+    "kind": "Item",
+    "isNonstandard": null
+  },
+  "whiteherb": {
+    "exists": true,
+    "name": "White Herb",
+    "fling": {
+      "basePower": 10
+    },
+    "onAnySwitchInPriority": -2,
+    "onResidualOrder": 29,
+    "num": 214,
+    "gen": 3,
+    "shortDesc": "Restores all lowered stat stages to 0 when one is less than 0. Single use.",
+    "id": "whiteherb",
+    "fullname": "item: White Herb",
+    "effectType": "Item",
+    "kind": "Item",
+    "desc": "Restores all lowered stat stages to 0 when one is less than 0. Single use.",
+    "isNonstandard": null
+  }
+}

@@ -1,6 +1,6 @@
 from python_showdown.classes.parser.context import ProtocolContext
 from python_showdown.classes.parser.events import BaseEvent
-from python_showdown.classes.parser.events.battle import AbilityEvent
+from python_showdown.classes.parser.events.battle import AbilityEvent, GameGenEvent
 from python_showdown.classes.parser.fields import parse_pokemon_ident
 from python_showdown.classes.parser.models import PokemonIdent, ProtocolMessage
 from python_showdown.classes.parser.protocol import has_annotation
@@ -94,6 +94,9 @@ def update_protocol_context(
     events: tuple[BaseEvent, ...],
 ) -> None:
     for event in events:
+        if isinstance(event, GameGenEvent):
+            context.gen = event.gen
+            continue
         if not isinstance(event, AbilityEvent):
             continue
 

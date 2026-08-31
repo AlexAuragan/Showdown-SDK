@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING, override
 
 from python_showdown.classes.client.dt import Format
 from python_showdown.classes.parser.events.base import BaseEvent
+from python_showdown.models.sdk.exceptions import TeamRejectedError
 
 if TYPE_CHECKING:
     from python_showdown.classes.client.client import Client
@@ -94,3 +95,33 @@ class PrivateMessageEvent(LobbyEvent):
         ):
             format_id = self.message.split("|", 1)[0].removeprefix("/challenge ")
             future.set_result(format_id)
+
+
+@dataclass(frozen=True)
+class TeamRejectedEvent(LobbyEvent):
+    reasons: list[str]
+
+    @override
+    def update_client(self, client: Client):
+        future = client.team_validation_future
+
+        if future is not None and not future.done():
+            future.set_exception(TeamRejectedError(reasons=self.reasons))
+
+
+@dataclass(frozen=True)
+class TeamValidEvent(LobbyEvent):
+    @override
+    def update_client(self, client: Client) -> None:
+        future = client.team_validation_future
+
+        if future is not None and not future.done():
+            future.set_result(None)
+
+@dataclass(frozen=True)
+class UserNotFoundEvent(LobbyEvent):
+    user: str
+
+    @override
+    def update_client(self, client: Client):
+        raise RuntimeError("User not found")

@@ -23,7 +23,7 @@ IGNORED_COMMANDS = {
     "bigerror",
     "expire",  # TODO for client
     "deinit",  # TODO for client
-    "popup",
+    # "popup",
     "sentchoice",
 }
 

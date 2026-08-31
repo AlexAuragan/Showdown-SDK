@@ -39,6 +39,17 @@ class PokemonIdent:
         assert isinstance(pokemon, EnemyPokemon)
         return pokemon
 
+    @staticmethod
+    def from_str(value: str):
+        """ p1a: Azumarill """
+        value = value.strip()
+        if ": " not in value:
+            raise ValueError(f"Format not supported: {value}")
+        player, pokemon = value.split(": ")
+        slot = None
+        if len(player) == 3:
+            player, slot = player[:2], player[2]
+        return PokemonIdent(name=pokemon, player=player, slot=slot)
 
 @dataclass(frozen=True)
 class EffectSource:

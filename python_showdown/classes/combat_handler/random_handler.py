@@ -32,3 +32,7 @@ class RandomMoveCombatHandler:
         chosen = choice(usable)
         slot = next(i for i, m in enumerate(moves, start=1) if m is chosen)
         return "move", slot
+
+    @staticmethod
+    def select_team_order() -> list[int]:
+        return [1, 2, 3, 4, 5, 6]

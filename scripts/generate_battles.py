@@ -2,7 +2,6 @@ import asyncio
 import logging
 import traceback
 from collections.abc import Awaitable
-from dataclasses import asdict
 from pathlib import Path
 from time import perf_counter
 from typing import NoReturn
@@ -14,6 +13,7 @@ from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
 from python_showdown.logger import TRACE, LogManager, create_battle_file_handler
+from scripts.utils import run_battle
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 BATTLE_COUNT = 10000
@@ -26,76 +26,11 @@ BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    # "gen1randombattle",
+    "gen1randombattle",
     "gen2randombattle",
     "gen3randombattle",
     "gen4randombattle",
 ]
-
-
-async def run_battle(
-    client_1: Client,
-    client_2: Client,
-    fmt: str,
-) -> dict[str, object]:
-    await asyncio.gather(
-        client_1.ensure_connected(),
-        client_2.ensure_connected(),
-    )
-
-    if client_1.username is None:
-        raise RuntimeError("client not connected")
-
-    if client_2.username is None:
-        raise RuntimeError("client not connected")
-
-    battle_waiter_1, battle_waiter_2 = None, None
-    try:
-        await client_1.challenge(
-            client_2.username,
-            fmt,
-            timeout=60,
-        )
-        await client_2.accept_challenge(
-            client_1.username,
-        )
-
-        await asyncio.gather(
-            client_1.battle_manager.room_ready.wait(),
-            client_2.battle_manager.room_ready.wait(),
-        )
-
-        battle_waiter_1 = asyncio.create_task(client_1.wait_for_battle_end(timeout=300))
-        battle_waiter_2 = asyncio.create_task(client_2.wait_for_battle_end(timeout=300))
-
-        result_1, _ = await asyncio.gather(
-            battle_waiter_1,
-            battle_waiter_2,
-        )
-
-        # print(
-        #     f"Battle {battle_number}/{BATTLE_COUNT}: "
-        #     + f"winner={result_1.winner}, turns={result_1.move_count}, "
-        #     + f"duration={result_1.duration_seconds:.4f}s, "
-        #     + f"average={result_1.average_seconds_per_move:.6f}s/turn"
-        # )
-
-        return asdict(result_1)
-
-    except BaseException:
-        if battle_waiter_1 is None or battle_waiter_2 is None:
-            raise
-        battle_waiter_1.cancel()
-        battle_waiter_2.cancel()
-
-        await asyncio.gather(
-            battle_waiter_1,
-            battle_waiter_2,
-            return_exceptions=True,
-        )
-
-        raise
-
 
 def write_error(error: str) -> None:
     with ERROR_LOG.open("a", encoding="utf-8") as file:
@@ -139,7 +74,7 @@ async def run_pair(
                 f"{traceback.format_exc()}"
             )
 
-            print() # print file here
+            print()  # print file here
             print(error)
 
             await asyncio.to_thread(write_error, error)
@@ -148,6 +83,7 @@ async def run_pair(
             progress.update(1)
 
     return results, failed_battles
+
 
 async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
     """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
@@ -158,45 +94,26 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         tag = f"BOT{i}"
         logs = LogManager(tag=tag)
 
-        # One file per battle room holding the raw server output (TRACE on
-        # the protocol logger) -> logs/<format>/raw/<room_id>.txt
-        if i % 2 == 0:
-            logs.add_handler(
-                create_battle_file_handler(
-                    Path(f"logs_odd/{fmt}/raw"),
-                    level=TRACE,
-                ),
-                loggers="protocol",
-            )
+        output_directory = Path(f"logs/{fmt}")
+        client_role = "client_1" if i % 2 == 1 else "client_2"
 
-            # One file per battle room holding info/debug/error logging for the
-            # battle and errors loggers -> logs/<format>/info/<room_id>.txt
-            logs.add_handler(
-                create_battle_file_handler(
-                    Path(f"logs_odd/{fmt}/info"),
-                    level=logging.DEBUG,
-                ),
-                loggers=(logs.battle, logs.errors),
-            )
+        logs.add_handler(
+            create_battle_file_handler(
+                output_directory,
+                level=TRACE,
+                filename=f"{client_role}_raw.txt",
+            ),
+            loggers="protocol",
+        )
 
-        else:
-            logs.add_handler(
-                create_battle_file_handler(
-                    Path(f"logs_even/{fmt}/raw"),
-                    level=TRACE,
-                ),
-                loggers="protocol",
-            )
-
-            # One file per battle room holding info/debug/error logging for the
-            # battle and errors loggers -> logs/<format>/info/<room_id>.txt
-            logs.add_handler(
-                create_battle_file_handler(
-                    Path(f"logs_even/{fmt}/info"),
-                    level=logging.DEBUG,
-                ),
-                loggers=(logs.battle, logs.errors),
-            )
+        logs.add_handler(
+            create_battle_file_handler(
+                output_directory,
+                level=logging.DEBUG,
+                filename=f"{client_role}_info.txt",
+            ),
+            loggers=(logs.battle, logs.errors),
+        )
         client = Client(
             WEBSOCKET_URL,
             combat_handler=RandomMoveCombatHandler(),
@@ -218,7 +135,6 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
             print(f"client {i} is connected", client.username)
 
         t0 = perf_counter()
-
 
         progress = tqdm(
             total=BATTLES_PER_PAIR * PAIR_COUNT,

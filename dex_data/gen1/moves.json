@@ -1,0 +1,6785 @@
+{
+  "acid": {
+    "exists": true,
+    "secondary": {
+      "chance": 33,
+      "boosts": {
+        "def": -1
+      }
+    },
+    "target": "normal",
+    "desc": "Has a 33% chance to lower the target's Defense by 1 stage.",
+    "shortDesc": "33% chance to lower the target's Defense by 1.",
+    "num": 51,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "Acid",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "type": "Poison",
+    "id": "acid",
+    "fullname": "move: Acid",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 33,
+        "boosts": {
+          "def": -1
+        }
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 70
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "amnesia": {
+    "exists": true,
+    "boosts": {
+      "spa": 2,
+      "spd": 2
+    },
+    "desc": "Raises the user's Special by 2 stages.",
+    "shortDesc": "Raises the user's Special by 2.",
+    "num": 133,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Amnesia",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "target": "self",
+    "type": "Psychic",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "id": "amnesia",
+    "fullname": "move: Amnesia",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "aurorabeam": {
+    "exists": true,
+    "secondary": {
+      "chance": 33,
+      "boosts": {
+        "atk": -1
+      }
+    },
+    "desc": "Has a 33% chance to lower the target's Attack by 1 stage.",
+    "shortDesc": "33% chance to lower the target's Attack by 1.",
+    "num": 62,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "Aurora Beam",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Ice",
+    "id": "aurorabeam",
+    "fullname": "move: Aurora Beam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 33,
+        "boosts": {
+          "atk": -1
+        }
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "bide": {
+    "exists": true,
+    "accuracy": true,
+    "condition": {
+      "onSemiLockMove": "bide"
+    },
+    "type": "???",
+    "desc": "The user spends two or three turns locked into this move and then, on the second or third turn after using this move, the user attacks the opponent, inflicting double the damage in HP it lost during those turns. This move ignores type immunity and cannot be avoided even if the target is using Dig or Fly. The user can choose to switch out during the effect. If the user switches out or is prevented from moving during this move's use, the effect ends. During the effect, if the opposing Pokemon switches out or uses Confuse Ray, Conversion, Focus Energy, Glare, Haze, Leech Seed, Light Screen, Mimic, Mist, Poison Gas, Poison Powder, Recover, Reflect, Rest, Soft-Boiled, Splash, Stun Spore, Substitute, Supersonic, Teleport, Thunder Wave, Toxic, or Transform, the previous damage dealt to the user will be added to the total.",
+    "shortDesc": "Waits 2-3 turns; deals double the damage taken.",
+    "priority": 0,
+    "isNonstandard": null,
+    "num": 117,
+    "basePower": 0,
+    "category": "Physical",
+    "name": "Bide",
+    "pp": 10,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "metronome": 1,
+      "nosleeptalk": 1,
+      "failinstruct": 1
+    },
+    "volatileStatus": "bide",
+    "ignoreImmunity": true,
+    "target": "self",
+    "id": "bide",
+    "fullname": "move: Bide",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 100
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "bind": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "self": {
+      "volatileStatus": "partialtrappinglock"
+    },
+    "desc": "The user spends two to five turns using this move. Has a 3/8 chance to last two or three turns, and a 1/8 chance to last four or five turns. The damage calculated for the first turn is used for every other turn. The user cannot select a move and the target cannot execute a move during the effect, but both may switch out. If the user switches out, the target remains unable to execute a move during that turn. If the target switches out, the user uses this move again automatically, and if it had 0 PP at the time, it becomes 63. If the user or the target switch out, or the user is prevented from moving, the effect ends. This move can prevent the target from moving even if it has type immunity, but will not deal damage.",
+    "shortDesc": "Prevents the target from moving for 2-5 turns.",
+    "accuracy": 75,
+    "num": 20,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "Bind",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "target": "normal",
+    "type": "Normal",
+    "id": "bind",
+    "fullname": "move: Bind",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "bite": {
+    "exists": true,
+    "category": "Physical",
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "flinch"
+    },
+    "type": "Normal",
+    "desc": "Has a 10% chance to make the target flinch.",
+    "shortDesc": "10% chance to make the target flinch.",
+    "num": 44,
+    "accuracy": 100,
+    "basePower": 60,
+    "name": "Bite",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "bite": 1
+    },
+    "target": "normal",
+    "id": "bite",
+    "fullname": "move: Bite",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 110
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "blizzard": {
+    "exists": true,
+    "accuracy": 90,
+    "target": "normal",
+    "shortDesc": "10% chance to freeze the target.",
+    "desc": "Has a 10% chance to freeze the target.",
+    "basePower": 120,
+    "num": 59,
+    "category": "Special",
+    "name": "Blizzard",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "wind": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "type": "Ice",
+    "id": "blizzard",
+    "fullname": "move: Blizzard",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "frz"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 190
+    }
+  },
+  "bubble": {
+    "exists": true,
+    "secondary": {
+      "chance": 33,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "target": "normal",
+    "desc": "Has a 33% chance to lower the target's Speed by 1 stage.",
+    "shortDesc": "33% chance to lower the target's Speed by 1.",
+    "basePower": 20,
+    "isNonstandard": null,
+    "num": 145,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Bubble",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "type": "Water",
+    "id": "bubble",
+    "fullname": "move: Bubble",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 33,
+        "boosts": {
+          "spe": -1
+        }
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "bubblebeam": {
+    "exists": true,
+    "secondary": {
+      "chance": 33,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "desc": "Has a 33% chance to lower the target's Speed by 1 stage.",
+    "shortDesc": "33% chance to lower the target's Speed by 1.",
+    "num": 61,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "Bubble Beam",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Water",
+    "id": "bubblebeam",
+    "fullname": "move: Bubble Beam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 33,
+        "boosts": {
+          "spe": -1
+        }
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "clamp": {
+    "exists": true,
+    "accuracy": 75,
+    "pp": 10,
+    "self": {
+      "volatileStatus": "partialtrappinglock"
+    },
+    "desc": "The user spends two to five turns using this move. Has a 3/8 chance to last two or three turns, and a 1/8 chance to last four or five turns. The damage calculated for the first turn is used for every other turn. The user cannot select a move and the target cannot execute a move during the effect, but both may switch out. If the user switches out, the target remains unable to execute a move during that turn. If the target switches out, the user uses this move again automatically, and if it had 0 PP at the time, it becomes 63. If the user or the target switch out, or the user is prevented from moving, the effect ends. This move can prevent the target from moving even if it has type immunity, but will not deal damage.",
+    "shortDesc": "Prevents the target from moving for 2-5 turns.",
+    "isNonstandard": null,
+    "num": 128,
+    "basePower": 35,
+    "category": "Special",
+    "name": "Clamp",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "target": "normal",
+    "type": "Water",
+    "id": "clamp",
+    "fullname": "move: Clamp",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "constrict": {
+    "exists": true,
+    "secondary": {
+      "chance": 33,
+      "boosts": {
+        "spe": -1
+      }
+    },
+    "desc": "Has a 33% chance to lower the target's Speed by 1 stage.",
+    "shortDesc": "33% chance to lower the target's Speed by 1.",
+    "isNonstandard": null,
+    "num": 132,
+    "accuracy": 100,
+    "basePower": 10,
+    "category": "Physical",
+    "name": "Constrict",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "constrict",
+    "fullname": "move: Constrict",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 33,
+        "boosts": {
+          "spe": -1
+        }
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "conversion": {
+    "exists": true,
+    "target": "normal",
+    "desc": "Causes the user's types to become the same as the current types of the target.",
+    "shortDesc": "User becomes the same type as the target.",
+    "flags": {
+      "metronome": 1
+    },
+    "num": 160,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Conversion",
+    "pp": 30,
+    "priority": 0,
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      }
+    },
+    "id": "conversion",
+    "fullname": "move: Conversion",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "counter": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "willCrit": false,
+    "basePower": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "metronome": 1
+    },
+    "desc": "Deals damage to the opposing Pokemon equal to twice the damage dealt by the last move used in the battle. This move ignores type immunity. Fails if the user moves first, or if the opposing side's last move was Counter, had 0 power, or was not Normal or Fighting type. Fails if the last move used by either side did 0 damage and was not Confuse Ray, Conversion, Focus Energy, Glare, Haze, Leech Seed, Light Screen, Mimic, Mist, Poison Gas, Poison Powder, Recover, Reflect, Rest, Soft-Boiled, Splash, Stun Spore, Substitute, Supersonic, Teleport, Thunder Wave, Toxic, or Transform.",
+    "shortDesc": "If hit by Normal/Fighting move, deals 2x damage.",
+    "condition": {},
+    "priority": -1,
+    "num": 68,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Counter",
+    "pp": 20,
+    "target": "scripted",
+    "type": "Fighting",
+    "maxMove": {
+      "basePower": 75
+    },
+    "id": "counter",
+    "fullname": "move: Counter",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "crabhammer": {
+    "exists": true,
+    "critRatio": 2,
+    "accuracy": 85,
+    "basePower": 90,
+    "num": 152,
+    "category": "Special",
+    "name": "Crabhammer",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Water",
+    "desc": "Has a higher chance for a critical hit.",
+    "shortDesc": "High critical hit ratio.",
+    "id": "crabhammer",
+    "fullname": "move: Crabhammer",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "dig": {
+    "exists": true,
+    "basePower": 100,
+    "condition": {},
+    "desc": "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Bide, Swift, and Transform. If the user is fully paralyzed on the second turn, it continues avoiding attacks until it switches out or successfully executes the second turn of this move or Fly.",
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1,
+      "nosleeptalk": 1
+    },
+    "num": 91,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Dig",
+    "pp": 10,
+    "priority": 0,
+    "target": "normal",
+    "type": "Ground",
+    "shortDesc": "Digs underground turn 1, strikes turn 2.",
+    "id": "dig",
+    "fullname": "move: Dig",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 180
+    }
+  },
+  "disable": {
+    "exists": true,
+    "condition": {
+      "inherit": true,
+      "onBeforeMovePriority": 6
+    },
+    "desc": "For 0 to 7 turns, one of the target's known moves that has at least 1 PP remaining becomes disabled, at random. Fails if one of the target's moves is already disabled, or if none of the target's moves have PP remaining. If any Pokemon uses Haze, this effect ends. Whether or not this move was successful, it counts as a hit for the purposes of the opponent's use of Rage.",
+    "shortDesc": "For 0-7 turns, disables one of the target's moves.",
+    "accuracy": 55,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "bypasssub": 1,
+      "metronome": 1
+    },
+    "num": 50,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Disable",
+    "pp": 20,
+    "priority": 0,
+    "volatileStatus": "disable",
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "id": "disable",
+    "fullname": "move: Disable",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "dizzypunch": {
+    "exists": true,
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "isNonstandard": null,
+    "num": 146,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "Dizzy Punch",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "dizzypunch",
+    "fullname": "move: Dizzy Punch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 20,
+        "volatileStatus": "confusion"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "doubleedge": {
+    "exists": true,
+    "basePower": 100,
+    "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not take any recoil damage.",
+    "recoil": [
+      25,
+      100
+    ],
+    "shortDesc": "Has 1/4 recoil.",
+    "num": 38,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Double-Edge",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "doubleedge",
+    "fullname": "move: Double-Edge",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 180
+    }
+  },
+  "dragonrage": {
+    "exists": true,
+    "basePower": 1,
+    "isNonstandard": null,
+    "num": 82,
+    "accuracy": 100,
+    "damage": 40,
+    "category": "Special",
+    "name": "Dragon Rage",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Dragon",
+    "shortDesc": "Deals 40 HP of damage to the target.",
+    "id": "dragonrage",
+    "fullname": "move: Dragon Rage",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Deals 40 HP of damage to the target.",
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "explosion": {
+    "exists": true,
+    "basePower": 170,
+    "target": "normal",
+    "desc": "The user faints after using this move, unless this move broke the target's substitute. The target's Defense is halved during damage calculation.",
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "noparentalbond": 1,
+      "nosketch": 1
+    },
+    "shortDesc": "Target's Def halved during damage. User faints.",
+    "num": 153,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Explosion",
+    "pp": 5,
+    "priority": 0,
+    "selfdestruct": "always",
+    "type": "Normal",
+    "id": "explosion",
+    "fullname": "move: Explosion",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 150
+    },
+    "zMove": {
+      "basePower": 200
+    }
+  },
+  "fireblast": {
+    "exists": true,
+    "secondary": {
+      "chance": 30,
+      "status": "brn"
+    },
+    "desc": "Has a 30% chance to burn the target.",
+    "shortDesc": "30% chance to burn the target.",
+    "basePower": 120,
+    "num": 126,
+    "accuracy": 85,
+    "category": "Special",
+    "name": "Fire Blast",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Fire",
+    "id": "fireblast",
+    "fullname": "move: Fire Blast",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "status": "brn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 190
+    }
+  },
+  "firespin": {
+    "exists": true,
+    "accuracy": 70,
+    "basePower": 15,
+    "self": {
+      "volatileStatus": "partialtrappinglock"
+    },
+    "desc": "The user spends two to five turns using this move. Has a 3/8 chance to last two or three turns, and a 1/8 chance to last four or five turns. The damage calculated for the first turn is used for every other turn. The user cannot select a move and the target cannot execute a move during the effect, but both may switch out. If the user switches out, the target remains unable to execute a move during that turn. If the target switches out, the user uses this move again automatically, and if it had 0 PP at the time, it becomes 63. If the user or the target switch out, or the user is prevented from moving, the effect ends. This move can prevent the target from moving even if it has type immunity, but will not deal damage.",
+    "shortDesc": "Prevents the target from moving for 2-5 turns.",
+    "num": 83,
+    "category": "Special",
+    "name": "Fire Spin",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "target": "normal",
+    "type": "Fire",
+    "id": "firespin",
+    "fullname": "move: Fire Spin",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "fly": {
+    "exists": true,
+    "condition": {},
+    "desc": "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Bide, Swift, and Transform. If the user is fully paralyzed on the second turn, it continues avoiding attacks until it switches out or successfully executes the second turn of this move or Dig.",
+    "basePower": 70,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1,
+      "distance": 1,
+      "metronome": 1
+    },
+    "num": 19,
+    "accuracy": 95,
+    "category": "Physical",
+    "name": "Fly",
+    "pp": 15,
+    "priority": 0,
+    "target": "any",
+    "type": "Flying",
+    "shortDesc": "Flies up on first turn, then strikes the next turn.",
+    "id": "fly",
+    "fullname": "move: Fly",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "focusenergy": {
+    "exists": true,
+    "condition": {
+      "inherit": true
+    },
+    "desc": "While the user remains active, its chance for a critical hit is quartered. Fails if the user already has the effect. If any Pokemon uses Haze, this effect ends.",
+    "shortDesc": "Quarters the user's chance for a critical hit.",
+    "num": 116,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Focus Energy",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "focusenergy",
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "accuracy": 1
+      }
+    },
+    "id": "focusenergy",
+    "fullname": "move: Focus Energy",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "glare": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "desc": "Paralyzes the target.",
+    "accuracy": 75,
+    "num": 137,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Glare",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "status": "par",
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "spd": 1
+      }
+    },
+    "shortDesc": "Paralyzes the target.",
+    "id": "glare",
+    "fullname": "move: Glare",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "growth": {
+    "exists": true,
+    "boosts": {
+      "spa": 1,
+      "spd": 1
+    },
+    "desc": "Raises the user's Special by 1 stage.",
+    "shortDesc": "Raises the user's Special by 1.",
+    "pp": 40,
+    "num": 74,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Growth",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "spa": 1
+      }
+    },
+    "id": "growth",
+    "fullname": "move: Growth",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "gust": {
+    "exists": true,
+    "type": "Normal",
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "num": 16,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "Gust",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "metronome": 1,
+      "wind": 1
+    },
+    "target": "any",
+    "id": "gust",
+    "fullname": "move: Gust",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "haze": {
+    "exists": true,
+    "target": "self",
+    "desc": "Resets the stat stages of both Pokemon to 0 and removes stat reductions due to burn and paralysis. Resets Toxic counters to 0 and removes the effect of confusion, Disable, Focus Energy, Leech Seed, Light Screen, Mist, and Reflect from both Pokemon. Removes the opponent's non-volatile status condition.",
+    "shortDesc": "Resets all stat changes. Removes foe's status.",
+    "num": 114,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Haze",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "bypasssub": 1,
+      "metronome": 1
+    },
+    "type": "Ice",
+    "zMove": {
+      "effect": "heal"
+    },
+    "id": "haze",
+    "fullname": "move: Haze",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "highjumpkick": {
+    "exists": true,
+    "desc": "If this attack misses the target, the user takes 1 HP of crash damage. If the user has a substitute, the crash damage is dealt to the target's substitute if it has one, otherwise no crash damage is dealt.",
+    "shortDesc": "User takes 1 HP of damage if it misses.",
+    "basePower": 85,
+    "pp": 20,
+    "num": 136,
+    "accuracy": 90,
+    "category": "Physical",
+    "name": "High Jump Kick",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1,
+      "metronome": 1
+    },
+    "hasCrashDamage": true,
+    "target": "normal",
+    "type": "Fighting",
+    "id": "highjumpkick",
+    "fullname": "move: High Jump Kick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "jumpkick": {
+    "exists": true,
+    "desc": "If this attack misses the target, the user takes 1 HP of crash damage. If the user has a substitute, the crash damage is dealt to the target's substitute if it has one, otherwise no crash damage is dealt.",
+    "shortDesc": "User takes 1 HP of damage if it misses.",
+    "basePower": 70,
+    "pp": 25,
+    "isNonstandard": null,
+    "num": 26,
+    "accuracy": 95,
+    "category": "Physical",
+    "name": "Jump Kick",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "gravity": 1,
+      "metronome": 1
+    },
+    "hasCrashDamage": true,
+    "target": "normal",
+    "type": "Fighting",
+    "id": "jumpkick",
+    "fullname": "move: Jump Kick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 85
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "karatechop": {
+    "exists": true,
+    "critRatio": 2,
+    "type": "Normal",
+    "isNonstandard": null,
+    "num": 2,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "Karate Chop",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "desc": "Has a higher chance for a critical hit.",
+    "shortDesc": "High critical hit ratio.",
+    "id": "karatechop",
+    "fullname": "move: Karate Chop",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 100
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "leechseed": {
+    "exists": true,
+    "condition": {
+      "inherit": true,
+      "onAfterMoveSelfPriority": 1
+    },
+    "desc": "At the end of each of the target's turns, The Pokemon at the user's position steals 1/16 of the target's maximum HP, rounded down and multiplied by the target's current Toxic counter if it has one, even if the target currently has less than that amount of HP remaining. If the target switches out or any Pokemon uses Haze, this effect ends. Grass-type Pokemon are immune to this move.",
+    "shortDesc": "1/16 of target's HP is restored to user every turn.",
+    "num": 73,
+    "accuracy": 90,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Leech Seed",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "leechseed",
+    "target": "normal",
+    "type": "Grass",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "id": "leechseed",
+    "fullname": "move: Leech Seed",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "lightscreen": {
+    "exists": true,
+    "volatileStatus": "lightscreen",
+    "condition": {},
+    "target": "self",
+    "desc": "While the user remains active, its Special is doubled when taking damage. Critical hits ignore this effect. If any Pokemon uses Haze, this effect ends.",
+    "shortDesc": "While active, user's Special is 2x when damaged.",
+    "num": 113,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Light Screen",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "sideCondition": "lightscreen",
+    "type": "Psychic",
+    "zMove": {
+      "boost": {
+        "spd": 1
+      }
+    },
+    "id": "lightscreen",
+    "fullname": "move: Light Screen",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "metronome": {
+    "exists": true,
+    "desc": "A random move is selected for use, other than Metronome or Struggle.",
+    "flags": {
+      "failencore": 1,
+      "nosketch": 1
+    },
+    "num": 118,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Metronome",
+    "pp": 10,
+    "priority": 0,
+    "callsMove": true,
+    "target": "self",
+    "type": "Normal",
+    "shortDesc": "Picks a random move.",
+    "id": "metronome",
+    "fullname": "move: Metronome",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "mimic": {
+    "exists": true,
+    "flags": {
+      "protect": 1,
+      "bypasssub": 1,
+      "metronome": 1
+    },
+    "desc": "While the user remains active, this move is replaced by a random move known by the target, even if the user already knows that move. The copied move keeps the remaining PP for this move, regardless of the copied move's maximum PP. Whenever one PP is used for a copied move, one PP is used for this move.",
+    "shortDesc": "Random move known by the target replaces this.",
+    "accuracy": 100,
+    "num": 102,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Mimic",
+    "pp": 10,
+    "priority": 0,
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "accuracy": 1
+      }
+    },
+    "id": "mimic",
+    "fullname": "move: Mimic",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "minimize": {
+    "exists": true,
+    "condition": {
+      "inherit": true
+    },
+    "desc": "Raises the user's evasiveness by 1 stage.",
+    "boosts": {
+      "evasion": 1
+    },
+    "shortDesc": "Raises the user's evasiveness by 1.",
+    "pp": 20,
+    "num": 107,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Minimize",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "minimize",
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "id": "minimize",
+    "fullname": "move: Minimize",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "mirrormove": {
+    "exists": true,
+    "desc": "The user uses the last move used by the target. Fails if the target has not made a move since the user switched in, or if the last move used was Mirror Move.",
+    "flags": {
+      "metronome": 1,
+      "failencore": 1,
+      "nosketch": 1
+    },
+    "target": "self",
+    "isNonstandard": null,
+    "num": 119,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Mirror Move",
+    "pp": 20,
+    "priority": 0,
+    "callsMove": true,
+    "type": "Flying",
+    "zMove": {
+      "boost": {
+        "atk": 2
+      }
+    },
+    "shortDesc": "User uses the target's last used move against it.",
+    "id": "mirrormove",
+    "fullname": "move: Mirror Move",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "mist": {
+    "exists": true,
+    "condition": {
+      "inherit": true
+    },
+    "desc": "While the user remains active, it is protected from having its stat stages lowered by other Pokemon, unless caused by the secondary effect of a move. Fails if the user already has the effect. If any Pokemon uses Haze, this effect ends.",
+    "volatileStatus": "mist",
+    "target": "self",
+    "shortDesc": "While active, user is protected from stat drops.",
+    "num": 54,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Mist",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "sideCondition": "mist",
+    "type": "Ice",
+    "zMove": {
+      "effect": "heal"
+    },
+    "id": "mist",
+    "fullname": "move: Mist",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "nightshade": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "basePower": 1,
+    "desc": "Deals damage to the target equal to the user's level. This move ignores type immunity.",
+    "shortDesc": "Damage = user's level. Can hit Normal types.",
+    "num": 101,
+    "accuracy": 100,
+    "damage": "level",
+    "category": "Physical",
+    "name": "Night Shade",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Ghost",
+    "id": "nightshade",
+    "fullname": "move: Night Shade",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "petaldance": {
+    "exists": true,
+    "desc": "Whether or not this move is successful, the user spends three or four turns locked into this move and becomes confused immediately after its move on the last turn of the effect, even if it is already confused. If the user is prevented from moving, the effect ends without causing confusion. During the effect, this move's accuracy is overwritten every turn with the current calculated accuracy including stat stage changes, but not to less than 1/256 or more than 255/256.",
+    "shortDesc": "Lasts 3-4 turns. Confuses the user afterwards.",
+    "basePower": 70,
+    "pp": 20,
+    "num": 80,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Petal Dance",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "dance": 1,
+      "metronome": 1,
+      "failinstruct": 1
+    },
+    "self": {
+      "volatileStatus": "lockedmove"
+    },
+    "target": "randomNormal",
+    "type": "Grass",
+    "id": "petaldance",
+    "fullname": "move: Petal Dance",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "poisonsting": {
+    "exists": true,
+    "secondary": {
+      "chance": 20,
+      "status": "psn"
+    },
+    "desc": "Has a 20% chance to poison the target.",
+    "shortDesc": "20% chance to poison the target.",
+    "num": 40,
+    "accuracy": 100,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "Poison Sting",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Poison",
+    "id": "poisonsting",
+    "fullname": "move: Poison Sting",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 20,
+        "status": "psn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 70
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "psychic": {
+    "exists": true,
+    "secondary": {
+      "chance": 33,
+      "boosts": {
+        "spa": -1,
+        "spd": -1
+      }
+    },
+    "desc": "Has a 33% chance to lower the target's Special by 1 stage.",
+    "shortDesc": "33% chance to lower the target's Special by 1.",
+    "num": 94,
+    "accuracy": 100,
+    "basePower": 90,
+    "category": "Special",
+    "name": "Psychic",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Psychic",
+    "id": "psychic",
+    "fullname": "move: Psychic",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 33,
+        "boosts": {
+          "spa": -1,
+          "spd": -1
+        }
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "psywave": {
+    "exists": true,
+    "basePower": 1,
+    "desc": "Deals damage to the target equal to a random number from 1 to (user's level * 1.5 - 1), rounded down, but not less than 1 HP.",
+    "shortDesc": "Random damage from 1 to (user's level*1.5 - 1).",
+    "accuracy": 80,
+    "isNonstandard": null,
+    "num": 149,
+    "category": "Special",
+    "name": "Psywave",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Psychic",
+    "id": "psywave",
+    "fullname": "move: Psywave",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "rage": {
+    "exists": true,
+    "self": {
+      "volatileStatus": "rage"
+    },
+    "condition": {
+      "onLockMove": "rage"
+    },
+    "desc": "Once this move is successfully used, the user automatically uses this move every turn and can no longer switch out. During the effect, the user's Attack is raised by 1 stage every time it is hit by the opposing Pokemon, and this move's accuracy is overwritten every turn with the current calculated accuracy including stat stage changes, but not to less than 1/256 or more than 255/256.",
+    "shortDesc": "Lasts forever. Raises user's Attack by 1 when hit.",
+    "isNonstandard": null,
+    "num": 99,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "Rage",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "rage",
+    "fullname": "move: Rage",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "razorleaf": {
+    "exists": true,
+    "critRatio": 2,
+    "target": "normal",
+    "shortDesc": "High critical hit ratio.",
+    "num": 75,
+    "accuracy": 95,
+    "basePower": 55,
+    "category": "Special",
+    "name": "Razor Leaf",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "slicing": 1
+    },
+    "type": "Grass",
+    "desc": "Has a higher chance for a critical hit.",
+    "id": "razorleaf",
+    "fullname": "move: Razor Leaf",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 110
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "razorwind": {
+    "exists": true,
+    "critRatio": 1,
+    "target": "normal",
+    "desc": "This attack charges on the first turn and executes on the second.",
+    "shortDesc": "Charges turn 1. Hits turn 2.",
+    "accuracy": 75,
+    "isNonstandard": null,
+    "num": 13,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Razor Wind",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "nosleeptalk": 1,
+      "failinstruct": 1
+    },
+    "type": "Normal",
+    "id": "razorwind",
+    "fullname": "move: Razor Wind",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "recover": {
+    "exists": true,
+    "desc": "The user restores 1/2 of its maximum HP, rounded down. Fails if (user's maximum HP - user's current HP + 1) is divisible by 256.",
+    "pp": 20,
+    "num": 105,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Recover",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "heal": 1,
+      "metronome": 1
+    },
+    "heal": [
+      1,
+      2
+    ],
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "shortDesc": "Heals the user by 50% of its max HP.",
+    "id": "recover",
+    "fullname": "move: Recover",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "reflect": {
+    "exists": true,
+    "volatileStatus": "reflect",
+    "condition": {},
+    "target": "self",
+    "desc": "While the user remains active, its Defense is doubled when taking damage. Critical hits ignore this protection. This effect can be removed by Haze.",
+    "shortDesc": "While active, the user's Defense is doubled.",
+    "num": 115,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Reflect",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "sideCondition": "reflect",
+    "type": "Psychic",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "id": "reflect",
+    "fullname": "move: Reflect",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "rest": {
+    "exists": true,
+    "desc": "The user falls asleep for the next two turns and restores all of its HP, curing itself of any non-volatile status condition in the process. This does not remove the user's stat penalty for burn or paralysis. Fails if the user has full HP.",
+    "pp": 10,
+    "num": 156,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Rest",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "heal": 1,
+      "metronome": 1
+    },
+    "target": "self",
+    "type": "Psychic",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "shortDesc": "User sleeps 2 turns and restores HP and status.",
+    "id": "rest",
+    "fullname": "move: Rest",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "roar": {
+    "exists": true,
+    "forceSwitch": false,
+    "priority": 0,
+    "desc": "No competitive use.",
+    "shortDesc": "No competitive use.",
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "sound": 1,
+      "bypasssub": 1,
+      "metronome": 1
+    },
+    "accuracy": 100,
+    "num": 46,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Roar",
+    "pp": 20,
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "id": "roar",
+    "fullname": "move: Roar",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "rockslide": {
+    "exists": true,
+    "target": "normal",
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "num": 157,
+    "accuracy": 90,
+    "basePower": 75,
+    "category": "Physical",
+    "name": "Rock Slide",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "type": "Rock",
+    "id": "rockslide",
+    "fullname": "move: Rock Slide",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "rockthrow": {
+    "exists": true,
+    "accuracy": 65,
+    "num": 88,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "Rock Throw",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Rock",
+    "shortDesc": "No additional effect.",
+    "id": "rockthrow",
+    "fullname": "move: Rock Throw",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 100
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "sandattack": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "type": "Normal",
+    "num": 28,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Sand Attack",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "accuracy": -1
+    },
+    "target": "normal",
+    "zMove": {
+      "boost": {
+        "evasion": 1
+      }
+    },
+    "desc": "Lowers the target's accuracy by 1 stage.",
+    "shortDesc": "Lowers the target's accuracy by 1.",
+    "id": "sandattack",
+    "fullname": "move: Sand Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "seismictoss": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "basePower": 1,
+    "desc": "Deals damage to the target equal to the user's level. This move ignores type immunity.",
+    "shortDesc": "Damage = user's level. Can hit Ghost types.",
+    "num": 69,
+    "accuracy": 100,
+    "damage": "level",
+    "category": "Physical",
+    "name": "Seismic Toss",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Fighting",
+    "maxMove": {
+      "basePower": 75
+    },
+    "id": "seismictoss",
+    "fullname": "move: Seismic Toss",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "selfdestruct": {
+    "exists": true,
+    "basePower": 130,
+    "target": "normal",
+    "desc": "The user faints after using this move, unless the target's substitute was broken by the damage. The target's Defense is halved during damage calculation.",
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "noparentalbond": 1,
+      "nosketch": 1
+    },
+    "shortDesc": "Target's Def halved during damage. User faints.",
+    "num": 120,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Self-Destruct",
+    "pp": 5,
+    "priority": 0,
+    "selfdestruct": "always",
+    "type": "Normal",
+    "id": "selfdestruct",
+    "fullname": "move: Self-Destruct",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 195
+    }
+  },
+  "skullbash": {
+    "exists": true,
+    "desc": "This attack charges on the first turn and executes on the second.",
+    "shortDesc": "Charges turn 1. Hits turn 2.",
+    "basePower": 100,
+    "pp": 15,
+    "isNonstandard": null,
+    "num": 130,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Skull Bash",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "nosleeptalk": 1,
+      "failinstruct": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "skullbash",
+    "fullname": "move: Skull Bash",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 180
+    }
+  },
+  "skyattack": {
+    "exists": true,
+    "critRatio": 1,
+    "desc": "This attack charges on the first turn and executes on the second.",
+    "shortDesc": "Charges turn 1. Hits turn 2.",
+    "num": 143,
+    "accuracy": 90,
+    "basePower": 140,
+    "category": "Physical",
+    "name": "Sky Attack",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "metronome": 1,
+      "nosleeptalk": 1,
+      "failinstruct": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "any",
+    "type": "Flying",
+    "id": "skyattack",
+    "fullname": "move: Sky Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 200
+    }
+  },
+  "slash": {
+    "exists": true,
+    "critRatio": 2,
+    "num": 163,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "Slash",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "slicing": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "desc": "Has a higher chance for a critical hit.",
+    "shortDesc": "High critical hit ratio.",
+    "id": "slash",
+    "fullname": "move: Slash",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "sludge": {
+    "exists": true,
+    "secondary": {
+      "chance": 40,
+      "status": "psn"
+    },
+    "desc": "Has a 40% chance to poison the target.",
+    "shortDesc": "40% chance to poison the target.",
+    "num": 124,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "Sludge",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Poison",
+    "id": "sludge",
+    "fullname": "move: Sludge",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 40,
+        "status": "psn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 85
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "solarbeam": {
+    "exists": true,
+    "desc": "This attack charges on the first turn and executes on the second.",
+    "shortDesc": "Charges turn 1. Hits turn 2.",
+    "num": 76,
+    "accuracy": 100,
+    "basePower": 120,
+    "category": "Special",
+    "name": "Solar Beam",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "charge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "nosleeptalk": 1,
+      "failinstruct": 1
+    },
+    "target": "normal",
+    "type": "Grass",
+    "id": "solarbeam",
+    "fullname": "move: Solar Beam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 190
+    }
+  },
+  "sonicboom": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "basePower": 1,
+    "desc": "Deals 20 HP of damage to the target. This move ignores type immunity.",
+    "isNonstandard": null,
+    "num": 49,
+    "accuracy": 90,
+    "damage": 20,
+    "category": "Physical",
+    "name": "Sonic Boom",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "Always does 20 HP of damage.",
+    "id": "sonicboom",
+    "fullname": "move: Sonic Boom",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "softboiled": {
+    "exists": true,
+    "desc": "The user restores 1/2 of its maximum HP, rounded down. Fails if (user's maximum HP - user's current HP + 1) is divisible by 256.",
+    "pp": 10,
+    "num": 135,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Soft-Boiled",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "heal": 1,
+      "metronome": 1
+    },
+    "heal": [
+      1,
+      2
+    ],
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "shortDesc": "Heals the user by 50% of its max HP.",
+    "id": "softboiled",
+    "fullname": "move: Soft-Boiled",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "struggle": {
+    "exists": true,
+    "pp": 10,
+    "recoil": [
+      1,
+      2
+    ],
+    "desc": "Deals Normal-type damage. If this move was successful, the user takes damage equal to 1/2 the HP lost by the target, rounded down, but not less than 1 HP. This move is automatically used if none of the user's known moves can be selected.",
+    "shortDesc": "User loses 1/2 the HP lost by the target.",
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "noassist": 1,
+      "failencore": 1,
+      "failmimic": 1,
+      "nosketch": 1
+    },
+    "accuracy": 100,
+    "struggleRecoil": false,
+    "num": 165,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "Struggle",
+    "noPPBoosts": true,
+    "priority": 0,
+    "target": "randomNormal",
+    "type": "Normal",
+    "id": "struggle",
+    "fullname": "move: Struggle",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "substitute": {
+    "exists": true,
+    "condition": {
+      "inherit": true,
+      "onTryHitPriority": -1
+    },
+    "desc": "The user takes 1/4 of its maximum HP, rounded down, and puts it into a substitute to take its place in battle. The substitute has 1 HP plus the HP used to create it, and is removed once enough damage is inflicted on it or 255 damage is inflicted at once, or if the user switches out or faints. Until the substitute is broken, it receives damage from all attacks made by the opposing Pokemon and shields the user from status effects and stat stage changes caused by the opponent, unless the effect is Disable, Leech Seed, sleep, primary paralysis, or secondary confusion and the user's substitute did not break. The user still takes normal damage from status effects while behind its substitute, unless the effect is confusion damage, which is applied to the opposing Pokemon's substitute instead. If the substitute breaks during a multi-hit attack, the attack ends. Fails if the user does not have enough HP remaining to create a substitute, or if it already has a substitute. The user will create a substitute and then faint if its current HP is exactly 1/4 of its maximum HP.",
+    "shortDesc": "User takes 1/4 its max HP to put in a Substitute.",
+    "num": 164,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Substitute",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "substitute",
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "id": "substitute",
+    "fullname": "move: Substitute",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "superfang": {
+    "exists": true,
+    "ignoreImmunity": true,
+    "basePower": 1,
+    "desc": "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP. This move ignores type immunity.",
+    "shortDesc": "Damage = 1/2 target's current HP. Hits Ghosts.",
+    "num": 162,
+    "accuracy": 90,
+    "category": "Physical",
+    "name": "Super Fang",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "superfang",
+    "fullname": "move: Super Fang",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "thrash": {
+    "exists": true,
+    "desc": "Whether or not this move is successful, the user spends three or four turns locked into this move and becomes confused immediately after its move on the last turn of the effect, even if it is already confused. If the user is prevented from moving, the effect ends without causing confusion. During the effect, this move's accuracy is overwritten every turn with the current calculated accuracy including stat stage changes, but not to less than 1/256 or more than 255/256.",
+    "shortDesc": "Lasts 3-4 turns. Confuses the user afterwards.",
+    "basePower": 90,
+    "pp": 20,
+    "num": 37,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Thrash",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "failinstruct": 1
+    },
+    "self": {
+      "volatileStatus": "lockedmove"
+    },
+    "target": "randomNormal",
+    "type": "Normal",
+    "id": "thrash",
+    "fullname": "move: Thrash",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "thunder": {
+    "exists": true,
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "desc": "Has a 10% chance to paralyze the target.",
+    "shortDesc": "10% chance to paralyze the target.",
+    "basePower": 120,
+    "num": 87,
+    "accuracy": 70,
+    "category": "Special",
+    "name": "Thunder",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Electric",
+    "id": "thunder",
+    "fullname": "move: Thunder",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "par"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 190
+    }
+  },
+  "triattack": {
+    "exists": true,
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "secondary": {
+      "chance": 20
+    },
+    "num": 161,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Tri Attack",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "triattack",
+    "fullname": "move: Tri Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 20
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "whirlwind": {
+    "exists": true,
+    "accuracy": 85,
+    "forceSwitch": false,
+    "priority": 0,
+    "desc": "No competitive use.",
+    "shortDesc": "No competitive use.",
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "bypasssub": 1,
+      "metronome": 1
+    },
+    "num": 18,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Whirlwind",
+    "pp": 20,
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "spd": 1
+      }
+    },
+    "id": "whirlwind",
+    "fullname": "move: Whirlwind",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "wingattack": {
+    "exists": true,
+    "basePower": 35,
+    "num": 17,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Wing Attack",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "metronome": 1
+    },
+    "target": "any",
+    "type": "Flying",
+    "shortDesc": "No additional effect.",
+    "id": "wingattack",
+    "fullname": "move: Wing Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "wrap": {
+    "exists": true,
+    "accuracy": 85,
+    "ignoreImmunity": true,
+    "self": {
+      "volatileStatus": "partialtrappinglock"
+    },
+    "desc": "The user spends two to five turns using this move. Has a 3/8 chance to last two or three turns, and a 1/8 chance to last four or five turns. The damage calculated for the first turn is used for every other turn. The user cannot select a move and the target cannot execute a move during the effect, but both may switch out. If the user switches out, the target remains unable to execute a move during that turn. If the target switches out, the user uses this move again automatically, and if it had 0 PP at the time, it becomes 63. If the user or the target switch out, or the user is prevented from moving, the effect ends. This move can prevent the target from moving even if it has type immunity, but will not deal damage.",
+    "shortDesc": "Prevents the target from moving for 2-5 turns.",
+    "num": 35,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "Wrap",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "partiallytrapped",
+    "target": "normal",
+    "type": "Normal",
+    "id": "wrap",
+    "fullname": "move: Wrap",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "absorb": {
+    "exists": true,
+    "desc": "The user recovers 1/2 the HP lost by the target, rounded down. If this move breaks the target's substitute, the user does not recover any HP.",
+    "pp": 20,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "num": 71,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Special",
+    "name": "Absorb",
+    "priority": 0,
+    "drain": [
+      1,
+      2
+    ],
+    "target": "normal",
+    "type": "Grass",
+    "shortDesc": "User recovers 50% of the damage dealt.",
+    "id": "absorb",
+    "fullname": "move: Absorb",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "barrage": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "isNonstandard": null,
+    "num": 140,
+    "accuracy": 85,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "Barrage",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "bullet": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "barrage",
+    "fullname": "move: Barrage",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "bonemerang": {
+    "exists": true,
+    "desc": "Hits twice. If the first hit breaks the target's substitute, the move ends.",
+    "isNonstandard": null,
+    "num": 155,
+    "accuracy": 90,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "Bonemerang",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": 2,
+    "target": "normal",
+    "type": "Ground",
+    "maxMove": {
+      "basePower": 130
+    },
+    "shortDesc": "Hits 2 times in one turn.",
+    "id": "bonemerang",
+    "fullname": "move: Bonemerang",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "cometpunch": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "isNonstandard": null,
+    "num": 4,
+    "accuracy": 85,
+    "basePower": 18,
+    "category": "Physical",
+    "name": "Comet Punch",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "metronome": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "maxMove": {
+      "basePower": 100
+    },
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "cometpunch",
+    "fullname": "move: Comet Punch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "defensecurl": {
+    "exists": true,
+    "desc": "Raises the user's Defense by 1 stage.",
+    "num": 111,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Defense Curl",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": 1
+    },
+    "volatileStatus": "defensecurl",
+    "condition": {
+      "noCopy": true
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "accuracy": 1
+      }
+    },
+    "shortDesc": "Raises the user's Defense by 1.",
+    "id": "defensecurl",
+    "fullname": "move: Defense Curl",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "doublekick": {
+    "exists": true,
+    "desc": "Hits twice. Damage is calculated once for the first hit and used for both hits. If the first hit breaks the target's substitute, the move ends.",
+    "num": 24,
+    "accuracy": 100,
+    "basePower": 30,
+    "category": "Physical",
+    "name": "Double Kick",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": 2,
+    "target": "normal",
+    "type": "Fighting",
+    "maxMove": {
+      "basePower": 80
+    },
+    "shortDesc": "Hits 2 times in one turn.",
+    "id": "doublekick",
+    "fullname": "move: Double Kick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "doubleslap": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "isNonstandard": null,
+    "num": 3,
+    "accuracy": 85,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "Double Slap",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "doubleslap",
+    "fullname": "move: Double Slap",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "dreameater": {
+    "exists": true,
+    "desc": "The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not recover any HP.",
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "num": 138,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Special",
+    "name": "Dream Eater",
+    "pp": 15,
+    "priority": 0,
+    "drain": [
+      1,
+      2
+    ],
+    "target": "normal",
+    "type": "Psychic",
+    "shortDesc": "User gains 1/2 HP inflicted. Sleeping target only.",
+    "id": "dreameater",
+    "fullname": "move: Dream Eater",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 180
+    }
+  },
+  "earthquake": {
+    "exists": true,
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "num": 89,
+    "accuracy": 100,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "Earthquake",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "target": "allAdjacent",
+    "type": "Ground",
+    "id": "earthquake",
+    "fullname": "move: Earthquake",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 180
+    }
+  },
+  "fissure": {
+    "exists": true,
+    "desc": "Deals 65535 damage to the target. Fails if the target's Speed is greater than the user's.",
+    "shortDesc": "Deals 65535 damage. Fails if target is faster.",
+    "num": 90,
+    "accuracy": 30,
+    "basePower": 0,
+    "category": "Physical",
+    "name": "Fissure",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "ohko": true,
+    "target": "normal",
+    "type": "Ground",
+    "zMove": {
+      "basePower": 180
+    },
+    "maxMove": {
+      "basePower": 130
+    },
+    "id": "fissure",
+    "fullname": "move: Fissure",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "furyattack": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "num": 31,
+    "accuracy": 85,
+    "basePower": 15,
+    "category": "Physical",
+    "name": "Fury Attack",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "furyattack",
+    "fullname": "move: Fury Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "furyswipes": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "num": 154,
+    "accuracy": 80,
+    "basePower": 18,
+    "category": "Physical",
+    "name": "Fury Swipes",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "maxMove": {
+      "basePower": 100
+    },
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "furyswipes",
+    "fullname": "move: Fury Swipes",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "guillotine": {
+    "exists": true,
+    "desc": "Deals 65535 damage to the target. Fails if the target's Speed is greater than the user's.",
+    "shortDesc": "Deals 65535 damage. Fails if target is faster.",
+    "num": 12,
+    "accuracy": 30,
+    "basePower": 0,
+    "category": "Physical",
+    "name": "Guillotine",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "ohko": true,
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "basePower": 180
+    },
+    "maxMove": {
+      "basePower": 130
+    },
+    "id": "guillotine",
+    "fullname": "move: Guillotine",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "horndrill": {
+    "exists": true,
+    "desc": "Deals 65535 damage to the target. Fails if the target's Speed is greater than the user's.",
+    "shortDesc": "Deals 65535 damage. Fails if target is faster.",
+    "num": 32,
+    "accuracy": 30,
+    "basePower": 0,
+    "category": "Physical",
+    "name": "Horn Drill",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "ohko": true,
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "basePower": 180
+    },
+    "maxMove": {
+      "basePower": 130
+    },
+    "id": "horndrill",
+    "fullname": "move: Horn Drill",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "hyperbeam": {
+    "exists": true,
+    "desc": "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+    "shortDesc": "Can't move next turn if target or sub is not KOed.",
+    "num": 63,
+    "accuracy": 90,
+    "basePower": 150,
+    "category": "Physical",
+    "name": "Hyper Beam",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "recharge": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "self": {
+      "volatileStatus": "mustrecharge"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "id": "hyperbeam",
+    "fullname": "move: Hyper Beam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 150
+    },
+    "zMove": {
+      "basePower": 200
+    }
+  },
+  "pinmissile": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "accuracy": 85,
+    "basePower": 14,
+    "num": 42,
+    "category": "Physical",
+    "name": "Pin Missile",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Bug",
+    "zMove": {
+      "basePower": 140
+    },
+    "maxMove": {
+      "basePower": 130
+    },
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "pinmissile",
+    "fullname": "move: Pin Missile",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "spikecannon": {
+    "exists": true,
+    "desc": "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
+    "isNonstandard": null,
+    "num": 131,
+    "accuracy": 100,
+    "basePower": 20,
+    "category": "Physical",
+    "name": "Spike Cannon",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "maxMove": {
+      "basePower": 120
+    },
+    "shortDesc": "Hits 2-5 times in one turn.",
+    "id": "spikecannon",
+    "fullname": "move: Spike Cannon",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "stomp": {
+    "exists": true,
+    "desc": "Has a 30% chance to make the target flinch.",
+    "num": 23,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "Stomp",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1,
+      "minimize": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "30% chance to make the target flinch.",
+    "id": "stomp",
+    "fullname": "move: Stomp",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "stunspore": {
+    "exists": true,
+    "desc": "Paralyzes the target.",
+    "num": 78,
+    "accuracy": 75,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Stun Spore",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "powder": 1
+    },
+    "status": "par",
+    "target": "normal",
+    "type": "Grass",
+    "zMove": {
+      "boost": {
+        "spd": 1
+      }
+    },
+    "shortDesc": "Paralyzes the target.",
+    "id": "stunspore",
+    "fullname": "move: Stun Spore",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "submission": {
+    "exists": true,
+    "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not take any recoil damage.",
+    "pp": 25,
+    "isNonstandard": null,
+    "num": 66,
+    "accuracy": 80,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Submission",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "recoil": [
+      1,
+      4
+    ],
+    "target": "normal",
+    "type": "Fighting",
+    "shortDesc": "Has 1/4 recoil.",
+    "id": "submission",
+    "fullname": "move: Submission",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "swift": {
+    "exists": true,
+    "desc": "This move does not check accuracy and hits even if the target is using Dig or Fly.",
+    "shortDesc": "Never misses, even against Dig and Fly.",
+    "num": 129,
+    "accuracy": true,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "Swift",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Normal",
+    "id": "swift",
+    "fullname": "move: Swift",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 110
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "takedown": {
+    "exists": true,
+    "desc": "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not take any recoil damage.",
+    "num": 36,
+    "accuracy": 85,
+    "basePower": 90,
+    "category": "Physical",
+    "name": "Take Down",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "recoil": [
+      1,
+      4
+    ],
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "Has 1/4 recoil.",
+    "id": "takedown",
+    "fullname": "move: Take Down",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "transform": {
+    "exists": true,
+    "desc": "The user transforms into the target. The target's current stats, stat stages, types, moves, DVs, species, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP. This move can hit a target using Dig or Fly.",
+    "flags": {
+      "bypasssub": 1,
+      "metronome": 1,
+      "failencore": 1,
+      "nosketch": 1
+    },
+    "shortDesc": "Copies target's stats, moves, types, and species.",
+    "num": 144,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Transform",
+    "pp": 10,
+    "priority": 0,
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "effect": "heal"
+    },
+    "id": "transform",
+    "fullname": "move: Transform",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "twineedle": {
+    "exists": true,
+    "desc": "Hits twice, with the second hit having a 20% chance to poison the target. If the first hit breaks the target's substitute, the move ends.",
+    "shortDesc": "Hits 2 times. Last hit has 20% chance to poison.",
+    "isNonstandard": null,
+    "num": 41,
+    "accuracy": 100,
+    "basePower": 25,
+    "category": "Physical",
+    "name": "Twineedle",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "multihit": 2,
+    "secondary": {
+      "chance": 20,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Bug",
+    "maxMove": {
+      "basePower": 100
+    },
+    "id": "twineedle",
+    "fullname": "move: Twineedle",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 20,
+        "status": "psn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "lowkick": {
+    "exists": true,
+    "accuracy": 90,
+    "basePower": 50,
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "desc": "Has a 30% chance to make the target flinch.",
+    "shortDesc": "30% chance to make the target flinch.",
+    "num": 67,
+    "category": "Physical",
+    "name": "Low Kick",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Fighting",
+    "zMove": {
+      "basePower": 160
+    },
+    "id": "lowkick",
+    "fullname": "move: Low Kick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 75
+    }
+  },
+  "poisongas": {
+    "exists": true,
+    "ignoreImmunity": false,
+    "shortDesc": "Poisons the target.",
+    "accuracy": 55,
+    "target": "normal",
+    "num": 139,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Poison Gas",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "status": "psn",
+    "type": "Poison",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "desc": "Poisons the target.",
+    "id": "poisongas",
+    "fullname": "move: Poison Gas",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "poisonpowder": {
+    "exists": true,
+    "ignoreImmunity": false,
+    "num": 77,
+    "accuracy": 75,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Poison Powder",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "powder": 1
+    },
+    "status": "psn",
+    "target": "normal",
+    "type": "Poison",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "desc": "Poisons the target.",
+    "shortDesc": "Poisons the target.",
+    "id": "poisonpowder",
+    "fullname": "move: Poison Powder",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "toxic": {
+    "exists": true,
+    "ignoreImmunity": false,
+    "accuracy": 85,
+    "desc": "Badly poisons the target.",
+    "shortDesc": "Badly poisons the target.",
+    "condition": {
+      "noCopy": true,
+      "duration": 1,
+      "onSourceInvulnerabilityPriority": 1
+    },
+    "num": 92,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Toxic",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "status": "tox",
+    "target": "normal",
+    "type": "Poison",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "id": "toxic",
+    "fullname": "move: Toxic",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "growl": {
+    "exists": true,
+    "shortDesc": "Lowers the target's Attack by 1.",
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "sound": 1,
+      "metronome": 1
+    },
+    "num": 45,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Growl",
+    "pp": 40,
+    "priority": 0,
+    "boosts": {
+      "atk": -1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "desc": "Lowers the target's Attack by 1 stage.",
+    "id": "growl",
+    "fullname": "move: Growl",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "leer": {
+    "exists": true,
+    "shortDesc": "Lowers the target's Defense by 1.",
+    "num": 43,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Leer",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": -1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "atk": 1
+      }
+    },
+    "desc": "Lowers the target's Defense by 1 stage.",
+    "id": "leer",
+    "fullname": "move: Leer",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "stringshot": {
+    "exists": true,
+    "shortDesc": "Lowers the target's Speed by 1.",
+    "boosts": {
+      "spe": -1
+    },
+    "desc": "Lowers the target's Speed by 1 stage.",
+    "num": 81,
+    "accuracy": 95,
+    "basePower": 0,
+    "category": "Status",
+    "name": "String Shot",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Bug",
+    "zMove": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "id": "stringshot",
+    "fullname": "move: String Shot",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "surf": {
+    "exists": true,
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "target": "allAdjacentFoes",
+    "basePower": 95,
+    "num": 57,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Surf",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "type": "Water",
+    "id": "surf",
+    "fullname": "move: Surf",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "tailwhip": {
+    "exists": true,
+    "shortDesc": "Lowers the target's Defense by 1.",
+    "num": 39,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Tail Whip",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": -1
+    },
+    "target": "allAdjacentFoes",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "atk": 1
+      }
+    },
+    "desc": "Lowers the target's Defense by 1 stage.",
+    "id": "tailwhip",
+    "fullname": "move: Tail Whip",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "flash": {
+    "exists": true,
+    "accuracy": 70,
+    "isNonstandard": null,
+    "num": 148,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Flash",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "accuracy": -1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "evasion": 1
+      }
+    },
+    "desc": "Lowers the target's accuracy by 1 stage.",
+    "shortDesc": "Lowers the target's accuracy by 1.",
+    "id": "flash",
+    "fullname": "move: Flash",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "hypnosis": {
+    "exists": true,
+    "accuracy": 60,
+    "num": 95,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Hypnosis",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "status": "slp",
+    "target": "normal",
+    "type": "Psychic",
+    "zMove": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "shortDesc": "Causes the target to fall asleep.",
+    "id": "hypnosis",
+    "fullname": "move: Hypnosis",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Causes the target to fall asleep.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "megadrain": {
+    "exists": true,
+    "pp": 10,
+    "desc": "The user recovers 1/2 the HP lost by the target, rounded down.",
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "num": 72,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "Mega Drain",
+    "priority": 0,
+    "drain": [
+      1,
+      2
+    ],
+    "target": "normal",
+    "type": "Grass",
+    "zMove": {
+      "basePower": 120
+    },
+    "shortDesc": "User recovers 50% of the damage dealt.",
+    "id": "megadrain",
+    "fullname": "move: Mega Drain",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    }
+  },
+  "vinewhip": {
+    "exists": true,
+    "pp": 10,
+    "basePower": 35,
+    "num": 22,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Vine Whip",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Grass",
+    "shortDesc": "No additional effect.",
+    "id": "vinewhip",
+    "fullname": "move: Vine Whip",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "waterfall": {
+    "exists": true,
+    "desc": "No additional effect.",
+    "shortDesc": "No additional effect.",
+    "num": 127,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Special",
+    "name": "Waterfall",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 20,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Water",
+    "id": "waterfall",
+    "fullname": "move: Waterfall",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 20,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "leechlife": {
+    "exists": true,
+    "desc": "The user recovers 1/2 the HP lost by the target, rounded down.",
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "basePower": 20,
+    "pp": 15,
+    "num": 141,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Leech Life",
+    "priority": 0,
+    "drain": [
+      1,
+      2
+    ],
+    "target": "normal",
+    "type": "Bug",
+    "shortDesc": "User recovers 50% of the damage dealt.",
+    "id": "leechlife",
+    "fullname": "move: Leech Life",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "payday": {
+    "exists": true,
+    "num": 6,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "Pay Day",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "desc": "No additional effect.",
+    "shortDesc": "Scatters coins.",
+    "id": "payday",
+    "fullname": "move: Pay Day",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "tackle": {
+    "exists": true,
+    "accuracy": 95,
+    "basePower": 35,
+    "num": 33,
+    "category": "Physical",
+    "name": "Tackle",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "tackle",
+    "fullname": "move: Tackle",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "acidarmor": {
+    "exists": true,
+    "pp": 40,
+    "num": 151,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Acid Armor",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": 2
+    },
+    "target": "self",
+    "type": "Poison",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "desc": "Raises the user's Defense by 2 stages.",
+    "shortDesc": "Raises the user's Defense by 2.",
+    "id": "acidarmor",
+    "fullname": "move: Acid Armor",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "barrier": {
+    "exists": true,
+    "pp": 30,
+    "isNonstandard": null,
+    "num": 112,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Barrier",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": 2
+    },
+    "target": "self",
+    "type": "Psychic",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "desc": "Raises the user's Defense by 2 stages.",
+    "shortDesc": "Raises the user's Defense by 2.",
+    "id": "barrier",
+    "fullname": "move: Barrier",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "bodyslam": {
+    "exists": true,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "desc": "Has a 30% chance to paralyze the target.",
+    "num": 34,
+    "accuracy": 100,
+    "basePower": 85,
+    "category": "Physical",
+    "name": "Body Slam",
+    "pp": 15,
+    "priority": 0,
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "30% chance to paralyze the target.",
+    "id": "bodyslam",
+    "fullname": "move: Body Slam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "status": "par"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "flamethrower": {
+    "exists": true,
+    "basePower": 95,
+    "num": 53,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Flamethrower",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire",
+    "desc": "Has a 10% chance to burn the target.",
+    "shortDesc": "10% chance to burn the target.",
+    "id": "flamethrower",
+    "fullname": "move: Flamethrower",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "brn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "hydropump": {
+    "exists": true,
+    "basePower": 120,
+    "num": 56,
+    "accuracy": 80,
+    "category": "Special",
+    "name": "Hydro Pump",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Water",
+    "shortDesc": "No additional effect.",
+    "id": "hydropump",
+    "fullname": "move: Hydro Pump",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 190
+    }
+  },
+  "icebeam": {
+    "exists": true,
+    "basePower": 95,
+    "num": 58,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Ice Beam",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "normal",
+    "type": "Ice",
+    "desc": "Has a 10% chance to freeze the target.",
+    "shortDesc": "10% chance to freeze the target.",
+    "id": "icebeam",
+    "fullname": "move: Ice Beam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "frz"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "lick": {
+    "exists": true,
+    "basePower": 20,
+    "num": 122,
+    "accuracy": 100,
+    "category": "Physical",
+    "name": "Lick",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Ghost",
+    "desc": "Has a 30% chance to paralyze the target.",
+    "shortDesc": "30% chance to paralyze the target.",
+    "id": "lick",
+    "fullname": "move: Lick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "status": "par"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "screech": {
+    "exists": true,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "sound": 1,
+      "metronome": 1
+    },
+    "num": 103,
+    "accuracy": 85,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Screech",
+    "pp": 40,
+    "priority": 0,
+    "boosts": {
+      "def": -2
+    },
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "atk": 1
+      }
+    },
+    "desc": "Lowers the target's Defense by 2 stages.",
+    "shortDesc": "Lowers the target's Defense by 2.",
+    "id": "screech",
+    "fullname": "move: Screech",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "sing": {
+    "exists": true,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "sound": 1,
+      "metronome": 1
+    },
+    "num": 47,
+    "accuracy": 55,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Sing",
+    "pp": 15,
+    "priority": 0,
+    "status": "slp",
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "shortDesc": "Causes the target to fall asleep.",
+    "id": "sing",
+    "fullname": "move: Sing",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Causes the target to fall asleep.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "sleeppowder": {
+    "exists": true,
+    "num": 79,
+    "accuracy": 75,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Sleep Powder",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "powder": 1
+    },
+    "status": "slp",
+    "target": "normal",
+    "type": "Grass",
+    "zMove": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "shortDesc": "Causes the target to fall asleep.",
+    "id": "sleeppowder",
+    "fullname": "move: Sleep Powder",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Causes the target to fall asleep.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "smog": {
+    "exists": true,
+    "basePower": 20,
+    "num": 123,
+    "accuracy": 70,
+    "category": "Physical",
+    "name": "Smog",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 40,
+      "status": "psn"
+    },
+    "target": "normal",
+    "type": "Poison",
+    "desc": "Has a 40% chance to poison the target.",
+    "shortDesc": "40% chance to poison the target.",
+    "id": "smog",
+    "fullname": "move: Smog",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 40,
+        "status": "psn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 70
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "spore": {
+    "exists": true,
+    "num": 147,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Spore",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "powder": 1
+    },
+    "status": "slp",
+    "target": "normal",
+    "type": "Grass",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "shortDesc": "Causes the target to fall asleep.",
+    "id": "spore",
+    "fullname": "move: Spore",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Causes the target to fall asleep.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "supersonic": {
+    "exists": true,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "sound": 1,
+      "metronome": 1
+    },
+    "num": 48,
+    "accuracy": 55,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Supersonic",
+    "pp": 20,
+    "priority": 0,
+    "volatileStatus": "confusion",
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "shortDesc": "Causes the target to become confused.",
+    "id": "supersonic",
+    "fullname": "move: Supersonic",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Causes the target to become confused.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "swordsdance": {
+    "exists": true,
+    "pp": 30,
+    "num": 14,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Swords Dance",
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "dance": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "atk": 2
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "desc": "Raises the user's Attack by 2 stages.",
+    "shortDesc": "Raises the user's Attack by 2.",
+    "id": "swordsdance",
+    "fullname": "move: Swords Dance",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "thunderbolt": {
+    "exists": true,
+    "basePower": 95,
+    "num": 85,
+    "accuracy": 100,
+    "category": "Special",
+    "name": "Thunderbolt",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric",
+    "desc": "Has a 10% chance to paralyze the target.",
+    "shortDesc": "10% chance to paralyze the target.",
+    "id": "thunderbolt",
+    "fullname": "move: Thunderbolt",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "par"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 175
+    }
+  },
+  "thunderwave": {
+    "exists": true,
+    "accuracy": 100,
+    "num": 86,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Thunder Wave",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "status": "par",
+    "ignoreImmunity": false,
+    "target": "normal",
+    "type": "Electric",
+    "zMove": {
+      "boost": {
+        "spd": 1
+      }
+    },
+    "desc": "Paralyzes the target. This move does not ignore type immunity.",
+    "shortDesc": "Paralyzes the target.",
+    "id": "thunderwave",
+    "fullname": "move: Thunder Wave",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "boneclub": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 125,
+    "accuracy": 85,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "Bone Club",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Ground",
+    "desc": "Has a 10% chance to make the target flinch.",
+    "shortDesc": "10% chance to make the target flinch.",
+    "id": "boneclub",
+    "fullname": "move: Bone Club",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "eggbomb": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 121,
+    "accuracy": 75,
+    "basePower": 100,
+    "category": "Physical",
+    "name": "Egg Bomb",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "bullet": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "eggbomb",
+    "fullname": "move: Egg Bomb",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 180
+    }
+  },
+  "hyperfang": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 158,
+    "accuracy": 90,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Hyper Fang",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "bite": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "desc": "Has a 10% chance to make the target flinch.",
+    "shortDesc": "10% chance to make the target flinch.",
+    "id": "hyperfang",
+    "fullname": "move: Hyper Fang",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "meditate": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 96,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Meditate",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "atk": 1
+    },
+    "target": "self",
+    "type": "Psychic",
+    "zMove": {
+      "boost": {
+        "atk": 1
+      }
+    },
+    "desc": "Raises the user's Attack by 1 stage.",
+    "shortDesc": "Raises the user's Attack by 1.",
+    "id": "meditate",
+    "fullname": "move: Meditate",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "rollingkick": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 27,
+    "accuracy": 85,
+    "basePower": 60,
+    "category": "Physical",
+    "name": "Rolling Kick",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Fighting",
+    "desc": "Has a 30% chance to make the target flinch.",
+    "shortDesc": "30% chance to make the target flinch.",
+    "id": "rollingkick",
+    "fullname": "move: Rolling Kick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 80
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "sharpen": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 159,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Sharpen",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "atk": 1
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "atk": 1
+      }
+    },
+    "desc": "Raises the user's Attack by 1 stage.",
+    "shortDesc": "Raises the user's Attack by 1.",
+    "id": "sharpen",
+    "fullname": "move: Sharpen",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "teleport": {
+    "exists": true,
+    "priority": 0,
+    "onTry": false,
+    "desc": "Fails when used.",
+    "shortDesc": "Fails when used.",
+    "num": 100,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Teleport",
+    "pp": 20,
+    "flags": {
+      "metronome": 1
+    },
+    "target": "self",
+    "type": "Psychic",
+    "zMove": {
+      "effect": "heal"
+    },
+    "id": "teleport",
+    "fullname": "move: Teleport",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "cut": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 15,
+    "accuracy": 95,
+    "basePower": 50,
+    "category": "Physical",
+    "name": "Cut",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1,
+      "slicing": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "cut",
+    "fullname": "move: Cut",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 100
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "kinesis": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 134,
+    "accuracy": 80,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Kinesis",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "accuracy": -1
+    },
+    "target": "normal",
+    "type": "Psychic",
+    "zMove": {
+      "boost": {
+        "evasion": 1
+      }
+    },
+    "desc": "Lowers the target's accuracy by 1 stage.",
+    "shortDesc": "Lowers the target's accuracy by 1.",
+    "id": "kinesis",
+    "fullname": "move: Kinesis",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "lovelykiss": {
+    "exists": true,
+    "isNonstandard": null,
+    "num": 142,
+    "accuracy": 75,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Lovely Kiss",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "status": "slp",
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "spe": 1
+      }
+    },
+    "shortDesc": "Causes the target to fall asleep.",
+    "id": "lovelykiss",
+    "fullname": "move: Lovely Kiss",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "Causes the target to fall asleep.",
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "agility": {
+    "exists": true,
+    "num": 97,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Agility",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "spe": 2
+    },
+    "target": "self",
+    "type": "Psychic",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "desc": "Raises the user's Speed by 2 stages.",
+    "shortDesc": "Raises the user's Speed by 2.",
+    "id": "agility",
+    "fullname": "move: Agility",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "confuseray": {
+    "exists": true,
+    "num": 109,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Confuse Ray",
+    "pp": 10,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "volatileStatus": "confusion",
+    "target": "normal",
+    "type": "Ghost",
+    "zMove": {
+      "boost": {
+        "spa": 1
+      }
+    },
+    "desc": "Causes the target to become confused.",
+    "shortDesc": "Confuses the target.",
+    "id": "confuseray",
+    "fullname": "move: Confuse Ray",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "confusion": {
+    "exists": true,
+    "num": 93,
+    "accuracy": 100,
+    "basePower": 50,
+    "category": "Special",
+    "name": "Confusion",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Psychic",
+    "desc": "Has a 10% chance to confuse the target.",
+    "shortDesc": "10% chance to confuse the target.",
+    "id": "confusion",
+    "fullname": "move: Confusion",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "volatileStatus": "confusion"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 100
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "doubleteam": {
+    "exists": true,
+    "num": 104,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Double Team",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "evasion": 1
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "effect": "clearnegativeboost"
+    },
+    "desc": "Raises the user's evasiveness by 1 stage.",
+    "shortDesc": "Raises the user's evasiveness by 1.",
+    "id": "doubleteam",
+    "fullname": "move: Double Team",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "drillpeck": {
+    "exists": true,
+    "num": 65,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Drill Peck",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "metronome": 1
+    },
+    "target": "any",
+    "type": "Flying",
+    "shortDesc": "No additional effect.",
+    "id": "drillpeck",
+    "fullname": "move: Drill Peck",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "ember": {
+    "exists": true,
+    "num": 52,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "Ember",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire",
+    "desc": "Has a 10% chance to burn the target.",
+    "shortDesc": "10% chance to burn the target.",
+    "id": "ember",
+    "fullname": "move: Ember",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "brn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "firepunch": {
+    "exists": true,
+    "num": 7,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Special",
+    "name": "Fire Punch",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "brn"
+    },
+    "target": "normal",
+    "type": "Fire",
+    "desc": "Has a 10% chance to burn the target.",
+    "shortDesc": "10% chance to burn the target.",
+    "id": "firepunch",
+    "fullname": "move: Fire Punch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "brn"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "harden": {
+    "exists": true,
+    "num": 106,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Harden",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": 1
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "desc": "Raises the user's Defense by 1 stage.",
+    "shortDesc": "Raises the user's Defense by 1.",
+    "id": "harden",
+    "fullname": "move: Harden",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "headbutt": {
+    "exists": true,
+    "num": 29,
+    "accuracy": 100,
+    "basePower": 70,
+    "category": "Physical",
+    "name": "Headbutt",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 30,
+      "volatileStatus": "flinch"
+    },
+    "target": "normal",
+    "type": "Normal",
+    "desc": "Has a 30% chance to make the target flinch.",
+    "shortDesc": "30% chance to make the target flinch.",
+    "id": "headbutt",
+    "fullname": "move: Headbutt",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "hornattack": {
+    "exists": true,
+    "num": 30,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Physical",
+    "name": "Horn Attack",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "hornattack",
+    "fullname": "move: Horn Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "icepunch": {
+    "exists": true,
+    "num": 8,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Special",
+    "name": "Ice Punch",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "frz"
+    },
+    "target": "normal",
+    "type": "Ice",
+    "desc": "Has a 10% chance to freeze the target.",
+    "shortDesc": "10% chance to freeze the target.",
+    "id": "icepunch",
+    "fullname": "move: Ice Punch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "frz"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "megakick": {
+    "exists": true,
+    "num": 25,
+    "accuracy": 75,
+    "basePower": 120,
+    "category": "Physical",
+    "name": "Mega Kick",
+    "pp": 5,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "megakick",
+    "fullname": "move: Mega Kick",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 140
+    },
+    "zMove": {
+      "basePower": 190
+    }
+  },
+  "megapunch": {
+    "exists": true,
+    "num": 5,
+    "accuracy": 85,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Mega Punch",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "megapunch",
+    "fullname": "move: Mega Punch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "peck": {
+    "exists": true,
+    "num": 64,
+    "accuracy": 100,
+    "basePower": 35,
+    "category": "Physical",
+    "name": "Peck",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "distance": 1,
+      "metronome": 1
+    },
+    "target": "any",
+    "type": "Flying",
+    "shortDesc": "No additional effect.",
+    "id": "peck",
+    "fullname": "move: Peck",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "pound": {
+    "exists": true,
+    "num": 1,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "Pound",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "pound",
+    "fullname": "move: Pound",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "psybeam": {
+    "exists": true,
+    "num": 60,
+    "accuracy": 100,
+    "basePower": 65,
+    "category": "Special",
+    "name": "Psybeam",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "volatileStatus": "confusion"
+    },
+    "target": "normal",
+    "type": "Psychic",
+    "desc": "Has a 10% chance to confuse the target.",
+    "shortDesc": "10% chance to confuse the target.",
+    "id": "psybeam",
+    "fullname": "move: Psybeam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "volatileStatus": "confusion"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 120
+    },
+    "zMove": {
+      "basePower": 120
+    }
+  },
+  "quickattack": {
+    "exists": true,
+    "num": 98,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "Quick Attack",
+    "pp": 30,
+    "priority": 1,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "desc": "No additional effect.",
+    "shortDesc": "Usually goes first.",
+    "id": "quickattack",
+    "fullname": "move: Quick Attack",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "scratch": {
+    "exists": true,
+    "num": 10,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Physical",
+    "name": "Scratch",
+    "pp": 35,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "scratch",
+    "fullname": "move: Scratch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "slam": {
+    "exists": true,
+    "num": 21,
+    "accuracy": 75,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Slam",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "nonsky": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "slam",
+    "fullname": "move: Slam",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "smokescreen": {
+    "exists": true,
+    "num": 108,
+    "accuracy": 100,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Smokescreen",
+    "pp": 20,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "reflectable": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "accuracy": -1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "evasion": 1
+      }
+    },
+    "desc": "Lowers the target's accuracy by 1 stage.",
+    "shortDesc": "Lowers the target's accuracy by 1.",
+    "id": "smokescreen",
+    "fullname": "move: Smokescreen",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "splash": {
+    "exists": true,
+    "num": 150,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Splash",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "gravity": 1,
+      "metronome": 1
+    },
+    "target": "self",
+    "type": "Normal",
+    "zMove": {
+      "boost": {
+        "atk": 3
+      }
+    },
+    "shortDesc": "No competitive use.",
+    "id": "splash",
+    "fullname": "move: Splash",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No competitive use.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  },
+  "strength": {
+    "exists": true,
+    "num": 70,
+    "accuracy": 100,
+    "basePower": 80,
+    "category": "Physical",
+    "name": "Strength",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "strength",
+    "fullname": "move: Strength",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 160
+    }
+  },
+  "thunderpunch": {
+    "exists": true,
+    "num": 9,
+    "accuracy": 100,
+    "basePower": 75,
+    "category": "Special",
+    "name": "Thunder Punch",
+    "pp": 15,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "punch": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric",
+    "desc": "Has a 10% chance to paralyze the target.",
+    "shortDesc": "10% chance to paralyze the target.",
+    "id": "thunderpunch",
+    "fullname": "move: Thunder Punch",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "par"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 130
+    },
+    "zMove": {
+      "basePower": 140
+    }
+  },
+  "thundershock": {
+    "exists": true,
+    "num": 84,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "Thunder Shock",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "secondary": {
+      "chance": 10,
+      "status": "par"
+    },
+    "target": "normal",
+    "type": "Electric",
+    "desc": "Has a 10% chance to paralyze the target.",
+    "shortDesc": "10% chance to paralyze the target.",
+    "id": "thundershock",
+    "fullname": "move: Thunder Shock",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "secondaries": [
+      {
+        "chance": 10,
+        "status": "par"
+      }
+    ],
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "visegrip": {
+    "exists": true,
+    "num": 11,
+    "accuracy": 100,
+    "basePower": 55,
+    "category": "Physical",
+    "name": "Vise Grip",
+    "pp": 30,
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Normal",
+    "shortDesc": "No additional effect.",
+    "id": "visegrip",
+    "fullname": "move: Vise Grip",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 110
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "watergun": {
+    "exists": true,
+    "num": 55,
+    "accuracy": 100,
+    "basePower": 40,
+    "category": "Special",
+    "name": "Water Gun",
+    "pp": 25,
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1,
+      "metronome": 1
+    },
+    "target": "normal",
+    "type": "Water",
+    "shortDesc": "No additional effect.",
+    "id": "watergun",
+    "fullname": "move: Water Gun",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "desc": "No additional effect.",
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": false,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false,
+    "maxMove": {
+      "basePower": 90
+    },
+    "zMove": {
+      "basePower": 100
+    }
+  },
+  "withdraw": {
+    "exists": true,
+    "num": 110,
+    "accuracy": true,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Withdraw",
+    "pp": 40,
+    "priority": 0,
+    "flags": {
+      "snatch": 1,
+      "metronome": 1
+    },
+    "boosts": {
+      "def": 1
+    },
+    "target": "self",
+    "type": "Water",
+    "zMove": {
+      "boost": {
+        "def": 1
+      }
+    },
+    "desc": "Raises the user's Defense by 1 stage.",
+    "shortDesc": "Raises the user's Defense by 1.",
+    "id": "withdraw",
+    "fullname": "move: Withdraw",
+    "effectType": "Move",
+    "kind": "Move",
+    "gen": 1,
+    "isNonstandard": null,
+    "critRatio": 1,
+    "hasSheerForceBoost": false,
+    "ignoreImmunity": true,
+    "isZ": false,
+    "isMax": false,
+    "ignoreAbility": false
+  }
+}

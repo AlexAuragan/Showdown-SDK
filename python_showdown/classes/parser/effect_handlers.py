@@ -18,6 +18,7 @@ from python_showdown.classes.parser.events.battle import (
     AbilityEvent,
     ClearAllBoostsEvent,
     ClearNegativeBostsEvent,
+    CopyBoostEvent,
     DamageEvent,
     FormeChangeEvent,
     HealEvent,
@@ -29,6 +30,7 @@ from python_showdown.classes.parser.events.battle import (
     MoveCopiedEvent,
     MovePrepareEvent,
     PerishCountEvent,
+    PokemonIdent,
     SetHpEvent,
     SideConditionEvent,
     SingleMoveEvent,
@@ -56,6 +58,7 @@ from python_showdown.classes.parser.protocol import (
     has_annotation,
     require_arguments,
 )
+from python_showdown.models.dex import dex
 from python_showdown.models.pokemon.status import MajorStatus, MinorStatus, Stat
 from python_showdown.models.pokemon.terrain import SideCondition, Weather
 from python_showdown.models.sdk.battle_state import SourceType
@@ -139,7 +142,8 @@ def _ability_event(
 
 def _activation_event(
     message: ProtocolMessage,
-) -> BaseEvent:
+    context: EffectParseContext
+) -> BaseEvent | list[BaseEvent]:
     if len(message.arguments) not in {2, 3}:
         raise ValueError(
             "Expected 2 or 3 arguments for '-activate', "
@@ -155,13 +159,13 @@ def _activation_event(
         if not ability:
             raise ValueError(f"Empty activated ability in {message.raw!r}")
 
-        context = message.arguments[2] if len(message.arguments) == 3 else None
+        context_str = message.arguments[2] if len(message.arguments) == 3 else None
 
         return AbilityEvent(
             pokemon=pokemon,
             ability=ability,
             active=True,
-            context=context,
+            context=context_str,
             source=EffectSource(
                 type=SourceType.ABILITY,
                 name=ability,
@@ -188,10 +192,45 @@ def _activation_event(
                 copied_move=message.arguments[2],
             )
 
-        return MoveActivationEvent(
-            pokemon=pokemon,
-            move=move,
-        )
+        move_data = dex.gen(context.gen).move(move)
+        assert isinstance(move_data, dict), move_data
+        enemy_minor_status = move_data.get("volatileStatus", "")
+        assert isinstance(enemy_minor_status, str), enemy_minor_status
+
+        actor: PokemonIdent | None = None
+        for ann in message.annotations:
+            if ann.name == "of":
+                pokemon_str = ann.value
+                assert isinstance(pokemon_str, str), pokemon_str
+                actor = PokemonIdent.from_str(pokemon_str)
+
+        out: list[BaseEvent] = []
+        if enemy_minor_status:
+            out.append(
+                MinorStatusEvent(
+                    source=EffectSource(type=SourceType.MOVE, name=enemy_minor_status, actor=actor),
+                    target=pokemon,
+                    effect=MinorStatus(enemy_minor_status),
+                    started=True,
+                )
+            )
+        self_ = move_data.get("self", {})
+        assert isinstance(self_, dict)
+        self_minor_status = self_.get("volatileStatus", "")
+        assert isinstance(self_minor_status , str), self_minor_status
+
+        if self_minor_status:
+            if context.gen != 1:
+                raise ValueError("The move['self']['volatileStatus'] only exists in gen 1")
+            out.append(
+                MinorStatusEvent(
+                    source=EffectSource(type=SourceType.MOVE, name=self_minor_status ),
+                    target=pokemon,
+                    effect=MinorStatus(self_minor_status),
+                    started=True,
+                )
+            )
+        return out
     if effect.casefold().startswith("item: "):
         item = effect[6:].strip()
 
@@ -253,8 +292,11 @@ def parse_effect_message(
     handler = SIMPLE_EFFECT_HANDLERS.get(message.command)
     if handler is None:
         return None
-    return handler(message, context)
-
+    try:
+        return handler(message, context)
+    except Exception:
+        print(message, context)
+        raise
 
 def _parse_damage(
     message: ProtocolMessage, context: EffectParseContext
@@ -480,7 +522,12 @@ def _parse_item(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     require_arguments(message, 2)
-    pokemon = parse_pokemon_ident(message.arguments[0])
+    pokemon_str = message.arguments[0].strip()
+    pokemon = (
+        parse_pokemon_ident(pokemon_str)
+        if pokemon_str
+        else None
+    )
     item = message.arguments[1]
     previous_owner_value = annotation_value(message, "of")
     previous_owner = (
@@ -539,10 +586,13 @@ def _parse_side_condition(
 def _parse_activation(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
-    event = _activation_event(message)
-    if isinstance(event, UnhandledEvent):
-        event = unhandled_event(message, context.action_id)
-    return [event]
+    events = _activation_event(message, context)
+    if not isinstance(events, list):
+        events = [events]
+    for event in events:
+        if isinstance(event, UnhandledEvent):
+            unhandled_event(message, context.action_id)
+    return events
 
 
 def _parse_single_turn(
@@ -757,6 +807,21 @@ def _parse_perish_count(
     ]
 
 
+def _parse_copyboost(
+    message: ProtocolMessage, context: EffectParseContext
+) -> list[BaseEvent]:
+    user = parse_pokemon_ident(message.arguments[0])
+    target = parse_pokemon_ident(message.arguments[1])
+    source = parse_effect_source(
+        message,
+        default_source=EffectSource(
+            SourceType.MOVE, "copyboost", user, action_id=context.action_id
+        ),
+    )
+
+    return [CopyBoostEvent(user=user, target=target, source=source)]
+
+
 def _is_mimic_copy(message: ProtocolMessage, _context: EffectParseContext) -> bool:
     return len(message.arguments) >= 3 and _has_effect_name(message, "mimic")
 
@@ -850,6 +915,13 @@ def _parse_hint(
         (
             "Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time"
         ),
+        (
+            "In Gen 1, if a Pokémon spends a turn partially trapped and switches to a Pokémon that is asleep, the sleep"
+            + " counter will not decrease until you select a move with a different Pokémon."
+        ),
+        (
+            "In Gen 2, a stat will roll over to a small number if it is larger than 1024."
+        )
     ]:
         return [
             DiscardedEvent(
@@ -860,6 +932,53 @@ def _parse_hint(
     raise NotImplementedError(message.arguments[0])
     # return [UnhandledEvent.from_message(message)]
 
+def _minor_status_end_or_none(
+    message: ProtocolMessage,
+) -> MinorStatus | None:
+    if message.command != "-end" or len(message.arguments) < 2:
+        return None
+
+    status = _minor_status_or_none(message.arguments[1])
+    if status is not None:
+        return status
+
+    for annotation in message.annotations:
+        status = MINOR_STATUS_BY_NAME.get(annotation.name.casefold())
+        if status is not None:
+            return status
+
+    return None
+
+
+def _is_minor_status_end(
+    message: ProtocolMessage,
+    _context: EffectParseContext,
+) -> bool:
+    return _minor_status_end_or_none(message) is not None
+
+
+def _parse_minor_status_end(
+    message: ProtocolMessage,
+    context: EffectParseContext,
+) -> list[BaseEvent]:
+    target = parse_pokemon_ident(message.arguments[0])
+    status = _minor_status_end_or_none(message)
+
+    if status is None:
+        raise ValueError(f"Not a minor status end: {message.raw!r}")
+
+    return [
+        MinorStatusEvent(
+            source=parse_effect_source(
+                message,
+                context.source,
+                affected=target,
+            ),
+            target=target,
+            effect=status,
+            started=False,
+        )
+    ]
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-damage": _parse_damage,
@@ -891,6 +1010,7 @@ SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-cureteam": _parse_team_cure,
     "faint": _parse_faint,
     "-hint": _parse_hint,
+    "-copyboost": _parse_copyboost,
 }
 
 SPECIAL_EFFECT_RULES: dict[str, tuple[EffectRule, ...]] = {
@@ -908,7 +1028,7 @@ SPECIAL_EFFECT_RULES: dict[str, tuple[EffectRule, ...]] = {
         EffectRule(_is_ability_start_or_end, _parse_ability_start_or_end),
         EffectRule(_is_duplicate_ability_end, _discard_effect),
         EffectRule(_is_volatile_side_condition, _parse_volatile_side_condition),
-        EffectRule(_is_minor_status, _parse_minor_status),
+        EffectRule(_is_minor_status_end, _parse_minor_status_end),
         EffectRule(_always, _parse_unknown_start_end),
     ),
 }

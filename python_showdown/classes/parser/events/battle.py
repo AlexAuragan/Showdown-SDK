@@ -20,7 +20,7 @@ from python_showdown.models.pokemon.status import (
     Status,
 )
 from python_showdown.models.pokemon.terrain import SideCondition, Weather
-from python_showdown.models.sdk.battle_state import BattleState
+from python_showdown.models.sdk.battle_state import BattleState, SourceType
 
 
 def _ident_raw(ident: PokemonIdent) -> str:
@@ -96,13 +96,13 @@ class MoveEvent(BattleEvent):
 
     action_id: int
     move: str
-    source: PokemonIdent
-    target: PokemonIdent | None
+    source_pokemon: PokemonIdent
+    target_pokemon: PokemonIdent | None
     success: bool  # The move did not fail.
     does_hit: bool  # The move did not miss or hit an immunity.
     failure_reason: str | None = None
     hit_count: int | None = None
-    from_move: str | None = None
+    source: EffectSource | None = None
 
     def __post_init__(self) -> None:
         if not self.success and self.does_hit:
@@ -114,10 +114,13 @@ class MoveEvent(BattleEvent):
     def update_battle_state(self, battle_state: BattleState) -> None:
         # Only the opponent's moves reveal new move slots; our own moveset is
         # known exactly from |request|. witness_move skips Struggle internally.
-        if self.from_move == "Mirror Move":
-            return
+        if self.source is not None:
+            if self.source.type == SourceType.MOVE and self.source.name == "Mirror Move":
+                return
+            if self.source.type == SourceType.ABILITY and self.source.name == "Magic Bounce":
+                return
 
-        enemy = _resolve_enemy(battle_state, self.source)
+        enemy = _resolve_enemy(battle_state, self.source_pokemon)
         if enemy is None:
             return
 
@@ -357,6 +360,36 @@ class ClearAllBoostsEvent(BattleEvent):
 
 
 @dataclass(frozen=True)
+class CopyBoostEvent(BattleEvent):
+    user: PokemonIdent
+    target: PokemonIdent
+    source: EffectSource
+
+    @override
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        user = _resolve_enemy(battle_state, self.user)
+        if user is None:
+            user = _resolve_self(battle_state, self.user)
+
+        target = _resolve_enemy(battle_state, self.target)
+        if target is None:
+            target = _resolve_self(battle_state, self.target)
+
+        if user is None:
+            raise ValueError(f"Could not resolve copy-boost user: {self.user}")
+        if target is None:
+            raise ValueError(f"Could not resolve copy-boost target: {self.target}")
+
+        user.status.acc_stage = target.status.acc_stage
+        user.status.eva_stage = target.status.eva_stage
+        user.status.atk_stage = target.status.atk_stage
+        user.status.def_stage = target.status.def_stage
+        user.status.spa_stage = target.status.spa_stage
+        user.status.spd_stage = target.status.spd_stage
+        user.status.spe_stage = target.status.spe_stage
+
+
+@dataclass(frozen=True)
 class ClearNegativeBostsEvent(BattleEvent):
     """
     Resests all active Pokémon's négative stat changes to zéro
@@ -552,7 +585,8 @@ class ItemEvent(BattleEvent):
     """
 
     source: EffectSource
-    pokemon: PokemonIdent
+    pokemon: PokemonIdent | None # in gen 5, the ability Frisk reveal one of the enemy item, without knowing which
+    # is the holder
     item: str
     gained: bool
     consumed: bool
@@ -694,14 +728,13 @@ class BattleStartEvent(BattleEvent):
 
     @override
     def update_battle_state(self, battle_state: BattleState) -> None:
-        return
+        battle_state.clear_battle()
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
         manager.room_id = self.room_id
         manager.room_ready.set()
 
-        manager.battle_state.reset(keep_player_id=True)
 
 
 @dataclass(frozen=True)
@@ -789,7 +822,11 @@ class DecisionRequestEvent(BattleEvent):
     request_id: int | None
     wait: bool
     trapped: bool  # The pokemon cannot switch
-    maybe_trapped: bool  # The pokemon might be trapped, unknown for the player
+    maybe_trapped: (
+        bool  # The pokemon might be trapped (cannot switch out), unknown for the player
+    )
+    maybe_locked: bool  # Maybe the pokemon cannot change moves
+    maybe_disabled: bool  # Maybe a move is disabled
     update: bool  # The server sends the update flag when it detected its own mistake in the previous request message.
     force_switch: tuple[bool, ...]
     moves: tuple[RequestMove, ...]
@@ -912,7 +949,7 @@ class GameTypeEvent(BattleEvent):
 @dataclass(frozen=True)
 class GameGenEvent(BattleEvent):
     gen: int
-    _LAST_IMPLEMENTED_GEN: ClassVar[int] = 4
+    _LAST_IMPLEMENTED_GEN: ClassVar[int] = 5
 
     @override
     def update_battle_state(self, battle_state: BattleState) -> None:
@@ -928,7 +965,7 @@ class GameGenEvent(BattleEvent):
 @dataclass(frozen=True)
 class GameTierEvent(BattleEvent):
     tier: str
-    _IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle",)
+    _IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle", "OU")
 
     @override
     def update_battle_state(self, battle_state: BattleState) -> None:
@@ -936,3 +973,45 @@ class GameTierEvent(BattleEvent):
             raise NotImplementedError(
                 f"Game tier not implemented yet: {self.tier} not in {self._IMPLEMENTED_TIERS}"
             )
+
+@dataclass(frozen=True)
+class PartialTrapEvent(BattleEvent):
+    target: PokemonIdent
+    move: str
+    source: EffectSource
+    started: bool
+
+    @override
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        enemy = _resolve_enemy(battle_state, self.target)
+        if enemy is None:
+            return
+
+        if self.started:
+            enemy.status.minor.add(MinorStatus.PARTIALLY_TRAPPED)
+        else:
+            enemy.status.minor.remove(MinorStatus.PARTIALLY_TRAPPED)
+
+@dataclass(frozen=True)
+class TeamPreviewRequestEvent(BattleEvent):
+    player_id: str
+    request_id: int | None
+    pokemon: tuple[RequestPokemon, ...]
+    max_chosen_team_size: int | None
+    no_cancel: bool
+
+    @property
+    def chosen_team_size(self) -> int:
+        if self.max_chosen_team_size is not None:
+            return self.max_chosen_team_size
+        return len(self.pokemon)
+
+    @override
+    def update_battle_state(self, battle_state: BattleState) -> None:
+        return
+
+    @override
+    def update_manager(self, manager: BattleManager) -> None:
+        # manager.reset(keep_room_id=True)
+        manager.requires_team_preview = True
+        manager.player_id = self.player_id

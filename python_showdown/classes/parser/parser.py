@@ -45,6 +45,10 @@ _LOBBY_COMMANDS = frozenset(
         "customgroups",
         "challstr",
         "updatesearch",
+        "popup",
+        "clearpoke", # Not sure about these 3
+        "poke",
+        "teampreview"
     }
 )
 

@@ -18,26 +18,38 @@ class MinorStatus(str, Enum):
     LEECH_SEED = "Leech Seed"
     SUBSTITUTE = "Substitute"
     ENCORE = "Encore"
-    ATTRACT = "Attract"
     YAWN = "Yawn"
     TYPECHANGE = "typechange"
     PERISH_SONG = "perish"  # countdown tracked separately in `perish_count`
     FLASH_FIRE = "Flash Fire"  # ability-granted immunity flag
-    WRAP = "Wrap"  # trapping moves such as Wrap, Bind, Clamp, etc.
+    # WRAP = "Wrap"  # trapping moves such as Wrap, Bind, Clamp, etc, should not be in here
     FLINCH = "Flinch"
     RECHARGE = "Recharge"
     FLY = "Fly"
     DIVE = "Dive"
     TUNNEL = "Tunnel"
-    PROTECT = "Protect"
     NIGHTMARE = "Nightmare"
-    ENDURE = "Endure"
     TRAPPED = "Trapped"
-    WHIRLPOOL = "Whirlpool"
+    REPEAT = "Repeat" # The pokémon must repeat its last move
+    # WHIRLPOOL = "Whirlpool" Trapping move
     ROOST = "Roost"
     TAUNT = "Taunt"
     FOCUS_PUNCH = "Focus Punch"
-
+    IMPRISON = "Imprison"
+    FORESIGHT = "Foresight"
+    MAGNET_RISE = "Magnet Rise"
+    CURSE = "Curse"
+    TORMENT = "Torment"
+    # TODO
+    # Magma storm sets "partiallytrapped" ,an effect actually made by "bind", "Wrap", etc. Currently we say that "wrap"
+    # is the status, while arguably it's the source of the "trapped"/"partiallytrapped" status.
+    # Gen 1 and 4 handle these differently, but it's the role of this SDK to unify those and treat edge cases and gen diffs.
+    DESTINY_BOUND = "destinybond"
+    PARTIALLY_TRAPPED = "partiallytrapped"
+    ENDURE = "endure"
+    ATTRACT = "attract"
+    GRUDGE = "grudge"
+    PROTECT = "protect"
 
 @dataclass
 class Status:
@@ -185,3 +197,28 @@ class Stats:
     spd: int
     spe: int
     max_hp: int
+
+
+@dataclass
+class IVs:
+    hp: int = 31
+    atk: int = 31
+    def_: int = 31
+    spa: int = 31
+    spd: int = 31
+    spe: int = 31
+
+
+@dataclass
+class EVs:
+    hp: int
+    atk: int
+    def_: int
+    spa: int
+    spd: int
+    spe: int
+
+    @staticmethod
+    def from_pokemon(pokemon_id: str): #pyright:ignore[reportUnusedParameter]
+        # TODO implement
+        return EVs(100, 100, 100, 100, 100, 100)

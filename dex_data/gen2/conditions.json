@@ -1,0 +1,186 @@
+{
+  "brn": {
+    "name": "brn",
+    "effectType": "Status",
+    "onAfterMoveSelfPriority": 3
+  },
+  "par": {
+    "name": "par",
+    "onBeforeMovePriority": 2,
+    "effectType": "Status",
+    "onModifySpePriority": -101
+  },
+  "slp": {
+    "name": "slp",
+    "effectType": "Status",
+    "onBeforeMovePriority": 10
+  },
+  "frz": {
+    "name": "frz",
+    "onResidualOrder": 7,
+    "effectType": "Status",
+    "onBeforeMovePriority": 10
+  },
+  "psn": {
+    "name": "psn",
+    "effectType": "Status",
+    "onAfterMoveSelfPriority": 3
+  },
+  "tox": {
+    "name": "tox",
+    "effectType": "Status",
+    "onAfterMoveSelfPriority": 3
+  },
+  "confusion": {
+    "name": "confusion",
+    "onBeforeMovePriority": 3
+  },
+  "partiallytrapped": {
+    "onResidualOrder": 3,
+    "onResidualSubOrder": 1,
+    "name": "partiallytrapped",
+    "duration": 5
+  },
+  "lockedmove": {
+    "name": "lockedmove"
+  },
+  "futuremove": {
+    "onResidualOrder": 1,
+    "name": "futuremove"
+  },
+  "raindance": {
+    "onFieldResidualOrder": 2,
+    "name": "RainDance",
+    "effectType": "Weather",
+    "duration": 5
+  },
+  "sunnyday": {
+    "onFieldResidualOrder": 2,
+    "name": "SunnyDay",
+    "effectType": "Weather",
+    "duration": 5
+  },
+  "sandstorm": {
+    "onFieldResidualOrder": 2,
+    "name": "Sandstorm",
+    "effectType": "Weather",
+    "duration": 5,
+    "onModifySpDPriority": 10
+  },
+  "stall": {
+    "name": "stall",
+    "duration": 2
+  },
+  "residualdmg": {
+    "name": "residualdmg",
+    "onAfterMoveSelfPriority": 100
+  },
+  "substitutebroken": {
+    "noCopy": true
+  },
+  "trapped": {
+    "noCopy": false,
+    "name": "trapped"
+  },
+  "trapper": {
+    "noCopy": false,
+    "name": "trapper"
+  },
+  "choicelock": {
+    "name": "choicelock",
+    "noCopy": true
+  },
+  "hail": {
+    "onFieldResidualOrder": 8,
+    "name": "Hail",
+    "effectType": "Weather",
+    "duration": 5
+  },
+  "arceus": {
+    "name": "Arceus"
+  },
+  "gem": {
+    "duration": 1,
+    "affectsFainted": true
+  },
+  "flinch": {
+    "name": "flinch",
+    "duration": 1,
+    "onBeforeMovePriority": 8
+  },
+  "twoturnmove": {
+    "name": "twoturnmove",
+    "duration": 2
+  },
+  "mustrecharge": {
+    "name": "mustrecharge",
+    "duration": 2,
+    "onBeforeMovePriority": 11,
+    "onLockMove": "recharge"
+  },
+  "healreplacement": {
+    "name": "healreplacement"
+  },
+  "primordialsea": {
+    "name": "PrimordialSea",
+    "effectType": "Weather",
+    "duration": 0,
+    "onTryMovePriority": 1,
+    "onFieldResidualOrder": 1
+  },
+  "desolateland": {
+    "name": "DesolateLand",
+    "effectType": "Weather",
+    "duration": 0,
+    "onTryMovePriority": 1,
+    "onFieldResidualOrder": 1
+  },
+  "snowscape": {
+    "name": "Snowscape",
+    "effectType": "Weather",
+    "duration": 5,
+    "onModifyDefPriority": 10,
+    "onFieldResidualOrder": 1
+  },
+  "deltastream": {
+    "name": "DeltaStream",
+    "effectType": "Weather",
+    "duration": 0,
+    "onEffectivenessPriority": -1,
+    "onFieldResidualOrder": 1
+  },
+  "dynamax": {
+    "name": "Dynamax",
+    "noCopy": true,
+    "onBeforeSwitchOutPriority": -1,
+    "onDragOutPriority": 2,
+    "onResidualPriority": -100
+  },
+  "commanded": {
+    "name": "Commanded",
+    "noCopy": true,
+    "onDragOutPriority": 2,
+    "onTrapPokemonPriority": -11
+  },
+  "commanding": {
+    "name": "Commanding",
+    "noCopy": true,
+    "onDragOutPriority": 2,
+    "onTrapPokemonPriority": -11,
+    "onInvulnerability": false
+  },
+  "silvally": {
+    "name": "Silvally",
+    "onTypePriority": 1
+  },
+  "zacian": {
+    "name": "Zacian"
+  },
+  "zamazenta": {
+    "name": "Zamazenta"
+  },
+  "rolloutstorage": {
+    "name": "rolloutstorage",
+    "duration": 2
+  }
+}

@@ -15,7 +15,7 @@ class BattleManager:
         self.oponent_id: str | None = None
         self.oponent_username: str | None = None
 
-        self.room_id: str | None = None
+        self._room_id: str | None = None
         self.battle_state: BattleState = BattleState(self)
         self.log_manager: LogManager = log_manager
         self.battle_finished: asyncio.Future[BattleResult] | None = None
@@ -34,8 +34,26 @@ class BattleManager:
         self.retry_count: int = 0
         self.last_request_id: int | None = None
 
+        self.requires_team_preview: bool = False
+        self._turn_start_states: list[dict[str, object]] = []
+        self._last_turn_start_state_turn: int | None = None
+
+        self.last_battle_events: list[dict[str, object]] = []
+        self.last_battle_turn_states: list[dict[str, object]] = []
+
     def clear_player_id(self):
         self._player_id = None
+
+    @property
+    def room_id(self) -> str | None:
+        out = self._room_id
+        return out
+
+    @room_id.setter
+    def room_id(self, value: str | None):
+        if value is None:
+            raise ValueError("room_id set to None")
+        self._room_id = value
 
     @property
     def player_id(self) -> str | None:
@@ -103,35 +121,93 @@ class BattleManager:
         if battle_finished is not None and not battle_finished.done():
             battle_finished.set_exception(error)
 
-    def reset(self):
+    def clear_battle(self) -> None:
+        """Discard state belonging to the current battle."""
+
+        battle_finished = self.battle_finished
+
+        if battle_finished is not None and not battle_finished.done():
+            raise RuntimeError(
+                "Cannot clear an active battle; use abandon_battle() instead"
+            )
+
+        self.cancel_action_timeout()
+
+        room_id = self.room_id
+        if room_id is not None:
+            self.log_manager.close_room(room_id)
+
+        self._room_id = None
         self._player_id = None
+
+        self.oponent_id = None
+        self.oponent_username = None
+
         self.request_id = None
         self.last_request_id = None
+
         self.choice_rejected = False
         self.retry_rqid = None
         self.retry_count = 0
-        self.player_id = ""
-        if self.room_id is not None:
-            self.log_manager.close_room(self.room_id)
-        self.room_id = None
+
+        self.requires_team_preview = False
+
+        self.turn = 0
+        self._turn_start_states.clear()
+        self._last_turn_start_state_turn = None
+        self.room_ready.clear()
+
+        self.battle_state.clear_battle()
+
+    def clear_battle_tracking(self) -> None:
+        """Release the completion tracking for a battle that has already finished."""
+
+        battle_finished = self.battle_finished
+
+        if battle_finished is not None and not battle_finished.done():
+            raise RuntimeError("Cannot clear unfinished battle tracking")
+
+        self.battle_finished = None
+        self.battle_started_at = None
+
+    def abandon_battle(self, error: BaseException | None = None) -> None:
+        """Abort the current battle and release its battle-scoped state."""
+
+        battle_finished = self.battle_finished
+
+        if battle_finished is not None and not battle_finished.done():
+            if error is None:
+                error = RuntimeError(
+                    f"Battle {self.room_id!r} was abandoned"
+                )
+
+            battle_finished.set_exception(error)
+
+        self.clear_battle()
 
     def finish_battle(
         self,
         winner: str | None,
     ) -> None:
         self.cancel_action_timeout()
+
         if self.room_id is None:
             raise RuntimeError("Battle room id not set")
 
-        if self.battle_finished is None or self.battle_finished.done():
-            self.reset()
-            self.room_ready.clear()
+        if self.battle_finished is None:
+            # This can happen when Showdown auto-rejoins an old room after login.
             return
+            # raise RuntimeError("Battle ended without being tracked")
+
+        if self.battle_finished.done():
+            raise RuntimeError("Battle was already finished")
 
         duration = 0.0
         if self.battle_started_at is not None:
             duration = perf_counter() - self.battle_started_at
 
+        self.last_battle_events = self.battle_state.history_json()
+        self.last_battle_turn_states = list(self._turn_start_states)
         self.battle_finished.set_result(
             BattleResult(
                 room_id=self.room_id,
@@ -141,4 +217,23 @@ class BattleManager:
             )
         )
 
-        self.reset()
+    def record_turn_start_state(self, request_id: int | None) -> None:
+        if self.turn <= 0:
+            return
+
+        # A turn can receive more than one request, for example after an
+        # update or choice retry. We only want the first state for the turn.
+        if self.turn == self._last_turn_start_state_turn:
+            return
+
+        state = self.battle_state.to_dict()
+
+        self._turn_start_states.append(
+            {
+                "turn": self.turn,
+                "request_id": request_id,
+                "state": state,
+            }
+        )
+
+        self._last_turn_start_state_turn = self.turn

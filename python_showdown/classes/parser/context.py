@@ -12,6 +12,7 @@ from python_showdown.models.pokemon.status import MajorStatus
 
 @dataclass
 class ProtocolContext:
+    gen: int | None = None
     active_ability_states: dict[
         tuple[str, str | None],
         set[str],
@@ -46,6 +47,12 @@ class EffectParseContext:
     action_id: int | None = None
     modifiers: dict[PokemonIdent, TargetModifiers] = field(default_factory=dict)
 
+    @property
+    def gen(self) -> int:
+        gen = self.protocol_context.gen
+        if gen is None:
+            raise ValueError("gen was accessed before getting initilazed")
+        return gen
 
 @dataclass
 class MoveParseState:
