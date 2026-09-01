@@ -217,6 +217,7 @@ class BattleState:
         for p in self.enemy_team:
             if p.active:
                 p.active = False
+                p.reset_on_switch_in()
 
         pokemon = self.get_enemy_pokemon(pokemon_id=pokemon_id, not_found_ok=True)
         if pokemon is None:

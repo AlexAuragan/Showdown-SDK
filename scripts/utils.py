@@ -1,7 +1,7 @@
 import asyncio
+import json
 from dataclasses import asdict
 from enum import Enum
-import json
 from pathlib import Path
 
 from python_showdown.classes.client.client import Client
@@ -28,6 +28,8 @@ def json_default(value: object) -> object:
 
 
 def write_json(path: Path, data: object) -> None:
+
+    path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
         json.dump(
             data,

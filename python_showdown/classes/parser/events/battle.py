@@ -80,14 +80,46 @@ def _parse_details(details: str) -> tuple[str | None, bool]:
         details = details.replace(", F", "")
     return gender, shiny
 
+def _reveal_effect_source(
+    battle_state: BattleState,
+    source: EffectSource,
+) -> None:
+    if source.actor is None or source.name is None:
+        return
+
+    enemy = _resolve_enemy(battle_state, source.actor)
+    if enemy is None:
+        return
+
+    if source.type == SourceType.ITEM:
+        if enemy.item is Unknown.VALUE:
+            enemy.item = source.name
+        else:
+            if "berry" in source.name.lower():
+                return # Consummable can be an effect for a pokemon with no item anymore
+            assert enemy.item == source.name, f"{enemy.item=}, {source.name=}"
+    return
+    # Actually the source.actor is not always the owner of the ability, we can scratch that.
+    # I wonder if we could use the dex to disambiguate the ability owner.
+    # There also the issue of changing ability we need to catch, much like consummable items
 
 class BattleEvent(BaseEvent, metaclass=ABCMeta):
     @abstractmethod
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         pass
 
-    def update_manager(self, manager: BattleManager) -> None:
-        self.update_battle_state(manager.battle_state)
+    def update_battle_state(self, battle_state: BattleState) -> None:
+
+        # Atuo reveal item / abilities if it is a source of an effect
+        source = getattr(self, "source", None)
+        if isinstance(source, EffectSource):
+            _reveal_effect_source(battle_state, source)
+
+        self._update_battle_state(battle_state)
+
+
+    def update_manager(self, manager: BattleManager) -> None: # pyright: ignore[reportUnusedParameter]
+        return
 
 
 @dataclass(frozen=True)
@@ -111,7 +143,7 @@ class MoveEvent(BattleEvent):
             raise ValueError("A move hit count must be positive")
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # Only the opponent's moves reveal new move slots; our own moveset is
         # known exactly from |request|. witness_move skips Struggle internally.
         if self.source is not None:
@@ -141,7 +173,7 @@ class DamageEvent(BattleEvent):
     crit: bool = False
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
             enemy.curr_hp_percent = self.curr_hp
@@ -162,7 +194,7 @@ class HealEvent(BattleEvent):
     hp_is_percentage: bool
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
             enemy.curr_hp_percent = self.curr_hp
@@ -182,7 +214,7 @@ class MinorStatusEvent(BattleEvent):
     started: bool
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # Volatile minor statuses are only tracked for the enemy; our own side's
         # volatile state is not modelled by the bot.
         enemy = _resolve_enemy(battle_state, self.target)
@@ -203,7 +235,7 @@ class MajorStatusEvent(BattleEvent):
     applied: bool
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if self.status is MajorStatus.FAINT:
             # `|faint|` is emitted as a FAINT MajorStatusEvent. Both sides are
             # affected; the enemy is marked fainted and benched.
@@ -241,7 +273,7 @@ class MoveCopiedEvent(BattleEvent):
     copied_move: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # Mimic: disable the Mimic slot and expose the copied move on top of the
         # base moveset. Tracked for the enemy only.
         enemy = _resolve_enemy(battle_state, self.target)
@@ -269,7 +301,7 @@ class MinorStatusActivationEvent(BattleEvent):
     effect: MinorStatus
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return  # This event is an activation of a status we already know about.
 
 
@@ -291,7 +323,7 @@ class StatChangeEvent(BattleEvent):
             raise ValueError("A failed stat change must have a failure reason")
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if not self.success:
             return
         enemy = _resolve_enemy(battle_state, self.target)
@@ -314,7 +346,7 @@ class MovePrepareEvent(BattleEvent):
     move: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # |-prepare| reveals the charging move as a known slot for the enemy.
         if _resolve_enemy(battle_state, self.pokemon) is not None:
             battle_state.witness_move(self.move)
@@ -334,7 +366,7 @@ class TeamCureEvent(BattleEvent):
     actor: PokemonIdent
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # |-cureteam| clears the major status of every pokemon on the actor's
         # side; only the enemy side is tracked here.
         if _is_self(battle_state, self.actor):
@@ -352,7 +384,7 @@ class ClearAllBoostsEvent(BattleEvent):
     source: EffectSource | None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # Haze / Clear Smog reset every pokemon's stat stages; only the enemy
         # side's stages are tracked by the bot.
         for pokemon in battle_state.enemy_team:
@@ -366,7 +398,7 @@ class CopyBoostEvent(BattleEvent):
     source: EffectSource
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         user = _resolve_enemy(battle_state, self.user)
         if user is None:
             user = _resolve_self(battle_state, self.user)
@@ -398,7 +430,7 @@ class ClearNegativeBostsEvent(BattleEvent):
     source: EffectSource | None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # |-clearnegativeboost| zeroes negative stat stages on the affected
         # side; only the enemy side is tracked.
         for pokemon in battle_state.enemy_team:
@@ -424,7 +456,7 @@ class SetHpEvent(BattleEvent):
     hp_is_percentage: bool
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
             enemy.curr_hp_percent = self.curr_hp
@@ -453,11 +485,11 @@ class SideConditionEvent(BattleEvent):
     started: bool
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         side_conds = battle_state.side_conditions
         if self.side:
             if self.started:
-                slot = side_conds.get(self.side, {})
+                slot = side_conds.setdefault(self.side, {})
                 slot[self.condition] = slot.get(self.condition, 0) + 1
             else:
                 slot = side_conds.get(self.side)
@@ -486,7 +518,7 @@ class PokemonSwitchEvent(BattleEvent):
     command: str = "switch"
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if _is_self(battle_state, self.pokemon):
             return
         gender, shiny = _parse_details(self.details)
@@ -515,7 +547,7 @@ class TransformEvent(BattleEvent):
     target: PokemonIdent
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # Only the enemy transforming is tracked. If it copies our active
         # pokemon, we already know that pokemon's exact moveset from |request|.
         if _is_self(battle_state, self.pokemon):
@@ -538,7 +570,7 @@ class AbilityEvent(BattleEvent):
     context: str | None = None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.pokemon)
         if enemy is not None:
             enemy.base_ability = self.ability
@@ -552,7 +584,7 @@ class StatSetEvent(BattleEvent):
     stage: int
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is None:
             return
@@ -572,7 +604,7 @@ class MoveActivationEvent(BattleEvent):
     move: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return  # This event is an activation of a move we already know about.
 
 
@@ -593,7 +625,7 @@ class ItemEvent(BattleEvent):
     previous_owner: PokemonIdent | None = None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if self.gained:
             # A transfer (Thief / Knock Off): the previous owner loses the item.
             if self.previous_owner is not None:
@@ -626,7 +658,7 @@ class CantEvent(BattleEvent):
     move: str | None = None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.pokemon)
         if enemy is None:
             return
@@ -644,7 +676,7 @@ class PerishCountEvent(BattleEvent):
     count: int
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is None:
             return
@@ -657,7 +689,7 @@ class TurnEvent(BattleEvent):
     turn: int
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return
 
     @override
@@ -673,7 +705,7 @@ class WeatherEvent(BattleEvent):
     source: EffectSource | None = None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # `started` is False for `|-weather|none` (weather cleared). Upkeep is
         # an ongoing-weather marker and carries no state change of its own.
         if not self.started:
@@ -688,7 +720,7 @@ class BattleEndEvent(BattleEvent):
     room_id: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return
 
     @override
@@ -705,7 +737,7 @@ class RoomEvent(BattleEvent):
     room_id: str | None
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return
 
     @override
@@ -727,7 +759,7 @@ class BattleStartEvent(BattleEvent):
     room_id: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         battle_state.clear_battle()
 
     @override
@@ -745,7 +777,7 @@ class PlayerEvent(BattleEvent):
     name: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return  # This event only update the client, not the battle state
 
     @override
@@ -761,7 +793,7 @@ class SingleMoveEvent(BattleEvent):
     move: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         # This is an event, not a discovery
         return
 
@@ -773,7 +805,7 @@ class TypeChangeEvent(BattleEvent):
     types: tuple[str, ...]
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
             enemy.status.add_minor(MinorStatus.TYPECHANGE)
@@ -793,7 +825,7 @@ class FormeChangeEvent(BattleEvent):
     forme: str
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.pokemon)
         if enemy is not None:
             enemy.forme = self.forme
@@ -812,7 +844,7 @@ class DesyncEvent(BattleEvent):
     """
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         battle_state.gen_1_desync = True
 
 
@@ -834,7 +866,7 @@ class DecisionRequestEvent(BattleEvent):
     no_cancel: bool  # When True, the user cannot cancel their decision, hopefully not relevent for a bot. Can become true depending on the server battle state.
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         battle_state.player_id = self.player_id
 
         available_moves = [
@@ -909,8 +941,6 @@ class DecisionRequestEvent(BattleEvent):
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
-        self.update_battle_state(manager.battle_state)
-
         new_id = None if self.wait else self.request_id
         manager.log_manager.battle.debug(
             "|request| update_manager: setting request_id=%r (was %r, wait=%s, "
@@ -938,7 +968,7 @@ class GameTypeEvent(BattleEvent):
     _IMPLEMENTED_TYPES: ClassVar[tuple[str, ...]] = ("singles",)
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if self.type not in self._IMPLEMENTED_TYPES:
             raise NotImplementedError(
                 f"Gametype not implemented yet: {self.type} not in {self._IMPLEMENTED_TYPES}"
@@ -952,7 +982,7 @@ class GameGenEvent(BattleEvent):
     _LAST_IMPLEMENTED_GEN: ClassVar[int] = 5
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if self.gen <= 0:
             raise ValueError("Pokemon gen must be between 1 and 9")
         if self.gen > self._LAST_IMPLEMENTED_GEN:
@@ -968,7 +998,7 @@ class GameTierEvent(BattleEvent):
     _IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle", "OU")
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if self.tier not in self._IMPLEMENTED_TIERS:
             raise NotImplementedError(
                 f"Game tier not implemented yet: {self.tier} not in {self._IMPLEMENTED_TIERS}"
@@ -982,7 +1012,7 @@ class PartialTrapEvent(BattleEvent):
     started: bool
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is None:
             return
@@ -1007,7 +1037,7 @@ class TeamPreviewRequestEvent(BattleEvent):
         return len(self.pokemon)
 
     @override
-    def update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         return
 
     @override

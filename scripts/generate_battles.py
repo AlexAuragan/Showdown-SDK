@@ -12,7 +12,13 @@ from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
-from python_showdown.logger import TRACE, LogManager, create_battle_file_handler, start_file_io_worker, stop_file_io_worker
+from python_showdown.logger import (
+    TRACE,
+    LogManager,
+    create_battle_file_handler,
+    start_file_io_worker,
+    stop_file_io_worker,
+)
 from scripts.utils import run_battle
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"

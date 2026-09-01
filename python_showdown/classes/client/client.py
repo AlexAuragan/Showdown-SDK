@@ -211,8 +211,7 @@ class Client:
         if websocket is None:
             raise RuntimeError("Client is not connected")
 
-        if manager.request_id is not None:
-            if manager.room_id != self.parser.last_message_room_id:
+        if manager.request_id is not None and manager.room_id != self.parser.last_message_room_id:
                 raise RuntimeError(
                     "Battle room desync: "
                     + f"manager={manager.room_id!r}, "

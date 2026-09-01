@@ -94,10 +94,11 @@ def parse_effect_source(
     default_source: EffectSource,
     *,
     affected: PokemonIdent | None = None,
+    inherit_default: bool = True,
 ) -> EffectSource:
     from_value = annotation_value(message, "from")
     if from_value is None:
-        return default_source
+        return default_source if inherit_default else EffectSource(type=SourceType.UNKNOWN)
 
     actor_value = annotation_value(message, "of")
     actor = parse_pokemon_ident(actor_value) if actor_value is not None else affected

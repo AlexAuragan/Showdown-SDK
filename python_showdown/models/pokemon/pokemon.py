@@ -36,6 +36,7 @@ class EnemyPokemon(Pokemon):
     curr_hp_percent: int = 100
     fainted: bool = False
     base_ability: str | Unknown = Unknown.VALUE
+    current_ability: str | Unknown = Unknown.VALUE
     item: str | Unknown | None = Unknown.VALUE
     status: Status = field(default_factory=Status)
     learnt_moves: list[str | Unknown] = field(

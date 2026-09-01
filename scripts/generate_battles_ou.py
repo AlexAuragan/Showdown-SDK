@@ -1,8 +1,8 @@
 import asyncio
-from dataclasses import asdict
 import logging
 import traceback
 from collections.abc import Awaitable
+from dataclasses import asdict
 from pathlib import Path
 from time import perf_counter
 from typing import NoReturn
@@ -13,12 +13,18 @@ from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
-from python_showdown.logger import TRACE, LogManager, create_battle_file_handler, start_file_io_worker, stop_file_io_worker
+from python_showdown.logger import (
+    TRACE,
+    LogManager,
+    create_battle_file_handler,
+    start_file_io_worker,
+    stop_file_io_worker,
+)
 from python_showdown.models.sdk.sample_team_generator import SampleTeamGenerator
 from scripts.utils import write_battle_outputs
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
-BATTLE_COUNT = 10000
+BATTLE_COUNT = 100
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 32
@@ -28,8 +34,8 @@ BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    # "gen1ou",
-    # "gen2ou",
+    "gen1ou",
+    "gen2ou",
     "gen3ou",
     "gen4ou",
     # "gen5ou",
@@ -165,7 +171,6 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
     for i in range(1, PLAYER_COUNT + 1):
         tag = f"BOT{i}"
         logs = LogManager(tag=tag)
-        logs.protocol.disabled = True
 
         output_directory = Path(f"logs/{fmt}")
         client_role = "client_1" if i % 2 == 1 else "client_2"
@@ -198,6 +203,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
     failed_battles = 0
     results: list[dict[str, object]] = []
 
+    start_file_io_worker()
     try:
         await asyncio.gather(*(client.connect() for client in clients))
 
@@ -296,6 +302,5 @@ async def main() -> None:
 
 if __name__ == "__main__":
     t0 = perf_counter()
-    start_file_io_worker()
     asyncio.run(main())
     print("Took ", perf_counter() - t0)

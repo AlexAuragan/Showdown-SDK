@@ -234,7 +234,7 @@ class BattleParser(MessageParser):
         self.input_finished = False
         self.protocol_context = ProtocolContext()
         self.battle_state_handler = BattleStateHandler()
-        self._last_message_room_id = ""
+        # self._last_message_room_id = ""
 
     def finish(self, player_id: str) -> list[BaseEvent]:
         if self.input_finished:

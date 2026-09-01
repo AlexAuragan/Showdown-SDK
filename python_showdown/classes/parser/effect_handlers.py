@@ -26,7 +26,6 @@ from python_showdown.classes.parser.events.battle import (
     MajorStatusEvent,
     MinorStatusActivationEvent,
     MinorStatusEvent,
-    MoveActivationEvent,
     MoveCopiedEvent,
     MovePrepareEvent,
     PerishCountEvent,
@@ -359,16 +358,20 @@ def _parse_weather(
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
     weather = Weather(message.arguments[0])
-    upkeep = annotation_value(message, "upkeep") is not None
+    upkeep = has_annotation(message, "upkeep")
+    started=weather != Weather.CLEAR_SKY
+    source = parse_effect_source(
+            message=message,
+            default_source=context.source,
+            inherit_default=started and not upkeep
+        )
+
     return [
         WeatherEvent(
             weather=weather,
-            started=weather != Weather.CLEAR_SKY,
+            started=started,
             upkeep=upkeep,
-            source=parse_effect_source(
-                message=message,
-                default_source=context.source,
-            ),
+            source=source,
         )
     ]
 
@@ -573,12 +576,14 @@ def _parse_side_condition(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     require_arguments(message, 2)
+    started=message.command == "-sidestart"
+    source = parse_effect_source(message, context.source, inherit_default=started)
     return [
         SideConditionEvent(
-            source=context.source,
+            source=source,
             side=parse_side_ident(message.arguments[0]),
             condition=SideCondition(message.arguments[1].removeprefix("move: ")),
-            started=message.command == "-sidestart",
+            started=started,
         )
     ]
 
@@ -848,12 +853,14 @@ def _parse_volatile_side_condition(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     target = parse_pokemon_ident(message.arguments[0])
+    started=message.command == "-start"
+    source = parse_effect_source(message, default_source=context.source, inherit_default=started, affected=target)
     return [
         SideConditionEvent(
-            source=context.source,
+            source=source,
             side=target.player,
             condition=SideCondition(message.arguments[1]),
-            started=message.command == "-start",
+            started=started,
         )
     ]
 
@@ -870,12 +877,13 @@ def _parse_minor_status(
 ) -> list[BaseEvent]:
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
+    started = message.command == "-start"
     return [
         MinorStatusEvent(
-            parse_effect_source(message, context.source, affected=target),
+            parse_effect_source(message, context.source, affected=target, inherit_default=started),
             target,
             parse_minor_status(message.arguments[1]),
-            message.command == "-start",
+            started,
         )
     ]
 
