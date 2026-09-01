@@ -1,6 +1,5 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import cast
 
 
 class MajorStatus(str, Enum):
@@ -133,10 +132,6 @@ class Status:
     def unboost(self, stat: Stat, n: int) -> None:
         self._adjust_stage(stat, -n)
 
-    def set_stage(self, stat: Stat, n: int) -> None:
-        """Set a stage absolutely (e.g. Belly Drum sets atk to +6)."""
-        setattr(self, self._stage_attr(stat), self._clamp(n))
-
     def reset_all_stages(self) -> None:
         """Clear every stat stage to 0 (e.g. |-clearallboost|, Haze)."""
         self.atk_stage = 0
@@ -146,16 +141,6 @@ class Status:
         self.spe_stage = 0
         self.eva_stage = 0
         self.acc_stage = 0
-
-    def _adjust_stage(self, stat: Stat, delta: int) -> None:
-        attr = self._stage_attr(stat)
-        current = cast(object, getattr(self, attr))
-        if not isinstance(current, int):
-            raise TypeError(
-                f"Attribute {attr} of {self} must be of type int, not {type(current)}"
-            )
-        setattr(self, attr, self._clamp(current + delta))
-
     @staticmethod
     def _clamp(stage: int) -> int:
         return max(Status._MIN_STAGE, min(Status._MAX_STAGE, stage))
@@ -178,7 +163,47 @@ class Status:
             case stat.ACC:
                 return "acc_stage"
 
+    def set_stage(self, stat: Stat, n: int) -> None:
+        """Set a stage absolutely (e.g. Belly Drum sets atk to +6)."""
+        self._set_stage(stat, self._clamp(n))
 
+    def _adjust_stage(self, stat: Stat, delta: int) -> None:
+        current = self._get_stage(stat)
+        self._set_stage(stat, self._clamp(current + delta))
+
+    def _get_stage(self, stat: Stat) -> int:
+        match stat:
+            case Stat.ATK:
+                return self.atk_stage
+            case Stat.DEF:
+                return self.def_stage
+            case Stat.SPA:
+                return self.spa_stage
+            case Stat.SPD:
+                return self.spd_stage
+            case Stat.SPE:
+                return self.spe_stage
+            case Stat.EVA:
+                return self.eva_stage
+            case Stat.ACC:
+                return self.acc_stage
+
+    def _set_stage(self, stat: Stat, stage: int) -> None:
+        match stat:
+            case Stat.ATK:
+                self.atk_stage = stage
+            case Stat.DEF:
+                self.def_stage = stage
+            case Stat.SPA:
+                self.spa_stage = stage
+            case Stat.SPD:
+                self.spd_stage = stage
+            case Stat.SPE:
+                self.spe_stage = stage
+            case Stat.EVA:
+                self.eva_stage = stage
+            case Stat.ACC:
+                self.acc_stage = stage
 class Stat(str, Enum):
     ATK = "atk"
     DEF = "def"

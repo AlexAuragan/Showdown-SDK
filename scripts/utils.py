@@ -1,35 +1,13 @@
 import asyncio
 import json
 from dataclasses import asdict
-from enum import Enum
 from pathlib import Path
-from typing import cast
 
 from python_showdown.classes.client.client import Client
+from python_showdown.utils.serialization import SerializableObject
 
 
-def json_default(value: object) -> object:
-    if isinstance(value, Enum):
-        return value.value
-
-    if isinstance(value, (set, frozenset)):
-        normalized: list[object] = []
-
-        for item in value:
-            if isinstance(item, Enum):
-                normalized.append(item.value)
-            else:
-                item = cast(object, item)
-                normalized.append(item)
-
-        return sorted(normalized, key=str)
-
-    raise TypeError(
-        f"Object of type {type(value).__name__} is not JSON serializable"
-    )
-
-
-def write_json(path: Path, data: object) -> None:
+def write_json(path: Path, data: list[SerializableObject]) -> None:
 
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
@@ -38,7 +16,6 @@ def write_json(path: Path, data: object) -> None:
             file,
             indent=2,
             sort_keys=True,
-            default=json_default,
         )
 
 

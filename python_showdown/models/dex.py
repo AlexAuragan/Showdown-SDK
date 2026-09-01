@@ -3,9 +3,9 @@ import unicodedata
 from collections.abc import Iterator, Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import ClassVar, Self, cast, override
+from typing import ClassVar, Self, override
 
-type JsonObject = dict[str, JsonObject] | list[JsonObject] | str |  float | int | bool
+from python_showdown.utils.serialization import Serializable, expect_object
 
 _DATASETS = frozenset(
     {
@@ -32,13 +32,13 @@ def to_id(value: str) -> str:
 
 
 @dataclass(slots=True)
-class DexTable(Mapping[str, JsonObject]):
+class DexTable(Mapping[str, Serializable]):
     """Lazy mapping over one generated JSON dataset."""
 
     path: Path
-    _data: dict[str, JsonObject] | None = field(default=None, init=False, repr=False)
+    _data: dict[str, Serializable] | None = field(default=None, init=False, repr=False)
 
-    def _load(self) -> dict[str, JsonObject]:
+    def _load(self) -> dict[str, Serializable]:
         if self._data is None:
             if not self.path.is_file():
                 raise FileNotFoundError(
@@ -47,17 +47,14 @@ class DexTable(Mapping[str, JsonObject]):
                 )
 
             with self.path.open("r", encoding="utf-8") as file:
-                data = cast(JsonObject, json.load(file))
-
-            if not isinstance(data, dict):
-                raise ValueError(f"Expected a JSON object in {self.path}")
+                data = expect_object(json.load(file), name=str(self.path))
 
             self._data = data
 
         return self._data
 
     @override
-    def __getitem__(self, key: str) -> JsonObject:
+    def __getitem__(self, key: str) -> Serializable:
         data = self._load()
 
         if key in data:
@@ -97,7 +94,7 @@ class GenerationDex:
     number: int
     root: Path
     _tables: dict[str, DexTable] = field(default_factory=dict, init=False, repr=False)
-    _metadata: JsonObject | None = field(default=None, init=False, repr=False)
+    _metadata: Serializable | None = field(default=None, init=False, repr=False)
 
     def __post_init__(self) -> None:
         if self.number < 1:
@@ -158,30 +155,27 @@ class GenerationDex:
         return self.table("learnsets")
 
     @property
-    def metadata(self) -> JsonObject:
+    def metadata(self) -> Serializable:
         if self._metadata is None:
             path = self.directory / "metadata.json"
             with path.open("r", encoding="utf-8") as file:
-                data = cast(JsonObject,json.load(file))
-
-            if not isinstance(data, dict):
-                raise ValueError(f"Expected a JSON object in {path}")
+                data = expect_object(json.load(file))
             self._metadata = data
         return self._metadata
 
-    def move(self, name: str) -> JsonObject:
+    def move(self, name: str) -> Serializable:
         return self.moves[name]
 
-    def ability(self, name: str) -> JsonObject:
+    def ability(self, name: str) -> Serializable:
         return self.abilities[name]
 
-    def item(self, name: str) -> JsonObject:
+    def item(self, name: str) -> Serializable:
         return self.items[name]
 
-    def pokemon(self, name: str) -> JsonObject:
+    def pokemon(self, name: str) -> Serializable:
         return self.species[name]
 
-    def learnset(self, name: str) -> JsonObject:
+    def learnset(self, name: str) -> Serializable:
         return self.learnsets[name]
 
     def refresh(self) -> None:
@@ -196,7 +190,7 @@ class Dex:
 
     root: Path
     _generations: dict[int, GenerationDex]
-    _metadata: JsonObject | None
+    _metadata: Serializable | None
 
     _instance: ClassVar[Self | None] = None
     _initialized: ClassVar[bool] = False
@@ -244,7 +238,7 @@ class Dex:
         return self.gen(self.latest_generation)
 
     @property
-    def metadata(self) -> JsonObject:
+    def metadata(self) -> Serializable:
         if self._metadata is None:
             path = self.root / "metadata.json"
             if not path.is_file():
@@ -254,10 +248,8 @@ class Dex:
                 )
 
             with path.open("r", encoding="utf-8") as file:
-                data = cast(JsonObject, json.load(file))
+                data = expect_object(json.load(file))
 
-            if not isinstance(data, dict):
-                raise ValueError(f"Expected a JSON object in {path}")
             self._metadata = data
 
         return self._metadata
@@ -272,19 +264,19 @@ class Dex:
             self._generations[number] = generation
         return generation
 
-    def move(self, name: str, *, gen: int | None = None) -> JsonObject:
+    def move(self, name: str, *, gen: int | None = None) -> Serializable:
         return self.gen(gen).move(name)
 
-    def ability(self, name: str, *, gen: int | None = None) -> JsonObject:
+    def ability(self, name: str, *, gen: int | None = None) -> Serializable:
         return self.gen(gen).ability(name)
 
-    def item(self, name: str, *, gen: int | None = None) -> JsonObject:
+    def item(self, name: str, *, gen: int | None = None) -> Serializable:
         return self.gen(gen).item(name)
 
-    def pokemon(self, name: str, *, gen: int | None = None) -> JsonObject:
+    def pokemon(self, name: str, *, gen: int | None = None) -> Serializable:
         return self.gen(gen).pokemon(name)
 
-    def learnset(self, name: str, *, gen: int | None = None) -> JsonObject:
+    def learnset(self, name: str, *, gen: int | None = None) -> Serializable:
         return self.gen(gen).learnset(name)
 
     def refresh(self) -> None:

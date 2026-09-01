@@ -2,12 +2,17 @@ import asyncio
 import json
 import random
 from collections.abc import Awaitable, Callable
-from typing import cast
 from urllib.request import Request, urlopen
 
 from python_showdown.models.pokemon.status import EVs, IVs
 from python_showdown.models.sdk.exceptions import TeamRejectedError
 from python_showdown.models.sdk.pokemon_set import PokemonSet, TeamSet
+from python_showdown.utils.serialization import (
+    Serializable,
+    SerializableObject,
+    expect_array,
+    expect_object,
+)
 
 
 class SampleTeamGenerator:
@@ -19,7 +24,7 @@ class SampleTeamGenerator:
         # format -> species -> list of sets
         self._cache: dict[
             str,
-            dict[str, list[dict[str, object]]],
+            dict[str, list[SerializableObject]],
         ] = {}
 
     async def _generate(
@@ -86,7 +91,7 @@ class SampleTeamGenerator:
     async def _get_sets(
         self,
         format_name: str,
-    ) -> dict[str, list[dict[str, object]]]:
+    ) -> dict[str, list[SerializableObject]]:
         if format_name in self._cache:
             return self._cache[format_name]
 
@@ -95,7 +100,7 @@ class SampleTeamGenerator:
             format_name,
         )
 
-        sets: dict[str, list[dict[str, object]]] = {}
+        sets: dict[str, list[SerializableObject]] = {}
 
         # Showdown currently exposes sources such as:
         #
@@ -112,7 +117,7 @@ class SampleTeamGenerator:
                 continue
 
             for species, raw_sets in source.items():
-                if not isinstance(species, str) or not isinstance(raw_sets, dict):
+                if not isinstance(raw_sets, dict):
                     continue
 
                 species_sets = sets.setdefault(
@@ -122,7 +127,7 @@ class SampleTeamGenerator:
 
                 for raw_set in raw_sets.values():
                     if isinstance(raw_set, dict):
-                        raw_set = cast(dict[str, object], raw_set)
+                        raw_set = expect_object(raw_set)
                         species_sets.append(raw_set)
 
         sets = {
@@ -140,7 +145,7 @@ class SampleTeamGenerator:
     def _fetch(
         self,
         format_name: str,
-    ) -> dict[str, object]:
+    ) -> SerializableObject:
         url = f"{self.BASE_URL}/{format_name}.json"
 
         request = Request(
@@ -153,17 +158,12 @@ class SampleTeamGenerator:
         with urlopen(request, timeout=10) as response:
             raw = response.read()
 
-        data = json.loads(raw)
-
-        if not isinstance(data, dict):
-            raise TypeError(f"Unexpected set data for {format_name!r}")
-
-        return data
+        return expect_object(json.loads(raw))
 
     def _build_pokemon(
         self,
         species: str,
-        data: dict[str, object],
+        data: SerializableObject,
         format_name: str,
     ) -> PokemonSet:
         generation = self._generation(format_name)
@@ -200,12 +200,10 @@ class SampleTeamGenerator:
 
     def _moves(
         self,
-        value: object,
+        value: Serializable,
     ) -> list[str]:
-        if not isinstance(value, list):
-            raise TypeError(f"Invalid moves field: {value!r}")
 
-        value = cast(list[str], value)
+        value = expect_array(value)
         moves: list[str] = []
 
         for move in value:
@@ -223,7 +221,7 @@ class SampleTeamGenerator:
 
     def _evs(
         self,
-        value: object,
+        value: Serializable,
         generation: int,
     ) -> EVs:
         # Showdown's set importer fills Gen 1/2 EVs to
@@ -248,7 +246,7 @@ class SampleTeamGenerator:
             }
 
         if isinstance(value, dict):
-            value = cast(dict[str, object], value)
+            value = expect_object(value)
             for stat in defaults:
                 stat_value = value.get(stat)
 
@@ -271,7 +269,7 @@ class SampleTeamGenerator:
 
     def _ivs(
         self,
-        value: object,
+        value: Serializable,
     ) -> IVs:
         values = {
             "hp": 31,
@@ -283,7 +281,7 @@ class SampleTeamGenerator:
         }
 
         if isinstance(value, dict):
-            value = cast(dict[str, object], value)
+            value = expect_object(value)
             for stat in values:
                 stat_value = value.get(stat)
 
@@ -301,7 +299,7 @@ class SampleTeamGenerator:
 
     def _string_choice(
         self,
-        value: object,
+        value: Serializable,
     ) -> str | None:
         if isinstance(value, str):
             return value
@@ -316,7 +314,7 @@ class SampleTeamGenerator:
 
     @staticmethod
     def _integer(
-        value: object,
+        value: Serializable,
         default: int,
     ) -> int:
         if isinstance(value, int) and not isinstance(

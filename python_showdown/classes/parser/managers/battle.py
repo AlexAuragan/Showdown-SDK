@@ -11,7 +11,7 @@ This is the battle manager: it only sees messages the aggregator routes to it
 
 import json
 from dataclasses import dataclass
-from typing import cast, override
+from typing import override
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.ability_state import update_protocol_context
@@ -46,6 +46,15 @@ from python_showdown.classes.parser.protocol import (
 )
 from python_showdown.models.pokemon.status import MajorStatus
 from python_showdown.models.sdk.battle_state import BattleState
+from python_showdown.utils.serialization import (
+    SerializableObject,
+    expect_array,
+    expect_bool,
+    expect_int,
+    expect_object,
+    expect_optional_int,
+    expect_string,
+)
 
 type Payload = bool | str | int | dict[str, Payload] | list[Payload]
 
@@ -63,49 +72,8 @@ MULTI_TURN_MOVES = {
 }
 
 
-def _expect_object(value: object, name: str) -> dict[str, object]:
-    if not isinstance(value, dict):
-        raise TypeError(
-            f"{name} must be an object, got {type(value).__name__}: {value!r}"
-        )
-
-    obj = cast(dict[object, object], value)
-    if not all(isinstance(key, str) for key in obj):
-        raise TypeError(f"{name} must have string keys")
-
-    return cast(dict[str, object], value)
-
-
-def _expect_array(value: object, name: str) -> list[object]:
-    if not isinstance(value, list):
-        raise TypeError(
-            f"{name} must be an array, got {type(value).__name__}: {value!r}"
-        )
-
-    return cast(list[object], value)
-
-
-def _expect_str(value: object, name: str) -> str:
-    if not isinstance(value, str):
-        raise TypeError(f"{name} must be a str, got {type(value).__name__}")
-    return value
-
-
-def _expect_bool(value: object, name: str) -> bool:
-    if not isinstance(value, bool):
-        raise TypeError(f"{name} must be a bool, got {type(value).__name__}")
-    return value
-
-
-def _expect_int(value: object, name: str) -> int:
-    # bool is a subclass of int, but isn't a valid integer here.
-    if isinstance(value, bool) or not isinstance(value, int):
-        raise TypeError(f"{name} must be an int, got {type(value).__name__}")
-    return value
-
-
 def _validate_keys(
-    value: dict[str, object],
+    value: SerializableObject,
     *,
     allowed: set[str],
     name: str,
@@ -336,9 +304,9 @@ class BattleParser(MessageParser):
 
     def _parse_request_pokemon(
         self,
-        data: dict[str, object],
+        data: SerializableObject,
     ) -> tuple[RequestPokemon, ...]:
-        side = _expect_object(data["side"], "request['side']")
+        side = expect_object(data["side"], name="request['side']")
 
         side_keys = {"id", "name", "pokemon"}
         _validate_keys(
@@ -348,16 +316,16 @@ class BattleParser(MessageParser):
             name="request side",
         )
 
-        side_id = _expect_str(side["id"], "request['side']['id']")
+        side_id = expect_string(side["id"], name="request['side']['id']")
 
         if side_id != self.player_id:
             raise ValueError(
                 f"Request player mismatch: {side_id=!r}, {self.player_id=!r}"
             )
 
-        raw_pokemon = _expect_array(
+        raw_pokemon = expect_array(
             side["pokemon"],
-            "request['side']['pokemon']",
+            name="request['side']['pokemon']",
         )
 
         if len(raw_pokemon) > 6:
@@ -383,9 +351,9 @@ class BattleParser(MessageParser):
         stats_keys = {"atk", "def", "spa", "spd", "spe"}
 
         for i, raw_value in enumerate(raw_pokemon):
-            raw = _expect_object(
+            raw = expect_object(
                 raw_value,
-                f"request['side']['pokemon'][{i}]",
+                name=f"request['side']['pokemon'][{i}]",
             )
 
             if set(raw) != pokemon_keys:
@@ -398,23 +366,23 @@ class BattleParser(MessageParser):
                     + f"pokemon={raw}"
                 )
 
-            stats = _expect_object(
+            stats = expect_object(
                 raw["stats"],
-                f"request['side']['pokemon'][{i}]['stats']",
+                name=f"request['side']['pokemon'][{i}]['stats']",
             )
 
             if set(stats) != stats_keys:
                 raise ValueError(f"Unexpected stats schema: {stats}")
 
-            atk = _expect_int(stats["atk"], f"pokemon[{i}].stats.atk")
-            def_ = _expect_int(stats["def"], f"pokemon[{i}].stats.def")
-            spa = _expect_int(stats["spa"], f"pokemon[{i}].stats.spa")
-            spd = _expect_int(stats["spd"], f"pokemon[{i}].stats.spd")
-            spe = _expect_int(stats["spe"], f"pokemon[{i}].stats.spe")
+            atk = expect_int(stats["atk"], name=f"pokemon[{i}].stats.atk")
+            def_ = expect_int(stats["def"], name=f"pokemon[{i}].stats.def")
+            spa = expect_int(stats["spa"], name=f"pokemon[{i}].stats.spa")
+            spd = expect_int(stats["spd"], name=f"pokemon[{i}].stats.spd")
+            spe = expect_int(stats["spe"], name=f"pokemon[{i}].stats.spe")
 
-            condition = _expect_str(
+            condition = expect_string(
                 raw["condition"],
-                f"request['side']['pokemon'][{i}]['condition']",
+                name=f"request['side']['pokemon'][{i}]['condition']",
             )
 
             if condition == "0 fnt":
@@ -438,9 +406,9 @@ class BattleParser(MessageParser):
                         f"Invalid Pokémon condition: {condition!r}"
                     ) from exc
 
-            details = _expect_str(
+            details = expect_string(
                 raw["details"],
-                f"request['side']['pokemon'][{i}]['details']",
+                name=f"request['side']['pokemon'][{i}]['details']",
             )
 
             clean_details = (
@@ -460,42 +428,42 @@ class BattleParser(MessageParser):
             else:
                 level = 100
 
-            raw_pokemon_moves = _expect_array(
+            raw_pokemon_moves = expect_array(
                 raw["moves"],
-                f"request['side']['pokemon'][{i}]['moves']",
+                name=f"request['side']['pokemon'][{i}]['moves']",
             )
 
             pokemon_moves = tuple(
-                _expect_str(
+                expect_string(
                     move,
-                    f"request['side']['pokemon'][{i}]['moves'][{j}]",
+                    name=f"request['side']['pokemon'][{i}]['moves'][{j}]",
                 )
                 for j, move in enumerate(raw_pokemon_moves)
             )
 
-            ident = _expect_str(
+            ident = expect_string(
                 raw["ident"],
-                f"request['side']['pokemon'][{i}]['ident']",
+                name=f"request['side']['pokemon'][{i}]['ident']",
             )
 
-            active = _expect_bool(
+            active = expect_bool(
                 raw["active"],
-                f"request['side']['pokemon'][{i}]['active']",
+                name=f"request['side']['pokemon'][{i}]['active']",
             )
 
-            base_ability = _expect_str(
+            base_ability = expect_string(
                 raw["baseAbility"],
-                f"request['side']['pokemon'][{i}]['baseAbility']",
+                name=f"request['side']['pokemon'][{i}]['baseAbility']",
             )
 
-            item = _expect_str(
+            item = expect_string(
                 raw["item"],
-                f"request['side']['pokemon'][{i}]['item']",
+                name=f"request['side']['pokemon'][{i}]['item']",
             )
 
-            pokeball = _expect_str(
+            pokeball = expect_string(
                 raw["pokeball"],
-                f"request['side']['pokemon'][{i}]['pokeball']",
+                name=f"request['side']['pokemon'][{i}]['pokeball']",
             )
 
             pokemon.append(
@@ -526,7 +494,7 @@ class BattleParser(MessageParser):
 
     def _parse_request_team_preview_event(
         self,
-        data: dict[str, object],
+        data: SerializableObject,
     ) -> TeamPreviewRequestEvent:
         request_keys = {
             "teamPreview",
@@ -543,9 +511,9 @@ class BattleParser(MessageParser):
             name="team preview request",
         )
 
-        team_preview = _expect_bool(
+        team_preview = expect_bool(
             data["teamPreview"],
-            "request['teamPreview']",
+            name="request['teamPreview']",
         )
 
         if not team_preview:
@@ -554,25 +522,19 @@ class BattleParser(MessageParser):
             )
 
         raw_request_id = data.get("rqid")
-        request_id = (
-            None
-            if raw_request_id is None
-            else _expect_int(raw_request_id, "request['rqid']")
-        )
+        request_id = expect_optional_int(raw_request_id, name="request['rqid']")
+
 
         raw_max_chosen_team_size = data.get("maxChosenTeamSize")
-        max_chosen_team_size = (
-            None
-            if raw_max_chosen_team_size is None
-            else _expect_int(
+        max_chosen_team_size = expect_optional_int(
                 raw_max_chosen_team_size,
-                "request['maxChosenTeamSize']",
-            )
+                name="request['maxChosenTeamSize']",
+
         )
 
-        no_cancel = _expect_bool(
+        no_cancel = expect_bool(
             data.get("noCancel", False),
-            "request['noCancel']",
+            name="request['noCancel']",
         )
 
         pokemon = self._parse_request_pokemon(data)
@@ -610,13 +572,13 @@ class BattleParser(MessageParser):
         raw_payload = "|".join(message.arguments)
 
         try:
-            decoded = cast(object, json.loads(raw_payload))
+            decoded = json.loads(raw_payload)
         except json.JSONDecodeError as exc:
             raise ValueError(
                 f"Invalid JSON request payload: {raw_payload!r}"
             ) from exc
 
-        data = _expect_object(decoded, "request")
+        data = expect_object(decoded, name="request")
 
         # Team Preview is a different kind of decision request.
         if "teamPreview" in data:
@@ -639,32 +601,32 @@ class BattleParser(MessageParser):
             name="request",
         )
 
-        update = _expect_bool(
+        update = expect_bool(
             data.get("update", False),
-            "request['update']",
+            name="request['update']",
         )
-        no_cancel = _expect_bool(
+        no_cancel = expect_bool(
             data.get("noCancel", False),
-            "request['noCancel']",
+            name="request['noCancel']",
         )
-        request_id = _expect_int(
+        request_id = expect_int(
             data.get("rqid", 0),
-            "request['rqid']",
+            name="request['rqid']",
         )
-        wait = _expect_bool(
+        wait = expect_bool(
             data.get("wait", False),
-            "request['wait']",
+            name="request['wait']",
         )
 
-        raw_force_switch = _expect_array(
+        raw_force_switch = expect_array(
             data.get("forceSwitch", []),
-            "request['forceSwitch']",
+            name="request['forceSwitch']",
         )
 
         force_switch = tuple(
-            _expect_bool(
+            expect_bool(
                 value,
-                f"request['forceSwitch'][{i}]",
+                name=f"request['forceSwitch'][{i}]",
             )
             for i, value in enumerate(raw_force_switch)
         )
@@ -677,9 +639,9 @@ class BattleParser(MessageParser):
         maybe_disabled = False
 
         if "active" in data:
-            active = _expect_array(
+            active = expect_array(
                 data["active"],
-                "request['active']",
+                name="request['active']",
             )
 
             if len(active) != 1:
@@ -687,9 +649,9 @@ class BattleParser(MessageParser):
                     f"Expected exactly one active Pokémon, got {len(active)}"
                 )
 
-            active_request = _expect_object(
+            active_request = expect_object(
                 active[0],
-                "request['active'][0]",
+                name="request['active'][0]",
             )
 
             active_keys = {
@@ -707,29 +669,29 @@ class BattleParser(MessageParser):
                 name="active request",
             )
 
-            trapped = _expect_bool(
+            trapped = expect_bool(
                 active_request.get("trapped", False),
-                "request['active'][0]['trapped']",
+                name="request['active'][0]['trapped']",
             )
 
-            maybe_trapped = _expect_bool(
+            maybe_trapped = expect_bool(
                 active_request.get("maybeTrapped", False),
-                "request['active'][0]['maybeTrapped']",
+                name="request['active'][0]['maybeTrapped']",
             )
 
-            maybe_disabled = _expect_bool(
+            maybe_disabled = expect_bool(
                 active_request.get("maybeDisabled", False),
-                "request['active'][0]['maybeDisabled']",
+                name="request['active'][0]['maybeDisabled']",
             )
 
-            maybe_locked = _expect_bool(
+            maybe_locked = expect_bool(
                 active_request.get("maybeLocked", False),
-                "request['active'][0]['maybeLocked']",
+                name="request['active'][0]['maybeLocked']",
             )
 
-            raw_moves = _expect_array(
+            raw_moves = expect_array(
                 active_request["moves"],
-                "request['active'][0]['moves']",
+                name="request['active'][0]['moves']",
             )
 
             move_keys = {
@@ -743,9 +705,9 @@ class BattleParser(MessageParser):
             }
 
             for i, raw_move_value in enumerate(raw_moves):
-                raw_move = _expect_object(
+                raw_move = expect_object(
                     raw_move_value,
-                    f"request['active'][0]['moves'][{i}]",
+                    name=f"request['active'][0]['moves'][{i}]",
                 )
 
                 _validate_keys(
@@ -755,19 +717,19 @@ class BattleParser(MessageParser):
                     name="move",
                 )
 
-                name = _expect_str(
+                name = expect_string(
                     raw_move["move"],
-                    f"move[{i}]['move']",
+                    name=f"move[{i}]['move']",
                 )
 
-                move_id = _expect_str(
+                move_id = expect_string(
                     raw_move["id"],
-                    f"move[{i}]['id']",
+                    name=f"move[{i}]['id']",
                 )
 
-                target = _expect_str(
+                target = expect_string(
                     raw_move.get("target", "normal"),
-                    f"move[{i}]['target']",
+                    name=f"move[{i}]['target']",
                 )
 
                 raw_disabled_source = raw_move.get(
@@ -775,9 +737,9 @@ class BattleParser(MessageParser):
                     "",
                 )
                 disabled_source = (
-                    _expect_str(
+                    expect_string(
                         raw_disabled_source,
-                        f"move[{i}]['disabledSource']",
+                        name=f"move[{i}]['disabledSource']",
                     )
                     or None
                 )
@@ -797,24 +759,20 @@ class BattleParser(MessageParser):
                     curr_pp = (
                         None
                         if curr_pp_value is None
-                        else _expect_int(
+                        else expect_int(
                             curr_pp_value,
-                            f"move[{i}]['pp']",
+                            name=f"move[{i}]['pp']",
                         )
                     )
 
-                    max_pp = (
-                        None
-                        if max_pp_value is None
-                        else _expect_int(
+                    max_pp = expect_optional_int(
                             max_pp_value,
-                            f"move[{i}]['maxpp']",
-                        )
+                            name=f"move[{i}]['maxpp']",
                     )
 
-                    disabled = _expect_bool(
+                    disabled = expect_bool(
                         disabled_value,
-                        f"move[{i}]['disabled']",
+                        name=f"move[{i}]['disabled']",
                     )
 
                     if move_id in {"recharge", "struggle"}:
@@ -833,19 +791,19 @@ class BattleParser(MessageParser):
                             + f"{sorted(missing)}, move: {raw_move}"
                         )
 
-                    curr_pp = _expect_int(
+                    curr_pp = expect_int(
                         raw_move["pp"],
-                        f"move[{i}]['pp']",
+                        name=f"move[{i}]['pp']",
                     )
 
-                    max_pp = _expect_int(
+                    max_pp = expect_int(
                         raw_move["maxpp"],
-                        f"move[{i}]['maxpp']",
+                        name=f"move[{i}]['maxpp']",
                     )
 
-                    disabled = _expect_bool(
+                    disabled = expect_bool(
                         raw_move["disabled"],
-                        f"move[{i}]['disabled']",
+                        name=f"move[{i}]['disabled']",
                     )
 
                 moves.append(

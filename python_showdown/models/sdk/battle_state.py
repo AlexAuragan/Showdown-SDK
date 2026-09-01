@@ -1,11 +1,14 @@
 import json
-from dataclasses import fields, is_dataclass
 from enum import Enum
-from typing import TYPE_CHECKING, cast
+from typing import TYPE_CHECKING
 
 from python_showdown.models.pokemon.moves import AvailableMove
 from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
 from python_showdown.models.pokemon.terrain import SideCondition
+from python_showdown.utils.serialization import (
+    SerializableObject,
+    to_serializable_object,
+)
 
 if TYPE_CHECKING:
     from python_showdown.classes.combat_handler.battle_manager import BattleManager
@@ -23,53 +26,6 @@ class SourceType(str, Enum):
     RECOIL = "recoil"
     UNKNOWN = "unknown"
 
-
-
-def _to_jsonable(obj: object) -> object:
-    if isinstance(obj, Enum):
-        return obj.value
-
-    if is_dataclass(obj) and not isinstance(obj, type):
-        return {
-            field.name: _to_jsonable(getattr(obj, field.name))
-            for field in fields(obj)
-            if not field.name.startswith("_")
-        }
-
-    if isinstance(obj, dict):
-        obj = cast(dict[str, object], obj)
-        out: dict[object, object] = {}
-
-        for key, value in obj.items():
-            if str(key).startswith("_"):
-                continue
-
-            if isinstance(key, Enum):
-                normalized_key = key.value
-            else:
-                normalized_key = key
-
-            out[normalized_key] = _to_jsonable(value)
-
-        return out
-
-    if isinstance(obj, tuple):
-        obj = cast(tuple[object], obj)
-        return [_to_jsonable(value) for value in obj]
-
-    if isinstance(obj, list):
-        obj = cast(list[object], obj)
-        return [_to_jsonable(value) for value in obj]
-
-    if isinstance(obj, frozenset):
-        values = [_to_jsonable(value) for value in obj]
-        return sorted(values, key=str)
-
-    if isinstance(obj, set):
-        obj = cast(set[object], obj)
-        values = [_to_jsonable(value) for value in obj]
-        return sorted(values, key=str)
-    return obj
 
 class BattleState:
     def __init__(self, manager: BattleManager):
@@ -104,7 +60,7 @@ class BattleState:
     def player_id(self, value: str) -> None:
         self._manager.player_id = value
 
-    def to_dict(self) -> dict[str, object]:
+    def to_dict(self) -> SerializableObject:
         data = {
             "team": self._team,
             "enemy_team": self._enemy_team,
@@ -116,12 +72,7 @@ class BattleState:
             "side_conditions": self.side_conditions,
         }
 
-        result = _to_jsonable(data)
-
-        if not isinstance(result, dict):
-            raise TypeError("BattleState serialization must produce a dict")
-        result = cast(dict[str, object], result)
-        return result
+        return to_serializable_object(data)
 
 
     def to_json(self) -> str:
@@ -131,7 +82,7 @@ class BattleState:
             sort_keys=True,
         )
 
-    def history_json(self) -> list[dict[str, object]]:
+    def history_json(self) -> list[SerializableObject]:
         return [event.to_dict() for event in self.history]
 
     def get_pokemon(self, pokemon_id: str) -> PartyPokemon:

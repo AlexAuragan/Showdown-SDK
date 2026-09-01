@@ -6,6 +6,7 @@ from time import perf_counter
 from python_showdown.classes.client.dt import BattleResult
 from python_showdown.logger import LogManager
 from python_showdown.models.sdk.battle_state import BattleState
+from python_showdown.utils.serialization import SerializableObject
 
 
 class BattleManager:
@@ -35,11 +36,11 @@ class BattleManager:
         self.last_request_id: int | None = None
 
         self.requires_team_preview: bool = False
-        self._turn_start_states: list[dict[str, object]] = []
+        self._turn_start_states: list[SerializableObject] = []
         self._last_turn_start_state_turn: int | None = None
 
-        self.last_battle_events: list[dict[str, object]] = []
-        self.last_battle_turn_states: list[dict[str, object]] = []
+        self.last_battle_events: list[SerializableObject] = []
+        self.last_battle_turn_states: list[SerializableObject] = []
 
     def clear_player_id(self):
         self._player_id = None
