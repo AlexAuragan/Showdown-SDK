@@ -102,14 +102,6 @@ class SampleTeamGenerator:
 
         sets: dict[str, list[SerializableObject]] = {}
 
-        # Showdown currently exposes sources such as:
-        #
-        # {
-        #     "dex": {...},
-        #     "stats": {...},
-        # }
-        #
-        # Merge them to maximize variety.
         for source_name in ("dex", "stats"):
             source = data.get(source_name)
 
@@ -127,7 +119,6 @@ class SampleTeamGenerator:
 
                 for raw_set in raw_sets.values():
                     if isinstance(raw_set, dict):
-                        raw_set = expect_object(raw_set)
                         species_sets.append(raw_set)
 
         sets = {
@@ -246,7 +237,6 @@ class SampleTeamGenerator:
             }
 
         if isinstance(value, dict):
-            value = expect_object(value)
             for stat in defaults:
                 stat_value = value.get(stat)
 
@@ -281,7 +271,6 @@ class SampleTeamGenerator:
         }
 
         if isinstance(value, dict):
-            value = expect_object(value)
             for stat in values:
                 stat_value = value.get(stat)
 

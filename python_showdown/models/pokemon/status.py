@@ -145,24 +145,6 @@ class Status:
     def _clamp(stage: int) -> int:
         return max(Status._MIN_STAGE, min(Status._MAX_STAGE, stage))
 
-    @staticmethod
-    def _stage_attr(stat: Stat) -> str:
-        match stat:
-            case stat.ATK:
-                return "atk_stage"
-            case stat.DEF:
-                return "def_stage"
-            case stat.SPA:
-                return "spa_stage"
-            case stat.SPD:
-                return "spd_stage"
-            case stat.SPE:
-                return "spe_stage"
-            case stat.EVA:
-                return "eva_stage"
-            case stat.ACC:
-                return "acc_stage"
-
     def set_stage(self, stat: Stat, n: int) -> None:
         """Set a stage absolutely (e.g. Belly Drum sets atk to +6)."""
         self._set_stage(stat, self._clamp(n))

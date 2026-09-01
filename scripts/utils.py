@@ -4,10 +4,14 @@ from dataclasses import asdict
 from pathlib import Path
 
 from python_showdown.classes.client.client import Client
-from python_showdown.utils.serialization import SerializableObject
+from python_showdown.utils.serialization import (
+    Serializable,
+    SerializableArray,
+    SerializableObject,
+)
 
 
-def write_json(path: Path, data: list[SerializableObject]) -> None:
+def write_json(path: Path, data: list[SerializableObject] | Serializable | SerializableArray) -> None:
 
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
@@ -41,7 +45,7 @@ async def run_battle(
     client_1: Client,
     client_2: Client,
     fmt: str,
-) -> dict[str, object]:
+) -> SerializableObject:
     await asyncio.gather(
         client_1.ensure_connected(),
         client_2.ensure_connected(),

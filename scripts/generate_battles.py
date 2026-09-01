@@ -19,6 +19,7 @@ from python_showdown.logger import (
     start_file_io_worker,
     stop_file_io_worker,
 )
+from python_showdown.utils.serialization import SerializableObject
 from scripts.utils import run_battle
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
@@ -51,8 +52,8 @@ async def run_pair(
     pair_index: int,
     battle_offset: int,
     progress: tqdm[NoReturn],
-) -> tuple[list[dict[str, object]], int]:
-    results: list[dict[str, object]] = []
+) -> tuple[list[SerializableObject], int]:
+    results: list[SerializableObject] = []
     failed_battles = 0
 
     for i in range(BATTLES_PER_PAIR):
@@ -91,7 +92,7 @@ async def run_pair(
     return results, failed_battles
 
 
-async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
+async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
     """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
     clients: list[Client] = []
     log_managers: list[LogManager] = []
@@ -129,7 +130,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         log_managers.append(logs)
 
     failed_battles = 0
-    results: list[dict[str, object]] = []
+    results: list[SerializableObject] = []
 
     try:
         await asyncio.gather(*(client.connect() for client in clients))
@@ -150,7 +151,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         )
 
         # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
-        pair_tasks: list[Awaitable[tuple[list[dict[str, object]], int]]] = []
+        pair_tasks: list[Awaitable[tuple[list[SerializableObject], int]]] = []
 
         for pair_index in range(PAIR_COUNT):
             client_1 = clients[pair_index * 2]

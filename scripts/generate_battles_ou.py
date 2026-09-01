@@ -21,10 +21,11 @@ from python_showdown.logger import (
     stop_file_io_worker,
 )
 from python_showdown.models.sdk.sample_team_generator import SampleTeamGenerator
+from python_showdown.utils.serialization import SerializableObject
 from scripts.utils import write_battle_outputs
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
-BATTLE_COUNT = 100
+BATTLE_COUNT = 10000
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 32
@@ -53,7 +54,7 @@ async def run_battle(
     client_1: Client,
     client_2: Client,
     fmt: str,
-) -> dict[str, object]:
+) -> SerializableObject:
     await asyncio.gather(
         client_1.ensure_connected(),
         client_2.ensure_connected(),
@@ -123,8 +124,8 @@ async def run_pair(
     pair_index: int,
     battle_offset: int,
     progress: tqdm[NoReturn],
-) -> tuple[list[dict[str, object]], int]:
-    results: list[dict[str, object]] = []
+) -> tuple[list[SerializableObject], int]:
+    results: list[SerializableObject] = []
     failed_battles = 0
 
     for i in range(BATTLES_PER_PAIR):
@@ -163,7 +164,7 @@ async def run_pair(
     return results, failed_battles
 
 
-async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
+async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
     """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
     clients: list[Client] = []
     log_managers: list[LogManager] = []
@@ -201,7 +202,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         log_managers.append(logs)
 
     failed_battles = 0
-    results: list[dict[str, object]] = []
+    results: list[SerializableObject] = []
 
     start_file_io_worker()
     try:
@@ -223,7 +224,7 @@ async def run_format(fmt: str) -> tuple[list[dict[str, object]], int]:
         )
 
         # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
-        pair_tasks: list[Awaitable[tuple[list[dict[str, object]], int]]] = []
+        pair_tasks: list[Awaitable[tuple[list[SerializableObject], int]]] = []
 
         for pair_index in range(PAIR_COUNT):
             client_1 = clients[pair_index * 2]

@@ -5,7 +5,11 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import ClassVar, Self, override
 
-from python_showdown.utils.serialization import Serializable, expect_object
+from python_showdown.utils.serialization import (
+    Serializable,
+    SerializableObject,
+    expect_object,
+)
 
 _DATASETS = frozenset(
     {
@@ -94,7 +98,7 @@ class GenerationDex:
     number: int
     root: Path
     _tables: dict[str, DexTable] = field(default_factory=dict, init=False, repr=False)
-    _metadata: Serializable | None = field(default=None, init=False, repr=False)
+    _metadata: SerializableObject | None = field(default=None, init=False, repr=False)
 
     def __post_init__(self) -> None:
         if self.number < 1:
@@ -155,7 +159,7 @@ class GenerationDex:
         return self.table("learnsets")
 
     @property
-    def metadata(self) -> Serializable:
+    def metadata(self) -> SerializableObject:
         if self._metadata is None:
             path = self.directory / "metadata.json"
             with path.open("r", encoding="utf-8") as file:
@@ -190,7 +194,7 @@ class Dex:
 
     root: Path
     _generations: dict[int, GenerationDex]
-    _metadata: Serializable | None
+    _metadata: SerializableObject | None
 
     _instance: ClassVar[Self | None] = None
     _initialized: ClassVar[bool] = False
@@ -238,7 +242,7 @@ class Dex:
         return self.gen(self.latest_generation)
 
     @property
-    def metadata(self) -> Serializable:
+    def metadata(self) -> SerializableObject:
         if self._metadata is None:
             path = self.root / "metadata.json"
             if not path.is_file():
