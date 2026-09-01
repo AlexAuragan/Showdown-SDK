@@ -78,8 +78,8 @@ class BattleState:
     def to_json(self) -> str:
         return json.dumps(
             self.to_dict(),
-            indent=2,
-            sort_keys=True,
+            # indent=2,
+            # sort_keys=True,
         )
 
     def history_json(self) -> list[SerializableObject]:

@@ -1,4 +1,4 @@
-from dataclasses import asdict, is_dataclass
+from dataclasses import asdict, fields, is_dataclass
 from enum import Enum
 from typing import TypeGuard, cast
 
@@ -48,17 +48,15 @@ def expect_serializable(value: object, *, name: str = "value") -> Serializable:
     return value
 
 
-def expect_object(value: object, *, name: str = "value") -> SerializableObject:
+def expect_object(value: Serializable, *, name: str = "value") -> SerializableObject:
     """Validate a JSON object (``dict[str, Serializable]``)."""
-    value = expect_serializable(value, name=name)
     if not isinstance(value, dict):
         raise TypeError(f"{name} must be an object, got {type(value).__name__}")
     return value
 
 
-def expect_array(value: object, *, name: str = "value") -> SerializableArray:
+def expect_array(value: Serializable, *, name: str = "value") -> SerializableArray:
     """Validate a JSON array (``list[Serializable]``)."""
-    value = expect_serializable(value, name=name)
     if not isinstance(value, list):
         raise TypeError(f"{name} must be an array, got {type(value).__name__}")
     return value
@@ -119,31 +117,36 @@ def expect_optional_bool(value: object, *, name: str = "value") -> bool | None:
 
 
 def to_serializable(value: object, *, name: str = "value") -> Serializable:
-    """Convert supported Python values to strictly JSON-shaped data.
-
-    Supported conversions:
-    - ``Enum`` -> its value, recursively serialized
-    - dataclass instances -> public dataclass fields via ``asdict``
-    - tuples -> arrays
-    - sets/frozensets -> deterministically sorted arrays
-    - dictionaries -> objects with string keys
-    - keys beginning with ``_`` are omitted, matching the current snapshot behavior
-
-    Unsupported objects fail immediately instead of leaking through to
-    ``json.dumps`` and failing later.
-    """
+    """Convert supported Python values to strictly JSON-shaped data."""
     if isinstance(value, Enum):
         return to_serializable(value.value, name=name)
 
+    result: SerializableObject = {}
     if is_dataclass(value) and not isinstance(value, type):
-        return to_serializable(asdict(value), name=name)
+        try:
+            values = vars(value)
+        except TypeError:
+            # Slotted dataclasses have no __dict__.
+            return to_serializable(asdict(value), name=name)
+
+        for field in fields(value):
+            key = field.name
+
+            if key.startswith("_"):
+                continue
+
+            result[key] = to_serializable(
+                values[key],
+                name=f"{name}.{key}",
+            )
+
+        return result
 
     if value is None or isinstance(value, (str, int, float, bool)):
         return value
 
     if isinstance(value, dict):
         values = cast(dict[object, object], value)
-        result: SerializableObject = {}
 
         for raw_key, item in values.items():
             if isinstance(raw_key, Enum):
@@ -184,7 +187,10 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
 
     if isinstance(value, (set, frozenset)):
         values = cast(set[object] | frozenset[object], value)
-        serialized = [to_serializable(item, name=f"{name} item") for item in values]
+        serialized = [
+            to_serializable(item, name=f"{name} item")
+            for item in values
+        ]
         return sorted(serialized, key=str)
 
     raise TypeError(f"{name} contains unsupported type {type(value).__name__}")

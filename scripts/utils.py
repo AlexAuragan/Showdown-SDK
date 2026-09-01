@@ -15,12 +15,10 @@ def write_json(path: Path, data: list[SerializableObject] | Serializable | Seria
 
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
-        json.dump(
-            data,
-            file,
-            indent=2,
-            sort_keys=True,
+        file.write(
+            json.dumps(data)
         )
+
 
 
 def write_battle_outputs(client: Client) -> None:

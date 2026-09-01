@@ -497,6 +497,8 @@ class Client:
         manager.battle_started_at = perf_counter()
         manager.turn = 0
 
+        battle_completed = False
+
         try:
             await asyncio.wait_for(
                 manager.room_ready.wait(),
@@ -531,7 +533,9 @@ class Client:
                 )
 
             if manager.battle_finished in done:
-                return manager.battle_finished.result()
+                result = manager.battle_finished.result()
+                battle_completed = True
+                return result
 
             raise TimeoutError(
                 "Battle timed out: "
@@ -577,23 +581,31 @@ class Client:
                 battle_finished.cancel()
 
             try:
-                if room_id:
-                    try:
-                        await asyncio.wait_for(
-                            self._leave_battle_room(room_id),
-                            timeout=10,
-                        )
-                    except TimeoutError:
-                        self.log_manager.errors.error(
-                            "Timed out leaving battle room %r",
-                            room_id,
-                            extra={"room_id": room_id},
-                        )
+                if battle_completed:
+                    # Normal completed battle: the server battle is over, so we can
+                    # keep the websocket alive and simply leave the room.
+                    if room_id:
+                        try:
+                            await asyncio.wait_for(
+                                self._leave_battle_room(room_id),
+                                timeout=10,
+                            )
+                        except TimeoutError:
+                            self.log_manager.errors.error(
+                                "Timed out leaving battle room %r",
+                                room_id,
+                                extra={"room_id": room_id},
+                            )
+                else:
+                    # Failed/aborted battle: the server may still be sending
+                    # messages for this room. Stop the receive loop before
+                    # destroying the battle/parser state.
+                    await self.close()
+
             finally:
                 self.parser.battle.reset()
                 manager.clear_battle()
                 manager.clear_battle_tracking()
-
     async def accept_challenge(
         self, challenger: str, team: TeamSet | None = None
     ) -> None:
