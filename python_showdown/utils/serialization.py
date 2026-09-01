@@ -121,8 +121,13 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
     if isinstance(value, Enum):
         return to_serializable(value.value, name=name)
 
+    if value is None or isinstance(value, (str, int, float, bool)):
+        return value
+
     result: SerializableObject = {}
     if is_dataclass(value) and not isinstance(value, type):
+
+
         try:
             values = vars(value)
         except TypeError:
@@ -141,9 +146,6 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
             )
 
         return result
-
-    if value is None or isinstance(value, (str, int, float, bool)):
-        return value
 
     if isinstance(value, dict):
         values = cast(dict[object, object], value)
@@ -194,7 +196,6 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
         return sorted(serialized, key=str)
 
     raise TypeError(f"{name} contains unsupported type {type(value).__name__}")
-
 
 def to_serializable_object(
     value: object, *, name: str = "value"
