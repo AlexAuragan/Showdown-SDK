@@ -2,6 +2,7 @@ import asyncio
 import json
 import random
 from collections.abc import Awaitable, Callable
+from typing import cast
 from urllib.request import Request, urlopen
 
 from python_showdown.models.pokemon.status import EVs, IVs
@@ -10,7 +11,7 @@ from python_showdown.models.sdk.pokemon_set import PokemonSet, TeamSet
 
 
 class SampleTeamGenerator:
-    BASE_URL = "https://play.pokemonshowdown.com/data/sets"
+    BASE_URL: str = "https://play.pokemonshowdown.com/data/sets"
 
     def __init__(self, seed: int | None = None) -> None:
         self._random: random.Random = random.Random(seed)
@@ -121,6 +122,7 @@ class SampleTeamGenerator:
 
                 for raw_set in raw_sets.values():
                     if isinstance(raw_set, dict):
+                        raw_set = cast(dict[str, object], raw_set)
                         species_sets.append(raw_set)
 
         sets = {
@@ -203,6 +205,7 @@ class SampleTeamGenerator:
         if not isinstance(value, list):
             raise TypeError(f"Invalid moves field: {value!r}")
 
+        value = cast(list[str], value)
         moves: list[str] = []
 
         for move in value:
@@ -245,6 +248,7 @@ class SampleTeamGenerator:
             }
 
         if isinstance(value, dict):
+            value = cast(dict[str, object], value)
             for stat in defaults:
                 stat_value = value.get(stat)
 
@@ -279,6 +283,7 @@ class SampleTeamGenerator:
         }
 
         if isinstance(value, dict):
+            value = cast(dict[str, object], value)
             for stat in values:
                 stat_value = value.get(stat)
 

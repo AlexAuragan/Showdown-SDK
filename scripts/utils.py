@@ -3,6 +3,7 @@ import json
 from dataclasses import asdict
 from enum import Enum
 from pathlib import Path
+from typing import cast
 
 from python_showdown.classes.client.client import Client
 
@@ -18,6 +19,7 @@ def json_default(value: object) -> object:
             if isinstance(item, Enum):
                 normalized.append(item.value)
             else:
+                item = cast(object, item)
                 normalized.append(item)
 
         return sorted(normalized, key=str)

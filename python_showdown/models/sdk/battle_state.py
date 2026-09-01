@@ -53,13 +53,22 @@ def _to_jsonable(obj: object) -> object:
 
         return out
 
-    if isinstance(obj, (list, tuple)):
+    if isinstance(obj, tuple):
+        obj = cast(tuple[object], obj)
         return [_to_jsonable(value) for value in obj]
 
-    if isinstance(obj, (set, frozenset)):
+    if isinstance(obj, list):
+        obj = cast(list[object], obj)
+        return [_to_jsonable(value) for value in obj]
+
+    if isinstance(obj, frozenset):
         values = [_to_jsonable(value) for value in obj]
         return sorted(values, key=str)
 
+    if isinstance(obj, set):
+        obj = cast(set[object], obj)
+        values = [_to_jsonable(value) for value in obj]
+        return sorted(values, key=str)
     return obj
 
 class BattleState:

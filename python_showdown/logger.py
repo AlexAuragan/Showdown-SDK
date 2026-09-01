@@ -146,7 +146,7 @@ class FileIOWorker:
 
             try:
                 command.operation()
-            except BaseException as error:
+            except Exception as error: # noqa: BLE001
                 command.error = error
                 self._errors.append(error)
 
@@ -332,7 +332,7 @@ class BattleFileHandler(logging.Handler):
         for handler in self._handlers.values():
             try:
                 handler.close()
-            except BaseException as error:
+            except Exception as error: # noqa: BLE001
                 if first_error is None:
                     first_error = error
 

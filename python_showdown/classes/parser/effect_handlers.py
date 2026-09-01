@@ -29,7 +29,6 @@ from python_showdown.classes.parser.events.battle import (
     MoveCopiedEvent,
     MovePrepareEvent,
     PerishCountEvent,
-    PokemonIdent,
     SetHpEvent,
     SideConditionEvent,
     SingleMoveEvent,
@@ -50,6 +49,7 @@ from python_showdown.classes.parser.fields import (
 )
 from python_showdown.classes.parser.models import (
     EffectSource,
+    PokemonIdent,
     ProtocolMessage,
 )
 from python_showdown.classes.parser.protocol import (
