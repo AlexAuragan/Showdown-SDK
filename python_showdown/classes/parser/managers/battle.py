@@ -176,7 +176,9 @@ class BattleParser(MessageParser):
         if self.input_finished:
             raise RuntimeError("Cannot feed lines after finish()")
         if message.command == "init" and self.history:
+            room_id = self._last_message_room_id
             self.reset()
+            self._last_message_room_id = room_id
 
         self.raw_history.append(message)
         # if message.command == "request":

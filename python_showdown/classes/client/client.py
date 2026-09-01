@@ -497,15 +497,15 @@ class Client:
         manager.battle_started_at = perf_counter()
         manager.turn = 0
 
-        await asyncio.wait_for(
-            manager.room_ready.wait(),
-            timeout=timeout,
-        )
-
-        if manager.room_id is None:
-            raise RuntimeError("Battle room not set after room_ready")
-
         try:
+            await asyncio.wait_for(
+                manager.room_ready.wait(),
+                timeout=timeout,
+            )
+
+            if manager.room_id is None:
+                raise RuntimeError("Battle room not set after room_ready")
+
             done, _ = await asyncio.wait(
                 {manager.battle_finished, receive_task},
                 timeout=timeout,
@@ -548,8 +548,8 @@ class Client:
                 + f"force_switch={manager.battle_state.force_switch!r}"
             )
 
-        except asyncio.CancelledError:
-            raise RuntimeError(
+        except asyncio.CancelledError as error:
+            error.add_note(
                 "Battle waiter was cancelled:\n"
                 + f"  player={self.username!r}\n"
                 + f"  room={manager.room_id!r}\n"
@@ -558,35 +558,41 @@ class Client:
                 + f"  request_id={manager.request_id!r}\n"
                 + f"  last_request_id={manager.last_request_id!r}\n"
                 + f"  room_ready={manager.room_ready.is_set()}\n"
-                + f"{manager.battle_finished.done() if manager.battle_finished else None}\n"
+                + "  battle_finished_done="
+                + f"{manager.battle_finished.done()}"
+                + "\n"
                 + f"  receive_task_done={receive_task.done()}\n"
                 + f"  receive_task_cancelled={receive_task.cancelled()}\n"
                 + f"  team_size={len(manager.battle_state.team)}\n"
                 + f"  available_moves={len(manager.battle_state.available_moves)}\n"
                 + f"  force_switch={manager.battle_state.force_switch!r}"
-            ) from None
+            )
+            raise
 
         finally:
             room_id = manager.room_id
-            if room_id:
-                try:
-                    await asyncio.wait_for(
-                        self._leave_battle_room(room_id),
-                        timeout=10,
-                    )
-                except TimeoutError:
-                    self.log_manager.errors.error(
-                        "Timed out leaving battle room %r",
-                        room_id,
-                        extra={"room_id": room_id},
-                    )
+            battle_finished = manager.battle_finished
 
-            self.parser.battle.reset()
-            manager.clear_battle()
-            manager.clear_battle_tracking()
+            if not battle_finished.done():
+                battle_finished.cancel()
 
-            if room_id:
-                self.log_manager.close_room(room_id)
+            try:
+                if room_id:
+                    try:
+                        await asyncio.wait_for(
+                            self._leave_battle_room(room_id),
+                            timeout=10,
+                        )
+                    except TimeoutError:
+                        self.log_manager.errors.error(
+                            "Timed out leaving battle room %r",
+                            room_id,
+                            extra={"room_id": room_id},
+                        )
+            finally:
+                self.parser.battle.reset()
+                manager.clear_battle()
+                manager.clear_battle_tracking()
 
     async def accept_challenge(
         self, challenger: str, team: TeamSet | None = None

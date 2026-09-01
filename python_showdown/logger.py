@@ -5,12 +5,14 @@ from collections.abc import Callable, Mapping
 from copy import copy
 from dataclasses import dataclass
 from pathlib import Path
-from queue import Queue
+from queue import Empty, Queue
 from threading import Event, Lock, Thread
+from time import monotonic
 from types import TracebackType
 from typing import override
 
 TRACE = 5
+FILE_IO_FLUSH_INTERVAL = 0.1
 logging.addLevelName(TRACE, "TRACE")
 
 type ExcInfo = (
@@ -43,6 +45,32 @@ class FileIOWorker:
         self._lock: Lock = Lock()
         self._accepting: bool = False
         self._errors: list[BaseException] = []
+        self._flush_targets: dict[int, Callable[[], None]] = {}
+
+    def register_flush_target(
+        self,
+        target_id: int,
+        operation: Callable[[], None],
+    ) -> None:
+        with self._lock:
+            self._flush_targets[target_id] = operation
+
+
+    def unregister_flush_target(self, target_id: int) -> None:
+        with self._lock:
+            self._flush_targets.pop(target_id, None)
+
+
+    def _flush_targets_sync(self) -> None:
+        with self._lock:
+            operations = tuple(self._flush_targets.values())
+
+        for operation in operations:
+            try:
+                operation()
+            except BaseException as error: # noqa: BLE001
+                self._errors.append(error)
+                traceback.print_exception(error)
 
     @property
     def is_running(self) -> bool:
@@ -136,27 +164,55 @@ class FileIOWorker:
             ) from self._errors[0]
 
     def _run(self) -> None:
-        while True:
-            command = self._queue.get()
+        next_flush = monotonic() + FILE_IO_FLUSH_INTERVAL
 
-            if command.operation is None:
-                if command.done is not None:
-                    command.done.set()
-                return
+        while True:
+            timeout = max(0.0, next_flush - monotonic())
 
             try:
-                command.operation()
-            except Exception as error: # noqa: BLE001
-                command.error = error
-                self._errors.append(error)
+                command = self._queue.get(timeout=timeout)
+            except Empty:
+                self._flush_targets_sync()
+                next_flush = monotonic() + FILE_IO_FLUSH_INTERVAL
+                continue
 
-                # Do not silently hide failures occurring on the worker.
-                traceback.print_exception(error)
+            while True:
+                if command.operation is None:
+                    # Everything before the sentinel has already been processed.
+                    # Flush the remaining buffered data before exiting.
+                    self._flush_targets_sync()
 
-            finally:
-                if command.done is not None:
-                    command.done.set()
+                    if command.done is not None:
+                        command.done.set()
 
+                    return
+
+                try:
+                    command.operation()
+
+                except BaseException as error: # noqa:BLE001
+                    command.error = error
+                    self._errors.append(error)
+
+                    # Do not silently hide failures occurring on the worker.
+                    traceback.print_exception(error)
+
+                finally:
+                    if command.done is not None:
+                        command.done.set()
+
+                now = monotonic()
+
+                if now >= next_flush:
+                    self._flush_targets_sync()
+                    next_flush = now + FILE_IO_FLUSH_INTERVAL
+
+                # Drain everything already waiting without going back through
+                # Queue.get()'s blocking path for every individual log record.
+                try:
+                    command = self._queue.get_nowait()
+                except Empty:
+                    break
 
 FILE_IO_WORKER = FileIOWorker()
 
