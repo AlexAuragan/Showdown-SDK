@@ -99,6 +99,7 @@ class GenerationDex:
     root: Path
     _tables: dict[str, DexTable] = field(default_factory=dict, init=False, repr=False)
     _metadata: SerializableObject | None = field(default=None, init=False, repr=False)
+    _charge_moves: frozenset[str] | None = field(default=None, init=False, repr=False)
 
     def __post_init__(self) -> None:
         if self.number < 1:
@@ -182,11 +183,34 @@ class GenerationDex:
     def learnset(self, name: str) -> Serializable:
         return self.learnsets[name]
 
+    def get_charge_moves(self) -> frozenset[str]:
+        if self._charge_moves is None:
+            charge_moves: set[str] = set()
+
+            for move_id, raw_move in self.moves.items():
+                move = expect_object(raw_move, name=f"move {move_id!r}")
+
+                raw_flags = move.get("flags")
+                if raw_flags is None:
+                    continue
+
+                flags = expect_object(
+                    raw_flags,
+                    name=f"move {move_id!r}.flags",
+                )
+
+                if flags.get("charge") == 1:
+                    charge_moves.add(move_id)
+
+            self._charge_moves = frozenset(charge_moves)
+
+        return self._charge_moves
+
     def refresh(self) -> None:
         for table in self._tables.values():
             table.refresh()
         self._metadata = None
-
+        self._charge_moves = None
 
 @dataclass(slots=True, init=False)
 class Dex:
@@ -290,5 +314,7 @@ class Dex:
         self._generations.clear()
         self._metadata = None
 
+    def get_charge_moves(self, gen: int) -> frozenset[str]:
+        return self.gen(gen).get_charge_moves()
 
 dex = Dex()

@@ -35,7 +35,7 @@ BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    "gen1ou",
+    # "gen1ou",
     "gen2ou",
     "gen3ou",
     "gen4ou",
@@ -54,7 +54,7 @@ async def run_battle(
     client_1: Client,
     client_2: Client,
     fmt: str,
-) -> SerializableObject:
+) -> SerializableObject | None:
     await asyncio.gather(
         client_1.ensure_connected(),
         client_2.ensure_connected(),
@@ -70,6 +70,7 @@ async def run_battle(
     try:
         team_1 = await TEAM_GENERATOR.generate( fmt, lambda team: client_1.validate_team( fmt, team, ), )
         team_2 = await TEAM_GENERATOR.generate( fmt, lambda team: client_2.validate_team( fmt, team, ), )
+
         await client_1.challenge(
             client_2.username,
             fmt,
@@ -138,7 +139,8 @@ async def run_pair(
                 client_2,
                 fmt=fmt,
             )
-            results.append(result)
+            if result is not None:
+                results.append(result)
 
         except Exception:  # noqa: BLE001
             failed_battles += 1

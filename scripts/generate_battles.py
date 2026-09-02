@@ -33,7 +33,7 @@ BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    "gen1randombattle",
+    # "gen1randombattle",
     "gen2randombattle",
     "gen3randombattle",
     "gen4randombattle",
@@ -97,6 +97,7 @@ async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
     clients: list[Client] = []
     log_managers: list[LogManager] = []
 
+    start_file_io_worker()
     for i in range(1, PLAYER_COUNT + 1):
         tag = f"BOT{i}"
         logs = LogManager(tag=tag)
@@ -230,6 +231,5 @@ async def main() -> None:
 
 if __name__ == "__main__":
     t0 = perf_counter()
-    start_file_io_worker()
     asyncio.run(main())
     print("Took ", perf_counter() - t0)

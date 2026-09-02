@@ -10,6 +10,7 @@ from python_showdown.classes.parser.models import (
     RequestMove,
     RequestPokemon,
 )
+from python_showdown.models.dex import dex, to_id
 from python_showdown.models.pokemon.moves import AvailableMove
 from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
 from python_showdown.models.pokemon.status import (
@@ -144,22 +145,29 @@ class MoveEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # Only the opponent's moves reveal new move slots; our own moveset is
-        # known exactly from |request|. witness_move skips Struggle internally.
+
+        if battle_state.gen_1_desync:
+            # After a desync, the next move can be bogus
+            battle_state.gen_1_desync = False
+            return
+
+        # Ignore moves that are copies
+        gen = battle_state.gen
+        if gen is None:
+            raise RuntimeError("gen is not set")
         if self.source is not None:
             if self.source.type == SourceType.MOVE and self.source.name == "Mirror Move":
                 return
             if self.source.type == SourceType.ABILITY and self.source.name == "Magic Bounce":
                 return
-
+            if self.source.name == self.move and to_id(self.move) in dex.get_charge_moves(gen):
+                # Double part moves can cause issue with Mirror move
+                return
         enemy = _resolve_enemy(battle_state, self.source_pokemon)
         if enemy is None:
             return
 
-        battle_state.gen_1_desync = enemy.witness_move(
-            self.move,
-            battle_state.gen_1_desync,
-        )
+        enemy.witness_move(self.move)
 
 
 @dataclass(frozen=True)
@@ -347,10 +355,7 @@ class MovePrepareEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # |-prepare| reveals the charging move as a known slot for the enemy.
-        if _resolve_enemy(battle_state, self.pokemon) is not None:
-            battle_state.witness_move(self.move)
-
+       return # prepare is always after a |move|, so we don't record it here
 
 @dataclass(frozen=True)
 class TeamCureEvent(BattleEvent):

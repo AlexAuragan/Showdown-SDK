@@ -134,6 +134,7 @@ class Client:
             f"/choose {action_type} {action_info}|{manager.request_id}",
             room_id=manager.room_id,
         )
+        self.battle_manager.cancel_action_timeout()
 
     async def connect(self) -> None:
         if self.websocket is not None:

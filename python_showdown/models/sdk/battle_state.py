@@ -164,7 +164,7 @@ class BattleState:
 
         pokemon = self.get_enemy_pokemon(pokemon_name)
         assert pokemon is not None
-        self.gen_1_desync = pokemon.witness_move(move, self.gen_1_desync)
+        pokemon.witness_move(move)
 
     def witness_switch_in(
         self,
