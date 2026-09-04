@@ -747,6 +747,7 @@ class CantEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         status = _resolve_any_status(battle_state, self.pokemon)
+        status.clear_single_move()
         # In gen 1, recharge doesn't get consummed if the target cannot move because of freeze.
         # In future gens, recharge is checked first, so reason == "recharge" will happen first.
         if (self.reason == "recharge"
