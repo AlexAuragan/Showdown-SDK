@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING
 
 from python_showdown.models.pokemon.moves import AvailableMove
 from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from python_showdown.models.pokemon.status import Status
 from python_showdown.models.pokemon.terrain import SideCondition
 from python_showdown.utils.serialization import (
     SerializableObject,
@@ -50,7 +51,7 @@ class BattleState:
         # format data
         self.gen: int | None = None
         self.gametype: str | None = None
-        self.tier: str | None = None
+        self.tier: str | None
 
     @property
     def player_id(self) -> str | None:
@@ -90,6 +91,10 @@ class BattleState:
             if pokemon.id == pokemon_id:
                 return pokemon
         raise ValueError(f"Pokemon with id {pokemon_id} not found in team {self.team}")
+
+    def get_curr_pokemon(self) -> PartyPokemon:
+        return self.get_pokemon(self.curr_pokemon)
+
 
     def get_enemy_pokemon(
         self, pokemon_id: str, not_found_ok: bool = False

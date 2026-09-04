@@ -14,6 +14,7 @@ class Pokemon:
     active: bool
     id: str | Unknown
     lvl: int
+    status: Status = field(default_factory=Status, kw_only=True)
 
 
 @dataclass
@@ -26,7 +27,7 @@ class PartyPokemon(Pokemon):
     base_ability: str
     item: str
     pokeball: str
-    status: Status
+
 
 
 @dataclass
@@ -38,7 +39,6 @@ class EnemyPokemon(Pokemon):
     base_ability: str | Unknown = Unknown.VALUE
     current_ability: str | Unknown = Unknown.VALUE
     item: str | Unknown | None = Unknown.VALUE
-    status: Status = field(default_factory=Status)
     learnt_moves: list[str | Unknown] = field(
         default_factory=lambda: [Unknown.VALUE] * 4
     )

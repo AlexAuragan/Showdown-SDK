@@ -517,8 +517,9 @@ def _parse_clear_all_boosts(
 def _parse_clear_negative_boosts(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
-    require_arguments(message, 0)
-    return [ClearNegativeBostsEvent(source=context.source)]
+    require_arguments(message, 1)
+    target = parse_pokemon_ident(message.arguments[0])
+    return [ClearNegativeBostsEvent(source=context.source, target=target)]
 
 
 def _parse_item(
@@ -855,11 +856,35 @@ def _parse_volatile_side_condition(
     target = parse_pokemon_ident(message.arguments[0])
     started=message.command == "-start"
     source = parse_effect_source(message, default_source=context.source, inherit_default=started, affected=target)
+    condition_name = message.arguments[1]
+
+    # gens override
+    if context.gen == 1:
+        if condition_name.casefold() == "reflect":
+            return [
+                MinorStatusEvent(
+                    source=source,
+                    target=target,
+                    effect=MinorStatus.REFLECT,
+                    started=started,
+                )
+            ]
+
+        if condition_name.casefold() == "light screen":
+            return [
+                MinorStatusEvent(
+                    source=source,
+                    target=target,
+                    effect=MinorStatus.LIGHT_SCREEN,
+                    started=started,
+                )
+            ]
+
     return [
         SideConditionEvent(
             source=source,
             side=target.player,
-            condition=SideCondition(message.arguments[1]),
+            condition=SideCondition(condition_name),
             started=started,
         )
     ]

@@ -50,6 +50,10 @@ class MinorStatus(str, Enum):
     GRUDGE = "grudge"
     PROTECT = "protect"
 
+    # GEN 1 only
+    REFLECT = "reflect"
+    LIGHT_SCREEN = "light screen"
+
 @dataclass
 class Status:
     # Stat boost stages (-6..+6).
@@ -141,6 +145,16 @@ class Status:
         self.spe_stage = 0
         self.eva_stage = 0
         self.acc_stage = 0
+
+    def clear_negative_stages(self) -> None:
+        self.atk_stage = max(self.atk_stage, 0)
+        self.def_stage = max(self.spd_stage, 0)
+        self.spa_stage = max(self.spa_stage, 0)
+        self.spd_stage = max(self.spd_stage, 0)
+        self.spe_stage = max(self.spe_stage, 0)
+        self.eva_stage = max(self.spe_stage, 0)
+        self.acc_stage = max(self.acc_stage, 0)
+
     @staticmethod
     def _clamp(stage: int) -> int:
         return max(Status._MIN_STAGE, min(Status._MAX_STAGE, stage))

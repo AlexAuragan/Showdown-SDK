@@ -43,7 +43,8 @@ def _is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
 
 
 def _resolve_enemy(
-    battle_state: BattleState, ident: PokemonIdent | None
+    battle_state: BattleState,
+    ident: PokemonIdent | None,
 ) -> EnemyPokemon | None:
     if (
         ident is None
@@ -51,7 +52,21 @@ def _resolve_enemy(
         or ident.player == battle_state.player_id
     ):
         return None
-    return battle_state.get_enemy_pokemon(_ident_raw(ident), not_found_ok=True)
+
+    pokemon = battle_state.get_enemy_pokemon(
+        _ident_raw(ident),
+        not_found_ok=True,
+    )
+    if pokemon is not None:
+        return pokemon
+
+    if ident.slot is None:
+        return battle_state.get_enemy_pokemon(
+            f"{ident.player}a: {ident.name}",
+            not_found_ok=True,
+        )
+
+    return None
 
 
 def _resolve_self(battle_state: BattleState, ident: PokemonIdent | None):
@@ -64,6 +79,15 @@ def _resolve_self(battle_state: BattleState, ident: PokemonIdent | None):
     key = _ident_self_key(ident)
     return next((p for p in battle_state.team if p.id == key), None)
 
+def _resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Status:
+    pokemon = _resolve_self(battle_state, ident)
+    if pokemon is not None:
+        return pokemon.status
+    else:
+        pokemon = _resolve_enemy(battle_state, ident)
+        if pokemon is None:
+            raise RuntimeError(f"Pokemon {ident} not found in enemy team")
+        return pokemon.status
 
 def _parse_details(details: str) -> tuple[str | None, bool]:
     """Extract gender and shiny from a switch `details` string, returning the
@@ -225,14 +249,12 @@ class MinorStatusEvent(BattleEvent):
     def _update_battle_state(self, battle_state: BattleState) -> None:
         # Volatile minor statuses are only tracked for the enemy; our own side's
         # volatile state is not modelled by the bot.
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
-        minor = self.effect
+        status = _resolve_any_status(battle_state, self.target)
+
         if self.started:
-            enemy.status.add_minor(minor)
+            status.add_minor(self.effect)
         else:
-            enemy.status.remove_minor(minor)
+            status.remove_minor(self.effect)
 
 
 @dataclass(frozen=True)
@@ -249,6 +271,7 @@ class MajorStatusEvent(BattleEvent):
             # affected; the enemy is marked fainted and benched.
             enemy = _resolve_enemy(battle_state, self.target)
             if enemy is not None:
+                enemy.reset_on_switch_in()
                 enemy.fainted = True
                 enemy.active = False
                 enemy.curr_hp_percent = 0
@@ -258,13 +281,11 @@ class MajorStatusEvent(BattleEvent):
                 own.curr_hp = 0
             return
 
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
+        status = _resolve_any_status(battle_state, self.target)
         if self.applied:
-            enemy.status.set_status(self.status)
+            status.set_status(self.status)
         else:
-            enemy.status.clear_status(self.status)
+            status.clear_status(self.status)
 
 
 @dataclass(frozen=True)
@@ -334,11 +355,10 @@ class StatChangeEvent(BattleEvent):
     def _update_battle_state(self, battle_state: BattleState) -> None:
         if not self.success:
             return
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
+
+        status = _resolve_any_status(battle_state, self.target)
         for stat, delta in self.stat_changes:
-            enemy.status.boost(stat, delta)
+            status.boost(stat, delta)
 
 
 @dataclass(frozen=True)
@@ -373,9 +393,10 @@ class TeamCureEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         # |-cureteam| clears the major status of every pokemon on the actor's
-        # side; only the enemy side is tracked here.
+        # side
         if _is_self(battle_state, self.actor):
-            return
+            for pokemon in battle_state.team:
+                pokemon.status.clear_all_major_status()
         for pokemon in battle_state.enemy_team:
             pokemon.status.clear_all_major_status()
 
@@ -385,7 +406,6 @@ class ClearAllBoostsEvent(BattleEvent):
     """
     Resets all active Pokémon's stat stages to zero.
     """
-
     source: EffectSource | None
 
     @override
@@ -404,52 +424,32 @@ class CopyBoostEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        user = _resolve_enemy(battle_state, self.user)
-        if user is None:
-            user = _resolve_self(battle_state, self.user)
+        user_status = _resolve_any_status(battle_state, self.user)
+        target_status = _resolve_any_status(battle_state, self.target)
 
-        target = _resolve_enemy(battle_state, self.target)
-        if target is None:
-            target = _resolve_self(battle_state, self.target)
-
-        if user is None:
-            raise ValueError(f"Could not resolve copy-boost user: {self.user}")
-        if target is None:
-            raise ValueError(f"Could not resolve copy-boost target: {self.target}")
-
-        user.status.acc_stage = target.status.acc_stage
-        user.status.eva_stage = target.status.eva_stage
-        user.status.atk_stage = target.status.atk_stage
-        user.status.def_stage = target.status.def_stage
-        user.status.spa_stage = target.status.spa_stage
-        user.status.spd_stage = target.status.spd_stage
-        user.status.spe_stage = target.status.spe_stage
+        user_status.acc_stage = target_status.acc_stage
+        user_status.eva_stage = target_status.eva_stage
+        user_status.atk_stage = target_status.atk_stage
+        user_status.def_stage = target_status.def_stage
+        user_status.spa_stage = target_status.spa_stage
+        user_status.spd_stage = target_status.spd_stage
+        user_status.spe_stage = target_status.spe_stage
 
 
 @dataclass(frozen=True)
 class ClearNegativeBostsEvent(BattleEvent):
     """
-    Resests all active Pokémon's négative stat changes to zéro
+    Resests all active Pokémon's negative stat changes to zero
     """
-
+    target: PokemonIdent
     source: EffectSource | None
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         # |-clearnegativeboost| zeroes negative stat stages on the affected
         # side; only the enemy side is tracked.
-        for pokemon in battle_state.enemy_team:
-            for attr in (
-                "atk_stage",
-                "def_stage",
-                "spa_stage",
-                "spd_stage",
-                "spe_stage",
-                "eva_stage",
-                "acc_stage",
-            ):
-                if getattr(pokemon.status, attr) < 0:
-                    setattr(pokemon.status, attr, 0)
+        status = _resolve_any_status(battle_state, self.target)
+        status.clear_negative_stages()
 
 
 @dataclass(frozen=True)
@@ -525,7 +525,15 @@ class PokemonSwitchEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         if _is_self(battle_state, self.pokemon):
+            battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
+            pokemon = battle_state.get_curr_pokemon()
+            pokemon.status = Status()
+
+            if self.major_status is not None:
+                pokemon.status.set_status(self.major_status)
+
             return
+
         gender, shiny = _parse_details(self.details)
         level = self.level if self.level is not None else 100
         battle_state.witness_switch_in(
@@ -590,10 +598,8 @@ class StatSetEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
-        enemy.status.set_stage(self.stat, self.stage)
+        status = _resolve_any_status(battle_state, self.target)
+        status.set_stage(self.stat, self.stage)
 
 
 @dataclass(frozen=True)
@@ -664,14 +670,12 @@ class CantEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.pokemon)
-        if enemy is None:
-            return
+        status = _resolve_any_status(battle_state, self.pokemon)
         # `recharge` consumes the must-recharge flag; status-based `cant` (slp /
         # par / frz) also clears a stale must-recharge. `flinch` is a one-off
         # intra-turn effect we don't track.
         if self.reason != "flinch":
-            enemy.status.must_recharge = False
+            status.must_recharge = False
 
 
 @dataclass(frozen=True)
@@ -682,11 +686,9 @@ class PerishCountEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
-        enemy.status.perish_count = self.count
-        enemy.status.add_minor(MinorStatus.PERISH_SONG)
+        status = _resolve_any_status(battle_state, self.target)
+        status.perish_count = self.count
+        status.add_minor(MinorStatus.PERISH_SONG)
 
 
 @dataclass(frozen=True)
@@ -811,9 +813,8 @@ class TypeChangeEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is not None:
-            enemy.status.add_minor(MinorStatus.TYPECHANGE)
+        status = _resolve_any_status(battle_state, self.target)
+        status.add_minor(MinorStatus.TYPECHANGE)
 
 
 @dataclass(frozen=True)
@@ -940,6 +941,7 @@ class DecisionRequestEvent(BattleEvent):
         )
         if active is not None:
             battle_state.set_active_pokemon(str(active.id))
+            battle_state.get_curr_pokemon().status.major = active.status.major
 
         battle_state.update_moves(available_moves)
         battle_state.force_switch = any(self.force_switch)
@@ -1018,14 +1020,11 @@ class PartialTrapEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
-        if enemy is None:
-            return
-
+        status = _resolve_any_status(battle_state, self.target)
         if self.started:
-            enemy.status.minor.add(MinorStatus.PARTIALLY_TRAPPED)
+            status.minor.add(MinorStatus.PARTIALLY_TRAPPED)
         else:
-            enemy.status.minor.remove(MinorStatus.PARTIALLY_TRAPPED)
+            status.minor.remove(MinorStatus.PARTIALLY_TRAPPED)
 
 @dataclass(frozen=True)
 class TeamPreviewRequestEvent(BattleEvent):

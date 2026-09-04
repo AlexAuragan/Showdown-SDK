@@ -25,7 +25,7 @@ from python_showdown.utils.serialization import SerializableObject
 from scripts.utils import write_battle_outputs
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
-BATTLE_COUNT = 10000
+BATTLE_COUNT = 100
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 32

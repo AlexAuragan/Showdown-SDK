@@ -23,7 +23,7 @@ from python_showdown.utils.serialization import SerializableObject
 from scripts.utils import run_battle
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
-BATTLE_COUNT = 10000
+BATTLE_COUNT = 100
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
 PLAYER_COUNT = 32
@@ -33,7 +33,7 @@ BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    # "gen1randombattle",
+    "gen1randombattle",
     "gen2randombattle",
     "gen3randombattle",
     "gen4randombattle",
@@ -57,6 +57,7 @@ async def run_pair(
     failed_battles = 0
 
     for i in range(BATTLES_PER_PAIR):
+
         battle_number = battle_offset + i + 1
         logs.clear_latest_raw_log_path()
 

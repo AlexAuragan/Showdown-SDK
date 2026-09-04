@@ -2,7 +2,6 @@ import logging
 import re
 import traceback
 from collections.abc import Callable, Mapping
-from copy import copy
 from dataclasses import dataclass
 from pathlib import Path
 from queue import Empty, Queue
@@ -71,6 +70,10 @@ class FileIOWorker:
             except BaseException as error: # noqa: BLE001
                 self._errors.append(error)
                 traceback.print_exception(error)
+
+    @property
+    def pending_count(self) -> int:
+        return self._queue.qsize()
 
     @property
     def is_running(self) -> bool:
@@ -298,14 +301,15 @@ class BattleFileHandler(logging.Handler):
         # A LogRecord can be passed through multiple handlers after this emit()
         # returns. Give the worker its own shallow copy so later handlers cannot
         # mutate the record while it is waiting in the queue.
-        queued_record = copy(record)
+        # queued_record = copy(record)
 
-        FILE_IO_WORKER.submit(
-            lambda: self._emit_sync(
-                room_id_value,
-                queued_record,
-            )
-        )
+        # FILE_IO_WORKER.submit(
+        #    lambda: self._emit_sync(
+        #        room_id_value,
+        #        queued_record,
+        #    )
+        #)
+        self._emit_sync(room_id_value, record)
 
     def _emit_sync(
         self,
