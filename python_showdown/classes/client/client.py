@@ -68,6 +68,9 @@ class Client:
         self.team_validation_future: asyncio.Future[None] | None = None
         self._pending_state_request_id: int | None = None
 
+        self.expecting_battle_room: bool = False
+        self.ignored_battle_rooms: set[str] = set()
+
     @property
     def username(self) -> str | None:
         return self._username
@@ -243,6 +246,7 @@ class Client:
 
                     if line.startswith(">"):
                         log_room_id = line[1:].strip()
+
                     log_trace(
                         self.log_manager.protocol,
                         "%s",
@@ -496,6 +500,7 @@ class Client:
         self.challenge_future = loop.create_future()
         self.challenged_user = user
 
+        self.expecting_battle_room = True
         try:
             await self.send(f"/challenge {user}, {format_name}")
 
@@ -505,7 +510,11 @@ class Client:
             )
 
         except TimeoutError as error:
+            self.expecting_battle_room = False
             raise TimeoutError(f"No challenge confirmation for {user!r}") from error
+        except BaseException:
+            self.expecting_battle_room = False
+            raise
 
         finally:
             self.challenge_future = None
@@ -681,6 +690,8 @@ class Client:
         )
         await self._leave_battle_room(stale_room)
 
+        self._pending_state_request_id = None
+        self.parser.battle.reset()
         self.battle_manager.abandon_battle()
         self.battle_manager.room_ready.clear()
 

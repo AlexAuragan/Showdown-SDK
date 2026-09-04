@@ -94,14 +94,20 @@ class Parser:
                 )
             self.last_message_room_id = room_id
 
-        if (
-            parser is self.battle
-            and message.command != "init"
-            and self.manager.room_id
-            and self.manager.room_id != self.last_message_room_id
-        ):
-            return []
+        if parser is self.battle:
+            room_id = self.last_message_room_id
+            active_room_id = self.manager.room_id
 
+            if active_room_id is None:
+                if not self.client.expecting_battle_room:
+                    if room_id.startswith("battle-"):
+                        self.client.ignored_battle_rooms.add(room_id)
+                    return []
+
+            elif room_id != active_room_id:
+                if room_id.startswith("battle-"):
+                    self.client.ignored_battle_rooms.add(room_id)
+                return []
         events = parser.handle_message(self.manager, message)
 
         return events

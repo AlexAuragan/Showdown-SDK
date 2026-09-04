@@ -64,13 +64,22 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             expect_int(boosts["evasion"]),
         )
 
-        # IMPORTANT: compare Pokemon.status, not statusState.id.
-        #
-        # statusState can retain old source/effect metadata after the actual
-        # status has disappeared. We already see this after fainting in the
-        # captured battle.
-        ref_major = expect_string(ref_pokemon["status"]) or None
-        same(f"{path}.major", major_value(status.major), ref_major)
+        raw_ref_major = expect_string(ref_pokemon["status"])
+
+        # Showdown encodes a fainted Pokémon as status="fnt".
+        # The SDK tracks fainting separately with Pokemon.fainted / HP=0,
+        # not as Status.major.
+        ref_major = (
+            None
+            if raw_ref_major in {"", MajorStatus.FAINT.value}
+            else raw_ref_major
+        )
+
+        same(
+            f"{path}.major",
+            major_value(status.major),
+            ref_major,
+        )
 
         volatiles = obj(ref_pokemon["volatiles"])
 
