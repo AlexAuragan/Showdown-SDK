@@ -257,7 +257,7 @@ class BattleParser(MessageParser):
                 events = tuple(
                     replace(
                         event,
-                        baton_passed=(
+                        baton_pass=(
                             event.pokemon.player
                             in self.protocol_context.baton_pass_pending
                         ),
@@ -266,9 +266,7 @@ class BattleParser(MessageParser):
                     else event
                     for event in events
                 )
-            return ParseResult(
-                tuple(handler(player_id, message, self._last_message_room_id)), 1
-            )
+            return ParseResult(events, 1)
 
         if message.command.startswith("-") or message.command == "faint":
             return ParseResult(
