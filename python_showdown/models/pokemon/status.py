@@ -210,9 +210,14 @@ class Status:
             MinorStatus.PROTECT,
             MinorStatus.ROOST,
             MinorStatus.FOCUS_PUNCH,
-            MinorStatus.DESTINY_BOUND,
-            MinorStatus.GRUDGE
         })
+
+    def clear_single_move(self) -> None:
+        self.minor.difference_update({
+            MinorStatus.DESTINY_BOUND,
+            MinorStatus.GRUDGE,
+        })
+
 class Stat(str, Enum):
     ATK = "atk"
     DEF = "def"

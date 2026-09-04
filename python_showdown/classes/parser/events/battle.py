@@ -168,6 +168,11 @@ class MoveEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
+        source_status = _resolve_any_status(
+            battle_state,
+            self.source_pokemon,
+        )
+        source_status.clear_single_move()
 
         if battle_state.gen_1_desync:
             # After a desync, the next move can be bogus
