@@ -411,6 +411,7 @@ class TeamCureEvent(BattleEvent):
             for pokemon in battle_state.team:
                 pokemon.major_status = None
             battle_state.curr_pokemon_status.major = None
+            return
 
         for pokemon in battle_state.enemy_team:
             pokemon.status.clear_all_major_status()
@@ -749,7 +750,12 @@ class TurnEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        return
+        # Remove 1-turn statusses
+        battle_state.curr_pokemon_status.clear_single_turn()
+
+        for pokemon in battle_state.enemy_team:
+            if pokemon.active:
+                pokemon.status.clear_single_turn()
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
@@ -853,8 +859,20 @@ class SingleMoveEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # This is an event, not a discovery
-        return
+        # Status that only last during the move
+        match to_id(self.move):
+            case "destinybond":
+                effect = MinorStatus.DESTINY_BOUND
+            case "grudge":
+                effect = MinorStatus.GRUDGE
+            case _:
+                return
+        status = _resolve_any_status(
+            battle_state,
+            self.pokemon,
+        )
+        status.add_minor(effect)
+
 
 
 @dataclass(frozen=True)

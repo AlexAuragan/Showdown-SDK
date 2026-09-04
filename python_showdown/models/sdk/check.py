@@ -688,10 +688,9 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                         obj(ref_enemy["set"])["level"]
                     )
                     == enemy.lvl
-                    and ref_gender(
-                        obj(ref_enemy["set"])
-                    )
-                    == enemy.gender
+                    and (
+                        expect_string(ref_enemy["gender"]) or None
+                    ) == enemy.gender
                     and expect_bool(
                         obj(ref_enemy["set"])["shiny"]
                     )
@@ -725,7 +724,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         same(
             f"{path}.gender",
             enemy.gender or "N",
-            ref_gender(ref_set) or "N",
+            expect_string(ref_enemy["gender"]) or "N",
         )
 
         same(
@@ -816,18 +815,22 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                     + f"move {move!r}"
                 )
 
-        ref_move_slots = {
-            expect_string(slot["id"]): slot
-            for slot in objs(ref_enemy["moveSlots"])
-        }
+        ref_move_slots: dict[str, list[SerializableObject]] = {}
+
+        for slot in objs(ref_enemy["moveSlots"]):
+            move_id = normalize_move_id(
+                expect_string(slot["id"])
+            )
+            ref_move_slots.setdefault(move_id, []).append(slot)
 
         # Mimic/Transform temporary moves should exist in the simulator's
         # current move set.
         for move in enemy.temporary_moves:
-            if to_id(move) not in ref_move_slots:
+            move_id = normalize_move_id(to_id(move))
+            if move_id not in ref_move_slots:
                 raise AssertionError(
                     f"{path}.temporary_moves contains impossible "
-                    + f"move {move!r}"
+                    + f"move {move_id!r}"
                 )
 
         ref_transformed = expect_bool(
@@ -845,7 +848,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             same(
                 f"{path}.transformed_moves",
                 {
-                    to_id(move)
+                    normalize_move_id(to_id(move))
                     for move in enemy.temporary_moves
                 },
                 set(ref_move_slots),
@@ -885,13 +888,18 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         # Only compare a disabled move when the original slot still exists.
         # Mimic can replace the Mimic slot entirely.
         for move in enemy.disabled_moves:
-            move_id = to_id(move)
+            move_id = normalize_move_id(to_id(move))
+            matching_slots = ref_move_slots.get(move_id)
 
-            if move_id not in ref_move_slots:
+            if matching_slots is None:
                 continue
 
-            same(f"{path}.disabled[{move}]",
-                expect_bool(ref_move_slots[move_id]["disabled"]),
+            same(
+                f"{path}.disabled[{move}]",
+                any(
+                    expect_bool(slot["disabled"])
+                    for slot in matching_slots
+                ),
                 True,
             )
 

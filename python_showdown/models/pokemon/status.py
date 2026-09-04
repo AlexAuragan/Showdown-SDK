@@ -203,6 +203,16 @@ class Status:
                 self.eva_stage = stage
             case Stat.ACC:
                 self.acc_stage = stage
+
+    def clear_single_turn(self) -> None:
+        self.minor.difference_update({
+            MinorStatus.ENDURE,
+            MinorStatus.PROTECT,
+            MinorStatus.ROOST,
+            MinorStatus.FOCUS_PUNCH,
+            MinorStatus.DESTINY_BOUND,
+            MinorStatus.GRUDGE
+        })
 class Stat(str, Enum):
     ATK = "atk"
     DEF = "def"
