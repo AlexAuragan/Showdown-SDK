@@ -670,8 +670,11 @@ class Client:
                 self.parser.battle.reset()
                 manager.clear_battle()
                 manager.clear_battle_tracking()
+
     async def accept_challenge(
-        self, challenger: str, team: TeamSet | None = None
+        self,
+        challenger: str,
+        team: TeamSet | None = None,
     ) -> None:
         await self.ensure_connected()
 
@@ -679,7 +682,14 @@ class Client:
             raise RuntimeError("Client is not connected")
 
         await self.upload_team(team)
-        await self.send(f"/accept {challenger}")
+
+        self.expecting_battle_room = True
+
+        try:
+            await self.send(f"/accept {challenger}")
+        except BaseException:
+            self.expecting_battle_room = False
+            raise
 
     async def _leave_stale_rooms(
         self,
