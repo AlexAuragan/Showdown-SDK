@@ -11,7 +11,10 @@ from python_showdown.classes.combat_handler.random_handler import (
 )
 from python_showdown.classes.parser import DecisionRequestEvent
 from python_showdown.classes.parser.events.base import DiscardedEvent, UnhandledEvent
-from python_showdown.classes.parser.events.battle import BattleEvent
+from python_showdown.classes.parser.events.battle import (
+    BattleEvent,
+    CustomShowdownBattleStateEvent,
+)
 from python_showdown.classes.parser.events.lobby import LobbyEvent
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
@@ -63,6 +66,7 @@ class Client:
         )
         self.parser: Parser = Parser(self.battle_manager, self)
         self.team_validation_future: asyncio.Future[None] | None = None
+        self._pending_state_request_id: int | None = None
 
     @property
     def username(self) -> str | None:
@@ -130,7 +134,6 @@ class Client:
             + f"moves={len(manager.battle_state.available_moves)}]",
             extra={"room_id": self.parser.last_message_room_id},
         )
-        await self.get_custom_showdown_battle_state()
         await self.send(
             f"/choose {action_type} {action_info}|{manager.request_id}",
             room_id=manager.room_id,
@@ -226,6 +229,7 @@ class Client:
 
         try:
             async for payload in websocket:
+                received_custom_state = False
                 manager.choice_rejected = False
                 self.parser.last_message_room_id = ""
                 log_room_id = self.battle_manager.room_id  # TEMP
@@ -257,6 +261,8 @@ class Client:
                         self.battle_manager.battle_state.history.extend(events)
 
                         for event in events:
+                            if isinstance(event, CustomShowdownBattleStateEvent):
+                                received_custom_state = True
                             if isinstance(event, BattleEvent):
                                 event.update_manager(self.battle_manager)
                             elif isinstance(event, LobbyEvent):
@@ -342,6 +348,36 @@ class Client:
                     team_order: list[str] = [str(idx) for idx in self.combat_handler.select_team_order()]
                     await self.send("/choose team " + ",".join(team_order), room_id=manager.room_id)
                     manager.requires_team_preview = False
+                elif received_custom_state:
+                    pending_request_id = self._pending_state_request_id
+                    if pending_request_id is None:
+                        raise RuntimeError(
+                            "Received Showdown battle state without a pending request"
+                        )
+
+                    if manager.request_id != pending_request_id:
+                        raise RuntimeError(
+                            "Battle state synchronization failed: "
+                            + f"requested rqid={pending_request_id}, "
+                            + f"current rqid={manager.request_id}"
+                        )
+
+                    # NOW the SDK and Showdown snapshot belong to the same decision point.
+                    manager.record_turn_start_state(pending_request_id)
+
+                    self._pending_state_request_id = None
+
+                    await self.act()
+                    manager.request_id = None
+
+                elif manager.request_id is not None:
+                    if self._pending_state_request_id is not None:
+                        raise RuntimeError(
+                            "Received another decision while waiting for Showdown state"
+                        )
+
+                    self._pending_state_request_id = manager.request_id
+                    await self.get_custom_showdown_battle_state()
                 elif manager.request_id is not None:
                     self.log_manager.battle.debug(
                         "ACT on rqid=%r in %s",
