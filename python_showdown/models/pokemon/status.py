@@ -138,11 +138,11 @@ class Status:
 
     def copy_stat_changes(self, source: Status):
         self.atk_stage = source.atk_stage
-        self.def_stage = source.spd_stage
+        self.def_stage = source.def_stage
         self.spa_stage = source.spa_stage
         self.spd_stage = source.spd_stage
         self.spe_stage = source.spe_stage
-        self.eva_stage = source.spe_stage
+        self.eva_stage = source.eva_stage
         self.acc_stage = source.acc_stage
 
     def reset_all_stages(self) -> None:
