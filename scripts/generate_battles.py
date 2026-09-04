@@ -26,7 +26,7 @@ WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 BATTLE_COUNT = 100
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
-PLAYER_COUNT = 32
+PLAYER_COUNT = 2
 PAIR_COUNT = PLAYER_COUNT // 2
 BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 

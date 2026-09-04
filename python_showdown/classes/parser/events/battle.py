@@ -22,6 +22,7 @@ from python_showdown.models.pokemon.status import (
 )
 from python_showdown.models.pokemon.terrain import SideCondition, Weather
 from python_showdown.models.sdk.battle_state import BattleState, SourceType
+from python_showdown.utils.serialization import SerializableObject
 
 
 def _ident_raw(ident: PokemonIdent) -> str:
@@ -679,8 +680,8 @@ class CantEvent(BattleEvent):
         # `recharge` consumes the must-recharge flag; status-based `cant` (slp /
         # par / frz) also clears a stale must-recharge. `flinch` is a one-off
         # intra-turn effect we don't track.
-        if self.reason != "flinch":
-            status.must_recharge = False
+        if self.reason == "recharge":
+            status.remove_minor(MinorStatus.RECHARGE)
 
 
 @dataclass(frozen=True)
@@ -1050,3 +1051,11 @@ class TeamPreviewRequestEvent(BattleEvent):
         # manager.reset(keep_room_id=True)
         manager.requires_team_preview = True
         manager.player_id = self.player_id
+
+@dataclass(frozen=True)
+class CustomShowdownBattleStateEvent(BattleEvent):
+    content: SerializableObject
+
+    @override
+    def _update_battle_state(self, battle_state: BattleState) -> None:
+        battle_state.custom_showdown_battlestate = self.content

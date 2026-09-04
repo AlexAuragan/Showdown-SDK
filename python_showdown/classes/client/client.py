@@ -130,6 +130,7 @@ class Client:
             + f"moves={len(manager.battle_state.available_moves)}]",
             extra={"room_id": self.parser.last_message_room_id},
         )
+        await self.get_custom_showdown_battle_state()
         await self.send(
             f"/choose {action_type} {action_info}|{manager.request_id}",
             room_id=manager.room_id,
@@ -638,3 +639,9 @@ class Client:
 
         self.battle_manager.abandon_battle()
         self.battle_manager.room_ready.clear()
+
+
+    async def get_custom_showdown_battle_state(self):
+        if self.battle_manager.room_id is None:
+            return
+        return await self.send("/requeststate", self.battle_manager.room_id)

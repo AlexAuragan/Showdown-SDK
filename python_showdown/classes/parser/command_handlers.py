@@ -1,3 +1,4 @@
+import json
 from collections.abc import Callable
 
 from python_showdown.classes.parser.context import (
@@ -18,6 +19,7 @@ from python_showdown.classes.parser.events.base import (
 from python_showdown.classes.parser.events.battle import (
     BattleEndEvent,
     CantEvent,
+    CustomShowdownBattleStateEvent,
     DesyncEvent,
     GameGenEvent,
     GameTierEvent,
@@ -130,8 +132,12 @@ def handle_player(
 def handle_error(
     _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
-    category = message.annotations[0].name
-    content = str(message.annotations[0].value)
+    try:
+        category = message.annotations[0].name
+        content = str(message.annotations[0].value)
+    except IndexError:
+        print(message)
+        raise
     if "too late to make a different move" in content:
         raise ObsoleteRequestIdError()
     raise InvalidActionError(message=content, category=category)
@@ -168,6 +174,14 @@ def handle_tier(
         raise ValueError()
     return [GameTierEvent(tier=tier)]
 
+def handle_custom_showdown_battle_state(
+    _player_id: str | None, message: ProtocolMessage, _room_id: str
+) -> list[BaseEvent]:
+    return [
+        CustomShowdownBattleStateEvent(
+            content=json.loads(message.raw.strip("|").split("|", 1)[-1])
+        )
+    ]
 
 COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "switch": handle_switch,
@@ -183,6 +197,7 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "gametype": handle_gametype,
     "gen": handle_gen,
     "tier": handle_tier,
+    "battlestate": handle_custom_showdown_battle_state
 }
 
 

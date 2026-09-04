@@ -3,9 +3,6 @@
 The Python entrypoint manages a local Node dependency cache under dex/.node and
 runs export.cjs, which uses @pkmn/dex + @pkmn/data to resolve historical data.
 """
-
-from __future__ import annotations
-
 import argparse
 import json
 import os

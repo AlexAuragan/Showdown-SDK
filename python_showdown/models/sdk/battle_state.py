@@ -55,6 +55,8 @@ class BattleState:
         self.gametype: str | None = None
         self.tier: str | None
 
+        self.custom_showdown_battlestate: SerializableObject | None = None
+
     @property
     def player_id(self) -> str | None:
         return self._manager.player_id
@@ -69,14 +71,17 @@ class BattleState:
             "enemy_team": self._enemy_team,
             "curr_pokemon": self._curr_pokemon,
             "curr_enemy_pokemon": self._curr_enemy_pokemon,
+            "curr_pokemon_status": self.curr_pokemon_status,
             "available_moves": self._available_moves,
             "force_switch": self.force_switch,
             "weather": self.weather,
             "side_conditions": self.side_conditions,
         }
 
-        return to_serializable_object(data)
-
+        out = to_serializable_object(data)
+        if self.custom_showdown_battlestate:
+            out["custom_showdown_battlestate"] = self.custom_showdown_battlestate
+        return out
 
     def to_json(self) -> str:
         return json.dumps(
