@@ -12,6 +12,7 @@ from python_showdown.classes.combat_handler.random_handler import (
 from python_showdown.classes.parser.events.base import DiscardedEvent, UnhandledEvent
 from python_showdown.classes.parser.events.battle import (
     BattleEvent,
+    BattleStartEvent,
     CustomShowdownBattleStateEvent,
 )
 from python_showdown.classes.parser.events.lobby import LobbyEvent
@@ -269,6 +270,14 @@ class Client:
                                 received_custom_state = True
                             if isinstance(event, BattleEvent):
                                 event.update_manager(self.battle_manager)
+                                if isinstance(event, BattleStartEvent):
+                                        if manager.room_id != self.parser.last_message_room_id:
+                                            raise RuntimeError(
+                                                "BattleStartEvent established the wrong room: "
+                                                + f"manager={manager.room_id!r}, "
+                                                + f"message={self.parser.last_message_room_id!r}"
+                                            )
+                                        self.expecting_battle_room = False
                             elif isinstance(event, LobbyEvent):
                                 event.update_client(self)
                             elif isinstance(event, DiscardedEvent):
@@ -672,28 +681,24 @@ class Client:
         await self.upload_team(team)
         await self.send(f"/accept {challenger}")
 
-    async def _leave_stale_rooms(self, *, wait_for_autorejoin: bool = False) -> None:
-        """Leave any battle room this Client is currently attached to that
-        it did not itself start via `challenge()`/`accept_challenge()`.
-        """
+    async def _leave_stale_rooms(
+        self,
+        *,
+        wait_for_autorejoin: bool = False,
+    ) -> None:
         if wait_for_autorejoin:
             await asyncio.sleep(STALE_ROOM_GRACE_PERIOD)
 
-        stale_room = self.battle_manager.room_id
-        if not stale_room:
-            return
+        while self.ignored_battle_rooms:
+            stale_room = self.ignored_battle_rooms.pop()
 
-        self.log_manager.battle.info(
-            "Leaving stale battle room %r before starting a new session",
-            stale_room,
-            extra={"room_id": stale_room},
-        )
-        await self._leave_battle_room(stale_room)
+            self.log_manager.battle.info(
+                "Leaving ignored stale battle room %r",
+                stale_room,
+                extra={"room_id": stale_room},
+            )
 
-        self._pending_state_request_id = None
-        self.parser.battle.reset()
-        self.battle_manager.abandon_battle()
-        self.battle_manager.room_ready.clear()
+            await self._leave_battle_room(stale_room)
 
 
     async def get_custom_showdown_battle_state(self):
