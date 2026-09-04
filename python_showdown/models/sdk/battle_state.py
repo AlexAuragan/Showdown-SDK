@@ -39,6 +39,8 @@ class BattleState:
         ]
         self._curr_pokemon: str = ""
         self._curr_enemy_pokemon: str = ""
+        self.curr_pokemon_status: Status = Status() # Minor status and stat changes reset on switch,
+        # so we only store them for the active pokemon, outside the pokemon dataclass
         self._available_moves: list[AvailableMove] = []
         self.force_switch: bool = False
         self.weather: str | None = None
@@ -142,6 +144,7 @@ class BattleState:
 
         self._curr_pokemon = ""
         self._curr_enemy_pokemon = ""
+        self.curr_pokemon_status = Status()
         self._available_moves = []
 
         self.force_switch = False

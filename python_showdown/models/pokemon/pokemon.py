@@ -2,6 +2,8 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from enum import Enum
 
+from python_showdown.models.pokemon.status import MajorStatus
+
 from .status import Stats, Status
 
 
@@ -14,8 +16,6 @@ class Pokemon:
     active: bool
     id: str | Unknown
     lvl: int
-    status: Status = field(default_factory=Status, kw_only=True)
-
 
 @dataclass
 class PartyPokemon(Pokemon):
@@ -27,6 +27,7 @@ class PartyPokemon(Pokemon):
     base_ability: str
     item: str
     pokeball: str
+    major_status: MajorStatus | None = None
 
 
 
@@ -39,6 +40,7 @@ class EnemyPokemon(Pokemon):
     base_ability: str | Unknown = Unknown.VALUE
     current_ability: str | Unknown = Unknown.VALUE
     item: str | Unknown | None = Unknown.VALUE
+    status: Status = field(default_factory=Status)
     learnt_moves: list[str | Unknown] = field(
         default_factory=lambda: [Unknown.VALUE] * 4
     )

@@ -80,14 +80,12 @@ def _resolve_self(battle_state: BattleState, ident: PokemonIdent | None):
     return next((p for p in battle_state.team if p.id == key), None)
 
 def _resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Status:
-    pokemon = _resolve_self(battle_state, ident)
-    if pokemon is not None:
-        return pokemon.status
-    else:
-        pokemon = _resolve_enemy(battle_state, ident)
-        if pokemon is None:
-            raise RuntimeError(f"Pokemon {ident} not found in enemy team")
-        return pokemon.status
+    if _is_self(battle_state, ident):
+        return battle_state.curr_pokemon_status
+    pokemon = _resolve_enemy(battle_state, ident)
+    if pokemon is None:
+        raise RuntimeError(f"Pokemon {ident} not found in enemy team {battle_state.enemy_team}")
+    return pokemon.status
 
 def _parse_details(details: str) -> tuple[str | None, bool]:
     """Extract gender and shiny from a switch `details` string, returning the
@@ -396,7 +394,9 @@ class TeamCureEvent(BattleEvent):
         # side
         if _is_self(battle_state, self.actor):
             for pokemon in battle_state.team:
-                pokemon.status.clear_all_major_status()
+                pokemon.major_status = None
+            battle_state.curr_pokemon_status.major = None
+
         for pokemon in battle_state.enemy_team:
             pokemon.status.clear_all_major_status()
 
@@ -406,12 +406,18 @@ class ClearAllBoostsEvent(BattleEvent):
     """
     Resets all active Pokémon's stat stages to zero.
     """
-    source: EffectSource | None
+    source: EffectSource
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         # Haze / Clear Smog reset every pokemon's stat stages; only the enemy
-        # side's stages are tracked by the bot.
+        # side's stages are track
+        actor = self.source.actor
+        if actor is None:
+            raise RuntimeError(f"Tried to clear all boost but the actor is unkown, {self.source}")
+        if _is_self(battle_state, actor):
+            battle_state.curr_pokemon_status.reset_all_stages()
+
         for pokemon in battle_state.enemy_team:
             pokemon.status.reset_all_stages()
 
@@ -526,12 +532,11 @@ class PokemonSwitchEvent(BattleEvent):
     def _update_battle_state(self, battle_state: BattleState) -> None:
         if _is_self(battle_state, self.pokemon):
             battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
-            pokemon = battle_state.get_curr_pokemon()
-            pokemon.status = Status()
+            if not battle_state.team:
+                return # happens before any request is made i.e. at thestart of the battle, no reset needed
 
-            if self.major_status is not None:
-                pokemon.status.set_status(self.major_status)
-
+            battle_state.curr_pokemon_status = Status()
+            battle_state.curr_pokemon_status.major = self.major_status
             return
 
         gender, shiny = _parse_details(self.details)
@@ -903,10 +908,6 @@ class DecisionRequestEvent(BattleEvent):
                     else 0
                 )
 
-            status = Status()
-            if pokemon.major_status is not None:
-                status.set_status(pokemon.major_status)
-
             stats = Stats(
                 atk=pokemon.atk,
                 def_=pokemon.def_,
@@ -927,7 +928,7 @@ class DecisionRequestEvent(BattleEvent):
                     base_ability=pokemon.base_ability,
                     item=pokemon.item,
                     pokeball=pokemon.pokeball,
-                    status=status,
+                    major_status=pokemon.major_status,
                     curr_hp=pokemon.curr_hp,
                     max_hp=max_hp,
                 )
@@ -941,7 +942,7 @@ class DecisionRequestEvent(BattleEvent):
         )
         if active is not None:
             battle_state.set_active_pokemon(str(active.id))
-            battle_state.get_curr_pokemon().status.major = active.status.major
+            battle_state.curr_pokemon_status.major = active.major_status
 
         battle_state.update_moves(available_moves)
         battle_state.force_switch = any(self.force_switch)
