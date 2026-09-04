@@ -21,6 +21,7 @@ from python_showdown.classes.parser.exceptions import (
 )
 from python_showdown.classes.parser.parser import Parser
 from python_showdown.logger import LogManager, log_trace
+from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.models.sdk.pokemon_set import TeamSet
 
 from .dt import BattleResult, Format
@@ -358,6 +359,7 @@ class Client:
                         )
 
                     # NOW the SDK and Showdown snapshot belong to the same decision point.
+                    check_battle_state_against_showdown(manager.battle_state)
                     manager.record_turn_start_state(pending_request_id)
 
                     self._pending_state_request_id = None
@@ -366,13 +368,23 @@ class Client:
                     manager.request_id = None
 
                 elif manager.request_id is not None:
-                    if self._pending_state_request_id is not None:
+                    pending_request_id = self._pending_state_request_id
+
+                    if pending_request_id is None:
+                        self._pending_state_request_id = manager.request_id
+                        await self.get_custom_showdown_battle_state()
+
+                    elif manager.request_id != pending_request_id:
+                        # Showdown gave us a new decision before answering the state request for the previous one.
                         raise RuntimeError(
-                            "Received another decision while waiting for Showdown state"
+                            "Received a different decision while waiting for Showdown state: "
+                            + f"pending rqid={pending_request_id}, "
+                            + f"current rqid={manager.request_id}"
                         )
 
-                    self._pending_state_request_id = manager.request_id
-                    await self.get_custom_showdown_battle_state()
+                    # Otherwise manager.request_id == pending_request_id:
+                    # this is just another websocket frame received while waiting for
+                    # |battlestate|. Nothing to do.
                 elif manager.request_id is not None:
                     self.log_manager.battle.debug(
                         "ACT on rqid=%r in %s",

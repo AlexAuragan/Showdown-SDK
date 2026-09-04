@@ -271,6 +271,7 @@ class MajorStatusEvent(BattleEvent):
             enemy = _resolve_enemy(battle_state, self.target)
             if enemy is not None:
                 enemy.reset_on_switch_in()
+                enemy.status.clear_all_major_status()
                 enemy.fainted = True
                 enemy.active = False
                 enemy.curr_hp_percent = 0
@@ -278,6 +279,7 @@ class MajorStatusEvent(BattleEvent):
             own = _resolve_self(battle_state, self.target)
             if own is not None:
                 own.curr_hp = 0
+                own.major_status = None
             return
 
         status = _resolve_any_status(battle_state, self.target)
