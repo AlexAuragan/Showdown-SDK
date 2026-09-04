@@ -648,6 +648,7 @@ class Client:
                     await self.close()
 
             finally:
+                self._pending_state_request_id = None
                 self.parser.battle.reset()
                 manager.clear_battle()
                 manager.clear_battle_tracking()
