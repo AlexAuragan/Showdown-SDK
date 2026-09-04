@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
-from typing import ClassVar, Literal, override
+from typing import ClassVar, override
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events.base import BaseEvent

@@ -1,10 +1,15 @@
 from python_showdown.classes.parser.context import ProtocolContext
 from python_showdown.classes.parser.events import BaseEvent
-from python_showdown.classes.parser.events.battle import AbilityEvent, GameGenEvent, MoveEvent, PokemonSwitchEvent
+from python_showdown.classes.parser.events.battle import (
+    AbilityEvent,
+    GameGenEvent,
+    MoveEvent,
+    PokemonSwitchEvent,
+)
 from python_showdown.classes.parser.fields import parse_pokemon_ident
 from python_showdown.classes.parser.models import PokemonIdent, ProtocolMessage
 from python_showdown.classes.parser.protocol import has_annotation
-from python_showdown.models.sdk.check import to_id
+from python_showdown.models.dex import to_id
 
 
 def pokemon_key(pokemon: PokemonIdent) -> tuple[str, str | None]:
