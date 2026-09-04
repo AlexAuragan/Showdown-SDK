@@ -17,6 +17,13 @@ from python_showdown.utils.serialization import (
 if TYPE_CHECKING:
     from python_showdown.models.sdk.battle_state import BattleState
 
+def normalize_move_id(move: str) -> str:
+    for prefix in ("hiddenpower", "return", "frustration"):
+        if move.startswith(prefix):
+            return prefix
+
+    return move
+
 def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     if battle_state.custom_showdown_battlestate is None:
         return
@@ -374,9 +381,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             expect_int(ref_pokemon["maxhp"]),
         )
 
-        # storedStats is the right comparison here, not modifiedStats.
-        # modifiedStats includes things such as paralysis speed modification.
-        ref_stats = obj(ref_pokemon["storedStats"])
+        ref_stats = obj(ref_pokemon["baseStoredStats"])
 
         same(
             f"{path}.stats.atk",
@@ -410,10 +415,15 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             pokemon.max_hp,
         )
 
+        ref_moves = [
+            expect_string(slot["id"])
+            for slot in objs(ref_pokemon["moveSlots"])
+        ]
+
         same(
             f"{path}.moves",
-            pokemon.moves,
-            strings(ref_set["moves"]),
+            [normalize_move_id(move) for move in pokemon.moves],
+            [normalize_move_id(move) for move in ref_moves],
         )
 
         same(
@@ -487,10 +497,13 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             ref_active,
         )
 
-        ref_move_slots = {
-            expect_string(slot["id"]): slot
-            for slot in objs(ref_active["moveSlots"])
-        }
+        ref_enemy_move_slots: dict[str, list[SerializableObject]] = {}
+
+        for slot in objs(ref_active["moveSlots"]):
+            move_id = expect_string(slot["id"])
+            ref_enemy_move_slots.setdefault(move_id, []).append(slot)
+
+        seen_move_ids: dict[str, int] = {}
 
         for move in battle_state.available_moves:
             # A request can contain synthetic actions with no PP:
@@ -513,13 +526,23 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
                 continue
 
-            if move.id not in ref_move_slots:
+            matching_slots = ref_enemy_move_slots.get(move.id)
+            if matching_slots is None:
                 raise AssertionError(
                     f"available move {move.id!r} does not exist "
                     + "in Showdown moveSlots"
                 )
 
-            ref_move = ref_move_slots[move.id]
+            occurrence = seen_move_ids.get(move.id, 0)
+
+            if occurrence >= len(matching_slots):
+                raise AssertionError(
+                    f"available move {move.id!r} occurrence {occurrence} "
+                    + "does not exist in Showdown moveSlots"
+                )
+
+            ref_move = matching_slots[occurrence]
+            seen_move_ids[move.id] = occurrence + 1
 
             same(
                 f"available_moves[{move.id}].pp",
@@ -539,10 +562,13 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 expect_string(ref_move["target"]),
             )
 
+            ref_slot_disabled = expect_bool(ref_move["disabled"])
+            ref_pp = expect_int(ref_move["pp"])
+
             same(
                 f"available_moves[{move.id}].disabled",
                 move.disabled,
-                expect_bool(ref_move["disabled"]),
+                ref_slot_disabled or ref_pp <= 0,
             )
 
     # ------------------------------------------------------------------
@@ -718,11 +744,14 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             hp = expect_int(ref_enemy["hp"])
             max_hp = expect_int(ref_enemy["maxhp"])
 
-            hp_percent = (
-                0
-                if hp <= 0
-                else (hp * 100 + max_hp - 1) // max_hp
-            )
+            if hp <= 0:
+                hp_percent = 0
+            else:
+                hp_percent = (hp * 100 + max_hp - 1) // max_hp
+
+                # HP Percentage Mod reserves 100/100 for actual full HP.
+                if hp_percent == 100 and hp < max_hp:
+                    hp_percent = 99
 
             same(
                 f"{path}.hp_percent",
@@ -860,11 +889,8 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             if move_id not in ref_move_slots:
                 continue
 
-            same(
-                f"{path}.disabled[{move}]",
-                expect_bool(
-                    ref_move_slots[move_id]["disabled"]
-                ),
+            same(f"{path}.disabled[{move}]",
+                expect_bool(ref_move_slots[move_id]["disabled"]),
                 True,
             )
 

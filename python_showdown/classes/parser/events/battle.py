@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
-from typing import ClassVar, override
+from typing import ClassVar, Literal, override
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events.base import BaseEvent
@@ -285,6 +285,14 @@ class MajorStatusEvent(BattleEvent):
         status = _resolve_any_status(battle_state, self.target)
         if self.applied:
             status.set_status(self.status)
+
+            # Gen 1: successfully putting a Pokémon to sleep while it is waiting
+            # to recharge cancels the pending recharge.
+            if (
+                battle_state.gen == 1
+                and self.status is MajorStatus.SLEEP
+            ):
+                status.remove_minor(MinorStatus.RECHARGE)
         else:
             status.clear_status(self.status)
 
@@ -405,24 +413,31 @@ class TeamCureEvent(BattleEvent):
 
 
 @dataclass(frozen=True)
+class ClearBoostsEvent(BattleEvent):
+    """Reset one Pokémon's stat stages."""
+
+    source: EffectSource
+    target: PokemonIdent
+
+    @override
+    def _update_battle_state(self, battle_state: BattleState) -> None:
+        status = _resolve_any_status(battle_state, self.target)
+        status.reset_all_stages()
+
+
+@dataclass(frozen=True)
 class ClearAllBoostsEvent(BattleEvent):
-    """
-    Resets all active Pokémon's stat stages to zero.
-    """
+    """Reset every active Pokémon's stat stages."""
+
     source: EffectSource
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # Haze / Clear Smog reset every pokemon's stat stages; only the enemy
-        # side's stages are track
-        actor = self.source.actor
-        if actor is None:
-            raise RuntimeError(f"Tried to clear all boost but the actor is unkown, {self.source}")
-        if _is_self(battle_state, actor):
-            battle_state.curr_pokemon_status.reset_all_stages()
+        battle_state.curr_pokemon_status.reset_all_stages()
 
         for pokemon in battle_state.enemy_team:
-            pokemon.status.reset_all_stages()
+            if pokemon.active:
+                pokemon.status.reset_all_stages()
 
 
 @dataclass(frozen=True)
@@ -435,15 +450,7 @@ class CopyBoostEvent(BattleEvent):
     def _update_battle_state(self, battle_state: BattleState) -> None:
         user_status = _resolve_any_status(battle_state, self.user)
         target_status = _resolve_any_status(battle_state, self.target)
-
-        user_status.acc_stage = target_status.acc_stage
-        user_status.eva_stage = target_status.eva_stage
-        user_status.atk_stage = target_status.atk_stage
-        user_status.def_stage = target_status.def_stage
-        user_status.spa_stage = target_status.spa_stage
-        user_status.spd_stage = target_status.spd_stage
-        user_status.spe_stage = target_status.spe_stage
-
+        user_status.copy_stat_changes(target_status)
 
 @dataclass(frozen=True)
 class ClearNegativeBostsEvent(BattleEvent):
@@ -569,8 +576,10 @@ class TransformEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # Only the enemy transforming is tracked. If it copies our active
-        # pokemon, we already know that pokemon's exact moveset from |request|.
+        source_status = _resolve_any_status(battle_state, self.pokemon)
+        target_status = _resolve_any_status(battle_state, self.target)
+        source_status.copy_stat_changes(target_status)
+
         if _is_self(battle_state, self.pokemon):
             return
         copied_moves: list[str] | None = None
@@ -679,10 +688,11 @@ class CantEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         status = _resolve_any_status(battle_state, self.pokemon)
-        # `recharge` consumes the must-recharge flag; status-based `cant` (slp /
-        # par / frz) also clears a stale must-recharge. `flinch` is a one-off
-        # intra-turn effect we don't track.
-        if self.reason == "recharge":
+        # In gen 1, recharge doesn't get consummed if the target cannot move because of freeze.
+        # In future gens, recharge is checked first, so reason == "recharge" will happen first.
+        if (self.reason == "recharge"
+            or battle_state.gen == 1 and self.reason in {"flinch", "partiallytrapped"}
+        ):
             status.remove_minor(MinorStatus.RECHARGE)
 
 

@@ -71,6 +71,12 @@ class LobbyParser(MessageParser):
             if "The user" in arg and "was not found." in arg:
                 user = arg.split("'")[1]
                 return [UserNotFoundEvent(user)]
+        if any(
+            'You tried to send "/leave"' in arg
+            and "you were not in that room" in arg
+            for arg in message.arguments
+        ):
+            return []
         raise NotImplementedError(message)
 
     @staticmethod

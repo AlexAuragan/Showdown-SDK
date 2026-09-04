@@ -136,15 +136,18 @@ class Status:
     def unboost(self, stat: Stat, n: int) -> None:
         self._adjust_stage(stat, -n)
 
+    def copy_stat_changes(self, source: Status):
+        self.atk_stage = source.atk_stage
+        self.def_stage = source.spd_stage
+        self.spa_stage = source.spa_stage
+        self.spd_stage = source.spd_stage
+        self.spe_stage = source.spe_stage
+        self.eva_stage = source.spe_stage
+        self.acc_stage = source.acc_stage
+
     def reset_all_stages(self) -> None:
         """Clear every stat stage to 0 (e.g. |-clearallboost|, Haze)."""
-        self.atk_stage = 0
-        self.def_stage = 0
-        self.spa_stage = 0
-        self.spd_stage = 0
-        self.spe_stage = 0
-        self.eva_stage = 0
-        self.acc_stage = 0
+        self.copy_stat_changes(Status())
 
     def clear_negative_stages(self) -> None:
         self.atk_stage = max(self.atk_stage, 0)

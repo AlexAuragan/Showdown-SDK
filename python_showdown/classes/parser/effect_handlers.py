@@ -507,11 +507,37 @@ def _parse_set_boost(
     ]
 
 
+def _parse_clear_boosts(
+    message: ProtocolMessage,
+    context: EffectParseContext,
+) -> list[BaseEvent]:
+    require_arguments(message, 1)
+
+    target = parse_pokemon_ident(message.arguments[0])
+
+    return [
+        ClearBoostsEvent(
+            source=parse_effect_source(
+                message,
+                context.source,
+                affected=target,
+            ),
+            target=target,
+        )
+    ]
+
+
 def _parse_clear_all_boosts(
-    message: ProtocolMessage, context: EffectParseContext
+    message: ProtocolMessage,
+    context: EffectParseContext,
 ) -> list[BaseEvent]:
     require_arguments(message, 0)
-    return [ClearAllBoostsEvent(source=context.source)]
+
+    return [
+        ClearAllBoostsEvent(
+            source=context.source,
+        )
+    ]
 
 
 def _parse_clear_negative_boosts(
@@ -1027,6 +1053,7 @@ SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-ability": _parse_explicit_ability,
     "-sethp": _parse_set_hp,
     "-setboost": _parse_set_boost,
+    "-clearboost": _parse_clear_boosts,
     "-clearallboost": _parse_clear_all_boosts,
     "-clearnegativeboost": _parse_clear_negative_boosts,
     "-item": _parse_item,

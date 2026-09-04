@@ -441,15 +441,6 @@ class Client:
                 self.named = False
                 self.ready.clear()
 
-                # If the socket died while a battle was being tracked, fail it
-                # now instead of waiting for the 300s battle timeout.
-                battle_finished = manager.battle_finished
-                if battle_finished is not None and not battle_finished.done():
-                    battle_finished.set_exception(
-                        ConnectionError(
-                            f"Connection to server lost for {self.username!r}"
-                        )
-                    )
 
     async def ensure_connected(self) -> None:
         """
@@ -558,7 +549,6 @@ class Client:
 
         manager.battle_finished = loop.create_future()
         manager.battle_started_at = perf_counter()
-        manager.turn = 0
 
         battle_completed = False
 
