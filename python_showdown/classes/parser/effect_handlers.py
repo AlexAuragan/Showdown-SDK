@@ -17,6 +17,7 @@ from python_showdown.classes.parser.events.base import (
 from python_showdown.classes.parser.events.battle import (
     AbilityEvent,
     ClearAllBoostsEvent,
+    ClearBoostsEvent,
     ClearNegativeBostsEvent,
     CopyBoostEvent,
     DamageEvent,

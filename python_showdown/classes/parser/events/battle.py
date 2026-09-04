@@ -340,7 +340,11 @@ class MinorStatusActivationEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        return  # This event is an activation of a status we already know about.
+        # This event is an activation of a status, we often know about them but it tells us how long they last.
+        # That's why we don't check them all
+        if self.effect is MinorStatus.TRAPPED:
+            status = _resolve_any_status(battle_state, self.target)
+            status.add_minor(MinorStatus.TRAPPED)
 
 
 @dataclass(frozen=True)
@@ -537,28 +541,58 @@ class PokemonSwitchEvent(BattleEvent):
     hp_is_percentage: bool
     major_status: MajorStatus | None
     command: str = "switch"
+    baton_pass: bool = False
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         if _is_self(battle_state, self.pokemon):
-            battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
-            if not battle_state.team:
-                return # happens before any request is made i.e. at thestart of the battle, no reset needed
+            old_status = battle_state.curr_pokemon_status
 
-            battle_state.curr_pokemon_status = Status()
-            battle_state.curr_pokemon_status.major = self.major_status
+            new_status = Status()
+            new_status.major = self.major_status
+
+            if self.baton_pass:
+                new_status.copy_stat_changes(old_status)
+
+            battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
+
+            if not battle_state.team:
+                return
+
+            battle_state.curr_pokemon_status = new_status
             return
+
+        passed_status: Status | None = None
+
+        if self.baton_pass:
+            outgoing = battle_state.get_enemy_pokemon(
+                battle_state.curr_enemy_pokemon,
+                not_found_ok=True,
+            )
+            if outgoing is not None:
+                passed_status = Status()
+                passed_status.copy_stat_changes(outgoing.status)
 
         gender, shiny = _parse_details(self.details)
         level = self.level if self.level is not None else 100
+
         battle_state.witness_switch_in(
-            _ident_raw(self.pokemon), level, gender=gender, shiny=shiny
+            _ident_raw(self.pokemon),
+            level,
+            gender=gender,
+            shiny=shiny,
         )
+
         enemy = battle_state.get_enemy_pokemon(
-            battle_state.curr_enemy_pokemon, not_found_ok=True
+            battle_state.curr_enemy_pokemon,
+            not_found_ok=True,
         )
+
         if enemy is not None:
             enemy.reset_on_switch_in()
+
+            if passed_status is not None:
+                enemy.status.copy_stat_changes(passed_status)
 
 
 @dataclass(frozen=True)
@@ -956,6 +990,7 @@ class DecisionRequestEvent(BattleEvent):
         if active is not None:
             battle_state.set_active_pokemon(str(active.id))
             battle_state.curr_pokemon_status.major = active.major_status
+
 
         battle_state.update_moves(available_moves)
         battle_state.force_switch = any(self.force_switch)

@@ -10,7 +10,7 @@ This is the battle manager: it only sees messages the aggregator routes to it
 """
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import override
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
@@ -30,6 +30,7 @@ from python_showdown.classes.parser.events import (
 from python_showdown.classes.parser.events.battle import (
     BattleStartEvent,
     DecisionRequestEvent,
+    PokemonSwitchEvent,
     TeamPreviewRequestEvent,
 )
 from python_showdown.classes.parser.managers.base import MessageParser
@@ -244,6 +245,27 @@ class BattleParser(MessageParser):
 
         handler = COMMAND_HANDLERS.get(message.command)
         if handler is not None:
+            events = tuple(
+                handler(
+                    player_id,
+                    message,
+                    self._last_message_room_id,
+                )
+            )
+
+            if message.command == "switch":
+                events = tuple(
+                    replace(
+                        event,
+                        baton_passed=(
+                            event.pokemon.player
+                            in self.protocol_context.baton_pass_pending
+                        ),
+                    )
+                    if isinstance(event, PokemonSwitchEvent)
+                    else event
+                    for event in events
+                )
             return ParseResult(
                 tuple(handler(player_id, message, self._last_message_room_id)), 1
             )

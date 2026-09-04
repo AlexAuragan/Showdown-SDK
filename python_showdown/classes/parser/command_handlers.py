@@ -53,7 +53,7 @@ CommandHandler = Callable[[str | None, ProtocolMessage, str], list[BaseEvent]]
 
 
 def handle_switch(
-    player_id: str | None, message: ProtocolMessage, _room_id: str
+    player_id: str | None, message: ProtocolMessage, _room_id: str, baton_pass: bool
 ) -> list[BaseEvent]:
     if player_id is None:
         raise ValueError("Player id not set")
@@ -73,6 +73,7 @@ def handle_switch(
             hp_is_percentage=is_percentage_hp(player_id, pokemon, condition),
             major_status=condition.status,
             command=message.command,
+            baton_pass=baton_pass
         )
     ]
 

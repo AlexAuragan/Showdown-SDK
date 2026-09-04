@@ -22,6 +22,7 @@ class ProtocolContext:
         tuple[str, str | None],
         set[str],
     ] = field(default_factory=dict)
+    baton_pass_pending: set[str] = field(default_factory=set)
 
 
 @dataclass(frozen=True)

@@ -1,9 +1,10 @@
 from python_showdown.classes.parser.context import ProtocolContext
 from python_showdown.classes.parser.events import BaseEvent
-from python_showdown.classes.parser.events.battle import AbilityEvent, GameGenEvent
+from python_showdown.classes.parser.events.battle import AbilityEvent, GameGenEvent, MoveEvent, PokemonSwitchEvent
 from python_showdown.classes.parser.fields import parse_pokemon_ident
 from python_showdown.classes.parser.models import PokemonIdent, ProtocolMessage
 from python_showdown.classes.parser.protocol import has_annotation
+from python_showdown.models.sdk.check import to_id
 
 
 def pokemon_key(pokemon: PokemonIdent) -> tuple[str, str | None]:
@@ -98,6 +99,16 @@ def update_protocol_context(
             context.gen = event.gen
             continue
         if not isinstance(event, AbilityEvent):
+            continue
+
+        if isinstance(event, MoveEvent):
+            if event.success and to_id(event.move) == "batonpass":
+                context.pending_baton_pass_side = event.source_pokemon.player
+            continue
+
+        if isinstance(event, PokemonSwitchEvent):
+            if context.pending_baton_pass_side == event.pokemon.player:
+                context.pending_baton_pass_side = None
             continue
 
         if event.active:
