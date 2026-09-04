@@ -546,6 +546,9 @@ class PokemonSwitchEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
+        gen = battle_state.gen
+        if gen is None:
+            raise RuntimeError("gen is not set")
         if _is_self(battle_state, self.pokemon):
             old_status = battle_state.curr_pokemon_status
 
@@ -553,6 +556,11 @@ class PokemonSwitchEvent(BattleEvent):
             new_status.major = self.major_status
 
             if self.baton_pass:
+                if (
+                    gen <= 4
+                    and MinorStatus.TRAPPED in old_status.minor
+                ):
+                    new_status.add_minor(MinorStatus.TRAPPED)
                 new_status.copy_stat_changes(old_status)
 
             battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
@@ -570,8 +578,16 @@ class PokemonSwitchEvent(BattleEvent):
                 battle_state.curr_enemy_pokemon,
                 not_found_ok=True,
             )
+
             if outgoing is not None:
                 passed_status = Status()
+
+                if (
+                    gen <= 4
+                    and MinorStatus.TRAPPED in outgoing.status.minor
+                ):
+                    passed_status.add_minor(MinorStatus.TRAPPED)
+
                 passed_status.copy_stat_changes(outgoing.status)
 
         gender, shiny = _parse_details(self.details)
@@ -593,6 +609,9 @@ class PokemonSwitchEvent(BattleEvent):
             enemy.reset_on_switch_in()
 
             if passed_status is not None:
+                if MinorStatus.TRAPPED in passed_status.minor:
+                    enemy.status.add_minor(MinorStatus.TRAPPED)
+
                 enemy.status.copy_stat_changes(passed_status)
 
 
