@@ -28,5 +28,6 @@ dev = [
 packages = ["python_showdown"]
 
 [tool.pyright]
+reportImportCycles = false
 reportUnusedCallResult = false # there are many cases where functions are called dynamically with an expected signature
 reportAny = false # makes dumb cast calls around basinc functions like open

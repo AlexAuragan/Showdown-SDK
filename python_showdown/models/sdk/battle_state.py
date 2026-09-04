@@ -6,6 +6,7 @@ from python_showdown.models.pokemon.moves import AvailableMove
 from python_showdown.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
 from python_showdown.models.pokemon.status import Status
 from python_showdown.models.pokemon.terrain import SideCondition
+from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.utils.serialization import (
     SerializableObject,
     to_serializable_object,
@@ -55,7 +56,16 @@ class BattleState:
         self.gametype: str | None = None
         self.tier: str | None
 
-        self.custom_showdown_battlestate: SerializableObject | None = None
+        self._custom_showdown_battlestate: SerializableObject | None = None
+
+    @property
+    def custom_showdown_battlestate(self) -> SerializableObject | None:
+        return self._custom_showdown_battlestate
+
+    @custom_showdown_battlestate.setter
+    def custom_showdown_battlestate(self, value: SerializableObject):
+        check_battle_state_against_showdown(self)
+        self._custom_showdown_battlestate = value
 
     @property
     def player_id(self) -> str | None:

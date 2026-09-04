@@ -9,7 +9,6 @@ from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
-from python_showdown.classes.parser import DecisionRequestEvent
 from python_showdown.classes.parser.events.base import DiscardedEvent, UnhandledEvent
 from python_showdown.classes.parser.events.battle import (
     BattleEvent,
@@ -276,10 +275,6 @@ class Client:
                                 raise NotImplementedError(event.raw)
                             else:
                                 raise NotImplementedError(type(event))
-
-                            if isinstance(event, DecisionRequestEvent):
-                                manager.record_turn_start_state(event.request_id)
-
                             if isinstance(event, TurnEvent):
                                 manager.start_action_timeout()
                     except ObsoleteRequestIdError as e:
