@@ -53,6 +53,7 @@ def _copy_baton_pass_status(
     for effect in {
         MinorStatus.LEECH_SEED,
         MinorStatus.PARTIALLY_TRAPPED,
+        MinorStatus.SUBSTITUTE,
     }:
         if effect in source.minor:
             target.add_minor(effect)
@@ -360,13 +361,24 @@ class MoveCopiedEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # Mimic: disable the Mimic slot and expose the copied move on top of the
-        # base moveset. Tracked for the enemy only.
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is None:
             return
+
+        if enemy.transformed_into is not None:
+            for index, move in enumerate(enemy.temporary_moves):
+                if to_id(move) == "mimic":
+                    enemy.temporary_moves[index] = self.copied_move
+                    return
+
+            raise RuntimeError(
+                "Transformed Pokémon used Mimic but Mimic is not present "
+                + f"in temporary_moves: {enemy.temporary_moves}"
+            )
+
         if self.copied_move not in enemy.temporary_moves:
             enemy.temporary_moves.append(self.copied_move)
+
         if "Mimic" not in enemy.disabled_moves:
             enemy.disabled_moves.append("Mimic")
 
@@ -706,12 +718,27 @@ class TransformEvent(BattleEvent):
 
         if _is_self(battle_state, self.pokemon):
             return
+
+        enemy = _resolve_enemy(battle_state, self.pokemon)
+        if enemy is None:
+            return
+
         copied_moves: list[str] | None = None
+
         own = _resolve_self(battle_state, self.target)
         if own is not None:
             copied_moves = list(own.moves)
+
+            if battle_state.gen is None:
+                raise RuntimeError("gen is not set")
+
+            if battle_state.gen > 2:
+                enemy.current_ability = own.base_ability
+
         battle_state.witness_transform(
-            _ident_raw(self.pokemon), _ident_raw(self.target), copied_moves
+            _ident_raw(self.pokemon),
+            _ident_raw(self.target),
+            copied_moves,
         )
 
 
@@ -827,10 +854,15 @@ class CantEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         status = _resolve_any_status(battle_state, self.pokemon)
-        # In gen 1, recharge doesn't get consummed if the target cannot move because of freeze.
-        # In future gens, recharge is checked first, so reason == "recharge" will happen first.
-        if (self.reason == "recharge"
-            or battle_state.gen == 1 and self.reason in {"flinch", "partiallytrapped"}
+
+        status.clear_single_move()
+
+        # In gen 1, recharge doesn't get consumed if the target cannot move
+        # because of freeze.
+        if (
+            self.reason == "recharge"
+            or battle_state.gen == 1
+            and self.reason in {"flinch", "partiallytrapped"}
         ):
             status.remove_minor(MinorStatus.RECHARGE)
 

@@ -296,14 +296,17 @@ class Client:
                         manager.choice_rejected = False
                     except InvalidActionError as e:
                         self.log_manager.battle.info(
-                            "InvalidActionError in %s: %s (rqid=%r last=%r)",
+                            "InvalidActionError in %s: category=%r message=%s (rqid=%r last=%r)",
                             manager.room_id,
+                            e.category,
                             e.message,
                             manager.request_id,
                             self.parser.last_message_room_id,
                             extra={"room_id": self.parser.last_message_room_id},
                         )
-                        manager.choice_rejected = True
+
+                        manager.choice_rejected = e.category != "Unavailable choice"
+
                     except Exception:
                         print(self.log_manager.latest_raw_log_path())
                         self.log_manager.errors.exception(
