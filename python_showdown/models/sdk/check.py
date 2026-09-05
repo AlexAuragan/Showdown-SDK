@@ -124,11 +124,27 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 + "and must_recharge=True"
             )
 
-        same(
-            f"{path}.recharge",
-            recharge_minor or status.must_recharge,
-            "mustrecharge" in volatiles,
+        sdk_recharge = (
+            recharge_minor
+            or status.must_recharge
         )
+        ref_recharge = "mustrecharge" in volatiles
+
+        if battle_state.gen == 1:
+            # sdk=True / showdown=False can result from an unobservable
+            # post-action flinch cancelling Hyper Beam recharge.
+            if not sdk_recharge and ref_recharge:
+                same(
+                    f"{path}.recharge",
+                    sdk_recharge,
+                    ref_recharge,
+                )
+        else:
+            same(
+                f"{path}.recharge",
+                sdk_recharge,
+                ref_recharge,
+            )
 
         # Perish Song presence is reliable.
         #
@@ -750,11 +766,20 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 hp_percent,
             )
 
-        check_status(
-            f"{path}.status",
-            enemy.status,
-            ref_enemy,
+        ref_fainted = expect_bool(ref_enemy["fainted"])
+
+        same(
+            f"{path}.fainted",
+            enemy.fainted,
+            ref_fainted,
         )
+
+        if not ref_fainted:
+            check_status(
+                f"{path}.status",
+                enemy.status,
+                ref_enemy,
+            )
 
         # Hidden values are skipped until the SDK knows them.
         if enemy.base_ability is not Unknown.VALUE:

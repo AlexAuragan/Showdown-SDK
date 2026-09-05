@@ -12,7 +12,6 @@ from python_showdown.utils.serialization import (
 
 
 def write_json(path: Path, data: list[SerializableObject] | Serializable | SerializableArray) -> None:
-
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
         file.write(
@@ -78,7 +77,7 @@ async def run_battle(
             battle_waiter_1,
             battle_waiter_2,
         )
-        await asyncio.to_thread(write_battle_outputs, client_2)
+        # await asyncio.to_thread(write_battle_outputs, client_2)
         # print(
         #     f"Battle {battle_number}/{BATTLE_COUNT}: "
         #     + f"winner={result_1.winner}, turns={result_1.move_count}, "

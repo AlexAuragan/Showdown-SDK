@@ -23,10 +23,10 @@ from python_showdown.utils.serialization import SerializableObject
 from scripts.utils import run_battle
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
-BATTLE_COUNT = 100
+BATTLE_COUNT = 1000
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
-PLAYER_COUNT = 2
+PLAYER_COUNT = 32
 PAIR_COUNT = PLAYER_COUNT // 2
 BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 
@@ -115,14 +115,6 @@ async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
             loggers="protocol",
         )
 
-        logs.add_handler(
-            create_battle_file_handler(
-                output_directory,
-                level=logging.DEBUG,
-                filename=f"{client_role}_info.txt",
-            ),
-            loggers=(logs.battle, logs.errors),
-        )
         client = Client(
             WEBSOCKET_URL,
             combat_handler=RandomMoveCombatHandler(),

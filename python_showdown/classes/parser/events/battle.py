@@ -271,16 +271,29 @@ class HealEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
+        cures_status = (
+            self.source.type == SourceType.MOVE
+            and self.source.name in {"Healing Wish", "Lunar Dance"}
+        )
+
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
             enemy.curr_hp_percent = self.curr_hp
+
+            if cures_status:
+                enemy.status.clear_all_major_status()
+
             if self.curr_hp == 0:
                 enemy.fainted = True
             return
+
         own = _resolve_self(battle_state, self.target)
         if own is not None:
             own.curr_hp = self.curr_hp
 
+            if cures_status:
+                own.major_status = None
+                battle_state.curr_pokemon_status.clear_all_major_status()
 
 @dataclass(frozen=True)
 class MinorStatusEvent(BattleEvent):
@@ -646,6 +659,11 @@ class PokemonSwitchEvent(BattleEvent):
             battle_state.set_active_pokemon(
                 _ident_self_key(self.pokemon)
             )
+            own = _resolve_self(battle_state, self.pokemon)
+            if own is not None:
+                battle_state.curr_pokemon_ability = own.base_ability
+            else:
+                battle_state.curr_pokemon_ability = Unknown.VALUE
 
             if not battle_state.team:
                 return
@@ -733,7 +751,7 @@ class TransformEvent(BattleEvent):
                 raise RuntimeError("gen is not set")
 
             if battle_state.gen > 2:
-                enemy.current_ability = own.base_ability
+                enemy.current_ability = battle_state.curr_pokemon_ability
 
         battle_state.witness_transform(
             _ident_raw(self.pokemon),
@@ -752,25 +770,29 @@ class AbilityEvent(BattleEvent):
     reveals_base: bool = False
 
     @override
-    def _update_battle_state(
-        self,
-        battle_state: BattleState,
-    ) -> None:
-        enemy = _resolve_enemy(
-            battle_state,
-            self.pokemon,
-        )
-        if enemy is None:
-            return
-
+    def _update_battle_state(self, battle_state: BattleState) -> None:
         if not self.active:
             return
 
-        enemy.current_ability = self.ability
+        enemy = _resolve_enemy(battle_state, self.pokemon)
+        if enemy is not None:
+            enemy.current_ability = self.ability
 
-        if self.reveals_base:
-            enemy.base_ability = self.ability
+            if self.context is not None and to_id(self.context) == "trace":
+                enemy.base_ability = "Trace"
+                return
 
+            if (
+                self.reveals_base
+                and enemy.base_ability is Unknown.VALUE
+            ):
+                enemy.base_ability = self.ability
+
+            return
+
+        own = _resolve_self(battle_state, self.pokemon)
+        if own is not None:
+            battle_state.curr_pokemon_ability = self.ability
 
 @dataclass(frozen=True)
 class StatSetEvent(BattleEvent):
@@ -1149,6 +1171,23 @@ class DecisionRequestEvent(BattleEvent):
             battle_state.set_active_pokemon(str(active.id))
             battle_state.curr_pokemon_status.major = active.major_status
 
+            if battle_state.curr_pokemon_ability is Unknown.VALUE:
+                    battle_state.curr_pokemon_ability = active.base_ability
+
+        if battle_state.gen == 1 and not self.wait:
+            has_recharge_request = any(
+                move.id == "recharge"
+                for move in available_moves
+            )
+
+            if has_recharge_request:
+                battle_state.curr_pokemon_status.add_minor(
+                    MinorStatus.RECHARGE
+                )
+            else:
+                battle_state.curr_pokemon_status.remove_minor(
+                    MinorStatus.RECHARGE
+                )
 
         battle_state.update_moves(available_moves)
         battle_state.force_switch = any(self.force_switch)
