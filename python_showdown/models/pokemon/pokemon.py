@@ -2,6 +2,7 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from enum import Enum
 
+from python_showdown.models.dex import to_id
 from python_showdown.models.pokemon.status import MajorStatus
 
 from .status import Stats, Status
@@ -70,16 +71,26 @@ class EnemyPokemon(Pokemon):
         return base + self.temporary_moves
 
     def witness_move(self, move: str) -> None:
-        if move.lower() in ["struggle"]:
+        move_id = to_id(move)
+
+        if move_id == "struggle":
             return
 
-        if move in self.learnt_moves or move in self.temporary_moves:
+        if any(
+            known is not Unknown.VALUE
+            and to_id(known) == move_id
+            for known in self.learnt_moves
+        ):
             return
 
-        # While transformed, new moves are part of the copied set.
+        if any(
+            to_id(temporary) == move_id
+            for temporary in self.temporary_moves
+        ):
+            return
+
         if self.transformed_into is not None:
-            if move not in self.temporary_moves:
-                self.temporary_moves.append(move)
+            self.temporary_moves.append(move)
             return
 
         if Unknown.VALUE not in self.learnt_moves:
