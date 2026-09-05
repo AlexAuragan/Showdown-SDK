@@ -29,6 +29,7 @@ from python_showdown.classes.parser.events.battle import (
     PokemonSwitchEvent,
     RoomEvent,
     TurnEvent,
+    UpkeepEvent,
 )
 from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
@@ -183,6 +184,11 @@ def handle_custom_showdown_battle_state(
         )
     ]
 
+def handle_upkeep(
+    _player_id: str | None, _message: ProtocolMessage, _room_id: str
+) -> list[BaseEvent]:
+    return [UpkeepEvent()]
+
 COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "switch": handle_switch,
     "drag": handle_switch,
@@ -197,7 +203,8 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "gametype": handle_gametype,
     "gen": handle_gen,
     "tier": handle_tier,
-    "battlestate": handle_custom_showdown_battle_state
+    "battlestate": handle_custom_showdown_battle_state,
+    "upkeep": handle_upkeep
 }
 
 

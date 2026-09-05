@@ -854,17 +854,21 @@ class TurnEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        # Remove 1-turn statusses
-        battle_state.curr_pokemon_status.clear_single_turn()
-
-        for pokemon in battle_state.enemy_team:
-            if pokemon.active:
-                pokemon.status.clear_single_turn()
+        return
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
         manager.turn = self.turn
 
+@dataclass(frozen=True)
+class UpkeepEvent(BattleEvent):
+    @override
+    def _update_battle_state(self, battle_state: BattleState) -> None:
+        battle_state.curr_pokemon_status.clear_single_turn()
+
+        for pokemon in battle_state.enemy_team:
+            if pokemon.active:
+                pokemon.status.clear_single_turn()
 
 @dataclass(frozen=True)
 class WeatherEvent(BattleEvent):

@@ -937,3 +937,6 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     #
     # - Exact Transform target identity.
     #   We do validate that Transform is active and that the copied moves match.
+    #
+    # - Form.
+    #   It seems like form (ex Castform) is not directly given by Showdown, TODO later: check

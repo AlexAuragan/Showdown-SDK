@@ -15,7 +15,6 @@ IGNORED_COMMANDS = {
     "teamsize",
     "start",
     "updatesearch",
-    "upkeep",
     "-anim",
     "-message",
     "challstr",
