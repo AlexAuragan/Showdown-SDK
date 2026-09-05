@@ -746,10 +746,38 @@ def _is_ability_start_or_end(
 
 
 def _parse_ability_start_or_end(
-    message: ProtocolMessage, context: EffectParseContext
+    message: ProtocolMessage,
+    context: EffectParseContext,
 ) -> list[BaseEvent]:
-    return [_ability_event(message, context.source)]
+    ability_event = _ability_event(
+        message,
+        context.source,
+    )
 
+    ability_name = (
+        message.arguments[1]
+        .removeprefix("ability: ")
+        .strip()
+    )
+
+    minor_status = _minor_status_or_none(
+        ability_name
+    )
+
+    if minor_status is None:
+        return [ability_event]
+
+    return [
+        ability_event,
+        MinorStatusEvent(
+            source=context.source,
+            target=parse_pokemon_ident(
+                message.arguments[0]
+            ),
+            effect=minor_status,
+            started=message.command == "-start",
+        ),
+    ]
 
 def _is_duplicate_ability_end(
     message: ProtocolMessage, context: EffectParseContext

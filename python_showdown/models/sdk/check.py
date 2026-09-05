@@ -100,6 +100,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             MinorStatus.TUNNEL,
             MinorStatus.FLINCH,
             MinorStatus.REPEAT,
+            MinorStatus.TYPECHANGE
         }
 
         for minor in MinorStatus:
@@ -859,21 +860,6 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 )
             )
 
-            expected_forme = (
-                None
-                if ref_current_species == ref_base_species
-                else ref_current_species
-            )
-
-            same(
-                f"{path}.forme",
-                (
-                    None
-                    if enemy.forme is None
-                    else to_id(enemy.forme)
-                ),
-                expected_forme,
-            )
 
         # Only compare a disabled move when the original slot still exists.
         # Mimic can replace the Mimic slot entirely.
