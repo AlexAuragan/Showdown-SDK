@@ -78,8 +78,18 @@ class Status:
     # Set via |-mustrecharge| and consumed by the next `|cant|recharge`.
     must_recharge: bool = False
 
+    trapped_by_side: str | None = None
+
     _MIN_STAGE: int = -6
     _MAX_STAGE: int = 6
+
+    def set_trapped(self, source_side: str) -> None:
+        self.minor.add(MinorStatus.TRAPPED)
+        self.trapped_by_side = source_side
+
+    def clear_trapped(self) -> None:
+        self.minor.discard(MinorStatus.TRAPPED)
+        self.trapped_by_side = None
 
     def reset_on_switch(self):
         # Volatile state clears on switch; major status conditions persist.

@@ -31,11 +31,41 @@ def _ident_raw(ident: PokemonIdent) -> str:
         return f"{ident.player}{ident.slot}: {ident.name}"
     return f"{ident.player}: {ident.name}"
 
+def _baton_pass_status(source: Status, gen: int) -> Status:
+    passed = Status()
+    passed.copy_stat_changes(source)
+
+    if gen <= 4:
+        if MinorStatus.TRAPPED in source.minor:
+            if source.trapped_by_side is None:
+                raise RuntimeError(
+                    "TRAPPED status has no trapping source"
+                )
+            passed.set_trapped(source.trapped_by_side)
+
+        if MinorStatus.LEECH_SEED in source.minor:
+            passed.add_minor(MinorStatus.LEECH_SEED)
+
+    return passed
 
 def _ident_self_key(ident: PokemonIdent) -> str:
     """The side-level identifier used by `PartyPokemon.id` (`p1: Miltank`)."""
     return f"{ident.player}: {ident.name}"
 
+def _clear_traps_sourced_by_side(
+    battle_state: BattleState,
+    side: str,
+) -> None:
+    statuses = [battle_state.curr_pokemon_status]
+
+    statuses.extend(
+        pokemon.status
+        for pokemon in battle_state.enemy_team
+    )
+
+    for status in statuses:
+        if status.trapped_by_side == side:
+            status.clear_trapped()
 
 def _is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
     if not battle_state.player_id:
@@ -273,6 +303,10 @@ class MajorStatusEvent(BattleEvent):
         if self.status is MajorStatus.FAINT:
             # `|faint|` is emitted as a FAINT MajorStatusEvent. Both sides are
             # affected; the enemy is marked fainted and benched.
+            _clear_traps_sourced_by_side(
+                    battle_state,
+                    self.target.player,
+                )
             enemy = _resolve_enemy(battle_state, self.target)
             if enemy is not None:
                 enemy.reset_on_switch_in()
@@ -339,7 +373,7 @@ class MinorStatusActivationEvent(BattleEvent):
     This does not start or end the status. It records that the status affected
     the current action.
     """
-
+    source: EffectSource
     target: PokemonIdent
     effect: MinorStatus
 
@@ -347,9 +381,19 @@ class MinorStatusActivationEvent(BattleEvent):
     def _update_battle_state(self, battle_state: BattleState) -> None:
         # This event is an activation of a status, we often know about them but it tells us how long they last.
         # That's why we don't check them all
-        if self.effect is MinorStatus.TRAPPED:
-            status = _resolve_any_status(battle_state, self.target)
-            status.add_minor(MinorStatus.TRAPPED)
+        if self.effect is not MinorStatus.TRAPPED:
+            return
+        actor = self.source.actor
+        if actor is None:
+            raise RuntimeError(
+                "TRAPPED activation has no source actor"
+            )
+
+        status = _resolve_any_status(
+            battle_state,
+            self.target,
+        )
+        status.set_trapped(actor.player)
 
 
 @dataclass(frozen=True)
@@ -554,21 +598,28 @@ class PokemonSwitchEvent(BattleEvent):
         gen = battle_state.gen
         if gen is None:
             raise RuntimeError("gen is not set")
+
+        # A normal switch by the trapping side breaks Mean Look.
+        # Baton Pass preserves the trapping relationship.
+        if not self.baton_pass and self.command != "replace":
+            _clear_traps_sourced_by_side(
+                battle_state,
+                self.pokemon.player,
+            )
+
         if _is_self(battle_state, self.pokemon):
             old_status = battle_state.curr_pokemon_status
 
-            new_status = Status()
+            if self.baton_pass:
+                new_status = _baton_pass_status(old_status, gen)
+            else:
+                new_status = Status()
+
             new_status.major = self.major_status
 
-            if self.baton_pass:
-                if (
-                    gen <= 4
-                    and MinorStatus.TRAPPED in old_status.minor
-                ):
-                    new_status.add_minor(MinorStatus.TRAPPED)
-                new_status.copy_stat_changes(old_status)
-
-            battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
+            battle_state.set_active_pokemon(
+                _ident_self_key(self.pokemon)
+            )
 
             if not battle_state.team:
                 return
@@ -576,24 +627,16 @@ class PokemonSwitchEvent(BattleEvent):
             battle_state.curr_pokemon_status = new_status
             return
 
-        passed_status: Status | None = None
+        outgoing = battle_state.get_enemy_pokemon(
+            battle_state.curr_enemy_pokemon,
+            not_found_ok=True,
+        )
 
-        if self.baton_pass:
-            outgoing = battle_state.get_enemy_pokemon(
-                battle_state.curr_enemy_pokemon,
-                not_found_ok=True,
-            )
-
-            if outgoing is not None:
-                passed_status = Status()
-
-                if (
-                    gen <= 4
-                    and MinorStatus.TRAPPED in outgoing.status.minor
-                ):
-                    passed_status.add_minor(MinorStatus.TRAPPED)
-
-                passed_status.copy_stat_changes(outgoing.status)
+        passed_status = (
+            _baton_pass_status(outgoing.status, gen)
+            if self.baton_pass and outgoing is not None
+            else None
+        )
 
         gender, shiny = _parse_details(self.details)
         level = self.level if self.level is not None else 100
@@ -610,15 +653,13 @@ class PokemonSwitchEvent(BattleEvent):
             not_found_ok=True,
         )
 
-        if enemy is not None:
-            enemy.reset_on_switch_in()
+        if enemy is None:
+            return
 
-            if passed_status is not None:
-                if MinorStatus.TRAPPED in passed_status.minor:
-                    enemy.status.add_minor(MinorStatus.TRAPPED)
+        enemy.reset_on_switch_in()
 
-                enemy.status.copy_stat_changes(passed_status)
-
+        if passed_status is not None:
+            enemy.status = passed_status
 
 @dataclass(frozen=True)
 class TransformEvent(BattleEvent):
@@ -747,7 +788,6 @@ class CantEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         status = _resolve_any_status(battle_state, self.pokemon)
-        status.clear_single_move()
         # In gen 1, recharge doesn't get consummed if the target cannot move because of freeze.
         # In future gens, recharge is checked first, so reason == "recharge" will happen first.
         if (self.reason == "recharge"

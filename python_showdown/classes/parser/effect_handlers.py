@@ -191,46 +191,8 @@ def _activation_event(
                 target=pokemon,
                 copied_move=message.arguments[2],
             )
+        return []
 
-        move_data = dex.gen(context.gen).move(move)
-        assert isinstance(move_data, dict), move_data
-        enemy_minor_status = move_data.get("volatileStatus", "")
-        assert isinstance(enemy_minor_status, str), enemy_minor_status
-
-        actor: PokemonIdent | None = None
-        for ann in message.annotations:
-            if ann.name == "of":
-                pokemon_str = ann.value
-                assert isinstance(pokemon_str, str), pokemon_str
-                actor = PokemonIdent.from_str(pokemon_str)
-
-        out: list[BaseEvent] = []
-        if enemy_minor_status:
-            out.append(
-                MinorStatusEvent(
-                    source=EffectSource(type=SourceType.MOVE, name=enemy_minor_status, actor=actor),
-                    target=pokemon,
-                    effect=MinorStatus(enemy_minor_status),
-                    started=True,
-                )
-            )
-        self_ = move_data.get("self", {})
-        assert isinstance(self_, dict)
-        self_minor_status = self_.get("volatileStatus", "")
-        assert isinstance(self_minor_status , str), self_minor_status
-
-        if self_minor_status:
-            if context.gen != 1:
-                raise ValueError("The move['self']['volatileStatus'] only exists in gen 1")
-            out.append(
-                MinorStatusEvent(
-                    source=EffectSource(type=SourceType.MOVE, name=self_minor_status ),
-                    target=pokemon,
-                    effect=MinorStatus(self_minor_status),
-                    started=True,
-                )
-            )
-        return out
     if effect.casefold().startswith("item: "):
         item = effect[6:].strip()
 
@@ -260,6 +222,7 @@ def _activation_event(
         return unhandled_event(message)
 
     return MinorStatusActivationEvent(
+        source=context.source,
         target=pokemon,
         effect=minor_status,
     )
