@@ -50,7 +50,6 @@ from python_showdown.classes.parser.fields import (
 )
 from python_showdown.classes.parser.models import (
     EffectSource,
-    PokemonIdent,
     ProtocolMessage,
 )
 from python_showdown.classes.parser.protocol import (
@@ -126,17 +125,21 @@ def _ability_event(
     if source.type == SourceType.UNKNOWN:
         source = EffectSource(
             type=SourceType.ABILITY,
-            name=ability,
+            # name=ability,
             actor=pokemon,
             action_id=default_source.action_id,
         )
-
+    reveals_base = (
+        message.command == "-ability"
+        and not has_annotation(message, "from")
+    )
     return AbilityEvent(
         pokemon=pokemon,
         ability=ability,
         active=active,
         context=context,
         source=source,
+        reveals_base=reveals_base
     )
 
 
@@ -160,7 +163,10 @@ def _activation_event(
             raise ValueError(f"Empty activated ability in {message.raw!r}")
 
         context_str = message.arguments[2] if len(message.arguments) == 3 else None
-
+        reveals_base = (
+            message.command == "-ability"
+            and not has_annotation(message, "from")
+        )
         return AbilityEvent(
             pokemon=pokemon,
             ability=ability,
@@ -172,13 +178,16 @@ def _activation_event(
                 actor=pokemon,
                 action_id=None,
             ),
+            reveals_base=reveals_base
         )
 
     if effect.casefold().startswith("move: "):
         move = effect[6:].strip()
 
         if not move:
-            raise ValueError(f"Empty activated move in {message.raw!r}")
+            raise ValueError(
+                f"Empty activated move in {message.raw!r}"
+            )
 
         if move.casefold() == "mimic" and len(message.arguments) == 3:
             return MoveCopiedEvent(
@@ -191,6 +200,23 @@ def _activation_event(
                 target=pokemon,
                 copied_move=message.arguments[2],
             )
+
+        move_data = dex.gen(context.gen).move(move)
+        assert isinstance(move_data, dict), move_data
+
+        volatile_status = move_data.get("volatileStatus")
+        if volatile_status == MinorStatus.PARTIALLY_TRAPPED.value:
+            return MinorStatusEvent(
+                source=parse_effect_source(
+                    message,
+                    context.source,
+                    affected=pokemon,
+                ),
+                target=pokemon,
+                effect=MinorStatus.PARTIALLY_TRAPPED,
+                started=True,
+            )
+
         return []
 
     if effect.casefold().startswith("item: "):

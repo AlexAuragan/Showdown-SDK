@@ -99,3 +99,4 @@ class EnemyPokemon(Pokemon):
         self.temporary_moves = []
         self.disabled_moves = []
         self.forme = None
+        self.current_ability = self.base_ability

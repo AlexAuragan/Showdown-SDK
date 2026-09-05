@@ -31,22 +31,31 @@ def _ident_raw(ident: PokemonIdent) -> str:
         return f"{ident.player}{ident.slot}: {ident.name}"
     return f"{ident.player}: {ident.name}"
 
-def _baton_pass_status(source: Status, gen: int) -> Status:
-    passed = Status()
-    passed.copy_stat_changes(source)
 
-    if gen <= 4:
-        if MinorStatus.TRAPPED in source.minor:
-            if source.trapped_by_side is None:
-                raise RuntimeError(
-                    "TRAPPED status has no trapping source"
-                )
-            passed.set_trapped(source.trapped_by_side)
+def _copy_baton_pass_status(
+    target: Status,
+    source: Status,
+    gen: int,
+) -> None:
+    target.copy_stat_changes(source)
 
-        if MinorStatus.LEECH_SEED in source.minor:
-            passed.add_minor(MinorStatus.LEECH_SEED)
+    if gen > 4:
+        return
 
-    return passed
+    if MinorStatus.TRAPPED in source.minor:
+        if source.trapped_by_side is None:
+            raise RuntimeError(
+                "TRAPPED status has no trapping source"
+            )
+
+        target.set_trapped(source.trapped_by_side)
+
+    for effect in {
+        MinorStatus.LEECH_SEED,
+        MinorStatus.PARTIALLY_TRAPPED,
+    }:
+        if effect in source.minor:
+            target.add_minor(effect)
 
 def _ident_self_key(ident: PokemonIdent) -> str:
     """The side-level identifier used by `PartyPokemon.id` (`p1: Miltank`)."""
@@ -594,13 +603,14 @@ class PokemonSwitchEvent(BattleEvent):
     baton_pass: bool = False
 
     @override
-    def _update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(
+        self,
+        battle_state: BattleState,
+    ) -> None:
         gen = battle_state.gen
         if gen is None:
             raise RuntimeError("gen is not set")
 
-        # A normal switch by the trapping side breaks Mean Look.
-        # Baton Pass preserves the trapping relationship.
         if not self.baton_pass and self.command != "replace":
             _clear_traps_sourced_by_side(
                 battle_state,
@@ -610,12 +620,16 @@ class PokemonSwitchEvent(BattleEvent):
         if _is_self(battle_state, self.pokemon):
             old_status = battle_state.curr_pokemon_status
 
-            if self.baton_pass:
-                new_status = _baton_pass_status(old_status, gen)
-            else:
-                new_status = Status()
+            new_status = Status(
+                major=self.major_status,
+            )
 
-            new_status.major = self.major_status
+            if self.baton_pass:
+                _copy_baton_pass_status(
+                    new_status,
+                    old_status,
+                    gen,
+                )
 
             battle_state.set_active_pokemon(
                 _ident_self_key(self.pokemon)
@@ -627,16 +641,22 @@ class PokemonSwitchEvent(BattleEvent):
             battle_state.curr_pokemon_status = new_status
             return
 
-        outgoing = battle_state.get_enemy_pokemon(
-            battle_state.curr_enemy_pokemon,
-            not_found_ok=True,
-        )
+        passed_status: Status | None = None
 
-        passed_status = (
-            _baton_pass_status(outgoing.status, gen)
-            if self.baton_pass and outgoing is not None
-            else None
-        )
+        if self.baton_pass:
+            outgoing = battle_state.get_enemy_pokemon(
+                battle_state.curr_enemy_pokemon,
+                not_found_ok=True,
+            )
+
+            if outgoing is not None:
+                passed_status = Status()
+
+                _copy_baton_pass_status(
+                    passed_status,
+                    outgoing.status,
+                    gen,
+                )
 
         gender, shiny = _parse_details(self.details)
         level = self.level if self.level is not None else 100
@@ -659,7 +679,11 @@ class PokemonSwitchEvent(BattleEvent):
         enemy.reset_on_switch_in()
 
         if passed_status is not None:
-            enemy.status = passed_status
+            _copy_baton_pass_status(
+                enemy.status,
+                passed_status,
+                gen,
+            )
 
 @dataclass(frozen=True)
 class TransformEvent(BattleEvent):
@@ -698,11 +722,26 @@ class AbilityEvent(BattleEvent):
     active: bool = True
     source: EffectSource | None = None
     context: str | None = None
+    reveals_base: bool = False
 
     @override
-    def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.pokemon)
-        if enemy is not None:
+    def _update_battle_state(
+        self,
+        battle_state: BattleState,
+    ) -> None:
+        enemy = _resolve_enemy(
+            battle_state,
+            self.pokemon,
+        )
+        if enemy is None:
+            return
+
+        if not self.active:
+            return
+
+        enemy.current_ability = self.ability
+
+        if self.reveals_base:
             enemy.base_ability = self.ability
 
 

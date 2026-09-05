@@ -602,16 +602,6 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         ref["reportPercentages"]
     )
 
-    def ref_gender(
-        ref_set: SerializableObject,
-    ) -> str | None:
-        value = ref_set["gender"]
-
-        if value is None or value is False or value == "":
-            return None
-
-        return expect_string(value)
-
     for index, enemy in enumerate(battle_state.enemy_team):
         path = f"enemy_team[{index}]"
 
