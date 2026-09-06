@@ -122,14 +122,24 @@ def _ability_event(
         affected=pokemon,
     )
 
-    if source.type == SourceType.UNKNOWN:
+    if source.type == SourceType.ABILITY:
+        # [of] is not guaranteed to be the owner of the source ability.
+        # Trace, for example, uses [of] for the Pokémon being copied.
+        source = EffectSource(
+            type=source.type,
+            name=source.name,
+            actor=source.actor,
+            action_id=source.action_id,
+        )
+
+    elif source.type == SourceType.UNKNOWN:
         source = EffectSource(
             type=SourceType.ABILITY,
-            # name=ability,
             actor=pokemon,
             action_id=default_source.action_id,
-            owner=pokemon
+            owner=pokemon,
         )
+
     reveals_base = (
         message.command == "-ability"
         and not has_annotation(message, "from")
@@ -178,6 +188,7 @@ def _activation_event(
                 name=ability,
                 actor=pokemon,
                 action_id=None,
+                owner=pokemon,
             ),
             reveals_base=reveals_base
         )

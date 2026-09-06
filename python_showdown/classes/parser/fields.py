@@ -160,7 +160,7 @@ def parse_effect_source(
     }:
         return EffectSource(
             type=SourceType.STATUS,
-            # name=lowered,
+            name=lowered,
             actor=actor,
         )
 
