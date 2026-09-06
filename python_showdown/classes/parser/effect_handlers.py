@@ -128,6 +128,7 @@ def _ability_event(
             # name=ability,
             actor=pokemon,
             action_id=default_source.action_id,
+            owner=pokemon
         )
     reveals_base = (
         message.command == "-ability"
@@ -232,6 +233,7 @@ def _activation_event(
                 name=item,
                 actor=pokemon,
                 action_id=None,
+                owner=pokemon
             ),
             pokemon=pokemon,
             item=item,

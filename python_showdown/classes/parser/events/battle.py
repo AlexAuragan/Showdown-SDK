@@ -180,24 +180,27 @@ def _reveal_effect_source(
     battle_state: BattleState,
     source: EffectSource,
 ) -> None:
-    if source.actor is None or source.name is None:
+    if source.owner is None or source.name is None:
         return
 
-    enemy = _resolve_enemy(battle_state, source.actor)
+    enemy = _resolve_enemy(
+        battle_state,
+        source.owner,
+    )
     if enemy is None:
         return
 
     if source.type == SourceType.ITEM:
         if enemy.item is Unknown.VALUE:
             enemy.item = source.name
-        else:
-            if "berry" in source.name.lower():
-                return # Consummable can be an effect for a pokemon with no item anymore
-            assert enemy.item == source.name, f"{enemy.item=}, {source.name=}"
-    return
-    # Actually the source.actor is not always the owner of the ability, we can scratch that.
-    # I wonder if we could use the dex to disambiguate the ability owner.
-    # There also the issue of changing ability we need to catch, much like consummable items
+            return
+
+        assert enemy.item == source.name, (
+            f"{enemy.item=}, {source.name=}"
+        )
+
+    if source.type == SourceType.ABILITY:
+        enemy.current_ability = source.name
 
 class BattleEvent(BaseEvent, metaclass=ABCMeta):
     @abstractmethod

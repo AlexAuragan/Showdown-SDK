@@ -57,8 +57,9 @@ class EffectSource:
 
     type: SourceType
     name: str | None = None
-    actor: PokemonIdent | None = None
+    actor: PokemonIdent | None = None # Pokemon causing the effect
     action_id: int | None = None
+    owner: PokemonIdent | None = None # Item/ability owner
 
 
 @dataclass(frozen=True)

@@ -33,8 +33,8 @@ BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    "gen1randombattle",
-    "gen2randombattle",
+    # "gen1randombattle",
+    # "gen2randombattle",
     "gen3randombattle",
     "gen4randombattle",
 ]

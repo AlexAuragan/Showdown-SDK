@@ -98,34 +98,81 @@ def parse_effect_source(
 ) -> EffectSource:
     from_value = annotation_value(message, "from")
     if from_value is None:
-        return default_source if inherit_default else EffectSource(type=SourceType.UNKNOWN)
+        return (
+            default_source
+            if inherit_default
+            else EffectSource(type=SourceType.UNKNOWN)
+        )
 
-    actor_value = annotation_value(message, "of")
-    actor = parse_pokemon_ident(actor_value) if actor_value is not None else affected
+    of_value = annotation_value(message, "of")
+    explicit_actor = (
+        parse_pokemon_ident(of_value)
+        if of_value is not None
+        else None
+    )
+
+    actor = (
+        explicit_actor
+        if explicit_actor is not None
+        else affected
+    )
+
     normalized = from_value.strip()
     lowered = normalized.casefold()
 
     if lowered == "recoil":
         return EffectSource(
-            SourceType.RECOIL,
-            default_source.name,
-            default_source.actor,
-            default_source.action_id,
+            type=SourceType.RECOIL,
+            name=default_source.name,
+            actor=default_source.actor,
+            action_id=default_source.action_id,
         )
+
     if lowered.startswith("move: "):
         return EffectSource(
-            SourceType.MOVE, normalized[6:], actor, default_source.action_id
+            type=SourceType.MOVE,
+            name=normalized[6:],
+            actor=actor,
+            action_id=default_source.action_id,
         )
+
     if lowered.startswith("item: "):
         return EffectSource(
-            SourceType.ITEM, normalized[6:], actor, default_source.action_id
+            type=SourceType.ITEM,
+            name=normalized[6:],
+            actor=actor,
+            action_id=default_source.action_id,
+            owner=explicit_actor,
         )
+
     if lowered.startswith("ability: "):
         return EffectSource(
-            SourceType.ABILITY, normalized[9:], actor, default_source.action_id
+            type=SourceType.ABILITY,
+            name=normalized[9:],
+            actor=actor,
+            action_id=default_source.action_id,
+            owner=explicit_actor,
         )
-    if lowered in {status.value.casefold() for status in MajorStatus}:
-        return EffectSource(SourceType.STATUS, lowered, actor, None)
+
+    if lowered in {
+        status.value.casefold()
+        for status in MajorStatus
+    }:
+        return EffectSource(
+            type=SourceType.STATUS,
+            # name=lowered,
+            actor=actor,
+        )
+
     if lowered in {"sandstorm", "hail", "snow"}:
-        return EffectSource(SourceType.WEATHER, normalized, None, None)
-    return EffectSource(SourceType.UNKNOWN, normalized, actor, default_source.action_id)
+        return EffectSource(
+            type=SourceType.WEATHER,
+            name=normalized,
+        )
+
+    return EffectSource(
+        type=SourceType.UNKNOWN,
+        name=normalized,
+        actor=actor,
+        action_id=default_source.action_id,
+    )
