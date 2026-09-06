@@ -25,6 +25,29 @@ from python_showdown.models.sdk.battle_state import BattleState, SourceType
 from python_showdown.utils.serialization import SerializableObject
 
 
+def _showdown_volatile_id(
+    effect: MinorStatus,
+) -> str:
+    match effect:
+        case MinorStatus.RECHARGE:
+            return "mustrecharge"
+
+        case MinorStatus.PERISH_SONG:
+            return "perishsong"
+
+        case (
+            MinorStatus.FLY
+            | MinorStatus.DIVE
+            | MinorStatus.TUNNEL
+        ):
+            return "twoturnmove"
+
+        case MinorStatus.REPEAT:
+            return "lockedmove"
+
+        case _:
+            return to_id(effect.value)
+
 def _ident_raw(ident: PokemonIdent) -> str:
     """Reconstruct the protocol identifier string (`p2a: Magnemite`)."""
     if ident.slot is not None:
@@ -39,24 +62,33 @@ def _copy_baton_pass_status(
 ) -> None:
     target.copy_stat_changes(source)
 
-    if gen > 4:
-        return
+    generation = dex.gen(gen)
 
-    if MinorStatus.TRAPPED in source.minor:
-        if source.trapped_by_side is None:
-            raise RuntimeError(
-                "TRAPPED status has no trapping source"
+    for effect in source.minor:
+        volatile_id = _showdown_volatile_id(effect)
+
+        if not generation.is_volatile_copyable(
+            volatile_id
+        ):
+            continue
+
+        if effect is MinorStatus.TRAPPED:
+            if source.trapped_by_side is None:
+                raise RuntimeError(
+                    "TRAPPED status has no trapping source"
+                )
+
+            target.set_trapped(
+                source.trapped_by_side
             )
+            continue
 
-        target.set_trapped(source.trapped_by_side)
+        target.add_minor(effect)
 
-    for effect in {
-        MinorStatus.LEECH_SEED,
-        MinorStatus.PARTIALLY_TRAPPED,
-        MinorStatus.SUBSTITUTE,
-    }:
-        if effect in source.minor:
-            target.add_minor(effect)
+        if effect is MinorStatus.PERISH_SONG:
+            target.perish_count = (
+                source.perish_count
+            )
 
 def _ident_self_key(ident: PokemonIdent) -> str:
     """The side-level identifier used by `PartyPokemon.id` (`p1: Miltank`)."""
@@ -371,31 +403,65 @@ class MoveCopiedEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     copied_move: str
-
     @override
-    def _update_battle_state(self, battle_state: BattleState) -> None:
-        enemy = _resolve_enemy(battle_state, self.target)
+    def _update_battle_state(
+        self,
+        battle_state: BattleState,
+    ) -> None:
+        own = _resolve_self(
+            battle_state,
+            self.target,
+        )
+
+        if own is not None:
+            mimic_slots = [
+                index
+                for index, move in enumerate(own.moves)
+                if to_id(move) == "mimic"
+            ]
+
+            if len(mimic_slots) != 1:
+                raise RuntimeError(
+                    "Own Pokémon used Mimic but expected exactly "
+                    + f"one Mimic slot: {own.moves}"
+                )
+
+            own.moves[mimic_slots[0]] = self.copied_move
+            return
+
+        enemy = _resolve_enemy(
+            battle_state,
+            self.target,
+        )
         if enemy is None:
             return
 
         if enemy.transformed_into is not None:
-            for index, move in enumerate(enemy.temporary_moves):
+            for index, move in enumerate(
+                enemy.temporary_moves
+            ):
                 if to_id(move) == "mimic":
-                    enemy.temporary_moves[index] = self.copied_move
+                    enemy.temporary_moves[index] = (
+                        self.copied_move
+                    )
                     return
 
             raise RuntimeError(
-                "Transformed Pokémon used Mimic but Mimic is not present "
-                + f"in temporary_moves: {enemy.temporary_moves}"
+                "Transformed Pokémon used Mimic but Mimic "
+                + "is not present in temporary_moves: "
+                + f"{enemy.temporary_moves}"
             )
 
+        if to_id(self.copied_move) == "mimic":
+            return
+
         if self.copied_move not in enemy.temporary_moves:
-            enemy.temporary_moves.append(self.copied_move)
+            enemy.temporary_moves.append(
+                self.copied_move
+            )
 
         if "Mimic" not in enemy.disabled_moves:
             enemy.disabled_moves.append("Mimic")
-
-
 @dataclass(frozen=True)
 class MinorStatusActivationEvent(BattleEvent):
     """
@@ -606,13 +672,15 @@ class SideConditionEvent(BattleEvent):
                     slot.pop(self.condition, None)
             return
 
-        # if side is set to None, apply the condition event on all sides
-        for conds in side_conds.values():
-            if self.started:
-                conds[self.condition] = conds.get(self.condition, 0) + 1
-            else:
-                if self.condition in conds:
-                    conds.pop(self.condition)
+        # side=None is used for field-wide conditions such as Trick Room.
+        field_conditions = side_conds.setdefault("field", {})
+
+        if self.started:
+            field_conditions[self.condition] = (
+                field_conditions.get(self.condition, 0) + 1
+            )
+        else:
+            field_conditions.pop(self.condition, None)
 
 
 @dataclass(frozen=True)
@@ -770,29 +838,47 @@ class AbilityEvent(BattleEvent):
     reveals_base: bool = False
 
     @override
-    def _update_battle_state(self, battle_state: BattleState) -> None:
+    def _update_battle_state(
+        self,
+        battle_state: BattleState,
+    ) -> None:
         if not self.active:
             return
 
-        enemy = _resolve_enemy(battle_state, self.pokemon)
-        if enemy is not None:
-            enemy.current_ability = self.ability
-
-            if self.context is not None and to_id(self.context) == "trace":
-                enemy.base_ability = "Trace"
-                return
-
-            if (
-                self.reveals_base
-                and enemy.base_ability is Unknown.VALUE
-            ):
-                enemy.base_ability = self.ability
-
+        if _is_self(
+            battle_state,
+            self.pokemon,
+        ):
+            battle_state.curr_pokemon_ability = (
+                self.ability
+            )
             return
 
-        own = _resolve_self(battle_state, self.pokemon)
-        if own is not None:
-            battle_state.curr_pokemon_ability = self.ability
+        enemy = _resolve_enemy(
+            battle_state,
+            self.pokemon,
+        )
+        if enemy is None:
+            return
+
+        # Transform can change the current ability, but never the Pokémon's original ability.
+        if enemy.transformed_into is not None:
+            return
+
+        enemy.current_ability = self.ability
+
+        if (
+            self.context is not None
+            and to_id(self.context) == "trace"
+        ):
+            enemy.base_ability = "Trace"
+            return
+
+        if (
+            self.reveals_base
+            and enemy.base_ability is Unknown.VALUE
+        ):
+            enemy.base_ability = self.ability
 
 @dataclass(frozen=True)
 class StatSetEvent(BattleEvent):

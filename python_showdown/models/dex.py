@@ -8,6 +8,7 @@ from typing import ClassVar, Self, override
 from python_showdown.utils.serialization import (
     Serializable,
     SerializableObject,
+    expect_bool,
     expect_object,
 )
 
@@ -211,6 +212,60 @@ class GenerationDex:
             table.refresh()
         self._metadata = None
         self._charge_moves = None
+
+    def condition(
+        self,
+        name: str,
+    ) -> SerializableObject:
+        condition_id = to_id(name)
+
+        if condition_id in self.conditions:
+            return expect_object(
+                self.conditions[condition_id],
+                name=f"condition {condition_id!r}",
+            )
+
+        for effect_type, table in (
+            ("move", self.moves),
+            ("ability", self.abilities),
+            ("item", self.items),
+        ):
+            if condition_id not in table:
+                continue
+
+            effect = expect_object(
+                table[condition_id],
+                name=f"{effect_type} {condition_id!r}",
+            )
+
+            raw_condition = effect.get("condition")
+            if raw_condition is None:
+                continue
+
+            return expect_object(
+                raw_condition,
+                name=f"{effect_type} {condition_id!r}.condition",
+            )
+
+        raise KeyError(
+            f"No condition {condition_id!r} in generation {self.number}"
+        )
+
+
+    def is_volatile_copyable(
+        self,
+        name: str,
+    ) -> bool:
+        condition = self.condition(name)
+
+        raw_no_copy = condition.get("noCopy")
+        if raw_no_copy is None:
+            return True
+
+        return not expect_bool(
+            raw_no_copy,
+            name=f"condition {to_id(name)!r}.noCopy",
+        )
 
 @dataclass(slots=True, init=False)
 class Dex:
