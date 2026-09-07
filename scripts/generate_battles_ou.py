@@ -104,10 +104,14 @@ async def run_battle(
         return asdict(result_1)
 
     except BaseException:
+
+        if battle_waiter_1 is not None:
+            battle_waiter_1.cancel()
+        if battle_waiter_2 is not None:
+            battle_waiter_2.cancel()
+
         if battle_waiter_1 is None or battle_waiter_2 is None:
             raise
-        battle_waiter_1.cancel()
-        battle_waiter_2.cancel()
 
         await asyncio.gather(
             battle_waiter_1,

@@ -930,6 +930,14 @@ class ItemEvent(BattleEvent):
     previous_owner: PokemonIdent | None = None
 
     @override
+    def update_battle_state(
+        self,
+        battle_state: BattleState,
+    ) -> None:
+        self._update_battle_state(battle_state) # Bypasses auto-reveal
+
+
+    @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         if self.gained:
             # A transfer (Thief / Knock Off): the previous owner loses the item.

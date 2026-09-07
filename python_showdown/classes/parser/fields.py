@@ -146,12 +146,17 @@ def parse_effect_source(
         )
 
     if lowered.startswith("ability: "):
+        owner = None
+
+        if affected is not None and (explicit_actor is None or explicit_actor == affected):
+            owner = affected
+
         return EffectSource(
             type=SourceType.ABILITY,
             name=normalized[9:],
             actor=actor,
             action_id=default_source.action_id,
-            owner=explicit_actor,
+            owner=owner,
         )
 
     if lowered in {
