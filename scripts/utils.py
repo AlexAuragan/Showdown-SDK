@@ -88,19 +88,19 @@ async def run_battle(
         return asdict(result_1)
 
     except BaseException:
+        waiters = [
+            waiter
+            for waiter in (battle_waiter_1, battle_waiter_2)
+            if waiter is not None
+        ]
 
-        if battle_waiter_1 is not None:
-            battle_waiter_1.cancel()
-        if battle_waiter_2 is not None:
-            battle_waiter_2.cancel()
+        for waiter in waiters:
+            waiter.cancel()
 
-        if battle_waiter_1 is None or battle_waiter_2 is None:
-            raise
-
-        await asyncio.gather(
-            battle_waiter_1,
-            battle_waiter_2,
-            return_exceptions=True,
-        )
+        if waiters:
+            await asyncio.gather(
+                *waiters,
+                return_exceptions=True,
+            )
 
         raise

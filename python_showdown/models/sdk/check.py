@@ -466,7 +466,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
         # The default Poké Ball is not always serialized into `set`, but a
         # non-default ball can be checked when present.
-        if "pokeball" in ref_set:
+        if ref_set.get("pokeball"):
             same(
                 f"{path}.pokeball",
                 to_id(pokemon.pokeball),
@@ -580,14 +580,15 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             #    expect_string(ref_move["target"]),
             #)
 
-            ref_slot_disabled = expect_bool(ref_move["disabled"])
-            ref_pp = expect_int(ref_move["pp"])
+            if ref_move.get("disabled") != "hidden":
+                ref_slot_disabled = expect_bool(ref_move["disabled"])
+                ref_pp = expect_int(ref_move["pp"])
 
-            same(
-                f"available_moves[{move.id}].disabled",
-                move.disabled,
-                ref_slot_disabled or ref_pp <= 0,
-            )
+                same(
+                    f"available_moves[{move.id}].disabled",
+                    move.disabled,
+                    ref_slot_disabled or ref_pp <= 0,
+                )
 
     # ------------------------------------------------------------------
     # Opponent team
@@ -737,7 +738,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         same(
             f"{path}.shiny",
             enemy.shiny,
-            expect_bool(ref_set["shiny"]),
+            expect_bool(ref_set.get("shiny", False)),
         )
 
         same(

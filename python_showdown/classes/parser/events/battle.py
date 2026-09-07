@@ -24,6 +24,51 @@ from python_showdown.models.pokemon.terrain import SideCondition, Weather
 from python_showdown.models.sdk.battle_state import BattleState, SourceType
 from python_showdown.utils.serialization import SerializableObject
 
+def get_semi_invulnerable_status(
+    move_name: str,
+) -> MinorStatus | None:
+    move_id = to_id(move_name)
+
+    match move_id:
+        case "dig":
+            return MinorStatus.TUNNEL
+        case "dive":
+            return MinorStatus.DIVE
+        case "fly" | "bounce":
+            return MinorStatus.FLY
+        case _:
+            return None
+
+def _sync_own_two_turn_status_from_request(
+    battle_state: BattleState,
+    moves: tuple[RequestMove, ...],
+    wait: bool,
+) -> None:
+    if wait:
+        return
+
+    status = battle_state.curr_pokemon_status
+    if len(moves) != 1:
+        return
+
+    move = moves[0]
+
+    # Locked moves are sent without PP/maxPP.
+    if move.curr_pp is not None or move.max_pp is not None:
+        return
+
+    gen = battle_state.gen
+    if gen is None:
+        raise RuntimeError("gen is not set")
+
+    move_id = to_id(move.id)
+
+    if move_id not in dex.get_charge_moves(gen):
+        return
+
+    minor = get_semi_invulnerable_status(move_id)
+    if minor is not None:
+        status.add_minor(minor)
 
 def _showdown_volatile_id(
     effect: MinorStatus,
@@ -1286,6 +1331,11 @@ class DecisionRequestEvent(BattleEvent):
                     MinorStatus.RECHARGE
                 )
 
+        _sync_own_two_turn_status_from_request(
+            battle_state,
+            self.moves,
+            self.wait,
+        )
         battle_state.update_moves(available_moves)
         battle_state.force_switch = any(self.force_switch)
 
