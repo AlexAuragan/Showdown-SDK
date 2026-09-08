@@ -75,10 +75,13 @@ def main() -> int:
             expected_logs = {p.name for p in battle_dir.glob("client_*_raw.txt")}
             if expected_logs - {path.name}:
                 try:
-                    harness.replay_battle(next(
-                        battle_dir / name for name in expected_logs
-                        if name != path.name
-                    ))
+                    harness.replay_battle(
+                        next(
+                            battle_dir / name
+                            for name in expected_logs
+                            if name != path.name
+                        )
+                    )
                 except Exception:  # noqa: BLE001
                     captured = traceback.format_exc()
                     failures.append((path, captured))
@@ -93,9 +96,9 @@ def main() -> int:
         # the same bug, so only promote the first one and delete the rest
         # to keep tests/sample_battles from flooding. Failing battles stay
         # in sample_battles_auto until the bug is fixed.
-        for index, battle_dir in enumerate(dict.fromkeys(
-            path.parent for path in promoted_paths
-        )):
+        for index, battle_dir in enumerate(
+            dict.fromkeys(path.parent for path in promoted_paths)
+        ):
             destination = PROMOTE_DIRECTORY / format_name
             destination.mkdir(parents=True, exist_ok=True)
             target = destination / battle_dir.name
@@ -106,8 +109,7 @@ def main() -> int:
             if index == 0:
                 shutil.move(str(battle_dir), str(target))
                 print(
-                    f"PROMOTED {battle_dir.name} -> "
-                    f"{target.relative_to(PROJECT_ROOT)}"
+                    f"PROMOTED {battle_dir.name} -> {target.relative_to(PROJECT_ROOT)}"
                 )
             else:
                 shutil.rmtree(battle_dir)

@@ -33,7 +33,6 @@ Usage from pytest::
 """
 
 import json
-from collections.abc import Iterator
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -53,6 +52,7 @@ from python_showdown.classes.parser.exceptions import (
     ObsoleteRequestIdError,
 )
 from python_showdown.classes.parser.protocol import extract_protocol_line
+from python_showdown.models.sdk.battle_state import BattleState
 from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.utils.serialization import Serializable
 
@@ -153,8 +153,12 @@ def split_frames(raw_lines: list[str]) -> list[list[str]]:
 class ReplayResult:
     """Everything a raw replay needs to know, without any file writes.
 
-    - ``client``: the offline client; ``client.battle_manager.battle_state``
-      is the final SDK battle state.
+    - ``client``: the offline client (legacy hook for the CLI wrapper and
+      its file-writing path). Prefer ``final_state``: it will keep working
+      when the ``Client -> Parser -> Manager -> BattleState`` coupling is
+      restructured (Step 2).
+    - ``final_state``: the final SDK battle state
+      (``client.battle_manager.battle_state``).
     - ``events``: serialized emitted events, present only when
       ``replay_battle_raw(..., collect_events=True)`` was requested.
     - ``snapshots``: serialized SDK battle state at each Showdown state
@@ -170,6 +174,12 @@ class ReplayResult:
     has_battlestate_frames: bool
     events: list[Serializable] | None = None
     snapshots: list[Serializable] | None = None
+
+    @property
+    def final_state(self) -> BattleState:
+        """Final SDK battle state, independent of the Client/Manager chain."""
+        return self.client.battle_manager.battle_state
+
     player_id: str = ""
     username: str = ""
     frame_count: int = 0
@@ -278,7 +288,15 @@ def replay_battle_raw(
                 continue
 
             for event in parsed_events:
-                if events is not None:
+                # The custom Showdown battle state embeds the entire recorded
+                # oracle payload (PRNG seed, input_log, internal engine
+                # state...). It stays in the actual replay processing below,
+                # but is excluded from golden event serialization: goldens
+                # must only capture OUR semantic event interpretation, not
+                # the Showdown side.
+                if events is not None and not isinstance(
+                    event, CustomShowdownBattleStateEvent
+                ):
                     # Existing event serialization (BaseEvent.to_dict).
                     events.append(event.to_dict())
                 if isinstance(event, UnhandledEvent):
@@ -328,17 +346,3 @@ def replay_battle_raw(
         line_count=line_count,
         tolerated_errors=tolerated_errors,
     )
-
-
-def iter_fixture_battles(root: Path = FIXTURE_DIRECTORY) -> Iterator[Path]:
-    """Yield every raw battle log curated under ``tests/replay_fixtures/``."""
-    if not root.is_dir():
-        return
-    for path in sorted(root.rglob("client_*_raw.txt")):
-        # Only one side per battle directory is needed; pick client_1.
-        if path.name.endswith("client_1_raw.txt"):
-            yield path
-        else:
-            sibling = path.parent / (path.name.replace("client_2_raw", "client_1_raw"))
-            if not sibling.exists():
-                yield path

@@ -13,12 +13,12 @@ from python_showdown.utils.serialization import (
 )
 
 
-def write_json(path: Path, data: list[SerializableObject] | Serializable | SerializableArray) -> None:
+def write_json(
+    path: Path, data: list[SerializableObject] | Serializable | SerializableArray
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
-        file.write(
-            json.dumps(data)
-        )
+        file.write(json.dumps(data))
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -53,7 +53,6 @@ def save_failed_battle(fmt: str, battle_id: str) -> Path | None:
     return target
 
 
-
 def write_battle_outputs(client: Client, battle_directory: Path | None = None) -> None:
     if battle_directory is None:
         raw_log_path = client.log_manager.latest_raw_log_path()
@@ -79,7 +78,6 @@ def write_failure_outputs(client: Client) -> Path | None:
 
     write_battle_outputs(client)
     return client.log_manager.latest_raw_log_path()
-
 
 
 async def run_battle(

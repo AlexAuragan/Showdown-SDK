@@ -118,6 +118,7 @@ class TeamValidEvent(LobbyEvent):
         if future is not None and not future.done():
             future.set_result(None)
 
+
 @dataclass(frozen=True)
 class UserNotFoundEvent(LobbyEvent):
     user: str

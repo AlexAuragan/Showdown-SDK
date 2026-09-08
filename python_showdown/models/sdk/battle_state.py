@@ -39,9 +39,13 @@ class BattleState:
         ]
         self._curr_pokemon: str = ""
         self._curr_enemy_pokemon: str = ""
-        self.curr_pokemon_status: Status = Status() # Minor status and stat changes reset on switch,
+        self.curr_pokemon_status: Status = (
+            Status()
+        )  # Minor status and stat changes reset on switch,
         # so we only store them for the active pokemon, outside the pokemon dataclass
-        self.curr_pokemon_ability: str | Unknown = Unknown.VALUE # Same for current ability
+        self.curr_pokemon_ability: str | Unknown = (
+            Unknown.VALUE
+        )  # Same for current ability
         self._available_moves: list[AvailableMove] = []
         self.force_switch: bool = False
         self.weather: str | None = None
@@ -57,7 +61,6 @@ class BattleState:
         self.tier: str | None
 
         self.custom_showdown_battlestate: SerializableObject | None = None
-
 
     @property
     def player_id(self) -> str | None:
@@ -105,7 +108,6 @@ class BattleState:
     def get_curr_pokemon(self) -> PartyPokemon:
         return self.get_pokemon(self.curr_pokemon)
 
-
     def get_enemy_pokemon(
         self, pokemon_id: str, not_found_ok: bool = False
     ) -> EnemyPokemon | None:
@@ -146,8 +148,7 @@ class BattleState:
 
         self._team = []
         self._enemy_team = [
-            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100)
-            for _ in range(6)
+            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
         ]
 
         self._curr_pokemon = ""

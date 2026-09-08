@@ -434,10 +434,7 @@ class BattleParser(MessageParser):
             )
 
             clean_details = (
-                details
-                .replace(", shiny", "")
-                .replace(", M", "")
-                .replace(", F", "")
+                details.replace(", shiny", "").replace(", M", "").replace(", F", "")
             )
 
             if ", L" in clean_details:
@@ -539,19 +536,15 @@ class BattleParser(MessageParser):
         )
 
         if not team_preview:
-            raise ValueError(
-                "Team preview request has teamPreview=false"
-            )
+            raise ValueError("Team preview request has teamPreview=false")
 
         raw_request_id = data.get("rqid")
         request_id = expect_optional_int(raw_request_id, name="request['rqid']")
 
-
         raw_max_chosen_team_size = data.get("maxChosenTeamSize")
         max_chosen_team_size = expect_optional_int(
-                raw_max_chosen_team_size,
-                name="request['maxChosenTeamSize']",
-
+            raw_max_chosen_team_size,
+            name="request['maxChosenTeamSize']",
         )
 
         no_cancel = expect_bool(
@@ -564,10 +557,7 @@ class BattleParser(MessageParser):
         if self.player_id is None:
             raise ValueError("self.player_id must not be None")
 
-        if (
-            max_chosen_team_size is not None
-            and max_chosen_team_size > len(pokemon)
-        ):
+        if max_chosen_team_size is not None and max_chosen_team_size > len(pokemon):
             raise ValueError(
                 "maxChosenTeamSize cannot exceed the number of Pokémon: "
                 + f"{max_chosen_team_size=} {len(pokemon)=}"
@@ -596,9 +586,7 @@ class BattleParser(MessageParser):
         try:
             decoded = json.loads(raw_payload)
         except json.JSONDecodeError as exc:
-            raise ValueError(
-                f"Invalid JSON request payload: {raw_payload!r}"
-            ) from exc
+            raise ValueError(f"Invalid JSON request payload: {raw_payload!r}") from exc
 
         data = expect_object(decoded, name="request")
 
@@ -788,8 +776,8 @@ class BattleParser(MessageParser):
                     )
 
                     max_pp = expect_optional_int(
-                            max_pp_value,
-                            name=f"move[{i}]['maxpp']",
+                        max_pp_value,
+                        name=f"move[{i}]['maxpp']",
                     )
 
                     disabled = expect_bool(

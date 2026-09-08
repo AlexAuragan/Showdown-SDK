@@ -223,16 +223,19 @@ class Client:
         if websocket is None:
             raise RuntimeError("Client is not connected")
 
-        if manager.request_id is not None and manager.room_id != self.parser.last_message_room_id:
-                raise RuntimeError(
-                    "Battle room desync: "
-                    + f"manager={manager.room_id!r}, "
-                    + f"parser={self.parser.last_message_room_id!r}, "
-                    + f"rqid={manager.request_id!r}, "
-                    + f"turn={manager.turn}"
-                )
+        if (
+            manager.request_id is not None
+            and manager.room_id != self.parser.last_message_room_id
+        ):
+            raise RuntimeError(
+                "Battle room desync: "
+                + f"manager={manager.room_id!r}, "
+                + f"parser={self.parser.last_message_room_id!r}, "
+                + f"rqid={manager.request_id!r}, "
+                + f"turn={manager.turn}"
+            )
 
-            # await self.act()
+        # await self.act()
 
         try:
             async for payload in websocket:
@@ -274,13 +277,16 @@ class Client:
                             if isinstance(event, BattleEvent):
                                 event.update_manager(self.battle_manager)
                                 if isinstance(event, BattleStartEvent):
-                                        if manager.room_id != self.parser.last_message_room_id:
-                                            raise RuntimeError(
-                                                "BattleStartEvent established the wrong room: "
-                                                + f"manager={manager.room_id!r}, "
-                                                + f"message={self.parser.last_message_room_id!r}"
-                                            )
-                                        self.expecting_battle_room = False
+                                    if (
+                                        manager.room_id
+                                        != self.parser.last_message_room_id
+                                    ):
+                                        raise RuntimeError(
+                                            "BattleStartEvent established the wrong room: "
+                                            + f"manager={manager.room_id!r}, "
+                                            + f"message={self.parser.last_message_room_id!r}"
+                                        )
+                                    self.expecting_battle_room = False
                             elif isinstance(event, LobbyEvent):
                                 event.update_client(self)
                             elif isinstance(event, DiscardedEvent):
@@ -360,8 +366,12 @@ class Client:
                 if manager.requires_team_preview:
                     if manager.room_id is None:
                         raise ValueError("room_id is None")
-                    team_order: list[str] = [str(idx) for idx in self.combat_handler.select_team_order()]
-                    await self.send("/choose team " + ",".join(team_order), room_id=manager.room_id)
+                    team_order: list[str] = [
+                        str(idx) for idx in self.combat_handler.select_team_order()
+                    ]
+                    await self.send(
+                        "/choose team " + ",".join(team_order), room_id=manager.room_id
+                    )
                     manager.requires_team_preview = False
                 elif received_custom_state:
                     pending_request_id = self.pending_state_request_id
@@ -446,7 +456,6 @@ class Client:
 
                 self.named = False
                 self.ready.clear()
-
 
     async def ensure_connected(self) -> None:
         """
@@ -705,7 +714,6 @@ class Client:
             )
 
             await self._leave_battle_room(stale_room)
-
 
     async def get_custom_showdown_battle_state(self):
         if self.battle_manager.room_id is None:

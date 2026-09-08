@@ -41,7 +41,7 @@ class PokemonIdent:
 
     @staticmethod
     def from_str(value: str):
-        """ p1a: Azumarill """
+        """p1a: Azumarill"""
         value = value.strip()
         if ": " not in value:
             raise ValueError(f"Format not supported: {value}")
@@ -51,15 +51,16 @@ class PokemonIdent:
             player, slot = player[:2], player[2]
         return PokemonIdent(name=pokemon, player=player, slot=slot)
 
+
 @dataclass(frozen=True)
 class EffectSource:
     """What caused an effect, and the move action it belongs to when applicable."""
 
     type: SourceType
     name: str | None = None
-    actor: PokemonIdent | None = None # Pokemon causing the effect
+    actor: PokemonIdent | None = None  # Pokemon causing the effect
     action_id: int | None = None
-    owner: PokemonIdent | None = None # Item/ability owner
+    owner: PokemonIdent | None = None  # Item/ability owner
 
 
 @dataclass(frozen=True)

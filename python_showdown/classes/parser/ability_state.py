@@ -104,21 +104,13 @@ def update_protocol_context(
             context.gen = event.gen
             continue
 
-
         if isinstance(event, MoveEvent):
-            if (
-                 event.success
-                 and to_id(event.move) == "batonpass"
-             ):
-                 context.baton_pass_pending.add(
-                     event.source_pokemon.player
-                 )
+            if event.success and to_id(event.move) == "batonpass":
+                context.baton_pass_pending.add(event.source_pokemon.player)
             continue
 
         if isinstance(event, PokemonSwitchEvent):
-            context.baton_pass_pending.discard(
-                event.pokemon.player
-            )
+            context.baton_pass_pending.discard(event.pokemon.player)
             continue
 
         if not isinstance(event, AbilityEvent):

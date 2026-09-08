@@ -3,11 +3,7 @@ from enum import Enum
 from typing import TypeGuard, cast
 
 type SerializableScalar = str | int | float | bool | None
-type Serializable = (
-    SerializableScalar
-    | list[Serializable]
-    | dict[str, Serializable]
-)
+type Serializable = SerializableScalar | list[Serializable] | dict[str, Serializable]
 type SerializableObject = dict[str, Serializable]
 type SerializableArray = list[Serializable]
 
@@ -126,8 +122,6 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
 
     result: SerializableObject = {}
     if is_dataclass(value) and not isinstance(value, type):
-
-
         try:
             values = vars(value)
         except TypeError:
@@ -189,17 +183,13 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
 
     if isinstance(value, (set, frozenset)):
         values = cast(set[object] | frozenset[object], value)
-        serialized = [
-            to_serializable(item, name=f"{name} item")
-            for item in values
-        ]
+        serialized = [to_serializable(item, name=f"{name} item") for item in values]
         return sorted(serialized, key=str)
 
     raise TypeError(f"{name} contains unsupported type {type(value).__name__}")
 
-def to_serializable_object(
-    value: object, *, name: str = "value"
-) -> SerializableObject:
+
+def to_serializable_object(value: object, *, name: str = "value") -> SerializableObject:
     """Convert *value* and require the result to be a JSON object."""
     serialized = to_serializable(value, name=name)
     if not isinstance(serialized, dict):
@@ -209,9 +199,7 @@ def to_serializable_object(
     return serialized
 
 
-def to_serializable_array(
-    value: object, *, name: str = "value"
-) -> SerializableArray:
+def to_serializable_array(value: object, *, name: str = "value") -> SerializableArray:
     """Convert *value* and require the result to be a JSON array."""
     serialized = to_serializable(value, name=name)
     if not isinstance(serialized, list):

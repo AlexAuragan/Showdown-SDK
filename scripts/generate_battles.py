@@ -43,6 +43,7 @@ FORMATS = [
     "gen4randombattle",
 ]
 
+
 def write_error(error: str) -> None:
     with ERROR_LOG.open("a", encoding="utf-8") as file:
         file.write(error)
@@ -61,7 +62,6 @@ async def run_pair(
     failed_battles = 0
 
     for i in range(BATTLES_PER_PAIR):
-
         battle_number = battle_offset + i + 1
         logs.clear_latest_raw_log_path()
 

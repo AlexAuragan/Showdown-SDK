@@ -1,20 +1,24 @@
 """Regression boundary tests for the replay/oracle system.
 
-Every curated battle under ``tests/replay_fixtures/`` is replayed through the
-same reusable core the CLI scripts use (``tests/replay.py``):
+Every curated raw log under ``tests/replay_fixtures/`` — both client
+perspectives of every battle — is replayed through the same reusable core
+the CLI scripts use (``tests/replay.py``):
 
 - the replay must complete without any error (unexpected parser exceptions,
   unhandled protocol events, inconsistent parser state, pending messages and
   Showdown ``rqid`` desyncs all fail the replay), and
 - every Showdown state comparison (``check_battle_state_against_showdown``)
-  is a hard assertion inside the core; a battle that recorded
-  ``|battlestate|`` frames must therefore verify at least one state check.
+  is a hard assertion inside the core; a log that recorded
+  ``|battlestate|`` frames must therefore verify at least one state check —
+  asserted independently per log, so a parser that silently stops emitting
+  ``CustomShowdownBattleStateEvent`` for one side cannot go unnoticed.
 
 A few important fixtures additionally have a *golden event stream* (JSON,
-produced with the existing ``BaseEvent.to_dict()`` serialization). Golden
-tests only detect semantic event regressions; the Showdown state comparison
-inside the replay remains the primary oracle. They are only attached to the
-client_1 logs listed in :data:`GOLDEN_FIXTURES`, not to every fixture.
+produced with the existing ``BaseEvent.to_dict()`` serialization; the
+recorded Showdown oracle payload is excluded). Golden tests only detect
+semantic event regressions; the Showdown state comparison inside the replay
+remains the primary oracle. They are only attached to the client_1 logs
+listed in :data:`GOLDEN_FIXTURES`, not to every fixture.
 
 Set ``SHOWDOWN_REPLAY_UPDATE_GOLDEN=1`` to (re)generate the golden files
 after an intentional, verified semantic change — never to make a failing
@@ -39,66 +43,38 @@ GOLDEN_FIXTURES = (
     "gen4randombattle/battle_610012/client_1_raw.txt",
 )
 
-# Every battle sibling raw log must equally replay, but only one parameter
-# entry per battle directory keeps the pytest id readable.
+
+def raw_log_ids() -> list[str]:
+    return [
+        f"{path.parent.parent.name}-{path.parent.name}-{path.name.removesuffix('_raw.txt')}"
+        for path in raw_log_paths()
+    ]
 
 
-def battle_paths() -> list[Path]:
+def raw_log_paths() -> list[Path]:
+    """Every curated raw log: both client perspectives of every battle."""
     root = FIXTURE_DIRECTORY
     paths: list[Path] = []
     for fmt_dir in sorted(path for path in root.iterdir() if path.is_dir()):
         for battle_dir in sorted(path for path in fmt_dir.iterdir() if path.is_dir()):
             logs = sorted(battle_dir.glob("client_*_raw.txt"))
-            if not logs:
-                raise AssertionError(f"No client_*_raw.txt in fixture {battle_dir}")
-            paths.append(logs[0])
+            assert logs, f"No client_*_raw.txt in fixture {battle_dir}"
+            paths.extend(logs)
     return paths
 
 
-def replay_companion(path: Path) -> None:
-    """Replay the *other* client log of the same battle directory, if any."""
-    battle_dir = path.parent
-    for companion in sorted(battle_dir.glob("client_*_raw.txt")):
-        if companion == path:
-            continue
-        replay_battle_raw(companion)
-
-
-def test_all_curated_fixtures_replay_cleanly() -> None:
-    """Every curated fixture must replay with a verified Showdown state check.
-
-    This is the CI gate required of the curated fixture directory: no
-    unexpected parser exceptions, no unhandled protocol events, no
-    inconsistent parser state, and no SDK/Showdown divergence — any of those
-    raises inside ``replay_battle_raw``.
-    """
-    paths = battle_paths()
-    assert paths, "no curated replay fixtures found"
-
-    verified_checks = 0
-    for path in paths:
-        result = replay_battle_raw(path)
-        replay_companion(path)
-        if result.has_battlestate_frames:
-            expected = "at least one Showdown state check"
-            assert result.showdown_state_checks > 0, (
-                f"{path}: {result.showdown_state_checks} yet {expected}"
-            )
-        verified_checks += result.showdown_state_checks
-
-    assert verified_checks > 0, "expected at least one Showdown state check"
-
-
-def test_replay_client_1_gen1ou() -> None:
-    result = replay_battle_raw(
-        FIXTURE_DIRECTORY / "gen1ou/battle_612889_maybetrapped/client_1_raw.txt"
-    )
-    replay_companion(result.path)
-    assert result.has_battlestate_frames
-    assert result.showdown_state_checks >= 1
+@pytest.mark.parametrize("path", raw_log_paths(), ids=raw_log_ids())
+def test_replayed_log_verifies_oracle(path: Path) -> None:
+    result = replay_battle_raw(path)
     assert result.username
     assert result.frame_count >= 1
     assert result.line_count >= result.frame_count
+    assert result.final_state is not None
+    if result.has_battlestate_frames:
+        assert result.showdown_state_checks > 0, (
+            f"{path}: replay completed without a single Showdown state "
+            + "check although the log records |battlestate| frames"
+        )
 
 
 @pytest.mark.parametrize("relative", GOLDEN_FIXTURES)

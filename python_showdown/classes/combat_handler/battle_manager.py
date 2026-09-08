@@ -178,9 +178,7 @@ class BattleManager:
 
         if battle_finished is not None and not battle_finished.done():
             if error is None:
-                error = RuntimeError(
-                    f"Battle {self.room_id!r} was abandoned"
-                )
+                error = RuntimeError(f"Battle {self.room_id!r} was abandoned")
 
             battle_finished.set_exception(error)
 

@@ -3,6 +3,7 @@
 The Python entrypoint manages a local Node dependency cache under dex/.node and
 runs export.cjs, which uses @pkmn/dex + @pkmn/data to resolve historical data.
 """
+
 import argparse
 import json
 import os
@@ -100,7 +101,9 @@ def main() -> int:
     gens = sorted(set(args.gens))
     invalid = [gen for gen in gens if gen < 1 or gen > 9]
     if invalid:
-        raise SystemExit(f"Unsupported generation(s): {invalid}. Expected values from 1 to 9.")
+        raise SystemExit(
+            f"Unsupported generation(s): {invalid}. Expected values from 1 to 9."
+        )
 
     node = require_executable("node")
     npm = require_executable("npm")

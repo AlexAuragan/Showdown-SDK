@@ -40,6 +40,7 @@ def get_semi_invulnerable_status(
         case _:
             return None
 
+
 def _sync_own_two_turn_status_from_request(
     battle_state: BattleState,
     moves: tuple[RequestMove, ...],
@@ -71,6 +72,7 @@ def _sync_own_two_turn_status_from_request(
     if minor is not None:
         status.add_minor(minor)
 
+
 def _showdown_volatile_id(
     effect: MinorStatus,
 ) -> str:
@@ -81,11 +83,7 @@ def _showdown_volatile_id(
         case MinorStatus.PERISH_SONG:
             return "perishsong"
 
-        case (
-            MinorStatus.FLY
-            | MinorStatus.DIVE
-            | MinorStatus.TUNNEL
-        ):
+        case MinorStatus.FLY | MinorStatus.DIVE | MinorStatus.TUNNEL:
             return "twoturnmove"
 
         case MinorStatus.REPEAT:
@@ -93,6 +91,7 @@ def _showdown_volatile_id(
 
         case _:
             return to_id(effect.value)
+
 
 def _ident_raw(ident: PokemonIdent) -> str:
     """Reconstruct the protocol identifier string (`p2a: Magnemite`)."""
@@ -113,32 +112,26 @@ def _copy_baton_pass_status(
     for effect in source.minor:
         volatile_id = _showdown_volatile_id(effect)
 
-        if not generation.is_volatile_copyable(
-            volatile_id
-        ):
+        if not generation.is_volatile_copyable(volatile_id):
             continue
 
         if effect is MinorStatus.TRAPPED:
             if source.trapped_by_side is None:
-                raise RuntimeError(
-                    "TRAPPED status has no trapping source"
-                )
+                raise RuntimeError("TRAPPED status has no trapping source")
 
-            target.set_trapped(
-                source.trapped_by_side
-            )
+            target.set_trapped(source.trapped_by_side)
             continue
 
         target.add_minor(effect)
 
         if effect is MinorStatus.PERISH_SONG:
-            target.perish_count = (
-                source.perish_count
-            )
+            target.perish_count = source.perish_count
+
 
 def _ident_self_key(ident: PokemonIdent) -> str:
     """The side-level identifier used by `PartyPokemon.id` (`p1: Miltank`)."""
     return f"{ident.player}: {ident.name}"
+
 
 def _clear_traps_sourced_by_side(
     battle_state: BattleState,
@@ -146,14 +139,12 @@ def _clear_traps_sourced_by_side(
 ) -> None:
     statuses = [battle_state.curr_pokemon_status]
 
-    statuses.extend(
-        pokemon.status
-        for pokemon in battle_state.enemy_team
-    )
+    statuses.extend(pokemon.status for pokemon in battle_state.enemy_team)
 
     for status in statuses:
         if status.trapped_by_side == side:
             status.clear_trapped()
+
 
 def _is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
     if not battle_state.player_id:
@@ -198,13 +189,17 @@ def _resolve_self(battle_state: BattleState, ident: PokemonIdent | None):
     key = _ident_self_key(ident)
     return next((p for p in battle_state.team if p.id == key), None)
 
+
 def _resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Status:
     if _is_self(battle_state, ident):
         return battle_state.curr_pokemon_status
     pokemon = _resolve_enemy(battle_state, ident)
     if pokemon is None:
-        raise RuntimeError(f"Pokemon {ident} not found in enemy team {battle_state.enemy_team}")
+        raise RuntimeError(
+            f"Pokemon {ident} not found in enemy team {battle_state.enemy_team}"
+        )
     return pokemon.status
+
 
 def _parse_details(details: str) -> tuple[str | None, bool]:
     """Extract gender and shiny from a switch `details` string, returning the
@@ -221,6 +216,7 @@ def _parse_details(details: str) -> tuple[str | None, bool]:
         gender = "F"
         details = details.replace(", F", "")
     return gender, shiny
+
 
 def _reveal_effect_source(
     battle_state: BattleState,
@@ -241,12 +237,11 @@ def _reveal_effect_source(
             enemy.item = source.name
             return
 
-        assert enemy.item == source.name, (
-            f"{enemy.item=}, {source.name=}"
-        )
+        assert enemy.item == source.name, f"{enemy.item=}, {source.name=}"
 
     if source.type == SourceType.ABILITY:
         enemy.current_ability = source.name
+
 
 class BattleEvent(BaseEvent, metaclass=ABCMeta):
     @abstractmethod
@@ -262,8 +257,7 @@ class BattleEvent(BaseEvent, metaclass=ABCMeta):
 
         self._update_battle_state(battle_state)
 
-
-    def update_manager(self, manager: BattleManager) -> None: # pyright: ignore[reportUnusedParameter]
+    def update_manager(self, manager: BattleManager) -> None:  # pyright: ignore[reportUnusedParameter]
         return
 
 
@@ -305,11 +299,19 @@ class MoveEvent(BattleEvent):
         if gen is None:
             raise RuntimeError("gen is not set")
         if self.source is not None:
-            if self.source.type == SourceType.MOVE and self.source.name == "Mirror Move":
+            if (
+                self.source.type == SourceType.MOVE
+                and self.source.name == "Mirror Move"
+            ):
                 return
-            if self.source.type == SourceType.ABILITY and self.source.name == "Magic Bounce":
+            if (
+                self.source.type == SourceType.ABILITY
+                and self.source.name == "Magic Bounce"
+            ):
                 return
-            if self.source.name == self.move and to_id(self.move) in dex.get_charge_moves(gen):
+            if self.source.name == self.move and to_id(
+                self.move
+            ) in dex.get_charge_moves(gen):
                 # Double part moves can cause issue with Mirror move
                 return
         enemy = _resolve_enemy(battle_state, self.source_pokemon)
@@ -324,12 +326,12 @@ class MoveEvent(BattleEvent):
             if (
                 isinstance(move_data, dict)
                 and move_data.get("volatileStatus")
-                    == MinorStatus.PARTIALLY_TRAPPED.value
+                == MinorStatus.PARTIALLY_TRAPPED.value
             ):
-                condition = dex.gen(gen).conditions[
-                    MinorStatus.PARTIALLY_TRAPPED.value
-                ]
-                duration = condition.get("duration") if isinstance(condition, dict) else None
+                condition = dex.gen(gen).conditions[MinorStatus.PARTIALLY_TRAPPED.value]
+                duration = (
+                    condition.get("duration") if isinstance(condition, dict) else None
+                )
                 target_status = _resolve_any_status(
                     battle_state,
                     self.target_pokemon,
@@ -373,10 +375,10 @@ class HealEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-        cures_status = (
-            self.source.type == SourceType.MOVE
-            and self.source.name in {"Healing Wish", "Lunar Dance"}
-        )
+        cures_status = self.source.type == SourceType.MOVE and self.source.name in {
+            "Healing Wish",
+            "Lunar Dance",
+        }
 
         enemy = _resolve_enemy(battle_state, self.target)
         if enemy is not None:
@@ -396,6 +398,7 @@ class HealEvent(BattleEvent):
             if cures_status:
                 own.major_status = None
                 battle_state.curr_pokemon_status.clear_all_major_status()
+
 
 @dataclass(frozen=True)
 class MinorStatusEvent(BattleEvent):
@@ -429,9 +432,9 @@ class MajorStatusEvent(BattleEvent):
             # `|faint|` is emitted as a FAINT MajorStatusEvent. Both sides are
             # affected; the enemy is marked fainted and benched.
             _clear_traps_sourced_by_side(
-                    battle_state,
-                    self.target.player,
-                )
+                battle_state,
+                self.target.player,
+            )
             enemy = _resolve_enemy(battle_state, self.target)
             if enemy is not None:
                 enemy.reset_on_switch_in()
@@ -452,10 +455,7 @@ class MajorStatusEvent(BattleEvent):
 
             # Gen 1: successfully putting a Pokémon to sleep while it is waiting
             # to recharge cancels the pending recharge.
-            if (
-                battle_state.gen == 1
-                and self.status is MajorStatus.SLEEP
-            ):
+            if battle_state.gen == 1 and self.status is MajorStatus.SLEEP:
                 status.remove_minor(MinorStatus.RECHARGE)
         else:
             status.clear_status(self.status)
@@ -473,6 +473,7 @@ class MoveCopiedEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     copied_move: str
+
     @override
     def _update_battle_state(
         self,
@@ -485,9 +486,7 @@ class MoveCopiedEvent(BattleEvent):
 
         if own is not None:
             mimic_slots = [
-                index
-                for index, move in enumerate(own.moves)
-                if to_id(move) == "mimic"
+                index for index, move in enumerate(own.moves) if to_id(move) == "mimic"
             ]
 
             if len(mimic_slots) != 1:
@@ -507,13 +506,9 @@ class MoveCopiedEvent(BattleEvent):
             return
 
         if enemy.transformed_into is not None:
-            for index, move in enumerate(
-                enemy.temporary_moves
-            ):
+            for index, move in enumerate(enemy.temporary_moves):
                 if to_id(move) == "mimic":
-                    enemy.temporary_moves[index] = (
-                        self.copied_move
-                    )
+                    enemy.temporary_moves[index] = self.copied_move
                     return
 
             raise RuntimeError(
@@ -526,12 +521,12 @@ class MoveCopiedEvent(BattleEvent):
             return
 
         if self.copied_move not in enemy.temporary_moves:
-            enemy.temporary_moves.append(
-                self.copied_move
-            )
+            enemy.temporary_moves.append(self.copied_move)
 
         if "Mimic" not in enemy.disabled_moves:
             enemy.disabled_moves.append("Mimic")
+
+
 @dataclass(frozen=True)
 class MinorStatusActivationEvent(BattleEvent):
     """
@@ -543,6 +538,7 @@ class MinorStatusActivationEvent(BattleEvent):
     This does not start or end the status. It records that the status affected
     the current action.
     """
+
     source: EffectSource
     target: PokemonIdent
     effect: MinorStatus
@@ -555,9 +551,7 @@ class MinorStatusActivationEvent(BattleEvent):
             return
         actor = self.source.actor
         if actor is None:
-            raise RuntimeError(
-                "TRAPPED activation has no source actor"
-            )
+            raise RuntimeError("TRAPPED activation has no source actor")
 
         status = _resolve_any_status(
             battle_state,
@@ -607,7 +601,8 @@ class MovePrepareEvent(BattleEvent):
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
-       return # prepare is always after a |move|, so we don't record it here
+        return  # prepare is always after a |move|, so we don't record it here
+
 
 @dataclass(frozen=True)
 class TeamCureEvent(BattleEvent):
@@ -676,11 +671,13 @@ class CopyBoostEvent(BattleEvent):
         target_status = _resolve_any_status(battle_state, self.target)
         user_status.copy_stat_changes(target_status)
 
+
 @dataclass(frozen=True)
 class ClearNegativeBostsEvent(BattleEvent):
     """
     Resests all active Pokémon's negative stat changes to zero
     """
+
     target: PokemonIdent
     source: EffectSource | None
 
@@ -794,9 +791,7 @@ class PokemonSwitchEvent(BattleEvent):
                     gen,
                 )
 
-            battle_state.set_active_pokemon(
-                _ident_self_key(self.pokemon)
-            )
+            battle_state.set_active_pokemon(_ident_self_key(self.pokemon))
             own = _resolve_self(battle_state, self.pokemon)
             if own is not None:
                 battle_state.curr_pokemon_ability = own.base_ability
@@ -852,6 +847,7 @@ class PokemonSwitchEvent(BattleEvent):
                 passed_status,
                 gen,
             )
+
 
 @dataclass(frozen=True)
 class TransformEvent(BattleEvent):
@@ -919,9 +915,7 @@ class AbilityEvent(BattleEvent):
             battle_state,
             self.pokemon,
         ):
-            battle_state.curr_pokemon_ability = (
-                self.ability
-            )
+            battle_state.curr_pokemon_ability = self.ability
             return
 
         enemy = _resolve_enemy(
@@ -937,18 +931,13 @@ class AbilityEvent(BattleEvent):
 
         enemy.current_ability = self.ability
 
-        if (
-            self.context is not None
-            and to_id(self.context) == "trace"
-        ):
+        if self.context is not None and to_id(self.context) == "trace":
             enemy.base_ability = "Trace"
             return
 
-        if (
-            self.reveals_base
-            and enemy.base_ability is Unknown.VALUE
-        ):
+        if self.reveals_base and enemy.base_ability is Unknown.VALUE:
             enemy.base_ability = self.ability
+
 
 @dataclass(frozen=True)
 class StatSetEvent(BattleEvent):
@@ -989,7 +978,9 @@ class ItemEvent(BattleEvent):
     """
 
     source: EffectSource
-    pokemon: PokemonIdent | None # in gen 5, the ability Frisk reveal one of the enemy item, without knowing which
+    pokemon: (
+        PokemonIdent | None
+    )  # in gen 5, the ability Frisk reveal one of the enemy item, without knowing which
     # is the holder
     item: str
     gained: bool
@@ -1001,8 +992,7 @@ class ItemEvent(BattleEvent):
         self,
         battle_state: BattleState,
     ) -> None:
-        self._update_battle_state(battle_state) # Bypasses auto-reveal
-
+        self._update_battle_state(battle_state)  # Bypasses auto-reveal
 
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
@@ -1078,6 +1068,7 @@ class TurnEvent(BattleEvent):
     def update_manager(self, manager: BattleManager) -> None:
         manager.turn = self.turn
 
+
 @dataclass(frozen=True)
 class UpkeepEvent(BattleEvent):
     @override
@@ -1089,6 +1080,7 @@ class UpkeepEvent(BattleEvent):
             if pokemon.active:
                 pokemon.status.clear_single_turn()
                 pokemon.status.tick_minor_durations()
+
 
 @dataclass(frozen=True)
 class WeatherEvent(BattleEvent):
@@ -1161,7 +1153,6 @@ class BattleStartEvent(BattleEvent):
         manager.room_ready.set()
 
 
-
 @dataclass(frozen=True)
 class PlayerEvent(BattleEvent):
     """``|player|<slot>|<name>|...`` — a side announcement."""
@@ -1200,7 +1191,6 @@ class SingleMoveEvent(BattleEvent):
             self.pokemon,
         )
         status.add_minor(effect)
-
 
 
 @dataclass(frozen=True)
@@ -1338,22 +1328,17 @@ class DecisionRequestEvent(BattleEvent):
             battle_state.curr_pokemon_status.major = active.major_status
 
             if battle_state.curr_pokemon_ability is Unknown.VALUE:
-                    battle_state.curr_pokemon_ability = active.base_ability
+                battle_state.curr_pokemon_ability = active.base_ability
 
         if battle_state.gen == 1 and not self.wait:
             has_recharge_request = any(
-                move.id == "recharge"
-                for move in available_moves
+                move.id == "recharge" for move in available_moves
             )
 
             if has_recharge_request:
-                battle_state.curr_pokemon_status.add_minor(
-                    MinorStatus.RECHARGE
-                )
+                battle_state.curr_pokemon_status.add_minor(MinorStatus.RECHARGE)
             else:
-                battle_state.curr_pokemon_status.remove_minor(
-                    MinorStatus.RECHARGE
-                )
+                battle_state.curr_pokemon_status.remove_minor(MinorStatus.RECHARGE)
 
         _sync_own_two_turn_status_from_request(
             battle_state,
@@ -1428,6 +1413,7 @@ class GameTierEvent(BattleEvent):
                 f"Game tier not implemented yet: {self.tier} not in {self._IMPLEMENTED_TIERS}"
             )
 
+
 @dataclass(frozen=True)
 class PartialTrapEvent(BattleEvent):
     target: PokemonIdent
@@ -1442,6 +1428,7 @@ class PartialTrapEvent(BattleEvent):
             status.minor.add(MinorStatus.PARTIALLY_TRAPPED)
         else:
             status.minor.remove(MinorStatus.PARTIALLY_TRAPPED)
+
 
 @dataclass(frozen=True)
 class TeamPreviewRequestEvent(BattleEvent):
@@ -1466,6 +1453,7 @@ class TeamPreviewRequestEvent(BattleEvent):
         # manager.reset(keep_room_id=True)
         manager.requires_team_preview = True
         manager.player_id = self.player_id
+
 
 @dataclass(frozen=True)
 class CustomShowdownBattleStateEvent(BattleEvent):

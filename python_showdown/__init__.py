@@ -32,5 +32,5 @@ __all__ = [
     "Status",
     "Unknown",
     "Weather",
-    "dex"
+    "dex",
 ]

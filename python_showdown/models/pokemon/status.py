@@ -29,7 +29,7 @@ class MinorStatus(str, Enum):
     TUNNEL = "Tunnel"
     NIGHTMARE = "Nightmare"
     TRAPPED = "Trapped"
-    REPEAT = "Repeat" # The pokémon must repeat its last move
+    REPEAT = "Repeat"  # The pokémon must repeat its last move
     # WHIRLPOOL = "Whirlpool" Trapping move
     ROOST = "Roost"
     TAUNT = "Taunt"
@@ -53,6 +53,7 @@ class MinorStatus(str, Enum):
     # GEN 1 only
     REFLECT = "reflect"
     LIGHT_SCREEN = "light screen"
+
 
 @dataclass
 class Status:
@@ -238,18 +239,23 @@ class Status:
                 self.acc_stage = stage
 
     def clear_single_turn(self) -> None:
-        self.minor.difference_update({
-            MinorStatus.ENDURE,
-            MinorStatus.PROTECT,
-            MinorStatus.ROOST,
-            MinorStatus.FOCUS_PUNCH,
-        })
+        self.minor.difference_update(
+            {
+                MinorStatus.ENDURE,
+                MinorStatus.PROTECT,
+                MinorStatus.ROOST,
+                MinorStatus.FOCUS_PUNCH,
+            }
+        )
 
     def clear_single_move(self) -> None:
-        self.minor.difference_update({
-            MinorStatus.DESTINY_BOUND,
-            MinorStatus.GRUDGE,
-        })
+        self.minor.difference_update(
+            {
+                MinorStatus.DESTINY_BOUND,
+                MinorStatus.GRUDGE,
+            }
+        )
+
 
 class Stat(str, Enum):
     ATK = "atk"
@@ -291,6 +297,6 @@ class EVs:
     spe: int
 
     @staticmethod
-    def from_pokemon(pokemon_id: str): #pyright:ignore[reportUnusedParameter]
+    def from_pokemon(pokemon_id: str):  # pyright:ignore[reportUnusedParameter]
         # TODO implement
         return EVs(100, 100, 100, 100, 100, 100)

@@ -54,11 +54,9 @@ class FileIOWorker:
         with self._lock:
             self._flush_targets[target_id] = operation
 
-
     def unregister_flush_target(self, target_id: int) -> None:
         with self._lock:
             self._flush_targets.pop(target_id, None)
-
 
     def _flush_targets_sync(self) -> None:
         with self._lock:
@@ -67,7 +65,7 @@ class FileIOWorker:
         for operation in operations:
             try:
                 operation()
-            except BaseException as error: # noqa: BLE001
+            except BaseException as error:  # noqa: BLE001
                 self._errors.append(error)
                 traceback.print_exception(error)
 
@@ -79,11 +77,7 @@ class FileIOWorker:
     def is_running(self) -> bool:
         with self._lock:
             thread = self._thread
-            return (
-                self._accepting
-                and thread is not None
-                and thread.is_alive()
-            )
+            return self._accepting and thread is not None and thread.is_alive()
 
     def start(self) -> None:
         with self._lock:
@@ -134,9 +128,7 @@ class FileIOWorker:
         done.wait()
 
         if command.error is not None:
-            raise RuntimeError(
-                "File I/O operation failed"
-            ) from command.error
+            raise RuntimeError("File I/O operation failed") from command.error
 
     def stop(self) -> None:
         with self._lock:
@@ -147,9 +139,7 @@ class FileIOWorker:
             thread = self._thread
 
             if thread is None:
-                raise RuntimeError(
-                    "File I/O worker is marked running without a thread"
-                )
+                raise RuntimeError("File I/O worker is marked running without a thread")
 
             # FIFO sentinel. Every operation submitted before this point will
             # finish before the worker exits.
@@ -162,8 +152,7 @@ class FileIOWorker:
 
         if self._errors:
             raise RuntimeError(
-                "File I/O worker encountered "
-                + f"{len(self._errors)} error(s)"
+                "File I/O worker encountered " + f"{len(self._errors)} error(s)"
             ) from self._errors[0]
 
     def _run(self) -> None:
@@ -193,7 +182,7 @@ class FileIOWorker:
                 try:
                     command.operation()
 
-                except BaseException as error: # noqa:BLE001
+                except BaseException as error:  # noqa:BLE001
                     command.error = error
                     self._errors.append(error)
 
@@ -216,6 +205,7 @@ class FileIOWorker:
                     command = self._queue.get_nowait()
                 except Empty:
                     break
+
 
 FILE_IO_WORKER = FileIOWorker()
 
@@ -308,7 +298,7 @@ class BattleFileHandler(logging.Handler):
         #        room_id_value,
         #        queued_record,
         #    )
-        #)
+        # )
         self._emit_sync(room_id_value, record)
 
     def _emit_sync(
@@ -337,9 +327,7 @@ class BattleFileHandler(logging.Handler):
         if self._battle_handler_closed:
             return
 
-        FILE_IO_WORKER.submit(
-            lambda: self._close_room_sync(room_id)
-        )
+        FILE_IO_WORKER.submit(lambda: self._close_room_sync(room_id))
 
     def _close_room_sync(self, room_id: str) -> None:
         """
@@ -392,7 +380,7 @@ class BattleFileHandler(logging.Handler):
         for handler in self._handlers.values():
             try:
                 handler.close()
-            except Exception as error: # noqa: BLE001
+            except Exception as error:  # noqa: BLE001
                 if first_error is None:
                     first_error = error
 
@@ -413,9 +401,7 @@ class BattleFileHandler(logging.Handler):
                 # Queueing this behind all previous writes guarantees that
                 # nothing belonging to this handler is still pending when
                 # close() returns.
-                FILE_IO_WORKER.submit_and_wait(
-                    self._close_all_sync
-                )
+                FILE_IO_WORKER.submit_and_wait(self._close_all_sync)
             else:
                 # This is safe after stop_file_io_worker(), because stop()
                 # drains the FIFO queue before terminating the worker.
@@ -480,10 +466,7 @@ class LogManager:
         for logger in targets:
             logger.removeHandler(handler)
 
-        if not any(
-            handler in logger.handlers
-            for logger in self._loggers
-        ):
+        if not any(handler in logger.handlers for logger in self._loggers):
             handler.close()
 
     def _resolve_loggers(
@@ -548,9 +531,7 @@ def create_console_handler(
 ) -> logging.Handler:
     handler = logging.StreamHandler()
     handler.setLevel(level)
-    handler.setFormatter(
-        logging.Formatter("%(levelname)s %(message)s")
-    )
+    handler.setFormatter(logging.Formatter("%(levelname)s %(message)s"))
     return handler
 
 
@@ -566,9 +547,7 @@ def create_file_handler(
     )
     handler.setLevel(level)
     handler.setFormatter(
-        logging.Formatter(
-            "%(asctime)s %(levelname)s %(name)s %(message)s"
-        )
+        logging.Formatter("%(asctime)s %(levelname)s %(name)s %(message)s")
     )
     return handler
 
@@ -584,7 +563,5 @@ def create_battle_file_handler(
         filename=filename,
     )
     handler.setLevel(level)
-    handler.setFormatter(
-        logging.Formatter("%(asctime)s %(message)s")
-    )
+    handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
     return handler

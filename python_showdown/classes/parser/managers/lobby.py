@@ -46,7 +46,14 @@ class LobbyParser(MessageParser):
             return self._handle_formats(message)
         if command == "pm":
             return self._handle_pm(message)
-        if command in ["customgroups", "challstr", "updatesearch", "clearpoke", "poke", "teampreview"]:
+        if command in [
+            "customgroups",
+            "challstr",
+            "updatesearch",
+            "clearpoke",
+            "poke",
+            "teampreview",
+        ]:
             return []
         if command == "popup":
             return self._handle_popup(message)
@@ -72,15 +79,11 @@ class LobbyParser(MessageParser):
                 user = arg.split("'")[1]
                 return [UserNotFoundEvent(user)]
         if any(
-            'You tried to send "/leave"' in arg
-            and "you were not in that room" in arg
+            'You tried to send "/leave"' in arg and "you were not in that room" in arg
             for arg in message.arguments
         ):
             return []
-        if any(
-            "you were not in that room." in arg
-            for arg in message.arguments
-        ):
+        if any("you were not in that room." in arg for arg in message.arguments):
             return []
         raise NotImplementedError(message)
 

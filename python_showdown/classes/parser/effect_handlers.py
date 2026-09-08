@@ -140,23 +140,19 @@ def _ability_event(
             owner=pokemon,
         )
 
-    reveals_base = (
-        message.command == "-ability"
-        and not has_annotation(message, "from")
-    )
+    reveals_base = message.command == "-ability" and not has_annotation(message, "from")
     return AbilityEvent(
         pokemon=pokemon,
         ability=ability,
         active=active,
         context=context,
         source=source,
-        reveals_base=reveals_base
+        reveals_base=reveals_base,
     )
 
 
 def _activation_event(
-    message: ProtocolMessage,
-    context: EffectParseContext
+    message: ProtocolMessage, context: EffectParseContext
 ) -> BaseEvent | list[BaseEvent]:
     if len(message.arguments) not in {2, 3}:
         raise ValueError(
@@ -174,9 +170,8 @@ def _activation_event(
             raise ValueError(f"Empty activated ability in {message.raw!r}")
 
         context_str = message.arguments[2] if len(message.arguments) == 3 else None
-        reveals_base = (
-            message.command == "-ability"
-            and not has_annotation(message, "from")
+        reveals_base = message.command == "-ability" and not has_annotation(
+            message, "from"
         )
         return AbilityEvent(
             pokemon=pokemon,
@@ -190,16 +185,14 @@ def _activation_event(
                 action_id=None,
                 owner=pokemon,
             ),
-            reveals_base=reveals_base
+            reveals_base=reveals_base,
         )
 
     if effect.casefold().startswith("move: "):
         move = effect[6:].strip()
 
         if not move:
-            raise ValueError(
-                f"Empty activated move in {message.raw!r}"
-            )
+            raise ValueError(f"Empty activated move in {message.raw!r}")
 
         if move.casefold() == "mimic" and len(message.arguments) == 3:
             return MoveCopiedEvent(
@@ -244,7 +237,7 @@ def _activation_event(
                 name=item,
                 actor=pokemon,
                 action_id=None,
-                owner=pokemon
+                owner=pokemon,
             ),
             pokemon=pokemon,
             item=item,
@@ -299,6 +292,7 @@ def parse_effect_message(
     except Exception:
         print(message, context)
         raise
+
 
 def _parse_damage(
     message: ProtocolMessage, context: EffectParseContext
@@ -362,12 +356,12 @@ def _parse_weather(
     require_arguments(message, 1)
     weather = Weather(message.arguments[0])
     upkeep = has_annotation(message, "upkeep")
-    started=weather != Weather.CLEAR_SKY
+    started = weather != Weather.CLEAR_SKY
     source = parse_effect_source(
-            message=message,
-            default_source=context.source,
-            inherit_default=started and not upkeep
-        )
+        message=message,
+        default_source=context.source,
+        inherit_default=started and not upkeep,
+    )
 
     return [
         WeatherEvent(
@@ -556,11 +550,7 @@ def _parse_item(
 ) -> list[BaseEvent]:
     require_arguments(message, 2)
     pokemon_str = message.arguments[0].strip()
-    pokemon = (
-        parse_pokemon_ident(pokemon_str)
-        if pokemon_str
-        else None
-    )
+    pokemon = parse_pokemon_ident(pokemon_str) if pokemon_str else None
     item = message.arguments[1]
     previous_owner_value = annotation_value(message, "of")
     previous_owner = (
@@ -606,7 +596,7 @@ def _parse_side_condition(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     require_arguments(message, 2)
-    started=message.command == "-sidestart"
+    started = message.command == "-sidestart"
     source = parse_effect_source(message, context.source, inherit_default=started)
     return [
         SideConditionEvent(
@@ -767,15 +757,9 @@ def _parse_ability_start_or_end(
         context.source,
     )
 
-    ability_name = (
-        message.arguments[1]
-        .removeprefix("ability: ")
-        .strip()
-    )
+    ability_name = message.arguments[1].removeprefix("ability: ").strip()
 
-    minor_status = _minor_status_or_none(
-        ability_name
-    )
+    minor_status = _minor_status_or_none(ability_name)
 
     if minor_status is None:
         return [ability_event]
@@ -784,13 +768,12 @@ def _parse_ability_start_or_end(
         ability_event,
         MinorStatusEvent(
             source=context.source,
-            target=parse_pokemon_ident(
-                message.arguments[0]
-            ),
+            target=parse_pokemon_ident(message.arguments[0]),
             effect=minor_status,
             started=message.command == "-start",
         ),
     ]
+
 
 def _is_duplicate_ability_end(
     message: ProtocolMessage, context: EffectParseContext
@@ -911,8 +894,10 @@ def _parse_volatile_side_condition(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     target = parse_pokemon_ident(message.arguments[0])
-    started=message.command == "-start"
-    source = parse_effect_source(message, default_source=context.source, inherit_default=started, affected=target)
+    started = message.command == "-start"
+    source = parse_effect_source(
+        message, default_source=context.source, inherit_default=started, affected=target
+    )
     condition_name = message.arguments[1]
 
     # gens override
@@ -962,7 +947,9 @@ def _parse_minor_status(
     started = message.command == "-start"
     return [
         MinorStatusEvent(
-            parse_effect_source(message, context.source, affected=target, inherit_default=started),
+            parse_effect_source(
+                message, context.source, affected=target, inherit_default=started
+            ),
             target,
             parse_minor_status(message.arguments[1]),
             started,
@@ -1011,7 +998,7 @@ def _parse_hint(
         ),
         (
             "In Gen 2, a stat will roll over to a small number if it is larger than 1024."
-        )
+        ),
     ]:
         return [
             DiscardedEvent(
@@ -1021,6 +1008,7 @@ def _parse_hint(
         ]
     raise NotImplementedError(message.arguments[0])
     # return [UnhandledEvent.from_message(message)]
+
 
 def _minor_status_end_or_none(
     message: ProtocolMessage,
@@ -1069,6 +1057,7 @@ def _parse_minor_status_end(
             started=False,
         )
     ]
+
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "-damage": _parse_damage,

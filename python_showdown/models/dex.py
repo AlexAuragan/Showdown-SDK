@@ -247,10 +247,7 @@ class GenerationDex:
                 name=f"{effect_type} {condition_id!r}.condition",
             )
 
-        raise KeyError(
-            f"No condition {condition_id!r} in generation {self.number}"
-        )
-
+        raise KeyError(f"No condition {condition_id!r} in generation {self.number}")
 
     def is_volatile_copyable(
         self,
@@ -266,6 +263,7 @@ class GenerationDex:
             raw_no_copy,
             name=f"condition {to_id(name)!r}.noCopy",
         )
+
 
 @dataclass(slots=True, init=False)
 class Dex:
@@ -371,5 +369,6 @@ class Dex:
 
     def get_charge_moves(self, gen: int) -> frozenset[str]:
         return self.gen(gen).get_charge_moves()
+
 
 dex = Dex()

@@ -55,6 +55,7 @@ class EffectParseContext:
             raise ValueError("gen was accessed before getting initilazed")
         return gen
 
+
 @dataclass
 class MoveParseState:
     success: bool = True

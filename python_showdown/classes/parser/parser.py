@@ -46,9 +46,9 @@ _LOBBY_COMMANDS = frozenset(
         "challstr",
         "updatesearch",
         "popup",
-        "clearpoke", # Not sure about these 3
+        "clearpoke",  # Not sure about these 3
         "poke",
-        "teampreview"
+        "teampreview",
     }
 )
 

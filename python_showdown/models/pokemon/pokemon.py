@@ -18,6 +18,7 @@ class Pokemon:
     id: str | Unknown
     lvl: int
 
+
 @dataclass
 class PartyPokemon(Pokemon):
     details: str
@@ -29,7 +30,6 @@ class PartyPokemon(Pokemon):
     item: str
     pokeball: str
     major_status: MajorStatus | None = None
-
 
 
 @dataclass
@@ -77,16 +77,12 @@ class EnemyPokemon(Pokemon):
             return
 
         if any(
-            known is not Unknown.VALUE
-            and to_id(known) == move_id
+            known is not Unknown.VALUE and to_id(known) == move_id
             for known in self.learnt_moves
         ):
             return
 
-        if any(
-            to_id(temporary) == move_id
-            for temporary in self.temporary_moves
-        ):
+        if any(to_id(temporary) == move_id for temporary in self.temporary_moves):
             return
 
         if self.transformed_into is not None:

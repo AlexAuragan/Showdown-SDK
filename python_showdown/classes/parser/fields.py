@@ -99,23 +99,13 @@ def parse_effect_source(
     from_value = annotation_value(message, "from")
     if from_value is None:
         return (
-            default_source
-            if inherit_default
-            else EffectSource(type=SourceType.UNKNOWN)
+            default_source if inherit_default else EffectSource(type=SourceType.UNKNOWN)
         )
 
     of_value = annotation_value(message, "of")
-    explicit_actor = (
-        parse_pokemon_ident(of_value)
-        if of_value is not None
-        else None
-    )
+    explicit_actor = parse_pokemon_ident(of_value) if of_value is not None else None
 
-    actor = (
-        explicit_actor
-        if explicit_actor is not None
-        else affected
-    )
+    actor = explicit_actor if explicit_actor is not None else affected
 
     normalized = from_value.strip()
     lowered = normalized.casefold()
@@ -148,7 +138,9 @@ def parse_effect_source(
     if lowered.startswith("ability: "):
         owner = None
 
-        if affected is not None and (explicit_actor is None or explicit_actor == affected):
+        if affected is not None and (
+            explicit_actor is None or explicit_actor == affected
+        ):
             owner = affected
 
         return EffectSource(
@@ -159,10 +151,7 @@ def parse_effect_source(
             owner=owner,
         )
 
-    if lowered in {
-        status.value.casefold()
-        for status in MajorStatus
-    }:
+    if lowered in {status.value.casefold() for status in MajorStatus}:
         return EffectSource(
             type=SourceType.STATUS,
             name=lowered,

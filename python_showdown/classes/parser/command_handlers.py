@@ -54,7 +54,9 @@ CommandHandler = Callable[[str | None, ProtocolMessage, str], list[BaseEvent]]
 
 
 def handle_switch(
-    player_id: str | None, message: ProtocolMessage, _room_id: str,
+    player_id: str | None,
+    message: ProtocolMessage,
+    _room_id: str,
 ) -> list[BaseEvent]:
     if player_id is None:
         raise ValueError("Player id not set")
@@ -175,6 +177,7 @@ def handle_tier(
         raise ValueError()
     return [GameTierEvent(tier=tier)]
 
+
 def handle_custom_showdown_battle_state(
     _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
@@ -184,10 +187,12 @@ def handle_custom_showdown_battle_state(
         )
     ]
 
+
 def handle_upkeep(
     _player_id: str | None, _message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     return [UpkeepEvent()]
+
 
 COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "switch": handle_switch,
@@ -204,7 +209,7 @@ COMMAND_HANDLERS: dict[str, CommandHandler] = {
     "gen": handle_gen,
     "tier": handle_tier,
     "battlestate": handle_custom_showdown_battle_state,
-    "upkeep": handle_upkeep
+    "upkeep": handle_upkeep,
 }
 
 
@@ -256,7 +261,6 @@ def parse_move_group(
         source=source,
         protocol_context=context,
         action_id=action_id,
-
     )
     effects: list[BaseEvent] = []
 

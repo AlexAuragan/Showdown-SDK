@@ -1,5 +1,4 @@
 import asyncio
-import logging
 import traceback
 from dataclasses import asdict
 from pathlib import Path
@@ -48,10 +47,10 @@ FORMATS = [
 
 TEAM_GENERATOR = SampleTeamGenerator(42)
 
+
 def write_error(error: str) -> None:
     with ERROR_LOG.open("a", encoding="utf-8") as file:
         file.write(error)
-
 
 
 async def run_battle(
@@ -72,18 +71,23 @@ async def run_battle(
 
     battle_waiter_1, battle_waiter_2 = None, None
     try:
-        team_1 = await TEAM_GENERATOR.generate( fmt, lambda team: client_1.validate_team( fmt, team, ), )
-        team_2 = await TEAM_GENERATOR.generate( fmt, lambda team: client_2.validate_team( fmt, team, ), )
-
-        await client_1.challenge(
-            client_2.username,
+        team_1 = await TEAM_GENERATOR.generate(
             fmt,
-            timeout=60,
-            team=team_1
+            lambda team: client_1.validate_team(
+                fmt,
+                team,
+            ),
         )
-        await client_2.accept_challenge(
-            client_1.username, team=team_2
+        team_2 = await TEAM_GENERATOR.generate(
+            fmt,
+            lambda team: client_2.validate_team(
+                fmt,
+                team,
+            ),
         )
+
+        await client_1.challenge(client_2.username, fmt, timeout=60, team=team_1)
+        await client_2.accept_challenge(client_1.username, team=team_2)
 
         await asyncio.gather(
             client_1.battle_manager.room_ready.wait(),
@@ -94,7 +98,7 @@ async def run_battle(
         battle_waiter_2 = asyncio.create_task(client_2.wait_for_battle_end(timeout=300))
 
         result_1, _ = await asyncio.gather(
-                    battle_waiter_1,
+            battle_waiter_1,
             battle_waiter_2,
         )
         await asyncio.to_thread(write_battle_outputs, client_2)
@@ -124,6 +128,7 @@ async def run_battle(
             )
 
         raise
+
 
 async def run_pair(
     client_1: Client,
@@ -256,9 +261,7 @@ async def run_format(
             dynamic_ncols=True,
         )
 
-        pair_tasks: list[
-            asyncio.Task[tuple[list[SerializableObject], int]]
-        ] = []
+        pair_tasks: list[asyncio.Task[tuple[list[SerializableObject], int]]] = []
 
         for pair_index in range(PAIR_COUNT):
             client_1 = clients[pair_index * 2]
