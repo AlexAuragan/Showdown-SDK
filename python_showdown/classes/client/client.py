@@ -65,7 +65,7 @@ class Client:
         self.battle_manager: BattleManager = BattleManager(
             self.username, self.log_manager
         )
-        self.parser: Parser = Parser(self.battle_manager, self)
+        self.parser: Parser = Parser(self.battle_manager)
         self.team_validation_future: asyncio.Future[None] | None = None
         self.pending_state_request_id: int | None = None
 
