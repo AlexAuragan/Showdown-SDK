@@ -29,6 +29,7 @@ from python_showdown.classes.parser.events import (
 )
 from python_showdown.classes.parser.events.battle import (
     BattleStartEvent,
+    CustomShowdownBattleStateEvent,
     DecisionRequestEvent,
     PokemonSwitchEvent,
     TeamPreviewRequestEvent,
@@ -289,7 +290,11 @@ class BattleParser(MessageParser):
                 break
 
             self.next_unparsed_message += result.consumed
-            self.history.extend(result.events)
+            self.history.extend(
+                event
+                for event in result.events
+                if not isinstance(event, CustomShowdownBattleStateEvent)
+            )
             update_protocol_context(
                 self.protocol_context,
                 result.events,

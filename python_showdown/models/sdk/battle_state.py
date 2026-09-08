@@ -86,8 +86,6 @@ class BattleState:
         }
 
         out = to_serializable_object(data)
-        if self.custom_showdown_battlestate:
-            out["custom_showdown_battlestate"] = self.custom_showdown_battlestate
         return out
 
     def to_json(self) -> str:
@@ -166,6 +164,7 @@ class BattleState:
 
         self.gen_1_desync = False
         self.history = []
+        self.custom_showdown_battlestate = None
 
         self.gen = None
         self.gametype = None

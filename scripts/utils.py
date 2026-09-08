@@ -18,7 +18,7 @@ def write_json(
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
-        file.write(json.dumps(data))
+        json.dump(data, file)
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]

@@ -37,7 +37,6 @@ class BattleManager:
         self.turn_start_states: list[SerializableObject] = []
         self._last_turn_start_state_turn: int | None = None
 
-        self.last_battle_events: list[SerializableObject] = []
         self.last_battle_turn_states: list[SerializableObject] = []
 
 
@@ -194,7 +193,6 @@ class BattleManager:
         if self.battle_started_at is not None:
             duration = perf_counter() - self.battle_started_at
 
-        self.last_battle_events = self.battle_state.history_json()
         self.last_battle_turn_states = list(self.turn_start_states)
         self.battle_finished.set_result(
             BattleResult(

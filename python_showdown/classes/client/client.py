@@ -265,8 +265,11 @@ class Client:
                         events = self.parser.handle_line(
                             line,
                         )
-                        self.battle_manager.battle_state.history.extend(events)
-
+                        self.battle_manager.battle_state.history.extend(
+                            event
+                            for event in events
+                            if not isinstance(event, CustomShowdownBattleStateEvent)
+                        )
                         for event in events:
                             if isinstance(event, CustomShowdownBattleStateEvent):
                                 received_custom_state = True
