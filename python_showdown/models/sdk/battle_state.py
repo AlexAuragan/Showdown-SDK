@@ -70,9 +70,6 @@ class BattleState:
     def player_id(self, value: str) -> None:
         self._player_id = value
 
-    def  clear_player_id(self) -> None:
-        self._player_id = None
-
     def to_dict(self) -> SerializableObject:
         data = {
             "player_id": self._player_id,

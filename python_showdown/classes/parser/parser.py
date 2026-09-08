@@ -3,8 +3,7 @@
 The parser is an *aggregator*: it does not interpret protocol messages itself.
 Instead it routes each incoming :class:`ProtocolMessage` to the scoped
 :class:`MessageParser` responsible for it (battle vs. lobby, with room for an
-error/choice-retry manager later) and then applies the resulting events onto
-the client.
+error/choice-retry manager later).
 
 """
 

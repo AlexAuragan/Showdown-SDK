@@ -7,7 +7,7 @@ through ``Parser.handle_line`` in a synchronous loop (no websocket, no
 server), replicating the small amount of bookkeeping
 ``Client._receive_loop`` performs on each event:
 
-- ``BattleEvent.update_manager(battle_manager)``
+- ``apply_battle_runtime_event(battle_manager, event)``
 - ``LobbyEvent.update_client(client)``
 - ``expecting_battle_room`` bookkeeping for ``BattleStartEvent``
 
@@ -53,6 +53,7 @@ from python_showdown.classes.parser.exceptions import (
     ObsoleteRequestIdError,
 )
 from python_showdown.classes.parser.protocol import extract_protocol_line
+from python_showdown.classes.parser.reducers.battle import apply_battle_runtime_event
 from python_showdown.models.sdk.battle_state import BattleState
 from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.utils.serialization import Serializable
@@ -189,7 +190,6 @@ class ReplayResult:
     tolerated_errors: dict[str, int] = field(default_factory=dict)
 
 
-
 def replay_battle_raw(
     path: Path,
     *,
@@ -256,8 +256,7 @@ def replay_battle_raw(
                 received_custom_state = True
 
             if isinstance(event, BattleEvent):
-                event.update_manager(manager)
-
+                apply_battle_runtime_event(manager, event)
                 if isinstance(event, BattleStartEvent):
                     if manager.room_id != parser.last_message_room_id:
                         raise ReplayError(

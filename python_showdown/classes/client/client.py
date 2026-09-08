@@ -1,5 +1,3 @@
-# pyright: reportImportCycles=false
-# The import cycle is for typing only, changing the project architecture would probably add more overhead.
 import asyncio
 from time import perf_counter
 
@@ -21,6 +19,7 @@ from python_showdown.classes.parser.exceptions import (
     ObsoleteRequestIdError,
 )
 from python_showdown.classes.parser.parser import Parser
+from python_showdown.classes.parser.reducers.battle import apply_battle_runtime_event
 from python_showdown.logger import LogManager, log_trace
 from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.models.sdk.pokemon_set import TeamSet
@@ -272,7 +271,7 @@ class Client:
                             if isinstance(event, CustomShowdownBattleStateEvent):
                                 received_custom_state = True
                             if isinstance(event, BattleEvent):
-                                event.update_manager(self.battle_manager)
+                                apply_battle_runtime_event(self.battle_manager, event)
                                 if isinstance(event, BattleStartEvent):
                                     if (
                                         manager.room_id

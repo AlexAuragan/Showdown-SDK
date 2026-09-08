@@ -1,5 +1,5 @@
 from python_showdown.classes.parser.events import BaseEvent
-from python_showdown.classes.parser.events.battle import BattleEvent
+from python_showdown.classes.parser.reducers import reduce_battle_state
 from python_showdown.models.sdk.battle_state import BattleState
 
 
@@ -12,16 +12,10 @@ class BattleStateHandler:
     """
 
     def __init__(self, player_id: str = "") -> None:
-        # The protocol-side id we are playing from ("p1" / "p2"). Stamped onto
-        # any BattleState this handler creates so event reducers can resolve a
-        # PokemonIdent to our team or the enemy team.
         self.player_id: str = player_id
 
-    def apply_events(
-        self, events: list[BaseEvent]
-    ) -> BattleState:
+    def apply_events(self, events: list[BaseEvent]) -> BattleState:
         """Build a brand new BattleState with `events` applied in order."""
-
         battle_state = BattleState()
         battle_state.player_id = self.player_id
         for event in events:
@@ -31,6 +25,4 @@ class BattleStateHandler:
     @staticmethod
     def apply_event(battle_state: BattleState, event: BaseEvent) -> None:
         """Apply a single event onto an existing BattleState."""
-        if not isinstance(event, BattleEvent):
-            return
-        event.update_battle_state(battle_state)
+        reduce_battle_state(battle_state, event)

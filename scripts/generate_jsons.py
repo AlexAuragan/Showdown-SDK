@@ -10,6 +10,7 @@ from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
+from python_showdown.classes.parser.reducers.battle import apply_battle_runtime_event
 
 
 def list_fights(path: Path, formats: list[str]):
@@ -38,7 +39,7 @@ def list_fights(path: Path, formats: list[str]):
                         if isinstance(event, LobbyEvent):
                             event.update_client(client)
                         elif isinstance(event, BattleEvent):
-                            event.update_manager(client.battle_manager)
+                            apply_battle_runtime_event(client.battle_manager, event)
 
                 battle_state = client.battle_manager.battle_state
                 # print(battle_state.to_json())

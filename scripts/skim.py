@@ -16,6 +16,7 @@ from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
+from python_showdown.classes.parser.reducers.battle import apply_battle_runtime_event
 
 POKEMON_TO_FILE: dict[str, set[Path]] = defaultdict(set)
 MOVE_TO_FILE: dict[str, set[Path]] = defaultdict(set)
@@ -45,7 +46,7 @@ def list_instances(path: Path, formats: list[str]):
                         if isinstance(event, LobbyEvent):
                             event.update_client(client)
                         elif isinstance(event, BattleEvent):
-                            event.update_manager(client.battle_manager)
+                            apply_battle_runtime_event(client.battle_manager, event)
 
                         if isinstance(event, PokemonSwitchEvent):
                             POKEMON_TO_FILE[event.pokemon.name].add(logs_path / file)
