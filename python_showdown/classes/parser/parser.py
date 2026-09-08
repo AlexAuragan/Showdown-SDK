@@ -51,7 +51,7 @@ _LOBBY_COMMANDS = frozenset(
 class Parser:
     """Aggregate raw protocol messages by routing them to scoped managers."""
 
-    def __init__(self, manager: BattleManager, client: Client) -> None:
+    def __init__(self, manager: BattleManager) -> None:
         self.manager: BattleManager = manager
 
         self.battle: BattleParser = BattleParser(manager)
