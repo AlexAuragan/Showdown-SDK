@@ -1,10 +1,9 @@
 """Offline regression harness: replay every sample battle log into the parser.
 
-Feeds every raw log found in ``tests/sample_battles/<fmt>/`` and
-``tests/sample_battles_auto/<fmt>/`` through the reusable replay core
-(``tests/replay.py``), which is also what the pytest regression suite calls
-directly. This script keeps only the CLI loops and the file-writing behavior
-(``write_battle_outputs``) — see scripts/utils.py.
+Feeds every raw log found in ``tests/sample_battles/<fmt>/`` through the
+reusable replay core (``tests/replay.py``), which is also what the pytest
+regression suite calls directly. This script keeps only the CLI loops and the
+file-writing behavior (``write_battle_outputs``) — see scripts/utils.py.
 
 A file passes when every line is either parsed without error or rejected by
 one of the tolerated per-line errors (``InvalidActionError`` /
@@ -24,7 +23,6 @@ from pathlib import Path
 
 from scripts.utils import write_battle_outputs
 from tests.replay import (
-    SAMPLE_DIRECTORIES,
     NotABattleLogFile,
     ReplayError,
     ReplayResult,
@@ -32,6 +30,8 @@ from tests.replay import (
 )
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+SAMPLE_DIRECTORIES = (PROJECT_ROOT / "tests" / "sample_battles",)
 
 
 def replay_battle(path: Path) -> int:
