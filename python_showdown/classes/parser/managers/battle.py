@@ -125,9 +125,6 @@ class BattleParser(MessageParser):
     def player_id(self) -> str | None:
         return self._manager.player_id
 
-    @player_id.setter
-    def player_id(self, value: str) -> None:
-        self._manager.player_id = value
 
     @property
     def battle_state(self) -> BattleState:
@@ -164,7 +161,7 @@ class BattleParser(MessageParser):
             raise RuntimeError("Cannot feed lines after finish()")
 
         if player_id:
-            self.player_id = player_id
+            self.battle_state.player_id = player_id
         protocol_line = extract_protocol_line(line, has_log_timestamp=has_log_timestamp)
         message = parse_protocol_message(protocol_line)
         return self.feed_message(message)
@@ -212,7 +209,7 @@ class BattleParser(MessageParser):
             return []
         self.input_finished = True
         if player_id:
-            self.player_id = player_id
+            self.battle_state.player_id = player_id
 
         if self.player_id is None:
             raise RuntimeError("player_id not set")

@@ -199,7 +199,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
     # Using the manager directly here is intentional: this is validation code
     # and turn synchronization itself is one of the invariants being tested.
-    same("turn", battle_state._manager.turn, ref_turn)  # pyright:ignore[reportPrivateUsage]
+    same("turn", battle_state.turn, ref_turn)
 
     ref_game_type = expect_string(ref["gameType"])
     same("gameType", battle_state.gametype, ref_game_type)

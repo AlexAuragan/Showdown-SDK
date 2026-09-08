@@ -30,7 +30,7 @@ def list_instances(path: Path, formats: list[str]):
             if fmt not in file:
                 continue
             with open(logs_path / file, "r") as f:
-                client.battle_manager.player_id = "p2"
+                client.battle_manager.battle_state.player_id = "p2"
                 for line in f:
                     line = " ".join(line.split(" ")[2:])
                     try:

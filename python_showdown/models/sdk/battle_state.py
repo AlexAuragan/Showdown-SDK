@@ -12,7 +12,6 @@ from python_showdown.utils.serialization import (
 )
 
 if TYPE_CHECKING:
-    from python_showdown.classes.combat_handler.battle_manager import BattleManager
     from python_showdown.classes.parser.events.base import BaseEvent
 
 
@@ -29,8 +28,9 @@ class SourceType(str, Enum):
 
 
 class BattleState:
-    def __init__(self, manager: BattleManager):
-        self._manager: BattleManager = manager
+    def __init__(self):
+        self._player_id: str | None = None
+        self.turn: int = 0
         self._team: list[PartyPokemon] = []
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
@@ -64,14 +64,18 @@ class BattleState:
 
     @property
     def player_id(self) -> str | None:
-        return self._manager.player_id
+        return self._player_id
 
     @player_id.setter
     def player_id(self, value: str) -> None:
-        self._manager.player_id = value
+        self._player_id = value
+
+    def  clear_player_id(self) -> None:
+        self._player_id = None
 
     def to_dict(self) -> SerializableObject:
         data = {
+            "player_id": self._player_id,
             "team": self._team,
             "enemy_team": self._enemy_team,
             "curr_pokemon": self._curr_pokemon,
@@ -146,6 +150,8 @@ class BattleState:
     def clear_battle(self) -> None:
         """Discard all state learned during the current battle."""
 
+        self._player_id = None
+        self.turn = 0
         self._team = []
         self._enemy_team = [
             EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)

@@ -1066,7 +1066,7 @@ class TurnEvent(BattleEvent):
 
     @override
     def update_manager(self, manager: BattleManager) -> None:
-        manager.turn = self.turn
+        manager.battle_state.turn = self.turn
 
 
 @dataclass(frozen=True)
@@ -1167,7 +1167,7 @@ class PlayerEvent(BattleEvent):
     @override
     def update_manager(self, manager: BattleManager) -> None:
         if self.name == manager.player_username:
-            manager.player_id = self.slot
+            manager.battle_state.player_id = self.slot
 
 
 @dataclass(frozen=True)
@@ -1452,7 +1452,7 @@ class TeamPreviewRequestEvent(BattleEvent):
     def update_manager(self, manager: BattleManager) -> None:
         # manager.reset(keep_room_id=True)
         manager.requires_team_preview = True
-        manager.player_id = self.player_id
+        manager.battle_state.player_id = self.player_id
 
 
 @dataclass(frozen=True)

@@ -32,8 +32,6 @@ from python_showdown.classes.parser.protocol import (
     parse_protocol_message,
 )
 
-if TYPE_CHECKING:
-    from python_showdown.classes.client.client import Client
 
 
 _LOBBY_COMMANDS = frozenset(
@@ -58,9 +56,12 @@ class Parser:
 
     def __init__(self, manager: BattleManager, client: Client) -> None:
         self.manager: BattleManager = manager
-        self.client: Client = client
+
         self.battle: BattleParser = BattleParser(manager)
         self.lobby: LobbyParser = LobbyParser()
+
+        self.expecting_battle_room: bool = False
+        self.ignored_battle_rooms: set[str] = set()
 
     @property
     def last_message_room_id(self) -> str:
@@ -99,14 +100,14 @@ class Parser:
             active_room_id = self.manager.room_id
 
             if active_room_id is None:
-                if not self.client.expecting_battle_room:
+                if not self.expecting_battle_room:
                     if room_id.startswith("battle-"):
-                        self.client.ignored_battle_rooms.add(room_id)
+                        self.ignored_battle_rooms.add(room_id)
                     return []
 
             elif room_id != active_room_id:
                 if room_id.startswith("battle-"):
-                    self.client.ignored_battle_rooms.add(room_id)
+                    self.ignored_battle_rooms.add(room_id)
                 return []
         events = parser.handle_message(self.manager, message)
 
@@ -139,7 +140,7 @@ class Parser:
 
     @property
     def battle_state(self):
-        return self.client.battle_manager.battle_state
+        return self.manager.battle_state
 
     @property
     def player_id(self) -> str | None:

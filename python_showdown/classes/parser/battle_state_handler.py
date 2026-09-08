@@ -1,4 +1,3 @@
-from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import BaseEvent
 from python_showdown.classes.parser.events.battle import BattleEvent
 from python_showdown.models.sdk.battle_state import BattleState
@@ -19,11 +18,11 @@ class BattleStateHandler:
         self.player_id: str = player_id
 
     def apply_events(
-        self, manager: BattleManager, events: list[BaseEvent]
+        self, events: list[BaseEvent]
     ) -> BattleState:
         """Build a brand new BattleState with `events` applied in order."""
 
-        battle_state = BattleState(manager)
+        battle_state = BattleState()
         battle_state.player_id = self.player_id
         for event in events:
             self.apply_event(battle_state, event)

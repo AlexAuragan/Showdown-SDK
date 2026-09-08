@@ -12,18 +12,16 @@ from python_showdown.utils.serialization import SerializableObject
 class BattleManager:
     def __init__(self, username: str | None, log_manager: LogManager) -> None:
         self.player_username: str | None = username
-        self._player_id: str | None = None
         self.oponent_id: str | None = None
         self.oponent_username: str | None = None
 
         self._room_id: str | None = None
-        self.battle_state: BattleState = BattleState(self)
+        self.battle_state: BattleState = BattleState()
         self.log_manager: LogManager = log_manager
         self.battle_finished: asyncio.Future[BattleResult] | None = None
 
         self.battle_started_at: float | None = None
         self.request_id: int | None = None
-        self.turn: int = 0
 
         self.room_ready: asyncio.Event = asyncio.Event()
         self._action_timeout_task: asyncio.Task[None] | None = None
@@ -42,13 +40,19 @@ class BattleManager:
         self.last_battle_events: list[SerializableObject] = []
         self.last_battle_turn_states: list[SerializableObject] = []
 
-    def clear_player_id(self):
-        self._player_id = None
+
+    @property
+    def player_id(self) -> str | None:
+        return self.battle_state.player_id
 
     @property
     def room_id(self) -> str | None:
         out = self._room_id
         return out
+
+    @property
+    def turn(self) -> int:
+        return self.battle_state.turn
 
     @room_id.setter
     def room_id(self, value: str | None):
@@ -56,19 +60,6 @@ class BattleManager:
             raise ValueError("room_id set to None")
         self._room_id = value
 
-    @property
-    def player_id(self) -> str | None:
-        return self._player_id
-
-    @player_id.setter
-    def player_id(self, value: str | None) -> None:
-        if value is None:
-            raise ValueError("Player id cannot be set to None")
-        if self._player_id and value != self._player_id:
-            raise RuntimeError(
-                f"Player id already set, player_id: {self._player_id}, new value {value}",
-            )
-        self._player_id = value
 
     def start_action_timeout(self) -> None:
         if self.room_id is None:
@@ -139,7 +130,6 @@ class BattleManager:
             self.log_manager.close_room(room_id)
 
         self._room_id = None
-        self._player_id = None
 
         self.oponent_id = None
         self.oponent_username = None
@@ -153,7 +143,6 @@ class BattleManager:
 
         self.requires_team_preview = False
 
-        self.turn = 0
         self.turn_start_states.clear()
         self._last_turn_start_state_turn = None
         self.room_ready.clear()
@@ -222,7 +211,7 @@ class BattleManager:
 
         # A turn can receive more than one request, for example after an
         # update or choice retry. We only want the first state for the turn.
-        if self.turn == self._last_turn_start_state_turn:
+        if self.battle_state.turn == self._last_turn_start_state_turn:
             return
 
         state = self.battle_state.to_dict()

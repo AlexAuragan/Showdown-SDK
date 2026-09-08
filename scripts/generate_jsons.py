@@ -22,7 +22,7 @@ def list_fights(path: Path, formats: list[str]):
                 continue
             print(logs_path / file)
             with open(logs_path / file, "r") as f:
-                client.battle_manager.player_id = "p2"
+                client.battle_manager.battle_state.player_id = "p2"
                 for line in f:
                     line = " ".join(line.split(" ")[2:])
                     try:
