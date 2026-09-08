@@ -67,10 +67,13 @@ class Client:
         )
         self.parser: Parser = Parser(self.battle_manager, self)
         self.team_validation_future: asyncio.Future[None] | None = None
-        self._pending_state_request_id: int | None = None
+        self.pending_state_request_id: int | None = None
 
         self.expecting_battle_room: bool = False
         self.ignored_battle_rooms: set[str] = set()
+
+    def get_request_id(self):
+        return self.pending_state_request_id
 
     @property
     def username(self) -> str | None:
@@ -361,7 +364,7 @@ class Client:
                     await self.send("/choose team " + ",".join(team_order), room_id=manager.room_id)
                     manager.requires_team_preview = False
                 elif received_custom_state:
-                    pending_request_id = self._pending_state_request_id
+                    pending_request_id = self.pending_state_request_id
                     if pending_request_id is None:
                         raise RuntimeError(
                             "Received Showdown battle state without a pending request"
@@ -378,16 +381,16 @@ class Client:
                     check_battle_state_against_showdown(manager.battle_state)
                     manager.record_turn_start_state(pending_request_id)
 
-                    self._pending_state_request_id = None
+                    self.pending_state_request_id = None
 
                     await self.act()
                     manager.request_id = None
 
                 elif manager.request_id is not None:
-                    pending_request_id = self._pending_state_request_id
+                    pending_request_id = self.pending_state_request_id
 
                     if pending_request_id is None:
-                        self._pending_state_request_id = manager.request_id
+                        self.pending_state_request_id = manager.request_id
                         await self.get_custom_showdown_battle_state()
 
                     elif manager.request_id != pending_request_id:
@@ -659,7 +662,7 @@ class Client:
                     await self.close()
 
             finally:
-                self._pending_state_request_id = None
+                self.pending_state_request_id = None
                 self.parser.battle.reset()
                 manager.clear_battle()
                 manager.clear_battle_tracking()

@@ -77,6 +77,11 @@ class LobbyParser(MessageParser):
             for arg in message.arguments
         ):
             return []
+        if any(
+            "you were not in that room." in arg
+            for arg in message.arguments
+        ):
+            return []
         raise NotImplementedError(message)
 
     @staticmethod

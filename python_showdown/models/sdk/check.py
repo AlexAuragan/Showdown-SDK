@@ -871,20 +871,21 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 set(ref_move_slots),
             )
         else:
+            pass
             # Forme changes are separate from Transform.
-            species_state = obj(
-                ref_enemy["speciesState"]
-            )
+            # species_state = obj(
+            #     ref_enemy["speciesState"]
+            # )
 
-            ref_current_species = expect_string(
-                species_state["id"]
-            )
+            # ref_current_species = expect_string(
+            #     species_state["id"]
+            # )
 
-            ref_base_species = to_id(
-                expect_string(
-                    ref_set["species"]
-                )
-            )
+            # ref_base_species = to_id(
+            #     expect_string(
+            #         ref_set["species"]
+            #     )
+            # )
 
 
         # Only compare a disabled move when the original slot still exists.

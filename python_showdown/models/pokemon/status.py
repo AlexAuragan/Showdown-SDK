@@ -75,6 +75,10 @@ class Status:
     # `minor` because the server sends `perish3`/`perish2`/`perish1`/`perish0`.
     perish_count: int | None = None
 
+    # Volatiles that the SDK inferred itself (no protocol message tells us),
+    # keyed to the number of turns they remain active.
+    _minor_durations: dict[MinorStatus, int] = field(default_factory=dict)
+
     # Set via |-mustrecharge| and consumed by the next `|cant|recharge`.
     must_recharge: bool = False
 
@@ -102,6 +106,7 @@ class Status:
         self.acc_stage = 0
 
         self.minor.clear()
+        self._minor_durations.clear()
         self.perish_count = None
         self.must_recharge = False
 
@@ -131,11 +136,29 @@ class Status:
         """
         self.major = None
 
-    def add_minor(self, status: MinorStatus) -> None:
+    def add_minor(self, status: MinorStatus, *, duration: int | None = None) -> None:
         self.minor.add(status)
+
+        if duration is not None:
+            self._minor_durations[status] = max(duration, 1)
+        else:
+            self._minor_durations.pop(status, None)
 
     def remove_minor(self, status: MinorStatus) -> None:
         self.minor.discard(status)
+        self._minor_durations.pop(status, None)
+
+    def tick_minor_durations(self) -> None:
+        """Decrement turn-limited minor statuses; drop the expired ones.
+
+        Showdown silently removes partially trapped (no |-end| line, at least
+        in Gen 1), so the SDK must expire volatiles it inferred itself.
+        """
+        for effect, remaining in list(self._minor_durations.items()):
+            if remaining <= 1:
+                self.remove_minor(effect)
+            else:
+                self._minor_durations[effect] = remaining - 1
 
     def has_minor(self, status: MinorStatus) -> bool:
         return status in self.minor

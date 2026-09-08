@@ -1,0 +1,70 @@
+2026-09-08 01:04:21,175 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,175 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,175 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,175 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,175 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,176 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,176 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,176 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,177 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,177 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,178 |request| update_manager: setting request_id=2 (was None, wait=False, force_switch=(), rqid=2)
+2026-09-08 01:04:21,178 FRAME battle-gen1ou-614081: rqid=2 last=None rejected=False
+2026-09-08 01:04:21,178 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,206 FRAME battle-gen1ou-614081: rqid=2 last=None rejected=False
+2026-09-08 01:04:21,207 Sending /choose move 4|2 in battle-gen1ou-614081 [force_switch=False moves=4]
+2026-09-08 01:04:21,207 <- battle-gen1ou-614081|/choose move 4|2
+2026-09-08 01:04:21,236 FRAME battle-gen1ou-614081: rqid=None last=2 rejected=False
+2026-09-08 01:04:21,236 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,237 |request| update_manager: setting request_id=4 (was None, wait=False, force_switch=(), rqid=4)
+2026-09-08 01:04:21,237 FRAME battle-gen1ou-614081: rqid=4 last=None rejected=False
+2026-09-08 01:04:21,237 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,254 FRAME battle-gen1ou-614081: rqid=4 last=None rejected=False
+2026-09-08 01:04:21,256 Sending /choose move 1|4 in battle-gen1ou-614081 [force_switch=False moves=1]
+2026-09-08 01:04:21,256 <- battle-gen1ou-614081|/choose move 1|4
+2026-09-08 01:04:21,273 FRAME battle-gen1ou-614081: rqid=None last=4 rejected=False
+2026-09-08 01:04:21,273 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,273 |request| update_manager: setting request_id=6 (was None, wait=False, force_switch=(), rqid=6)
+2026-09-08 01:04:21,274 FRAME battle-gen1ou-614081: rqid=6 last=None rejected=False
+2026-09-08 01:04:21,274 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,287 FRAME battle-gen1ou-614081: rqid=6 last=None rejected=False
+2026-09-08 01:04:21,289 Sending /choose move 3|6 in battle-gen1ou-614081 [force_switch=False moves=4]
+2026-09-08 01:04:21,289 <- battle-gen1ou-614081|/choose move 3|6
+2026-09-08 01:04:21,308 FRAME battle-gen1ou-614081: rqid=None last=6 rejected=False
+2026-09-08 01:04:21,308 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,308 |request| update_manager: setting request_id=8 (was None, wait=False, force_switch=(), rqid=8)
+2026-09-08 01:04:21,308 FRAME battle-gen1ou-614081: rqid=8 last=None rejected=False
+2026-09-08 01:04:21,309 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,325 FRAME battle-gen1ou-614081: rqid=8 last=None rejected=False
+2026-09-08 01:04:21,325 Receive loop failed
+Traceback (most recent call last):
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/classes/client/client.py", line 378, in _receive_loop
+    check_battle_state_against_showdown(manager.battle_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/models/sdk/check.py", line 511, in check_battle_state_against_showdown
+    check_status(
+    ~~~~~~~~~~~~^
+        "curr_pokemon_status",
+        ^^^^^^^^^^^^^^^^^^^^^^
+        battle_state.curr_pokemon_status,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ref_active,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/models/sdk/check.py", line 111, in check_status
+    same(
+    ~~~~^
+        f"{path}.minor[{minor.value}]",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        minor in status.minor,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        volatile_id in volatiles,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/models/sdk/check.py", line 35, in same
+    raise AssertionError(
+        f"{path}: sdk={actual!r}, showdown={expected!r}"
+    )
+AssertionError: curr_pokemon_status.minor[partiallytrapped]: sdk=False, showdown=True

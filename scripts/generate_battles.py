@@ -1,5 +1,4 @@
 import asyncio
-import logging
 import traceback
 from collections.abc import Awaitable
 from pathlib import Path
@@ -20,7 +19,12 @@ from python_showdown.logger import (
     stop_file_io_worker,
 )
 from python_showdown.utils.serialization import SerializableObject
-from scripts.utils import run_battle
+from scripts.utils import (
+    PROJECT_ROOT,
+    run_battle,
+    save_failed_battle,
+    write_failure_outputs,
+)
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 BATTLE_COUNT = 5000
@@ -86,6 +90,30 @@ async def run_pair(
             print(error)
 
             await asyncio.to_thread(write_error, error)
+
+            if raw_log_path is not None:
+                try:
+                    await asyncio.to_thread(write_failure_outputs, client_2)
+                except Exception:  # noqa: BLE001
+                    print("write_failure_outputs failed:")
+                    print(traceback.format_exc())
+
+                try:
+                    archive_path = await asyncio.to_thread(
+                        save_failed_battle,
+                        fmt,
+                        raw_log_path.parent.name,
+                    )
+                    if archive_path is not None:
+                        print(f"Failed battle archived to {archive_path}")
+                    else:
+                        print(
+                            "Failed battle archive skipped: "
+                            + f"{PROJECT_ROOT / 'logs' / fmt / raw_log_path.parent.name} not found"
+                        )
+                except Exception:  # noqa: BLE001
+                    print("Failed to archive failed battle:")
+                    print(traceback.format_exc())
 
         finally:
             progress.update(1)

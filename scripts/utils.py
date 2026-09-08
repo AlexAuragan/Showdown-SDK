@@ -1,5 +1,7 @@
 import asyncio
 import json
+import re
+import shutil
 from dataclasses import asdict
 from pathlib import Path
 
@@ -19,22 +21,64 @@ def write_json(path: Path, data: list[SerializableObject] | Serializable | Seria
         )
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-def write_battle_outputs(client: Client) -> None:
-    raw_log_path = client.log_manager.latest_raw_log_path()
-    if raw_log_path is None:
-        return
 
-    battle_directory = raw_log_path.parent
+def save_failed_battle(fmt: str, battle_id: str) -> Path | None:
+    """Move a failed battle's log directory into tests/sample_battles_auto/<fmt>.
 
-    write_json(
-        battle_directory / "events.json",
-        client.battle_manager.last_battle_events,
-    )
+    ``battle_id`` may be the raw room id (``battle-gen3randombattle-123``),
+    the log directory name (``battle_123``) or the battle number (``123``).
+    The whole directory is moved so client_1/client_2 raw logs and any
+    events.json / battle_states.json stay together for later replay by
+    scripts/test_sample_battles.py. Returns the destination path, or None if
+    the log directory does not exist.
+    """
+    battle_number = re.split(r"[-_]", str(battle_id))[-1]
+    source = PROJECT_ROOT / "logs" / fmt / f"battle_{battle_number}"
+
+    if not source.is_dir():
+        return None
+
+    destination = PROJECT_ROOT / "tests" / "sample_battles_auto" / fmt
+    destination.mkdir(parents=True, exist_ok=True)
+
+    target = destination / source.name
+    suffix = 1
+    while target.exists():
+        suffix += 1
+        target = destination / f"{source.name}_{suffix}"
+
+    shutil.move(str(source), str(target))
+    return target
+
+
+
+def write_battle_outputs(client: Client, battle_directory: Path | None = None) -> None:
+    if battle_directory is None:
+        raw_log_path = client.log_manager.latest_raw_log_path()
+        if raw_log_path is None:
+            return
+        battle_directory = raw_log_path.parent
+
     write_json(
         battle_directory / "battle_states.json",
         client.battle_manager.last_battle_turn_states,
     )
+
+
+def write_failure_outputs(client: Client) -> Path | None:
+    """Write battle_states.json for a battle that crashed.
+
+    No BattleResult was produced on a failure, so the turn-start snapshots
+    validated against Showdown's oracle while the battle was still running
+    are taken from the live battle_manager state.
+    """
+    manager = client.battle_manager
+    manager.last_battle_turn_states = list(manager.turn_start_states)
+
+    write_battle_outputs(client)
+    return client.log_manager.latest_raw_log_path()
 
 
 

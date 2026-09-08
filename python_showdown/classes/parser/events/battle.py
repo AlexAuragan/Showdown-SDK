@@ -24,6 +24,7 @@ from python_showdown.models.pokemon.terrain import SideCondition, Weather
 from python_showdown.models.sdk.battle_state import BattleState, SourceType
 from python_showdown.utils.serialization import SerializableObject
 
+
 def get_semi_invulnerable_status(
     move_name: str,
 ) -> MinorStatus | None:
@@ -316,6 +317,29 @@ class MoveEvent(BattleEvent):
             return
 
         enemy.witness_move(self.move)
+
+        # Partial trapping moves (Bind/Wrap/Clamp/Fire Spin/...) never emit a
+        # protocol line when they hit (at least in Gen 1), but the dex records
+        # their volatileStatus, so infer the volatile from the move itself.
+        if self.success and self.does_hit and self.target_pokemon is not None:
+            move_data = dex.gen(gen).move(self.move)
+            if (
+                isinstance(move_data, dict)
+                and move_data.get("volatileStatus")
+                    == MinorStatus.PARTIALLY_TRAPPED.value
+            ):
+                condition = dex.gen(gen).conditions[
+                    MinorStatus.PARTIALLY_TRAPPED.value
+                ]
+                duration = condition.get("duration") if isinstance(condition, dict) else None
+                target_status = _resolve_any_status(
+                    battle_state,
+                    self.target_pokemon,
+                )
+                target_status.add_minor(
+                    MinorStatus.PARTIALLY_TRAPPED,
+                    duration=duration if isinstance(duration, int) else None,
+                )
 
 
 @dataclass(frozen=True)
@@ -1061,10 +1085,12 @@ class UpkeepEvent(BattleEvent):
     @override
     def _update_battle_state(self, battle_state: BattleState) -> None:
         battle_state.curr_pokemon_status.clear_single_turn()
+        battle_state.curr_pokemon_status.tick_minor_durations()
 
         for pokemon in battle_state.enemy_team:
             if pokemon.active:
                 pokemon.status.clear_single_turn()
+                pokemon.status.tick_minor_durations()
 
 @dataclass(frozen=True)
 class WeatherEvent(BattleEvent):

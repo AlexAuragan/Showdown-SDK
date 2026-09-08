@@ -36,7 +36,7 @@ class BattleManager:
         self.last_request_id: int | None = None
 
         self.requires_team_preview: bool = False
-        self._turn_start_states: list[SerializableObject] = []
+        self.turn_start_states: list[SerializableObject] = []
         self._last_turn_start_state_turn: int | None = None
 
         self.last_battle_events: list[SerializableObject] = []
@@ -154,7 +154,7 @@ class BattleManager:
         self.requires_team_preview = False
 
         self.turn = 0
-        self._turn_start_states.clear()
+        self.turn_start_states.clear()
         self._last_turn_start_state_turn = None
         self.room_ready.clear()
 
@@ -208,7 +208,7 @@ class BattleManager:
             duration = perf_counter() - self.battle_started_at
 
         self.last_battle_events = self.battle_state.history_json()
-        self.last_battle_turn_states = list(self._turn_start_states)
+        self.last_battle_turn_states = list(self.turn_start_states)
         self.battle_finished.set_result(
             BattleResult(
                 room_id=self.room_id,
@@ -229,7 +229,7 @@ class BattleManager:
 
         state = self.battle_state.to_dict()
 
-        self._turn_start_states.append(
+        self.turn_start_states.append(
             {
                 "turn": self.turn,
                 "request_id": request_id,

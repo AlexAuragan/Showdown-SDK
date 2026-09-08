@@ -1,7 +1,6 @@
 import asyncio
 import logging
 import traceback
-from collections.abc import Awaitable
 from dataclasses import asdict
 from pathlib import Path
 from time import perf_counter
@@ -22,20 +21,25 @@ from python_showdown.logger import (
 )
 from python_showdown.models.sdk.sample_team_generator import SampleTeamGenerator
 from python_showdown.utils.serialization import SerializableObject
-from scripts.utils import write_battle_outputs
+from scripts.utils import (
+    PROJECT_ROOT,
+    save_failed_battle,
+    write_battle_outputs,
+    write_failure_outputs,
+)
 
 WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 BATTLE_COUNT = 100
 # Number of players (must be even). Players are paired up and each pair
 # runs its share of the battles; all pairs run concurrently.
-PLAYER_COUNT = 32
+PLAYER_COUNT = 8
 PAIR_COUNT = PLAYER_COUNT // 2
 BATTLES_PER_PAIR = BATTLE_COUNT // PAIR_COUNT
 
 ERROR_LOG = Path("simulation_errors.log")
 
 FORMATS = [
-    # "gen1ou",
+    "gen1ou",
     "gen2ou",
     "gen3ou",
     "gen4ou",
@@ -129,6 +133,7 @@ async def run_pair(
     pair_index: int,
     battle_offset: int,
     progress: tqdm[NoReturn],
+    fail_fast: bool = False,
 ) -> tuple[list[SerializableObject], int]:
     results: list[SerializableObject] = []
     failed_battles = 0
@@ -146,7 +151,7 @@ async def run_pair(
             if result is not None:
                 results.append(result)
 
-        except Exception:  # noqa: BLE001
+        except Exception:
             failed_battles += 1
             raw_log_path = logs.latest_raw_log_path()
 
@@ -164,13 +169,43 @@ async def run_pair(
 
             await asyncio.to_thread(write_error, error)
 
+            if raw_log_path is not None:
+                try:
+                    await asyncio.to_thread(write_failure_outputs, client_2)
+                except Exception:  # noqa: BLE001
+                    print("write_failure_outputs failed:")
+                    print(traceback.format_exc())
+
+                try:
+                    archive_path = await asyncio.to_thread(
+                        save_failed_battle,
+                        fmt,
+                        raw_log_path.parent.name,
+                    )
+                    if archive_path is not None:
+                        print(f"Failed battle archived to {archive_path}")
+                    else:
+                        print(
+                            "Failed battle archive skipped: "
+                            + f"{PROJECT_ROOT / 'logs' / fmt / raw_log_path.parent.name} not found"
+                        )
+                except Exception:  # noqa: BLE001
+                    print("Failed to archive failed battle:")
+                    print(traceback.format_exc())
+
+            if fail_fast:
+                raise
+
         finally:
             progress.update(1)
 
     return results, failed_battles
 
 
-async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
+async def run_format(
+    fmt: str,
+    fail_fast: bool = False,
+) -> tuple[list[SerializableObject], int]:
     """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
     clients: list[Client] = []
     log_managers: list[LogManager] = []
@@ -229,8 +264,9 @@ async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
             dynamic_ncols=True,
         )
 
-        # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
-        pair_tasks: list[Awaitable[tuple[list[SerializableObject], int]]] = []
+        pair_tasks: list[
+            asyncio.Task[tuple[list[SerializableObject], int]]
+        ] = []
 
         for pair_index in range(PAIR_COUNT):
             client_1 = clients[pair_index * 2]
@@ -238,19 +274,28 @@ async def run_format(fmt: str) -> tuple[list[SerializableObject], int]:
             battle_offset = pair_index * BATTLES_PER_PAIR
 
             pair_tasks.append(
-                run_pair(
-                    client_1,
-                    client_2,
-                    fmt=fmt,
-                    logs=log_managers[pair_index * 2],
-                    pair_index=pair_index,
-                    battle_offset=battle_offset,
-                    progress=progress,
+                asyncio.create_task(
+                    run_pair(
+                        client_1,
+                        client_2,
+                        fmt=fmt,
+                        logs=log_managers[pair_index * 2],
+                        pair_index=pair_index,
+                        battle_offset=battle_offset,
+                        progress=progress,
+                        fail_fast=fail_fast,
+                    )
                 )
             )
 
         try:
             pair_results = await asyncio.gather(*pair_tasks)
+        except BaseException:
+            for task in pair_tasks:
+                if not task.done():
+                    task.cancel()
+            await asyncio.gather(*pair_tasks, return_exceptions=True)
+            raise
         finally:
             progress.close()
 

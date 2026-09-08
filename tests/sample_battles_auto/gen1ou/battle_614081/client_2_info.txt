@@ -1,0 +1,68 @@
+2026-09-08 01:04:21,170 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,171 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,171 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,171 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,171 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,171 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,173 FRAME battle-gen1ou-614081: rqid=None last=None rejected=False
+2026-09-08 01:04:21,173 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,173 |request| update_manager: setting request_id=3 (was None, wait=False, force_switch=(), rqid=3)
+2026-09-08 01:04:21,174 FRAME battle-gen1ou-614081: rqid=3 last=None rejected=False
+2026-09-08 01:04:21,174 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,202 FRAME battle-gen1ou-614081: rqid=3 last=None rejected=False
+2026-09-08 01:04:21,203 Sending /choose move 2|3 in battle-gen1ou-614081 [force_switch=False moves=4]
+2026-09-08 01:04:21,203 <- battle-gen1ou-614081|/choose move 2|3
+2026-09-08 01:04:21,238 FRAME battle-gen1ou-614081: rqid=None last=3 rejected=False
+2026-09-08 01:04:21,238 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,239 |request| update_manager: setting request_id=5 (was None, wait=False, force_switch=(), rqid=5)
+2026-09-08 01:04:21,239 FRAME battle-gen1ou-614081: rqid=5 last=None rejected=False
+2026-09-08 01:04:21,239 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,258 FRAME battle-gen1ou-614081: rqid=5 last=None rejected=False
+2026-09-08 01:04:21,259 Sending /choose move 1|5 in battle-gen1ou-614081 [force_switch=False moves=1]
+2026-09-08 01:04:21,259 <- battle-gen1ou-614081|/choose move 1|5
+2026-09-08 01:04:21,275 FRAME battle-gen1ou-614081: rqid=None last=5 rejected=False
+2026-09-08 01:04:21,275 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,275 |request| update_manager: setting request_id=7 (was None, wait=False, force_switch=(), rqid=7)
+2026-09-08 01:04:21,275 FRAME battle-gen1ou-614081: rqid=7 last=None rejected=False
+2026-09-08 01:04:21,275 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,291 FRAME battle-gen1ou-614081: rqid=7 last=None rejected=False
+2026-09-08 01:04:21,292 Sending /choose move 1|7 in battle-gen1ou-614081 [force_switch=False moves=4]
+2026-09-08 01:04:21,292 <- battle-gen1ou-614081|/choose move 1|7
+2026-09-08 01:04:21,310 FRAME battle-gen1ou-614081: rqid=None last=7 rejected=False
+2026-09-08 01:04:21,310 NO ACT in battle-gen1ou-614081 (rqid=None)
+2026-09-08 01:04:21,310 |request| update_manager: setting request_id=9 (was None, wait=False, force_switch=(), rqid=9)
+2026-09-08 01:04:21,310 FRAME battle-gen1ou-614081: rqid=9 last=None rejected=False
+2026-09-08 01:04:21,310 <- battle-gen1ou-614081|/requeststate
+2026-09-08 01:04:21,329 FRAME battle-gen1ou-614081: rqid=9 last=None rejected=False
+2026-09-08 01:04:21,330 Receive loop failed
+Traceback (most recent call last):
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/classes/client/client.py", line 378, in _receive_loop
+    check_battle_state_against_showdown(manager.battle_state)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/models/sdk/check.py", line 779, in check_battle_state_against_showdown
+    check_status(
+    ~~~~~~~~~~~~^
+        f"{path}.status",
+        ^^^^^^^^^^^^^^^^^
+        enemy.status,
+        ^^^^^^^^^^^^^
+        ref_enemy,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/models/sdk/check.py", line 111, in check_status
+    same(
+    ~~~~^
+        f"{path}.minor[{minor.value}]",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        minor in status.minor,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        volatile_id in volatiles,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/alex/Projects/Showdown-SDK/python_showdown/models/sdk/check.py", line 35, in same
+    raise AssertionError(
+        f"{path}: sdk={actual!r}, showdown={expected!r}"
+    )
+AssertionError: enemy_team[5]/Venusaur.status.minor[partiallytrapped]: sdk=False, showdown=True
