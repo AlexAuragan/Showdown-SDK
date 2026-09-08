@@ -12,7 +12,6 @@ import os
 from collections import Counter
 from collections.abc import Sequence
 from pprint import pprint
-from typing import TYPE_CHECKING
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import (
@@ -31,8 +30,6 @@ from python_showdown.classes.parser.protocol import (
     extract_protocol_line,
     parse_protocol_message,
 )
-
-
 
 _LOBBY_COMMANDS = frozenset(
     {

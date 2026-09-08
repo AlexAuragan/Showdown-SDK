@@ -215,7 +215,7 @@ def replay_battle_raw(
     # The logs are recorded from one client's perspective; setting the
     # username lets PlayerEvent resolve which side we are playing from.
     client.username = username
-    client.expecting_battle_room = True
+    client.parser.expecting_battle_room = True
     parser = client.parser
 
     has_battlestate_frames = any(
@@ -265,7 +265,7 @@ def replay_battle_raw(
                             + f"{manager.room_id!r}"
                         )
 
-                    client.expecting_battle_room = False
+                    client.parser.expecting_battle_room = False
 
             elif isinstance(event, LobbyEvent):
                 event.update_client(client)
