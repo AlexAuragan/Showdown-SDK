@@ -7,6 +7,10 @@ moved, keeping client_1/client_2 raw logs and battle_states.json together);
 battles that fail stay in place in sample_battles_auto so the bug can be
 fixed and this script re-run.
 
+Passing battles are usually duplicates produced by the same underlying bug,
+so only the first passing battle per format is promoted; the rest are
+deleted to keep ``tests/sample_battles/<fmt>/`` from flooding.
+
 Usage:
     uv run scripts/test_sample_auto.py [format ...]
 """
@@ -83,8 +87,15 @@ def main() -> int:
             promoted_paths.append(path)
 
         # Promote passing battles into tests/sample_battles/<fmt>.
-        for path in promoted_paths:
-            battle_dir = path.parent
+        # A battle directory can appear multiple times in promoted_paths
+        # (once per client log), so only consider each directory once.
+        # Passing battles are usually near-identical duplicates created by
+        # the same bug, so only promote the first one and delete the rest
+        # to keep tests/sample_battles from flooding. Failing battles stay
+        # in sample_battles_auto until the bug is fixed.
+        for index, battle_dir in enumerate(dict.fromkeys(
+            path.parent for path in promoted_paths
+        )):
             destination = PROMOTE_DIRECTORY / format_name
             destination.mkdir(parents=True, exist_ok=True)
             target = destination / battle_dir.name
@@ -92,8 +103,15 @@ def main() -> int:
             while target.exists():
                 suffix += 1
                 target = destination / f"{battle_dir.name}_{suffix}"
-            shutil.move(str(battle_dir), str(target))
-            print(f"PROMOTED {battle_dir.name} -> {target.relative_to(PROJECT_ROOT)}")
+            if index == 0:
+                shutil.move(str(battle_dir), str(target))
+                print(
+                    f"PROMOTED {battle_dir.name} -> "
+                    f"{target.relative_to(PROJECT_ROOT)}"
+                )
+            else:
+                shutil.rmtree(battle_dir)
+                print(f"REMOVED duplicate {battle_dir.name}")
 
         total_ok += len(promoted_paths)
         total_checks += format_checks

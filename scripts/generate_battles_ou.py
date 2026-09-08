@@ -226,14 +226,6 @@ async def run_format(
             loggers="protocol",
         )
 
-        logs.add_handler(
-            create_battle_file_handler(
-                output_directory,
-                level=logging.DEBUG,
-                filename=f"{client_role}_info.txt",
-            ),
-            loggers=(logs.battle, logs.errors),
-        )
         client = Client(
             WEBSOCKET_URL,
             combat_handler=RandomMoveCombatHandler(),

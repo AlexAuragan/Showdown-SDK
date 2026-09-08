@@ -313,10 +313,8 @@ class MoveEvent(BattleEvent):
                 # Double part moves can cause issue with Mirror move
                 return
         enemy = _resolve_enemy(battle_state, self.source_pokemon)
-        if enemy is None:
-            return
-
-        enemy.witness_move(self.move)
+        if enemy is not None:
+            enemy.witness_move(self.move)
 
         # Partial trapping moves (Bind/Wrap/Clamp/Fire Spin/...) never emit a
         # protocol line when they hit (at least in Gen 1), but the dex records
