@@ -43,6 +43,7 @@ from python_showdown.classes.parser.events import (
     LobbyEvent,
     UnhandledEvent,
 )
+from python_showdown.classes.parser.events.base import BaseEvent
 from python_showdown.classes.parser.events.battle import (
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
@@ -113,8 +114,8 @@ def _detect_player(raw_lines: list[str]) -> tuple[str, str]:
     if slots:
         if "p1" in slots:
             return slots["p1"], "p1"
-        return next(iter(slots.items()))
-
+        slot, name = next(iter(slots.items()))
+        return name, slot
     raise ReplayError("Could not determine which player recorded this log")
 
 
@@ -188,6 +189,7 @@ class ReplayResult:
     tolerated_errors: dict[str, int] = field(default_factory=dict)
 
 
+
 def replay_battle_raw(
     path: Path,
     *,
@@ -226,22 +228,98 @@ def replay_battle_raw(
     frames = split_frames(raw_lines)
     line_count = sum(len(frame) for frame in frames)
 
+    def process_events(
+        parsed_events: list[BaseEvent],
+        line_number: int,
+    ) -> bool:
+        received_custom_state = False
+
+        # Client._receive_loop does this before runtime event handling.
+        manager.battle_state.history.extend(parsed_events)
+
+        for event in parsed_events:
+            if events is not None and not isinstance(
+                event,
+                CustomShowdownBattleStateEvent,
+            ):
+                events.append(event.to_dict())
+
+            if isinstance(event, UnhandledEvent):
+                raise ReplayError(
+                    f"{path.name}:{line_number} produced an UnhandledEvent: "
+                    + f"{event.raw!r}"
+                )
+
+            # Do not make this an elif.
+            # CustomShowdownBattleStateEvent is also a BattleEvent.
+            if isinstance(event, CustomShowdownBattleStateEvent):
+                received_custom_state = True
+
+            if isinstance(event, BattleEvent):
+                event.update_manager(manager)
+
+                if isinstance(event, BattleStartEvent):
+                    if manager.room_id != parser.last_message_room_id:
+                        raise ReplayError(
+                            "BattleStartEvent established the wrong room: "
+                            + f"{manager.room_id!r}"
+                        )
+
+                    client.expecting_battle_room = False
+
+            elif isinstance(event, LobbyEvent):
+                event.update_client(client)
+
+            elif isinstance(event, DiscardedEvent):
+                pass
+
+            else:
+                raise ReplayError(
+                    f"{path.name}:{line_number} got unknown {type(event)}"
+                )
+
+        return received_custom_state
+
     def finish_frame(received_custom_state: bool) -> None:
-        # Mirrors the frame-end logic of Client._receive_loop: the custom
-        # Showdown battle state must answer the request the client is waiting
-        # on, and the SDK state is validated against it (models/sdk/check.py).
         nonlocal state_check_count
+
+        # Mirror Client._receive_loop choice-retry restoration.
+        if (
+            manager.request_id is None
+            and manager.choice_rejected
+            and manager.last_request_id is not None
+            and (
+                manager.retry_rqid != manager.last_request_id
+                or manager.retry_count < 5
+            )
+        ):
+            if manager.retry_rqid != manager.last_request_id:
+                manager.retry_rqid = manager.last_request_id
+                manager.retry_count = 0
+
+            manager.retry_count += 1
+            manager.request_id = manager.last_request_id
+
+        # Same branch priority as Client._receive_loop.
+        if manager.requires_team_preview:
+            # Simulate sending `/choose team ...`.
+            # No network operation is performed by replay.
+            manager.requires_team_preview = False
+            return
 
         if received_custom_state:
             pending = client.pending_state_request_id
+
             if pending is None:
                 raise ReplayError(
                     "Received Showdown battle state without a pending request"
                 )
+
             if manager.request_id != pending:
                 raise ReplayError(
                     "Battle state synchronization failed: "
-                    + f"requested rqid={pending}, current rqid={manager.request_id}"
+                    + f"requested rqid={pending}, "
+                    + f"current rqid={manager.request_id}"
                 )
 
             check_battle_state_against_showdown(manager.battle_state)
@@ -252,25 +330,39 @@ def replay_battle_raw(
                 snapshots.append(manager.battle_state.to_dict())
 
             client.pending_state_request_id = None
-            # act() in the live loop consumes the request.
-            manager.request_id = None
 
-        elif has_battlestate_frames and manager.request_id is not None:
+            # Simulate Client.act().
+            #
+            # act() records the rqid being acted on before sending /choose.
+            manager.last_request_id = manager.request_id
+            manager.request_id = None
+            return
+
+        if manager.request_id is None:
+            return
+
+        if has_battlestate_frames:
             pending = client.pending_state_request_id
+
             if pending is None:
-                # get_custom_showdown_battle_state() in the live loop; the
-                # server's response is already part of the log.
+                # Simulate get_custom_showdown_battle_state().
                 client.pending_state_request_id = manager.request_id
-            elif manager.request_id != pending:
+                return
+
+            if manager.request_id != pending:
                 raise ReplayError(
                     "Received a different decision while waiting for "
                     + "Showdown state: "
-                    + f"pending rqid={pending}, current rqid={manager.request_id}"
+                    + f"pending rqid={pending}, "
+                    + f"current rqid={manager.request_id}"
                 )
 
-        if manager.requires_team_preview:
-            # select_team_order() + /choose team in the live loop.
-            manager.requires_team_preview = False
+            return
+
+        # Old logs without |battlestate| frames.
+        # Simulate act() without performing network I/O.
+        manager.last_request_id = manager.request_id
+        manager.request_id = None
 
     for frame in frames:
         received_custom_state = False
@@ -281,50 +373,23 @@ def replay_battle_raw(
         for line_number, line in enumerate(frame, start=1):
             try:
                 parsed_events = parser.handle_line(line, has_log_timestamp=True)
-            except (InvalidActionError, ObsoleteRequestIdError) as error:
-                # The recorder tried an illegal action; the live receive loop
-                # tolerates this too.
+            except ObsoleteRequestIdError as error:
+                error.request_id = manager.request_id
+                manager.choice_rejected = False
+
                 name = type(error).__name__
                 tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
                 continue
 
-            for event in parsed_events:
-                # The custom Showdown battle state embeds the entire recorded
-                # oracle payload (PRNG seed, input_log, internal engine
-                # state...). It stays in the actual replay processing below,
-                # but is excluded from golden event serialization: goldens
-                # must only capture OUR semantic event interpretation, not
-                # the Showdown side.
-                if events is not None and not isinstance(
-                    event, CustomShowdownBattleStateEvent
-                ):
-                    # Existing event serialization (BaseEvent.to_dict).
-                    events.append(event.to_dict())
-                if isinstance(event, UnhandledEvent):
-                    raise ReplayError(
-                        f"{path.name}:{line_number} produced an UnhandledEvent: "
-                        + f"{event.raw!r}"
-                    )
-                elif isinstance(event, CustomShowdownBattleStateEvent):
-                    # Must be matched before BattleEvent: it subclasses it.
-                    received_custom_state = True
-                elif isinstance(event, BattleEvent):
-                    event.update_manager(manager)
-                    if isinstance(event, BattleStartEvent):
-                        if manager.room_id != parser.last_message_room_id:
-                            raise ReplayError(
-                                "BattleStartEvent established the wrong room: "
-                                + f"{manager.room_id!r}"
-                            )
-                        client.expecting_battle_room = False
-                elif isinstance(event, LobbyEvent):
-                    event.update_client(client)
-                elif isinstance(event, DiscardedEvent):
-                    pass
-                else:
-                    raise ReplayError(
-                        f"{path.name}:{line_number} got unknown {type(event)}"
-                    )
+            except InvalidActionError as error:
+                manager.choice_rejected = error.category != "Unavailable choice"
+
+                name = type(error).__name__
+                tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
+                continue
+
+            if process_events(parsed_events, line_number):
+                received_custom_state = True
 
         finish_frame(received_custom_state)
 
