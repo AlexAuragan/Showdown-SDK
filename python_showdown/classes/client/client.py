@@ -69,9 +69,6 @@ class Client:
         self.team_validation_future: asyncio.Future[None] | None = None
         self.pending_state_request_id: int | None = None
 
-        self.expecting_battle_room: bool = False
-        self.ignored_battle_rooms: set[str] = set()
-
     def get_request_id(self):
         return self.pending_state_request_id
 
@@ -286,7 +283,7 @@ class Client:
                                             + f"manager={manager.room_id!r}, "
                                             + f"message={self.parser.last_message_room_id!r}"
                                         )
-                                    self.expecting_battle_room = False
+                                    self.parser.expecting_battle_room = False
                             elif isinstance(event, LobbyEvent):
                                 event.update_client(self)
                             elif isinstance(event, DiscardedEvent):
@@ -515,7 +512,7 @@ class Client:
         self.challenge_future = loop.create_future()
         self.challenged_user = user
 
-        self.expecting_battle_room = True
+        self.parser.expecting_battle_room = True
         try:
             await self.send(f"/challenge {user}, {format_name}")
 
@@ -525,10 +522,10 @@ class Client:
             )
 
         except TimeoutError as error:
-            self.expecting_battle_room = False
+            self.parser.expecting_battle_room = False
             raise TimeoutError(f"No challenge confirmation for {user!r}") from error
         except BaseException:
-            self.expecting_battle_room = False
+            self.parser.expecting_battle_room = False
             raise
 
         finally:
@@ -688,12 +685,12 @@ class Client:
 
         await self.upload_team(team)
 
-        self.expecting_battle_room = True
+        self.parser.expecting_battle_room = True
 
         try:
             await self.send(f"/accept {challenger}")
         except BaseException:
-            self.expecting_battle_room = False
+            self.parser.expecting_battle_room = False
             raise
 
     async def _leave_stale_rooms(
@@ -704,8 +701,8 @@ class Client:
         if wait_for_autorejoin:
             await asyncio.sleep(STALE_ROOM_GRACE_PERIOD)
 
-        while self.ignored_battle_rooms:
-            stale_room = self.ignored_battle_rooms.pop()
+        while self.parser.ignored_battle_rooms:
+            stale_room = self.parser.ignored_battle_rooms.pop()
 
             self.log_manager.battle.info(
                 "Leaving ignored stale battle room %r",
