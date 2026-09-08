@@ -61,7 +61,8 @@ SAMPLE_DIRECTORIES = (
     PROJECT_ROOT / "tests" / "sample_battles",
     PROJECT_ROOT / "tests" / "sample_battles_auto",
 )
-FIXTURE_DIRECTORY = PROJECT_ROOT / "tests" / "replay_fixtures"
+# Curated, git-tracked regression corpus replayed by pytest (tests/).
+FIXTURE_DIRECTORY = PROJECT_ROOT / "tests" / "sample_battles"
 
 
 class ReplayError(Exception):
