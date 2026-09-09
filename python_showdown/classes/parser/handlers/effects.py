@@ -208,10 +208,9 @@ def _activation_event(
                 copied_move=message.arguments[2],
             )
 
-        move_data = dex.gen(context.gen).move(move)
-        assert isinstance(move_data, dict), move_data
-
-        volatile_status = move_data.get("volatileStatus")
+        volatile_status = dex.gen(context.gen).move_volatile_status(
+            move,
+        )
         if volatile_status == MinorStatus.PARTIALLY_TRAPPED.value:
             return MinorStatusEvent(
                 source=parse_effect_source(

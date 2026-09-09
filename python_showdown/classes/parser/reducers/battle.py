@@ -187,13 +187,7 @@ def _reduce_move_prepare(
     if gen is None:
         raise RuntimeError("gen is not set")
 
-    condition = dex.gen(gen).conditions.get("twoturnmove")
-
-    duration: int | None = None
-    if isinstance(condition, dict):
-        condition_duration = condition.get("duration")
-        if isinstance(condition_duration, int):
-            duration = condition_duration
+    duration = dex.gen(battle_state.gen).condition_duration("twoturnmove")
 
     status = _resolve_any_status(
         battle_state,
@@ -220,16 +214,10 @@ def _sync_own_two_turn_status_from_request(
     if move.curr_pp is not None or move.max_pp is not None:
         return
 
-    gen = battle_state.gen
-    if gen is None:
-        raise RuntimeError("gen is not set")
-
-    move_id = to_id(move.id)
-
-    if move_id not in dex.get_charge_moves(gen):
+    if not dex.gen(battle_state.gen).is_charge_move(move.id):
         return
 
-    minor = get_semi_invulnerable_status(move_id)
+    minor = get_semi_invulnerable_status(move.id)
     if minor is not None and minor not in status.minor:
         status.add_minor(minor, duration=1)
 
@@ -487,26 +475,16 @@ def _reduce_move(
 
     # Gen 1 does not emit an explicit `|-activate|...|move: Wrap`
     # when partial trapping starts, so it has to be inferred.
-    #
-    # Later generations do emit that activation, which becomes a
-    # MinorStatusEvent. Inferring it here would incorrectly mark targets
-    # as trapped when Wrap/Bind/etc. are blocked by Protect.
     if (
         gen == 1
         and event.success
         and event.does_hit
         and event.target_pokemon is not None
     ):
-        move_data = dex.gen(gen).move(event.move)
-
-        if (
-            isinstance(move_data, dict)
-            and move_data.get("volatileStatus") == MinorStatus.PARTIALLY_TRAPPED.value
-        ):
-            condition = dex.gen(gen).conditions[MinorStatus.PARTIALLY_TRAPPED.value]
-
-            duration = (
-                condition.get("duration") if isinstance(condition, dict) else None
+        volatile_status = dex.gen(battle_state.gen).move_volatile_status(event.move)
+        if volatile_status == MinorStatus.PARTIALLY_TRAPPED.value:
+            duration = dex.gen(battle_state.gen).condition_duration(
+                MinorStatus.PARTIALLY_TRAPPED.value,
             )
 
             target_status = _resolve_any_status(
@@ -516,7 +494,7 @@ def _reduce_move(
 
             target_status.add_minor(
                 MinorStatus.PARTIALLY_TRAPPED,
-                duration=duration if isinstance(duration, int) else None,
+                duration=duration,
             )
 
 

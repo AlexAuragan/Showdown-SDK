@@ -117,7 +117,7 @@ __all__ = [
     # Entry point
     "Parser",
     "ParseResult",
-    # Managers
+    # Parsers
     "MessageParser",
     "BattleParser",
     "LobbyParser",
@@ -205,7 +205,7 @@ __all__ = [
     "handle_battle_end",
     "parse_move_group",
     "parse_standalone_effect",
-    # Ability state
+    # Protocol context
     "update_protocol_context",
     # Battle state
     "BattleStateHandler",

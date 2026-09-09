@@ -207,6 +207,45 @@ class GenerationDex:
 
         return self._charge_moves
 
+    def move_volatile_status(self, name: str) -> str | None:
+        move_id = to_id(name)
+
+        move = expect_object(
+            self.move(move_id),
+            name=f"move {move_id!r}",
+        )
+
+        raw_volatile_status = move.get("volatileStatus")
+        if raw_volatile_status is None:
+            return None
+
+        if not isinstance(raw_volatile_status, str):
+            raise TypeError(
+                f"Expected move {move_id!r}.volatileStatus to be a string, "
+                + f"got {type(raw_volatile_status).__name__}"
+            )
+
+        return raw_volatile_status
+
+    def condition_duration(self, name: str) -> int | None:
+        condition_id = to_id(name)
+        condition = self.condition(condition_id)
+
+        raw_duration = condition.get("duration")
+        if raw_duration is None:
+            return None
+
+        if not isinstance(raw_duration, int):
+            raise TypeError(
+                f"Expected condition {condition_id!r}.duration to be an int, "
+                + f"got {type(raw_duration).__name__}"
+            )
+
+        return raw_duration
+
+    def is_charge_move(self, name: str) -> bool:
+        return to_id(name) in self.get_charge_moves()
+
     def refresh(self) -> None:
         for table in self._tables.values():
             table.refresh()
