@@ -7,7 +7,7 @@ through ``Parser.handle_line`` in a synchronous loop (no websocket, no
 server), replicating the small amount of bookkeeping
 ``Client._receive_loop`` performs on each event:
 
-- ``apply_battle_runtime_event(battle_manager, event)``
+- ``apply_battle_event(battle_manager, event)``
 - ``LobbyEvent.update_client(client)``
 - ``expecting_battle_room`` bookkeeping for ``BattleStartEvent``
 
@@ -33,12 +33,13 @@ Usage from pytest::
 """
 
 import json
+from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 
 from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.battle_events import (
-    apply_battle_runtime_event,
+    apply_battle_event,
 )
 from python_showdown.classes.parser.events import (
     BattleEvent,
@@ -56,7 +57,6 @@ from python_showdown.classes.parser.exceptions import (
     ObsoleteRequestIdError,
 )
 from python_showdown.classes.parser.protocol import extract_protocol_line
-from python_showdown.classes.parser.reducers import reduce_battle_state
 from python_showdown.models.sdk.battle_state import BattleState
 from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.utils.serialization import Serializable
@@ -232,13 +232,10 @@ def replay_battle_raw(
     line_count = sum(len(frame) for frame in frames)
 
     def process_events(
-        parsed_events: list[BaseEvent],
+        parsed_events: Sequence[BaseEvent],
         line_number: int,
     ) -> bool:
         received_custom_state = False
-
-        # Client._receive_loop does this before runtime event handling.
-        manager.battle_state.history.extend(parsed_events)
 
         for event in parsed_events:
             if events is not None and not isinstance(
@@ -259,8 +256,11 @@ def replay_battle_raw(
                 received_custom_state = True
 
             if isinstance(event, BattleEvent):
-                reduce_battle_state(manager.battle_state, event)
-                apply_battle_runtime_event(manager, event)
+                apply_battle_event(
+                    manager,
+                    event,
+                )
+
                 if isinstance(event, BattleStartEvent):
                     if manager.room_id != parser.last_message_room_id:
                         raise ReplayError(
@@ -425,7 +425,13 @@ def replay_battle_raw(
                 ) from error
             raise
 
-    parser.finish(player_id)
+    final_events = parser.finish(player_id)
+
+    if final_events:
+        process_events(
+            final_events,
+            line_count + 1,
+        )
 
     if parser.pending_messages:
         pending = "\n".join(message.raw for message in parser.pending_messages)

@@ -2,8 +2,11 @@
 
 Aggregates raw battle-room protocol messages into complete semantic events.
 A ``|move|`` line opens a group; effect lines decorate it; the next top-level
-action or phase boundary flushes it. The running :class:`BattleState` is
-updated incrementally as events are produced.
+action or phase boundary flushes it.
+
+This module only produces semantic events and updates parser-local protocol
+context. Applying events to BattleState or BattleManager is the caller's
+responsibility.
 
 This is the battle parser: it only sees messages the aggregator routes to it
 (lobby/global messages such as ``|updateuser|`` never reach it).

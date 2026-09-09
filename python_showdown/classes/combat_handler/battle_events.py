@@ -12,11 +12,13 @@ from python_showdown.classes.parser.events.battle import (
     BattleEndEvent,
     BattleEvent,
     BattleStartEvent,
+    CustomShowdownBattleStateEvent,
     DecisionRequestEvent,
     PlayerEvent,
     RoomEvent,
     TeamPreviewRequestEvent,
 )
+from python_showdown.classes.parser.reducers import reduce_battle_state
 
 
 def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
@@ -55,6 +57,25 @@ def _apply_decision_request(
 
     if not event.wait:
         manager.last_request_id = None
+
+
+def apply_battle_event(
+    manager: BattleManager,
+    event: BattleEvent,
+) -> None:
+    """Apply one semantic battle event in the canonical order."""
+    reduce_battle_state(
+        manager.battle_state,
+        event,
+    )
+
+    if not isinstance(event, CustomShowdownBattleStateEvent):
+        manager.battle_state.history.append(event)
+
+    apply_battle_runtime_event(
+        manager,
+        event,
+    )
 
 
 def apply_battle_runtime_event(manager: BattleManager, event: BaseEvent) -> None:

@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.battle_events import (
-    apply_battle_runtime_event,
+    apply_battle_event,
 )
 from python_showdown.classes.parser.events.battle import (
     BattleEvent,
@@ -19,7 +19,6 @@ from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
-from python_showdown.classes.parser.reducers import reduce_battle_state
 
 POKEMON_TO_FILE: dict[str, set[Path]] = defaultdict(set)
 MOVE_TO_FILE: dict[str, set[Path]] = defaultdict(set)
@@ -49,11 +48,7 @@ def list_instances(path: Path, formats: list[str]):
                         if isinstance(event, LobbyEvent):
                             event.update_client(client)
                         elif isinstance(event, BattleEvent):
-                            reduce_battle_state(
-                                client.battle_manager.battle_state,
-                                event,
-                            )
-                            apply_battle_runtime_event(
+                            apply_battle_event(
                                 client.battle_manager,
                                 event,
                             )

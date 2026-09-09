@@ -5,7 +5,7 @@ from pathlib import Path
 
 from python_showdown.classes.client.client import Client
 from python_showdown.classes.combat_handler.battle_events import (
-    apply_battle_runtime_event,
+    apply_battle_event,
 )
 from python_showdown.classes.parser.events.battle import BattleEvent
 from python_showdown.classes.parser.events.lobby import LobbyEvent
@@ -13,7 +13,6 @@ from python_showdown.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
-from python_showdown.classes.parser.reducers import reduce_battle_state
 
 
 def list_fights(path: Path, formats: list[str]):
@@ -31,7 +30,6 @@ def list_fights(path: Path, formats: list[str]):
                     line = " ".join(line.split(" ")[2:])
                     try:
                         new_events = parser.handle_line(line)
-                        client.battle_manager.battle_state.history.extend(new_events)
                     except InvalidActionError, ObsoleteRequestIdError:
                         new_events = []
                     except Exception:
@@ -42,11 +40,7 @@ def list_fights(path: Path, formats: list[str]):
                         if isinstance(event, LobbyEvent):
                             event.update_client(client)
                         elif isinstance(event, BattleEvent):
-                            reduce_battle_state(
-                                client.battle_manager.battle_state,
-                                event,
-                            )
-                            apply_battle_runtime_event(
+                            apply_battle_event(
                                 client.battle_manager,
                                 event,
                             )
