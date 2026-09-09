@@ -10,12 +10,12 @@ from python_showdown.classes.parser.events.battle import (
     DecisionRequestEvent,
     TeamPreviewRequestEvent,
 )
+from python_showdown.classes.parser.fields import parse_condition, parse_pokemon_details
 from python_showdown.classes.parser.models import (
     ProtocolMessage,
     RequestMove,
     RequestPokemon,
 )
-from python_showdown.models.pokemon.status import MajorStatus
 from python_showdown.utils.serialization import (
     SerializableObject,
     expect_array,
@@ -336,7 +336,10 @@ def _parse_request_pokemon(
         name="request side",
     )
 
-    side_id = expect_string(side["id"], name="request['side']['id']")
+    side_id = expect_string(
+        side["id"],
+        name="request['side']['id']",
+    )
 
     if side_id != player_id:
         raise ValueError(f"Request player mismatch: {side_id=!r}, {player_id=!r}")
@@ -392,54 +395,38 @@ def _parse_request_pokemon(
         if set(stats) != stats_keys:
             raise ValueError(f"Unexpected stats schema: {stats}")
 
-        atk = expect_int(stats["atk"], name=f"pokemon[{i}].stats.atk")
-        def_ = expect_int(stats["def"], name=f"pokemon[{i}].stats.def")
-        spa = expect_int(stats["spa"], name=f"pokemon[{i}].stats.spa")
-        spd = expect_int(stats["spd"], name=f"pokemon[{i}].stats.spd")
-        spe = expect_int(stats["spe"], name=f"pokemon[{i}].stats.spe")
+        atk = expect_int(
+            stats["atk"],
+            name=f"pokemon[{i}].stats.atk",
+        )
+        def_ = expect_int(
+            stats["def"],
+            name=f"pokemon[{i}].stats.def",
+        )
+        spa = expect_int(
+            stats["spa"],
+            name=f"pokemon[{i}].stats.spa",
+        )
+        spd = expect_int(
+            stats["spd"],
+            name=f"pokemon[{i}].stats.spd",
+        )
+        spe = expect_int(
+            stats["spe"],
+            name=f"pokemon[{i}].stats.spe",
+        )
 
-        condition = expect_string(
+        raw_condition = expect_string(
             raw["condition"],
             name=f"request['side']['pokemon'][{i}]['condition']",
         )
-
-        if condition == "0 fnt":
-            curr_hp = 0
-            max_hp = None
-            major_status = MajorStatus.FAINT
-        else:
-            try:
-                curr_str, rest = condition.split("/", 1)
-                curr_hp = int(curr_str)
-
-                if " " in rest:
-                    max_str, major_status_str = rest.split(" ", 1)
-                    max_hp = int(max_str)
-                    major_status = MajorStatus(major_status_str)
-                else:
-                    max_hp = int(rest)
-                    major_status = None
-            except (ValueError, TypeError) as exc:
-                raise ValueError(f"Invalid Pokémon condition: {condition!r}") from exc
+        condition = parse_condition(raw_condition)
 
         details = expect_string(
             raw["details"],
             name=f"request['side']['pokemon'][{i}]['details']",
         )
-
-        clean_details = (
-            details.replace(", shiny", "").replace(", M", "").replace(", F", "")
-        )
-
-        if ", L" in clean_details:
-            try:
-                level = int(clean_details.split(", L", 1)[1])
-            except ValueError as exc:
-                raise ValueError(
-                    f"Invalid Pokémon level in details: {details!r}"
-                ) from exc
-        else:
-            level = 100
+        parsed_details = parse_pokemon_details(details)
 
         raw_pokemon_moves = expect_array(
             raw["moves"],
@@ -483,7 +470,7 @@ def _parse_request_pokemon(
             RequestPokemon(
                 ident=ident,
                 details=details,
-                level=level,
+                level=parsed_details.level,
                 active=active,
                 atk=atk,
                 def_=def_,
@@ -494,9 +481,9 @@ def _parse_request_pokemon(
                 base_ability=base_ability,
                 item=item,
                 pokeball=pokeball,
-                curr_hp=curr_hp,
-                max_hp=max_hp,
-                major_status=major_status,
+                curr_hp=condition.current_hp,
+                max_hp=condition.max_hp,
+                major_status=condition.status,
             )
         )
 

@@ -57,6 +57,7 @@ from python_showdown.classes.parser.events.battle import (
     UpkeepEvent,
     WeatherEvent,
 )
+from python_showdown.classes.parser.fields import parse_pokemon_details
 from python_showdown.classes.parser.models import (
     EffectSource,
     PokemonIdent,
@@ -338,21 +339,6 @@ def _resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Statu
             f"Pokemon {ident} not found in enemy team {battle_state.enemy_team}"
         )
     return pokemon.status
-
-
-def _parse_details(details: str) -> tuple[str | None, bool]:
-    shiny = False
-    gender: str | None = None
-    if ", shiny" in details:
-        shiny = True
-        details = details.replace(", shiny", "")
-    if ", M" in details:
-        gender = "M"
-        details = details.replace(", M", "")
-    elif ", F" in details:
-        gender = "F"
-        details = details.replace(", F", "")
-    return gender, shiny
 
 
 def _reveal_effect_source(battle_state: BattleState, source: EffectSource) -> None:
@@ -792,7 +778,9 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
             passed_status = Status()
             _copy_baton_pass_status(passed_status, outgoing.status, gen)
 
-    gender, shiny = _parse_details(event.details)
+    details = parse_pokemon_details(event.details)
+    gender = details.gender
+    shiny = details.shiny
     level = event.level
 
     battle_state.witness_switch_in(

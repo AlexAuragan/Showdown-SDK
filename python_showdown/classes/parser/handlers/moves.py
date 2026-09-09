@@ -22,6 +22,7 @@ from python_showdown.classes.parser.events.battle import (
 )
 from python_showdown.classes.parser.fields import (
     make_move_source,
+    parse_move_origin,
     parse_pokemon_ident,
 )
 from python_showdown.classes.parser.handlers.effects import (
@@ -76,63 +77,67 @@ def parse_move_group(
         raise ValueError("A move group must start with a move message")
 
     move_message = messages[0]
+
     if len(move_message.arguments) < 2:
         raise ValueError(f"Malformed move message: {move_message.raw!r}")
 
     user = parse_pokemon_ident(move_message.arguments[0])
     move = move_message.arguments[1]
+
     raw_target = (
         move_message.arguments[2].strip() if len(move_message.arguments) > 2 else ""
     )
     target = parse_pokemon_ident(raw_target) if raw_target else None
-    source = make_move_source(user, move, action_id)
+
+    action_source = make_move_source(
+        user,
+        move,
+        action_id,
+    )
 
     state = MoveParseState()
+
     parse_context = EffectParseContext(
         player_id=player_id,
-        source=source,
+        source=action_source,
         protocol_context=context,
         action_id=action_id,
     )
+
     effects: list[BaseEvent] = []
 
     for message in messages[1:]:
         if is_ignored_message(message):
             continue
 
-        if (
-            message.command == "-hint"
-        ):  # outside move control since it can create new events
+        if message.command == "-hint":
             effects.extend(handle_hint(message))
             continue
 
-        if _handle_move_control_message(message, state, parse_context):
+        if _handle_move_control_message(
+            message,
+            state,
+            parse_context,
+        ):
             continue
 
-        parsed_events = parse_effect_message(message, parse_context)
+        parsed_events = parse_effect_message(
+            message,
+            parse_context,
+        )
+
         if parsed_events is None:
-            effects.append(unhandled_event(message, action_id))
+            effects.append(
+                unhandled_event(
+                    message,
+                    action_id,
+                )
+            )
         else:
             effects.extend(parsed_events)
 
-    from_ = annotation_value(move_message, "from")
+    origin = parse_move_origin(move_message)
 
-    if from_ is None:
-        source = None
-    elif ": " not in from_:
-        if from_ == "Mirror Move":
-            source = EffectSource(type=SourceType.MOVE, name=from_)
-        else:
-            source = EffectSource(type=SourceType.UNKNOWN, name=from_)
-    else:
-        source_type, effect_name = from_.strip().split(": ")
-        match source_type:
-            case "ability":
-                source = EffectSource(type=SourceType.ABILITY, name=effect_name)
-            case "move":
-                source = EffectSource(type=SourceType.MOVE, name=effect_name)
-            case _:
-                raise ValueError(f"Unkown source from: {from_}")
     return [
         MoveEvent(
             action_id=action_id,
@@ -143,7 +148,7 @@ def parse_move_group(
             does_hit=state.does_hit,
             failure_reason=state.failure_reason,
             hit_count=state.hit_count,
-            source=source,
+            source=origin,
         ),
         *effects,
     ]

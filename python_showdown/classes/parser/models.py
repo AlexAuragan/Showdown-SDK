@@ -40,16 +40,18 @@ class PokemonIdent:
         return pokemon
 
     @staticmethod
-    def from_str(value: str):
-        """p1a: Azumarill"""
-        value = value.strip()
-        if ": " not in value:
-            raise ValueError(f"Format not supported: {value}")
-        player, pokemon = value.split(": ")
-        slot = None
-        if len(player) == 3:
-            player, slot = player[:2], player[2]
-        return PokemonIdent(name=pokemon, player=player, slot=slot)
+    def from_str(value: str) -> PokemonIdent:
+        """Parse a protocol Pokémon identifier such as ``p1a: Azumarill``."""
+        from python_showdown.classes.parser.fields import parse_pokemon_ident
+
+        return parse_pokemon_ident(value)
+
+
+@dataclass(frozen=True)
+class PokemonDetails:
+    level: int
+    gender: str | None
+    shiny: bool
 
 
 @dataclass(frozen=True)

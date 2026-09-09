@@ -96,15 +96,9 @@ class Status:
         self.minor.discard(MinorStatus.TRAPPED)
         self.trapped_by_side = None
 
-    def reset_on_switch(self):
+    def reset_on_switch(self) -> None:
         # Volatile state clears on switch; major status conditions persist.
-        self.atk_stage = 0
-        self.def_stage = 0
-        self.spa_stage = 0
-        self.spd_stage = 0
-        self.spe_stage = 0
-        self.eva_stage = 0
-        self.acc_stage = 0
+        self.reset_all_stages()
 
         self.minor.clear()
         self._minor_durations.clear()
@@ -170,27 +164,24 @@ class Status:
     def unboost(self, stat: Stat, n: int) -> None:
         self._adjust_stage(stat, -n)
 
-    def copy_stat_changes(self, source: Status):
-        self.atk_stage = source.atk_stage
-        self.def_stage = source.def_stage
-        self.spa_stage = source.spa_stage
-        self.spd_stage = source.spd_stage
-        self.spe_stage = source.spe_stage
-        self.eva_stage = source.eva_stage
-        self.acc_stage = source.acc_stage
+    def copy_stat_changes(self, source: Status) -> None:
+        for stat in Stat:
+            self._set_stage(
+                stat,
+                source._get_stage(stat),
+            )
 
     def reset_all_stages(self) -> None:
         """Clear every stat stage to 0 (e.g. |-clearallboost|, Haze)."""
-        self.copy_stat_changes(Status())
+        for stat in Stat:
+            self._set_stage(stat, 0)
 
     def clear_negative_stages(self) -> None:
-        self.atk_stage = max(self.atk_stage, 0)
-        self.def_stage = max(self.def_stage, 0)
-        self.spa_stage = max(self.spa_stage, 0)
-        self.spd_stage = max(self.spd_stage, 0)
-        self.spe_stage = max(self.spe_stage, 0)
-        self.eva_stage = max(self.eva_stage, 0)
-        self.acc_stage = max(self.acc_stage, 0)
+        for stat in Stat:
+            self._set_stage(
+                stat,
+                max(self._get_stage(stat), 0),
+            )
 
     @staticmethod
     def _clamp(stage: int) -> int:

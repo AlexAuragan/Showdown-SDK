@@ -1,6 +1,7 @@
 from python_showdown.classes.parser.context import ParsedCondition
 from python_showdown.classes.parser.models import (
     EffectSource,
+    PokemonDetails,
     PokemonIdent,
     ProtocolMessage,
 )
@@ -61,6 +62,65 @@ def parse_level(details: str) -> int:
     return int(match.group("level")) if match is not None else 100
 
 
+def parse_pokemon_details(details: str) -> PokemonDetails:
+    """Parse the common metadata encoded in a Showdown Pokémon details field.
+
+    Examples:
+        Pikachu
+        Pikachu, L80
+        Pikachu, L80, M
+        Pikachu, L80, F, shiny
+
+    Unknown detail tokens are intentionally ignored here. This function only
+    owns the metadata the SDK currently models.
+    """
+    normalized = details.strip()
+    if not normalized:
+        raise ValueError("Cannot parse empty Pokémon details")
+
+    parts = tuple(part.strip() for part in normalized.split(","))
+
+    gender: str | None = None
+    shiny = False
+
+    for part in parts[1:]:
+        if part == "M":
+            if gender == "F":
+                raise ValueError(f"Conflicting genders in Pokémon details: {details!r}")
+            gender = "M"
+        elif part == "F":
+            if gender == "M":
+                raise ValueError(f"Conflicting genders in Pokémon details: {details!r}")
+            gender = "F"
+        elif part == "shiny":
+            shiny = True
+
+    return PokemonDetails(
+        level=parse_level(normalized),
+        gender=gender,
+        shiny=shiny,
+    )
+
+
+def _split_source_value(value: str) -> tuple[str | None, str]:
+    normalized = value.strip()
+    if not normalized:
+        raise ValueError("Cannot parse empty effect source")
+
+    prefix, separator, name = normalized.partition(": ")
+
+    if not separator:
+        return None, normalized
+
+    prefix = prefix.strip().casefold()
+    name = name.strip()
+
+    if not prefix or not name:
+        raise ValueError(f"Invalid effect source: {value!r}")
+
+    return prefix, name
+
+
 def is_percentage_hp(
     player_id: str, pokemon: PokemonIdent, condition: ParsedCondition
 ) -> bool:
@@ -98,45 +158,68 @@ def parse_effect_source(
     inherit_default: bool = True,
 ) -> EffectSource:
     from_value = annotation_value(message, "from")
+
     if from_value is None:
-        return (
-            default_source if inherit_default else EffectSource(type=SourceType.UNKNOWN)
-        )
+        if inherit_default:
+            return default_source
+        return EffectSource(type=SourceType.UNKNOWN)
+
+    normalized = from_value.strip()
+    prefix, source_name = _split_source_value(normalized)
 
     of_value = annotation_value(message, "of")
     explicit_actor = parse_pokemon_ident(of_value) if of_value is not None else None
-
     actor = explicit_actor if explicit_actor is not None else affected
 
-    normalized = from_value.strip()
-    lowered = normalized.casefold()
+    if prefix is None:
+        lowered = source_name.casefold()
 
-    if lowered == "recoil":
-        return EffectSource(
-            type=SourceType.RECOIL,
-            name=default_source.name,
-            actor=default_source.actor,
-            action_id=default_source.action_id,
-        )
+        if lowered == "recoil":
+            return EffectSource(
+                type=SourceType.RECOIL,
+                name=default_source.name,
+                actor=default_source.actor,
+                action_id=default_source.action_id,
+            )
 
-    if lowered.startswith("move: "):
+        if lowered in {status.value.casefold() for status in MajorStatus}:
+            return EffectSource(
+                type=SourceType.STATUS,
+                name=lowered,
+                actor=actor,
+            )
+
+        if lowered in {"sandstorm", "hail", "snow"}:
+            return EffectSource(
+                type=SourceType.WEATHER,
+                name=source_name,
+            )
+
         return EffectSource(
-            type=SourceType.MOVE,
-            name=normalized[6:],
+            type=SourceType.UNKNOWN,
+            name=normalized,
             actor=actor,
             action_id=default_source.action_id,
         )
 
-    if lowered.startswith("item: "):
+    if prefix == "move":
+        return EffectSource(
+            type=SourceType.MOVE,
+            name=source_name,
+            actor=actor,
+            action_id=default_source.action_id,
+        )
+
+    if prefix == "item":
         return EffectSource(
             type=SourceType.ITEM,
-            name=normalized[6:],
+            name=source_name,
             actor=actor,
             action_id=default_source.action_id,
             owner=explicit_actor,
         )
 
-    if lowered.startswith("ability: "):
+    if prefix == "ability":
         owner = None
 
         if affected is not None and (
@@ -146,23 +229,10 @@ def parse_effect_source(
 
         return EffectSource(
             type=SourceType.ABILITY,
-            name=normalized[9:],
+            name=source_name,
             actor=actor,
             action_id=default_source.action_id,
             owner=owner,
-        )
-
-    if lowered in {status.value.casefold() for status in MajorStatus}:
-        return EffectSource(
-            type=SourceType.STATUS,
-            name=lowered,
-            actor=actor,
-        )
-
-    if lowered in {"sandstorm", "hail", "snow"}:
-        return EffectSource(
-            type=SourceType.WEATHER,
-            name=normalized,
         )
 
     return EffectSource(
@@ -171,3 +241,42 @@ def parse_effect_source(
         actor=actor,
         action_id=default_source.action_id,
     )
+
+
+def parse_move_origin(message: ProtocolMessage) -> EffectSource | None:
+    """Parse the ``[from]`` annotation attached to a ``|move|`` command.
+
+    This is intentionally separate from ``parse_effect_source`` because
+    Showdown uses ``[from]`` differently on move commands and effect commands.
+    """
+    from_value = annotation_value(message, "from")
+    if from_value is None:
+        return None
+
+    prefix, source_name = _split_source_value(from_value)
+
+    if prefix is None:
+        if source_name == "Mirror Move":
+            return EffectSource(
+                type=SourceType.MOVE,
+                name=source_name,
+            )
+
+        return EffectSource(
+            type=SourceType.UNKNOWN,
+            name=source_name,
+        )
+
+    if prefix == "ability":
+        return EffectSource(
+            type=SourceType.ABILITY,
+            name=source_name,
+        )
+
+    if prefix == "move":
+        return EffectSource(
+            type=SourceType.MOVE,
+            name=source_name,
+        )
+
+    raise ValueError(f"Unknown move origin: {from_value!r}")
