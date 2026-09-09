@@ -79,6 +79,7 @@ def _clear_semi_invulnerable_status(status: Status) -> None:
     status.remove_minor(MinorStatus.DIVE)
     status.remove_minor(MinorStatus.TUNNEL)
 
+
 def get_semi_invulnerable_status(move_name: str) -> MinorStatus | None:
     move_id = to_id(move_name)
 
@@ -91,6 +92,7 @@ def get_semi_invulnerable_status(move_name: str) -> MinorStatus | None:
             return MinorStatus.FLY
         case _:
             return None
+
 
 def _sync_sticky_barb_from_damage(
     battle_state: BattleState,
@@ -172,6 +174,7 @@ def _sync_sticky_barb_from_damage(
 
         own.item = source.name
 
+
 def _reduce_move_prepare(
     battle_state: BattleState,
     event: MovePrepareEvent,
@@ -197,6 +200,7 @@ def _reduce_move_prepare(
         event.pokemon,
     )
     status.add_minor(minor, duration=duration)
+
 
 def _sync_own_two_turn_status_from_request(
     battle_state: BattleState,
@@ -460,10 +464,7 @@ def _reduce_move(
         raise RuntimeError("gen is not set")
 
     if event.source is not None:
-        if (
-            event.source.type == SourceType.MOVE
-            and event.source.name == "Mirror Move"
-        ):
+        if event.source.type == SourceType.MOVE and event.source.name == "Mirror Move":
             return
 
         if (
@@ -472,10 +473,9 @@ def _reduce_move(
         ):
             return
 
-        if (
-            event.source.name == event.move
-            and to_id(event.move) in dex.get_charge_moves(gen)
-        ):
+        if event.source.name == event.move and to_id(
+            event.move
+        ) in dex.get_charge_moves(gen):
             return
 
     enemy = _resolve_enemy(
@@ -501,17 +501,12 @@ def _reduce_move(
 
         if (
             isinstance(move_data, dict)
-            and move_data.get("volatileStatus")
-            == MinorStatus.PARTIALLY_TRAPPED.value
+            and move_data.get("volatileStatus") == MinorStatus.PARTIALLY_TRAPPED.value
         ):
-            condition = dex.gen(gen).conditions[
-                MinorStatus.PARTIALLY_TRAPPED.value
-            ]
+            condition = dex.gen(gen).conditions[MinorStatus.PARTIALLY_TRAPPED.value]
 
             duration = (
-                condition.get("duration")
-                if isinstance(condition, dict)
-                else None
+                condition.get("duration") if isinstance(condition, dict) else None
             )
 
             target_status = _resolve_any_status(
@@ -544,6 +539,8 @@ def _reduce_damage(battle_state: BattleState, event: DamageEvent) -> None:
     own = _resolve_self(battle_state, event.target)
     if own is not None:
         own.curr_hp = event.curr_hp
+
+
 def _reduce_heal(battle_state: BattleState, event: HealEvent) -> None:
     cures_status = event.source.type == SourceType.MOVE and event.source.name in {
         "Healing Wish",
@@ -686,6 +683,7 @@ def _reduce_stat_change(battle_state: BattleState, event: StatChangeEvent) -> No
     for stat, delta in event.stat_changes:
         status.boost(stat, delta)
 
+
 def _reduce_details_change(
     battle_state: BattleState,
     event: DetailsChangeEvent,
@@ -702,6 +700,7 @@ def _reduce_details_change(
 
     enemy.lvl = event.level
     enemy.forme = event.details.split(",", 1)[0].strip()
+
 
 def _reduce_team_cure(battle_state: BattleState, event: TeamCureEvent) -> None:
     if _is_self(battle_state, event.actor):
@@ -842,7 +841,6 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
     target_status = _resolve_any_status(battle_state, event.target)
     source_status.copy_stat_changes(target_status)
 
-
     if _is_self(battle_state, event.pokemon):
         if battle_state.gen is None:
             raise RuntimeError("gen is not set")
@@ -881,6 +879,7 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
         copied_moves,
     )
 
+
 def _reduce_ability(battle_state: BattleState, event: AbilityEvent) -> None:
     if not event.active:
         return
@@ -914,16 +913,15 @@ def _reduce_stat_set(battle_state: BattleState, event: StatSetEvent) -> None:
 def _reduce_item(battle_state: BattleState, event: ItemEvent) -> None:
 
     if (
-            not event.gained
-            and event.pokemon is not None
-            and to_id(event.item) == "powerherb"
-        ):
-            status = _resolve_any_status(
-                battle_state,
-                event.pokemon,
-            )
-            _clear_semi_invulnerable_status(status)
-
+        not event.gained
+        and event.pokemon is not None
+        and to_id(event.item) == "powerherb"
+    ):
+        status = _resolve_any_status(
+            battle_state,
+            event.pokemon,
+        )
+        _clear_semi_invulnerable_status(status)
 
     if event.gained:
         if event.previous_owner is not None:
@@ -1039,9 +1037,7 @@ def _reduce_decision_request(
         None,
     )
     previous_base_ability = (
-        previous_active.base_ability
-        if previous_active is not None
-        else Unknown.VALUE
+        previous_active.base_ability if previous_active is not None else Unknown.VALUE
     )
 
     available_pokemons: list[PartyPokemon] = []
@@ -1053,9 +1049,7 @@ def _reduce_decision_request(
                 None,
             )
             max_hp = (
-                existing.max_hp
-                if existing is not None and existing.max_hp > 0
-                else 0
+                existing.max_hp if existing is not None and existing.max_hp > 0 else 0
             )
 
         stats = Stats(
@@ -1095,34 +1089,23 @@ def _reduce_decision_request(
         battle_state.curr_pokemon_status.major = active.major_status
 
         if (
-            (
-                previous_active is not None
-                and previous_active.id == active.id
-                and previous_base_ability != active.base_ability
-                and battle_state.curr_pokemon_ability == previous_base_ability
-                and not battle_state.curr_pokemon_transformed
-            )
-            or (
-                battle_state.curr_pokemon_ability is Unknown.VALUE
-                and not battle_state.curr_pokemon_transformed
-            )
+            previous_active is not None
+            and previous_active.id == active.id
+            and previous_base_ability != active.base_ability
+            and battle_state.curr_pokemon_ability == previous_base_ability
+            and not battle_state.curr_pokemon_transformed
+        ) or (
+            battle_state.curr_pokemon_ability is Unknown.VALUE
+            and not battle_state.curr_pokemon_transformed
         ):
             battle_state.curr_pokemon_ability = active.base_ability
 
-
     if battle_state.gen == 1 and not event.wait:
-        has_recharge_request = any(
-            move.id == "recharge"
-            for move in available_moves
-        )
+        has_recharge_request = any(move.id == "recharge" for move in available_moves)
         if has_recharge_request:
-            battle_state.curr_pokemon_status.add_minor(
-                MinorStatus.RECHARGE
-            )
+            battle_state.curr_pokemon_status.add_minor(MinorStatus.RECHARGE)
         else:
-            battle_state.curr_pokemon_status.remove_minor(
-                MinorStatus.RECHARGE
-            )
+            battle_state.curr_pokemon_status.remove_minor(MinorStatus.RECHARGE)
 
     _sync_own_two_turn_status_from_request(
         battle_state,
@@ -1131,6 +1114,7 @@ def _reduce_decision_request(
     )
     battle_state.update_moves(available_moves)
     battle_state.force_switch = any(event.force_switch)
+
 
 def _reduce_game_type(battle_state: BattleState, event: GameTypeEvent) -> None:
     if event.type not in event.IMPLEMENTED_TYPES:

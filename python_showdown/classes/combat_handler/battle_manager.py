@@ -45,7 +45,6 @@ class BattleManager:
 
         self.last_battle_history: list[BaseEvent] = []
 
-
     @property
     def player_id(self) -> str | None:
         return self.battle_state.player_id
@@ -64,7 +63,6 @@ class BattleManager:
         if value is None:
             raise ValueError("room_id set to None")
         self._room_id = value
-
 
     def start_action_timeout(self) -> None:
         if self.room_id is None:

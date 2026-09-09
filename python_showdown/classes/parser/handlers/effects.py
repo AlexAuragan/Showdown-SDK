@@ -710,6 +710,7 @@ def _parse_faint(
         )
     ]
 
+
 def _parse_details_change(
     message: ProtocolMessage,
     _context: EffectParseContext,
@@ -734,6 +735,7 @@ def _parse_details_change(
             level=level,
         )
     ]
+
 
 # --- Special-rule predicates and handlers (-start / -end / -fail) ----------
 

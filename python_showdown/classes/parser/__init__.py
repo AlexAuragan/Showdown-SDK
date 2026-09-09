@@ -9,16 +9,6 @@ from python_showdown.classes.parser.ability_state import (
     update_protocol_context,
 )
 from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
-from python_showdown.classes.parser.command_handlers import (
-    COMMAND_HANDLERS,
-    CommandHandler,
-    handle_battle_end,
-    handle_cant,
-    handle_switch,
-    handle_turn,
-    parse_move_group,
-    parse_standalone_effect,
-)
 from python_showdown.classes.parser.context import (
     EffectHandler,
     EffectParseContext,
@@ -87,6 +77,18 @@ from python_showdown.classes.parser.fields import (
     parse_minor_status,
     parse_pokemon_ident,
     parse_side_ident,
+)
+from python_showdown.classes.parser.handlers.commands import (
+    COMMAND_HANDLERS,
+    CommandHandler,
+    handle_battle_end,
+    handle_cant,
+    handle_switch,
+    handle_turn,
+)
+from python_showdown.classes.parser.handlers.moves import (
+    parse_move_group,
+    parse_standalone_effect,
 )
 from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.managers.battle import BattleParser, ParseResult

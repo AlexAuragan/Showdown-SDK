@@ -16,12 +16,6 @@ from typing import override
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.ability_state import update_protocol_context
 from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
-from python_showdown.classes.parser.command_handlers import (
-    COMMAND_HANDLERS,
-    handle_room,
-    parse_move_group,
-    parse_standalone_effect,
-)
 from python_showdown.classes.parser.context import ProtocolContext
 from python_showdown.classes.parser.events import (
     BaseEvent,
@@ -33,6 +27,14 @@ from python_showdown.classes.parser.events.battle import (
     DecisionRequestEvent,
     PokemonSwitchEvent,
     TeamPreviewRequestEvent,
+)
+from python_showdown.classes.parser.handlers.commands import (
+    COMMAND_HANDLERS,
+    handle_room,
+)
+from python_showdown.classes.parser.handlers.moves import (
+    parse_move_group,
+    parse_standalone_effect,
 )
 from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.models import (
@@ -125,7 +127,6 @@ class BattleParser(MessageParser):
     @property
     def player_id(self) -> str | None:
         return self._manager.player_id
-
 
     @property
     def battle_state(self) -> BattleState:
@@ -769,14 +770,10 @@ class BattleParser(MessageParser):
                 missing_move_state = required_move_state - set(raw_move)
 
                 is_abbreviated_locked_move = (
-                    len(raw_moves) == 1
-                    and missing_move_state == required_move_state
+                    len(raw_moves) == 1 and missing_move_state == required_move_state
                 )
 
-                if (
-                    is_abbreviated_locked_move
-                    or move_id in {"recharge", "struggle"}
-                ):
+                if is_abbreviated_locked_move or move_id in {"recharge", "struggle"}:
                     curr_pp_value = raw_move.get("pp")
                     max_pp_value = raw_move.get("maxpp")
                     disabled_value = raw_move.get("disabled", False)

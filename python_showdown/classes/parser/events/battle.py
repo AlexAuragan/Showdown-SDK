@@ -388,6 +388,7 @@ class TeamPreviewRequestEvent(BattleEvent):
 class CustomShowdownBattleStateEvent(BattleEvent):
     content: SerializableObject
 
+
 @dataclass(frozen=True)
 class DetailsChangeEvent(BattleEvent):
     """Records a permanent change to a Pokémon's visible details."""

@@ -107,10 +107,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
             # Gen 1 partial trapping has intentionally hidden state.
             # Showdown can keep `fakepartiallytrapped` after Wrap has actually ended.
-            if (
-                battle_state.gen == 1
-                and minor is MinorStatus.PARTIALLY_TRAPPED
-            ):
+            if battle_state.gen == 1 and minor is MinorStatus.PARTIALLY_TRAPPED:
                 continue
 
             volatile_id = to_id(minor.value)
