@@ -13,10 +13,10 @@ from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import (
     BaseEvent,
 )
-from python_showdown.classes.parser.managers.base import MessageParser
-from python_showdown.classes.parser.managers.battle import BattleParser
-from python_showdown.classes.parser.managers.lobby import LobbyParser
 from python_showdown.classes.parser.models import ProtocolMessage
+from python_showdown.classes.parser.parsers.base import MessageParser
+from python_showdown.classes.parser.parsers.battle import BattleParser
+from python_showdown.classes.parser.parsers.lobby import LobbyParser
 from python_showdown.classes.parser.protocol import (
     extract_protocol_line,
     parse_protocol_message,

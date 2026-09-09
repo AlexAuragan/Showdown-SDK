@@ -22,8 +22,8 @@ from python_showdown.classes.parser.events.lobby import (
     UpdateUserEvent,
     UserNotFoundEvent,
 )
-from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.models import ProtocolMessage
+from python_showdown.classes.parser.parsers.base import MessageParser
 from python_showdown.classes.parser.protocol import require_arguments
 
 

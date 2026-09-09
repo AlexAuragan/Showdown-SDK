@@ -33,10 +33,10 @@ from python_showdown.classes.parser.handlers.moves import (
     parse_standalone_effect,
 )
 from python_showdown.classes.parser.handlers.requests import parse_request_event
-from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.models import (
     ProtocolMessage,
 )
+from python_showdown.classes.parser.parsers.base import MessageParser
 from python_showdown.classes.parser.protocol import (
     extract_protocol_line,
     is_ignored_message,

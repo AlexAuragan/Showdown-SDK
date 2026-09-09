@@ -90,11 +90,6 @@ from python_showdown.classes.parser.handlers.moves import (
     parse_move_group,
     parse_standalone_effect,
 )
-from python_showdown.classes.parser.managers.base import MessageParser
-from python_showdown.classes.parser.managers.battle import BattleParser, ParseResult
-from python_showdown.classes.parser.managers.lobby import (
-    LobbyParser,
-)
 from python_showdown.classes.parser.models import (
     EffectSource,
     PokemonIdent,
@@ -102,6 +97,11 @@ from python_showdown.classes.parser.models import (
     ProtocolMessage,
 )
 from python_showdown.classes.parser.parser import Parser
+from python_showdown.classes.parser.parsers.base import MessageParser
+from python_showdown.classes.parser.parsers.battle import BattleParser, ParseResult
+from python_showdown.classes.parser.parsers.lobby import (
+    LobbyParser,
+)
 from python_showdown.classes.parser.protocol import (
     annotation_value,
     extract_protocol_line,

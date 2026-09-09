@@ -15,9 +15,9 @@ from python_showdown.classes.parser.events.lobby import (
     PrivateMessageEvent,
     UpdateUserEvent,
 )
-from python_showdown.classes.parser.managers.base import MessageParser
-from python_showdown.classes.parser.managers.battle import BattleParser, ParseResult
-from python_showdown.classes.parser.managers.lobby import LobbyParser
+from python_showdown.classes.parser.parsers.base import MessageParser
+from python_showdown.classes.parser.parsers.battle import BattleParser, ParseResult
+from python_showdown.classes.parser.parsers.lobby import LobbyParser
 
 __all__ = [
     "BattleParser",
