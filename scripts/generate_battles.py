@@ -60,7 +60,10 @@ FORMATS = [
     # "gen2ou",
     # "gen3ou",
     # "gen4ou",
-    "gen1customgame@@@Standard AG",
+    "gen1ubers@@@!standard,standardag",
+    "gen2ubers@@@!standard,standardag",
+    "gen3ubers@@@!standard,standardag",
+    "gen4ubers@@@!standard,standardag",
 ]
 
 # Total battles per format, spread evenly over PLAYER_COUNT / 2 pairs.

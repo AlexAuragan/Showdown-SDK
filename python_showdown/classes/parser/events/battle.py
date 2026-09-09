@@ -183,7 +183,7 @@ class SideConditionEvent(BattleEvent):
 class PokemonSwitchEvent(BattleEvent):
     pokemon: PokemonIdent
     details: str
-    level: int | None
+    level: int
     curr_hp: int
     max_hp: int | None
     hp_is_percentage: bool
@@ -358,7 +358,7 @@ class GameGenEvent(BattleEvent):
 @dataclass(frozen=True)
 class GameTierEvent(BattleEvent):
     tier: str
-    IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle", "OU")
+    IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle", "OU", "Ubers")
 
 
 @dataclass(frozen=True)
@@ -387,3 +387,11 @@ class TeamPreviewRequestEvent(BattleEvent):
 @dataclass(frozen=True)
 class CustomShowdownBattleStateEvent(BattleEvent):
     content: SerializableObject
+
+@dataclass(frozen=True)
+class DetailsChangeEvent(BattleEvent):
+    """Records a permanent change to a Pokémon's visible details."""
+
+    pokemon: PokemonIdent
+    details: str
+    level: int

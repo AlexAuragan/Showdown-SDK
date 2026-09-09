@@ -25,6 +25,7 @@ from python_showdown.classes.parser.events.battle import (
     DamageEvent,
     DecisionRequestEvent,
     DesyncEvent,
+    DetailsChangeEvent,
     FormeChangeEvent,
     GameGenEvent,
     GameTierEvent,
@@ -547,6 +548,12 @@ def _reduce_minor_status_activation(
     battle_state: BattleState,
     event: MinorStatusActivationEvent,
 ) -> None:
+
+    status = _resolve_any_status(battle_state, event.target)
+    if event.effect is MinorStatus.CONFUSION:
+        status.clear_single_move()
+        return
+
     if event.effect is not MinorStatus.TRAPPED:
         return
 
@@ -566,6 +573,22 @@ def _reduce_stat_change(battle_state: BattleState, event: StatChangeEvent) -> No
     for stat, delta in event.stat_changes:
         status.boost(stat, delta)
 
+def _reduce_details_change(
+    battle_state: BattleState,
+    event: DetailsChangeEvent,
+) -> None:
+    own = _resolve_self(battle_state, event.pokemon)
+    if own is not None:
+        own.details = event.details
+        own.lvl = event.level
+        return
+
+    enemy = _resolve_enemy(battle_state, event.pokemon)
+    if enemy is None:
+        return
+
+    enemy.lvl = event.level
+    enemy.forme = event.details.split(",", 1)[0].strip()
 
 def _reduce_team_cure(battle_state: BattleState, event: TeamCureEvent) -> None:
     if _is_self(battle_state, event.actor):
@@ -678,7 +701,7 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
             _copy_baton_pass_status(passed_status, outgoing.status, gen)
 
     gender, shiny = _parse_details(event.details)
-    level = event.level if event.level is not None else 100
+    level = event.level
 
     battle_state.witness_switch_in(
         _ident_raw(event.pokemon),
@@ -1068,6 +1091,8 @@ def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
             _reduce_partial_trap(battle_state, event)
         case TeamPreviewRequestEvent():
             battle_state.player_id = event.player_id
+        case DetailsChangeEvent():
+            _reduce_details_change(battle_state, event)
         case CustomShowdownBattleStateEvent():
             battle_state.custom_showdown_battlestate = event.content
         case _:

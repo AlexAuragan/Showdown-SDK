@@ -64,7 +64,7 @@ def main() -> int:
             except Exception:  # noqa: BLE001
                 captured = traceback.format_exc()
                 failures.append((path, captured))
-                print(f"FAIL {path}: {captured.splitlines()[-1]}")
+                print(f"FAIL {path}: {captured}")
             else:
                 ok_paths.append(path)
 
@@ -83,19 +83,12 @@ def main() -> int:
                         )
                     )
                 except Exception:  # noqa: BLE001
-                    captured = traceback.format_exc()
+                    captured = "\n".join(traceback.format_exc())
                     failures.append((path, captured))
-                    print(f"FAIL {path}: {captured.splitlines()[-1]}")
+                    print(f"FAIL {path}: {captured}")
                     continue
             promoted_paths.append(path)
 
-        # Promote passing battles into tests/sample_battles/<fmt>.
-        # A battle directory can appear multiple times in promoted_paths
-        # (once per client log), so only consider each directory once.
-        # Passing battles are usually near-identical duplicates created by
-        # the same bug, so only promote the first one and delete the rest
-        # to keep tests/sample_battles from flooding. Failing battles stay
-        # in sample_battles_auto until the bug is fixed.
         for index, battle_dir in enumerate(
             dict.fromkeys(path.parent for path in promoted_paths)
         ):

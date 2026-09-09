@@ -21,6 +21,7 @@ from python_showdown.classes.parser.events.battle import (
     ClearNegativeBostsEvent,
     CopyBoostEvent,
     DamageEvent,
+    DetailsChangeEvent,
     FormeChangeEvent,
     HealEvent,
     ItemEvent,
@@ -44,6 +45,7 @@ from python_showdown.classes.parser.fields import (
     is_percentage_hp,
     parse_condition,
     parse_effect_source,
+    parse_level,
     parse_minor_status,
     parse_pokemon_ident,
     parse_side_ident,
@@ -708,6 +710,30 @@ def _parse_faint(
         )
     ]
 
+def _parse_details_change(
+    message: ProtocolMessage,
+    _context: EffectParseContext,
+) -> list[BaseEvent]:
+    if len(message.arguments) not in {2, 3}:
+        raise ValueError(
+            "Expected 2 or 3 arguments for 'detailschange', "
+            + f"got {len(message.arguments)} in {message.raw!r}"
+        )
+
+    pokemon = parse_pokemon_ident(message.arguments[0])
+    details = message.arguments[1].strip()
+
+    if not details:
+        raise ValueError(f"Empty details change in {message.raw!r}")
+
+    level = parse_level(details)
+    return [
+        DetailsChangeEvent(
+            pokemon=pokemon,
+            details=details,
+            level=level,
+        )
+    ]
 
 # --- Special-rule predicates and handlers (-start / -end / -fail) ----------
 
@@ -1091,6 +1117,7 @@ SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {
     "faint": _parse_faint,
     "-hint": _parse_hint,
     "-copyboost": _parse_copyboost,
+    "detailschange": _parse_details_change,
 }
 
 SPECIAL_EFFECT_RULES: dict[str, tuple[EffectRule, ...]] = {

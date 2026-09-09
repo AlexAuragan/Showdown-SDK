@@ -617,14 +617,17 @@ class BattleParser(MessageParser):
             data.get("update", False),
             name="request['update']",
         )
+
         no_cancel = expect_bool(
             data.get("noCancel", False),
             name="request['noCancel']",
         )
+
         request_id = expect_int(
             data.get("rqid", 0),
             name="request['rqid']",
         )
+
         wait = expect_bool(
             data.get("wait", False),
             name="request['wait']",
@@ -748,6 +751,7 @@ class BattleParser(MessageParser):
                     "disabledSource",
                     "",
                 )
+
                 disabled_source = (
                     expect_string(
                         raw_disabled_source,
@@ -756,14 +760,23 @@ class BattleParser(MessageParser):
                     or None
                 )
 
-                # Mostly phase 2 of two-turn moves, recharge,
-                # Struggle, and other multi-turn moves.
-                whitelist_no_pp = {
-                    "recharge",
-                    "struggle",
-                }.union(MULTI_TURN_MOVES)
+                required_move_state = {
+                    "pp",
+                    "maxpp",
+                    "disabled",
+                }
 
-                if move_id in whitelist_no_pp:
+                missing_move_state = required_move_state - set(raw_move)
+
+                is_abbreviated_locked_move = (
+                    len(raw_moves) == 1
+                    and missing_move_state == required_move_state
+                )
+
+                if (
+                    is_abbreviated_locked_move
+                    or move_id in {"recharge", "struggle"}
+                ):
                     curr_pp_value = raw_move.get("pp")
                     max_pp_value = raw_move.get("maxpp")
                     disabled_value = raw_move.get("disabled", False)
@@ -791,16 +804,10 @@ class BattleParser(MessageParser):
                         target = None
 
                 else:
-                    missing = {
-                        "pp",
-                        "maxpp",
-                        "disabled",
-                    } - set(raw_move)
-
-                    if missing:
+                    if missing_move_state:
                         raise ValueError(
                             "Move is missing required keys: "
-                            + f"{sorted(missing)}, move: {raw_move}"
+                            + f"{sorted(missing_move_state)}, move: {raw_move}"
                         )
 
                     curr_pp = expect_int(

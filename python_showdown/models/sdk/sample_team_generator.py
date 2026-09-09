@@ -137,7 +137,8 @@ class SampleTeamGenerator:
         self,
         format_name: str,
     ) -> SerializableObject:
-        url = f"{self.BASE_URL}/{format_name}.json"
+        sets_format = format_name.split("@@@", 1)[0]
+        url = f"{self.BASE_URL}/{sets_format}.json"
 
         request = Request(
             url,

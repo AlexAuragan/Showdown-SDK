@@ -24,6 +24,7 @@ IGNORED_COMMANDS = {
     "deinit",  # TODO for client
     # "popup",
     "sentchoice",
+    "raw"
 }
 
 

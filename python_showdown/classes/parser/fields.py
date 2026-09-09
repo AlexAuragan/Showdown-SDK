@@ -55,9 +55,10 @@ def parse_condition(value: str) -> ParsedCondition:
     return ParsedCondition(current_hp, max_hp, status)
 
 
-def parse_level(details: str) -> int | None:
+def parse_level(details: str) -> int:
+    """ Parse the level, if pokémon is lvl 100 it is omited """
     match = LEVEL_PATTERN.search(details)
-    return int(match.group("level")) if match is not None else None
+    return int(match.group("level")) if match is not None else 100
 
 
 def is_percentage_hp(
