@@ -406,8 +406,50 @@ class Dex:
         self._generations.clear()
         self._metadata = None
 
-    def get_charge_moves(self, gen: int) -> frozenset[str]:
+    def get_charge_moves(self, gen: int | None) -> frozenset[str]:
+        if gen is None:
+            raise RuntimeError("gen is not set")
         return self.gen(gen).get_charge_moves()
+
+    def move_volatile_status(
+        self,
+        name: str,
+        *,
+        gen: int | None,
+    ) -> str | None:
+        if gen is None:
+            raise RuntimeError("gen is not set")
+        return self.gen(gen).move_volatile_status(name)
+
+    def condition_duration(
+        self,
+        name: str,
+        *,
+        gen: int | None,
+    ) -> int | None:
+        if gen is None:
+            raise RuntimeError("gen is not set")
+        return self.gen(gen).condition_duration(name)
+
+    def is_charge_move(
+        self,
+        name: str,
+        *,
+        gen: int | None,
+    ) -> bool:
+        if gen is None:
+            raise RuntimeError("gen is not set")
+        return self.gen(gen).is_charge_move(name)
+
+    def is_volatile_copyable(
+        self,
+        name: str,
+        *,
+        gen: int | None,
+    ) -> bool:
+        if gen is None:
+            raise RuntimeError("gen is not set")
+        return self.gen(gen).is_volatile_copyable(name)
 
 
 dex = Dex()
