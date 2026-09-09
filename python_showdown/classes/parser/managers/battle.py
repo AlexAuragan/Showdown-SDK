@@ -13,9 +13,8 @@ from dataclasses import dataclass, replace
 from typing import override
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
-from python_showdown.classes.parser.ability_state import update_protocol_context
-from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
 from python_showdown.classes.parser.context import ProtocolContext
+from python_showdown.classes.parser.context_updates import update_protocol_context
 from python_showdown.classes.parser.events import (
     BaseEvent,
     unhandled_event,
@@ -44,6 +43,7 @@ from python_showdown.classes.parser.protocol import (
     is_move_boundary,
     parse_protocol_message,
 )
+from python_showdown.classes.parser.reducers import reduce_battle_state
 from python_showdown.models.sdk.battle_state import BattleState
 
 
@@ -67,7 +67,6 @@ class BattleParser(MessageParser):
         self.next_action_id: int = 1
         self.input_finished: bool = False
         self.protocol_context: ProtocolContext = ProtocolContext()
-        self.battle_state_handler: BattleStateHandler = BattleStateHandler()
         self._manager: BattleManager = manager
         self._last_message_room_id: str = ""
 
@@ -152,7 +151,6 @@ class BattleParser(MessageParser):
         self.next_action_id = 1
         self.input_finished = False
         self.protocol_context = ProtocolContext()
-        self.battle_state_handler = BattleStateHandler()
         # self._last_message_room_id = ""
 
     def finish(self, player_id: str) -> list[BaseEvent]:
@@ -256,7 +254,7 @@ class BattleParser(MessageParser):
             )
             # Apply each newly produced event onto the running battle state.
             for event in result.events:
-                self.battle_state_handler.apply_event(self.battle_state, event)
+                reduce_battle_state(self.battle_state, event)
             completed.extend(result.events)
 
         return completed

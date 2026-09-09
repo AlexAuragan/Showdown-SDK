@@ -7,19 +7,11 @@ error/choice-retry manager later).
 
 """
 
-import os
-from collections import Counter
 from collections.abc import Sequence
-from pprint import pprint
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events import (
     BaseEvent,
-    UnhandledEvent,
-)
-from python_showdown.classes.parser.exceptions import (
-    InvalidActionError,
-    ObsoleteRequestIdError,
 )
 from python_showdown.classes.parser.managers.base import MessageParser
 from python_showdown.classes.parser.managers.battle import BattleParser
@@ -141,73 +133,3 @@ class Parser:
     @property
     def player_id(self) -> str | None:
         return self.manager.player_id
-
-
-if __name__ == "__main__":
-    from python_showdown.classes.client.client import Client
-    from python_showdown.classes.parser.exceptions import ParserException
-
-    for path in [
-        "gen1randombattle",
-        "gen2randombattle",
-        "gen3randombattle",
-        "gen4randombattle",
-    ]:
-        for filename in os.listdir(f"logs_odd/{path}/raw"):
-            log_path = f"logs_odd/{path}/raw/" + filename
-            log_path = (
-                "logs_odd/gen1randombattle/raw/battle-gen1randombattle-333760.txt"
-            )
-            room_id = os.path.splitext(filename)[0]
-            client = Client("ws://192.168.1.154:8000/showdown/websocket")
-            parser = client.parser
-
-            skipped = False
-            with open(log_path, "r", encoding="utf-8") as f:
-                for line_number, line in enumerate(f.readlines(), start=1):
-                    try:
-                        parser.handle_line(
-                            line=line,
-                            has_log_timestamp=True,
-                        )
-                    except InvalidActionError, ObsoleteRequestIdError:
-                        pass  # The player tried an illegal move, happens
-                    except ParserException as exc:
-                        print(f"Skipping {filename}: {exc}")
-                        skipped = True
-                        raise
-                    except Exception:
-                        raise
-
-            if skipped:
-                continue
-
-            parser.finish(player_id="p1")
-
-            raw_counts = Counter(message.command for message in parser.raw_history)
-            event_counts = Counter(type(event).__name__ for event in parser.history)
-
-            unhandled_events = [
-                event for event in parser.history if isinstance(event, UnhandledEvent)
-            ]
-
-            if unhandled_events:
-                print()
-                print("Unhandled events:", filename)
-
-                for event in unhandled_events:
-                    print(
-                        f"  command={event.command!r}, "
-                        + f"raw={event.raw!r}, "
-                        + f"action_id={event.action_id!r}"
-                    )
-
-                pprint(parser.history)
-                raise RuntimeError(
-                    f"Found {len(unhandled_events)} unhandled semantic events"
-                )
-
-            if parser.pending_messages:
-                raise RuntimeError(
-                    f"Found {len(parser.pending_messages)} pending messages"
-                )

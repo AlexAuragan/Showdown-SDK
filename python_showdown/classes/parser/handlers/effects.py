@@ -1,12 +1,12 @@
-from python_showdown.classes.parser.ability_state import (
-    is_duplicate_silent_ability_end,
-    is_known_ability_end,
-)
 from python_showdown.classes.parser.context import (
     EffectHandler,
     EffectParseContext,
     EffectRule,
     TargetModifiers,
+)
+from python_showdown.classes.parser.context_updates import (
+    is_duplicate_silent_ability_end,
+    is_known_ability_end,
 )
 from python_showdown.classes.parser.events.base import (
     BaseEvent,

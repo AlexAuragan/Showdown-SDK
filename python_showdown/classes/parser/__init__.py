@@ -5,9 +5,6 @@ This package aggregates raw protocol messages into complete semantic events.
 Public entry point: :class:`Parser`.
 """
 
-from python_showdown.classes.parser.ability_state import (
-    update_protocol_context,
-)
 from python_showdown.classes.parser.battle_state_handler import BattleStateHandler
 from python_showdown.classes.parser.context import (
     EffectHandler,
@@ -18,6 +15,9 @@ from python_showdown.classes.parser.context import (
     ParsedCondition,
     ProtocolContext,
     TargetModifiers,
+)
+from python_showdown.classes.parser.context_updates import (
+    update_protocol_context,
 )
 from python_showdown.classes.parser.events.base import (
     BaseEvent,
