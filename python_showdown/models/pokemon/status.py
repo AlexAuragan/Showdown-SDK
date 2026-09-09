@@ -185,11 +185,11 @@ class Status:
 
     def clear_negative_stages(self) -> None:
         self.atk_stage = max(self.atk_stage, 0)
-        self.def_stage = max(self.spd_stage, 0)
+        self.def_stage = max(self.def_stage, 0)
         self.spa_stage = max(self.spa_stage, 0)
         self.spd_stage = max(self.spd_stage, 0)
         self.spe_stage = max(self.spe_stage, 0)
-        self.eva_stage = max(self.spe_stage, 0)
+        self.eva_stage = max(self.eva_stage, 0)
         self.acc_stage = max(self.acc_stage, 0)
 
     @staticmethod
