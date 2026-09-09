@@ -13,7 +13,7 @@ network/server failures are logged but skipped).
 
 Requires the local server (WEBSOCKET_URL) to be running.
 """
-
+# pyright: reportConstantRedefinition=false
 import asyncio
 import shutil
 import sys
@@ -412,7 +412,16 @@ async def run_overnight() -> None:
 
 
 async def main(mode: str) -> None:
+    global LOG_RAW_WEBSOCKET
+    global LOG_EVENT_STACK
+    global LOG_PARSER_BATTLE_STATE
+    global LOG_SHOWDOWN_BATTLE_STATE
+
     if mode == "overnight":
+        LOG_RAW_WEBSOCKET = True
+        LOG_EVENT_STACK = False
+        LOG_PARSER_BATTLE_STATE = False
+        LOG_SHOWDOWN_BATTLE_STATE = True
         await run_overnight()
     else:
         await run_once(fail_fast=False)

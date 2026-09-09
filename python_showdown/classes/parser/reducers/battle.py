@@ -678,6 +678,8 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
             _copy_baton_pass_status(new_status, old_status, gen)
 
         battle_state.set_active_pokemon(_ident_self_key(event.pokemon))
+        battle_state.curr_pokemon_transformed = False
+
         own = _resolve_self(battle_state, event.pokemon)
         if own is not None:
             battle_state.curr_pokemon_ability = own.base_ability
@@ -727,8 +729,24 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
     target_status = _resolve_any_status(battle_state, event.target)
     source_status.copy_stat_changes(target_status)
 
+
     if _is_self(battle_state, event.pokemon):
-        return
+        if battle_state.gen is None:
+            raise RuntimeError("gen is not set")
+
+        if _is_self(battle_state, event.pokemon):
+            battle_state.curr_pokemon_transformed = True
+
+            if battle_state.gen > 2:
+                target = _resolve_enemy(battle_state, event.target)
+                if target is None:
+                    raise RuntimeError(
+                        f"Transform target {event.target} not found in enemy team"
+                    )
+
+                battle_state.curr_pokemon_ability = target.current_ability
+
+            return
 
     enemy = _resolve_enemy(battle_state, event.pokemon)
     if enemy is None:
@@ -749,7 +767,6 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
         _ident_raw(event.target),
         copied_moves,
     )
-
 
 def _reduce_ability(battle_state: BattleState, event: AbilityEvent) -> None:
     if not event.active:
@@ -945,7 +962,10 @@ def _reduce_decision_request(
         battle_state.set_active_pokemon(str(active.id))
         battle_state.curr_pokemon_status.major = active.major_status
 
-        if battle_state.curr_pokemon_ability is Unknown.VALUE:
+        if (
+            battle_state.curr_pokemon_ability is Unknown.VALUE
+            and not battle_state.curr_pokemon_transformed
+        ):
             battle_state.curr_pokemon_ability = active.base_ability
 
     if battle_state.gen == 1 and not event.wait:

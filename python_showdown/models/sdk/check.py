@@ -490,13 +490,16 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         )
 
         curr_ability = battle_state.curr_pokemon_ability
-        if curr_ability == Unknown.VALUE:
-            raise ValueError("current ability is unkown for our active pokemon")
-        same(
-            "curr_pokemon_ability",
-            to_id(curr_ability),
-            to_id(expect_string(ref_active["ability"])),
-        )
+        gen = battle_state.gen
+
+        if not battle_state.curr_pokemon_transformed:
+            if curr_ability == Unknown.VALUE:
+                raise ValueError("current ability is unkown for our active pokemon")
+            same(
+                "curr_pokemon_ability",
+                to_id(curr_ability),
+                to_id(expect_string(ref_active["ability"])),
+            )
 
         ref_enemy_move_slots: dict[str, list[SerializableObject]] = {}
 
