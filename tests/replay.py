@@ -288,8 +288,7 @@ def replay_battle_raw(
             and manager.choice_rejected
             and manager.last_request_id is not None
             and (
-                manager.retry_rqid != manager.last_request_id
-                or manager.retry_count < 5
+                manager.retry_rqid != manager.last_request_id or manager.retry_count < 5
             )
         ):
             if manager.retry_rqid != manager.last_request_id:

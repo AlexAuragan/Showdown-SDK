@@ -13,6 +13,7 @@ network/server failures are logged but skipped).
 
 Requires the local server (WEBSOCKET_URL) to be running.
 """
+
 # pyright: reportConstantRedefinition=false
 import asyncio
 import shutil
@@ -297,19 +298,19 @@ async def run_format(
             pair_tasks.append(
                 asyncio.create_task(
                     run_pair(
-                    client_1,
-                    client_2,
-                    fmt=fmt,
-                    logs=log_managers[pair_index * 2],
-                    pair_index=pair_index,
-                    battle_offset=battle_offset,
-                    battles_per_pair=battles_per_pair,
-                    progress=progress,
-                    fail_fast=fail_fast,
-                    team_generator=team_generator,
+                        client_1,
+                        client_2,
+                        fmt=fmt,
+                        logs=log_managers[pair_index * 2],
+                        pair_index=pair_index,
+                        battle_offset=battle_offset,
+                        battles_per_pair=battles_per_pair,
+                        progress=progress,
+                        fail_fast=fail_fast,
+                        team_generator=team_generator,
+                    )
                 )
             )
-        )
 
         try:
             pair_results = await asyncio.gather(*pair_tasks)

@@ -131,10 +131,7 @@ def write_battle_outputs(
     if include_showdown_state:
         write_json(
             battle_directory / "showdown_states.json",
-            [
-                state.get("showdown_state")
-                for state in manager.last_battle_turn_states
-            ],
+            [state.get("showdown_state") for state in manager.last_battle_turn_states],
         )
 
 
