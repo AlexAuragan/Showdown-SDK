@@ -38,15 +38,15 @@ def replay_battle(path: Path) -> int:
     """CLI wrapper around :func:`tests.replay.replay_battle_raw`.
 
     Keeps the historical contract used by scripts/test_sample_auto.py:
-    replays one battle log (raising on failure) and writes the same
-    ``battle_states.json`` a live battle would produce next to the raw log.
+    replays one battle log (raising on failure) and writes the
+    ``showdown_states.json`` Showdown oracle states next to the raw log.
     Returns the number of Showdown-state checks that were verified (0 for
     older logs that did not record ``|battlestate|`` frames).
     """
     result = replay_battle_raw(path)
 
     # Emulate finish_battle()'s snapshot so write_battle_outputs produces the
-    # same battle_states.json as a live battle.
+    # same showdown_states.json a live battle would produce.
     manager = result.client.battle_manager
     manager.last_battle_turn_states = list(manager.turn_start_states)
 
@@ -54,8 +54,8 @@ def replay_battle(path: Path) -> int:
         result.client,
         path.parent,
         include_events=False,
-        include_parser_state=True,
-        include_showdown_state=False,
+        include_parser_state=False,
+        include_showdown_state=True,
     )
 
     return result.showdown_state_checks

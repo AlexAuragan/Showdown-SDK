@@ -92,6 +92,86 @@ def get_semi_invulnerable_status(move_name: str) -> MinorStatus | None:
         case _:
             return None
 
+def _sync_sticky_barb_from_damage(
+    battle_state: BattleState,
+    event: DamageEvent,
+) -> None:
+    """Reconcile Gen 4's silent Sticky Barb contact transfer.
+
+    Showdown does not emit an explicit |-item| / |-enditem| pair when
+    Sticky Barb moves to an itemless contact attacker. The later residual
+    damage line:
+
+        |-damage|...|[from] item: Sticky Barb
+
+    is therefore the first public confirmation of the new holder.
+    """
+    source = event.source
+
+    if (
+        source.type != SourceType.ITEM
+        or source.owner is not None
+        or source.name is None
+        or to_id(source.name) != "stickybarb"
+    ):
+        return
+
+    # Enemy is taking Sticky Barb damage: it is now the holder.
+    enemy = _resolve_enemy(battle_state, event.target)
+    if enemy is not None:
+        if enemy.item is Unknown.VALUE:
+            # We only learned the item; there is no evidence that it was
+            # transferred from our active Pokémon.
+            enemy.item = source.name
+            return
+
+        if enemy.item is None:
+            # The enemy was known to be itemless and now holds
+            # Sticky Barb. If our active Pokémon was its known holder, the
+            # silent contact transfer moved it away from us.
+            if battle_state.curr_pokemon:
+                own = battle_state.get_curr_pokemon()
+                if to_id(own.item) == "stickybarb":
+                    own.item = ""
+
+            enemy.item = source.name
+            return
+
+        if to_id(enemy.item) != "stickybarb":
+            raise RuntimeError(
+                "Sticky Barb damage contradicts the known enemy item: "
+                + f"{enemy.item=}"
+            )
+
+        return
+
+    # Our Pokémon is taking Sticky Barb damage: it is now the holder.
+    own = _resolve_self(battle_state, event.target)
+    if own is None:
+        return
+
+    if to_id(own.item) == "stickybarb":
+        return
+
+    # The request snapshot says we were itemless, so find the only known
+    # active opposing Sticky Barb holder and clear it.
+    if own.item == "":
+        enemy_holders = [
+            pokemon
+            for pokemon in battle_state.enemy_team
+            if (
+                pokemon.active
+                and pokemon.item is not Unknown.VALUE
+                and pokemon.item is not None
+                and to_id(pokemon.item) == "stickybarb"
+            )
+        ]
+
+        if len(enemy_holders) == 1:
+            enemy_holders[0].item = None
+
+        own.item = source.name
+
 def _reduce_move_prepare(
     battle_state: BattleState,
     event: MovePrepareEvent,
@@ -100,11 +180,23 @@ def _reduce_move_prepare(
     if minor is None:
         return
 
+    gen = battle_state.gen
+    if gen is None:
+        raise RuntimeError("gen is not set")
+
+    condition = dex.gen(gen).conditions.get("twoturnmove")
+
+    duration: int | None = None
+    if isinstance(condition, dict):
+        condition_duration = condition.get("duration")
+        if isinstance(condition_duration, int):
+            duration = condition_duration
+
     status = _resolve_any_status(
         battle_state,
         event.pokemon,
     )
-    status.add_minor(minor)
+    status.add_minor(minor, duration=duration)
 
 def _sync_own_two_turn_status_from_request(
     battle_state: BattleState,
@@ -134,8 +226,8 @@ def _sync_own_two_turn_status_from_request(
         return
 
     minor = get_semi_invulnerable_status(move_id)
-    if minor is not None:
-        status.add_minor(minor)
+    if minor is not None and minor not in status.minor:
+        status.add_minor(minor, duration=1)
 
 
 def _showdown_volatile_id(effect: MinorStatus) -> str:
@@ -357,10 +449,6 @@ def _reduce_move(
         battle_state,
         event.source_pokemon,
     )
-
-    # A new move means any previous semi-invulnerable phase has resolved.
-    _clear_semi_invulnerable_status(source_status)
-
     source_status.clear_single_move()
 
     if battle_state.gen_1_desync:
@@ -436,9 +524,18 @@ def _reduce_move(
                 duration=duration if isinstance(duration, int) else None,
             )
 
+
 def _reduce_damage(battle_state: BattleState, event: DamageEvent) -> None:
+    _sync_sticky_barb_from_damage(battle_state, event)
     enemy = _resolve_enemy(battle_state, event.target)
     if enemy is not None:
+        if (
+            event.source.type == SourceType.ITEM
+            and event.source.name is not None
+            and event.source.owner is None
+        ):
+            enemy.item = event.source.name
+
         enemy.curr_hp_percent = event.curr_hp
         if event.curr_hp == 0:
             enemy.fainted = True
@@ -447,8 +544,6 @@ def _reduce_damage(battle_state: BattleState, event: DamageEvent) -> None:
     own = _resolve_self(battle_state, event.target)
     if own is not None:
         own.curr_hp = event.curr_hp
-
-
 def _reduce_heal(battle_state: BattleState, event: HealEvent) -> None:
     cures_status = event.source.type == SourceType.MOVE and event.source.name in {
         "Healing Wish",
@@ -472,12 +567,30 @@ def _reduce_heal(battle_state: BattleState, event: HealEvent) -> None:
             battle_state.curr_pokemon_status.clear_all_major_status()
 
 
-def _reduce_minor_status(battle_state: BattleState, event: MinorStatusEvent) -> None:
+def _reduce_minor_status(
+    battle_state: BattleState,
+    event: MinorStatusEvent,
+) -> None:
     status = _resolve_any_status(battle_state, event.target)
-    if event.started:
-        status.add_minor(event.effect)
-    else:
+
+    if not event.started:
         status.remove_minor(event.effect)
+        return
+
+    duration: int | None = None
+
+    if event.effect is MinorStatus.RECHARGE:
+        gen = battle_state.gen
+        if gen is None:
+            raise RuntimeError("gen is not set")
+
+        condition = dex.gen(gen).conditions.get("mustrecharge")
+        if isinstance(condition, dict):
+            condition_duration = condition.get("duration")
+            if isinstance(condition_duration, int) and condition_duration > 0:
+                duration = condition_duration
+
+    status.add_minor(event.effect, duration=duration)
 
 
 def _reduce_major_status(battle_state: BattleState, event: MajorStatusEvent) -> None:
@@ -840,6 +953,8 @@ def _reduce_item(battle_state: BattleState, event: ItemEvent) -> None:
 
 def _reduce_cant(battle_state: BattleState, event: CantEvent) -> None:
     status = _resolve_any_status(battle_state, event.pokemon)
+
+    _clear_semi_invulnerable_status(status)
     status.clear_single_move()
 
     if (
@@ -915,6 +1030,20 @@ def _reduce_decision_request(
         for move in event.moves
     ]
 
+    previous_active = next(
+        (
+            pokemon
+            for pokemon in battle_state.team
+            if pokemon.id == battle_state.curr_pokemon
+        ),
+        None,
+    )
+    previous_base_ability = (
+        previous_active.base_ability
+        if previous_active is not None
+        else Unknown.VALUE
+    )
+
     available_pokemons: list[PartyPokemon] = []
     for pokemon in event.pokemon:
         max_hp = pokemon.max_hp
@@ -957,23 +1086,43 @@ def _reduce_decision_request(
 
     battle_state.update_team(available_pokemons)
 
-    active = next((pokemon for pokemon in available_pokemons if pokemon.active), None)
+    active = next(
+        (pokemon for pokemon in available_pokemons if pokemon.active),
+        None,
+    )
     if active is not None:
         battle_state.set_active_pokemon(str(active.id))
         battle_state.curr_pokemon_status.major = active.major_status
 
         if (
-            battle_state.curr_pokemon_ability is Unknown.VALUE
-            and not battle_state.curr_pokemon_transformed
+            (
+                previous_active is not None
+                and previous_active.id == active.id
+                and previous_base_ability != active.base_ability
+                and battle_state.curr_pokemon_ability == previous_base_ability
+                and not battle_state.curr_pokemon_transformed
+            )
+            or (
+                battle_state.curr_pokemon_ability is Unknown.VALUE
+                and not battle_state.curr_pokemon_transformed
+            )
         ):
             battle_state.curr_pokemon_ability = active.base_ability
 
+
     if battle_state.gen == 1 and not event.wait:
-        has_recharge_request = any(move.id == "recharge" for move in available_moves)
+        has_recharge_request = any(
+            move.id == "recharge"
+            for move in available_moves
+        )
         if has_recharge_request:
-            battle_state.curr_pokemon_status.add_minor(MinorStatus.RECHARGE)
+            battle_state.curr_pokemon_status.add_minor(
+                MinorStatus.RECHARGE
+            )
         else:
-            battle_state.curr_pokemon_status.remove_minor(MinorStatus.RECHARGE)
+            battle_state.curr_pokemon_status.remove_minor(
+                MinorStatus.RECHARGE
+            )
 
     _sync_own_two_turn_status_from_request(
         battle_state,
@@ -982,7 +1131,6 @@ def _reduce_decision_request(
     )
     battle_state.update_moves(available_moves)
     battle_state.force_switch = any(event.force_switch)
-
 
 def _reduce_game_type(battle_state: BattleState, event: GameTypeEvent) -> None:
     if event.type not in event.IMPLEMENTED_TYPES:

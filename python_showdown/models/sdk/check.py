@@ -490,7 +490,6 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         )
 
         curr_ability = battle_state.curr_pokemon_ability
-        gen = battle_state.gen
 
         if not battle_state.curr_pokemon_transformed:
             if curr_ability == Unknown.VALUE:

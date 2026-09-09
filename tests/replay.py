@@ -363,34 +363,64 @@ def replay_battle_raw(
         manager.last_request_id = manager.request_id
         manager.request_id = None
 
+    # Last ``|turn|`` seen so far, for annotating failures in caller output.
+    current_turn: int | None = None
+
+    def annotate(error: ReplayError) -> ReplayError:
+        if current_turn is not None and "turn" not in str(error):
+            return ReplayError(f"{error} [turn {current_turn}]")
+        return error
+
     for frame in frames:
         received_custom_state = False
         # Reset per-frame state exactly like the live receive loop.
         manager.choice_rejected = False
         client.parser.last_message_room_id = ""
 
-        for line_number, line in enumerate(frame, start=1):
-            try:
-                parsed_events = parser.handle_line(line, has_log_timestamp=True)
-            except ObsoleteRequestIdError as error:
-                error.request_id = manager.request_id
-                manager.choice_rejected = False
+        try:
+            for line_number, line in enumerate(frame, start=1):
+                try:
+                    parsed_events = parser.handle_line(line, has_log_timestamp=True)
+                except ObsoleteRequestIdError as error:
+                    error.request_id = manager.request_id
+                    manager.choice_rejected = False
 
-                name = type(error).__name__
-                tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
-                continue
+                    name = type(error).__name__
+                    tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
+                    continue
 
-            except InvalidActionError as error:
-                manager.choice_rejected = error.category != "Unavailable choice"
+                except InvalidActionError as error:
+                    manager.choice_rejected = error.category != "Unavailable choice"
 
-                name = type(error).__name__
-                tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
-                continue
+                    name = type(error).__name__
+                    tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
+                    continue
 
-            if process_events(parsed_events, line_number):
-                received_custom_state = True
+                if process_events(parsed_events, line_number):
+                    received_custom_state = True
 
-        finish_frame(received_custom_state)
+                protocol_line = extract_protocol_line(line, has_log_timestamp=True)
+                if protocol_line.startswith("|turn|"):
+                    current_turn = int(protocol_line.split("|")[2])
+        except Exception as error:
+            if isinstance(error, ReplayError):
+                raise annotate(error) from None
+            if current_turn is not None:
+                raise ReplayError(
+                    f"[turn {current_turn}] {type(error).__name__}: {error}"
+                ) from error
+            raise
+
+        try:
+            finish_frame(received_custom_state)
+        except Exception as error:
+            if isinstance(error, ReplayError):
+                raise annotate(error) from None
+            if current_turn is not None:
+                raise ReplayError(
+                    f"[turn {current_turn}] {type(error).__name__}: {error}"
+                ) from error
+            raise
 
     parser.finish(player_id)
 

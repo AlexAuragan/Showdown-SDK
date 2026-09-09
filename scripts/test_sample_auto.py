@@ -3,7 +3,7 @@
 Same replay as scripts/test_sample_battles.py, but it only feeds
 ``tests/sample_battles_auto/<fmt>/``. Battles that replay cleanly are then
 promoted into ``tests/sample_battles/<fmt>/`` (the whole battle directory is
-moved, keeping client_1/client_2 raw logs and battle_states.json together);
+moved, keeping client_1/client_2 raw logs and showdown_states.json together);
 battles that fail stay in place in sample_battles_auto so the bug can be
 fixed and this script re-run.
 
@@ -83,7 +83,7 @@ def main() -> int:
                         )
                     )
                 except Exception:  # noqa: BLE001
-                    captured = "\n".join(traceback.format_exc())
+                    captured = traceback.format_exc()
                     failures.append((path, captured))
                     print(f"FAIL {path}: {captured}")
                     continue
