@@ -20,6 +20,7 @@ from python_showdown.classes.parser.handlers.moves import (
     parse_move_group,
     parse_standalone_effect,
 )
+from python_showdown.classes.parser.handlers.requests import parse_request_event
 
 __all__ = [
     "COMMAND_HANDLERS",
@@ -39,5 +40,6 @@ __all__ = [
     "handle_upkeep",
     "parse_effect_message",
     "parse_move_group",
+    "parse_request_event",
     "parse_standalone_effect",
 ]
