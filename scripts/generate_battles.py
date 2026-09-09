@@ -52,14 +52,14 @@ WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 
 # Formats to simulate, in order.
 FORMATS = [
-    # "gen1randombattle",
-    # "gen2randombattle",
-    # "gen3randombattle",
-    # "gen4randombattle",
-    # "gen1ou",
-    # "gen2ou",
-    # "gen3ou",
-    # "gen4ou",
+    "gen1randombattle",
+    "gen2randombattle",
+    "gen3randombattle",
+    "gen4randombattle",
+    "gen1ou",
+    "gen2ou",
+    "gen3ou",
+    "gen4ou",
     "gen1ubers@@@!standard,standardag",
     "gen2ubers@@@!standard,standardag",
     "gen3ubers@@@!standard,standardag",
@@ -80,9 +80,24 @@ TEAM_SEED = 42
 # Where per-format battle logs are written ("<logs_root>/<format>/...").
 LOGS_ROOT = Path("logs")
 
+# What gets recorded per battle:
+# - RAW_WEBSOCKET: the raw WebSocket lines received by each bot
+#   (logs/<fmt>/battle_<n>/client_{1,2}_raw.txt). Disabling this also
+#   disables archiving failed battles (no raw log to keep).
+# - EVENT_STACK: the event stack built from those messages (events.json).
+# - PARSER_BATTLE_STATE: the SDK battle state at every turn
+#   (battle_states.json).
+# - SHOWDOWN_BATTLE_STATE: the custom Showdown battle state (the
+#   |battlestate| payload) at every turn (showdown_states.json).
+LOG_RAW_WEBSOCKET = True
+LOG_EVENT_STACK = True
+LOG_PARSER_BATTLE_STATE = True
+LOG_SHOWDOWN_BATTLE_STATE = True
+
 # Log level of the raw per-client protocol logs. Anything from
 # python_showdown.logger (DEBUG, TRACE, ...).
 RAW_LOG_LEVEL = TRACE
+
 
 # File that failures are appended to (relative to cwd).
 ERROR_LOG = Path("simulation_errors.log")
@@ -131,6 +146,9 @@ async def run_pair(
                 client_2,
                 fmt=fmt,
                 team_generator=team_generator,
+                include_events=LOG_EVENT_STACK,
+                include_parser_state=LOG_PARSER_BATTLE_STATE,
+                include_showdown_state=LOG_SHOWDOWN_BATTLE_STATE,
             )
             if result is not None:
                 results.append(result)
@@ -168,7 +186,13 @@ async def run_pair(
 
             if raw_log_path is not None:
                 try:
-                    await asyncio.to_thread(write_failure_outputs, client_2)
+                    await asyncio.to_thread(
+                        write_failure_outputs,
+                        client_2,
+                        include_events=LOG_EVENT_STACK,
+                        include_parser_state=LOG_PARSER_BATTLE_STATE,
+                        include_showdown_state=LOG_SHOWDOWN_BATTLE_STATE,
+                    )
                 except Exception:  # noqa: BLE001
                     print("write_failure_outputs failed:")
                     print(traceback.format_exc())
@@ -218,14 +242,15 @@ async def run_format(
         output_directory = LOGS_ROOT / fmt
         client_role = "client_1" if i % 2 == 1 else "client_2"
 
-        logs.add_handler(
-            create_battle_file_handler(
-                output_directory,
-                level=RAW_LOG_LEVEL,
-                filename=f"{client_role}_raw.txt",
-            ),
-            loggers="protocol",
-        )
+        if LOG_RAW_WEBSOCKET:
+            logs.add_handler(
+                create_battle_file_handler(
+                    output_directory,
+                    level=RAW_LOG_LEVEL,
+                    filename=f"{client_role}_raw.txt",
+                ),
+                loggers="protocol",
+            )
 
         client = Client(
             WEBSOCKET_URL,

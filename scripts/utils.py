@@ -95,20 +95,56 @@ def save_failed_battle(
     return target
 
 
-def write_battle_outputs(client: Client, battle_directory: Path | None = None) -> None:
+def write_battle_outputs(
+    client: Client,
+    battle_directory: Path | None = None,
+    *,
+    include_events: bool = True,
+    include_parser_state: bool = True,
+    include_showdown_state: bool = True,
+) -> None:
     if battle_directory is None:
         raw_log_path = client.log_manager.latest_raw_log_path()
         if raw_log_path is None:
             return
         battle_directory = raw_log_path.parent
 
-    write_json(
-        battle_directory / "battle_states.json",
-        client.battle_manager.last_battle_turn_states,
-    )
+    manager = client.battle_manager
+
+    if include_parser_state:
+        # SDK parser battle state, snapshotted at every decision point.
+        write_json(
+            battle_directory / "battle_states.json",
+            manager.last_battle_turn_states,
+        )
+
+    if include_events:
+        # Event stack produced from the raw protocol messages.
+        history = getattr(manager, "last_battle_history", None)
+        if history is None:
+            history = manager.battle_state.history
+        write_json(
+            battle_directory / "events.json",
+            [event.to_dict() for event in history],
+        )
+
+    if include_showdown_state:
+        write_json(
+            battle_directory / "showdown_states.json",
+            [
+                state.get("showdown_state")
+                for state in manager.last_battle_turn_states
+            ],
+        )
 
 
-def write_failure_outputs(client: Client) -> Path | None:
+def write_failure_outputs(
+    client: Client,
+    *,
+    include_events: bool = False,
+    include_parser_state: bool = True,
+    include_showdown_state: bool = False,
+) -> Path | None:
     """Write battle_states.json for a battle that crashed.
 
     No BattleResult was produced on a failure, so the turn-start snapshots
@@ -118,7 +154,12 @@ def write_failure_outputs(client: Client) -> Path | None:
     manager = client.battle_manager
     manager.last_battle_turn_states = list(manager.turn_start_states)
 
-    write_battle_outputs(client)
+    write_battle_outputs(
+        client,
+        include_events=include_events,
+        include_parser_state=include_parser_state,
+        include_showdown_state=include_showdown_state,
+    )
     return client.log_manager.latest_raw_log_path()
 
 
@@ -127,6 +168,10 @@ async def run_battle(
     client_2: Client,
     fmt: str,
     team_generator: SampleTeamGenerator | None = None,
+    *,
+    include_events: bool = False,
+    include_parser_state: bool = True,
+    include_showdown_state: bool = False,
 ) -> SerializableObject | None:
     await asyncio.gather(
         client_1.ensure_connected(),
@@ -182,6 +227,13 @@ async def run_battle(
         result_1, _ = await asyncio.gather(
             battle_waiter_1,
             battle_waiter_2,
+        )
+        await asyncio.to_thread(
+            write_battle_outputs,
+            client_2,
+            include_events=include_events,
+            include_parser_state=include_parser_state,
+            include_showdown_state=include_showdown_state,
         )
 
         return asdict(result_1)

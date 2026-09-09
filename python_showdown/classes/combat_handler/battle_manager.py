@@ -2,11 +2,15 @@
 # The import cycle is for typing only, changing the project architecture would probably add more overhead.
 import asyncio
 from time import perf_counter
+from typing import TYPE_CHECKING
 
 from python_showdown.classes.client.dt import BattleResult
 from python_showdown.logger import LogManager
 from python_showdown.models.sdk.battle_state import BattleState
 from python_showdown.utils.serialization import SerializableObject
+
+if TYPE_CHECKING:
+    from python_showdown.classes.parser.events.base import BaseEvent
 
 
 class BattleManager:
@@ -38,6 +42,8 @@ class BattleManager:
         self._last_turn_start_state_turn: int | None = None
 
         self.last_battle_turn_states: list[SerializableObject] = []
+
+        self.last_battle_history: list[BaseEvent] = []
 
 
     @property
@@ -170,6 +176,7 @@ class BattleManager:
 
             battle_finished.set_exception(error)
 
+        self.last_battle_history = list(self.battle_state.history)
         self.clear_battle()
 
     def finish_battle(
@@ -194,6 +201,7 @@ class BattleManager:
             duration = perf_counter() - self.battle_started_at
 
         self.last_battle_turn_states = list(self.turn_start_states)
+        self.last_battle_history = list(self.battle_state.history)
         self.battle_finished.set_result(
             BattleResult(
                 room_id=self.room_id,
@@ -219,6 +227,7 @@ class BattleManager:
                 "turn": self.turn,
                 "request_id": request_id,
                 "state": state,
+                "showdown_state": self.battle_state.custom_showdown_battlestate,
             }
         )
 

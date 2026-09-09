@@ -50,7 +50,13 @@ def replay_battle(path: Path) -> int:
     manager = result.client.battle_manager
     manager.last_battle_turn_states = list(manager.turn_start_states)
 
-    write_battle_outputs(result.client, path.parent)
+    write_battle_outputs(
+        result.client,
+        path.parent,
+        include_events=False,
+        include_parser_state=True,
+        include_showdown_state=False,
+    )
 
     return result.showdown_state_checks
 
