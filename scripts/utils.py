@@ -120,9 +120,8 @@ def write_battle_outputs(
 
     if include_events:
         # Event stack produced from the raw protocol messages.
-        history = getattr(manager, "last_battle_history", None)
-        if history is None:
-            history = manager.battle_state.history
+        history = manager.last_battle_history
+
         write_json(
             battle_directory / "events.json",
             [event.to_dict() for event in history],
@@ -150,6 +149,7 @@ def write_failure_outputs(
     """
     manager = client.battle_manager
     manager.last_battle_turn_states = list(manager.turn_start_states)
+    manager.last_battle_history = list(manager.battle_state.history)
 
     write_battle_outputs(
         client,

@@ -314,7 +314,6 @@ def _reduce_minor_status_activation(
     if actor is None:
         raise RuntimeError("TRAPPED activation has no source actor")
 
-    status = resolve_any_status(battle_state, event.target)
     status.set_trapped(actor.player)
 
 

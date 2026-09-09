@@ -1,9 +1,8 @@
-"""Runtime battle event application.
+"""Battle event application.
 
-This module applies live battle-manager lifecycle bookkeeping for semantic
-battle events: room readiness, request ids, team preview and battle
-completion. Deterministic battle knowledge lives in
-``python_showdown.classes.parser.reducers.battle.reduce_battle_state``.
+This module defines the canonical application order for semantic battle
+events: deterministic state reduction, history recording, then live
+BattleManager bookkeeping.
 """
 
 from python_showdown.classes.combat_handler.battle_manager import BattleManager

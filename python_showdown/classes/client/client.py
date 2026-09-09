@@ -15,6 +15,7 @@ from python_showdown.classes.parser.events.battle import (
     BattleEvent,
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
+    TurnEvent,
 )
 from python_showdown.classes.parser.events.lobby import LobbyEvent
 from python_showdown.classes.parser.exceptions import (
@@ -120,9 +121,6 @@ class Client:
     async def act(self) -> None:
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
-        if self.battle_manager.room_id is None:
-            raise RuntimeError("No battle room currently set")
-
         manager = self.battle_manager
         if manager.room_id is None:
             raise RuntimeError("room_id not set.")
@@ -233,8 +231,6 @@ class Client:
                 + f"turn={manager.turn}"
             )
 
-        # await self.act()
-
         try:
             async for payload in websocket:
                 received_custom_state = False
@@ -260,10 +256,6 @@ class Client:
                     )
 
                     try:
-                        from python_showdown.classes.parser.events.battle import (
-                            TurnEvent,
-                        )
-
                         events = self.parser.handle_line(
                             line,
                         )
@@ -329,7 +321,7 @@ class Client:
                             line,
                             extra={"room_id": self.parser.last_message_room_id},
                         )
-                        raise  # TEMP
+                        raise
 
                 self.log_manager.battle.debug(
                     "FRAME %s: rqid=%r last=%r rejected=%r",
@@ -409,26 +401,6 @@ class Client:
                             + f"pending rqid={pending_request_id}, "
                             + f"current rqid={manager.request_id}"
                         )
-
-                    # Otherwise manager.request_id == pending_request_id:
-                    # this is just another websocket frame received while waiting for
-                    # |battlestate|. Nothing to do.
-                elif manager.request_id is not None:
-                    self.log_manager.battle.debug(
-                        "ACT on rqid=%r in %s",
-                        manager.request_id,
-                        self.parser.last_message_room_id,
-                        extra={"room_id": self.parser.last_message_room_id},
-                    )
-                    try:
-                        await self.act()
-                    except Exception:  # noqa: BLE001 # This is intentional
-                        self.log_manager.errors.exception(
-                            "act() failed for room=%r",
-                            self.parser.last_message_room_id,
-                            extra={"room_id": self.parser.last_message_room_id},
-                        )
-                    manager.request_id = None
 
                 else:
                     self.log_manager.battle.debug(
