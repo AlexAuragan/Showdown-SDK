@@ -429,7 +429,7 @@ def replay_battle_raw(
 
     if final_events:
         process_events(
-            final_events,
+            list(final_events),
             line_count + 1,
         )
 
