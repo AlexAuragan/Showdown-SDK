@@ -37,6 +37,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from python_showdown.classes.client.client import Client
+from python_showdown.classes.combat_handler.battle_events import (
+    apply_battle_runtime_event,
+)
 from python_showdown.classes.parser.events import (
     BattleEvent,
     DiscardedEvent,
@@ -53,7 +56,7 @@ from python_showdown.classes.parser.exceptions import (
     ObsoleteRequestIdError,
 )
 from python_showdown.classes.parser.protocol import extract_protocol_line
-from python_showdown.classes.parser.reducers.battle import apply_battle_runtime_event
+from python_showdown.classes.parser.reducers import reduce_battle_state
 from python_showdown.models.sdk.battle_state import BattleState
 from python_showdown.models.sdk.check import check_battle_state_against_showdown
 from python_showdown.utils.serialization import Serializable
@@ -256,6 +259,7 @@ def replay_battle_raw(
                 received_custom_state = True
 
             if isinstance(event, BattleEvent):
+                reduce_battle_state(manager.battle_state, event)
                 apply_battle_runtime_event(manager, event)
                 if isinstance(event, BattleStartEvent):
                     if manager.room_id != parser.last_message_room_id:

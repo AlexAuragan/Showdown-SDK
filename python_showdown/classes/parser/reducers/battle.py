@@ -1,15 +1,14 @@
 """Battle event reducers.
 
-This module owns the consequences of semantic battle events.
-
-- ``reduce_battle_state`` applies deterministic SDK knowledge/state changes.
-- ``apply_battle_runtime_event`` applies live battle-manager lifecycle state.
+This module owns the deterministic consequences of semantic battle events:
+``reduce_battle_state`` applies SDK knowledge/state changes. Live
+battle-manager lifecycle handling lives in
+``python_showdown.classes.combat_handler.battle_events``.
 
 The parser event classes themselves remain immutable descriptions of what the
 Showdown protocol reported.
 """
 
-from python_showdown.classes.combat_handler.battle_manager import BattleManager
 from python_showdown.classes.parser.events.base import BaseEvent
 from python_showdown.classes.parser.events.battle import (
     AbilityEvent,
@@ -58,7 +57,7 @@ from python_showdown.classes.parser.events.battle import (
     WeatherEvent,
 )
 from python_showdown.classes.parser.fields import parse_pokemon_details
-from python_showdown.classes.parser.reducers.utils import (
+from python_showdown.classes.parser.reducers.mechanics import (
     auto_reveal_source,
     clear_semi_invulnerable_status,
     clear_traps_sourced_by_side,
@@ -131,9 +130,7 @@ def _reduce_move(
         ):
             return
 
-        if event.source.name == event.move and to_id(
-            event.move
-        ) in dex.get_charge_moves(gen):
+        if event.source.name == event.move and dex.is_charge_move(event.move, gen=gen):
             return
 
     enemy = resolve_enemy(
@@ -225,15 +222,13 @@ def _reduce_minor_status(
     duration: int | None = None
 
     if event.effect is MinorStatus.RECHARGE:
-        gen = battle_state.gen
-        if gen is None:
-            raise RuntimeError("gen is not set")
+        condition_duration = dex.condition_duration(
+            "mustrecharge",
+            gen=battle_state.gen,
+        )
 
-        condition = dex.gen(gen).conditions.get("mustrecharge")
-        if isinstance(condition, dict):
-            condition_duration = condition.get("duration")
-            if isinstance(condition_duration, int) and condition_duration > 0:
-                duration = condition_duration
+        if condition_duration is not None and condition_duration > 0:
+            duration = condition_duration
 
     status.add_minor(event.effect, duration=duration)
 
@@ -901,71 +896,3 @@ def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
             raise NotImplementedError(
                 f"No BattleState reducer for {type(event).__name__}"
             )
-
-
-def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
-    if not manager.room_id:
-        manager.room_id = event.room_id
-        manager.room_ready.set()
-
-    if manager.room_id != event.room_id:
-        raise RuntimeError(
-            "Room id changed during battle",
-            manager.room_id,
-            event.room_id,
-        )
-
-
-def _apply_decision_request(
-    manager: BattleManager,
-    event: DecisionRequestEvent,
-) -> None:
-    new_id = None if event.wait else event.request_id
-    manager.log_manager.battle.debug(
-        "|request| update_manager: setting request_id=%r (was %r, wait=%s, "
-        + "force_switch=%s, rqid=%r)",
-        new_id,
-        manager.request_id,
-        event.wait,
-        event.force_switch,
-        event.request_id,
-        extra={"room_id": manager.room_id},
-    )
-
-    manager.request_id = new_id
-    manager.choice_rejected = False
-    manager.retry_rqid = None
-    manager.retry_count = 0
-
-    if not event.wait:
-        manager.last_request_id = None
-
-
-def apply_battle_runtime_event(manager: BattleManager, event: BaseEvent) -> None:
-    """Apply live battle-manager effects for one event.
-
-    Deterministic battle knowledge belongs in ``reduce_battle_state``. This
-    function only owns room/battle lifecycle and request bookkeeping that needs
-    BattleManager/session context.
-    """
-    if not isinstance(event, BattleEvent):
-        return
-
-    match event:
-        case BattleEndEvent():
-            if manager.room_id == event.room_id:
-                manager.finish_battle(event.winner)
-        case RoomEvent():
-            _apply_room_event(manager, event)
-        case BattleStartEvent():
-            manager.room_id = event.room_id
-            manager.room_ready.set()
-        case PlayerEvent():
-            if event.name == manager.player_username:
-                manager.battle_state.player_id = event.slot
-        case DecisionRequestEvent():
-            _apply_decision_request(manager, event)
-        case TeamPreviewRequestEvent():
-            manager.requires_team_preview = True
-        case _:
-            return

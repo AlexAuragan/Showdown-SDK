@@ -43,7 +43,6 @@ from python_showdown.classes.parser.protocol import (
     is_move_boundary,
     parse_protocol_message,
 )
-from python_showdown.classes.parser.reducers import reduce_battle_state
 from python_showdown.models.sdk.battle_state import BattleState
 
 
@@ -252,9 +251,6 @@ class BattleParser(MessageParser):
                 self.protocol_context,
                 result.events,
             )
-            # Apply each newly produced event onto the running battle state.
-            for event in result.events:
-                reduce_battle_state(self.battle_state, event)
             completed.extend(result.events)
 
         return completed
