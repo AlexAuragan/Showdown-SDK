@@ -48,9 +48,13 @@ class EnemyPokemon(Pokemon):
     temporary_moves: list[str] = field(default_factory=list)
     disabled_moves: list[str] = field(default_factory=list)
     transformed_into: str | None = None
+    type_override: tuple[str, ...] | None = None
     # Current species form, relayed by |-formechange|. Only relabels the
     # species/type; never changes the move set. None = base form.
     forme: str | None = None
+    # The actual revealed species (read from |switch| details, never a
+    # nickname). None = not revealed yet.
+    species: str | None = None
 
     @property
     def available_moves(self) -> Sequence[str | Unknown]:
@@ -107,3 +111,4 @@ class EnemyPokemon(Pokemon):
         self.disabled_moves = []
         self.forme = None
         self.current_ability = self.base_ability
+        self.type_override = None

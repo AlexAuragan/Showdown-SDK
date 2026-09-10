@@ -32,21 +32,30 @@ class SourceType(str, Enum):
 class ActivePokemonState:
     pokemon_id: str = ""
     status: Status = field(default_factory=Status)
-    transformed: bool = False
+    transformed_into: str | None = None
     ability: str | Unknown = Unknown.VALUE
+    type_override: tuple[str, ...] | None = None
+    trapped: bool = False
+    maybe_trapped: bool = False
 
     def clear(self):
         self.pokemon_id = ""
         self.status = Status()
-        self.transformed = False
+        self.transformed_into = None
         self.ability = Unknown.VALUE
+        self.type_override = None
+        self.trapped = False
+        self.maybe_trapped = False
 
     def to_dict(self):
         return {
             "pokemon_id": self.pokemon_id,
             "status": asdict(self.status),
-            "transformed": self.transformed,
+            "transformed_into": self.transformed_into,
             "ability": self.ability if self.ability is not Unknown.VALUE else None,
+            "type_override": self.type_override,
+            "trapped": self.trapped,
+            "maybe_trapped": self.maybe_trapped,
         }
 
 
@@ -217,6 +226,7 @@ class BattleState:
         self,
         pokemon_id: str,
         lvl: int,
+        species: str | None = None,
         gender: str | None = None,
         shiny: bool = False,
     ) -> None:
@@ -229,7 +239,12 @@ class BattleState:
         pokemon = self.get_enemy_pokemon(pokemon_id=pokemon_id, not_found_ok=True)
         if pokemon is None:
             pokemon = EnemyPokemon(
-                id=pokemon_id, lvl=lvl, active=True, gender=gender, shiny=shiny
+                id=pokemon_id,
+                lvl=lvl,
+                active=True,
+                species=species,
+                gender=gender,
+                shiny=shiny,
             )
             idx = None
             for i, p in enumerate(self.enemy_team):
@@ -252,13 +267,15 @@ class BattleState:
     def witness_transform(
         self,
         pokemon_id: str,
-        target_id: str,
+        target_species: str,
         copied_moves: list[str] | None = None,
     ) -> None:
         pokemon = self.get_enemy_pokemon(pokemon_id)
         assert pokemon is not None
 
-        pokemon.transformed_into = target_id
+        # `transformed_into` stores the target's effective species/form, not
+        # the protocol ident (which may be a nickname).
+        pokemon.transformed_into = target_species
         # The base moveset is wholly replaced by the copied set.
         if copied_moves is not None:
             pokemon.temporary_moves = list(copied_moves)

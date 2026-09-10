@@ -208,15 +208,17 @@ class BattleParser(MessageParser):
 
             if message.command == "switch":
                 events = tuple(
-                    replace(
-                        event,
-                        baton_pass=(
-                            event.pokemon.player
-                            in self.protocol_context.baton_pass_pending
-                        ),
+                    (
+                        replace(
+                            event,
+                            baton_pass=(
+                                event.pokemon.player
+                                in self.protocol_context.baton_pass_pending
+                            ),
+                        )
+                        if isinstance(event, PokemonSwitchEvent)
+                        else event
                     )
-                    if isinstance(event, PokemonSwitchEvent)
-                    else event
                     for event in events
                 )
             return ParseResult(events, 1)

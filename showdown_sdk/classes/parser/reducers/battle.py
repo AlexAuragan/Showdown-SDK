@@ -75,7 +75,7 @@ from showdown_sdk.classes.parser.reducers.mechanics import (
 )
 from showdown_sdk.models.dex import dex, to_id
 from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import PartyPokemon, Unknown
+from showdown_sdk.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
 from showdown_sdk.models.pokemon.status import (
     MajorStatus,
     MinorStatus,
@@ -340,6 +340,7 @@ def _reduce_details_change(
 
     enemy.lvl = event.level
     enemy.forme = event.details.split(",", 1)[0].strip()
+    enemy.species = enemy.forme
 
 
 def _reduce_team_cure(battle_state: BattleState, event: TeamCureEvent) -> None:
@@ -414,6 +415,30 @@ def _reduce_side_condition(
         field_conditions.pop(event.condition, None)
 
 
+def _species_from_details(details: str) -> str | None:
+    if not details.strip():
+        return None
+    species = details.split(",", 1)[0].strip()
+    return species or None
+
+
+def _transform_target_species(target: EnemyPokemon) -> str:
+    """The Transform target's effective species/form, not its ident/nickname."""
+    if target.forme is not None:
+        return target.forme
+    if target.species is not None:
+        return target.species
+    if target.id is Unknown.VALUE:
+        raise RuntimeError("Transform target species is unknown")
+    return target.id.split(": ", 1)[-1]
+
+
+def _own_species(own: PartyPokemon | None) -> str | None:
+    if own is None:
+        return None
+    return _species_from_details(own.details)
+
+
 def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None:
     gen = battle_state.gen
 
@@ -428,7 +453,9 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
             copy_baton_pass_status(new_status, old_status, gen)
 
         battle_state.set_active_pokemon(ident_self_key(event.pokemon))
-        battle_state.active_pokemon.transformed = False
+        battle_state.active_pokemon.transformed_into = None
+        battle_state.active_pokemon.trapped = False
+        battle_state.active_pokemon.maybe_trapped = False
 
         own = resolve_self(battle_state, event.pokemon)
         if own is not None:
@@ -440,6 +467,10 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
             return
 
         battle_state.active_pokemon.status = new_status
+        battle_state.active_pokemon.transformed_into = None
+        battle_state.active_pokemon.type_override = None
+        battle_state.active_pokemon.trapped = False
+        battle_state.active_pokemon.maybe_trapped = False
         return
 
     passed_status: Status | None = None
@@ -460,6 +491,7 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
     battle_state.witness_switch_in(
         ident_raw(event.pokemon),
         level,
+        species=_species_from_details(event.details),
         gender=gender,
         shiny=shiny,
     )
@@ -476,39 +508,64 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
         copy_baton_pass_status(enemy.status, passed_status, gen)
 
 
-def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
-    source_status = resolve_any_status(battle_state, event.pokemon)
-    target_status = resolve_any_status(battle_state, event.target)
+def _reduce_transform(
+    battle_state: BattleState,
+    event: TransformEvent,
+) -> None:
+    source_status = resolve_any_status(
+        battle_state,
+        event.pokemon,
+    )
+    target_status = resolve_any_status(
+        battle_state,
+        event.target,
+    )
+
     source_status.copy_stat_changes(target_status)
 
-    if is_self(battle_state, event.pokemon):
-        battle_state.active_pokemon.transformed = True
+    if is_self(
+        battle_state,
+        event.pokemon,
+    ):
+        target = resolve_enemy(battle_state, event.target)
+
+        if target is None:
+            raise RuntimeError(
+                f"Transform target {event.target} not found in enemy team"
+            )
+
+        target_species = _transform_target_species(target)
+        battle_state.active_pokemon.transformed_into = target_species
+        battle_state.active_pokemon.type_override = None
 
         if battle_state.gen > 2:
-            target = resolve_enemy(battle_state, event.target)
-            if target is None:
-                raise RuntimeError(
-                    f"Transform target {event.target} not found in enemy team"
-                )
-
             battle_state.active_pokemon.ability = target.current_ability
         return
 
     enemy = resolve_enemy(battle_state, event.pokemon)
+
     if enemy is None:
         return
 
+    # Transform replaces any previous type override on the source.
+    enemy.type_override = None
+
     copied_moves: list[str] | None = None
     own = resolve_self(battle_state, event.target)
+
     if own is not None:
         copied_moves = list(own.moves)
 
         if battle_state.gen > 2:
             enemy.current_ability = battle_state.active_pokemon.ability
 
+    target_species = _own_species(own)
+    if target_species is None:
+        raise RuntimeError(f"Transform target species unknown for {event.target}")
+
     battle_state.witness_transform(
         ident_raw(event.pokemon),
-        ident_raw(event.target),
+        target_species,
         copied_moves,
     )
 
@@ -632,9 +689,30 @@ def _reduce_single_move(battle_state: BattleState, event: SingleMoveEvent) -> No
     status.add_minor(effect)
 
 
-def _reduce_type_change(battle_state: BattleState, event: TypeChangeEvent) -> None:
-    status = resolve_any_status(battle_state, event.target)
+def _reduce_type_change(
+    battle_state: BattleState,
+    event: TypeChangeEvent,
+) -> None:
+    status = resolve_any_status(
+        battle_state,
+        event.target,
+    )
     status.add_minor(MinorStatus.TYPECHANGE)
+
+    if is_self(
+        battle_state,
+        event.target,
+    ):
+        battle_state.active_pokemon.type_override = event.types
+        return
+
+    enemy = resolve_enemy(
+        battle_state,
+        event.target,
+    )
+
+    if enemy is not None:
+        enemy.type_override = event.types
 
 
 def _reduce_forme_change(battle_state: BattleState, event: FormeChangeEvent) -> None:
@@ -721,15 +799,19 @@ def _reduce_decision_request(
         battle_state.set_active_pokemon(str(active.id))
         battle_state.active_pokemon.status.major = active.major_status
 
+        # Persist request-level trapping state; each request overwrites it.
+        battle_state.active_pokemon.trapped = event.trapped
+        battle_state.active_pokemon.maybe_trapped = event.maybe_trapped
+
         if (
             previous_active is not None
             and previous_active.id == active.id
             and previous_base_ability != active.base_ability
             and battle_state.active_pokemon.ability == previous_base_ability
-            and not battle_state.active_pokemon.transformed
+            and not battle_state.active_pokemon.transformed_into
         ) or (
             battle_state.active_pokemon.ability is Unknown.VALUE
-            and not battle_state.active_pokemon.transformed
+            and not battle_state.active_pokemon.transformed_into
         ):
             battle_state.active_pokemon.ability = active.base_ability
 

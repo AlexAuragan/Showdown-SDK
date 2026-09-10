@@ -26,170 +26,203 @@ def normalize_move_id(move: str) -> str:
     return move
 
 
-def check_battle_state_against_showdown(battle_state: BattleState) -> None:
-    if battle_state.custom_showdown_battlestate is None:
+def check_transformed(
+    path: str,
+    transformed_into: str | None,
+    ref_pokemon: SerializableObject,
+) -> None:
+    same(
+        f"{path}.transformed",
+        transformed_into is not None,
+        expect_bool(ref_pokemon["transformed"]),
+    )
+
+
+def same(path: str, actual: object, expected: object) -> None:
+    if actual != expected:
+        raise AssertionError(f"{path}: sdk={actual!r}, showdown={expected!r}")
+
+
+def obj(value: Serializable) -> SerializableObject:
+    return expect_object(value)
+
+
+def objs(value: Serializable) -> list[SerializableObject]:
+    return [obj(item) for item in expect_array(value)]
+
+
+def strings(value: Serializable) -> list[str]:
+    return [expect_string(item) for item in expect_array(value)]
+
+
+def major_value(status: MajorStatus | None) -> str | None:
+    return None if status is None else status.value
+
+
+def check_type_override(
+    path: str,
+    type_override: tuple[str, ...] | None,
+    ref_pokemon: SerializableObject,
+) -> None:
+    if type_override is None:
         return
 
-    ref: SerializableObject = battle_state.custom_showdown_battlestate
+    ref_types = tuple(strings(ref_pokemon["types"]))
 
-    def same(path: str, actual: object, expected: object) -> None:
-        if actual != expected:
-            raise AssertionError(f"{path}: sdk={actual!r}, showdown={expected!r}")
+    same(
+        f"{path}.type_override",
+        type_override,
+        ref_types,
+    )
 
-    def obj(value: Serializable) -> SerializableObject:
-        return expect_object(value)
 
-    def objs(value: Serializable) -> list[SerializableObject]:
-        return [obj(item) for item in expect_array(value)]
+def check_status(
+    path: str, status: Status, ref_pokemon: SerializableObject, gen: int
+) -> None:
+    boosts = obj(ref_pokemon["boosts"])
 
-    def strings(value: Serializable) -> list[str]:
-        return [expect_string(item) for item in expect_array(value)]
+    same(f"{path}.atk_stage", status.atk_stage, expect_int(boosts["atk"]))
+    same(f"{path}.def_stage", status.def_stage, expect_int(boosts["def"]))
+    same(f"{path}.spa_stage", status.spa_stage, expect_int(boosts["spa"]))
+    same(f"{path}.spd_stage", status.spd_stage, expect_int(boosts["spd"]))
+    same(f"{path}.spe_stage", status.spe_stage, expect_int(boosts["spe"]))
+    same(
+        f"{path}.acc_stage",
+        status.acc_stage,
+        expect_int(boosts["accuracy"]),
+    )
+    same(
+        f"{path}.eva_stage",
+        status.eva_stage,
+        expect_int(boosts["evasion"]),
+    )
 
-    def major_value(status: MajorStatus | None) -> str | None:
-        return None if status is None else status.value
+    raw_ref_major = expect_string(ref_pokemon["status"])
 
-    def check_status(
-        path: str,
-        status: Status,
-        ref_pokemon: SerializableObject,
-    ) -> None:
-        boosts = obj(ref_pokemon["boosts"])
+    # Showdown encodes a fainted Pokémon as status="fnt".
+    # The SDK tracks fainting separately with Pokemon.fainted / HP=0,
+    # not as Status.major.
+    ref_major = (
+        None if raw_ref_major in {"", MajorStatus.FAINT.value} else raw_ref_major
+    )
 
-        same(f"{path}.atk_stage", status.atk_stage, expect_int(boosts["atk"]))
-        same(f"{path}.def_stage", status.def_stage, expect_int(boosts["def"]))
-        same(f"{path}.spa_stage", status.spa_stage, expect_int(boosts["spa"]))
-        same(f"{path}.spd_stage", status.spd_stage, expect_int(boosts["spd"]))
-        same(f"{path}.spe_stage", status.spe_stage, expect_int(boosts["spe"]))
+    same(
+        f"{path}.major",
+        major_value(status.major),
+        ref_major,
+    )
+
+    volatiles = obj(ref_pokemon["volatiles"])
+
+    # These SDK minor statuses map directly to a Showdown volatile with
+    # to_id(status.value).
+    indirect_minors = {
+        MinorStatus.RECHARGE,
+        MinorStatus.PERISH_SONG,
+        MinorStatus.FLY,
+        MinorStatus.DIVE,
+        MinorStatus.TUNNEL,
+        MinorStatus.FLINCH,
+        MinorStatus.REPEAT,
+        MinorStatus.TYPECHANGE,
+    }
+
+    for minor in MinorStatus:
+        if minor in indirect_minors:
+            continue
+
+        # Gen 1 partial trapping has intentionally hidden state.
+        # Showdown can keep `fakepartiallytrapped` after Wrap has actually ended.
+        if gen == 1 and minor is MinorStatus.PARTIALLY_TRAPPED:
+            continue
+
+        volatile_id = to_id(minor.value)
         same(
-            f"{path}.acc_stage",
-            status.acc_stage,
-            expect_int(boosts["accuracy"]),
-        )
-        same(
-            f"{path}.eva_stage",
-            status.eva_stage,
-            expect_int(boosts["evasion"]),
+            f"{path}.minor[{minor.value}]",
+            minor in status.minor,
+            volatile_id in volatiles,
         )
 
-        raw_ref_major = expect_string(ref_pokemon["status"])
+    # Recharge has existed in two SDK representations. Validate their
+    # logical meaning but reject having both set simultaneously.
+    recharge_minor = MinorStatus.RECHARGE in status.minor
 
-        # Showdown encodes a fainted Pokémon as status="fnt".
-        # The SDK tracks fainting separately with Pokemon.fainted / HP=0,
-        # not as Status.major.
-        ref_major = (
-            None if raw_ref_major in {"", MajorStatus.FAINT.value} else raw_ref_major
+    if recharge_minor and status.must_recharge:
+        raise AssertionError(
+            f"{path}: recharge exists as both MinorStatus.RECHARGE "
+            + "and must_recharge=True"
         )
 
-        same(
-            f"{path}.major",
-            major_value(status.major),
-            ref_major,
-        )
+    sdk_recharge = recharge_minor or status.must_recharge
+    ref_recharge = "mustrecharge" in volatiles
 
-        volatiles = obj(ref_pokemon["volatiles"])
-
-        # These SDK minor statuses map directly to a Showdown volatile with
-        # to_id(status.value).
-        indirect_minors = {
-            MinorStatus.RECHARGE,
-            MinorStatus.PERISH_SONG,
-            MinorStatus.FLY,
-            MinorStatus.DIVE,
-            MinorStatus.TUNNEL,
-            MinorStatus.FLINCH,
-            MinorStatus.REPEAT,
-            MinorStatus.TYPECHANGE,
-        }
-
-        for minor in MinorStatus:
-            if minor in indirect_minors:
-                continue
-
-            # Gen 1 partial trapping has intentionally hidden state.
-            # Showdown can keep `fakepartiallytrapped` after Wrap has actually ended.
-            if battle_state.gen == 1 and minor is MinorStatus.PARTIALLY_TRAPPED:
-                continue
-
-            volatile_id = to_id(minor.value)
-            same(
-                f"{path}.minor[{minor.value}]",
-                minor in status.minor,
-                volatile_id in volatiles,
-            )
-
-        # Recharge has existed in two SDK representations. Validate their
-        # logical meaning but reject having both set simultaneously.
-        recharge_minor = MinorStatus.RECHARGE in status.minor
-
-        if recharge_minor and status.must_recharge:
-            raise AssertionError(
-                f"{path}: recharge exists as both MinorStatus.RECHARGE "
-                + "and must_recharge=True"
-            )
-
-        sdk_recharge = recharge_minor or status.must_recharge
-        ref_recharge = "mustrecharge" in volatiles
-
-        if battle_state.gen == 1:
-            # sdk=True / showdown=False can result from an unobservable
-            # post-action flinch cancelling Hyper Beam recharge.
-            if not sdk_recharge and ref_recharge:
-                same(
-                    f"{path}.recharge",
-                    sdk_recharge,
-                    ref_recharge,
-                )
-        else:
+    if gen == 1:
+        # sdk=True / showdown=False can result from an unobservable
+        # post-action flinch cancelling Hyper Beam recharge.
+        if not sdk_recharge and ref_recharge:
             same(
                 f"{path}.recharge",
                 sdk_recharge,
                 ref_recharge,
             )
-
-        # Perish Song presence is reliable.
-        #
-        # We intentionally do not compare perish_count against Showdown's
-        # internal volatile duration. The two counters do not have identical
-        # semantics across every generation.
-        ref_perish = "perishsong" in volatiles
-
+    else:
         same(
-            f"{path}.perish",
-            MinorStatus.PERISH_SONG in status.minor,
-            ref_perish,
+            f"{path}.recharge",
+            sdk_recharge,
+            ref_recharge,
         )
 
-        if ref_perish:
-            if status.perish_count is None:
-                raise AssertionError(f"{path}: perishsong active but perish_count=None")
-        else:
-            same(f"{path}.perish_count", status.perish_count, None)
+    # Perish Song presence is reliable.
+    #
+    # We intentionally do not compare perish_count against Showdown's
+    # internal volatile duration. The two counters do not have identical
+    # semantics across every generation.
+    ref_perish = "perishsong" in volatiles
 
-        # Showdown uses one generic twoturnmove volatile for Fly, Dive, Dig,
-        # Sky Attack, Solar Beam, etc.
-        two_turn_move: str | None = None
+    same(
+        f"{path}.perish",
+        MinorStatus.PERISH_SONG in status.minor,
+        ref_perish,
+    )
 
-        if "twoturnmove" in volatiles:
-            two_turn = obj(volatiles["twoturnmove"])
+    if ref_perish:
+        if status.perish_count is None:
+            raise AssertionError(f"{path}: perishsong active but perish_count=None")
+    else:
+        same(f"{path}.perish_count", status.perish_count, None)
 
-            if "move" in two_turn:
-                two_turn_move = expect_string(two_turn["move"])
+    # Showdown uses one generic twoturnmove volatile for Fly, Dive, Dig,
+    # Sky Attack, Solar Beam, etc.
+    two_turn_move: str | None = None
 
-        same(
-            f"{path}.minor[Fly]",
-            MinorStatus.FLY in status.minor,
-            two_turn_move == "fly",
-        )
-        same(
-            f"{path}.minor[Dive]",
-            MinorStatus.DIVE in status.minor,
-            two_turn_move == "dive",
-        )
-        same(
-            f"{path}.minor[Tunnel]",
-            MinorStatus.TUNNEL in status.minor,
-            two_turn_move == "dig",
-        )
+    if "twoturnmove" in volatiles:
+        two_turn = obj(volatiles["twoturnmove"])
+
+        if "move" in two_turn:
+            two_turn_move = expect_string(two_turn["move"])
+
+    same(
+        f"{path}.minor[Fly]",
+        MinorStatus.FLY in status.minor,
+        two_turn_move == "fly",
+    )
+    same(
+        f"{path}.minor[Dive]",
+        MinorStatus.DIVE in status.minor,
+        two_turn_move == "dive",
+    )
+    same(
+        f"{path}.minor[Tunnel]",
+        MinorStatus.TUNNEL in status.minor,
+        two_turn_move == "dig",
+    )
+
+
+def check_battle_state_against_showdown(battle_state: BattleState) -> None:
+    if battle_state.custom_showdown_battlestate is None:
+        return
+
+    ref: SerializableObject = battle_state.custom_showdown_battlestate
 
     # ------------------------------------------------------------------
     # Battle-level state
@@ -474,13 +507,27 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             "active_pokemon.status",
             battle_state.active_pokemon.status,
             ref_active,
+            battle_state.gen,
+        )
+
+        check_transformed(
+            "active_pokemon",
+            battle_state.active_pokemon.transformed_into,
+            ref_active,
+        )
+
+        check_type_override(
+            "active_pokemon",
+            battle_state.active_pokemon.type_override,
+            ref_active,
         )
 
         curr_ability = battle_state.active_pokemon.ability
 
-        if not battle_state.active_pokemon.transformed:
+        if battle_state.active_pokemon.transformed_into is None:
             if curr_ability == Unknown.VALUE:
-                raise ValueError("current ability is unkown for our active pokemon")
+                raise ValueError("current ability is unknown for our active pokemon")
+
             same(
                 "active_pokemon.ability",
                 to_id(curr_ability),
@@ -632,6 +679,12 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             )
 
             same(
+                f"{path}.type_override",
+                enemy.type_override,
+                None,
+            )
+
+            same(
                 f"{path}.forme",
                 enemy.forme,
                 None,
@@ -729,11 +782,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         )
 
         if not ref_fainted:
-            check_status(
-                f"{path}.status",
-                enemy.status,
-                ref_enemy,
-            )
+            check_status(f"{path}.status", enemy.status, ref_enemy, battle_state.gen)
 
         # Hidden values are skipped until the SDK knows them.
         if enemy.base_ability is not Unknown.VALUE:
@@ -791,6 +840,12 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 )
 
         ref_transformed = expect_bool(ref_enemy["transformed"])
+
+        check_transformed(
+            path,
+            enemy.transformed_into,
+            ref_enemy,
+        )
 
         same(
             f"{path}.transformed",
