@@ -6,10 +6,12 @@ import urllib.error
 from dataclasses import asdict
 from pathlib import Path
 
-from python_showdown.classes.client.client import Client
-from python_showdown.models.sdk.pokemon_set import TeamSet
-from python_showdown.models.sdk.sample_team_generator import SampleTeamGenerator
-from python_showdown.utils.serialization import (
+from websockets.exceptions import WebSocketException
+
+from showdown_sdk.classes.client.client import Client
+from showdown_sdk.models.sdk.pokemon_set import TeamSet
+from showdown_sdk.models.sdk.sample_team_generator import SampleTeamGenerator
+from showdown_sdk.utils.serialization import (
     Serializable,
     SerializableArray,
     SerializableObject,
@@ -25,12 +27,6 @@ def write_json(
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-# websocket library may be different depending on dependency used
-try:  # pragma: no cover - import path detection
-    from websockets.exceptions import WebSocketException
-except ImportError:  # pragma: no cover
-    WebSocketException = None
 
 
 def _exception_chain(exc: BaseException) -> list[BaseException]:
@@ -54,7 +50,7 @@ def is_infra_failure(exc: BaseException) -> bool:
             (urllib.error.URLError, ConnectionError, TimeoutError, OSError),
         ):
             return True
-        if WebSocketException is not None and isinstance(item, WebSocketException):
+        if isinstance(item, WebSocketException):
             return True
     return False
 

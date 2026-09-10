@@ -37,29 +37,29 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from python_showdown.classes.client.client import Client
-from python_showdown.classes.combat_handler.battle_events import (
+from showdown_sdk.classes.client.client import Client
+from showdown_sdk.classes.combat_handler.battle_events import (
     apply_battle_event,
 )
-from python_showdown.classes.parser.events import (
+from showdown_sdk.classes.parser.events import (
     BattleEvent,
     DiscardedEvent,
     LobbyEvent,
     UnhandledEvent,
 )
-from python_showdown.classes.parser.events.base import BaseEvent
-from python_showdown.classes.parser.events.battle import (
+from showdown_sdk.classes.parser.events.base import BaseEvent
+from showdown_sdk.classes.parser.events.battle import (
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
 )
-from python_showdown.classes.parser.exceptions import (
+from showdown_sdk.classes.parser.exceptions import (
     InvalidActionError,
     ObsoleteRequestIdError,
 )
-from python_showdown.classes.parser.protocol import extract_protocol_line
-from python_showdown.models.sdk.battle_state import BattleState
-from python_showdown.models.sdk.check import check_battle_state_against_showdown
-from python_showdown.utils.serialization import Serializable
+from showdown_sdk.classes.parser.protocol import extract_protocol_line
+from showdown_sdk.models.sdk.battle_state import BattleState
+from showdown_sdk.models.sdk.check import check_battle_state_against_showdown
+from showdown_sdk.utils.serialization import Serializable
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SAMPLE_DIRECTORIES = (

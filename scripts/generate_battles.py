@@ -16,6 +16,7 @@ Requires the local server (WEBSOCKET_URL) to be running.
 
 # pyright: reportConstantRedefinition=false
 import asyncio
+import os
 import shutil
 import sys
 import traceback
@@ -25,25 +26,25 @@ from typing import NoReturn
 
 from tqdm import tqdm
 
-from python_showdown.classes.client.client import Client
-from python_showdown.classes.combat_handler.random_handler import (
-    RandomMoveCombatHandler,
-)
-from python_showdown.logger import (
-    TRACE,
-    LogManager,
-    create_battle_file_handler,
-    start_file_io_worker,
-    stop_file_io_worker,
-)
-from python_showdown.models.sdk.sample_team_generator import SampleTeamGenerator
-from python_showdown.utils.serialization import SerializableObject
 from scripts.utils import (
     is_infra_failure,
     run_battle,
     save_failed_battle,
     write_failure_outputs,
 )
+from showdown_sdk.classes.client.client import Client
+from showdown_sdk.classes.combat_handler.random_handler import (
+    RandomMoveCombatHandler,
+)
+from showdown_sdk.logger import (
+    TRACE,
+    LogManager,
+    create_battle_file_handler,
+    start_file_io_worker,
+    stop_file_io_worker,
+)
+from showdown_sdk.models.sdk.sample_team_generator import SampleTeamGenerator
+from showdown_sdk.utils.serialization import SerializableObject
 
 # ======================================================================
 # Configuration -- edit here to select the run
@@ -67,6 +68,7 @@ FORMATS = [
     "gen4ubers@@@!standard,standardag",
 ]
 
+os.environ["SHOWDOWN_USE_REQUEST_STATE"] = "1"
 # Total battles per format, spread evenly over PLAYER_COUNT / 2 pairs.
 BATTLE_COUNT = 100
 PLAYER_COUNT = 8  # must be even
@@ -96,7 +98,7 @@ LOG_PARSER_BATTLE_STATE = True
 LOG_SHOWDOWN_BATTLE_STATE = True
 
 # Log level of the raw per-client protocol logs. Anything from
-# python_showdown.logger (DEBUG, TRACE, ...).
+# showdown_sdk.logger (DEBUG, TRACE, ...).
 RAW_LOG_LEVEL = TRACE
 
 

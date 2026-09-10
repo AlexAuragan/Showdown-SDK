@@ -1,0 +1,129 @@
+from showdown_sdk.classes.parser.context import ProtocolContext
+from showdown_sdk.classes.parser.events import BaseEvent
+from showdown_sdk.classes.parser.events.battle import (
+    AbilityEvent,
+    GameGenEvent,
+    MoveEvent,
+    PokemonSwitchEvent,
+)
+from showdown_sdk.classes.parser.fields import parse_pokemon_ident
+from showdown_sdk.classes.parser.models import PokemonIdent, ProtocolMessage
+from showdown_sdk.classes.parser.protocol import has_annotation
+from showdown_sdk.models.dex import to_id
+
+
+def pokemon_key(pokemon: PokemonIdent) -> tuple[str, str | None]:
+    return pokemon.player, pokemon.slot
+
+
+def register_ability_start(
+    context: ProtocolContext,
+    pokemon: PokemonIdent,
+    ability: str,
+) -> None:
+    key = pokemon_key(pokemon)
+
+    context.known_ability_states.setdefault(
+        key,
+        set(),
+    ).add(ability)
+
+    context.active_ability_states.setdefault(
+        key,
+        set(),
+    ).add(ability)
+
+
+def is_duplicate_silent_ability_end(
+    context: ProtocolContext,
+    message: ProtocolMessage,
+) -> bool:
+    """For some reason, the end ability message can be displayed twice"""
+    if (
+        message.command != "-end"
+        or len(message.arguments) < 2
+        or not has_annotation(message, "silent")
+    ):
+        return False
+
+    pokemon = parse_pokemon_ident(message.arguments[0])
+    ability = message.arguments[1].strip()
+    key = pokemon_key(pokemon)
+
+    was_seen = ability in context.known_ability_states.get(
+        key,
+        set(),
+    )
+    is_still_active = ability in context.active_ability_states.get(
+        key,
+        set(),
+    )
+
+    return was_seen and not is_still_active
+
+
+def register_ability_end(
+    context: ProtocolContext,
+    pokemon: PokemonIdent,
+    ability: str,
+) -> None:
+    key = pokemon_key(pokemon)
+
+    if key not in context.active_ability_states:
+        return
+
+    context.active_ability_states[key].discard(ability)
+
+    if not context.active_ability_states[key]:
+        del context.active_ability_states[key]
+
+
+def is_known_ability_end(
+    context: ProtocolContext,
+    message: ProtocolMessage,
+) -> bool:
+    if message.command != "-end":
+        return False
+
+    if len(message.arguments) < 2:
+        return False
+
+    pokemon = parse_pokemon_ident(message.arguments[0])
+    ability = message.arguments[1].strip()
+    key = pokemon_key(pokemon)
+
+    return ability in context.active_ability_states.get(key, set())
+
+
+def update_protocol_context(
+    context: ProtocolContext,
+    events: tuple[BaseEvent, ...],
+) -> None:
+    for event in events:
+        if isinstance(event, GameGenEvent):
+            context.gen = event.gen
+            continue
+
+        if isinstance(event, MoveEvent):
+            if event.success and to_id(event.move) == "batonpass":
+                context.baton_pass_pending.add(event.source_pokemon.player)
+            continue
+
+        if isinstance(event, PokemonSwitchEvent):
+            context.baton_pass_pending.discard(event.pokemon.player)
+            continue
+
+        if not isinstance(event, AbilityEvent):
+            continue
+        if event.active:
+            register_ability_start(
+                context,
+                event.pokemon,
+                event.ability,
+            )
+        else:
+            register_ability_end(
+                context,
+                event.pokemon,
+                event.ability,
+            )

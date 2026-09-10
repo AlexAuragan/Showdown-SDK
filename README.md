@@ -163,7 +163,7 @@ fails loudly on unknown tokens.
 inside `|request|` (name, id, PP, target, disabled). It is deliberately thin —
 it is *the move I can press this turn*, nothing more.
 
-### Logging — `python_showdown.logger`
+### Logging — `showdown_sdk.logger`
 
 `LogManager` owns three named loggers — `protocol`, `battle`, `errors` — that
 the client and parser route through `extra={"room_id": ...}`. `BattleFileHandler`
@@ -177,15 +177,15 @@ of loggers, or `None` (meaning all three).
 
 | Module | Role |
 | --- | --- |
-| `python_showdown.classes.client.client` | websocket session, room tracking, action timeout, battle future |
-| `python_showdown.classes.client.parser` | protocol line dispatch + `BattleState` mutation |
-| `python_showdown.classes.client.dt` | `Format` / `FormatFlag` definitions |
-| `python_showdown.classes.client.utils` | `|formats|` parsing + pretty-printing |
-| `python_showdown.classes.combat.battle_state` | structured in-battle world model |
-| `python_showdown.classes.combat.move_history` | per-move outcome record |
-| `python_showdown.classes.combat.move_builder` | builds a `MoveEvent` across a line cluster |
-| `python_showdown.classes.combat.random` | baseline AI + the contract the client expects |
-| `python_showdown.classes.pokemon.pokemon` | `PartyPokemon` / `EnemyPokemon` |
-| `python_showdown.classes.pokemon.stats` | `Stats`, `Status`, `MajorStatus`, `MinorStatus` |
-| `python_showdown.classes.pokemon.moves` | `AvailableMove` |
-| `python_showdown.logger` | `LogManager`, per-room file handler, console/file helpers |
+| `showdown_sdk.classes.client.client` | websocket session, room tracking, action timeout, battle future |
+| `showdown_sdk.classes.client.parser` | protocol line dispatch + `BattleState` mutation |
+| `showdown_sdk.classes.client.dt` | `Format` / `FormatFlag` definitions |
+| `showdown_sdk.classes.client.utils` | `|formats|` parsing + pretty-printing |
+| `showdown_sdk.classes.combat.battle_state` | structured in-battle world model |
+| `showdown_sdk.classes.combat.move_history` | per-move outcome record |
+| `showdown_sdk.classes.combat.move_builder` | builds a `MoveEvent` across a line cluster |
+| `showdown_sdk.classes.combat.random` | baseline AI + the contract the client expects |
+| `showdown_sdk.classes.pokemon.pokemon` | `PartyPokemon` / `EnemyPokemon` |
+| `showdown_sdk.classes.pokemon.stats` | `Stats`, `Status`, `MajorStatus`, `MinorStatus` |
+| `showdown_sdk.classes.pokemon.moves` | `AvailableMove` |
+| `showdown_sdk.logger` | `LogManager`, per-room file handler, console/file helpers |
