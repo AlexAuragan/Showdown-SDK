@@ -21,6 +21,7 @@ from showdown_sdk.utils.serialization import (
     expect_object,
     expect_string,
 )
+from showdown_sdk.vectorizer.history import HISTORY_DIM, vectorize_history
 from showdown_sdk.vectorizer.utils import (
     ability_id,
     item_id,
@@ -238,6 +239,7 @@ _VECTOR_DIM = (
     + 6 * _OWN_POKEMON_DIM
     + 6 * _ENEMY_POKEMON_DIM
     + 4 * _AVAILABLE_MOVE_DIM
+    + HISTORY_DIM
     + _ACTION_MASK_DIM
 )
 
@@ -1379,10 +1381,16 @@ def vectorize_battle_state(battle_state: BattleState) -> Vector:
 
     vector.extend(_vectorize_available_moves(battle_state))
 
+    vector.extend(vectorize_history(battle_state))
+
+    # Keep the action mask last so consumers can always use vector[-10:].
     vector.extend(_vectorize_action_mask(battle_state))
 
     assert len(vector) == _VECTOR_DIM
     return vector
+
+
+__all__ = ["vectorize_battle_state"]
 
 
 __all__ = ["vectorize_battle_state"]

@@ -1,4 +1,5 @@
 # pyright: reportPrivateUsage=false
+# pyright: reportPrivateLocalImportUsage=false
 # Private vectorizer internals are intentionally tested because their
 # dimensions and categorical ordering are part of the encoding schema.
 
@@ -126,7 +127,7 @@ def _battle_state() -> BattleState:
 
 
 @pytest.mark.parametrize(
-    ("features", "expected_dimension"),
+    ("features", "state_dimension"),
     [
         (None, 994),
         ("none", 994),
@@ -136,20 +137,20 @@ def _battle_state() -> BattleState:
         ("move_metadata", 1450),
         ("move_matchups", 1222),
         ("types,base_stats", 1306),
-        (("types,type_matchups,base_stats,move_metadata,move_matchups"), 2218),
+        ("types,type_matchups,base_stats,move_metadata,move_matchups", 2218),
         ("all", 2218),
     ],
 )
 def test_vector_dimension(
-    monkeypatch: pytest.MonkeyPatch,
-    features: str | None,
-    expected_dimension: int,
+    monkeypatch: pytest.MonkeyPatch, features: str | None, state_dimension: int
 ) -> None:
     _reload_vectorizer(monkeypatch, features)
 
     battle_state = _battle_state()
 
     vector = vectorizer.vectorize_battle_state(battle_state)
+
+    expected_dimension = state_dimension + vectorizer.HISTORY_DIM
 
     assert vectorizer._VECTOR_DIM == expected_dimension
     assert len(vector) == expected_dimension
@@ -162,6 +163,26 @@ def test_invalid_feature_is_rejected(monkeypatch: pytest.MonkeyPatch) -> None:
         ValueError, match="Unknown SHOWDOWN_SDK_VECTOR_FEATURES"
     ):
         importlib.reload(vectorizer)
+
+
+def test_history_is_included_before_action_mask() -> None:
+    battle_state = _battle_state()
+
+    value = vectorizer.vectorize_battle_state(battle_state)
+
+    history_start = (
+        vectorizer._VECTOR_DIM
+        - vectorizer.HISTORY_DIM
+        - vectorizer._ACTION_MASK_DIM
+    )
+
+    history_end = vectorizer._VECTOR_DIM - vectorizer._ACTION_MASK_DIM
+
+    assert value[history_start:history_end] == [0] * vectorizer.HISTORY_DIM
+
+    assert value[-vectorizer._ACTION_MASK_DIM :] == (
+        vectorizer._vectorize_action_mask(battle_state)
+    )
 
 
 def test_known_id_encoding() -> None:
@@ -420,5 +441,5 @@ def test_all_features_vectorize_real_battle_state(
 
     value = vectorizer.vectorize_battle_state(battle_state)
 
-    assert len(value) == 2218
+    assert len(value) == 2218 + vectorizer.HISTORY_DIM
     assert len(value) == vectorizer._VECTOR_DIM
