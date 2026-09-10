@@ -529,27 +529,39 @@ def _vectorize_base_stats(species: str | None, *, gen: int) -> Vector:
 
 
 def _current_types(
-    species: str | None, type_override: tuple[str, ...] | None, *, gen: int
+    species: str | None,
+    type_override: tuple[str, ...] | None,
+    *,
+    gen: int,
+    status: Status | None = None,
 ) -> tuple[str, ...] | None:
-    # An explicit battle type is authoritative.
     if type_override is not None:
-        return type_override
-
-    if species is None:
+        types = type_override
+    elif species is not None:
+        types = _species_types(species, gen)
+    else:
         return None
 
-    return _species_types(species, gen)
+    # Roost temporarily removes Flying typing.
+    if status is not None and MinorStatus.ROOST in status.minor:
+        types = tuple(type_name for type_name in types if type_name != "Flying")
+
+    return types
 
 
 def _vectorize_pokemon_extras(
-    species: str | None, type_override: tuple[str, ...] | None, *, gen: int
+    species: str | None,
+    type_override: tuple[str, ...] | None,
+    *,
+    status: Status | None,
+    gen: int,
 ) -> Vector:
     vector: Vector = []
 
     types: tuple[str, ...] | None = None
 
     if _TYPES_ENABLED or _TYPE_MATCHUPS_ENABLED:
-        types = _current_types(species, type_override, gen=gen)
+        types = _current_types(species, type_override, gen=gen, status=status)
 
     if _TYPES_ENABLED:
         vector.extend(_vectorize_types(types))
@@ -803,6 +815,7 @@ def _active_enemy_types(battle_state: BattleState) -> tuple[str, ...] | None:
             _enemy_current_species(pokemon),
             pokemon.type_override,
             gen=battle_state.gen,
+            status=pokemon.status,
         )
 
     return None
@@ -814,12 +827,11 @@ def _active_own_types(battle_state: BattleState) -> tuple[str, ...] | None:
 
     pokemon = battle_state.get_curr_pokemon()
 
-    current_species = _current_own_species(battle_state, pokemon)
-
     return _current_types(
-        current_species,
+        _current_own_species(battle_state, pokemon),
         battle_state.active_pokemon.type_override,
         gen=battle_state.gen,
+        status=battle_state.active_pokemon.status,
     )
 
 
@@ -937,7 +949,9 @@ def _vectorize_party_pokemon(
     # Mechanical information uses the effective current species:
     # normal species, current forme, or Transform target.
     vector.extend(
-        _vectorize_pokemon_extras(current_species, type_override, gen=gen)
+        _vectorize_pokemon_extras(
+            current_species, type_override, gen=gen, status=status
+        )
     )
 
     vector.extend(
@@ -1045,7 +1059,10 @@ def _vectorize_enemy_pokemon(
 
     vector.extend(
         _vectorize_pokemon_extras(
-            current_species, pokemon.type_override, gen=gen
+            current_species,
+            pokemon.type_override,
+            gen=gen,
+            status=pokemon.status,
         )
     )
 

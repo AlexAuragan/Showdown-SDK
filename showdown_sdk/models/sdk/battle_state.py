@@ -47,6 +47,7 @@ class ActivePokemonState:
 
     def clear(self):
         self.pokemon_id = ""
+        self.forme = None
         self.status = Status()
         self.transformed_into = None
         self.ability = Unknown.VALUE

@@ -444,6 +444,29 @@ def _own_species(own: PartyPokemon | None) -> str | None:
     return _species_from_details(own.details)
 
 
+def _current_own_species(
+    battle_state: BattleState, own: PartyPokemon
+) -> str | None:
+    species = _own_species(own)
+
+    if species is None:
+        return None
+
+    # Transform can only target the Pokémon currently on the field.
+    if own.id != battle_state.curr_pokemon:
+        raise RuntimeError(
+            "Transform target is not the active own Pokémon: " + repr(own.id)
+        )
+
+    if battle_state.active_pokemon.forme is not None:
+        species = battle_state.active_pokemon.forme
+
+    if battle_state.active_pokemon.transformed_into is not None:
+        species = battle_state.active_pokemon.transformed_into
+
+    return species
+
+
 def _reduce_switch(
     battle_state: BattleState, event: PokemonSwitchEvent
 ) -> None:
@@ -601,7 +624,7 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
 
     copied_moves = list(own.moves)
 
-    target_species = _own_species(own)
+    target_species = _current_own_species(battle_state, own)
 
     if target_species is None:
         raise RuntimeError(
@@ -807,6 +830,16 @@ def _reduce_decision_request(
         else Unknown.VALUE
     )
 
+    active_requests = [pokemon for pokemon in event.pokemon if pokemon.active]
+
+    if len(active_requests) > 1:
+        raise RuntimeError(
+            "Expected at most one active Pokémon in singles request, "
+            + f"got {[pokemon.ident for pokemon in active_requests]!r}"
+        )
+
+    active_ident = active_requests[0].ident if active_requests else None
+
     available_pokemons: list[PartyPokemon] = []
     for pokemon in event.pokemon:
         max_hp = pokemon.max_hp
@@ -847,15 +880,24 @@ def _reduce_decision_request(
 
     battle_state.update_team(available_pokemons)
 
-    active = next(
-        (
-            pokemon
-            for pokemon in available_pokemons
-            if pokemon.id == battle_state.curr_pokemon
-        ),
-        None,
+    active = (
+        next(
+            (
+                pokemon
+                for pokemon in available_pokemons
+                if pokemon.id == active_ident
+            ),
+            None,
+        )
+        if active_ident is not None
+        else None
     )
+
     if active is not None:
+        active_changed = battle_state.curr_pokemon != active.id
+        if active_changed:
+            battle_state.active_pokemon.clear()
+
         battle_state.set_active_pokemon(str(active.id))
         battle_state.active_pokemon.status.major = active.major_status
 
