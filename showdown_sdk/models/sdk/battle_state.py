@@ -1,8 +1,10 @@
 import json
+from copy import deepcopy
 from dataclasses import asdict, dataclass, field
 from enum import Enum
 from typing import TYPE_CHECKING
 
+from showdown_sdk.models.dex import to_id
 from showdown_sdk.models.pokemon.moves import AvailableMove
 from showdown_sdk.models.pokemon.pokemon import (
     EnemyPokemon,
@@ -103,6 +105,8 @@ class BattleState:
         self.format: BattleFormat = BattleFormat()
 
         self.custom_showdown_battlestate: SerializableObject | None = None
+
+        self._enemy_pre_switch_snapshot: tuple[int, EnemyPokemon] | None = None
 
     @property
     def player_id(self) -> str | None:
@@ -213,7 +217,7 @@ class BattleState:
         self.gen_1_desync = False
         self.history = []
         self.custom_showdown_battlestate = None
-
+        self._enemy_pre_switch_snapshot = None
         self.format.clear()
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
@@ -240,6 +244,8 @@ class BattleState:
         gender: str | None = None,
         shiny: bool = False,
     ) -> None:
+        self._enemy_pre_switch_snapshot = None
+
         # The previously-active enemy is no longer on the field.
         for p in self.enemy_team:
             if p.active:
@@ -278,6 +284,10 @@ class BattleState:
             self._enemy_team.append(pokemon)
 
         else:
+            pokemon_index = self._enemy_team.index(pokemon)
+
+            self._enemy_pre_switch_snapshot = (pokemon_index, deepcopy(pokemon))
+
             pokemon.active = True
             pokemon.lvl = lvl
             pokemon.gender = gender
@@ -313,19 +323,160 @@ class BattleState:
                 "Received replace but there is no active enemy Pokémon"
             )
 
-        existing = self.get_enemy_pokemon(pokemon_id, not_found_ok=True)
+        snapshot_info = self._enemy_pre_switch_snapshot
 
-        if existing is not None and existing is not current:
+        # The snapshot can only ever apply to this one |replace|.
+        self._enemy_pre_switch_snapshot = None
+
+        # Normal case:
+        #
+        # The apparent Pokémon had never been seen before, so it did not
+        # overwrite/reuse an existing enemy record. We can simply correct
+        # that record in place.
+        if snapshot_info is None:
+            existing = self.get_enemy_pokemon(pokemon_id, not_found_ok=True)
+
+            if existing is not None and existing is not current:
+                raise RuntimeError(
+                    "Illusion replacement resolved to an already-known enemy "
+                    + f"Pokémon: {pokemon_id!r}"
+                )
+
+            current.id = pokemon_id
+            current.species = species
+            current.lvl = lvl
+            current.gender = gender
+            current.shiny = shiny
+
+            self._curr_enemy_pokemon = pokemon_id
+            return
+
+        # Collision case:
+        #
+        # The apparent identity matched an already-known Pokémon. `current`
+        # therefore contains a mixture of:
+        #
+        # - knowledge belonging to the real previously-known Pokémon
+        # - battle state observed during the Illusion user's current appearance
+        #
+        # Restore the real Pokémon first.
+        snapshot_index, original = snapshot_info
+
+        if self._enemy_team[snapshot_index] is not current:
             raise RuntimeError(
-                "Illusion replacement resolved to an already-known enemy "
-                + f"Pokémon: {pokemon_id!r}"
+                "Enemy switch snapshot no longer matches the active Pokémon"
             )
 
-        current.id = pokemon_id
-        current.species = species
-        current.lvl = lvl
-        current.gender = gender
-        current.shiny = shiny
+        # Work out which normal moves were learned during this particular
+        # appearance rather than inherited from the impersonated Pokémon.
+        original_move_ids = {
+            to_id(move)
+            for move in original.learnt_moves
+            if move is not Unknown.VALUE
+        }
+
+        newly_observed_moves = [
+            move
+            for move in current.learnt_moves
+            if move is not Unknown.VALUE
+            and to_id(move) not in original_move_ids
+        ]
+
+        # Restore the genuine previously-known Pokémon to exactly the state it
+        # had before the Illusion user appeared.
+        original.active = False
+        self._enemy_team[snapshot_index] = original
+
+        # The actual Illusion user may itself have been revealed earlier.
+        actual = self.get_enemy_pokemon(pokemon_id, not_found_ok=True)
+
+        if actual is original:
+            raise RuntimeError(
+                "Illusion user and impersonated Pokémon have the same protocol "
+                + f"id {pokemon_id!r}; BattleState currently requires unique "
+                + "enemy Pokémon ids"
+            )
+
+        if actual is None:
+            # The Illusion user is being revealed for the first time.
+            #
+            # Start from unknown identity-dependent information rather than
+            # copying the impersonated Pokémon's known ability/item/moves.
+            actual = EnemyPokemon(
+                active=True,
+                id=pokemon_id,
+                lvl=lvl,
+                gender=gender,
+                shiny=shiny,
+                curr_hp_percent=current.curr_hp_percent,
+                fainted=current.fainted,
+                status=deepcopy(current.status),
+                temporary_moves=list(current.temporary_moves),
+                disabled_moves=list(current.disabled_moves),
+                transformed_into=current.transformed_into,
+                type_override=current.type_override,
+                forme=current.forme,
+                species=species,
+            )
+
+            # Only preserve ability/item information if it changed during this
+            # appearance. An unchanged value may simply have been inherited
+            # from the impersonated Pokémon's old record.
+            if current.base_ability != original.base_ability:
+                actual.base_ability = current.base_ability
+
+            if current.current_ability != original.current_ability:
+                actual.current_ability = current.current_ability
+
+            if current.item != original.item:
+                actual.item = current.item
+
+            for move in newly_observed_moves:
+                actual.witness_move(move)
+
+            unknown_index = None
+
+            for i, pokemon in enumerate(self._enemy_team):
+                if pokemon.id is Unknown.VALUE:
+                    unknown_index = i
+                    break
+
+            if unknown_index is None:
+                raise RuntimeError(
+                    "Illusion revealed a new enemy Pokémon but no unknown "
+                    + "enemy party slot remains"
+                )
+
+            self._enemy_team.pop(unknown_index)
+            self._enemy_team.append(actual)
+
+        else:
+            actual.active = True
+            actual.lvl = lvl
+            actual.gender = gender
+            actual.shiny = shiny
+            actual.species = species
+
+            actual.curr_hp_percent = current.curr_hp_percent
+            actual.fainted = current.fainted
+            actual.status = deepcopy(current.status)
+            actual.temporary_moves = list(current.temporary_moves)
+            actual.disabled_moves = list(current.disabled_moves)
+            actual.transformed_into = current.transformed_into
+            actual.type_override = current.type_override
+            actual.forme = current.forme
+
+            if current.base_ability != original.base_ability:
+                actual.base_ability = current.base_ability
+
+            if current.current_ability != original.current_ability:
+                actual.current_ability = current.current_ability
+
+            if current.item != original.item:
+                actual.item = current.item
+
+            for move in newly_observed_moves:
+                actual.witness_move(move)
 
         self._curr_enemy_pokemon = pokemon_id
 
