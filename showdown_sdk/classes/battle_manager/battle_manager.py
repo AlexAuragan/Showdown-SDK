@@ -37,6 +37,11 @@ class BattleManager:
         self.retry_count: int = 0
         self.last_request_id: int | None = None
 
+        # Ranked top-N actions for the current decision request, consumed
+        # in order when Showdown rejects a choice (no policy re-consult).
+        self.pending_choices: list[tuple[str, int]] = []
+        self.pending_choices_rqid: int | None = None
+
         self.requires_team_preview: bool = False
         self.turn_start_states: list[SerializableObject] = []
         self._last_turn_start_state_turn: int | None = None
@@ -143,6 +148,8 @@ class BattleManager:
         self.choice_rejected = False
         self.retry_rqid = None
         self.retry_count = 0
+        self.pending_choices = []
+        self.pending_choices_rqid = None
 
         self.requires_team_preview = False
 

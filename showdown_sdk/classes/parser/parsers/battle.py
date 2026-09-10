@@ -15,7 +15,7 @@ This is the battle parser: it only sees messages the aggregator routes to it
 from dataclasses import dataclass, replace
 from typing import override
 
-from showdown_sdk.classes.combat_handler.battle_manager import BattleManager
+from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.parser.context import ProtocolContext
 from showdown_sdk.classes.parser.context_updates import update_protocol_context
 from showdown_sdk.classes.parser.events import (

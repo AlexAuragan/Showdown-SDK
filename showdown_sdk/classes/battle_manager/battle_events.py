@@ -5,7 +5,7 @@ events: deterministic state reduction, history recording, then live
 BattleManager bookkeeping.
 """
 
-from showdown_sdk.classes.combat_handler.battle_manager import BattleManager
+from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.parser.events.base import BaseEvent
 from showdown_sdk.classes.parser.events.battle import (
     BattleEndEvent,
@@ -53,6 +53,8 @@ def _apply_decision_request(
     manager.choice_rejected = False
     manager.retry_rqid = None
     manager.retry_count = 0
+    manager.pending_choices = []
+    manager.pending_choices_rqid = None
 
     if not event.wait:
         manager.last_request_id = None

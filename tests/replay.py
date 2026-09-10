@@ -37,10 +37,10 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from showdown_sdk.classes.client.client import Client
-from showdown_sdk.classes.combat_handler.battle_events import (
+from showdown_sdk.classes.battle_manager.battle_events import (
     apply_battle_event,
 )
+from showdown_sdk.classes.client.client import Client
 from showdown_sdk.classes.parser.events import (
     BattleEvent,
     DiscardedEvent,

@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from showdown_sdk.classes.combat_handler.battle_manager import BattleManager
+from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.parser.events import BaseEvent
 from showdown_sdk.classes.parser.models import ProtocolMessage
 

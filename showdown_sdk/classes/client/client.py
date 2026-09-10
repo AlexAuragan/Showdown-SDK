@@ -4,10 +4,10 @@ from time import perf_counter
 
 from websockets.asyncio.client import ClientConnection, connect
 
-from showdown_sdk.classes.combat_handler.battle_events import (
+from showdown_sdk.classes.battle_manager.battle_events import (
     apply_battle_event,
 )
-from showdown_sdk.classes.combat_handler.battle_manager import BattleManager
+from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
@@ -140,23 +140,34 @@ class Client:
 
         manager.start_action_timeout()
         try:
-            action_type, action_info = self.combat_handler.select_action(
-                manager.battle_state
-            )
+            choices = self.combat_handler.select_top_actions(manager.battle_state)
+            if not choices:
+                raise RuntimeError(
+                    "Combat handler produced no ranked actions for the "
+                    + f"decision request (rqid={manager.request_id})"
+                )
+            manager.pending_choices = list(choices)
+            manager.pending_choices_rqid = manager.request_id
             manager.last_request_id = manager.request_id
-
-            self.log_manager.battle.info(
-                f"Sending /choose {action_type} {action_info}|{manager.request_id} in {manager.room_id} "
-                + f"[force_switch={manager.battle_state.force_switch} "
-                + f"moves={len(manager.battle_state.available_moves)}]",
-                extra={"room_id": self.parser.last_message_room_id},
-            )
-            await self.send(
-                f"/choose {action_type} {action_info}|{manager.request_id}",
-                room_id=manager.room_id,
-            )
+            await self._send_choice(choices[0])
         finally:
             self.battle_manager.cancel_action_timeout()
+
+    async def _send_choice(self, choice: tuple[str, int]) -> None:
+        action_type, action_info = choice
+        manager = self.battle_manager
+        if manager.room_id is None:
+            raise RuntimeError("room_id not set.")
+        self.log_manager.battle.info(
+            f"Sending /choose {action_type} {action_info}|{manager.request_id} in {manager.room_id} "
+            + f"[force_switch={manager.battle_state.force_switch} "
+            + f"moves={len(manager.battle_state.available_moves)}]",
+            extra={"room_id": self.parser.last_message_room_id},
+        )
+        await self.send(
+            f"/choose {action_type} {action_info}|{manager.request_id}",
+            room_id=manager.room_id,
+        )
 
     async def connect(self) -> None:
         if self.websocket is not None:
@@ -319,8 +330,7 @@ class Client:
                             self.parser.last_message_room_id,
                             extra={"room_id": self.parser.last_message_room_id},
                         )
-
-                        manager.choice_rejected = e.category != "Unavailable choice"
+                        manager.choice_rejected = True
 
                     except Exception:
                         print(self.log_manager.latest_raw_log_path())
@@ -368,6 +378,21 @@ class Client:
                         extra={"room_id": self.parser.last_message_room_id},
                     )
                     manager.request_id = manager.last_request_id
+
+                    if (
+                        manager.pending_choices_rqid == manager.last_request_id
+                        and manager.pending_choices
+                    ):
+                        next_choice = manager.pending_choices.pop(0)
+                        manager.start_action_timeout()
+                        try:
+                            await self._send_choice(next_choice)
+                        finally:
+                            manager.cancel_action_timeout()
+                        manager.request_id = None
+                    else:
+                        manager.pending_choices = []
+                        manager.pending_choices_rqid = None
 
                 if manager.requires_team_preview:
                     if manager.room_id is None:
