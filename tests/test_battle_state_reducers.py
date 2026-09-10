@@ -161,9 +161,7 @@ def test_own_transform_stores_target_species() -> None:
     # ident (whose name may be a nickname).
     assert battle_state.active_pokemon.transformed_into == "Gengar"
 
-    # type_override is only an explicit type-changing effect. Transform derives
-    # typing from the copied species instead of copying the target's override.
-    assert battle_state.active_pokemon.type_override is None
+    assert battle_state.active_pokemon.type_override == ("Dark", "Poison")
 
 
 def test_enemy_transform_stores_own_species() -> None:

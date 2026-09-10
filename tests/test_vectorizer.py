@@ -102,7 +102,7 @@ def _battle_state() -> BattleState:
 
     battle_state.active_pokemon.ability = "Static"
 
-    battle_state.witness_switch_in("p2a: Gyarados", lvl=100)
+    battle_state.witness_switch_in("p2a: Bob", lvl=100, species="Gyarados")
 
     battle_state.update_moves(
         [
@@ -386,7 +386,7 @@ def test_trapped_pokemon_cannot_switch() -> None:
 def test_enemy_slots_preserve_reveal_order() -> None:
     battle_state = _battle_state()
 
-    battle_state.witness_switch_in("p2a: Zapdos", lvl=100)
+    battle_state.witness_switch_in("p2a: Zapdos", lvl=100, species="Zapdos")
 
     value = vectorizer._vectorize_enemy_team(battle_state)
 
