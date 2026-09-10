@@ -19,7 +19,8 @@ from showdown_sdk.utils.serialization import (
 
 
 def write_json(
-    path: Path, data: list[SerializableObject] | Serializable | SerializableArray
+    path: Path,
+    data: list[SerializableObject] | Serializable | SerializableArray,
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
@@ -56,9 +57,7 @@ def is_infra_failure(exc: BaseException) -> bool:
 
 
 def save_failed_battle(
-    fmt: str,
-    battle_id: str,
-    logs_root: Path = PROJECT_ROOT / "logs",
+    fmt: str, battle_id: str, logs_root: Path = PROJECT_ROOT / "logs"
 ) -> Path | None:
     """Move a failed battle's log directory into tests/sample_battles_auto/<fmt>.
 
@@ -126,7 +125,10 @@ def write_battle_outputs(
     if include_showdown_state:
         write_json(
             battle_directory / "showdown_states.json",
-            [state.get("showdown_state") for state in manager.last_battle_turn_states],
+            [
+                state.get("showdown_state")
+                for state in manager.last_battle_turn_states
+            ],
         )
 
 
@@ -167,8 +169,7 @@ async def run_battle(
     include_showdown_state: bool = False,
 ) -> SerializableObject | None:
     await asyncio.gather(
-        client_1.ensure_connected(),
-        client_2.ensure_connected(),
+        client_1.ensure_connected(), client_2.ensure_connected()
     )
 
     if client_1.username is None:
@@ -184,43 +185,30 @@ async def run_battle(
 
         if team_generator is not None:
             team_1 = await team_generator.generate(
-                fmt,
-                lambda team: client_1.validate_team(
-                    fmt,
-                    team,
-                ),
+                fmt, lambda team: client_1.validate_team(fmt, team)
             )
             team_2 = await team_generator.generate(
-                fmt,
-                lambda team: client_2.validate_team(
-                    fmt,
-                    team,
-                ),
+                fmt, lambda team: client_2.validate_team(fmt, team)
             )
 
         await client_1.challenge(
-            client_2.username,
-            fmt,
-            timeout=60,
-            team=team_1,
+            client_2.username, fmt, timeout=60, team=team_1
         )
-        await client_2.accept_challenge(
-            client_1.username,
-            team=team_2,
-        )
+        await client_2.accept_challenge(client_1.username, team=team_2)
 
         await asyncio.gather(
             client_1.battle_manager.room_ready.wait(),
             client_2.battle_manager.room_ready.wait(),
         )
 
-        battle_waiter_1 = asyncio.create_task(client_1.wait_for_battle_end(timeout=300))
-        battle_waiter_2 = asyncio.create_task(client_2.wait_for_battle_end(timeout=300))
-
-        result_1, _ = await asyncio.gather(
-            battle_waiter_1,
-            battle_waiter_2,
+        battle_waiter_1 = asyncio.create_task(
+            client_1.wait_for_battle_end(timeout=300)
         )
+        battle_waiter_2 = asyncio.create_task(
+            client_2.wait_for_battle_end(timeout=300)
+        )
+
+        result_1, _ = await asyncio.gather(battle_waiter_1, battle_waiter_2)
         await asyncio.to_thread(
             write_battle_outputs,
             client_2,
@@ -242,9 +230,6 @@ async def run_battle(
             waiter.cancel()
 
         if waiters:
-            await asyncio.gather(
-                *waiters,
-                return_exceptions=True,
-            )
+            await asyncio.gather(*waiters, return_exceptions=True)
 
         raise

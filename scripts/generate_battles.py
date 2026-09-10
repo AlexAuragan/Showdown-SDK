@@ -228,8 +228,7 @@ async def run_pair(
 
 
 async def run_format(
-    fmt: str,
-    fail_fast: bool = False,
+    fmt: str, fail_fast: bool = False
 ) -> tuple[list[SerializableObject], int]:
     """Spin up PLAYER_COUNT clients and run all pairs concurrently."""
     pair_count = PLAYER_COUNT // 2
@@ -275,7 +274,10 @@ async def run_format(
         await asyncio.gather(*(client.connect() for client in clients))
 
         await asyncio.gather(
-            *(client.login(f"BOT{i}") for i, client in enumerate(clients, start=1))
+            *(
+                client.login(f"BOT{i}")
+                for i, client in enumerate(clients, start=1)
+            )
         )
         for i, client in enumerate(clients, start=1):
             print(f"client {i} is connected", client.username)
@@ -283,14 +285,13 @@ async def run_format(
         t0 = perf_counter()
 
         progress = tqdm(
-            total=BATTLE_COUNT,
-            desc=fmt,
-            unit="battle",
-            dynamic_ncols=True,
+            total=BATTLE_COUNT, desc=fmt, unit="battle", dynamic_ncols=True
         )
 
         # Pair up clients: (0,1), (2,3), ... and run each pair concurrently.
-        pair_tasks: list[asyncio.Task[tuple[list[SerializableObject], int]]] = []
+        pair_tasks: list[
+            asyncio.Task[tuple[list[SerializableObject], int]]
+        ] = []
 
         for pair_index in range(pair_count):
             client_1 = clients[pair_index * 2]
@@ -335,8 +336,7 @@ async def run_format(
     finally:
         stop_file_io_worker()
         await asyncio.gather(
-            *(client.close() for client in clients),
-            return_exceptions=True,
+            *(client.close() for client in clients), return_exceptions=True
         )
 
     return results, failed_battles
@@ -362,7 +362,9 @@ def print_results(
                 f"duration_seconds must be float, got {type(duration).__name__}"
             )
         if isinstance(move_count, bool) or not isinstance(move_count, int):
-            raise TypeError(f"move_count must be int, got {type(move_count).__name__}")
+            raise TypeError(
+                f"move_count must be int, got {type(move_count).__name__}"
+            )
 
         total_duration += duration
         total_turns += move_count
@@ -370,7 +372,9 @@ def print_results(
     print(f"\nSimulation for {fmt} complete in {perf_counter() - t0}s")
     print(f"Successful battles: {successful_battles}")
     print(f"Failed battles: {failed_battles}")
-    print(f"Average battle duration: {total_duration / successful_battles:.6f}s")
+    print(
+        f"Average battle duration: {total_duration / successful_battles:.6f}s"
+    )
     average_turn = total_duration / total_turns if total_turns else 0.0
     print(f"Average time per turn: {average_turn:.6f}s")
 
@@ -404,7 +408,9 @@ async def run_overnight() -> None:
                 wipe_fmt_logs(fmt)
 
             if completed:
-                print(f"cycle {cycle} {fmt}: {len(results)} battles, {failed} failed")
+                print(
+                    f"cycle {cycle} {fmt}: {len(results)} battles, {failed} failed"
+                )
             else:
                 print(
                     f"cycle {cycle} {fmt}: aborted on error, "

@@ -16,10 +16,7 @@ from showdown_sdk.classes.parser.events.base import (
     DiscardedEvent,
     unhandled_event,
 )
-from showdown_sdk.classes.parser.events.battle import (
-    DesyncEvent,
-    MoveEvent,
-)
+from showdown_sdk.classes.parser.events.battle import DesyncEvent, MoveEvent
 from showdown_sdk.classes.parser.fields import (
     make_move_source,
     parse_move_origin,
@@ -47,17 +44,14 @@ def handle_hint(message: ProtocolMessage) -> list[BaseEvent]:
 
 
 def parse_standalone_effect(
-    player_id: str | None,
-    message: ProtocolMessage,
-    context: ProtocolContext,
+    player_id: str | None, message: ProtocolMessage, context: ProtocolContext
 ) -> list[BaseEvent]:
     """Parse one semantic effect outside a currently aggregated move."""
 
     parse_context = EffectParseContext(
         player_id=player_id,
         source=EffectSource(
-            SourceType.UNKNOWN,
-            annotation_value(message, "from"),
+            SourceType.UNKNOWN, annotation_value(message, "from")
         ),
         protocol_context=context,
     )
@@ -85,15 +79,13 @@ def parse_move_group(
     move = move_message.arguments[1]
 
     raw_target = (
-        move_message.arguments[2].strip() if len(move_message.arguments) > 2 else ""
+        move_message.arguments[2].strip()
+        if len(move_message.arguments) > 2
+        else ""
     )
     target = parse_pokemon_ident(raw_target) if raw_target else None
 
-    action_source = make_move_source(
-        user,
-        move,
-        action_id,
-    )
+    action_source = make_move_source(user, move, action_id)
 
     state = MoveParseState()
 
@@ -114,25 +106,13 @@ def parse_move_group(
             effects.extend(handle_hint(message))
             continue
 
-        if _handle_move_control_message(
-            message,
-            state,
-            parse_context,
-        ):
+        if _handle_move_control_message(message, state, parse_context):
             continue
 
-        parsed_events = parse_effect_message(
-            message,
-            parse_context,
-        )
+        parsed_events = parse_effect_message(message, parse_context)
 
         if parsed_events is None:
-            effects.append(
-                unhandled_event(
-                    message,
-                    action_id,
-                )
-            )
+            effects.append(unhandled_event(message, action_id))
         else:
             effects.extend(parsed_events)
 
@@ -155,9 +135,7 @@ def parse_move_group(
 
 
 def _handle_move_control_message(
-    message: ProtocolMessage,
-    state: MoveParseState,
-    context: EffectParseContext,
+    message: ProtocolMessage, state: MoveParseState, context: EffectParseContext
 ) -> bool:
     """Handle messages that mutate the enclosing MoveEvent rather than emit events."""
 

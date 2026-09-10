@@ -116,14 +116,18 @@ class Status:
         either as a `MajorStatus` member or its raw string value. Confusion is
         NOT a major status; it is handled via `minor`.
         """
-        self.major = status if isinstance(status, MajorStatus) else MajorStatus(status)
+        self.major = (
+            status if isinstance(status, MajorStatus) else MajorStatus(status)
+        )
 
     def clear_status(self, status: MajorStatus | str) -> None:
         """Clear a major status condition if it matches the one currently set."""
         current = self.major
         if current is None:
             return
-        token = status if isinstance(status, MajorStatus) else MajorStatus(status)
+        token = (
+            status if isinstance(status, MajorStatus) else MajorStatus(status)
+        )
         if current == token:
             self.major = None
 
@@ -135,7 +139,9 @@ class Status:
         """
         self.major = None
 
-    def add_minor(self, status: MinorStatus, *, duration: int | None = None) -> None:
+    def add_minor(
+        self, status: MinorStatus, *, duration: int | None = None
+    ) -> None:
         self.minor.add(status)
 
         if duration is not None:
@@ -170,10 +176,7 @@ class Status:
 
     def copy_stat_changes(self, source: Status) -> None:
         for stat in Stat:
-            self._set_stage(
-                stat,
-                source._get_stage(stat),
-            )
+            self._set_stage(stat, source._get_stage(stat))
 
     def reset_all_stages(self) -> None:
         """Clear every stat stage to 0 (e.g. |-clearallboost|, Haze)."""
@@ -182,10 +185,7 @@ class Status:
 
     def clear_negative_stages(self) -> None:
         for stat in Stat:
-            self._set_stage(
-                stat,
-                max(self._get_stage(stat), 0),
-            )
+            self._set_stage(stat, max(self._get_stage(stat), 0))
 
     @staticmethod
     def _clamp(stage: int) -> int:
@@ -245,10 +245,7 @@ class Status:
 
     def clear_single_move(self) -> None:
         self.minor.difference_update(
-            {
-                MinorStatus.DESTINY_BOUND,
-                MinorStatus.GRUDGE,
-            }
+            {MinorStatus.DESTINY_BOUND, MinorStatus.GRUDGE}
         )
 
 

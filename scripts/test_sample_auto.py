@@ -72,7 +72,9 @@ def main() -> int:
         promoted_paths: list[Path] = []
         for path in ok_paths:
             battle_dir = path.parent
-            expected_logs = {p.name for p in battle_dir.glob("client_*_raw.txt")}
+            expected_logs = {
+                p.name for p in battle_dir.glob("client_*_raw.txt")
+            }
             if expected_logs - {path.name}:
                 try:
                     harness.replay_battle(

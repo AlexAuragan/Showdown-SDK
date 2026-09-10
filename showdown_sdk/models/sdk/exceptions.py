@@ -8,6 +8,7 @@ class TeamRejectedError(Exception):
 
     @override
     def __str__(self) -> str:
-        return "The team was rejected for the following reason(s):\n" + "\n".join(
-            self.reasons
+        return (
+            "The team was rejected for the following reason(s):\n"
+            + "\n".join(self.reasons)
         )

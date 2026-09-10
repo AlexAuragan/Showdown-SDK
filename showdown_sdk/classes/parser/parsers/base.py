@@ -21,8 +21,6 @@ class MessageParser(ABC):
 
     @abstractmethod
     def handle_message(
-        self,
-        manager: BattleManager,
-        message: ProtocolMessage,
+        self, manager: BattleManager, message: ProtocolMessage
     ) -> list[BaseEvent]:
         """Consume one protocol message and return the events it produced."""

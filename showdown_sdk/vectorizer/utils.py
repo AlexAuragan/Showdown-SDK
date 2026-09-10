@@ -66,8 +66,7 @@ def pokemon_ids(gen: int) -> dict[str, tuple[int, int]]:
             continue
 
         base_species = expect_string(
-            entry["baseSpecies"],
-            name=f"species {species_id!r}.baseSpecies",
+            entry["baseSpecies"], name=f"species {species_id!r}.baseSpecies"
         )
 
         form_id = next_form_id.get(base_species, 1)
@@ -78,24 +77,19 @@ def pokemon_ids(gen: int) -> dict[str, tuple[int, int]]:
 
     for species_id, entry in entries.items():
         species_num = expect_int(
-            entry["num"],
-            name=f"species {species_id!r}.num",
+            entry["num"], name=f"species {species_id!r}.num"
         )
 
         assert species_num > 0
 
-        output[species_id] = (
-            species_num,
-            form_ids.get(species_id, 0),
-        )
+        output[species_id] = (species_num, form_ids.get(species_id, 0))
 
     return output
 
 
 @cache
 def ordered_dex_ids(
-    gen: int,
-    table_name: Literal["moves", "abilities", "items"],
+    gen: int, table_name: Literal["moves", "abilities", "items"]
 ) -> dict[str, int]:
     """
     Assign 1-based IDs following the generation's Dex order.
@@ -152,14 +146,8 @@ def pokemon_id(name: str, gen: int) -> tuple[int, int]:
     #   8 |     898
     #   9 |    1025
     """
-    entry = expect_object(
-        dex.gen(gen).pokemon(name),
-        name=f"pokemon {name!r}",
-    )
-    species_id = expect_string(
-        entry["id"],
-        name=f"pokemon {name!r}.id",
-    )
+    entry = expect_object(dex.gen(gen).pokemon(name), name=f"pokemon {name!r}")
+    species_id = expect_string(entry["id"], name=f"pokemon {name!r}.id")
 
     pokemon_id, form_id = pokemon_ids(gen)[species_id]
 
@@ -184,14 +172,8 @@ def move_id(name: str, gen: int) -> int:
     #   8 |  665
     #   9 |  685
     """
-    entry = expect_object(
-        dex.gen(gen).move(name),
-        name=f"move {name!r}",
-    )
-    move_id = expect_string(
-        entry["id"],
-        name=f"move {name!r}.id",
-    )
+    entry = expect_object(dex.gen(gen).move(name), name=f"move {name!r}")
+    move_id = expect_string(entry["id"], name=f"move {name!r}.id")
 
     value = ordered_dex_ids(gen, "moves")[move_id]
 
@@ -213,14 +195,8 @@ def ability_id(name: str, gen: int) -> int:
     #   8 |     267
     #   9 |     310
     """
-    entry = expect_object(
-        dex.gen(gen).ability(name),
-        name=f"ability {name!r}",
-    )
-    ability_id = expect_string(
-        entry["id"],
-        name=f"ability {name!r}.id",
-    )
+    entry = expect_object(dex.gen(gen).ability(name), name=f"ability {name!r}")
+    ability_id = expect_string(entry["id"], name=f"ability {name!r}.id")
 
     value = ordered_dex_ids(gen, "abilities")[ability_id]
 
@@ -242,14 +218,8 @@ def item_id(name: str, gen: int) -> int:
     #   8 |  354
     #   9 |  249
     """
-    entry = expect_object(
-        dex.gen(gen).item(name),
-        name=f"item {name!r}",
-    )
-    item_id = expect_string(
-        entry["id"],
-        name=f"item {name!r}.id",
-    )
+    entry = expect_object(dex.gen(gen).item(name), name=f"item {name!r}")
+    item_id = expect_string(entry["id"], name=f"item {name!r}.id")
 
     value = ordered_dex_ids(gen, "items")[item_id]
 

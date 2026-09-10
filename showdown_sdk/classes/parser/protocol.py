@@ -1,7 +1,10 @@
 import re
 from collections.abc import Sequence
 
-from showdown_sdk.classes.parser.models import ProtocolAnnotation, ProtocolMessage
+from showdown_sdk.classes.parser.models import (
+    ProtocolAnnotation,
+    ProtocolMessage,
+)
 
 IGNORED_COMMANDS = {
     "",
@@ -85,10 +88,7 @@ def annotation_value(message: ProtocolMessage, name: str) -> str | None:
     return None
 
 
-def has_annotation(
-    message: ProtocolMessage,
-    name: str,
-) -> bool:
+def has_annotation(message: ProtocolMessage, name: str) -> bool:
     return any(annotation.name == name for annotation in message.annotations)
 
 

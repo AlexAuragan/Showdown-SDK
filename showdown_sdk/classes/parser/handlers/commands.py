@@ -38,14 +38,14 @@ CommandHandler = Callable[[str | None, ProtocolMessage, str], list[BaseEvent]]
 
 
 def handle_switch(
-    player_id: str | None,
-    message: ProtocolMessage,
-    _room_id: str,
+    player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     if player_id is None:
         raise ValueError("Player id not set")
     if message.command not in {"switch", "drag", "replace"}:
-        raise ValueError(f"Expected switch-like command, got {message.command!r}")
+        raise ValueError(
+            f"Expected switch-like command, got {message.command!r}"
+        )
     require_arguments(message, 3)
     pokemon = parse_pokemon_ident(message.arguments[0])
     details = message.arguments[1]
@@ -135,9 +135,7 @@ def handle_room(
 ) -> list[BaseEvent]:
     given_room_id = message.arguments[0].strip() if message.arguments else ""
     if room_id and room_id != given_room_id:
-        raise RuntimeError(
-            "Got a message room_id meant from another room",
-        )
+        raise RuntimeError("Got a message room_id meant from another room")
     return [RoomEvent(room_id=given_room_id)]
 
 

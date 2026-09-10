@@ -32,9 +32,7 @@ class LobbyParser(MessageParser):
 
     @override
     def handle_message(
-        self,
-        manager: BattleManager,
-        message: ProtocolMessage,
+        self, manager: BattleManager, message: ProtocolMessage
     ) -> list[BaseEvent]:
         command = message.command
 
@@ -62,14 +60,22 @@ class LobbyParser(MessageParser):
         # return [] # TEMP
 
     def _handle_popup(self, message: ProtocolMessage) -> list[BaseEvent]:
-        if "- This format requires you to use your own team." in message.arguments:
+        if (
+            "- This format requires you to use your own team."
+            in message.arguments
+        ):
             raise ValueError("No team provided but a team is required", message)
         if "Your selected format is invalid:" in message.arguments:
             raise ValueError("Invalid battle format", message.arguments)
-        if "Your team was rejected for the following reasons:" in message.arguments:
+        if (
+            "Your team was rejected for the following reasons:"
+            in message.arguments
+        ):
             return [
                 TeamRejectedEvent(
-                    reasons=[arg for arg in message.arguments if arg.startswith("- ")]
+                    reasons=[
+                        arg for arg in message.arguments if arg.startswith("- ")
+                    ]
                 )
             ]
         if any("Your team is valid for" in arg for arg in message.arguments):
@@ -79,11 +85,14 @@ class LobbyParser(MessageParser):
                 user = arg.split("'")[1]
                 return [UserNotFoundEvent(user)]
         if any(
-            'You tried to send "/leave"' in arg and "you were not in that room" in arg
+            'You tried to send "/leave"' in arg
+            and "you were not in that room" in arg
             for arg in message.arguments
         ):
             return []
-        if any("you were not in that room." in arg for arg in message.arguments):
+        if any(
+            "you were not in that room." in arg for arg in message.arguments
+        ):
             return []
         raise NotImplementedError(message)
 
@@ -114,4 +123,6 @@ class LobbyParser(MessageParser):
         sender = message.arguments[0].strip()
         receiver = message.arguments[1].strip()
         body = "|".join(message.arguments[2:])
-        return [PrivateMessageEvent(sender=sender, receiver=receiver, message=body)]
+        return [
+            PrivateMessageEvent(sender=sender, receiver=receiver, message=body)
+        ]

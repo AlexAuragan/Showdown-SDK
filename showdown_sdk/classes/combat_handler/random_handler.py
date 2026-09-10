@@ -25,7 +25,10 @@ class RandomMoveCombatHandler(BaseCombatHandler):
         # Use the party slot directly (1-indexed), matched by object identity
         # so stale or duplicate ids can't shift the index.
         switches = [
-            ("switch", next(i for i, p in enumerate(team, start=1) if p is chosen))
+            (
+                "switch",
+                next(i for i, p in enumerate(team, start=1) if p is chosen),
+            )
             for chosen in switch_candidates
         ]
         shuffle(switches)
@@ -38,7 +41,10 @@ class RandomMoveCombatHandler(BaseCombatHandler):
         if not usable:
             raise RuntimeError(f"No usable moves available: {moves!r}")
         move_actions = [
-            ("move", next(i for i, m in enumerate(moves, start=1) if m is chosen))
+            (
+                "move",
+                next(i for i, m in enumerate(moves, start=1) if m is chosen),
+            )
             for chosen in usable
         ]
         shuffle(move_actions)

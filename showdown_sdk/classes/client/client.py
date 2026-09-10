@@ -4,14 +4,15 @@ from time import perf_counter
 
 from websockets.asyncio.client import ClientConnection, connect
 
-from showdown_sdk.classes.battle_manager.battle_events import (
-    apply_battle_event,
-)
+from showdown_sdk.classes.battle_manager.battle_events import apply_battle_event
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.combat_handler.random_handler import (
     RandomMoveCombatHandler,
 )
-from showdown_sdk.classes.parser.events.base import DiscardedEvent, UnhandledEvent
+from showdown_sdk.classes.parser.events.base import (
+    DiscardedEvent,
+    UnhandledEvent,
+)
 from showdown_sdk.classes.parser.events.battle import (
     BattleEvent,
     BattleStartEvent,
@@ -104,10 +105,7 @@ class Client:
         await self.send(f"/utm {packed_team}")
 
     async def validate_team(
-        self,
-        format_name: str,
-        team: TeamSet,
-        timeout: float = 10,
+        self, format_name: str, team: TeamSet, timeout: float = 10
     ) -> None:
         await self.ensure_connected()
 
@@ -124,10 +122,7 @@ class Client:
             await self.send(f"/utm {team.to_packed()}")
             await self.send(f"/vtm {format_name}")
 
-            await asyncio.wait_for(
-                self.team_validation_future,
-                timeout=timeout,
-            )
+            await asyncio.wait_for(self.team_validation_future, timeout=timeout)
         finally:
             self.team_validation_future = None
 
@@ -140,7 +135,9 @@ class Client:
 
         manager.start_action_timeout()
         try:
-            choices = self.combat_handler.select_top_actions(manager.battle_state)
+            choices = self.combat_handler.select_top_actions(
+                manager.battle_state
+            )
             if not choices:
                 raise RuntimeError(
                     "Combat handler produced no ranked actions for the "
@@ -174,17 +171,11 @@ class Client:
             raise RuntimeError("The client is already connected")
 
         self.websocket = await connect(
-            self.websocket_url,
-            ping_interval=20,
-            ping_timeout=120,
+            self.websocket_url, ping_interval=20, ping_timeout=120
         )
         self._receive_task = asyncio.create_task(self._receive_loop())
 
-    async def login(
-        self,
-        username: str,
-        timeout: float = 10,
-    ) -> None:
+    async def login(self, username: str, timeout: float = 10) -> None:
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
 
@@ -193,15 +184,14 @@ class Client:
         await self.websocket.send(f"|/trn {username}")
 
         try:
-            await asyncio.wait_for(
-                self.ready.wait(),
-                timeout=timeout,
-            )
+            await asyncio.wait_for(self.ready.wait(), timeout=timeout)
         except TimeoutError as e:
             print(
                 f"{self.username=}, {self.battle_manager.player_id=}, {self.battle_manager.room_id=}, {self.parser.last_message_room_id=}"
             )
-            raise TimeoutError(f"Timed out while logging as user {username!r}") from e
+            raise TimeoutError(
+                f"Timed out while logging as user {username!r}"
+            ) from e
         await self._leave_stale_rooms(wait_for_autorejoin=True)
 
     async def send(self, command: str, room_id: str = "") -> None:
@@ -210,10 +200,7 @@ class Client:
             raise RuntimeError("Client is not connected")
 
         self.log_manager.battle.debug(
-            "<- %s|%s",
-            room_id,
-            command,
-            extra={"room_id": room_id or None},
+            "<- %s|%s", room_id, command, extra={"room_id": room_id or None}
         )
         await self.websocket.send(f"{room_id}|{command}")
 
@@ -225,7 +212,10 @@ class Client:
         self._receive_task = None
         self.ready.clear()
 
-        if receive_task is not None and receive_task is not asyncio.current_task():
+        if (
+            receive_task is not None
+            and receive_task is not asyncio.current_task()
+        ):
             receive_task.cancel()
             try:
                 await receive_task
@@ -268,7 +258,9 @@ class Client:
                         continue
 
                     line = (
-                        raw_line.decode() if isinstance(raw_line, bytes) else raw_line
+                        raw_line.decode()
+                        if isinstance(raw_line, bytes)
+                        else raw_line
                     )
 
                     if line.startswith(">"):
@@ -282,17 +274,14 @@ class Client:
                     )
 
                     try:
-                        events = self.parser.handle_line(
-                            line,
-                        )
+                        events = self.parser.handle_line(line)
                         for event in events:
-                            if isinstance(event, CustomShowdownBattleStateEvent):
+                            if isinstance(
+                                event, CustomShowdownBattleStateEvent
+                            ):
                                 received_custom_state = True
                             if isinstance(event, BattleEvent):
-                                apply_battle_event(
-                                    self.battle_manager,
-                                    event,
-                                )
+                                apply_battle_event(self.battle_manager, event)
                                 if isinstance(event, BattleStartEvent):
                                     if (
                                         manager.room_id
@@ -398,10 +387,12 @@ class Client:
                     if manager.room_id is None:
                         raise ValueError("room_id is None")
                     team_order: list[str] = [
-                        str(idx) for idx in self.combat_handler.select_team_order()
+                        str(idx)
+                        for idx in self.combat_handler.select_team_order()
                     ]
                     await self.send(
-                        "/choose team " + ",".join(team_order), room_id=manager.room_id
+                        "/choose team " + ",".join(team_order),
+                        room_id=manager.room_id,
                     )
                     manager.requires_team_preview = False
                 elif received_custom_state:
@@ -503,7 +494,11 @@ class Client:
                     await self.login(username)
 
                 task = self._receive_task
-                if self.websocket is not None and task is not None and not task.done():
+                if (
+                    self.websocket is not None
+                    and task is not None
+                    and not task.done()
+                ):
                     return
 
             except TimeoutError:
@@ -543,13 +538,14 @@ class Client:
             await self.send(f"/challenge {user}, {format_name}")
 
             return await asyncio.wait_for(
-                self.challenge_future,
-                timeout=timeout,
+                self.challenge_future, timeout=timeout
             )
 
         except TimeoutError as error:
             self.parser.expecting_battle_room = False
-            raise TimeoutError(f"No challenge confirmation for {user!r}") from error
+            raise TimeoutError(
+                f"No challenge confirmation for {user!r}"
+            ) from error
         except BaseException:
             self.parser.expecting_battle_room = False
             raise
@@ -570,10 +566,7 @@ class Client:
                 extra={"room_id": room_id},
             )
 
-    async def wait_for_battle_end(
-        self,
-        timeout: float = 30,
-    ) -> BattleResult:
+    async def wait_for_battle_end(self, timeout: float = 30) -> BattleResult:
         manager = self.battle_manager
 
         if manager.battle_finished is not None:
@@ -591,10 +584,7 @@ class Client:
         battle_completed = False
 
         try:
-            await asyncio.wait_for(
-                manager.room_ready.wait(),
-                timeout=timeout,
-            )
+            await asyncio.wait_for(manager.room_ready.wait(), timeout=timeout)
 
             if manager.room_id is None:
                 raise RuntimeError("Battle room not set after room_ready")
@@ -678,8 +668,7 @@ class Client:
                     if room_id:
                         try:
                             await asyncio.wait_for(
-                                self._leave_battle_room(room_id),
-                                timeout=10,
+                                self._leave_battle_room(room_id), timeout=10
                             )
                         except TimeoutError:
                             self.log_manager.errors.error(
@@ -700,9 +689,7 @@ class Client:
                 manager.clear_battle_tracking()
 
     async def accept_challenge(
-        self,
-        challenger: str,
-        team: TeamSet | None = None,
+        self, challenger: str, team: TeamSet | None = None
     ) -> None:
         await self.ensure_connected()
 
@@ -720,9 +707,7 @@ class Client:
             raise
 
     async def _leave_stale_rooms(
-        self,
-        *,
-        wait_for_autorejoin: bool = False,
+        self, *, wait_for_autorejoin: bool = False
     ) -> None:
         if wait_for_autorejoin:
             await asyncio.sleep(STALE_ROOM_GRACE_PERIOD)

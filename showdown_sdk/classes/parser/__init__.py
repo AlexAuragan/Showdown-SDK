@@ -16,9 +16,7 @@ from showdown_sdk.classes.parser.context import (
     ProtocolContext,
     TargetModifiers,
 )
-from showdown_sdk.classes.parser.context_updates import (
-    update_protocol_context,
-)
+from showdown_sdk.classes.parser.context_updates import update_protocol_context
 from showdown_sdk.classes.parser.events.base import (
     BaseEvent,
     DiscardedEvent,
@@ -99,9 +97,7 @@ from showdown_sdk.classes.parser.models import (
 from showdown_sdk.classes.parser.parser import Parser
 from showdown_sdk.classes.parser.parsers.base import MessageParser
 from showdown_sdk.classes.parser.parsers.battle import BattleParser, ParseResult
-from showdown_sdk.classes.parser.parsers.lobby import (
-    LobbyParser,
-)
+from showdown_sdk.classes.parser.parsers.lobby import LobbyParser
 from showdown_sdk.classes.parser.protocol import (
     annotation_value,
     extract_protocol_line,

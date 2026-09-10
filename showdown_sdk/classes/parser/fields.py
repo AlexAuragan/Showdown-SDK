@@ -42,7 +42,9 @@ def parse_condition(value: str) -> ParsedCondition:
         try:
             status = MajorStatus(parts[1])
         except ValueError as error:
-            raise ValueError(f"Unsupported major status in {value!r}") from error
+            raise ValueError(
+                f"Unsupported major status in {value!r}"
+            ) from error
 
     if "/" in hp_text:
         current_text, max_text = hp_text.split("/", 1)
@@ -86,19 +88,21 @@ def parse_pokemon_details(details: str) -> PokemonDetails:
     for part in parts[1:]:
         if part == "M":
             if gender == "F":
-                raise ValueError(f"Conflicting genders in Pokémon details: {details!r}")
+                raise ValueError(
+                    f"Conflicting genders in Pokémon details: {details!r}"
+                )
             gender = "M"
         elif part == "F":
             if gender == "M":
-                raise ValueError(f"Conflicting genders in Pokémon details: {details!r}")
+                raise ValueError(
+                    f"Conflicting genders in Pokémon details: {details!r}"
+                )
             gender = "F"
         elif part == "shiny":
             shiny = True
 
     return PokemonDetails(
-        level=parse_level(normalized),
-        gender=gender,
-        shiny=shiny,
+        level=parse_level(normalized), gender=gender, shiny=shiny
     )
 
 
@@ -146,7 +150,9 @@ def parse_side_ident(value: str) -> str:
     return side
 
 
-def make_move_source(user: PokemonIdent, move: str, action_id: int) -> EffectSource:
+def make_move_source(
+    user: PokemonIdent, move: str, action_id: int
+) -> EffectSource:
     return EffectSource(SourceType.MOVE, move, user, action_id)
 
 
@@ -168,7 +174,9 @@ def parse_effect_source(
     prefix, source_name = _split_source_value(normalized)
 
     of_value = annotation_value(message, "of")
-    explicit_actor = parse_pokemon_ident(of_value) if of_value is not None else None
+    explicit_actor = (
+        parse_pokemon_ident(of_value) if of_value is not None else None
+    )
     actor = explicit_actor if explicit_actor is not None else affected
 
     if prefix is None:
@@ -184,16 +192,11 @@ def parse_effect_source(
 
         if lowered in {status.value.casefold() for status in MajorStatus}:
             return EffectSource(
-                type=SourceType.STATUS,
-                name=lowered,
-                actor=actor,
+                type=SourceType.STATUS, name=lowered, actor=actor
             )
 
         if lowered in {"sandstorm", "hail", "snow"}:
-            return EffectSource(
-                type=SourceType.WEATHER,
-                name=source_name,
-            )
+            return EffectSource(type=SourceType.WEATHER, name=source_name)
 
         return EffectSource(
             type=SourceType.UNKNOWN,
@@ -257,26 +260,14 @@ def parse_move_origin(message: ProtocolMessage) -> EffectSource | None:
 
     if prefix is None:
         if source_name == "Mirror Move":
-            return EffectSource(
-                type=SourceType.MOVE,
-                name=source_name,
-            )
+            return EffectSource(type=SourceType.MOVE, name=source_name)
 
-        return EffectSource(
-            type=SourceType.UNKNOWN,
-            name=source_name,
-        )
+        return EffectSource(type=SourceType.UNKNOWN, name=source_name)
 
     if prefix == "ability":
-        return EffectSource(
-            type=SourceType.ABILITY,
-            name=source_name,
-        )
+        return EffectSource(type=SourceType.ABILITY, name=source_name)
 
     if prefix == "move":
-        return EffectSource(
-            type=SourceType.MOVE,
-            name=source_name,
-        )
+        return EffectSource(type=SourceType.MOVE, name=source_name)
 
     raise ValueError(f"Unknown move origin: {from_value!r}")

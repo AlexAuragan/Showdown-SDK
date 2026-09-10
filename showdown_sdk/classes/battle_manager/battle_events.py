@@ -27,15 +27,12 @@ def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
 
     if manager.room_id != event.room_id:
         raise RuntimeError(
-            "Room id changed during battle",
-            manager.room_id,
-            event.room_id,
+            "Room id changed during battle", manager.room_id, event.room_id
         )
 
 
 def _apply_decision_request(
-    manager: BattleManager,
-    event: DecisionRequestEvent,
+    manager: BattleManager, event: DecisionRequestEvent
 ) -> None:
     new_id = None if event.wait else event.request_id
     manager.log_manager.battle.debug(
@@ -60,26 +57,19 @@ def _apply_decision_request(
         manager.last_request_id = None
 
 
-def apply_battle_event(
-    manager: BattleManager,
-    event: BattleEvent,
-) -> None:
+def apply_battle_event(manager: BattleManager, event: BattleEvent) -> None:
     """Apply one semantic battle event in the canonical order."""
-    reduce_battle_state(
-        manager.battle_state,
-        event,
-    )
+    reduce_battle_state(manager.battle_state, event)
 
     if not isinstance(event, CustomShowdownBattleStateEvent):
         manager.battle_state.history.append(event)
 
-    apply_battle_runtime_event(
-        manager,
-        event,
-    )
+    apply_battle_runtime_event(manager, event)
 
 
-def apply_battle_runtime_event(manager: BattleManager, event: BaseEvent) -> None:
+def apply_battle_runtime_event(
+    manager: BattleManager, event: BaseEvent
+) -> None:
     """Apply live battle-manager effects for one event.
 
     Deterministic battle knowledge belongs in ``reduce_battle_state``. This

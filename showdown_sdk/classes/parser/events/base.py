@@ -3,7 +3,10 @@
 from abc import ABC
 from dataclasses import dataclass
 
-from showdown_sdk.classes.parser.models import ProtocolAnnotation, ProtocolMessage
+from showdown_sdk.classes.parser.models import (
+    ProtocolAnnotation,
+    ProtocolMessage,
+)
 from showdown_sdk.utils.serialization import (
     SerializableObject,
     to_serializable_object,
@@ -15,7 +18,10 @@ class BaseEvent(ABC):
     """A complete semantic event derived from one or more protocol messages."""
 
     def to_dict(self) -> SerializableObject:
-        return {"event_type": self.__class__.__name__, **to_serializable_object(self)}
+        return {
+            "event_type": self.__class__.__name__,
+            **to_serializable_object(self),
+        }
 
 
 def unhandled_event(

@@ -10,9 +10,7 @@ error/choice-retry manager later).
 from collections.abc import Sequence
 
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
-from showdown_sdk.classes.parser.events import (
-    BaseEvent,
-)
+from showdown_sdk.classes.parser.events import BaseEvent
 from showdown_sdk.classes.parser.models import ProtocolMessage
 from showdown_sdk.classes.parser.parsers.base import MessageParser
 from showdown_sdk.classes.parser.parsers.battle import BattleParser
@@ -60,10 +58,7 @@ class Parser:
         self.battle.last_message_room_id = value
 
     def handle_line(
-        self,
-        line: str,
-        *,
-        has_log_timestamp: bool = False,
+        self, line: str, *, has_log_timestamp: bool = False
     ) -> list[BaseEvent]:
         """Live entry point: route one raw line to the appropriate manager.
 
@@ -71,7 +66,9 @@ class Parser:
         while a multi-message ``|move|`` group is still being accumulated or
         the message was intentionally ignored).
         """
-        protocol_line = extract_protocol_line(line, has_log_timestamp=has_log_timestamp)
+        protocol_line = extract_protocol_line(
+            line, has_log_timestamp=has_log_timestamp
+        )
         message = parse_protocol_message(protocol_line)
         parser = self._manager_for(message)
 

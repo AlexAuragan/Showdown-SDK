@@ -47,9 +47,7 @@ class FileIOWorker:
         self._flush_targets: dict[int, Callable[[], None]] = {}
 
     def register_flush_target(
-        self,
-        target_id: int,
-        operation: Callable[[], None],
+        self, target_id: int, operation: Callable[[], None]
     ) -> None:
         with self._lock:
             self._flush_targets[target_id] = operation
@@ -92,8 +90,7 @@ class FileIOWorker:
             self._errors.clear()
             self._accepting = True
             self._thread = Thread(
-                target=self._run,
-                name="python-showdown-file-io",
+                target=self._run, name="python-showdown-file-io"
             )
             self._thread.start()
 
@@ -110,10 +107,7 @@ class FileIOWorker:
 
     def submit_and_wait(self, operation: Callable[[], None]) -> None:
         done = Event()
-        command = _FileIOCommand(
-            operation=operation,
-            done=done,
-        )
+        command = _FileIOCommand(operation=operation, done=done)
 
         with self._lock:
             if not self._accepting:
@@ -139,7 +133,9 @@ class FileIOWorker:
             thread = self._thread
 
             if thread is None:
-                raise RuntimeError("File I/O worker is marked running without a thread")
+                raise RuntimeError(
+                    "File I/O worker is marked running without a thread"
+                )
 
             # FIFO sentinel. Every operation submitted before this point will
             # finish before the worker exits.
@@ -301,11 +297,7 @@ class BattleFileHandler(logging.Handler):
         # )
         self._emit_sync(room_id_value, record)
 
-    def _emit_sync(
-        self,
-        room_id: str,
-        record: logging.LogRecord,
-    ) -> None:
+    def _emit_sync(self, room_id: str, record: logging.LogRecord) -> None:
         """
         Runs exclusively on FILE_IO_WORKER.
         """
@@ -342,11 +334,7 @@ class BattleFileHandler(logging.Handler):
         self.last_path = None
 
     def _path_for_room(self, room_id: str) -> Path:
-        safe_room_id = re.sub(
-            r"[^a-zA-Z0-9_.-]",
-            "_",
-            room_id,
-        )
+        safe_room_id = re.sub(r"[^a-zA-Z0-9_.-]", "_", room_id)
 
         if self.filename is None:
             return self.directory / f"{safe_room_id}.txt"
@@ -355,17 +343,11 @@ class BattleFileHandler(logging.Handler):
         battle_directory = self.directory / f"battle_{battle_number}"
         return battle_directory / self.filename
 
-    def _create_handler(
-        self,
-        room_id: str,
-    ) -> logging.FileHandler:
+    def _create_handler(self, room_id: str) -> logging.FileHandler:
         path = self._path_for_room(room_id)
         path.parent.mkdir(parents=True, exist_ok=True)
 
-        handler = logging.FileHandler(
-            path,
-            encoding=self.encoding,
-        )
+        handler = logging.FileHandler(path, encoding=self.encoding)
         handler.setLevel(self.level)
         handler.setFormatter(self.formatter)
 
@@ -418,8 +400,12 @@ class LogManager:
         self.protocol: logging.Logger = logging.getLogger(
             f"showdown_sdk.protocol{suffix}"
         )
-        self.battle: logging.Logger = logging.getLogger(f"showdown_sdk.battle{suffix}")
-        self.errors: logging.Logger = logging.getLogger(f"showdown_sdk.errors{suffix}")
+        self.battle: logging.Logger = logging.getLogger(
+            f"showdown_sdk.battle{suffix}"
+        )
+        self.errors: logging.Logger = logging.getLogger(
+            f"showdown_sdk.errors{suffix}"
+        )
 
         self._loggers: tuple[logging.Logger, ...] = (
             self.protocol,
@@ -466,8 +452,7 @@ class LogManager:
             handler.close()
 
     def _resolve_loggers(
-        self,
-        loggers: str | tuple[logging.Logger, ...] | None,
+        self, loggers: str | tuple[logging.Logger, ...] | None
     ) -> tuple[logging.Logger, ...]:
         if loggers is None:
             return self._loggers
@@ -522,25 +507,17 @@ class LogManager:
                 handler.clear_last_path()
 
 
-def create_console_handler(
-    level: int = logging.INFO,
-) -> logging.Handler:
+def create_console_handler(level: int = logging.INFO) -> logging.Handler:
     handler = logging.StreamHandler()
     handler.setLevel(level)
     handler.setFormatter(logging.Formatter("%(levelname)s %(message)s"))
     return handler
 
 
-def create_file_handler(
-    path: Path,
-    level: int = TRACE,
-) -> logging.Handler:
+def create_file_handler(path: Path, level: int = TRACE) -> logging.Handler:
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    handler = logging.FileHandler(
-        path,
-        encoding="utf-8",
-    )
+    handler = logging.FileHandler(path, encoding="utf-8")
     handler.setLevel(level)
     handler.setFormatter(
         logging.Formatter("%(asctime)s %(levelname)s %(name)s %(message)s")
@@ -549,15 +526,9 @@ def create_file_handler(
 
 
 def create_battle_file_handler(
-    directory: Path,
-    level: int = logging.INFO,
-    *,
-    filename: str | None = None,
+    directory: Path, level: int = logging.INFO, *, filename: str | None = None
 ) -> logging.Handler:
-    handler = BattleFileHandler(
-        directory,
-        filename=filename,
-    )
+    handler = BattleFileHandler(directory, filename=filename)
     handler.setLevel(level)
     handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
     return handler

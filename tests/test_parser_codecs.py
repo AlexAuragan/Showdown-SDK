@@ -20,15 +20,11 @@ from showdown_sdk.models.sdk.battle_state import SourceType
 
 def test_parse_pokemon_ident() -> None:
     assert parse_pokemon_ident("p1a: Azumarill") == PokemonIdent(
-        player="p1",
-        slot="a",
-        name="Azumarill",
+        player="p1", slot="a", name="Azumarill"
     )
 
     assert parse_pokemon_ident("p2: Snorlax") == PokemonIdent(
-        player="p2",
-        slot=None,
-        name="Snorlax",
+        player="p2", slot=None, name="Snorlax"
     )
 
 
@@ -106,12 +102,7 @@ def test_parse_move_origin_ability() -> None:
     message = ProtocolMessage(
         command="move",
         arguments=("p1a: Oricorio", "Revelation Dance", "p2a: Pikachu"),
-        annotations=(
-            ProtocolAnnotation(
-                name="from",
-                value="ability: Dancer",
-            ),
-        ),
+        annotations=(ProtocolAnnotation(name="from", value="ability: Dancer"),),
         raw="",
     )
 
@@ -126,12 +117,7 @@ def test_parse_move_origin_mirror_move() -> None:
     message = ProtocolMessage(
         command="move",
         arguments=("p1a: Pidgeot", "Thunderbolt", "p2a: Gyarados"),
-        annotations=(
-            ProtocolAnnotation(
-                name="from",
-                value="Mirror Move",
-            ),
-        ),
+        annotations=(ProtocolAnnotation(name="from", value="Mirror Move"),),
         raw="",
     )
 

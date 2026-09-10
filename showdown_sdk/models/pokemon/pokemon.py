@@ -49,11 +49,7 @@ class EnemyPokemon(Pokemon):
     disabled_moves: list[str] = field(default_factory=list)
     transformed_into: str | None = None
     type_override: tuple[str, ...] | None = None
-    # Current species form, relayed by |-formechange|. Only relabels the
-    # species/type; never changes the move set. None = base form.
     forme: str | None = None
-    # The actual revealed species (read from |switch| details, never a
-    # nickname). None = not revealed yet.
     species: str | None = None
 
     @property
@@ -86,7 +82,9 @@ class EnemyPokemon(Pokemon):
         ):
             return
 
-        if any(to_id(temporary) == move_id for temporary in self.temporary_moves):
+        if any(
+            to_id(temporary) == move_id for temporary in self.temporary_moves
+        ):
             return
 
         if self.transformed_into is not None:

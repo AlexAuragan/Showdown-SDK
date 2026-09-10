@@ -31,7 +31,11 @@ from showdown_sdk.classes.parser.models import (
     RequestMove,
 )
 from showdown_sdk.models.dex import dex, to_id
-from showdown_sdk.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from showdown_sdk.models.pokemon.pokemon import (
+    EnemyPokemon,
+    PartyPokemon,
+    Unknown,
+)
 from showdown_sdk.models.pokemon.status import MinorStatus, Status
 from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
 
@@ -57,8 +61,7 @@ def get_semi_invulnerable_status(move_name: str) -> MinorStatus | None:
 
 
 def sync_sticky_barb_from_damage(
-    battle_state: BattleState,
-    event: DamageEvent,
+    battle_state: BattleState, event: DamageEvent
 ) -> None:
     """Reconcile Gen 4's silent Sticky Barb contact transfer.
 
@@ -138,9 +141,7 @@ def sync_sticky_barb_from_damage(
 
 
 def sync_own_two_turn_status_from_request(
-    battle_state: BattleState,
-    moves: tuple[RequestMove, ...],
-    wait: bool,
+    battle_state: BattleState, moves: tuple[RequestMove, ...], wait: bool
 ) -> None:
     if wait:
         return
@@ -227,8 +228,7 @@ def is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
 
 
 def resolve_enemy(
-    battle_state: BattleState,
-    ident: PokemonIdent | None,
+    battle_state: BattleState, ident: PokemonIdent | None
 ) -> EnemyPokemon | None:
     if (
         ident is None
@@ -238,24 +238,21 @@ def resolve_enemy(
         return None
 
     pokemon = battle_state.get_enemy_pokemon(
-        ident_raw(ident),
-        not_found_ok=True,
+        ident_raw(ident), not_found_ok=True
     )
     if pokemon is not None:
         return pokemon
 
     if ident.slot is None:
         return battle_state.get_enemy_pokemon(
-            f"{ident.player}a: {ident.name}",
-            not_found_ok=True,
+            f"{ident.player}a: {ident.name}", not_found_ok=True
         )
 
     return None
 
 
 def resolve_self(
-    battle_state: BattleState,
-    ident: PokemonIdent | None,
+    battle_state: BattleState, ident: PokemonIdent | None
 ) -> PartyPokemon | None:
     if (
         ident is None
@@ -264,10 +261,14 @@ def resolve_self(
     ):
         return None
     key = ident_self_key(ident)
-    return next((pokemon for pokemon in battle_state.team if pokemon.id == key), None)
+    return next(
+        (pokemon for pokemon in battle_state.team if pokemon.id == key), None
+    )
 
 
-def resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Status:
+def resolve_any_status(
+    battle_state: BattleState, ident: PokemonIdent
+) -> Status:
     if is_self(battle_state, ident):
         return battle_state.active_pokemon.status
 
@@ -279,7 +280,9 @@ def resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Status
     return pokemon.status
 
 
-def reveal_effect_source(battle_state: BattleState, source: EffectSource) -> None:
+def reveal_effect_source(
+    battle_state: BattleState, source: EffectSource
+) -> None:
     if source.owner is None or source.name is None:
         return
 

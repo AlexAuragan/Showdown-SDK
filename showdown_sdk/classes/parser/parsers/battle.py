@@ -18,10 +18,7 @@ from typing import override
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.parser.context import ProtocolContext
 from showdown_sdk.classes.parser.context_updates import update_protocol_context
-from showdown_sdk.classes.parser.events import (
-    BaseEvent,
-    unhandled_event,
-)
+from showdown_sdk.classes.parser.events import BaseEvent, unhandled_event
 from showdown_sdk.classes.parser.events.battle import (
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
@@ -36,9 +33,7 @@ from showdown_sdk.classes.parser.handlers.moves import (
     parse_standalone_effect,
 )
 from showdown_sdk.classes.parser.handlers.requests import parse_request_event
-from showdown_sdk.classes.parser.models import (
-    ProtocolMessage,
-)
+from showdown_sdk.classes.parser.models import ProtocolMessage
 from showdown_sdk.classes.parser.parsers.base import MessageParser
 from showdown_sdk.classes.parser.protocol import (
     extract_protocol_line,
@@ -101,32 +96,25 @@ class BattleParser(MessageParser):
 
     @override
     def handle_message(
-        self,
-        manager: BattleManager,
-        message: ProtocolMessage,
+        self, manager: BattleManager, message: ProtocolMessage
     ) -> list[BaseEvent]:
         return self.feed_message(message)
 
     def feed_line(
-        self,
-        player_id: str,
-        line: str,
-        *,
-        has_log_timestamp: bool = False,
+        self, player_id: str, line: str, *, has_log_timestamp: bool = False
     ) -> list[BaseEvent]:
         if self.input_finished:
             raise RuntimeError("Cannot feed lines after finish()")
 
         if player_id:
             self.battle_state.player_id = player_id
-        protocol_line = extract_protocol_line(line, has_log_timestamp=has_log_timestamp)
+        protocol_line = extract_protocol_line(
+            line, has_log_timestamp=has_log_timestamp
+        )
         message = parse_protocol_message(protocol_line)
         return self.feed_message(message)
 
-    def feed_message(
-        self,
-        message: ProtocolMessage,
-    ) -> list[BaseEvent]:
+    def feed_message(self, message: ProtocolMessage) -> list[BaseEvent]:
 
         if self.input_finished:
             raise RuntimeError("Cannot feed lines after finish()")
@@ -167,8 +155,12 @@ class BattleParser(MessageParser):
 
         events = self._parse_available_events(self.player_id)
         if self.next_unparsed_message != len(self.raw_history):
-            pending = "\n".join(message.raw for message in self.pending_messages)
-            raise RuntimeError(f"Input ended with an incomplete group:\n{pending}")
+            pending = "\n".join(
+                message.raw for message in self.pending_messages
+            )
+            raise RuntimeError(
+                f"Input ended with an incomplete group:\n{pending}"
+            )
         return events
 
     def parse_next(self, player_id: str | None) -> ParseResult | None:
@@ -179,10 +171,15 @@ class BattleParser(MessageParser):
 
         # Routed before for client setup
         if message.command == "init":
-            return ParseResult((BattleStartEvent(self.last_message_room_id),), 1)
+            return ParseResult(
+                (BattleStartEvent(self.last_message_room_id),), 1
+            )
         if message.command == "room":
             return ParseResult(
-                tuple(handle_room(player_id, message, self._last_message_room_id)), 1
+                tuple(
+                    handle_room(player_id, message, self._last_message_room_id)
+                ),
+                1,
             )
         if is_ignored_message(message):
             return ParseResult((), 1)
@@ -192,18 +189,13 @@ class BattleParser(MessageParser):
             if player_id is None:
                 raise ValueError("player_id not set")
             return ParseResult(
-                (parse_request_event(message, player_id=player_id),),
-                1,
+                (parse_request_event(message, player_id=player_id),), 1
             )
 
         handler = COMMAND_HANDLERS.get(message.command)
         if handler is not None:
             events = tuple(
-                handler(
-                    player_id,
-                    message,
-                    self._last_message_room_id,
-                )
+                handler(player_id, message, self._last_message_room_id)
             )
 
             if message.command == "switch":
@@ -226,7 +218,9 @@ class BattleParser(MessageParser):
         if message.command.startswith("-") or message.command == "faint":
             return ParseResult(
                 tuple(
-                    parse_standalone_effect(player_id, message, self.protocol_context)
+                    parse_standalone_effect(
+                        player_id, message, self.protocol_context
+                    )
                 ),
                 1,
             )
@@ -252,15 +246,14 @@ class BattleParser(MessageParser):
                 for event in result.events
                 if not isinstance(event, CustomShowdownBattleStateEvent)
             )
-            update_protocol_context(
-                self.protocol_context,
-                result.events,
-            )
+            update_protocol_context(self.protocol_context, result.events)
             completed.extend(result.events)
 
         return completed
 
-    def _parse_move(self, player_id: str | None, start: int) -> ParseResult | None:
+    def _parse_move(
+        self, player_id: str | None, start: int
+    ) -> ParseResult | None:
         end = self._find_move_end(start)
         if end is None:
             return None

@@ -171,10 +171,7 @@ def _parse_pokemon(lines: list[str]) -> PokemonSet:
     species, nickname, gender, item = _parse_header(lines[0])
 
     pokemon = PokemonSet(
-        species=species,
-        nickname=nickname,
-        gender=gender,
-        item=item,
+        species=species, nickname=nickname, gender=gender, item=item
     )
 
     for line in lines[1:]:
@@ -222,9 +219,7 @@ def _parse_pokemon(lines: list[str]) -> PokemonSet:
     return pokemon
 
 
-def _parse_header(
-    line: str,
-) -> tuple[str, str | None, str | None, str | None]:
+def _parse_header(line: str) -> tuple[str, str | None, str | None, str | None]:
     item = None
 
     if " @ " in line:
@@ -275,14 +270,7 @@ _STAT_ATTRIBUTES = {
 
 
 def _parse_evs(text: str) -> EVs:
-    evs = EVs(
-        hp=0,
-        atk=0,
-        def_=0,
-        spa=0,
-        spd=0,
-        spe=0,
-    )
+    evs = EVs(hp=0, atk=0, def_=0, spa=0, spd=0, spe=0)
 
     for part in text.split("/"):
         value, stat = _parse_stat_part(part)
@@ -303,9 +291,7 @@ def _parse_ivs(text: str) -> IVs:
 
 def _parse_stat_part(part: str) -> tuple[int, str]:
     match = re.fullmatch(
-        r"\s*(\d+)\s+(HP|Atk|Def|SpA|SpD|Spe)\s*",
-        part,
-        flags=re.IGNORECASE,
+        r"\s*(\d+)\s+(HP|Atk|Def|SpA|SpD|Spe)\s*", part, flags=re.IGNORECASE
     )
 
     if match is None:
@@ -340,7 +326,9 @@ def _format_ivs(ivs: IVs) -> str:
         ("Spe", ivs.spe),
     ]
 
-    return " / ".join(f"{value} {name}" for name, value in values if value != 31)
+    return " / ".join(
+        f"{value} {name}" for name, value in values if value != 31
+    )
 
 
 if __name__ == "__main__":
@@ -349,20 +337,8 @@ if __name__ == "__main__":
         item="Leftovers",
         ability="Natural Cure",
         nature="Timid",
-        evs=EVs(
-            hp=4,
-            atk=0,
-            def_=0,
-            spa=252,
-            spd=0,
-            spe=252,
-        ),
-        moves=[
-            "Surf",
-            "Thunderbolt",
-            "Ice Beam",
-            "Rapid Spin",
-        ],
+        evs=EVs(hp=4, atk=0, def_=0, spa=252, spd=0, spe=252),
+        moves=["Surf", "Thunderbolt", "Ice Beam", "Rapid Spin"],
     ).to_showdown()
 
     # print(pokemon)

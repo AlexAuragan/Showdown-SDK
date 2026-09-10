@@ -41,7 +41,9 @@ class DexTable(Mapping[str, Serializable]):
     """Lazy mapping over one generated JSON dataset."""
 
     path: Path
-    _data: dict[str, Serializable] | None = field(default=None, init=False, repr=False)
+    _data: dict[str, Serializable] | None = field(
+        default=None, init=False, repr=False
+    )
 
     def _load(self) -> dict[str, Serializable]:
         if self._data is None:
@@ -98,9 +100,15 @@ class GenerationDex:
 
     number: int
     root: Path
-    _tables: dict[str, DexTable] = field(default_factory=dict, init=False, repr=False)
-    _metadata: SerializableObject | None = field(default=None, init=False, repr=False)
-    _charge_moves: frozenset[str] | None = field(default=None, init=False, repr=False)
+    _tables: dict[str, DexTable] = field(
+        default_factory=dict, init=False, repr=False
+    )
+    _metadata: SerializableObject | None = field(
+        default=None, init=False, repr=False
+    )
+    _charge_moves: frozenset[str] | None = field(
+        default=None, init=False, repr=False
+    )
 
     def __post_init__(self) -> None:
         if self.number < 1:
@@ -120,7 +128,9 @@ class GenerationDex:
     def table(self, name: str) -> DexTable:
         if name not in _DATASETS:
             valid = ", ".join(sorted(_DATASETS))
-            raise KeyError(f"Unknown Dex dataset {name!r}. Expected one of: {valid}")
+            raise KeyError(
+                f"Unknown Dex dataset {name!r}. Expected one of: {valid}"
+            )
 
         table = self._tables.get(name)
         if table is None:
@@ -195,10 +205,7 @@ class GenerationDex:
                 if raw_flags is None:
                     continue
 
-                flags = expect_object(
-                    raw_flags,
-                    name=f"move {move_id!r}.flags",
-                )
+                flags = expect_object(raw_flags, name=f"move {move_id!r}.flags")
 
                 if flags.get("charge") == 1:
                     charge_moves.add(move_id)
@@ -210,10 +217,7 @@ class GenerationDex:
     def move_volatile_status(self, name: str) -> str | None:
         move_id = to_id(name)
 
-        move = expect_object(
-            self.move(move_id),
-            name=f"move {move_id!r}",
-        )
+        move = expect_object(self.move(move_id), name=f"move {move_id!r}")
 
         raw_volatile_status = move.get("volatileStatus")
         if raw_volatile_status is None:
@@ -252,10 +256,7 @@ class GenerationDex:
         self._metadata = None
         self._charge_moves = None
 
-    def condition(
-        self,
-        name: str,
-    ) -> SerializableObject:
+    def condition(self, name: str) -> SerializableObject:
         condition_id = to_id(name)
 
         if condition_id in self.conditions:
@@ -273,8 +274,7 @@ class GenerationDex:
                 continue
 
             effect = expect_object(
-                table[condition_id],
-                name=f"{effect_type} {condition_id!r}",
+                table[condition_id], name=f"{effect_type} {condition_id!r}"
             )
 
             raw_condition = effect.get("condition")
@@ -282,16 +282,14 @@ class GenerationDex:
                 continue
 
             return expect_object(
-                raw_condition,
-                name=f"{effect_type} {condition_id!r}.condition",
+                raw_condition, name=f"{effect_type} {condition_id!r}.condition"
             )
 
-        raise KeyError(f"No condition {condition_id!r} in generation {self.number}")
+        raise KeyError(
+            f"No condition {condition_id!r} in generation {self.number}"
+        )
 
-    def is_volatile_copyable(
-        self,
-        name: str,
-    ) -> bool:
+    def is_volatile_copyable(self, name: str) -> bool:
         condition = self.condition(name)
 
         raw_no_copy = condition.get("noCopy")
@@ -299,8 +297,7 @@ class GenerationDex:
             return True
 
         return not expect_bool(
-            raw_no_copy,
-            name=f"condition {to_id(name)!r}.noCopy",
+            raw_no_copy, name=f"condition {to_id(name)!r}.noCopy"
         )
 
 
@@ -411,36 +408,16 @@ class Dex:
             raise RuntimeError("gen is not set")
         return self.gen(gen).get_charge_moves()
 
-    def move_volatile_status(
-        self,
-        name: str,
-        *,
-        gen: int,
-    ) -> str | None:
+    def move_volatile_status(self, name: str, *, gen: int) -> str | None:
         return self.gen(gen).move_volatile_status(name)
 
-    def condition_duration(
-        self,
-        name: str,
-        *,
-        gen: int,
-    ) -> int | None:
+    def condition_duration(self, name: str, *, gen: int) -> int | None:
         return self.gen(gen).condition_duration(name)
 
-    def is_charge_move(
-        self,
-        name: str,
-        *,
-        gen: int,
-    ) -> bool:
+    def is_charge_move(self, name: str, *, gen: int) -> bool:
         return self.gen(gen).is_charge_move(name)
 
-    def is_volatile_copyable(
-        self,
-        name: str,
-        *,
-        gen: int,
-    ) -> bool:
+    def is_volatile_copyable(self, name: str, *, gen: int) -> bool:
         return self.gen(gen).is_volatile_copyable(name)
 
 

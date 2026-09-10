@@ -50,10 +50,7 @@ from showdown_sdk.classes.parser.fields import (
     parse_pokemon_ident,
     parse_side_ident,
 )
-from showdown_sdk.classes.parser.models import (
-    EffectSource,
-    ProtocolMessage,
-)
+from showdown_sdk.classes.parser.models import EffectSource, ProtocolMessage
 from showdown_sdk.classes.parser.protocol import (
     annotation_value,
     has_annotation,
@@ -74,9 +71,7 @@ SIDE_CONDITION_VALUES = {condition.value for condition in SideCondition}
 
 
 def _major_status_event(
-    message: ProtocolMessage,
-    source: EffectSource,
-    applied: bool,
+    message: ProtocolMessage, source: EffectSource, applied: bool
 ) -> MajorStatusEvent:
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
@@ -89,8 +84,7 @@ def _major_status_event(
 
 
 def _ability_event(
-    message: ProtocolMessage,
-    default_source: EffectSource,
+    message: ProtocolMessage, default_source: EffectSource
 ) -> AbilityEvent:
     if message.command == "-ability":
         if len(message.arguments) not in {2, 3}:
@@ -119,9 +113,7 @@ def _ability_event(
         raise ValueError(f"Empty ability in {message.raw!r}")
 
     source = parse_effect_source(
-        message=message,
-        default_source=default_source,
-        affected=pokemon,
+        message=message, default_source=default_source, affected=pokemon
     )
 
     if source.type == SourceType.ABILITY:
@@ -142,7 +134,9 @@ def _ability_event(
             owner=pokemon,
         )
 
-    reveals_base = message.command == "-ability" and not has_annotation(message, "from")
+    reveals_base = message.command == "-ability" and not has_annotation(
+        message, "from"
+    )
     return AbilityEvent(
         pokemon=pokemon,
         ability=ability,
@@ -171,7 +165,9 @@ def _activation_event(
         if not ability:
             raise ValueError(f"Empty activated ability in {message.raw!r}")
 
-        context_str = message.arguments[2] if len(message.arguments) == 3 else None
+        context_str = (
+            message.arguments[2] if len(message.arguments) == 3 else None
+        )
         reveals_base = message.command == "-ability" and not has_annotation(
             message, "from"
         )
@@ -208,15 +204,11 @@ def _activation_event(
                 copied_move=message.arguments[2],
             )
 
-        volatile_status = dex.gen(context.gen).move_volatile_status(
-            move,
-        )
+        volatile_status = dex.gen(context.gen).move_volatile_status(move)
         if volatile_status == MinorStatus.PARTIALLY_TRAPPED.value:
             return MinorStatusEvent(
                 source=parse_effect_source(
-                    message,
-                    context.source,
-                    affected=pokemon,
+                    message, context.source, affected=pokemon
                 ),
                 target=pokemon,
                 effect=MinorStatus.PARTIALLY_TRAPPED,
@@ -230,7 +222,9 @@ def _activation_event(
 
         if not item:
             raise ValueError(f"Empty activated item in {message.raw!r}")
-        consumed = has_annotation(message, "consumed") or has_annotation(message, "eat")
+        consumed = has_annotation(message, "consumed") or has_annotation(
+            message, "eat"
+        )
 
         return ItemEvent(
             source=EffectSource(
@@ -255,9 +249,7 @@ def _activation_event(
         return unhandled_event(message)
 
     return MinorStatusActivationEvent(
-        source=context.source,
-        target=pokemon,
-        effect=minor_status,
+        source=context.source, target=pokemon, effect=minor_status
     )
 
 
@@ -270,8 +262,7 @@ def _minor_status_or_none(value: str) -> MinorStatus | None:
 
 
 def parse_effect_message(
-    message: ProtocolMessage,
-    context: EffectParseContext,
+    message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent] | None:
     """Convert one protocol effect message into semantic events.
 
@@ -366,10 +357,7 @@ def _parse_weather(
 
     return [
         WeatherEvent(
-            weather=weather,
-            started=started,
-            upkeep=upkeep,
-            source=source,
+            weather=weather, started=started, upkeep=upkeep, source=source
         )
     ]
 
@@ -385,9 +373,7 @@ def _parse_forme_change(
     return [
         FormeChangeEvent(
             source=parse_effect_source(
-                message=message,
-                default_source=context.source,
-                affected=pokemon,
+                message=message, default_source=context.source, affected=pokemon
             ),
             pokemon=pokemon,
             forme=forme,
@@ -434,7 +420,9 @@ def _parse_field(
             )
         ]
 
-    return [UnhandledEvent.from_message(message, action_id=context.source.action_id)]
+    return [
+        UnhandledEvent.from_message(message, action_id=context.source.action_id)
+    ]
 
 
 def _parse_single_move(
@@ -467,17 +455,13 @@ def _parse_set_hp(
     return [
         SetHpEvent(
             source=parse_effect_source(
-                message,
-                context.source,
-                affected=target,
+                message, context.source, affected=target
             ),
             target=target,
             curr_hp=condition.current_hp,
             max_hp=condition.max_hp,
             hp_is_percentage=is_percentage_hp(
-                context.player_id,
-                target,
-                condition,
+                context.player_id, target, condition
             ),
         )
     ]
@@ -494,9 +478,7 @@ def _parse_set_boost(
     return [
         StatSetEvent(
             source=parse_effect_source(
-                message,
-                context.source,
-                affected=target,
+                message, context.source, affected=target
             ),
             target=target,
             stat=Stat(message.arguments[1]),
@@ -506,8 +488,7 @@ def _parse_set_boost(
 
 
 def _parse_clear_boosts(
-    message: ProtocolMessage,
-    context: EffectParseContext,
+    message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
 
@@ -516,9 +497,7 @@ def _parse_clear_boosts(
     return [
         ClearBoostsEvent(
             source=parse_effect_source(
-                message,
-                context.source,
-                affected=target,
+                message, context.source, affected=target
             ),
             target=target,
         )
@@ -526,16 +505,11 @@ def _parse_clear_boosts(
 
 
 def _parse_clear_all_boosts(
-    message: ProtocolMessage,
-    context: EffectParseContext,
+    message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     require_arguments(message, 0)
 
-    return [
-        ClearAllBoostsEvent(
-            source=context.source,
-        )
-    ]
+    return [ClearAllBoostsEvent(source=context.source)]
 
 
 def _parse_clear_negative_boosts(
@@ -560,9 +534,7 @@ def _parse_item(
         else None
     )
     source = parse_effect_source(
-        message=message,
-        default_source=context.source,
-        affected=previous_owner,
+        message=message, default_source=context.source, affected=previous_owner
     )
     return [
         ItemEvent(
@@ -598,12 +570,16 @@ def _parse_side_condition(
 ) -> list[BaseEvent]:
     require_arguments(message, 2)
     started = message.command == "-sidestart"
-    source = parse_effect_source(message, context.source, inherit_default=started)
+    source = parse_effect_source(
+        message, context.source, inherit_default=started
+    )
     return [
         SideConditionEvent(
             source=source,
             side=parse_side_ident(message.arguments[0]),
-            condition=SideCondition(message.arguments[1].removeprefix("move: ")),
+            condition=SideCondition(
+                message.arguments[1].removeprefix("move: ")
+            ),
             started=started,
         )
     ]
@@ -683,17 +659,9 @@ def _parse_team_cure(
     require_arguments(message, 1)
     actor = parse_pokemon_ident(message.arguments[0])
     source = parse_effect_source(
-        message=message,
-        default_source=context.source,
-        affected=actor,
+        message=message, default_source=context.source, affected=actor
     )
-    return [
-        TeamCureEvent(
-            source=source,
-            side=actor.player,
-            actor=actor,
-        )
-    ]
+    return [TeamCureEvent(source=source, side=actor.player, actor=actor)]
 
 
 def _parse_faint(
@@ -711,8 +679,7 @@ def _parse_faint(
 
 
 def _parse_details_change(
-    message: ProtocolMessage,
-    _context: EffectParseContext,
+    message: ProtocolMessage, _context: EffectParseContext
 ) -> list[BaseEvent]:
     if len(message.arguments) not in {2, 3}:
         raise ValueError(
@@ -727,23 +694,19 @@ def _parse_details_change(
         raise ValueError(f"Empty details change in {message.raw!r}")
 
     level = parse_level(details)
-    return [
-        DetailsChangeEvent(
-            pokemon=pokemon,
-            details=details,
-            level=level,
-        )
-    ]
+    return [DetailsChangeEvent(pokemon=pokemon, details=details, level=level)]
 
 
 # --- Special-rule predicates and handlers (-start / -end / -fail) ----------
 
 
 def is_failed_stat_change(
-    message: ProtocolMessage,
-    _context: EffectParseContext,
+    message: ProtocolMessage, _context: EffectParseContext
 ) -> bool:
-    return len(message.arguments) >= 2 and message.arguments[1] in {"boost", "unboost"}
+    return len(message.arguments) >= 2 and message.arguments[1] in {
+        "boost",
+        "unboost",
+    }
 
 
 def _parse_failed_stat_change(
@@ -754,9 +717,7 @@ def _parse_failed_stat_change(
     return [
         StatChangeEvent(
             source=parse_effect_source(
-                message=message,
-                default_source=context.source,
-                affected=target,
+                message=message, default_source=context.source, affected=target
             ),
             target=target,
             stat_changes=[],
@@ -776,13 +737,9 @@ def _is_ability_start_or_end(
 
 
 def _parse_ability_start_or_end(
-    message: ProtocolMessage,
-    context: EffectParseContext,
+    message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
-    ability_event = _ability_event(
-        message,
-        context.source,
-    )
+    ability_event = _ability_event(message, context.source)
 
     ability_name = message.arguments[1].removeprefix("ability: ").strip()
 
@@ -821,7 +778,9 @@ def _has_effect_name(message: ProtocolMessage, name: str) -> bool:
     )
 
 
-def _is_type_change(message: ProtocolMessage, _context: EffectParseContext) -> bool:
+def _is_type_change(
+    message: ProtocolMessage, _context: EffectParseContext
+) -> bool:
     return _has_effect_name(message, "typechange")
 
 
@@ -840,9 +799,7 @@ def _parse_type_change(
     return [
         TypeChangeEvent(
             source=parse_effect_source(
-                message=message,
-                default_source=context.source,
-                affected=target,
+                message=message, default_source=context.source, affected=target
             ),
             target=target,
             types=types,
@@ -850,10 +807,12 @@ def _parse_type_change(
     ]
 
 
-def _is_perish_count(message: ProtocolMessage, _context: EffectParseContext) -> bool:
-    return len(message.arguments) >= 2 and message.arguments[1].casefold().startswith(
-        "perish"
-    )
+def _is_perish_count(
+    message: ProtocolMessage, _context: EffectParseContext
+) -> bool:
+    return len(message.arguments) >= 2 and message.arguments[
+        1
+    ].casefold().startswith("perish")
 
 
 def _parse_perish_count(
@@ -868,16 +827,12 @@ def _parse_perish_count(
     try:
         count = int(count_text)
     except ValueError as error:
-        raise ValueError(f"Invalid Perish Song count: {message.raw!r}") from error
+        raise ValueError(
+            f"Invalid Perish Song count: {message.raw!r}"
+        ) from error
     if count not in {0, 1, 2, 3}:
         raise ValueError(f"Unexpected Perish Song count: {count}")
-    return [
-        PerishCountEvent(
-            source=context.source,
-            target=target,
-            count=count,
-        )
-    ]
+    return [PerishCountEvent(source=context.source, target=target, count=count)]
 
 
 def _parse_copyboost(
@@ -895,7 +850,9 @@ def _parse_copyboost(
     return [CopyBoostEvent(user=user, target=target, source=source)]
 
 
-def _is_mimic_copy(message: ProtocolMessage, _context: EffectParseContext) -> bool:
+def _is_mimic_copy(
+    message: ProtocolMessage, _context: EffectParseContext
+) -> bool:
     return len(message.arguments) >= 3 and _has_effect_name(message, "mimic")
 
 
@@ -914,7 +871,10 @@ def _parse_mimic_copy(
 def _is_volatile_side_condition(
     message: ProtocolMessage, _context: EffectParseContext
 ) -> bool:
-    return len(message.arguments) >= 2 and message.arguments[1] in SIDE_CONDITION_VALUES
+    return (
+        len(message.arguments) >= 2
+        and message.arguments[1] in SIDE_CONDITION_VALUES
+    )
 
 
 def _parse_volatile_side_condition(
@@ -923,7 +883,10 @@ def _parse_volatile_side_condition(
     target = parse_pokemon_ident(message.arguments[0])
     started = message.command == "-start"
     source = parse_effect_source(
-        message, default_source=context.source, inherit_default=started, affected=target
+        message,
+        default_source=context.source,
+        inherit_default=started,
+        affected=target,
     )
     condition_name = message.arguments[1]
 
@@ -959,7 +922,9 @@ def _parse_volatile_side_condition(
     ]
 
 
-def _is_minor_status(message: ProtocolMessage, _context: EffectParseContext) -> bool:
+def _is_minor_status(
+    message: ProtocolMessage, _context: EffectParseContext
+) -> bool:
     return (
         len(message.arguments) >= 2
         and _minor_status_or_none(message.arguments[1]) is not None
@@ -975,7 +940,10 @@ def _parse_minor_status(
     return [
         MinorStatusEvent(
             parse_effect_source(
-                message, context.source, affected=target, inherit_default=started
+                message,
+                context.source,
+                affected=target,
+                inherit_default=started,
             ),
             target,
             parse_minor_status(message.arguments[1]),
@@ -1012,7 +980,9 @@ def _parse_hint(
             "In Gen 2, Toxic's counter is retained through Baton Pass/Heal Bell and applies to PSN/BRN."
         ),
         ("If you want to tie earlier, consider using `/offertie`."),
-        ("In Gen 3, Intimidate does not activate if every target has a Substitute."),
+        (
+            "In Gen 3, Intimidate does not activate if every target has a Substitute."
+        ),
         (
             "In Gen 4, Intimidate does not activate if every target has a Substitute (or the Substitute was just broken by U-turn)."
         ),
@@ -1037,9 +1007,7 @@ def _parse_hint(
     # return [UnhandledEvent.from_message(message)]
 
 
-def _minor_status_end_or_none(
-    message: ProtocolMessage,
-) -> MinorStatus | None:
+def _minor_status_end_or_none(message: ProtocolMessage) -> MinorStatus | None:
     if message.command != "-end" or len(message.arguments) < 2:
         return None
 
@@ -1056,15 +1024,13 @@ def _minor_status_end_or_none(
 
 
 def _is_minor_status_end(
-    message: ProtocolMessage,
-    _context: EffectParseContext,
+    message: ProtocolMessage, _context: EffectParseContext
 ) -> bool:
     return _minor_status_end_or_none(message) is not None
 
 
 def _parse_minor_status_end(
-    message: ProtocolMessage,
-    context: EffectParseContext,
+    message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     target = parse_pokemon_ident(message.arguments[0])
     status = _minor_status_end_or_none(message)
@@ -1075,9 +1041,7 @@ def _parse_minor_status_end(
     return [
         MinorStatusEvent(
             source=parse_effect_source(
-                message,
-                context.source,
-                affected=target,
+                message, context.source, affected=target
             ),
             target=target,
             effect=status,

@@ -15,7 +15,9 @@ def split_protocol(
 ) -> list[str]:
     """Split a protocol payload and fail loudly when required fields are missing."""
     payload = line.removeprefix(prefix)
-    parts = payload.split("|", maxsplit) if maxsplit >= 0 else payload.split("|")
+    parts = (
+        payload.split("|", maxsplit) if maxsplit >= 0 else payload.split("|")
+    )
     if len(parts) < min_parts:
         raise RuntimeError(
             f"Malformed {prefix.rstrip('|')} message: expected at least "
@@ -24,11 +26,7 @@ def split_protocol(
     return parts
 
 
-def parse_format_entry(
-    entry: str,
-    section: str,
-    column: int,
-) -> Format:
+def parse_format_entry(entry: str, section: str, column: int) -> Format:
     name, separator, raw_flags = entry.rpartition(",")
 
     if not separator:
@@ -77,11 +75,7 @@ def parse_formats(line: str) -> list[Format]:
 
         else:
             formats.append(
-                parse_format_entry(
-                    entry,
-                    section=section,
-                    column=column,
-                )
+                parse_format_entry(entry, section=section, column=column)
             )
 
         index += 1
@@ -92,19 +86,11 @@ def parse_formats(line: str) -> list[Format]:
 def print_formats(formats: list[Format]) -> None:
     sorted_formats = sorted(
         formats,
-        key=lambda format_: (
-            format_.column,
-            format_.section,
-            format_.name,
-        ),
+        key=lambda format_: (format_.column, format_.section, format_.name),
     )
 
     for (column, section), section_formats in groupby(
-        sorted_formats,
-        key=lambda format_: (
-            format_.column,
-            format_.section,
-        ),
+        sorted_formats, key=lambda format_: (format_.column, format_.section)
     ):
         print()
         print(f"Column {column}: {section}")
@@ -144,10 +130,7 @@ def print_formats(formats: list[Format]) -> None:
         _print_table(headers, rows)
 
 
-def _print_table(
-    headers: list[str],
-    rows: list[list[str]],
-) -> None:
+def _print_table(headers: list[str], rows: list[list[str]]) -> None:
     widths = [
         max(len(headers[index]), *(len(row[index]) for row in rows))
         for index in range(len(headers))

@@ -137,5 +137,8 @@ if __name__ == "__main__":
     try:
         raise SystemExit(main())
     except subprocess.CalledProcessError as error:
-        print(f"Command failed with exit code {error.returncode}.", file=sys.stderr)
+        print(
+            f"Command failed with exit code {error.returncode}.",
+            file=sys.stderr,
+        )
         raise SystemExit(error.returncode) from error

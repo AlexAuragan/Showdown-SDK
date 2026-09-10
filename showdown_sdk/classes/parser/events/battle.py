@@ -358,7 +358,11 @@ class GameGenEvent(BattleEvent):
 @dataclass(frozen=True)
 class GameTierEvent(BattleEvent):
     tier: str
-    IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = ("Random Battle", "OU", "Ubers")
+    IMPLEMENTED_TIERS: ClassVar[tuple[str, ...]] = (
+        "Random Battle",
+        "OU",
+        "Ubers",
+    )
 
 
 @dataclass(frozen=True)

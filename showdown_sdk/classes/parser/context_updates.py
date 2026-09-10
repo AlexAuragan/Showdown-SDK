@@ -17,26 +17,17 @@ def pokemon_key(pokemon: PokemonIdent) -> tuple[str, str | None]:
 
 
 def register_ability_start(
-    context: ProtocolContext,
-    pokemon: PokemonIdent,
-    ability: str,
+    context: ProtocolContext, pokemon: PokemonIdent, ability: str
 ) -> None:
     key = pokemon_key(pokemon)
 
-    context.known_ability_states.setdefault(
-        key,
-        set(),
-    ).add(ability)
+    context.known_ability_states.setdefault(key, set()).add(ability)
 
-    context.active_ability_states.setdefault(
-        key,
-        set(),
-    ).add(ability)
+    context.active_ability_states.setdefault(key, set()).add(ability)
 
 
 def is_duplicate_silent_ability_end(
-    context: ProtocolContext,
-    message: ProtocolMessage,
+    context: ProtocolContext, message: ProtocolMessage
 ) -> bool:
     """For some reason, the end ability message can be displayed twice"""
     if (
@@ -50,22 +41,14 @@ def is_duplicate_silent_ability_end(
     ability = message.arguments[1].strip()
     key = pokemon_key(pokemon)
 
-    was_seen = ability in context.known_ability_states.get(
-        key,
-        set(),
-    )
-    is_still_active = ability in context.active_ability_states.get(
-        key,
-        set(),
-    )
+    was_seen = ability in context.known_ability_states.get(key, set())
+    is_still_active = ability in context.active_ability_states.get(key, set())
 
     return was_seen and not is_still_active
 
 
 def register_ability_end(
-    context: ProtocolContext,
-    pokemon: PokemonIdent,
-    ability: str,
+    context: ProtocolContext, pokemon: PokemonIdent, ability: str
 ) -> None:
     key = pokemon_key(pokemon)
 
@@ -79,8 +62,7 @@ def register_ability_end(
 
 
 def is_known_ability_end(
-    context: ProtocolContext,
-    message: ProtocolMessage,
+    context: ProtocolContext, message: ProtocolMessage
 ) -> bool:
     if message.command != "-end":
         return False
@@ -96,8 +78,7 @@ def is_known_ability_end(
 
 
 def update_protocol_context(
-    context: ProtocolContext,
-    events: tuple[BaseEvent, ...],
+    context: ProtocolContext, events: tuple[BaseEvent, ...]
 ) -> None:
     for event in events:
         if isinstance(event, GameGenEvent):
@@ -116,14 +97,6 @@ def update_protocol_context(
         if not isinstance(event, AbilityEvent):
             continue
         if event.active:
-            register_ability_start(
-                context,
-                event.pokemon,
-                event.ability,
-            )
+            register_ability_start(context, event.pokemon, event.ability)
         else:
-            register_ability_end(
-                context,
-                event.pokemon,
-                event.ability,
-            )
+            register_ability_end(context, event.pokemon, event.ability)

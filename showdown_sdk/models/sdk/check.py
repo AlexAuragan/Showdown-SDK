@@ -27,9 +27,7 @@ def normalize_move_id(move: str) -> str:
 
 
 def check_transformed(
-    path: str,
-    transformed_into: str | None,
-    ref_pokemon: SerializableObject,
+    path: str, transformed_into: str | None, ref_pokemon: SerializableObject
 ) -> None:
     same(
         f"{path}.transformed",
@@ -69,11 +67,7 @@ def check_type_override(
 
     ref_types = tuple(strings(ref_pokemon["types"]))
 
-    same(
-        f"{path}.type_override",
-        type_override,
-        ref_types,
-    )
+    same(f"{path}.type_override", type_override, ref_types)
 
 
 def check_status(
@@ -86,16 +80,8 @@ def check_status(
     same(f"{path}.spa_stage", status.spa_stage, expect_int(boosts["spa"]))
     same(f"{path}.spd_stage", status.spd_stage, expect_int(boosts["spd"]))
     same(f"{path}.spe_stage", status.spe_stage, expect_int(boosts["spe"]))
-    same(
-        f"{path}.acc_stage",
-        status.acc_stage,
-        expect_int(boosts["accuracy"]),
-    )
-    same(
-        f"{path}.eva_stage",
-        status.eva_stage,
-        expect_int(boosts["evasion"]),
-    )
+    same(f"{path}.acc_stage", status.acc_stage, expect_int(boosts["accuracy"]))
+    same(f"{path}.eva_stage", status.eva_stage, expect_int(boosts["evasion"]))
 
     raw_ref_major = expect_string(ref_pokemon["status"])
 
@@ -103,14 +89,12 @@ def check_status(
     # The SDK tracks fainting separately with Pokemon.fainted / HP=0,
     # not as Status.major.
     ref_major = (
-        None if raw_ref_major in {"", MajorStatus.FAINT.value} else raw_ref_major
+        None
+        if raw_ref_major in {"", MajorStatus.FAINT.value}
+        else raw_ref_major
     )
 
-    same(
-        f"{path}.major",
-        major_value(status.major),
-        ref_major,
-    )
+    same(f"{path}.major", major_value(status.major), ref_major)
 
     volatiles = obj(ref_pokemon["volatiles"])
 
@@ -160,17 +144,9 @@ def check_status(
         # sdk=True / showdown=False can result from an unobservable
         # post-action flinch cancelling Hyper Beam recharge.
         if not sdk_recharge and ref_recharge:
-            same(
-                f"{path}.recharge",
-                sdk_recharge,
-                ref_recharge,
-            )
+            same(f"{path}.recharge", sdk_recharge, ref_recharge)
     else:
-        same(
-            f"{path}.recharge",
-            sdk_recharge,
-            ref_recharge,
-        )
+        same(f"{path}.recharge", sdk_recharge, ref_recharge)
 
     # Perish Song presence is reliable.
     #
@@ -179,15 +155,13 @@ def check_status(
     # semantics across every generation.
     ref_perish = "perishsong" in volatiles
 
-    same(
-        f"{path}.perish",
-        MinorStatus.PERISH_SONG in status.minor,
-        ref_perish,
-    )
+    same(f"{path}.perish", MinorStatus.PERISH_SONG in status.minor, ref_perish)
 
     if ref_perish:
         if status.perish_count is None:
-            raise AssertionError(f"{path}: perishsong active but perish_count=None")
+            raise AssertionError(
+                f"{path}: perishsong active but perish_count=None"
+            )
     else:
         same(f"{path}.perish_count", status.perish_count, None)
 
@@ -243,15 +217,15 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     same("gameType", battle_state.format.gametype, ref_game_type)
 
     if ref_game_type != "singles":
-        raise NotImplementedError("Showdown oracle validator currently assumes singles")
+        raise NotImplementedError(
+            "Showdown oracle validator currently assumes singles"
+        )
 
     request_state = expect_string(ref["requestState"])
 
     if request_state in {"move", "switch"}:
         same(
-            "force_switch",
-            battle_state.force_switch,
-            request_state == "switch",
+            "force_switch", battle_state.force_switch, request_state == "switch"
         )
 
     field = obj(ref["field"])
@@ -276,16 +250,16 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     foe_ids = [side_id for side_id in side_by_id if side_id != player_id]
 
     if len(foe_ids) != 1:
-        raise AssertionError(f"Expected exactly one opposing side, got {foe_ids!r}")
+        raise AssertionError(
+            f"Expected exactly one opposing side, got {foe_ids!r}"
+        )
 
     foe_id = foe_ids[0]
 
     own_side = side_by_id[player_id]
     foe_side = side_by_id[foe_id]
 
-    def ref_side_conditions(
-        side: SerializableObject,
-    ) -> dict[str, int]:
+    def ref_side_conditions(side: SerializableObject) -> dict[str, int]:
         output: dict[str, int] = {}
 
         for condition_id, raw_state in obj(side["sideConditions"]).items():
@@ -297,14 +271,11 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
         return output
 
-    def sdk_side_conditions(
-        side_id: str,
-    ) -> dict[str, int]:
+    def sdk_side_conditions(side_id: str) -> dict[str, int]:
         output: dict[str, int] = {}
 
         for condition, count in battle_state.side_conditions.get(
-            side_id,
-            {},
+            side_id, {}
         ).items():
             # Showdown stores Trick Room on the field rather than on a side.
             if condition is SideCondition.TRICK_ROOM:
@@ -335,11 +306,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         for conditions in battle_state.side_conditions.values()
     )
 
-    same(
-        "trick_room",
-        sdk_trick_room,
-        "trickroom" in pseudo_weather,
-    )
+    same("trick_room", sdk_trick_room, "trickroom" in pseudo_weather)
 
     # ------------------------------------------------------------------
     # Own team
@@ -349,11 +316,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
     own_ref_team = objs(own_side["pokemon"])
 
-    same(
-        "team.size",
-        len(battle_state.team),
-        len(own_ref_team),
-    )
+    same("team.size", len(battle_state.team), len(own_ref_team))
 
     own_active_slot_count = len(expect_array(own_side["active"]))
     for index, pokemon in enumerate(battle_state.team):
@@ -363,25 +326,15 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         name = expect_string(ref_set["name"])
         path = f"team[{index}]/{name}"
 
-        same(
-            f"{path}.id",
-            pokemon.id,
-            f"{player_id}: {name}",
+        same(f"{path}.id", pokemon.id, f"{player_id}: {name}")
+
+        ref_request_active = (
+            expect_int(ref_pokemon["position"]) < own_active_slot_count
         )
 
-        ref_request_active = expect_int(ref_pokemon["position"]) < own_active_slot_count
+        same(f"{path}.active", pokemon.active, ref_request_active)
 
-        same(
-            f"{path}.active",
-            pokemon.active,
-            ref_request_active,
-        )
-
-        same(
-            f"{path}.lvl",
-            pokemon.lvl,
-            expect_int(ref_set["level"]),
-        )
+        same(f"{path}.lvl", pokemon.lvl, expect_int(ref_set["level"]))
 
         same(
             f"{path}.details",
@@ -389,24 +342,14 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             expect_string(ref_pokemon["details"]),
         )
 
-        same(
-            f"{path}.hp",
-            pokemon.curr_hp,
-            expect_int(ref_pokemon["hp"]),
-        )
+        same(f"{path}.hp", pokemon.curr_hp, expect_int(ref_pokemon["hp"]))
 
-        same(
-            f"{path}.max_hp",
-            pokemon.max_hp,
-            expect_int(ref_pokemon["maxhp"]),
-        )
+        same(f"{path}.max_hp", pokemon.max_hp, expect_int(ref_pokemon["maxhp"]))
 
         ref_stats = obj(ref_pokemon["baseStoredStats"])
 
         same(
-            f"{path}.stats.atk",
-            pokemon.stats.atk,
-            expect_int(ref_stats["atk"]),
+            f"{path}.stats.atk", pokemon.stats.atk, expect_int(ref_stats["atk"])
         )
         same(
             f"{path}.stats.def",
@@ -414,26 +357,16 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             expect_int(ref_stats["def"]),
         )
         same(
-            f"{path}.stats.spa",
-            pokemon.stats.spa,
-            expect_int(ref_stats["spa"]),
+            f"{path}.stats.spa", pokemon.stats.spa, expect_int(ref_stats["spa"])
         )
         same(
-            f"{path}.stats.spd",
-            pokemon.stats.spd,
-            expect_int(ref_stats["spd"]),
+            f"{path}.stats.spd", pokemon.stats.spd, expect_int(ref_stats["spd"])
         )
         same(
-            f"{path}.stats.spe",
-            pokemon.stats.spe,
-            expect_int(ref_stats["spe"]),
+            f"{path}.stats.spe", pokemon.stats.spe, expect_int(ref_stats["spe"])
         )
 
-        same(
-            f"{path}.stats.max_hp",
-            pokemon.stats.max_hp,
-            pokemon.max_hp,
-        )
+        same(f"{path}.stats.max_hp", pokemon.stats.max_hp, pokemon.max_hp)
 
         ref_moves = [
             expect_string(slot["id"]) for slot in objs(ref_pokemon["moveSlots"])
@@ -490,7 +423,9 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     ]
 
     if len(own_active) > 1:
-        raise AssertionError(f"Singles battle has {len(own_active)} active own Pokémon")
+        raise AssertionError(
+            f"Singles battle has {len(own_active)} active own Pokémon"
+        )
 
     if len(own_active) == 1:
         ref_active = own_active[0]
@@ -526,7 +461,9 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
         if battle_state.active_pokemon.transformed_into is None:
             if curr_ability == Unknown.VALUE:
-                raise ValueError("current ability is unknown for our active pokemon")
+                raise ValueError(
+                    "current ability is unknown for our active pokemon"
+                )
 
             same(
                 "active_pokemon.ability",
@@ -619,11 +556,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
     foe_ref_team = objs(foe_side["pokemon"])
 
-    same(
-        "enemy_team.size",
-        len(battle_state.enemy_team),
-        len(foe_ref_team),
-    )
+    same("enemy_team.size", len(battle_state.enemy_team), len(foe_ref_team))
 
     same(
         "foe_side.pokemonLeft",
@@ -642,53 +575,23 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             same(f"{path}.fainted", enemy.fainted, False)
             same(f"{path}.hp_percent", enemy.curr_hp_percent, 100)
 
-            same(
-                f"{path}.base_ability",
-                enemy.base_ability,
-                Unknown.VALUE,
-            )
+            same(f"{path}.base_ability", enemy.base_ability, Unknown.VALUE)
 
             same(
-                f"{path}.current_ability",
-                enemy.current_ability,
-                Unknown.VALUE,
+                f"{path}.current_ability", enemy.current_ability, Unknown.VALUE
             )
 
-            same(
-                f"{path}.item",
-                enemy.item,
-                Unknown.VALUE,
-            )
+            same(f"{path}.item", enemy.item, Unknown.VALUE)
 
-            same(
-                f"{path}.temporary_moves",
-                enemy.temporary_moves,
-                [],
-            )
+            same(f"{path}.temporary_moves", enemy.temporary_moves, [])
 
-            same(
-                f"{path}.disabled_moves",
-                enemy.disabled_moves,
-                [],
-            )
+            same(f"{path}.disabled_moves", enemy.disabled_moves, [])
 
-            same(
-                f"{path}.transformed_into",
-                enemy.transformed_into,
-                None,
-            )
+            same(f"{path}.transformed_into", enemy.transformed_into, None)
 
-            same(
-                f"{path}.type_override",
-                enemy.type_override,
-                None,
-            )
+            same(f"{path}.type_override", enemy.type_override, None)
 
-            same(
-                f"{path}.forme",
-                enemy.forme,
-                None,
-            )
+            same(f"{path}.forme", enemy.forme, None)
 
             continue
 
@@ -697,7 +600,8 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         candidates = [
             ref_enemy
             for ref_enemy in foe_ref_team
-            if to_id(expect_string(obj(ref_enemy["set"])["name"])) == to_id(nickname)
+            if to_id(expect_string(obj(ref_enemy["set"])["name"]))
+            == to_id(nickname)
         ]
 
         # Duplicate nickname/species: try public switch information.
@@ -707,8 +611,10 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 for ref_enemy in candidates
                 if (
                     expect_int(obj(ref_enemy["set"])["level"]) == enemy.lvl
-                    and (expect_string(ref_enemy["gender"]) or None) == enemy.gender
-                    and expect_bool(obj(ref_enemy["set"])["shiny"]) == enemy.shiny
+                    and (expect_string(ref_enemy["gender"]) or None)
+                    == enemy.gender
+                    and expect_bool(obj(ref_enemy["set"])["shiny"])
+                    == enemy.shiny
                 )
             ]
 
@@ -723,17 +629,9 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         name = expect_string(ref_set["name"])
         path = f"{path}/{name}"
 
-        same(
-            f"{path}.active",
-            enemy.active,
-            expect_bool(ref_enemy["isActive"]),
-        )
+        same(f"{path}.active", enemy.active, expect_bool(ref_enemy["isActive"]))
 
-        same(
-            f"{path}.lvl",
-            enemy.lvl,
-            expect_int(ref_set["level"]),
-        )
+        same(f"{path}.lvl", enemy.lvl, expect_int(ref_set["level"]))
 
         same(
             f"{path}.gender",
@@ -748,9 +646,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         )
 
         same(
-            f"{path}.fainted",
-            enemy.fainted,
-            expect_bool(ref_enemy["fainted"]),
+            f"{path}.fainted", enemy.fainted, expect_bool(ref_enemy["fainted"])
         )
 
         # Opponent health is reported as ceil(exact_hp * 100 / max_hp).
@@ -767,22 +663,16 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 if hp_percent == 100 and hp < max_hp:
                     hp_percent = 99
 
-            same(
-                f"{path}.hp_percent",
-                enemy.curr_hp_percent,
-                hp_percent,
-            )
+            same(f"{path}.hp_percent", enemy.curr_hp_percent, hp_percent)
 
         ref_fainted = expect_bool(ref_enemy["fainted"])
 
-        same(
-            f"{path}.fainted",
-            enemy.fainted,
-            ref_fainted,
-        )
+        same(f"{path}.fainted", enemy.fainted, ref_fainted)
 
         if not ref_fainted:
-            check_status(f"{path}.status", enemy.status, ref_enemy, battle_state.gen)
+            check_status(
+                f"{path}.status", enemy.status, ref_enemy, battle_state.gen
+            )
 
         # Hidden values are skipped until the SDK knows them.
         if enemy.base_ability is not Unknown.VALUE:
@@ -821,7 +711,8 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
             if normalize_move_id(to_id(move)) not in ref_base_moves:
                 raise AssertionError(
-                    f"{path}.learnt_moves contains impossible " + f"move {move!r}"
+                    f"{path}.learnt_moves contains impossible "
+                    + f"move {move!r}"
                 )
 
         ref_move_slots: dict[str, list[SerializableObject]] = {}
@@ -836,16 +727,13 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             move_id = normalize_move_id(to_id(move))
             if move_id not in ref_move_slots:
                 raise AssertionError(
-                    f"{path}.temporary_moves contains impossible " + f"move {move_id!r}"
+                    f"{path}.temporary_moves contains impossible "
+                    + f"move {move_id!r}"
                 )
 
         ref_transformed = expect_bool(ref_enemy["transformed"])
 
-        check_transformed(
-            path,
-            enemy.transformed_into,
-            ref_enemy,
-        )
+        check_transformed(path, enemy.transformed_into, ref_enemy)
 
         same(
             f"{path}.transformed",
@@ -857,7 +745,10 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             # Transform copies the target's current four moves.
             same(
                 f"{path}.transformed_moves",
-                {normalize_move_id(to_id(move)) for move in enemy.temporary_moves},
+                {
+                    normalize_move_id(to_id(move))
+                    for move in enemy.temporary_moves
+                },
                 set(ref_move_slots),
             )
         else:
@@ -901,7 +792,9 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     ]
 
     if len(foe_active) > 1:
-        raise AssertionError(f"Singles battle has {len(foe_active)} active foe Pokémon")
+        raise AssertionError(
+            f"Singles battle has {len(foe_active)} active foe Pokémon"
+        )
 
     if len(foe_active) == 1:
         active_set = obj(foe_active[0]["set"])

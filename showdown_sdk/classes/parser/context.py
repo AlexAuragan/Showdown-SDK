@@ -13,15 +13,13 @@ from showdown_sdk.models.pokemon.status import MajorStatus
 @dataclass
 class ProtocolContext:
     gen: int | None = None
-    active_ability_states: dict[
-        tuple[str, str | None],
-        set[str],
-    ] = field(default_factory=dict)
+    active_ability_states: dict[tuple[str, str | None], set[str]] = field(
+        default_factory=dict
+    )
 
-    known_ability_states: dict[
-        tuple[str, str | None],
-        set[str],
-    ] = field(default_factory=dict)
+    known_ability_states: dict[tuple[str, str | None], set[str]] = field(
+        default_factory=dict
+    )
     baton_pass_pending: set[str] = field(default_factory=set)
 
 

@@ -22,16 +22,9 @@ class SampleTeamGenerator:
         self._random: random.Random = random.Random(seed)
 
         # format -> species -> list of sets
-        self._cache: dict[
-            str,
-            dict[str, list[SerializableObject]],
-        ] = {}
+        self._cache: dict[str, dict[str, list[SerializableObject]]] = {}
 
-    async def _generate(
-        self,
-        format_name: str,
-        team_size: int = 6,
-    ) -> TeamSet:
+    async def _generate(self, format_name: str, team_size: int = 6) -> TeamSet:
         sets = await self._get_sets(format_name)
 
         species = list(sets)
@@ -42,10 +35,7 @@ class SampleTeamGenerator:
                 + f"{len(species)} species with available sets"
             )
 
-        selected_species = self._random.sample(
-            species,
-            k=team_size,
-        )
+        selected_species = self._random.sample(species, k=team_size)
 
         pokemon: list[PokemonSet] = []
 
@@ -55,11 +45,7 @@ class SampleTeamGenerator:
             selected_set = self._random.choice(available_sets)
 
             pokemon.append(
-                self._build_pokemon(
-                    species_name,
-                    selected_set,
-                    format_name,
-                )
+                self._build_pokemon(species_name, selected_set, format_name)
             )
 
         return TeamSet(pokemon)
@@ -89,16 +75,12 @@ class SampleTeamGenerator:
         ) from last_error
 
     async def _get_sets(
-        self,
-        format_name: str,
+        self, format_name: str
     ) -> dict[str, list[SerializableObject]]:
         if format_name in self._cache:
             return self._cache[format_name]
 
-        data = await asyncio.to_thread(
-            self._fetch,
-            format_name,
-        )
+        data = await asyncio.to_thread(self._fetch, format_name)
 
         sets: dict[str, list[SerializableObject]] = {}
 
@@ -112,10 +94,7 @@ class SampleTeamGenerator:
                 if not isinstance(raw_sets, dict):
                     continue
 
-                species_sets = sets.setdefault(
-                    species,
-                    [],
-                )
+                species_sets = sets.setdefault(species, [])
 
                 for raw_set in raw_sets.values():
                     if isinstance(raw_set, dict):
@@ -133,19 +112,11 @@ class SampleTeamGenerator:
         self._cache[format_name] = sets
         return sets
 
-    def _fetch(
-        self,
-        format_name: str,
-    ) -> SerializableObject:
+    def _fetch(self, format_name: str) -> SerializableObject:
         sets_format = format_name.split("@@@", 1)[0]
         url = f"{self.BASE_URL}/{sets_format}.json"
 
-        request = Request(
-            url,
-            headers={
-                "User-Agent": "python-showdown-sdk",
-            },
-        )
+        request = Request(url, headers={"User-Agent": "python-showdown-sdk"})
 
         with urlopen(request, timeout=10) as response:
             raw = response.read()
@@ -153,19 +124,13 @@ class SampleTeamGenerator:
         return expect_object(json.loads(raw))
 
     def _build_pokemon(
-        self,
-        species: str,
-        data: SerializableObject,
-        format_name: str,
+        self, species: str, data: SerializableObject, format_name: str
     ) -> PokemonSet:
         generation = self._generation(format_name)
 
         moves = self._moves(data.get("moves"))
 
-        evs = self._evs(
-            data.get("evs"),
-            generation,
-        )
+        evs = self._evs(data.get("evs"), generation)
 
         ivs = self._ivs(data.get("ivs"))
 
@@ -179,21 +144,12 @@ class SampleTeamGenerator:
             ivs=ivs,
             gender=self._string_choice(data.get("gender")),
             shiny=data.get("shiny") is True,
-            level=self._integer(
-                data.get("level"),
-                default=100,
-            ),
-            happiness=self._integer(
-                data.get("happiness"),
-                default=255,
-            ),
+            level=self._integer(data.get("level"), default=100),
+            happiness=self._integer(data.get("happiness"), default=255),
             hidden_power_type=self._string_choice(data.get("hpType")),
         )
 
-    def _moves(
-        self,
-        value: Serializable,
-    ) -> list[str]:
+    def _moves(self, value: Serializable) -> list[str]:
 
         value = expect_array(value)
         moves: list[str] = []
@@ -211,11 +167,7 @@ class SampleTeamGenerator:
 
         return moves
 
-    def _evs(
-        self,
-        value: Serializable,
-        generation: int,
-    ) -> EVs:
+    def _evs(self, value: Serializable, generation: int) -> EVs:
         # Showdown's set importer fills Gen 1/2 EVs to
         # maximum when the source omits them.
         if generation <= 2:
@@ -258,10 +210,7 @@ class SampleTeamGenerator:
             spe=defaults["spe"],
         )
 
-    def _ivs(
-        self,
-        value: Serializable,
-    ) -> IVs:
+    def _ivs(self, value: Serializable) -> IVs:
         values = {
             "hp": 31,
             "atk": 31,
@@ -287,10 +236,7 @@ class SampleTeamGenerator:
             spe=values["spe"],
         )
 
-    def _string_choice(
-        self,
-        value: Serializable,
-    ) -> str | None:
+    def _string_choice(self, value: Serializable) -> str | None:
         if isinstance(value, str):
             return value
 
@@ -303,14 +249,8 @@ class SampleTeamGenerator:
         return None
 
     @staticmethod
-    def _integer(
-        value: Serializable,
-        default: int,
-    ) -> int:
-        if isinstance(value, int) and not isinstance(
-            value,
-            bool,
-        ):
+    def _integer(value: Serializable, default: int) -> int:
+        if isinstance(value, int) and not isinstance(value, bool):
             return value
 
         return default
@@ -322,7 +262,9 @@ class SampleTeamGenerator:
             or len(format_name) < 4
             or not format_name[3].isdigit()
         ):
-            raise ValueError(f"Cannot determine generation from {format_name!r}")
+            raise ValueError(
+                f"Cannot determine generation from {format_name!r}"
+            )
 
         generation = int(format_name[3])
 

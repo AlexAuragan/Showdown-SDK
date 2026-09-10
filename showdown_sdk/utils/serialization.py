@@ -3,7 +3,9 @@ from enum import Enum
 from typing import TypeGuard, cast
 
 type SerializableScalar = str | int | float | bool | None
-type Serializable = SerializableScalar | list[Serializable] | dict[str, Serializable]
+type Serializable = (
+    SerializableScalar | list[Serializable] | dict[str, Serializable]
+)
 type SerializableObject = dict[str, Serializable]
 type SerializableArray = list[Serializable]
 
@@ -44,14 +46,18 @@ def expect_serializable(value: object, *, name: str = "value") -> Serializable:
     return value
 
 
-def expect_object(value: Serializable, *, name: str = "value") -> SerializableObject:
+def expect_object(
+    value: Serializable, *, name: str = "value"
+) -> SerializableObject:
     """Validate a JSON object (``dict[str, Serializable]``)."""
     if not isinstance(value, dict):
         raise TypeError(f"{name} must be an object, got {type(value).__name__}")
     return value
 
 
-def expect_array(value: Serializable, *, name: str = "value") -> SerializableArray:
+def expect_array(
+    value: Serializable, *, name: str = "value"
+) -> SerializableArray:
     """Validate a JSON array (``list[Serializable]``)."""
     if not isinstance(value, list):
         raise TypeError(f"{name} must be an array, got {type(value).__name__}")
@@ -100,7 +106,9 @@ def expect_optional_int(value: object, *, name: str = "value") -> int | None:
     return expect_int(value, name=name)
 
 
-def expect_optional_float(value: object, *, name: str = "value") -> float | None:
+def expect_optional_float(
+    value: object, *, name: str = "value"
+) -> float | None:
     if value is None:
         return None
     return expect_float(value, name=name)
@@ -134,10 +142,7 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
             if key.startswith("_"):
                 continue
 
-            result[key] = to_serializable(
-                values[key],
-                name=f"{name}.{key}",
-            )
+            result[key] = to_serializable(values[key], name=f"{name}.{key}")
 
         return result
 
@@ -183,13 +188,17 @@ def to_serializable(value: object, *, name: str = "value") -> Serializable:
 
     if isinstance(value, (set, frozenset)):
         values = cast(set[object] | frozenset[object], value)
-        serialized = [to_serializable(item, name=f"{name} item") for item in values]
+        serialized = [
+            to_serializable(item, name=f"{name} item") for item in values
+        ]
         return sorted(serialized, key=str)
 
     raise TypeError(f"{name} contains unsupported type {type(value).__name__}")
 
 
-def to_serializable_object(value: object, *, name: str = "value") -> SerializableObject:
+def to_serializable_object(
+    value: object, *, name: str = "value"
+) -> SerializableObject:
     """Convert *value* and require the result to be a JSON object."""
     serialized = to_serializable(value, name=name)
     if not isinstance(serialized, dict):
@@ -199,7 +208,9 @@ def to_serializable_object(value: object, *, name: str = "value") -> Serializabl
     return serialized
 
 
-def to_serializable_array(value: object, *, name: str = "value") -> SerializableArray:
+def to_serializable_array(
+    value: object, *, name: str = "value"
+) -> SerializableArray:
     """Convert *value* and require the result to be a JSON array."""
     serialized = to_serializable(value, name=name)
     if not isinstance(serialized, list):

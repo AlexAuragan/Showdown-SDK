@@ -85,11 +85,7 @@ class BattleManager:
         if task is not None:
             task.cancel()
 
-    async def _raise_on_action_timeout(
-        self,
-        turn: int,
-        room_id: str,
-    ) -> None:
+    async def _raise_on_action_timeout(self, turn: int, room_id: str) -> None:
         try:
             await asyncio.sleep(self.action_timeout_seconds)
         except asyncio.CancelledError:
@@ -184,10 +180,7 @@ class BattleManager:
         self.last_battle_history = list(self.battle_state.history)
         self.clear_battle()
 
-    def finish_battle(
-        self,
-        winner: str | None,
-    ) -> None:
+    def finish_battle(self, winner: str | None) -> None:
         self.cancel_action_timeout()
 
         if self.room_id is None:

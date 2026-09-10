@@ -37,9 +37,7 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from showdown_sdk.classes.battle_manager.battle_events import (
-    apply_battle_event,
-)
+from showdown_sdk.classes.battle_manager.battle_events import apply_battle_event
 from showdown_sdk.classes.client.client import Client
 from showdown_sdk.classes.parser.events import (
     BattleEvent,
@@ -194,10 +192,7 @@ class ReplayResult:
 
 
 def replay_battle_raw(
-    path: Path,
-    *,
-    collect_events: bool = False,
-    record_snapshots: bool = False,
+    path: Path, *, collect_events: bool = False, record_snapshots: bool = False
 ) -> ReplayResult:
     """Replay a single battle log through the parser. Raises on failure.
 
@@ -208,7 +203,9 @@ def replay_battle_raw(
     """
     raw_lines = path.read_text(encoding="utf-8").splitlines()
 
-    if not any(line.split(" ", 2)[-1].startswith(">battle-") for line in raw_lines):
+    if not any(
+        line.split(" ", 2)[-1].startswith(">battle-") for line in raw_lines
+    ):
         raise NotABattleLogFile(f"{path.name}: no battle room frame")
 
     username, player_id = _detect_player(raw_lines)
@@ -232,15 +229,13 @@ def replay_battle_raw(
     line_count = sum(len(frame) for frame in frames)
 
     def process_events(
-        parsed_events: Sequence[BaseEvent],
-        line_number: int,
+        parsed_events: Sequence[BaseEvent], line_number: int
     ) -> bool:
         received_custom_state = False
 
         for event in parsed_events:
             if events is not None and not isinstance(
-                event,
-                CustomShowdownBattleStateEvent,
+                event, CustomShowdownBattleStateEvent
             ):
                 events.append(event.to_dict())
 
@@ -256,10 +251,7 @@ def replay_battle_raw(
                 received_custom_state = True
 
             if isinstance(event, BattleEvent):
-                apply_battle_event(
-                    manager,
-                    event,
-                )
+                apply_battle_event(manager, event)
 
                 if isinstance(event, BattleStartEvent):
                     if manager.room_id != parser.last_message_room_id:
@@ -292,7 +284,8 @@ def replay_battle_raw(
             and manager.choice_rejected
             and manager.last_request_id is not None
             and (
-                manager.retry_rqid != manager.last_request_id or manager.retry_count < 5
+                manager.retry_rqid != manager.last_request_id
+                or manager.retry_count < 5
             )
         ):
             if manager.retry_rqid != manager.last_request_id:
@@ -383,7 +376,9 @@ def replay_battle_raw(
         try:
             for line_number, line in enumerate(frame, start=1):
                 try:
-                    parsed_events = parser.handle_line(line, has_log_timestamp=True)
+                    parsed_events = parser.handle_line(
+                        line, has_log_timestamp=True
+                    )
                 except ObsoleteRequestIdError as error:
                     error.request_id = manager.request_id
                     manager.choice_rejected = False
@@ -393,7 +388,9 @@ def replay_battle_raw(
                     continue
 
                 except InvalidActionError as error:
-                    manager.choice_rejected = error.category != "Unavailable choice"
+                    manager.choice_rejected = (
+                        error.category != "Unavailable choice"
+                    )
 
                     name = type(error).__name__
                     tolerated_errors[name] = tolerated_errors.get(name, 0) + 1
@@ -402,7 +399,9 @@ def replay_battle_raw(
                 if process_events(parsed_events, line_number):
                     received_custom_state = True
 
-                protocol_line = extract_protocol_line(line, has_log_timestamp=True)
+                protocol_line = extract_protocol_line(
+                    line, has_log_timestamp=True
+                )
                 if protocol_line.startswith("|turn|"):
                     current_turn = int(protocol_line.split("|")[2])
         except Exception as error:
@@ -428,10 +427,7 @@ def replay_battle_raw(
     final_events = parser.finish(player_id)
 
     if final_events:
-        process_events(
-            list(final_events),
-            line_count + 1,
-        )
+        process_events(list(final_events), line_count + 1)
 
     if parser.pending_messages:
         pending = "\n".join(message.raw for message in parser.pending_messages)

@@ -4,7 +4,11 @@ from enum import Enum
 from typing import TYPE_CHECKING
 
 from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from showdown_sdk.models.pokemon.pokemon import (
+    EnemyPokemon,
+    PartyPokemon,
+    Unknown,
+)
 from showdown_sdk.models.pokemon.status import Status
 from showdown_sdk.models.pokemon.terrain import SideCondition
 from showdown_sdk.utils.serialization import (
@@ -52,7 +56,9 @@ class ActivePokemonState:
             "pokemon_id": self.pokemon_id,
             "status": asdict(self.status),
             "transformed_into": self.transformed_into,
-            "ability": self.ability if self.ability is not Unknown.VALUE else None,
+            "ability": self.ability
+            if self.ability is not Unknown.VALUE
+            else None,
             "type_override": self.type_override,
             "trapped": self.trapped,
             "maybe_trapped": self.maybe_trapped,
@@ -79,7 +85,8 @@ class BattleState:
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
         self._enemy_team: list[EnemyPokemon] = [
-            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
+            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100)
+            for _ in range(6)
         ]
         self._curr_enemy_pokemon: str = ""
         self.active_pokemon: ActivePokemonState = ActivePokemonState()
@@ -130,7 +137,7 @@ class BattleState:
 
     def to_json(self) -> str:
         return json.dumps(
-            self.to_dict(),
+            self.to_dict()
             # indent=2,
             # sort_keys=True,
         )
@@ -142,7 +149,9 @@ class BattleState:
         for pokemon in self.team:
             if pokemon.id == pokemon_id:
                 return pokemon
-        raise ValueError(f"Pokemon with id {pokemon_id} not found in team {self.team}")
+        raise ValueError(
+            f"Pokemon with id {pokemon_id} not found in team {self.team}"
+        )
 
     def get_curr_pokemon(self) -> PartyPokemon:
         return self.get_pokemon(self.curr_pokemon)
@@ -189,7 +198,8 @@ class BattleState:
         self.turn = 0
         self._team = []
         self._enemy_team = [
-            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
+            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100)
+            for _ in range(6)
         ]
 
         self.active_pokemon.clear()
@@ -236,7 +246,10 @@ class BattleState:
                 p.active = False
                 p.reset_on_switch_in()
 
-        pokemon = self.get_enemy_pokemon(pokemon_id=pokemon_id, not_found_ok=True)
+        pokemon = self.get_enemy_pokemon(
+            pokemon_id=pokemon_id, not_found_ok=True
+        )
+
         if pokemon is None:
             pokemon = EnemyPokemon(
                 id=pokemon_id,
@@ -246,21 +259,73 @@ class BattleState:
                 gender=gender,
                 shiny=shiny,
             )
+
             idx = None
+
             for i, p in enumerate(self.enemy_team):
                 if p.id is Unknown.VALUE:
                     idx = i
                     break
+
             if idx is None:
                 raise ValueError(
                     "The enemy party is full of known pokemon but we're trying "
                     + f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?",
                     f"Pokemon: {self.enemy_team}",
                 )
+
             self._enemy_team.pop(idx)
             self._enemy_team.append(pokemon)
+
         else:
             pokemon.active = True
+            pokemon.lvl = lvl
+            pokemon.gender = gender
+            pokemon.shiny = shiny
+
+            if species is not None:
+                pokemon.species = species
+
+        self._curr_enemy_pokemon = pokemon_id
+
+    def witness_replace(
+        self,
+        pokemon_id: str,
+        *,
+        species: str,
+        lvl: int,
+        gender: str | None = None,
+        shiny: bool = False,
+    ) -> None:
+        """
+        Handle Showdown's |replace| message.
+
+        This is not a switch. The currently-active public identity was an
+        Illusion and is being corrected to the actual Pokémon identity.
+        Therefore volatile/current battle state must not be reset.
+        """
+        current = self.get_enemy_pokemon(
+            self._curr_enemy_pokemon, not_found_ok=True
+        )
+
+        if current is None or not current.active:
+            raise RuntimeError(
+                "Received replace but there is no active enemy Pokémon"
+            )
+
+        existing = self.get_enemy_pokemon(pokemon_id, not_found_ok=True)
+
+        if existing is not None and existing is not current:
+            raise RuntimeError(
+                "Illusion replacement resolved to an already-known enemy "
+                + f"Pokémon: {pokemon_id!r}"
+            )
+
+        current.id = pokemon_id
+        current.species = species
+        current.lvl = lvl
+        current.gender = gender
+        current.shiny = shiny
 
         self._curr_enemy_pokemon = pokemon_id
 

@@ -27,73 +27,42 @@ def _restore_vectorizer_environment(  # pyright:ignore[reportUnusedFunction]
     yield
 
     if original is None:
-        monkeypatch.delenv(
-            _FEATURE_ENV_VAR,
-            raising=False,
-        )
+        monkeypatch.delenv(_FEATURE_ENV_VAR, raising=False)
     else:
-        monkeypatch.setenv(
-            _FEATURE_ENV_VAR,
-            original,
-        )
+        monkeypatch.setenv(_FEATURE_ENV_VAR, original)
 
     importlib.reload(vectorizer)
 
 
 def _reload_vectorizer(
-    monkeypatch: pytest.MonkeyPatch,
-    features: str | None,
+    monkeypatch: pytest.MonkeyPatch, features: str | None
 ) -> None:
     if features is None:
-        monkeypatch.delenv(
-            _FEATURE_ENV_VAR,
-            raising=False,
-        )
+        monkeypatch.delenv(_FEATURE_ENV_VAR, raising=False)
     else:
-        monkeypatch.setenv(
-            _FEATURE_ENV_VAR,
-            features,
-        )
+        monkeypatch.setenv(_FEATURE_ENV_VAR, features)
 
     importlib.reload(vectorizer)
 
 
 def _party_pokemon(
-    species: str,
-    *,
-    active: bool,
-    curr_hp: int = 300,
+    species: str, *, active: bool, curr_hp: int = 300
 ) -> PartyPokemon:
     match species:
         case "Pikachu":
             ability = "Static"
             item = "Light Ball"
-            moves = [
-                "thunderbolt",
-                "quickattack",
-                "thunderwave",
-                "grassknot",
-            ]
+            moves = ["thunderbolt", "quickattack", "thunderwave", "grassknot"]
 
         case "Venusaur":
             ability = "Overgrow"
             item = "Leftovers"
-            moves = [
-                "energyball",
-                "sludgebomb",
-                "sleeppowder",
-                "synthesis",
-            ]
+            moves = ["energyball", "sludgebomb", "sleeppowder", "synthesis"]
 
         case "Charizard":
             ability = "Blaze"
             item = "Leftovers"
-            moves = [
-                "flamethrower",
-                "airslash",
-                "roost",
-                "dragonpulse",
-            ]
+            moves = ["flamethrower", "airslash", "roost", "dragonpulse"]
 
         case _:
             raise ValueError(f"Unsupported test Pokémon: {species!r}")
@@ -105,14 +74,7 @@ def _party_pokemon(
         details=f"{species}, L100",
         curr_hp=curr_hp,
         max_hp=300,
-        stats=Stats(
-            atk=100,
-            def_=100,
-            spa=100,
-            spd=100,
-            spe=100,
-            max_hp=300,
-        ),
+        stats=Stats(atk=100, def_=100, spa=100, spd=100, spe=100, max_hp=300),
         moves=moves,
         base_ability=ability,
         item=item,
@@ -130,19 +92,9 @@ def _battle_state() -> BattleState:
 
     battle_state.update_team(
         [
-            _party_pokemon(
-                "Pikachu",
-                active=True,
-            ),
-            _party_pokemon(
-                "Venusaur",
-                active=False,
-            ),
-            _party_pokemon(
-                "Charizard",
-                active=False,
-                curr_hp=0,
-            ),
+            _party_pokemon("Pikachu", active=True),
+            _party_pokemon("Venusaur", active=False),
+            _party_pokemon("Charizard", active=False, curr_hp=0),
         ]
     )
 
@@ -150,10 +102,7 @@ def _battle_state() -> BattleState:
 
     battle_state.active_pokemon.ability = "Static"
 
-    battle_state.witness_switch_in(
-        "p2a: Gyarados",
-        lvl=100,
-    )
+    battle_state.witness_switch_in("p2a: Gyarados", lvl=100)
 
     battle_state.update_moves(
         [
@@ -189,14 +138,8 @@ def _battle_state() -> BattleState:
         ("base_stats", 1078),
         ("move_metadata", 1450),
         ("move_matchups", 1222),
-        (
-            "types,base_stats",
-            1306,
-        ),
-        (
-            ("types,type_matchups,base_stats,move_metadata,move_matchups"),
-            2218,
-        ),
+        ("types,base_stats", 1306),
+        (("types,type_matchups,base_stats,move_metadata,move_matchups"), 2218),
         ("all", 2218),
     ],
 )
@@ -205,10 +148,7 @@ def test_vector_dimension(
     features: str | None,
     expected_dimension: int,
 ) -> None:
-    _reload_vectorizer(
-        monkeypatch,
-        features,
-    )
+    _reload_vectorizer(monkeypatch, features)
 
     battle_state = _battle_state()
 
@@ -218,17 +158,11 @@ def test_vector_dimension(
     assert len(vector) == expected_dimension
 
 
-def test_invalid_feature_is_rejected(
-    monkeypatch: pytest.MonkeyPatch,
-) -> None:
-    monkeypatch.setenv(
-        _FEATURE_ENV_VAR,
-        "types,definitely_not_a_feature",
-    )
+def test_invalid_feature_is_rejected(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv(_FEATURE_ENV_VAR, "types,definitely_not_a_feature")
 
     with pytest.raises(
-        ValueError,
-        match="Unknown SHOWDOWN_SDK_VECTOR_FEATURES",
+        ValueError, match="Unknown SHOWDOWN_SDK_VECTOR_FEATURES"
     ):
         importlib.reload(vectorizer)
 
@@ -237,53 +171,41 @@ def test_known_id_encoding() -> None:
     gen = 4
 
     assert vectorizer._vectorize_known_id(
-        Unknown.VALUE,
-        gen=gen,
-        get_id=item_id,
+        Unknown.VALUE, gen=gen, get_id=item_id
     ) == [0, 0]
 
-    assert vectorizer._vectorize_known_id(
-        None,
-        gen=gen,
-        get_id=item_id,
-    ) == [1, 0]
+    assert vectorizer._vectorize_known_id(None, gen=gen, get_id=item_id) == [
+        1,
+        0,
+    ]
 
-    leftovers = item_id(
-        "Leftovers",
-        gen,
-    )
+    leftovers = item_id("Leftovers", gen)
 
     assert vectorizer._vectorize_known_id(
-        "Leftovers",
-        gen=gen,
-        get_id=item_id,
+        "Leftovers", gen=gen, get_id=item_id
     ) == [1, leftovers]
 
 
 def test_canonical_pokemon_id_is_preserved() -> None:
-    assert pokemon_id(
-        "Bulbasaur",
-        4,
-    ) == (1, 0)
+    assert pokemon_id("Bulbasaur", 4) == (1, 0)
 
-    assert vectorizer._vectorize_known_pokemon_id(
-        "Bulbasaur",
-        gen=4,
-    ) == [1, 1, 0]
+    assert vectorizer._vectorize_known_pokemon_id("Bulbasaur", gen=4) == [
+        1,
+        1,
+        0,
+    ]
 
 
 def test_unknown_pokemon_encoding() -> None:
-    assert vectorizer._vectorize_known_pokemon_id(
-        Unknown.VALUE,
-        gen=4,
-    ) == [0, 0, 0]
+    assert vectorizer._vectorize_known_pokemon_id(Unknown.VALUE, gen=4) == [
+        0,
+        0,
+        0,
+    ]
 
 
 def test_known_empty_pokemon_encoding() -> None:
-    assert vectorizer._vectorize_known_pokemon_id(
-        None,
-        gen=4,
-    ) == [1, 0, 0]
+    assert vectorizer._vectorize_known_pokemon_id(None, gen=4) == [1, 0, 0]
 
 
 def test_move_aliases_are_canonicalized() -> None:
@@ -320,12 +242,7 @@ def test_type_order_is_stable() -> None:
 
 
 def test_type_vector_is_multi_hot() -> None:
-    value = vectorizer._vectorize_types(
-        (
-            "Water",
-            "Flying",
-        )
-    )
+    value = vectorizer._vectorize_types(("Water", "Flying"))
 
     assert len(value) == 19
 
@@ -348,13 +265,7 @@ def test_unknown_types_are_zeroed() -> None:
 
 
 def test_type_matchups_for_gyarados() -> None:
-    value = vectorizer._vectorize_type_matchups(
-        (
-            "Water",
-            "Flying",
-        ),
-        gen=4,
-    )
+    value = vectorizer._vectorize_type_matchups(("Water", "Flying"), gen=4)
 
     assert value[0] == 1
 
@@ -370,10 +281,7 @@ def test_type_matchups_for_gyarados() -> None:
 
 
 def test_base_stats_for_gyarados() -> None:
-    assert vectorizer._vectorize_base_stats(
-        "Gyarados",
-        gen=4,
-    ) == [
+    assert vectorizer._vectorize_base_stats("Gyarados", gen=4) == [
         1,
         95,
         125,
@@ -385,10 +293,7 @@ def test_base_stats_for_gyarados() -> None:
 
 
 def test_move_metadata_for_thunderbolt() -> None:
-    value = vectorizer._vectorize_move_metadata(
-        "Thunderbolt",
-        gen=4,
-    )
+    value = vectorizer._vectorize_move_metadata("Thunderbolt", gen=4)
 
     assert value == [
         4,  # Electric
@@ -402,73 +307,38 @@ def test_move_metadata_for_thunderbolt() -> None:
 
 def test_move_matchup_for_thunderbolt_into_gyarados() -> None:
     value = vectorizer._vectorize_move_matchup(
-        "Thunderbolt",
-        target_types=(
-            "Water",
-            "Flying",
-        ),
-        gen=4,
+        "Thunderbolt", target_types=("Water", "Flying"), gen=4
     )
 
-    assert value == [
-        1,
-        1,
-        4.0,
-    ]
+    assert value == [1, 1, 4.0]
 
 
 def test_move_matchup_with_unknown_target_types() -> None:
     value = vectorizer._vectorize_move_matchup(
-        "Thunderbolt",
-        target_types=None,
-        gen=4,
+        "Thunderbolt", target_types=None, gen=4
     )
 
-    assert value == [
-        0,
-        1,
-        0,
-    ]
+    assert value == [0, 1, 0]
 
 
 def test_status_move_has_no_type_chart_matchup() -> None:
     value = vectorizer._vectorize_move_matchup(
-        "Thunder Wave",
-        target_types=(
-            "Water",
-            "Flying",
-        ),
-        gen=4,
+        "Thunder Wave", target_types=("Water", "Flying"), gen=4
     )
 
-    assert value == [
-        1,
-        0,
-        0,
-    ]
+    assert value == [1, 0, 0]
 
 
 def test_type_override_is_authoritative() -> None:
-    value = vectorizer._current_types(
-        "Gyarados",
-        ("Ghost",),
-        gen=4,
-    )
+    value = vectorizer._current_types("Gyarados", ("Ghost",), gen=4)
 
     assert value == ("Ghost",)
 
 
 def test_types_fall_back_to_species() -> None:
-    value = vectorizer._current_types(
-        "Gyarados",
-        None,
-        gen=4,
-    )
+    value = vectorizer._current_types("Gyarados", None, gen=4)
 
-    assert value == (
-        "Water",
-        "Flying",
-    )
+    assert value == ("Water", "Flying")
 
 
 def test_action_mask() -> None:
@@ -498,18 +368,7 @@ def test_force_switch_disables_move_actions() -> None:
 
     value = vectorizer._vectorize_action_mask(battle_state)
 
-    assert value == [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-    ]
+    assert value == [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
 
 
 def test_trapped_pokemon_cannot_switch() -> None:
@@ -519,55 +378,28 @@ def test_trapped_pokemon_cannot_switch() -> None:
 
     value = vectorizer._vectorize_action_mask(battle_state)
 
-    assert value[:4] == [
-        1,
-        0,
-        0,
-        0,
-    ]
+    assert value[:4] == [1, 0, 0, 0]
 
-    assert value[4:] == [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-    ]
+    assert value[4:] == [0, 0, 0, 0, 0, 0]
 
 
 def test_enemy_slots_preserve_reveal_order() -> None:
     battle_state = _battle_state()
 
-    battle_state.witness_switch_in(
-        "p2a: Zapdos",
-        lvl=100,
-    )
+    battle_state.witness_switch_in("p2a: Zapdos", lvl=100)
 
     value = vectorizer._vectorize_enemy_team(battle_state)
 
-    gyarados_id = pokemon_id(
-        "Gyarados",
-        4,
-    )
+    gyarados_id = pokemon_id("Gyarados", 4)
 
-    zapdos_id = pokemon_id(
-        "Zapdos",
-        4,
-    )
+    zapdos_id = pokemon_id("Zapdos", 4)
 
     first_offset = 0
     second_offset = vectorizer._ENEMY_POKEMON_DIM
 
-    assert value[first_offset : first_offset + 3] == [
-        1,
-        *gyarados_id,
-    ]
+    assert value[first_offset : first_offset + 3] == [1, *gyarados_id]
 
-    assert value[second_offset : second_offset + 3] == [
-        1,
-        *zapdos_id,
-    ]
+    assert value[second_offset : second_offset + 3] == [1, *zapdos_id]
 
 
 def test_unrevealed_enemy_slots_are_zero_padding() -> None:
@@ -577,16 +409,15 @@ def test_unrevealed_enemy_slots_are_zero_padding() -> None:
 
     first_padding_offset = vectorizer._ENEMY_POKEMON_DIM
 
-    assert value[first_padding_offset:] == [0] * (5 * vectorizer._ENEMY_POKEMON_DIM)
+    assert value[first_padding_offset:] == [0] * (
+        5 * vectorizer._ENEMY_POKEMON_DIM
+    )
 
 
 def test_all_features_vectorize_real_battle_state(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    _reload_vectorizer(
-        monkeypatch,
-        "all",
-    )
+    _reload_vectorizer(monkeypatch, "all")
 
     battle_state = _battle_state()
 

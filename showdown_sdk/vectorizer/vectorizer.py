@@ -5,7 +5,11 @@ from typing import cast
 
 from showdown_sdk.models.dex import dex, to_id
 from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from showdown_sdk.models.pokemon.pokemon import (
+    EnemyPokemon,
+    PartyPokemon,
+    Unknown,
+)
 from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus, Status
 from showdown_sdk.models.pokemon.terrain import SideCondition, Weather
 from showdown_sdk.models.sdk.battle_state import BattleState
@@ -17,7 +21,12 @@ from showdown_sdk.utils.serialization import (
     expect_object,
     expect_string,
 )
-from showdown_sdk.vectorizer.utils import ability_id, item_id, move_id, pokemon_id
+from showdown_sdk.vectorizer.utils import (
+    ability_id,
+    item_id,
+    move_id,
+    pokemon_id,
+)
 
 Vector = list[int | float]
 
@@ -29,13 +38,7 @@ Vector = list[int | float]
 _FEATURE_ENV_VAR = "SHOWDOWN_SDK_VECTOR_FEATURES"
 
 _ALLOWED_FEATURES = frozenset(
-    {
-        "types",
-        "type_matchups",
-        "base_stats",
-        "move_metadata",
-        "move_matchups",
-    }
+    {"types", "type_matchups", "base_stats", "move_metadata", "move_matchups"}
 )
 
 
@@ -58,7 +61,9 @@ def _load_features() -> frozenset[str]:
     if raw == "all":
         return _ALLOWED_FEATURES
 
-    features = frozenset(part.strip() for part in raw.split(",") if part.strip())
+    features = frozenset(
+        part.strip() for part in raw.split(",") if part.strip()
+    )
 
     unknown = features - _ALLOWED_FEATURES
 
@@ -106,7 +111,9 @@ _TYPE_NAMES = (
     "Fairy",
 )
 
-_TYPE_IDS = {type_name: index for index, type_name in enumerate(_TYPE_NAMES, start=1)}
+_TYPE_IDS = {
+    type_name: index for index, type_name in enumerate(_TYPE_NAMES, start=1)
+}
 
 # Used so the defensive matchup vector does not expose meaningless
 # Fairy/Dark/Steel entries in generations where the type did not exist.
@@ -131,11 +138,7 @@ _TYPE_INTRO_GEN = {
     "Fairy": 6,
 }
 
-_MOVE_CATEGORY_IDS = {
-    "Physical": 1,
-    "Special": 2,
-    "Status": 3,
-}
+_MOVE_CATEGORY_IDS = {"Physical": 1, "Special": 2, "Status": 3}
 
 
 # ---------------------------------------------------------------------------
@@ -144,7 +147,9 @@ _MOVE_CATEGORY_IDS = {
 
 _MINOR_STATUSES = tuple(MinorStatus)
 _SIDE_CONDITIONS = tuple(SideCondition)
-_WEATHERS = tuple(weather for weather in Weather if weather is not Weather.CLEAR_SKY)
+_WEATHERS = tuple(
+    weather for weather in Weather if weather is not Weather.CLEAR_SKY
+)
 
 _MAJOR_STATUS_IDS = {status: i for i, status in enumerate(MajorStatus, start=1)}
 
@@ -223,7 +228,9 @@ _ENEMY_POKEMON_DIM = (
 )
 
 _FIELD_DIM = (
-    3 + 3 * _SIDE_CONDITIONS_DIM + 2  # gen, turn, weather  # force switch, gen 1 desync
+    3
+    + 3 * _SIDE_CONDITIONS_DIM
+    + 2  # gen, turn, weather  # force switch, gen 1 desync
 )
 
 _VECTOR_DIM = (
@@ -255,22 +262,86 @@ def _canonical_move_name(name: str) -> str:
     return value
 
 
+def _hidden_power_type(move: str, *, gen: int) -> str | None:
+    value = to_id(move)
+
+    if not value.startswith("hiddenpower"):
+        return None
+
+    suffix = value[len("hiddenpower") :]
+
+    for type_name in _TYPE_NAMES:
+        type_id = to_id(type_name)
+
+        if not suffix.startswith(type_id):
+            continue
+
+        if gen < _TYPE_INTRO_GEN[type_name]:
+            return None
+
+        return type_name
+
+    return None
+
+
+def _encoded_move_power(move: str, *, gen: int) -> int | None:
+    value = to_id(move)
+
+    for prefix in ("return", "frustration"):
+        if not value.startswith(prefix):
+            continue
+
+        suffix = value[len(prefix) :]
+
+        if suffix.isdigit():
+            return int(suffix)
+
+        return None
+
+    if value.startswith("hiddenpower"):
+        hidden_type = _hidden_power_type(move, gen=gen)
+
+        if hidden_type is None:
+            return None
+
+        type_id = to_id(hidden_type)
+
+        suffix = value[len("hiddenpower") + len(type_id) :]
+
+        if suffix.isdigit():
+            return int(suffix)
+
+    return None
+
+
+def _effective_move_type(move: str, *, gen: int) -> str | None:
+    canonical = _canonical_move_name(move)
+
+    if canonical == "hiddenpower":
+        return _hidden_power_type(move, gen=gen)
+
+    entry = _move_entry(move, gen)
+
+    if entry is None:
+        return None
+
+    move_type = expect_string(entry["type"], name=f"move {move!r}.type")
+
+    if move_type not in _TYPE_IDS:
+        return None
+
+    return move_type
+
+
 @cache
-def _pokemon_entry(
-    species: str,
-    gen: int,
-) -> SerializableObject:
+def _pokemon_entry(species: str, gen: int) -> SerializableObject:
     return expect_object(
-        dex.gen(gen).pokemon(species),
-        name=f"pokemon {species!r}",
+        dex.gen(gen).pokemon(species), name=f"pokemon {species!r}"
     )
 
 
 @cache
-def _move_entry(
-    move: str,
-    gen: int,
-) -> SerializableObject | None:
+def _move_entry(move: str, gen: int) -> SerializableObject | None:
     canonical = _canonical_move_name(move)
 
     # Synthetic Showdown request action.
@@ -278,49 +349,39 @@ def _move_entry(
         return None
 
     return expect_object(
-        dex.gen(gen).move(canonical),
-        name=f"move {canonical!r}",
+        dex.gen(gen).move(canonical), name=f"move {canonical!r}"
     )
 
 
 @cache
-def _species_types(
-    species: str,
-    gen: int,
-) -> tuple[str, ...]:
+def _species_types(species: str, gen: int) -> tuple[str, ...]:
     entry = _pokemon_entry(species, gen)
 
-    raw_types = expect_array(
-        entry["types"],
-        name=f"pokemon {species!r}.types",
-    )
+    raw_types = expect_array(entry["types"], name=f"pokemon {species!r}.types")
 
     types = tuple(
-        expect_string(
-            value,
-            name=f"pokemon {species!r}.types[{i}]",
-        )
+        expect_string(value, name=f"pokemon {species!r}.types[{i}]")
         for i, value in enumerate(raw_types)
     )
 
     invalid = set(types) - set(_TYPE_NAMES)
 
     if invalid:
-        raise ValueError(f"Unexpected types for {species!r}: {sorted(invalid)!r}")
+        raise ValueError(
+            f"Unexpected types for {species!r}: {sorted(invalid)!r}"
+        )
 
     return types
 
 
 @cache
 def _species_base_stats(
-    species: str,
-    gen: int,
+    species: str, gen: int
 ) -> tuple[int, int, int, int, int, int]:
     entry = _pokemon_entry(species, gen)
 
     stats = expect_object(
-        entry["baseStats"],
-        name=f"pokemon {species!r}.baseStats",
+        entry["baseStats"], name=f"pokemon {species!r}.baseStats"
     )
 
     return (
@@ -335,13 +396,10 @@ def _species_base_stats(
 
 @cache
 def _type_effectiveness(
-    attacking_type: str,
-    defending_types: tuple[str, ...],
-    gen: int,
+    attacking_type: str, defending_types: tuple[str, ...], gen: int
 ) -> float:
     type_entry = expect_object(
-        dex.gen(gen).types[attacking_type],
-        name=f"type {attacking_type!r}",
+        dex.gen(gen).types[attacking_type], name=f"type {attacking_type!r}"
     )
 
     effectiveness = expect_object(
@@ -354,7 +412,10 @@ def _type_effectiveness(
     for defending_type in defending_types:
         multiplier *= expect_number(
             effectiveness[defending_type],
-            name=(f"type {attacking_type!r}.effectiveness" + f"[{defending_type!r}]"),
+            name=(
+                f"type {attacking_type!r}.effectiveness"
+                + f"[{defending_type!r}]"
+            ),
         )
 
     return float(multiplier)
@@ -366,10 +427,7 @@ def _type_effectiveness(
 
 
 def _vectorize_known_id(
-    value: str | Unknown | None,
-    *,
-    gen: int,
-    get_id: Callable[[str, int], int],
+    value: str | Unknown | None, *, gen: int, get_id: Callable[[str, int], int]
 ) -> Vector:
     """
     [0, 0] -> unknown
@@ -386,9 +444,7 @@ def _vectorize_known_id(
 
 
 def _vectorize_known_move_id(
-    value: str | Unknown | None,
-    *,
-    gen: int,
+    value: str | Unknown | None, *, gen: int
 ) -> Vector:
     if value is Unknown.VALUE:
         return [0, 0]
@@ -405,9 +461,7 @@ def _vectorize_known_move_id(
 
 
 def _vectorize_known_pokemon_id(
-    value: str | Unknown | None,
-    *,
-    gen: int,
+    value: str | Unknown | None, *, gen: int
 ) -> Vector:
     """
     [0, 0, 0] -> unknown
@@ -429,9 +483,7 @@ def _vectorize_known_pokemon_id(
 # ---------------------------------------------------------------------------
 
 
-def _vectorize_types(
-    types: tuple[str, ...] | None,
-) -> Vector:
+def _vectorize_types(types: tuple[str, ...] | None) -> Vector:
     if types is None:
         return [0] * _TYPES_DIM
 
@@ -446,9 +498,7 @@ def _vectorize_types(
 
 
 def _vectorize_type_matchups(
-    types: tuple[str, ...] | None,
-    *,
-    gen: int,
+    types: tuple[str, ...] | None, *, gen: int
 ) -> Vector:
     if types is None:
         return [0] * _TYPE_MATCHUPS_DIM
@@ -460,44 +510,26 @@ def _vectorize_type_matchups(
             vector.append(0.0)
             continue
 
-        vector.append(
-            _type_effectiveness(
-                attacking_type,
-                types,
-                gen,
-            )
-        )
+        vector.append(_type_effectiveness(attacking_type, types, gen))
 
     assert len(vector) == _TYPE_MATCHUPS_DIM
     return vector
 
 
-def _vectorize_base_stats(
-    species: str | None,
-    *,
-    gen: int,
-) -> Vector:
+def _vectorize_base_stats(species: str | None, *, gen: int) -> Vector:
     if species is None:
         return [0] * _BASE_STATS_DIM
 
     vector: Vector = [1]
 
-    vector.extend(
-        _species_base_stats(
-            species,
-            gen,
-        )
-    )
+    vector.extend(_species_base_stats(species, gen))
 
     assert len(vector) == _BASE_STATS_DIM
     return vector
 
 
 def _current_types(
-    species: str | None,
-    type_override: tuple[str, ...] | None,
-    *,
-    gen: int,
+    species: str | None, type_override: tuple[str, ...] | None, *, gen: int
 ) -> tuple[str, ...] | None:
     # An explicit battle type is authoritative.
     if type_override is not None:
@@ -506,47 +538,27 @@ def _current_types(
     if species is None:
         return None
 
-    return _species_types(
-        species,
-        gen,
-    )
+    return _species_types(species, gen)
 
 
 def _vectorize_pokemon_extras(
-    species: str | None,
-    type_override: tuple[str, ...] | None,
-    *,
-    gen: int,
+    species: str | None, type_override: tuple[str, ...] | None, *, gen: int
 ) -> Vector:
     vector: Vector = []
 
     types: tuple[str, ...] | None = None
 
     if _TYPES_ENABLED or _TYPE_MATCHUPS_ENABLED:
-        types = _current_types(
-            species,
-            type_override,
-            gen=gen,
-        )
+        types = _current_types(species, type_override, gen=gen)
 
     if _TYPES_ENABLED:
         vector.extend(_vectorize_types(types))
 
     if _TYPE_MATCHUPS_ENABLED:
-        vector.extend(
-            _vectorize_type_matchups(
-                types,
-                gen=gen,
-            )
-        )
+        vector.extend(_vectorize_type_matchups(types, gen=gen))
 
     if _BASE_STATS_ENABLED:
-        vector.extend(
-            _vectorize_base_stats(
-                species,
-                gen=gen,
-            )
-        )
+        vector.extend(_vectorize_base_stats(species, gen=gen))
 
     assert len(vector) == _POKEMON_EXTRA_DIM
     return vector
@@ -557,11 +569,7 @@ def _vectorize_pokemon_extras(
 # ---------------------------------------------------------------------------
 
 
-def _vectorize_move_metadata(
-    move: str | Unknown | None,
-    *,
-    gen: int,
-) -> Vector:
+def _vectorize_move_metadata(move: str | Unknown | None, *, gen: int) -> Vector:
     if move is Unknown.VALUE or move is None or move == "":
         return [0] * _MOVE_METADATA_DIM
 
@@ -570,28 +578,25 @@ def _vectorize_move_metadata(
     if entry is None:
         return [0] * _MOVE_METADATA_DIM
 
-    move_type = expect_string(
-        entry["type"],
-        name=f"move {move!r}.type",
-    )
-
-    category = expect_string(
-        entry["category"],
-        name=f"move {move!r}.category",
-    )
+    category = expect_string(entry["category"], name=f"move {move!r}.category")
 
     if category not in _MOVE_CATEGORY_IDS:
         raise ValueError(
             f"Unexpected move category {category!r} " + f"for move {move!r}"
         )
 
-    # 0 means a typeless / ??? move.
-    type_id = _TYPE_IDS.get(move_type, 0)
+    move_type = _effective_move_type(move, gen=gen)
 
-    base_power = expect_int(
-        entry["basePower"],
-        name=f"move {move!r}.basePower",
-    )
+    type_id = 0 if move_type is None else _TYPE_IDS[move_type]
+
+    encoded_power = _encoded_move_power(move, gen=gen)
+
+    if encoded_power is not None:
+        base_power = encoded_power
+    else:
+        base_power = expect_int(
+            entry["basePower"], name=f"move {move!r}.basePower"
+        )
 
     raw_accuracy = entry["accuracy"]
 
@@ -600,15 +605,10 @@ def _vectorize_move_metadata(
         accuracy: int | float = 0
     else:
         always_hits = 0
-        accuracy = expect_number(
-            raw_accuracy,
-            name=f"move {move!r}.accuracy",
-        )
 
-    priority = expect_int(
-        entry["priority"],
-        name=f"move {move!r}.priority",
-    )
+        accuracy = expect_number(raw_accuracy, name=f"move {move!r}.accuracy")
+
+    priority = expect_int(entry["priority"], name=f"move {move!r}.priority")
 
     vector: Vector = [
         type_id,
@@ -631,18 +631,6 @@ def _vectorize_move_matchup(
 ) -> Vector:
     """
     [effectiveness_known, type_chart_applies, multiplier]
-
-    Unknown move:
-        [0, 0, 0]
-
-    Status / typeless move:
-        [1, 0, 0]
-
-    Damaging typed move, target type unknown:
-        [0, 1, 0]
-
-    Known matchup:
-        [1, 1, 0 / .25 / .5 / 1 / 2 / 4]
     """
     if move is Unknown.VALUE or move is None or move == "":
         return [0, 0, 0]
@@ -652,31 +640,26 @@ def _vectorize_move_matchup(
     if entry is None:
         return [1, 0, 0]
 
-    category = expect_string(
-        entry["category"],
-        name=f"move {move!r}.category",
-    )
+    category = expect_string(entry["category"], name=f"move {move!r}.category")
 
-    move_type = expect_string(
-        entry["type"],
-        name=f"move {move!r}.type",
-    )
+    if category == "Status":
+        return [1, 0, 0]
 
-    if category == "Status" or move_type not in _TYPE_IDS:
+    move_type = _effective_move_type(move, gen=gen)
+
+    # Hidden Power definitely uses the type chart, but if its subtype
+    # is not known we cannot calculate the multiplier.
+    if _canonical_move_name(move) == "hiddenpower" and move_type is None:
+        return [0, 1, 0]
+
+    # Genuine typeless / ??? damaging move.
+    if move_type is None:
         return [1, 0, 0]
 
     if target_types is None:
         return [0, 1, 0]
 
-    return [
-        1,
-        1,
-        _type_effectiveness(
-            move_type,
-            target_types,
-            gen,
-        ),
-    ]
+    return [1, 1, _type_effectiveness(move_type, target_types, gen)]
 
 
 def _vectorize_move_extras(
@@ -688,20 +671,11 @@ def _vectorize_move_extras(
     vector: Vector = []
 
     if _MOVE_METADATA_ENABLED:
-        vector.extend(
-            _vectorize_move_metadata(
-                move,
-                gen=gen,
-            )
-        )
+        vector.extend(_vectorize_move_metadata(move, gen=gen))
 
     if _MOVE_MATCHUPS_ENABLED:
         vector.extend(
-            _vectorize_move_matchup(
-                move,
-                target_types=target_types,
-                gen=gen,
-            )
+            _vectorize_move_matchup(move, target_types=target_types, gen=gen)
         )
 
     assert len(vector) == _MOVE_EXTRA_DIM
@@ -714,17 +688,10 @@ def _vectorize_known_move(
     target_types: tuple[str, ...] | None,
     gen: int,
 ) -> Vector:
-    vector = _vectorize_known_move_id(
-        move,
-        gen=gen,
-    )
+    vector = _vectorize_known_move_id(move, gen=gen)
 
     vector.extend(
-        _vectorize_move_extras(
-            move,
-            target_types=target_types,
-            gen=gen,
-        )
+        _vectorize_move_extras(move, target_types=target_types, gen=gen)
     )
 
     assert len(vector) == _OWN_MOVE_SLOT_DIM
@@ -736,9 +703,7 @@ def _vectorize_known_move(
 # ---------------------------------------------------------------------------
 
 
-def _vectorize_status(
-    status: Status,
-) -> Vector:
+def _vectorize_status(status: Status) -> Vector:
     vector: Vector = [
         status.atk_stage,
         status.def_stage,
@@ -760,10 +725,10 @@ def _vectorize_status(
     return vector
 
 
-def _vectorize_side_conditions(
-    conditions: dict[SideCondition, int],
-) -> Vector:
-    vector: Vector = [conditions.get(condition, 0) for condition in _SIDE_CONDITIONS]
+def _vectorize_side_conditions(conditions: dict[SideCondition, int]) -> Vector:
+    vector: Vector = [
+        conditions.get(condition, 0) for condition in _SIDE_CONDITIONS
+    ]
 
     assert len(vector) == _SIDE_CONDITIONS_DIM
     return vector
@@ -774,18 +739,7 @@ def _vectorize_side_conditions(
 # ---------------------------------------------------------------------------
 
 
-def _species_from_ident(
-    ident: str,
-) -> str:
-    if ": " in ident:
-        return ident.split(": ", 1)[1]
-
-    return ident
-
-
-def _species_from_details(
-    details: str,
-) -> str:
+def _species_from_details(details: str) -> str:
     species = details.split(",", 1)[0].strip()
 
     if not species:
@@ -794,28 +748,28 @@ def _species_from_details(
     return species
 
 
-def _enemy_current_species(
-    pokemon: EnemyPokemon,
-) -> str:
+def _enemy_base_species(pokemon: EnemyPokemon) -> str:
+    if pokemon.species is None:
+        raise ValueError(
+            "Enemy species is unknown for "
+            + f"{pokemon.id!r}; protocol ident "
+            + "must not be treated as a species"
+        )
+
+    return pokemon.species
+
+
+def _enemy_current_species(pokemon: EnemyPokemon) -> str:
     if pokemon.transformed_into is not None:
-        # Stores the effective species/form directly.
         return pokemon.transformed_into
 
     if pokemon.forme is not None:
         return pokemon.forme
 
-    if pokemon.species is not None:
-        return pokemon.species
-
-    pokemon_id = pokemon.id
-    if pokemon_id is Unknown.VALUE:
-        raise ValueError("Pokemon id is Unkown")
-    return _species_from_ident(pokemon_id)
+    return _enemy_base_species(pokemon)
 
 
-def _active_enemy_types(
-    battle_state: BattleState,
-) -> tuple[str, ...] | None:
+def _active_enemy_types(battle_state: BattleState) -> tuple[str, ...] | None:
     for pokemon in battle_state.enemy_team:
         if pokemon.id is Unknown.VALUE or not pokemon.active:
             continue
@@ -829,9 +783,7 @@ def _active_enemy_types(
     return None
 
 
-def _active_own_types(
-    battle_state: BattleState,
-) -> tuple[str, ...] | None:
+def _active_own_types(battle_state: BattleState) -> tuple[str, ...] | None:
     for pokemon in battle_state.team:
         if not pokemon.active:
             continue
@@ -865,10 +817,7 @@ def _vectorize_move_slot(
     target_types: tuple[str, ...] | None,
     gen: int,
 ) -> Vector:
-    vector = _vectorize_known_move_id(
-        move,
-        gen=gen,
-    )
+    vector = _vectorize_known_move_id(move, gen=gen)
 
     if move is Unknown.VALUE or move is None:
         vector.append(0)
@@ -876,11 +825,7 @@ def _vectorize_move_slot(
         vector.append(int(_canonical_move_name(move) in disabled_moves))
 
     vector.extend(
-        _vectorize_move_extras(
-            move,
-            target_types=target_types,
-            gen=gen,
-        )
+        _vectorize_move_extras(move, target_types=target_types, gen=gen)
     )
 
     assert len(vector) == _MOVESET_SLOT_DIM
@@ -949,9 +894,7 @@ def _vectorize_party_pokemon(
         transformed_into = battle_state.active_pokemon.transformed_into
         type_override = battle_state.active_pokemon.type_override
     else:
-        status = Status(
-            major=pokemon.major_status,
-        )
+        status = Status(major=pokemon.major_status)
         current_ability = pokemon.base_ability
         transformed_into = None
         type_override = None
@@ -970,19 +913,10 @@ def _vectorize_party_pokemon(
 
     vector: Vector = [1]
 
-    vector.extend(
-        _vectorize_known_pokemon_id(
-            base_species,
-            gen=gen,
-        )
-    )
+    vector.extend(_vectorize_known_pokemon_id(base_species, gen=gen))
 
     vector.extend(
-        _vectorize_pokemon_extras(
-            current_species,
-            type_override,
-            gen=gen,
-        )
+        _vectorize_pokemon_extras(current_species, type_override, gen=gen)
     )
 
     vector.extend(
@@ -1000,19 +934,11 @@ def _vectorize_party_pokemon(
     )
 
     vector.extend(
-        _vectorize_known_id(
-            pokemon.base_ability,
-            gen=gen,
-            get_id=ability_id,
-        )
+        _vectorize_known_id(pokemon.base_ability, gen=gen, get_id=ability_id)
     )
 
     vector.extend(
-        _vectorize_known_id(
-            current_ability,
-            gen=gen,
-            get_id=ability_id,
-        )
+        _vectorize_known_id(current_ability, gen=gen, get_id=ability_id)
     )
 
     vector.extend(
@@ -1025,20 +951,12 @@ def _vectorize_party_pokemon(
 
     for move in pokemon.moves:
         vector.extend(
-            _vectorize_known_move(
-                move,
-                target_types=target_types,
-                gen=gen,
-            )
+            _vectorize_known_move(move, target_types=target_types, gen=gen)
         )
 
     for _ in range(4 - len(pokemon.moves)):
         vector.extend(
-            _vectorize_known_move(
-                None,
-                target_types=target_types,
-                gen=gen,
-            )
+            _vectorize_known_move(None, target_types=target_types, gen=gen)
         )
 
     vector.extend(_vectorize_status(status))
@@ -1049,33 +967,29 @@ def _vectorize_party_pokemon(
     return vector
 
 
-def _vectorize_own_team(
-    battle_state: BattleState,
-) -> Vector:
+def _vectorize_own_team(battle_state: BattleState) -> Vector:
     if len(battle_state.team) > 6:
         raise ValueError(
             "Expected at most 6 own Pokémon, " + f"got {len(battle_state.team)}"
         )
 
-    target_types = _active_enemy_types(battle_state) if _MOVE_MATCHUPS_ENABLED else None
+    target_types = (
+        _active_enemy_types(battle_state) if _MOVE_MATCHUPS_ENABLED else None
+    )
 
     vector: Vector = []
 
     for pokemon in battle_state.team:
         vector.extend(
             _vectorize_party_pokemon(
-                pokemon,
-                battle_state=battle_state,
-                target_types=target_types,
+                pokemon, battle_state=battle_state, target_types=target_types
             )
         )
 
     for _ in range(6 - len(battle_state.team)):
         vector.extend(
             _vectorize_party_pokemon(
-                None,
-                battle_state=battle_state,
-                target_types=target_types,
+                None, battle_state=battle_state, target_types=target_types
             )
         )
 
@@ -1097,35 +1011,19 @@ def _vectorize_enemy_pokemon(
     if pokemon is None or pokemon.id is Unknown.VALUE:
         return [0] * _ENEMY_POKEMON_DIM
 
-    base_species = (
-        pokemon.species
-        if pokemon.species is not None
-        else _species_from_ident(pokemon.id)
-    )
+    base_species = _enemy_base_species(pokemon)
 
     current_species = _enemy_current_species(pokemon)
 
     vector: Vector = []
 
-    vector.extend(
-        _vectorize_known_pokemon_id(
-            base_species,
-            gen=gen,
-        )
-    )
+    vector.extend(_vectorize_known_pokemon_id(base_species, gen=gen))
 
-    vector.extend(
-        _vectorize_known_pokemon_id(
-            current_species,
-            gen=gen,
-        )
-    )
+    vector.extend(_vectorize_known_pokemon_id(current_species, gen=gen))
 
     vector.extend(
         _vectorize_pokemon_extras(
-            current_species,
-            pokemon.type_override,
-            gen=gen,
+            current_species, pokemon.type_override, gen=gen
         )
     )
 
@@ -1139,28 +1037,14 @@ def _vectorize_enemy_pokemon(
     )
 
     vector.extend(
-        _vectorize_known_id(
-            pokemon.base_ability,
-            gen=gen,
-            get_id=ability_id,
-        )
+        _vectorize_known_id(pokemon.base_ability, gen=gen, get_id=ability_id)
     )
 
     vector.extend(
-        _vectorize_known_id(
-            pokemon.current_ability,
-            gen=gen,
-            get_id=ability_id,
-        )
+        _vectorize_known_id(pokemon.current_ability, gen=gen, get_id=ability_id)
     )
 
-    vector.extend(
-        _vectorize_known_id(
-            pokemon.item,
-            gen=gen,
-            get_id=item_id,
-        )
-    )
+    vector.extend(_vectorize_known_id(pokemon.item, gen=gen, get_id=item_id))
 
     vector.extend(
         _vectorize_move_slots(
@@ -1188,9 +1072,7 @@ def _vectorize_enemy_pokemon(
     return vector
 
 
-def _vectorize_enemy_team(
-    battle_state: BattleState,
-) -> Vector:
+def _vectorize_enemy_team(battle_state: BattleState) -> Vector:
     revealed = [
         pokemon
         for pokemon in battle_state.enemy_team
@@ -1198,27 +1080,27 @@ def _vectorize_enemy_team(
     ]
 
     if len(revealed) > 6:
-        raise ValueError("Expected at most 6 enemy Pokémon, " + f"got {len(revealed)}")
+        raise ValueError(
+            "Expected at most 6 enemy Pokémon, " + f"got {len(revealed)}"
+        )
 
-    target_types = _active_own_types(battle_state) if _MOVE_MATCHUPS_ENABLED else None
+    target_types = (
+        _active_own_types(battle_state) if _MOVE_MATCHUPS_ENABLED else None
+    )
 
     vector: Vector = []
 
     for pokemon in revealed:
         vector.extend(
             _vectorize_enemy_pokemon(
-                pokemon,
-                target_types=target_types,
-                gen=battle_state.gen,
+                pokemon, target_types=target_types, gen=battle_state.gen
             )
         )
 
     for _ in range(6 - len(revealed)):
         vector.extend(
             _vectorize_enemy_pokemon(
-                None,
-                target_types=target_types,
-                gen=battle_state.gen,
+                None, target_types=target_types, gen=battle_state.gen
             )
         )
 
@@ -1240,24 +1122,20 @@ def _vectorize_available_move(
     if move is None:
         return [0] * _AVAILABLE_MOVE_DIM
 
-    name = move.id or move.name
-    canonical = _canonical_move_name(name)
+    # Stable identity comes from the request id.
+    identity_name = move.id or move.name
+
+    # Mechanical metadata should use the human-readable request name,
+    # because Showdown can expose details such as Hidden Power's type/power.
+    mechanical_name = move.name or identity_name
+
+    canonical = _canonical_move_name(identity_name)
 
     vector: Vector = [1]
 
-    vector.extend(
-        _vectorize_known_move_id(
-            name,
-            gen=gen,
-        )
-    )
+    vector.extend(_vectorize_known_move_id(identity_name, gen=gen))
 
-    vector.extend(
-        [
-            int(canonical == "recharge"),
-            int(canonical == "struggle"),
-        ]
-    )
+    vector.extend([int(canonical == "recharge"), int(canonical == "struggle")])
 
     vector.extend(
         [
@@ -1271,9 +1149,7 @@ def _vectorize_available_move(
 
     vector.extend(
         _vectorize_move_extras(
-            name,
-            target_types=target_types,
-            gen=gen,
+            mechanical_name, target_types=target_types, gen=gen
         )
     )
 
@@ -1281,33 +1157,31 @@ def _vectorize_available_move(
     return vector
 
 
-def _vectorize_available_moves(
-    battle_state: BattleState,
-) -> Vector:
+def _vectorize_available_moves(battle_state: BattleState) -> Vector:
     moves = battle_state.available_moves
 
     if len(moves) > 4:
-        raise ValueError("Expected at most 4 available moves, " + f"got {len(moves)}")
+        raise ValueError(
+            "Expected at most 4 available moves, " + f"got {len(moves)}"
+        )
 
-    target_types = _active_enemy_types(battle_state) if _MOVE_MATCHUPS_ENABLED else None
+    target_types = (
+        _active_enemy_types(battle_state) if _MOVE_MATCHUPS_ENABLED else None
+    )
 
     vector: Vector = []
 
     for move in moves:
         vector.extend(
             _vectorize_available_move(
-                move,
-                target_types=target_types,
-                gen=battle_state.gen,
+                move, target_types=target_types, gen=battle_state.gen
             )
         )
 
     for _ in range(4 - len(moves)):
         vector.extend(
             _vectorize_available_move(
-                None,
-                target_types=target_types,
-                gen=battle_state.gen,
+                None, target_types=target_types, gen=battle_state.gen
             )
         )
 
@@ -1315,9 +1189,7 @@ def _vectorize_available_moves(
     return vector
 
 
-def _vectorize_action_mask(
-    battle_state: BattleState,
-) -> Vector:
+def _vectorize_action_mask(battle_state: BattleState) -> Vector:
     move_mask = [0, 0, 0, 0]
 
     if not battle_state.force_switch:
@@ -1326,12 +1198,15 @@ def _vectorize_action_mask(
 
     switch_mask = [0, 0, 0, 0, 0, 0]
 
-    has_decision = battle_state.force_switch or bool(battle_state.available_moves)
+    has_decision = battle_state.force_switch or bool(
+        battle_state.available_moves
+    )
 
     trapped = (
         battle_state.active_pokemon.trapped
         or MinorStatus.TRAPPED in battle_state.active_pokemon.status.minor
-        or MinorStatus.PARTIALLY_TRAPPED in battle_state.active_pokemon.status.minor
+        or MinorStatus.PARTIALLY_TRAPPED
+        in battle_state.active_pokemon.status.minor
     )
     # maybe_trapped is informational only: Showdown still accepts a switch
     # while the active Pokémon is only "maybe" trapped, so it must not zero
@@ -1352,32 +1227,20 @@ def _vectorize_action_mask(
 # ---------------------------------------------------------------------------
 
 
-def _vectorize_field(
-    battle_state: BattleState,
-) -> Vector:
+def _vectorize_field(battle_state: BattleState) -> Vector:
     player_id = battle_state.player_id
 
     if player_id is None:
         raise ValueError("BattleState.player_id is not initialized")
 
-    own_conditions = battle_state.side_conditions.get(
-        player_id,
-        {},
-    )
+    own_conditions = battle_state.side_conditions.get(player_id, {})
 
-    field_conditions = battle_state.side_conditions.get(
-        "field",
-        {},
-    )
+    field_conditions = battle_state.side_conditions.get("field", {})
 
     foe_side_ids = [
         side_id
         for side_id in battle_state.side_conditions
-        if side_id
-        not in {
-            player_id,
-            "field",
-        }
+        if side_id not in {player_id, "field"}
     ]
 
     if len(foe_side_ids) > 1:
@@ -1386,35 +1249,22 @@ def _vectorize_field(
         )
 
     foe_conditions = (
-        battle_state.side_conditions.get(
-            foe_side_ids[0],
-            {},
-        )
+        battle_state.side_conditions.get(foe_side_ids[0], {})
         if foe_side_ids
         else {}
     )
 
     weather_id = 0
 
-    if battle_state.weather not in {
-        None,
-        Weather.CLEAR_SKY.value,
-    }:
-        for i, weather in enumerate(
-            _WEATHERS,
-            start=1,
-        ):
+    if battle_state.weather not in {None, Weather.CLEAR_SKY.value}:
+        for i, weather in enumerate(_WEATHERS, start=1):
             if battle_state.weather == weather.value:
                 weather_id = i
                 break
         else:
             raise ValueError("Unknown weather: " + f"{battle_state.weather!r}")
 
-    vector: Vector = [
-        battle_state.gen,
-        battle_state.turn,
-        weather_id,
-    ]
+    vector: Vector = [battle_state.gen, battle_state.turn, weather_id]
 
     vector.extend(_vectorize_side_conditions(own_conditions))
 
@@ -1423,10 +1273,7 @@ def _vectorize_field(
     vector.extend(_vectorize_side_conditions(field_conditions))
 
     vector.extend(
-        [
-            int(battle_state.force_switch),
-            int(battle_state.gen_1_desync),
-        ]
+        [int(battle_state.force_switch), int(battle_state.gen_1_desync)]
     )
 
     assert len(vector) == _FIELD_DIM
@@ -1438,9 +1285,7 @@ def _vectorize_field(
 # ---------------------------------------------------------------------------
 
 
-def vectorize_battle_state(
-    battle_state: BattleState,
-) -> Vector:
+def vectorize_battle_state(battle_state: BattleState) -> Vector:
     vector: Vector = []
 
     vector.extend(_vectorize_field(battle_state))

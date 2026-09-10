@@ -93,7 +93,9 @@ class PrivateMessageEvent(LobbyEvent):
             and self.receiver.lower() == challenged_user.lower()
             and self.message.startswith("/challenge ")
         ):
-            format_id = self.message.split("|", 1)[0].removeprefix("/challenge ")
+            format_id = self.message.split("|", 1)[0].removeprefix(
+                "/challenge "
+            )
             future.set_result(format_id)
 
 

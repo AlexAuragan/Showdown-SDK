@@ -75,7 +75,11 @@ from showdown_sdk.classes.parser.reducers.mechanics import (
 )
 from showdown_sdk.models.dex import dex, to_id
 from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import EnemyPokemon, PartyPokemon, Unknown
+from showdown_sdk.models.pokemon.pokemon import (
+    EnemyPokemon,
+    PartyPokemon,
+    Unknown,
+)
 from showdown_sdk.models.pokemon.status import (
     MajorStatus,
     MinorStatus,
@@ -86,8 +90,7 @@ from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
 
 
 def _reduce_move_prepare(
-    battle_state: BattleState,
-    event: MovePrepareEvent,
+    battle_state: BattleState, event: MovePrepareEvent
 ) -> None:
     minor = get_semi_invulnerable_status(event.move)
     if minor is None:
@@ -95,21 +98,12 @@ def _reduce_move_prepare(
 
     duration = dex.condition_duration("twoturnmove", gen=battle_state.gen)
 
-    status = resolve_any_status(
-        battle_state,
-        event.pokemon,
-    )
+    status = resolve_any_status(battle_state, event.pokemon)
     status.add_minor(minor, duration=duration)
 
 
-def _reduce_move(
-    battle_state: BattleState,
-    event: MoveEvent,
-) -> None:
-    source_status = resolve_any_status(
-        battle_state,
-        event.source_pokemon,
-    )
+def _reduce_move(battle_state: BattleState, event: MoveEvent) -> None:
+    source_status = resolve_any_status(battle_state, event.source_pokemon)
     source_status.clear_single_move()
 
     if battle_state.gen_1_desync:
@@ -119,7 +113,10 @@ def _reduce_move(
     gen = battle_state.gen
 
     if event.source is not None:
-        if event.source.type == SourceType.MOVE and event.source.name == "Mirror Move":
+        if (
+            event.source.type == SourceType.MOVE
+            and event.source.name == "Mirror Move"
+        ):
             return
 
         if (
@@ -128,13 +125,12 @@ def _reduce_move(
         ):
             return
 
-        if event.source.name == event.move and dex.is_charge_move(event.move, gen=gen):
+        if event.source.name == event.move and dex.is_charge_move(
+            event.move, gen=gen
+        ):
             return
 
-    enemy = resolve_enemy(
-        battle_state,
-        event.source_pokemon,
-    )
+    enemy = resolve_enemy(battle_state, event.source_pokemon)
     if enemy is not None:
         enemy.witness_move(event.move)
 
@@ -153,13 +149,11 @@ def _reduce_move(
             )
 
             target_status = resolve_any_status(
-                battle_state,
-                event.target_pokemon,
+                battle_state, event.target_pokemon
             )
 
             target_status.add_minor(
-                MinorStatus.PARTIALLY_TRAPPED,
-                duration=duration,
+                MinorStatus.PARTIALLY_TRAPPED, duration=duration
             )
 
 
@@ -185,10 +179,10 @@ def _reduce_damage(battle_state: BattleState, event: DamageEvent) -> None:
 
 
 def _reduce_heal(battle_state: BattleState, event: HealEvent) -> None:
-    cures_status = event.source.type == SourceType.MOVE and event.source.name in {
-        "Healing Wish",
-        "Lunar Dance",
-    }
+    cures_status = (
+        event.source.type == SourceType.MOVE
+        and event.source.name in {"Healing Wish", "Lunar Dance"}
+    )
 
     enemy = resolve_enemy(battle_state, event.target)
     if enemy is not None:
@@ -208,8 +202,7 @@ def _reduce_heal(battle_state: BattleState, event: HealEvent) -> None:
 
 
 def _reduce_minor_status(
-    battle_state: BattleState,
-    event: MinorStatusEvent,
+    battle_state: BattleState, event: MinorStatusEvent
 ) -> None:
     status = resolve_any_status(battle_state, event.target)
 
@@ -221,8 +214,7 @@ def _reduce_minor_status(
 
     if event.effect is MinorStatus.RECHARGE:
         condition_duration = dex.condition_duration(
-            "mustrecharge",
-            gen=battle_state.gen,
+            "mustrecharge", gen=battle_state.gen
         )
 
         if condition_duration is not None and condition_duration > 0:
@@ -231,7 +223,9 @@ def _reduce_minor_status(
     status.add_minor(event.effect, duration=duration)
 
 
-def _reduce_major_status(battle_state: BattleState, event: MajorStatusEvent) -> None:
+def _reduce_major_status(
+    battle_state: BattleState, event: MajorStatusEvent
+) -> None:
     if event.status is MajorStatus.FAINT:
         clear_traps_sourced_by_side(battle_state, event.target.player)
         enemy = resolve_enemy(battle_state, event.target)
@@ -258,11 +252,15 @@ def _reduce_major_status(battle_state: BattleState, event: MajorStatusEvent) -> 
         status.clear_status(event.status)
 
 
-def _reduce_move_copied(battle_state: BattleState, event: MoveCopiedEvent) -> None:
+def _reduce_move_copied(
+    battle_state: BattleState, event: MoveCopiedEvent
+) -> None:
     own = resolve_self(battle_state, event.target)
     if own is not None:
         mimic_slots = [
-            index for index, move in enumerate(own.moves) if to_id(move) == "mimic"
+            index
+            for index, move in enumerate(own.moves)
+            if to_id(move) == "mimic"
         ]
         if len(mimic_slots) != 1:
             raise RuntimeError(
@@ -296,8 +294,7 @@ def _reduce_move_copied(battle_state: BattleState, event: MoveCopiedEvent) -> No
 
 
 def _reduce_minor_status_activation(
-    battle_state: BattleState,
-    event: MinorStatusActivationEvent,
+    battle_state: BattleState, event: MinorStatusActivationEvent
 ) -> None:
 
     status = resolve_any_status(battle_state, event.target)
@@ -315,7 +312,9 @@ def _reduce_minor_status_activation(
     status.set_trapped(actor.player)
 
 
-def _reduce_stat_change(battle_state: BattleState, event: StatChangeEvent) -> None:
+def _reduce_stat_change(
+    battle_state: BattleState, event: StatChangeEvent
+) -> None:
     if not event.success:
         return
 
@@ -325,8 +324,7 @@ def _reduce_stat_change(battle_state: BattleState, event: StatChangeEvent) -> No
 
 
 def _reduce_details_change(
-    battle_state: BattleState,
-    event: DetailsChangeEvent,
+    battle_state: BattleState, event: DetailsChangeEvent
 ) -> None:
     own = resolve_self(battle_state, event.pokemon)
     if own is not None:
@@ -354,7 +352,9 @@ def _reduce_team_cure(battle_state: BattleState, event: TeamCureEvent) -> None:
         pokemon.status.clear_all_major_status()
 
 
-def _reduce_clear_boosts(battle_state: BattleState, event: ClearBoostsEvent) -> None:
+def _reduce_clear_boosts(
+    battle_state: BattleState, event: ClearBoostsEvent
+) -> None:
     status = resolve_any_status(battle_state, event.target)
     status.reset_all_stages()
 
@@ -366,15 +366,16 @@ def _reduce_clear_all_boosts(battle_state: BattleState) -> None:
             pokemon.status.reset_all_stages()
 
 
-def _reduce_copy_boost(battle_state: BattleState, event: CopyBoostEvent) -> None:
+def _reduce_copy_boost(
+    battle_state: BattleState, event: CopyBoostEvent
+) -> None:
     user_status = resolve_any_status(battle_state, event.user)
     target_status = resolve_any_status(battle_state, event.target)
     user_status.copy_stat_changes(target_status)
 
 
 def _reduce_clear_negative_boosts(
-    battle_state: BattleState,
-    event: ClearNegativeBostsEvent,
+    battle_state: BattleState, event: ClearNegativeBostsEvent
 ) -> None:
     status = resolve_any_status(battle_state, event.target)
     status.clear_negative_stages()
@@ -394,8 +395,7 @@ def _reduce_set_hp(battle_state: BattleState, event: SetHpEvent) -> None:
 
 
 def _reduce_side_condition(
-    battle_state: BattleState,
-    event: SideConditionEvent,
+    battle_state: BattleState, event: SideConditionEvent
 ) -> None:
     side_conds = battle_state.side_conditions
     if event.side:
@@ -410,7 +410,9 @@ def _reduce_side_condition(
 
     field_conditions = side_conds.setdefault("field", {})
     if event.started:
-        field_conditions[event.condition] = field_conditions.get(event.condition, 0) + 1
+        field_conditions[event.condition] = (
+            field_conditions.get(event.condition, 0) + 1
+        )
     else:
         field_conditions.pop(event.condition, None)
 
@@ -423,14 +425,17 @@ def _species_from_details(details: str) -> str | None:
 
 
 def _transform_target_species(target: EnemyPokemon) -> str:
-    """The Transform target's effective species/form, not its ident/nickname."""
+    """Return the target's current effective species/form."""
+    if target.transformed_into is not None:
+        return target.transformed_into
+
     if target.forme is not None:
         return target.forme
+
     if target.species is not None:
         return target.species
-    if target.id is Unknown.VALUE:
-        raise RuntimeError("Transform target species is unknown")
-    return target.id.split(": ", 1)[-1]
+
+    raise RuntimeError(f"Transform target species is unknown for {target.id!r}")
 
 
 def _own_species(own: PartyPokemon | None) -> str | None:
@@ -439,27 +444,71 @@ def _own_species(own: PartyPokemon | None) -> str | None:
     return _species_from_details(own.details)
 
 
-def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None:
+def _reduce_switch(
+    battle_state: BattleState, event: PokemonSwitchEvent
+) -> None:
     gen = battle_state.gen
 
-    if not event.baton_pass and event.command != "replace":
+    # |replace| is Illusion ending, not a real switch.
+    if event.command == "replace":
+        if is_self(battle_state, event.pokemon):
+            return
+
+        details = parse_pokemon_details(event.details)
+
+        species = _species_from_details(event.details)
+
+        if species is None:
+            raise RuntimeError(
+                "Could not determine species from replace details: "
+                + repr(event.details)
+            )
+
+        battle_state.witness_replace(
+            ident_raw(event.pokemon),
+            species=species,
+            lvl=event.level,
+            gender=details.gender,
+            shiny=details.shiny,
+        )
+
+        enemy = battle_state.get_enemy_pokemon(
+            battle_state.curr_enemy_pokemon, not_found_ok=True
+        )
+
+        if enemy is None:
+            raise RuntimeError("Replaced enemy disappeared from battle state")
+
+        enemy.status.major = event.major_status
+
+        if event.hp_is_percentage:
+            enemy.curr_hp_percent = event.curr_hp
+
+        return
+
+    if not event.baton_pass:
         clear_traps_sourced_by_side(battle_state, event.pokemon.player)
 
     if is_self(battle_state, event.pokemon):
         old_status = battle_state.active_pokemon.status
+
         new_status = Status(major=event.major_status)
 
         if event.baton_pass:
             copy_baton_pass_status(new_status, old_status, gen)
 
         battle_state.set_active_pokemon(ident_self_key(event.pokemon))
+
         battle_state.active_pokemon.transformed_into = None
+        battle_state.active_pokemon.type_override = None
         battle_state.active_pokemon.trapped = False
         battle_state.active_pokemon.maybe_trapped = False
 
         own = resolve_self(battle_state, event.pokemon)
+
         if own is not None:
             battle_state.active_pokemon.ability = own.base_ability
+
         else:
             battle_state.active_pokemon.ability = Unknown.VALUE
 
@@ -467,79 +516,79 @@ def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None
             return
 
         battle_state.active_pokemon.status = new_status
-        battle_state.active_pokemon.transformed_into = None
-        battle_state.active_pokemon.type_override = None
-        battle_state.active_pokemon.trapped = False
-        battle_state.active_pokemon.maybe_trapped = False
         return
 
     passed_status: Status | None = None
+
     if event.baton_pass:
         outgoing = battle_state.get_enemy_pokemon(
-            battle_state.curr_enemy_pokemon,
-            not_found_ok=True,
+            battle_state.curr_enemy_pokemon, not_found_ok=True
         )
+
         if outgoing is not None:
             passed_status = Status()
+
             copy_baton_pass_status(passed_status, outgoing.status, gen)
 
     details = parse_pokemon_details(event.details)
-    gender = details.gender
-    shiny = details.shiny
-    level = event.level
+
+    species = _species_from_details(event.details)
+
+    if species is None:
+        raise RuntimeError(
+            "Could not determine species from switch details: "
+            + repr(event.details)
+        )
 
     battle_state.witness_switch_in(
         ident_raw(event.pokemon),
-        level,
-        species=_species_from_details(event.details),
-        gender=gender,
-        shiny=shiny,
+        event.level,
+        species=species,
+        gender=details.gender,
+        shiny=details.shiny,
     )
 
     enemy = battle_state.get_enemy_pokemon(
-        battle_state.curr_enemy_pokemon,
-        not_found_ok=True,
+        battle_state.curr_enemy_pokemon, not_found_ok=True
     )
+
     if enemy is None:
         return
 
     enemy.reset_on_switch_in()
+    enemy.status.major = event.major_status
+
+    if event.hp_is_percentage:
+        enemy.curr_hp_percent = event.curr_hp
+
     if passed_status is not None:
         copy_baton_pass_status(enemy.status, passed_status, gen)
 
 
-def _reduce_transform(
-    battle_state: BattleState,
-    event: TransformEvent,
-) -> None:
-    source_status = resolve_any_status(
-        battle_state,
-        event.pokemon,
-    )
-    target_status = resolve_any_status(
-        battle_state,
-        event.target,
-    )
+def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
+    source_status = resolve_any_status(battle_state, event.pokemon)
+
+    target_status = resolve_any_status(battle_state, event.target)
 
     source_status.copy_stat_changes(target_status)
 
-    if is_self(
-        battle_state,
-        event.pokemon,
-    ):
+    if is_self(battle_state, event.pokemon):
         target = resolve_enemy(battle_state, event.target)
 
         if target is None:
             raise RuntimeError(
-                f"Transform target {event.target} not found in enemy team"
+                f"Transform target {event.target} " + "not found in enemy team"
             )
 
-        target_species = _transform_target_species(target)
-        battle_state.active_pokemon.transformed_into = target_species
-        battle_state.active_pokemon.type_override = None
+        battle_state.active_pokemon.transformed_into = (
+            _transform_target_species(target)
+        )
+
+        battle_state.active_pokemon.type_override = target.type_override
 
         if battle_state.gen > 2:
             battle_state.active_pokemon.ability = target.current_ability
+
         return
 
     enemy = resolve_enemy(battle_state, event.pokemon)
@@ -547,26 +596,33 @@ def _reduce_transform(
     if enemy is None:
         return
 
-    # Transform replaces any previous type override on the source.
-    enemy.type_override = None
-
-    copied_moves: list[str] | None = None
     own = resolve_self(battle_state, event.target)
 
-    if own is not None:
-        copied_moves = list(own.moves)
+    if own is None:
+        raise RuntimeError(
+            f"Transform target {event.target} " + "not found in own team"
+        )
+
+    copied_moves = list(own.moves)
+
+    target_species = _own_species(own)
+
+    if target_species is None:
+        raise RuntimeError(
+            f"Transform target species unknown for {event.target}"
+        )
+
+    if own.active:
+        # Transform copies explicit current typing as well.
+        enemy.type_override = battle_state.active_pokemon.type_override
 
         if battle_state.gen > 2:
             enemy.current_ability = battle_state.active_pokemon.ability
-
-    target_species = _own_species(own)
-    if target_species is None:
-        raise RuntimeError(f"Transform target species unknown for {event.target}")
+    else:
+        enemy.type_override = None
 
     battle_state.witness_transform(
-        ident_raw(event.pokemon),
-        target_species,
-        copied_moves,
+        ident_raw(event.pokemon), target_species, copied_moves
     )
 
 
@@ -607,10 +663,7 @@ def _reduce_item(battle_state: BattleState, event: ItemEvent) -> None:
         and event.pokemon is not None
         and to_id(event.item) == "powerherb"
     ):
-        status = resolve_any_status(
-            battle_state,
-            event.pokemon,
-        )
+        status = resolve_any_status(battle_state, event.pokemon)
         clear_semi_invulnerable_status(status)
 
     if event.gained:
@@ -653,7 +706,9 @@ def _reduce_cant(battle_state: BattleState, event: CantEvent) -> None:
         status.remove_minor(MinorStatus.RECHARGE)
 
 
-def _reduce_perish_count(battle_state: BattleState, event: PerishCountEvent) -> None:
+def _reduce_perish_count(
+    battle_state: BattleState, event: PerishCountEvent
+) -> None:
     status = resolve_any_status(battle_state, event.target)
     status.perish_count = event.count
     status.add_minor(MinorStatus.PERISH_SONG)
@@ -676,7 +731,9 @@ def _reduce_weather(battle_state: BattleState, event: WeatherEvent) -> None:
         battle_state.weather = event.weather.value
 
 
-def _reduce_single_move(battle_state: BattleState, event: SingleMoveEvent) -> None:
+def _reduce_single_move(
+    battle_state: BattleState, event: SingleMoveEvent
+) -> None:
     match to_id(event.move):
         case "destinybond":
             effect = MinorStatus.DESTINY_BOUND
@@ -690,40 +747,31 @@ def _reduce_single_move(battle_state: BattleState, event: SingleMoveEvent) -> No
 
 
 def _reduce_type_change(
-    battle_state: BattleState,
-    event: TypeChangeEvent,
+    battle_state: BattleState, event: TypeChangeEvent
 ) -> None:
-    status = resolve_any_status(
-        battle_state,
-        event.target,
-    )
+    status = resolve_any_status(battle_state, event.target)
     status.add_minor(MinorStatus.TYPECHANGE)
 
-    if is_self(
-        battle_state,
-        event.target,
-    ):
+    if is_self(battle_state, event.target):
         battle_state.active_pokemon.type_override = event.types
         return
 
-    enemy = resolve_enemy(
-        battle_state,
-        event.target,
-    )
+    enemy = resolve_enemy(battle_state, event.target)
 
     if enemy is not None:
         enemy.type_override = event.types
 
 
-def _reduce_forme_change(battle_state: BattleState, event: FormeChangeEvent) -> None:
+def _reduce_forme_change(
+    battle_state: BattleState, event: FormeChangeEvent
+) -> None:
     enemy = resolve_enemy(battle_state, event.pokemon)
     if enemy is not None:
         enemy.forme = event.forme
 
 
 def _reduce_decision_request(
-    battle_state: BattleState,
-    event: DecisionRequestEvent,
+    battle_state: BattleState, event: DecisionRequestEvent
 ) -> None:
     battle_state.player_id = event.player_id
 
@@ -748,7 +796,9 @@ def _reduce_decision_request(
         None,
     )
     previous_base_ability = (
-        previous_active.base_ability if previous_active is not None else Unknown.VALUE
+        previous_active.base_ability
+        if previous_active is not None
+        else Unknown.VALUE
     )
 
     available_pokemons: list[PartyPokemon] = []
@@ -756,11 +806,12 @@ def _reduce_decision_request(
         max_hp = pokemon.max_hp
         if max_hp is None:
             existing = next(
-                (p for p in battle_state.team if p.id == pokemon.ident),
-                None,
+                (p for p in battle_state.team if p.id == pokemon.ident), None
             )
             max_hp = (
-                existing.max_hp if existing is not None and existing.max_hp > 0 else 0
+                existing.max_hp
+                if existing is not None and existing.max_hp > 0
+                else 0
             )
 
         stats = Stats(
@@ -792,8 +843,7 @@ def _reduce_decision_request(
     battle_state.update_team(available_pokemons)
 
     active = next(
-        (pokemon for pokemon in available_pokemons if pokemon.active),
-        None,
+        (pokemon for pokemon in available_pokemons if pokemon.active), None
     )
     if active is not None:
         battle_state.set_active_pokemon(str(active.id))
@@ -816,17 +866,17 @@ def _reduce_decision_request(
             battle_state.active_pokemon.ability = active.base_ability
 
     if battle_state.gen == 1 and not event.wait:
-        has_recharge_request = any(move.id == "recharge" for move in available_moves)
+        has_recharge_request = any(
+            move.id == "recharge" for move in available_moves
+        )
         if has_recharge_request:
             battle_state.active_pokemon.status.add_minor(MinorStatus.RECHARGE)
         else:
-            battle_state.active_pokemon.status.remove_minor(MinorStatus.RECHARGE)
+            battle_state.active_pokemon.status.remove_minor(
+                MinorStatus.RECHARGE
+            )
 
-    sync_own_two_turn_status_from_request(
-        battle_state,
-        event.moves,
-        event.wait,
-    )
+    sync_own_two_turn_status_from_request(battle_state, event.moves, event.wait)
     battle_state.update_moves(available_moves)
     battle_state.force_switch = any(event.force_switch)
 
@@ -858,7 +908,9 @@ def _reduce_game_tier(_battle_state: BattleState, event: GameTierEvent) -> None:
         )
 
 
-def _reduce_partial_trap(battle_state: BattleState, event: PartialTrapEvent) -> None:
+def _reduce_partial_trap(
+    battle_state: BattleState, event: PartialTrapEvent
+) -> None:
     status = resolve_any_status(battle_state, event.target)
     if event.started:
         status.minor.add(MinorStatus.PARTIALLY_TRAPPED)

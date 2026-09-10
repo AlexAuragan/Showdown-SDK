@@ -33,7 +33,9 @@ def raw_log_paths() -> list[Path]:
     root = FIXTURE_DIRECTORY
     paths: list[Path] = []
     for fmt_dir in sorted(path for path in root.iterdir() if path.is_dir()):
-        for battle_dir in sorted(path for path in fmt_dir.iterdir() if path.is_dir()):
+        for battle_dir in sorted(
+            path for path in fmt_dir.iterdir() if path.is_dir()
+        ):
             logs = sorted(battle_dir.glob("client_*_raw.txt"))
             assert logs, f"No client_*_raw.txt in fixture {battle_dir}"
             paths.extend(logs)

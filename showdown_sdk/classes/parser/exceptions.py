@@ -8,7 +8,9 @@ class ParserException(Exception):
 class WrongRoomException(ParserException):
     """When the parser got a message meant for another room"""
 
-    def __init__(self, current_room_id: str, given_room_id: str, *args: object) -> None:
+    def __init__(
+        self, current_room_id: str, given_room_id: str, *args: object
+    ) -> None:
         super().__init__(*args)
         self.current_room_id: str = current_room_id
         self.given_room_id: str = given_room_id
