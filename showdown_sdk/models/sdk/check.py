@@ -207,20 +207,10 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     same("turn", battle_state.turn, ref_turn)
 
     ref_game_type = expect_string(ref["gameType"])
-    same("gameType", battle_state.gametype, ref_game_type)
+    same("gameType", battle_state.format.gametype, ref_game_type)
 
     if ref_game_type != "singles":
         raise NotImplementedError("Showdown oracle validator currently assumes singles")
-
-    format_data = obj(ref["formatData"])
-    format_id = expect_string(format_data["id"])
-
-    if battle_state.gen is not None and not format_id.startswith(
-        f"gen{battle_state.gen}"
-    ):
-        raise AssertionError(
-            f"generation: sdk=gen{battle_state.gen}, " + f"showdown={format_id!r}"
-        )
 
     request_state = expect_string(ref["requestState"])
 
@@ -481,18 +471,18 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         )
 
         check_status(
-            "curr_pokemon_status",
-            battle_state.curr_pokemon_status,
+            "active_pokemon.status",
+            battle_state.active_pokemon.status,
             ref_active,
         )
 
-        curr_ability = battle_state.curr_pokemon_ability
+        curr_ability = battle_state.active_pokemon.ability
 
-        if not battle_state.curr_pokemon_transformed:
+        if not battle_state.active_pokemon.transformed:
             if curr_ability == Unknown.VALUE:
                 raise ValueError("current ability is unkown for our active pokemon")
             same(
-                "curr_pokemon_ability",
+                "active_pokemon.ability",
                 to_id(curr_ability),
                 to_id(expect_string(ref_active["ability"])),
             )

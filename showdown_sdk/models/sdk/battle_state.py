@@ -1,4 +1,5 @@
 import json
+from dataclasses import asdict, dataclass, field
 from enum import Enum
 from typing import TYPE_CHECKING
 
@@ -27,6 +28,40 @@ class SourceType(str, Enum):
     UNKNOWN = "unknown"
 
 
+@dataclass
+class ActivePokemonState:
+    pokemon_id: str = ""
+    status: Status = field(default_factory=Status)
+    transformed: bool = False
+    ability: str | Unknown = Unknown.VALUE
+
+    def clear(self):
+        self.pokemon_id = ""
+        self.status = Status()
+        self.transformed = False
+        self.ability = Unknown.VALUE
+
+    def to_dict(self):
+        return {
+            "pokemon_id": self.pokemon_id,
+            "status": asdict(self.status),
+            "transformed": self.transformed,
+            "ability": self.ability if self.ability is not Unknown.VALUE else None,
+        }
+
+
+@dataclass
+class BattleFormat:
+    gen: int | None = None
+    gametype: str | None = None
+    tier: str | None = None
+
+    def clear(self):
+        self.gen = None
+        self.gametype = None
+        self.tier = None
+
+
 class BattleState:
     def __init__(self):
         self._player_id: str | None = None
@@ -37,16 +72,8 @@ class BattleState:
         self._enemy_team: list[EnemyPokemon] = [
             EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
         ]
-        self._curr_pokemon: str = ""
         self._curr_enemy_pokemon: str = ""
-        self.curr_pokemon_status: Status = (
-            Status()
-        )  # Minor status and stat changes reset on switch,
-        self.curr_pokemon_transformed: bool = False
-        # so we only store them for the active pokemon, outside the pokemon dataclass
-        self.curr_pokemon_ability: str | Unknown = (
-            Unknown.VALUE
-        )  # Same for current ability
+        self.active_pokemon: ActivePokemonState = ActivePokemonState()
         self._available_moves: list[AvailableMove] = []
         self.force_switch: bool = False
         self.weather: str | None = None
@@ -57,9 +84,7 @@ class BattleState:
         self.history: list[BaseEvent] = []
 
         # format data
-        self.gen: int | None = None
-        self.gametype: str | None = None
-        self.tier: str | None = None
+        self.format: BattleFormat = BattleFormat()
 
         self.custom_showdown_battlestate: SerializableObject | None = None
 
@@ -71,20 +96,24 @@ class BattleState:
     def player_id(self, value: str) -> None:
         self._player_id = value
 
+    @property
+    def gen(self) -> int:
+        gen = self.format.gen
+        if gen is None:
+            raise ValueError("gen not initialized yet")
+        return gen
+
     def to_dict(self) -> SerializableObject:
         data = {
             "player_id": self._player_id,
             "team": self._team,
             "enemy_team": self._enemy_team,
-            "curr_pokemon": self._curr_pokemon,
-            "curr_enemy_pokemon": self._curr_enemy_pokemon,
-            "curr_pokemon_status": self.curr_pokemon_status,
-            "curr_pokemon_transformed": self.curr_pokemon_transformed,
-            "curr_pokemon_ability": self.curr_pokemon_ability,
+            "active_pokemon": self.active_pokemon.to_dict(),
             "available_moves": self._available_moves,
             "force_switch": self.force_switch,
             "weather": self.weather,
             "side_conditions": self.side_conditions,
+            "format": asdict(self.format),
         }
 
         out = to_serializable_object(data)
@@ -135,14 +164,14 @@ class BattleState:
 
     @property
     def curr_pokemon(self) -> str:
-        return self._curr_pokemon
+        return self.active_pokemon.pokemon_id
 
     @property
     def curr_enemy_pokemon(self) -> str:
         return self._curr_enemy_pokemon
 
     def set_active_pokemon(self, pokemon_id: str) -> None:
-        self._curr_pokemon = pokemon_id
+        self.active_pokemon.pokemon_id = pokemon_id
 
     def clear_battle(self) -> None:
         """Discard all state learned during the current battle."""
@@ -154,11 +183,8 @@ class BattleState:
             EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100) for _ in range(6)
         ]
 
-        self._curr_pokemon = ""
+        self.active_pokemon.clear()
         self._curr_enemy_pokemon = ""
-        self.curr_pokemon_transformed = False
-        self.curr_pokemon_status = Status()
-        self.curr_pokemon_ability = Unknown.VALUE
         self._available_moves = []
 
         self.force_switch = False
@@ -169,9 +195,7 @@ class BattleState:
         self.history = []
         self.custom_showdown_battlestate = None
 
-        self.gen = None
-        self.gametype = None
-        self.tier = None
+        self.format.clear()
 
     def update_moves(self, moves: list[AvailableMove]) -> None:
         self._available_moves = moves

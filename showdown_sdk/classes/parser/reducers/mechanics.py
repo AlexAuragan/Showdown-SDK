@@ -145,7 +145,7 @@ def sync_own_two_turn_status_from_request(
     if wait:
         return
 
-    status = battle_state.curr_pokemon_status
+    status = battle_state.active_pokemon.status
     if len(moves) != 1:
         return
 
@@ -212,7 +212,7 @@ def ident_self_key(ident: PokemonIdent) -> str:
 
 
 def clear_traps_sourced_by_side(battle_state: BattleState, side: str) -> None:
-    statuses = [battle_state.curr_pokemon_status]
+    statuses = [battle_state.active_pokemon.status]
     statuses.extend(pokemon.status for pokemon in battle_state.enemy_team)
 
     for status in statuses:
@@ -269,7 +269,7 @@ def resolve_self(
 
 def resolve_any_status(battle_state: BattleState, ident: PokemonIdent) -> Status:
     if is_self(battle_state, ident):
-        return battle_state.curr_pokemon_status
+        return battle_state.active_pokemon.status
 
     pokemon = resolve_enemy(battle_state, ident)
     if pokemon is None:

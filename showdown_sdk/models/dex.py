@@ -415,40 +415,32 @@ class Dex:
         self,
         name: str,
         *,
-        gen: int | None,
+        gen: int,
     ) -> str | None:
-        if gen is None:
-            raise RuntimeError("gen is not set")
         return self.gen(gen).move_volatile_status(name)
 
     def condition_duration(
         self,
         name: str,
         *,
-        gen: int | None,
+        gen: int,
     ) -> int | None:
-        if gen is None:
-            raise RuntimeError("gen is not set")
         return self.gen(gen).condition_duration(name)
 
     def is_charge_move(
         self,
         name: str,
         *,
-        gen: int | None,
+        gen: int,
     ) -> bool:
-        if gen is None:
-            raise RuntimeError("gen is not set")
         return self.gen(gen).is_charge_move(name)
 
     def is_volatile_copyable(
         self,
         name: str,
         *,
-        gen: int | None,
+        gen: int,
     ) -> bool:
-        if gen is None:
-            raise RuntimeError("gen is not set")
         return self.gen(gen).is_volatile_copyable(name)
 
 

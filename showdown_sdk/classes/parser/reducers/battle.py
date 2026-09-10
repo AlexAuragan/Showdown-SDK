@@ -117,8 +117,6 @@ def _reduce_move(
         return
 
     gen = battle_state.gen
-    if gen is None:
-        raise RuntimeError("gen is not set")
 
     if event.source is not None:
         if event.source.type == SourceType.MOVE and event.source.name == "Mirror Move":
@@ -148,10 +146,10 @@ def _reduce_move(
         and event.does_hit
         and event.target_pokemon is not None
     ):
-        volatile_status = dex.move_volatile_status(event.move, gen=battle_state.gen)
+        volatile_status = dex.move_volatile_status(event.move, gen=gen)
         if volatile_status == MinorStatus.PARTIALLY_TRAPPED.value:
             duration = dex.condition_duration(
-                MinorStatus.PARTIALLY_TRAPPED.value, gen=battle_state.gen
+                MinorStatus.PARTIALLY_TRAPPED.value, gen=gen
             )
 
             target_status = resolve_any_status(
@@ -206,7 +204,7 @@ def _reduce_heal(battle_state: BattleState, event: HealEvent) -> None:
         own.curr_hp = event.curr_hp
         if cures_status:
             own.major_status = None
-            battle_state.curr_pokemon_status.clear_all_major_status()
+            battle_state.active_pokemon.status.clear_all_major_status()
 
 
 def _reduce_minor_status(
@@ -348,7 +346,7 @@ def _reduce_team_cure(battle_state: BattleState, event: TeamCureEvent) -> None:
     if is_self(battle_state, event.actor):
         for pokemon in battle_state.team:
             pokemon.major_status = None
-        battle_state.curr_pokemon_status.major = None
+        battle_state.active_pokemon.status.major = None
         return
 
     for pokemon in battle_state.enemy_team:
@@ -361,7 +359,7 @@ def _reduce_clear_boosts(battle_state: BattleState, event: ClearBoostsEvent) -> 
 
 
 def _reduce_clear_all_boosts(battle_state: BattleState) -> None:
-    battle_state.curr_pokemon_status.reset_all_stages()
+    battle_state.active_pokemon.status.reset_all_stages()
     for pokemon in battle_state.enemy_team:
         if pokemon.active:
             pokemon.status.reset_all_stages()
@@ -418,32 +416,30 @@ def _reduce_side_condition(
 
 def _reduce_switch(battle_state: BattleState, event: PokemonSwitchEvent) -> None:
     gen = battle_state.gen
-    if gen is None:
-        raise RuntimeError("gen is not set")
 
     if not event.baton_pass and event.command != "replace":
         clear_traps_sourced_by_side(battle_state, event.pokemon.player)
 
     if is_self(battle_state, event.pokemon):
-        old_status = battle_state.curr_pokemon_status
+        old_status = battle_state.active_pokemon.status
         new_status = Status(major=event.major_status)
 
         if event.baton_pass:
             copy_baton_pass_status(new_status, old_status, gen)
 
         battle_state.set_active_pokemon(ident_self_key(event.pokemon))
-        battle_state.curr_pokemon_transformed = False
+        battle_state.active_pokemon.transformed = False
 
         own = resolve_self(battle_state, event.pokemon)
         if own is not None:
-            battle_state.curr_pokemon_ability = own.base_ability
+            battle_state.active_pokemon.ability = own.base_ability
         else:
-            battle_state.curr_pokemon_ability = Unknown.VALUE
+            battle_state.active_pokemon.ability = Unknown.VALUE
 
         if not battle_state.team:
             return
 
-        battle_state.curr_pokemon_status = new_status
+        battle_state.active_pokemon.status = new_status
         return
 
     passed_status: Status | None = None
@@ -486,22 +482,17 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
     source_status.copy_stat_changes(target_status)
 
     if is_self(battle_state, event.pokemon):
-        if battle_state.gen is None:
-            raise RuntimeError("gen is not set")
+        battle_state.active_pokemon.transformed = True
 
-        if is_self(battle_state, event.pokemon):
-            battle_state.curr_pokemon_transformed = True
+        if battle_state.gen > 2:
+            target = resolve_enemy(battle_state, event.target)
+            if target is None:
+                raise RuntimeError(
+                    f"Transform target {event.target} not found in enemy team"
+                )
 
-            if battle_state.gen > 2:
-                target = resolve_enemy(battle_state, event.target)
-                if target is None:
-                    raise RuntimeError(
-                        f"Transform target {event.target} not found in enemy team"
-                    )
-
-                battle_state.curr_pokemon_ability = target.current_ability
-
-            return
+            battle_state.active_pokemon.ability = target.current_ability
+        return
 
     enemy = resolve_enemy(battle_state, event.pokemon)
     if enemy is None:
@@ -512,10 +503,8 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
     if own is not None:
         copied_moves = list(own.moves)
 
-        if battle_state.gen is None:
-            raise RuntimeError("gen is not set")
         if battle_state.gen > 2:
-            enemy.current_ability = battle_state.curr_pokemon_ability
+            enemy.current_ability = battle_state.active_pokemon.ability
 
     battle_state.witness_transform(
         ident_raw(event.pokemon),
@@ -529,7 +518,7 @@ def _reduce_ability(battle_state: BattleState, event: AbilityEvent) -> None:
         return
 
     if is_self(battle_state, event.pokemon):
-        battle_state.curr_pokemon_ability = event.ability
+        battle_state.active_pokemon.ability = event.ability
         return
 
     enemy = resolve_enemy(battle_state, event.pokemon)
@@ -614,8 +603,8 @@ def _reduce_perish_count(battle_state: BattleState, event: PerishCountEvent) -> 
 
 
 def _reduce_upkeep(battle_state: BattleState) -> None:
-    battle_state.curr_pokemon_status.clear_single_turn()
-    battle_state.curr_pokemon_status.tick_minor_durations()
+    battle_state.active_pokemon.status.clear_single_turn()
+    battle_state.active_pokemon.status.tick_minor_durations()
 
     for pokemon in battle_state.enemy_team:
         if pokemon.active:
@@ -730,26 +719,26 @@ def _reduce_decision_request(
     )
     if active is not None:
         battle_state.set_active_pokemon(str(active.id))
-        battle_state.curr_pokemon_status.major = active.major_status
+        battle_state.active_pokemon.status.major = active.major_status
 
         if (
             previous_active is not None
             and previous_active.id == active.id
             and previous_base_ability != active.base_ability
-            and battle_state.curr_pokemon_ability == previous_base_ability
-            and not battle_state.curr_pokemon_transformed
+            and battle_state.active_pokemon.ability == previous_base_ability
+            and not battle_state.active_pokemon.transformed
         ) or (
-            battle_state.curr_pokemon_ability is Unknown.VALUE
-            and not battle_state.curr_pokemon_transformed
+            battle_state.active_pokemon.ability is Unknown.VALUE
+            and not battle_state.active_pokemon.transformed
         ):
-            battle_state.curr_pokemon_ability = active.base_ability
+            battle_state.active_pokemon.ability = active.base_ability
 
     if battle_state.gen == 1 and not event.wait:
         has_recharge_request = any(move.id == "recharge" for move in available_moves)
         if has_recharge_request:
-            battle_state.curr_pokemon_status.add_minor(MinorStatus.RECHARGE)
+            battle_state.active_pokemon.status.add_minor(MinorStatus.RECHARGE)
         else:
-            battle_state.curr_pokemon_status.remove_minor(MinorStatus.RECHARGE)
+            battle_state.active_pokemon.status.remove_minor(MinorStatus.RECHARGE)
 
     sync_own_two_turn_status_from_request(
         battle_state,
@@ -766,7 +755,7 @@ def _reduce_game_type(battle_state: BattleState, event: GameTypeEvent) -> None:
             f"Gametype not implemented yet: {event.type} not in "
             + f"{event.IMPLEMENTED_TYPES}"
         )
-    battle_state.gametype = event.type
+    battle_state.format.gametype = event.type
 
 
 def _reduce_game_gen(battle_state: BattleState, event: GameGenEvent) -> None:
@@ -776,7 +765,7 @@ def _reduce_game_gen(battle_state: BattleState, event: GameGenEvent) -> None:
         raise NotImplementedError(
             f"Only gen up to {event.LAST_IMPLEMENTED_GEN} was implemented"
         )
-    battle_state.gen = event.gen
+    battle_state.format.gen = event.gen
 
 
 def _reduce_game_tier(_battle_state: BattleState, event: GameTierEvent) -> None:
