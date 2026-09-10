@@ -551,6 +551,7 @@ def _current_types(
 
 def _vectorize_pokemon_extras(
     species: str | None,
+    base_stats_species: str | None,
     type_override: tuple[str, ...] | None,
     *,
     status: Status | None,
@@ -570,10 +571,41 @@ def _vectorize_pokemon_extras(
         vector.extend(_vectorize_type_matchups(types, gen=gen))
 
     if _BASE_STATS_ENABLED:
-        vector.extend(_vectorize_base_stats(species, gen=gen))
+        vector.extend(_vectorize_base_stats(base_stats_species, gen=gen))
 
     assert len(vector) == _POKEMON_EXTRA_DIM
     return vector
+
+
+def _current_own_base_stats_species(
+    battle_state: BattleState, pokemon: PartyPokemon
+) -> str:
+    """
+    Return the species/form whose intrinsic base stats apply.
+
+    Forme changes affect base stats; Transform does not.
+    """
+    species = _species_from_details(pokemon.details)
+
+    if pokemon.id != battle_state.curr_pokemon:
+        return species
+
+    if battle_state.active_pokemon.forme is not None:
+        species = battle_state.active_pokemon.forme
+
+    return species
+
+
+def _enemy_base_stats_species(pokemon: EnemyPokemon) -> str:
+    """
+    Return the species/form whose intrinsic base stats apply.
+
+    Forme changes affect base stats; Transform does not.
+    """
+    if pokemon.forme is not None:
+        return pokemon.forme
+
+    return _enemy_base_species(pokemon)
 
 
 # ---------------------------------------------------------------------------
@@ -927,6 +959,9 @@ def _vectorize_party_pokemon(
         type_override = battle_state.active_pokemon.type_override
 
         current_species = _current_own_species(battle_state, pokemon)
+        base_stats_species = _current_own_base_stats_species(
+            battle_state, pokemon
+        )
     else:
         status = Status(major=pokemon.major_status)
         current_ability = pokemon.base_ability
@@ -934,6 +969,7 @@ def _vectorize_party_pokemon(
         type_override = None
 
         current_species = base_species
+        base_stats_species = base_species
 
     if len(pokemon.moves) > 4:
         raise ValueError(
@@ -950,7 +986,11 @@ def _vectorize_party_pokemon(
     # normal species, current forme, or Transform target.
     vector.extend(
         _vectorize_pokemon_extras(
-            current_species, type_override, gen=gen, status=status
+            current_species,
+            base_stats_species=base_stats_species,
+            type_override=type_override,
+            gen=gen,
+            status=status,
         )
     )
 
@@ -1048,8 +1088,8 @@ def _vectorize_enemy_pokemon(
         return [0] * _ENEMY_POKEMON_DIM
 
     base_species = _enemy_base_species(pokemon)
-
     current_species = _enemy_current_species(pokemon)
+    base_stats_species = _enemy_base_stats_species(pokemon)
 
     vector: Vector = []
 
@@ -1060,7 +1100,8 @@ def _vectorize_enemy_pokemon(
     vector.extend(
         _vectorize_pokemon_extras(
             current_species,
-            pokemon.type_override,
+            base_stats_species=base_stats_species,
+            type_override=pokemon.type_override,
             gen=gen,
             status=pokemon.status,
         )

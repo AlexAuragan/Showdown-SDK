@@ -58,6 +58,7 @@ class ActivePokemonState:
     def to_dict(self):
         return {
             "pokemon_id": self.pokemon_id,
+            "forme": self.forme,
             "status": asdict(self.status),
             "transformed_into": self.transformed_into,
             "ability": self.ability

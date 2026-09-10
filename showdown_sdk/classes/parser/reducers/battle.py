@@ -902,8 +902,10 @@ def _reduce_decision_request(
         battle_state.active_pokemon.status.major = active.major_status
 
         # Persist request-level trapping state; each request overwrites it.
-        battle_state.active_pokemon.trapped = event.trapped
-        battle_state.active_pokemon.maybe_trapped = event.maybe_trapped
+        if event.trapped is not None:
+            battle_state.active_pokemon.trapped = event.trapped
+        if event.maybe_trapped is not None:
+            battle_state.active_pokemon.maybe_trapped = event.maybe_trapped
 
         if (
             previous_active is not None

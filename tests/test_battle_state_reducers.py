@@ -33,7 +33,7 @@ from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
 def make_battle_state() -> BattleState:
     battle_state = BattleState()
     battle_state.player_id = "p1"
-    battle_state.format.gen = 5
+    battle_state.format.gen = 4
     return battle_state
 
 

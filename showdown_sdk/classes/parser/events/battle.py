@@ -332,8 +332,8 @@ class DecisionRequestEvent(BattleEvent):
     player_id: str
     request_id: int | None
     wait: bool
-    trapped: bool
-    maybe_trapped: bool
+    trapped: bool | None  # None means showdown didn't tell us
+    maybe_trapped: bool | None
     maybe_locked: bool
     maybe_disabled: bool
     update: bool
