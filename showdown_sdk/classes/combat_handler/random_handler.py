@@ -17,7 +17,9 @@ class RandomMoveCombatHandler(BaseCombatHandler):
     def select_top_actions(self, battle_state: BattleState) -> list[Action]:
         team = battle_state.team
         switch_candidates = [
-            pkmn for pkmn in team if pkmn.curr_hp > 0 and not pkmn.active
+            pkmn
+            for pkmn in team
+            if pkmn.curr_hp > 0 and (pkmn.id != battle_state.curr_pokemon)
         ]
         if battle_state.force_switch and not switch_candidates:
             raise RuntimeError(f"No switch targets available in team: {team!r}")
