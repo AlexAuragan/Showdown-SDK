@@ -14,7 +14,6 @@ class Unknown(Enum):
 
 @dataclass
 class Pokemon:
-    active: bool
     id: str | Unknown
     lvl: int
 
@@ -34,6 +33,7 @@ class PartyPokemon(Pokemon):
 
 @dataclass
 class EnemyPokemon(Pokemon):
+    active: bool = False
     gender: str | None = None
     shiny: bool = False
     curr_hp_percent: int = 100

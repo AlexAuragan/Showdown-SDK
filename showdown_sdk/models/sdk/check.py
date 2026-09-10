@@ -318,7 +318,6 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
     same("team.size", len(battle_state.team), len(own_ref_team))
 
-    own_active_slot_count = len(expect_array(own_side["active"]))
     for index, pokemon in enumerate(battle_state.team):
         ref_pokemon = own_ref_team[index]
         ref_set = obj(ref_pokemon["set"])
@@ -327,12 +326,6 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         path = f"team[{index}]/{name}"
 
         same(f"{path}.id", pokemon.id, f"{player_id}: {name}")
-
-        ref_request_active = (
-            expect_int(ref_pokemon["position"]) < own_active_slot_count
-        )
-
-        same(f"{path}.active", pokemon.active, ref_request_active)
 
         same(f"{path}.lvl", pokemon.lvl, expect_int(ref_set["level"]))
 

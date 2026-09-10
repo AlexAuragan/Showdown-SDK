@@ -45,9 +45,7 @@ def _reload_vectorizer(
     importlib.reload(vectorizer)
 
 
-def _party_pokemon(
-    species: str, *, active: bool, curr_hp: int = 300
-) -> PartyPokemon:
+def _party_pokemon(species: str, *, curr_hp: int = 300) -> PartyPokemon:
     match species:
         case "Pikachu":
             ability = "Static"
@@ -68,7 +66,6 @@ def _party_pokemon(
             raise ValueError(f"Unsupported test Pokémon: {species!r}")
 
     return PartyPokemon(
-        active=active,
         id=f"p1: {species}",
         lvl=100,
         details=f"{species}, L100",
@@ -92,9 +89,9 @@ def _battle_state() -> BattleState:
 
     battle_state.update_team(
         [
-            _party_pokemon("Pikachu", active=True),
-            _party_pokemon("Venusaur", active=False),
-            _party_pokemon("Charizard", active=False, curr_hp=0),
+            _party_pokemon("Pikachu"),
+            _party_pokemon("Venusaur"),
+            _party_pokemon("Charizard", curr_hp=0),
         ]
     )
 

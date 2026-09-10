@@ -37,11 +37,8 @@ def make_battle_state() -> BattleState:
     return battle_state
 
 
-def make_party_pokemon(
-    ident: str, species: str, *, active: bool
-) -> PartyPokemon:
+def make_party_pokemon(ident: str, species: str) -> PartyPokemon:
     return PartyPokemon(
-        active=active,
         id=ident,
         lvl=50,
         details=f"{species}, L50",
@@ -97,9 +94,7 @@ def type_change_source() -> EffectSource:
 
 def test_type_change_on_own_active_sets_type_override() -> None:
     battle_state = make_battle_state()
-    battle_state.update_team(
-        [make_party_pokemon("p1: Kecleon", "Kecleon", active=True)]
-    )
+    battle_state.update_team([make_party_pokemon("p1: Kecleon", "Kecleon")])
     battle_state.set_active_pokemon("p1: Kecleon")
 
     event = TypeChangeEvent(
@@ -116,9 +111,7 @@ def test_type_change_on_own_active_sets_type_override() -> None:
 
 def test_type_change_on_enemy_sets_enemy_type_override() -> None:
     battle_state = make_battle_state()
-    battle_state.update_team(
-        [make_party_pokemon("p1: Ditto", "Ditto", active=True)]
-    )
+    battle_state.update_team([make_party_pokemon("p1: Ditto", "Ditto")])
     battle_state.set_active_pokemon("p1: Ditto")
     switch_in_enemy(battle_state, "p2a: Bob", "Mewtwo")
 
@@ -139,9 +132,7 @@ def test_type_change_on_enemy_sets_enemy_type_override() -> None:
 
 def test_own_transform_stores_target_species() -> None:
     battle_state = make_battle_state()
-    battle_state.update_team(
-        [make_party_pokemon("p1: Ditto", "Ditto", active=True)]
-    )
+    battle_state.update_team([make_party_pokemon("p1: Ditto", "Ditto")])
     battle_state.set_active_pokemon("p1: Ditto")
     switch_in_enemy(battle_state, "p2a: Bob", "Gengar")
 
@@ -168,8 +159,8 @@ def test_enemy_transform_stores_own_species() -> None:
     battle_state = make_battle_state()
     battle_state.update_team(
         [
-            make_party_pokemon("p1: Bob", "Bob", active=True),
-            make_party_pokemon("p1: Mewtwo", "Mewtwo", active=False),
+            make_party_pokemon("p1: Bob", "Bob"),
+            make_party_pokemon("p1: Mewtwo", "Mewtwo"),
         ]
     )
     battle_state.set_active_pokemon("p1: Bob")
@@ -197,8 +188,8 @@ def test_own_switch_clears_transform_and_type_override() -> None:
     battle_state = make_battle_state()
     battle_state.update_team(
         [
-            make_party_pokemon("p1: Ditto", "Ditto", active=True),
-            make_party_pokemon("p1: Dragonite", "Dragonite", active=False),
+            make_party_pokemon("p1: Ditto", "Ditto"),
+            make_party_pokemon("p1: Dragonite", "Dragonite"),
         ]
     )
     battle_state.set_active_pokemon("p1: Ditto")
@@ -219,9 +210,7 @@ def test_own_switch_clears_transform_and_type_override() -> None:
 
 def test_enemy_switch_clears_transform_and_type_override() -> None:
     battle_state = make_battle_state()
-    battle_state.update_team(
-        [make_party_pokemon("p1: Ditto", "Ditto", active=True)]
-    )
+    battle_state.update_team([make_party_pokemon("p1: Ditto", "Ditto")])
     battle_state.set_active_pokemon("p1: Ditto")
     switch_in_enemy(battle_state, "p2a: Bob", "Mewtwo")
 
@@ -239,9 +228,7 @@ def test_enemy_switch_clears_transform_and_type_override() -> None:
 
 def test_active_pokemon_state_to_dict_exposes_fields() -> None:
     battle_state = make_battle_state()
-    battle_state.update_team(
-        [make_party_pokemon("p1: Ditto", "Ditto", active=True)]
-    )
+    battle_state.update_team([make_party_pokemon("p1: Ditto", "Ditto")])
     battle_state.set_active_pokemon("p1: Ditto")
 
     battle_state.active_pokemon.transformed_into = "Gengar"
@@ -307,9 +294,7 @@ def make_decision_request_event(
 
 def test_decision_request_persists_trapping_state() -> None:
     battle_state = make_battle_state()
-    battle_state.update_team(
-        [make_party_pokemon("p1: Ditto", "Ditto", active=True)]
-    )
+    battle_state.update_team([make_party_pokemon("p1: Ditto", "Ditto")])
     battle_state.set_active_pokemon("p1: Ditto")
 
     event = make_decision_request_event(trapped=True, maybe_trapped=True)

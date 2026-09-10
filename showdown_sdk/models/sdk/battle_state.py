@@ -37,6 +37,7 @@ class SourceType(str, Enum):
 @dataclass
 class ActivePokemonState:
     pokemon_id: str = ""
+    forme: str | None = None
     status: Status = field(default_factory=Status)
     transformed_into: str | None = None
     ability: str | Unknown = Unknown.VALUE
@@ -87,8 +88,7 @@ class BattleState:
         # Enemy team starts as 6 unknown placeholders that get filled in as
         # the opponent switches pokemon in.
         self._enemy_team: list[EnemyPokemon] = [
-            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100)
-            for _ in range(6)
+            EnemyPokemon(id=Unknown.VALUE, lvl=100) for _ in range(6)
         ]
         self._curr_enemy_pokemon: str = ""
         self.active_pokemon: ActivePokemonState = ActivePokemonState()
@@ -202,8 +202,7 @@ class BattleState:
         self.turn = 0
         self._team = []
         self._enemy_team = [
-            EnemyPokemon(active=False, id=Unknown.VALUE, lvl=100)
-            for _ in range(6)
+            EnemyPokemon(id=Unknown.VALUE, lvl=100) for _ in range(6)
         ]
 
         self.active_pokemon.clear()
@@ -240,7 +239,7 @@ class BattleState:
         self,
         pokemon_id: str,
         lvl: int,
-        species: str | None = None,
+        species: str,
         gender: str | None = None,
         shiny: bool = False,
     ) -> None:
@@ -292,9 +291,7 @@ class BattleState:
             pokemon.lvl = lvl
             pokemon.gender = gender
             pokemon.shiny = shiny
-
-            if species is not None:
-                pokemon.species = species
+            pokemon.species = species
 
         self._curr_enemy_pokemon = pokemon_id
 
@@ -314,6 +311,7 @@ class BattleState:
         Illusion and is being corrected to the actual Pokémon identity.
         Therefore volatile/current battle state must not be reset.
         """
+
         current = self.get_enemy_pokemon(
             self._curr_enemy_pokemon, not_found_ok=True
         )

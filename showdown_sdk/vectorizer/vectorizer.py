@@ -739,6 +739,31 @@ def _vectorize_side_conditions(conditions: dict[SideCondition, int]) -> Vector:
 # ---------------------------------------------------------------------------
 
 
+def _current_own_species(
+    battle_state: BattleState, pokemon: PartyPokemon
+) -> str:
+    """
+    Return the Pokémon's effective current species/form.
+
+    PartyPokemon.details is the persistent/request representation.
+
+    Active-only state is layered on top:
+        base/details -> forme -> Transform target
+    """
+    species = _species_from_details(pokemon.details)
+
+    if pokemon.id != battle_state.curr_pokemon:
+        return species
+
+    if battle_state.active_pokemon.forme is not None:
+        species = battle_state.active_pokemon.forme
+
+    if battle_state.active_pokemon.transformed_into is not None:
+        species = battle_state.active_pokemon.transformed_into
+
+    return species
+
+
 def _species_from_details(details: str) -> str:
     species = details.split(",", 1)[0].strip()
 
@@ -784,25 +809,18 @@ def _active_enemy_types(battle_state: BattleState) -> tuple[str, ...] | None:
 
 
 def _active_own_types(battle_state: BattleState) -> tuple[str, ...] | None:
-    for pokemon in battle_state.team:
-        if not pokemon.active:
-            continue
+    if not battle_state.curr_pokemon:
+        return None
 
-        current_species = _species_from_details(pokemon.details)
+    pokemon = battle_state.get_curr_pokemon()
 
-        transformed_into = battle_state.active_pokemon.transformed_into
+    current_species = _current_own_species(battle_state, pokemon)
 
-        if transformed_into is not None:
-            # Stores the effective species/form directly.
-            current_species = transformed_into
-
-        return _current_types(
-            current_species,
-            battle_state.active_pokemon.type_override,
-            gen=battle_state.gen,
-        )
-
-    return None
+    return _current_types(
+        current_species,
+        battle_state.active_pokemon.type_override,
+        gen=battle_state.gen,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -888,16 +906,22 @@ def _vectorize_party_pokemon(
 
     base_species = _species_from_details(pokemon.details)
 
-    if pokemon.active:
+    is_active = pokemon.id == battle_state.curr_pokemon
+
+    if is_active:
         status = battle_state.active_pokemon.status
         current_ability = battle_state.active_pokemon.ability
         transformed_into = battle_state.active_pokemon.transformed_into
         type_override = battle_state.active_pokemon.type_override
+
+        current_species = _current_own_species(battle_state, pokemon)
     else:
         status = Status(major=pokemon.major_status)
         current_ability = pokemon.base_ability
         transformed_into = None
         type_override = None
+
+        current_species = base_species
 
     if len(pokemon.moves) > 4:
         raise ValueError(
@@ -905,23 +929,20 @@ def _vectorize_party_pokemon(
             + f"{pokemon.id!r}, got {len(pokemon.moves)}"
         )
 
-    current_species = base_species
-
-    if transformed_into is not None:
-        # Stores the effective species/form directly.
-        current_species = transformed_into
-
     vector: Vector = [1]
 
+    # Persistent Pokémon identity.
     vector.extend(_vectorize_known_pokemon_id(base_species, gen=gen))
 
+    # Mechanical information uses the effective current species:
+    # normal species, current forme, or Transform target.
     vector.extend(
         _vectorize_pokemon_extras(current_species, type_override, gen=gen)
     )
 
     vector.extend(
         [
-            int(pokemon.active),
+            int(is_active),
             pokemon.lvl,
             pokemon.curr_hp,
             pokemon.max_hp,
@@ -943,7 +964,7 @@ def _vectorize_party_pokemon(
 
     vector.extend(
         _vectorize_known_id(
-            (None if pokemon.item == "" else pokemon.item),
+            None if pokemon.item == "" else pokemon.item,
             gen=gen,
             get_id=item_id,
         )
@@ -964,6 +985,7 @@ def _vectorize_party_pokemon(
     vector.append(int(transformed_into is not None))
 
     assert len(vector) == _OWN_POKEMON_DIM
+
     return vector
 
 
@@ -1208,17 +1230,20 @@ def _vectorize_action_mask(battle_state: BattleState) -> Vector:
         or MinorStatus.PARTIALLY_TRAPPED
         in battle_state.active_pokemon.status.minor
     )
-    # maybe_trapped is informational only: Showdown still accepts a switch
-    # while the active Pokémon is only "maybe" trapped, so it must not zero
-    # the switch mask.
 
+    # maybe_trapped is informational only:
+    # Showdown still accepts a switch while the active Pokémon
+    # is only "maybe" trapped.
     if has_decision and (battle_state.force_switch or not trapped):
         for i, pokemon in enumerate(battle_state.team):
-            switch_mask[i] = int(pokemon.curr_hp > 0 and not pokemon.active)
+            is_active = pokemon.id == battle_state.curr_pokemon
+
+            switch_mask[i] = int(pokemon.curr_hp > 0 and not is_active)
 
     vector: Vector = cast(Vector, move_mask + switch_mask)
 
     assert len(vector) == _ACTION_MASK_DIM
+
     return vector
 
 

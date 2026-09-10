@@ -497,12 +497,8 @@ def _reduce_switch(
         if event.baton_pass:
             copy_baton_pass_status(new_status, old_status, gen)
 
+        battle_state.active_pokemon.clear()
         battle_state.set_active_pokemon(ident_self_key(event.pokemon))
-
-        battle_state.active_pokemon.transformed_into = None
-        battle_state.active_pokemon.type_override = None
-        battle_state.active_pokemon.trapped = False
-        battle_state.active_pokemon.maybe_trapped = False
 
         own = resolve_self(battle_state, event.pokemon)
 
@@ -612,14 +608,11 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
             f"Transform target species unknown for {event.target}"
         )
 
-    if own.active:
-        # Transform copies explicit current typing as well.
-        enemy.type_override = battle_state.active_pokemon.type_override
+    # Transform copies explicit current typing as well.
+    enemy.type_override = battle_state.active_pokemon.type_override
 
-        if battle_state.gen > 2:
-            enemy.current_ability = battle_state.active_pokemon.ability
-    else:
-        enemy.type_override = None
+    if battle_state.gen > 2:
+        enemy.current_ability = battle_state.active_pokemon.ability
 
     battle_state.witness_transform(
         ident_raw(event.pokemon), target_species, copied_moves
@@ -765,7 +758,20 @@ def _reduce_type_change(
 def _reduce_forme_change(
     battle_state: BattleState, event: FormeChangeEvent
 ) -> None:
+    own = resolve_self(battle_state, event.pokemon)
+
+    if own is not None:
+        if own.id != battle_state.curr_pokemon:
+            raise RuntimeError(
+                "Received forme change for non-active own Pokémon: "
+                + repr(own.id)
+            )
+
+        battle_state.active_pokemon.forme = event.forme
+        return
+
     enemy = resolve_enemy(battle_state, event.pokemon)
+
     if enemy is not None:
         enemy.forme = event.forme
 
@@ -828,7 +834,6 @@ def _reduce_decision_request(
                 id=pokemon.ident,
                 details=pokemon.details,
                 lvl=pokemon.level,
-                active=pokemon.active,
                 stats=stats,
                 moves=list(pokemon.moves),
                 base_ability=pokemon.base_ability,
@@ -843,7 +848,12 @@ def _reduce_decision_request(
     battle_state.update_team(available_pokemons)
 
     active = next(
-        (pokemon for pokemon in available_pokemons if pokemon.active), None
+        (
+            pokemon
+            for pokemon in available_pokemons
+            if pokemon.id == battle_state.curr_pokemon
+        ),
+        None,
     )
     if active is not None:
         battle_state.set_active_pokemon(str(active.id))
@@ -900,12 +910,13 @@ def _reduce_game_gen(battle_state: BattleState, event: GameGenEvent) -> None:
     battle_state.format.gen = event.gen
 
 
-def _reduce_game_tier(_battle_state: BattleState, event: GameTierEvent) -> None:
+def _reduce_game_tier(battle_state: BattleState, event: GameTierEvent) -> None:
     if event.tier not in event.IMPLEMENTED_TIERS:
         raise NotImplementedError(
             f"Game tier not implemented yet: {event.tier} not in "
             + f"{event.IMPLEMENTED_TIERS}"
         )
+    battle_state.format.tier = event.tier
 
 
 def _reduce_partial_trap(
