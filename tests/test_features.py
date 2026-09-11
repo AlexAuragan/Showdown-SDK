@@ -246,6 +246,8 @@ def test_available_actions_match_legality(battle_state: BattleState):
     assert thunderbolt.disabled is False
     assert thunderbolt.current_pp == 15
 
+    # Disabled moves are excluded; available_actions only contains
+    # actions the client can *legitimately* send.
     thunder_wave = next(
         (
             action.move
@@ -254,10 +256,7 @@ def test_available_actions_match_legality(battle_state: BattleState):
         ),
         None,
     )
-    assert thunder_wave is not None
-    assert thunder_wave.disabled is True
-    assert thunder_wave.current_pp == 20
-    assert thunder_wave.request_index == 1
+    assert thunder_wave is None
 
     # Own switch options: Venusaur only; Charizard is fainted and the
     # active Pikachu cannot switch into itself.

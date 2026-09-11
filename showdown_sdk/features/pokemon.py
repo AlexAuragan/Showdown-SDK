@@ -180,9 +180,15 @@ def own_pokemon_to_features(
         ),
         item=canonical(pokemon.item) if pokemon.item else None,
         moves=tuple(
-            OwnMoveFeatures(present=True, name=canonical_move(move))
-            for move in pokemon.moves
-        ),
+            [
+                OwnMoveFeatures(present=True, name=canonical_move(move))
+                for move in pokemon.moves
+            ]
+            + [
+                OwnMoveFeatures(present=False)
+                for _ in range(4 - len(pokemon.moves))
+            ]
+        )[:4],
         status=status,
         stats=StatFeatures(
             hp=hp_max,

@@ -43,19 +43,23 @@ def available_actions_to_features(
     """Every action the client can legitimately send to Showdown right now."""
     actions: list[ActionFeatures] = []
 
-    for index, move in enumerate(battle_state.available_moves):
-        actions.append(
-            ActionFeatures(
-                kind="move",
-                move=MoveActionFeatures(
-                    request_index=index,
-                    name=canonical_move(move.name or move.id),
-                    current_pp=move.curr_pp,
-                    max_pp=move.max_pp,
-                    disabled=move.disabled,
-                ),
+    if not battle_state.force_switch:
+        for index, move in enumerate(battle_state.available_moves):
+            if move.disabled:
+                continue
+
+            actions.append(
+                ActionFeatures(
+                    kind="move",
+                    move=MoveActionFeatures(
+                        request_index=index,
+                        name=canonical_move(move.name or move.id),
+                        current_pp=move.curr_pp,
+                        max_pp=move.max_pp,
+                        disabled=False,
+                    ),
+                )
             )
-        )
 
     for index, pokemon in enumerate(battle_state.team):
         if not _switch_is_legal(battle_state, index):
