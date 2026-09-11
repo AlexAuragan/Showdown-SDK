@@ -23,7 +23,7 @@ _FEATURE_ENV_VAR = "SHOWDOWN_SDK_VECTOR_FEATURES"
 
 
 @pytest.fixture(autouse=True)
-def _restore_vectorizer_environment(  # pyright:ignore[reportUnusedFunction]
+def _restore_vectorizer_environment(  # pyright: ignore[reportUnusedFunction]
     monkeypatch: pytest.MonkeyPatch,
 ) -> Iterator[None]:
     original = os.environ.get(_FEATURE_ENV_VAR)

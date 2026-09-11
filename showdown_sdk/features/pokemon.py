@@ -252,9 +252,11 @@ def enemy_pokemon_to_features(
     )
 
     moves: list[Knowledge[str]] = [
-        Knowledge(known=True, value=canonical_move(m))
-        if m is not Unknown.VALUE
-        else unknown()
+        (
+            Knowledge(known=True, value=canonical_move(m))
+            if m is not Unknown.VALUE
+            else unknown()
+        )
         for m in pokemon.learnt_moves
     ]
 

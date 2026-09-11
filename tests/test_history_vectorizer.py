@@ -40,9 +40,7 @@ from showdown_sdk.vectorizer import (
 _HISTORY_LENGTH_ENV_VAR = "SHOWDOWN_SDK_VECTOR_HISTORY_LENGTH"
 
 
-# ---------------------------------------------------------------------------
-# Environment
-# ---------------------------------------------------------------------------
+## Environment
 
 
 @pytest.fixture(autouse=True)
@@ -72,9 +70,7 @@ def _reload_history(
     importlib.reload(history)
 
 
-# ---------------------------------------------------------------------------
-# Test fixtures
-# ---------------------------------------------------------------------------
+## Test fixtures
 
 
 def _party_pokemon(species: str, *, curr_hp: int = 300) -> PartyPokemon:
@@ -163,9 +159,8 @@ def _rows(vector: history.Vector) -> list[history.Vector]:
     return [vector[index : index + dim] for index in range(0, len(vector), dim)]
 
 
-# ---------------------------------------------------------------------------
-# Stable row offsets
-# ---------------------------------------------------------------------------
+## Stable row offsets
+
 
 _PRESENT = 0
 _EVENT_TYPE = 1
@@ -214,9 +209,7 @@ _TYPES_KNOWN = 69
 _TYPES = slice(70, 88)
 
 
-# ---------------------------------------------------------------------------
-# Schema / configuration
-# ---------------------------------------------------------------------------
+## Schema / configuration
 
 
 def test_history_event_dimension_is_stable() -> None:
@@ -251,9 +244,7 @@ def test_invalid_history_length_is_rejected(
         importlib.reload(history)
 
 
-# ---------------------------------------------------------------------------
-# Padding / temporal ordering
-# ---------------------------------------------------------------------------
+## Padding / temporal ordering
 
 
 def test_empty_history_is_all_zero_padding(
@@ -330,9 +321,7 @@ def test_history_keeps_last_n_meaningful_events(
     assert rows[1][_TURN] == 2
 
 
-# ---------------------------------------------------------------------------
-# Identity encoding
-# ---------------------------------------------------------------------------
+## Identity encoding
 
 
 def test_own_identity_uses_request_team_order() -> None:
@@ -374,9 +363,7 @@ def test_move_event_encodes_actor_and_target_identity() -> None:
     assert row[_TARGET] == [1, 2, 1]
 
 
-# ---------------------------------------------------------------------------
-# Move event
-# ---------------------------------------------------------------------------
+## Move event
 
 
 def test_move_event_payload() -> None:
@@ -435,9 +422,7 @@ def test_failed_move_has_success_and_hit_flags_cleared() -> None:
     assert row[_DOES_HIT] == 0
 
 
-# ---------------------------------------------------------------------------
-# Damage / EffectSource causality
-# ---------------------------------------------------------------------------
+## Damage / EffectSource causality
 
 
 def test_damage_event_inherits_move_source_and_action_id() -> None:
@@ -513,9 +498,7 @@ def test_non_move_damage_does_not_encode_effectiveness() -> None:
     assert row[_EFFECTIVENESS] == [0, 0]
 
 
-# ---------------------------------------------------------------------------
-# Switch event
-# ---------------------------------------------------------------------------
+## Switch event
 
 
 def test_switch_event_encodes_species_hp_level_and_known_no_status() -> None:
@@ -548,9 +531,7 @@ def test_switch_event_encodes_species_hp_level_and_known_no_status() -> None:
     assert row[_MAJOR_STATUS] == [1, 0]
 
 
-# ---------------------------------------------------------------------------
-# Stat events
-# ---------------------------------------------------------------------------
+## Stat events
 
 
 def test_stat_change_encodes_relative_deltas() -> None:
@@ -613,9 +594,7 @@ def test_multiple_changes_to_same_stat_are_accumulated() -> None:
     assert row[_STAT_VALUES][atk_index] == 2
 
 
-# ---------------------------------------------------------------------------
-# Type change
-# ---------------------------------------------------------------------------
+## Type change
 
 
 def test_type_change_is_multi_hot() -> None:
@@ -655,9 +634,7 @@ def test_known_typeless_type_change_has_no_type_bits() -> None:
     assert value[1:] == [0] * 18
 
 
-# ---------------------------------------------------------------------------
-# Major status
-# ---------------------------------------------------------------------------
+## Major status
 
 
 def test_major_status_event_payload() -> None:
@@ -721,9 +698,7 @@ def test_major_status_cure_has_applied_flag_cleared() -> None:
     assert row[_APPLIED] == 0
 
 
-# ---------------------------------------------------------------------------
-# Ability
-# ---------------------------------------------------------------------------
+## Ability
 
 
 def test_ability_event_payload() -> None:
@@ -762,9 +737,7 @@ def test_inactive_ability_event_keeps_ability_identity() -> None:
     assert row[_ACTIVE] == 0
 
 
-# ---------------------------------------------------------------------------
-# Items
-# ---------------------------------------------------------------------------
+## Items
 
 
 def test_item_consumed_event_payload() -> None:
@@ -827,9 +800,7 @@ def test_item_transfer_tracks_previous_owner() -> None:
     assert row[_CONSUMED] == 0
 
 
-# ---------------------------------------------------------------------------
-# Weather
-# ---------------------------------------------------------------------------
+## Weather
 
 
 def test_weather_start_payload() -> None:
@@ -890,9 +861,7 @@ def test_weather_end_payload() -> None:
     assert row[_STARTED] == 0
 
 
-# ---------------------------------------------------------------------------
-# Side conditions
-# ---------------------------------------------------------------------------
+## Side conditions
 
 
 def test_enemy_side_condition_start() -> None:
@@ -973,9 +942,7 @@ def test_field_side_condition_uses_field_side_id() -> None:
     ]
 
 
-# ---------------------------------------------------------------------------
-# Transform
-# ---------------------------------------------------------------------------
+## Transform
 
 
 def test_transform_event_tracks_source_and_target() -> None:
@@ -1007,9 +974,7 @@ def test_transform_event_tracks_source_and_target() -> None:
     assert row[_ACTION_ID] == 60
 
 
-# ---------------------------------------------------------------------------
-# Perish count
-# ---------------------------------------------------------------------------
+## Perish count
 
 
 def test_perish_count_event_payload() -> None:
@@ -1052,9 +1017,7 @@ def test_perish_zero_is_known_not_missing() -> None:
     assert row[_PERISH_COUNT] == [1, 0]
 
 
-# ---------------------------------------------------------------------------
-# Forme change
-# ---------------------------------------------------------------------------
+## Forme change
 
 
 def test_forme_change_encodes_new_form_species() -> None:
@@ -1083,9 +1046,7 @@ def test_forme_change_encodes_new_form_species() -> None:
     assert row[_ABILITY] == [1, ability_id("Forecast", 4)]
 
 
-# ---------------------------------------------------------------------------
-# Replay-style sequence
-# ---------------------------------------------------------------------------
+## Replay-style sequence
 
 
 def test_realistic_battle_sequence_preserves_temporal_structure(

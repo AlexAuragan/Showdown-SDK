@@ -182,10 +182,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
     ref: SerializableObject = battle_state.custom_showdown_battlestate
 
-    # ------------------------------------------------------------------
-    # Battle-level state
-    # ------------------------------------------------------------------
-
+    ## Battle-level state
     player_id = battle_state.player_id
 
     if player_id is None:
@@ -220,10 +217,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         expect_string(field["weather"]),
     )
 
-    # ------------------------------------------------------------------
-    # Sides
-    # ------------------------------------------------------------------
-
+    ## Sides
     sides = objs(ref["sides"])
 
     side_by_id = {expect_string(side["id"]): side for side in sides}
@@ -292,10 +286,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
     same("trick_room", sdk_trick_room, "trickroom" in pseudo_weather)
 
-    # ------------------------------------------------------------------
-    # Own team
-    # ------------------------------------------------------------------
-    #
+    ## Own team
     # Our own team is completely known, so these comparisons should be exact.
 
     own_ref_team = objs(own_side["pokemon"])
@@ -391,9 +382,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         expect_int(own_side["pokemonLeft"]),
     )
 
-    # ------------------------------------------------------------------
-    # Own active Pokémon
-    # ------------------------------------------------------------------
+    ## Own active Pokémon
 
     own_active = [
         pokemon for pokemon in own_ref_team if expect_bool(pokemon["isActive"])
@@ -522,9 +511,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                     ref_slot_disabled or ref_pp <= 0,
                 )
 
-    # ------------------------------------------------------------------
-    # Opponent team
-    # ------------------------------------------------------------------
+    ## Opponent team
     #
     # This is deliberately asymmetric with our own team.
     #
@@ -760,9 +747,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 True,
             )
 
-    # ------------------------------------------------------------------
-    # Active opponent
-    # ------------------------------------------------------------------
+    ## Active opponent
 
     foe_active = [
         pokemon for pokemon in foe_ref_team if expect_bool(pokemon["isActive"])
@@ -782,9 +767,8 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             f"{foe_id}a: {expect_string(active_set['name'])}",
         )
 
-    # ------------------------------------------------------------------
-    # INTENTIONALLY NOT CHECKED
-    # ------------------------------------------------------------------
+    ## INTENTIONALLY NOT CHECKED
+
     #
     # - Hidden opponent fields that are still Unknown.
     #   Showdown knows them, but requiring equality would make the SDK cheat.

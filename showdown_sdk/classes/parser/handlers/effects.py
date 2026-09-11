@@ -72,7 +72,7 @@ MINOR_STATUS_BY_NAME: dict[str, MinorStatus] = {
 SIDE_CONDITION_VALUES = {condition.value for condition in SideCondition}
 
 
-# --- Shared builders (multiple handlers) -----------------------------------
+## Shared builders (multiple handlers)
 
 
 def _major_status_event(
@@ -263,7 +263,7 @@ def _minor_status_or_none(value: str) -> MinorStatus | None:
     return MINOR_STATUS_BY_NAME.get(normalized)
 
 
-# --- Effect handlers (registry entries) ------------------------------------
+## Effect handlers (registry entries)
 
 
 ## Effect handlers

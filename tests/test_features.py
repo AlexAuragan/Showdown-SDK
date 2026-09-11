@@ -99,9 +99,7 @@ def battle_state() -> BattleState:
     return battle_state
 
 
-# ---------------------------------------------------------------------------
-# Structural + JSON
-# ---------------------------------------------------------------------------
+## Structural + JSON
 
 
 def test_team_slots_are_always_six(battle_state: BattleState):
@@ -131,9 +129,7 @@ def test_schema_version(battle_state: BattleState):
     assert features.schema_version == FEATURE_SCHEMA_VERSION == 1
 
 
-# ---------------------------------------------------------------------------
-# Pokémon semantics
-# ---------------------------------------------------------------------------
+## Pokémon semantics
 
 
 def test_active_own_pokemon_current_state(battle_state: BattleState):
@@ -173,9 +169,7 @@ def test_empty_own_slot_has_no_known_values(battle_state: BattleState):
     assert all(not move.present for move in empty.moves)
 
 
-# ---------------------------------------------------------------------------
-# Unknown vs known-none vs known-value
-# ---------------------------------------------------------------------------
+## Unknown vs known-none vs known-value
 
 
 def test_enemy_knowledge_tri_state(battle_state: BattleState):
@@ -230,9 +224,7 @@ def test_unrevealed_enemy_slot(battle_state: BattleState):
     assert all(not move.known for move in unrevealed.moves)
 
 
-# ---------------------------------------------------------------------------
-# Actions
-# ---------------------------------------------------------------------------
+## Actions
 
 
 def test_available_actions_match_legality(battle_state: BattleState):
@@ -295,9 +287,7 @@ def test_force_switch_has_no_move_actions(battle_state: BattleState):
     assert features.force_switch is True
 
 
-# ---------------------------------------------------------------------------
-# Field / format
-# ---------------------------------------------------------------------------
+## Field / format
 
 
 def test_field_features(battle_state: BattleState):
@@ -326,9 +316,7 @@ def test_clear_weather_is_none(battle_state: BattleState):
     assert features.field.weather is None
 
 
-# ---------------------------------------------------------------------------
-# History
-# ---------------------------------------------------------------------------
+## History
 
 
 def test_history_is_ordered_sequence(battle_state: BattleState):
