@@ -334,7 +334,7 @@ class Dex:
         if cls._initialized:
             return
 
-        self.root = Path("showdown_sdk/dex_data")
+        self.root = Path(__file__).resolve().parents[1] / "dex_data"
         self._generations = {}
         self._metadata = None
         cls._initialized = True
