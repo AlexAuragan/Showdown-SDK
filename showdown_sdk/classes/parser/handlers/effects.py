@@ -56,10 +56,15 @@ from showdown_sdk.classes.parser.protocol import (
     has_annotation,
     require_arguments,
 )
-from showdown_sdk.models.dex import dex
-from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus, Stat
-from showdown_sdk.models.pokemon.terrain import SideCondition, Weather
-from showdown_sdk.models.sdk.battle_state import SourceType
+from showdown_sdk.models import dex
+from showdown_sdk.models.pokemon import (
+    MajorStatus,
+    MinorStatus,
+    SideCondition,
+    Stat,
+    Weather,
+)
+from showdown_sdk.models.sdk import SourceType
 
 MINOR_STATUS_BY_NAME: dict[str, MinorStatus] = {
     status.value.casefold(): status for status in MinorStatus
@@ -259,6 +264,9 @@ def _minor_status_or_none(value: str) -> MinorStatus | None:
 
 
 # --- Effect handlers (registry entries) ------------------------------------
+
+
+## Effect handlers
 
 
 def parse_effect_message(
@@ -700,6 +708,9 @@ def _parse_details_change(
 # --- Special-rule predicates and handlers (-start / -end / -fail) ----------
 
 
+## Special rules
+
+
 def is_failed_stat_change(
     message: ProtocolMessage, _context: EffectParseContext
 ) -> bool:
@@ -1048,6 +1059,9 @@ def _parse_minor_status_end(
             started=False,
         )
     ]
+
+
+## Registries
 
 
 SIMPLE_EFFECT_HANDLERS: dict[str, EffectHandler] = {

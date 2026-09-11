@@ -7,10 +7,9 @@ from showdown_sdk.classes.parser.models import (
     ProtocolAnnotation,
     ProtocolMessage,
 )
-from showdown_sdk.utils.serialization import (
-    SerializableObject,
-    to_serializable_object,
-)
+from showdown_sdk.utils import SerializableObject, to_serializable_object
+
+## Events
 
 
 @dataclass(frozen=True)
@@ -22,13 +21,6 @@ class BaseEvent(ABC):
             "event_type": self.__class__.__name__,
             **to_serializable_object(self),
         }
-
-
-def unhandled_event(
-    message: ProtocolMessage, action_id: int | None = None
-) -> UnhandledEvent:
-    raise ValueError("Unhandled event:", message, action_id)
-    # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)
 
 
 @dataclass(frozen=True)
@@ -58,3 +50,13 @@ class DiscardedEvent(BaseEvent):
 
     command: str
     reason: str | None = None
+
+
+## Helpers
+
+
+def unhandled_event(
+    message: ProtocolMessage, action_id: int | None = None
+) -> UnhandledEvent:
+    raise ValueError("Unhandled event:", message, action_id)
+    # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)

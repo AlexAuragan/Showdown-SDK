@@ -3,19 +3,17 @@
 
 import pytest
 
-from showdown_sdk.classes.parser.fields import (
+from showdown_sdk.classes.parser import (
+    PokemonIdent,
+    ProtocolAnnotation,
+    ProtocolMessage,
     parse_condition,
     parse_move_origin,
     parse_pokemon_details,
     parse_pokemon_ident,
 )
-from showdown_sdk.classes.parser.models import (
-    PokemonIdent,
-    ProtocolAnnotation,
-    ProtocolMessage,
-)
-from showdown_sdk.models.pokemon.status import MajorStatus, Stat, Status
-from showdown_sdk.models.sdk.battle_state import SourceType
+from showdown_sdk.models.pokemon import MajorStatus, Stat, Status
+from showdown_sdk.models.sdk import SourceType
 
 
 def test_parse_pokemon_ident() -> None:

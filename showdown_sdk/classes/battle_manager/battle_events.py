@@ -6,8 +6,8 @@ BattleManager bookkeeping.
 """
 
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
-from showdown_sdk.classes.parser.events.base import BaseEvent
-from showdown_sdk.classes.parser.events.battle import (
+from showdown_sdk.classes.parser import (
+    BaseEvent,
     BattleEndEvent,
     BattleEvent,
     BattleStartEvent,
@@ -19,42 +19,7 @@ from showdown_sdk.classes.parser.events.battle import (
 )
 from showdown_sdk.classes.parser.reducers import reduce_battle_state
 
-
-def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
-    if not manager.room_id:
-        manager.room_id = event.room_id
-        manager.room_ready.set()
-
-    if manager.room_id != event.room_id:
-        raise RuntimeError(
-            "Room id changed during battle", manager.room_id, event.room_id
-        )
-
-
-def _apply_decision_request(
-    manager: BattleManager, event: DecisionRequestEvent
-) -> None:
-    new_id = None if event.wait else event.request_id
-    manager.log_manager.battle.debug(
-        "|request| update_manager: setting request_id=%r (was %r, wait=%s, "
-        + "force_switch=%s, rqid=%r)",
-        new_id,
-        manager.request_id,
-        event.wait,
-        event.force_switch,
-        event.request_id,
-        extra={"room_id": manager.room_id},
-    )
-
-    manager.request_id = new_id
-    manager.choice_rejected = False
-    manager.retry_rqid = None
-    manager.retry_count = 0
-    manager.pending_choices = []
-    manager.pending_choices_rqid = None
-
-    if not event.wait:
-        manager.last_request_id = None
+## Public API
 
 
 def apply_battle_event(manager: BattleManager, event: BattleEvent) -> None:
@@ -97,3 +62,43 @@ def apply_battle_runtime_event(
             manager.requires_team_preview = True
         case _:
             return
+
+
+## Helpers
+
+
+def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
+    if not manager.room_id:
+        manager.room_id = event.room_id
+        manager.room_ready.set()
+
+    if manager.room_id != event.room_id:
+        raise RuntimeError(
+            "Room id changed during battle", manager.room_id, event.room_id
+        )
+
+
+def _apply_decision_request(
+    manager: BattleManager, event: DecisionRequestEvent
+) -> None:
+    new_id = None if event.wait else event.request_id
+    manager.log_manager.battle.debug(
+        "|request| update_manager: setting request_id=%r (was %r, wait=%s, "
+        + "force_switch=%s, rqid=%r)",
+        new_id,
+        manager.request_id,
+        event.wait,
+        event.force_switch,
+        event.request_id,
+        extra={"room_id": manager.room_id},
+    )
+
+    manager.request_id = new_id
+    manager.choice_rejected = False
+    manager.retry_rqid = None
+    manager.retry_count = 0
+    manager.pending_choices = []
+    manager.pending_choices_rqid = None
+
+    if not event.wait:
+        manager.last_request_id = None

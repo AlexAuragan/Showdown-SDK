@@ -1,10 +1,9 @@
 from typing import TYPE_CHECKING
 
 from showdown_sdk import SideCondition, Status
-from showdown_sdk.models.dex import to_id
-from showdown_sdk.models.pokemon.pokemon import Unknown
-from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus
-from showdown_sdk.utils.serialization import (
+from showdown_sdk.models import to_id
+from showdown_sdk.models.pokemon import MajorStatus, MinorStatus, Unknown
+from showdown_sdk.utils import (
     Serializable,
     SerializableObject,
     expect_array,
@@ -16,6 +15,9 @@ from showdown_sdk.utils.serialization import (
 
 if TYPE_CHECKING:
     from showdown_sdk.models.sdk.battle_state import BattleState
+
+
+## Helpers
 
 
 def normalize_move_id(move: str) -> str:
@@ -34,27 +36,6 @@ def check_transformed(
         transformed_into is not None,
         expect_bool(ref_pokemon["transformed"]),
     )
-
-
-def same(path: str, actual: object, expected: object) -> None:
-    if actual != expected:
-        raise AssertionError(f"{path}: sdk={actual!r}, showdown={expected!r}")
-
-
-def obj(value: Serializable) -> SerializableObject:
-    return expect_object(value)
-
-
-def objs(value: Serializable) -> list[SerializableObject]:
-    return [obj(item) for item in expect_array(value)]
-
-
-def strings(value: Serializable) -> list[str]:
-    return [expect_string(item) for item in expect_array(value)]
-
-
-def major_value(status: MajorStatus | None) -> str | None:
-    return None if status is None else status.value
 
 
 def check_type_override(
@@ -190,6 +171,9 @@ def check_status(
         MinorStatus.TUNNEL in status.minor,
         two_turn_move == "dig",
     )
+
+
+## Public API
 
 
 def check_battle_state_against_showdown(battle_state: BattleState) -> None:
@@ -835,3 +819,27 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     #
     # - Form.
     #   It seems like form (ex Castform) is not directly given by Showdown, TODO later: check
+
+
+## Private helpers
+
+
+def same(path: str, actual: object, expected: object) -> None:
+    if actual != expected:
+        raise AssertionError(f"{path}: sdk={actual!r}, showdown={expected!r}")
+
+
+def obj(value: Serializable) -> SerializableObject:
+    return expect_object(value)
+
+
+def objs(value: Serializable) -> list[SerializableObject]:
+    return [obj(item) for item in expect_array(value)]
+
+
+def strings(value: Serializable) -> list[str]:
+    return [expect_string(item) for item in expect_array(value)]
+
+
+def major_value(status: MajorStatus | None) -> str | None:
+    return None if status is None else status.value

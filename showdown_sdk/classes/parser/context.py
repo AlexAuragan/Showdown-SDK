@@ -7,7 +7,9 @@ from showdown_sdk.classes.parser.models import (
     PokemonIdent,
     ProtocolMessage,
 )
-from showdown_sdk.models.pokemon.status import MajorStatus
+from showdown_sdk.models.pokemon import MajorStatus
+
+## Data models
 
 
 @dataclass

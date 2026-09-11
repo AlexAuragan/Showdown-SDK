@@ -5,12 +5,15 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import ClassVar, Self, override
 
-from showdown_sdk.utils.serialization import (
+from showdown_sdk.utils import (
     Serializable,
     SerializableObject,
     expect_bool,
     expect_object,
 )
+
+## Constants
+
 
 _DATASETS = frozenset(
     {
@@ -26,6 +29,9 @@ _DATASETS = frozenset(
 )
 
 
+## Helpers
+
+
 def to_id(value: str) -> str:
     """Normalize a human-readable Pokémon/Showdown name to a lookup ID."""
     normalized = unicodedata.normalize("NFKD", value).lower()
@@ -34,6 +40,9 @@ def to_id(value: str) -> str:
         for character in normalized
         if character.isascii() and character.isalnum()
     )
+
+
+## Data models
 
 
 @dataclass(slots=True)
@@ -299,6 +308,9 @@ class GenerationDex:
         return not expect_bool(
             raw_no_copy, name=f"condition {to_id(name)!r}.noCopy"
         )
+
+
+## Public API
 
 
 @dataclass(slots=True, init=False)

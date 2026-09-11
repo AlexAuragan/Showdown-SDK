@@ -1,8 +1,8 @@
 import os
 
-from showdown_sdk.classes.parser.events.base import BaseEvent
-from showdown_sdk.classes.parser.events.battle import (
+from showdown_sdk.classes.parser import (
     AbilityEvent,
+    BaseEvent,
     CantEvent,
     ClearAllBoostsEvent,
     ClearBoostsEvent,
@@ -11,6 +11,7 @@ from showdown_sdk.classes.parser.events.battle import (
     DamageEvent,
     DesyncEvent,
     DetailsChangeEvent,
+    EffectSource,
     FormeChangeEvent,
     HealEvent,
     ItemEvent,
@@ -23,6 +24,7 @@ from showdown_sdk.classes.parser.events.battle import (
     MovePrepareEvent,
     PartialTrapEvent,
     PerishCountEvent,
+    PokemonIdent,
     PokemonSwitchEvent,
     SetHpEvent,
     SideConditionEvent,
@@ -35,11 +37,15 @@ from showdown_sdk.classes.parser.events.battle import (
     TypeChangeEvent,
     WeatherEvent,
 )
-from showdown_sdk.classes.parser.models import EffectSource, PokemonIdent
-from showdown_sdk.models.dex import to_id
-from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus, Stat
-from showdown_sdk.models.pokemon.terrain import SideCondition, Weather
-from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
+from showdown_sdk.models import to_id
+from showdown_sdk.models.pokemon import (
+    MajorStatus,
+    MinorStatus,
+    SideCondition,
+    Stat,
+    Weather,
+)
+from showdown_sdk.models.sdk import BattleState, SourceType
 from showdown_sdk.vectorizer.utils import (
     ability_id,
     item_id,
@@ -50,9 +56,7 @@ from showdown_sdk.vectorizer.utils import (
 Vector = list[int | float]
 
 
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
+## Constants
 
 _HISTORY_LENGTH_ENV_VAR = "SHOWDOWN_SDK_VECTOR_HISTORY_LENGTH"
 _DEFAULT_HISTORY_LENGTH = 32
@@ -88,10 +92,6 @@ def _load_history_length() -> int:
 
 _HISTORY_LENGTH = _load_history_length()
 
-
-# ---------------------------------------------------------------------------
-# Stable categorical orders
-# ---------------------------------------------------------------------------
 
 # These IDs are SDK schema IDs, not Showdown/Dex IDs.
 # Never reorder once training data exists.
@@ -188,10 +188,6 @@ _TYPE_NAMES = (
 )
 
 
-# ---------------------------------------------------------------------------
-# Schema dimensions
-# ---------------------------------------------------------------------------
-
 _IDENTITY_DIM = 3
 _AFFECTED_SIDE_DIM = 2
 _SPECIES_DIM = 3
@@ -254,9 +250,7 @@ assert _HISTORY_EVENT_DIM == 88
 HISTORY_DIM = _HISTORY_LENGTH * _HISTORY_EVENT_DIM
 
 
-# ---------------------------------------------------------------------------
-# Primitive encodings
-# ---------------------------------------------------------------------------
+## Vectorization
 
 
 def _canonical_move_name(name: str) -> str:
@@ -481,11 +475,6 @@ def _source_actor(source: EffectSource) -> PokemonIdent | None:
         return source.actor
 
     return source.owner
-
-
-# ---------------------------------------------------------------------------
-# Event encoding
-# ---------------------------------------------------------------------------
 
 
 def _vectorize_history_event(
@@ -986,9 +975,7 @@ def _vectorize_history_event(
     return vector
 
 
-# ---------------------------------------------------------------------------
-# Public API
-# ---------------------------------------------------------------------------
+## Public API
 
 
 def vectorize_history(battle_state: BattleState) -> Vector:

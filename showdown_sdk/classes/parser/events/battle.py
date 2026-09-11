@@ -8,9 +8,16 @@ from showdown_sdk.classes.parser.models import (
     RequestMove,
     RequestPokemon,
 )
-from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus, Stat
-from showdown_sdk.models.pokemon.terrain import SideCondition, Weather
-from showdown_sdk.utils.serialization import SerializableObject
+from showdown_sdk.models.pokemon import (
+    MajorStatus,
+    MinorStatus,
+    SideCondition,
+    Stat,
+    Weather,
+)
+from showdown_sdk.utils import SerializableObject
+
+## Base
 
 
 class BattleEvent(BaseEvent):
@@ -19,6 +26,9 @@ class BattleEvent(BaseEvent):
     Battle events are immutable facts. Applying them to SDK state or live
     runtime state is handled by ``parser.reducers.battle``.
     """
+
+
+## Move, damage, and status events
 
 
 @dataclass(frozen=True)
@@ -271,6 +281,9 @@ class WeatherEvent(BattleEvent):
     source: EffectSource | None = None
 
 
+## Room and lifecycle events
+
+
 @dataclass(frozen=True)
 class BattleEndEvent(BattleEvent):
     winner: str | None
@@ -297,6 +310,9 @@ class PlayerEvent(BattleEvent):
 
     slot: str
     name: str
+
+
+## Other battle events
 
 
 @dataclass(frozen=True)

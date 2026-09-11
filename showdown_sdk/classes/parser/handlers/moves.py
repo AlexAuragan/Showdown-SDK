@@ -32,7 +32,9 @@ from showdown_sdk.classes.parser.protocol import (
     is_ignored_message,
     require_arguments,
 )
-from showdown_sdk.models.sdk.battle_state import SourceType
+from showdown_sdk.models.sdk import SourceType
+
+## Handlers
 
 
 def handle_hint(message: ProtocolMessage) -> list[BaseEvent]:
@@ -132,6 +134,9 @@ def parse_move_group(
         ),
         *effects,
     ]
+
+
+## Helpers
 
 
 def _handle_move_control_message(

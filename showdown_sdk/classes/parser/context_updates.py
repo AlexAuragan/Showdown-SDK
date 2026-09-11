@@ -9,7 +9,9 @@ from showdown_sdk.classes.parser.events.battle import (
 from showdown_sdk.classes.parser.fields import parse_pokemon_ident
 from showdown_sdk.classes.parser.models import PokemonIdent, ProtocolMessage
 from showdown_sdk.classes.parser.protocol import has_annotation
-from showdown_sdk.models.dex import to_id
+from showdown_sdk.models import to_id
+
+## Ability tracking
 
 
 def pokemon_key(pokemon: PokemonIdent) -> tuple[str, str | None]:
@@ -75,6 +77,9 @@ def is_known_ability_end(
     key = pokemon_key(pokemon)
 
     return ability in context.active_ability_states.get(key, set())
+
+
+## Context updates
 
 
 def update_protocol_context(

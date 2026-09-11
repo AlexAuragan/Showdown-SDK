@@ -1,8 +1,13 @@
-from abc import ABC, abstractmethod
+from __future__ import annotations
 
-from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
+from abc import ABC, abstractmethod
+from typing import TYPE_CHECKING
+
 from showdown_sdk.classes.parser.events import BaseEvent
 from showdown_sdk.classes.parser.models import ProtocolMessage
+
+if TYPE_CHECKING:
+    from showdown_sdk.classes.battle_manager import BattleManager
 
 
 class MessageParser(ABC):

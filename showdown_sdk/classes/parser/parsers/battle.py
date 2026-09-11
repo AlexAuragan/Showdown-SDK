@@ -12,10 +12,11 @@ This is the battle parser: it only sees messages the aggregator routes to it
 (lobby/global messages such as ``|updateuser|`` never reach it).
 """
 
-from dataclasses import dataclass, replace
-from typing import override
+from __future__ import annotations
 
-from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
+from dataclasses import dataclass, replace
+from typing import TYPE_CHECKING, override
+
 from showdown_sdk.classes.parser.context import ProtocolContext
 from showdown_sdk.classes.parser.context_updates import update_protocol_context
 from showdown_sdk.classes.parser.events import BaseEvent, unhandled_event
@@ -41,7 +42,13 @@ from showdown_sdk.classes.parser.protocol import (
     is_move_boundary,
     parse_protocol_message,
 )
-from showdown_sdk.models.sdk.battle_state import BattleState
+from showdown_sdk.models.sdk import BattleState
+
+if TYPE_CHECKING:
+    from showdown_sdk.classes.battle_manager import BattleManager
+
+
+## Data models
 
 
 @dataclass(frozen=True)
@@ -52,6 +59,9 @@ class ParseResult:
     def __post_init__(self) -> None:
         if self.consumed <= 0:
             raise ValueError("ParseResult must consume at least one message")
+
+
+## Public class
 
 
 class BattleParser(MessageParser):

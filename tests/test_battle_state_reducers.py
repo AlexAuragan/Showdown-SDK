@@ -8,26 +8,20 @@ state before/after. They exercise the reducers in isolation; the vectorizer
 is deliberately not involved here (it only consumes already-correct state).
 """
 
-from showdown_sdk.classes.parser.events.battle import (
+from showdown_sdk.classes.parser import (
     DecisionRequestEvent,
-    PokemonSwitchEvent,
-    TransformEvent,
-    TypeChangeEvent,
-)
-from showdown_sdk.classes.parser.fields import parse_pokemon_ident
-from showdown_sdk.classes.parser.models import (
     EffectSource,
+    PokemonSwitchEvent,
     RequestMove,
     RequestPokemon,
-)
-from showdown_sdk.classes.parser.reducers.battle import (
-    _reduce_decision_request,
-    _reduce_transform,
+    TransformEvent,
+    TypeChangeEvent,
+    parse_pokemon_ident,
     reduce_battle_state,
 )
-from showdown_sdk.models.pokemon.pokemon import PartyPokemon
-from showdown_sdk.models.pokemon.status import Stats
-from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
+from showdown_sdk.classes.parser.reducers import battle as battle_reducers
+from showdown_sdk.models.pokemon import PartyPokemon, Stats
+from showdown_sdk.models.sdk import BattleState, SourceType
 
 
 def make_battle_state() -> BattleState:
@@ -146,7 +140,7 @@ def test_own_transform_stores_target_species() -> None:
         target=parse_pokemon_ident("p2a: Bob"),
     )
 
-    _reduce_transform(battle_state, event)
+    battle_reducers._reduce_transform(battle_state, event)
 
     # The stored value is the target's effective species, not the protocol
     # ident (whose name may be a nickname).
@@ -177,7 +171,7 @@ def test_enemy_transform_stores_own_species() -> None:
         target=parse_pokemon_ident("p1a: Bob"),
     )
 
-    _reduce_transform(battle_state, event)
+    battle_reducers._reduce_transform(battle_state, event)
 
     assert enemy.transformed_into == "Bob"
     # type_override must not be copied from the transformed-into Pokémon.
@@ -298,14 +292,14 @@ def test_decision_request_persists_trapping_state() -> None:
     battle_state.set_active_pokemon("p1: Ditto")
 
     event = make_decision_request_event(trapped=True, maybe_trapped=True)
-    _reduce_decision_request(battle_state, event)
+    battle_reducers._reduce_decision_request(battle_state, event)
 
     assert battle_state.active_pokemon.trapped is True
     assert battle_state.active_pokemon.maybe_trapped is True
 
     # A following request overwrites the previous request-level truth.
     event = make_decision_request_event(trapped=False, maybe_trapped=False)
-    _reduce_decision_request(battle_state, event)
+    battle_reducers._reduce_decision_request(battle_state, event)
 
     assert battle_state.active_pokemon.trapped is False
     assert battle_state.active_pokemon.maybe_trapped is False

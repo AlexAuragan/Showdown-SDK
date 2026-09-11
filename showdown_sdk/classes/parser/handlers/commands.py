@@ -37,6 +37,9 @@ from showdown_sdk.classes.parser.protocol import require_arguments
 CommandHandler = Callable[[str | None, ProtocolMessage, str], list[BaseEvent]]
 
 
+## Handlers
+
+
 def handle_switch(
     player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
@@ -174,6 +177,9 @@ def handle_upkeep(
     _player_id: str | None, _message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     return [UpkeepEvent()]
+
+
+## Registry
 
 
 COMMAND_HANDLERS: dict[str, CommandHandler] = {

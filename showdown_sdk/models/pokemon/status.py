@@ -2,7 +2,19 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import cast
 
-from showdown_sdk.models.dex import dex
+from showdown_sdk.models import dex
+
+## Data models
+
+
+class Stat(str, Enum):
+    ATK = "atk"
+    DEF = "def"
+    SPA = "spa"
+    SPD = "spd"
+    SPE = "spe"
+    EVA = "evasion"
+    ACC = "accuracy"
 
 
 class MajorStatus(str, Enum):
@@ -56,6 +68,57 @@ class MinorStatus(str, Enum):
     # GEN 1 only
     REFLECT = "reflect"
     LIGHT_SCREEN = "light screen"
+
+
+@dataclass
+class Stats:
+    atk: int
+    def_: int
+    spa: int
+    spd: int
+    spe: int
+    max_hp: int
+
+
+@dataclass
+class IVs:
+    hp: int = 31
+    atk: int = 31
+    def_: int = 31
+    spa: int = 31
+    spd: int = 31
+    spe: int = 31
+
+
+@dataclass
+class EVs:
+    hp: int
+    atk: int
+    def_: int
+    spa: int
+    spd: int
+    spe: int
+
+    @staticmethod
+    def from_pokemon(pokemon_id: str, gen: int):
+        pokemon_data = dex.gen(gen).pokemon(pokemon_id)
+        if not isinstance(pokemon_data, dict):
+            raise TypeError("pokemon data should be a dict")
+        evs = pokemon_data["baseStats"]
+        if not isinstance(evs, dict):
+            raise TypeError("basStats should be a dict")
+        evs = cast(dict[str, int], evs)
+        return EVs(
+            hp=evs["hp"],
+            atk=evs["atk"],
+            def_=evs["def"],
+            spa=evs["spa"],
+            spd=evs["spd"],
+            spe=evs["spe"],
+        )
+
+
+## Public API
 
 
 @dataclass
@@ -246,62 +309,4 @@ class Status:
     def clear_single_move(self) -> None:
         self.minor.difference_update(
             {MinorStatus.DESTINY_BOUND, MinorStatus.GRUDGE}
-        )
-
-
-class Stat(str, Enum):
-    ATK = "atk"
-    DEF = "def"
-    SPA = "spa"
-    SPD = "spd"
-    SPE = "spe"
-    EVA = "evasion"
-    ACC = "accuracy"
-
-
-@dataclass
-class Stats:
-    atk: int
-    def_: int
-    spa: int
-    spd: int
-    spe: int
-    max_hp: int
-
-
-@dataclass
-class IVs:
-    hp: int = 31
-    atk: int = 31
-    def_: int = 31
-    spa: int = 31
-    spd: int = 31
-    spe: int = 31
-
-
-@dataclass
-class EVs:
-    hp: int
-    atk: int
-    def_: int
-    spa: int
-    spd: int
-    spe: int
-
-    @staticmethod
-    def from_pokemon(pokemon_id: str, gen: int):
-        pokemon_data = dex.gen(gen).pokemon(pokemon_id)
-        if not isinstance(pokemon_data, dict):
-            raise TypeError("pokemon data should be a dict")
-        evs = pokemon_data["baseStats"]
-        if not isinstance(evs, dict):
-            raise TypeError("basStats should be a dict")
-        evs = cast(dict[str, int], evs)
-        return EVs(
-            hp=evs["hp"],
-            atk=evs["atk"],
-            def_=evs["def"],
-            spa=evs["spa"],
-            spd=evs["spd"],
-            spe=evs["spe"],
         )

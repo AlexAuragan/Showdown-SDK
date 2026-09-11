@@ -6,6 +6,8 @@ from showdown_sdk.classes.parser.models import (
     ProtocolMessage,
 )
 
+## Constants
+
 IGNORED_COMMANDS = {
     "",
     "title",
@@ -50,6 +52,9 @@ MOVE_BOUNDARY_COMMANDS = {
 
 ANNOTATION_PATTERN = re.compile(r"^\[(?P<name>[^\]]+)\](?:\s*(?P<value>.*))?$")
 LEVEL_PATTERN = re.compile(r"(?:^|,\s*)L(?P<level>\d+)(?:,|$)")
+
+
+## Protocol helpers
 
 
 def parse_protocol_message(line: str) -> ProtocolMessage:

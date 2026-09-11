@@ -2,10 +2,12 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from enum import Enum
 
-from showdown_sdk.models.dex import to_id
+from showdown_sdk.models import to_id
 from showdown_sdk.models.pokemon.status import MajorStatus
 
 from .status import Stats, Status
+
+## Data models
 
 
 class Unknown(Enum):

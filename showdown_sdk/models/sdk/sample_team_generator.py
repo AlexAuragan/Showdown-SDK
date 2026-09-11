@@ -4,10 +4,10 @@ import random
 from collections.abc import Awaitable, Callable
 from urllib.request import Request, urlopen
 
-from showdown_sdk.models.pokemon.status import EVs, IVs
+from showdown_sdk.models.pokemon import EVs, IVs
 from showdown_sdk.models.sdk.exceptions import TeamRejectedError
 from showdown_sdk.models.sdk.pokemon_set import PokemonSet, TeamSet
-from showdown_sdk.utils.serialization import (
+from showdown_sdk.utils import (
     Serializable,
     SerializableObject,
     expect_array,

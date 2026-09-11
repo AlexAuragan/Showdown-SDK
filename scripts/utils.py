@@ -8,10 +8,9 @@ from pathlib import Path
 
 from websockets.exceptions import WebSocketException
 
-from showdown_sdk.classes.client.client import Client
-from showdown_sdk.models.sdk.pokemon_set import TeamSet
-from showdown_sdk.models.sdk.sample_team_generator import SampleTeamGenerator
-from showdown_sdk.utils.serialization import (
+from showdown_sdk.classes.client import Client
+from showdown_sdk.models.sdk import SampleTeamGenerator, TeamSet
+from showdown_sdk.utils import (
     Serializable,
     SerializableArray,
     SerializableObject,

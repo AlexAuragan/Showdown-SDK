@@ -1,8 +1,9 @@
 from dataclasses import dataclass
 
-from showdown_sdk.models.pokemon.pokemon import EnemyPokemon, PartyPokemon
-from showdown_sdk.models.pokemon.status import MajorStatus
-from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
+from showdown_sdk.models.pokemon import EnemyPokemon, MajorStatus, PartyPokemon
+from showdown_sdk.models.sdk import BattleState, SourceType
+
+## Data models
 
 
 @dataclass(frozen=True)

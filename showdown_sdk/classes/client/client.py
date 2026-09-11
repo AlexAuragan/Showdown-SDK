@@ -4,38 +4,34 @@ from time import perf_counter
 
 from websockets.asyncio.client import ClientConnection, connect
 
-from showdown_sdk.classes.battle_manager.battle_events import apply_battle_event
-from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
-from showdown_sdk.classes.combat_handler.random_handler import (
-    RandomMoveCombatHandler,
-)
-from showdown_sdk.classes.parser.events.base import (
-    DiscardedEvent,
-    UnhandledEvent,
-)
-from showdown_sdk.classes.parser.events.battle import (
+from showdown_sdk import LogManager, log_trace
+from showdown_sdk.classes.battle_manager import BattleManager
+from showdown_sdk.classes.combat_handler import RandomMoveCombatHandler
+from showdown_sdk.classes.dt import BattleResult, Format
+from showdown_sdk.classes.parser import (
     BattleEvent,
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
-    TurnEvent,
-)
-from showdown_sdk.classes.parser.events.lobby import LobbyEvent
-from showdown_sdk.classes.parser.exceptions import (
+    DiscardedEvent,
     InvalidActionError,
+    LobbyEvent,
     ObsoleteRequestIdError,
+    Parser,
+    TurnEvent,
+    UnhandledEvent,
 )
-from showdown_sdk.classes.parser.parser import Parser
-from showdown_sdk.logger import LogManager, log_trace
-from showdown_sdk.models.sdk.check import check_battle_state_against_showdown
-from showdown_sdk.models.sdk.pokemon_set import TeamSet
+from showdown_sdk.models.sdk import TeamSet, check_battle_state_against_showdown
 
-from .dt import BattleResult, Format
+## Constants
 
 STALE_ROOM_GRACE_PERIOD = 2.0  # seconds to let the server push any
 # auto-rejoin room state after login
 
 # Evaluated at call time so the sync can be toggled on/off at runtime.
 USE_REQUEST_STATE_ENV_VAR = "SHOWDOWN_USE_REQUEST_STATE"
+
+
+## Helpers
 
 
 def use_request_state() -> bool:
@@ -45,6 +41,9 @@ def use_request_state() -> bool:
     by default.
     """
     return os.environ.get(USE_REQUEST_STATE_ENV_VAR, "1") != "0"
+
+
+## Public class
 
 
 class Client:
@@ -281,6 +280,10 @@ class Client:
                             ):
                                 received_custom_state = True
                             if isinstance(event, BattleEvent):
+                                from showdown_sdk.classes.battle_manager import (
+                                    apply_battle_event,
+                                )
+
                                 apply_battle_event(self.battle_manager, event)
                                 if isinstance(event, BattleStartEvent):
                                     if (

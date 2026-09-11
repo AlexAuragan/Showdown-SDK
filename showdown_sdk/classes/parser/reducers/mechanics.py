@@ -30,14 +30,17 @@ from showdown_sdk.classes.parser.models import (
     PokemonIdent,
     RequestMove,
 )
-from showdown_sdk.models.dex import dex, to_id
-from showdown_sdk.models.pokemon.pokemon import (
+from showdown_sdk.models import dex, to_id
+from showdown_sdk.models.pokemon import (
     EnemyPokemon,
+    MinorStatus,
     PartyPokemon,
+    Status,
     Unknown,
 )
-from showdown_sdk.models.pokemon.status import MinorStatus, Status
-from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
+from showdown_sdk.models.sdk import BattleState, SourceType
+
+## Semi-invulnerable status
 
 
 def clear_semi_invulnerable_status(status: Status) -> None:
@@ -164,6 +167,9 @@ def sync_own_two_turn_status_from_request(
         status.add_minor(minor, duration=1)
 
 
+## Reducer helpers
+
+
 def showdown_volatile_id(effect: MinorStatus) -> str:
     match effect:
         case MinorStatus.RECHARGE:
@@ -219,6 +225,9 @@ def clear_traps_sourced_by_side(battle_state: BattleState, side: str) -> None:
     for status in statuses:
         if status.trapped_by_side == side:
             status.clear_trapped()
+
+
+## Pokémon resolution
 
 
 def is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
@@ -278,6 +287,9 @@ def resolve_any_status(
             f"Pokemon {ident} not found in enemy team {battle_state.enemy_team}"
         )
     return pokemon.status
+
+
+## Source reveal
 
 
 def reveal_effect_source(

@@ -3,11 +3,16 @@ from __future__ import annotations
 import re
 from itertools import groupby
 
-from .dt import Format, FormatFlag
+from showdown_sdk.classes.dt import Format, FormatFlag
+
+## Constants
 
 # `p1a: Miltank` -> `p1: Miltank`: strip the single slot letter that action
 # lines carry but `|request|` side-level idents do not.
 _SLOT_RE = re.compile(r"^(p\d+)[a-h](: )")
+
+
+## Protocol parsing
 
 
 def split_protocol(
@@ -26,61 +31,7 @@ def split_protocol(
     return parts
 
 
-def parse_format_entry(entry: str, section: str, column: int) -> Format:
-    name, separator, raw_flags = entry.rpartition(",")
-
-    if not separator:
-        raise ValueError(f"Malformed format entry: {entry!r}")
-
-    return Format(
-        name=name,
-        flags=FormatFlag(int(raw_flags, 16)),
-        section=section,
-        column=column,
-    )
-
-
-def parse_formats(line: str) -> list[Format]:
-
-    entries = line.split("|")[2:]
-
-    formats: list[Format] = []
-    section = ""
-    column = 0
-
-    index = 0
-
-    # First entry is currently protocol metadata such as ",LL".
-    if entries and entries[0].startswith(","):
-        index += 1
-
-    while index < len(entries):
-        entry = entries[index]
-
-        if entry.startswith(","):
-            marker = entry[1:]
-
-            if marker.isdigit():
-                column = int(marker)
-
-                index += 1
-                if index >= len(entries):
-                    raise ValueError("Section marker has no section name")
-
-                section = entries[index]
-            else:
-                # Preserve unknown metadata instead of pretending
-                # it is a format.
-                pass
-
-        else:
-            formats.append(
-                parse_format_entry(entry, section=section, column=column)
-            )
-
-        index += 1
-
-    return formats
+## Debug printing
 
 
 def print_formats(formats: list[Format]) -> None:
@@ -128,6 +79,9 @@ def print_formats(formats: list[Format]) -> None:
         ]
 
         _print_table(headers, rows)
+
+
+## Helpers
 
 
 def _print_table(headers: list[str], rows: list[list[str]]) -> None:

@@ -2,12 +2,18 @@ from dataclasses import asdict, fields, is_dataclass
 from enum import Enum
 from typing import TypeGuard, cast
 
+## Constants
+
+
 type SerializableScalar = str | int | float | bool | None
 type Serializable = (
     SerializableScalar | list[Serializable] | dict[str, Serializable]
 )
 type SerializableObject = dict[str, Serializable]
 type SerializableArray = list[Serializable]
+
+
+## Helpers
 
 
 def is_serializable(value: object) -> TypeGuard[Serializable]:
@@ -118,6 +124,9 @@ def expect_optional_bool(value: object, *, name: str = "value") -> bool | None:
     if value is None:
         return None
     return expect_bool(value, name=name)
+
+
+## Serializers
 
 
 def to_serializable(value: object, *, name: str = "value") -> Serializable:

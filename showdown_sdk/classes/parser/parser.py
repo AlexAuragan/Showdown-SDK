@@ -7,9 +7,11 @@ error/choice-retry manager later).
 
 """
 
-from collections.abc import Sequence
+from __future__ import annotations
 
-from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
+from collections.abc import Sequence
+from typing import TYPE_CHECKING
+
 from showdown_sdk.classes.parser.events import BaseEvent
 from showdown_sdk.classes.parser.models import ProtocolMessage
 from showdown_sdk.classes.parser.parsers.base import MessageParser
@@ -19,6 +21,12 @@ from showdown_sdk.classes.parser.protocol import (
     extract_protocol_line,
     parse_protocol_message,
 )
+
+if TYPE_CHECKING:
+    from showdown_sdk.classes.battle_manager import BattleManager
+
+
+## Constants
 
 _LOBBY_COMMANDS = frozenset(
     {
@@ -35,6 +43,9 @@ _LOBBY_COMMANDS = frozenset(
         "teampreview",
     }
 )
+
+
+## Public class
 
 
 class Parser:

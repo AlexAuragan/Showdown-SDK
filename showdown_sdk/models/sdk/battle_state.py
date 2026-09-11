@@ -4,22 +4,22 @@ from dataclasses import asdict, dataclass, field
 from enum import Enum
 from typing import TYPE_CHECKING
 
-from showdown_sdk.models.dex import to_id
-from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import (
+from showdown_sdk.models import to_id
+from showdown_sdk.models.pokemon import (
+    AvailableMove,
     EnemyPokemon,
     PartyPokemon,
+    SideCondition,
+    Status,
     Unknown,
 )
-from showdown_sdk.models.pokemon.status import Status
-from showdown_sdk.models.pokemon.terrain import SideCondition
-from showdown_sdk.utils.serialization import (
-    SerializableObject,
-    to_serializable_object,
-)
+from showdown_sdk.utils import SerializableObject, to_serializable_object
 
 if TYPE_CHECKING:
     from showdown_sdk.classes.parser.events.base import BaseEvent
+
+
+## Data models
 
 
 class SourceType(str, Enum):
@@ -80,6 +80,9 @@ class BattleFormat:
         self.gen = None
         self.gametype = None
         self.tier = None
+
+
+## Public API
 
 
 class BattleState:

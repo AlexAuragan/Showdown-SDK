@@ -2,12 +2,15 @@ from abc import ABCMeta, abstractmethod
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, override
 
-from showdown_sdk.classes.client.dt import Format
+from showdown_sdk.classes.dt import Format
 from showdown_sdk.classes.parser.events.base import BaseEvent
-from showdown_sdk.models.sdk.exceptions import TeamRejectedError
+from showdown_sdk.models.sdk import TeamRejectedError
 
 if TYPE_CHECKING:
     from showdown_sdk.classes.client.client import Client
+
+
+## Lobby events
 
 
 class LobbyEvent(BaseEvent, metaclass=ABCMeta):

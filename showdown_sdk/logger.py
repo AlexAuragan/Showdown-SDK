@@ -10,6 +10,9 @@ from time import monotonic
 from types import TracebackType
 from typing import override
 
+## Constants
+
+
 TRACE = 5
 FILE_IO_FLUSH_INTERVAL = 0.1
 logging.addLevelName(TRACE, "TRACE")
@@ -21,6 +24,9 @@ type ExcInfo = (
     | tuple[None, None, None]
     | None
 )
+
+
+## Private helpers
 
 
 @dataclass(slots=True)
@@ -201,6 +207,9 @@ class FileIOWorker:
                     command = self._queue.get_nowait()
                 except Empty:
                     break
+
+
+## Public API
 
 
 FILE_IO_WORKER = FileIOWorker()

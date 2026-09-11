@@ -3,17 +3,20 @@ from collections.abc import Callable
 from functools import cache
 from typing import cast
 
-from showdown_sdk.models.dex import dex, to_id
-from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import (
+from showdown_sdk.models import dex, to_id
+from showdown_sdk.models.pokemon import (
+    AvailableMove,
     EnemyPokemon,
+    MajorStatus,
+    MinorStatus,
     PartyPokemon,
+    SideCondition,
+    Status,
     Unknown,
+    Weather,
 )
-from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus, Status
-from showdown_sdk.models.pokemon.terrain import SideCondition, Weather
-from showdown_sdk.models.sdk.battle_state import BattleState
-from showdown_sdk.utils.serialization import (
+from showdown_sdk.models.sdk import BattleState
+from showdown_sdk.utils import (
     SerializableObject,
     expect_array,
     expect_int,
@@ -32,9 +35,7 @@ from showdown_sdk.vectorizer.utils import (
 Vector = list[int | float]
 
 
-# ---------------------------------------------------------------------------
-# Optional features
-# ---------------------------------------------------------------------------
+## Constants
 
 _FEATURE_ENV_VAR = "SHOWDOWN_SDK_VECTOR_FEATURES"
 
@@ -85,10 +86,6 @@ _BASE_STATS_ENABLED = "base_stats" in _FEATURES
 _MOVE_METADATA_ENABLED = "move_metadata" in _FEATURES
 _MOVE_MATCHUPS_ENABLED = "move_matchups" in _FEATURES
 
-
-# ---------------------------------------------------------------------------
-# Stable categorical orders
-# ---------------------------------------------------------------------------
 
 # Keep this order stable once training data exists.
 _TYPE_NAMES = (
@@ -141,10 +138,6 @@ _TYPE_INTRO_GEN = {
 
 _MOVE_CATEGORY_IDS = {"Physical": 1, "Special": 2, "Status": 3}
 
-
-# ---------------------------------------------------------------------------
-# Base schema constants
-# ---------------------------------------------------------------------------
 
 _MINOR_STATUSES = tuple(MinorStatus)
 _SIDE_CONDITIONS = tuple(SideCondition)
@@ -244,9 +237,7 @@ _VECTOR_DIM = (
 )
 
 
-# ---------------------------------------------------------------------------
-# Dex helpers
-# ---------------------------------------------------------------------------
+## Helpers
 
 
 def _canonical_move_name(name: str) -> str:
@@ -423,9 +414,7 @@ def _type_effectiveness(
     return float(multiplier)
 
 
-# ---------------------------------------------------------------------------
-# Primitive categorical encodings
-# ---------------------------------------------------------------------------
+## Vectorization
 
 
 def _vectorize_known_id(
@@ -478,11 +467,6 @@ def _vectorize_known_pokemon_id(
 
     species_id, form_id = pokemon_id(value, gen)
     return [1, species_id, form_id]
-
-
-# ---------------------------------------------------------------------------
-# Optional Pokémon features
-# ---------------------------------------------------------------------------
 
 
 def _vectorize_types(types: tuple[str, ...] | None) -> Vector:
@@ -608,11 +592,6 @@ def _enemy_base_stats_species(pokemon: EnemyPokemon) -> str:
         return pokemon.forme
 
     return _enemy_base_species(pokemon)
-
-
-# ---------------------------------------------------------------------------
-# Optional move features
-# ---------------------------------------------------------------------------
 
 
 def _vectorize_move_metadata(move: str | Unknown | None, *, gen: int) -> Vector:
@@ -744,11 +723,6 @@ def _vectorize_known_move(
     return vector
 
 
-# ---------------------------------------------------------------------------
-# Status / field
-# ---------------------------------------------------------------------------
-
-
 def _vectorize_status(status: Status) -> Vector:
     vector: Vector = [
         status.atk_stage,
@@ -778,11 +752,6 @@ def _vectorize_side_conditions(conditions: dict[SideCondition, int]) -> Vector:
 
     assert len(vector) == _SIDE_CONDITIONS_DIM
     return vector
-
-
-# ---------------------------------------------------------------------------
-# Species helpers
-# ---------------------------------------------------------------------------
 
 
 def _current_own_species(
@@ -869,11 +838,6 @@ def _active_own_types(battle_state: BattleState) -> tuple[str, ...] | None:
     )
 
 
-# ---------------------------------------------------------------------------
-# Move slots
-# ---------------------------------------------------------------------------
-
-
 def _vectorize_move_slot(
     move: str | Unknown | None,
     *,
@@ -932,11 +896,6 @@ def _vectorize_move_slots(
 
     assert len(vector) == 4 * _MOVESET_SLOT_DIM
     return vector
-
-
-# ---------------------------------------------------------------------------
-# Own Pokémon
-# ---------------------------------------------------------------------------
 
 
 def _vectorize_party_pokemon(
@@ -1075,11 +1034,6 @@ def _vectorize_own_team(battle_state: BattleState) -> Vector:
     return vector
 
 
-# ---------------------------------------------------------------------------
-# Enemy Pokémon
-# ---------------------------------------------------------------------------
-
-
 def _vectorize_enemy_pokemon(
     pokemon: EnemyPokemon | None,
     *,
@@ -1188,11 +1142,6 @@ def _vectorize_enemy_team(battle_state: BattleState) -> Vector:
 
     assert len(vector) == 6 * _ENEMY_POKEMON_DIM
     return vector
-
-
-# ---------------------------------------------------------------------------
-# Current decision
-# ---------------------------------------------------------------------------
 
 
 def _vectorize_available_move(
@@ -1307,11 +1256,6 @@ def _vectorize_action_mask(battle_state: BattleState) -> Vector:
     return vector
 
 
-# ---------------------------------------------------------------------------
-# Global battle state
-# ---------------------------------------------------------------------------
-
-
 def _vectorize_field(battle_state: BattleState) -> Vector:
     player_id = battle_state.player_id
 
@@ -1365,9 +1309,7 @@ def _vectorize_field(battle_state: BattleState) -> Vector:
     return vector
 
 
-# ---------------------------------------------------------------------------
-# Public API
-# ---------------------------------------------------------------------------
+## Public API
 
 
 def vectorize_battle_state(battle_state: BattleState) -> Vector:

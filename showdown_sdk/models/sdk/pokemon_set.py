@@ -5,7 +5,9 @@ Pokémon representation for team building, distinct from the in-battle represent
 import re
 from dataclasses import dataclass, field
 
-from showdown_sdk.models.pokemon.status import EVs, IVs
+from showdown_sdk.models.pokemon import EVs, IVs
+
+## Data models
 
 
 @dataclass
@@ -162,6 +164,9 @@ class TeamSet:
             blocks.append(block)
 
         return cls([_parse_pokemon(block) for block in blocks])
+
+
+## Private helpers
 
 
 def _parse_pokemon(lines: list[str]) -> PokemonSet:

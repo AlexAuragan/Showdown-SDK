@@ -4,13 +4,16 @@ import asyncio
 from time import perf_counter
 from typing import TYPE_CHECKING
 
-from showdown_sdk.classes.client.dt import BattleResult
-from showdown_sdk.logger import LogManager
-from showdown_sdk.models.sdk.battle_state import BattleState
-from showdown_sdk.utils.serialization import SerializableObject
+from showdown_sdk import LogManager
+from showdown_sdk.classes.dt import BattleResult
+from showdown_sdk.models.sdk import BattleState
+from showdown_sdk.utils import SerializableObject
 
 if TYPE_CHECKING:
     from showdown_sdk.classes.parser.events.base import BaseEvent
+
+
+## Public class
 
 
 class BattleManager:

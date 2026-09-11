@@ -9,12 +9,15 @@ from collections.abc import Iterator
 
 import pytest
 
-from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import PartyPokemon, Unknown
-from showdown_sdk.models.pokemon.status import MinorStatus, Stats
-from showdown_sdk.models.sdk.battle_state import BattleState
-from showdown_sdk.vectorizer import vectorizer
-from showdown_sdk.vectorizer.utils import item_id, pokemon_id
+from showdown_sdk.models.pokemon import (
+    AvailableMove,
+    MinorStatus,
+    PartyPokemon,
+    Stats,
+    Unknown,
+)
+from showdown_sdk.models.sdk import BattleState
+from showdown_sdk.vectorizer import item_id, pokemon_id, vectorizer
 
 _FEATURE_ENV_VAR = "SHOWDOWN_SDK_VECTOR_FEATURES"
 

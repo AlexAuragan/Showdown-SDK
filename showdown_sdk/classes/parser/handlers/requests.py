@@ -19,7 +19,7 @@ from showdown_sdk.classes.parser.models import (
     RequestMove,
     RequestPokemon,
 )
-from showdown_sdk.utils.serialization import (
+from showdown_sdk.utils import (
     SerializableObject,
     expect_array,
     expect_bool,
@@ -29,22 +29,7 @@ from showdown_sdk.utils.serialization import (
     expect_string,
 )
 
-
-def _validate_keys(
-    value: SerializableObject,
-    *,
-    allowed: set[str],
-    name: str,
-    required: set[str] | None = None,
-) -> None:
-    unknown = set(value) - allowed
-    if unknown:
-        raise ValueError(f"Unhandled {name} keys: {sorted(unknown)}")
-
-    if required is not None:
-        missing = required - set(value)
-        if missing:
-            raise ValueError(f"Missing {name} keys: {sorted(missing)}")
+## Request parsing
 
 
 def parse_request_event(
@@ -471,3 +456,23 @@ def _parse_request_team_preview_event(
         max_chosen_team_size=max_chosen_team_size,
         no_cancel=no_cancel,
     )
+
+
+## Helpers
+
+
+def _validate_keys(
+    value: SerializableObject,
+    *,
+    allowed: set[str],
+    name: str,
+    required: set[str] | None = None,
+) -> None:
+    unknown = set(value) - allowed
+    if unknown:
+        raise ValueError(f"Unhandled {name} keys: {sorted(unknown)}")
+
+    if required is not None:
+        missing = required - set(value)
+        if missing:
+            raise ValueError(f"Missing {name} keys: {sorted(missing)}")

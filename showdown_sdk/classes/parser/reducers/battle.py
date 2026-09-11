@@ -73,20 +73,125 @@ from showdown_sdk.classes.parser.reducers.mechanics import (
     sync_own_two_turn_status_from_request,
     sync_sticky_barb_from_damage,
 )
-from showdown_sdk.models.dex import dex, to_id
-from showdown_sdk.models.pokemon.moves import AvailableMove
-from showdown_sdk.models.pokemon.pokemon import (
+from showdown_sdk.models import dex, to_id
+from showdown_sdk.models.pokemon import (
+    AvailableMove,
     EnemyPokemon,
-    PartyPokemon,
-    Unknown,
-)
-from showdown_sdk.models.pokemon.status import (
     MajorStatus,
     MinorStatus,
+    PartyPokemon,
     Stats,
     Status,
+    Unknown,
 )
-from showdown_sdk.models.sdk.battle_state import BattleState, SourceType
+from showdown_sdk.models.sdk import BattleState, SourceType
+
+## Public API
+
+
+def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
+    """Apply one semantic event to SDK battle state.
+
+    Every BattleEvent is handled explicitly. Adding a new BattleEvent without
+    wiring a reducer therefore fails loudly instead of silently doing nothing.
+    """
+    if not isinstance(event, BattleEvent):
+        return
+
+    source = auto_reveal_source(event)
+    if source is not None:
+        reveal_effect_source(battle_state, source)
+
+    match event:
+        case MoveEvent():
+            _reduce_move(battle_state, event)
+        case DamageEvent():
+            _reduce_damage(battle_state, event)
+        case HealEvent():
+            _reduce_heal(battle_state, event)
+        case MinorStatusEvent():
+            _reduce_minor_status(battle_state, event)
+        case MajorStatusEvent():
+            _reduce_major_status(battle_state, event)
+        case MoveCopiedEvent():
+            _reduce_move_copied(battle_state, event)
+        case MinorStatusActivationEvent():
+            _reduce_minor_status_activation(battle_state, event)
+        case StatChangeEvent():
+            _reduce_stat_change(battle_state, event)
+        case MovePrepareEvent():
+            _reduce_move_prepare(battle_state, event)
+        case MoveActivationEvent():
+            return
+        case TeamCureEvent():
+            _reduce_team_cure(battle_state, event)
+        case ClearBoostsEvent():
+            _reduce_clear_boosts(battle_state, event)
+        case ClearAllBoostsEvent():
+            _reduce_clear_all_boosts(battle_state)
+        case CopyBoostEvent():
+            _reduce_copy_boost(battle_state, event)
+        case ClearNegativeBostsEvent():
+            _reduce_clear_negative_boosts(battle_state, event)
+        case SetHpEvent():
+            _reduce_set_hp(battle_state, event)
+        case SideConditionEvent():
+            _reduce_side_condition(battle_state, event)
+        case PokemonSwitchEvent():
+            _reduce_switch(battle_state, event)
+        case TransformEvent():
+            _reduce_transform(battle_state, event)
+        case AbilityEvent():
+            _reduce_ability(battle_state, event)
+        case StatSetEvent():
+            _reduce_stat_set(battle_state, event)
+        case ItemEvent():
+            _reduce_item(battle_state, event)
+        case CantEvent():
+            _reduce_cant(battle_state, event)
+        case PerishCountEvent():
+            _reduce_perish_count(battle_state, event)
+        case TurnEvent():
+            battle_state.turn = event.turn
+        case UpkeepEvent():
+            _reduce_upkeep(battle_state)
+        case WeatherEvent():
+            _reduce_weather(battle_state, event)
+        case BattleEndEvent() | RoomEvent() | PlayerEvent():
+            return
+        case BattleStartEvent():
+            battle_state.clear_battle()
+        case SingleMoveEvent():
+            _reduce_single_move(battle_state, event)
+        case TypeChangeEvent():
+            _reduce_type_change(battle_state, event)
+        case FormeChangeEvent():
+            _reduce_forme_change(battle_state, event)
+        case DesyncEvent():
+            battle_state.gen_1_desync = True
+        case DecisionRequestEvent():
+            _reduce_decision_request(battle_state, event)
+        case GameTypeEvent():
+            _reduce_game_type(battle_state, event)
+        case GameGenEvent():
+            _reduce_game_gen(battle_state, event)
+        case GameTierEvent():
+            _reduce_game_tier(battle_state, event)
+        case PartialTrapEvent():
+            _reduce_partial_trap(battle_state, event)
+        case TeamPreviewRequestEvent():
+            battle_state.player_id = event.player_id
+        case DetailsChangeEvent():
+            _reduce_details_change(battle_state, event)
+        case CustomShowdownBattleStateEvent():
+            battle_state.custom_showdown_battlestate = event.content
+        case _:
+            raise NotImplementedError(
+                f"No BattleState reducer for {type(event).__name__}"
+            )
+
+
+## Reducers
 
 
 def _reduce_move_prepare(
@@ -971,105 +1076,3 @@ def _reduce_partial_trap(
         status.minor.add(MinorStatus.PARTIALLY_TRAPPED)
     else:
         status.minor.remove(MinorStatus.PARTIALLY_TRAPPED)
-
-
-def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
-    """Apply one semantic event to SDK battle state.
-
-    Every BattleEvent is handled explicitly. Adding a new BattleEvent without
-    wiring a reducer therefore fails loudly instead of silently doing nothing.
-    """
-    if not isinstance(event, BattleEvent):
-        return
-
-    source = auto_reveal_source(event)
-    if source is not None:
-        reveal_effect_source(battle_state, source)
-
-    match event:
-        case MoveEvent():
-            _reduce_move(battle_state, event)
-        case DamageEvent():
-            _reduce_damage(battle_state, event)
-        case HealEvent():
-            _reduce_heal(battle_state, event)
-        case MinorStatusEvent():
-            _reduce_minor_status(battle_state, event)
-        case MajorStatusEvent():
-            _reduce_major_status(battle_state, event)
-        case MoveCopiedEvent():
-            _reduce_move_copied(battle_state, event)
-        case MinorStatusActivationEvent():
-            _reduce_minor_status_activation(battle_state, event)
-        case StatChangeEvent():
-            _reduce_stat_change(battle_state, event)
-        case MovePrepareEvent():
-            _reduce_move_prepare(battle_state, event)
-        case MoveActivationEvent():
-            return
-        case TeamCureEvent():
-            _reduce_team_cure(battle_state, event)
-        case ClearBoostsEvent():
-            _reduce_clear_boosts(battle_state, event)
-        case ClearAllBoostsEvent():
-            _reduce_clear_all_boosts(battle_state)
-        case CopyBoostEvent():
-            _reduce_copy_boost(battle_state, event)
-        case ClearNegativeBostsEvent():
-            _reduce_clear_negative_boosts(battle_state, event)
-        case SetHpEvent():
-            _reduce_set_hp(battle_state, event)
-        case SideConditionEvent():
-            _reduce_side_condition(battle_state, event)
-        case PokemonSwitchEvent():
-            _reduce_switch(battle_state, event)
-        case TransformEvent():
-            _reduce_transform(battle_state, event)
-        case AbilityEvent():
-            _reduce_ability(battle_state, event)
-        case StatSetEvent():
-            _reduce_stat_set(battle_state, event)
-        case ItemEvent():
-            _reduce_item(battle_state, event)
-        case CantEvent():
-            _reduce_cant(battle_state, event)
-        case PerishCountEvent():
-            _reduce_perish_count(battle_state, event)
-        case TurnEvent():
-            battle_state.turn = event.turn
-        case UpkeepEvent():
-            _reduce_upkeep(battle_state)
-        case WeatherEvent():
-            _reduce_weather(battle_state, event)
-        case BattleEndEvent() | RoomEvent() | PlayerEvent():
-            return
-        case BattleStartEvent():
-            battle_state.clear_battle()
-        case SingleMoveEvent():
-            _reduce_single_move(battle_state, event)
-        case TypeChangeEvent():
-            _reduce_type_change(battle_state, event)
-        case FormeChangeEvent():
-            _reduce_forme_change(battle_state, event)
-        case DesyncEvent():
-            battle_state.gen_1_desync = True
-        case DecisionRequestEvent():
-            _reduce_decision_request(battle_state, event)
-        case GameTypeEvent():
-            _reduce_game_type(battle_state, event)
-        case GameGenEvent():
-            _reduce_game_gen(battle_state, event)
-        case GameTierEvent():
-            _reduce_game_tier(battle_state, event)
-        case PartialTrapEvent():
-            _reduce_partial_trap(battle_state, event)
-        case TeamPreviewRequestEvent():
-            battle_state.player_id = event.player_id
-        case DetailsChangeEvent():
-            _reduce_details_change(battle_state, event)
-        case CustomShowdownBattleStateEvent():
-            battle_state.custom_showdown_battlestate = event.content
-        case _:
-            raise NotImplementedError(
-                f"No BattleState reducer for {type(event).__name__}"
-            )

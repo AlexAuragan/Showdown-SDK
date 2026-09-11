@@ -1,6 +1,6 @@
 from typing import Protocol
 
-from showdown_sdk.models.sdk.battle_state import BattleState
+from showdown_sdk.models.sdk import BattleState
 
 
 class BaseCombatHandler(Protocol):

@@ -2,12 +2,10 @@ from dataclasses import dataclass
 from functools import cache
 from typing import Literal
 
-from showdown_sdk.models.dex import dex
-from showdown_sdk.utils.serialization import (
-    expect_int,
-    expect_object,
-    expect_string,
-)
+from showdown_sdk.models import dex
+from showdown_sdk.utils import expect_int, expect_object, expect_string
+
+## Data models
 
 
 @dataclass(frozen=True)
@@ -17,6 +15,9 @@ class IdLimits:
     move: int
     ability: int
     item: int
+
+
+## Vectorization
 
 
 @cache
@@ -225,6 +226,9 @@ def item_id(name: str, gen: int) -> int:
 
     assert 1 <= value <= id_limits(gen).item
     return value
+
+
+## Helpers
 
 
 def _main() -> None:

@@ -26,13 +26,22 @@ from showdown_sdk.classes.parser.events.base import (
 from showdown_sdk.classes.parser.events.battle import (
     AbilityEvent,
     BattleEndEvent,
+    BattleEvent,
     BattleStartEvent,
     CantEvent,
     ClearAllBoostsEvent,
+    ClearBoostsEvent,
     ClearNegativeBostsEvent,
+    CopyBoostEvent,
+    CustomShowdownBattleStateEvent,
     DamageEvent,
     DecisionRequestEvent,
+    DesyncEvent,
+    DetailsChangeEvent,
     FormeChangeEvent,
+    GameGenEvent,
+    GameTierEvent,
+    GameTypeEvent,
     HealEvent,
     ItemEvent,
     MajorStatusEvent,
@@ -42,27 +51,37 @@ from showdown_sdk.classes.parser.events.battle import (
     MoveCopiedEvent,
     MoveEvent,
     MovePrepareEvent,
+    PartialTrapEvent,
     PerishCountEvent,
     PlayerEvent,
     PokemonSwitchEvent,
+    RoomEvent,
     SetHpEvent,
     SideConditionEvent,
     SingleMoveEvent,
     StatChangeEvent,
     StatSetEvent,
     TeamCureEvent,
+    TeamPreviewRequestEvent,
     TransformEvent,
     TurnEvent,
     TypeChangeEvent,
+    UpkeepEvent,
     WeatherEvent,
 )
 from showdown_sdk.classes.parser.events.lobby import (
     FormatsEvent,
+    LobbyEvent,
     NameTakenEvent,
     PrivateMessageEvent,
+    TeamRejectedEvent,
+    TeamValidEvent,
     UpdateUserEvent,
+    UserNotFoundEvent,
 )
 from showdown_sdk.classes.parser.exceptions import (
+    InvalidActionError,
+    ObsoleteRequestIdError,
     ParserException,
     WrongRoomException,
 )
@@ -73,6 +92,8 @@ from showdown_sdk.classes.parser.fields import (
     parse_effect_source,
     parse_level,
     parse_minor_status,
+    parse_move_origin,
+    parse_pokemon_details,
     parse_pokemon_ident,
     parse_side_ident,
 )
@@ -88,11 +109,15 @@ from showdown_sdk.classes.parser.handlers.moves import (
     parse_move_group,
     parse_standalone_effect,
 )
+from showdown_sdk.classes.parser.handlers.requests import parse_request_event
 from showdown_sdk.classes.parser.models import (
     EffectSource,
+    PokemonDetails,
     PokemonIdent,
     ProtocolAnnotation,
     ProtocolMessage,
+    RequestMove,
+    RequestPokemon,
 )
 from showdown_sdk.classes.parser.parser import Parser
 from showdown_sdk.classes.parser.parsers.base import MessageParser
@@ -107,6 +132,7 @@ from showdown_sdk.classes.parser.protocol import (
     parse_protocol_message,
     require_arguments,
 )
+from showdown_sdk.classes.parser.reducers import reduce_battle_state
 
 # ruff: noqa: RUF022
 __all__ = [
@@ -118,20 +144,30 @@ __all__ = [
     "BattleParser",
     "LobbyParser",
     # Lobby events
+    "LobbyEvent",
     "UpdateUserEvent",
     "NameTakenEvent",
     "FormatsEvent",
     "PrivateMessageEvent",
+    "TeamRejectedEvent",
+    "TeamValidEvent",
+    "UserNotFoundEvent",
     # Exceptions
     "ParserException",
     "WrongRoomException",
+    "InvalidActionError",
+    "ObsoleteRequestIdError",
     # Meta models
     "ProtocolAnnotation",
     "ProtocolMessage",
     "PokemonIdent",
+    "PokemonDetails",
+    "RequestMove",
+    "RequestPokemon",
     "EffectSource",
     # Events
     "BaseEvent",
+    "BattleEvent",
     "MoveEvent",
     "DamageEvent",
     "HealEvent",
@@ -143,6 +179,8 @@ __all__ = [
     "MovePrepareEvent",
     "TeamCureEvent",
     "ClearAllBoostsEvent",
+    "ClearBoostsEvent",
+    "CopyBoostEvent",
     "ClearNegativeBostsEvent",
     "SetHpEvent",
     "SideConditionEvent",
@@ -165,6 +203,16 @@ __all__ = [
     "SingleMoveEvent",
     "TypeChangeEvent",
     "FormeChangeEvent",
+    "RoomEvent",
+    "UpkeepEvent",
+    "DesyncEvent",
+    "DetailsChangeEvent",
+    "GameGenEvent",
+    "GameTierEvent",
+    "GameTypeEvent",
+    "CustomShowdownBattleStateEvent",
+    "PartialTrapEvent",
+    "TeamPreviewRequestEvent",
     "unhandled_event",
     # Context
     "ProtocolContext",
@@ -185,6 +233,8 @@ __all__ = [
     "require_arguments",
     # Field parsers
     "parse_pokemon_ident",
+    "parse_pokemon_details",
+    "parse_move_origin",
     "parse_condition",
     "parse_level",
     "is_percentage_hp",
@@ -201,8 +251,10 @@ __all__ = [
     "handle_battle_end",
     "parse_move_group",
     "parse_standalone_effect",
+    "parse_request_event",
     # Protocol context
     "update_protocol_context",
-    # Battle state
+    # Reducers / battle state
+    "reduce_battle_state",
     "BattleStateHandler",
 ]

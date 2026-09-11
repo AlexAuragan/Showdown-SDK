@@ -8,10 +8,11 @@ any ``BattleState``. They are produced as events so they flow through the same
 each event overrides ``update_client`` directly and never touches battle state.
 """
 
-from typing import override
+from __future__ import annotations
 
-from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
-from showdown_sdk.classes.client.utils import parse_formats
+from typing import TYPE_CHECKING, override
+
+from showdown_sdk.classes.dt import parse_formats
 from showdown_sdk.classes.parser.events import BaseEvent
 from showdown_sdk.classes.parser.events.lobby import (
     FormatsEvent,
@@ -25,6 +26,12 @@ from showdown_sdk.classes.parser.events.lobby import (
 from showdown_sdk.classes.parser.models import ProtocolMessage
 from showdown_sdk.classes.parser.parsers.base import MessageParser
 from showdown_sdk.classes.parser.protocol import require_arguments
+
+if TYPE_CHECKING:
+    from showdown_sdk.classes.battle_manager import BattleManager
+
+
+## Public class
 
 
 class LobbyParser(MessageParser):

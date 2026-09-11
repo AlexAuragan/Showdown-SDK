@@ -6,8 +6,10 @@ from showdown_sdk.classes.parser.models import (
     ProtocolMessage,
 )
 from showdown_sdk.classes.parser.protocol import LEVEL_PATTERN, annotation_value
-from showdown_sdk.models.pokemon.status import MajorStatus, MinorStatus
-from showdown_sdk.models.sdk.battle_state import SourceType
+from showdown_sdk.models.pokemon import MajorStatus, MinorStatus
+from showdown_sdk.models.sdk import SourceType
+
+## Parsers
 
 
 def parse_pokemon_ident(value: str) -> PokemonIdent:
@@ -104,25 +106,6 @@ def parse_pokemon_details(details: str) -> PokemonDetails:
     return PokemonDetails(
         level=parse_level(normalized), gender=gender, shiny=shiny
     )
-
-
-def _split_source_value(value: str) -> tuple[str | None, str]:
-    normalized = value.strip()
-    if not normalized:
-        raise ValueError("Cannot parse empty effect source")
-
-    prefix, separator, name = normalized.partition(": ")
-
-    if not separator:
-        return None, normalized
-
-    prefix = prefix.strip().casefold()
-    name = name.strip()
-
-    if not prefix or not name:
-        raise ValueError(f"Invalid effect source: {value!r}")
-
-    return prefix, name
 
 
 def is_percentage_hp(
@@ -271,3 +254,25 @@ def parse_move_origin(message: ProtocolMessage) -> EffectSource | None:
         return EffectSource(type=SourceType.MOVE, name=source_name)
 
     raise ValueError(f"Unknown move origin: {from_value!r}")
+
+
+## Helpers
+
+
+def _split_source_value(value: str) -> tuple[str | None, str]:
+    normalized = value.strip()
+    if not normalized:
+        raise ValueError("Cannot parse empty effect source")
+
+    prefix, separator, name = normalized.partition(": ")
+
+    if not separator:
+        return None, normalized
+
+    prefix = prefix.strip().casefold()
+    name = name.strip()
+
+    if not prefix or not name:
+        raise ValueError(f"Invalid effect source: {value!r}")
+
+    return prefix, name
