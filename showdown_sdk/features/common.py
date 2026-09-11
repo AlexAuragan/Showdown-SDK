@@ -121,3 +121,15 @@ def hp_ratio(curr_hp: int, max_hp: int | None) -> float | None:
 
 def apply(fn: Callable[[str], str], value: str | None) -> str | None:
     return None if value is None else fn(value)
+
+
+def ability_to_feature(ability: str | None) -> str | None:
+    if not ability:
+        return None
+
+    normalized = canonical(ability)
+
+    if normalized == "noability":
+        return None
+
+    return normalized

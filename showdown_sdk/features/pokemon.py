@@ -6,6 +6,7 @@ from showdown_sdk.features.common import (
     Knowledge,
     StatFeatures,
     StatusFeatures,
+    ability_to_feature,
     canonical,
     canonical_move,
     hp_ratio,
@@ -174,10 +175,8 @@ def own_pokemon_to_features(
         hp_ratio=hp_ratio(pokemon.curr_hp, hp_max),
         hp_current=pokemon.curr_hp,
         hp_max=hp_max,
-        base_ability=canonical(pokemon.base_ability),
-        current_ability=(
-            canonical(current_ability) if current_ability else None
-        ),
+        base_ability=ability_to_feature(pokemon.base_ability),
+        current_ability=ability_to_feature(current_ability),
         item=canonical(pokemon.item) if pokemon.item else None,
         moves=tuple(
             [
@@ -281,12 +280,16 @@ def enemy_pokemon_to_features(
         fainted=pokemon.fainted,
         hp_ratio=hp,
         base_ability=(
-            knowledge(pokemon.base_ability)
+            Knowledge(
+                known=True, value=ability_to_feature(pokemon.base_ability)
+            )
             if pokemon.base_ability is not Unknown.VALUE
             else unknown()
         ),
         current_ability=(
-            knowledge(pokemon.current_ability)
+            Knowledge(
+                known=True, value=ability_to_feature(pokemon.current_ability)
+            )
             if pokemon.current_ability is not Unknown.VALUE
             else unknown()
         ),
