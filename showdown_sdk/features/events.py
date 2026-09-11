@@ -368,14 +368,12 @@ def _ident_species(
                 return canonical(species_from_details(pokemon.details))
         return None
 
-    slots = _enemy_reveal_slots(battle_state)
+    enemy = battle_state.get_enemy_pokemon(key, not_found_ok=True)
 
-    if key in slots:
-        enemy = battle_state.enemy_team[slots[key]]
-        if enemy.species is not None:
-            return canonical(enemy.species)
+    if enemy is None or enemy.species is None:
+        return None
 
-    return None
+    return canonical(enemy.species)
 
 
 def _source_actor(source: EffectSource) -> PokemonIdent | None:

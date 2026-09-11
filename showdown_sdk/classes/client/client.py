@@ -8,6 +8,7 @@ from websockets.asyncio.client import ClientConnection, connect
 from showdown_sdk import LogManager, log_trace
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.combat_handler import RandomMoveCombatHandler
+from showdown_sdk.classes.combat_handler.base_handler import BaseCombatHandler
 from showdown_sdk.classes.dt import BattleResult, Format
 from showdown_sdk.classes.parser.events.base import (
     DiscardedEvent,
@@ -61,7 +62,7 @@ class Client:
     def __init__(
         self,
         websocket_url: str,
-        combat_handler: RandomMoveCombatHandler | None = None,
+        combat_handler: BaseCombatHandler | None = None,
         log_manager: LogManager | None = None,
     ) -> None:
         # --- session state (lives for the websocket connection) -----------
@@ -72,7 +73,7 @@ class Client:
         self.formats: list[Format] = []
         self._receive_task: asyncio.Task[None] | None = None
         self.named: bool = False
-        self.combat_handler: RandomMoveCombatHandler = (
+        self.combat_handler: BaseCombatHandler = (
             combat_handler or RandomMoveCombatHandler()
         )
         self.log_manager: LogManager = (
