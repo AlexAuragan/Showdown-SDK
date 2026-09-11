@@ -1,3 +1,4 @@
+# pyright:reportImportCycles=false
 import asyncio
 import os
 from time import perf_counter
@@ -5,21 +6,26 @@ from time import perf_counter
 from websockets.asyncio.client import ClientConnection, connect
 
 from showdown_sdk import LogManager, log_trace
-from showdown_sdk.classes.battle_manager import BattleManager
+from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.combat_handler import RandomMoveCombatHandler
 from showdown_sdk.classes.dt import BattleResult, Format
-from showdown_sdk.classes.parser import (
+from showdown_sdk.classes.parser.events.base import (
+    DiscardedEvent,
+    UnhandledEvent,
+)
+from showdown_sdk.classes.parser.events.battle import (
     BattleEvent,
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
-    DiscardedEvent,
-    InvalidActionError,
-    LobbyEvent,
-    ObsoleteRequestIdError,
-    Parser,
     TurnEvent,
-    UnhandledEvent,
 )
+from showdown_sdk.classes.parser.events.lobby import LobbyEvent
+from showdown_sdk.classes.parser.events.reducers import apply_lobby_event
+from showdown_sdk.classes.parser.exceptions import (
+    InvalidActionError,
+    ObsoleteRequestIdError,
+)
+from showdown_sdk.classes.parser.parser import Parser
 from showdown_sdk.models.sdk import TeamSet, check_battle_state_against_showdown
 
 ## Constants
@@ -297,7 +303,7 @@ class Client:
                                         )
                                     self.parser.expecting_battle_room = False
                             elif isinstance(event, LobbyEvent):
-                                event.update_client(self)
+                                apply_lobby_event(self, event)
                             elif isinstance(event, DiscardedEvent):
                                 pass
                             elif isinstance(event, UnhandledEvent):

@@ -15,7 +15,7 @@ Boundary:
         model / RL
 
 ``to_features()`` describes the information; the AI project decides how to
-turn it into tensors. This layer never imports a numerical library, never
+turn it into tensors. This layer never imports a numerical library,
 truncates or pads sequences, and never assigns arbitrary categorical IDs.
 """
 

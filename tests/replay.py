@@ -53,6 +53,7 @@ from showdown_sdk.classes.parser.events import (
     LobbyEvent,
     UnhandledEvent,
 )
+from showdown_sdk.classes.parser.events.reducers import apply_lobby_event
 from showdown_sdk.models.sdk import (
     BattleState,
     check_battle_state_against_showdown,
@@ -263,7 +264,7 @@ def replay_battle_raw(
                     client.parser.expecting_battle_room = False
 
             elif isinstance(event, LobbyEvent):
-                event.update_client(client)
+                apply_lobby_event(client, event)
 
             elif isinstance(event, DiscardedEvent):
                 pass

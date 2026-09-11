@@ -200,7 +200,11 @@ def own_pokemon_to_features(
         ),
         transformed=transformed,
         forme=canonical(forme) if forme else None,
-        type_override=type_override,
+        type_override=(
+            tuple(canonical(t) for t in type_override)
+            if type_override is not None
+            else None
+        ),
     )
 
 

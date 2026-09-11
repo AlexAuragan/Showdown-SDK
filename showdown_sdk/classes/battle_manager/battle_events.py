@@ -6,8 +6,8 @@ BattleManager bookkeeping.
 """
 
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
-from showdown_sdk.classes.parser import (
-    BaseEvent,
+from showdown_sdk.classes.parser.events.base import BaseEvent
+from showdown_sdk.classes.parser.events.battle import (
     BattleEndEvent,
     BattleEvent,
     BattleStartEvent,

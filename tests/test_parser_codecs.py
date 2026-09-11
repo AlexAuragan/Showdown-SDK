@@ -26,12 +26,6 @@ def test_parse_pokemon_ident() -> None:
     )
 
 
-def test_pokemon_ident_from_str_uses_canonical_parser() -> None:
-    value = "p1a: Azumarill"
-
-    assert PokemonIdent.from_str(value) == parse_pokemon_ident(value)
-
-
 def test_parse_pokemon_ident_rejects_invalid_slot() -> None:
     with pytest.raises(ValueError):
         parse_pokemon_ident("p1z: Azumarill")

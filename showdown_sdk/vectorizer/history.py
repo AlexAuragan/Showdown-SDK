@@ -36,7 +36,7 @@ _EVENT_TYPE_IDS: dict[str, int] = {
     "clearboosts": 10,
     "clearallboosts": 11,
     "copyboost": 12,
-    "clearnativeboosts": 13,
+    "clearnegativeboosts": 13,
     "teamcure": 14,
     "weather": 15,
     "sidecondition": 16,

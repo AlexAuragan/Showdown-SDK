@@ -40,13 +40,6 @@ class PokemonIdent:
         assert isinstance(pokemon, EnemyPokemon)
         return pokemon
 
-    @staticmethod
-    def from_str(value: str) -> PokemonIdent:
-        """Parse a protocol Pokémon identifier such as ``p1a: Azumarill``."""
-        from showdown_sdk.classes.parser.fields import parse_pokemon_ident
-
-        return parse_pokemon_ident(value)
-
 
 @dataclass(frozen=True)
 class PokemonDetails:

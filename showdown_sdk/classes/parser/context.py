@@ -1,7 +1,7 @@
 from collections.abc import Callable
 from dataclasses import dataclass, field
 
-from showdown_sdk.classes.parser.events import BaseEvent
+from showdown_sdk.classes.parser.events.base import BaseEvent
 from showdown_sdk.classes.parser.models import (
     EffectSource,
     PokemonIdent,

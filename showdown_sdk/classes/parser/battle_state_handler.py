@@ -1,4 +1,4 @@
-from showdown_sdk.classes.parser.events import BaseEvent
+from showdown_sdk.classes.parser.events.base import BaseEvent
 from showdown_sdk.classes.parser.reducers import reduce_battle_state
 from showdown_sdk.models.sdk import BattleState
 
