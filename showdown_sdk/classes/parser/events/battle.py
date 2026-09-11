@@ -163,7 +163,7 @@ class CopyBoostEvent(BattleEvent):
 
 
 @dataclass(frozen=True)
-class ClearNegativeBostsEvent(BattleEvent):
+class ClearNegativeBoostsEvent(BattleEvent):
     """Resets all active Pokémon's negative stat changes to zero."""
 
     target: PokemonIdent

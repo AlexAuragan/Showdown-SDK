@@ -18,7 +18,7 @@ from showdown_sdk.classes.parser.events.battle import (
     CantEvent,
     ClearAllBoostsEvent,
     ClearBoostsEvent,
-    ClearNegativeBostsEvent,
+    ClearNegativeBoostsEvent,
     CopyBoostEvent,
     CustomShowdownBattleStateEvent,
     DamageEvent,
@@ -131,7 +131,7 @@ def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
             _reduce_clear_all_boosts(battle_state)
         case CopyBoostEvent():
             _reduce_copy_boost(battle_state, event)
-        case ClearNegativeBostsEvent():
+        case ClearNegativeBoostsEvent():
             _reduce_clear_negative_boosts(battle_state, event)
         case SetHpEvent():
             _reduce_set_hp(battle_state, event)
@@ -480,7 +480,7 @@ def _reduce_copy_boost(
 
 
 def _reduce_clear_negative_boosts(
-    battle_state: BattleState, event: ClearNegativeBostsEvent
+    battle_state: BattleState, event: ClearNegativeBoostsEvent
 ) -> None:
     status = resolve_any_status(battle_state, event.target)
     status.clear_negative_stages()

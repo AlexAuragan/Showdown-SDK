@@ -3,7 +3,7 @@ from showdown_sdk.classes.parser.events.battle import (
     BattleEvent,
     ClearAllBoostsEvent,
     ClearBoostsEvent,
-    ClearNegativeBostsEvent,
+    ClearNegativeBoostsEvent,
     CopyBoostEvent,
     DamageEvent,
     FormeChangeEvent,
@@ -344,7 +344,7 @@ def auto_reveal_source(event: BattleEvent) -> EffectSource | None:
             return source
         case CopyBoostEvent(source=source):
             return source
-        case ClearNegativeBostsEvent(source=source):
+        case ClearNegativeBoostsEvent(source=source):
             return source
         case SetHpEvent(source=source):
             return source

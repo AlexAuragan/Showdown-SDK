@@ -18,7 +18,7 @@ from showdown_sdk.classes.parser.events.battle import (
     AbilityEvent,
     ClearAllBoostsEvent,
     ClearBoostsEvent,
-    ClearNegativeBostsEvent,
+    ClearNegativeBoostsEvent,
     CopyBoostEvent,
     DamageEvent,
     DetailsChangeEvent,
@@ -261,9 +261,6 @@ def _activation_event(
 def _minor_status_or_none(value: str) -> MinorStatus | None:
     normalized = value.removeprefix("move: ").casefold()
     return MINOR_STATUS_BY_NAME.get(normalized)
-
-
-## Effect handlers (registry entries)
 
 
 ## Effect handlers
@@ -525,7 +522,7 @@ def _parse_clear_negative_boosts(
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
     target = parse_pokemon_ident(message.arguments[0])
-    return [ClearNegativeBostsEvent(source=context.source, target=target)]
+    return [ClearNegativeBoostsEvent(source=context.source, target=target)]
 
 
 def _parse_item(

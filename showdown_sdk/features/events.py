@@ -8,7 +8,7 @@ from showdown_sdk.classes.parser import (
     CantEvent,
     ClearAllBoostsEvent,
     ClearBoostsEvent,
-    ClearNegativeBostsEvent,
+    ClearNegativeBoostsEvent,
     CopyBoostEvent,
     DamageEvent,
     DesyncEvent,
@@ -77,7 +77,7 @@ _EVENT_TYPES: tuple[type[BaseEvent], ...] = (
     ClearBoostsEvent,
     ClearAllBoostsEvent,
     CopyBoostEvent,
-    ClearNegativeBostsEvent,
+    ClearNegativeBoostsEvent,
     TeamCureEvent,
     WeatherEvent,
     SideConditionEvent,
@@ -144,6 +144,8 @@ class EventFeatures:
 
     success: bool | None = None
     does_hit: bool | None = None
+
+    affected_side: str | None = None
 
     level: int | None = None
     types: tuple[str, ...] | None = None
@@ -222,6 +224,7 @@ class _Ctx:
             hp_current=self.curr_hp,
             hp_max=self.max_hp,
             hp_ratio=ratio,
+            affected_side=self.side,
             effectiveness=self.effectiveness,
             crit=self.crit,
             hit_count=self.hit_count,
@@ -337,12 +340,18 @@ def _own_slot_lookup(
 
 
 def _enemy_reveal_slots(battle_state: BattleState) -> dict[str, int]:
+    """Stable reveal-order slot numbers matching ``enemy_team_to_features``.
 
+    Filters out unknown placeholders first, then assigns 0..n in
+    iteration order.  Because new Pokémon are appended while unknowns
+    are popped, raw list indices shift; this function produces the
+    same compressed slots that ``EnemyPokemonFeatures.slot`` uses.
+    """
     slots: dict[str, int] = {}
 
-    for index, pokemon in enumerate(battle_state.enemy_team):
-        if pokemon.id is not Unknown.VALUE:
-            slots[pokemon.id] = index
+    for pokemon in battle_state.enemy_team:
+        if pokemon.id is not Unknown.VALUE and pokemon.id not in slots:
+            slots[pokemon.id] = len(slots)
 
     return slots
 
@@ -501,7 +510,7 @@ def _convert_event(event: BaseEvent, ctx: _Ctx) -> None:
             ctx.actor = event.actor
             ctx.side = relative_side(event.side, ctx.battle_state)
 
-        case ClearBoostsEvent() | ClearNegativeBostsEvent():
+        case ClearBoostsEvent() | ClearNegativeBoostsEvent():
             ctx.source = event.source
             ctx.target = event.target
 
