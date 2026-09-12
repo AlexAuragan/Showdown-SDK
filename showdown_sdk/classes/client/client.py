@@ -44,10 +44,11 @@ USE_REQUEST_STATE_ENV_VAR = "SHOWDOWN_USE_REQUEST_STATE"
 def use_request_state() -> bool:
     """Whether the client should keep the custom Showdown battle state in sync.
 
-    Controlled by the SHOWDOWN_USE_REQUEST_STATE environment variable; enabled
-    by default.
+    Controlled by the SHOWDOWN_USE_REQUEST_STATE environment variable; disabled
+    by default. The SDK uses its internal battle state directly unless the
+    variable is explicitly set to "1".
     """
-    return os.environ.get(USE_REQUEST_STATE_ENV_VAR, "1") != "0"
+    return os.environ.get(USE_REQUEST_STATE_ENV_VAR, "0") != "0"
 
 
 ## Public class
