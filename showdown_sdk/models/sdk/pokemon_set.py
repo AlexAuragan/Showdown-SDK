@@ -339,6 +339,24 @@ def _format_ivs(ivs: IVs) -> str:
     )
 
 
+def print_reproduction_teams(
+    team_1: TeamSet | None, team_2: TeamSet | None
+) -> None:
+    print("\n========== TEAM 1 ==========")
+    if team_1 is None:
+        print("<team unavailable>")
+    else:
+        print(team_1.to_showdown())
+
+    print("\n========== TEAM 2 ==========")
+    if team_2 is None:
+        print("<team unavailable>")
+    else:
+        print(team_2.to_showdown())
+
+    print("============================\n")
+
+
 if __name__ == "__main__":
     pokemon = PokemonSet(
         species="Starmie",
