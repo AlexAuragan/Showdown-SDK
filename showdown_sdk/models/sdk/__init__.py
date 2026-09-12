@@ -9,7 +9,11 @@ from showdown_sdk.models.sdk.check import (
     check_battle_state_against_showdown,
     normalize_move_id,
 )
-from showdown_sdk.models.sdk.pokemon_set import PokemonSet, TeamSet
+from showdown_sdk.models.sdk.pokemon_set import (
+    PokemonSet,
+    TeamSet,
+    print_reproduction_teams,
+)
 from showdown_sdk.models.sdk.sample_team_generator import SampleTeamGenerator
 
 __all__ = [
@@ -23,4 +27,5 @@ __all__ = [
     "TeamSet",
     "check_battle_state_against_showdown",
     "normalize_move_id",
+    "print_reproduction_teams",
 ]
