@@ -136,29 +136,93 @@ class Client:
     async def act(self) -> None:
         if self.websocket is None:
             raise RuntimeError("Client is not connected")
+
         manager = self.battle_manager
+
         if manager.room_id is None:
             raise RuntimeError("room_id not set.")
 
         manager.start_action_timeout()
+
         try:
             choices = self.combat_handler.select_top_actions(
                 manager.battle_state
             )
+
             if not choices:
                 raise RuntimeError(
                     "Combat handler produced no ranked actions for the "
                     + f"decision request (rqid={manager.request_id})"
                 )
+
             manager.pending_choices = list(choices)
             manager.pending_choices_rqid = manager.request_id
             manager.last_request_id = manager.request_id
 
+            # pending_choices always means:
+            # "ranked choices which have NOT been attempted yet."
             first_choice = manager.pending_choices.pop(0)
 
             await self._send_choice(first_choice)
+
         finally:
-            self.battle_manager.cancel_action_timeout()
+            manager.cancel_action_timeout()
+
+    async def _retry_rejected_choice(self) -> None:
+        manager = self.battle_manager
+
+        request_id = manager.last_request_id
+
+        if request_id is None:
+            raise RuntimeError(
+                "Showdown rejected a choice but no request id is available"
+            )
+
+        if manager.pending_choices_rqid != request_id:
+            raise RuntimeError(
+                "Showdown rejected a choice but the pending action ranking "
+                + "belongs to another request: "
+                + f"rejected_rqid={request_id}, "
+                + f"pending_rqid={manager.pending_choices_rqid}"
+            )
+
+        if not manager.pending_choices:
+            raise RuntimeError(
+                "Showdown rejected every ranked action for "
+                + f"rqid={request_id}, "
+                + f"room={manager.room_id!r}, "
+                + f"turn={manager.turn}, "
+                + f"force_switch={manager.battle_state.force_switch}, "
+                + f"available_moves={len(manager.battle_state.available_moves)}, "
+                + f"team_size={len(manager.battle_state.team)}"
+            )
+
+        manager.retry_rqid = request_id
+        manager.retry_count += 1
+        manager.request_id = request_id
+
+        next_choice = manager.pending_choices.pop(0)
+
+        self.log_manager.battle.info(
+            "Retrying rejected choice with %r "
+            + "(retry %d, %d alternatives remaining, rqid=%r)",
+            next_choice,
+            manager.retry_count,
+            len(manager.pending_choices),
+            request_id,
+            extra={"room_id": manager.room_id},
+        )
+
+        manager.start_action_timeout()
+
+        try:
+            await self._send_choice(next_choice)
+        finally:
+            manager.cancel_action_timeout()
+
+        # The request has now been answered. The next rqid must come
+        # from Showdown rather than being reused accidentally.
+        manager.request_id = None
 
     async def _send_choice(self, choice: tuple[str, int]) -> None:
         action_type, action_info = choice
@@ -364,38 +428,8 @@ class Client:
                     manager.request_id is None
                     and manager.choice_rejected
                     and manager.last_request_id is not None
-                    and (
-                        manager.retry_rqid != manager.last_request_id
-                        or manager.retry_count < 5
-                    )
                 ):
-                    if manager.retry_rqid != manager.last_request_id:
-                        manager.retry_rqid = manager.last_request_id
-                        manager.retry_count = 0
-                    manager.retry_count += 1
-                    self.log_manager.battle.info(
-                        "RESTORE rqid=%r (retry %d) in %s",
-                        manager.last_request_id,
-                        manager.retry_count,
-                        self.parser.last_message_room_id,
-                        extra={"room_id": self.parser.last_message_room_id},
-                    )
-                    manager.request_id = manager.last_request_id
-
-                    if (
-                        manager.pending_choices_rqid == manager.last_request_id
-                        and manager.pending_choices
-                    ):
-                        next_choice = manager.pending_choices.pop(0)
-                        manager.start_action_timeout()
-                        try:
-                            await self._send_choice(next_choice)
-                        finally:
-                            manager.cancel_action_timeout()
-                        manager.request_id = None
-                    else:
-                        manager.pending_choices = []
-                        manager.pending_choices_rqid = None
+                    await self._retry_rejected_choice()
 
                 if manager.requires_team_preview:
                     if manager.room_id is None:

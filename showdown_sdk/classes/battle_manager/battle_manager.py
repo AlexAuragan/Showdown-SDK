@@ -122,7 +122,6 @@ class BattleManager:
 
     def clear_battle(self) -> None:
         """Discard state belonging to the current battle."""
-        print(f"{len(self.last_battle_history)=}, {self.turn=}")
         battle_finished = self.battle_finished
 
         if battle_finished is not None and not battle_finished.done():
