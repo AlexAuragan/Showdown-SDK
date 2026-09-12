@@ -10,6 +10,8 @@ from time import monotonic
 from types import TracebackType
 from typing import override
 
+from showdown_sdk.exceptions import LoggingError
+
 ## Constants
 
 
@@ -89,7 +91,7 @@ class FileIOWorker:
                 return
 
             if self._thread is not None and self._thread.is_alive():
-                raise RuntimeError(
+                raise LoggingError(
                     "File I/O worker thread exists but is not accepting work"
                 )
 
@@ -103,11 +105,11 @@ class FileIOWorker:
     def submit(self, operation: Callable[[], None]) -> None:
         with self._lock:
             if not self._accepting:
-                raise RuntimeError("File I/O worker is not running")
+                raise LoggingError("File I/O worker is not running")
 
             thread = self._thread
             if thread is None or not thread.is_alive():
-                raise RuntimeError("File I/O worker thread is not alive")
+                raise LoggingError("File I/O worker thread is not alive")
 
             self._queue.put(_FileIOCommand(operation))
 
@@ -117,18 +119,18 @@ class FileIOWorker:
 
         with self._lock:
             if not self._accepting:
-                raise RuntimeError("File I/O worker is not running")
+                raise LoggingError("File I/O worker is not running")
 
             thread = self._thread
             if thread is None or not thread.is_alive():
-                raise RuntimeError("File I/O worker thread is not alive")
+                raise LoggingError("File I/O worker thread is not alive")
 
             self._queue.put(command)
 
         done.wait()
 
         if command.error is not None:
-            raise RuntimeError("File I/O operation failed") from command.error
+            raise LoggingError("File I/O operation failed") from command.error
 
     def stop(self) -> None:
         with self._lock:
@@ -139,7 +141,7 @@ class FileIOWorker:
             thread = self._thread
 
             if thread is None:
-                raise RuntimeError(
+                raise LoggingError(
                     "File I/O worker is marked running without a thread"
                 )
 
@@ -153,7 +155,7 @@ class FileIOWorker:
             self._thread = None
 
         if self._errors:
-            raise RuntimeError(
+            raise LoggingError(
                 "File I/O worker encountered " + f"{len(self._errors)} error(s)"
             ) from self._errors[0]
 
@@ -279,7 +281,7 @@ class BattleFileHandler(logging.Handler):
     @override
     def emit(self, record: logging.LogRecord) -> None:
         if self._battle_handler_closed:
-            raise RuntimeError("Attempted to emit through a closed handler")
+            raise LoggingError("Attempted to emit through a closed handler")
 
         room_id_value = record.__dict__.get("room_id")
 
@@ -489,7 +491,7 @@ class LogManager:
         """Close the per-room file handler for `room_id` on every
         `BattleFileHandler` attached to the managed loggers."""
         if room_id is None:
-            raise RuntimeError("Tried to close a None room")
+            raise LoggingError("Tried to close a None room")
 
         seen: set[int] = set()
 

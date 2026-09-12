@@ -42,6 +42,7 @@ from showdown_sdk.classes.parser.protocol import (
     is_move_boundary,
     parse_protocol_message,
 )
+from showdown_sdk.exceptions import ParserStateError
 from showdown_sdk.models.sdk import BattleState
 
 if TYPE_CHECKING:
@@ -58,7 +59,10 @@ class ParseResult:
 
     def __post_init__(self) -> None:
         if self.consumed <= 0:
-            raise ValueError("ParseResult must consume at least one message")
+            raise ParserStateError(
+                "ParseResult must consume at least one message",
+                state="parse_result.consumed",
+            )
 
 
 ## Public class
@@ -81,7 +85,9 @@ class BattleParser(MessageParser):
     def gen(self) -> int:
         gen = self.protocol_context.gen
         if gen is None:
-            raise ValueError("gen was accessed before getting initialized")
+            raise ParserStateError(
+                "gen was accessed before getting initialized", state="gen"
+            )
         return gen
 
     @property
@@ -114,7 +120,9 @@ class BattleParser(MessageParser):
         self, player_id: str, line: str, *, has_log_timestamp: bool = False
     ) -> list[BaseEvent]:
         if self.input_finished:
-            raise RuntimeError("Cannot feed lines after finish()")
+            raise ParserStateError(
+                "Cannot feed lines after finish()", state="input_finished"
+            )
 
         if player_id:
             self.battle_state.player_id = player_id
@@ -127,7 +135,9 @@ class BattleParser(MessageParser):
     def feed_message(self, message: ProtocolMessage) -> list[BaseEvent]:
 
         if self.input_finished:
-            raise RuntimeError("Cannot feed lines after finish()")
+            raise ParserStateError(
+                "Cannot feed lines after finish()", state="input_finished"
+            )
         if message.command == "init" and self.history:
             room_id = self._last_message_room_id
             self.reset()
@@ -161,15 +171,16 @@ class BattleParser(MessageParser):
             self.battle_state.player_id = player_id
 
         if self.player_id is None:
-            raise RuntimeError("player_id not set")
+            raise ParserStateError("player_id not set", state="player_id")
 
         events = self._parse_available_events(self.player_id)
         if self.next_unparsed_message != len(self.raw_history):
             pending = "\n".join(
                 message.raw for message in self.pending_messages
             )
-            raise RuntimeError(
-                f"Input ended with an incomplete group:\n{pending}"
+            raise ParserStateError(
+                f"Input ended with an incomplete group:\n{pending}",
+                state="incomplete_group",
             )
         return events
 
@@ -197,7 +208,7 @@ class BattleParser(MessageParser):
             return self._parse_move(player_id, start)
         if message.command == "request":
             if player_id is None:
-                raise ValueError("player_id not set")
+                raise ParserStateError("player_id not set", state="player_id")
             return ParseResult(
                 (parse_request_event(message, player_id=player_id),), 1
             )

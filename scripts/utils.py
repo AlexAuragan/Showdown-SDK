@@ -9,6 +9,7 @@ from pathlib import Path
 from websockets.exceptions import WebSocketException
 
 from showdown_sdk.classes.client import Client
+from showdown_sdk.exceptions import ClientStateError
 from showdown_sdk.models.sdk import SampleTeamGenerator, TeamSet
 from showdown_sdk.utils import (
     Serializable,
@@ -172,10 +173,10 @@ async def run_battle(
     )
 
     if client_1.username is None:
-        raise RuntimeError("client not connected")
+        raise ClientStateError("client not connected")
 
     if client_2.username is None:
-        raise RuntimeError("client not connected")
+        raise ClientStateError("client not connected")
 
     battle_waiter_1, battle_waiter_2 = None, None
     try:

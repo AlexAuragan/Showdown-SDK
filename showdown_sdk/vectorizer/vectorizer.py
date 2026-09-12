@@ -17,6 +17,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import cast
 
+from showdown_sdk.exceptions import VectorizationError
 from showdown_sdk.features import (
     ActionFeatures,
     BattleFeatures,
@@ -288,7 +289,12 @@ def _vectorize_status(status: StatusFeatures) -> Vector:
     vector.append(status.perish_count or 0)
     vector.append(int(status.must_recharge))
 
-    assert len(vector) == _STATUS_DIM
+    if len(vector) != _STATUS_DIM:
+        raise VectorizationError(
+            f"Status vector has {len(vector)} values, expected {_STATUS_DIM}",
+            expected_dim=_STATUS_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -346,7 +352,13 @@ def _vectorize_side_conditions(
     vector: Vector = [
         condition_map.get(name, 0) for name in _SIDE_CONDITION_NAMES
     ]
-    assert len(vector) == _SIDE_CONDITIONS_DIM
+    if len(vector) != _SIDE_CONDITIONS_DIM:
+        raise VectorizationError(
+            "Side-condition vector has "
+            + f"{len(vector)} values, expected {_SIDE_CONDITIONS_DIM}",
+            expected_dim=_SIDE_CONDITIONS_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -431,7 +443,10 @@ def _vectorize_own_pokemon(pokemon: OwnPokemonFeatures, *, gen: int) -> Vector:
         else:
             vector.extend([0, 0])
 
-    assert len(pokemon.moves) <= 4
+    if len(pokemon.moves) > 4:
+        raise VectorizationError(
+            f"Own Pokémon has {len(pokemon.moves)} moves, expected at most 4"
+        )
     for _ in range(4 - len(pokemon.moves)):
         vector.extend([0, 0])
 
@@ -445,7 +460,13 @@ def _vectorize_own_pokemon(pokemon: OwnPokemonFeatures, *, gen: int) -> Vector:
     # Type override
     vector.append(1 if pokemon.type_override is not None else 0)
 
-    assert len(vector) == _OWN_POKEMON_DIM
+    if len(vector) != _OWN_POKEMON_DIM:
+        raise VectorizationError(
+            f"Own Pokémon vector has {len(vector)} values, "
+            + f"expected {_OWN_POKEMON_DIM}",
+            expected_dim=_OWN_POKEMON_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -510,7 +531,10 @@ def _vectorize_enemy_pokemon(
     for move in pokemon.moves:
         vector.extend(_vectorize_knowledge_id(move, gen=gen, get_id=move_id))
 
-    assert len(pokemon.moves) <= 4
+    if len(pokemon.moves) > 4:
+        raise VectorizationError(
+            f"Enemy Pokémon has {len(pokemon.moves)} moves, expected at most 4"
+        )
     for _ in range(4 - len(pokemon.moves)):
         vector.extend([0, 0])
 
@@ -524,7 +548,13 @@ def _vectorize_enemy_pokemon(
     # Type override
     vector.append(1 if pokemon.type_override is not None else 0)
 
-    assert len(vector) == _ENEMY_POKEMON_DIM
+    if len(vector) != _ENEMY_POKEMON_DIM:
+        raise VectorizationError(
+            f"Enemy Pokémon vector has {len(vector)} values, "
+            + f"expected {_ENEMY_POKEMON_DIM}",
+            expected_dim=_ENEMY_POKEMON_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -532,13 +562,21 @@ def _vectorize_own_team(
     team: tuple[OwnPokemonFeatures, ...], *, gen: int
 ) -> Vector:
     if len(team) > 6:
-        raise ValueError(f"Expected at most 6 own Pokémon, got {len(team)}")
+        raise VectorizationError(
+            f"Expected at most 6 own Pokémon, got {len(team)}"
+        )
 
     vector: Vector = []
     for pokemon in team:
         vector.extend(_vectorize_own_pokemon(pokemon, gen=gen))
 
-    assert len(vector) == 6 * _OWN_POKEMON_DIM
+    if len(vector) != 6 * _OWN_POKEMON_DIM:
+        raise VectorizationError(
+            f"Own team vector has {len(vector)} values, "
+            + f"expected {6 * _OWN_POKEMON_DIM}",
+            expected_dim=6 * _OWN_POKEMON_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -546,13 +584,21 @@ def _vectorize_enemy_team(
     team: tuple[EnemyPokemonFeatures, ...], *, gen: int
 ) -> Vector:
     if len(team) > 6:
-        raise ValueError(f"Expected at most 6 enemy Pokémon, got {len(team)}")
+        raise VectorizationError(
+            f"Expected at most 6 enemy Pokémon, got {len(team)}"
+        )
 
     vector: Vector = []
     for pokemon in team:
         vector.extend(_vectorize_enemy_pokemon(pokemon, gen=gen))
 
-    assert len(vector) == 6 * _ENEMY_POKEMON_DIM
+    if len(vector) != 6 * _ENEMY_POKEMON_DIM:
+        raise VectorizationError(
+            f"Enemy team vector has {len(vector)} values, "
+            + f"expected {6 * _ENEMY_POKEMON_DIM}",
+            expected_dim=6 * _ENEMY_POKEMON_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -604,7 +650,12 @@ def vectorize_action(action: ActionFeatures, *, gen: int) -> Vector:
         # Empty/padding action
         vector = [0] * _ACTION_DIM
 
-    assert len(vector) == _ACTION_DIM
+    if len(vector) != _ACTION_DIM:
+        raise VectorizationError(
+            f"Action vector has {len(vector)} values, expected {_ACTION_DIM}",
+            expected_dim=_ACTION_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -652,7 +703,12 @@ def _vectorize_field(features: BattleFeatures) -> Vector:
     vector.extend(_vectorize_side_conditions(field.enemy_side_conditions))
     vector.extend(_vectorize_side_conditions(field.field_conditions))
 
-    assert len(vector) == _FIELD_DIM
+    if len(vector) != _FIELD_DIM:
+        raise VectorizationError(
+            f"Field vector has {len(vector)} values, expected {_FIELD_DIM}",
+            expected_dim=_FIELD_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -738,7 +794,7 @@ def _require_gen(features: BattleFeatures) -> int:
     """Fail loudly if generation is missing — vocabulary lookups need it."""
     gen = features.format.gen
     if gen is None:
-        raise ValueError(
+        raise VectorizationError(
             "BattleFeatures.format.gen is required for vectorization"
         )
     return gen

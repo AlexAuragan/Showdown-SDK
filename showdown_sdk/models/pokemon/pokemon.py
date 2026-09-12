@@ -2,6 +2,7 @@ from collections.abc import Sequence
 from dataclasses import dataclass, field
 from enum import Enum
 
+from showdown_sdk.exceptions import BattleStateInvariantError
 from showdown_sdk.models import to_id
 from showdown_sdk.models.pokemon.status import MajorStatus
 
@@ -94,7 +95,7 @@ class EnemyPokemon(Pokemon):
             return
 
         if Unknown.VALUE not in self.learnt_moves:
-            raise ValueError(
+            raise BattleStateInvariantError(
                 f"Witnessed move {move} for pokemon {self} "
                 + "but all move slots are already filled"
             )

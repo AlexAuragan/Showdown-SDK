@@ -52,24 +52,24 @@ WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 
 # Formats to simulate, in order.
 FORMATS = [
-    "gen1randombattle",
-    "gen2randombattle",
-    "gen3randombattle",
-    "gen4randombattle",
-    "gen1ou",
-    "gen2ou",
-    "gen3ou",
-    "gen4ou",
-    "gen1ubers@@@!standard,standardag",
-    "gen2ubers@@@!standard,standardag",
-    "gen3ubers@@@!standard,standardag",
-    "gen4ubers@@@!standard,standardag",
+    "gen1randombattle"
+    # "gen2randombattle",
+    # "gen3randombattle",
+    # "gen4randombattle",
+    # "gen1ou",
+    # "gen2ou",
+    # "gen3ou",
+    # "gen4ou",
+    # "gen1ubers@@@!standard,standardag",
+    # "gen2ubers@@@!standard,standardag",
+    # "gen3ubers@@@!standard,standardag",
+    # "gen4ubers@@@!standard,standardag",
 ]
 
 os.environ["SHOWDOWN_USE_REQUEST_STATE"] = "1"
 # Total battles per format, spread evenly over PLAYER_COUNT / 2 pairs.
 BATTLE_COUNT = 100
-PLAYER_COUNT = 8  # must be even
+PLAYER_COUNT = 32  # must be even
 
 # Generate sample teams before each battle instead of playing with the
 # format's random stacks. None = auto: enabled unless the format name

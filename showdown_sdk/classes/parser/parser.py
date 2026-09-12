@@ -21,6 +21,7 @@ from showdown_sdk.classes.parser.protocol import (
     extract_protocol_line,
     parse_protocol_message,
 )
+from showdown_sdk.exceptions import MalformedProtocolError
 
 if TYPE_CHECKING:
     from showdown_sdk.classes.battle_manager import BattleManager
@@ -86,8 +87,10 @@ class Parser:
         if message.command == "room":
             room_id = message.arguments[0].strip()
             if not room_id:
-                raise RuntimeError(
-                    f"Receive empty room id from protocol line: {line!r}"
+                raise MalformedProtocolError(
+                    f"Receive empty room id from protocol line: {line!r}",
+                    raw=line,
+                    command="room",
                 )
             self.last_message_room_id = room_id
 

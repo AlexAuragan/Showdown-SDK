@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from functools import cache
 from typing import Literal
 
+from showdown_sdk.exceptions import DexDataError, VectorizationError
 from showdown_sdk.models import dex
 from showdown_sdk.utils import expect_int, expect_object, expect_string
 
@@ -81,7 +82,12 @@ def pokemon_ids(gen: int) -> dict[str, tuple[int, int]]:
             entry["num"], name=f"species {species_id!r}.num"
         )
 
-        assert species_num > 0
+        if species_num <= 0:
+            raise DexDataError(
+                f"Species {species_id!r} has a non-positive national dex number: "
+                + f"{species_num}",
+                key=species_id,
+            )
 
         output[species_id] = (species_num, form_ids.get(species_id, 0))
 
@@ -153,8 +159,14 @@ def pokemon_id(name: str, gen: int) -> tuple[int, int]:
     pokemon_id, form_id = pokemon_ids(gen)[species_id]
 
     limits = id_limits(gen)
-    assert 1 <= pokemon_id <= limits.pokemon
-    assert 0 <= form_id <= limits.form
+    if not 1 <= pokemon_id <= limits.pokemon:
+        raise VectorizationError(
+            f"Pokemon id {pokemon_id} out of range 1..{limits.pokemon}"
+        )
+    if not 0 <= form_id <= limits.form:
+        raise VectorizationError(
+            f"Pokemon form id {form_id} out of range 0..{limits.form}"
+        )
 
     return pokemon_id, form_id
 
@@ -178,7 +190,10 @@ def move_id(name: str, gen: int) -> int:
 
     value = ordered_dex_ids(gen, "moves")[move_id]
 
-    assert 1 <= value <= id_limits(gen).move
+    if not 1 <= value <= id_limits(gen).move:
+        raise VectorizationError(
+            f"Move id {value} out of range 1..{id_limits(gen).move}"
+        )
     return value
 
 
@@ -201,7 +216,10 @@ def ability_id(name: str, gen: int) -> int:
 
     value = ordered_dex_ids(gen, "abilities")[ability_id]
 
-    assert 1 <= value <= id_limits(gen).ability
+    if not 1 <= value <= id_limits(gen).ability:
+        raise VectorizationError(
+            f"Ability id {value} out of range 1..{id_limits(gen).ability}"
+        )
     return value
 
 
@@ -224,7 +242,10 @@ def item_id(name: str, gen: int) -> int:
 
     value = ordered_dex_ids(gen, "items")[item_id]
 
-    assert 1 <= value <= id_limits(gen).item
+    if not 1 <= value <= id_limits(gen).item:
+        raise VectorizationError(
+            f"Item id {value} out of range 1..{id_limits(gen).item}"
+        )
     return value
 
 

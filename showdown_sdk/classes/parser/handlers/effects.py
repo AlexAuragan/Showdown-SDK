@@ -56,6 +56,11 @@ from showdown_sdk.classes.parser.protocol import (
     has_annotation,
     require_arguments,
 )
+from showdown_sdk.exceptions import (
+    MalformedProtocolError,
+    ParserStateError,
+    UnsupportedProtocolError,
+)
 from showdown_sdk.models import dex
 from showdown_sdk.models.pokemon import (
     MajorStatus,
@@ -80,10 +85,18 @@ def _major_status_event(
 ) -> MajorStatusEvent:
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
+    try:
+        major_status = MajorStatus(message.arguments[1])
+    except ValueError as error:
+        raise UnsupportedProtocolError(
+            f"Unsupported major status: {message.arguments[1]!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     return MajorStatusEvent(
         parse_effect_source(message, source, affected=target),
         target,
-        MajorStatus(message.arguments[1]),
+        major_status,
         applied,
     )
 
@@ -93,9 +106,11 @@ def _ability_event(
 ) -> AbilityEvent:
     if message.command == "-ability":
         if len(message.arguments) not in {2, 3}:
-            raise ValueError(
+            raise MalformedProtocolError(
                 "Expected 2 or 3 arguments for '-ability', "
-                + f"got {len(message.arguments)} in {message.raw!r}"
+                + f"got {len(message.arguments)} in {message.raw!r}",
+                raw=message.raw,
+                command=message.command,
             )
 
         pokemon = parse_pokemon_ident(message.arguments[0])
@@ -112,10 +127,18 @@ def _ability_event(
         active = message.command == "-start"
 
     else:
-        raise ValueError(f"Not an ability message: {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Not an ability message: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
 
     if not ability:
-        raise ValueError(f"Empty ability in {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Empty ability in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
 
     source = parse_effect_source(
         message=message, default_source=default_source, affected=pokemon
@@ -156,9 +179,11 @@ def _activation_event(
     message: ProtocolMessage, context: EffectParseContext
 ) -> BaseEvent | list[BaseEvent]:
     if len(message.arguments) not in {2, 3}:
-        raise ValueError(
+        raise MalformedProtocolError(
             "Expected 2 or 3 arguments for '-activate', "
-            + f"got {len(message.arguments)} in {message.raw!r}"
+            + f"got {len(message.arguments)} in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
         )
 
     pokemon = parse_pokemon_ident(message.arguments[0])
@@ -168,7 +193,11 @@ def _activation_event(
         ability = effect[9:].strip()
 
         if not ability:
-            raise ValueError(f"Empty activated ability in {message.raw!r}")
+            raise MalformedProtocolError(
+                f"Empty activated ability in {message.raw!r}",
+                raw=message.raw,
+                command=message.command,
+            )
 
         context_str = (
             message.arguments[2] if len(message.arguments) == 3 else None
@@ -195,7 +224,11 @@ def _activation_event(
         move = effect[6:].strip()
 
         if not move:
-            raise ValueError(f"Empty activated move in {message.raw!r}")
+            raise MalformedProtocolError(
+                f"Empty activated move in {message.raw!r}",
+                raw=message.raw,
+                command=message.command,
+            )
 
         if move.casefold() == "mimic" and len(message.arguments) == 3:
             return MoveCopiedEvent(
@@ -226,7 +259,11 @@ def _activation_event(
         item = effect[6:].strip()
 
         if not item:
-            raise ValueError(f"Empty activated item in {message.raw!r}")
+            raise MalformedProtocolError(
+                f"Empty activated item in {message.raw!r}",
+                raw=message.raw,
+                command=message.command,
+            )
         consumed = has_annotation(message, "consumed") or has_annotation(
             message, "eat"
         )
@@ -250,7 +287,7 @@ def _activation_event(
 
     try:
         minor_status = parse_minor_status(effect)
-    except ValueError:
+    except UnsupportedProtocolError:
         return unhandled_event(message)
 
     return MinorStatusActivationEvent(
@@ -275,7 +312,7 @@ def parse_effect_message(
     An empty list means it was recognized and deliberately emitted no event.
     """
     if context.player_id is None:
-        raise ValueError("Player id not set")
+        raise ParserStateError("Player id not set", state="player_id")
 
     for rule in SPECIAL_EFFECT_RULES.get(message.command, ()):
         if rule.predicate(message, context):
@@ -295,7 +332,7 @@ def _parse_damage(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     if context.player_id is None:
-        raise ValueError("Player id not set")
+        raise ParserStateError("Player id not set", state="player_id")
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
     condition = parse_condition(message.arguments[1])
@@ -320,7 +357,7 @@ def _parse_heal(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     if context.player_id is None:
-        raise ValueError("Player id not set")
+        raise ParserStateError("Player id not set", state="player_id")
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
     condition = parse_condition(message.arguments[1])
@@ -351,7 +388,14 @@ def _parse_weather(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
-    weather = Weather(message.arguments[0])
+    try:
+        weather = Weather(message.arguments[0])
+    except ValueError as error:
+        raise UnsupportedProtocolError(
+            f"Unsupported weather: {message.arguments[0]!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     upkeep = has_annotation(message, "upkeep")
     started = weather != Weather.CLEAR_SKY
     source = parse_effect_source(
@@ -374,7 +418,11 @@ def _parse_forme_change(
     pokemon = parse_pokemon_ident(message.arguments[0])
     forme = message.arguments[1].strip()
     if not forme:
-        raise ValueError(f"Empty forme change in {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Empty forme change in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
     return [
         FormeChangeEvent(
             source=parse_effect_source(
@@ -391,7 +439,11 @@ def _parse_field(
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
     if message.command not in {"-fieldactivate", "-fieldstart", "-fieldend"}:
-        raise ValueError(f"Unexpected field event command: {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Unexpected field event command: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
     value = message.arguments[0].strip()
     if value.casefold().startswith("move: "):
         effect_type = SourceType.MOVE
@@ -400,7 +452,11 @@ def _parse_field(
         effect_type = SourceType.UNKNOWN
         effect_name = value
     if not effect_name:
-        raise ValueError(f"Empty field effect name: {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Empty field effect name: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
     actor = context.source.actor
     of_value = annotation_value(message, "of")
     if of_value is not None:
@@ -453,7 +509,7 @@ def _parse_set_hp(
     message: ProtocolMessage, context: EffectParseContext
 ) -> list[BaseEvent]:
     if context.player_id is None:
-        raise ValueError("Player id not set")
+        raise ParserStateError("Player id not set", state="player_id")
     require_arguments(message, 2)
     target = parse_pokemon_ident(message.arguments[0])
     condition = parse_condition(message.arguments[1])
@@ -477,16 +533,35 @@ def _parse_set_boost(
 ) -> list[BaseEvent]:
     require_arguments(message, 3)
     target = parse_pokemon_ident(message.arguments[0])
-    stage = int(message.arguments[2])
+    try:
+        stage = int(message.arguments[2])
+    except ValueError as error:
+        raise MalformedProtocolError(
+            f"Invalid stat stage in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     if not -6 <= stage <= 6:
-        raise ValueError(f"Invalid stat stage in {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Invalid stat stage in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
+    try:
+        stat = Stat(message.arguments[1])
+    except ValueError as error:
+        raise UnsupportedProtocolError(
+            f"Unsupported stat: {message.arguments[1]!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     return [
         StatSetEvent(
             source=parse_effect_source(
                 message, context.source, affected=target
             ),
             target=target,
-            stat=Stat(message.arguments[1]),
+            stat=stat,
             stage=stage,
         )
     ]
@@ -559,12 +634,27 @@ def _parse_stat_change(
     require_arguments(message, 3)
     target = parse_pokemon_ident(message.arguments[0])
     direction = 1 if message.command == "-boost" else -1
-    stages = int(message.arguments[2]) * direction
+    try:
+        stages = int(message.arguments[2]) * direction
+    except ValueError as error:
+        raise MalformedProtocolError(
+            f"Invalid stat stage in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
+    try:
+        stat = Stat(message.arguments[1])
+    except ValueError as error:
+        raise UnsupportedProtocolError(
+            f"Unsupported stat: {message.arguments[1]!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     events: list[BaseEvent] = [
         StatChangeEvent(
             parse_effect_source(message, context.source, affected=target),
             target,
-            [(Stat(message.arguments[1]), stages)],
+            [(stat, stages)],
         )
     ]
     return events
@@ -578,13 +668,20 @@ def _parse_side_condition(
     source = parse_effect_source(
         message, context.source, inherit_default=started
     )
+    condition_name = message.arguments[1].removeprefix("move: ")
+    try:
+        condition = SideCondition(condition_name)
+    except ValueError as error:
+        raise UnsupportedProtocolError(
+            f"Unsupported side condition: {condition_name!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     return [
         SideConditionEvent(
             source=source,
             side=parse_side_ident(message.arguments[0]),
-            condition=SideCondition(
-                message.arguments[1].removeprefix("move: ")
-            ),
+            condition=condition,
             started=started,
         )
     ]
@@ -687,16 +784,22 @@ def _parse_details_change(
     message: ProtocolMessage, _context: EffectParseContext
 ) -> list[BaseEvent]:
     if len(message.arguments) not in {2, 3}:
-        raise ValueError(
+        raise MalformedProtocolError(
             "Expected 2 or 3 arguments for 'detailschange', "
-            + f"got {len(message.arguments)} in {message.raw!r}"
+            + f"got {len(message.arguments)} in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
         )
 
     pokemon = parse_pokemon_ident(message.arguments[0])
     details = message.arguments[1].strip()
 
     if not details:
-        raise ValueError(f"Empty details change in {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Empty details change in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
 
     level = parse_level(details)
     return [DetailsChangeEvent(pokemon=pokemon, details=details, level=level)]
@@ -803,7 +906,11 @@ def _parse_type_change(
         if type_name.strip()
     )
     if not types:
-        raise ValueError(f"Empty type change in {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Empty type change in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
     return [
         TypeChangeEvent(
             source=parse_effect_source(
@@ -830,16 +937,26 @@ def _parse_perish_count(
     target = parse_pokemon_ident(message.arguments[0])
     value = message.arguments[1]
     if not value.casefold().startswith("perish"):
-        raise ValueError(f"Not a Perish Song countdown: {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Not a Perish Song countdown: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
     count_text = value[6:]
     try:
         count = int(count_text)
     except ValueError as error:
-        raise ValueError(
-            f"Invalid Perish Song count: {message.raw!r}"
+        raise MalformedProtocolError(
+            f"Invalid Perish Song count: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
         ) from error
     if count not in {0, 1, 2, 3}:
-        raise ValueError(f"Unexpected Perish Song count: {count}")
+        raise MalformedProtocolError(
+            f"Unexpected Perish Song count: {count}",
+            raw=message.raw,
+            command=message.command,
+        )
     return [PerishCountEvent(source=context.source, target=target, count=count)]
 
 
@@ -898,6 +1015,15 @@ def _parse_volatile_side_condition(
     )
     condition_name = message.arguments[1]
 
+    try:
+        condition = SideCondition(condition_name)
+    except ValueError as error:
+        raise UnsupportedProtocolError(
+            f"Unsupported side condition: {condition_name!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
+
     # gens override
     if context.gen == 1:
         if condition_name.casefold() == "reflect":
@@ -924,7 +1050,7 @@ def _parse_volatile_side_condition(
         SideConditionEvent(
             source=source,
             side=target.player,
-            condition=SideCondition(condition_name),
+            condition=condition,
             started=started,
         )
     ]
@@ -1011,7 +1137,7 @@ def _parse_hint(
                 reason="Unhandled hint: " + message.arguments[0],
             )
         ]
-    raise NotImplementedError(message.arguments[0])
+    raise UnsupportedProtocolError(message.arguments[0])
     # return [UnhandledEvent.from_message(message)]
 
 
@@ -1044,7 +1170,11 @@ def _parse_minor_status_end(
     status = _minor_status_end_or_none(message)
 
     if status is None:
-        raise ValueError(f"Not a minor status end: {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Not a minor status end: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
 
     return [
         MinorStatusEvent(

@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from enum import IntFlag
 
+from showdown_sdk.exceptions import MalformedProtocolError
+
 
 class FormatFlag(IntFlag):
     RANDOM_TEAM = 1
@@ -59,14 +61,16 @@ def parse_format_entry(entry: str, section: str, column: int) -> Format:
     name, separator, raw_flags = entry.rpartition(",")
 
     if not separator:
-        raise ValueError(f"Malformed format entry: {entry!r}")
+        raise MalformedProtocolError(f"Malformed format entry: {entry!r}")
 
-    return Format(
-        name=name,
-        flags=FormatFlag(int(raw_flags, 16)),
-        section=section,
-        column=column,
-    )
+    try:
+        flags = FormatFlag(int(raw_flags, 16))
+    except ValueError as error:
+        raise MalformedProtocolError(
+            f"Malformed format flags in entry: {entry!r}"
+        ) from error
+
+    return Format(name=name, flags=flags, section=section, column=column)
 
 
 def parse_formats(line: str) -> list[Format]:
@@ -94,7 +98,9 @@ def parse_formats(line: str) -> list[Format]:
 
                 index += 1
                 if index >= len(entries):
-                    raise ValueError("Section marker has no section name")
+                    raise MalformedProtocolError(
+                        "Section marker has no section name"
+                    )
 
                 section = entries[index]
             else:

@@ -18,6 +18,7 @@ from showdown_sdk.classes.parser.events.battle import (
     TeamPreviewRequestEvent,
 )
 from showdown_sdk.classes.parser.reducers import reduce_battle_state
+from showdown_sdk.exceptions import BattleSyncError
 
 ## Public API
 
@@ -72,8 +73,9 @@ def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
         return
 
     if manager.room_id != event.room_id:
-        raise RuntimeError(
-            "Room id changed during battle", manager.room_id, event.room_id
+        raise BattleSyncError(
+            "Room id changed during battle: "
+            + f"manager={manager.room_id!r}, event={event.room_id!r}"
         )
 
 

@@ -10,7 +10,12 @@ from showdown_sdk.classes.parser.events.lobby import (
     UpdateUserEvent,
     UserNotFoundEvent,
 )
-from showdown_sdk.models.sdk import TeamRejectedError
+from showdown_sdk.exceptions import (
+    TeamRejectedError,
+    UnhandledEventError,
+    UsernameRejectedError,
+    UserNotFoundError,
+)
 
 if TYPE_CHECKING:
     from showdown_sdk.classes.client.client import Client
@@ -23,8 +28,9 @@ def apply_lobby_event(client: Client, event: LobbyEvent) -> None:
 
         case NameTakenEvent():
             client.ready.clear()
-            raise RuntimeError(
-                f"Username was rejected by the server: {event.raw}"
+            raise UsernameRejectedError(
+                f"Username was rejected by the server: {event.raw}",
+                raw=event.raw,
             )
 
         case FormatsEvent():
@@ -46,10 +52,15 @@ def apply_lobby_event(client: Client, event: LobbyEvent) -> None:
                 future.set_result(None)
 
         case UserNotFoundEvent():
-            raise RuntimeError(f"User not found: {event.user}")
+            raise UserNotFoundError(
+                f"User not found: {event.user}", user=event.user
+            )
 
         case _:
-            raise NotImplementedError(type(event))
+            raise UnhandledEventError(
+                f"No lobby event handler for {type(event).__name__}",
+                event_type=type(event).__name__,
+            )
 
 
 def _apply_update_user(client: Client, event: UpdateUserEvent) -> None:

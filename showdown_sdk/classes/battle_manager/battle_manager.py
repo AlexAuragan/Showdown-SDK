@@ -6,6 +6,11 @@ from typing import TYPE_CHECKING
 
 from showdown_sdk import LogManager
 from showdown_sdk.classes.dt import BattleResult
+from showdown_sdk.exceptions import (
+    BattleLifecycleError,
+    BattleSyncError,
+    SDKTimeoutError,
+)
 from showdown_sdk.models.sdk import BattleState
 from showdown_sdk.utils import SerializableObject
 
@@ -69,12 +74,12 @@ class BattleManager:
     @room_id.setter
     def room_id(self, value: str | None):
         if value is None:
-            raise ValueError("room_id set to None")
+            raise BattleSyncError("room_id set to None")
         self._room_id = value
 
     def start_action_timeout(self) -> None:
         if self.room_id is None:
-            raise RuntimeError("No room currently set")
+            raise BattleSyncError("No room currently set")
 
         self.cancel_action_timeout()
         self._action_timeout_task = asyncio.create_task(
@@ -94,7 +99,7 @@ class BattleManager:
         except asyncio.CancelledError:
             return
 
-        error = TimeoutError(
+        error = SDKTimeoutError(
             f"{self.player_username!r} did not act within {self.action_timeout_seconds:.1f}s on turn {turn} "
             + f"in room {room_id!r}. The battle request may not have been parsed."
             + f"choice_rejected={self.choice_rejected!r}, "
@@ -125,7 +130,7 @@ class BattleManager:
         battle_finished = self.battle_finished
 
         if battle_finished is not None and not battle_finished.done():
-            raise RuntimeError(
+            raise BattleLifecycleError(
                 "Cannot clear an active battle; use abandon_battle() instead"
             )
 
@@ -163,7 +168,9 @@ class BattleManager:
         battle_finished = self.battle_finished
 
         if battle_finished is not None and not battle_finished.done():
-            raise RuntimeError("Cannot clear unfinished battle tracking")
+            raise BattleLifecycleError(
+                "Cannot clear unfinished battle tracking"
+            )
 
         self.battle_finished = None
         self.battle_started_at = None
@@ -186,7 +193,7 @@ class BattleManager:
         self.cancel_action_timeout()
 
         if self.room_id is None:
-            raise RuntimeError("Battle room id not set")
+            raise BattleLifecycleError("Battle room id not set")
 
         if self.battle_finished is None:
             # This can happen when Showdown auto-rejoins an old room after login.
@@ -194,7 +201,7 @@ class BattleManager:
             # raise RuntimeError("Battle ended without being tracked")
 
         if self.battle_finished.done():
-            raise RuntimeError("Battle was already finished")
+            raise BattleLifecycleError("Battle was already finished")
 
         duration = 0.0
         if self.battle_started_at is not None:

@@ -1,6 +1,11 @@
 from typing import TYPE_CHECKING
 
 from showdown_sdk import SideCondition, Status
+from showdown_sdk.exceptions import (
+    BattleStateInvariantError,
+    BattleStateMismatchError,
+    UnsupportedFeatureError,
+)
 from showdown_sdk.models import to_id
 from showdown_sdk.models.pokemon import MajorStatus, MinorStatus, Unknown
 from showdown_sdk.utils import (
@@ -113,7 +118,7 @@ def check_status(
     recharge_minor = MinorStatus.RECHARGE in status.minor
 
     if recharge_minor and status.must_recharge:
-        raise AssertionError(
+        raise BattleStateInvariantError(
             f"{path}: recharge exists as both MinorStatus.RECHARGE "
             + "and must_recharge=True"
         )
@@ -140,7 +145,7 @@ def check_status(
 
     if ref_perish:
         if status.perish_count is None:
-            raise AssertionError(
+            raise BattleStateInvariantError(
                 f"{path}: perishsong active but perish_count=None"
             )
     else:
@@ -186,7 +191,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     player_id = battle_state.player_id
 
     if player_id is None:
-        raise AssertionError("BattleState has no player_id")
+        raise BattleStateInvariantError("BattleState has no player_id")
 
     ref_turn = expect_int(ref["turn"])
 
@@ -198,7 +203,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     same("gameType", battle_state.format.gametype, ref_game_type)
 
     if ref_game_type != "singles":
-        raise NotImplementedError(
+        raise UnsupportedFeatureError(
             "Showdown oracle validator currently assumes singles"
         )
 
@@ -223,12 +228,14 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     side_by_id = {expect_string(side["id"]): side for side in sides}
 
     if player_id not in side_by_id:
-        raise AssertionError(f"Showdown has no player side {player_id!r}")
+        raise BattleStateMismatchError(
+            f"Showdown has no player side {player_id!r}"
+        )
 
     foe_ids = [side_id for side_id in side_by_id if side_id != player_id]
 
     if len(foe_ids) != 1:
-        raise AssertionError(
+        raise BattleStateMismatchError(
             f"Expected exactly one opposing side, got {foe_ids!r}"
         )
 
@@ -389,7 +396,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     ]
 
     if len(own_active) > 1:
-        raise AssertionError(
+        raise BattleStateInvariantError(
             f"Singles battle has {len(own_active)} active own Pokémon"
         )
 
@@ -427,7 +434,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
         if battle_state.active_pokemon.transformed_into is None:
             if curr_ability == Unknown.VALUE:
-                raise ValueError(
+                raise BattleStateInvariantError(
                     "current ability is unknown for our active pokemon"
                 )
 
@@ -466,7 +473,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
             matching_slots = ref_enemy_move_slots.get(move.id)
             if matching_slots is None:
-                raise AssertionError(
+                raise BattleStateMismatchError(
                     f"available move {move.id!r} does not exist "
                     + "in Showdown moveSlots"
                 )
@@ -474,7 +481,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
             occurrence = seen_move_ids.get(move.id, 0)
 
             if occurrence >= len(matching_slots):
-                raise AssertionError(
+                raise BattleStateMismatchError(
                     f"available move {move.id!r} occurrence {occurrence} "
                     + "does not exist in Showdown moveSlots"
                 )
@@ -674,7 +681,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
                 continue
 
             if normalize_move_id(to_id(move)) not in ref_base_moves:
-                raise AssertionError(
+                raise BattleStateMismatchError(
                     f"{path}.learnt_moves contains impossible "
                     + f"move {move!r}"
                 )
@@ -690,7 +697,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
         for move in enemy.temporary_moves:
             move_id = normalize_move_id(to_id(move))
             if move_id not in ref_move_slots:
-                raise AssertionError(
+                raise BattleStateMismatchError(
                     f"{path}.temporary_moves contains impossible "
                     + f"move {move_id!r}"
                 )
@@ -754,7 +761,7 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
     ]
 
     if len(foe_active) > 1:
-        raise AssertionError(
+        raise BattleStateInvariantError(
             f"Singles battle has {len(foe_active)} active foe Pokémon"
         )
 
@@ -810,7 +817,12 @@ def check_battle_state_against_showdown(battle_state: BattleState) -> None:
 
 def same(path: str, actual: object, expected: object) -> None:
     if actual != expected:
-        raise AssertionError(f"{path}: sdk={actual!r}, showdown={expected!r}")
+        raise BattleStateMismatchError(
+            f"{path}: sdk={actual!r}, showdown={expected!r}",
+            path=path,
+            sdk_value=actual,
+            showdown_value=expected,
+        )
 
 
 def obj(value: Serializable) -> SerializableObject:

@@ -4,6 +4,7 @@
 import pytest
 
 from showdown_sdk.classes.parser import (
+    MalformedProtocolError,
     PokemonIdent,
     ProtocolAnnotation,
     ProtocolMessage,
@@ -27,7 +28,7 @@ def test_parse_pokemon_ident() -> None:
 
 
 def test_parse_pokemon_ident_rejects_invalid_slot() -> None:
-    with pytest.raises(ValueError):
+    with pytest.raises(MalformedProtocolError):
         parse_pokemon_ident("p1z: Azumarill")
 
 

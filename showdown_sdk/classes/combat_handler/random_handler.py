@@ -2,6 +2,7 @@ from random import random, shuffle
 from typing import override
 
 from showdown_sdk.classes.combat_handler.base_handler import BaseCombatHandler
+from showdown_sdk.exceptions import CombatHandlerError
 from showdown_sdk.models.sdk import BattleState
 
 Action = tuple[str, int]
@@ -25,7 +26,9 @@ class RandomMoveCombatHandler(BaseCombatHandler):
             if pkmn.curr_hp > 0 and (pkmn.id != battle_state.curr_pokemon)
         ]
         if battle_state.force_switch and not switch_candidates:
-            raise RuntimeError(f"No switch targets available in team: {team!r}")
+            raise CombatHandlerError(
+                f"No switch targets available in team: {team!r}"
+            )
 
         # Use the party slot directly (1-indexed), matched by object identity
         # so stale or duplicate ids can't shift the index.
@@ -44,7 +47,7 @@ class RandomMoveCombatHandler(BaseCombatHandler):
         moves = battle_state.available_moves
         usable = [move for move in moves if not move.disabled]
         if not usable:
-            raise RuntimeError(f"No usable moves available: {moves!r}")
+            raise CombatHandlerError(f"No usable moves available: {moves!r}")
         move_actions = [
             (
                 "move",

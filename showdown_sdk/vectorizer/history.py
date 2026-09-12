@@ -8,6 +8,7 @@ never imports parser event classes or ``BattleState``.
 from collections.abc import Callable
 from typing import cast
 
+from showdown_sdk.exceptions import VectorizationError
 from showdown_sdk.features import EventFeatures, PokemonRefFeatures
 from showdown_sdk.vectorizer.vocabulary import (
     ability_id,
@@ -152,7 +153,12 @@ EVENT_VECTOR_DIM = (
     + _TYPES_DIM
 )
 
-assert EVENT_VECTOR_DIM == 88, f"EVENT_VECTOR_DIM changed to {EVENT_VECTOR_DIM}"
+if EVENT_VECTOR_DIM != 88:
+    raise VectorizationError(
+        f"EVENT_VECTOR_DIM changed to {EVENT_VECTOR_DIM}",
+        expected_dim=88,
+        actual_dim=EVENT_VECTOR_DIM,
+    )
 
 
 ## Vectorization
@@ -196,14 +202,19 @@ def _vectorize_types(types: tuple[str, ...] | None) -> Vector:
     normalized = {t.lower() for t in types} - {"???"}
     invalid = normalized - set(_TYPE_NAMES)
     if invalid:
-        raise ValueError(
+        raise VectorizationError(
             f"Unexpected type(s) in event types: {sorted(invalid)!r}"
         )
 
     vector: Vector = [1]
     vector.extend(int(name in normalized) for name in _TYPE_NAMES)
 
-    assert len(vector) == _TYPES_DIM
+    if len(vector) != _TYPES_DIM:
+        raise VectorizationError(
+            f"Type vector has {len(vector)} values, expected {_TYPES_DIM}",
+            expected_dim=_TYPES_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -212,7 +223,9 @@ def vectorize_event(event: EventFeatures, *, gen: int) -> Vector:
     event_type_id = _EVENT_TYPE_IDS.get(event.event_type)
 
     if event_type_id is None:
-        raise ValueError(f"Unsupported event type: {event.event_type!r}")
+        raise VectorizationError(
+            f"Unsupported event type: {event.event_type!r}"
+        )
 
     source_type_id = 0
     if event.effect_source_type is not None:
@@ -351,7 +364,13 @@ def vectorize_event(event: EventFeatures, *, gen: int) -> Vector:
     # Types
     vector.extend(_vectorize_types(event.types))
 
-    assert len(vector) == EVENT_VECTOR_DIM
+    if len(vector) != EVENT_VECTOR_DIM:
+        raise VectorizationError(
+            f"Event vector has {len(vector)} values, "
+            + f"expected {EVENT_VECTOR_DIM}",
+            expected_dim=EVENT_VECTOR_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 
@@ -372,7 +391,13 @@ def vectorize_history(
     for event in clamped:
         vector.extend(vectorize_event(event, gen=gen))
 
-    assert len(vector) == max_events * EVENT_VECTOR_DIM
+    if len(vector) != max_events * EVENT_VECTOR_DIM:
+        raise VectorizationError(
+            f"History vector has {len(vector)} values, "
+            + f"expected {max_events * EVENT_VECTOR_DIM}",
+            expected_dim=max_events * EVENT_VECTOR_DIM,
+            actual_dim=len(vector),
+        )
     return vector
 
 

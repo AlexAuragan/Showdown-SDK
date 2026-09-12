@@ -7,6 +7,7 @@ from showdown_sdk.classes.parser.models import (
     ProtocolAnnotation,
     ProtocolMessage,
 )
+from showdown_sdk.exceptions import UnhandledEventError
 from showdown_sdk.utils import SerializableObject, to_serializable_object
 
 ## Events
@@ -58,5 +59,10 @@ class DiscardedEvent(BaseEvent):
 def unhandled_event(
     message: ProtocolMessage, action_id: int | None = None
 ) -> UnhandledEvent:
-    raise ValueError("Unhandled event:", message, action_id)
+    raise UnhandledEventError(
+        f"Unhandled event {message.command!r}: {message.raw!r}",
+        command=message.command,
+        raw=message.raw,
+        action_id=action_id,
+    )
     # return UnhandledEvent(message.command, message.arguments, message.annotations, message.raw, action_id)

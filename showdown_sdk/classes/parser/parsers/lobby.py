@@ -26,6 +26,10 @@ from showdown_sdk.classes.parser.events.lobby import (
 from showdown_sdk.classes.parser.models import ProtocolMessage
 from showdown_sdk.classes.parser.parsers.base import MessageParser
 from showdown_sdk.classes.parser.protocol import require_arguments
+from showdown_sdk.exceptions import (
+    ServerResponseError,
+    UnsupportedProtocolError,
+)
 
 if TYPE_CHECKING:
     from showdown_sdk.classes.battle_manager import BattleManager
@@ -63,7 +67,11 @@ class LobbyParser(MessageParser):
         if command == "popup":
             return self._handle_popup(message)
 
-        raise ValueError("Unhandled message", message)
+        raise UnsupportedProtocolError(
+            f"Unhandled lobby message: {message.command!r}",
+            command=message.command,
+            raw=message.raw,
+        )
         # return [] # TEMP
 
     def _handle_popup(self, message: ProtocolMessage) -> list[BaseEvent]:
@@ -71,9 +79,11 @@ class LobbyParser(MessageParser):
             "- This format requires you to use your own team."
             in message.arguments
         ):
-            raise ValueError("No team provided but a team is required", message)
+            raise ServerResponseError("No team provided but a team is required")
         if "Your selected format is invalid:" in message.arguments:
-            raise ValueError("Invalid battle format", message.arguments)
+            raise ServerResponseError(
+                f"Invalid battle format: {message.arguments!r}"
+            )
         if (
             "Your team was rejected for the following reasons:"
             in message.arguments
@@ -101,7 +111,11 @@ class LobbyParser(MessageParser):
             "you were not in that room." in arg for arg in message.arguments
         ):
             return []
-        raise NotImplementedError(message)
+        raise UnsupportedProtocolError(
+            f"Unhandled popup message: {message.raw!r}",
+            command=message.command,
+            raw=message.raw,
+        )
 
     @staticmethod
     def _handle_update_user(message: ProtocolMessage) -> list[BaseEvent]:

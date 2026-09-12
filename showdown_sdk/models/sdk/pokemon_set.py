@@ -5,6 +5,7 @@ Pokémon representation for team building, distinct from the in-battle represent
 import re
 from dataclasses import dataclass, field
 
+from showdown_sdk.exceptions import TeamGenerationError
 from showdown_sdk.models.pokemon import EVs, IVs
 
 ## Data models
@@ -171,7 +172,7 @@ class TeamSet:
 
 def _parse_pokemon(lines: list[str]) -> PokemonSet:
     if not lines:
-        raise ValueError("Empty Pokémon set")
+        raise TeamGenerationError("Empty Pokémon set")
 
     species, nickname, gender, item = _parse_header(lines[0])
 
@@ -187,7 +188,7 @@ def _parse_pokemon(lines: list[str]) -> PokemonSet:
             gender = line[8:].strip()
 
             if gender not in {"M", "F"}:
-                raise ValueError(f"Invalid gender: {gender!r}")
+                raise TeamGenerationError(f"Invalid gender: {gender!r}")
 
             pokemon.gender = gender
 
@@ -219,7 +220,9 @@ def _parse_pokemon(lines: list[str]) -> PokemonSet:
             pokemon.moves.append(line[2:].strip())
 
         else:
-            raise ValueError(f"Unsupported Showdown team line: {line!r}")
+            raise TeamGenerationError(
+                f"Unsupported Showdown team line: {line!r}"
+            )
 
     return pokemon
 
@@ -250,7 +253,7 @@ def _parse_header(line: str) -> tuple[str, str | None, str | None, str | None]:
         species = line.strip()
 
     if not species:
-        raise ValueError("Pokémon species cannot be empty")
+        raise TeamGenerationError("Pokémon species cannot be empty")
 
     return species, nickname, gender, item
 
@@ -300,7 +303,7 @@ def _parse_stat_part(part: str) -> tuple[int, str]:
     )
 
     if match is None:
-        raise ValueError(f"Invalid stat specification: {part!r}")
+        raise TeamGenerationError(f"Invalid stat specification: {part!r}")
 
     value = int(match.group(1))
     stat = match.group(2).lower()

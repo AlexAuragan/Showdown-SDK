@@ -2,6 +2,7 @@
 
 from dataclasses import dataclass
 
+from showdown_sdk.exceptions import FeatureExtractionError
 from showdown_sdk.features.common import canonical, canonical_move
 from showdown_sdk.models.pokemon import MinorStatus
 from showdown_sdk.models.sdk import BattleState
@@ -66,7 +67,10 @@ def available_actions_to_features(
             continue
 
         pokemon_id = pokemon.id
-        assert isinstance(pokemon_id, str)
+        if not isinstance(pokemon_id, str):
+            raise FeatureExtractionError(
+                f"Switch candidate has no valid id: {pokemon_id!r}"
+            )
 
         actions.append(
             ActionFeatures(

@@ -22,11 +22,17 @@ from showdown_sdk.classes.parser.events.battle import (
 )
 from showdown_sdk.classes.parser.events.lobby import LobbyEvent
 from showdown_sdk.classes.parser.events.reducers import apply_lobby_event
-from showdown_sdk.classes.parser.exceptions import (
+from showdown_sdk.classes.parser.parser import Parser
+from showdown_sdk.exceptions import (
+    BattleLifecycleError,
+    BattleSyncError,
+    ClientStateError,
+    CombatHandlerError,
     InvalidActionError,
     ObsoleteRequestIdError,
+    SDKTimeoutError,
+    UnhandledEventError,
 )
-from showdown_sdk.classes.parser.parser import Parser
 from showdown_sdk.models.sdk import TeamSet, check_battle_state_against_showdown
 
 ## Constants
@@ -117,10 +123,10 @@ class Client:
         await self.ensure_connected()
 
         if self.websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         if self.team_validation_future is not None:
-            raise RuntimeError("A team validation is already pending")
+            raise ClientStateError("A team validation is already pending")
 
         loop = asyncio.get_running_loop()
         self.team_validation_future = loop.create_future()
@@ -135,12 +141,12 @@ class Client:
 
     async def act(self) -> None:
         if self.websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         manager = self.battle_manager
 
         if manager.room_id is None:
-            raise RuntimeError("room_id not set.")
+            raise ClientStateError("room_id not set.")
 
         manager.start_action_timeout()
 
@@ -150,7 +156,7 @@ class Client:
             )
 
             if not choices:
-                raise RuntimeError(
+                raise CombatHandlerError(
                     "Combat handler produced no ranked actions for the "
                     + f"decision request (rqid={manager.request_id})"
                 )
@@ -174,12 +180,12 @@ class Client:
         request_id = manager.last_request_id
 
         if request_id is None:
-            raise RuntimeError(
+            raise BattleSyncError(
                 "Showdown rejected a choice but no request id is available"
             )
 
         if manager.pending_choices_rqid != request_id:
-            raise RuntimeError(
+            raise BattleSyncError(
                 "Showdown rejected a choice but the pending action ranking "
                 + "belongs to another request: "
                 + f"rejected_rqid={request_id}, "
@@ -187,7 +193,7 @@ class Client:
             )
 
         if not manager.pending_choices:
-            raise RuntimeError(
+            raise CombatHandlerError(
                 "Showdown rejected every ranked action for "
                 + f"rqid={request_id}, "
                 + f"room={manager.room_id!r}, "
@@ -228,7 +234,7 @@ class Client:
         action_type, action_info = choice
         manager = self.battle_manager
         if manager.room_id is None:
-            raise RuntimeError("room_id not set.")
+            raise ClientStateError("room_id not set.")
         self.log_manager.battle.info(
             f"Sending /choose {action_type} {action_info}|{manager.request_id} in {manager.room_id} "
             + f"[force_switch={manager.battle_state.force_switch} "
@@ -242,7 +248,7 @@ class Client:
 
     async def connect(self) -> None:
         if self.websocket is not None:
-            raise RuntimeError("The client is already connected")
+            raise ClientStateError("The client is already connected")
 
         self.websocket = await connect(
             self.websocket_url, ping_interval=20, ping_timeout=120
@@ -251,7 +257,7 @@ class Client:
 
     async def login(self, username: str, timeout: float = 10) -> None:
         if self.websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         self.ready.clear()
         self.username = username
@@ -263,7 +269,7 @@ class Client:
             print(
                 f"{self.username=}, {self.battle_manager.player_id=}, {self.battle_manager.room_id=}, {self.parser.last_message_room_id=}"
             )
-            raise TimeoutError(
+            raise SDKTimeoutError(
                 f"Timed out while logging as user {username!r}"
             ) from e
         await self._leave_stale_rooms(wait_for_autorejoin=True)
@@ -271,7 +277,7 @@ class Client:
     async def send(self, command: str, room_id: str = "") -> None:
 
         if self.websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         self.log_manager.battle.debug(
             "<- %s|%s", room_id, command, extra={"room_id": room_id or None}
@@ -307,13 +313,13 @@ class Client:
         manager = self.battle_manager
 
         if websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         if (
             manager.request_id is not None
             and manager.room_id != self.parser.last_message_room_id
         ):
-            raise RuntimeError(
+            raise BattleSyncError(
                 "Battle room desync: "
                 + f"manager={manager.room_id!r}, "
                 + f"parser={self.parser.last_message_room_id!r}, "
@@ -365,7 +371,7 @@ class Client:
                                         manager.room_id
                                         != self.parser.last_message_room_id
                                     ):
-                                        raise RuntimeError(
+                                        raise BattleSyncError(
                                             "BattleStartEvent established the wrong room: "
                                             + f"manager={manager.room_id!r}, "
                                             + f"message={self.parser.last_message_room_id!r}"
@@ -376,12 +382,17 @@ class Client:
                             elif isinstance(event, DiscardedEvent):
                                 pass
                             elif isinstance(event, UnhandledEvent):
-                                print(event.raw)
-                                print(type(event))
-                                print(event)
-                                raise NotImplementedError(event.raw)
+                                raise UnhandledEventError(
+                                    f"Unhandled event: {event.raw}",
+                                    command=event.command,
+                                    raw=event.raw,
+                                    action_id=event.action_id,
+                                )
                             else:
-                                raise NotImplementedError(type(event))
+                                raise UnhandledEventError(
+                                    f"Unhandled event type: {type(event).__name__}",
+                                    event_type=type(event).__name__,
+                                )
                             if isinstance(event, TurnEvent):
                                 manager.start_action_timeout()
                     except ObsoleteRequestIdError as e:
@@ -433,7 +444,7 @@ class Client:
 
                 if manager.requires_team_preview:
                     if manager.room_id is None:
-                        raise ValueError("room_id is None")
+                        raise BattleSyncError("room_id is None")
                     team_order: list[str] = [
                         str(idx)
                         for idx in self.combat_handler.select_team_order()
@@ -452,12 +463,12 @@ class Client:
                             await self.act()
                             manager.request_id = None
                             continue
-                        raise RuntimeError(
+                        raise BattleSyncError(
                             "Received Showdown battle state without a pending request"
                         )
 
                     if manager.request_id != pending_request_id:
-                        raise RuntimeError(
+                        raise BattleSyncError(
                             "Battle state synchronization failed: "
                             + f"requested rqid={pending_request_id}, "
                             + f"current rqid={manager.request_id}"
@@ -487,7 +498,7 @@ class Client:
 
                     elif manager.request_id != pending_request_id:
                         # Showdown gave us a new decision before answering the state request for the previous one.
-                        raise RuntimeError(
+                        raise BattleSyncError(
                             "Received a different decision while waiting for Showdown state: "
                             + f"pending rqid={pending_request_id}, "
                             + f"current rqid={manager.request_id}"
@@ -549,7 +560,7 @@ class Client:
                 ):
                     return
 
-            except TimeoutError:
+            except SDKTimeoutError:
                 if attempt == 2:
                     raise
 
@@ -558,7 +569,7 @@ class Client:
             if attempt < 2:
                 await asyncio.sleep(1.0)
 
-        raise ConnectionError(f"Failed to reconnect client {username!r}")
+        raise ClientStateError(f"Failed to reconnect client {username!r}")
 
     async def challenge(
         self,
@@ -570,10 +581,10 @@ class Client:
         await self.ensure_connected()
 
         if self.websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         if self.challenge_future is not None:
-            raise RuntimeError("A challenge is already pending")
+            raise ClientStateError("A challenge is already pending")
 
         await self.upload_team(team)
         loop = asyncio.get_running_loop()
@@ -591,7 +602,7 @@ class Client:
 
         except TimeoutError as error:
             self.parser.expecting_battle_room = False
-            raise TimeoutError(
+            raise SDKTimeoutError(
                 f"No challenge confirmation for {user!r}"
             ) from error
         except BaseException:
@@ -618,11 +629,11 @@ class Client:
         manager = self.battle_manager
 
         if manager.battle_finished is not None:
-            raise RuntimeError("A battle is already being tracked")
+            raise BattleLifecycleError("A battle is already being tracked")
 
         receive_task = self._receive_task
         if receive_task is None:
-            raise RuntimeError("Receive task is not running")
+            raise ClientStateError("Receive task is not running")
 
         loop = asyncio.get_running_loop()
 
@@ -635,7 +646,9 @@ class Client:
             await asyncio.wait_for(manager.room_ready.wait(), timeout=timeout)
 
             if manager.room_id is None:
-                raise RuntimeError("Battle room not set after room_ready")
+                raise BattleLifecycleError(
+                    "Battle room not set after room_ready"
+                )
 
             done, _ = await asyncio.wait(
                 {manager.battle_finished, receive_task},
@@ -646,18 +659,18 @@ class Client:
             # Websocket/parser loop died before the battle finished.
             if receive_task in done:
                 if receive_task.cancelled():
-                    raise RuntimeError(
+                    raise BattleLifecycleError(
                         f"Receive loop was cancelled during battle {manager.room_id!r}"
                     )
 
                 error = receive_task.exception()
 
                 if error is not None:
-                    raise RuntimeError(
+                    raise BattleLifecycleError(
                         f"Receive loop crashed during battle {manager.room_id!r}"
                     ) from error
 
-                raise RuntimeError(
+                raise BattleLifecycleError(
                     f"Receive loop exited unexpectedly during battle {manager.room_id!r}"
                 )
 
@@ -666,7 +679,7 @@ class Client:
                 battle_completed = True
                 return result
 
-            raise TimeoutError(
+            raise SDKTimeoutError(
                 "Battle timed out: "
                 + f"room={manager.room_id!r}, "
                 + f"player={self.username!r}, "
@@ -742,7 +755,7 @@ class Client:
         await self.ensure_connected()
 
         if self.websocket is None:
-            raise RuntimeError("Client is not connected")
+            raise ClientStateError("Client is not connected")
 
         await self.upload_team(team)
 

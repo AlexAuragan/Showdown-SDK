@@ -73,6 +73,12 @@ from showdown_sdk.classes.parser.reducers.mechanics import (
     sync_own_two_turn_status_from_request,
     sync_sticky_barb_from_damage,
 )
+from showdown_sdk.exceptions import (
+    BattleStateInvariantError,
+    MalformedProtocolError,
+    UnhandledEventError,
+    UnsupportedProtocolError,
+)
 from showdown_sdk.models import dex, to_id
 from showdown_sdk.models.pokemon import (
     AvailableMove,
@@ -186,8 +192,9 @@ def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
         case CustomShowdownBattleStateEvent():
             battle_state.custom_showdown_battlestate = event.content
         case _:
-            raise NotImplementedError(
-                f"No BattleState reducer for {type(event).__name__}"
+            raise UnhandledEventError(
+                f"No BattleState reducer for {type(event).__name__}",
+                event_type=type(event).__name__,
             )
 
 
@@ -368,7 +375,7 @@ def _reduce_move_copied(
             if to_id(move) == "mimic"
         ]
         if len(mimic_slots) != 1:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Own Pokémon used Mimic but expected exactly one Mimic slot: "
                 + f"{own.moves}"
             )
@@ -384,7 +391,7 @@ def _reduce_move_copied(
             if to_id(move) == "mimic":
                 enemy.temporary_moves[index] = event.copied_move
                 return
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             "Transformed Pokémon used Mimic but Mimic is not present in "
             + f"temporary_moves: {enemy.temporary_moves}"
         )
@@ -412,7 +419,9 @@ def _reduce_minor_status_activation(
 
     actor = event.source.actor
     if actor is None:
-        raise RuntimeError("TRAPPED activation has no source actor")
+        raise BattleStateInvariantError(
+            "TRAPPED activation has no source actor"
+        )
 
     status.set_trapped(actor.player)
 
@@ -540,7 +549,9 @@ def _transform_target_species(target: EnemyPokemon) -> str:
     if target.species is not None:
         return target.species
 
-    raise RuntimeError(f"Transform target species is unknown for {target.id!r}")
+    raise BattleStateInvariantError(
+        f"Transform target species is unknown for {target.id!r}"
+    )
 
 
 def _own_species(own: PartyPokemon | None) -> str | None:
@@ -559,7 +570,7 @@ def _current_own_species(
 
     # Transform can only target the Pokémon currently on the field.
     if own.id != battle_state.curr_pokemon:
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             "Transform target is not the active own Pokémon: " + repr(own.id)
         )
 
@@ -587,7 +598,7 @@ def _reduce_switch(
         species = _species_from_details(event.details)
 
         if species is None:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Could not determine species from replace details: "
                 + repr(event.details)
             )
@@ -605,7 +616,9 @@ def _reduce_switch(
         )
 
         if enemy is None:
-            raise RuntimeError("Replaced enemy disappeared from battle state")
+            raise BattleStateInvariantError(
+                "Replaced enemy disappeared from battle state"
+            )
 
         enemy.status.major = event.major_status
 
@@ -659,7 +672,7 @@ def _reduce_switch(
     species = _species_from_details(event.details)
 
     if species is None:
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             "Could not determine species from switch details: "
             + repr(event.details)
         )
@@ -700,7 +713,7 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
         target = resolve_enemy(battle_state, event.target)
 
         if target is None:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 f"Transform target {event.target} " + "not found in enemy team"
             )
 
@@ -723,7 +736,7 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
     own = resolve_self(battle_state, event.target)
 
     if own is None:
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             f"Transform target {event.target} " + "not found in own team"
         )
 
@@ -732,7 +745,7 @@ def _reduce_transform(battle_state: BattleState, event: TransformEvent) -> None:
     target_species = _current_own_species(battle_state, own)
 
     if target_species is None:
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             f"Transform target species unknown for {event.target}"
         )
 
@@ -806,7 +819,7 @@ def _reduce_item(battle_state: BattleState, event: ItemEvent) -> None:
         and enemy.item is not Unknown.VALUE
         and enemy.item != event.item
     ):
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             "Item mismatch between protocol and battle state: "
             + f"{enemy.item=}, self.item={event.item!r}"
         )
@@ -890,7 +903,7 @@ def _reduce_forme_change(
 
     if own is not None:
         if own.id != battle_state.curr_pokemon:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Received forme change for non-active own Pokémon: "
                 + repr(own.id)
             )
@@ -938,7 +951,7 @@ def _reduce_decision_request(
     active_requests = [pokemon for pokemon in event.pokemon if pokemon.active]
 
     if len(active_requests) > 1:
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             "Expected at most one active Pokémon in singles request, "
             + f"got {[pokemon.ident for pokemon in active_requests]!r}"
         )
@@ -1042,7 +1055,7 @@ def _reduce_decision_request(
 
 def _reduce_game_type(battle_state: BattleState, event: GameTypeEvent) -> None:
     if event.type not in event.IMPLEMENTED_TYPES:
-        raise NotImplementedError(
+        raise UnsupportedProtocolError(
             f"Gametype not implemented yet: {event.type} not in "
             + f"{event.IMPLEMENTED_TYPES}"
         )
@@ -1051,9 +1064,9 @@ def _reduce_game_type(battle_state: BattleState, event: GameTypeEvent) -> None:
 
 def _reduce_game_gen(battle_state: BattleState, event: GameGenEvent) -> None:
     if event.gen <= 0:
-        raise ValueError("Pokemon gen must be between 1 and 9")
+        raise MalformedProtocolError("Pokemon gen must be between 1 and 9")
     if event.gen > event.LAST_IMPLEMENTED_GEN:
-        raise NotImplementedError(
+        raise UnsupportedProtocolError(
             f"Only gen up to {event.LAST_IMPLEMENTED_GEN} was implemented"
         )
     battle_state.format.gen = event.gen
@@ -1061,7 +1074,7 @@ def _reduce_game_gen(battle_state: BattleState, event: GameGenEvent) -> None:
 
 def _reduce_game_tier(battle_state: BattleState, event: GameTierEvent) -> None:
     if event.tier not in event.IMPLEMENTED_TIERS:
-        raise NotImplementedError(
+        raise UnsupportedProtocolError(
             f"Game tier not implemented yet: {event.tier} not in "
             + f"{event.IMPLEMENTED_TIERS}"
         )

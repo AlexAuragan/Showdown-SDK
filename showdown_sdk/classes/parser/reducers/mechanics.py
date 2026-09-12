@@ -30,6 +30,7 @@ from showdown_sdk.classes.parser.models import (
     PokemonIdent,
     RequestMove,
 )
+from showdown_sdk.exceptions import BattleStateInvariantError
 from showdown_sdk.models import dex, to_id
 from showdown_sdk.models.pokemon import (
     EnemyPokemon,
@@ -108,7 +109,7 @@ def sync_sticky_barb_from_damage(
             return
 
         if to_id(enemy.item) != "stickybarb":
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Sticky Barb damage contradicts the known enemy item: "
                 + f"{enemy.item=}"
             )
@@ -202,7 +203,9 @@ def copy_baton_pass_status(target: Status, source: Status, gen: int) -> None:
 
         if effect is MinorStatus.TRAPPED:
             if source.trapped_by_side is None:
-                raise RuntimeError("TRAPPED status has no trapping source")
+                raise BattleStateInvariantError(
+                    "TRAPPED status has no trapping source"
+                )
 
             target.set_trapped(source.trapped_by_side)
             continue
@@ -232,7 +235,7 @@ def clear_traps_sourced_by_side(battle_state: BattleState, side: str) -> None:
 
 def is_self(battle_state: BattleState, ident: PokemonIdent) -> bool:
     if not battle_state.player_id:
-        raise ValueError("Battle State has no player_id.")
+        raise BattleStateInvariantError("Battle State has no player_id.")
     return ident.player == battle_state.player_id
 
 
@@ -283,7 +286,7 @@ def resolve_any_status(
 
     pokemon = resolve_enemy(battle_state, ident)
     if pokemon is None:
-        raise RuntimeError(
+        raise BattleStateInvariantError(
             f"Pokemon {ident} not found in enemy team {battle_state.enemy_team}"
         )
     return pokemon.status
@@ -307,7 +310,10 @@ def reveal_effect_source(
             enemy.item = source.name
             return
 
-        assert enemy.item == source.name, f"{enemy.item=}, {source.name=}"
+        if enemy.item != source.name:
+            raise BattleStateInvariantError(
+                f"Item source mismatch: {enemy.item=}, {source.name=}"
+            )
 
     if source.type == SourceType.ABILITY:
         enemy.current_ability = source.name

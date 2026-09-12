@@ -44,6 +44,7 @@ from showdown_sdk.classes.parser import (
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
     InvalidActionError,
+    MalformedProtocolError,
     ObsoleteRequestIdError,
     extract_protocol_line,
 )
@@ -91,7 +92,7 @@ def _detect_player(raw_lines: list[str]) -> tuple[str, str]:
     for line in raw_lines:
         try:
             protocol_line = extract_protocol_line(line, has_log_timestamp=True)
-        except ValueError:
+        except MalformedProtocolError:
             continue
 
         if protocol_line.startswith("|player|"):
@@ -135,7 +136,7 @@ def split_frames(raw_lines: list[str]) -> list[list[str]]:
     for line in raw_lines:
         try:
             protocol_line = extract_protocol_line(line, has_log_timestamp=True)
-        except ValueError:
+        except MalformedProtocolError:
             continue
 
         if protocol_line.startswith(">"):

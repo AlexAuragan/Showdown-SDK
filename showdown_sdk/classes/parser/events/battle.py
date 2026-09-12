@@ -8,6 +8,7 @@ from showdown_sdk.classes.parser.models import (
     RequestMove,
     RequestPokemon,
 )
+from showdown_sdk.exceptions import EventInvariantError
 from showdown_sdk.models.pokemon import (
     MajorStatus,
     MinorStatus,
@@ -47,9 +48,15 @@ class MoveEvent(BattleEvent):
 
     def __post_init__(self) -> None:
         if not self.success and self.does_hit:
-            raise ValueError("A failed move cannot be marked as having hit")
+            raise EventInvariantError(
+                "A failed move cannot be marked as having hit",
+                event_type=type(self).__name__,
+            )
         if self.hit_count is not None and self.hit_count <= 0:
-            raise ValueError("A move hit count must be positive")
+            raise EventInvariantError(
+                "A move hit count must be positive",
+                event_type=type(self).__name__,
+            )
 
 
 @dataclass(frozen=True)
@@ -116,11 +123,15 @@ class StatChangeEvent(BattleEvent):
 
     def __post_init__(self) -> None:
         if self.success and not self.stat_changes:
-            raise ValueError(
-                "A successful stat change must contain at least one change"
+            raise EventInvariantError(
+                "A successful stat change must contain at least one change",
+                event_type=type(self).__name__,
             )
         if not self.success and self.failure_reason is None:
-            raise ValueError("A failed stat change must have a failure reason")
+            raise EventInvariantError(
+                "A failed stat change must have a failure reason",
+                event_type=type(self).__name__,
+            )
 
 
 @dataclass(frozen=True)

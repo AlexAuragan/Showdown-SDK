@@ -8,6 +8,7 @@ embedding library.
 from dataclasses import dataclass
 from typing import cast
 
+from showdown_sdk.exceptions import FeatureExtractionError
 from showdown_sdk.features.actions import (
     ActionFeatures,
     available_actions_to_features,
@@ -95,7 +96,7 @@ def weather_to_features(battle_state: BattleState) -> str | None:
         if weather == candidate.value:
             return canonical(candidate.value)
 
-    raise ValueError(f"Unknown weather: {weather!r}")
+    raise FeatureExtractionError(f"Unknown weather: {weather!r}")
 
 
 def field_to_features(battle_state: BattleState) -> FieldFeatures:
@@ -107,7 +108,7 @@ def field_to_features(battle_state: BattleState) -> FieldFeatures:
     ]
 
     if len(foe_side_ids) > 1:
-        raise ValueError(
+        raise FeatureExtractionError(
             f"Expected at most one opponent side, got {foe_side_ids!r}"
         )
 

@@ -7,6 +7,7 @@ from showdown_sdk.classes.parser.models import (
     PokemonIdent,
     ProtocolMessage,
 )
+from showdown_sdk.exceptions import ParserStateError
 from showdown_sdk.models.pokemon import MajorStatus
 
 ## Data models
@@ -52,7 +53,9 @@ class EffectParseContext:
     def gen(self) -> int:
         gen = self.protocol_context.gen
         if gen is None:
-            raise ValueError("gen was accessed before getting initilazed")
+            raise ParserStateError(
+                "gen was accessed before getting initilazed", state="gen"
+            )
         return gen
 
 

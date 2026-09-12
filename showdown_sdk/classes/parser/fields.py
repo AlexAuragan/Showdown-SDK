@@ -6,6 +6,10 @@ from showdown_sdk.classes.parser.models import (
     ProtocolMessage,
 )
 from showdown_sdk.classes.parser.protocol import LEVEL_PATTERN, annotation_value
+from showdown_sdk.exceptions import (
+    MalformedProtocolError,
+    UnsupportedProtocolError,
+)
 from showdown_sdk.models.pokemon import MajorStatus, MinorStatus
 from showdown_sdk.models.sdk import SourceType
 
@@ -16,19 +20,21 @@ def parse_pokemon_ident(value: str) -> PokemonIdent:
     try:
         position, name = value.split(": ", 1)
     except ValueError as error:
-        raise ValueError(f"Invalid Pokémon identifier: {value!r}") from error
+        raise MalformedProtocolError(
+            f"Invalid Pokémon identifier: {value!r}"
+        ) from error
 
     if len(position) == 2:
         player, slot = position, None
     elif len(position) == 3:
         player, slot = position[:2], position[2]
     else:
-        raise ValueError(f"Invalid Pokémon position: {position!r}")
+        raise MalformedProtocolError(f"Invalid Pokémon position: {position!r}")
 
     if player not in {"p1", "p2", "p3", "p4"}:
-        raise ValueError(f"Invalid Pokémon player: {player!r}")
+        raise MalformedProtocolError(f"Invalid Pokémon player: {player!r}")
     if slot is not None and slot not in {"a", "b", "c"}:
-        raise ValueError(f"Invalid active slot: {slot!r}")
+        raise MalformedProtocolError(f"Invalid active slot: {slot!r}")
 
     return PokemonIdent(player, slot, name)
 
@@ -36,7 +42,7 @@ def parse_pokemon_ident(value: str) -> PokemonIdent:
 def parse_condition(value: str) -> ParsedCondition:
     parts = value.split()
     if not parts:
-        raise ValueError("Cannot parse an empty condition")
+        raise MalformedProtocolError("Cannot parse an empty condition")
 
     hp_text = parts[0]
     status = None
@@ -44,18 +50,23 @@ def parse_condition(value: str) -> ParsedCondition:
         try:
             status = MajorStatus(parts[1])
         except ValueError as error:
-            raise ValueError(
+            raise MalformedProtocolError(
                 f"Unsupported major status in {value!r}"
             ) from error
 
-    if "/" in hp_text:
-        current_text, max_text = hp_text.split("/", 1)
-        current_hp, max_hp = int(current_text), int(max_text)
-    else:
-        current_hp, max_hp = int(hp_text), None
+    try:
+        if "/" in hp_text:
+            current_text, max_text = hp_text.split("/", 1)
+            current_hp, max_hp = int(current_text), int(max_text)
+        else:
+            current_hp, max_hp = int(hp_text), None
+    except ValueError as error:
+        raise MalformedProtocolError(
+            f"Invalid HP condition: {value!r}"
+        ) from error
 
     if current_hp < 0 or (max_hp is not None and not 0 <= current_hp <= max_hp):
-        raise ValueError(f"Invalid HP condition: {value!r}")
+        raise MalformedProtocolError(f"Invalid HP condition: {value!r}")
 
     return ParsedCondition(current_hp, max_hp, status)
 
@@ -80,7 +91,7 @@ def parse_pokemon_details(details: str) -> PokemonDetails:
     """
     normalized = details.strip()
     if not normalized:
-        raise ValueError("Cannot parse empty Pokémon details")
+        raise MalformedProtocolError("Cannot parse empty Pokémon details")
 
     parts = tuple(part.strip() for part in normalized.split(","))
 
@@ -90,13 +101,13 @@ def parse_pokemon_details(details: str) -> PokemonDetails:
     for part in parts[1:]:
         if part == "M":
             if gender == "F":
-                raise ValueError(
+                raise MalformedProtocolError(
                     f"Conflicting genders in Pokémon details: {details!r}"
                 )
             gender = "M"
         elif part == "F":
             if gender == "M":
-                raise ValueError(
+                raise MalformedProtocolError(
                     f"Conflicting genders in Pokémon details: {details!r}"
                 )
             gender = "F"
@@ -121,14 +132,14 @@ def parse_minor_status(value: str) -> MinorStatus:
     for status in MinorStatus:
         if status.value.casefold() == normalized:
             return status
-    raise ValueError(f"Unsupported minor status: {value!r}")
+    raise UnsupportedProtocolError(f"Unsupported minor status: {value!r}")
 
 
 def parse_side_ident(value: str) -> str:
     side = value.split(":", 1)[0].strip()
 
     if side not in {"p1", "p2", "p3", "p4"}:
-        raise ValueError(f"Invalid side identifier: {value!r}")
+        raise MalformedProtocolError(f"Invalid side identifier: {value!r}")
 
     return side
 
@@ -253,7 +264,7 @@ def parse_move_origin(message: ProtocolMessage) -> EffectSource | None:
     if prefix == "move":
         return EffectSource(type=SourceType.MOVE, name=source_name)
 
-    raise ValueError(f"Unknown move origin: {from_value!r}")
+    raise UnsupportedProtocolError(f"Unknown move origin: {from_value!r}")
 
 
 ## Helpers
@@ -262,7 +273,7 @@ def parse_move_origin(message: ProtocolMessage) -> EffectSource | None:
 def _split_source_value(value: str) -> tuple[str | None, str]:
     normalized = value.strip()
     if not normalized:
-        raise ValueError("Cannot parse empty effect source")
+        raise MalformedProtocolError("Cannot parse empty effect source")
 
     prefix, separator, name = normalized.partition(": ")
 
@@ -273,6 +284,6 @@ def _split_source_value(value: str) -> tuple[str | None, str]:
     name = name.strip()
 
     if not prefix or not name:
-        raise ValueError(f"Invalid effect source: {value!r}")
+        raise MalformedProtocolError(f"Invalid effect source: {value!r}")
 
     return prefix, name

@@ -4,6 +4,7 @@ import re
 from itertools import groupby
 
 from showdown_sdk.classes.dt import Format, FormatFlag
+from showdown_sdk.exceptions import MalformedProtocolError
 
 ## Constants
 
@@ -24,9 +25,10 @@ def split_protocol(
         payload.split("|", maxsplit) if maxsplit >= 0 else payload.split("|")
     )
     if len(parts) < min_parts:
-        raise RuntimeError(
+        raise MalformedProtocolError(
             f"Malformed {prefix.rstrip('|')} message: expected at least "
-            + f"{min_parts} fields, got {len(parts)} in {line!r}"
+            + f"{min_parts} fields, got {len(parts)} in {line!r}",
+            raw=line,
         )
     return parts
 

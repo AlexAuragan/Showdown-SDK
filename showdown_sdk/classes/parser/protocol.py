@@ -5,6 +5,7 @@ from showdown_sdk.classes.parser.models import (
     ProtocolAnnotation,
     ProtocolMessage,
 )
+from showdown_sdk.exceptions import MalformedProtocolError
 
 ## Constants
 
@@ -66,7 +67,9 @@ def parse_protocol_message(line: str) -> ProtocolMessage:
         return ProtocolMessage("room", (raw[1:],), (), raw)
 
     if not raw.startswith("|"):
-        raise ValueError(f"Protocol line must start with '|' or '>': {raw!r}")
+        raise MalformedProtocolError(
+            f"Protocol line must start with '|' or '>': {raw!r}", raw=raw
+        )
 
     parts = raw.split("|")
     command = parts[1] if len(parts) > 1 else ""
@@ -109,7 +112,9 @@ def extract_protocol_line(line: str, *, has_log_timestamp: bool) -> str:
         return line
     parts = line.split(" ", 2)
     if len(parts) != 3:
-        raise ValueError(f"Invalid timestamped log line: {line!r}")
+        raise MalformedProtocolError(
+            f"Invalid timestamped log line: {line!r}", raw=line
+        )
     return parts[2]
 
 
@@ -123,7 +128,9 @@ def is_move_boundary(message: ProtocolMessage) -> bool:
 
 def require_arguments(message: ProtocolMessage, count: int) -> None:
     if len(message.arguments) < count:
-        raise ValueError(
+        raise MalformedProtocolError(
             f"Expected {count} arguments for {message.command!r}, "
-            + f"got {len(message.arguments)} in {message.raw!r}"
+            + f"got {len(message.arguments)} in {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
         )

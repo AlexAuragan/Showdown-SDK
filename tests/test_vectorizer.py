@@ -12,6 +12,7 @@ Dimension-stability tests that need private constants still import them
 from the private namespace with the required pyright suppression.
 """
 
+from showdown_sdk.exceptions import VectorizationError
 from showdown_sdk.features import (
     ActionFeatures,
     BattleFeatures,
@@ -210,7 +211,7 @@ def test_vectorization_requires_gen() -> None:
     )
     import pytest
 
-    with pytest.raises(ValueError, match="gen is required"):
+    with pytest.raises(VectorizationError, match="gen is required"):
         vectorize_battle_features(features)
 
 

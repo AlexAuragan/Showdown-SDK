@@ -32,6 +32,7 @@ from showdown_sdk.classes.parser.protocol import (
     is_ignored_message,
     require_arguments,
 )
+from showdown_sdk.exceptions import MalformedProtocolError
 from showdown_sdk.models.sdk import SourceType
 
 ## Handlers
@@ -70,12 +71,18 @@ def parse_move_group(
     context: ProtocolContext,
 ) -> list[BaseEvent]:
     if not messages or messages[0].command != "move":
-        raise ValueError("A move group must start with a move message")
+        raise MalformedProtocolError(
+            "A move group must start with a move message"
+        )
 
     move_message = messages[0]
 
     if len(move_message.arguments) < 2:
-        raise ValueError(f"Malformed move message: {move_message.raw!r}")
+        raise MalformedProtocolError(
+            f"Malformed move message: {move_message.raw!r}",
+            raw=move_message.raw,
+            command=move_message.command,
+        )
 
     user = parse_pokemon_ident(move_message.arguments[0])
     move = move_message.arguments[1]
@@ -182,9 +189,17 @@ def _handle_move_control_message(
         try:
             hit_count = int(message.arguments[1])
         except ValueError as error:
-            raise ValueError(f"Invalid hit count: {message.raw!r}") from error
+            raise MalformedProtocolError(
+                f"Invalid hit count: {message.raw!r}",
+                raw=message.raw,
+                command=message.command,
+            ) from error
         if hit_count <= 0:
-            raise ValueError(f"Hit count must be positive: {message.raw!r}")
+            raise MalformedProtocolError(
+                f"Hit count must be positive: {message.raw!r}",
+                raw=message.raw,
+                command=message.command,
+            )
         state.hit_count = hit_count
         return True
 

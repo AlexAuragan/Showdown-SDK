@@ -79,12 +79,6 @@ from showdown_sdk.classes.parser.events.lobby import (
     UpdateUserEvent,
     UserNotFoundEvent,
 )
-from showdown_sdk.classes.parser.exceptions import (
-    InvalidActionError,
-    ObsoleteRequestIdError,
-    ParserException,
-    WrongRoomException,
-)
 from showdown_sdk.classes.parser.fields import (
     is_percentage_hp,
     make_move_source,
@@ -133,6 +127,17 @@ from showdown_sdk.classes.parser.protocol import (
     require_arguments,
 )
 from showdown_sdk.classes.parser.reducers import reduce_battle_state
+from showdown_sdk.exceptions import (
+    BattleSyncError,
+    EventInvariantError,
+    InvalidActionError,
+    MalformedProtocolError,
+    ObsoleteRequestIdError,
+    ParserStateError,
+    ProtocolError,
+    UnhandledEventError,
+    UnsupportedProtocolError,
+)
 
 # ruff: noqa: RUF022
 __all__ = [
@@ -153,8 +158,13 @@ __all__ = [
     "TeamValidEvent",
     "UserNotFoundEvent",
     # Exceptions
-    "ParserException",
-    "WrongRoomException",
+    "ProtocolError",
+    "MalformedProtocolError",
+    "UnsupportedProtocolError",
+    "ParserStateError",
+    "UnhandledEventError",
+    "EventInvariantError",
+    "BattleSyncError",
     "InvalidActionError",
     "ObsoleteRequestIdError",
     # Meta models

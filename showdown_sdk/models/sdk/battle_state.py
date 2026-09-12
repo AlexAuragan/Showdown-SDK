@@ -4,6 +4,7 @@ from dataclasses import asdict, dataclass, field
 from enum import Enum
 from typing import TYPE_CHECKING
 
+from showdown_sdk.exceptions import BattleStateInvariantError
 from showdown_sdk.models import to_id
 from showdown_sdk.models.pokemon import (
     AvailableMove,
@@ -125,7 +126,7 @@ class BattleState:
     def gen(self) -> int:
         gen = self.format.gen
         if gen is None:
-            raise ValueError("gen not initialized yet")
+            raise BattleStateInvariantError("gen not initialized yet")
         return gen
 
     def to_dict(self) -> SerializableObject:
@@ -158,7 +159,7 @@ class BattleState:
         for pokemon in self.team:
             if pokemon.id == pokemon_id:
                 return pokemon
-        raise ValueError(
+        raise BattleStateInvariantError(
             f"Pokemon with id {pokemon_id} not found in team {self.team}"
         )
 
@@ -173,7 +174,7 @@ class BattleState:
                 return pokemon
         if not_found_ok:
             return None
-        raise ValueError(
+        raise BattleStateInvariantError(
             f"Pokemon with id {pokemon_id} not found in enemy team {self.enemy_team}"
         )
 
@@ -237,7 +238,10 @@ class BattleState:
             return
 
         pokemon = self.get_enemy_pokemon(pokemon_name)
-        assert pokemon is not None
+        if pokemon is None:
+            raise BattleStateInvariantError(
+                f"Active enemy {pokemon_name!r} is not in the enemy team"
+            )
         pokemon.witness_move(move)
 
     def witness_switch_in(
@@ -278,7 +282,7 @@ class BattleState:
                     break
 
             if idx is None:
-                raise ValueError(
+                raise BattleStateInvariantError(
                     "The enemy party is full of known pokemon but we're trying "
                     + f"to add a new pokemon ({pokemon_id}); maybe a pokemon changed id?",
                     f"Pokemon: {self.enemy_team}",
@@ -322,7 +326,7 @@ class BattleState:
         )
 
         if current is None or not current.active:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Received replace but there is no active enemy Pokémon"
             )
 
@@ -340,7 +344,7 @@ class BattleState:
             existing = self.get_enemy_pokemon(pokemon_id, not_found_ok=True)
 
             if existing is not None and existing is not current:
-                raise RuntimeError(
+                raise BattleStateInvariantError(
                     "Illusion replacement resolved to an already-known enemy "
                     + f"Pokémon: {pokemon_id!r}"
                 )
@@ -366,7 +370,7 @@ class BattleState:
         snapshot_index, original = snapshot_info
 
         if self._enemy_team[snapshot_index] is not current:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Enemy switch snapshot no longer matches the active Pokémon"
             )
 
@@ -394,7 +398,7 @@ class BattleState:
         actual = self.get_enemy_pokemon(pokemon_id, not_found_ok=True)
 
         if actual is original:
-            raise RuntimeError(
+            raise BattleStateInvariantError(
                 "Illusion user and impersonated Pokémon have the same protocol "
                 + f"id {pokemon_id!r}; BattleState currently requires unique "
                 + "enemy Pokémon ids"
@@ -445,7 +449,7 @@ class BattleState:
                     break
 
             if unknown_index is None:
-                raise RuntimeError(
+                raise BattleStateInvariantError(
                     "Illusion revealed a new enemy Pokémon but no unknown "
                     + "enemy party slot remains"
                 )
@@ -490,7 +494,10 @@ class BattleState:
         copied_moves: list[str] | None = None,
     ) -> None:
         pokemon = self.get_enemy_pokemon(pokemon_id)
-        assert pokemon is not None
+        if pokemon is None:
+            raise BattleStateInvariantError(
+                f"Transform target {pokemon_id!r} not found in enemy team"
+            )
 
         # `transformed_into` stores the target's effective species/form, not
         # the protocol ident (which may be a nickname).

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+from showdown_sdk.exceptions import BattleStateInvariantError
 from showdown_sdk.models.pokemon import EnemyPokemon, MajorStatus, PartyPokemon
 from showdown_sdk.models.sdk import BattleState, SourceType
 
@@ -33,11 +34,13 @@ class PokemonIdent:
     name: str
 
     def get(self, battle_state: BattleState) -> EnemyPokemon | PartyPokemon:
-        print(self.player, battle_state.player_id)
         if self.player == battle_state.player_id:
             return battle_state.get_pokemon(self.name)
         pokemon = battle_state.get_enemy_pokemon(self.name)
-        assert isinstance(pokemon, EnemyPokemon)
+        if not isinstance(pokemon, EnemyPokemon):
+            raise BattleStateInvariantError(
+                f"Expected enemy Pokemon for {self.name!r}, got {pokemon!r}"
+            )
         return pokemon
 
 

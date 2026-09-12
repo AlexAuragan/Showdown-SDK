@@ -19,6 +19,7 @@ from showdown_sdk.classes.parser.models import (
     RequestMove,
     RequestPokemon,
 )
+from showdown_sdk.exceptions import MalformedProtocolError
 from showdown_sdk.utils import (
     SerializableObject,
     expect_array,
@@ -36,18 +37,28 @@ def parse_request_event(
     message: ProtocolMessage, *, player_id: str
 ) -> DecisionRequestEvent | TeamPreviewRequestEvent:
     if message.command != "request":
-        raise ValueError(f"Expected request message, got {message.command!r}")
+        raise MalformedProtocolError(
+            f"Expected request message, got {message.command!r}",
+            raw=message.raw,
+            command=message.command,
+        )
 
     if not message.arguments:
-        raise ValueError("Request message has no JSON payload")
+        raise MalformedProtocolError(
+            "Request message has no JSON payload",
+            raw=message.raw,
+            command=message.command,
+        )
 
     raw_payload = "|".join(message.arguments)
 
     try:
         decoded = json.loads(raw_payload)
     except json.JSONDecodeError as exc:
-        raise ValueError(
-            f"Invalid JSON request payload: {raw_payload!r}"
+        raise MalformedProtocolError(
+            f"Invalid JSON request payload: {raw_payload!r}",
+            raw=message.raw,
+            command=message.command,
         ) from exc
 
     data = expect_object(decoded, name="request")
@@ -100,7 +111,7 @@ def parse_request_event(
         active = expect_array(data["active"], name="request['active']")
 
         if len(active) != 1:
-            raise ValueError(
+            raise MalformedProtocolError(
                 f"Expected exactly one active Pokémon, got {len(active)}"
             )
 
@@ -220,7 +231,7 @@ def parse_request_event(
 
             else:
                 if missing_move_state:
-                    raise ValueError(
+                    raise MalformedProtocolError(
                         "Move is missing required keys: "
                         + f"{sorted(missing_move_state)}, move: {raw_move}"
                     )
@@ -278,7 +289,7 @@ def _parse_request_pokemon(
     side_id = expect_string(side["id"], name="request['side']['id']")
 
     if side_id != player_id:
-        raise ValueError(
+        raise MalformedProtocolError(
             f"Request player mismatch: {side_id=!r}, {player_id=!r}"
         )
 
@@ -287,7 +298,7 @@ def _parse_request_pokemon(
     )
 
     if len(raw_pokemon) > 6:
-        raise ValueError(
+        raise MalformedProtocolError(
             "Malformed request: expected at most 6 Pokémon, "
             + f"got {len(raw_pokemon)}"
         )
@@ -314,7 +325,7 @@ def _parse_request_pokemon(
         if set(raw) != pokemon_keys:
             missing = pokemon_keys - set(raw)
             unknown = set(raw) - pokemon_keys
-            raise ValueError(
+            raise MalformedProtocolError(
                 "Unexpected Pokémon schema: "
                 + f"missing={sorted(missing)}, "
                 + f"unknown={sorted(unknown)}, "
@@ -326,7 +337,7 @@ def _parse_request_pokemon(
         )
 
         if set(stats) != stats_keys:
-            raise ValueError(f"Unexpected stats schema: {stats}")
+            raise MalformedProtocolError(f"Unexpected stats schema: {stats}")
 
         atk = expect_int(stats["atk"], name=f"pokemon[{i}].stats.atk")
         def_ = expect_int(stats["def"], name=f"pokemon[{i}].stats.def")
@@ -399,7 +410,9 @@ def _parse_request_pokemon(
         )
 
     if sum(p.active for p in pokemon) > 1:
-        raise ValueError("Request contains more than one active Pokémon")
+        raise MalformedProtocolError(
+            "Request contains more than one active Pokémon"
+        )
 
     return tuple(pokemon)
 
@@ -427,7 +440,9 @@ def _parse_request_team_preview_event(
     )
 
     if not team_preview:
-        raise ValueError("Team preview request has teamPreview=false")
+        raise MalformedProtocolError(
+            "Team preview request has teamPreview=false"
+        )
 
     raw_request_id = data.get("rqid")
     request_id = expect_optional_int(raw_request_id, name="request['rqid']")
@@ -444,7 +459,7 @@ def _parse_request_team_preview_event(
     pokemon = _parse_request_pokemon(data, player_id=player_id)
 
     if max_chosen_team_size is not None and max_chosen_team_size > len(pokemon):
-        raise ValueError(
+        raise MalformedProtocolError(
             "maxChosenTeamSize cannot exceed the number of Pokémon: "
             + f"{max_chosen_team_size=} {len(pokemon)=}"
         )
@@ -470,9 +485,13 @@ def _validate_keys(
 ) -> None:
     unknown = set(value) - allowed
     if unknown:
-        raise ValueError(f"Unhandled {name} keys: {sorted(unknown)}")
+        raise MalformedProtocolError(
+            f"Unhandled {name} keys: {sorted(unknown)}"
+        )
 
     if required is not None:
         missing = required - set(value)
         if missing:
-            raise ValueError(f"Missing {name} keys: {sorted(missing)}")
+            raise MalformedProtocolError(
+                f"Missing {name} keys: {sorted(missing)}"
+            )

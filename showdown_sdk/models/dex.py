@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import ClassVar, Self, override
 
+from showdown_sdk.exceptions import DexDataError, ParserStateError
 from showdown_sdk.utils import (
     Serializable,
     SerializableObject,
@@ -57,9 +58,10 @@ class DexTable(Mapping[str, Serializable]):
     def _load(self) -> dict[str, Serializable]:
         if self._data is None:
             if not self.path.is_file():
-                raise FileNotFoundError(
+                raise DexDataError(
                     f"Dex data file does not exist: {self.path}. "
-                    + "Run `python dex/download.py` first."
+                    + "Run `python dex/download.py` first.",
+                    path=self.path,
                 )
 
             with self.path.open("r", encoding="utf-8") as file:
@@ -80,7 +82,11 @@ class DexTable(Mapping[str, Serializable]):
         if normalized in data:
             return data[normalized]
 
-        raise KeyError(key)
+        raise DexDataError(
+            f"Dex key {key!r} not found in {self.path.name}",
+            key=key,
+            path=self.path,
+        )
 
     @override
     def __iter__(self) -> Iterator[str]:
@@ -121,13 +127,16 @@ class GenerationDex:
 
     def __post_init__(self) -> None:
         if self.number < 1:
-            raise ValueError(f"Generation must be positive, got {self.number}")
+            raise DexDataError(
+                f"Generation must be positive, got {self.number}"
+            )
 
         directory = self.directory
         if not directory.is_dir():
-            raise FileNotFoundError(
+            raise DexDataError(
                 f"Generation {self.number} has not been downloaded: {directory}. "
-                + f"Run `python dex/download.py --gens {self.number}` first."
+                + f"Run `python dex/download.py --gens {self.number}` first.",
+                path=directory,
             )
 
     @property
@@ -137,8 +146,9 @@ class GenerationDex:
     def table(self, name: str) -> DexTable:
         if name not in _DATASETS:
             valid = ", ".join(sorted(_DATASETS))
-            raise KeyError(
-                f"Unknown Dex dataset {name!r}. Expected one of: {valid}"
+            raise DexDataError(
+                f"Unknown Dex dataset {name!r}. Expected one of: {valid}",
+                key=name,
             )
 
         table = self._tables.get(name)
@@ -233,9 +243,10 @@ class GenerationDex:
             return None
 
         if not isinstance(raw_volatile_status, str):
-            raise TypeError(
+            raise DexDataError(
                 f"Expected move {move_id!r}.volatileStatus to be a string, "
-                + f"got {type(raw_volatile_status).__name__}"
+                + f"got {type(raw_volatile_status).__name__}",
+                key=move_id,
             )
 
         return raw_volatile_status
@@ -249,9 +260,10 @@ class GenerationDex:
             return None
 
         if not isinstance(raw_duration, int):
-            raise TypeError(
+            raise DexDataError(
                 f"Expected condition {condition_id!r}.duration to be an int, "
-                + f"got {type(raw_duration).__name__}"
+                + f"got {type(raw_duration).__name__}",
+                key=condition_id,
             )
 
         return raw_duration
@@ -294,8 +306,9 @@ class GenerationDex:
                 raw_condition, name=f"{effect_type} {condition_id!r}.condition"
             )
 
-        raise KeyError(
-            f"No condition {condition_id!r} in generation {self.number}"
+        raise DexDataError(
+            f"No condition {condition_id!r} in generation {self.number}",
+            key=condition_id,
         )
 
     def is_volatile_copyable(self, name: str) -> bool:
@@ -356,9 +369,10 @@ class Dex:
     def latest_generation(self) -> int:
         generations = self.available_generations
         if not generations:
-            raise FileNotFoundError(
+            raise DexDataError(
                 f"No generated Dex data found under {self.root}. "
-                + "Run `python dex/download.py` first."
+                + "Run `python dex/download.py` first.",
+                path=self.root,
             )
         return generations[-1]
 
@@ -371,9 +385,10 @@ class Dex:
         if self._metadata is None:
             path = self.root / "metadata.json"
             if not path.is_file():
-                raise FileNotFoundError(
+                raise DexDataError(
                     f"Dex metadata does not exist: {path}. "
-                    + "Run `python dex/download.py` first."
+                    + "Run `python dex/download.py` first.",
+                    path=path,
                 )
 
             with path.open("r", encoding="utf-8") as file:
@@ -417,7 +432,7 @@ class Dex:
 
     def get_charge_moves(self, gen: int | None) -> frozenset[str]:
         if gen is None:
-            raise RuntimeError("gen is not set")
+            raise ParserStateError("gen is not set", state="gen")
         return self.gen(gen).get_charge_moves()
 
     def move_volatile_status(self, name: str, *, gen: int) -> str | None:

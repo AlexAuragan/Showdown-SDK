@@ -21,10 +21,6 @@ from showdown_sdk.classes.parser.events.battle import (
     TurnEvent,
     UpkeepEvent,
 )
-from showdown_sdk.classes.parser.exceptions import (
-    InvalidActionError,
-    ObsoleteRequestIdError,
-)
 from showdown_sdk.classes.parser.fields import (
     is_percentage_hp,
     parse_condition,
@@ -33,6 +29,13 @@ from showdown_sdk.classes.parser.fields import (
 )
 from showdown_sdk.classes.parser.models import ProtocolMessage
 from showdown_sdk.classes.parser.protocol import require_arguments
+from showdown_sdk.exceptions import (
+    BattleSyncError,
+    InvalidActionError,
+    MalformedProtocolError,
+    ObsoleteRequestIdError,
+    ParserStateError,
+)
 
 CommandHandler = Callable[[str | None, ProtocolMessage, str], list[BaseEvent]]
 
@@ -44,10 +47,12 @@ def handle_switch(
     player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     if player_id is None:
-        raise ValueError("Player id not set")
+        raise ParserStateError("Player id not set", state="player_id")
     if message.command not in {"switch", "drag", "replace"}:
-        raise ValueError(
-            f"Expected switch-like command, got {message.command!r}"
+        raise MalformedProtocolError(
+            f"Expected switch-like command, got {message.command!r}",
+            raw=message.raw,
+            command=message.command,
         )
     require_arguments(message, 3)
     pokemon = parse_pokemon_ident(message.arguments[0])
@@ -71,14 +76,26 @@ def handle_turn(
     _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     require_arguments(message, 1)
-    return [TurnEvent(int(message.arguments[0]))]
+    try:
+        turn = int(message.arguments[0])
+    except ValueError as error:
+        raise MalformedProtocolError(
+            f"Malformed turn message: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
+    return [TurnEvent(turn)]
 
 
 def handle_cant(
     _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
     if len(message.arguments) < 2:
-        raise ValueError(f"Malformed cant message: {message.raw!r}")
+        raise MalformedProtocolError(
+            f"Malformed cant message: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
 
     return [
         CantEvent(
@@ -97,7 +114,11 @@ def handle_battle_end(
     if message.command == "win":
         require_arguments(message, 1)
         return [BattleEndEvent(message.arguments[0], room_id)]
-    raise ValueError(f"Not a battle-end message: {message.raw!r}")
+    raise MalformedProtocolError(
+        f"Not a battle-end message: {message.raw!r}",
+        raw=message.raw,
+        command=message.command,
+    )
 
 
 def handle_player(
@@ -125,9 +146,12 @@ def handle_error(
     try:
         category = message.annotations[0].name
         content = str(message.annotations[0].value)
-    except IndexError:
-        print(message)
-        raise
+    except IndexError as error:
+        raise MalformedProtocolError(
+            f"Malformed error message: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
     if "too late to make a different move" in content:
         raise ObsoleteRequestIdError()
     raise InvalidActionError(message=content, category=category)
@@ -138,7 +162,10 @@ def handle_room(
 ) -> list[BaseEvent]:
     given_room_id = message.arguments[0].strip() if message.arguments else ""
     if room_id and room_id != given_room_id:
-        raise RuntimeError("Got a message room_id meant from another room")
+        raise BattleSyncError(
+            "Got a message room_id meant from another room: "
+            + f"expected={room_id!r}, got={given_room_id!r}"
+        )
     return [RoomEvent(room_id=given_room_id)]
 
 
@@ -151,7 +178,15 @@ def handle_gametype(
 def handle_gen(
     _player_id: str | None, message: ProtocolMessage, _room_id: str
 ) -> list[BaseEvent]:
-    return [GameGenEvent(gen=int(message.arguments[0]))]
+    try:
+        gen = int(message.arguments[0])
+    except (IndexError, ValueError) as error:
+        raise MalformedProtocolError(
+            f"Malformed gen message: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        ) from error
+    return [GameGenEvent(gen=gen)]
 
 
 def handle_tier(
@@ -159,7 +194,11 @@ def handle_tier(
 ) -> list[BaseEvent]:
     tier = message.annotations[0].value
     if tier is None:
-        raise ValueError()
+        raise MalformedProtocolError(
+            f"Malformed tier message: {message.raw!r}",
+            raw=message.raw,
+            command=message.command,
+        )
     return [GameTierEvent(tier=tier)]
 
 

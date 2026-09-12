@@ -4,8 +4,12 @@ import random
 from collections.abc import Awaitable, Callable
 from urllib.request import Request, urlopen
 
+from showdown_sdk.exceptions import (
+    TeamGenerationError,
+    TeamRejectedError,
+    UnsupportedFeatureError,
+)
 from showdown_sdk.models.pokemon import EVs, IVs
-from showdown_sdk.models.sdk.exceptions import TeamRejectedError
 from showdown_sdk.models.sdk.pokemon_set import PokemonSet, TeamSet
 from showdown_sdk.utils import (
     Serializable,
@@ -30,7 +34,7 @@ class SampleTeamGenerator:
         species = list(sets)
 
         if len(species) < team_size:
-            raise ValueError(
+            raise TeamGenerationError(
                 f"Format {format_name!r} only has "
                 + f"{len(species)} species with available sets"
             )
@@ -69,7 +73,7 @@ class SampleTeamGenerator:
 
             return team
 
-        raise RuntimeError(
+        raise TeamGenerationError(
             "Could not generate a valid team for "
             + f"{format_name!r} after {max_attempts} attempts"
         ) from last_error
@@ -107,7 +111,9 @@ class SampleTeamGenerator:
         }
 
         if not sets:
-            raise ValueError(f"No sets found for format {format_name!r}")
+            raise TeamGenerationError(
+                f"No sets found for format {format_name!r}"
+            )
 
         self._cache[format_name] = sets
         return sets
@@ -158,12 +164,12 @@ class SampleTeamGenerator:
             selected = self._string_choice(move)
 
             if selected is None:
-                raise ValueError(f"Invalid move choice: {move!r}")
+                raise TeamGenerationError(f"Invalid move choice: {move!r}")
 
             moves.append(selected)
 
         if not 1 <= len(moves) <= 4:
-            raise ValueError(f"Invalid number of moves: {moves!r}")
+            raise TeamGenerationError(f"Invalid number of moves: {moves!r}")
 
         return moves
 
@@ -262,14 +268,14 @@ class SampleTeamGenerator:
             or len(format_name) < 4
             or not format_name[3].isdigit()
         ):
-            raise ValueError(
+            raise TeamGenerationError(
                 f"Cannot determine generation from {format_name!r}"
             )
 
         generation = int(format_name[3])
 
         if not 1 <= generation <= 5:
-            raise ValueError(
+            raise UnsupportedFeatureError(
                 "SampleTeamGenerator currently supports generations 1 through 5"
             )
 

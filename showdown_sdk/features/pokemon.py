@@ -2,6 +2,7 @@
 
 from dataclasses import dataclass, field
 
+from showdown_sdk.exceptions import FeatureExtractionError
 from showdown_sdk.features.common import (
     Knowledge,
     StatFeatures,
@@ -110,7 +111,9 @@ def species_from_details(details: str) -> str:
     species = details.split(",", 1)[0].strip()
 
     if not species:
-        raise ValueError(f"Could not extract species from details: {details!r}")
+        raise FeatureExtractionError(
+            f"Could not extract species from details: {details!r}"
+        )
 
     return species
 
@@ -126,7 +129,10 @@ def own_pokemon_to_features(
     if pokemon is None:
         return OwnPokemonFeatures(present=False, slot=slot)
 
-    assert isinstance(pokemon.id, str)
+    if not isinstance(pokemon.id, str):
+        raise FeatureExtractionError(
+            f"Own Pokemon has no valid id: {pokemon.id!r}"
+        )
 
     active_state = battle_state.active_pokemon
     is_active = pokemon.id == battle_state.curr_pokemon
@@ -212,7 +218,7 @@ def own_team_to_features(
 ) -> tuple[OwnPokemonFeatures, ...]:
     """Exactly six slots, in team order, padded with absent entries."""
     if len(battle_state.team) > 6:
-        raise ValueError(
+        raise FeatureExtractionError(
             f"Expected at most 6 own Pokémon, got {len(battle_state.team)}"
         )
 
@@ -321,7 +327,7 @@ def enemy_team_to_features(
     ]
 
     if len(revealed) > 6:
-        raise ValueError(
+        raise FeatureExtractionError(
             f"Expected at most 6 enemy Pokémon, got {len(revealed)}"
         )
 

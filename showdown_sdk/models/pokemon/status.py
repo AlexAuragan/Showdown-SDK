@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import cast
 
+from showdown_sdk.exceptions import DexDataError
 from showdown_sdk.models import dex
 
 ## Data models
@@ -103,10 +104,18 @@ class EVs:
     def from_pokemon(pokemon_id: str, gen: int):
         pokemon_data = dex.gen(gen).pokemon(pokemon_id)
         if not isinstance(pokemon_data, dict):
-            raise TypeError("pokemon data should be a dict")
+            raise DexDataError(
+                f"Expected dex data for {pokemon_id!r} to be a dict, "
+                + f"got {type(pokemon_data).__name__}",
+                key=pokemon_id,
+            )
         evs = pokemon_data["baseStats"]
         if not isinstance(evs, dict):
-            raise TypeError("basStats should be a dict")
+            raise DexDataError(
+                f"Expected baseStats for {pokemon_id!r} to be a dict, "
+                + f"got {type(evs).__name__}",
+                key=pokemon_id,
+            )
         evs = cast(dict[str, int], evs)
         return EVs(
             hp=evs["hp"],

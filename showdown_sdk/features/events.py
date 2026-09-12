@@ -39,6 +39,7 @@ from showdown_sdk.classes.parser import (
     TypeChangeEvent,
     WeatherEvent,
 )
+from showdown_sdk.exceptions import FeatureExtractionError, UnhandledEventError
 from showdown_sdk.features.common import (
     SIDE_OPPONENT,
     SIDE_SELF,
@@ -243,7 +244,9 @@ def relative_side(player: str, battle_state: BattleState) -> str:
     player_id = battle_state.player_id
 
     if player_id is None:
-        raise ValueError("battle_state.player_id is not initialized")
+        raise FeatureExtractionError(
+            "battle_state.player_id is not initialized"
+        )
 
     if player == player_id:
         return SIDE_SELF
@@ -251,7 +254,7 @@ def relative_side(player: str, battle_state: BattleState) -> str:
     if player in {"p1", "p2"} and player_id in {"p1", "p2"}:
         return SIDE_OPPONENT
 
-    raise ValueError(
+    raise FeatureExtractionError(
         f"Cannot resolve side {player!r} relative to {player_id!r}"
     )
 
@@ -612,7 +615,10 @@ def _convert_event(event: BaseEvent, ctx: _Ctx) -> None:
             pass
 
         case _:
-            raise AssertionError(f"Unhandled history event: {event!r}")
+            raise UnhandledEventError(
+                f"Unhandled history event: {event!r}",
+                event_type=type(event).__name__,
+            )
 
 
 def _apply_effect_source(ctx: _Ctx) -> None:
