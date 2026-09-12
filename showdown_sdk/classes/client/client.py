@@ -153,7 +153,10 @@ class Client:
             manager.pending_choices = list(choices)
             manager.pending_choices_rqid = manager.request_id
             manager.last_request_id = manager.request_id
-            await self._send_choice(choices[0])
+
+            first_choice = manager.pending_choices.pop(0)
+
+            await self._send_choice(first_choice)
         finally:
             self.battle_manager.cancel_action_timeout()
 
