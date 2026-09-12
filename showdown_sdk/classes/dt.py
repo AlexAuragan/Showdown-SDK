@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from enum import IntFlag
 
 from showdown_sdk.exceptions import MalformedProtocolError
+from showdown_sdk.utils import SerializableObject
 
 
 class FormatFlag(IntFlag):
@@ -45,6 +46,7 @@ class BattleResult:
     winner: str | None
     move_count: int
     duration_seconds: float
+    final_state: SerializableObject
 
     @property
     def average_seconds_per_move(self) -> float:

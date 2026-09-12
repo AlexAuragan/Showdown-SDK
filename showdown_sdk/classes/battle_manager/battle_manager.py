@@ -209,12 +209,14 @@ class BattleManager:
 
         self.last_battle_turn_states = list(self.turn_start_states)
         self.last_battle_history = list(self.battle_state.history)
+        final_state = self.battle_state.to_dict()
         self.battle_finished.set_result(
             BattleResult(
                 room_id=self.room_id,
                 winner=winner,
                 move_count=self.turn,
                 duration_seconds=duration,
+                final_state=final_state,
             )
         )
 
