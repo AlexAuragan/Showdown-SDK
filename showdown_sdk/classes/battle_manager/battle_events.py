@@ -68,9 +68,8 @@ def apply_battle_runtime_event(
 
 
 def _apply_room_event(manager: BattleManager, event: RoomEvent) -> None:
-    if not manager.room_id:
-        manager.room_id = event.room_id
-        manager.room_ready.set()
+    if manager.room_id is None:
+        return
 
     if manager.room_id != event.room_id:
         raise RuntimeError(
