@@ -14,7 +14,9 @@ from showdown_sdk.models.sdk.pokemon_set import (
     TeamSet,
     print_reproduction_teams,
 )
-from showdown_sdk.models.sdk.sample_team_generator import SampleTeamGenerator
+from showdown_sdk.models.sdk.team_generators.sample_team_generator import (
+    SampleTeamGenerator,
+)
 
 __all__ = [
     "ActivePokemonState",

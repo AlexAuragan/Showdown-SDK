@@ -1,35 +1,25 @@
-import asyncio
-import json
 import random
 from collections.abc import Awaitable, Callable
-from urllib.request import Request, urlopen
+from typing import override
 
-from showdown_sdk.exceptions import (
-    TeamGenerationError,
-    TeamRejectedError,
-    UnsupportedFeatureError,
-)
+from showdown_sdk.exceptions import TeamGenerationError, TeamRejectedError
 from showdown_sdk.models.pokemon import EVs, IVs
 from showdown_sdk.models.sdk.pokemon_set import PokemonSet, TeamSet
-from showdown_sdk.utils import (
-    Serializable,
-    SerializableObject,
-    expect_array,
-    expect_object,
+from showdown_sdk.models.sdk.team_generators.team_generator import (
+    BaseTeamGenerator,
 )
+from showdown_sdk.utils import Serializable, SerializableObject, expect_array
 
 
-class SampleTeamGenerator:
+class SampleTeamGenerator(BaseTeamGenerator):
     BASE_URL: str = "https://play.pokemonshowdown.com/data/sets"
 
     def __init__(self, seed: int | None = None) -> None:
-        self._random: random.Random = random.Random(seed)
-
-        # format -> species -> list of sets
-        self._cache: dict[str, dict[str, list[SerializableObject]]] = {}
+        super().__init__()
+        self._random: random.Random = random.Random()
 
     async def _generate(self, format_name: str, team_size: int = 6) -> TeamSet:
-        sets = await self._get_sets(format_name)
+        sets = await self.get_sets(format_name)
 
         species = list(sets)
 
@@ -54,6 +44,7 @@ class SampleTeamGenerator:
 
         return TeamSet(pokemon)
 
+    @override
     async def generate(
         self,
         format_name: str,
@@ -78,61 +69,10 @@ class SampleTeamGenerator:
             + f"{format_name!r} after {max_attempts} attempts"
         ) from last_error
 
-    async def _get_sets(
-        self, format_name: str
-    ) -> dict[str, list[SerializableObject]]:
-        if format_name in self._cache:
-            return self._cache[format_name]
-
-        data = await asyncio.to_thread(self._fetch, format_name)
-
-        sets: dict[str, list[SerializableObject]] = {}
-
-        for source_name in ("dex", "stats"):
-            source = data.get(source_name)
-
-            if not isinstance(source, dict):
-                continue
-
-            for species, raw_sets in source.items():
-                if not isinstance(raw_sets, dict):
-                    continue
-
-                species_sets = sets.setdefault(species, [])
-
-                for raw_set in raw_sets.values():
-                    if isinstance(raw_set, dict):
-                        species_sets.append(raw_set)
-
-        sets = {
-            species: species_sets
-            for species, species_sets in sets.items()
-            if species_sets
-        }
-
-        if not sets:
-            raise TeamGenerationError(
-                f"No sets found for format {format_name!r}"
-            )
-
-        self._cache[format_name] = sets
-        return sets
-
-    def _fetch(self, format_name: str) -> SerializableObject:
-        sets_format = format_name.split("@@@", 1)[0]
-        url = f"{self.BASE_URL}/{sets_format}.json"
-
-        request = Request(url, headers={"User-Agent": "python-showdown-sdk"})
-
-        with urlopen(request, timeout=10) as response:
-            raw = response.read()
-
-        return expect_object(json.loads(raw))
-
     def _build_pokemon(
         self, species: str, data: SerializableObject, format_name: str
     ) -> PokemonSet:
-        generation = self._generation(format_name)
+        generation = self.generation(format_name)
 
         moves = self._moves(data.get("moves"))
 
@@ -260,23 +200,3 @@ class SampleTeamGenerator:
             return value
 
         return default
-
-    @staticmethod
-    def _generation(format_name: str) -> int:
-        if (
-            not format_name.startswith("gen")
-            or len(format_name) < 4
-            or not format_name[3].isdigit()
-        ):
-            raise TeamGenerationError(
-                f"Cannot determine generation from {format_name!r}"
-            )
-
-        generation = int(format_name[3])
-
-        if not 1 <= generation <= 5:
-            raise UnsupportedFeatureError(
-                "SampleTeamGenerator currently supports generations 1 through 5"
-            )
-
-        return generation
