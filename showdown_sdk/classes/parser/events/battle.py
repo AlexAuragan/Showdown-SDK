@@ -102,6 +102,7 @@ class MoveCopiedEvent(BattleEvent):
     source: EffectSource
     target: PokemonIdent
     copied_move: str
+    move_origin: EffectSource | None = None
 
 
 @dataclass(frozen=True)
@@ -389,6 +390,7 @@ class GameTierEvent(BattleEvent):
         "Random Battle",
         "OU",
         "Ubers",
+        "Custom Game",
     )
 
 

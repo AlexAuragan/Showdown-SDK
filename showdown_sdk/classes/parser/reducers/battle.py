@@ -369,19 +369,28 @@ def _reduce_move_copied(
 ) -> None:
     own = resolve_self(battle_state, event.target)
     if own is not None:
-        mimic_slots = [
+        replaced_move = "mimic"
+
+        if (
+            event.move_origin is not None
+            and event.move_origin.type == SourceType.MOVE
+        ):
+            replaced_move = event.move_origin.name or "mimic"
+
+        copied_slots = [
             index
             for index, move in enumerate(own.moves)
-            if to_id(move) == "mimic"
+            if to_id(move) == to_id(replaced_move)
         ]
-        if len(mimic_slots) != 1:
-            raise BattleStateInvariantError(
-                "Own Pokémon used Mimic but expected exactly one Mimic slot: "
-                + f"{own.moves}"
-            )
-        own.moves[mimic_slots[0]] = event.copied_move
-        return
 
+        if len(copied_slots) != 1:
+            raise BattleStateInvariantError(
+                f"Own Pokémon used Mimic via {replaced_move!r} but expected "
+                + f"exactly one matching slot: {own.moves}"
+            )
+
+        own.moves[copied_slots[0]] = event.copied_move
+        return
     enemy = resolve_enemy(battle_state, event.target)
     if enemy is None:
         return

@@ -97,12 +97,14 @@ def parse_move_group(
     action_source = make_move_source(user, move, action_id)
 
     state = MoveParseState()
+    origin = parse_move_origin(move_message)
 
     parse_context = EffectParseContext(
         player_id=player_id,
         source=action_source,
         protocol_context=context,
         action_id=action_id,
+        move_origin=origin,
     )
 
     effects: list[BaseEvent] = []
@@ -124,8 +126,6 @@ def parse_move_group(
             effects.append(unhandled_event(message, action_id))
         else:
             effects.extend(parsed_events)
-
-    origin = parse_move_origin(move_message)
 
     return [
         MoveEvent(

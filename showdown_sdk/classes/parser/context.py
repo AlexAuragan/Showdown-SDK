@@ -48,6 +48,9 @@ class EffectParseContext:
     protocol_context: ProtocolContext
     action_id: int | None = None
     modifiers: dict[PokemonIdent, TargetModifiers] = field(default_factory=dict)
+    move_origin: EffectSource | None = (
+        None  # Needed for mimic/mirrormove shenanigans
+    )
 
     @property
     def gen(self) -> int:

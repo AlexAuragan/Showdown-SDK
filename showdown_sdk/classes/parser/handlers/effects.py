@@ -989,6 +989,7 @@ def _parse_mimic_copy(
             source=context.source,
             target=parse_pokemon_ident(message.arguments[0]),
             copied_move=message.arguments[2],
+            move_origin=context.move_origin,
         )
     ]
 
