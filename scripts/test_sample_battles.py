@@ -2,8 +2,8 @@
 
 Feeds every raw log found in ``tests/sample_battles/<fmt>/`` through the
 reusable replay core (``tests/replay.py``), which is also what the pytest
-regression suite calls directly. This script keeps only the CLI loops and the
-file-writing behavior (``write_battle_outputs``) — see scripts/utils.py.
+regression suite calls directly. This script only replays logs and reports
+pass/fail — it never writes into ``tests/sample_battles/``.
 
 A file passes when every line is either parsed without error or rejected by
 one of the tolerated per-line errors (``InvalidActionError`` /
@@ -21,7 +21,6 @@ import sys
 import traceback
 from pathlib import Path
 
-from scripts.utils import write_battle_outputs
 from tests.replay import (
     NotABattleLogFile,
     ReplayError,
@@ -35,29 +34,13 @@ SAMPLE_DIRECTORIES = (PROJECT_ROOT / "tests" / "sample_battles",)
 
 
 def replay_battle(path: Path) -> int:
-    """CLI wrapper around :func:`tests.replay.replay_battle_raw`.
+    """Replay one battle log via the regression core and return
+    the number of Showdown-state checks performed.
 
-    Keeps the historical contract used by scripts/test_sample_auto.py:
-    replays one battle log (raising on failure) and writes the
-    ``showdown_states.json`` Showdown oracle states next to the raw log.
-    Returns the number of Showdown-state checks that were verified (0 for
-    older logs that did not record ``|battlestate|`` frames).
+    Raises on failure so callers (CLI scripts, test_sample_auto.py)
+    can catch and report errors.
     """
     result = replay_battle_raw(path)
-
-    # Emulate finish_battle()'s snapshot so write_battle_outputs produces the
-    # same showdown_states.json a live battle would produce.
-    manager = result.client.battle_manager
-    manager.last_battle_turn_states = list(manager.turn_start_states)
-
-    write_battle_outputs(
-        result.client,
-        path.parent,
-        include_events=False,
-        include_parser_state=False,
-        include_showdown_state=True,
-    )
-
     return result.showdown_state_checks
 
 

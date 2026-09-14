@@ -9,9 +9,9 @@ protocol parsing, action timeouts, and a structured battle-state model.
 
 ## Scope
 As I currently am the only one working on this project, I limited the scope to
-gen 4. I am not against implementing futur gens after, but each generation comes
-with new mecanics and make the code more complicated and, more importantly, hard
-to test.
+gens up to 4. I am not against implementing futur gens after, but each generation
+comes with new mecanics and make the code more complicated and, more importantly,
+hard to test.
 
 ## Testing
 I cannot promise the code is free of bug, the ones I spent most time and energy

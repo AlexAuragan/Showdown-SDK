@@ -40,7 +40,7 @@ from showdown_sdk import (
     stop_file_io_worker,
 )
 from showdown_sdk.classes.client import Client
-from showdown_sdk.classes.combat_handler import RandomMoveCombatHandler
+from showdown_sdk.classes.combat_handler import MaxBasePowerCombatHandler
 from showdown_sdk.models.sdk import SampleTeamGenerator
 from showdown_sdk.utils import SerializableObject
 
@@ -52,10 +52,10 @@ WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 
 # Formats to simulate, in order.
 FORMATS = [
-    "gen1randombattle"
-    # "gen2randombattle",
-    # "gen3randombattle",
-    # "gen4randombattle",
+    "gen1randombattle",
+    "gen2randombattle",
+    "gen3randombattle",
+    "gen4randombattle",
     # "gen1ou",
     # "gen2ou",
     # "gen3ou",
@@ -254,7 +254,9 @@ async def run_format(
 
         client = Client(
             WEBSOCKET_URL,
-            combat_handler=RandomMoveCombatHandler(),
+            # combat_handler=RandomMoveCombatHandler(),
+            # combat_handler=SimpleHeuristicsCombatHandler(),
+            combat_handler=MaxBasePowerCombatHandler(),
             log_manager=logs,
         )
         clients.append(client)

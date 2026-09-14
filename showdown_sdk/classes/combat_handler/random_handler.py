@@ -2,11 +2,9 @@ from random import random, shuffle
 from typing import override
 
 from showdown_sdk.classes.combat_handler.base_handler import BaseCombatHandler
+from showdown_sdk.classes.combat_handler.utils import Action
 from showdown_sdk.exceptions import CombatHandlerError
 from showdown_sdk.models.sdk import BattleState
-
-Action = tuple[str, int]
-
 
 ## Public class
 

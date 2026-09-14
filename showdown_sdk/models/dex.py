@@ -124,6 +124,9 @@ class GenerationDex:
     _charge_moves: frozenset[str] | None = field(
         default=None, init=False, repr=False
     )
+    _forme_base_map: dict[str, str] | None = field(
+        default=None, init=False, repr=False
+    )
 
     def __post_init__(self) -> None:
         if self.number < 1:
@@ -208,7 +211,41 @@ class GenerationDex:
         return self.items[name]
 
     def pokemon(self, name: str) -> Serializable:
-        return self.species[name]
+        try:
+            return self.species[name]
+        except DexDataError:
+            if not name or len(name) < 2:
+                raise
+            # Look up the base species via the forme-to-base map first.
+            base = self.forme_base_map.get(name)
+            if base is not None:
+                return self.species[base]
+            # Some forme letters (like Unown-A) are the default form
+            # and not listed in cosmeticFormes.  Try stripping trailing
+            # characters one at a time as a last resort.
+            for i in range(len(name) - 1, 1, -1):
+                prefix = name[:i]
+                try:
+                    return self.species[prefix]
+                except DexDataError:
+                    continue
+            raise
+
+    @property
+    def forme_base_map(self) -> dict[str, str]:
+        if self._forme_base_map is None:
+            mapping: dict[str, str] = {}
+            for species_id, raw_entry in self.species.items():
+                entry = expect_object(raw_entry, name=f"species {species_id!r}")
+                for field in ("otherFormes", "cosmeticFormes"):
+                    formes = entry.get(field)
+                    if isinstance(formes, list):
+                        for forme_name in formes:
+                            if not isinstance(forme_name, str):
+                                raise DexDataError("Forme name is not a str")
+                            mapping[to_id(forme_name)] = species_id
+            self._forme_base_map = mapping
+        return self._forme_base_map
 
     def learnset(self, name: str) -> Serializable:
         return self.learnsets[name]
@@ -276,6 +313,7 @@ class GenerationDex:
             table.refresh()
         self._metadata = None
         self._charge_moves = None
+        self._forme_base_map = None
 
     def condition(self, name: str) -> SerializableObject:
         condition_id = to_id(name)
