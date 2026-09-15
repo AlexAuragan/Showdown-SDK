@@ -13,6 +13,22 @@ gens up to 4. I am not against implementing futur gens after, but each generatio
 comes with new mecanics and make the code more complicated and, more importantly,
 hard to test.
 
+## Why not poke-env
+If you don't know about [poke-env](https://github.com/hsahovic/poke-env), it does what this SDK does but better.
+
+I tried to train AIs with poke-env at first, but I quickly was overwhelmed because it wasn't very intuitive to me, and I found some data I wanted to be missing. I didn't know what quirks were decisions from poke-env, lack of knowledge from me of poke-env or even contraints caused by Pokémon / Pokémon-showdown.<br>
+I knew I needed to rebuild this library myself to understand better how pokemon is working, and to have an interface that was more intuitive to what I wanted to build.
+
+Overall, poke-env is older, more robust and better quality than my project, but if you feel like poke-env format is not right for you, you might want to have a quick look at what I am building here. And if, like me, you want to build your own SDK, don't hesitate to contact me to share questions.
+
+### Things Showdown-SDK do better than poke-env
+according to what I understand from poke-env
+* Have an event centric model, i.e., the battle state is not what's central for the model but the events that transform it
+* Have an easily accessible Dex object that surface all the pokemon/move/ability/item data
+* A Feature extractor and helpers to turn a battle state and event into ML ready objects.
+
+There is a lot poke-env do that Showdown-SDK do not though, like integration with specific ML libraries or better lobby management.
+
 ## Testing
 I cannot promise the code is free of bug, the ones I spent most time and energy
 hunting for are BattleState discrepency with the actual battle state.

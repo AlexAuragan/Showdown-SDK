@@ -159,6 +159,7 @@ def reduce_battle_state(battle_state: BattleState, event: BaseEvent) -> None:
             _reduce_perish_count(battle_state, event)
         case TurnEvent():
             battle_state.turn = event.turn
+            battle_state.gen_1_desync = False
         case UpkeepEvent():
             _reduce_upkeep(battle_state)
         case WeatherEvent():
@@ -219,7 +220,6 @@ def _reduce_move(battle_state: BattleState, event: MoveEvent) -> None:
     source_status.clear_single_move()
 
     if battle_state.gen_1_desync:
-        battle_state.gen_1_desync = False
         return
 
     gen = battle_state.gen
@@ -369,6 +369,8 @@ def _reduce_move_copied(
 ) -> None:
     own = resolve_self(battle_state, event.target)
     if own is not None:
+        if battle_state.gen_1_desync:
+            return
         replaced_move = "mimic"
 
         if (
