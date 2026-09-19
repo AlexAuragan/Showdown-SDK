@@ -8,20 +8,19 @@ from showdown_sdk.models.sdk import BattleState
 class BaseCombatHandler(Protocol):
     """A stateless AI policy: it never owns battle state, it only decides."""
 
-    def select_top_actions(self, battle_state: BattleState) -> list[Action]:
-        ...
+    def select_top_actions(self, battle_state: BattleState) -> list[Action]: ...
 
     @classmethod
-    def select_team_order(cls) -> list[int]:
-        ...
+    def select_team_order(cls) -> list[int]: ...
+
 
 class AsyncBaseCombatHandler(BaseCombatHandler, Protocol):
-    async def async_select_top_action(self, battle_state: BattleState) -> list[Action]:
-        ...
+    async def async_select_top_action(
+        self, battle_state: BattleState
+    ) -> list[Action]: ...
 
     @staticmethod
-    async def async_select_team_order() -> list[int]:
-        ...
+    async def async_select_team_order() -> list[int]: ...
 
     @override
     def select_top_actions(self, battle_state: BattleState) -> list[Action]:

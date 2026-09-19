@@ -51,7 +51,7 @@ class MaxBasePowerCombatHandler(BaseCombatHandler):
         ranked.sort(key=lambda item: item[0], reverse=True)
         return [action for _, action in ranked]
 
-    @staticmethod
+    @classmethod
     @override
-    def select_team_order() -> list[int]:
+    def select_team_order(cls) -> list[int]:
         return [1, 2, 3, 4, 5, 6]

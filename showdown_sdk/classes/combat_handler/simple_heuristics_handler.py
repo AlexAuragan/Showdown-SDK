@@ -366,9 +366,9 @@ class SimpleHeuristicsCombatHandler(BaseCombatHandler):
             * type_multiplier(move_type, enemy_types, gen)
         )
 
-    @staticmethod
+    @classmethod
     @override
-    def select_team_order() -> list[int]:
+    def select_team_order(cls) -> list[int]:
         return [1, 2, 3, 4, 5, 6]
 
 

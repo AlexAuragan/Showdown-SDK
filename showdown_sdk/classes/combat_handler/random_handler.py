@@ -60,6 +60,6 @@ class RandomMoveCombatHandler(BaseCombatHandler):
         return move_actions + switches
 
     @override
-    @staticmethod
-    def select_team_order() -> list[int]:
+    @classmethod
+    def select_team_order(cls) -> list[int]:
         return [1, 2, 3, 4, 5, 6]
