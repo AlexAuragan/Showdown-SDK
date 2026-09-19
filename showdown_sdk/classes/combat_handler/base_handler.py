@@ -1,5 +1,5 @@
 import asyncio
-from typing import Protocol, override
+from typing import Protocol, override, runtime_checkable
 
 from showdown_sdk.classes.combat_handler.utils import Action
 from showdown_sdk.models.sdk import BattleState
@@ -14,8 +14,9 @@ class BaseCombatHandler(Protocol):
     def select_team_order(cls) -> list[int]: ...
 
 
+@runtime_checkable
 class AsyncBaseCombatHandler(BaseCombatHandler, Protocol):
-    async def async_select_top_action(
+    async def async_select_top_actions(
         self, battle_state: BattleState
     ) -> list[Action]: ...
 
@@ -24,7 +25,7 @@ class AsyncBaseCombatHandler(BaseCombatHandler, Protocol):
 
     @override
     def select_top_actions(self, battle_state: BattleState) -> list[Action]:
-        return asyncio.run(self.async_select_top_action(battle_state))
+        return asyncio.run(self.async_select_top_actions(battle_state))
 
     @override
     @classmethod

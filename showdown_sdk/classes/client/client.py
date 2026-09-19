@@ -8,7 +8,10 @@ from websockets.asyncio.client import ClientConnection, connect
 from showdown_sdk import LogManager, log_trace
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.combat_handler import RandomMoveCombatHandler
-from showdown_sdk.classes.combat_handler.base_handler import BaseCombatHandler
+from showdown_sdk.classes.combat_handler.base_handler import (
+    AsyncBaseCombatHandler,
+    BaseCombatHandler,
+)
 from showdown_sdk.classes.dt import BattleResult, Format
 from showdown_sdk.classes.parser.events.base import (
     DiscardedEvent,
@@ -151,9 +154,14 @@ class Client:
         manager.start_action_timeout()
 
         try:
-            choices = self.combat_handler.select_top_actions(
-                manager.battle_state
-            )
+            handler = self.combat_handler
+
+            if isinstance(handler, AsyncBaseCombatHandler):
+                choices = await handler.async_select_top_actions(
+                    manager.battle_state
+                )
+            else:
+                choices = handler.select_top_actions(manager.battle_state)
 
             if not choices:
                 raise CombatHandlerError(
@@ -445,10 +453,15 @@ class Client:
                 if manager.requires_team_preview:
                     if manager.room_id is None:
                         raise BattleSyncError("room_id is None")
-                    team_order: list[str] = [
-                        str(idx)
-                        for idx in self.combat_handler.select_team_order()
-                    ]
+                    handler = self.combat_handler
+
+                    if isinstance(handler, AsyncBaseCombatHandler):
+                        selected_order = await handler.async_select_team_order()
+                    else:
+                        selected_order = handler.select_team_order()
+
+                    team_order = [str(index) for index in selected_order]
+
                     await self.send(
                         "/choose team " + ",".join(team_order),
                         room_id=manager.room_id,
