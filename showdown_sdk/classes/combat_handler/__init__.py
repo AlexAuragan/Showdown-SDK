@@ -1,6 +1,6 @@
 from showdown_sdk.classes.combat_handler.base_handler import (
-    BaseCombatHandler,
     AsyncBaseCombatHandler,
+    BaseCombatHandler,
 )
 from showdown_sdk.classes.combat_handler.max_base_power_hanlder import (
     MaxBasePowerCombatHandler,
@@ -13,7 +13,8 @@ from showdown_sdk.classes.combat_handler.simple_heuristics_handler import (
 )
 
 __all__ = [
-    "AsyncBaseCombatHandlerBaseCombatHandler",
+    "AsyncBaseCombatHandler",
+    "BaseCombatHandler",
     "MaxBasePowerCombatHandler",
     "RandomMoveCombatHandler",
     "SimpleHeuristicsCombatHandler",
