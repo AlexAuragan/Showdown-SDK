@@ -40,8 +40,7 @@ from showdown_sdk.models.sdk import TeamSet, check_battle_state_against_showdown
 
 ## Constants
 
-STALE_ROOM_GRACE_PERIOD = 2.0  # seconds to let the server push any
-# auto-rejoin room state after login
+STALE_ROOM_GRACE_PERIOD = 0.1
 
 # Evaluated at call time so the sync can be toggled on/off at runtime.
 USE_REQUEST_STATE_ENV_VAR = "SHOWDOWN_USE_REQUEST_STATE"
