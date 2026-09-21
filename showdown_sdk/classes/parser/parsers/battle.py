@@ -252,12 +252,15 @@ class BattleParser(MessageParser):
     def _parse_available_events(self, player_id: str | None) -> list[BaseEvent]:
         completed: list[BaseEvent] = []
         while self.next_unparsed_message < len(self.raw_history):
-            start = self.next_unparsed_message
             try:
                 result = self.parse_next(player_id)
-            except Exception:
-                self.next_unparsed_message = start + 1
+
+            except ParserStateError as error:
+                if error.state == "player_id":
+                    break
+
                 raise
+
             if result is None:
                 break
 
