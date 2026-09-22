@@ -256,8 +256,8 @@ class BattleParser(MessageParser):
             try:
                 result = self.parse_next(player_id)
             except Exception:
-                    self.next_unparsed_message = start + 1
-                    raise
+                self.next_unparsed_message = start + 1
+                raise
 
             if result is None:
                 break
