@@ -41,6 +41,7 @@ from showdown_sdk.classes.parser.protocol import (
     is_ignored_message,
     is_move_boundary,
     parse_protocol_message,
+    require_arguments,
 )
 from showdown_sdk.exceptions import ParserStateError
 from showdown_sdk.models.sdk import BattleState
@@ -143,6 +144,17 @@ class BattleParser(MessageParser):
             self.reset()
             self._last_message_room_id = room_id
 
+        # Set the player here to avoid race condition
+        if message.command == "player":
+                require_arguments(message, 2)
+
+                slot = message.arguments[0].strip()
+                name = message.arguments[1].strip()
+
+                if name and name == self._manager.player_username:
+                    self.battle_state.player_id = slot
+
+
         self.raw_history.append(message)
 
         return self._parse_available_events(self.player_id)
@@ -208,7 +220,7 @@ class BattleParser(MessageParser):
             return self._parse_move(player_id, start)
         if message.command == "request":
             if player_id is None:
-                raise ParserStateError("player_id not set", state="player_id")
+                return None
             return ParseResult(
                 (parse_request_event(message, player_id=player_id),), 1
             )
