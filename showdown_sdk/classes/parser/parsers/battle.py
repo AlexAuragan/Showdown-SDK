@@ -146,14 +146,13 @@ class BattleParser(MessageParser):
 
         # Set the player here to avoid race condition
         if message.command == "player":
-                require_arguments(message, 2)
+            require_arguments(message, 2)
 
-                slot = message.arguments[0].strip()
-                name = message.arguments[1].strip()
+            slot = message.arguments[0].strip()
+            name = message.arguments[1].strip()
 
-                if name and name == self._manager.player_username:
-                    self.battle_state.player_id = slot
-
+            if name and name == self._manager.player_username:
+                self.battle_state.player_id = slot
 
         self.raw_history.append(message)
 
