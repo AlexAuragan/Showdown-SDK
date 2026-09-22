@@ -21,7 +21,7 @@ from showdown_sdk.classes.parser.events.battle import (
     BattleEvent,
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
-    TurnEvent,
+    DecisionRequestEvent,
 )
 from showdown_sdk.classes.parser.events.lobby import LobbyEvent
 from showdown_sdk.classes.parser.events.reducers import apply_lobby_event
@@ -373,6 +373,8 @@ class Client:
                                 )
 
                                 apply_battle_event(self.battle_manager, event)
+                                if isinstance(event, DecisionRequestEvent) and not event.wait:
+                                    manager.start_action_timeout()
                                 if isinstance(event, BattleStartEvent):
                                     if (
                                         manager.room_id
@@ -384,6 +386,7 @@ class Client:
                                             + f"message={self.parser.last_message_room_id!r}"
                                         )
                                     self.parser.expecting_battle_room = False
+
                             elif isinstance(event, LobbyEvent):
                                 apply_lobby_event(self, event)
                             elif isinstance(event, DiscardedEvent):
@@ -400,8 +403,7 @@ class Client:
                                     f"Unhandled event type: {type(event).__name__}",
                                     event_type=type(event).__name__,
                                 )
-                            if isinstance(event, TurnEvent):
-                                manager.start_action_timeout()
+
                     except ObsoleteRequestIdError as e:
                         e.request_id = manager.request_id
                         manager.choice_rejected = False
