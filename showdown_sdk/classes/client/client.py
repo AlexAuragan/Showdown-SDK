@@ -373,7 +373,10 @@ class Client:
                                 )
 
                                 apply_battle_event(self.battle_manager, event)
-                                if isinstance(event, DecisionRequestEvent) and not event.wait:
+                                if (
+                                    isinstance(event, DecisionRequestEvent)
+                                    and not event.wait
+                                ):
                                     manager.start_action_timeout()
                                 if isinstance(event, BattleStartEvent):
                                     if (
