@@ -99,6 +99,7 @@ class EnemyPokemonFeatures:
     forme: str | None = None
     type_override: tuple[str, ...] | None = None
     mechanics: PokemonMechanicsFeatures | None = None
+    move_mechanics: tuple[Knowledge[MoveMechanicsFeatures], ...] = ()
 
 
 ## Feature builders
@@ -266,6 +267,12 @@ def _empty_enemy_pokemon(slot: int) -> EnemyPokemonFeatures:
         revealed=False,
         slot=slot,
         moves=(unknown(), unknown(), unknown(), unknown()),
+        move_mechanics=(
+                Knowledge(known=False, value=None),
+                Knowledge(known=False, value=None),
+                Knowledge(known=False, value=None),
+                Knowledge(known=False, value=None),
+            ),
     )
 
 
@@ -308,18 +315,43 @@ def enemy_pokemon_to_features(
         else None
     )
 
-    moves: list[Knowledge[str]] = [
-        (
-            Knowledge(known=True, value=canonical_move(m))
-            if m is not Unknown.VALUE
-            else unknown()
+    moves: list[Knowledge[str]] = []
+    move_mechanics: list[Knowledge[MoveMechanicsFeatures]] = []
+
+    for move in pokemon.learnt_moves:
+        if move is Unknown.VALUE:
+            moves.append(unknown())
+            move_mechanics.append(Knowledge(known=False, value=None))
+            continue
+
+        parsed = parse_move_name(move)
+
+        moves.append(
+            Knowledge(
+                known=True,
+                value=parsed.id,
+            )
         )
-        for m in pokemon.learnt_moves
-    ]
+
+        move_mechanics.append(
+            Knowledge(
+                known=True,
+                value=move_mechanics_to_features(
+                    parsed,
+                    gen=gen,
+                ),
+            )
+        )
 
     # Keep exactly four slots: pad with unknown, trim excess.
     moves += [unknown()] * (4 - len(moves))
+    move_mechanics += [
+        Knowledge(known=False, value=None)
+        for _ in range(4 - len(move_mechanics))
+    ]
+
     moves = moves[:4]
+    move_mechanics = move_mechanics[:4]
 
     hp = hp_ratio(pokemon.curr_hp_percent, 100)
 
@@ -360,7 +392,8 @@ def enemy_pokemon_to_features(
         transformed=transformed,
         forme=canonical(forme) if forme else None,
         type_override=pokemon.type_override,
-        mechanics=mechanics
+        mechanics=mechanics,
+        move_mechanics=tuple(move_mechanics),
     )
 
 
