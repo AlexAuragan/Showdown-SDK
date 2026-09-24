@@ -2,8 +2,9 @@
 
 from dataclasses import dataclass
 
-from showdown_sdk.exceptions import FeatureExtractionError
+from showdown_sdk.exceptions import FeatureExtractionError, ParserStateError
 from showdown_sdk.features.common import canonical, parse_move_name
+from showdown_sdk.features.moves import MoveMechanicsFeatures, move_mechanics_to_features
 from showdown_sdk.models.pokemon import MinorStatus
 from showdown_sdk.models.sdk import BattleState
 
@@ -16,6 +17,7 @@ class MoveActionFeatures:
     name: str
     hidden_power_type: str | None = None
     encoded_power: int | None = None
+    mechanics: MoveMechanicsFeatures | None = None
     current_pp: int | None = None
     max_pp: int | None = None
     disabled: bool = False
@@ -53,6 +55,13 @@ def available_actions_to_features(
 
             raw_name = move.name or move.id
             parsed = parse_move_name(raw_name)
+            gen = battle_state.format.gen
+            if gen is None:
+                raise ParserStateError("Gen is not set")
+            mechanics = move_mechanics_to_features(
+                parsed,
+                gen=gen,
+            )
 
             actions.append(
                 ActionFeatures(
@@ -62,6 +71,7 @@ def available_actions_to_features(
                         name=parsed.id,
                         hidden_power_type=parsed.hidden_power_type,
                         encoded_power=parsed.encoded_power,
+                        mechanics=mechanics,
                         current_pp=move.curr_pp,
                         max_pp=move.max_pp,
                         disabled=False,

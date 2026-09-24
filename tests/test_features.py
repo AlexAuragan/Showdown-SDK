@@ -286,6 +286,22 @@ def test_force_switch_has_no_move_actions(battle_state: BattleState):
     assert all(action.kind == "switch" for action in features.available_actions)
     assert features.force_switch is True
 
+def test_move_action_exposes_move_mechanics(battle_state: BattleState):
+    features = battle_to_features(battle_state)
+
+    thunderbolt = next(
+        action.move
+        for action in features.available_actions
+        if action.move is not None and action.move.name == "thunderbolt"
+    )
+
+    assert thunderbolt.mechanics is not None
+    assert thunderbolt.mechanics.move_type == "electric"
+    assert thunderbolt.mechanics.category == "special"
+    assert thunderbolt.mechanics.base_power == 95  # Gen 4
+    assert thunderbolt.mechanics.accuracy == 100.0
+    assert thunderbolt.mechanics.always_hits is False
+    assert thunderbolt.mechanics.priority == 0
 
 ## Field / format
 
