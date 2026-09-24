@@ -16,14 +16,9 @@ class MoveMechanicsFeatures:
 
 
 def move_mechanics_to_features(
-    move: ParsedMoveName,
-    *,
-    gen: int,
+    move: ParsedMoveName, *, gen: int
 ) -> MoveMechanicsFeatures:
-    raw = expect_object(
-        dex.gen(gen).move(move.id),
-        name=f"move {move.id!r}",
-    )
+    raw = expect_object(dex.gen(gen).move(move.id), name=f"move {move.id!r}")
 
     raw_type = raw.get("type")
     raw_category = raw.get("category")
@@ -58,8 +53,7 @@ def move_mechanics_to_features(
 
     priority = (
         raw_priority
-        if isinstance(raw_priority, int)
-        and not isinstance(raw_priority, bool)
+        if isinstance(raw_priority, int) and not isinstance(raw_priority, bool)
         else 0
     )
 

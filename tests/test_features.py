@@ -286,6 +286,7 @@ def test_force_switch_has_no_move_actions(battle_state: BattleState):
     assert all(action.kind == "switch" for action in features.available_actions)
     assert features.force_switch is True
 
+
 def test_move_action_exposes_move_mechanics(battle_state: BattleState):
     features = battle_to_features(battle_state)
 
@@ -302,6 +303,93 @@ def test_move_action_exposes_move_mechanics(battle_state: BattleState):
     assert thunderbolt.mechanics.accuracy == 100.0
     assert thunderbolt.mechanics.always_hits is False
     assert thunderbolt.mechanics.priority == 0
+
+
+def test_hidden_power_action_uses_encoded_type_and_power(
+    battle_state: BattleState,
+):
+    battle_state.update_moves(
+        [
+            AvailableMove(
+                name="Hidden Power Psychic 70",
+                id="hiddenpower",
+                curr_pp=20,
+                max_pp=24,
+                target="normal",
+                disabled=False,
+            )
+        ]
+    )
+
+    features = battle_to_features(battle_state)
+    move = features.available_actions[0].move
+
+    assert move is not None
+    assert move.name == "hiddenpower"
+    assert move.hidden_power_type == "psychic"
+    assert move.encoded_power == 70
+
+    assert move.mechanics is not None
+    assert move.mechanics.move_type == "psychic"
+    assert move.mechanics.base_power == 70
+
+
+def test_return_action_uses_encoded_power(battle_state: BattleState):
+    battle_state.update_moves(
+        [
+            AvailableMove(
+                name="Return 102",
+                id="return",
+                curr_pp=20,
+                max_pp=32,
+                target="normal",
+                disabled=False,
+            )
+        ]
+    )
+
+    features = battle_to_features(battle_state)
+    move = features.available_actions[0].move
+
+    assert move is not None
+    assert move.name == "return"
+    assert move.encoded_power == 102
+
+    assert move.mechanics is not None
+    assert move.mechanics.move_type == "normal"
+    assert move.mechanics.category == "physical"
+    assert move.mechanics.base_power == 102
+    assert move.mechanics.accuracy == 100.0
+
+
+def test_always_hit_move_preserves_accuracy_semantics(
+    battle_state: BattleState,
+):
+    battle_state.update_moves(
+        [
+            AvailableMove(
+                name="Aerial Ace",
+                id="aerialace",
+                curr_pp=20,
+                max_pp=32,
+                target="normal",
+                disabled=False,
+            )
+        ]
+    )
+
+    features = battle_to_features(battle_state)
+    move = features.available_actions[0].move
+
+    assert move is not None
+    assert move.mechanics is not None
+
+    assert move.mechanics.move_type == "flying"
+    assert move.mechanics.category == "physical"
+    assert move.mechanics.base_power == 60
+    assert move.mechanics.always_hits is True
+    assert move.mechanics.accuracy is None
+
 
 ## Field / format
 

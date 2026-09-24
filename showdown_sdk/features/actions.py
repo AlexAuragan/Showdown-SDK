@@ -4,7 +4,10 @@ from dataclasses import dataclass
 
 from showdown_sdk.exceptions import FeatureExtractionError, ParserStateError
 from showdown_sdk.features.common import canonical, parse_move_name
-from showdown_sdk.features.moves import MoveMechanicsFeatures, move_mechanics_to_features
+from showdown_sdk.features.moves import (
+    MoveMechanicsFeatures,
+    move_mechanics_to_features,
+)
 from showdown_sdk.models.pokemon import MinorStatus
 from showdown_sdk.models.sdk import BattleState
 
@@ -58,10 +61,7 @@ def available_actions_to_features(
             gen = battle_state.format.gen
             if gen is None:
                 raise ParserStateError("Gen is not set")
-            mechanics = move_mechanics_to_features(
-                parsed,
-                gen=gen,
-            )
+            mechanics = move_mechanics_to_features(parsed, gen=gen)
 
             actions.append(
                 ActionFeatures(
