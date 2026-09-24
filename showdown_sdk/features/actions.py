@@ -3,7 +3,7 @@
 from dataclasses import dataclass
 
 from showdown_sdk.exceptions import FeatureExtractionError
-from showdown_sdk.features.common import canonical, canonical_move
+from showdown_sdk.features.common import canonical, parse_move_name
 from showdown_sdk.models.pokemon import MinorStatus
 from showdown_sdk.models.sdk import BattleState
 
@@ -14,6 +14,8 @@ from showdown_sdk.models.sdk import BattleState
 class MoveActionFeatures:
     request_index: int
     name: str
+    hidden_power_type: str | None = None
+    encoded_power: int | None = None
     current_pp: int | None = None
     max_pp: int | None = None
     disabled: bool = False
@@ -49,12 +51,17 @@ def available_actions_to_features(
             if move.disabled:
                 continue
 
+            raw_name = move.name or move.id
+            parsed = parse_move_name(raw_name)
+
             actions.append(
                 ActionFeatures(
                     kind="move",
                     move=MoveActionFeatures(
                         request_index=index,
-                        name=canonical_move(move.name or move.id),
+                        name=parsed.id,
+                        hidden_power_type=parsed.hidden_power_type,
+                        encoded_power=parsed.encoded_power,
                         current_pp=move.curr_pp,
                         max_pp=move.max_pp,
                         disabled=False,
