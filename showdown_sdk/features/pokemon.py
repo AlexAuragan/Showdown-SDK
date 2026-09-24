@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass, field
 
-from showdown_sdk.exceptions import FeatureExtractionError
+from showdown_sdk.exceptions import FeatureExtractionError, ParserStateError
 from showdown_sdk.features.common import (
     Knowledge,
     StatFeatures,
@@ -14,6 +14,7 @@ from showdown_sdk.features.common import (
     knowledge,
     unknown,
 )
+from showdown_sdk.models.dex import dex
 from showdown_sdk.models.pokemon import (
     EnemyPokemon,
     MajorStatus,
@@ -22,8 +23,15 @@ from showdown_sdk.models.pokemon import (
     Unknown,
 )
 from showdown_sdk.models.sdk import BattleState
+from showdown_sdk.utils import SerializableObject, expect_array, expect_object
 
 ## Data models
+
+
+@dataclass(frozen=True)
+class PokemonMechanicsFeatures:
+    types: tuple[str, ...] = ()
+    base_stats: StatFeatures | None = None
 
 
 @dataclass(frozen=True)
@@ -64,6 +72,7 @@ class OwnPokemonFeatures:
     transformed: bool = False
     forme: str | None = None
     type_override: tuple[str, ...] | None = None
+    mechanics: PokemonMechanicsFeatures | None = None
 
 
 @dataclass(frozen=True)
@@ -86,6 +95,7 @@ class EnemyPokemonFeatures:
     transformed: bool = False
     forme: str | None = None
     type_override: tuple[str, ...] | None = None
+    mechanics: PokemonMechanicsFeatures | None = None
 
 
 ## Feature builders
@@ -167,6 +177,20 @@ def own_pokemon_to_features(
         current_ability = pokemon.base_ability
         type_override = None
 
+    gen = battle_state.format.gen
+    if gen is None:
+        raise ParserStateError("Gen is not set")
+
+    mechanics = pokemon_mechanics_to_features(
+        current_species,
+        gen=gen,
+        type_override=(
+            tuple(canonical(t) for t in type_override)
+            if type_override is not None
+            else None
+        ),
+    )
+
     hp_max = pokemon.max_hp
 
     return OwnPokemonFeatures(
@@ -210,6 +234,7 @@ def own_pokemon_to_features(
             if type_override is not None
             else None
         ),
+        mechanics=mechanics,
     )
 
 
@@ -338,4 +363,49 @@ def enemy_team_to_features(
 
     return converted + tuple(
         _empty_enemy_pokemon(slot) for slot in range(len(revealed), 6)
+    )
+
+
+def _base_stat(stats: SerializableObject, key: str, species: str) -> int:
+    value = stats.get(key)
+
+    if not isinstance(value, int) or isinstance(value, bool):
+        raise FeatureExtractionError(
+            f"Invalid {key} base stat for {species!r}: {value!r}"
+        )
+
+    return value
+
+
+def pokemon_mechanics_to_features(
+    species: str, *, gen: int, type_override: tuple[str, ...] | None = None
+) -> PokemonMechanicsFeatures:
+    raw = expect_object(
+        dex.gen(gen).pokemon(species), name=f"pokemon {species!r}"
+    )
+
+    raw_types = expect_array(
+        raw.get("types"), name=f"pokemon {species!r}.types"
+    )
+
+    raw_stats = expect_object(
+        raw.get("baseStats"), name=f"pokemon {species!r}.baseStats"
+    )
+
+    types = (
+        tuple(canonical(t) for t in type_override)
+        if type_override is not None
+        else tuple(canonical(t) for t in raw_types if isinstance(t, str))
+    )
+
+    return PokemonMechanicsFeatures(
+        types=types,
+        base_stats=StatFeatures(
+            hp=_base_stat(raw_stats, "hp", species),
+            attack=_base_stat(raw_stats, "atk", species),
+            defense=_base_stat(raw_stats, "def", species),
+            special_attack=_base_stat(raw_stats, "spa", species),
+            special_defense=_base_stat(raw_stats, "spd", species),
+            speed=_base_stat(raw_stats, "spe", species),
+        ),
     )

@@ -391,6 +391,21 @@ def test_always_hit_move_preserves_accuracy_semantics(
     assert move.mechanics.accuracy is None
 
 
+def test_own_pokemon_exposes_intrinsic_mechanics(battle_state: BattleState):
+    pikachu = battle_to_features(battle_state).own_team[0]
+
+    assert pikachu.mechanics is not None
+    assert pikachu.mechanics.types == ("electric",)
+
+    assert pikachu.mechanics.base_stats is not None
+    assert pikachu.mechanics.base_stats.hp == 35
+    assert pikachu.mechanics.base_stats.attack == 55
+    assert pikachu.mechanics.base_stats.defense == 30
+    assert pikachu.mechanics.base_stats.special_attack == 50
+    assert pikachu.mechanics.base_stats.special_defense == 40
+    assert pikachu.mechanics.base_stats.speed == 90
+
+
 ## Field / format
 
 
