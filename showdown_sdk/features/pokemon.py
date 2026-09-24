@@ -12,8 +12,10 @@ from showdown_sdk.features.common import (
     canonical_move,
     hp_ratio,
     knowledge,
+    parse_move_name,
     unknown,
 )
+from showdown_sdk.features.moves import MoveMechanicsFeatures, move_mechanics_to_features
 from showdown_sdk.models.dex import dex
 from showdown_sdk.models.pokemon import (
     EnemyPokemon,
@@ -45,6 +47,7 @@ class OwnMoveFeatures:
 
     present: bool
     name: str | None = None
+    mechanics: MoveMechanicsFeatures | None = None
     current_pp: int | None = None
     max_pp: int | None = None
     disabled: bool = False
@@ -192,7 +195,6 @@ def own_pokemon_to_features(
     )
 
     hp_max = pokemon.max_hp
-
     return OwnPokemonFeatures(
         present=True,
         slot=slot,
@@ -210,7 +212,10 @@ def own_pokemon_to_features(
         item=canonical(pokemon.item) if pokemon.item else None,
         moves=tuple(
             [
-                OwnMoveFeatures(present=True, name=canonical_move(move))
+                OwnMoveFeatures(present=True, name=parse_move_name(move).id, mechanics=move_mechanics_to_features(
+                        parse_move_name(move),
+                        gen=gen,
+                    ))
                 for move in pokemon.moves
             ]
             + [
