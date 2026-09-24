@@ -265,7 +265,7 @@ def _empty_enemy_pokemon(slot: int) -> EnemyPokemonFeatures:
 
 
 def enemy_pokemon_to_features(
-    pokemon: EnemyPokemon | None, *, slot: int
+    battle_state: BattleState, pokemon: EnemyPokemon | None, slot: int
 ) -> EnemyPokemonFeatures:
     """Convert one enemy Pokémon; ``slot`` is 0-based, reveal order."""
     if pokemon is None or pokemon.id is Unknown.VALUE:
@@ -283,6 +283,24 @@ def enemy_pokemon_to_features(
         else canonical(forme)
         if forme is not None
         else base_species
+    )
+
+    gen = battle_state.format.gen
+    if gen is None:
+        raise ParserStateError("Gen is not set")
+
+    mechanics = (
+        pokemon_mechanics_to_features(
+            current_species,
+            gen=gen,
+            type_override=(
+                tuple(canonical(t) for t in pokemon.type_override)
+                if pokemon.type_override is not None
+                else None
+            ),
+        )
+        if current_species is not None
+        else None
     )
 
     moves: list[Knowledge[str]] = [
@@ -337,6 +355,7 @@ def enemy_pokemon_to_features(
         transformed=transformed,
         forme=canonical(forme) if forme else None,
         type_override=pokemon.type_override,
+        mechanics=mechanics
     )
 
 
@@ -357,7 +376,7 @@ def enemy_team_to_features(
         )
 
     converted = tuple(
-        enemy_pokemon_to_features(pokemon, slot=slot)
+        enemy_pokemon_to_features(battle_state, pokemon, slot=slot)
         for slot, pokemon in enumerate(revealed)
     )
 
