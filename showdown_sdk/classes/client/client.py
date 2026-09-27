@@ -8,7 +8,10 @@ from websockets.asyncio.client import ClientConnection, connect
 from showdown_sdk import LogManager, log_trace
 from showdown_sdk.classes.battle_manager.battle_manager import BattleManager
 from showdown_sdk.classes.combat_handler import RandomMoveCombatHandler
-from showdown_sdk.classes.combat_handler.base_handler import BaseCombatHandler
+from showdown_sdk.classes.combat_handler.base_handler import (
+    AsyncBaseCombatHandler,
+    BaseCombatHandler,
+)
 from showdown_sdk.classes.dt import BattleResult, Format
 from showdown_sdk.classes.parser.events.base import (
     DiscardedEvent,
@@ -18,7 +21,7 @@ from showdown_sdk.classes.parser.events.battle import (
     BattleEvent,
     BattleStartEvent,
     CustomShowdownBattleStateEvent,
-    TurnEvent,
+    DecisionRequestEvent,
 )
 from showdown_sdk.classes.parser.events.lobby import LobbyEvent
 from showdown_sdk.classes.parser.events.reducers import apply_lobby_event
@@ -37,8 +40,7 @@ from showdown_sdk.models.sdk import TeamSet, check_battle_state_against_showdown
 
 ## Constants
 
-STALE_ROOM_GRACE_PERIOD = 2.0  # seconds to let the server push any
-# auto-rejoin room state after login
+STALE_ROOM_GRACE_PERIOD = 0.1
 
 # Evaluated at call time so the sync can be toggled on/off at runtime.
 USE_REQUEST_STATE_ENV_VAR = "SHOWDOWN_USE_REQUEST_STATE"
@@ -151,9 +153,14 @@ class Client:
         manager.start_action_timeout()
 
         try:
-            choices = self.combat_handler.select_top_actions(
-                manager.battle_state
-            )
+            handler = self.combat_handler
+
+            if isinstance(handler, AsyncBaseCombatHandler):
+                choices = await handler.async_select_top_actions(
+                    manager.battle_state
+                )
+            else:
+                choices = handler.select_top_actions(manager.battle_state)
 
             if not choices:
                 raise CombatHandlerError(
@@ -366,6 +373,11 @@ class Client:
                                 )
 
                                 apply_battle_event(self.battle_manager, event)
+                                if (
+                                    isinstance(event, DecisionRequestEvent)
+                                    and not event.wait
+                                ):
+                                    manager.start_action_timeout()
                                 if isinstance(event, BattleStartEvent):
                                     if (
                                         manager.room_id
@@ -377,6 +389,7 @@ class Client:
                                             + f"message={self.parser.last_message_room_id!r}"
                                         )
                                     self.parser.expecting_battle_room = False
+
                             elif isinstance(event, LobbyEvent):
                                 apply_lobby_event(self, event)
                             elif isinstance(event, DiscardedEvent):
@@ -393,8 +406,7 @@ class Client:
                                     f"Unhandled event type: {type(event).__name__}",
                                     event_type=type(event).__name__,
                                 )
-                            if isinstance(event, TurnEvent):
-                                manager.start_action_timeout()
+
                     except ObsoleteRequestIdError as e:
                         e.request_id = manager.request_id
                         manager.choice_rejected = False
@@ -445,10 +457,15 @@ class Client:
                 if manager.requires_team_preview:
                     if manager.room_id is None:
                         raise BattleSyncError("room_id is None")
-                    team_order: list[str] = [
-                        str(idx)
-                        for idx in self.combat_handler.select_team_order()
-                    ]
+                    handler = self.combat_handler
+
+                    if isinstance(handler, AsyncBaseCombatHandler):
+                        selected_order = await handler.async_select_team_order()
+                    else:
+                        selected_order = handler.select_team_order()
+
+                    team_order = [str(index) for index in selected_order]
+
                     await self.send(
                         "/choose team " + ",".join(team_order),
                         room_id=manager.room_id,

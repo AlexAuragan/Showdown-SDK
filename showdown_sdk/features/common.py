@@ -70,6 +70,13 @@ class PokemonRefFeatures:
     species: str | None = None
 
 
+@dataclass(frozen=True)
+class ParsedMoveName:
+    id: str
+    hidden_power_type: str | None = None
+    encoded_power: int | None = None
+
+
 ## Helpers
 
 
@@ -97,20 +104,36 @@ def canonical(name: str) -> str:
     return to_id(name)
 
 
-def canonical_move(name: str) -> str:
-    """Canonical move ID, collapsing Hidden Power / Return / Frustration."""
+def parse_move_name(name: str) -> ParsedMoveName:
     value = to_id(name)
 
     if value.startswith("hiddenpower"):
-        return "hiddenpower"
+        suffix = value[len("hiddenpower") :]
 
-    if value.startswith("return") and value[6:].isdigit():
-        return "return"
+        power_digits = ""
+        while suffix and suffix[-1].isdigit():
+            power_digits = suffix[-1] + power_digits
+            suffix = suffix[:-1]
 
-    if value.startswith("frustration") and value[11:].isdigit():
-        return "frustration"
+        return ParsedMoveName(
+            id="hiddenpower",
+            hidden_power_type=suffix or None,
+            encoded_power=int(power_digits) if power_digits else None,
+        )
 
-    return value
+    for move_id in ("return", "frustration"):
+        if value.startswith(move_id):
+            suffix = value[len(move_id) :]
+
+            if suffix.isdigit():
+                return ParsedMoveName(id=move_id, encoded_power=int(suffix))
+
+    return ParsedMoveName(id=value)
+
+
+def canonical_move(name: str) -> str:
+    """Canonical move ID, collapsing Hidden Power / Return / Frustration."""
+    return parse_move_name(name).id
 
 
 def hp_ratio(curr_hp: int, max_hp: int | None) -> float | None:

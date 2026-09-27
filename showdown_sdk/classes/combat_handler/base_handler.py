@@ -1,4 +1,5 @@
-from typing import Protocol
+import asyncio
+from typing import Protocol, override, runtime_checkable
 
 from showdown_sdk.classes.combat_handler.utils import Action
 from showdown_sdk.models.sdk import BattleState
@@ -7,11 +8,26 @@ from showdown_sdk.models.sdk import BattleState
 class BaseCombatHandler(Protocol):
     """A stateless AI policy: it never owns battle state, it only decides."""
 
-    def select_top_actions(self, battle_state: BattleState) -> list[Action]:
-        # Rank every legal action best-first. When Showdown rejects the
-        # top-ranked choice, the client sends the next ranked one against the
-        # same request id instead of re-consulting the policy.
-        ...
+    def select_top_actions(self, battle_state: BattleState) -> list[Action]: ...
+
+    @classmethod
+    def select_team_order(cls) -> list[int]: ...
+
+
+@runtime_checkable
+class AsyncBaseCombatHandler(BaseCombatHandler, Protocol):
+    async def async_select_top_actions(
+        self, battle_state: BattleState
+    ) -> list[Action]: ...
 
     @staticmethod
-    def select_team_order() -> list[int]: ...
+    async def async_select_team_order() -> list[int]: ...
+
+    @override
+    def select_top_actions(self, battle_state: BattleState) -> list[Action]:
+        return asyncio.run(self.async_select_top_actions(battle_state))
+
+    @override
+    @classmethod
+    def select_team_order(cls) -> list[int]:
+        return asyncio.run(cls.async_select_team_order())

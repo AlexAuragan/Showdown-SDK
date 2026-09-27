@@ -287,6 +287,160 @@ def test_force_switch_has_no_move_actions(battle_state: BattleState):
     assert features.force_switch is True
 
 
+def test_move_action_exposes_move_mechanics(battle_state: BattleState):
+    features = battle_to_features(battle_state)
+
+    thunderbolt = next(
+        action.move
+        for action in features.available_actions
+        if action.move is not None and action.move.name == "thunderbolt"
+    )
+
+    assert thunderbolt.mechanics is not None
+    assert thunderbolt.mechanics.move_type == "electric"
+    assert thunderbolt.mechanics.category == "special"
+    assert thunderbolt.mechanics.base_power == 95  # Gen 4
+    assert thunderbolt.mechanics.accuracy == 100.0
+    assert thunderbolt.mechanics.always_hits is False
+    assert thunderbolt.mechanics.priority == 0
+
+
+def test_hidden_power_action_uses_encoded_type_and_power(
+    battle_state: BattleState,
+):
+    battle_state.update_moves(
+        [
+            AvailableMove(
+                name="Hidden Power Psychic 70",
+                id="hiddenpower",
+                curr_pp=20,
+                max_pp=24,
+                target="normal",
+                disabled=False,
+            )
+        ]
+    )
+
+    features = battle_to_features(battle_state)
+    move = features.available_actions[0].move
+
+    assert move is not None
+    assert move.name == "hiddenpower"
+    assert move.hidden_power_type == "psychic"
+    assert move.encoded_power == 70
+
+    assert move.mechanics is not None
+    assert move.mechanics.move_type == "psychic"
+    assert move.mechanics.base_power == 70
+
+
+def test_return_action_uses_encoded_power(battle_state: BattleState):
+    battle_state.update_moves(
+        [
+            AvailableMove(
+                name="Return 102",
+                id="return",
+                curr_pp=20,
+                max_pp=32,
+                target="normal",
+                disabled=False,
+            )
+        ]
+    )
+
+    features = battle_to_features(battle_state)
+    move = features.available_actions[0].move
+
+    assert move is not None
+    assert move.name == "return"
+    assert move.encoded_power == 102
+
+    assert move.mechanics is not None
+    assert move.mechanics.move_type == "normal"
+    assert move.mechanics.category == "physical"
+    assert move.mechanics.base_power == 102
+    assert move.mechanics.accuracy == 100.0
+
+
+def test_always_hit_move_preserves_accuracy_semantics(
+    battle_state: BattleState,
+):
+    battle_state.update_moves(
+        [
+            AvailableMove(
+                name="Aerial Ace",
+                id="aerialace",
+                curr_pp=20,
+                max_pp=32,
+                target="normal",
+                disabled=False,
+            )
+        ]
+    )
+
+    features = battle_to_features(battle_state)
+    move = features.available_actions[0].move
+
+    assert move is not None
+    assert move.mechanics is not None
+
+    assert move.mechanics.move_type == "flying"
+    assert move.mechanics.category == "physical"
+    assert move.mechanics.base_power == 60
+    assert move.mechanics.always_hits is True
+    assert move.mechanics.accuracy is None
+
+
+def test_own_pokemon_exposes_intrinsic_mechanics(battle_state: BattleState):
+    pikachu = battle_to_features(battle_state).own_team[0]
+
+    assert pikachu.mechanics is not None
+    assert pikachu.mechanics.types == ("electric",)
+
+    assert pikachu.mechanics.base_stats is not None
+    assert pikachu.mechanics.base_stats.hp == 35
+    assert pikachu.mechanics.base_stats.attack == 55
+    assert pikachu.mechanics.base_stats.defense == 30
+    assert pikachu.mechanics.base_stats.special_attack == 50
+    assert pikachu.mechanics.base_stats.special_defense == 40
+    assert pikachu.mechanics.base_stats.speed == 90
+
+def test_own_pokemon_type_override_replaces_species_types(
+    battle_state: BattleState,
+):
+    battle_state.active_pokemon.type_override = ("Water", "Flying")
+
+    pikachu = battle_to_features(battle_state).own_team[0]
+
+    assert pikachu.mechanics is not None
+    assert pikachu.mechanics.types == ("water", "flying")
+
+def test_revealed_enemy_exposes_intrinsic_mechanics(
+    battle_state: BattleState,
+):
+    gyarados = battle_to_features(battle_state).enemy_team[0]
+
+    assert gyarados.mechanics is not None
+    assert gyarados.mechanics.types == ("water", "flying")
+
+    assert gyarados.mechanics.base_stats is not None
+    assert gyarados.mechanics.base_stats.hp == 95
+    assert gyarados.mechanics.base_stats.attack == 125
+    assert gyarados.mechanics.base_stats.defense == 79
+    assert gyarados.mechanics.base_stats.special_attack == 60
+    assert gyarados.mechanics.base_stats.special_defense == 100
+    assert gyarados.mechanics.base_stats.speed == 81
+
+def test_own_move_exposes_mechanics(battle_state: BattleState):
+    pikachu = battle_to_features(battle_state).own_team[0]
+    thunderbolt = pikachu.moves[0]
+
+    assert thunderbolt.name == "thunderbolt"
+    assert thunderbolt.mechanics is not None
+    assert thunderbolt.mechanics.move_type == "electric"
+    assert thunderbolt.mechanics.category == "special"
+    assert thunderbolt.mechanics.base_power == 95
+    assert thunderbolt.mechanics.accuracy == 100.0
 ## Field / format
 
 

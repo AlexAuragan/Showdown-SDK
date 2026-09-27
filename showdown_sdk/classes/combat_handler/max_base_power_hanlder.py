@@ -1,6 +1,10 @@
+import asyncio
 from typing import cast, override
 
-from showdown_sdk.classes.combat_handler.base_handler import BaseCombatHandler
+from showdown_sdk.classes.combat_handler.base_handler import (
+    AsyncBaseCombatHandler,
+    BaseCombatHandler,
+)
 from showdown_sdk.classes.combat_handler.utils import (
     Action,
     move_entries,
@@ -51,7 +55,28 @@ class MaxBasePowerCombatHandler(BaseCombatHandler):
         ranked.sort(key=lambda item: item[0], reverse=True)
         return [action for _, action in ranked]
 
-    @staticmethod
+    @classmethod
     @override
-    def select_team_order() -> list[int]:
+    def select_team_order(cls) -> list[int]:
+        return [1, 2, 3, 4, 5, 6]
+
+
+class AsyncMaxBasePowerCombatHandler(
+    MaxBasePowerCombatHandler, AsyncBaseCombatHandler
+):
+    """Async variant of :class:`MaxBasePowerCombatHandler`.
+
+    Reuses the synchronous decision logic but exposes the async combat
+    handler interface, running the work off the event loop.
+    """
+
+    @override
+    async def async_select_top_actions(
+        self, battle_state: BattleState
+    ) -> list[Action]:
+        return await asyncio.to_thread(self.select_top_actions, battle_state)
+
+    @override
+    @staticmethod
+    async def async_select_team_order() -> list[int]:
         return [1, 2, 3, 4, 5, 6]

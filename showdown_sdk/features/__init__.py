@@ -45,6 +45,7 @@ from showdown_sdk.features.common import (
     canonical_move,
 )
 from showdown_sdk.features.events import EventFeatures, history_to_features
+from showdown_sdk.features.moves import MoveMechanicsFeatures, ParsedMoveName
 from showdown_sdk.features.pokemon import (
     EnemyPokemonFeatures,
     OwnMoveFeatures,
@@ -64,8 +65,10 @@ __all__ = [
     "JSONScalar",
     "Knowledge",
     "MoveActionFeatures",
+    "MoveMechanicsFeatures",
     "OwnMoveFeatures",
     "OwnPokemonFeatures",
+    "ParsedMoveName",
     "PokemonRefFeatures",
     "SideConditionFeatures",
     "StatFeatures",
