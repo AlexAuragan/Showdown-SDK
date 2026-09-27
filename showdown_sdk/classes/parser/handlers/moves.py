@@ -51,6 +51,15 @@ def parse_standalone_effect(
 ) -> list[BaseEvent]:
     """Parse one semantic effect outside a currently aggregated move."""
 
+    orphan_commands = ["-hitcount"]
+    if message.command in orphan_commands:
+        return [
+            DiscardedEvent(
+                command=message.command,
+                reason="Orphaned metadata (probably arrived after a context delimiter like Pokémon KO)"
+            )
+        ]
+
     parse_context = EffectParseContext(
         player_id=player_id,
         source=EffectSource(
