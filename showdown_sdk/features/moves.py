@@ -19,7 +19,7 @@ def move_mechanics_to_features(
     move: ParsedMoveName, *, gen: int
 ) -> MoveMechanicsFeatures:
     if move.id in {"fight", "recharge"}:
-            return MoveMechanicsFeatures()
+        return MoveMechanicsFeatures()
     raw = expect_object(dex.gen(gen).move(move.id), name=f"move {move.id!r}")
 
     raw_type = raw.get("type")

@@ -56,7 +56,7 @@ def parse_standalone_effect(
         return [
             DiscardedEvent(
                 command=message.command,
-                reason="Orphaned metadata (probably arrived after a context delimiter like Pokémon KO)"
+                reason="Orphaned metadata (probably arrived after a context delimiter like Pokémon KO)",
             )
         ]
 

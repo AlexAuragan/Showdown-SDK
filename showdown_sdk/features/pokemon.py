@@ -15,7 +15,10 @@ from showdown_sdk.features.common import (
     parse_move_name,
     unknown,
 )
-from showdown_sdk.features.moves import MoveMechanicsFeatures, move_mechanics_to_features
+from showdown_sdk.features.moves import (
+    MoveMechanicsFeatures,
+    move_mechanics_to_features,
+)
 from showdown_sdk.models.dex import dex
 from showdown_sdk.models.pokemon import (
     EnemyPokemon,
@@ -213,10 +216,13 @@ def own_pokemon_to_features(
         item=canonical(pokemon.item) if pokemon.item else None,
         moves=tuple(
             [
-                OwnMoveFeatures(present=True, name=parse_move_name(move).id, mechanics=move_mechanics_to_features(
-                        parse_move_name(move),
-                        gen=gen,
-                    ))
+                OwnMoveFeatures(
+                    present=True,
+                    name=parse_move_name(move).id,
+                    mechanics=move_mechanics_to_features(
+                        parse_move_name(move), gen=gen
+                    ),
+                )
                 for move in pokemon.moves
             ]
             + [
@@ -268,11 +274,11 @@ def _empty_enemy_pokemon(slot: int) -> EnemyPokemonFeatures:
         slot=slot,
         moves=(unknown(), unknown(), unknown(), unknown()),
         move_mechanics=(
-                Knowledge(known=False, value=None),
-                Knowledge(known=False, value=None),
-                Knowledge(known=False, value=None),
-                Knowledge(known=False, value=None),
-            ),
+            Knowledge(known=False, value=None),
+            Knowledge(known=False, value=None),
+            Knowledge(known=False, value=None),
+            Knowledge(known=False, value=None),
+        ),
     )
 
 
@@ -326,20 +332,11 @@ def enemy_pokemon_to_features(
 
         parsed = parse_move_name(move)
 
-        moves.append(
-            Knowledge(
-                known=True,
-                value=parsed.id,
-            )
-        )
+        moves.append(Knowledge(known=True, value=parsed.id))
 
         move_mechanics.append(
             Knowledge(
-                known=True,
-                value=move_mechanics_to_features(
-                    parsed,
-                    gen=gen,
-                ),
+                known=True, value=move_mechanics_to_features(parsed, gen=gen)
             )
         )
 

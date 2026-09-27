@@ -405,6 +405,7 @@ def test_own_pokemon_exposes_intrinsic_mechanics(battle_state: BattleState):
     assert pikachu.mechanics.base_stats.special_defense == 40
     assert pikachu.mechanics.base_stats.speed == 90
 
+
 def test_own_pokemon_type_override_replaces_species_types(
     battle_state: BattleState,
 ):
@@ -415,9 +416,8 @@ def test_own_pokemon_type_override_replaces_species_types(
     assert pikachu.mechanics is not None
     assert pikachu.mechanics.types == ("water", "flying")
 
-def test_revealed_enemy_exposes_intrinsic_mechanics(
-    battle_state: BattleState,
-):
+
+def test_revealed_enemy_exposes_intrinsic_mechanics(battle_state: BattleState):
     gyarados = battle_to_features(battle_state).enemy_team[0]
 
     assert gyarados.mechanics is not None
@@ -431,6 +431,7 @@ def test_revealed_enemy_exposes_intrinsic_mechanics(
     assert gyarados.mechanics.base_stats.special_defense == 100
     assert gyarados.mechanics.base_stats.speed == 81
 
+
 def test_own_move_exposes_mechanics(battle_state: BattleState):
     pikachu = battle_to_features(battle_state).own_team[0]
     thunderbolt = pikachu.moves[0]
@@ -441,6 +442,8 @@ def test_own_move_exposes_mechanics(battle_state: BattleState):
     assert thunderbolt.mechanics.category == "special"
     assert thunderbolt.mechanics.base_power == 95
     assert thunderbolt.mechanics.accuracy == 100.0
+
+
 ## Field / format
 
 
