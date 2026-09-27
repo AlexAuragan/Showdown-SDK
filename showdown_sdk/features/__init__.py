@@ -38,6 +38,7 @@ from showdown_sdk.features.battle import (
 from showdown_sdk.features.common import (
     JSONScalar,
     Knowledge,
+    ParsedMoveName,
     PokemonRefFeatures,
     StatFeatures,
     StatusFeatures,
@@ -45,7 +46,7 @@ from showdown_sdk.features.common import (
     canonical_move,
 )
 from showdown_sdk.features.events import EventFeatures, history_to_features
-from showdown_sdk.features.moves import MoveMechanicsFeatures, ParsedMoveName
+from showdown_sdk.features.moves import MoveMechanicsFeatures
 from showdown_sdk.features.pokemon import (
     EnemyPokemonFeatures,
     OwnMoveFeatures,
