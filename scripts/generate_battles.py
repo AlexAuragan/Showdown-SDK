@@ -52,18 +52,18 @@ WEBSOCKET_URL = "ws://127.0.0.1:8000/showdown/websocket"
 
 # Formats to simulate, in order.
 FORMATS = [
-    "gen1randombattle",
-    "gen2randombattle",
-    "gen3randombattle",
+    # "gen1randombattle",
+    # "gen2randombattle",
+    # "gen3randombattle",
     "gen4randombattle",
     # "gen1ou",
     # "gen2ou",
     # "gen3ou",
-    # "gen4ou",
+    "gen4ou",
     # "gen1ubers@@@!standard,standardag",
     # "gen2ubers@@@!standard,standardag",
     # "gen3ubers@@@!standard,standardag",
-    # "gen4ubers@@@!standard,standardag",
+    "gen4ubers@@@!standard,standardag",
 ]
 
 os.environ["SHOWDOWN_USE_REQUEST_STATE"] = "1"

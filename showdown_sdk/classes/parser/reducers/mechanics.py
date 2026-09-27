@@ -131,8 +131,7 @@ def sync_sticky_barb_from_damage(
             pokemon
             for pokemon in battle_state.enemy_team
             if (
-                pokemon.active
-                and pokemon.item is not Unknown.VALUE
+                pokemon.item is not Unknown.VALUE
                 and pokemon.item is not None
                 and to_id(pokemon.item) == "stickybarb"
             )
@@ -376,3 +375,45 @@ def auto_reveal_source(event: BattleEvent) -> EffectSource | None:
             return source
         case _:
             return None
+
+
+def sync_sticky_barb_from_contact_move(
+    battle_state: BattleState, event: MoveEvent
+) -> None:
+    if battle_state.gen != 4:
+        return
+
+    if (
+        not event.success
+        or not event.does_hit
+        or event.target_pokemon is None
+        or not dex.is_contact_move(event.move, gen=battle_state.gen)
+    ):
+        return
+
+    own_attacker = resolve_self(battle_state, event.source_pokemon)
+    enemy_target = resolve_enemy(battle_state, event.target_pokemon)
+
+    if own_attacker is not None and enemy_target is not None:
+        if (
+            own_attacker.item == ""
+            and enemy_target.item is not Unknown.VALUE
+            and enemy_target.item is not None
+            and to_id(enemy_target.item) == "stickybarb"
+        ):
+            own_attacker.item = enemy_target.item
+            enemy_target.item = None
+
+        return
+
+    enemy_attacker = resolve_enemy(battle_state, event.source_pokemon)
+    own_target = resolve_self(battle_state, event.target_pokemon)
+
+    if (
+        enemy_attacker is not None
+        and own_target is not None
+        and enemy_attacker.item is None
+        and to_id(own_target.item) == "stickybarb"
+    ):
+        enemy_attacker.item = own_target.item
+        own_target.item = ""

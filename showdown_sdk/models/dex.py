@@ -360,6 +360,17 @@ class GenerationDex:
             raw_no_copy, name=f"condition {to_id(name)!r}.noCopy"
         )
 
+    def is_contact_move(self, name: str) -> bool:
+        move_id = to_id(name)
+        move = expect_object(self.move(move_id), name=f"move {move_id!r}")
+
+        raw_flags = move.get("flags")
+        if raw_flags is None:
+            return False
+
+        flags = expect_object(raw_flags, name=f"move {move_id!r}.flags")
+        return flags.get("contact") == 1
+
 
 ## Public API
 
@@ -484,6 +495,9 @@ class Dex:
 
     def is_volatile_copyable(self, name: str, *, gen: int) -> bool:
         return self.gen(gen).is_volatile_copyable(name)
+
+    def is_contact_move(self, name: str, *, gen: int) -> bool:
+        return self.gen(gen).is_contact_move(name)
 
 
 dex = Dex()

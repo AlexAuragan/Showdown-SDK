@@ -724,8 +724,6 @@ class Client:
 
             try:
                 if battle_completed:
-                    # Normal completed battle: the server battle is over, so we can
-                    # keep the websocket alive and simply leave the room.
                     if room_id:
                         try:
                             await asyncio.wait_for(
@@ -738,9 +736,14 @@ class Client:
                                 extra={"room_id": room_id},
                             )
                 else:
-                    # Failed/aborted battle: the server may still be sending
-                    # messages for this room. Stop the receive loop before
-                    # destroying the battle/parser state.
+                    # Preserve debugging data before clear_battle() destroys it.
+                    manager.last_battle_turn_states = list(
+                        manager.turn_start_states
+                    )
+                    manager.last_battle_history = list(
+                        manager.battle_state.history
+                    )
+
                     await self.close()
 
             finally:

@@ -71,6 +71,7 @@ from showdown_sdk.classes.parser.reducers.mechanics import (
     resolve_self,
     reveal_effect_source,
     sync_own_two_turn_status_from_request,
+    sync_sticky_barb_from_contact_move,
     sync_sticky_barb_from_damage,
 )
 from showdown_sdk.exceptions import (
@@ -218,6 +219,8 @@ def _reduce_move_prepare(
 def _reduce_move(battle_state: BattleState, event: MoveEvent) -> None:
     source_status = resolve_any_status(battle_state, event.source_pokemon)
     source_status.clear_single_move()
+
+    sync_sticky_barb_from_contact_move(battle_state, event)
 
     if battle_state.gen_1_desync:
         return
@@ -817,24 +820,45 @@ def _reduce_item(battle_state: BattleState, event: ItemEvent) -> None:
             if victim is not None:
                 victim.item = None
 
+            own_victim = resolve_self(battle_state, event.previous_owner)
+            if own_victim is not None:
+                own_victim.item = ""
+
         enemy = resolve_enemy(battle_state, event.pokemon)
         if enemy is not None:
             enemy.item = event.item
+            return
+
+        own = resolve_self(battle_state, event.pokemon)
+        if own is not None:
+            own.item = event.item
+
         return
 
     enemy = resolve_enemy(battle_state, event.pokemon)
-    if enemy is None:
+    if enemy is not None:
+        if (
+            enemy.item is not None
+            and enemy.item is not Unknown.VALUE
+            and enemy.item != event.item
+        ):
+            raise BattleStateInvariantError(
+                "Item mismatch between protocol and battle state: "
+                + f"{enemy.item=}, event.item={event.item!r}"
+            )
+
+        enemy.item = None
         return
-    if (
-        enemy.item is not None
-        and enemy.item is not Unknown.VALUE
-        and enemy.item != event.item
-    ):
-        raise BattleStateInvariantError(
-            "Item mismatch between protocol and battle state: "
-            + f"{enemy.item=}, self.item={event.item!r}"
-        )
-    enemy.item = None
+
+    own = resolve_self(battle_state, event.pokemon)
+    if own is not None:
+        if own.item and to_id(own.item) != to_id(event.item):
+            raise BattleStateInvariantError(
+                "Item mismatch between protocol and battle state: "
+                + f"{own.item=}, event.item={event.item!r}"
+            )
+
+        own.item = ""
 
 
 def _reduce_cant(battle_state: BattleState, event: CantEvent) -> None:
