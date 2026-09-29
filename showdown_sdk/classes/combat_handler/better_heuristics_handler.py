@@ -1,5 +1,9 @@
+import asyncio
 from typing import cast, override
 
+from showdown_sdk.classes.combat_handler.base_handler import (
+    AsyncBaseCombatHandler,
+)
 from showdown_sdk.classes.combat_handler.simple_heuristics_handler import (
     SimpleHeuristicsCombatHandler,
 )
@@ -25,7 +29,7 @@ from showdown_sdk.models.sdk.battle_state import BattleState
 from showdown_sdk.utils import SerializableObject
 
 
-class BetterHeuristics(SimpleHeuristicsCombatHandler):
+class BetterHeuristicsCombatHandler(SimpleHeuristicsCombatHandler):
     """
     SimpleHeuristics with conservative improvements for obviously wasteful
     actions.
@@ -227,3 +231,20 @@ class BetterHeuristics(SimpleHeuristicsCombatHandler):
                 return False
 
         return existing < max_layers
+
+
+class AsyncBetterHeuristicsCombatHandler(
+    BetterHeuristicsCombatHandler, AsyncBaseCombatHandler
+):
+    """Async variant of BetterHeuristics."""
+
+    @override
+    async def async_select_top_actions(
+        self, battle_state: BattleState
+    ) -> list[Action]:
+        return await asyncio.to_thread(self.select_top_actions, battle_state)
+
+    @override
+    @staticmethod
+    async def async_select_team_order() -> list[int]:
+        return [1, 2, 3, 4, 5, 6]
