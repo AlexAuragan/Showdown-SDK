@@ -34,7 +34,9 @@ from showdown_sdk.utils import (
 from showdown_sdk.vectorizer import pokemon_id
 
 
-def oracle_battle_to_features(battle_state: BattleState) -> BattleFeatures:
+def oracle_battle_to_features(
+    battle_state: BattleState, *, public: BattleFeatures | None = None
+) -> BattleFeatures:
     """Build privileged training features from the synchronized Showdown state.
 
     Public information, actions, and history still come from the SDK's
@@ -42,7 +44,8 @@ def oracle_battle_to_features(battle_state: BattleState) -> BattleFeatures:
     simulator's complete ground-truth representation.
     """
 
-    public = battle_to_features(battle_state)
+    if public is None:
+        public = battle_to_features(battle_state)
 
     snapshot = battle_state.custom_showdown_battlestate
     if snapshot is None:
