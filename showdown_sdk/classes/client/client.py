@@ -85,6 +85,8 @@ class Client:
         websocket_url: str,
         combat_handler: BaseCombatHandler | None = None,
         log_manager: LogManager | None = None,
+        *,
+        request_state: bool | None = None,
     ) -> None:
         # --- session state (lives for the websocket connection) -----------
         self.websocket_url: str = websocket_url
@@ -111,6 +113,7 @@ class Client:
         self.parser: Parser = Parser(self.battle_manager)
         self.team_validation_future: asyncio.Future[None] | None = None
         self.pending_state_request_id: int | None = None
+        self.request_state: bool | None = request_state
 
     def get_request_id(self):
         return self.pending_state_request_id
@@ -130,6 +133,13 @@ class Client:
     async def upload_team(self, team: TeamSet | None = None) -> None:
         packed_team = "null" if team is None else team.to_packed()
         await self.send(f"/utm {packed_team}")
+
+    def request_state_enabled(self) -> bool:
+        """Whether this client should request synchronized Showdown state."""
+        if self.request_state is not None:
+            return self.request_state
+
+        return use_request_state()
 
     async def validate_team(
         self, format_name: str, team: TeamSet, timeout: float = 10
@@ -486,7 +496,7 @@ class Client:
                 elif received_custom_state:
                     pending_request_id = self.pending_state_request_id
                     if pending_request_id is None:
-                        if not use_request_state():
+                        if not self.request_state_enabled():
                             # Sync was toggled off after the state request was
                             # sent; consume the reply and act on it directly.
                             await self.act()
@@ -521,7 +531,7 @@ class Client:
                     pending_request_id = self.pending_state_request_id
 
                     if pending_request_id is None:
-                        if not use_request_state():
+                        if not self.request_state_enabled():
                             # Sync disabled: act directly on the SDK's own
                             # battle state without waiting for Showdown.
                             await self.act()
@@ -822,7 +832,7 @@ class Client:
             await self._leave_battle_room(stale_room)
 
     async def get_custom_showdown_battle_state(self):
-        if not use_request_state():
+        if not self.request_state_enabled():
             return
         if self.battle_manager.room_id is None:
             return
