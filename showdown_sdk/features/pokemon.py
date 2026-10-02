@@ -98,6 +98,7 @@ class EnemyPokemonFeatures:
     moves: tuple[Knowledge[str], ...] = ()
     temporary_moves: tuple[str, ...] = ()
     status: StatusFeatures = field(default_factory=StatusFeatures)
+    stats: StatFeatures | None = None
     transformed: bool = False
     forme: str | None = None
     type_override: tuple[str, ...] | None = None
