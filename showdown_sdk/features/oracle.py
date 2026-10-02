@@ -31,6 +31,7 @@ from showdown_sdk.utils import (
     expect_object,
     expect_string,
 )
+from showdown_sdk.vectorizer import pokemon_id
 
 
 def oracle_battle_to_features(battle_state: BattleState) -> BattleFeatures:
@@ -97,7 +98,7 @@ def oracle_battle_to_features(battle_state: BattleState) -> BattleFeatures:
     ]
 
     aligned_team = _align_with_public_slots(
-        oracle_team=oracle_team, public_team=public.enemy_team
+        oracle_team=oracle_team, public_team=public.enemy_team, gen=gen
     )
 
     while len(aligned_team) < 6:
@@ -274,6 +275,7 @@ def _oracle_enemy_pokemon(
 def _align_with_public_slots(
     oracle_team: list[EnemyPokemonFeatures],
     public_team: tuple[EnemyPokemonFeatures, ...],
+    gen: int,
 ) -> list[EnemyPokemonFeatures]:
     """Preserve reveal-order slots already established by public history."""
 
@@ -284,11 +286,14 @@ def _align_with_public_slots(
         if not public_pokemon.revealed or public_pokemon.species is None:
             continue
 
+        public_identity = pokemon_id(public_pokemon.species, gen)
+
         match_index = next(
             (
                 index
                 for index, oracle_pokemon in enumerate(remaining)
-                if oracle_pokemon.species == public_pokemon.species
+                if oracle_pokemon.species is not None
+                and pokemon_id(oracle_pokemon.species, gen) == public_identity
             ),
             None,
         )
@@ -296,7 +301,8 @@ def _align_with_public_slots(
         if match_index is None:
             raise FeatureExtractionError(
                 "Could not align revealed opponent Pokémon "
-                + f"{public_pokemon.species!r} with Showdown state"
+                + f"{public_pokemon.species!r} "
+                + f"(identity={public_identity!r}) with Showdown state"
             )
 
         aligned.append(remaining.pop(match_index))
