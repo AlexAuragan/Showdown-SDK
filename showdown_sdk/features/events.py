@@ -307,19 +307,12 @@ def event_to_features(
 def history_to_features(battle_state: BattleState) -> tuple[EventFeatures, ...]:
     """Full ordered semantic history; no truncation and no padding."""
     context_key = (
-            battle_state.player_id,
-            tuple(
-                (pokemon.id, pokemon.details)
-                for pokemon in battle_state.team
-            ),
-            tuple(
-                (
-                    pokemon.id,
-                    pokemon.species,
-                )
-                for pokemon in battle_state.enemy_team
-            ),
-        )
+        battle_state.player_id,
+        tuple((pokemon.id, pokemon.details) for pokemon in battle_state.team),
+        tuple(
+            (pokemon.id, pokemon.species) for pokemon in battle_state.enemy_team
+        ),
+    )
 
     cached_context_key = battle_state.feature_history_context_key
 
@@ -346,9 +339,7 @@ def history_to_features(battle_state: BattleState) -> tuple[EventFeatures, ...]:
             continue
 
         features = event_to_features(
-            event,
-            battle_state=battle_state,
-            turn=turn,
+            event, battle_state=battle_state, turn=turn
         )
 
         if features is not None:
