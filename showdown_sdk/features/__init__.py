@@ -47,7 +47,6 @@ from showdown_sdk.features.common import (
 )
 from showdown_sdk.features.events import EventFeatures, history_to_features
 from showdown_sdk.features.moves import MoveMechanicsFeatures
-from showdown_sdk.features.oracle import oracle_battle_to_features
 from showdown_sdk.features.pokemon import (
     EnemyPokemonFeatures,
     OwnMoveFeatures,
@@ -84,6 +83,5 @@ __all__ = [
     "enemy_team_to_features",
     "features_to_dict",
     "history_to_features",
-    "oracle_battle_to_features",
     "own_team_to_features",
 ]
