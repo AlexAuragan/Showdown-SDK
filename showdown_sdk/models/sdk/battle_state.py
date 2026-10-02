@@ -106,6 +106,10 @@ class BattleState:
         self.gen_1_desync: bool = False  # Gen 1 can experience desync by design, this can mess up  # the witnessed moves
 
         self.history: list[BaseEvent] = []
+        self.feature_history_event_index: int = 0
+        self.feature_history_turn: int = 0
+        self.feature_history: list[object] = []
+        self.feature_history_context_key: object | None = None
 
         # format data
         self.format: BattleFormat = BattleFormat()
@@ -221,6 +225,10 @@ class BattleState:
 
         self.gen_1_desync = False
         self.history = []
+        self.feature_history_event_index = 0
+        self.feature_history_turn = 0
+        self.feature_history = []
+        self.feature_history_context_key = None
         self.custom_showdown_battlestate = None
         self._enemy_pre_switch_snapshot = None
         self.format.clear()

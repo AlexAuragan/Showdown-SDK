@@ -1,6 +1,7 @@
 """Feature objects and converters for the semantic battle-event history."""
 
 from dataclasses import dataclass, field
+from typing import cast
 
 from showdown_sdk.classes.parser import (
     AbilityEvent,
@@ -305,22 +306,58 @@ def event_to_features(
 
 def history_to_features(battle_state: BattleState) -> tuple[EventFeatures, ...]:
     """Full ordered semantic history; no truncation and no padding."""
-    events: list[EventFeatures] = []
-    turn = 0
+    context_key = (
+            battle_state.player_id,
+            tuple(
+                (pokemon.id, pokemon.details)
+                for pokemon in battle_state.team
+            ),
+            tuple(
+                (
+                    pokemon.id,
+                    pokemon.species,
+                )
+                for pokemon in battle_state.enemy_team
+            ),
+        )
 
-    for event in battle_state.history:
+    cached_context_key = battle_state.feature_history_context_key
+
+    if cached_context_key != context_key:
+        battle_state.feature_history_event_index = 0
+        battle_state.feature_history_turn = 0
+        battle_state.feature_history = []
+        battle_state.feature_history_context_key = context_key
+
+    history = battle_state.history
+    event_index = battle_state.feature_history_event_index
+
+    if event_index > len(history):
+        raise FeatureExtractionError(
+            "Battle history shrank without clearing the feature-history cache"
+        )
+
+    cached = cast(list[EventFeatures], battle_state.feature_history)
+    turn = battle_state.feature_history_turn
+
+    for event in history[event_index:]:
         if isinstance(event, TurnEvent):
             turn = event.turn
             continue
 
         features = event_to_features(
-            event, battle_state=battle_state, turn=turn
+            event,
+            battle_state=battle_state,
+            turn=turn,
         )
 
         if features is not None:
-            events.append(features)
+            cached.append(features)
 
-    return tuple(events)
+    battle_state.feature_history_event_index = len(history)
+    battle_state.feature_history_turn = turn
+
+    return tuple(cached)
 
 
 ## Private helpers
