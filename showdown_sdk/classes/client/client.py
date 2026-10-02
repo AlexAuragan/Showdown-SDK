@@ -44,9 +44,21 @@ STALE_ROOM_GRACE_PERIOD = 0.1
 
 # Evaluated at call time so the sync can be toggled on/off at runtime.
 USE_REQUEST_STATE_ENV_VAR = "SHOWDOWN_USE_REQUEST_STATE"
+RECORD_REQUEST_STATE_ENV_VAR = "SHOWDOWN_RECORD_REQUEST_STATE"
+VALIDATE_REQUEST_STATE_ENV_VAR = "SHOWDOWN_VALIDATE_REQUEST_STATE"
 
 
 ## Helpers
+
+
+def validate_request_state() -> bool:
+    """Whether synchronized Showdown state should validate the SDK state."""
+    return os.environ.get(VALIDATE_REQUEST_STATE_ENV_VAR, "0") != "0"
+
+
+def record_request_state() -> bool:
+    """Whether synchronized decision states should be retained for debugging."""
+    return os.environ.get(RECORD_REQUEST_STATE_ENV_VAR, "0") != "0"
 
 
 def use_request_state() -> bool:
@@ -492,8 +504,13 @@ class Client:
                         )
 
                     # NOW the SDK and Showdown snapshot belong to the same decision point.
-                    check_battle_state_against_showdown(manager.battle_state)
-                    manager.record_turn_start_state(pending_request_id)
+                    if validate_request_state():
+                        check_battle_state_against_showdown(
+                            manager.battle_state
+                        )
+
+                    if record_request_state():
+                        manager.record_turn_start_state(pending_request_id)
 
                     self.pending_state_request_id = None
 
